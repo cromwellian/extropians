@@ -45,14 +45,49 @@ It is idempotent — re-run it any time to rebuild from scratch.
 
 ### LLM backend
 
-The server picks a backend automatically and shows which one is active in the
-UI header:
+Three backends are supported. The server picks one automatically, in this
+order, and shows which is active in the UI header:
 
-* `ANTHROPIC_API_KEY` (or `ANTHROPIC_AUTH_TOKEN`) set → the Anthropic SDK with
-  `claude-opus-5`. Override the model with `EXTRO_MODEL`.
-* Otherwise → the local `claude` CLI in headless mode, using your existing
-  Claude Code login. Override the model with `EXTRO_CLI_MODEL` (default
-  `sonnet`).
+1. **Anthropic API** — when `ANTHROPIC_API_KEY` (or `ANTHROPIC_AUTH_TOKEN`) is
+   set. Uses `claude-opus-5`; override with `EXTRO_MODEL`.
+2. **`claude` CLI** — headless mode using your existing Claude Code login, so
+   no API key is needed. Override with `EXTRO_CLI_MODEL` (default `sonnet`).
+3. **A local model** — any OpenAI-compatible server: LM Studio, Ollama,
+   `llama.cpp`'s server, vLLM.
+
+Pin a specific backend with `EXTRO_LLM=anthropic|cli|local`.
+
+### Using a local model
+
+Start your server, then run with `EXTRO_LLM=local`:
+
+```bash
+# LM Studio: load a model and start its server (defaults to port 1234), or
+ollama serve && ollama pull qwen2.5:7b-instruct   # OpenAI shim on port 11434
+
+EXTRO_LLM=local ./run.sh
+```
+
+Ports 1234 and 11434 are probed automatically and the server's first model is
+used. To be explicit:
+
+```bash
+EXTRO_LLM=local \
+EXTRO_LOCAL_URL=http://localhost:11434/v1 \
+EXTRO_LOCAL_MODEL=qwen2.5:7b-instruct ./run.sh
+```
+
+Local models are only auto-selected when neither Anthropic option is
+available, so a server you happen to have running for something else never
+silently downgrades your answers — asking for it is explicit.
+
+Because local models usually have much smaller context windows, the chat
+automatically packs fewer and shorter excerpts for them (6 × 1,200 chars
+instead of 14 × 3,000). Tune with `EXTRO_LOCAL_SOURCES` and
+`EXTRO_LOCAL_SOURCE_CHARS`. A model with a large context window can take the
+hosted numbers; a 4k-context one may need less. Expect weaker citation
+discipline from small models — the answer quality depends heavily on the
+model, but retrieval is identical either way.
 
 Search and the message viewer work with no LLM configured at all; only the
 chat pane needs one.

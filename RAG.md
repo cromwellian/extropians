@@ -75,10 +75,21 @@ the thread view shows.
 
 ## Chat
 
-The top ~14 retrieved messages are packed into the prompt as numbered sources
-(truncated to 3,000 chars each), and the system prompt requires inline `[n]`
-citations and forbids answering beyond the sources. Responses stream to the
-browser over SSE: a `sources` event first, then text deltas.
+The top retrieved messages are packed into the prompt as numbered sources, and
+the system prompt requires inline `[n]` citations and forbids answering beyond
+the sources. Responses stream to the browser over SSE: a `sources` event
+first, then text deltas.
+
+How much gets packed depends on the backend (`llm.context_budget()`): 14
+sources × 3,000 chars for the hosted models, 6 × 1,200 for a local one. That
+is not just a cost tweak — overflowing a small context window gets the prompt
+truncated from the front, which is exactly where the citation instructions
+live, so an over-stuffed local model tends to answer without citing anything.
+
+`rag/llm.py` resolves the backend (Anthropic SDK, `claude` CLI, or any
+OpenAI-compatible local server) and exposes a single
+`stream_completion(system, prompt)` generator, so `server.py` never branches
+on which one is active.
 
 The UI rewrites `[n]` into clickable chips resolved against that turn's source
 list, so a citation opens the exact message in the viewer — quote-depth

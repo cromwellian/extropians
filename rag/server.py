@@ -271,7 +271,8 @@ what related material the sources do contain.
 
 
 def build_context(question):
-    ranked = hybrid_search(question, k=14)
+    max_sources, source_chars = llm.context_budget()
+    ranked = hybrid_search(question, k=max_sources)
     rows = fetch_msgs([mid for mid, _ in ranked])
     sources = []
     blocks = []
@@ -280,8 +281,8 @@ def build_context(question):
         if not r:
             continue
         body = r["body"]
-        if len(body) > 3000:
-            body = body[:3000] + "\n[...truncated...]"
+        if len(body) > source_chars:
+            body = body[:source_chars] + "\n[...truncated...]"
         sources.append({"n": i, "id": mid, "subject": r["subject"],
                         "from_name": r["from_name"], "date": r["date_iso"]})
         blocks.append(
