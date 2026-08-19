@@ -1,0 +1,630 @@
+From extropians-request@extropy.org Tue Apr 12 03:02:06 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id DAA29058 for <more@chaph.usc.edu>; Tue, 12 Apr 1994 03:02:03 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA19812; Tue, 12 Apr 94 03:01:56 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA28200
+  (5.65c/IDA-1.4.4 for more@usc.edu); Tue, 12 Apr 1994 06:01:04 -0400
+Date: Tue, 12 Apr 1994 06:01:04 -0400
+Message-Id: <199404121001.AA28200@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-4-64 - #94-4-71
+X-Extropian-Date: April 12, 374 P.N.O. [06:00:46 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Tue, 12 Apr 94             Volume 94 : Issue 101
+
+Today's Topics:
+                               BUSI: MarketWare                       [1 msgs]
+                                land property                         [1 msgs]
+                                land property                         [2 msgs]
+                           Land vs Other Property                     [1 msgs]
+                                     PCR                              [1 msgs]
+                RAPTOR: A trojan horse of anarchocapitalism ?         [1 msgs]
+                            SCI-Faster than light                     [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 30113 bytes.
+
+----------------------------------------------------------------------
+
+From: "R. David Murray" <rdmurray@keene.edu>
+Date: Mon, 11 Apr 1994 13:33:56 -0400 (EDT)
+Subject: [#94-4-64] BUSI: MarketWare
+
+I haven't been very interested in any of the current threads, so I 
+thought I'd try to start a new one.
+
+Intellectual property rights seems to be quite the hot topic right now in 
+the wider world discovering the Internet.  We've gone several rounds on 
+this topic on this list in the past, and I don't *intend* to restart that 
+discussion.  My own conclusion about intellectual property rights is that 
+they are not practical and should be junked wholesale.
+
+Which begs the question: why write software?
+
+The answer would seem to best be addressed by asking the question in an 
+operational way: how can I make money from writing uncopywrited software?
+
+I have no doubt there are lots of answers to that question.  Romana's 
+ReputationWare is one answer.  (Don't make money off the software, make 
+money off the personal advertising a good product buys you.)  I'd like to 
+see if there is a way to make money from writing software using something 
+analogous to the current way software often happens on the Net.
+
+The process I'm thinking of is this:  someone pours some passion into a 
+piece of software they want to see exist.  They release it to the Net.  
+Other people send back bug reports and requests for enhancements.  Bug 
+fixes and enhancements occur, often through the author folding in code 
+developed by those who discovered the bug or wanted the enhancement.  A 
+new official release is posted to the Net.  This cycle continues, 
+sometimes with the central control passing from the original author to 
+some new person, sometimes even with divergent versions comming into 
+existence, which sometimes grow back together later and sometimes don't.
+
+So, is it possible to set up to make a living from this scenario?  The 
+difficulty, of course, is the perception that this kind of cooperation 
+can only be achieved if all involved are volunteering their time (and 
+there are psychological studies that give some weight to this perception).
+
+So far, my partially developed idea goes like this:
+
+Build an initial product.  Release it to the Net.  (While copyright is 
+still theoretically enforced, you'll have to copyright it, of course, but 
+make it freely copyable for any purpose, even commercial resale).
+
+Now, make sure that you have a site that is always accessible where 
+anyone can get a guaranteed original up-to-date copy of the program.  
+Advertise this site *prominently* in all the documentation and all the 
+postings you make regarding the software.
+
+On this site, put up some WWW databases and forms for bug reports and
+enhancement requests.  Here's where the money comes in.  When submitting a
+bug report or enhancement request, the poster attaches a dollar amount
+that they would pay for it, graded by time ($50 if done by tomorrow, $25
+if done in a week, $5 if done in a month, etc).  Both lists must be
+public, and parties other than the original submitter should be able to
+attach their own bids.
+
+Now you prioritize those lists by amount of effort vs potential income 
+(recall that not all promises for payment will be kept), and work on the 
+most valuable ones first.  (In advertising this point out that the 
+advantage of this system is that those bugs will get fixed and those 
+enhancements made that really are the most important, as measured by the 
+dollars people are willing to spend on them.)
+
+Improvements (IMO):
+
+Track the payment patterns of people who submit requests and use it to 
+weight their promises in future requests.
+
+Make the bug/enhancement bids public, and take a percentage for folding
+solutions into the base code.  This needs some work; there would have to
+be some mechanism whereby potential contributors could "reserve" certain
+bug fixes/enhancements as their exclusive "property"; once bid on, no one
+else could supply a fix until some pre-set deadline had passed.  My
+thoughts on this tend toward some sort of bidding system where
+contributors would actually buy the rights to a bug or enhancement. 
+
+Note that the success of this enterprise depends on your ability to 
+maintain your code as the best possible version of the code, and to 
+provide the bug/enhancement list service as the best possible service.
+Otherwise somebody will rise up to compete with you starting from some 
+older version of the code.
+
+Comments?  Improvements?  Reasons why it would never work?
+
+--David
+
+PS: where is the discussion of Extro I occuring?  I'm planning on going, 
+and I'd like to find out about pre/post parties, and housing options.
+
+------------------------------
+
+From: "Michael Sprong" <myk@qmail.idtinc.com>
+Date: 11 Apr 1994 10:16:38 -0800
+Subject: [#94-4-65] SCI-Faster than light
+
+SCI:Faster than light
+How to make a faster than light drive.
+
+	For decades, since the development of the special theory of relativity,
+	we as a civilization have been faced with a apparently hopeless dilemma.
+	We know there are stars out there, we know they are very far away, and
+	our cosmological circumstances have enforced upon us an unfair speed
+	limit.
+	
+	To protest such a limitation I propose the following actions:
+	1. Ignore it.
+		People have been ignoring local speed limits for decades without
+		any more trouble than a ticket, or if really careless, a well
+		deserved smashup. By ignoring such a speed limit, we could improve
+		the lot of mankind tremendously. I propose by starting with the
+		local speed limits, since the speed of light wasn't defined as a
+		limit until municipalities had their own universal laws regarding
+		ebullient careening.
+		
+	2. Change it.
+		I propose we make the speed of light something more easy to work
+		with, and not such a useless and arbitrary number like 186282
+		Miles/sec. If we made it, say, infinite, we could as a matter of
+		course, go anywhere we like as long as adequate rest stops were
+		provided. In addition, by upping the limit we would be able, once
+		we became bored with the horde of stars in our galaxy, to visit
+		other galaxies with more interesting scenery.
+		
+	3. Offer indulgences.
+		Suppose the NBS might provide for indulgences like the sort the
+		Catholic Church has been giving for centuries. If a wealthy patron
+		were to offer the NBS a few million to exceed the speed of light
+		on a one time basis, we would have both a very exciting commercial
+		avenue and at the same time a very rich NBS, er... then again.
+		Why don't you send it to me instead, since I'm less likely to spend
+		it on insubstantials, and more likely to spend it on important
+		things like my very own nuclear powered backyard barbecue.
+	4. Forget it.
+		Similar to 1, but more insidious and longer lasting. Excise from
+		all books any mention of the limit, and recalculate all formulae
+		to compensate for the hidden value. Sooner or later, the scientist
+		will forget the speed of light all together and invent some very
+		interesting products, like Maxwell's Perpetual Planet Crusher.
+		(Used to get rid of those annoyingly useless little planets like
+		Mercury which have inspired so many of our wars, and convert them
+		into base gravel for the governments proposed version of the
+		information super highway).
+		
+	5. Lie about it.
+		Sooner or later everybody will know the truth, but until then
+		everybody will believe you, much in the same way we are believing
+		an inexperienced investor can plop down $1K and get back 100K on
+		unsupervised trading. The prospects of a little fib regarding the
+		speed of light makes my Newton just tingle with excitement and
+		anticipation.
+		
+	6. Deny it.
+		Have you ever wondered how the news media lately manages to report
+		only half the news, when you have to go to the Singapore Daily to 
+		get the other half? They do this by denying the facts for a more
+		appetizing attenuation. I suggest we do the same thing with the
+		speed limit. Instead of making it a hard fact we could just make
+		it a suggestion. You know, like they do in our public schools,
+		1+1=3 if it makes Joey feel better about himself. Since I've taken
+		umbrage about the unfair nature of the speed of light, I am announcing
+		here and now that I would like to apply for special status and get
+		a variance due to my restricting cosmological handicap. I imagine,
+		by the time a third of our population is labeled under such a
+		protestation, the law will be revoke entirely for the more palatable
+		suggestion.
+		
+		
+	To actually make the drive, you do the above. Use allot of fuel in a
+	standard rocket motor, and cancel any short term plans. Oh.. I just
+	remembered, leave you key in the burglar position, you know, just
+	under the door mat, in case you get fined for speeding.
+	
+	Anderson Vogue
+	
+
+
+
+
+------------------------------
+
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Date: Mon, 11 Apr 94 16:37:33 EDT
+Subject: [#94-4-66] land property
+
+Anton Sherwood says-
+
+> Land property is admittedly different from other rights in its
+> asymmetry -- some people are asked to respect a right that they
+> could waive without losing anything...
+
+Meaning, land is one thing that many people don't have.
+So are the Mona Lisa, Cadillacs, Ham Sandwiches with cucumbers,
+Ginzu knives, PGP, ivory slide rules...  Yet it's obvious that
+these don't need different *kinds* of property rights (some 
+people might balk at the Mona Lisa).
+
+I don't see a fundamental difference between clods of dirt and
+any other material goods, most of which are just reprocessed
+clods of dirt anyway.  Except that there's a lot more unprocessed
+dirt to go around, so you would think that land would be the 
+*least* problematical kind of property.
+
+Okay, so it's another trick question.
+
+-fnerd
+quote me
+
+- - - - - - - - - - - - - - -
+`We want information.'
+`You won't get it!'
+`By hook or by crook, we will.'
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+aKxB8nktcBAeQHabQP/d7yhWgpGZBIoIqII8cY9nG55HYHgvt3niQCVAgUBLMs3K
+ui6XaCZmKH68fOWYYySKAzPkXyfYKnOlzsIjp2tPEot1Q5A3/n54PBKrUDN9tHVz
+3Ch466q9EKUuDulTU6OLsilzmRvQJn0EJhzd4pht6hSnC1R3seYNhUYhoJViCcCG
+sRjLQs4iVVM=
+=9wqs
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+From: davisd@nimitz.ee.washington.edu
+Date: Mon, 11 Apr 94 16:38:04 -0700
+Subject: [#94-4-67] Land vs Other Property 
+
+> From: fnerd@smds.com (FutureNerd Steve Witham)
+> Subject: Land vs Other Property
+> 
+> Why should ...
+
+Steve asks many "why shoulds" with respect to property. Let me
+differentiate between two kinds of why shoulds: why should there be,
+and why should I. 
+
+In both of these cases, should is being used in the sense of
+obligation. Since I am not big on moral duty, if you believe in such
+things, you'll have to get an answer from someone else. 
+
+"Why should there be" type of questions leave the actor with the
+supposed obligation entirely unspecified, and so are at best unclear.
+(I will note that I stupidly said "there should be" in one of my posts
+on this subject. Bad habits die hard.)
+
+As for "why should I" questions, you would have to explain to me your
+theory of moral duty for me to give you an answer, since my theory of
+moral duty is that it is religious hooey.
+
+On the other hand, if we take "should" merely to indicate that an
+action is consistent with your chosen values, then I could answer your
+questions by showing how the indicated actions will best fulfill your
+values. 
+
+With respect to property rights, however, its not quite so simple,
+since your wishes are not the only ones involved. Everyone else has
+wishes as well, and you must take their wishes into account in
+choosing your own actions. Everyone else's wishes (and power) are part
+of the context in which you make your decisions.
+
+When I made my original claims, I conditioned my statements on an
+assumption of reasonable people. We can probably agree that the world
+is not full of reasonable people. We can still discuss my claim,
+however, since I consider some of you reasonable people, and since
+property rights are about the relationships between people. We can
+discuss what kind of property relationships we would accept, given
+some context of relative power, desire, and wealth of the
+participants.
+
+I'll just comment on a few of Steve's questions.
+
+> Why should people
+> be able to keep *anything* without compensating me?
+
+Are you just asking to be convinced that you should respect property
+rights? If so, you'll have to specify the context you had in mind. If
+it is the context of this planet, this day, I would say police guns
+are a good reason to start.
+
+> If you think there should be some sort of equality between your/our 
+> wishes and other people's, what the heck for?  Does it have something to
+> do with workability or getting other people to agree to it?  If so, aren't
+> you bowing down before their ability to coerce you?
+
+Dealing with people in such a way that you take into account the power
+they have to harm you strikes me as quite rational. If you consider
+that "bowing down", make the most of it. 
+
+> Suppose my respect for others' claims to property (both in land and other
+> stuff) has to do with their eventually, overall, probably doing something
+> worthwhile with it that makes my world a better place.  Isn't that just as
+> base a motivation as wanting to avoid their coercion?
+
+What do you mean by base? Again, it seems perfectly reasonable to me.
+
+> Why do you have a right to an opinion on the matter?
+
+I never said I had any such right. I don't check for rights before I
+form opinions.
+
+Buy Buy -- Dan Davis      
+
+ 
+
+------------------------------
+
+From: davisd@nimitz.ee.washington.edu
+Date: Mon, 11 Apr 94 17:10:39 -0700
+Subject: [#94-4-68] land property 
+
+> From: dasher@netcom.com (Anton Sherwood)
+> Subject: land property 
+> 
+> Is this just a demand for justification of _original_ property
+> in land (how nonproperty becomes property), or for justification
+> of _keeping_ property while landless people continue to be born?
+
+Property rights are about the relationships between people. Any
+justifications should justify all relationships one is making a claim
+about. If landless folks are born, and you want the original property
+rights to continue with those people, you should justify that
+relationship as well.
+
+By the way, I find the original claim of homesteaders quite
+compelling, and would consider them exempt from a land tax for a
+period of years.
+
+> One reason for the landless to respect property is that everyone
+> is a potential property owner; respecting another's property now
+> improves the chances that when you acquire property it will in
+> turn be respected.  
+
+This does weigh toward respecting property in land. It does not tip
+the balance, in my opinion. I'll just note that the same argument
+could be used with respect to slavery, as long as a slave has the
+possibility of becoming a master. Would it convince you?
+
+> I see little difference between your asking
+> me to respect your land property and my asking a child not to
+> touch my books (a few of which are older than my grandparents).
+
+I see a lot of diferences, some of them relevant to your property
+rights, and some of them irrelevant to your property rights.
+ 
+> If land belongs to everyone in the cosmos as someone suggested,
+
+Not me. 
+
+> should we be putting some (most?) of this rent in escrow for
+> people whose existence we predict but whom we have not yet found?
+
+I don't think so.
+
+> -- but how do we justify
+> _any_ rights without appealing either to mysticism (rights are
+> an essential human quality) or to pragmatism (rights lead to a
+> stable functional society)?  
+
+I probably won't justify rights.
+
+We can come to an agreement over property rights, in the proper
+context, by bargaining with each other over how we will treat each
+other. My suggestion is that reasonable people would come to roughly
+the kind of system I have described. 
+
+To answer questions about particular property rights, we need a
+general discussion on property rights and the reasons people should
+respect them. I have my own theories, but I have seen no reasoned
+defense of property in land, save claims that land is no different
+than other kinds of property. Clearly land is in some ways different
+from cars and boats. If it is the same in the aspects *relevant* to
+property rights, you should first establish what those relevant
+aspects are, and then show that land is indeed the same in those
+respects.
+
+Buy Buy -- Dan Davis      
+
+
+
+------------------------------
+
+From: davisd@nimitz.ee.washington.edu
+Date: Mon, 11 Apr 94 17:16:49 -0700
+Subject: [#94-4-69] land property 
+
+> From: fnerd@smds.com (FutureNerd Steve Witham)
+> Subject: land property
+
+> I don't see a fundamental difference between clods of dirt and
+> any other material goods, most of which are just reprocessed
+> clods of dirt anyway.  Except that there's a lot more unprocessed
+> dirt to go around, so you would think that land would be the 
+> *least* problematical kind of property.
+
+Property in land has little to do with clods of dirt, and much more to
+do with marking of surface territory over the planet, of which there
+is not so much unclaimed to go around.
+
+Buy Buy -- Dan Davis      
+
+
+------------------------------
+
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Date: Mon, 11 Apr 1994 21:55:16 -0400
+Subject: [#94-4-70] RAPTOR: A trojan horse of anarchocapitalism ?
+
+   Apogee and Cygnus Software just released a new shareware game, RAPTOR.
+You are a pilot  and fly over a terrain with lots of tough stuff on  and
+above it, which you have to shoot - and, occasionally, pick - up.
+   Apart from elevating the shoot-them-up to a new level of graphical and
+sound quality,  it has some  distinctly  extropian features:  the usually
+useless game points here turn into a valuable currency that you can  earn
+fulfilling your mission and spend buying ammunition/health/protection.
+You can also sell any of your possessions back to the store.
+Unfortunately, the store has a natural monopoly and the prices are fixed.
+  Your wealth, health and power  smoothly turn into each other during the
+game, with temporary disbalances  (you can't shop while flying)  that you
+have to watch, weighing tactical opportunities against temporary resource
+bottlenecks and strategic goals.
+ 
+  A multi-player extension of RAPTOR, with a free ammunition market, would
+be a great training tool for any anarchocapitalist space cadet.  ;-)
+ 
+  I wonder how it would compete with a statist game.
+Maybe if somebody could use a newly built [and yet uninfested by statists]
+world to demonstrate that anarchocapitalism can suggest clear organizational
+advantages and be fun to live in,  the users would be more receptive to the
+idea that a setup like this could well work in wherever they come from...
+
+------------------------------------------------------------------------------
+|  Alexander Chislenko | sasha@cs.umb.edu | Cambridge, MA  |  (617) 864-3382 |
+------------------------------------------------------------------------------
+
+------------------------------
+
+From: timstarr@netcom.com (Tim Starr)
+Date: Mon, 11 Apr 1994 23:53:29 -0700
+Subject: [#94-4-71] PCR
+
+>From: Eric Watt Forste <arkuat@netcom.com>
+>
+>On Tue, 29 Mar 1994, Tim Starr wrote:
+>
+>> >*problematic* about the diaphanous model of consciousness, whatever that
+>> >might be? 
+>> 
+>> Sure: it has it that if the nature of consciousness affects the awareness of
+>> the objects of knowledge in any way, then it can't be authentic knowledge.
+>
+>If that is correct statement of the diaphanous model, then I do not hold
+>the diaphanous model,
+
+Then why were you objecting to the idea of direct awareness by pointing out
+the fallibility of the nature of our consciousness?
+
+> and I'm also quite confident that the diaphanous
+>model is not *presupposed* in any of Hume's arguments, so I've completely
+>lost the thread of your argument. 
+
+Yes, it is, albeit indirectly.  Hume's skepticism rests upon his represen-
+tationalism, which rests upon a rejection of realism which rests upon the
+diaphanous view of conciousness, on the argument that the senses would have
+to be infallible in order for our awareness to be direct; they are fallible,
+so realism is incorrect.
+
+>> >What exactly do you find problematic
+>> >about Hume's theory of causality, and how do those problems apply to this
+>> >discussion? 
+>> 
+>> The problem with Hume's theory of causality is precisely the one he made
+>> such a big deal out of: if it is accepted, then induction is impossible.
+>
+>Well, since in fact induction (as it was commonly understood before the 
+>twentieth century) is impossible,
+
+Do you mean for three or four centuries before the 20th century, or all the
+way back to ancient times?  If the latter, I think your claim is false.  I
+need to know the definition of induction you're using in order to discuss
+it any further.
+
+> I'd consider this an argument in  *favor* of Hume's theory of causality.
+
+Impossible.  That would be circular reasoning.
+
+>> I've got
+>> lots of other things to do besides go to lots of trouble for nothing.
+>
+>But if that is your attitude, why are you posting here at all?
+
+Because every time I try to read Bartley, I get stuck with all sorts of
+questions he doesn't seem to answer, so I was hoping some of you who can
+get through him could explain things to me.  The best I've gotten thus far
+is a brief tour of the failings of Modern epistemology and lots of political
+disanalogies.
+
+>>>To say that I have no reason to believe it is also incorrect. My claim is
+>>>that I cannot logically deduce it from a principle or set of principles
+>>>that would not themselves be subject to your demand for justification and
+>>>proof. That is not equivalent to a claim that I have no reason to believe
+>>>it. 
+>>
+>>There's some other reason to believe it that you're hiding?
+>
+>Yes, and I haven't been hiding it. I believe it because it's more 
+>reasonable than any of its alternatives.
+
+You have, too, been hiding it.  This is the first I've read of this new
+criterion of "reasonableness" of yours.  Definition, please?
+
+>Now if you wish to show that you 
+>know of an alternative which is in fact *more* reasonable, or if you wish 
+>to point out exactly how my belief is unreasonable, and less reasonable 
+>than the alternative you have in mind, we might be getting somewhere. But 
+>this is exactly what you have said you are not interested in doing.
+
+What I'm uninterested in is trying to argue against the undefined, or what
+I don't know the definition of.
+
+>Attempting a refutation is one of the best exercises you could possibly 
+>come up with to help you understand it.
+
+No, it isn't.
+
+> You can't refute what you don't understand.
+
+And that's why.  I've found PCR most evasive.  The only things I've been
+able to pin down about it are truistic, common to many schools of thought.
+As soon as I suggest that its unique features have the consequences I
+think they do, I get nothing but denials from PCRists.
+
+>Well, you went on to say a whole bunch of interesting stuff about how 
+>Berkeley was wrong because the contradiction of "esse est percipi" does 
+>not presume "esse est percipi", but you didn't say anything at all in 
+>support of your claim that the predictions of Darwin's theory cannot be 
+>compared to the empirical evidence without presuming a material world.
+
+I didn't have to.  You attempted a defense.  I shot down that defense.  I
+win.
+
+>Despite any other reasons we might have for finding Berkeley's theory 
+>incorrect, if we were to suppose it true, we could still evaluate 
+>Darwin's theory as a scientific theory, and find it true by the standards 
+>of scientific truth. Having done so, we would then have an argument for 
+>the existence of either a) a material world or b) Berkeley's god.
+
+Correct.  And, given the decisive arguments against Berkeleyite idealism,
+the only remaining alternative is that of the primacy of existence, which
+means that any theory, including Darwinian theory, presupposes the existence
+of a material world - else it couldn't be about anything.
+
+>I believe in a material world because Darwin figured out how perceiving minds
+>evolved from material objects;
+
+>From what position could he have done so if the material world didn't exist?
+
+> you believe in a material world because the contradiction of "esse est
+>percipi" does not presuppose "esse est percipi".  Whatever.
+
+No, that's why I don't believe in Berkeley's idealism.  The primacy of exist-
+ence is axiomatic.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - timstarr@netcom.com
+
+------------------------------
+
+End of Extropians Digest V94 #101
+*********************************
+

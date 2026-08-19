@@ -1,0 +1,1046 @@
+From extropians-request@gnu.ai.mit.edu Tue May 25 10:25:19 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA29457; Tue, 25 May 93 10:25:16 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA01179; Tue, 25 May 93 10:25:13 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA00920@wookumz.gnu.ai.mit.edu>; Tue, 25 May 93 13:18:21 -0400
+Message-Id: <9305251718.AA00920@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Tue, 25 May 93 13:18:00 -0400
+X-Original-Message-Id: <9305251718.AA00913@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0281
+X-Extropian-Date: Remailed on May 25, 373 P.N.O. [17:18:20 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Tue, 25 May 93            Volume 93 : Issue 0281
+                        
+Today's Topics:
+                     AI/soul thread, Chaitin, hodgepodge              [1 msgs]
+                                   Aikido                             [1 msgs]
+                     ECON/SPACE: Sell the Universe Whole              [1 msgs]
+              ECON/SPACE: The Walrasian Whole Universe Auction        [1 msgs]
+                 Eidetic Imagery and Random-Dot Stereograms           [1 msgs]
+                             Flames, arbitration                      [1 msgs]
+                Is AI evidence for the existence of the soul?         [3 msgs]
+            Is AI's failure evidence for the existence of souls?      [1 msgs]
+            META: Chaitin & a deconstruction of misunderstanding      [1 msgs]
+              New Brain Test: "Einstein einstein.... Penrose!"        [1 msgs]
+                     POLY: HSG 100 - Part 7 - Last Part               [1 msgs]
+                  POLY: HSG 100 - Questions, answers, etc.            [1 msgs]
+                            US Monetary Standard                      [2 msgs]
+                              request for info                        [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 54776 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 24 May 93 21:02:45 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: Eidetic Imagery and Random-Dot Stereograms
+
+I recall when I was in 9th grade, which would have been 1971, a test
+for photographic memory which consisted of a few dozen large black
+dots on one page, and some dots in other locations on another page.
+If you could mentally superimpose the two images, the dots would
+form a pattern.  Although I had a relatively good visual memory in
+those days (I would memorize material for tests by how the words looked
+in the book) I was not able to see the pattern.
+
+But apparently these tests have been around for quite some time.
+
+Hal
+
+------------------------------
+
+Date: Mon, 24 May 1993 23:30:36 -0600 (MDT)
+From: rcarter@nyx.cs.du.edu (Ron Carter)
+Subject: POLY: HSG 100 - Part 7 - Last Part
+
+HSG 100 - Part 7
+
+The future of Gestalt...
+
+Gestalt, once actualized, can accomplish anything they please; there
+is no restriction that Gestalt can't remove.  The main thing holding
+Gestalt back is Gestalt-Linear Conflict (GLC).
+
+It is GLC that creates the conflict built walls that sublimate G; it
+is GLC, that causes the internal conflict that leads to the problems
+that Gestalt encounter; that eventually hold Gestalt back.
+
+New ideas go through a process; accepting the concept (of being G);
+understanding (what G is); incorporating these concepts (of being G).
+
+Once Gestalt starts to reject the Linear; accepts being Gestalt, then
+they can `unlearn' (actually `re-learn' or learn anew) the false (to
+themselves) Linear discipline, and can learn Gestalt (or what is true
+to them) discipline.
+
+Gestalt has to be careful; they can readily rationalize the differences
+between Linear and Gestalt as some kind of superiority, which it is not;
+it is a difference.  Granted, a difference which makes Gestalt better
+suited to handle the complex data structure that exists in today's
+society, but not necessarily better.
+
+It is only in times of complex communications that Gestalt is at their
+best; times like we live in today.
+
+End of HSG 100.
+
+Copyright 1993 - Ronald L. Carter - All Rights Reserved - CSCI`93
+
+------------------------------
+
+Date: Tue, 25 May 93 00:47:24 CDT
+From: ddfr@midway.uchicago.edu
+Subject: Is AI's failure evidence for the existence of souls?
+
+Mark_Muhlestein writes:
+
+>It seems to me that David has a valid point, but that the result is
+>very weak.  The reason for this is that in a Bayesian analysis, as I
+>understand it, it is normally considered correct to assign equal
+>probabilities to all unknown components, the sum adding up to one.
+
+No. That does not work because the procedure you describe is not well
+defined. Suppose, for example, we are considering a variable X that has an
+unknown value between 0 and 1. The equivalent of the procedure you describe
+would be to assume a uniform probability density. But that gives a
+non-uniform density for X squared--about whose distribution we also know
+nothing.
+
+Bayesian analysis, as I understand it, starts with some set of prior
+probabilities based on whatever information you already have and describes
+how to modify them on the basis of further information. I do not think one
+can make sense out of a zero knowledge starting point--that is one of the
+problem with Rawls.
+
+David Friedman
+University of Chicago Law School
+
+
+------------------------------
+
+Date: Tue, 25 May 93 00:47:48 CDT
+From: ddfr@midway.uchicago.edu
+Subject: Is AI evidence for the existence of the soul?
+
+This thread seems to have more or less run its course, so I thought I would
+post an explanation of why I started it:
+
+1. I have no particular commitment to either side of the mechanism/non
+mechanism question. So far as wishful thinking goes, both sides offer very
+attractive upside possibilities--although the non mechanism version may
+have the edge (eternity  means eternity, none of this "until the heat death
+of the universe" nonsense). Both offer unattractive downside
+possibilities--with the religious version of the non-mechanism side
+providing the most unattractive (maybe God doesn't approve of economists).
+I have only vague guesses as to the odds, but my priors are that either way
+I am more likely than not to be permanently dead within a century. Note
+that "existence of a soul" does not mean "existence of an immortal soul,"
+as I pointed out in my first posting.
+
+2. I do, however, have a prejudice against treating a guess as a fact,
+interpreting all further evidence with that fact as a given, and then
+claiming that the evidence so interpreted supports the fact. So far as
+consciousness is concerned, it seems to me that the mechanistic
+version--essentially the idea that I am a computer program running on my
+brain--is only a guess. Nobody I have talked to has a convincing story of
+how the most fundamental fact I know--the subjective experience of being
+conscious--is explained by a mechanism. Nobody has built a mechanism that
+acts as much like a conscious being as other people do.
+
+Of course, the various non-mechanism theories do no better. Nobody has
+offered me an adequate nonmechanistic explanation of consciousness, and I
+have not met any golems yet. We do have a method of producing conscious
+beings, but it (fortunately) does not depend on our understanding how they
+work.
+
+My conclusion is that I do not understand the nature of consciousness. That
+being so both the possibility of uploading and the existence of an immortal
+soul are possibilities, neither is more.
+
+3. It seems to me that a lot of talk about what is or is not "proved by
+science" has an element of "heads I win, tails you lose." I am fairly sure
+that people who believe in a mechanism explanation would have taken success
+of AI (say a computer that acted as conscious as a cat) as strong evidence
+in favor of their theory. It follows that failure is evidence against. Many
+people are unwilling to accept that because they assign a probability of
+one to their explanation of consciousness--which means that any failure
+must be assigned to some other cause. One can see the same phenomenon in
+Paul Ehrlich et. al., refusing to lower their probability of doom when
+particular predictions fail to come true.
+
+4. Much of this goes back to an argument I had with Minski, who was
+claiming that he knew the mind was a program because that was proved by the
+gedanken experiment of uploading one neuron at a time (most people on the
+list are probably familiar with the argument). My response was that he had
+not proved his result because he had not done the experiment--he was merely
+concluding that it would go the way he thought because he already knew the
+right answer, and then taking the fact that it would go that way as
+evidence that his answer was right.
+
+David Friedman
+University of Chicago Law School
+
+
+------------------------------
+
+Date: Tue, 25 May 1993 00:22:08 -0600 (MDT)
+From: rcarter@nyx.cs.du.edu (Ron Carter)
+Subject: POLY: HSG 100 - Questions, answers, etc.
+
+Greetings...
+
+Well, that concludes this series of postings on my theory of a
+model for a genetic brain based mechanism.
+
+The heading of POLY before the posts stood for polymath, which
+I thought appropriate.
+
+I had some requests to do the posts as one large post; if there
+are no objections, I will do that later in the week.
+
+I will be more than happy to answer any questions anyone might
+have; the seven post series was more of a "taste" or outline of
+some of things that I have studied.
+
+The topic of just Gestalt-Linear Conflict (GLC) alone is good
+for a whole other series of posts, if there is any interest.
+
+My apologies that the first few posts, did not have a colon
+after the POLY heading like it should.
+
+Regards, Ron | rcarter@nyx.cs.du.edu
+
+
+------------------------------
+
+Date:     Tue, 25 May 93 6:25:06 GMT
+From: starr@genie.slhs.udel.edu
+Subject: ECON/SPACE: The Walrasian Whole Universe Auction
+
+I'd like to add to Hal Finney's criticism of Robin Hanson's proposal:
+
+>Sell the universe *whole* to the
+>highest bidder with a plan for how to divvy up the universe for
+>auction.  The more the universe is worth to bidders under some scheme,
+>the more that temporary universe owner gets.
+
+This requires that the universe already be owned by someone - either the
+auctioneer or the party for whom the auctioneer is acting as agent.  In
+other words: if this were possible, it would be unnecessary.
+
+As far as we know, most of the universe is presently unowned.  In fact, much
+of planet Earth is, too.
+
+This is sort of like Jeff Hummel's critique of Epstein's acceptance of the
+public-goods argument for the justification of the (minimal) State: the
+establishment of the legal institution itself is a public good, so that if
+it were possible to set it up, it would be unnecessary to have a State to
+provide public goods.
+
+I'd also like more elaboration on the comment that my book review seemed
+insufficiently "open-minded."  How can I change it to make it more attrac-
+tive?
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Tue, 25 May 93 6:31:15 GMT
+From: starr@genie.slhs.udel.edu
+Subject: US Monetary Standard
+
+I mentioned Kryz's point about the US being on a commodity standard - the
+commodity being government bonds - to some friends, and Jim Ellwood (ISIL's
+veep) coined a new term for this: an "extortion futures" standard :-).  This
+also suggests that spreading this meme could significantly decrease the
+saleability of them.  Who'd want to be party to extortion?
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Tue, 25 May 1993 01:46:16 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: ECON/SPACE: Sell the Universe Whole
+
+Hal Finney:
+> Once people are
+> out there, if they decide that they need "sunlight rights" or "periastron
+> slots" or whatever else it turns out is natural, they can create these
+> with court systems much as we create rights to quiet, unobstructed views,
+> or clean air today.
+
+I wonder, though, how many people in our legal system (courts,
+arbiters, lawyers in general) are versed sufficiently in
+the economics of homesteading to to (a) even have a property-rights 
+solution cross their minds, instead of an absolute legal ruling or 
+government-regulated bureaucracy like the FCC, and (b) create a flexible, 
+low-transaction cost, and reasonably fair form of property?  When was the 
+last time any court system created a new set of property rights to 
+resolve a dispute?  
+
+Those interested in a contemporary dispute along these lines can
+check out the current debate in sci.space between astronomers and
+some folks in Georgia who want to launch a giant billboard into
+orbit.  The American Physical Society (APS) made a predictable
+rant against "setting a precedent for the unregulated commercialization
+of space".  Horrors!  One poster suggested something along the lines I 
+posted about a few months ago on this list, namely creating a fungible 
+"dark sky" property right, measured in physical units of illumination.
+This would be a right to transmit or reflect photons towards Earth's
+night side, similar to the SO2 pollution rights now being traded 
+between utilities.  Who are the homesteaders in this case, ie
+who uses the dark sky, is kind of a judgement call, but there
+has to be some measurable commitment, not just an expressed desire
+for the rights.  Distributing fungible shares proportional to investment 
+of persons or organizations in ground-based telescope equipment was 
+suggested.  That would make telescope makers happy anyway :-), happy
+enough they would probably underwrite the distribution of dark sky
+shares to their customers.
+
+A danger here is that a "disenfranchised" party, eg a casual 
+stargazer, billboard-hater, or capitalist-basher might prefer to
+spend their money coercing other people via the legal system instead
+of buying and holding shares for preservation.  (I've heard rumors
+that some environmental group is buying up SO2 emission rights and
+sitting on them, is that true?).  Given the economic illiteracy
+of the court system, they would probably win in several jurisdictions.
+
+An interesting point that came up in  response is that
+under the "Freedom of the Skies" treaty, no nation can claim 
+sovereignty of any resource beyond the Earth's atmosphere.  Outside the 
+bounds of a few other outer space treaties that are either legally meaningless 
+("space is the common heritage of mankind") or narrow (guidelines and
+bureaucracy for the allocation of Clarke orbit slots & frequencies),
+outer space is an anarchy, like the Internet.  Alas, given the 
+dominance of government bureaucracies in the utilization of space,
+especially the ongoing military importance of space, I doubt it
+will stay that way for long.
+
+Nick Szabo					szabo@techbook.com
+
+------------------------------
+
+Date: Tue, 25 May 93 03:33:46 -0700
+From: Inigo Montoya <inigo@u.washington.edu>
+Subject: AI/soul thread, Chaitin, hodgepodge
+
+ddfr@midway.uchicago.edu  writes:
+
+>3. It seems to me that a lot of talk about what is or is not "proved by
+>science" has an element of "heads I win, tails you lose." I am fairly sure
+>that people who believe in a mechanism explanation would have taken success
+>of AI (say a computer that acted as conscious as a cat) as strong evidence
+>in favor of their theory. It follows that failure is evidence against. Many
+>people are unwilling to accept that because they assign a probability of
+>one to their explanation of consciousness--which means that any failure
+>must be assigned to some other cause. One can see the same phenomenon in
+>Paul Ehrlich et. al., refusing to lower their probability of doom when
+>particular predictions fail to come true.
+
+Well, I may be a little bit late, but I don't consider that sufficient
+reason to stop me.  Loosely defining evidence as that-which-convinces,
+it seems trivial to demonstrate that Mr. Friedman is correct.  A couple
+people who posted in this thread referred to individuals who have
+become "disillusioned" with AI.  Perhaps they have not reached
+a point where they feel AI has been disproved; certainly they 
+believe the claims of AI less now than prior to the claim/failure
+cycle that characterizes the history of AI (but which, wonderfully
+enough, is amazingly productive in other ways, so I, for one, am not
+about to complain).
+
+That which weakened their conviction, or at least willing inclination
+to belief, must surely be considered evidence against.  (Against
+what, is, of course, in dispute.  In my experience, the disillusionment
+is with the field in general.)
+
+On another recent topic, I'd like to comment that I was, in fact,
+referring to Chaitin's coloring algorithm.  Further, on the basis
+of list recommendations, when I went to the local University 
+Book Store to pick up the copy of _Enterprise of Law_ (I may
+be a lurker, but I'm slowly working my way through the reading
+list.  Really!) I had ordered, I flipped through Casti's book
+that Tim May quoted (somehow, I had not connected Casti up as
+the author of _Paradigm's Lost_, which I previously found less than 
+impressive, but perhaps that's a lack of taste on my part), decided he'd
+really posted most of the interesting bits, and ordered the 1992
+Information-theoretic incompleteness (man, that's expensive),
+and bought _Mind Tools_.  This by way of comforting people that there
+are a few of us paying attention and reaching for books before arguing.
+
+In a similar vein, I'd like to say I don't have much intention of
+arguing anyway, as I never did understand what all the confusion
+was about anyway.  Possessor of a lowly B.S. in comp sci, I nevertheless
+got a sufficient smattering of theory to at least know what
+uncomputable means.  As near as I can tell, the first person to post
+a coherent response to Tim May's post was Derek Zahn -- everyone
+else (that I saw -- could have missed some) made basic (and in some
+cases, egregious) errors as a result of failing to understand the
+term.
+
+I only took a year and a quarter of physics.  I don't post
+about physics, because I know I'd get it badly wrong.  I, personally,
+would appreciate the same behavior from others, altho I wouldn't
+be foolish enough to actually expect it.  Certainly, when a basic
+error is pointed out (as Tim May did, in several cases, and also
+Derek Zahn), it should be accepted in an appropriate spirit, that
+is to say, not ass-covering "well, the term is confusing".  It is
+only confusing in the sense "power" or "energy" or "work" is confusing
+when a mundane meaning is applied to a statement about physics (hopefully
+I didn't get that badly wrong).
+
+Yet Mike Price writes:
+
+>This wasn't my point, but I still claim, that not only Chaitin but also
+>Casti, Pagels, May etc are also expressing themselves unclearly.  IMO
+>you have to already understand what they trying to say before they're
+>comprehensible.  No doubt the original papers are clear.
+
+I haven't read Pagels.  I did skim Casti in the bookstore (and didn't
+buy it, because it wasn't a sufficiently deep treatment, and I felt
+May had grabbed all the good bits already).  And I think I caught
+all of May's posts.  You do not need to already "understand what
+they are trying to say" in order to find them comprehensible.  You
+*do* need to understand the principles of the systems within
+which the phenomenon they are describing occurs.  As I understand
+things, this isn't very much different from what one needs in
+order to read a paper on a new idea or theory or whatever in
+physics, or any other scientific discipline.  That's the whole
+*point* of a shared language (jargon, whatever) in a given field.
+It may lock some out, but it enables precise communication (heck!
+Any communication at all!).  Whining about needing to understand
+this language but still wanting to participate in debate within
+the field is, imnotatallhumbleo, really amazingly lame.
+
+Which is the long way around to saying, publicly, that I very
+much enjoyed May's and Zahn's contribution to this thread, I
+was impressed by the Challenge's efficacy in resolving a key 
+misunderstanding (albeit one I was a little disgusted happened at all, 
+but then, it's always like that, I suppose), and I hope that neither May
+nor Zahn will be disturbed by some apparently sloppy thinking into
+discontinuing some of the coolest discussion I've seen on this list
+in the last, geez, it's been a year now, I guess.  At least, stick
+around long enough for me to get that copy of Chaitin so I can
+argue about it with someone who might have a clue.  :-)
+
+And finally (almost done!  Really!), I'd like to express some
+surprise that no one commented on the real world result
+if Chaitin is right.  Unless I badly misread this entire thread,
+it seems Chaitin is suggesting we ought to be a lot more willing
+to play around with different axiomatic systems, since it's
+not at all obvious which ones (if any!) are "preferred" (where
+preferred is something I can't define, but has something to
+do with utility, that is, the number of true propositions in the
+theorem space that are provable with the system).  Proliferation of
+systems may render solving some types of problems a lot easier
+(pick a system with a short path/proof to the problem you want
+solved?).
+
+No email to this address, please (borrowed account); use the one
+in the sig when you send me mail explaining, in detail, where
+I screwed up.  ;-)
+
+Rebecca Crowley		standard disclaimers apply	rcrowley@zso.dec.com
+
+------------------------------
+
+Date: Tue, 25 May 1993 09:27:44 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: US Monetary Standard
+
+Who is the party is extortion is done to in the "government bond" monetary
+standard? Before inflation came, a public school's teacher's salary in
+Mexico was 7 times minimum wage. At the end of inflation it was 2 times
+minimum wage. That's the answer.
+
+Krzys'
+
+------------------------------
+
+Date: Tue, 25 May 1993 06:52:37 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: META: Chaitin & a deconstruction of misunderstanding
+
+Q."Can't we all just get along?"  
+(A. Who do you think we are, posthumans or something? :-)
+
+There are way too many gratuitous recriminations flying around on this
+thread, so I'll add some of my own. :-)  A couple posters criticized 
+too strongly on points they were not sufficiently well versed in.  
+The dismissal of their criticisms with "RTFM" similarly fell short of 
+good communications.  I can say as a computer scientist
+that some of the criticisms, though worded too strongly,
+were reasonable, and some of them were interesting even if not 
+accurate.
+
+First of all, the criticism of Chaitin's use of "random" and
+"computable" in popular venues is reasonable.  These are terms of 
+art that do not mean the same thing in CS theory as they do in the 
+vernacular, and as such their special meaning should be explained when 
+addressing a general audience, both in Scientific American and here on 
+this list.  Criticism resulting from insufficient explanation of 
+advanced topics should be both made and handled gently, whether
+the field is computer science, physics, economics, or philosophy.
+We have seen needless flames stemming from obscure terms of art used from
+all four of these fields on this list, with the accompanying 
+expectation that non-specialists should automatically be able to
+distinguish the term of art from the vernacular.  There may even
+be the assumption by some specialists that the vernacular definition
+is no longer useful; this is especially pernicious.
+
+The vernacular definition Michael Price may have been using
+for "computable" is "capable of being run on a machine."
+One of the main topics on this list is whether the human mind can
+be run on a machine (uploading).  The assumption that machines can 
+only run computable problems is a *hypothesis*, not a proven
+mathematical fact.  Furthermore, Chaitin himself violates the CS
+definition of "computable" when he states that "at the limit, Omega 
+becomes a computable sequence."  This whole confusion about the word
+"computable" can be occasion for asking deeper questions
+about the theory of computability and its relevence to uploading etc.,
+rather than "I'm right and you're wrong because I RTFM" posturing.
+
+Chaitin's use of "random" to mean "algorithmically incompressible"
+is even more obscure; it's part of his own theory, not traditional
+mainstream CS.  
+
+We need to be reasonable about what we can expect out of this
+forum's readers.  We are are a pretty smart bunch.  But we do not, 
+for the most part, share detailed specialties to the point where
+we understand most of the obscure jargon in each other's fields.  If
+your main interest is mainstream computer science theory, you
+may learn more by reading the textbooks and asking questions or dicussing
+in comp.theory and whatever specialized mailing lists exist.
+If you want to talk to this list's readers about your field of interest,
+you'll have better luck if you take some time to explain points of
+confusion than you will by posting a required reading list
+fit for a semester-long grad school class.  If you insist on
+such reading you should also offer course credit. :-)
+
+This forum is mainly interested in how that and many other theories
+can help answer questions such as "how complex is a self-replicating 
+machine", "can the human mind run on a machine", "how to extend
+life", "how to create freedom", etc.  Note that we often use the word 
+"computer" instead of "machine", but given the confusion over what 
+constitutes "computability", the questionable scope of the Church-Turing 
+thesis, etc. it behooves us to be both careful and open-minded on this 
+point.
+
+BTW, (ab)use of the verncacular does not escape the field of 
+computer theory.  Theorists often use vaguely physical terms, as in "very 
+strong results" and "machine A is more powerful than B".  Such abuse 
+is often a channel marker indicating said theoretician has reached 
+the explanatory limits of the theory, or at least their understanding 
+of it.  But rather than flaming such statements, I see them as an opportunity
+to probe and test the theory.  For example, "powerful" sometimes
+means "more concise" or "explains more observations" within a certain 
+framework of assumptions, and questioning the scope of the
+theory in such terms can be pathway to something interesting.
+
+At the risk of contradicting myself, I also agree with the poster
+who pointed out that flames can be *good*, in the sense that we
+have the opportunity here to be more honest and straightforward
+without a lot of the posturing and smalltalk that goes on in
+face-to-face contact.  When flames are used for posturing
+we lose that capability.  We should however take advantage
+of this abstract medium to be honest, straightforward, and even somewhat
+carefree with our opinions about things and ideas, and to not react 
+personally or emotionally when others honestly disagree with the
+ideas we believe.
+
+Nick Szabo					szabo@techbook.com
+
+------------------------------
+
+Date: Tue, 25 May 1993 08:55:09 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+
+In <9305242055.AA20582@wookumz.gnu.ai.mit.edu>, mark m 623 writes:
+|> What ever happened to Dale Worley?
+
+He's posting to alt.resistance instead of bait-extropians@gnu.
+
+-- cP
+
+------------------------------
+
+Date: Tue, 25 May 93 09:09:18 CDT
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: New Brain Test: "Einstein einstein.... Penrose!"
+
+I will respond to Mr. Fraering's thoughts about brain representation
+in a computer.  From my understanding of how the brain functions,
+I believe that it can be modelled thus:
+
+Each neuron is represented by a list of data.  One part is an
+equation describing when the neuron will fire in response to
+incoming signals.  There will be a set of state variables that
+cover time since last firing, and a recent firing history.
+There is a table of pulses in progress and their positions on
+the neuron, which is described by a tree-type mapping.  The
+synapse connections to other neurons are another table.
+
+For a neuron with 10,000 synapse connections, and 100 billion
+neurons in the brain, you need on the order of 50 bits per
+synapse to record an arbitary connectivity.  Allow for another
+50 bits to decribe the state of the synapse (whether it is
+excitory or inhibitory, the strength of the connection, depletion
+level of neurotransmitters, etc.).  So we have 1 million bits
+per neuron synapse table.  Allow another 1 million bits to describe
+the shape of the neuron dendrites, and the other neuron equations
+and variables.  So for the brain model as a whole we would
+need 2x10^17 bits to describe the complete mapping.  In common
+computer terms this is 25,000 Terabytes of data.
+
+The typical neuron firing rate is 100 Hz, so we can estimate that
+the brain model must be updated at about that rate.  The connectivity
+map will not be redrawn each cycle, but the pulses will propagate.
+If we assume we are tracking a pulse down every dendritic branch,
+then we might be tracking 1000 pulse positions per neuron, at
+10 bits position resolution, at 100 Hz.  So we need 1 million bits/sec
+per neuron, or 10^17 bits/sec for the full brain model.
+
+>From the above estimates, I can draw some conclusions.  One is that
+until now, all attempts at AI have been hopelessly underpowered,
+even if intelligence was several orders of magnitude simpler to
+model than the brain hardware itself.  Second, given about a million-
+fold improvement in computers, we will have machines that can
+model the brain at full fidelity.  The caveat is that there is
+not any hidden processing going on in neurons at a level below
+the synapses/pulses we see now.
+
+I claim that whether the computer implementing the brain model
+is parallel or serial is irrelevant.  What is relevant is that the
+MODEL of the brain correctly describes the parallelism inherent in
+the biological structures.  The choice of a parallel vs. serial
+machine should be made on the usual bases of cost and ability
+to manage the processing job.  I expect as a practical engineering
+matter, that massively parallel machines will reach the required
+speed and data capacity first.
+
+So, to sum up, I believe that AI has failed so far for the
+same reason that reaching orbit by manually throwing sticks in the
+air fails: grossly inadequate power for the job at hand.
+
+Dani Eder
+
+------------------------------
+
+Date: Tue, 25 May 93 09:42:08 CDT
+From: mmceniry@uahcs2.cs.uah.edu (Mike McEniry)
+Subject: request for info
+
+I just read a bit about Extropians in Issue Two of Wired.
+Would you please send me more information about Extropy?
+I need all the (mental/emotional/social) expansion I can get. =]
+
+-- Michael McEniry/mmceniry@uahcs2.cs.uah.edu/gideon@halibut.ghoti.terra
+-- These ramblings are mine.  Leave others out of it.
+
+------------------------------
+
+Date: Tue, 25 May 1993 09:40:06 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: Flames, arbitration
+
+In <9305242128.AA21000@wookumz.gnu.ai.mit.edu>, mark m 623 writes:
+|>   I'm probably letting myself in for a world of nastiness, but here goes.
+
+I don't agree with you (i.e., my estimate of the probability of
+significant flamage in this thread is p << .5). There, how will that
+do for nasty?[1]
+
+[...]
+|> Hell, we can't even hold our hands out to show "No weapons".
+
+More fundamentally, we have the problem of having no weapons in the
+first place!
+
+And a big ditto to Tom's comment about the process of trying out list
+rules and arbitration as part of the evolution. I think that
+exemplifies part of what we mean by spontaneous order -- that systems
+of a certain complexity can jump to a meta-level and continue evolving
+there.
+
+I want to find examples of relatively simple systems that do something
+like this; talking about mammalian society in terms of systems theory
+has a lot of arm-waving in it. So far, I have gotten down to the
+evolution of immune systems as my lowest-level example -- anyone have
+simpler ones? [Change the Subject: if you do] How about DNA repair
+enzymes?
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 P.N.O.
+    /ExI 4/373 P.N.O. ** E' and E-choice spoken here
+   / NRA 5/373, Intergraph Gun Club 5/19/373 P.N.O.
+[1] Lame attempt at self-referential humor. I could have tacked on
+"... and you're a ******* for even saying this." to make a nice clean
+fuzzy contradiction.
+
+------------------------------
+
+Date: Tue, 25 May 1993 11:00:30 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Is AI evidence for the existence of the soul? 
+X-Reposting-Policy: redistribute only with permission
+
+Harry Shapiro says:
+> Likewise, from Babbage, who was able to demonstrate key core aspects
+> of his technology and win contracts from the British government to
+> build at least one of his machines, we could predict that it was very
+> difficult to build such machines. Given the effort he made it seems
+> (post hoc?) that it would be difficult to build such a machine for
+> quite a while (it would take until 1992 in fact).
+
+Actually, evidence from 1992 indicates that the technology at
+Babbage's time was up to the task -- the problem was he was a bad
+project manager.
+
+> I read David as really saying the evidence is quite strong that we
+> will not be able to build AI's (note the "we," meaning us at this
+> time, in the next few years). 
+
+I would readily accept the notion that we won't be able to build AIs
+in the next few years, but I don't read that as what David was saying.
+David? 
+
+Perry
+
+------------------------------
+
+Date: Tue, 25 May 1993 10:00:53 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: Aikido
+
+In <9305242153.AA21372@wookumz.gnu.ai.mit.edu>, Mark A. Sulkowski writes:
+[...]
+|> However, I see no reason to consider Ki to be anything mystical or
+|> supernatural.  Like a good rationalist, I believe that there is a good, logical
+|> explanation for what Ki is.  I do agree that whatever Ki is, it must be
+|> developed extensively for Aikido to be fully useful.
+
+Based on my experience with Zen and Reiki (but no martial arts), I
+think that "Qi/ki/ji" (Chinese/Japanese/Korean) is the organization of
+large scale electrical currents in the body (there's a book on these
+currents by a Scandanavian doctor which I examined about 7 years ago,
+and did not follow up to see if his results led to anything).  These
+currents are nothing more than the superposition of all the APs of
+nerves and muscles, and it seems to me that certain exercises increase
+the "tuning", giving rise to all kinds of delightful feelings in the
+musculature, and an increase in ease of movement and so on. All the
+other claims practitioners make are highly suspect, as they don't even
+know what to measure or how to measure it.
+
+Of course a devoted vitalist would say that the electrical effects are
+secondary to the operation of the Qi, and I've heard Newagers babble
+that "we don't know what Qi is, but then, we don't know exactly what
+electricity is, either." To which I shrug, "say that again when you've
+discovered the fundamental particle of Qi -- the Qion? -- or learned
+to use it to run a fan."
+
+(Zen master picks up fan, unfolds it, and fans you with it)
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 P.N.O.
+    /ExI 4/373 P.N.O. ** E' and E-choice spoken here (sometimes)
+
+
+------------------------------
+
+Date: Tue, 25 May 1993 12:20:47 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Is AI evidence for the existence of the soul? 
+X-Reposting-Policy: redistribute only with permission
+
+I'd like to open this by noting that I have the greatest respect for
+David, and that this is not a flame, just an honest intellectual
+disagreement. I hope no one gets hard feelings from it.
+
+The substance of this article is a refutation of the claim by Dr.
+Friedman that that there is no greater reason to believe in a
+mechanistic mind than in a non-mechanistic one.
+
+ddfr@midway.uchicago.edu says:
+> 2. I do, however, have a prejudice against treating a guess as a fact,
+> interpreting all further evidence with that fact as a given, and then
+> claiming that the evidence so interpreted supports the fact. So far as
+> consciousness is concerned, it seems to me that the mechanistic
+> version--essentially the idea that I am a computer program running on my
+> brain--is only a guess.
+
+I would disagree.
+
+Here is my evidence.
+
+To begin with, I think the "computer program" model is wrong. I
+believe the brain is mechanistic, and thus modelable with a computer
+program, but I don't see any evidence of a "program" being there.
+(This is not to say that you can't simulate the brain with a program
+-- but it isn't architected that way.)
+
+However, we can take a nice reductionist view that shows that what we
+are dealing with is mechanistic.
+
+1) We see the effects of other people's minds in operation only via
+   their operation of their musculature and similar organ systems.
+
+2) Detailed study has shown that muscles seem, in virtually all cases,
+   to contract only in response to nerve impulses, and that they
+   operate consistently in the presense of such impulses. Nerve
+   impulses have both been observed and generated, and the results are
+   all consistant with theory.
+
+3) Following the path backwards, nerve cells are consistantly studied
+   to fire only in response to inputs from sensory organs (or similar
+   such inputs) or from other nerve cells. Again, this interaction has
+   been thoroughly studied.
+
+4) The operation of nerve cells has been extensively studied, and a
+   very good model of how they function has been produced. We
+   understand fairly well how nerve cells are triggered (via
+   neurotransmitters bridging synapses), how their signals are
+   transmitted down their length (the various ion pump mechanisms and
+   change in membrane permeability), and how their signals are then
+   transmitted along to the next cell in the line. At no time have
+   interactions inconsistant with the known mechanistic operation been
+   observed.
+
+5) Nerve cells have been extensively studied interacting with each
+   other in the brain. Again, the operations all are consistant with a
+   mechanistic system -- all observations yield positive evidence for
+   a fairly good (although still admittedly incomplete) model of nerve
+   cell interaction.
+
+So, summarizing thus far, we have nerve cells examined in vitro and in
+vivo, interacting with each other and with other kinds of cells, and
+what we find is consistant positive evidence for a mechanistic system,
+without any observation of extranatural phenomena.
+
+Now, as I have already noted, the operation of the brain has also been
+extensivly mapped. There are locations who's excision produces
+consistant deficits in function. There are locations who's stimulation
+with current produces consistant phenomena such as visual artifacts,
+motor activity, memory stimulation, etc. There have also not been any
+discoveries of phenomena not consistant with mechanistic operation of
+the mind. In short, everything thus far seems to integrate in with the
+mechanistic explanation.
+
+We have studied, and what we see are mechanistic nerve cells taking
+sensory inputs, channelling them through other mechanistic nerve cells
+throughout the brain, and mechanistically generated outputs going
+mechanistically via other nerve cells to control various mechanisms
+throughout the body. (I simplify slightly, ignoring the effects of
+hormones, neurotransmitters and the compounds that interfere with
+them, etc -- but all those mechanisms are mechanistic too.)  We can't
+yet fully explain how the jumble of nerves interconnected just so
+produces the complex behavior we see in humans, but we can pretty much
+trace every step of the process and we see only mechanistic phenomena.
+The whole is extremely complex -- but we can trace all the parts and
+how they fit to each other and all we get is mechanistic phenomena.
+
+Now, where could a "soul" hide in all this? I can't see a space for
+it. Presumably, a "soul" would have to alter the behavior of the brain
+in some manner, that is, it would have to interfere with the well
+understood mechanistic activity -- but we don't see such distortion
+occur, and not for want of observation.
+
+> Nobody I have talked to has a convincing story of
+> how the most fundamental fact I know--the subjective experience of being
+> conscious--is explained by a mechanism.
+
+I will fully agree that we do not yet have a convincing explanation of
+how this happens. However, this is not an unusual situation in
+science. For instance, radioactivity was a well known phenomenon for a
+very long time before anyone produced a good explanation for it -- but
+the phenomenon was very easily shown to operate according to well
+structured models. Similarly for many other phenomena.
+
+> Nobody has built a mechanism that
+> acts as much like a conscious being as other people do.
+
+Thats true, but on the other hand, we've found that we can
+mechanistically and consistantly interfere with consciousness, and we
+have also observed that the components of the brain work in a purely
+mechanistic manner, with no evidence that their operation is
+interfered with by external extranatural mechanism ("the soul").
+
+> Of course, the various non-mechanism theories do no better.
+
+Actually, they do far far worse. I have actual evidence against them
+in the form of the consistant lack of apparent interference in the
+function of neurons by non-mechanistic entities.
+
+> Nobody has
+> offered me an adequate nonmechanistic explanation of consciousness, and I
+> have not met any golems yet. We do have a method of producing conscious
+> beings, but it (fortunately) does not depend on our understanding how they
+> work.
+
+I somewhat suspect that the first real AIs will work by a similar
+mechanism in so far as they will be slavish copies of the human brain
+cast in computer software. Understanding may take quite a long time --
+but engineers have often shown an ability to thoroughly exploit
+phenomena that are poorly understood.
+
+> My conclusion is that I do not understand the nature of consciousness. That
+> being so both the possibility of uploading and the existence of an immortal
+> soul are possibilities, neither is more.
+
+I cannot more strongly disagree. Uploading only implies that the brain
+is mechanistic -- and there is extremely strong evidence that it is.
+An "immortal soul" would require that the brain be non-mechanistic,
+which is flatly contradicted by the evidence. In the last century of
+studying the brain we have yet to observe a "ghost" pulling the
+strings of the machine -- it all seems to be just machine. It strikes
+me as exceptionally unlikely that a non-mechanistic system is involved.
+
+> 3. It seems to me that a lot of talk about what is or is not "proved by
+> science" has an element of "heads I win, tails you lose." I am fairly sure
+> that people who believe in a mechanism explanation would have taken success
+> of AI (say a computer that acted as conscious as a cat) as strong evidence
+> in favor of their theory. It follows that failure is evidence
+> against.
+
+No. Not at all. The converse is not the same as the contrapositive --
+even small children learning geometry know this. If the proposition
+
+   If we can build AIs today, then intelligence can be modeled in a
+   mechanistic way
+
+is true, we can say only
+
+   If we cannot model intelligence in a mechanistic way then we cannot
+   build AIs today.
+
+which is the contrapositive. We cannot say
+
+   If we cannot build AIs today then we cannot model intelligence in a
+   mechanistic way.
+
+Which is the converse, and as we all know, the converse of a
+proposition is NOT always, or even usually, true.
+
+> Many
+> people are unwilling to accept that because they assign a probability of
+> one to their explanation of consciousness--which means that any failure
+> must be assigned to some other cause.
+
+I am unwilling to accept it because I have both direct evidence of the
+mechanistic nature of the behavior of humans and because I have pretty
+direct evidence of how misguided AI research thus far has been. I am
+NOT rationalizing.
+
+> One can see the same phenomenon in
+> Paul Ehrlich et. al., refusing to lower their probability of doom when
+> particular predictions fail to come true.
+
+But this is specious. First, Erlich and company really had no good
+evidence for their positions -- whereas there is direct and
+extraordinarily solid evidence that neural function is wholly
+mechanistic. Second of all, we are talking about ENGINEERING, not
+SCIENCE. As with Da Vinci and Babbage, what we have is engineers being
+orders of magnitude too optimistic about what they can do with the
+technology of their time. Even the most optimistic estimates of human
+computing capacity say that we will not achive human level capacity in
+our computers for another three decades! This is not a rationalization
+-- this is a solid and easy to observe fact! AI researchers expected
+to be able to get computers to do human like things and we don't even
+really have the capacity to simulate INSECTS, let alone humans!
+
+I will also note that, judging purely by our accomplishments in AI, we
+actually HAVE made some stunning progress of late when we have stuck
+to what we can reasonably hope to simulate. I refer most specifically
+to Rod Brooks and his work on subsumption architecture based robots.
+His creations, which are substantially less complex in their neural
+structure than insects, behave strikingly like "live" organisms. Given
+our current level of compute power available, this should be more or
+less the level we would expect to have success at.
+
+> 4. Much of this goes back to an argument I had with Minski, who was
+> claiming that he knew the mind was a program because that was proved by the
+> gedanken experiment of uploading one neuron at a time (most people on the
+> list are probably familiar with the argument). My response was that he had
+> not proved his result because he had not done the experiment--he was merely
+> concluding that it would go the way he thought because he already knew the
+> right answer, and then taking the fact that it would go that way as
+> evidence that his answer was right.
+
+Well, you do have me there. I can't prove that AI is possible yet
+because I can't yet do it. On the other hand, I'd say that Goddard was
+perfectly sane and had all the evidence in his court when, fifty years
+before it was possible to reach the moon, he showed that all the
+theory showed it could be done. Similarly, I'd say that the AI
+researchers of the 1960s were all perfectly sane -- just sixty or
+eighty years too early.
+
+I'll point out that this is NOT a position held without evidence. It
+has plenty of evidence for it -- the consistant and continued
+observation of a mechanistic brain seems to be all but proof of the
+assertion at this point. Unless you can give me an explanation of how
+a soul could possibly interact with the known mechanistic processes in
+such a way as to evade detection by researchers for all these years of
+the phenomenon, I'd have to argue that you are wrong.
+
+Perry
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0281
+****************************************
+

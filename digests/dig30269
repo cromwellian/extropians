@@ -1,0 +1,1012 @@
+From extropians-request@gnu.ai.mit.edu Wed May 19 08:17:52 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA22306; Wed, 19 May 93 08:17:49 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA25223; Wed, 19 May 93 08:17:42 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA16685@wookumz.gnu.ai.mit.edu>; Wed, 19 May 93 10:59:19 -0400
+Message-Id: <9305191459.AA16685@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Wed, 19 May 93 10:58:56 -0400
+X-Original-Message-Id: <9305191458.AA16675@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0269
+X-Extropian-Date: Remailed on May 19, 373 P.N.O. [14:59:18 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Wed, 19 May 93            Volume 93 : Issue 0269
+                        
+Today's Topics:
+                              AI: Detecting it                        [1 msgs]
+                              BLAH: Wild Palms                        [1 msgs]
+                 CLIPPER: On Lies and the Culture of Control          [1 msgs]
+                                   Chaitin                            [1 msgs]
+                     Chaitin is not Extropianly Correct               [3 msgs]
+             Chaitin, Randomness, and Explanations on this List       [2 msgs]
+                                Collegiality                          [2 msgs]
+                    Final Words on Chaitin and Randomness             [2 msgs]
+                      Gold -- Clinton as crypto-Randian               [1 msgs]
+                   Happy little Chaitins, was Re: Chaitin             [1 msgs]
+                        MATH: Friendly, Happy Chaitin                 [1 msgs]
+                             RISKS DIGEST 14.62                       [1 msgs]
+                           Thalidomide fascists...                    [1 msgs]
+                                 Wild Palms                           [1 msgs]
+                            doing something right                     [1 msgs]
+                                  subscribe                           [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 51181 bytes.
+
+----------------------------------------------------------------------
+
+Date: Tue, 18 May 93 20:33:52 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Chaitin is not Extropianly Correct
+
+I wrote (hey, slow day on the ol' mailing list, gotta reply to myself):
+
+> > What is "twistor theory"? I haven't heard of it, but it sounds like
+> > something bogus. Probably just turban legend!
+> 
+> twistor theory is an alternative to superstring theory in the search
+> for more basic physical theories.  Roger Penrose has been working
+> on it for a long time; I read about it in some popularized account
+> in a book titled _Superstrings:  er, mumble-dee-mumble_.
+
+It was gently pointed out to me by a kind soul that I was responding
+to a jest, as in *joke*.  Well, blow me down!
+
+Purpose of this message: to clarify the inexcusably-enunciated reference:
+
+Peat, F. David
+Superstrings and the Search for The Theory of Everything
+Contemporary Books, 1988
+ISBN 0-8092-4257-5
+
+which is kind of a strange book because less than half is given to
+superstrings and more than half to twistors.
+
+derek
+example caption to a diagram:
+  "FIGURE 8-9: Copies of twistor space are stitched together to make trousers"
+yow!
+
+------------------------------
+
+Date: Tue, 18 May 1993 20:36:10 -0700
+From: D Anton Sherwood <dasher@well.sf.ca.us>
+Subject: Wild Palms
+
+> We'll see if it [Wild Palms] gets more explicitly libertarian tonight.
+
+Well, there was a strong Second Amendment scene.  (Was anyone else put in
+mind of Buckaroo Banzai?)
+
+------------------------------
+
+Date: Tue, 18 May 93 23:42:35 EDT
+From: Shawn Trexler <trexlers@freenet.scri.fsu.edu>
+Subject: subscribe
+
+subscribe
+
+------------------------------
+
+Date: Tue, 18 May 1993 23:25:11 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: Final Words on Chaitin and Randomness
+
+> Tell me, how does his ad hominem attack help the debate?
+
+I am doing nothing but reflecting Tim's previous behavior back at him.
+If anyone else who conducted an argument by authority and repeated assertion
+in the way Tim has done, we would quickly see Tim righteously flame him off
+at the knees.
+
+So tell me, Tim.  Does the set of WFFs indexed by Chaitin's omega exhaust all
+WFFs?  Do you understand the proof well enough to commit yourself to an answer?
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Tue, 18 May 1993 22:44:15 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Thalidomide fascists...
+
+I'm being swamped under by all the statist pigs over
+in sci.space. One annoying one in particular posts:
+
+>You should also not criticize the Food and Dru Administration for
+>electing to perform high levels of testing before allowing wide spread
+>use of centoxin. Do you know what thalidomide is?
+
+Could someone with references, and preferably background in biology,
+give me some fire support here? This guy's one of those damn MD's
+who is shocked that we don't just take his word for it, roll over,
+and play dead (or just plain die) when he tells us to.
+
+BTW, I'm back on the digest at least (or should be; I subscribed Sunday).
+
+Also, this guy doesn't argue, really; he just ignores your post except
+for saying "you're just an ignorant person who flamed while I'm
+so great my bodily effluent smells like roses, and have a PhD from
+Athena herself, so there..." or words to that effect (but slightly
+less subdued).
+
+I hate to say this, but I'm just about giving up on that newsgroup,
+especially with all the ecofreaks trying to save Low Earth Orbit as
+a pristine enviornment with none of those evil capitalist Flying Billboards...
+
+You see, I originally got on the net to read space news. But the
+amount of statist pig misinformation floating around on sci.space
+is too much for me now.
+
+Help?
+
+Phil Fraering
+pgf@srl03.cacs.usl.edu
+
+------------------------------
+
+Date: Tue, 18 May 93 21:37:25 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: Chaitin is not Extropianly Correct
+
+I read Chaitin last year, so I don't remember it too well.  One of the
+things I thought would be neat would be to calculate the first few bits
+of Omega.  Maybe someone who has access to the references could post
+how this would be done.  It would be kind of fun to have some bits which
+you knew were irreducible... (not that hard, I suppose, for a few bits,
+but this is just part of a truly irreducible series).
+
+Hal
+
+------------------------------
+
+Date: Wed, 19 May 1993 00:00:07 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: CLIPPER: On Lies and the Culture of Control
+
+Today I posted the following to comp.risks:
+
+---------------------------------------- CUT HERE -----------------------------
+>From postnews Tue May 18 23:17:04 1993
+Newsgroups: comp.risks
+Subject: Re: RISKS DIGEST 14.62
+Message-ID: <1lTd6n#3fWDjJ3xqVzg6NTCxf0qYP9L=esr@snark.thyrsus.com>
+Date: 19 May 93 03:15:37 GMT
+References: <CMM.0.90.1.737688970.risks@chiron.csl.sri.com>
+
+In <CMM.0.90.1.737688970.risks@chiron.csl.sri.com> Marc Rotenberg wrote:
+> Denning has to be kidding.  The comments on the proposed DSS were uniformly
+> critical.  Both Marty Hellman and Ron Rivest questioned the desirability of
+> the proposed standard.
+
+Mr. Rotenberg, as a public figure operating in the political arena, has to
+exercise a certain diplomatic restraint in responding to Ms. Denning.  I am,
+thankfully, under no such requirement.
+
+As a long-time RISKS reader and contributor, I observe that that this is not the
+first time that Ms. Denning has apparently operated as a mouthpiece for the
+NSA's anti-privacy party line on DES and related issues.
+
+I do not believe Ms. Denning was "kidding".  I believe she was deliberately
+*lying*, and that that lie is part of a continuing propaganda campaign
+to marginalize and demonize advocates of electronic privacy rights.  Other
+facets of this campaign have attempted to link privacy advocates to terrorists
+and drug dealers by suggesting that only criminals need fear wiretapping.
+
+This is a serious charge.  I make it because, in the wake of the Clipper
+proposal, I do not believe civil libertarians can afford any longer to assume
+that their opponents are persons of good will with whom they can simply debate
+minor differences of institutional means in a collegial way.
+
+It's time for someone to say, in public and on this list, what I know many
+of us have been thinking.  The future is *now*.  Electronic privacy issues
+are no longer a parlor game for futurologists; they are the focus of a
+critical political struggle, *and the opponents of privacy are fighting their
+war with all the tools of force, deception, and propaganda they can command*.
+
+The histories of the DES, the FBI wiretap proposal, and now the Clipper
+proposal must be considered against a wider background of abuses including
+the Steve Jackson case, "Operation Longarm", and the routine tapping of U.S.
+domestic telecommunications by NSA interception stations located outside the 
+geographic borders of the United States.
+
+These form a coherent pattern of attempts by agencies of the U.S. government
+to pre-empt efforts to extend First and Fourth Amendment privacy protections
+to the new electronic media.  In each case, the attempt was made to present
+civil libertarians with a fait accompli, invoking "national security" (or the
+nastiness of "kiddie porn") to justify legislative, judicial and practical
+precedents prejudicial against electronic privacy rights.
+
+While I would not go so far as to claim that these efforts are masterminded
+by a unitary conspiracy, I believe that the interlocking groups of spies,
+bureaucrats and lawmen who have originated them recognize each other as
+cooperating fellow-travellers in much the same way as opposing groups like
+the EFF, CPSR and the Cypherpunks do.   Their implicit agenda is to make the new
+electronic communications media transparent to government surveillance and
+(eventually) pliant to government control.
+
+The content of Ms. Denning's postings suggest that she is attached to one
+of these groups, and shares the `culture of control' common to all of them.
+One of the traits of this culture of control is the belief that manipulative
+lying and dissemblage can be justified for a `higher good'.  
+
+I believe Ms. Denning's disingenuous claim that the DSS "is now considered to
+be just as strong as RSA" is no mere technical misapprehension.  I believe it
+is a classic example of the Big Lie propaganda technique, aimed at making
+objectors non-persons in the debate.
+
+It is important for us to recognize that this kind of lie is not an aberration,
+but a routine tool of the authoritarian mindset.  And the authoritarian mindset
+is, ultimately, what we are confronting here --- the mindset that regards the
+fighting of elastically-defined `crime' as more important than privacy, that
+presumes guilt until innocence is proven, that demands for government a license
+to override any individual's natural rights at political whim.
+
+We cannot trust Ms. Denning to tell the truth.
+
+We cannot trust the authoritarians' assertions that they have no intention of
+outlawing cryptographic technologies more secure than the Clipper chip.
+
+We cannot believe the authoritarians' claims that `independent' key registries
+will prevent abuse of decryption keys by government.
+
+We cannot --- we *must not* --- cede control of encryption technology to
+the authoritarians.  To do so would betray our children and their descendants,
+who will work and *live* in cyberspace to an extent we can barely imagine.
+
+We cannot any longer afford the luxury of treating Ms. Denning and her friends
+as honest dealers with whom compromise is morally advisable or even possible.
+Whatever their own valuation of themselves, the naked power grab represented
+by the Clipper proposal reveals a desire to institutionalize means which
+a free society, wishing to remain free, *cannot tolerate*.  And Ms. Denning's
+willingness to use the Big Lie reveals the evil behind that desire.
+
+Big Brother must be stopped *here*.  *Now.*  While it is still possible.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+---------------------------------------- CUT HERE -----------------------------
+
+What amazes me is that nobody else on comp.risks wrote this denunciamento before
+I did...
+-- 
+							>>eric>>
+
+------------------------------
+
+Date: Tue, 18 May 93 23:20:45 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: MATH: Friendly, Happy Chaitin
+
+(I thought the title of this thread would help keep us all cheerful... :-)
+
+Speaking of Chaitin, here's a speculation I had.
+
+Chaitin is the founder of algorithmic information theory.  In this theory,
+the amount of information in a string can be measured by the length of
+the shortest possible program which can produce this string as output.
+This is an attractive definition because it fits our intuition; a
+string like 10101010... repeated 10^9 times is not very random, and indeed
+a program to print out such a string would be fairly small.
+
+(Under conventional information theory, all strings of a given length
+might be said to have the same amount of information if they were all
+equally likely.)
+
+Another thing nice about Chaitin's definition is the information in the
+concatenation of two strings is no more than the sum of the information
+in the separate strings.  (It might be quite a bit less; for example if
+the two strings were the same, then it would be hardly longer than the
+one string since you'd just add a "repeat twice" to the program.)  At
+worse you can concatenate the two programs for the two strings and get
+out the concatenation of the strings.  (Chaitin chooses a particular
+format for his programs so that this will always work.)
+
+But Chaitin's definition has one big problem: it is not measurable.  There
+is no way to tell, for a sufficiently large string, what the shortest
+program is that will output it.  You'd think that you could just try
+all possible short programs - after all, there are only a finite number -
+but that doesn't work.  The reason is that some programs never stop.
+You would have to wait forever to find out whether there is some short
+program which doesn't seem to be doing very much but which maybe, just
+maybe, might eventually bestir itself and output the very string you are
+looking for.
+
+One might think that a more careful analysis could eliminate these
+long-running programs, but the unsolvability of the Halting Problem shows
+that this is not the case.  This famous proof is related to Godel's
+uncertainty theorem and establishes that there is no way in general to
+tell, for any program, whether it will eventually halt.  More generally,
+this also establishes that you can't tell whether a program might eventually
+output some particular string or whether it's just going on forever.
+
+This small blemish on Chaitin's results does not seem to bother most people
+very much, but in my opinion it makes the whole concept virtually worthless.
+One of the first things we learn in the philosophy of science is to deal
+with measurable quantities.  A definition of information which has all
+kinds of nice properties but can't be measured isn't of any use!
+
+Given that the problem is these slow-running programs, my instinct is
+to try to revise his definition by putting some time constraints as well
+as space constraints on the allowable short programs.  Only those programs
+which run in a time which is some specified function of the program length
+("program" here would include the program plus any input) would count.
+This way if some program doesn't produce the string in the allowed time,
+it is rejected.  Now you can try all candidate short programs in a finite
+amount of time, and get an unambiguous answer to the information content
+of the string.
+
+I'm sure this is a common thought, but clearly there are problems with it.
+One problem is the arbitrariness of this unspecified function of the
+program input length which produces our time limit.  There is a super-
+ficially analogous arbitrariness in Chaitin's definition in terms of what
+language the short programs are written in and what kind of machine they
+run on.  But Chaitin shows that this leads to an uncertainty in the
+information content which is small for large strings.
+
+I wonder if such a result could be shown for various time-limit functions.
+The obvious approach would be for time limits which were various polynomial
+functions of the input length: n, n^2, n^3, n^4, etc.  Considering the
+task of finding the shortest program which can output a string S under these
+various limits.  With the limit "n" most programs might not finish and S's
+information content would be close to S's length in bits.  With "n^2" a
+lot of programs would finish and perhaps we find that S's information content
+is smaller.  With "n^3" perhaps a few more programs manage to output S that
+are even smaller.  As we go on to higher powers, though, we would expect
+to hit diminishing returns.  For most strings, once we've gone up a bit
+we've likely found the shortest program we're ever going to find.
+
+We can't be SURE that eventually we wouldn't hit an even smaller program
+(this would require solving the halting problem).  But as long as we
+specify the time limit used we can at least get an unambiguous value.
+But, different computers and languages might have different speeds.
+As we go from, say, n^4 to n^5 on one computer we might see a sudden
+drop in information content for S.  But on another computer which had
+different timing we might have to go to n^6 to see that.  So as long as
+we are staying at n^5 we would have two computers with very different
+measures of S.  So we've lost uniqueness again.
+
+This may not be that much of a problem if we consider that program
+running times on different machines should not be inherently different
+(at worst, we simulate one computer using the other one).  Chaitin
+discusses this in the context of program size and I don't remember the
+details.  But if the running times are similar on all machines then I
+think we could still get a unique measure.
+
+There may be some properties of Chaitin algorithmic complexity that the
+time-limited versions lack.  If these can be overcome, though, we'd
+have a more useful tool for analyzing information and its role in nature.
+
+Hal Finney
+
+------------------------------
+
+Date: Tue, 18 May 93 23:32:34 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: Chaitin
+
+From: derek@cs.wisc.edu (Derek Zahn)
+>  * Even more strange and wonderful:  a binary expansion of Omega contains
+>    as many 1's as 0's (!) and that expansion is INCOMPRESSIBLE; that is,
+>    it is its own shortest description.  No shorter computer program can
+>    be devised to compute it.  That's really weird.
+
+This would mean, would it not, that Omega is uncomputable.  In particular,
+in order to find what the probability is that a random program will halt,
+you need to be able to decide whether a given program will halt.  (Other-
+wise you are trying to determine the probability of black or white balls
+in a bag with your eyes closed.)  But you can't decide whether a given
+program will halt.  Hence you can't compute Omega.
+
+And, of course, if you knew how to compute Omega, then it could be axiomatized
+based on the information in your neurons.  Maybe Penrose and those who
+claim that the brain goes beyond formal systems could prove it by telling
+us what Omega is (though I don't know how they could convince us they are
+right!).
+
+The ease of finding the early bits of Omega is misleading.  Small programs
+don't feel the impact of the halting problem proof.  Only programs large
+enough to encode the ability to run other programs (basically, big enough
+to be a language interpreter) have undecidable halting characteristics.
+Once you are far enough out in Omega to be dealing with programs this big
+you are not going to be able to find any more bits, at least not by this
+means.
+
+I'm unclear on Chaitin's other proposals for finding Omega.  Given the
+the fact that Omega can't be axiomatized, I don't see how anyone can write
+down a method to discover its value.
+
+Hal
+
+------------------------------
+
+Date: Tue, 18 May 1993 23:54:37 -0700
+From: D Anton Sherwood <dasher@well.sf.ca.us>
+Subject: doing something right
+
+Pat yourselves on the back.  This from Dad, the professor:
+
+> Your weekend sounds terrific.  And interestingly, it sounds more
+> intellectual than what happens in most aspects of academic life, where
+> people sit in their pigeonholes with the blinds drawn.  I'm so happy for
+> you that you have found such a stimulating group, and that you are
+> accepted and appreciated.
+
+*\\* Anton Epiphenomenon
+(Now go ahead and tell me I'm not a&a)
+
+------------------------------
+
+Date: Wed, 19 May 93 00:55:18 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Chaitin is not Extropianly Correct
+
+Robin Hanson writes:
+
+
+>I would say some set of values are "random" if the distribution of
+>values are predicted well by some simple statistical model, but any
+>attempt to predict better with a more complex model seems destined to
+>failure.  So microscopic parameters are "random" at thermodynamic
+>equilibrium, as are the outcomes of a quantum measurement.  On the
+>other hand, even though the distribution of human heights seems to fit
+>a simple distribution, one can predict heights better and better by
+>conditioning on more and more context information.
+>
+>So, my question for this context would be, is "whether particular
+>exponential diophantine equations have finitely or infinitely many
+>solutions" predicted well by some simple statistical model?  Are 1/3
+>of them finite, or what?  
+
+Randomness of a sequence means a lot of things...unpredictibility,
+statistical properties, incompressiblity (no shorter description), etc. 
+
+Omega has no structure, is incompressible. However, I don't know if the
+specific Diophantine equations one picks (if one even has a choice, as
+Chaitin's Theorem D says "There is an exponential diophantine
+equation.....") have an exactly even split between finite and infinite
+numbers of solutions.
+
+
+-Tim
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+
+
+
+------------------------------
+
+Date: Wed, 19 May 93 00:54:59 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Final Words on Chaitin and Randomness
+
+>> Tell me, how does his ad hominem attack help the debate?
+>
+>I am doing nothing but reflecting Tim's previous behavior back at him.
+>If anyone else who conducted an argument by authority and repeated assertion
+>in the way Tim has done, we would quickly see Tim righteously flame him off
+>at the knees.
+
+This is of course a misleading charge. When asked to provide a pointer on
+Chaitin, I did so. When the excellent summary by John Casti was not enough
+for some, I provided both more references and more discussions. I also
+added my own commentary at each stage. At no time did I simply repeat
+assertions. I once "appealed to authority," only to be sure readers
+understood that Chaitin is a influential scientist and not some crank.
+
+It is true that I did not respond in precisely the way Mr. Raymond wished
+me to to one or more of his posts, which is my prerogative. After all, some
+people write so briefly and cryptically that I can't even tell what they're
+saying, so I won't feel bad that my *several* long posts were not detailed
+enough for all...the main point was to provide the pointers about sources,
+not to answer Mr. Raymond's speculations about the measure-theoretic
+aspects of the space of provable theorems, for example.
+
+Nor would "we quickly see Tim righteously flame him off at the knees." I
+consider this bold claim about my future behavior to be a ....  well, let
+me just leave it at that. As to my past behavior, when have I flamed
+anyone? I was under the impression that such flaming was not allowed and
+would be appropriately punished. To make this even clearer: I did not flame
+Pandit, nor did I flame Dale Worley (though he more richly deserved it than
+Pandit did, as least the pre-alt.extropians Pandit). I have said (several
+times now) that I was overzealous in my "Klaus!" humor re: Carol Moore, but
+that does not justify the viciousness of the charge leveled at me above. 
+
+This rhetorical excess, of essentially charging me with flaming in the past
+(or divining my future behavior) has no place on this list.
+
+On to Mr. Raymond's next point, despite his rudeness:
+
+>
+>So tell me, Tim.  Does the set of WFFs indexed by Chaitin's omega exhaust all
+>WFFs?  Do you understand the proof well enough to commit yourself to an answer?
+>-- 
+>                                        Eric S. Raymond <esr@snark.thyrsus.com>
+
+Any statement in the predicate calculus (which includes propositional
+logic, and its grammatically correct or well-formed formulas (WFFs)) can be
+Godelized, that is, each possible statement can be uniquely coded or
+labeled with its Godel number (via a complicated process). Chaitin's scheme
+does the same thing, so in this sense I would say that, yes, all statements
+of the propositional calculus, and hence all WFFs, can be "Chaitinized."
+
+Chaitin shows how expressions may be arithmetized, and his code for doing
+so is available from him. The details are (expectedly) very messy,  just as
+Godel's numbering scheme was similarly messy (and occupied most of his
+paper).
+
+Chaitin's work, like Turing's, is phrased more in terms of recursively
+enumerable functions (or S-expressions in the lambda calculus) than in
+terms of well-formed formulas of propositional logic. I'm neither a
+logician nor a set theoretician, but nothing I have seen indicates that the
+Turing/Godel/Post/Church/Kleene model of computation (usually called the
+Universal Turing Machine, UTM) is not adequate. Certain speculations,
+notably by David Deutsch and Roger Penrose, that quantum-mechanical
+phenonomena may be needed to transcend the Turing/Post/etc. mode, remain
+speculations. 
+
+Lest there be any confusion, Chaitin's work is a direct extension of the
+earlier work and in my opinion warrants the extension of the name of the
+"standard model" to the "Turing/Godel/Post/Church/Kleene/Chaitin" model.
+Each of these formulators of the theory of computation put his own twist on
+the theory, his own unique flavor. Chaitin's flavor was to talk about the
+intrinsic information content of a statement and how a theory of some
+information size could not then talk about bits beyond a certain
+point...they would be indistinguishable from the results of random coin
+tosses. An n-bit theory has limits.
+
+Anything a UTM can accept as input, Chaitin's EVAL program can also accept.
+ Any statement (a computer program, for example) that can be converted into
+an S-expression (in the form of the pure LISP Chaitin has implemented) can
+be fed directly into Chaitin's EVAL program. To emphasize: S-expressions
+can handle all computable functions, that is, there is nothing computable
+that LISP, being recursively-complete, cannot handle.
+
+(The reason for Chaitin's choice of LISP was very similar to the reason
+John Koza chose LISP for his recent work on genetic programming: LISP is
+its own parse tree and "randomly constructed" LISP S-Expressions are
+already "runnable" programs...most of them will of course halt the machine
+fairly quickly (an aspect of Chaitin's work), but at least they'll be
+accepted as legal inputs to the EVAL program. In a sense, S-expressions are
+automatically WFFs for the machine. By the way, the connections between
+Koza's universe of evolving S-expressions and Chaitin's S-expressions
+warrant further study, though of course the specific choice of a language
+is not the key issue--C or Pascal would've also worked, with more work in
+each case. Still, some intriguing parallels, and and an evolving organism
+may truly said to be "computing part of Omega," a point Chaitin makes
+well.)
+
+In conclusion, there is no WFF--as I understand Eric's use of the term in
+this context--which cannot be converted into the form Chaitin's EVAL takes.
+Chaitin's results apply to all theorems. (No, to head off another
+debatefest, this does *not* mean all theorems are random!)
+
+Cheers, I think.
+
+--Tim May
+
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+
+
+
+------------------------------
+
+Date: Wed, 19 May 93 01:32:16 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Happy little Chaitins, was Re: Chaitin
+
+(Perhaps I should only respond to this post by Hal Finney *after*
+responding to his "Happy little Chaitins" post (or whatever...actually, I
+really liked that title, so I'll rename Hal's thread to convey the magickal
+power of it).
+
+Hal Finney writes:
+
+>This would mean, would it not, that Omega is uncomputable.  In particular,
+>in order to find what the probability is that a random program will halt,
+>you need to be able to decide whether a given program will halt.  (Other-
+>wise you are trying to determine the probability of black or white balls
+>in a bag with your eyes closed.)  But you can't decide whether a given
+>program will halt.  Hence you can't compute Omega.
+
+Omega is uncomputable. Various terms might be computed by lots of
+computation and by "experimentation" (e.g., bombarding a particular UTM
+model with lots randomly-constructed S-expressions of increasing length
+might produce:
+
+         Omega for this machine ~=~ 0.983017.... (prob. that machine will
+halt when a randomly selected program in run)
+
+
+>The ease of finding the early bits of Omega is misleading.  Small programs
+>don't feel the impact of the halting problem proof.  Only programs large
+>enough to encode the ability to run other programs (basically, big enough
+>to be a language interpreter) have undecidable halting characteristics.
+>Once you are far enough out in Omega to be dealing with programs this big
+>you are not going to be able to find any more bits, at least not by this
+>means.
+
+Agreed.
+>
+>I'm unclear on Chaitin's other proposals for finding Omega.  Given the
+>the fact that Omega can't be axiomatized, I don't see how anyone can write
+>down a method to discover its value.
+
+The experimental method I mentioned is one way to get an approximation to
+Omega, for some particular Omega (machines vary, languages for programs
+vary, axiom sets vary, so there won't be some single, mystical
+"Omega"...any given configuration will have its own, which is exactly what
+one would expect given that Omega encodes the answers to halting problem,
+which will vary depending on a lot of factors).
+
+Chaitin writes:
+
+"We have seen that Omega is about as random, patternless, unpredictable and
+incomprehensible as possible; the pattern of its bit sequence defies
+understanding. However with computations in the limit, which is equivalent
+to having an oracle for the halting problem, Omega seems quite
+understandable: it becomes a computable sequence. Biological evolution is
+the nearest thing to an infinite computation in the limit we will ever see:
+it is a computation with molecular components that has proceeded for 10^9
+years in parallel over the surface of the earth. That amount of computing
+could easily produce a good approximation to Omega, except that that is not
+the goal of biological evolution....
+
+"Perhaps biological structures are simple and easy to understand only if
+one has an oracle for the halting problem."
+
+
+-Tim May
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+
+
+
+------------------------------
+
+Date: Wed, 19 May 93 04:28:51 MDT
+From: sneal@muskwa.ucs.ualberta.ca (Sneal)
+Subject: Collegiality
+
+     I've had Casti's "In Search of Certainty" sitting in the
+to-be-read pile for months.  I have made a note to expedite the
+perusal thereof, since it's clear that I will *understand everything*
+once I've read it.  I'd have cracked it sooner had I known...
+ 
+     And now, the nitpicking...
+ 
+In recent posts, several list members have used the
+word "collegiality".
+ 
+"collegiality", according to my dictionary, is "the doctrine of
+the Roman Catholic Church's hierarchy (bishops) who collectively
+determines church policy with the Pope".
+ 
+     Now --- either my dictionary is a lousy one (and the phrasing of
+the above definition doesn't fill me with confidence) or
+"collegiality" is not a quality we seek in discussions on this list. 
+I think "congeniality" may be the word and quality sought.
+ 
+Eric Raymond wrote, in RISKS (and not to make light of an excellent
+post, which I agree with wholeheartedly):
+ 
+>This is a serious charge.  I make it because, in the wake of the
+>Clipper proposal, I do not believe civil libertarians can afford any
+>longer to assume that their opponents are persons of good will with
+>whom they can simply debate minor differences of institutional means
+>in a collegial way.
+ 
+     Ironically, Denning and her cronies seem very much prone to
+collegiality of a sort.
+ 
+  -- Steve
+ 
+ 
+ 
+
+------------------------------
+
+Date: Wed, 19 May 1993 07:11:00 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: Chaitin, Randomness, and Explanations on this List
+
+Timothy C. May writes:
+> I'd urge people on this list to be more careful about immediately
+> dismissing what they don't understand, or haven't taken the time to think
+> about. Intuition is a dangerous thing...to many, the whole idea of
+> "reversible computations" is self-evidently wrong ("it doesn't smell
+> right"), just as theories of quantum mechanics, continental drift,
+> relativity, and even evolution struck some as intuitively wrong. I get the
+> very same "ignorant skepticism" (and by this I mean absolutely no criticsm
+> of Eric, Robin, Ray, or Mike....this just describes the phenomenon
+
+  The criticism I made of the original article was that it was vague
+in parts and seemed to be deliberately controversal ("arithmetic" is
+"random") I'm still a little unclear on exactly what Chaitin has proven.
+Omega is a binary string of digits -- each digit representing whether or not
+a particular diophantine equation in a certain family has infinite or finite
+number of solutions. He picked a certain diophantine equation family which is
+equivalent to a UTM which also represents a formal system. By
+showing that each digit in Omega is, for all intents and purposes,
+random he demonstrates that whether or not a particular mathematical
+statement is decidable is random, correct?
+
+My only question is, does his particular diophantine family exhaust
+all possible statements? Or is his particular encoding only able to
+represent a small chunk of the vast theorem space.
+
+My other problem is with the "for all intents and purposes" part.
+Just because it's hard to compute what a particular digit of
+Omega is (for k large, like Ramsey's number, or the number of bits
+a Busy Beaver with >12 states can generate) doesn't mean that
+it can't be calculated in principle. In principle, I can calculate
+an arbitrary digit in pi's expansion, but past a certain
+digit it starts to become infeasable. Does this mean the digits of
+pi are ``random''? (a popular and famous question regularly asked in
+sci.math) Is it fair to postulate the concept of infinity in
+a mathematical paper but rule out infinite time for computation?
+
+Make no mistake, I am not out to attack his result. Chaitin is certainly
+much more knowledgable in math/cs than I am and is probably correct.
+I'm just trying piece together the details. Most excerpts on this
+list (including semi-popularizations), only scratch the surface
+and leave you only wanting more.  (e.g. the dreaded 
+"there is an equation proving so-and-so, but it is too complex to be
+stated here, or beyond the scope of this paper or audience")
+
+-Ray
+
+(p.s. Just a few weeks ago, I responded to a post by Eric Raymond in which
+I stated that certain parts of math are empirical (e.g. testing
+Fermat's Last Theorem or looking to form a conjecture in Number Theory
+by examing sequences). It's wonderful to have ones point backed up
+strongly by mathematical argument. ;-)  )
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+Date: Wed, 19 May 93 5:22:13 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: BLAH: Wild Palms
+
+> > We'll see if it [Wild Palms] gets more explicitly libertarian tonight.
+> 
+> Well, there was a strong Second Amendment scene.  (Was anyone else put in
+> mind of Buckaroo Banzai?)
+
+Eeeewww...tv <squinting in distaste>  Is this show worth the trouble to hound
+someone for a VCR copy?  Has it anything to do with the "Wild Palms" strip that
+is (or was, I haven't looked lately) in the back of _Details_ magazine?
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Wed, 19 May 93 8:37:44 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Chaitin, Randomness, and Explanations on this List
+
+Ray:
+
+> My only question is, does his particular diophantine family exhaust
+> all possible statements? Or is his particular encoding only able to
+> represent a small chunk of the vast theorem space.
+
+I was mistaken about this before but have since seen the light.  As
+Tim has mentioned, the truth of any theorem in any axiom system
+can be coded as whether some particular turing machine halts.  Since
+the particular diophantine equation (the one with 17,000 variables)
+Chaitin uses is equivalent to a UTM, it can represent all of
+theorem space.
+
+Now, Omega is the probability that a random turing machine
+will halt.  Turns out it's trivial to turn Omega into a solution
+to the halting problem -- which by itself is sufficient to
+show that Omega is uncomputable.
+
+Sorry for the mistaken conclusion (given as a response to Eric
+in a previous note).
+
+derek
+
+------------------------------
+
+Date: Wed, 19 May 1993 09:48:01 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: Gold -- Clinton as crypto-Randian
+
+On Friday's Wall Street Week former Reagan's economic advisor, Lawrence
+Cudlow, poited out that the gold bull market must be killed by raising
+interest rates. The raising of rates did not happen (meeting of Fed
+yesterday).
+I posted about a week ago to this list that Mr. Clinton apparently 
+started a major bull market in gold, and me may be a crypto-Randian
+after all :) (is that how you make a smiley?). Yesterday's inaction 
+really says -- buy gold, buy gold. 
+By the way, I disagree with Perry's point that there are governments
+out there still selling gold. With all due respect, Perry, the last
+place I would look for investment tips is government. I firmly believe
+that governments are incapable of performing economic functions,
+even though I am not a committed anarchist. I can't be, I promised
+the Immigration and Naturalization Services :)
+
+Krzys'
+
+------------------------------
+
+Date: Wed, 19 May 93 14:53:54 +0100
+From: Rich Walker <grlw1@cus.cam.ac.uk>
+Subject: AI: Detecting it
+
+(This is vaguely related to the last AI thread. Only vaguely)
+
+While working on building robots, I noted the obvious hole in the standard
+(Turing) test for intelligence, so I came up with my own. The other day, I
+dumped it in comp.ai, during a thread on the Turing Test, and got an interesting
+piece of feedback. Anyway, I redrafted it, and thought I'd pass it round here,
+to see what anyone thought of it...
+
+(apologies if I posted the previous version of it; I'm just trying to
+disseminate a more _useful_ meme than Turing's for intelligence-definitions)
+
+Lasagne Test, Version Two, with Universal Quantification:
+
+I arrive home in the evening. My robot has put out
+my slippers in front of my chair, marked a couple of particularly
+interesting articles in the paper, video'd a program I wanted to watch & so
+on. I sit; it pours my ice-cold beer, and passes the paper. I read a
+little, drink a little, and then turn to it and say `What's for dinner'?
+
+Robot has performed the following calculation:
+   I didn't eat this morning.
+   I had liquid lunch (probably)
+   I like these things
+   These things are in the kitchen
+  So it can cook this list of things.
+  I want something substantial.
+
+=> `I took the liberty of preparing a lasagne, Sir'
+  `How the f' did you know I wanted lasagne?'
+
+The test generalises; the essence of it is:
+
+  If I have some desire, and it is possible to, from my patterns of behaviour
+  and from known and expected circumstances, predict this behaviour, then a
+  machine which will, most of the time, predict this desire can usefully be
+  declared intelligent.
+
+I'd draft a more formal statement of this, but I _hate_ trying to do so in
+ASCII:
+
+(i member_of humans ^ x desire_of i ^ r : r a processing system,
+  ( knows(r) (behavioural patterns(i) ^  world state(i)) => knows(r) x)
+  => ( (Pr( predicts(r) x) > f(x)) => intelligent(r) )
+  might do, for the moment, where
+  f:(desires)-> [0,1] ; f(x) = (sum (h member_of humans) Pr( predicts(h) x)) )
+                                -------------------------------------------
+                                                 | humans |
+
+See what I mean? Like the Turing Test, this has the useful property of being
+applicable to any processing system, down to (:->) and including humans...
+
+ There's still a problem with ironing out how much of the state of i needs to
+be known by r, but still.
+
+(I must admit, if I thought of it now, it'd be the Chilli test...)
+
+--- Rich! Walker (grlw1@cus.cam.ac.uk)
+"Did you know that there is a million bucks hidden in the house next door?"
+"But there is no house next door."
+"No? Then let's go build one!"
+-MARX
+
+------------------------------
+
+Date: Wed, 19 May 93 9:06:16 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Collegiality
+
+Steve:
+
+> In recent posts, several list members have used the
+> word "collegiality".
+>  
+> "collegiality", according to my dictionary, is "the doctrine of
+> the Roman Catholic Church's hierarchy (bishops) who collectively
+> determines church policy with the Pope".
+
+If I were to say, "And just who are YOU to question our use of terms?
+Get a better dictionary, bozo, and come back when you've read it!"
+
+That would be non-collegial.  Fortunately, I'd never say such a thing!
+MY dictionary (websters on-line) defines collegial as:
+
+  marked by power or authority vested equally in each of a 
+  number of colleagues
+
+of which your dictionary's definition chose a particularly perverted
+example (perhaps the one that inspired the more general usage).
+
+"Congeniality" is good too!
+
+derek
+conviviality, perhaps?
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0269
+****************************************
+

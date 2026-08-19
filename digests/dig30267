@@ -1,0 +1,1131 @@
+From extropians-request@gnu.ai.mit.edu Tue May 18 11:45:28 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA17130; Tue, 18 May 93 11:45:26 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA13671; Tue, 18 May 93 11:45:19 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA07836@wookumz.gnu.ai.mit.edu>; Tue, 18 May 93 14:36:22 -0400
+Message-Id: <9305181836.AA07836@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Tue, 18 May 93 14:35:53 -0400
+X-Original-Message-Id: <9305181835.AA07821@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0267
+X-Extropian-Date: Remailed on May 18, 373 P.N.O. [18:36:20 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Tue, 18 May 93            Volume 93 : Issue 0267
+                        
+Today's Topics:
+                            AI:Human Equivalence                      [1 msgs]
+         Chaitin, Complexity, and the Thermodynamics of Information   [3 msgs]
+                      FTL: Traversable Wormholes 2 of 2               [1 msgs]
+                    Final Words on Chaitin and Randomness             [4 msgs]
+                I-N: Group Dynamics and a Question for Harry          [2 msgs]
+                               More on Chaitin                        [3 msgs]
+                  PHIL/MATH: Stronger results than Godel's            [1 msgs]
+               PHIL: Godel and Infinity (was Utility of Maths)        [2 msgs]
+              Politics, Economics: Thoughts after reading Mises       [1 msgs]
+                               _WIRED_ REVIEW                         [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 59681 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 17 May 93 22:20:58 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: PHIL: Godel and Infinity (was Utility of Maths)
+
+I congratulate Krzys' for his most interesting post:
+
+> [..] every natural number is followed by its successor, but ... so
+> what? Mycielski's system has that axiom, yet no infinity), when we
+> introduce it, we must specify its nature (Continuum Hypothesis), and
+> we must expect it to remain somewhat beyond our reach (Godel's
+> Theorem), because we never experience infinity.
+
+I'm somewhat surprised to find myself in agreement.  Today I was trying
+to explain Godel's work to a friend who'd read _Godel, Escher & Bach_. 
+He expressed scepticism because Godel's theorem only seemed to be making
+statements about infinite things, which are hard to treat seriously as
+concrete entities.  Do this all mean that if we remove the axiom of
+infinity we no longer encounter undecidable theorems?  Is this
+what's Mycielski's system is doing?
+
+[On a related thread this friend has an almost exclusively symbolic-
+linguistic mind.  He treats maths as rules for the manipulation of
+symbols, and nothing else.  He never understood numbers until he
+realised they were adverbs.  Adverbs?  Compare 'the three fish swam
+away' with 'the brown fish swan away' and we see that numbers are just
+a particular type of adverb.  So he regards maths as a subset of
+linguistics.]
+
+> Krzys'
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Tue, 18 May 93 0:30:14 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Chaitin, Complexity, and the Thermodynamics of Information
+
+   I don't understand why Chaitin's result is being used to claim
+"arithmetic is random".  According to the paper, Chaitin proved
+that there are an infinite number of uncomputable propositions with
+definite answers. So what? "Arithemetic is random" seems to be
+deliberately phrased to cause controversy like Bennett's
+Quantum "teleportation."  It's not like 2+2 yields a random
+result.
+
+  Maybe he meant "whether or not we can prove a theorem depends
+on how lucky we are in choosing one that is decidable." This isn't
+very surprising.
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Tue, 18 May 93 1:09:17 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: More on Chaitin
+
+Eric S. Raymond writes:
+> Fine.  This suggests that the set of theorems decidable in finite time is
+> finite and sparse in the set of all WFFs.  But that's trivially obvious, and not
+> at all the same as demonstrating that the set of WFFs decidable *in principle*
+> (in your terms, if one had infinite time) is sparse (which would be the
+> stronger result I was looking for).
+
+  Indeed, if we consider Moravec's negative time-delay IC
+(or his Time-Macine Turing-Machine [extropy#9]) then Chaitin's result
+is trivial because such a machine could easily decide a theorem in
+constant time.  There are lots of problems we encounter all the time
+that are so hard that they may as well be undecidable
+(e.g. like the traveling saleman problem on 10^30 cities). However,
+they are still decidable in principle because given enough time and
+enough space, we could solve them. I would be amazed
+if the stronger result was proven.
+
+  BTW, what is the significance of a 17,000 variable diophantine equation?
+Because it's "sufficiently hard"? Has Chaitin has generalized his
+result, because it seems even the weaker statement doesn't hold.
+(e.g. the set of _all_ theorems decidable in finite time is finite and
+sparse)
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Tue, 18 May 93 06:52:14 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: More on Chaitin
+
+I agree with Eric Raymond and Robin Hanson that Chaitin's work doesn't
+prove that maths is random.  These claims confuse the difference between
+a theorem or problem being _very_ hard and being undecidable.  Saying
+a computer can never solve a problem beyond a certain level of
+complexity
+(which Tim May has said) is a presently unverifiable claim about the
+future, not an absolute truth.
+
+There are analogies with chaos theory and the rhetorical claims made for
+the incomputability of chaotic systems.  Chaos theory does not make the
+prediction of weather impossible _in principle_, as is so often claimed
+by authors like Paul Davies.  Just makes it incredibly more difficult. 
+But infinity divided by any finite number is still infinity and to
+philosophically blur the enormous with the infinite, as so many do, I
+find inexpressibly frustrating.
+
+As with chaos theory such sloppiness just kicks up dust and confuses
+issues involved here.  This type of language always sets my bullshit
+filters howling.  For instance, I interpret:
+
+>  But as far as human reasoning goes, which of the two possibilities
+>  is actually the case may as well be decided by flipping a coin; it
+                        ^^^^^^^^^^^
+>  is completely and forever undecidable, hence effectively random.
+                                                ^^^^^^^^^^^
+
+as:
+   "which of the two possibilities is actually the case is a
+    very computationally complex problem"
+
+This is not to belittle Chaitin's work, nor the utility of Tim posting
+the excerpts - they are very interesting and I'm impressed by the level
+of debate on recent topics, and especially the recent maths threads. 
+I'm learning a lot (which is one of the reasons why I subscribe, to
+answer an earlier question Tim posed).
+
+BTW, Tim, you mentioned Eric's use of dragon metaphors - are you sure
+you're not thinking of my recent wormhole essay?
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Mon, 17 May 93 14:15:38 PDT
+From: tribble@memex.com (E. Dean Tribble)
+Subject: I-N: Group Dynamics and a Question for Harry
+
+...
+
+This sounds very interesting.  Can you reconstruct any references?
+Positive reinforcement within a group, for instance, can make all the
+members of the group more effective as individuals, and can make the
+group as whole extremely effective.  I grew up with this notion that
+all the great physicists of 50 years ago were separate brilliant
+people, but historically, they mostly knew and were friends with each
+other.  Instead of going alone, they built on each other's work and
+shared a lot of mutual admiration.  That kind of group also seem the
+most fun to participate in.
+
+dean
+
+------------------------------
+
+Date: Tue, 18 May 93 01:00:22 +0100
+From: Eric Watt Forste <arkuat@joes.garage.com>
+Subject: AI:Human Equivalence 
+X-Reposting-Policy: redistribute freely
+
+ 
+ CF> I agree with you that the visual and visualizing areas of the
+ CF> brain are probably fairly efficient designs.  I carefully
+ CF> excused myself from having to include these in my estimates by
+ CF> specifying that I was talking about a thinking machine without
+ CF> sensory apparatus more sophisticated than a TTY connection.
+ 
+You'll hate this, I'm sure, but I'm skeptical about the possibility of
+designing a thinking machine without complex sensory apparatus. Have
+you ever read Doug Hofstadter's essay "Waking up from the Boolean
+Dream" in Scientific American? It's republished in his book
+Metamagical Themas. Highly recommended.
+ 
+Eric Watt Forste                             arkuat@joes.garage.com
+1800 Market St #243                          San Francisco CA 94102
+      "Expectation foils perception."   -- Pamela C. Dean
+
+------------------------------
+
+Date: Tue, 18 May 93 02:08:48 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Final Words on Chaitin and Randomness
+
+Math is random..."Is so!..."Is not!"..."Is so!"..."Is not!"
+
+I seem to be outnumbered, though most (have any?) of the nay-sayers have
+not read Chaitin's papers and seem to be focusing on semantic
+hair-splitting about the meaning of the phrase "math is random." (One who
+has actually located Chaitin's books, Derek Zahn, has not yet been heard
+from.)
+
+(My original remark was "The latest deepening of the crater was Chaitin's
+1987 proof about the randomizness of mathematics at all levels (no, not the
+mundane stuff about chaos, attractors, blah, blah)...Chaitin proved
+arithmetic itself, the rock of mathematics, is itself fundamentally random!
+As he put it, "God not only plays dice in quantum mechanics, but even with
+the whole numbers."" And in a later post I made the point even more
+clearly, citing both Chaitin's and Casti.)
+
+I won't repeat the Casti quote, nor the quotes from Pagels or Davies (whom
+Mike Price seems to dislike as a writer...). Here's one straigtht from
+Chaitin:
+
+"In conclusion, we see that proving whether particular exponential
+diophantine equations have finitely or infinitely many solutions, is
+absolutely intractable (Theorem D). Such questions escape the power of
+mathematical reasoning. This is a region in which mathematical truth has no
+discernable structure or pattern and appears to be completely random....
+
+"I believe we have demonstrated in this book that randomness is already
+present in pure mathematics, in fact, even in rather elementary branches of
+number theory. This doesn't mean that the universe and mathematics are
+lawless. it means that sometimes laws of different kind apply: statistical
+laws."  [Chaitin, "Algorithmic Information Theory," 1987, p. 163]
+
+(By the way, someone asked about what Diophantine equations have to do with
+anything. Though this may indeed sound obscure, Chaitin merely used the
+results of Jones and Matijasevec to "Godelize" programs for his abstract
+machine. This form is much more compact than the notoriously complex Godel
+numbering scheme used previously. Also, and not coincidentally, "any
+formalized mathematical assertion can be encoded as a statement about
+positive integers" (Chaitin, p. 7), thus allowing all mathematical
+assertions to be analyzed in terms of solutions to Diophantine equations.
+And the 17,000 -variable equation, which effectively is a kind of Turing
+machine (using registers though). Chaitin will actually send you the tape
+of LISP and REXX code used to run this abstract machine.)
+
+Several points:
+
+1. I obviously cannot recap Chaitin's entire proof, even if I understood it
+well enough to condense it to fit for this list (a smart aleck might note
+that Chaitin's proof is already incompressible and cannot be represented by
+anything shorter than itself).
+
+2. Some have criticized my citing of math writers like Casti, Pagels, and
+Davies, on various stylistic grounds (e.g., Mike Price doesn't like the way
+Davies had written about chaos and weather prediction...what this says
+about whether Chaitin was correct in his arguments is unclear to me). I
+cited these sources because a 2-4 page excerpt from one of Chaitin's papers
+would of course convey even less information to the casual reader than
+these writers have conveyed (because Chaitin is writing longer
+pieces--proofs--and any given 2-4 page chunk is actually less complete than
+a summary article or chapter. I chose the Casti citation because his was
+the clearest. He also provided a historical context by citing the furor in
+the mathematics community when this result was announced. (For example, one
+of the reasons I went to the first A-Life Conference in September '87 was
+to meet Chaitin, who was to talk on the impact of his results for
+artificial life....he ended up cancelling out at the last minute--a major
+disappointment for me.)
+
+3. But the largest dispute here is over the *interpretation* of the  "math
+is random" summary (bearing in mind what I actually said, the quotes from
+sources, etc.).
+
+Some sample reactions (I cannot quote the entire posts...these are
+excerpts, and I don't thing they misrepresent the views of their authors):
+
+Eric Raymond: "...'arithmetic is random' is a gross over-interpretation of it"
+
+Ray Cromwell: " "Arithemetic is random" seems to be deliberately phrased to
+cause controversy like Bennett's Quantum "teleportation."  It's not like
+2+2 yields a random result."
+
+Robin Hanson: "An infinity of undecideable facts is not at all the same as
+saying
+"arithmetic is random".  I agree that this summary is misleading."
+
+Mike Price: "I agree with Eric Raymond and Robin Hanson that Chaitin's work
+doesn't
+prove that maths is random.  These claims confuse the difference between a
+theorem or problem being _very_ hard and being undecidable.  Saying a
+computer can never solve a problem beyond a certain level of complexity
+(which Tim May has said) is a presently unverifiable claim about the
+future, not an absolute truth."
+
+(Before moving on, let me handle Mike's comment. There ARE problems which
+are provably undecideable and hence absolutely intractable, as I have
+asserted. Examples include Hilbert's Tenth Problem, and Berger's work on
+domino tiling (which I have noted elsewhere). Cf. Garey and Johnson's
+"Computers and Intractability: A Guide to the Theory of NP-Completeness."
+Chaitin's work is not with merely "hard" problems, but with
+undecideable/absolutely intractable problems. As near as we can tell, these
+proofs about undecideability are much more than just "unverifiable claims
+about the future." )
+
+I would advise those who feel that "math is random" is misleading or wrong
+to either more carefully analyze the real significance of Chaitin's
+results, or to disprove Chaitin if you think he's wrong. (Not to argue from
+"authority," but Chaitin's work is very well-regarded and has not been
+disproved so far.)
+
+Quibbling over confusing interpretations of "random" is pointless, when the
+actual results are so compelling.
+
+I'll be happy to discuss this further, provided folks have read enough
+about these results to make the discussion fruitful.
+
+
+-Tim May
+
+
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+
+
+
+------------------------------
+
+Date: Tue, 18 May 1993 07:51:24 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: Chaitin, Complexity, and the Thermodynamics of Information
+
+In <9305172045.AA28421@wookumz.gnu.ai.mit.edu>, Eric S. Raymond writes:
+|> > say, this will replace Korzybski on the night-table... I got tired of
+|> > him NEVER GETTING TO THE POINT.  Is there a better (briefer, more
+|> > readable) work on the topic than _Science and Sanity_?
+|> 
+|> Didn't somebody post a ref. for "Language In Thought And Action"?
+|> -- 
+
+ISGS has an abridged S&S in their catalog for $11.00.  I didn't think
+Hayakawa's book cut very deep -- maybe I didn't read enough of it (I
+usually give an author 50 pages to amaze me and drop the book if it
+doesn't).
+
+-- cP
+
+------------------------------
+
+Date: Tue, 18 May 1993 09:27:25 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: PHIL/MATH: Stronger results than Godel's
+
+Jan Mycielski, "Analysis without actual infinity", Notices of the
+American Mathematical Society 26(1979), A-523.
+Jan Mycielski, "Analysis without actual infinity", Journal of
+Symbolic Logic, but do not know know when exactly.
+Jan Mycielski, "Finitistic real analysis", Real Analysis Exchange
+vol. 6(1980-81), pp. 127-130.
+address: Dr. Jan Mycielski, Professor of Mathematics, University
+of Colorado, Boulder, CO 80309 (listed in the American Mathematical 
+Society/Mathematical Association of America combined membership list).
+Jas' (that's what prefers to be called, except by enemies) is
+a quiet anarchocapitalist, but as I understand he does not use
+computer mail.
+Excellent source for review of the Axiom of Choice and Continuum
+Hypothesis is: "Handbook of Mathematical Logic", edited by J. Barwise,
+North-Holland, 1977.
+Especially -- "About the Axiom of Choice" by Thomas J. Jech,
+which includes the Banach-Tarski Paradox ("paradoxical" decomposition
+of a ball) pp. 351-353, with a sketch of the proof,
+and "Forcing" by John P. Burgess, including a discussion of the
+Continuum Hypothesis and Godel's Theorem.
+
+If I understand correctly Chaitin's result as presented by Eric,
+a desirable result would be to place some natural topology on the
+set of all theorems, and then somehow show that decidable theorems
+form a set of first category, while the space itself is of the second
+category. Or -- find a probability measure on the space and show
+that probability measure of the set of decidable theorems is less
+than one. But ... is the collection of decidable theorems a set?
+Is the collection of all theorems a set? Anyways, Eric, if you do
+something like that, you will get the Fields Prize and tenure at
+Princeton.
+
+It sure like a nice thing to work on. I would give it at least three, four
+years. I have no idea yet how to even start on it.
+
+Krzys'
+
+------------------------------
+
+Date: Tue, 18 May 1993 09:36:42 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: PHIL: Godel and Infinity (was Utility of Maths)
+
+In reply to Mike Price's post I have to say that I have no idea whether
+in finitistic analysis of Mycielski there are unprovable yet true
+theorems. Again, a good topic for research, I think. Anyone wants to
+go to the forbidden state of Colorado to work with Mycielski on that?
+
+Krzys'
+
+------------------------------
+
+Date: Tue, 18 May 1993 09:42:24 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: I-N: Group Dynamics and a Question for Harry
+
+"
+I grew up with this notion that
+all the great physicists of 50 years ago were separate brilliant
+people, but historically, they mostly knew and were friends with each
+other.  Instead of going alone, they built on each other's work and
+shared a lot of mutual admiration.  That kind of group also seem the
+most fun to participate in.
+
+dean"
+
+Unfortunately, from what I know about Einstein's treatment of his
+first wife, and what I know of mathematicians related to physics, this
+is not true. But ... it might be a useful illusion.
+In fact, such illusions can help greatly in overcoming possible
+hostilities -- when people do believe that they have something in
+common despite conflicts.
+
+Krzys'
+
+------------------------------
+
+Date: Tue, 18 May 1993 09:48:04 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: Final Words on Chaitin and Randomness
+
+Although I would not agree with criticisms of Tim May's posts on
+Chaitin, let me apologize on behalf of those who did criticize, and
+post a short reason -- "math is random" can and will be interpreted 
+to mean that science is useless, and "you gotta go with the flow
+and do what feels good", without consideration for rational reasons.
+Ironically, Eric and Mike showed a very Randian approach -- 
+before you discard science simplistically, show me your substitute
+for it. I can see that Tim May's posts were not meant this way,
+but then again, Tim, please understand the "Randian fervor".
+
+Krzys'
+
+------------------------------
+
+Date: Tue, 18 May 1993 10:10:30 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: Politics, Economics: Thoughts after reading Mises
+
+The Ludwig von Mises Institute had a sale and I bought several vM books,\
+now of course I can't resist reading them. "Ludwig von Mises, Notes and
+Recollections" made two
+
+
+strong impressions on me, and I would like to share them with yall.
+
+* Archduke Rudolph, educated by Boehm-Bawerk, the father of Austrian economists,
+committed suicide because his teacher taught him to be pessimistic about
+the future of the free world, predicting wars, revolutions, tyranny
+(all correct, as predictions took place before World War I).
+But ... Boehm-Bawerk grossly underestimated the strength of the ideas of
+freedom -- after all, Nazism and Bolshevism eventually lost ...
+Even if Great Britain and France became slowly more socialist, in
+comparison to Germany at that time they represented decadent
+Capitalism.
+Then, of course, U.S. became the decadent one. Now it may be Japan.
+Somebody is always going to be decadent, and the strength of freedom
+is greater than even its friends think.
+
+* Austrian government caused a great shortage of housing by prohibitive
+taxation of rent and capital gains profits. So ... they decided to built
+public housing (I gues using taxes extracted from profiteering rent
+gougers). The public housing was built only for bachelors, in order to
+improve public morals (as bachelors renting from families tended to
+seduce daughters of the house, or worse yet, become homosexual).
+One of the beneficiaries of the great government program was a young
+bachelor named Adolf Hitler, who undoubtedly had his belief in the
+power of government to resolve social problems strengthened. Later on
+he received 11 million votes in the German presidential election.
+I wonder ... how many of those 11 million were former beneficiaries of
+Bismarck's social program?
+Interestingly enough, Leopold Mozart, the father of Wolfgang Amadeus Mozart,
+was born in the housing for the poor. But -- he was born in a project
+built by a private charitable foundation in Augsburg, Germany. 
+The foundation was started in Middle Ages, by a local wealthy banker, and
+still exists. If you fall on hard times, they will take you in, 
+and let you rent an apartment for 2 DM a month, if I recall correctly.
+
+Krzys'
+
+------------------------------
+
+Date: Tue, 18 May 93 9:32:51 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Chaitin, Complexity, and the Thermodynamics of Information
+
+Eric S Raymond reminds me:
+
+> Didn't somebody post a ref. for "Language In Thought And Action"?
+
+Yes, that's right -- looking back in the archives, Richard
+Kennaway did just that a month ago.  Unless somebody offers
+a better alternative, that book now goes into the self-organizing
+"to read" pile.
+
+Thanks
+
+derek
+
+------------------------------
+
+Date: Mon, 17 May 93 23:55:02 EST
+From: Jessica.Mcgeary@f713.n278.z1.fidonet.org (Jessica Mcgeary)
+Subject: _WIRED_ REVIEW
+
+        Dear Madam or Sir,
+                I saw a review of your journal _Extropy_ in the May/June issue
+of _Wired_ magazine, and became curious about a few things. One, how much does
+a sample issue of _Extropy_ cost?  Two, would it be possible to obtain a set
+of writer's guidelines?  Three, is there some form of e-mail list to which I
+may subscribe?  And finally, four, once I have purchased a sample issue of the
+journal and read your writer's guidelines, what is your policy on electronic
+submissions?
+        Thank you very much for your time and trouble.
+        Sincerely,
+        Jessica McGeary
+        Jessica.mcgeary@f713.n278.z1.fidonet.org
+--  
+Jessica Mcgeary - via FidoNet node 1:107/930
+UUCP: ...!rutgers!newport!278!713!Jessica.Mcgeary
+ARPA: Jessica.Mcgeary@f713.n278.z1.FIDONET.ORG
+
+
+------------------------------
+
+Date: Tue, 18 May 93 9:58:28 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Final Words on Chaitin and Randomness
+
+Tim May:
+
+> I seem to be outnumbered, though most (have any?) of the nay-sayers have
+> not read Chaitin's papers and seem to be focusing on semantic
+> hair-splitting about the meaning of the phrase "math is random." (One who
+> has actually located Chaitin's books, Derek Zahn, has not yet been heard
+> from.)
+
+Criminy!*  The first post on this topic was 32 hours ago, and already
+we're to the point of "final words?!"  Have you folks uploaded already
+or what?  I take one evening off to play with my SO and I'm left in
+the dust!
+
+I'll post when I have some opinion about what it's all about, even
+if by then you've all moved on to twistor theory or something...
+
+derek
+* or, "Criminy Dutch!"
+
+------------------------------
+
+Date: Tue, 18 May 93 17:51:09 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: Final Words on Chaitin and Randomness
+
+Tim, and all,:
+
+Let's not reduce each other to bitter tears over the randomness at the
+heart of maths claim.  You mentioned some Scientific American articles
+by Chaitin on randomness.  Give us the references and I promise not to
+post anything on the subject until I've read them.  [Actually, I have
+a vague idea I've already read them....]
+
+I can accept randomness at the heart of maths in the sense that
+computing the values of some numbers (like Omega) may take a program of
+greater complexity than the number itself.  But I am concerned about
+blurring the distinction between uncomputable in practice and
+undecidable in principle.  My objection to Paul Davies (whom Tim had
+quoted) is that he blurs this distinction completely in chaos theory so
+I have no reason to believe his pronouncements on Chaitin's work.
+
+Mike Price                         price@price.demon.co.uk
+
+PS the confusion with adverb and adjective was my error, not my
+friend's.  I will never make a linguist.  Or at least not for a while
+:-)
+
+------------------------------
+
+Date: Tue, 18 May 93 10:28:42 -0700
+From: cappello%cs@hub.ucsb.edu (Peter Cappello)
+Subject: More on Chaitin
+
+I too feel that Casti's rendition of Chaitin's work leaves something  
+to be desired.  That said, I have a few comments that may get me into  
+trouble:
+
+>All right, so the digits of omega are random and the cardinality of  
+>the "omega set" (the set of theorems mapped to the digits of omega)  
+>is aleph-null.  That doesn't imply anything much about the
+>*complement* of the omega set --- not even anything about its  
+>cardinality!
+
+For a set to be undecidable, it clearly must be infinite.  If it is  
+undecidable, its complement must be.  Therefore, if a set is  
+undecidable, its complement is infinite.  So, we do know this  
+(trivial) thing about the cardinality of its complement. (I think  
+that Eric knows this, but the sentence above seems to suggest  
+otherwise.)
+
+>This might be true, *if the omega set exhausted the space of all  
+>theorems*. Unless I have misunderstood Costi's explanation, it does  
+>not.
+
+My impression is that omega covers the set of all Turing machines.   
+It could just as easily cover the set of all finite formulas (i.e.,  
+any countably infinite set).
+
+Michael Clive Price asks:
+
+>Do this all mean that if we remove the axiom of
+>infinity we no longer encounter undecidable theorems? 
+
+
+The question "Is this particular WFF a theorem?"  is always decidable  
+(since the set of possibilities is finite). Decidablility is a  
+property of sets.  For a set to be undecidable, it must be infinite.   
+Perhaps you meant to ask "If there were only finite sets, would there  
+be any *unprovable* theorems?".   
+
+
+-Pete
+cappello@ucsb.edu
+
+------------------------------
+
+Date: Tue, 18 May 93 18:09:39 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: FTL: Traversable Wormholes 2 of 2
+
+part 2 of traversable wormholes follows:
+================================================
+5.                    EXPLORING THE UNIVERSE
+
+Time dilation has the effect of reducing trip times for relativistic
+travellers.  A traveller accelerating at one-gee reaches close to the
+speed of light within a few years.  As it speeds up ship time dilates
+more and more.  Ship or journey time to various locations, at one gee,
+are, not allowing for slow-down:
+
+         Destination (light years)   Ship time (years)
+                  Alpha Centauri       2.3
+             Centre of Milky Way       11
+                Andromeda Galaxy       15
+                Alien neighbours       19?
+     Edge of observable universe       24
+     Edge of inflationary bubble       probably < century
+
+     [trips times are not subjectively much altered if we allow higher
+     accelerations for nanomachines, that can take millions of gees in
+     their stride [12].  Actual trip times are reduced, but increased
+     mental speeds compensate to make a journey of a day seem like
+     centuries]
+
+A space probe with a wormhole could be powered from base.  The fuel is
+uploaded through the wormhole from base to the in-flight ship.  There
+would an energetically very strong potential hill for the fuel to climb
+to reach the ship.  For a ship moving at relativistic speeds most of the
+energy of the fuel would be lost in the climb.  This suggests that the
+ship would be stripped to the bare minimum, just modern rockets are.
+
+The probe remains in contact with the home base, throughout the trip. 
+As a drop point approaches another wormhole plus deceleration rig would
+be loaded through to detach itself from the mother craft.  Deceleration
+would likely be quicker and less expensive than acceleration because the
+daughter craft could brake itself against interstellar/galactic gas,
+dust and magnetic fields.  For energy cost reasons it is not likely that
+transfer of colonists would begin until deceleration is complete.
+
+The colonists transfer through this hole, whilst the main probe
+continues its outward voyage.  One of the first activities of colonists
+would be to secure the connections with home by increasing the wormhole
+capacity and numbers.  Transport of manufacturing plants, more wormholes
+etc would continue until local nanotech factories become locally more
+competitive than transport of finished product via wormholes.  After
+this point the wormholes would be increasingly used for communications
+rather than materials transport.
+
+An analogy with the cloud chamber spring to mind here.  Charged
+particles are tracked through cloud chambers.  Each particle is
+invisible, but its presence is deduced from the trail of growing
+droplets left behind.  Similarly the space probe is all but invisible,
+lost in the immensity of the dark of space.  The burgeoning colonies
+left behind mark its passage.  The colonies send out further wormholes
+probes.  From a distance the whole affair would resemble a growing 3-D
+snowflake.
+
+Road, sea and air routes let commerce draw on the whole earth's
+resources and the telecommunications highways keep us in contact with
+each other.  Wormhole connections laid down by space probes enable a
+space-faring civilisation to remain a single economic entity, with all
+the social and material benefits that follow.  Wormholes connections
+enable the region colonised to stay interconnected as civilisation
+expands through the universe.
+
+Wormholes do have one major trick up their sleeves.  We have seen that
+wormholes don't permit time travel.  But they do exhibit some very
+strange effects.  Consider a colonist stepping through the home wormhole
+to transfer to the landing ship.  Ship time and home time are running
+in synchronisation.  If I wait 15 years at home after launch before
+stepping through then I appear at the travelling end at the point when
+the probe passes Andromeda.  In crossing 2,250,000 light years of
+conventional space I travel 2,250,015 million years into the future _as
+defined relative to the co-moving frame of the universe_.
+
+6.                 EMPIRE-TIME vs CO-MOVING TIME
+
+At this stage it worth a digression to explain what this means.  Co-
+moving space-time is the space-time frame in which the average
+background distribution of matter is stationary.  Our galaxy is moving
+relative to this background distribution.  We can measure this drift by
+noticing the slight shift in frequency in the cosmic microwave
+background distribution.  Backwards along our path it is slightly red-
+shifted.  Forward along our direction of motion it is slightly blue
+shifted.  Relativity tells us all reference frames are relative, but in
+truth most astronomers think of the co-moving frame as a natural choice,
+or Schelling point, to adopt, even though we are drifting with respect
+to it.  It makes the dynamics of the expansion of the universe much
+easier to calculate, for starters.  At each point in co-moving time the
+averaged distribution of matter is even.
+
+The time frame being defined by the expansion of wormholes, which I dub
+empire-time, is not coincident with the co-moving time.  Wormholes sent
+to the Andromeda at near light speeds arrive in approx year 2,250,000
+co-moving time, but in year 15 empire-time (setting year zero at start
+of expansion).  Assuming once wormhole technology is developed we expand
+at near light speeds then the surface of constant empire-time forms an
+inverted cone in co-moving space time, with Earth at apex.  [I use the
+language of cones to describe what is really a sphere, but this is
+conventional in relativity texts, because it lends itself to greater
+ease of visualisation]  At any particular moment in empire-time the
+entire surface of the time cone is accessible to the wormhole traveller.
+
+Travelling along the wormhole highways away from Earth takes you into
+the future of co-moving time, but not in empire-time.  Later empire-time
+zones form inverted cones, like inverted dunces's hats stacked on top
+of each other.
+
+Attempts to redefine the empire-time already laid down by wormhole
+structure is resisted by CPC.  To redefine empire-time you would have
+to repopulate a region with holes travelling at a vastly different speed
+than the original colonists.  The CPC mechanism says two holes disturb
+each other as they approach closer than their empire-time difference
+times speed of light eg two holes with an empire-time difference of a
+year can't approach closer than a light year.  If the holes are of
+greatly different size then only the smaller hole is destroyed. 
+Otherwise they both are violently disrupted and destroyed.
+
+Once the empire-time frame has been defined it becomes increasingly
+difficult to change it.  As the population and economy of a region grows
+they increase the wormhole traffic carrying capacity of the locale. 
+Once established to change the relationship between co-moving and
+empire-time would require the complete upheaval of the local economy and
+denizens.  Economic growth would breed chronological stability.
+
+Questions about the distant co-moving future of our universe are
+answered directly by travel.  How quickly is the Hubble constant
+decaying?  Would the natural universe expand forever or re-collapse? 
+Is the universe spatially closed?  Send out a probe at one-gee.  From
+the above table we see that within a century of empire-time it is
+reporting back on the universe at almost inconceivable distances and
+futurities, answering questions about the fate of the natural universe. 
+If you wish you can visit the end of the universe, and come back.  "Go
+see the end of the universe" might be a catchy travel company's jingo. 
+(Actually this would only be possible in an open universe.  In a closed
+universe there would be a limit to how far you travel before CPC
+prevented you.)
+
+7.                          ALIENS
+
+Circumstantial evidence indicates alien civilisations are very few and
+far flung in the universe.  Frank Tipler has pointed out that the
+easiest way to explore the universe is send out self-replicating space
+probes [11].  Within a cosmologically short period of co-moving time (ie
+millions of years) we could colonise the Milky Way and the rest of the
+Local Group.  Tipler argues (and I agree) that the arrival of such a
+probe at a star system would preclude and supersede local biological
+evolution.  Since life on Earth has evolved over billions of years then
+we can't expect (statistically speaking) to find civilisations within
+our local group.  Where are the aliens, asked Fermi.  Many megaparsecs
+away, says Tipler.
+
+An elaboration of this argument gives grounds for believing that the
+nearest aliens are currently over a 100 million light years distant. 
+In the co-moving frame, without wormholes, we won't make contact with
+them for over 100 million years.  Which makes their existence an object
+of theoretical speculation that can't be resolved for millions of years.
+
+With relativistic probes and on-board wormholes, though, we can reach
+alien colonised regions within decades of empire-time, no matter
+(almost) how far away they are.  No probe can penetrate into a region
+of alien colonised space.  Each civilisation defines its own empire-time
+that is in conflict with the empire-time of the other.  A probe from
+Earth flying into a alien zone not only crosses alien space, but also
+crosses alien empire-time zones.  As it approaches the alien home world
+it passes into the alien empire-time future.  CPC forbids such travel
+by destroying lone wormholes that attempt to interpenetrate each others
+empires.  Only a full scale invasion with masses of wormholes could ever
+succeed.  Such an invading fleet would have to overwhelm the native
+wormholes (destroy them) and impose their own empire time on the
+stranded natives.  Given the rates of economic growth we expect the
+advantage would almost always lie with the defenders.  As the invading
+fleet cut deeper and deeper into the alien heartlands it find itself
+opposed by later and later alien time zones, more advanced technology
+and greater forces of numbers.  Economic might, then as now, ensures
+protection.  Brute force invasion would be suicide for the invaders and
+their whole empire: once defeated the invader's whole wormhole connected
+empire would be open to subversion from 'aliens from tomorrow'.
+
+A much more likely scenario would be: Contact is signalled by our
+leading wormhole probes failing in the overlap of our sphere of
+influence with the alien empire's sphere.  Finding each other's probe
+colony ships would be non-trivial.  It might be easier to find the
+colonists than the original exploration vessels.  To push the analogy
+with a particle zipping through a cloud chamber, search for the
+droplets, rather than the elusive particle.  The easiest way of doing
+this is, at the point where the relativistic wormholes are destroyed,
+is to send out sub-light non-relativistic survey probes to establish
+diplomatic relations.  If both sides explore each other with non-
+relativistic probes (relative to the co-moving frame) then their empire
+times will realign themselves, over the locale of the 'neutral zone',
+permitting diplomatic contact and, assuming no wars, eventual exchanges
+of wormholes.  The spheres of colonisation are then available to each
+other and the two empire times merge.
+
+Other expansion scenarios are possible.  A well coordinated, centrally
+controlled species might halt expansion at the boundary of their home
+galaxy (say) for a few subjective million years, building up numbers,
+armaments etc.  When their technology seemed to have plateaued they
+resume their expansion relying on technology and numbers to overwhelm
+aliens.  Such a strategy is technology dependent.  If it turns out that
+wormholes can be booby-trapped to explode on tampering or hostile attack
+such a strategy would fail.
+
+8.                     UNIVERSAL TIME
+
+Barring such hostile aliens we can expect to have contacted and be
+trading with alien civilisations within a few centuries or millennia of
+starting our wormhole exploration of the universe.  This is a
+symmetrical situation.  Not only will be meeting aliens within
+historically short period, but they will be meeting us shortly after
+their expansion begins.  Consequently all the species of the universe
+will be linking up at about the same stage in their development.  This
+gives us all shared interests and hence markets in common.  We might
+expect each civilisation to go through two future phase changes.  First
+phase change is when they develop nanotechnology and start redesigning
+themselves, speeding up etc.  Second phase change occurs when they link
+up with the rest of the universe and get the benefits of the near-
+infinite economies of scale this brings.
+
+At this point all the local empire-times have merged to form a universal
+time or simultaneity surface.  On a very large scale the sheet of
+universal time conforms with the co-moving average.  On closer
+inspection (ie scales of billions of years and light years) the
+universal time surface reveals conical pit-like indentations that mark
+the place where each civilisation arose and stamped its own
+chronological footprint on the surrounding space-time topology before
+merging with their neighbours.  By saying the universal time surface is
+indented I am revealing my co-moving prejudices.  From the vantage of
+point of someone from universal time it would be co-moving time that
+would appear bumpy.  To them civilisation birth points appear as the
+_summits_ of cones in the co-moving time surface.  Universal time would
+be the preferred time for discussing life, history, politics etc -
+everything except prehistory before Link-Up.  Absolute time, as Newton
+conceived of it [18], would have finally returned.  The notion of
+relative time frames would be irrelevant.
+
+Half the civilisations we meet are likely to have been around, in co-
+moving terms, hundreds of millions or even billions of years before us. 
+Gaining access to their time zones would enable our astronomers to
+observe the expansion of the universe in the distant past (although
+always further away from here in space than co-moving time).  The
+occurrence of the first civilisation in the universe would be the limit
+beyond which we could not travel.
+
+9.                BEYOND THE OBSERVABLE UNIVERSE
+
+The expansion of the universe is defined by a parameter called Hubble's
+constant, which relates the distance of a far galaxy with its velocity
+of recession.  Beyond a certain distance the recession velocity exceeds
+the speed of light.  Objects beyond this are red-shifted to infinity and
+are unobservable.  This distances defines the edge of our observable
+universe, an event horizon, and lies approximately (subject to
+experimental error) 15-30 billion light years away.  This is limit of
+the astronomer's universe.  What lies beyond is pure conjecture and is
+left to cosmologists.  Cosmological theories expounded over the last
+decade (in particular inflationary theories) indicate that the
+observable universe is just an infinitesimal speck in a greater post-
+inflationary bubble that extends over distances of 10^30 light years or
+more, looking pretty much everywhere as it does here.  Inflationary
+theories differ about what lies beyond this, although one suggestion is
+that naturally occurring wormholes, inflated to astronomical dimensions,
+[6] may link our post-inflationary, bubble with others, forming an
+infinitely large chaotic, fractal structure [17].  Unless we link up
+with aliens then we may never directly observe this since these regions
+will have changed greatly in the century or two of empire-time (> 10^30
+years of co-moving time) it takes to reach them.
+
+A couple of paragraphs back I mentioned the phase change, Link-Up,
+associated with linking up with the rest of the universe.  It's worth
+while stopping for a moment and considering what this might do to our
+perception of ourselves and our place in the universe.  At the moment
+we are the only civilisation we know, unique and conceited.  Even if
+civilisations are scattered at distances of 100 million light years, in
+a universe of radius 10^30 light years this still yields over 10^60
+alien cultures.  It is unlikely anyone could ever catalogue all the
+civilisations and cultures, even if they did have a nanoelectronic
+brain!  No single mind could encompass all of history.  We would have
+returned to the medieval world, surrounded by legends of distant lands
+populated by mythical and fantastic creatures.  Construction of a
+universal map would be impossible.  A trans-human traveller, exploring
+the highways and byways of life, would likely never encounter another
+trans-human, beyond the 'here be dragons' point.  If she lost her
+personal wormhole and forgot her trans-species designation code (a sixty
+digit number!) she would never, ever find her way home again.  None of
+her descriptions of where she comes from would relate to anything anyone
+else knows.
+
+10.                       OTHER USES
+
+Other uses of wormholes may be where the euclidean geometry of space is
+already confining us.  As an example computer architectures are cramped
+and hindered by speed of light limitations which are causing timing
+problems, limiting chip clock speeds, I/O delays etc.  Nanoscale
+wormholes, with their fantastic bandwidths could be used to supplement
+the data buses, conveying data from one section of a chip or computer
+to another, faster than conventional transfer would allow.  Or link up
+networks of computers for super fast number crunching.
+
+Initially, no doubt, the wormhole connections would supplement existing
+architectures.  The next logical step would be to design things for
+different topologies other than the natural euclidean one.  Instead of
+having computers in euclidean space, linked together with wormholes, why
+not place them _in_ the wormhole, out of harms way.  The technologies
+involved in generating artificial inflation to expand the interiors of
+wormholes into basement or baby universes are of the same orders of
+magnitude as creating traversable wormholes.  Construction of basement
+or baby universes has already been discussed and computer-simulated in
+the literature [4], [8].
+
+We have already mentioned that we expect speedup rates of a million or
+so with the adoption of full nanotech.  If just a factor of a thousand
+translates into GDP growth and population rates then doubling times for
+the economy may drop from decades to days.  I don't know if these growth
+rates are sustainable, even in empire-time, but they indicate that any
+limited resource is likely to be at a premium, within a years /
+subjective millennia of empire-time.  Since the amount of natural space
+per civilisation is finite economics dictates that eventually more and
+more of the economy will shift over and occupy the artificial space
+provided by basement universes.
+
+11.                         LIMITS
+
+In a sense exponential growth and euclidean space are natural enemies. 
+The volume enclosed by a euclidean 3-sphere only increases with the cube
+of the radius.  With exponential growth pressures driving expansion all
+civilisations confined to euclidean space will rapidly hit technological
+limitations or each other.  Wormholes and associated basement universes
+offer the long term prospect of escaping from this dilemma.  An array
+of basement universes connected by wormholes has the useful property
+that the volume of space enclosed grows exponentially with distance from
+origin.  A civilisation driven by exponential expansion need only grow
+radially at a constant rate, unlike in euclidean space where it must
+expand at ever faster rates.
+
+This might seem some like subtle and obtuse piece of mathematics, but
+in fact it's just a restating that a tree with continually branching
+twigs eventually strangles itself (in euclidean space), whereas it could
+grow for ever through a tangled array of wormholes and basement
+universes.  A related limitation of euclidean space is the amount of
+information a volume can contain before a black hole forms.  This
+limitation, given by the Bekenstein-Hawking bound [], grows with the
+radius squared.  No such limitation applies to a space of connected
+basement universes.  Each basement universe is shielded from the
+positive energy contribution of its neighbours by the connecting
+(negative energy) wormhole
+
+12.                        CONCLUSION
+
+We have seen that whilst the construction of wormholes is technically
+very difficult the long-term payoffs are very great.  A civilisation can
+expand through the universe, stamping its own chronology on its
+locality, at a speed only limited by its energy resources.  At the very
+least the problems of construction, theoretical and practical, will
+exercise the advanced intelligences of the future considerably.  In the
+longer term the capabilities of opened-ended infinite information
+processing lie before the civilisations who solve the problem.
+
+13.                     ACKNOWLEDGEMENTS
+
+I am very grateful to Robin Hanson for initially directing my attention
+to the subject of information processing limits and his subsequent help
+on all aspects.  My thanks to all the other recipients of the extropians
+(tm) mailing list for their feedback.  Needless to say none of the above
+share any responsibility for some of my conclusions or any of my errors.
+
+It has all been enormous fun.
+
+References:
+
+[1]  Matt Visser.  Traversable Wormholes: Some Simple Examples.
+     Physical Review D v39, n10, p3182, 15-May-1989.
+
+[2]  Matt Visser.  From Wormholes to Time Machines: Remarks on Hawking's
+     Chronology Protection Conjecture.  Physical Review D v47, n2, p554.
+     15-Jan-1993.
+     
+
+[3]  Morris and Thorne.  Wormholes in Spacetime and Their Use for
+     Interstellar Travel.  American Journal of Physics v56, p395 (1988)
+
+[4]  M Visser.  Wormholes, Baby Universes and Causality.  Physical
+     Review D v41, n4, p1116 (1990).
+
+[5]  S Hawking.  Chronology Protection Conjecture.  Physical Review D
+     v46 n2 p603 15-July-1992.
+
+[6]  Thomas Roman.  Inflating Lorentzian Wormholes.  Physical Review D
+     v47, n4, p1370 15-Feb-1993.  
+
+[7]  Thorne et al.  Cauchy Problem in Spacetimes with Closed Timelike
+     Curves.  Physical Review D v42 p1915 (1990).  
+
+[8]  KA Holcomb et al.  Formation of a "child" universe in an
+     inflationary cosmological model.  Physical Review D v39, n4 15-Feb-
+     1989.
+
+     AD Guth, Blau and Guendelman.  Dynamics of False Vacuum Bubbles. 
+     Physical Review D v35, n4 p174 (198?).  
+
+[9]  Mikheeva and Novikov.  Inelastic Billiard Ball in a Spacetime with
+     a Time Machine.  Physical Review D v47, n4 p1432 15-Feb-1993.  
+
+[10] W Israel & AE Sikkema.  Nature v349 n6304 p45 (1991).  
+
+[11] FJ Tipler.  Quarterly Journal of the Royal Astronomical Society v22
+     p279 (1981)
+
+[12] Eric K Drexler.  Engines of Creation (1986)  Garden City, New York:
+     Anchor Press.  Also Nanosystems 1991 draft
+
+[13] Carl Sagan, Contact, pub New York: Simon & Schuster(1985)
+
+[14] T Schneider.  Energy Dissipation from Molecular Machines.  Journal
+     of Theoretical Biology, v148, p125 (1991).  
+
+[15] T Schneider.  Channel Capacity of Molecular Machines.  Journal of
+     Theoretical Biology, v148, p83 (1991).  
+
+[16] C Shannon.  Communication in the Presence of Noise.  Proceedings
+     of the IRE (now the IEEE), v37, p10-21 (1949).  
+
+[17] Scientific American, April 1993, p10.  AD Linde
+
+[18] Isaac Newton.  On the Gravity and Equilibrium of Fluids (1668?)
+     Translated in 'Unpublished Papers of Isaac Newton' ed AR and Marie
+     Boas Hall (1962)
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0267
+****************************************
+

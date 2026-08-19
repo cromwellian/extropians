@@ -1,0 +1,946 @@
+From extropians-request@extropy.org Thu Oct  7 02:06:11 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA19970; Thu, 7 Oct 93 02:06:09 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA26504; Thu, 7 Oct 93 02:06:00 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA05079; Thu, 7 Oct 93 04:57:35 EDT
+Received: from news.panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+	id AA05074; Thu, 7 Oct 93 04:57:18 EDT
+Received: by news.panix.com id AA12546
+  (5.65c/IDA-1.4.4 for exi-maillist@ung.gnu.ai.mit.edu); Thu, 7 Oct 1993 04:57:13 -0400
+Date: Thu, 7 Oct 1993 04:57:13 -0400
+Message-Id: <199310070857.AA12546@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: October 7, 373 P.N.O. [08:56:50 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Thu, 7 Oct 93             Volume 93 : Issue 279
+
+Today's Topics:
+                             : Crypto:Blackmail                       [1 msgs]
+                 A "demonstration" on BlackNet is coming....          [1 msgs]
+                   Article on E. Drexler & nanotech in DDJ            [1 msgs]
+                   BLACKNET/CRYPTO: TLAs UK listening posts           [1 msgs]
+                               CRYPTO: Archive?                       [1 msgs]
+                    CRYPTO: Brand name on criminal markets            [2 msgs]
+                         ECON/CRYPT: Crypto-Extortion                 [1 msgs]
+                 Extortion Countermeasures in Crypto-Anarchy          [3 msgs]
+                 Extortion Countermeasures in Crypto-Anarchy          [1 msgs]
+                               META: Forwarding                       [1 msgs]
+                            Nightly Market Report                     [1 msgs]
+                                digicash (fwd)                        [1 msgs]
+                                  free will                           [1 msgs]
+                      new book on Kolmogorov Complexity               [2 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51821 bytes.
+
+----------------------------------------------------------------------
+
+Date: Wed, 6 Oct 1993 17:12:51 -0400
+From: tburns@gmuvax.gmu.edu (T. David Burns)
+Subject: CRYPTO: Archive?
+
+At  2:49 PM 10/5/93 -0700, Nick Szabo wrote:
+> You can find PGP code & doc sites with
+>"archie pgp"; the PGP doc
+
+Perhaps the context wasn't clear - Tim had mentioned that several of the
+topics we were discussing had been discussed on Cypherpunks. I was
+wondering if the posts were archived. I somehow got the impression that
+some archiving does take place, but I'm not sure.
+
+Dave                    tburns@gmuvax.gmu.edu (T. David Burns)
+
+
+------------------------------
+
+Date: Wed, 6 Oct 93 16:19:19 -0500
+From: nobody@rosebud.ee.uh.edu
+Subject: Extortion Countermeasures in Crypto-Anarchy
+
+Craig Presson wrote:
+>
+>Most people don't pay nearly enough attention to security and privacy
+>issues today, though. I'm getting up to speed on the former but have
+>not addressed the latter at all yet.
+
+Any good pointers on the former?
+
+Eternal!Optimist@anon.penet.fi
+
+
+------------------------------
+
+Date: Wed, 6 Oct 1993 16:29:05 -0500
+From: cpresson@jido.b30.ingr.com (Craig Presson)
+Subject: Extortion Countermeasures in Crypto-Anarchy
+
+In <199310062114.AA11801@panix.com>, nobody@rosebud.ee.uh.edu writes:
+|> Craig Presson wrote:
+[security and privacy]
+|> Any good pointers on the former?
+|> 
+|> Eternal!Optimist@anon.penet.fi
+
+Just implementing a few things I learned in Basic Pistol (which my
+instructors manage to stuff quite a bit of home defense into).
+
+- Leaving on outside lights at night
+- Clearing away bushes and whatnot that could hide creepers near
+  windows 
+- Putting a peephole in the front door
+- Buying a gun or 3 and staying proficient, obtaining a CCW permit
+- Considering an alarm system one of these days (there are actually
+  next to no breakins in my neighborhood currently, but things will
+  get worse before they get better).
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+
+------------------------------
+
+Date: Wed, 6 Oct 93 14:40:15 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: ECON/CRYPT: Crypto-Extortion
+
+Extropian friends,
+
+The subject of crypto-extortion in a world with aspects of crypto-anarchy
+has indeed been discussed before, and not just on the Cypherpunks list. I
+mentioned that Robin Hanson, Dean Tribble, others, and I had discussed it
+here on this list, I thought, because Robin was not and has not been on the
+Cypherpunks list.
+
+Here's one of my posts from March of this year, dealing with some issues
+raised by Robin. There were a number of back-and-forth points, and
+interested folks should go back to their own archives. I can, presumably,
+post my _own_ comments (even if they contain snippets of other people's
+posts, as we seem to have established by customary law), but I cannot post
+other people's posts without getting all the permissions. Consider this a
+reason to think again about the policy on archives and actually reach a
+decision and then implement it!
+
+I understand that people who were on the list back then (Burns, Friedman,
+Zahn, Szabo, etc.) may not have been interested in crypto at that time, and
+that for whatever reason, they are now interested in these issues of
+crypto-extortion, digital money, crypto-anarchy, etc.
+
+In my various comments on this issue, I'm sorry if I sound a bit abrupt and
+impatient (even though I have spent far too much time writing on this
+recently!). My frustration is rather high when people skip the debate the
+first couple of times around, and don't join the Cypherpunks list, or read
+sci.crypt, and then have a "revelation" that crypto-anarchy is an
+interesting or problematic topic, or wish to write a paper for publication,
+and then expect some of us to rehash arguments.
+
+(Note that Nick Szabo and Derek Zahn have recently joined the Cypherpunks
+list and have made some valuable contributions, so I am not faulting them.)
+
+Sorry, but I don't do paper research for others unless I get some of the credit.
+
+Here's part of the debate on crypto-extortion that appeared on this list.
+
+Other debates occurred on the Cypherpunks list, of course.
+
+
+>To: Extropians@gnu.ai.mit.edu
+>Date: Wed, 24 Mar 93 16:30:26 -0800
+>X-Original-Message-Id: <9303250030.AA15923@netcom.netcom.com>
+>X-Original-To: Extropians@gnu.ai.mit.edu
+>From: tcmay@netcom.com (Timothy C. May)
+>Subject: ECON/CRYPT: Crypto-Extortion
+>X-Extropian-Date: Remailed on March 25, 373 P.N.O. [00:30:46 UTC]
+>Reply-To: Extropians@gnu.ai.mit.edu
+>Errors-To: Extropians-Request@gnu.ai.mit.edu
+>
+>Robin Hanson writes:
+>
+>>An influential friend whom I respect is seriously concerned that the
+>>possibility of cryptographic support for extortion should make us
+>>seriously question the desirability of wider use of cryptography.  So
+>>I did the following analysis to see if we can find good enough ways to
+>>discourage such extortion.
+>
+>Yes, crypto will bring on a Brave New World.
+>
+>Use of anonymity and untraceable digital cash for unsavory uses, such as
+>extortion and contract murders (think about it for a minute), has been on
+>my mind for several years. Since beginning to talk about "crypto anarchy"
+>in late 1987, I've talked with several folks about these issues. (Phil
+>Salin, Mark Miller, Dean Tribble, Marc Stiegler, Eric Drexler, Chris
+>Peterson, Gayle Pergamit, David Chaum, Jim Bennett, Dave Ross, all by 1988,
+>and many more since.)
+>
+>First, there are already several direct analogies. Perry Metzger has
+>already mentioned postal mail threats and telephone calls. (Not the origin
+>of the terms "blackmail" and "poison pen letters" for evidence this is not
+>a new problem.) Likewise, our modern society is open to many debilitating
+>attacks.
+>
+>For example, a single person can shut down the entire U.S. table grape
+>market merely by injecting a few grapes with cyanide (the Chilean grape
+>story of a few years back). Maybe extortion, maybe unionizing activities,
+>maybe an axe to grind, maybe something else. Similar cases have hit bottled
+>medicines (Tylenol case), meat, etc. In an open, scattered society, such
+>things are possible. Anonymous bomb threats recently emptied the Empire
+>State Building. And so on. Life goes on.
+>
+>Second, strong crypto cannot easily be stopped. Check out the "Cypherpunks"
+>list for debate on this, or sci.crypt. The "genie is out of the bottle."
+>While I applaud Robin's interest in this scenario, and encourage him to
+>continue studying it, we should understand that the "dark side" of crypto
+>will probably not be sufficient to stop strong crypto from spreading.
+>
+>Third, I *do* expect some people will explicitly adopt a "I don't read
+>messages unless I know who they're from" strategy, in much the same way
+>publishers have to be very careful not to read manuscripts sent to them
+>unsolicited.  This will still not stop extortion, as the extortionist can
+>find many channels for getting the initial message to his victim (letters,
+>phone calls, a message tied to a rock through his window, etc.). But it
+>makes some targets harder to reach and thus damps the extortion threat
+>somewhat.
+>
+>Just as a policy of "no negotation with kidnappers" is not perfect, so too
+>will this strategy not be perfect.
+>
+>Fourth, more crypto privacy may mean knowing how much money a potential
+>victim has is harder to achieve. People may live more sheltered lives,
+>perhaps behind walls (as in Arab cultures). This still does not end the
+>threat.
+>
+>Fifth, and most speculatively, the threats in the "real world" may
+>accelerate a conversion to more interactions in cyberspace, where physical
+>identities ("true names") are well-secured. This will not happen anytime
+>soon, of course.
+>
+>>The basic scenario is that everyone *says* up front that they will not
+>>give into extortion, but this claim may not be credible.  So an
+>>extortionist sends an anonymous threat to someone, asking that a
+>>certain amount of untraceable digital money be sent to them by a
+>>certain date, demonstrating in some way that the extortionists knows
+>>where they live or can be harmed, and claiming that if they are not
+>>paid something very bad will happen to this victim.
+>>
+>>The extortionist also makes reference to an extortionist rating
+>>agency, who offers information relevant for estimating the chance that
+>>this extortionist will follow through on a threat, and on the
+>>additional number of similar threats the victim may expect if they
+>>give in to this one.  If the victim's normal mechanisms for preventing
+>>him/her from giving in have failed for some reason, the victim then
+>>may give in if the ransom asked is less than the expected harm if
+>>he/she doesn't give in.
+>
+>...equations and "formalism" elided....
+>
+>>The technology of commitment determines how g is a function of R.
+>>Larger payments are harder to hide from one's family and associates,
+>>who can help one enforcer prior commitments to not give in.  Larger R
+>>also increases n,m because others are more likley to learn of your
+>>having given in.  Ensuring that digital cash transfers above a certain
+>>amount are known to associates provides a way to commit to not give in.
+>>
+>>The technology of filtering determines r.  If one could send all
+>>unsolicited messages to an extortion filter, which promises to filter
+>>out all such messages from your view, r might be made low.  Or such
+>>messages might always be forwarded to an associate in order to reduce g.
+>
+>Yes, one can always hire others to screen messages, to approve all
+>transfers of wealth, etc. Sort of like a "power of attorney" or a
+>mail-screening service.
+>
+>...Robin's creative ideas on constructing an extortion service elided...
+>
+>>Without a plausible scenario for how such reputations could be created
+>>and communicated, extortion seems less of a problem; potential victims
+>>would estimate n,m so high that they would not think it in their
+>>interest to give in, even if able.  This is hopeful, but before
+>>breathing too easy we should work harder searching for such scenarios.
+>
+>Nothing forces either the extortionist or the victim to go through these
+>hypothetical extortion rating agencies...if in fact such agencies make
+>extortion less profitable or even not feasible, why would they be used?
+>
+>An extortionist can always "secretly" contact his victim, make a threat,
+>demand a payment, and collect his payment all without contacting anyone or
+>any entity besides his victim. In other words, the way it's usually done
+>today.
+>
+>As for the idea of requiring a second party to authorize any transactions
+>(to provide a way to stop extortion payments), this can be bypassed in the
+>usual creative ways (called "money laundering"--many creative schemes can
+>be found). The extortionist may agree to periodic payments below the
+>"threshold" that Robin mentioned in his original message, exactly analogous
+>to how blackmail victims keep paying and paying. And so on. (But I agree
+>with Robin that this seems to be an avenue to pursue.)
+>
+>Though I favor strong crypto and even crypto anarchy, I am less confident
+>than Robin that these markets in assassinations and extortion can be
+>suppressed.
+>
+>-Tim May
+>
+>
+>--
+>Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+>tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+>408-688-5409           | knowledge, reputations, information markets, 
+>W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+>Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+>
+>
+
+
+------------------------------
+
+Date: Wed, 06 Oct 93 22:21:08 GMT
+From: sjw@liberty.demon.co.uk (Stephen J. Whitrow)
+Subject: BLACKNET/CRYPTO: TLAs UK listening posts
+
+Here's a few notes I made on the Channel Four programme, shown tonight on
+British TV regarding the (TLA deleted)'s listening station at Menwith Hill,
+Yorkshire, and others.  It showed how lax security is (was).  I wonder how
+the home bases compare.  One woman had crossed the perimeter fence and got
+in at least 500 times.  (Dogs were on patrol, but were too friendly to
+deter.)  Films were shot of inside the buildings, and documents taken, at
+various levels of classification.  Inside the base were "more than 250
+surveillance systems".  Of the whole system, the most expensive parts were
+the VORTEX satellites, around $1 billion each.  SIGINT systems connect
+between space satellites and Silkworth computers on the ground.  (Not sure
+if these names are correct.)
+
+The Yorkshire base is a 562 acre site, a 5.5 mile perimeter.  The
+satellite tracking dishes are hidden inside what look like "golf balls",
+so it's impossible for outsiders to see which satellites are being tracked.
+The TLAs have to find new targets or face cuts, but it seems that they've 
+avoided the cuts.  30 new projects are due to be installed in the next 2
+years in the Yorkshire station alone, with the SteepleBush II new satellite
+ground terminal completed by May '94.  It was also mentioned that Lockheed
+has an involvement in running the centre.  
+
+Other bases are in Cornwall, Bedfordshire, Cambridgeshire, Cheltenham
+(GCHQ) etc.  It was said that "huge computers" select the messages the
+TLAs want to hear.  "Thousands" of recording tapes are shipped each month.
+A lot of business involves commercial secrets on foreign rivals.
+
+At one point they did say that quite a lot of constitutional laws were
+broken and gave an example of a US Senator's calls being intercepted,
+although it was pointed out that the TLA enjoyed "total unaccountability".
+
+Steve Whitrow                           sjw@liberty.demon.co.uk    
+
+------------------------------
+
+Date: Wed, 6 Oct 93 15:29:49 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: digicash (fwd)
+
+Like I said, I'll keep forwarding occasional postings on crypto to you
+folks.
+
+Bill Stewart is about to move to the Bay Area (from AT&T back east, to
+AT&T's NCR division in Pleasonton, CA), so we expect him to join in on
+the physical Cypherpunks meetings....maybe even Extropians?
+
+-Tim
+
+
+Forwarded message:
+From: wcs@anchor.ho.att.com (Bill_Stewart_HOY002_1305)
+To: bobi@pets.sps.mot.com, cypherpunks@toad.com
+Date: Wed, 6 Oct 93 18:02:04 EDT
+Original-From: anchor.ho.att.com!wcs (Bill_Stewart_HOY002_1305) 
+Message-Id: <9310062202.AA15494@anchor.ho.att.com>
+Subject: Re: digicash
+
+Yes, as Bob said, digicash *does* sound like play money,
+as any fiat currency is.  Gold and silver are, in many cultures,
+useful real money, partly because they're useful or decorative,
+durable, and hard to make more of, occasional gold rushes excepted :-)
+It's also hard to debase, though some coin-makers have short-weighted their
+coinage, or even talked people into accepting cheaper metals.
+Leaves are also pretty and conveniently grow on trees, but aren't good money.
+Ultimately, it's worth whatever goods and services people are willing
+to give you in exchange for it.
+
+Paper money with numbers on it is easy to print more of;
+some governments realize that and abuse people's trust of them,
+leading to mild-to-medium inflation rates in many countries,
+and hyper-inflation in countries that think they can print it faster
+than people can switch to less volatile currencies (Israel went through
+a period where their pound was inflating so fast that most people
+switched over to dollar-based price indexing until the government started
+behaving again; governments like the U.S. realize they can steal a lot more
+money if they do it slowly.)  I once saw a board game that used real
+Nicaraguan 50,000 cordoba notes as money - they were cheaper than 
+printing good-looking play money from scratch :-)
+
+Bits are also easy to make more of, though it may be more work if you want
+them to be prime numbers or whatever.  In order to make them useful and
+not inflated, they either have to be directly pegged to a good or service
+that people want, and offered by someone reasonably trustworthy,
+or otherwise tied to something of stable value.  Metro or BART tickets
+are magnetic cards with bits on them, which people are willing to pay money for
+because they know they'll get subway rides in return for them,
+and aren't likely to be defaulted on.  Telephone cards are 
+easy for the phone to make, but people accept them for the same reason.
+
+For digicash tokens that _aren't_ tied to a single service provider,
+you typically need some other reason to trust the issuers not to make 
+lots of them - people accept EFT, money orders, travellers' checks, and personal
+checks from a variety of issuers because they know they can get regular cash
+in return for them, and because business and legal relationships are there
+to such an extent that people don't usually default on them, though
+merchants often charge service charges to make up for the costs of redemption
+and the risk of defaults, especially for foreign transactions.
+Digicash could work the same way, only instead of Western Union accepting cash
+at one office and telegraphing a request to pay cash at another office,
+we're hauling the email around ourselves.  
+
+Authentication theory is fun, and a good subject for university research,
+and the economics are important as well, since you'd need to make a profit
+to bother running all the computation that the system costs,
+but ultimately, it won't happen until some entrepreneur or group of
+fanatics :-) decides to get down and do it.  Most of the current similar 
+systems either don't give you anonymity, or do so by using pre-paid tokens;
+anything fancier is cutting into relatively untapped markets.
+
+			Bill
+
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Wed, 06 Oct 93 19:22:40 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: free will
+
+John K Clark writes:
+> I don't see the connection [with free-will] but the Everett many
+> worlds interpretation is not something I have a deep understanding
+> of so I may be missing something.
+
+You're not missing anything.  There is no connection between (free-)will
+and many-worlds.  Or between free-will and determinism, quantum
+randomness, chaos theory etc
+
+Steve Whitrow:
+>> It's interesting to note that according to operationalists,
+>> all of these forms of "will" / "free-will" are meaningless
+>> concepts.
+
+No, just that they are indistinguishable from each other.  Therefore
+they merit only one label - will.
+
+John K Clark responds (to Steve):
+> True. The same could be said about consciousness. That's one
+> reason I'm not a hard core operationalist. 
+
+Consciousness results from the inclusion of your mental processes within
+your world-view or reality-model.  This enables introspection.  A fully
+testable condition.  To test another for consciousness ask them about
+themselves (eg how are you feeling?) along the lines of the Turing test.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Wed, 06 Oct 93 16:08:50 -0700
+From: eric@Synopsys.COM
+Subject: Extortion Countermeasures in Crypto-Anarchy 
+
+>>>>> On Tue, 05 Oct 1993 20:57:37 -0400, "Perry E. Metzger" <pmetzger@lehman.com> said:
+
+Perry> I keep mentioning that Chaumian digital cash, or any digital cash for
+Perry> that matter that I can think of, is easily traced with the aid of the
+Perry> person who bought the cash.
+
+Perry> Its easy to see why -- all he has to do is keep a copy of the numbers!
+
+But a common feature of digital cash schemes is the ability to trade
+old cash for new cash.  If this can be done anonymously, the new cash
+will be untracable.
+
+-eric messick
+
+------------------------------
+
+Date: Wed, 06 Oct 93 20:08:05 EST
+From: trestrab@GVSU.EDU (BETH TRESTRAIL)
+Subject: Article on E. Drexler & nanotech in DDJ
+
+          The Oct 93 issue of Dr. Dobb's Journal has a short (3 1/2
+ pages) article on mechanical nanocomputers, in case anyone's
+ interested.
+
+          Jeff
+
+------------------------------
+
+Date: Wed, 6 Oct 93 18:45:51 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Extortion Countermeasures in Crypto-Anarchy
+
+My hat is off to Charlie Stross for his long essay this morning. I'm
+surprised there hasn't been more discussion of it.
+
+Maybe folks are still digesting it. 
+
+Or maybe very few folks are actually interested in this topic. (I was
+disappointed that nobody seems to have noticed the announcement of my
+forthcoming book, "How I was Albert Gored and Max Mored into
+Submission by an Extropian Mind Cult--and Lived Forever to Tell About
+It.")
+
+--Tim
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Wed, 6 Oct 1993 21:59:00 -0400
+From: ddf2@postoffice.mail.cornell.edu (David Friedman)
+Subject: CRYPTO: Brand name on criminal markets
+
+This discussion recently raging seems to be mostly concerned with blackmail
+and extortion. While those may be interesting issues, they are not my chief
+concern.
+
+What worries me is that widespread use of public key cryptography and
+anonymous remailers have the potential for permitting criminal enterprises
+to take advantage of economies of scale and brand name. Consider pay
+killing, for example. My impression is that the current market price is not
+very high--somewhere in the $10,000-$20,000 range. The real difficulty, for
+most potential customers, is that it is hard and risky to find a reliable
+seller of the service.
+
+A firm interested in going into business establishes its reputation, as
+various people have suggested in related contexts, by sending the papers a
+description of a very newsworthy murder (encoded with their private key) 
+immediately before committing it, then widely publicizing the public key.
+Now many millions of people know that a message encoded with the public key
+can only be read by that firm and a message that makes sense when decoded
+with the public key must have been sent by that firm. The latter fact
+(digital signature) can be used to announce communication protocols.
+
+I am not arguing that nothing can be done about such firms--one can imagine
+ways of trying to create fake ones to trap customers, or trying to block
+the firm's mailboxes. But the new technology makes it a lot easier to
+create such firms. The result should be to greatly decrease cost and
+increase availability for those services for which either previously
+unavailable scale economies or large transaction costs used to be a major
+problem. Killing and stealing trade secrets seem obvious candidates.
+
+David Friedman
+
+David Friedman
+Cornell Law School
+DDF2@Cornell.Edu
+
+
+------------------------------
+
+Date: Wed, 6 Oct 93 19:43:34 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: CRYPTO: Brand name on criminal markets
+
+David Friedman writes:
+
+> This discussion recently raging seems to be mostly concerned with blackmail
+> and extortion. While those may be interesting issues, they are not my chief
+> concern.
+> 
+> What worries me is that widespread use of public key cryptography and
+> anonymous remailers have the potential for permitting criminal enterprises
+> to take advantage of economies of scale and brand name. Consider pay
+> killing, for example. My impression is that the current market price is not
+> very high--somewhere in the $10,000-$20,000 range. The real difficulty, for
+> most potential customers, is that it is hard and risky to find a reliable
+> seller of the service.
+
+Indeed, use of untraceable escrow services will make the market for
+killings-for-hire much more liquid, so to speak. 
+
+Most contract killings arranged by "amateurs" (angry or greedy
+spouses, business partners, etc.) are foiled by one party in the 2-way
+transaction being in law enforcement. Alice wants Bob killed, asks
+around a bit in seedly places, and is put in touch with Charles, who
+makes a deal and then arrests her as soon as money changes hands. 
+
+Pros rarely get zapped this way, because they don't just "ask around"
+for the hits. They use other "families," in other cities, who send in
+killers in fairly untraceable ways and no face-to-face negotiations
+are done. (I'm simplifying, and may have details from dozens of movies
+mixed in. But books and articles I've read on mob killings and CIA
+methods bear this out.)
+
+With untraceable communication and "trustworthy" escrow agents--whose
+true name and identity is unknown of course--potential sellers and
+potential buyers need never meet, need have no idea of who the other
+party is, etc.
+
+The escrow agent only pays if the murder (or other action) is
+completed, with proof being by a "widely witnessed event," such as a
+newsaper article on the killing (this is is spoofable in theory, but
+in practice it's fairly evident when someone dies).
+
+The FBI may in fact step up efforts to nab contractors by setting up
+victims, then nabbing the would-be assassins. But this only alters the
+market price a bit.
+
+> A firm interested in going into business establishes its reputation, as
+> various people have suggested in related contexts, by sending the papers a
+> description of a very newsworthy murder (encoded with their private key) 
+> immediately before committing it, then widely publicizing the public key.
+> Now many millions of people know that a message encoded with the public key
+> can only be read by that firm and a message that makes sense when decoded
+> with the public key must have been sent by that firm. The latter fact
+> (digital signature) can be used to announce communication protocols.
+
+Yep, that's the way "Murder Incorporated" will gain a powerful rep.
+But I suspect there will be a lot of small freelancers, too.
+
+And the beauty of the escrow agency approach is that no payment is
+made until the deed is done.
+
+(The escrow agent could "burn" it customers, as any bank can
+currently, but it has little to gain from this and everything to lose,
+namely, its "reputation capital," to use Dean Tribble's term.)
+
+> I am not arguing that nothing can be done about such firms--one can imagine
+> ways of trying to create fake ones to trap customers, or trying to block
+> the firm's mailboxes. But the new technology makes it a lot easier to
+> create such firms. The result should be to greatly decrease cost and
+> increase availability for those services for which either previously
+> unavailable scale economies or large transaction costs used to be a major
+> problem. Killing and stealing trade secrets seem obvious candidates.
+
+Liquidity in the liquidation market. An exciting world lies ahead.
+
+The good news in all this is that many people need killing.
+
+
+--Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Thu, 7 Oct 1993 10:49:36 +0800
+From: major@dcd.wa.gov.au
+Subject: META: Forwarding
+
+A suggestion: If you are going to forward a message from one mailing
+list to another (as tcmay@netcom.com (Timothy C. May) recently did
+from cypherpunks) how about nameing the group that you are forwarding
+from on the subject line, EG:
+
+  Subject: digicash (fwd from cypherpunks)
+
+So that people who subscribe to multiple lists can more easily ignore
+such messages.
+
+Thanks,
+
+Major
+
+------------------------------
+
+Date: Wed, 6 Oct 93 20:06:12 PDT
+From: martino@gomez.Jpl.Nasa.Gov (Martin R. Olah)
+Subject: : Crypto:Blackmail 
+
+Timothy C. May:
+
+>My hat is off to Charlie Stross for his long essay this morning. I'm
+>surprised there hasn't been more discussion of it.
+
+>Maybe folks are still digesting it.
+
+>Or maybe very few folks are actually interested in this topic. (I was
+
+
+I thought it was really good, but I hate taking up space with "Yeah Yeah, what
+he said!". 
+
+Some things should be kept quiet and the rest doesn't matter much. When I moved
+out of the nest I decided to live my life the way I felt and that's all there 
+was to it. Many of us here are probably used to being considered unusual and
+I can think of little that I need to keep quiet about. That`s not to say I'm
+not security conscious, but blackmail only works if you care.
+              
+                       - O Martin
+
+------------------------------
+
+Date: Mon, 4 Oct 93 22:59:28 EDT
+From: pmetzger@lehman.com (Perry E. Metzger)
+Subject: new book on Kolmogorov Complexity
+
+Springer-Verlag is publishing a new book entitled "An Introduction to
+Kolmogorov Complexity and Its Applications" By M. Li and P.M.B.
+Vitanyi in a few months.
+
+Perry
+
+
+------------------------------
+
+Date: Tue, 05 Oct 93 00:10:03 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+News Summary as of: Tue Oct  5 00:10:02 EDT 1993
+
+
+Newly Registered Reputations:
+PGP	Phil Zimmermann Defense Fund
+AMARA	Amara Graps
+
+New Share Issues:
+Symbol	Shares Issued
+PGP	10000
+BROOX	10000
+
+Share Splits:
+Symbol	n-for-1	Total Issued
+PGP	10	100000
+
+
+Market Summary as of: Tue Oct  5 00:00:02 EDT 1993
+
+Reputations of members of the Extropians mailing list:
+[ Note: Contact hex-request to have a reputation placed on this list. ]
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding
+ANTON         .61      .63      .63        10000         1943
+ARKU          .18      .31      .30        10000         5301
+BLAIR         .01     1.20    30.00        10000           26
+DEREK         .06      .19      .19       100000        18330
+DRS             -      .15      .15        10000         2600
+DVDT         1.70     1.75     1.70        10000        10000
+E             .80     1.00      .90        10000         8011
+ESR             -        -        -            -            -
+FCP           .06     1.30     1.50        80000        15345
+GHG           .02      .30      .20        10000         8180
+GOBEL         .01      .25     1.00        10000          767
+GODII         .01     1.00        -        10000            -
+H             .40      .76      .76        30000        10290
+HAM           .60      .90      .90        20000        15918
+HANNO         .15      .24        -        10000          500
+HFINN        1.50     6.00      .01        10000         1005
+IMMFR         .25      .70      .80        10000         1838
+JFREE         .02      .50      .50        10000         3200
+JOHN          .35      .40        -        10000          100
+JPP           .26      .29      .26        10000         3500
+KARL         2.00     1.00     1.00        10000         1000
+KNNTA         .12      .19      .26       100000         9900
+LEFTY         .30      .40      .40        10000         4751
+MARCR           -        -        -            -            -
+MLINK           -      .01      .01      1000000       102602
+MWM             -     1.50      .01        10000         1260
+N            5.00     9.00     9.00        10000         4750
+P           22.50    25.00     1.50      1000000           94
+PETER           -      .01     1.00     10000000          600
+PRICE           -      .01      .01     10000000         1410
+R             .40      .80      .70        10000         6100
+RJC           .65     2.00     1.00        10000         5200
+ROMA            -        -        -            -            -
+RWHIT           -        -        -            -            -
+SAMEER        .30      .75      .61        10000         9810
+SHAWN         .55      .55      .01        10000           25
+TIM          1.00     2.00     1.00        10000         1704
+WILKEN       1.00    10.00     1.00        10000          102
+-----------------------------------------------------------------------------
+
+Other reputations:
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding
+1000          .05      .40      .20        10000         5000
+110           .01      .10      .10        10000         1750
+150           .01      .10      .10        10000         1750
+1E6           .20        -      .20        10000         8825
+1E9           .01      .09      .20        10000         7000
+200           .02      .20      .10        10000         5075
+80            .01        -        -        10000            -
+90            .01        -      .10        10000         2000
+ACS           .10      .15      .12        10000         3223
+AI            .01      .09      .10        10000         2000
+ALCOR           -      .25      .20        10000      3675.00
+ALTINST         -      .25      .05        10000         4000
+AMARA           -        -        -            -            -
+ANARCHY       .20      .90     1.00        10000         1100
+BIOPR         .01      .09      .05        10000         3000
+BITD          .01     1.00        -        10000            -
+BLACK           -      .10      .10       100000         5000
+BROOX           -        -        -        10000            -
+CYPHP         .23      .25      .50        10000         8900
+D&M             -        -        -            -            -
+DC1000          -      .10        -        10000            -
+DC200           -      .15      .10        10000         1500
+DC7000          -      .10        -        10000            -
+DCFLOP        .15        -      .15        10000         6000
+DRXLR         .75      .90      .80        10000         4545
+EXI           .11      .25     1.54        10000         3025
+FAB             -        -        -            -            -
+GOD             -      .10      .10        10000         3000
+GUNS            -      .90     1.00        10000         3900
+HART            -     1.99     2.00        10000         9000
+HEINLN        .28      .30      .30        10000         6600
+HEX        100.00   101.00   100.00        10000         3988
+KLAUS         .05      .45      .45       100000        34004
+KPJ             -        -        -            -            -
+LEARY         .01      .50      .20        10000         1000
+LEF           .10      .35      .10        10000         5214
+LIST          .40    10.00      .75        10000         5000
+LP            .25      .30      .50        10000         5625
+LSOFT         .50     1.00      .50        10000         9550
+LURKR           -      .01        -       100000            -
+MED21         .01      .30      .30        10000         5399
+MMORE           -     1.25      .10        10000         3000
+MNSKY           -     1.80        -        10000            -
+MORE          .38     1.25      .75        10000         2660
+NEWTON          -      .50      .20        10000         1000
+NLAW            -      .50        -        10000            -
+NNLAW           -      .50        -        10000            -
+NSS           .02      .03      .01        10000           25
+OCEAN         .15      .18      .20        10000         6600
+PENNY           -      .08     1.50        10000         2500
+PGP             -     1.00     1.00       100000         2100
+PLANET        .01      .02      .02        10000         4000
+PPL           .30      .45      .30        10000         4600
+RAND          .18      .20      .20        10000         3500
+RAW             -      .05        -        10000            -
+SGP             -        -        -        10000            -
+SSI           .15      .20      .20        10000         5200
+TCMAY         .38      .40      .38        10000         6200
+TRANS         .01      .90      .60        10000         3211
+VINGE         .01     1.00      .75        10000         3449
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Wed, 6 Oct 93 21:09:19 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: new book on Kolmogorov Complexity
+
+> Springer-Verlag is publishing a new book entitled "An Introduction to
+> Kolmogorov Complexity and Its Applications" By M. Li and P.M.B.
+> Vitanyi in a few months.
+> 
+> Perry
+
+Yep, 561 pages! I've been checking at bookstores ever since I heard
+about it.
+
+Also, Bruce Schneier's book, "Practical Cryptography," is coming soon.
+It'll have a section on "Cypherpunks," believe it or not, so the
+themes will be wide-ranging and eclectic.
+
+--Tim May
+
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Wed, 6 Oct 93 21:31:46 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: A "demonstration" on BlackNet is coming....
+
+It occurred to me tonight that many of you on the Extropians list
+never saw the real "BlackNet" announcement that was posted to
+Cypherpunks several weeks back. The "BlackNet Investigations" piece
+was just _derivative_ of the main item.
+
+Although I authored the original BlackNet piece, as a demonstration of
+hwo nanotechnology knowhow will be uncontainable, someone else posted
+it to Cypherpunks...I did not think it especially wise to do so
+myself, even using an anonymous remailer.
+
+I sent it to several folks likely to attend the nanotech meeting it
+was planned for, to give them a real demonstration, a "gut" demo, as
+it were. At the nanotech meeting itself I passed out printed copies
+and fully admitted to having authored the piece. ("BlackNet" was the
+name I used with the late Phil Salin, founder of AMIX, in 1987-91, to
+make the point about black markets in information and how the really
+profitable version of AMIX will someday be a kind of BlackNet.)
+
+(Anyone who doubts I wrote the piece is free to encrypt to the
+BlackNet<nowhere@cyberspace.nil> public key and I'll decrypt your
+message for you. (I could've substituted my key for that in the
+original message, but you can always dig up the earlier announcement.
+Needless to say, I did not "register" the BlackNet public key with any
+of the keyservers out there.)
+
+So, to allow you to see the original piece, I will soon upload it.
+Don't freak out too much!
+
+--Tim May
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+End of Extropians Digest V93 #279
+*********************************
+

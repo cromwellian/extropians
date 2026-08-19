@@ -1,0 +1,961 @@
+From extropians-request@gnu.ai.mit.edu Mon Jul 12 23:37:00 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA10085; Mon, 12 Jul 93 23:36:58 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA14836; Mon, 12 Jul 93 23:36:37 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA09282; Tue, 13 Jul 93 02:23:45 EDT
+Message-Id: <9307130623.AA09282@ude.tim.ia.ung.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Tue, 13 Jul 93 02:21:30 EDT
+X-Original-Message-Id: <9307130621.AA09275@ude.tim.ia.ung.gnu.ai.mit.edu>
+X-Original-To: Extropians@ude.tim.ia.ung.gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0387
+X-Extropian-Date: Remailed on July 13, 373 P.N.O. [06:23:33 UTC]
+Reply-To: Extropians@ude.tim.ia.ung.gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Tue, 13 Jul 93            Volume 93 : Issue 0387
+                        
+Today's Topics:
+             AIT VirtSem: "Chaitin's Omega," by Charles Bennett       [1 msgs]
+              AIT: Configuration space changes under evolution        [1 msgs]
+                       AIT:randomness and blended frog                [1 msgs]
+                                  Bearings.                           [1 msgs]
+                   Meta: Judgement Against Eric S. Raymond            [1 msgs]
+                              My Trip to Boston                       [1 msgs]
+                  NANO/HYPERTEXT: Doing, not just talking.            [2 msgs]
+                     PAGAN/META: Let's Freeze this topic              [1 msgs]
+                           Will you be at Mythcon?                    [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 53041 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 12 Jul 93 17:26:25 -0500
+From: nobody@rosebud.ee.uh.edu
+Subject: AIT:randomness and blended frog
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+Quotes are from
+>ALGORITHMIC INFORMATION and EVOLUTION (by Chaitin)
+that Tim distributed. 
+
+>It has so far had two principal applications. The first is to provide 
+>a new conceptual foundation for probability theory based on the notion of an
+>individual random or unpredictable sequence, instead of the usual
+>measure-theoretic formulation in which the key notion is the distribution
+>of measure among an ensemble of possibilities. 
+etc.
+
+>If the object being calculated is itself a finite string of bits, and its
+>minimal description is no smaller than the string itself, then the bit
+>string is said to be algorithmically incompressible, algorithmically
+>irreducible, or algorithmically random. Such strings have the statistical
+>properties that one would expect. For example, 0's and 1's must occur with
+>nearly equal relative frequency; otherwise the bit string could be
+>compressed.
+
+What about other statistical properties? This appears to distinguish only
+between the completely random and its complement. Are such things as mean,
+variance, and bias left out? Do we keep the old population-oriented ideas
+and just stick them on top of the AIT stuff?
+
+etc.
+
+The following seems to address the frog-in-a-blender question.
+
+>defines an organism to be a region
+>whose parts have high mutual algorithmic information content, i.e., to be a
+>highly correlated, in an information-theoretic sense, region of space.
+etc.
+>how closely related are two strands of DNA, two cells,
+>or two organisms. The higher the mutual algorithmic information content,
+>the more closely related they are.
+etc.
+
+So the pre-blender frog parts have high mutual algorithmic information
+content, while the post-blender frog parts do not. The relation seems
+asymmetric; once you've computed 'frog' it's easy to compute 'blended
+frog,' but not vice versa.
+
+EO
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.2
+
+iQCVAgUBLEF/HYjvfLxJbYYtAQGSYwP7BTBL/nxcNbPIYgatTZI90ub8ukngCV5X
+g9si737drI9xR4VG9TCRC8HrgrjbtGG+UvECIRBjPzUQRbRnQCFgVsDdVg5ZW/Y/
+Y+MoqZ/F+qJSualJPUU6dKM9PVOpcoGNmHbVt1A/OEYeLgCG4MzdDpvtJmepdjhl
+i8eC/jIwc2E=
+=ra3E
+-----END PGP SIGNATURE-----
+
+
+------------------------------
+
+Date: Mon, 12 Jul 1993 17:37:57 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: PAGAN/META: Let's Freeze this topic
+
+a conscious being, Timothy C. May wrote:
+> I consider the whole affair to be disruptive of the List. We did not give
+
+As do I. I am placing a one month "freeze" on the topic of Paganism.
+
+Hopefully at somepoint we can resume the discussion with ritual within
+the context of rationality.
+
+> (frankly, Max More's comments _can_ be seen to "overturn" my verdict, as
+> others have also noted. However, there is no such thing as "overturning"
+> the verdict in the Challenge that was given).
+
+I have read Max's statements several times. I don't see anywhere in them
+where he "overturns" "in spirt" Tim's post. In fact I take Max's statements
+to back up Tim 100%.
+
+> I met the terms of the Challenge. I issued my verdict: irrational and
+> inconsistent with the List (in extreme shorthand form). The next move is up
+> to the Challenger. The enforcement mechanism is honor and reputation on the
+> List.
+
+If ESR stays on the list is up to him, but in terms of the challenge
+he made to Tim, he should leave. 
+
+> Does anyone seriously think that the science- and technology-oriented folks
+> are going to remain on this list if main topics continue to be faith
+> healing (ESR offered to teach one "open-minded" repsondent how to heal with
+> the laying on of hands), astrology, psychic powers, and incredibly
+> braggartly and overly personal recountings of sexual experiences?
+
+I don't think they would. I would urge people who wish to discuss
+Pagan or other occult stuff take it to the appropriate lists/newsgroups.
+
+
+/hawk
+
+------------------------------
+
+Date: Sun, 11 Jul 93 2:24:38 EDT
+From: boojum!esr@gvls1.vfl.paramax.com (Eric S. Raymond)
+Subject: NANO/HYPERTEXT: Doing, not just talking.
+
+I took a two-hour phone call from Eric Drexler and Mark Miller of the
+Foresight Institute on Friday the 9th.
+
+Drexler & Co. have long believed that large-scale public hypertext systems
+will soon be a critically necessary tool for helping human societies use
+technology wisely.  They argue that the explosive increase in human knowledge
+and complexity of economic life will make essential public decision-support
+systems that leverage both communities of minds and huge open-ended knowledge
+databases.
+
+I share this vision.  Five years ago, I proposed, designed, and largely
+implemented an enhanced netnews with hypertext capabilities.  It has a
+small user community now, but due to other pressures (such as the need
+to pay bills) I haven't worked on or promoted it in some time.
+
+The Institute has long known of my efforts in considerable detail, but chose
+to back a different horse for reasons which seemed good at the time; the
+Xanadu Project.
+
+Drexler and Miller called to inform me that the Xanadu Project has collapsed.
+
+After getting my update on the admittedly incomplete state of the software,
+they told me that:
+
+	(a) I've accomplished more in a few years of part-time solo work
+	    than the Xanadu people did in more than a decade of full-time work
+	    by several people.
+
+	(b) They've realized that my incremental, USENET-leveraging design
+	    approach was right all along and Xanadu's was wrong.
+
+	(c) I am now the Foresight Institute's last, best hope for
+	    public hypertext, and Mark Miller and some other (not yet
+	    named to me) Xanadu survivors are going to put as much of
+	    their time as possible at my disposal.
+
+My final summation of the capabilities of the code I have running now was
+greeted with literal applause and cheering at the other end of the line.
+
+I expect to be returning to intensive work on TMN-netnews shortly.  That means
+I may not have time for this list, starting soon.  Instead I'll actually be
+*building* the Extropian future --- or one vital component of it, anyway.
+I find this a tremendously exciting and rewarding prospect.
+
+P.S.:
+
+The flamers, prudes, and narrow-minded zealots who've been torching me for
+various sorts of alleged Extropian-incorrectness are therefore cordially
+invited to pound sand.  In the Foresight Institute's considered and official
+judgement, *this* heretic has already done more to make your dreams come true
+than all the self-righteous jack-jawing in the history of the list.
+
+Truly, hacking well is the best revenge.
+-- 
+
+------------------------------
+
+Date: Mon, 12 Jul 93 19:48:03 CST
+From: "" <dsg@staff.tc.umn.edu>
+Subject: Will you be at Mythcon?
+
+Will any of you be at Mythcon at the end of this month?  
+
+Dan Goodman dsg@staff.tc.umn.edu
+
+------------------------------
+
+Date: 	Mon, 12 Jul 1993 17:53:25 PDT
+From: Ralph Merkle <merkle@parc.xerox.com>
+Subject: Bearings.
+
+I gather there has been some discussion of molecular bearings on this
+list.
+
+The abstract of "A Proof About Molecular Bearings" by Ralph C. Merkle,
+to be published in Nanotechnology, says:
+
+Molecular bearings are likely to be as ubiquitous in future molecular
+machines as conventional bearings are in today's macroscopic machines.
+The ability to design molecular bearings will therefore be crucial.
+In molecular bearings made from a shaft with m-fold symmetry and a
+sleeve with n-fold symmetry, we prove that the potential energy of
+the bearing as a function of the rotational position of the shaft
+within the sleeve will be periodic, with a period of GCD(m,n)/mn.
+This result continues to hold true even when the shaft and sleeve
+are jointly minimized, so that the abstract perfect symmetries of
+the shaft and sleeve are marred by the perturbations in structure
+each induces in the other.  If the period is sufficiently short,
+e.g., if a small rotational change drives the bearing from one
+minimum to the adjacent minimum in the potential energy function,
+then the barrier will be small and the bearing will be able to
+rotate without difficulty.
+
+In the text of the article, two molecular bearings are used to
+illustrate the result.  To quote from the article:
+
+Molecular mechanics models of such bearings have shown that the
+potential energy as a function of rotational position can indeed
+be very nearly flat.  For example, the graphite bearing of figure
+1 has m = 7 and n = 15, for a periodicity of 1/105.  The barrier
+height between adjacent minima, modeled with the Dreiding II
+force field [8] as implemented by MSI in PolyGraf, is less
+than 0.001 kilocalories per mole.  The bearing of figure 2
+has m = 13 and n = 20, for a periodicity of 1/260.  The barrier
+height modeled with the MM2 force field [9] as implemented by
+MSI in PolyGraf, is less than 0.004 kilocalories per mole.
+By way of comparison, thermal noise at room temperature is
+about 0.6 kilocalories per mole.  These numbers might be
+somewhat in error due to round-off; it is possible that the
+true barrier heights are significantly lower than given here.
+The qualitative nature of the conclusion -- e.g., that the
+barrier to rotation is small -- is unaffected by the kinds
+of error that might reasonably be expected in either the
+empirically derived force fields or the minimization process.
+
+
+
+A bucky ball sitting on a graphite sheet would not be expected
+to exhibit force cancellation.  Two sheets of graphite will
+normally align themselves, and so again prevent force cancellation.
+
+It might be useful to post claimed errors in "Nanosystems" to
+sci.nanotech (appropriate references to section and page are
+de rigueur).  That discussion group can readily dispatch most
+such claims.
+
+   Ralph C. Merkle
+
+------------------------------
+
+Date: Mon, 12 Jul 93 18:50:33 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: AIT VirtSem: "Chaitin's Omega," by Charles Bennett
+
+[My mailer, Eudora, will split this article into two parts for transmission
+automatically. Be sure you have both parts.]
+
+
+Here's one of the best summaries of Chaitin's "Omega" and the ideas that
+led up to it. Anton Sherwood was kind enough to make a Xerox of the
+material and send it to me, as I didn't have the book at home for OCRing.
+Many thanks to Anton.
+
+This article should be looked at by everyone interested in this topic.
+Unfortunately for our Virtual Seminar, only several of us are actively
+participating in the discussions...maybe this article will spur some
+lurkers or newcomers to get involved.
+
+It deals more with the abstract mathematical side of things, and not the
+"evolution" or "complexity measures" side that the several of us have been
+discussing recently. Still, thought-provoking and foundational.
+
+As usual with these OCRed articles, watch for subtle errors, especially in
+equations. Most papers use Greek symbols, as for "Omega," which I have to
+convert to ASCII, along with exponents, superscripts, and subscripts (which
+is why such expressions as "Omega-sub-n" are used here).
+
+
+<from  Martin Gardner's book, "Fractal Music, Hypercards, and More," 1992.
+This is a guest article by Charles Bennett--one of the gurus of logically
+reversible computations, quantum cryptography, and logical depth, and a
+coworker with Gregory Chaitin.>
+
+
+
+Chaitin's Omega
+
+A fascinating unpublished paper titled "On Random and Hard-to-Describe
+Numbers" has been written by  Charles H. Bennett, a mathematical physicist
+at the Thomas J. Watson Research Center of the International Business
+Machines Corporation. It begins by recalling certain paradoxes involving
+integers, in particular a paradox that seems to stand in the way of calling
+any specific integer a random one. The resolution of the paradox makes
+randomness a property that most integers have but cannot be proved to have,
+a subject that was treated by Gregory J. Chaitin, also of the Watson
+Research Center in a 1975 "Scientific American" article. Bennett goes on to
+consider the senses in which irrational numbers such as pi can be said to
+be random. And he discusses at length the irrational number Omega, recently
+discovered by Chaitin, which is so random that in the long run no gambling
+scheme for placing bets on its successive digits could do better than break
+even.
+    The number Omega has other unusual properties. To begin with, it can be
+defined precisely but it cannot be computed. Most remarkable, if the first
+few thousand digits of the number were known, they would, at least in
+principle, provide a way to answer most of the interesting open questions
+in mathematics, in particular those propositions that if false could be
+refuted in a finite number of steps. The following discussion of these
+issues is taken from Bennett's paper, which begins with a simple variant of
+Berry's paradox. Named after G.G. Berry, the Oxford librarian who
+discovered it, the paradox was first published by Bertrand Russell and
+Alfred North Whitehead in "Principia Mathematica."
+
+By CHARLES H. BENNETT
+
+The number "one million, one hundred one thousand, one hundred twenty one"
+is unusual in that it is, or appears to be, the number named by the
+expression: "The first number not nameable in under ten words." This
+expression has only nine words, however, and so there is an inconsistency
+in regarding it as a name for 1,101,121 or any other number. Berry's
+paradox shows that the concept of nameability is inherently ambiguous and
+too powerful to be used without restriction. In a note in "The American
+Mathematical Monthly" [April, 1945] Edwin F. Beckenbach pointed out that a
+similar paradox arises when one attempts to classify numbers as either
+interesting or dull: There can be no dull numbers, because if there were,
+the first of them would be interesting on account of its dullness.
+    Berry's paradox can be avoided and even tamed, however, if the
+definition of nameability is restricted, that is, if an integer is
+considered to be named when it has been calculated as the output of a
+computer program. To standardize the notion of computation in this
+definition a simple idealized computer known as a universal Turing machine
+is introduced. This machine will accept a program in the form of a sequence
+of O's and l's on an input tape and write the results of its computation,
+again in the form of a sequence of binary digits, on an output tape at the
+end of the computation. A third tape is used during the computation to
+store intermediate results. (The use of separate tapes for input, output
+and memory is a conceptual convenience rather than a necessity; in the
+earliest Turing machines the same tape served all three purposes.) As is
+well known, a universal Turing machine can do anything the most powerful
+digital computer can do, although considerably slower. More generally, it
+can perform even the most complicated manipulation of numerical or symbolic
+information as long as the manipulation can be expressed as a finite
+sequence of simple steps in which each step follows from the preceding one
+in a purely mechanical manner without the intervention of judgment or
+chance.
+    An integer x can now be named by specifying a binary sequence p that,
+when it is given to the Turing machine as input, causes the machine to
+calculate x as its sole output and then halt. There can be no doubt that
+the program p does indeed describe x. Hence the universal Turing machine
+provides an unambiguous but flexible language in which a number can be
+described according to any of the ways it might be effectively calculated.
+(For example, the number 523 might be described as the 99th prime number,
+as (13x41)-10 or, more directly, as the binary sequence 1000001011.) Every
+integer is nameable in this language, because even an integer with no
+distinguishing properties can always be described by simply giving its
+binary sequence.
+    Returning to the question of interesting and dull numbers, an
+interesting number can now be defined, without paradox, as one computable
+by a program with considerably fewer bits, or binary digits, than the
+number itself. This short description would reflect some special feature by
+which the number could be distinguished from the general run of numbers. By
+this definition, then, 2^65,536 + 1, the first million digits of pi and
+(17!)! are interesting numbers. [The exclamation point is the factorial
+sign: n! equals 1 x 2 x 3 x . . . n.] Conversely, a dull, or random, number
+is one that cannot be significantly compressed, that is, one whose shortest
+description has about as many bits as the number itself. This algorithmic
+definition of randomness as incompressibility, which is reviewed in the
+article by Chaitin mentioned above, was developed in the 1960's by several
+mathematicians, including Ray J. Solomonoff and Chaitin in the U.S. and
+A.N. Kolmogorov in the U.S.S.R. Just as most integers are random according
+to the intuitive meaning of the word, most integers are incompressible or
+nearly so, because there are far too few short programs to go around. In
+other words, even if no programs were wasted (say by computing the same
+result as other programs), only a small fraction of the n-bit integers
+could be provided with programs even a few bits shorter than themselves.
+    Using this definition of randomness, Chaitin demonstrated the
+surprising fact that although most integers are random, only finitely many
+of them can be proved random within a given consistent axiomatic system. A
+form of Godel's famous incompleteness theorem, this result implies in
+particular that in a system whose axioms and rules of inference can be
+described in n bits it is not possible to prove the randomness of any
+integer much longer than n bits. Chaitin's proof of this assertion makes
+use of a computerized version of the Berry paradox: Suppose in a proof
+system describable in a small number of bits the randomness of some integer
+with a large number of bits can be proved. One could then design a small
+Turing-machine program based on the proof system that would yield the large
+random integer as output. If the large integer were truly random, however,
+it could not be the output of any small program, and so a contradiction has
+been reached.
+    More precisely, the Turing-machine program would incorporate a fixed
+supervisory routine, or subprogram, with a length of, say, c bits. This
+routine would utilize the n bits of axioms and rules of inference to begin
+systematically generating all possible proofs that could be derived from
+the axioms in order of increasing number of deductive steps: first all
+one-step proofs, then all two-step proofs and so on. After each proof was
+generated the routine would check to see if it was a proof that some
+integer of considerably more than n + c bits is random. If such a proof
+were found, the supervisory routine would print out the large random
+integer specified in the proof and then call a halt to the entire
+computation. The total length of the Turing-machine program (the
+supervisory routine plus the axioms and the rules of inference) would be n
++ c bits, however. In other words, a program n + c bits long Would have
+generated as its output a specific integer that by the algorithmic
+definition of randomness could not be produced by any program as small as n
++ c bits. The only escape from this contradiction is to conclude either
+that the axiomatic system is inconsistent (that is, untrue statements can
+be proved within it) or that the systematic generation of proofs must
+continue indefinitely, without uncovering a proof of randomness for any
+integer much larger than n + c bits. The original Berry paradox appeared as
+a nuisance, casting doubt on the seemingly meaningful notion of a random
+integer. The computerized Berry paradox surrounds this notion with a
+necessary hedge of unprovability, allowing it to be defined in a
+noncontradictory manner.
+    Long before the notion of a random integer was taken seriously Emile
+Borel, Richard von Mises and other' mathematicians sought to define and
+find examples of random real numbers or, equivalently, random infinite
+sequences of decimal or binary digits. It has been conjectured that
+irrational numbers such as pi, e and SQRT (2), which occur naturally'in
+mathematics, are random in the sense that each digit, and indeed each block
+of digits of fixed length, appears with equal frequency in their decimal
+expansion. Any sequence of digits with this property is said to be normal.
+It is not hard to show that no rational number is normal no matter what
+base it is expressed in, and that almost all the irrational numbers must be
+normal in every base. So far none of the individual classic irrational
+numbers has been proved normal, however, although statistical evidence
+generally supports the conjecture that they are.
+    On the other hand, it is easy to construct "artificial" irrational
+numbers that can be proved normal in spite of the fact that their digits
+follow a trivial and transparent pattern. The most famous of these numbers
+was invented by D.G. Champernowne in the early 1930's: 
+0.123456789101112131415161718192021222324 ....   This preposterous number,
+which consists of the decimal integers in increasing order, has been proved
+not only irrational and normal (in base 10) but also transcendental. (The
+transcendental numbers are those numbers that are not the roots of ordinary
+algebraic equations.) In the initial portions of Champernowne's number
+there are significant departures from normality, but the differences in
+frequency tend toward zero as the number of digits being considered is
+increased. It is apparently not known whether the number is normal in all
+other bases.
+    Although the sequence of digits in the decimal expansion of pi may be
+random in the sense of being normal, the sequence is not unpredictable. In
+other words, a good gambler, betting on the successive digits of pi, would
+eventually infer the rule for calculating the number and thereafter win
+every bet. The same is true of Champernowne's number. Is there a sequence
+so random that no computable gambling strategy, betting on each successive
+digit at fair odds, could do better than break even? Any number that is
+random in this strong sense would necessarily be normal in every base. It
+is a fundamental result of probability theory that in fact almost all real
+numbers are random in this way, but finding a specific instance of such a
+number is not easy. Moreover, there is a sense in which no specifically
+definable real number can be random, since there are uncountably many real
+numbers (that is, the set of real numbers is too large to be matched up
+one-for-one with the positive integers) but only countably many
+definitions. In other words, the mere fact that a real number is definable
+makes it atypical. In this case, however, the problem is only to find a
+number that cannot be shown to be atypical by constructive, or
+computational, means. In particular the number must not be computable from
+its definition, because if it were, a perfect betting strategy could be
+devised.
+    Chaitin's irrational number Omega is, among its other remarkable
+properties, random in this strong sense. To understand why that is true,
+however, it is necessary to deal briefly with the classic unsolvable
+problem of computability theory known as the halting problem: the task of
+distinguishing computer programs that come to a spontaneous halt from those
+that run on indefinitely. Leaving aside gross programming errors, which can
+cause a program to halt or not to halt for trivial reasons, a program halts
+if it succeeds in doing what it set out to do, when it has computed, say
+the 99th prime number or the first million digits of pi. Conversely, a
+program will run on indefinitely if the task it is embarked on is an
+unending one, such as computing all prime numbers or searching for a planar
+map that cannot be colored with only four colors so that no two adjacent
+regions are the same color.
+    At first the halting problem might seem solvable. After all, the fact
+that a program halts can always be demonstrated by simply running the
+program long enough. Moreover, there are many programs that can easily be
+proved to halt or not to halt without ever running them. (For example, the
+famous four color theorem, which states that five colors are never required
+for the map-coloring task mentioned above, was finally proved in 1976, and
+that proof guarantees that the map-coloring program will not halt.) The
+difficulty comes, then, not in solving particular cases of the halting
+problem but in solving the problem in general. A.M. Turing, the British
+mathematician who invented the Turing machine, showed that there is no
+general prescription for deciding how long to run an arbitrary program so
+that its halting or nonhalting will be revealed. He also showed that there
+is no consistent system of axioms strong enough to decide the halting of
+all programs without running them. The unsolvability of the halting problem
+can be derived from and indeed is equivalent to the more recent result that
+randomness, in the Chaitin-Kolmogorov sense of incompressibility, is a
+property that most integers have but cannot be proved to have.
+    Now imagine that the Turing machine, instead of being given a definite
+program at the beginning of its computation, is fed a random sequence of
+bits. That can be accomplished by flipping a coin whenever the machine
+requests another bit from its input tape and feeding in 1 or O, depending
+on whether the coin comes up heads or tails. This procedure raises a
+curious question: When the procedure is begun, what is the probability that
+the machine will eventually halt?
+    The answer is Chaitin's number Omega Because the value of Omega depends
+on which universal Turing machine is being used, it is not a single
+universal constant like pi. For a given machine, however, Omega is a
+well-defined irrational number between zero and one, with a natural
+interpretation as that machine's halting probability on a random program. A
+randomly chosen program is very likely to tell the computer to do something
+impossible or pointless, so that the machine either stops immediately in an
+error state or loops endlessly through a small sequence of instructions.
+For most computers the former behavior predominates, and so because the
+halting probability is close to 1 the decimal expansion of Omega begins
+with several consecutive 9's. It can be shown, however, that the digit
+sequence of Omega soon becomes quite patternless, ultimately defeating any
+computable gambling strategy, as well as being random in the
+Chaitin-Kolmogorov sense of incompressibility.
+    The most remarkable property of Omega is not its randomness, however.
+After all, it shares that property with the great majority of real numbers.
+Rather it is the fact that if the first few thousand digits of Omega were
+known, they would, at least in principle, suffice to decide most of the
+interesting open questions in mathematics. This property, as well as
+Omega's immunity to gambling, is due to the compact way Omega encodes
+solutions to the halting problem.
+    The most famous unsolved problem in mathematics is probably Fermat's
+"last theorem," which states that the equation x^n+ y^n = z^n has no
+solution in positive integers when n exceeds 2. Pierre de Fermat made this
+assertion in a handwritten note in the margin of a book on number theory,
+adding that he had discovered a truly remarkable proof of it that the
+margin was not large enough to hold. Fermat died without exhibiting his
+proof, and three centuries of effort by other mathematicians have yielded
+neither a proof nor a refutation.
+    Fermat's last theorem, like most of the famous unproved conjectures in
+mathematics, is an assertion of nonexistence and therefore could be refuted
+by a single finite counterexample, namely a set of integers x, y, z and n
+that solve the equation. Such finitely refutable conjectures are equivalent
+to the assertion that some computer program that searches systematically
+for the allegedly nonexistent object will never halt. Another famous
+finitely refutable proposition is Goldbach's conjecture, which asserts that
+every even number is the sum of two primes.
+    Another kind of finitely refutable conjecture that has had an important
+place in the history of mathematics is the assertion that some proposition
+is independent of a given set of axioms, that is, the proposition can be
+neither proved nor refuted. The most famous propositions of this type are
+the parallel postulate, which states that through a given point there is
+exactly one line parallel to a given line, and the continuum hypothesis,
+which states that there is no infinite number between aleph-null (the
+number of positive integers) and c (the number of real numbers). In the
+19th century the parallel postulate was shown to be independent of the
+other axioms of Euclidean geometry, and in this century the continuum
+hypothesis was shown to be independent of the axioms of set theory. The
+independence of a proposition P from a given set of axioms is equivalent to
+the nonhalting of a program that systematically generates proofs from the
+axioms, searching for a proof or refutation of P.
+    Not all famous conjectures are finitely refutable. For example, no
+finite amount of direct evidence can decide whether pi is normal, whether
+there are infinitely many twin primes (consecutive odd primes such as 11
+and 13 or 857 and 859) or whether the P !=! NP conjecture in complexity
+theory is true.  [The P !=! NP conjecture asserts that there are
+mathematical problems for which the validity of guessed solutions can be
+verified quickly but for which solutions cannot be found quickly.] Such
+conjectures are not equivalent to halting problems, but there is good
+reason to believe most of them could be settled indirectly, by proving
+stronger, finitely refutable conjectures. For example, many twin primes are
+known, and empirical evidence indicates that the spacing between them grows
+rather slowly. Therefore the twin-prime conjecture may be viewed as an
+unnecessarily weak form of a stronger and still probably true assertion
+about the spacing of twin primes, say that there is always at least one
+pair of twin primes between 10^n and 10^(n + 1). This stronger assertion is
+equivalent to the nonhalting of a program that looks for an excessively
+large gap (greater than a factor of 10) in the distribution of twin primes.
+(It is important to note that some mathematical questions cannot be reduced
+to halting problems, for example, some questions about Omega itself. These
+irreducible questions tend, however, to be rather artificial and
+self-referent.)
+    Interesting conjectures, like interesting numbers, tend to be concisely
+describable. It is hard to imagine a mathematically interesting, finitely
+refutable conjecture so verbose that it could not be encoded in the halting
+problem for a small program, one a few thousand or tens of thousands of
+bits long. Thus the answers to all interesting conjectures of this kind,
+including those that have yet to be formulated, would in principle be
+available if there were some kind of "oracle" capable of solving the
+halting problem for all programs shorter than a few thousand bits. The
+number of programs involved would still be enormous; for example, there are
+about 2^1000 programs shorter than 1,000 bits. Hence it would seem that any
+oracle able to answer all these questions correctly would have to either be
+very smart or possess an enormous amount of stored information. In fact,
+because of the compact way in which Omega encodes the halting problem, its
+first few thousand bits serves as just such an oracle.
+    How can solutions to specific halting problems be recovered from Omega?
+Since Omega is defined as the overall halting probability of a computer
+with random input, it can be regarded as the sum of the probabilities of
+all halting computations. Each halting program contributes to the sum its
+own probability of being chosen (by accident, as it were) when the input
+bits are supplied by coin tossing. The probability of generating any
+particular k-bit program in k coin tosses is 1/2^k. Therefore if feeding
+this program to the Turing machine one bit at a time causes it to embark on
+a halting computation in which all k bits of the program but no more are
+actually requested and read, then that program's contribution to Omega is
+1/2^k (Programs that call for the machine to read more or fewer bits than
+there are in the program are considered not to halt, ensuring that each
+halting computation's contribution to Omega is counted only once.)
+    Figure 132 shows how the first n bits of Omega can be used to solve the
+halting problem for all programs of n bits or fewer in length. Because
+Omega is an irrational number the number that consists of its first n bits,
+Omega-sub-n, slightly underestimates its true value: Omega-sub-n is less
+than Omega, which is less than Omega-sub-n+ 1/2^n. In order to solve the
+halting problem for all n-bit programs, one begins a systematic but
+unending search for all the programs that
+halt, of whatever length, running first one program and then another for
+increasingly long times until enough halting programs have been found to
+account for more than 11, in total halting probability.
+
+
+<a figure is included here in the original which shows a balance with a
+weight labeled "Omega-sub-n" on the left side and various weights being
+added on the right side.>
+
+
+    One way to visualize this process is to consider a balance with a
+weight equal to Omega-sub-n, in its left pan. As is shown in the
+illustration the programs are run in a way that is reminiscent of the song
+"The Twelve Days of Christmas": first one step of the first program is run,
+then one step of the second program and another step of the first, then one
+step of the third program, another step of the second and another step of
+the first, and so on. Every time a program of length k is found to halt, a
+weight of 1/2^k is dropped into the right pan of the balance, because 1/2^k
+is the probability of that program being chosen and executed by a computer
+whose input bits are supplied by coin tossing. Eventually the balance must
+tip to the right, since the total weight of the programs that halt--the
+halting probability of Omega--is an irrational number between Omega and
+Omega + 1/2^n.  By this time a great many programs will have been found to
+halt, some longer than n bits and some shorter, and many programs that may
+halt later will not have done so yet. After the balance has tipped.
+however, no more programs of length n or less can halt, because if one did,
+that would raise ~ above its established upper bound of Omega + 1/2^n. In
+other words. the subsequent halting of a program of n bits or fewer would
+alter one of the known digits of
+    If this gargantuan computation were carried out with a sufficiently
+precise estimate of Omega, say the first 5,000 bits, then among the
+programs whose fate would be decided would be one whose nonhalting would
+verify Fermat's last theorem, and programs that would decide Goldbach's
+conjecture and all other simply stated, finitely refutable conjectures. In
+addition programs would be included whose nonhalting would almost certainly
+settle many conjectures that are not finitely refutable, such as those
+about the normality of pi, the twin primes and the P !=! NP question, by
+proving stronger, finitely refutable statements.
+    Returning to the senses in which Omega itself is random--its
+incompressibility and the impossibility of successfully gambling on its
+digits--it may seem strange that Omega can contain so much information
+about the halting problem and yet be computationally indistinguishable from
+a meaningless random sequence. Actually Omega is a totally informative
+message, one that appears to be random because all redundancy has been
+squeezed out of it, a message consisting only of information that can be
+obtained no other way.
+    To put Omega's lack of redundancy in perspective, consider a more
+traditional way of encoding the halting problem in an uncomputable
+irrational number: let K be defined as the real number whose nth bit is 1
+or 0, depending on whether or not the nth program halts. K is indeed often
+referred to as an oracle for the halting problem, but it is a very dilute
+oracle in the sense that the first 2^n bits of K contain about the same
+information as the first n bits of Omega: enough to solve the halting
+problem for all programs of n bits or fewer. K is susceptible to gambling
+precisely because it is dilute. For example, a sizable portion of all
+programs can easily be proved to halt or not to halt for trivial reasons.
+The corresponding bits of K are predictable, and by betting only on those
+bits a gambler could win consistently. Moreover, even the unpredictable
+bits of K
+are not totally unpredictable. Often two programs can be shown to be
+attacking the same nontrivial problem in different ways. The halting of one
+program will then decide the halting of the other, and a gambler who
+"passed" on the first program, not knowing which way to bet, could bet
+confidently on the second.
+    The fact that Omega is incompressible and immune to gambling follows
+from its compact encoding of the halting problem. Because the first n bits
+of Omega solve the halting problem for all programs of n bits or fewer,
+they constitute an "axiom" sufficient to prove the incompressibility of all
+incompressible integers of n bits or fewer. If Omega-sub-n could be
+computed by a program significantly shorter than n bits, then a program of
+similar size would suffice to find and print out the first incompressible
+n-bit integer, which is a contradiction. In other words, since fin provides
+enough information to compute a specific n bit incompressible integer, it
+must be incompressible itself.
+    Throughout history mystics and philosophers have sought a compact key
+to universal wisdom, a finite formula or text that would provide the answer
+to every question. The use of the Bible, the Koran and the I Ching for
+divination and the tradition of the secret books of Hermes Trismegistus and
+the medieval Jewish Cabala exemplify this belief or hope. Such sources of
+universal wisdom are traditionally protected from casual use by being
+difficult to find as well as difficult to understand and dangerous to use,
+tending to answer more questions and deeper ones than the searcher wishes
+to ask. The esoteric book is, like God, simple but undescribable. It is
+omniscient, and it transforms all who know it. The use of classical texts
+to foretell mundane events is considered superstition nowadays, yet in
+another sense science is in quest of its own Cabala, a concise set of
+natural laws that would explain all phenomena. In mathematics, where no set
+of axioms can hope to prove all true statements, the goal might be a
+concise axiomatization of all "interesting" true statements.
+    Omega is in many senses a Cabalistic number. It can be known of through
+human reason, but not known. To know it in detail one must accept its
+uncomputable sequence of digits on faith, like words of a sacred text. The
+number embodies an enormous amount of wisdom in a very small space inasmuch
+as its first few thousand digits, which could be written on a small piece
+of paper, contain the answers to more mathematical questions than could be
+written down in the entire universe--among them all interesting finitely
+refutable conjectures. The wisdom of Omega is useless precisely because it
+is universal: the only known way of extracting the solution to one halting
+problem, say the Fermat conjecture, from Omega is by embarking on a vast
+computation that would at the same time yield solutions to all other simply
+stated halting problems, a computation far too large to be actually carried
+out. Ironically, however, although Omega cannot be computed, it might be
+generated accidentally by a random process, such as a series of coin tosses
+or an avalanche that left its digits spelled out in the pattern of boulders
+on a mountainside. The first few digits of Omega are probably already
+recorded somewhere in the universe. No mortal discoverer of this treasure,
+however, could verify its authenticity or make practical use of it.
+
+<end of Bennett's section...the following from Martin Gardner>
+
+    As this column was going to press I received a telegram from the
+notorious numerologist Dr. Matrix asserting that he is in possession of the
+first 1,101,121 bits of Omega (in principle enough to answer a good many
+uninteresting questions as well as all the interesting ones). He is
+currently soliciting bids on individual bits or consecutive blocks.
+
+BIBLIOGRAPHY
+
+"Randomness and Mathematical Proof." Gregory J. Chaitin,
+    in Scientific American, May, 1975, pages 47-51.
+
+Algorithmic Information Theory. Gregory J. Chaitin. Cambridge University
+Press, 1987. 
+
+Information, Randomness, and Incompleteness. Gregory J.
+Chaitin. World Scientific, 1987. 
+
+"The Ultimate in Undecidability." Ian Stewart, in Nature, 232,
+1988, pages 115-116. 
+
+"Randomness in Arithmetic." Gregory J. Chaitin, in Scientific
+    American, July, 1988, pages 79-85.
+
+
+
+------------------------------
+
+Date: Mon, 12 Jul 1993 22:36:17 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: My Trip to Boston
+
+Hi,
+
+It is 97% likely I will be in Boston from the Evening of Aug 2nd
+through the afternoon of Aug 6th.
+
+I will be attending the MacWorld Conf.
+
+I will mostly be staying at the Copely Plaza (sp?)
+
+I was thinking of getting together at an non-vegan fatty
+Cajun rest. I know of. Other suggestions taken.
+
+Any ideas? Dates?
+
+Also I am open to non-group activties as well.
+
+Let me know if you want to get together,
+
+/hawk
+
+-- 
+Harry S. Hawk  				      habs@panix.com
+Electronic Communications Officer, Extropy Institute Inc.
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Mon, 12 Jul 1993 23:24:56 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: Meta: Judgement Against Eric S. Raymond
+
+As I previously indicated to you, you violated my posting restriction,
+during the 24 hours period I had asked list members to restrict
+themselves to a single post.
+
+You have not presented convincing nor compelling reasons for this; you
+simply stated you didn't see it.
+
+In judgment against you, I am removing your posting priv. for a period
+of one week.
+
+I also which to remind you, in case you didn't see it, I have frozen
+the Pagan thread for a period of one month.
+
+/hawk
+
+-- 
+Harry S. Hawk  				      habs@panix.com
+Electronic Communications Officer, Extropy Institute Inc.
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Mon, 12 Jul 93 20:44:06 PDT
+From: hfinney@shell.portal.com
+Subject: AIT: Configuration space changes under evolution
+
+Derek Zahn wrote (in "compressed mode"):
+
+> Idea partly baked, but some cases are easy: biological evolution acts
+> on genetic material; configuration space is the set of genomes.  As
+> population fitness increases, number of competitive genomes decreases.
+> Should actually be applied to entire ecologies since fitness landscapes
+> change with coevolution, but is too large to fit in the margin of this
+> email message.
+
+I've been thinking about this (at the leisurely pace appropriate for
+our "seminar"), and I'm really not sure that configuration space decreases
+under the influence of evolution.
+
+Originally we had only single-celled organisms.  Photosynthesis was
+discovered, multi-cellular organisms devloped.  Animals evolved which fed
+on the plants.  Large organisms with organ systems evolved.  Plants moved
+onto the land, followed by animals.  Flight joined walking and swimming as
+a method of locomotion.
+
+This seems to suggest a tendency towards greater diversity rather than
+less.  Perhaps if intelligence hadn't evolved even more ecological niches
+might eventually be exploited, with interplanetary travel not completely
+out of the question.
+
+At a smaller time scale, if you look at a single species from formation to
+extinction, it's not clear that you are dealing with a steadily decreasing
+configuration space.  Species are small in numbers initially, and they
+may increase their genetic diversity as they spread and multiply.
+
+I think I can understand the intuition Derek may have been using: as we
+approach an optimum, we may explore a smaller and smaller space close to
+that optimum.  But I'm not sure this model applies to life, since it's
+not clear there is such a thing as an optimum in this case, where as 
+Derek points out the "fitness landscape" depends on what other organisms
+exist.
+
+I'm even wondering if a cyclic situation could develop, in which a population
+of A's could be invaded by a B, leading eventually to all B's; but then the
+B's could be replaced by C's, only to have the C's be replaced by A's.  This
+kind of non-transitive dominance can be seen in voting and dice, and perhaps
+could apply in life as well (from War of the Worlds: people beat germs;
+martians beat people; germs beat martians). 
+
+If such a thing could happen, it would challenge the notion that evolution
+inevitably leads to increased logical depth.  Like other physical processes
+which repeat themselves uninterestingly (planets orbiting the sun, etc.),
+evolution could perhaps fail to make continual progress.
+
+Hal Finney               hfinney@shell.portal.com               HFINN on Hex
+
+------------------------------
+
+Date: Mon, 12 Jul 93 20:44:05 PDT
+From: hfinney@shell.portal.com
+Subject: NANO/HYPERTEXT: Doing, not just talking.
+
+Eric's message reminds us of a good reason to be civil and polite on
+this list.  You never know who may be in a position of influence in the
+future.
+
+As immortalists, Extropians need to plan for the long term.  The enemy
+you make today may be someone whose services you badly need 100 years
+from now.  Indeed, those who get off to an early start in accumulating
+resources and making plans for the distant future may well include those
+who possess the power in the future to make things happen.  I would not
+be surprised to find that those with Extropian and similar outlooks will
+eventually wield a disproportionate share of the world's wealth.
+
+It follows that if you do have to make enemies, this list may be one of the
+worst places in which to do it.
+
+We have occasionally debated ethics here, discussing what practices are
+good or bad.  Many of us lean towards a utilitarian approach, arguing that
+what is "good" is what is most beneficial to yourself in the long term.
+We further argue that to a large extent the practices which will bring
+long term benefit are those simple principles of hard work, honesty,
+and good will which we have been taught since childhood.  There is no
+need to invoke supernatural powers to frighten people into cooperation;
+rather, the structure of the universe will, over the long term, reward
+those who cooperate and punish those who cheat and steal.
+
+In seeking to find allies and avoid enemies here, then, I am not advocating
+a cynical, manipulative "political" politeness, where we hide our true
+feelings in order to curry favor.  Rather, we need to internalize the
+recognition that we are all human beings who have feelings and dreams. 
+Writing a withering putdown or scornfully flaming an ignorant poster may be
+satisfying, but it can bring pain to others.  Developing the ability to
+feel that pain, the empathy to imagine how what you are writing may be
+received, will be a survival trait in the long term.   
+
+Whether Eric's efforts succeed or fail (and I think we all have good reason
+to hope they succeed), consider the embarrassment and discomfort we may feel
+at the prospect of a "list pariah" going on to achieve great goals.  These
+feelings should be a warning and a lesson to us.  They show that we may
+not have conducted ourselves in such a manner as to maximize our chances
+of a long, successful future.
+
+Hal Finney               hfinney@shell.portal.com               HFINN on Hex
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0387
+****************************************
+

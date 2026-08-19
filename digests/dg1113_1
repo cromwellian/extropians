@@ -1,0 +1,941 @@
+From extropians-request@extropy.org Sat Nov 13 17:10:20 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA09633; Sat, 13 Nov 93 17:10:00 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from apple-gunkies.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA08319; Sat, 13 Nov 93 17:09:48 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by apple-gunkies.gnu.ai.mit.edu (5.65/4.0)
+	id <AA09765@apple-gunkies.gnu.ai.mit.edu>; Sat, 13 Nov 93 20:02:04 -0500
+Received: from news.panix.com by apple-gunkies.gnu.ai.mit.edu (5.65/4.0) with SMTP
+	id <AA09760@apple-gunkies.gnu.ai.mit.edu>; Sat, 13 Nov 93 20:01:50 -0500
+Received: by news.panix.com id AA14852
+  (5.65c/IDA-1.4.4 for exi-remail@apple-gunkies.gnu.ai.mit.edu); Sat, 13 Nov 1993 20:01:45 -0500
+Date: Sat, 13 Nov 1993 20:01:45 -0500
+Message-Id: <199311140101.AA14852@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: November 14, 373 P.N.O. [01:01:32 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Sun, 14 Nov 93             Volume 93 : Issue 317
+
+Today's Topics:
+                                                                      [1 msgs]
+                               Eldridge Cleaver                       [1 msgs]
+                                   Kangaroos                          [1 msgs]
+                           Forged messages, et al.                    [2 msgs]
+                           Forged messages, et al.                    [1 msgs]
+                                  Free Agent                          [1 msgs]
+                       HEX: Cash for Thornes! (resend)                [1 msgs]
+                                  KANGAROO                            [1 msgs]
+                            Libertarian FTP site?                     [1 msgs]
+                              META: money, money                      [1 msgs]
+                               Meta:  passwords                       [1 msgs]
+                        Meta: Donald's comments on ExI                [1 msgs]
+                         Meta: I'm away this weekend                  [1 msgs]
+                               Meta: Judgement                        [6 msgs]
+                               Meta: Judgement                        [1 msgs]
+                          Meta: Judgement                             [1 msgs]
+                     Meta: jamesdon@jamesdon.infoserv.com             [1 msgs]
+                                    Sorry!                            [1 msgs]
+                               VIACRYPT ADDRESS                       [1 msgs]
+                                 frequencies                          [1 msgs]
+                                 frequencies                          [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52457 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 12 Nov 93 17:31:39 EST
+From: eli@suneast.east.sun.com (Elias Israel - SunSelect Engineering)
+Subject: Forged messages, et al.
+
+Perry writes:
+> The infrastructure really isn't there yet. Give us six months,
+> though...
+
+So, if I'm hearing you corretly, you think that the idea is basically
+sound, but we're not quite ready for it.
+
+If so, what can we do to advance it? What about a mod to the list software
+just to recognize signatures for now. It could check any signatures
+found in incoming mail and add a field to the mail header indicating
+the success or failure of the check. (A little elaboration would be
+needed to prevent forged headers from messing things up, but it should
+be manageable.) For the truly paranoid, leaving signature checks up to
+the list software is unlikely to be secure enough, but perhaps it is
+enough of a step in the right direction to get some of the infrastructure
+in place.
+
+Or, Perry, were you talking about some other kind of infrastructure? Perhaps
+you meant more widely available PK solutions? Or a resolution to the
+sadly ongoing PKP vs. PGP wars?
+
+Elias Israel
+eli@east.sun.com
+HEx: E
+
+------------------------------
+
+Date: Fri, 12 Nov 93 14:45:08 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Forged messages, et al.
+
+Elias Israel writes:
+
+> be manageable.) For the truly paranoid, leaving signature checks up to
+> the list software is unlikely to be secure enough, but perhaps it is
+> enough of a step in the right direction to get some of the infrastructure
+> in place.
+
+A rule of thumb: sign only when you need to.
+
+In real life, signatures are _rarely_ checked, even cursorily. In the
+electronic age, signatures will be checked much more frequently, of
+course.
+
+But I have no pressing need, paranoid or not, to check the signatures
+of messages here. I would if some financial dealing hinged on it,
+hence the rule of thumb above.
+
+If the List wants to check sigs, fine. My messages can say
+"unverified" and people can decide to read them or not. 
+
+For the reasons I've mentioned here and in my earlier post, I'll be
+disappointed if the practice is made mandatory.
+
+--Tim May (signature not verified)
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Fri, 12 Nov 93 18:14:06 EST
+From: rjc@gnu.ai.mit.edu
+Subject: Meta: jamesdon@jamesdon.infoserv.com
+
+Harry Shapiro writes:
+> 
+> Perry has indicated that jamesdon@jamesdon.infoserv.com has been posting
+> forged mail to the list.
+> 
+> Ray is going to check this out and if this is the case suspend Mr
+> Donaldson's list usage. 
+  
+   I have examined the raw headers in the message queue and Donald is
+indeed guilty of pseudospoofing. The list software does not rewrite
+From: lines so it's impossible that a bug caused it. 
+
+   It appears that Donald did not intend to actually pseudospoof Perry, but
+to avoid the list security as he included his own sig and left the
+Message-Id and From envelope as normal.
+
+   The list software can not prevent spoofing as there is no way, using
+header data alone, to authenticate a message. However, from the very beginning
+the list software has had another method of preventing individuals from being
+spoofed but it is turned off as default.
+
+   Basically, you can elect to have a password associated with your
+list settings. When the password is non-null, the list will prevent
+any posts or commands from being executed on that e-mail address unless a
+"::password <your password>" is supplied as the first list command at the
+beginning of every post.
+
+   It's a hassle to use, but if you have a mailer which can automatically
+append "::pass foobar" and ":::" at the beginning of every message then it
+might be useful.
+
+   This is simpler than using PGP signatures, easily checked with little
+CPU (MD5/crypt()) and protects you from any spoofing. I can also hack the
+list software to add a notice to the headers of messages which were
+password verified to let others know that the message is semi-authentic.
+
+-Ray
+
+
+  
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Fri, 12 Nov 1993 17:31:36 -0600
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Free Agent
+
+I'm delighted that you won't be seeing this useful tip: 
+
+Why not just use the ordinary name? Like so:
+
+::exclude user Phil G. Fraering
+
+It avoids confusion, accidental mistakes, and whatnot.
+
+Cheers!
+
+pgf
+
+------------------------------
+
+Date: Fri, 12 Nov 1993 16:06:52 -0800
+From: kwatson@netcom.com (Kennita Watson)
+Subject: Meta:  passwords
+
+      Basically, you can elect to have a password associated with your
+   list settings. When the password is non-null, the list will prevent
+   any posts or commands from being executed on that e-mail address unless a
+   "::password <your password>" is supplied as the first list command at the
+   beginning of every post.
+
+I have seen way too many :: commands sent to this entire list by
+presumably intelligent people to feel comfortable with this.  
+
+Anyhow -- assuming that this method is implemented:  Is the owner of
+the password notified whenever a command is attempted on his/her email
+address that gives a password?  A wrong password?  How does a user
+authenticate his/her identity in order to change the password (say, if
+someone else may have gotten hold of it)?
+
+Kennita Watson      |  Do I want to live forever?  Maybe not, but give
+kwatson@netcom.com  |  me one or two hundred thousand years to think
+HEx: KNNTA          |  it over.     - KLW, 1993
+
+------------------------------
+
+Date: Fri, 12 Nov 1993 19:50:07 -0500
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Meta: Judgement 
+
+rjc@gnu.ai.mit.edu says:
+>   I would prefer it if the whole justice system was scrapped and Harry
+> simply imposed punishments on his whim. This is the default situation with
+> many moderated lists and newsgroups on the net. Use exclude for normal
+> stuff, use totalitarian list administration for subjectively defined 
+> troublemakers. Both Pandit and Dale Worley would have been dealt with
+> quickly under this system.
+
+I would prefer this as well, but I'm not sure that just Harry's
+judgement alone is sufficient, and I still think guidelines are
+needed.
+
+Perry
+
+------------------------------
+
+Date: Fri, 12 Nov 1993 19:54:06 -0500
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: KANGAROO 
+
+Sandy says:
+> First, speaking as a libertarian, I can see no initiation of
+> force in mere words.  So that leaves fraud.  Fraud is a crime
+> against someone who is induced to do something (or refrain from
+> doing something) by the intentional statements of another.  Who
+> here was defrauded?
+
+Thats not the issue. This is much like a private club. Although on the
+street its fine if you dress up in neon madras boxer shorts and a
+purple hat, a club might require proper dress.
+
+Here, we require that you not start flame wars and not post noise.
+
+> Second, speaking as a lawyer, I see nothing actionable in
+> Donald's statements.  That might not have been the case if Donald
+> had said something along the lines Perry stated (see neologism,
+> below) when he wrote:
+> 
+>     He stated that the board was involved in some unnamed
+>     financial fraud of large proportions, and he had no
+>     evidence for his (incorrect) assertion. I'd say thats
+>     actionable regardless of who its directed at.
+> 
+> But that's not even close to what he said.  The pertinent quote
+> from Donald is as follows:
+> 
+>     . . . More importantly we can reasonably draw certain
+>     conclusions about the honesty and financial integrity of
+>     the Exi board from Price's cheerfull willingness to have
+>     them hold the purse, and his unwillingness to have
+>     anyone else hold the purse.
+
+That is not the pertinent quote. I did not save the quote in question,
+but Mr. Donald explicitly stated in another message that he believed
+the ExI board was involved in some sort of large scale fraud.
+
+
+Perry
+
+------------------------------
+
+Date: Fri, 12 Nov 1993 16:56:27 -0800
+From: lefty@apple.com (Lefty)
+Subject: Meta: Judgement
+
+>  If the board members are on the list, and if Donald flamed them, and if
+>someone brought charges on behalf of those members then it falls within the
+>general list code. Both Perry and Tim have brought charges on behalf of others
+>in the past. Mike Price simply brought charges on behalf of Russell
+>Whittaker, and I believe Tanya Jones.
+
+Well, board members are in fact on the list, but whether Mr. Donald flamed,
+blamed or defamed them si, as Sandy has pointed out, questionable.
+
+>  And actually, the board can create rules on the fly because this list is
+>property of ExI. Much like the store owner, ExI can do whatever they wish
+>with the list. The board never pretended that the list was a democracy or
+>an anarchy. Even an anarchist society can have voluntary totalitarian
+>sub-communities. The board can censor or not censor the same way they
+>can with Extropy the journal.
+
+Au contraire, I believe the entire list adjudication mechanism _is_ a
+representation that the list is a PPL anarchy.  Of course, this
+representation is false, as we now see.  An "anarchist society" which has
+"voluntary totalitarian subcommunities" which attempt to impose their will
+on people who _are_ _not_ _members_ _of_ _those_ _communities_ has no right
+calling itself anything except totalitarian.
+
+>  I would prefer it if the whole justice system was scrapped and Harry
+>simply imposed punishments on his whim.
+
+Oh, I'm quite sure you would, my little tin dictator.  Of course, you'd
+have to drop the happy pretense of being an anarcho-capitalist commune with
+privately produced laws and stand revealed as just another police state,
+but one with much smaller and much more petty policemen.
+
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: Fri, 12 Nov 93 22:14:59 EST
+From: eli@suneast.east.sun.com (Elias Israel - SunSelect Engineering)
+Subject: Meta: Judgement
+
+Lefty writes:
+>Oh, I'm quite sure you would, my little tin dictator.  Of course, you'd
+>have to drop the happy pretense of being an anarcho-capitalist commune with
+>privately produced laws and stand revealed as just another police state,
+>but one with much smaller and much more petty policemen.
+
+Be serious. No one is required to be here. The rules and the penalties
+are posted at the door. People who can't abide by the rules should find
+someplace else to play. It's not the obligation of Exi, or anyone else,
+to entertain unwanted guests.
+
+As a list administrator for over two years, I have maintained this posture
+strictly: repeated dilution of the purpose of the list with tangential
+material, or repeated rude, callous, or anti-social comments are grounds
+for ejection, based solely on the subjective judgement of the list
+administrator. It works like a charm and I've only ever had to remove
+one person in the entire life of the list.
+
+I would tend to agree with those calling for a simpler system. While I
+certainly think it's interesting to experiment with PPL, I think that
+the economics of the situation don't lend themselves to one, at least
+not the way it's formulated today.
+
+Elias Israel
+eli@east.sun.com
+HEx: E
+
+------------------------------
+
+Date: Fri, 12 Nov 93 22:23:39 EST
+From: rjc@gnu.ai.mit.edu
+Subject: Meta: Judgement
+
+Lefty writes:
+> >  And actually, the board can create rules on the fly because this list is
+> >property of ExI. Much like the store owner, ExI can do whatever they wish
+> >with the list. The board never pretended that the list was a democracy or
+> >an anarchy. Even an anarchist society can have voluntary totalitarian
+> >sub-communities. The board can censor or not censor the same way they
+> >can with Extropy the journal.
+> 
+> Au contraire, I believe the entire list adjudication mechanism _is_ a
+> representation that the list is a PPL anarchy.  Of course, this
+> representation is false, as we now see.  An "anarchist society" which has
+> "voluntary totalitarian subcommunities" which attempt to impose their will
+> on people who _are_ _not_ _members_ _of_ _those_ _communities_ has no right
+> calling itself anything except totalitarian.
+
+   This list is not an anarchy and there is no free market of PPL's. In
+fact, the list "PPL" in the context of the list itself is a monopoly. There
+is only one. If you disagree with it you can not contract with another except
+to leave the list. So the "anarchist society" is not the list itself, but
+the internet, and the Extropians list is a private community run by
+a corporation.
+
+  The "voluntary totalitarian subcommunity" does not attempt to impose its
+will on people who are not members of the community. You are free to
+join xtropy-l if you wish and no one will stop you. But on this list,
+everyone is a contractor with the list management and you can't escape
+that fact. If the list were a coffeehouse and you didn't like the management,
+take your business across the street.
+ 
+> >  I would prefer it if the whole justice system was scrapped and Harry
+> >simply imposed punishments on his whim.
+> 
+> Oh, I'm quite sure you would, my little tin dictator.  Of course, you'd
+
+    This statement is actionable but since your leaving anyway....
+
+> have to drop the happy pretense of being an anarcho-capitalist commune with
+> privately produced laws and stand revealed as just another police state,
+> but one with much smaller and much more petty policemen.
+
+   Your mistake is one of context. In a private commune/PPL under an
+anarchocapitalist system, the communes themselves don't have to be 
+free. Quite a number of people might actually contract with a totalitarian PPL
+that imposes control on a number of areas of their lives. For instance, a
+Christian Coalition PPL.
+
+   The internet itself is the anarchy. The lists are the communes. You
+are mistakenly assuming that this list is trying to pass itself off as
+an anarchocapitalist society. That's ruled out by the nature of the list.
+It's centralized, owned by ExI, running on Panix, to which ExI is responsible.
+The data files of the list are private and only modifiable by login.
+
+   At times the list has tried various PPL experiments, but it has always been
+clear that ExI _owns_ and _controls_ the list ultimately. The list laws
+have never been "privately produced" by list members.
+
+ 
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Fri, 12 Nov 1993 22:45:58 -0500
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Forged messages, et al. 
+
+Elias Israel - SunSelect Engineering says:
+> So, if I'm hearing you corretly, you think that the idea is basically
+> sound, but we're not quite ready for it.
+
+Correct. The main problem is that the cryptography software to this
+point has not been made sufficiently friendly to permit it.
+
+> If so, what can we do to advance it? What about a mod to the list software
+> just to recognize signatures for now. It could check any signatures
+> found in incoming mail and add a field to the mail header indicating
+> the success or failure of the check.
+
+Thats certainly possible, but of course one could forge such message
+headers, too, so a second signature would be needed, and software at
+the receiver would be needed to read it. Ultimately, what we need is
+just good public key software to integrate into our mailers. Give it a
+while and such software will show up.
+
+Perry
+
+------------------------------
+
+Date: Fri, 12 Nov 93 22:36:03 EST
+From: wit@MIT.EDU (paul whitmore)
+Subject: Meta: Judgement
+
+> From: rjc@gnu.ai.mit.edu
+>   And actually, the board can create rules on the fly because this list is
+> property of ExI. Much like the store owner, ExI can do whatever they wish
+
+this shd be constrained when dues paying members contract for a particular 
+service, viz., a year of access to the list under conditions set at the outset.
+
+>   I would prefer it if the whole justice system was scrapped and Harry
+> simply imposed punishments on his whim. 
+
+this can get quite depressing. 
+first, no one wants to spend all their time arguing about principles, since 
+there is a presumptive desire to get on with life, and only argue about 
+principles when their confusion prevents life from smooth continuance.
+2nd, we shd be able to reach some sort of accord, that will save us considerable 
+group angst und dreck. 
+Proposal: why not create a sub-list for all this legalistic quibbling? Everyone 
+who cares to get into the thick of it can visit that list, just as trials in 
+america are public. but since these issues lead to very contentious attacks, if 
+they occurred off the main list, most people who simply want to discuss matters 
+of mutual interest would be spared the barrage.
+
+One more point: i think we do need to be more clear about matters of justice and 
+punishment. henry is a very reasonable person, and maybe, after considered 
+discussion, we might accede to his arbiting all conflict. but if we leap over 
+the discussion, and simply impose a kingship, that solution loses.
+
+
+------------------------------
+
+Date: Fri, 12 Nov 93 20:14:23 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Meta: Judgement
+
+Ray,
+
+Your latest summary (on the nature of the List) was masterfully
+written!
+
+--Tim
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Fri, 12 Nov 93 20:19:29 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Sorry!
+
+At the risk of using up even more bandwidth, sorry for replying with
+such speed to Ray's fine message that I let it slip out to you all in
+error...
+
+By the way, I hope Lefty does not leave the list. Though I thought
+Ray's explication of the nature of the List was concise and masterful,
+I usually enjoy Lefty's slant on things.
+
+Perhaps Ray and Lefty could just try to ignore each other for a while?
+
+--Tim
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Fri, 12 Nov 1993 20:26:21 -0800
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: frequencies
+
+ > I'm also embarrassed--but not too proud--to ask how people out there
+ > remember whether "bi-weekly" means "twice a week" or "every two
+ > weeks"? Anton? Isaac? Any good mnemonic aids to break my constant
+ > mental block over this?
+
+Every *other* bi-period word seems to mean *only* "once every two periods". 
+Bimonthly, for example, describes Liberty magazine.
+
+*\\* Anton 						Ubi scriptum?
+
+------------------------------
+
+Date: Fri, 12 Nov 1993 22:02:02 -0800
+From: John K Clark <johnkc@well.sf.ca.us>
+Subject: VIACRYPT ADDRESS
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+I've almost convinced my Boss to let me put PGP on our LAN but
+he's nervous about the legalities and would rather use a
+commercial version. Does anybody know the address of ViaCrypt or
+where we can buy a copy?
+
+                                         John K Clark  johnkc@well.sf.ca.us
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+iQCVAgUBLOSA2HwRpTAWSvwVAQGC2gP/cdvB6ZMqqymy3ihpDtscQ+FC40Pnl6Ly
+/PYASoSHOI2RyZ4vCiPvBYgri/nyDHNRLOuf064LF93TtbMJg5PZi9ZcaCGA2phB
+DomKsQzd0iZYSKqA6YHj1afayineZWPRqXV4CwyX1hWKJAji1xluPjn6b/cdhth5
+oylxHj5HkMw=
+=D79K
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+Date: Sat, 13 Nov 1993 06:25:01 -0500
+From: habs@panix.com (Harry S. Hawk)
+Subject: Meta: Pending unsubscribes
+
+Any pending requests will be processed sunday night.
+
+/hawk
+
+
+--
+Harry S. Hawk  -  Extropian  
+                                                        habs@extropy.org
+In Service to Extropians since 1991
+
+
+
+------------------------------
+
+Date: Sat, 13 Nov 1993 06:24:53 -0500
+From: habs@panix.com (Harry S. Hawk)
+Subject: Meta: I'm away this weekend
+
+        I will be away this weekend and am leavng, ray 
+(rjc@extropy.org) in charge.
+
+/hawk
+
+
+--
+Harry S. Hawk  -  Extropian  
+                                                        habs@extropy.org
+In Service to Extropians since 1991
+
+
+
+------------------------------
+
+Date: Sat, 13 Nov 1993 06:45:37 -0500
+From: habs@panix.com (Harry S. Hawk)
+Subject: Meta: Judgement
+
+On this issue of the ExI PPL being the only one on this list.
+
+The only reason there is only one is no one has put forth any
+competition. The ExI board is willing to entertain any reasonable
+competing PPL.
+
+/hawk
+
+
+--
+Harry S. Hawk  -  Extropian  
+                                                        habs@extropy.org
+In Service to Extropians since 1991
+
+
+
+------------------------------
+
+Date: Sat, 13 Nov 93 06:58:22 EST
+From: sullivan@blaze.cs.jhu.edu
+Subject: Meta: Donald's comments on ExI
+
+There has been some confusion about what James Donald actually said about
+the ExI board. I have examined the previous messages from Donald to find
+relevant references.  Below is an excerpt from a message which apparently
+some list members consider defamatory.
+
+Date: Sunday, 31 October 1993 10:11:29 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: Bet 5000
+X-Message-Number: #93-10-1003
+  ...
+  I know nothing of the financial probity of the Exi
+  officers, other than that they have been accused of being
+  barkers and stooges for a cryonic Ponzi scheme.  (I do not
+  endorse or believe this accusation - it is mere hearsay -
+  but I am unwilling to trust them with money.)
+
+I do not know if the message is defamatory but it does nicely illustrate
+disingenuousness.  
+   Gregory Sullivan          sullivan@cs.jhu.edu
+
+------------------------------
+
+Date:     Sat, 13 Nov 93 12:16:51 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Kangaroos
+
+I'm friends with many of the parties involved with the flap over Donald's
+use of the list, so whatever bias that may induce is hopefully canceled
+out.
+
+Seems to me, having just read the past 5 digests or so, that a gross
+misrepresentation's been perpetrated: the allegation that Donald
+"defamed" the ExI board.  I didn't save the post, but as I recall it
+went something like: "I've heard this rumor they were involved in a
+nutty scheme."  The context was whether they'd be acceptable as either
+judges or stake-holders in a bet, so it seemed relevant enough to me.
+
+That sort of statement doesn't constitute "defamation" - or, if it
+does, then it ought not be actionable.  Sheesh!  I'm with Lefty on
+this one.  If people are going to be booted off for saying the
+equivalent of "I've heard so-and-so commits crime," then I'm
+outta here.
+
+I chalk this whole thing up to misunderstanding based upon someone's
+statements getting misjudged, then paraphrased according to the
+misjudgement, not the actual text.
+
+I forgot, can I appeal a bad call by our esteemed list administrator
+even if I wasn't a party to the case?
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Sat, 13 Nov 93 12:23:19 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Eldridge Cleaver
+
+Tim May's post about the Black Panthers reminded me of how I had the
+honor of meeting Eldridge Cleaver the other day at a FEAR meeting,
+then at Free Exchange.  We ended up on the same BART train back to
+Berkeley together, and talked a little bit.
+
+He told me a little tidbit more about how they monitored the cops
+while armed.  At the time, the only laws controlling guns in the
+State were game laws for safety.  It was against the law to carry
+a gun with a round in the chamber unless defending yourself, to
+make sure it wouldn't go off accidentally.  Then after the Panthers
+started exercising their legal rights, the cops got the law changed
+so that it's now against the law to carry a loaded gun unless
+defending yourself.
+
+Duncan Frissell mentioned this a while back, and I couldn't figure
+out the purpose of the law, but now I've got it.  This way the pigs
+can check to see if any of the guns are loaded; if they are, they
+can arrest the possessor.  If not, the pigs have nothing to fear
+from anyone watching them do anything wrong.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Sat, 13 Nov 93 05:19:29 -0800
+From: Sunah Cherwin <slippery@netcom.com>
+Subject: frequencies 
+
+to remember whether bi means 'half' or 'double,' think of the other
+option, 'semi,' which obviously means half, leaving 'bi' to mean
+double. like bisexual. bicycle. bipedal. twice as much fun, two
+wheels, two feet, biweekly=every two weeks.
+love, auntie
+
+------------------------------
+
+Date: Sat, 13 Nov 1993 08:26:34 -0500
+From: Duncan Frissell <frissell@panix.com>
+Subject: Meta: Judgement          
+
+R >Even an anarchist society can have voluntary totalitarian
+R >sub-communities. The board can censor or not censor the same way they
+R >can with Extropy the journal.
+R >
+R >I would prefer it if the whole justice system was scrapped and Harry
+R >simply imposed punishments on his whim. This is the default situation 
+R >with many moderated lists and newsgroups on the net. Use exclude for 
+R >normal stuff, use totalitarian list administration for subjectively
+R >defined troublemakers. 
+
+Yeah like in "Utopia, Ltd." by G&S the perfect South Sea Paradise whose 
+perfection was achieved by organizing itself as a limited company.  The 
+government form was "Despotism tempered by dynamite."  In addition to an 
+absolute tyrant, there were two Public Exploders whose job it was to blow 
+the tyrant up if he went too far.  The Public Exploders held the tyrant in 
+check and were, in turn, discouraged from blowing the tyrant up too 
+casually by the fact that which ever one did the deed would have to become 
+tyrant in turn.  Such a system might actually work on a list where few 
+would want to become listmeister.
+
+DCF
+
+
+--- WinQwk 2.0b#1165              
+
+------------------------------
+
+Date: Sat, 13 Nov 93 05:48:55 PST
+From: edgar@spectrx.saigon.com (Edgar W. Swank)
+Subject: HEX: Cash for Thornes! (resend)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+Tim Hruby posted on Nov 1 in msg #93-11-38:
+
+    ...Rather, HEx values truly represent a pure form of "reputation":
+    what people are willing to pay for something that has no intrinsic
+    value, in a currency that has little intrinsic value.  I say
+    "little intrinsic vlaue" because thornes are valuable for one
+    thing:  you can get Nick Szabo to retreive information for you...
+
+Not so, Tim!  Tim May (the other Tim) is redeeming thornes for cash!
+He just sent me a check for $10.00 (his minimum) for 10,000 thornes
+that I got for nothing!! (i.e. just for registering my "reputation").
+
+Tim May posted the following to Extropians as part of msg 93-9-1632
+dated Sep 29:
+
+    So, the value of the Thorne is problematic. I will take the bull by
+    the thornes:
+
+    - I will pay $100.00 in personal checks in FRS Notes (dollars,
+    putatively) for 100,000 Thornes.
+
+    - The minimum check size I am interested in writing is $10.00. So, if
+    you don't have p10,000 or more, get together with your friends, use
+    the "Transfer" command to pool some Thornes, and then make the offer
+    to me.
+
+    - I will send the check once the Thornes have entered my account
+    (KLAUS, not TCMAY).
+
+    - If you do not trust me, an escrow service may be a good
+    idea...anyone out there interested in this? (But do we trust the
+    "escrow service" not to simply keep the $100?)
+
+Note Tim's instructions above are a bit confused.  A thorne account is
+associated with a net address, not any reputation name.  Also the
+"PAY" command is used to transfer thornes, while the "TRANSFER"
+command is used to transfer reputation shares.
+
+So if you have 10,000 or more thornes you would like to exchange for
+cash, I suggest you write to
+
+   Timothy C. May       <tcmay@netcom.com>
+
+and make him an offer.  I did and got my check in a couple of days!
+
+Tim declined my additional offer to "privately place" all 10,000
+shares of SWANK, now offered at p1.00 each, to his account for only
+$1.00.  Anyone else interested in that offer?
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+iQCVAgUBLNtyot4nNf3ah8DHAQE8bgQAmgUJUCyWhCumMPr/KlxLG0/4a+kcgTnA
+WyL8EybmW/zFpj6mgLC03pSZVHaPsyK/ny/wOAQ2soGnqyF+/0SmhNftX2fu6aXi
+SUejLWFFP88g2m0JbqvJxkr3ZCmVvhYnL6tA9m4fz5aMgYjeJHk8CPCbfJNIM5u+
+U3QHqIF09as=
+=DKpG
+-----END PGP SIGNATURE-----
+
+--
+edgar@spectrx.saigon.com (Edgar W. Swank)
+SPECTROX SYSTEMS +1.408.252.1005  Cupertino, Ca
+
+
+------------------------------
+
+Date: Thu, 4 Nov 93 20:41:47 EST
+From: rjc@gnu.ai.mit.edu
+Subject: Libertarian FTP site?
+
+Glen Daniels writes:
+> 
+> Can someone out there point me at an FTP site for Libertarian
+> information / writings / etc... ?
+
+  think.com:pub/libernet
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Sat, 13 Nov 93 11:58:45 PST
+From: pierre@shell.portal.com (Pierre Uszynski)
+Subject: META: money, money
+
+Just a few points about list charges:
+
+- There was a poll on list charges done by the board. So
+at least they must have received some input from people
+opposed to the idea. They at least got MY opposing
+message.
+
+- I did suggest an alternate solution to running lists
+off one site (resulting in high load and bandwidth). It
+was rejected (I think a bit superficially) by the
+"management". On the other hand, I'm not interested in
+starting a parallel free list using that method.
+
+- It will take some time before the idea of paying for
+Internet services such as mailing lists (as opposed to
+access) are fully accepted. Everybody is used to them
+being free. Some people are net even used to the idea of
+paying for access yet.
+
+- Even when people get used to the idea of paying for
+services (even as minimal as list management), it is
+not clear what constitutes a reasonnable price. Again it
+will take experimentation before prices statbilize (access
+prices have not stabilized yet). Comparisons to the
+value of the time spend reading the list are certainly
+valid (but do you compare to movies, hot tubs, newspapers,
+scientific journals, books, salaries, or netnews???) As
+far as the amount of junk mail goes, it's closer to netnews,
+IMHO.
+
+- Time-based subscriptions versus management decisions
+resulting in suspension, or removal, from the list may
+cause legal conflicts. Just as a magazine cannot
+arbitrarily cancel somebody's subscriptions (or can they?).
+A caller contract to which subscribers agree could solve that.
+
+- For-money access can also heighten expectations of
+reliability and security that the "management" may or may not
+be able or willing to support.
+
+- The cost of check collection and cashing, accounting,
+caller contract development, and other management load
+added by the fact that the list is for-money may well
+eat up all income from subscription.
+
+I'm not proposing any ready-made solution. I still believe
+there must be solutions for distributing the computing
+and bandwidth load of mailing lists, but for these to be
+considered the  management would have to release some of
+it's "ownership" of the list and that does not seem about
+to happen.
+
+I do not know yet whether I will stay in this list
+when it activates it's subscription mechanism.
+
+pierre
+pierre@shell.portal.com
+
+------------------------------
+
+End of Extropians Digest V93 #317
+*********************************
+

@@ -1,0 +1,478 @@
+From extropians-request@extropy.org Thu Jul 21 03:01:24 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id DAA13622 for <more@chaph.usc.edu>; Thu, 21 Jul 1994 03:01:22 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA17668; Thu, 21 Jul 94 03:01:19 PDT
+Received: by news.panix.com id AA21682
+  (5.65c/IDA-1.4.4 for more@usc.edu); Thu, 21 Jul 1994 06:01:08 -0400
+Date: Thu, 21 Jul 1994 06:01:08 -0400
+Message-Id: <199407211001.AA21682@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-7-166 - #94-7-175
+X-Extropian-Date: July 21, 374 P.N.O. [06:00:48 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Thu, 21 Jul 94             Volume 94 : Issue 201
+
+Today's Topics:
+                         If Knowledge Limits Learning                 [8 msgs]
+                        If Knowledge Limits Learning                  [2 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 27150 bytes.
+
+----------------------------------------------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Wed, 20 Jul 94 00:11:15 GMT
+Subject: [#94-7-166] If Knowledge Limits Learning
+
+Robin Hanson contrasts two paragraphs and says:
+> Now Mike seems to have a bit different vision:
+
+Robin, you seem to be missing the point.  I stand by both paragraphs. 
+They are not talking about the same sub-subject, so of course they sound
+different.   My "vision" has not been altered by your responses (so far)
+which, I have to say, seem rather tangential to my twice-expressed
+concerns that your learning time estimates of >100,000 system-years
+exclude training.  I can only think that you are making a lot of
+assumptions about my unstated beliefs which I can't fathom.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: derek@cs.wisc.edu (Derek Zahn)
+Date: Wed, 20 Jul 1994 06:28:31 -0500 (CDT)
+Subject: [#94-7-167] If Knowledge Limits Learning
+
+Robin Hanson:
+
+> Actually, Lenat would say he already knows how to make CYC learn, and
+> has demonstrated this with EURISKO.  He thinks the learning *rate*,
+> however, is limited by the amount of knowledge a system already
+> contains.  Hence the focus of CYC, and the title of this thread.
+
+Yes, I wonder, though, exactly why Lenat thinks that a chunk of
+knowledge about Abe Lincoln's hair added manually will increase
+discovery rate in the future.  Presumably, as they have taken
+a blank slate and laboriously calligraphed two million bits
+of knowledge into it, some experimental confirmation of his
+hypothesis should be quite feasible -- how fast could it discover
+stuff with 10,000 knowledge units?  How fast can it discover
+with 200 times as many?  Are we getting linear speedup?
+
+Here's what I think he probably means:  The more knowledge you
+have, the more you can learn by making only a small number of
+inferential links.  With more things that potentially link
+together, there should be more useful knowledge units making
+linkages.
+
+For speedup, though, since discovery processes like EURISKO
+operate by considering potential knowledge units and measuring
+the "usefulness" of the result, we get speedup only if
+the ratio of found/searched goes up.  I don't see any reason
+to expect that this is true.
+
+Further, if Lenat really wants CYC to read, it seems to me that
+a central focus of their effort has to be encoding knowledge
+about reading....
+
+As to "tabula rasa emergent magic AI", I think it's at least
+possible that there is some kind of fundamental theory of
+intelligent behavior that could be succintly formulated
+and incarnated.  Perhaps all those unemployed physicists
+could be unleashed on the problem.
+
+derek
+penrose is a start, i guess
+
+
+------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Wed, 20 Jul 94 07:45:19 GMT
+Subject: [#94-7-168] If Knowledge Limits Learning 
+
+Peter McCluskey:
+>  In the context of single neuron learning, it seems a bit strange for
+> Robin to call hand-crafted input representations built-in knowledge,
+> since I normally think of that as guidance from an external teacher.
+
+I thought that strange, too.
+
+> But there has to be some built-in knowledge in the nervous system,
+> either in the form of hard-wired connections or non-random initial
+> weights, to explain the learning patterns we observe.
+
+Agreed, biological nervous systems have built-in structures.  Whether
+artificial systems will also require them, beyond some generalised,
+low-level learning algorithm, to make sense of the world I'm not so
+clear about.  For instance, it is generally accepted that humans have
+less hard-wiring than many (all?) other animals.  Humans are, it
+rumoured, also the most intelligent.  Perhaps there is a connection here
+and we should push for less hard-wiring for UIMs, not more.
+
+> And the fact that we don't know how to improve on 
+> random weights only shows that it is a hard problem.
+
+I don't see how this implies the former.  If anything I would have
+thought that the reverse is implied.  We can start from random weights
+in training a neural network on some task because the final trained
+network, from a behaviourist point of view, often seems so insensitive
+to the starting state.
+
+>> I'm guessing that the same "local learning rules" will operate on
+>> all scale networks then they contain no knowledge about the
+>> environment or any species-specific information.
+> 
+>  Based on my experience with neural nets, I don't believe that
+> learning rules scale up tractably.   [...]
+
+Just to clarify.  I assume you are referring to the time it takes for
+a neural network converge on a solution, which does not scale tractably.
+
+The more complex the network the longer it takes for the network to
+settle down from a randomised start.  The convergence seems to scale
+intractably with network size.  I agree, which is why I'm adopting a
+suggestion I heard in another forum and suggesting that one way around
+this might be to train up a small network and then allow it grow larger
+by, say, adding neurons at locations where the weights refuse to settle
+down.  This way, I hope, the network responds to representational
+challenges by network growth.  At no point do we have to train a large
+randomised network from scratch.  New neurons are introduced into an
+environment where most of their neighbours have already settled down. 
+If this approach works then a human-level AI will naturally grow into
+a more intelligent mechanism.  (Of course nature has found some other 
+solution to the problem of training large networks and it may turn out
+that adopting this approach, when we understand it, may be more 
+productive.)
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: hnash@mason1.gmu.edu
+Date: Wed, 20 Jul 94 09:58:03 -0400
+Subject: [#94-7-169] If Knowledge Limits Learning
+
+I've been following the discussion between Robin and Mike with 
+great interest.  I share much of Mike's intuition about 
+emergence and learning.  However, Robin makes a good case for 
+the possibility that tabula-rasa learning might be fundementally 
+lacking.  
+
+Robin hypothesizes that, in order to learn much, a brain must 
+begin with a substantial amount of knowledge.  Left to discover 
+knowledge in isolation, a tabula-rasa would take eons to 
+discover most common-sense knowledge.  
+
+I'd like to hypothesize that every brain must remain ignorant 
+about the structure of most of its knowledge.  Of course, a 
+brain can utilize each chunk of its knowledge in some way, but 
+most chunks cannot be articulated.  Most chunks must remain 
+impossible to articulate simply because it takes many chunks of 
+knowledge to articulate a single chunk.  This non-articulable 
+knowledge is similar to the pattern of connection weights in a 
+trained nueral network.  
+
+Roughly speaking, Robin's hypothesis would prohibit AI's from 
+eductating themselves.  My hypothesis would also prohibit people 
+from educating AI's.  I agree with Robin that neither of the 
+methods we've been discussing ("tabula-rasa AI" or "articulated 
+AI") is certain to succede or to fail.  
+
+
+ ==== Yours Truly, Hadon Nash =======  "in founding a family or a state,
+ or acquiring fame even, we are mortal; but in dealing with truth we are
+ immortal, and need fear no change nor accident." -- Henry David Thoreau
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Wed, 20 Jul 1994 09:38:58 -0700
+Subject: [#94-7-170] If Knowledge Limits Learning
+
+Mike Price writes:
+>Robin, you seem to be missing the point.  I stand by both paragraphs. 
+>....  I can only think that you are making a lot of
+>assumptions about my unstated beliefs which I can't fathom.
+
+Perhaps I've misunderstood you.  Let me try to summarize.  You
+originally said that the limit to getting AI was hardware, because "the
+limiting thing is searching through the learning algorithm space."  I
+introduced this new thread with the title "If Knowledge Limits Learning"
+to suggest there could be another limiting factor, namely knowledge.
+
+Your response that I had neglected training by humans led me to believe
+you accepted knowledge as a possible limiting factor.  So I tried to
+point out how knowledge is also a limiting factor in a training
+scenario.  But your recent response to Peter McCluskey that you aren't
+convinced "artificial systems will also require ... built-in structures"
+suggests that you don't accept the knowledge limit, that you seek what
+Derek calls "tabula rasa emergent magic AI".  (I agree with Derek that
+this is "at least possible", but consider it unlikely.)
+
+>My "vision" has not been altered by your responses (so far) which, I
+>have to say, seem rather tangential to my twice-expressed concerns that
+>your learning time estimates of >100,000 system-years exclude training
+
+My estimate turns out to be rather insensitive to this.  If an AI needs
+only know one part in a thousand of our common sense knowledge to know
+enough to be trained by humans, this only lowers my time estimate by a
+factor of two.
+
+My estimate remains large even with a different power dependence of
+learning rate on knowldege.  If the learning rate is proportional to
+knowledge to some positive power, the estimate is never less ten thousand
+system-years.  If the power is one half, the estimate is twenty thousand
+years.  If the power is two, the estimate is ten billion years.
+
+For every factor of ten that Lenat has underestimated the amount of our
+common sense knowledge (his estimates have increased with time), all these
+estimates go up by a factor of ten.
+
+Robin Hanson
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Wed, 20 Jul 1994 09:46:25 -0700
+Subject: [#94-7-171] If Knowledge Limits Learning
+
+Hadon Nashwrites:
+>Most chunks must remain impossible to articulate simply because it
+>takes many chunks of knowledge to articulate a single chunk.
+
+Your conclusion may be true, but it doesn't follow from your
+assumption.  Consider a 3.9 Mbyte compiled program on a machine with 4
+Mbytes memory.  Imagine the program includes a decompiler which can
+produce readible source code from its own code, but that such source
+code takes ten times as much space to store.  If this decompiler can
+work on code chunks less than 10 Kbyte large, the program could
+"articulate" all it's "knowledge", one chunk at a time. 
+
+Robin Hanson
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Wed, 20 Jul 1994 10:03:27 -0700
+Subject: [#94-7-172] If Knowledge Limits Learning
+
+Derek Zahn writes:
+>Yes, I wonder, though, exactly why Lenat thinks that a chunk of
+>knowledge about Abe Lincoln's hair added manually will increase
+>discovery rate in the future.  
+
+Again, you've misunderstood Lenat.  Lenat doesn't think this.  A fact
+about Lincon's hair is a *test case*, used to see how the common sense
+knoweldge base is working.  Development is organized around test cases -
+for each test case, they try to think what common sense knowledge would be
+needed to understand it.
+
+>some experimental confirmation of his hypothesis should be quite feasible
+>-- how fast could it discover stuff with 10,000 knowledge units?  How fast
+>can it discover with 200 times as many?  Are we getting linear speedup?
+
+Such test are indeed possible, and may well have been done.  I don't know.
+
+>we get speedup only if the ratio of found/searched goes up.  
+>I don't see any reason to expect that this is true.
+
+Lenat has plausible reasons.  You might want to read some of his work on
+learning by analogy.
+
+>Further, if Lenat really wants CYC to read, it seems to me that
+>a central focus of their effort has to be encoding knowledge
+>about reading....
+
+Perhaps you should also read some on AI Natural Language research.  A
+common conclusion in that field is that the major limit to AI natural
+language reading is common sense knowledge.
+
+Robin Hanson
+
+------------------------------
+
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Date: Wed, 20 Jul 94 15:31:47 EDT
+Subject: [#94-7-173] If Knowledge Limits Learning
+
+Mike Price says-
+
+> ... For instance, it is generally accepted that humans have
+> less hard-wiring than many (all?) other animals.
+
+I can think of a couple examples (extra cortex layer, more 
+vision-processing maps) where humans have more hard wiring
+than other animals, but not the reverse.  I would agree humans 
+are somehow more plastic and less independent at birth, but not 
+necessarily that that's due to less hard wiring.
+
+> ...We can start from random weights
+> in training a neural network on some task because the final trained
+> network, from a behaviourist point of view, often seems so insensitive
+> to the starting state.
+
+Hmm.  In the proceedings of Artificial Life IV (just held):
+
+   "Innate Biases and Critical Periods: Combining Evolution and
+    Learning in the Acquisition of Syntax"
+    by John Batali <batali@cogsci.ucsd.edu>
+
+He evolves the initial weights of a simple neural net, selecting
+for speed at adapting to a certain family of simple grammars.  He 
+makes connections to the problem of why kids have to learn language
+by a certain point.  The suggestion from his model is that after 
+too much time with bad training, the weights wander away from
+their initial values.
+
+My favorite model is a tabula rasa with a boot prom.
+Only both the learning (as Mike suggests) and the preprogramming
+kick in in layers.  Also there's lots of specialized circuitry
+hanging around, the uses of which gradually become apparent 
+to the ghost.  Someone must have mentioned the limited capacity 
+of the human genome (I haven't been following closely).
+
+Seems like if you can get an AI to the level of a human baby,
+then spend 20 years, you've got a good chance at an AI that can
+learn pretty well.  Is that too far off to worry about?
+
+Other good stuff deleted.
+
+-fnerd
+
+- - - - - - - - - - - - - - -
+nutritional information per serving:
+   less than one (1) bit
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+aKxB8nktcBAeQHabQP/d7yhWgpGZBIoIqII8cY9nG55HYHgvt3niQCVAgUBLMs3K
+ui6XaCZmKH68fOWYYySKAzPkXyfYKnOlzsIjp2tPEot1Q5A3/n54PBKrUDN9tHVz
+3Ch466q9EKUuDulTU6OLsilzmRvQJn0EJhzd4pht6hSnC1R3seYNhUYhoJViCcCG
+sRjLQs4iVVM=
+=9wqs
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Thu, 21 Jul 94 01:20:06 GMT
+Subject: [#94-7-174] If Knowledge Limits Learning
+
+Okay, I think I finally understand where Robin and I are coming from on
+this AI training business.  Robin says:
+> But your recent response to Peter McCluskey that you aren't
+> convinced "artificial systems will also require ... built-in 
+> structures" suggests that you don't accept the knowledge limit,
+> that you seek what Derek calls "tabula rasa emergent magic AI".
+> (I agree with Derek that this is "at least possible", but consider
+> it unlikely.)
+
+To be clear, yes, I believe in "tabula rasa emergent magic AI", although
+a better phrase will have to found :-)  I agree it is possible and it
+may even be unlikely, but I consider it far more likely to work than the
+other, symbol processing approaches.  (BTW we should know soon whether
+Lenat's CYC/symbol processing approach is going to work according to Dec
+1991 Sci Am, pg 91.  Lenat predicts CYC to reach "critical mass" in
+1994/5.  I bet it doesn't.  Anyone for a light-hearted wager?)
+
+> If an AI needs only know one part in a thousand of our common sense
+> knowledge to know enough to be trained by humans, this only lowers my
+> time estimate by a factor of two.
+
+Ah!  All is becoming clear.  You say that training can only begin after
+the network has reached human-level complexity (~5.10^6 chunks).  No
+wonder we were talking past each other.  This is where we part company -
+ right at the beginning.  I say that training starts on an otherwise
+blank network with "just" a low-level learning algorithm.  I envisage
+a small network with some pleasure/pain signal being trained to respond
+to simple inputs to do things like navigate through mazes, sort coloured
+cubes out and such like - simple spatial/motor tasks with no language
+requirement.  The trainer trains by reward and punishment.  A bit like
+training your dog not to crap on the carpet.  Over time the cues
+increase in complexity and the network responds by growing in complexity
+and intelligence and formulating its own sub-goals - this is the
+"emergent magic" bit - until it starts responding to simple commands
+and, later, full blown English.  I expect that much of this early, pre-
+linguistic training can be automated and run through very quickly.  Only
+the later linguistic input requires human tutoring/monitoring (unless
+symbolic AIs are available!).  This reduces the time estimate from
+100,000s years to years? months?
+
+Of course *after* the network understands enough to start online reading
+then it can dispense with a human tutor - if we want (and we may well
+*not* want).
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Wed, 20 Jul 1994 23:37:47 -0400
+Subject: [#94-7-175] If Knowledge Limits Learning 
+
+ price@price.demon.co.uk  (Michael Clive Price) writes in X-Message-Number: #94-7-168:
+>>  Based on my experience with neural nets, I don't believe that
+>> learning rules scale up tractably.   [...]
+>
+>Just to clarify.  I assume you are referring to the time it takes for
+>a neural network converge on a solution, which does not scale tractably.
+
+ That is the largest problem (symptom?) that I had in mind, but there
+is also a need to prevent unrelated concepts from interfering with each
+other. If you try to train one big backprop net, it will often spread
+the information it uses to solve a task over much of the hidden layer,
+when we need to focus training on a small number of new connections
+to handle each new idea.
+
+>The more complex the network the longer it takes for the network to
+>settle down from a randomised start.  The convergence seems to scale
+>intractably with network size.  I agree, which is why I'm adopting a
+>suggestion I heard in another forum and suggesting that one way around
+>this might be to train up a small network and then allow it grow larger
+>by, say, adding neurons at locations where the weights refuse to settle
+>down.  This way, I hope, the network responds to representational
+>challenges by network growth.  At no point do we have to train a large
+>randomised network from scratch.  New neurons are introduced into an
+>environment where most of their neighbours have already settled down. 
+
+ This probably bears some resemblence to a good solution, but I don't
+think instability in weights is a good criterion. With properly scaled
+inputs and a sophisticated training algorithm (better than plain
+backprop), my experience indicates that weights usually settle down.
+I am more concerned about the network learning noise or settling into
+an overly simplistic solution.
+-----------------------------------------------------------
+Peter McCluskey | pcm@world.std.com | Repeal Gresham's Law!
+-----------------------------------------------------------
+
+------------------------------
+
+End of Extropians Digest V94 #201
+*********************************
+

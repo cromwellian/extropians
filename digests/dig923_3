@@ -1,0 +1,967 @@
+From extropians-request@extropy.org Thu Sep 23 21:06:39 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA05034; Thu, 23 Sep 93 21:06:36 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA23245; Thu, 23 Sep 93 21:06:27 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA10633; Fri, 24 Sep 93 00:00:01 EDT
+Received: from news.panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+	id AA10628; Thu, 23 Sep 93 23:59:39 EDT
+Received: by news.panix.com id AA25713
+  (5.65c/IDA-1.4.4 for exi-maillist@ung.gnu.ai.mit.edu); Thu, 23 Sep 1993 23:59:39 -0400
+Date: Thu, 23 Sep 1993 23:59:39 -0400
+Message-Id: <199309240359.AA25713@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: September 24, 373 P.N.O. [03:59:16 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Fri, 24 Sep 93             Volume 93 : Issue 266
+
+Today's Topics:
+                                                                      [6 msgs]
+                      Archiving the List, Policies, etc.              [2 msgs]
+                         BELL: Bogodynamics of R.A.W.                 [1 msgs]
+                  GUNS: Buy Chinese (was: Don't buy Chinese)          [3 msgs]
+                           Libertarian Realpolitik                    [1 msgs]
+                       META: alt.extropians... perhaps?               [2 msgs]
+                     Meaninglessness (was Miscellaneous)              [2 msgs]
+                        PRIVACY: Judgement Proof-ness                 [1 msgs]
+                 Recovering Objectivist Seeks Source Material         [2 msgs]
+                Recovering Objectivist Seeks Source Material          [2 msgs]
+                        SPACE: limits on launch costs                 [1 msgs]
+                           experimental ftp server                    [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52223 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 23 Sep 1993 10:23:22 -0800
+From: lefty@apple.com (Lefty)
+Subject: META: alt.extropians... perhaps?
+
+>I don't know if it is possible, but could alt.extropians be removed as it
+>is hardly ever used, and a new group set up in a more widespread hirearchy?
+
+Once an alt group has been created, it is apparently impossible to remove
+it, no matter how foolish or ill-conceived it may be.
+
+You see, there's this moron up in Canada named Bruce Becker who runs a
+daemon on his system which, upon receiving a rmgroup for any group in alt,
+spews out newgroups for that group.
+
+Mr. Becker has been the subject of much discussion in alt.config.
+
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 13:16:33 -0500 (CDT)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: BELL: Bogodynamics of R.A.W.
+
+I love to type 'bogodynamics'.  Is it a registered trademark?
+It sounds suspiciously like a biotech contractor.
+
+Acceleration (or does V stand for Volume or Voltage or Verity?) writes:
+
+> Please don't let this predispose you against _PR_, folks.  Wilson is an
+> excellent psychologist (although a weak physicist).
+
+_PR_ is a mind-altering book.  After some preliminary material, RAW
+dives into Leary's eight mental "circuits" (bluntly stating that
+"the map is not the territory" and so the model shouldn't be taken
+too literally).  On the trip, he drops lots of little mind bombs
+that are quite delightful and potentially world-view-realigning.
+Be prepared, however, for sympathy for Jung and Korzybski and
+Crowley.
+
+derek
+
+------------------------------
+
+Date: Thu, 23 Sep 93 18:48:47 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: Recovering Objectivist Seeks Source Material 
+
+Perry:
+> Timothy C. May says:
+>> In my extropian opinion (IMEO), a better book is Harry Browne's 
+>> "How I Found Freedom in an Unfree World."
+> 
+> I heartily agree -- a really really good book, and one that is well
+> worth reading.
+
+To second Tim and Perry's point, this is an amazing (slim!) book and a
+real gem.  More useful than an encylopaedia of philosophy (which, in
+turn, is more useful than reading philosophy books).  One question: is
+it still in print?  Some bastard ran off with my copy some years ago and
+I couldn't replace it (even from Loompanics).
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 15:10:38 -0400
+From: price@price.demon.co.uk
+Subject: 
+
+
+------------------------------
+
+Date: Thu, 23 Sep 93 19:25:37 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: "Experiment of interest to AI and quantum computer designers"
+
+James A. Donald:
+
+> The interesting thing about a quantum computer is that in
+> principle it can compute some things that require non
+> polynomial time (effectively infinite time for interesting
+> problems) for a classical computer.
+
+Not so and I'll wager 5,000 UK pounds, 1-1, on that.
+
+My claim is that a quantum computer, as defined in the Deutsch
+references you gave (which I am familiar with), does not permit
+unbounded or non-polynomial computation.  As arbitrator I suggest
+Deutsch (subject to his approval).  Any reasonable terms accepted.
+
+There are two main reasons:
+1)   the quantum computer (which carries out classical computations in
+     parallel in different quantum states) has a nasty habit of erroring
+     as the parallelism is pumped up, which more than wipes any
+     advantages to this method.  eg if it's carrying out a thousand
+     calculations in parallel then it is only able to successfully
+     complete in less than 1 run in a thousand and you have to rerun the
+     computer a 1000 times (on average) before you get an answer out. 
+     ie the _mean_ time to completion remains bounded from below by the
+     classical time.  The erroring is a intrinsic to the design and not
+     something that can be removed with greater fidelity.
+2)   the range of problems the above approach works for (subject to the
+     above restriction) becomes more and more restricted as the
+     parallelism is jacked up.
+
+> James A. Donald
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 15:10:59 -0400
+From: price@price.demon.co.uk
+Subject: 
+
+
+------------------------------
+
+Date: Thu, 23 Sep 93 11:14:02 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Libertarian Realpolitik
+
+Libertarian Realpolitik
+
+	Copyright 1993 by Nick Szabo
+		permission to copy or redistribute without
+		alteration is hereby granted
+
+(I wrote this in response to a long piece by L. Neil Smith
+on alt.libertarians; it also borrows a bit from my earlier post
+to the Extropians list on crypto-anarchy & realpolitik)
+
+I appreciate L. Neil Smith's article on libertarian and LP
+direction.  Alas, like many others trying to break
+into contemporary U.S. politics, he emphasizes the
+politically weak but expensive efforts to win at ritual
+elections.  Those efforts are still important, especially
+at the local levels where we stand a chance of winning
+and making a difference.  But elections play a role 
+more ritual than critical in modern politics.  Here's
+a different perspective, some visions from the growing
+Libertarian Realpolitik movement, which focuses on making
+freedom for ourselves in today's world instead of merely
+dreaming of the day we can get a majority, or build ourselves
+space colonies to get away from our Earthside oppressors,
+or other common futile libertarian science fictioneering.
+
+Libertarian Realpolitik like the LP is inspired by von Mises, 
+Hayek, Rand, Heinlein, and Rothbard, but in contrast is based 
+in the real world and practical applications as found in Harry Browne,
+_How I Found Freedom in an Unfree World_, Mark Skousen, and
+the crypto-anarchy movement.  Realpolitik finds a wide variety of 
+tools more potent than the lever in the ballot box: the phone, the 
+fax, the PC with PGP, the ISIL booths on college campuses, and the 
+_practice_ of keeping and bearing arms, whether our nosy, greedy, 
+self-righteous neighbors, who have spent far more time listening to TV
+stars praise the Brady Bill than listening to us, think we have 
+the right or not.
+
+While the LP fritters away far too many resources on elections
+and speechmaking to the converted and the uncovertable,
+its members often compound the waste by engaging in amateur 
+philosophy, pretending to be on the level of philosphers that 
+in the human experience are one in a hundred million.  Libertarian 
+Realpolitik favors practical engineering over theoretical philosophy.
+Libertarian Realpolitik, while based on the solid libertarian
+foundation, does not spend its time in intellectual masturbation
+as many libertarian groups are wont to do.  Libertarian 
+Realpolitik gets things done.  
+
+"Crypto-anarchy", a term coined by cypherpunk co-founder and 
+libertarian Tim May, is a Galt's Gulch scenario where many
+libertarians take economic privacy in their own hands and "blip
+off the radar screen" by moving into the electronic information economy,
+implementing a securely private economic information and monetary
+system hidden by veils of encryption from the modern robbers
+of the information highway.  
+
+It's a powerful concept, far more powerful (but complementary
+too) the traditional physical Galt's Gulch concept, currently
+best embodied in Eric Klein's "Oceania", an attempt to form a new
+country consisting of free banks, medical clinics, etc. on offshore 
+platforms.  At first glance crypto-anarchy looks just as much like 
+science fiction as the other dreams, a mad combination of
+William Gibson and Ayn Rand, except for one big 
+diffference -- it's happening today.  Check out the Wired
+and Village Voice articles on "cypherpunks".  Check out the
+cypherpunks mailing list (use cypherpunks-request@toad.com).
+Today hackers, bankers, lawyers, and on-line service vendors
+of a libertarian or anarchic bent are banding together to build
+an on-line Galt's Gulch.  No reason to wait, no reason to
+daydream, no need to make speeches -- just start hacking.  
+PGP is all over the globe despite U.S. government's efforts to 
+shut it down; anonymous remailers are being deployed.  "Cypherpunks 
+write code" -- the epitomy of Realpolitik.
+
+This is no "competent people take control" Galt Strike fantasy.
+The people competent at taking control are already in control,
+but that doesn't mean they're competent at other things, and
+it certainly doesn't mean they're libertarian.  A more likely 
+scenario is an _emergent_ Galt strike: tax avoidance on a massive 
+scale motivated not so much by political ideals but by personal 
+self-interest and change of habit as dodging the Information Highway 
+Robbers becomes easy.   Political avtivists, if they are also
+aware and tolerant of the non-activisms and narrow self-interest of 
+the masses, can tip the first cowardly penguins over the edge into 
+the world of crypto-anarchy, and jump in themselves, and the rest 
+will follow.  
+
+Crypto-anarchy in the information
+economy complements a decentralized Oceania in the physical
+economy, a world of judgement proof perpetual tourists who
+need not tie themselves to the increasingly avoidable and
+insane territorial states.
+
+Crypto-anarchy is only one of the flashier aspects of Libertarian
+Realpolitik.  More mundane but important aspects include
+protecting your privacy by using cash where possible, and
+bearer ATM or credit cards where electronic transfer is needed,
+making oneself "judgement proof" from our runaway system
+of confiscatory taxation, civil forfeiture, and runaway
+tort judgements, learning to use the tools of the information
+age to coordinate political action, and learning how
+to keep and bear modern arms with which to defend one's
+physical property.  Libertarian Realpolitik means putting
+our strong ideals to work gaining freedom for each other before
+frittering away our efforts on futile speeches and 
+lever-pulling in an effort to beat freedom into our oblvious
+neighbors.  Libertarian Realpolitik rejects martyrs fighting
+futile wars, instead finding its heroes in the people who fight 
+causes and win.  
+
+Electioneering vs. Realpolitik is not an either/or issue.
+Realpolitik does not reject electioneering; it merely puts  
+it in its proper role of one political tool among many.
+For crypto-anarchy we need talented hackers working on PGP interfaces, 
+remailers, digicash, on-line markets, etc.  We also need many bankers
+and commercial lawyers setting up privacy-enhanced businesses.  
+We also need a Libertarian Party and other efforts at education 
+and political activism.  But I suggest these should be coordinated: 
+the business practices can be done with libertarian politics in mind,
+and the LP should put more emphasis on business practice
+and technology as a potent sphere of political activism,
+and less emphasis on electoral politics.  Furthermore
+LP's lobbying can be more focused on those areas
+that enable politically independent business: eliminate
+crypto export restrictions and governmental key escrow schemes,
+RKBA, school vouchers to allow independent education of
+our children, etc.
+
+Instead of an Oceania which can be taken out by a single 
+Exocet or Tomahawk, let's put first things first and develop a 
+voluntary libertarian militia and legal defense fund to defend our 
+political supporters' property rights across jurisdictions.
+
+Libertarian Realpolitik combines 
+the traditional LP with business interests and economic privacy.
+A Realpolitik LP would get things done for its supporters in 
+the real world instead of wasting so many contributions on futile 
+attempts to win in the religious rituals of the ballot box.
+Libertarian Realpolitik will produce the real results with
+which we can build our own libertarian world in the decades
+to come.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Thu, 23 Sep 93 12:31:39 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Archiving the List, Policies, etc.
+
+(I've decided to cc: the Extropians list on this message, as it does
+not contain quoted e-mail from Ray or Harry, and it's time this issue
+get wider discussion. Sorry if anyone is offended by the candor.)
+
+
+Ray, Harry,
+
+I feel strongly that the debate about the future of the List, the
+archiving of traffic, and payment policies belongs on the List proper.
+I appreciate being copied on your debate about the future of the list,
+and the archiving issue, but I feel the whole List needs to be kept
+informed as well.
+
+Yes, it may bug some folks, but any thread runs this risk.
+
+Truly secret information that you wish to keep to yourselves--such as
+financial status, issues--is another matter, but then I should not be
+copied either.
+
+I would like to participate in the debate, but I'd rather do it
+publically. For example, I think most of us assumed that someone with
+a more direct, "non-mail," access to the List (e.g., on the gnu or
+panix machines) was archiving the list traffic as a matter of course.
+
+That no one is known to be archiving the List, except in a
+catch-as-catch-can, informal way, is very disturbing news.
+
+That this has _not_ been happening may come as surprising news to many
+on the List. And telling folks this may actually spur some volunteers
+with good access to start archiving everything. (The indisputable
+work needed to do this could be lessened by someone setting up a
+_second_ mail address that is intended to subscribe to all messages
+and go into an archive, with no work on their part except normal
+backups. This person could get some recognition by being called "List
+Archivist," or somesuch.)
+
+I throw out 80% or more of the List traffic, as I mentioned, and I
+suspect others do as well. Reconstructing the List archives from
+fragments--what we may call the "Jurassic Park" strategy--could be
+very time-consuming. Just getting the tens of megabytes held (my
+Extropian archives are fragmentary--10% of the traffic--and yet fill
+about 20-40 MB) to a central site and then merging and purging will be
+a real chore...forget doing it by _hand_, with zillions of requests of
+the sort, "Does anyone have the March 23, 1992 message from Perry
+Metzger on how he became a Randroid?".
+
+Wouldn't it be deliciously ironic if in decades hence there is no
+record of the debate here just because nobody archived the list? Boy,
+some Extropians we are!
+
+(I'd volunteer, but my permanent storage of mail is via Eudora over a
+dial-up line. I try to discard as much mail as possible in my on-line
+reader before downloading. The ideal situation is someone with a Unix
+machine, a fast connection, who can store the traffic transparently
+and cheaply, on DATs or whatever that are already in use at his or her
+site.)
+
+The policies about "access to messages when not subscribed" complicate
+matters, as no one, for example, has any financial or reputation
+incentive to make their archives available at an ftp site, in a
+WWW-WAIS system, or even to compare archives with others. (This would
+clearly "violate" the list rules unless it was confirmed--how?--that
+all participants were legally subcribed for all the times
+covered....very confusing, very counterproductive to getting archives
+built.)
+
+I urge this debate go on the List proper. (Note: and I have decided to
+post these comments to the List. Some may complain, but I see no basis
+for this. Debating the nature of the List, the archiving ideas, etc.,
+is *at least* as important as most of the stuff that flows onto the
+List.)
+
+Cheers,
+
+-Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 12:35:13 -0800
+From: lefty@apple.com (Lefty)
+Subject: Recovering Objectivist Seeks Source Material
+
+>To second Tim and Perry's point, this is an amazing (slim!) book and a
+>real gem.
+
+Slim?  My copy runs, as I recall, three to four hundred pages.
+
+>One question: is
+>it still in print?  Some bastard ran off with my copy some years ago and
+>I couldn't replace it (even from Loompanics).
+
+I don't think so.  I've had little trouble spotting copies in used book
+stores, though.
+
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 15:36:31 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Recovering Objectivist Seeks Source Material 
+
+Michael Clive Price says:
+> Perry:
+> > Timothy C. May says:
+> >> In my extropian opinion (IMEO), a better book is Harry Browne's 
+> >> "How I Found Freedom in an Unfree World."
+> > 
+> > I heartily agree -- a really really good book, and one that is well
+> > worth reading.
+> 
+> To second Tim and Perry's point, this is an amazing (slim!) book and a
+> real gem.  More useful than an encylopaedia of philosophy (which, in
+> turn, is more useful than reading philosophy books).  One question: is
+> it still in print?  Some bastard ran off with my copy some years ago and
+> I couldn't replace it (even from Loompanics).
+
+I've had no trouble getting copies for friends from Laissez Faire
+Books, but that was no more recently than about two years ago.
+
+Perry
+
+------------------------------
+
+Date: Thu, 23 Sep 93 12:46:27 PDT
+From: desilets@sj.ate.slb.com  (Mark Desilets)
+Subject: Recovering Objectivist Seeks Source Material
+
+regarding HIFFIAUW, you write:
+
+>   One question: is
+> it still in print?  Some bastard ran off with my copy some years ago and
+> I couldn't replace it (even from Loompanics).
+> 
+
+
+ it is still available from Laissez-Faire Books (or was 3 months ago when
+ I got mine).
+ 
+ 
+ 																Mark
+
+------------------------------
+
+Date: Thu, 23 Sep 93 12:57:07 PDT
+From: desilets@sj.ate.slb.com  (Mark Desilets)
+Subject: PRIVACY: Judgement Proof-ness
+
+So I've been seeing frequent mention of the desirablility of being judgement
+proof here on the list, most notably from Duncan Frissell.  As far as I can
+discern, the state of being judgement proof implies that your assets are
+somehow hidden from the prying eyes of government.  Now I can see a way of
+doing this, by liquidating tangible assets and transferring funds offshore.
+But is there another way?  Can one, for example, own a home (albeit indirectly)
+and still be judgement proof?  Are their legal mechanisms by which one can
+have the same control over real property and yet be sheltered from legal
+judgement?  
+
+
+																	Mark
+																	
+==============================================================================
+| DoD #1.03144248E28 |  Vote Libertarian  |   Mark DeSilets (408)437-5122    |
+| Redskins, Orioles  |                    |   desilets@sj.ate.slb.com        |
+==============================================================================
+|        Defeat the wiretap chip proposal.  Call your congresscritter.       |
+==============================================================================
+|              Laete paschimur quos nos domare volunt                        |
+==============================================================================
+																	
+
+------------------------------
+
+Date: Thu, 23 Sep 93 20:26:45 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: META: alt.extropians... perhaps?
+
+> How about:
+> 
+>   For "egotistical" read "respectful of the value of the individual
+>   and accepting of responsibility for one's own actions and destiny"
+> and for
+>   "elitist" read "active in pursuit of one's goals"
+
+Phew!  What a mouthful.  I prefer egotistical and elitist :-)
+
+> derek
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 16:14:31 -0400
+From: price@price.demon.co.uk
+Subject: 
+
+
+------------------------------
+
+Date: Thu, 23 Sep 93 13:25:35 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: META: alt.extropians... perhaps?
+
+A public newsgroup would of course bring a flood of newbies, of
+doubters, of critics flaming about wanting to live forever, about the
+absurdity of uploading, and on and on.
+
+No doubt a few "converts" would then discover us.
+
+Hard to say if it's good tradeoff. Remember, wider exposure will bring
+more folks onto the List, and often just to argue (several examples
+come to mind).
+
+But the group alt.extropians, and alt.extropians.forbidden-topics, and
+alt.extropians.sex, already exists, so we can't very well stop it from
+being used. Any List members who want to do so, are easily able to.
+
+(I assume there is no "Extropians Incorrect" List sanctions against
+those who traffic in Pandit's groups? I myself have posted a couple of
+times to these groups, mostly satires, so....)
+
+With the new List software, excluding fools will be easy, of course.
+
+However, since these excludes cost money, I once again repeat my call
+that this List be made available only to dues-paying Extropians and/or
+dues-paying e-mail subscribers.
+
+-Tim May
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Thu, 23 Sep 93 21:16:38 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: Meaninglessness (was Miscellaneous)
+
+James A. Donald:
+
+> Science assumes that the entities it deals with are real,
+
+Operationalism is compatible with this.  That's why I described myself
+as an operational realist.  Did you not read this?
+
+> It is difficult to explain the rapid acceptance of general
+> and special relativity from a purely operational
+> standpoint.
+
+Special relativity was accepted because it unified the Galilean concept
+of relativity with Maxwell's electromagnetism.  GR was accepted because
+it explained the orbit of Mercury (data which was already available and
+which privately clinched it for Einstein) and later eclipse data (from 
+various periods of varying quality) confirmed the non-newtonian bending
+of light by gravity, in addition to being conceptually elegant and 
+favoured by Occam's razor.
+
+> Similarly it is impossible to explain how the Copernican revolution
+> preceded Newton's theory of gravity from within the framework of
+> operationalism.
+
+Occam's razor again.  No doubt you think Occam's razor is incompatible
+with operationalism.  Nothing would surprise me.
+
+> Operationalism fails to describe the world, and it fails
+> to describe how scientists actually act in practice.
+
+Tell that to Newton, Einstein and Heisenberg.  Newton and Einstein I've
+covered earlier in the thread.  From Heisenberg's seminal July 29 1925
+paper on QM (translated in _Sources of Quantum Mechanics_, Dover). 
+The abstract for the article consists of _one_ sentence:
+
+     "The present paper seeks to establish a basis for theoretical
+     quantum mechanics founded exclusively upon relationships
+     between quantities which in principle are observable."
+
+> You do not understand the scientific method.  (Tim Starr
+> does not either, but he is a lot closer than you are.) 
+
+Now _that_ made me laugh.  :-) :-) :-) :-) :-) :-)  Glad to see you
+have a sense of humour.
+
+> James A. Donald 
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Thu, 23 Sep 93 21:46:00 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: GUNS: Buy Chinese (was: Don't buy Chinese)
+
+Richard Kennaway objects to my suggestion that the democracy students
+'had it coming'.
+
+Let's try a more hypothetical example.  We have an armed guard with low
+self-esteem and a track record of senseless violence.  Further, I'll
+imagine that his peer group are present.  You go up to him and insult
+his gender, family, race, sexuality, country etc etc in the most orally
+vile ways imaginable.  The libertarian position is pretty clear on this. 
+You haven't initiated any coercion.  Freedom of speech and all that.
+
+Some questions:
+1)   Would you be surprised if he shot you?
+2)   Would you expect much sympathy?
+3)   Would you behave like that?
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Thu, 23 Sep 93 14:24:54 -0700
+From: jamie@netcom.com (Jamie Dinkelacker)
+Subject: Crypto-Anarchy & Libertarian RealPolitik
+
+Ref  X-Message-Number: #93-9-1279
+
+My thanks to both Tim May and Nick Szabo regarding Crypto Anarchy and
+Nick's recent RealPolitik post.
+
+As some Extropians already know, I've worked with both electronic
+marketplaces and the broadcast media. In both of these environments,
+information and data distribution are used directly to make money. These
+experiences, focused and framed by Tim's cogent rhetoric, lead me to expect
+"Black Net" as a nearly inevitable outcome of electronic marketplaces,
+particularly one in which any subscriber can post, buy, broker or agent for
+self or others. The heralded protection of using "true names" will become
+increasingly difficult to enforce, even if actual/absolute identifiers to
+birth or immigration could be trailed -- doubtful at best. I think Tim is
+accurate in his expectation that a "democratic" marketplace opens the
+floodgates for corporate workers to make BigBucks by selling "corporate
+secrets." Un-true names (cypher aliases?), digicash, anonymous remailers,
+... , all point in this direction. Especially if encrypted information is
+listed in a market, and a single key is sold to the highest bidder. What's
+to stop it? An honor code? Boyscout oath? Having the marketplace owners vet
+every message? Hardly.
+
+I get the dubious pleasure of reviewing numerous business plans for
+startups seeking (venture) funding. For those in the content generation or
+distribution domains, "market research info" is often a revenue line,
+albeit several years down the road. In other words, startup founders
+recognize the value of selling information about their
+customers/clients/users to others. Nick readily points this out in his
+phrasing of "Banks would much rather build marketing dossiers for vendors
+than protect the privacy of their customers." Bingo. Plus, from the bank's
+conservative perspective, of course they can be trusted ... after all,
+they're the bank (or store, or agency, etc.). I'm not so sanguine about
+their responsibility on my behalf -- or yours -- or anybodys except their
+own. 
+
+The lesson I took from _Shockwave Rider_ (18 years ago?!!) was the
+emergence of social dynamics in which most -- not all -- political power
+will be derived from an increased emphasis on the relative and differential
+access to information between the individual and the bureaucracy (state,
+corporate or otherwise) in contrast to current political control based on
+propinquity and physical property as indicators of tangible wealth. This
+emergence is hastened by the net, crypto, and the growing "information"
+economy. As one boundary value, individual communications, and spontanteous
+audiences/groups, could become impenetrable to the corporatnoids/statists.
+As another boundary value, to paraphrase the Firesign Theater, "ask that
+cop knocking on your back door" (knock knock). Recent supoenas raise this
+spectre. "Well--how did you vote?" asks Brunner.
+
+Nick raises a key point by saying --
+> Most of the people in control of the world are already
+>highly competent in the techniques needed to get to those
+>positions.  Many people highly competent in specific skills are
+>correspondingly incompetent other areas, especially political
+>awareness. 
+
+Another bingo. As societal consciousness(es) emerges into cyberspace, we
+may well see a new set of techniques and skill sets emerge that will be
+necessary to acquire positions of authority and control. Cypherpunk skills
+and extropian perspectives can contribute to developing these skill sets.
+But competing forces, vested interests and other generally nasty entities
+see economic and political benefit in keeping information from individuals,
+only condoning an illusion of privacy, and, I suspect, attempting to create
+barriers for us to "peaceably assemble" in cyberspace.  
+
+We are at the beginning of very formative years in our evolution. Let the
+games begin.
+
+
+--
+................................
+Jamie Dinkelacker   Palo Alto CA 
+Jamie@netcom.com    415.941.4782    
+
+
+------------------------------
+
+Date: Thu, 23 Sep 93 14:25:01 -0700
+From: jamie@netcom.com (Jamie Dinkelacker)
+Subject: Meaninglessness (was Miscellaneous)
+
+Ray says:
+>
+>  Sure it is. The scientific method as taught in grade school science is
+>1) recogonize and formulate a problem
+>2) collect data through observation and experiment
+>3) formulate and test a hypothesis
+>
+
+I would add to this, communicate procedure, replicate
+experiment/observation and reproduce results.
+
+As an anecdote: after being trained in science and spending many long hours
+in intriguing physics labs and (smelly) o-chem labs, I was amazed upon
+entering a doctoral program in communication to have faculty who had never
+spent any time in a lab pontificating about "the scientific method and how
+science is done." They were clueless.
+--
+................................
+Jamie Dinkelacker   Palo Alto CA 
+Jamie@netcom.com    415.941.4782    
+
+
+------------------------------
+
+Date: Thu, 23 Sep 93 17:41:13 EDT
+From: mpeel@ccs.carleton.ca (Michelle Peel)
+Subject: Archiving the List, Policies, etc.
+
+Timothy C. May writes:
+> 
+> That no one is known to be archiving the List, except in a
+> catch-as-catch-can, informal way, is very disturbing news.
+> .....
+> Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+
+I'm sure the NSA has an archive of this list. ;-)
+
+Michelle.
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 17:55:38 -0400 (EDT)
+From: Cdt Pvt Dan Doughty <DOUGHTYD@Citadel.edu>
+Subject: GUNS: Buy Chinese (was: Don't buy Chinese)
+
+The world in general has taken no stand against China for it's barbaric actions
+against the students in Tianenmen square.  If anything is to be done, it is 
+only on a personal level.  And how can you state that killing, burning, and 
+running people over is a result of INSULTS??????  In my home, an insult was
+punished with a slap not firearms or tanks.
+			Daniel J. Doughty
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: 2.2
+ 
+mQCNAiyhVjYAAAEEAMtYRnnBhqEYETeS9c26D0nMepBSmcuIieXtf/tTMivJkkSA
+LCkAr6qrnpjo/Af48xM1OO8TGfTPtHrtTvH2PjVKf8TPk+vS0JFsUK5x1TYiUPn5
+QlYH+pvbh096cSChEVQ8i5T1QiuJ4DlMqviNcGxSzYjUTPToTdldTk74foBnAAUR
+tChEYW5pZWwgSi4gRG91Z2h0eSA8ZG91Z2h0eWRAY2l0YWRlbC5lZHU+
+=2ASA
+-----END PGP PUBLIC KEY BLOCK-----
+
+
+------------------------------
+
+Date: 23 Sep 1993 17:09:43 -0400 (EDT)
+From: Derek Rose <DEROSE@vaxsar.vassar.edu>
+Subject: experimental ftp server
+
+Remember when I said that OOOMPH, my experimental ftp server w/ libertarian
+files on it, was very experimental? Well, it still is.  One of the things
+that needs further experimentation is keeping a stable FTP address....
+my machine crashed and it's FTP address changed. It is now:
+"143.229.160.16".  I know this probably isn't the place to ask, but does anyone
+know how to keep a Macintosh's IP Address stable? (or, better, yet, let my
+server get it's own name?).  Please reply to me via email, because as I said,
+this isn't really the place for this.
+thanks.   apologies for the inconvience.
+Derek
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 15:08:31 -0800
+From: lefty@apple.com (Lefty)
+Subject: GUNS: Buy Chinese (was: Don't buy Chinese)
+
+>Richard Kennaway objects to my suggestion that the democracy students
+>'had it coming'.
+
+As do I.  Strenuously.  I don't care if they threw dogshit at Mr. Li,
+shooting  people and running them over with tanks is an overreaction.
+
+To say the least.
+
+The statement that "so-and-so had it coming" used to heard from time to
+time in rape trials.  I hope you don't subscribe to similar reasoning in
+those circumstances.  If you do, then I believe there's no reasoning with
+you at all.
+
+>Let's try a more hypothetical example.  We have an armed guard with low
+>self-esteem and a track record of senseless violence.  Further, I'll
+>imagine that his peer group are present.  You go up to him and insult
+>his gender, family, race, sexuality, country etc etc in the most orally
+>vile ways imaginable.  The libertarian position is pretty clear on this. 
+>You haven't initiated any coercion.  Freedom of speech and all that.
+>
+>Some questions:
+>1)   Would you be surprised if he shot you?
+>2)   Would you expect much sympathy?
+>3)   Would you behave like that?
+
+Other than further rationalizing your inclination to blame the victim, I'm
+not certain what the point of this little exercise might be.
+
+Some questions for you:
+
+1) Is he _justified_ in shooting?
+2) Do you think he should be taken out for ice cream, in the hopes that
+this will cause him to be inclined to be less sociopathic in the future?
+
+Now, I believe that there's no way to reward these hypothetical Chinese
+capitalists without rewarding the Chinese Communist Party at the same time.
+ Too bad, but I think that's the case.
+
+The collapse of the Soviet Union has taught us a worthwhile lesson: left to
+their own devices, totalitarian regimes will fail.  Anything that will help
+China to fail faster is, in my opinion, a fine thing.
+
+I am thrilled that China has been denied the 2000 Olympics.  I no more
+subscribe to the reasoning that rewarding them after all their abuses would
+somehow inspire them to create a more open society than I believe that you
+can inspire moderation in an alcoholic by buying him beers.
+
+If I _could_ somehow help a PRC capitalist, say on the black market, I
+could see doing that.  As long as the thugs running China stand a chance of
+getting a cut, no way.
+
+Violence in never justified.  Thuggery should not be rewarded.
+
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: Thu, 23 Sep 93 15:31:10 -0700
+From: freeman@maspar.com (Jay R. Freeman)
+Subject: SPACE: limits on launch costs
+
+    Dani Eder has posted material suggesting that erecting a tower to
+space is technologically possible.  I find this technology most
+interesting -- as a former space astronomer (the astronomy of other
+places is usually called something else) I can see great scientific
+use for a tower with a small payload, even if it were only 100 Km
+tall.  (But what I really want is the Space Needle restaurant done
+right -- as the restaurant at the beginning of the universe.)
+
+    We talked about it at west-coast Extropians luncheon today.  A
+couple of points came up there.
+
+    Interesting technical worries would include:
+
+    (1)  Maintainability.  How does one design the structure to
+         allow easy repair at (say) the 50 Km level.
+    (2)  Sensitivity to low-frequency vibrations, as in an
+         earthquake.
+    (3)  Loads imposed or exacerbated by ice and snow.  If the
+         combination of tower characteristics and climate results
+         in ice accumulation on girders and guy wires in the
+         troposphere, there might be real problems, not only with
+         extra weight but also with aerodynamics.
+    (4)  Severe-storm wind loads -- hurricane, tornado,
+         thunderstorm -- particularly in the context of (3).
+
+    Interesting social/legal problems would include:
+
+    (1)  What sticks up might fall down.  If you don't end up
+         putting it where fall-down would be harmless, how do you
+         deal with the possibility of death and damage to others
+         in the event of a failure?
+    (2)  By the way, just where do you put it?
+    (3)  If it sticks up a long way it will tend to intercept
+         low-flying satellites.  Again there are legal
+         repercussions (as well as physical ones!).  What would
+         such a tower do to current law and practice concerning
+         the boundaries of space and rights\\\\\\ entitlements to
+         passage there.
+
+    Interesting aspects of things to do with such a tower, besides
+    use as a possible spacecraft launch site -- already discussed
+    here -- would include:
+
+    (1)  Very clean environment.  Stuff that outgasses from a
+         satellite drifts along with you; stuff that outgasses
+         from a tower falls down.
+    (2)  Few power limitations.  You certainly have the option of
+         running electrical cables up the structure, perhaps even
+         of making them part of the structure.
+    (3)  Access to zero-gee for intervals of several minutes, by
+         dropping things down a central guy wire (and slowing them
+         up at the bottom before they splat).
+    (4)  Continuous scientific study of parts of the atmosphere
+         presently quite difficult to monitor.
+    (5)  Good place to do many kinds of space astronomy.
+    (6)  Great for bungee jumping.
+
+    (This is the kind of neat stuff that gets talked about at
+Extropians luncheon.  Today we also discussed the intellectual
+connections between various Randian and post-Randian written works;
+I myself was intrigued to learn that _The_Illuminatus_Trilogy_ was
+a satire of _Atlas_Shrugged_; that is, that Shea and Wilson were
+playing Weird Al to Rand's Michael Jackson ...)
+
+                                   -- Jay Freeman
+
+
+------------------------------
+
+End of Extropians Digest V93 #266
+*********************************
+

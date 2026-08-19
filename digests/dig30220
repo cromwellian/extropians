@@ -1,0 +1,1059 @@
+From extropians-request@gnu.ai.mit.edu Mon Apr 26 20:48:09 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA18455; Mon, 26 Apr 93 20:47:36 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from albert.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA03876; Mon, 26 Apr 93 20:46:22 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by albert.gnu.ai.mit.edu (5.65/4.0)
+	id <AA22108@albert.gnu.ai.mit.edu>; Mon, 26 Apr 93 23:37:53 -0400
+Message-Id: <9304270337.AA22108@albert.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Mon, 26 Apr 93 23:37:24 -0400
+X-Original-Message-Id: <9304270337.AA22089@albert.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0220
+X-Extropian-Date: Remailed on April 27, 373 P.N.O. [03:37:52 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Tue, 27 Apr 93            Volume 93 : Issue 0220
+                        
+Today's Topics:
+                                  Earth Day                           [2 msgs]
+                               G. Harry Stine                         [1 msgs]
+                    MEETING: UK Cryptoprivacy Association             [1 msgs]
+                                 Meta: List                           [1 msgs]
+                           Meta: Metzger vs. Singh                    [1 msgs]
+                   Meta:Rule vs. Being On Mr. Singh's List            [9 msgs]
+                    PPL/BOOK: Men Are Not Cost Effective              [1 msgs]
+                      PPL: Is Equality Cost Effective?                [1 msgs]
+                         Polanyi on Michelson-Morley                  [1 msgs]
+                          Speed of Light Limitation                   [3 msgs]
+                 TECH: Report - Entropic Cost of Computation          [2 msgs]
+                                  etymology                           [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 51475 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 22 Apr 93 23:40:22 BST
+From: "Russell E. Whitaker" <whitaker@eternity.demon.co.uk>
+Subject: MEETING: UK Cryptoprivacy Association
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+Meeting of the UK Cryptoprivacy Association
+- -------------------------------------------
+
+Saturday, 8 May 1993, 1500
+
+To be held at the offices of:
+
+  FOREST
+  4th floor
+  2 Grosvenor Gardens
+  London  SW1W 0DH
+
+This is located at the corner of Hobart Place, a couple of
+blocks west of Victoria Station, and almost directly across from
+the dark green cabbie shelter.
+
+If you have trouble finding the place, please call the office on
+071-823-6550.  Or, call me (Russell Whitaker) on my pager,
+081-812-2661, and leave an informative message with the
+telephone number where you can be reached; I will return the
+call almost immediately.
+
+Discussion will range from the usual general topics, such as the
+use of secure public key cryptosystems to protect message data, to
+specific topics, such as recent moves by the U.S. government
+to restrict choice in data privacy (reference recent discussion
+on Usenet groups, e.g. sci.crypt and alt.security.pgp).
+
+All are invited.  Particularly welcome are members of the
+newly-formed UK CommUnity group ... the local
+EFF-in-spirit-if-not-in-name folks.
+
+Those who plan to attend should email me and let me know.
+Please.
+
+All attendees are requested to bring diskettes - preferably
+MS-DOS - with their PGP 2.+ public keys.  As is usual at these
+gatherings, several of us will bring our laptops, and will sign
+public keys, subject to the usual caveats (reference the
+documentation for PGP 2.2, specifically files PGPDOC1.DOC and
+PGPDOC2.DOC).
+
+If you do not already have a copy of PGP 2.2 (MS-DOS), and would
+like to have a copy of this public domain program, please bring
+a formatted, medium or high density 3.5 inch floppy PC diskette;
+you will be provided a copy of the program.
+
+Of course, you might prefer to ftp a version of the program from
+one of the various archive sites.  I suggest trying Demon
+Internet Systems, which carries the full range of PGP (Phil
+Zimmerman's "Pretty Good Privacy") implementations: directory
+/pub/pgp at gate.demon.co.uk.
+
+Meetings are of indeterminate time.  Those who are interested
+are invited to join the rest of us at a pseudorandomly
+determined pub afterwards.
+
+Please note:
+- ------------
+In the past few months, interested people have emailed me,
+requesting FAQs and special information mailings.  I regret
+that, except in very unusual cases (e.g. working press), I
+cannot, in a timely manner, respond to these requests.  I will,
+however - and for the first time - do a writeup of this meeting,
+which I will post in various places.
+
+What I *am* willing to supply is general information on our
+activities for the maintainers of existing FAQs, such as that
+for alt.privacy.  FAQ maintainers can contact me at
+whitaker@eternity.demon.co.uk
+
+Russell Earl Whitaker                   whitaker@eternity.demon.co.uk
+Communications Editor                                 AMiX: RWhitaker
+EXTROPY: The Journal of Transhumanist Thought
+Board member, Extropy Institute (ExI)
+================ PGP 2.2 public key available =======================
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.2
+
+iQCVAgUBK9bG/ITj7/vxxWtPAQG0/AQAmPQKQl7KNB43DyniRyuDu5tixStXd2F7
+k5CiWNwN/u9ExZfptPgajwY91dsafX0H53RV5+lT8OSnvIx35QMmgBmPQOJCGnGj
+ZUJ2eGiSvfuLtAmgMQtSLtJh5x/VXmUIl8SJHzrffIz3SjnKcENTzrQnGc7UdIQ6
+x85InstiJzU=
+=Y9GS
+-----END PGP SIGNATURE-----
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+Date: Sun, 25 Apr 93 20:41:33 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: Speed of Light Limitation
+
+Hal humbly says:
+> I know this topic [speed of light barrier] isn't that relevant to
+> extropianism, but it can still be fun.
+
+As if fun isn't justification enough :-)
+
+But, more soberly, exploring the limitations of the universe is
+extremely extropian and (more importantly) relevant to our futures.  How
+can we break barriers until we understand them?
+
+I ignore the pugnacious folks who are quick to decree a topic X as not
+extropian.  They suffer from a lack of imagination.
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+------------------------------
+
+Date: Mon, 26 Apr 93 09:40:21 BST
+From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+Subject: TECH: Report - Entropic Cost of Computation
+
+Mike Price writes:
+>>  I understood that in theory reversible computers need consume no
+>>  energy at all, or at least arbitrarily little.
+>
+>They consume no energy in performing computations.  Energy is expended
+>in the creation of blank memory for scribbling the results of
+>computations on.
+
+Then the limit you are deriving is proportional to the space, not the time
+of the computation.  A potentially exponential improvement.
+
+--                                ____
+Richard Kennaway                  \ _/__    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk       \X  /    University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk      \/     Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Sun, 25 Apr 93 07:35:29 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: Speed of Light Limitation
+
+Mark Read Pickens asks:
+> 
+> Can someone tell me the origin of the idea that the speed of light is
+> the limit to motion in the universe? [...] Why was this assumption
+> made 
+
+Ray Cromwell has replied:
+
+>    The idea follows from the assumption that the laws of physics
+> are the same for all inertial observers -- those moving at constant
+> velocities with respect to each other. This idea dates back to
+> Galileo, 
+
+>From a slightly different perspective, with a bit more history:
+
+Galileo introduced the notion of equivalence for observers on sailing
+ships moving at different speeds (Galilean Relativity).  Mechanics was
+the only hard science available to Galileo, so his example was couched
+in terms of falling objects, fluid levels etc, but he probably thought
+that it would be generally applicable to include future developments.
+
+Newton formulated made 3 principal contributions to physics: optics,
+gravity and mechanics.  Mechanics was already frame-invariant, due to
+Galileo.  Newton made gravity frame-invariant by the simple expedient
+of action-at-at-distance, which assumes gravitational effects are felt
+instantly.  On optics, Newton did consider that different colours might
+travel at different speeds, but since Newton espoused the particle view
+of light, no problem with (Galilean) relativity.  If Newton had been
+asked, he probably would have said it obvious that a fast observer could
+overtake a light particle.  Thus Newtonian physics was compatible with
+relativity.
+
+Enter James Clerk Maxwell.  He knocked the electro-magnetic discoveries
+of Faraday into mathematical form.  The amazing thing is that he was
+able to predict the speed of light (now assumed to be a wave on the
+luminiferous ether) by measuring mundane stuff (as Ray said) like the
+permittivity and permeability of free space.  Also he predicted the
+occurrence of other frequencies, like radio lengths etc, all of which
+would have the same speed.  By the equivalence principle the speed of
+light should be the same for observers in relative, unaccelerated
+motion.  Maxwell was aware of this and assumed his equations would need
+modifying to remove this feature.  Whether he thought in terms of an
+stationary ether that objects slid, though, I'm not sure.  Certainly the
+prevailing attitude soon became that the ether wind would cause some
+perturbation to Maxwell's equations.
+
+Michelson-Morley tried to detect the ether wind's change of speed as the
+Earth circled the sun and failed.  But this negative-result experiment
+received very little attention and Einstein probably was not aware of
+it until he became famous.  In his early years he denied having heard
+of Michelson-Morley until *after* he'd formulated special relativity. 
+Late in life he claimed he had, but it's a reasonable assumption that
+Einstein's earlier recollections were sounder than his later ones.
+
+Einstein theory of special relativity was generated purely by
+reconciling the requirement for (Galilean) relativity with the Maxwell
+equations.  Rather than change the equations, which are masterly in
+their compactness (after Oliver Heavyside had slimmed them down)
+Eistein's genius was to alter the relationship of observers in relative
+motion to space and time.  Hence as Ray says:
+
+> but Einstein generalized it to all the laws of physics.
+
+The point I'm trying to make is that Einstein was motivated to return
+physics to the pre-Maxwellian, post-Newtonian days when the principle
+of equivalence held sway.  Maxwell's equations temporarily breached
+this, but special relativity mended the situation again.  Einstein was
+not motivated by direct observation of the constancy of the speed of
+light.  This is not required as an *additional* assumption to the
+principle of equivalence.  The constancy of the speed of light is a
+consequence of the principle of equivalence applied to Maxwell's
+electromagnetism.  Relativity was the normal state of affairs in
+physics.  For a about 40 years Maxwell's equations violated this
+principle, then Einstein restored the status quo.
+
+The speed of light limit comes from the geometry of space and time,
+which why scientists are so convinced that no material construction can
+cross the light barrier.
+
+Mark:
+> and what kind of research substantiates it?  
+
+Every experiment that verifies Maxwell verifies Einstein.
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+------------------------------
+
+Date: Sun, 25 Apr 93 07:56:58 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: Speed of Light Limitation
+
+> "Mass" doesn't really increase [with speed].  You can formulate things
+> such that inertial mass increases, but gravitational mass doesn't
+> change.
+
+Gravitational mass increases as well.  An object that whizzes by will
+exert a greater gravitational pull than when it's stationary.  The
+energy of motion gravitates, just like the rest mass.  The equivalence
+between inertial and gravitating mass remains constant.
+
+>    Eli   ebrandt@jarthur.claremont.edu
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+------------------------------
+
+Date: Mon, 26 Apr 1993 04:57:59 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: TECH: Report - Entropic Cost of Computation
+
+Richard Kennaway writes:
+> 
+> Mike Price writes:
+> >>  I understood that in theory reversible computers need consume no
+> >>  energy at all, or at least arbitrarily little.
+> >
+> >They consume no energy in performing computations.  Energy is expended
+> >in the creation of blank memory for scribbling the results of
+> >computations on.
+> 
+> Then the limit you are deriving is proportional to the space, not the time
+> of the computation.  A potentially exponential improvement.
+
+  But there is a trade-off in achieving ``no energy'' usage, which is
+running your computations slowly. I don't care about zero energy
+usage if it takes millions of years to do some computation. So the task
+is to find an acceptable trade off. Speed for energy.
+
+
+> --                                ____
+> Richard Kennaway                  \ _/__    School of Information Systems
+> Internet:  jrk@sys.uea.ac.uk       \X  /    University of East Anglia
+> uucp:  ...mcsun!ukc!uea-sys!jrk      \/     Norwich NR4 7TJ, U.K.
+> 
+> 
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Sun, 25 Apr 93 21:15:31 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: PPL/BOOK: Men Are Not Cost Effective
+
+Phil Fraering says:
+> [..] the idea that we are "all created equal"
+> is IMHO a neccesary assumption to make about other people's
+> _native_ intelligence [..]
+
+Would you assume that two racially distinct populations have the same
+average height or skin colour or length of colon or ..?  You'd be nuts
+if you did.  Even in the absence of information statistics says you'd
+expect variation between the two distinct populations.
+ 
+> I think this topic is _highly_ relevant to extropians, because
+> there is a strong tendancy to try to defend the flaws in the
+> quite un-extropian status quo as being from some other factor.
+
+Also a strong tendency for anarchos to say that all these group
+inequalities in performance will disappear in some libertarian utopia. 
+Either way, very relevant to extropians, I agree.
+
+> Please wake up; we don't need to come up with excuses for the
+> government's poor educational system that border on racism.
+
+I'm not trying to defend schools, just that you can't heap all the
+sorrows of the world onto them either and pretend they'll go away with
+the passing of the Evil State.
+
+> (And let's face facts: this poor educational system is probably
+> behind both this society's crime problem _and_ the disproportionate
+> crime rate amoung african-americans, who are disproportionately
+> trapped in the worst parts of said school system).
+
+Let's face facts then.  Go read:
+  Racial Variation in Man: Proceeding of a symposium held at the 
+  Royal Geographical Society (1977), editor FJ Ebling  ISBN 0632001178 
+
+In case the PC brigade have burnt the book, try:
+  Harvard Education Review 39 1-123, 209-243 (1969) AR Jensen
+
+The evidence unambiguously says average intelligence levels in the three
+main divisions of humanity is mongoloid => caucasoid => negroid, in
+descending order.  Nearly a caucasoid-sigma between each.
+
+> Phil Fraering
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+------------------------------
+
+Date: Mon, 26 Apr 1993 09:23:01 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: etymology
+
+In <9304232356.AA26858@churchy.gnu.ai.mit.edu>, D Anton Sherwood writes:
+|> I mentioned the Latin words
+|> > . . . LIBER : LIBRI / LIBERI, of which the first means
+|> > `books' and the second means `free men'.
+|> 
+|> to which Freeman Craig Presson reacted--
+|> > This one's great. "Book" and "Free man" cognate. Gotta love it.
+|> 
+|> Not cognate -- that word means a common genesis (co-gn-).  If you'll look
+OK, at least homonymic. Still makes my ears happy :-)
+
+[digression deleted]
+?? I wasn't saying anything about English, I was only speaking English.
+I should have said "the words for" ... "cognate". I would have to
+dig around in my Latin books to know whether I should say "cognate"
+or "homonymic". Or "semi-homonymic", since the plural differs.
+
+|> Evidently a freeman in Latium was a member of the (conquering?) tribe.
+
+A freeman in all times and places is one who can defend his freedom.
+But it often was used for something like "citizen" but without the
+civics-class baggage of that term.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    /
+
+
+------------------------------
+
+Date: Mon, 26 Apr 1993 11:33:00 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Meta: Metzger vs. Singh
+
+Mr. Metzger has charged Mr. Singh with violating list rules 
+by posting about vogi's.
+
+I will be out of electronic reach for a few days.
+
+Judgement will be considered when I return.
+
+Also the ExI legal council has threatened legal action against Mr. Singh
+as indicated in Mr. Morrow's posts of a few days ago.
+
+It is possible that the board may wish move to remove Mr. Singh from the
+list. If this happens that action would superceed any action I
+might take.
+
+/Harry
+
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Mon, 26 Apr 1993 11:25:31 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Meta: List
+
+I will be out of touch, electronically speaking for the
+next several days. My father's mother apppearing to be
+dying...
+
+The list will be in semi-auto pilot mode.
+
+Let perry or ray (rjc) know if you need an urgent disconnect.
+
+/harry
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Mon, 26 Apr 1993 13:20:28 -0400 (EDT)
+From: Carol Moore <cmoore@cap.gwu.edu>
+Subject: Meta:Rule vs. Being On Mr.  Singh's List
+
+Is there a rule against *current* list members
+joining Mr. Singh's list to check it out?
+Or would that be just considered unkosher?
+Could Mr. Morrow re-post his message?  I
+think I missed it.
+Thanks! ;-)
+
+
+cmoore@cap.gwu.edu (personal messages, please write PERSONAL in
+subject line.  Thanks.)
+
+
+
+
+------------------------------
+
+Date: Mon, 26 Apr 1993 12:50:31 -0600
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: Meta:Rule vs. Being On Mr.  Singh's List
+
+>Could Mr. Morrow re-post his message [about Singh setting up alt.extropians]?  
+>cmoore@cap.gwu.edu
+
+I no longer have a copy, but can tell you that it basically said I was
+investigating whether or not Singh had ExI's permission to set up the
+newsgroup.
+
+I have discovered that Singh did not have ExI's permission to use the
+trademarked term, "Extropians."
+
+Contrary to what some have said, ExI has not yet threatened to sue Mr.
+Singh for violation of its trademark.  I am currently negotiating with
+Singh, and am encouraging him to cancel alt.extropians until we can work
+out a proper agreement.
+
+For Singh and everyone else, let me make it clear: Only ExI's board of
+directors can grant permission to use its trademarked terms, such as
+"EXTROPY," "ExI," "EXPONENT," "The Journal of Transhumanist Thought,"
+"Extropians," etc.  ExI will take all moral and legal measures that it
+deems adequate and necessary to protect these trademarks from infringement.
+
+
+T.O. Morrow                     --  twb3@midway.uchicago.edu
+Vice President: ExI             --  The Extropy Institute
+Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+
+
+------------------------------
+
+Date: Mon, 26 Apr 1993 11:31:33 -0800
+From: lefty@apple.com (Lefty)
+Subject: Earth Day
+
+>I have seen plenty of celebration of anti-Capitalist ideas on Earth Day.
+
+This is neither here nor there.  I've seen "plenty of celebration of
+anti-Capitalist ideas" on Shrove Tuesday and St Swithin's Day.
+
+>I suggest you do the research yourself, and you will find out that
+>Earth Day was meant to be on Lenin's birthday.
+
+The cursory amount of research I was able to do over the weekend in no way
+supports your highly questionable claim.
+
+I feel, however, that I must point out that _you_ made the claim.  _You_
+get to support it.  If you fail to do so, you are not one whit better than
+Mr. Singh and his self-levitating yogis.
+
+I'm parenthetically astounded that I should have to explain this to someone
+who claims to be on the faculty of a university.
+
+>If you want to celebrate the birthday of a genocidal maniac, you are free to
+>do 
+>so, but it needs to be stated that this is exactly what you are doing.
+
+I'd be thrilled to see you provide some support for this extravagant claim.
+
+Until you do, I hope you won't take it the wrong way if I consider you to
+be a complete and utter loon.
+
+I intend for this to be my last post on this particular subject.  If Krzys'
+can provide some credible backing for his claim, I will apologize to him.
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: Mon, 26 Apr 1993 20:01:18 +0100 (BST)
+From: Malcolm S A Hutty <me95004@ox.ac.uk>
+Subject: Meta:Rule vs. Being On Mr. Singh's List
+
+On Mon, 26 Apr 1993, Tom Morrow wrote:
+
+> For Singh and everyone else, let me make it clear: Only ExI's board of
+> directors can grant permission to use its trademarked terms, such as
+> "EXTROPY," "ExI," "EXPONENT," "The Journal of Transhumanist Thought,"
+> "Extropians," etc.  ExI will take all moral and legal measures that it
+> deems adequate and necessary to protect these trademarks from infringement.
+> 
+
+While ExI have a right to protect their property, is it not the case that
+Extropianism is a theory competing in the free market of ideas? Wouldn't
+it be able to compete more effectively if it is distributed more widely?
+
+Malcolm Hutty
+me95004@black.ox.ac.uk
+
+
+------------------------------
+
+Date: Mon, 26 Apr 1993 12:08:26 -0800
+From: romana@apple.com
+Subject: PPL: Is Equality Cost Effective?
+
+>Hi Romana...
+
+Okay, Phil, I'll bite:
+
+>(who writes:)
+>>It is evident that all people are different; the idea that we're
+>>"all created equal" is conforting but bogus, an oversimplification of
+>>a laudable argument for natural rights.
+>
+>Maybe so, but the current state of affairs hardly constitutes a
+>level playing field, so the idea that we are "all created equal"
+>is IMHO a neccesary assumption to make about other people's
+>_native_ intelligence and morals especially given the wide
+>variation in opportunity and educational quality apparent in
+>today's United States.
+
+I agree that the current situation is unjust. But what are 
+"native intelligence and morals", Phil? Do you suppose that
+ _in reality_ everyone's native intelligence (please define this)
+ is _the same_? And aren't "morals" a result of learning from
+ social interaction?
+
+You may have a recipe for institutional justice here,
+but you'll run into a lot of trouble if you conduct everyday business
+dealings using it! (As for me, I'm playing tit-for-tat; all agents
+are assumed respectable until they defect against me, or one of my 
+proxies.)
+
+>I think this topic is _highly_ relevant to extropians, because
+>there is a strong tendancy to try to defend the flaws in the
+>quite un-extropian status quo as being from some other factor.
+>Please wake up; we don't need to come up with excuses for the
+>government's poor educational system that border on racism.
+
+I agree that our government's educational system is quite flawed.
+
+ >(And let's face facts: this poor educational system is probably
+>behind both this society's crime problem _and_ the disproportionate
+>crime rate amoung african-americans, who are disproportionately
+>trapped in the worst parts of said school system).
+
+Excuse me? "The school system is behind society's crime problem?"
+Does this theory (don't _even_ try to call it a fact!) remove the 
+responsibility of the _individuals_ that commit  crime, and cause 
+it to pass to the school system?
+
+However, I do agree that our goverment causes crime. Much crime is
+caused by discriminatory laws that unjustly oppress the "immoral 
+underclass"; much crime would just disappear with a few modifications
+to our laws, such as the decriminalization of recreational
+ chemicals and prostitution.
+
+
+Romana Machado
+---
+As usual, I was just sitting at a stoplight when one of those horny jerks
+honked at me. I just don't get why they think it's such a compliment to be
+gawked at. I shoved my finger up each nostril slowly, deeply, and
+earnestly.
+Mmmm. I snuck a glance at my offender. Eureka! I was being shunned. I
+smiled all the way home. 
+
+romana@apple.com
+
+
+------------------------------
+
+Date: Mon, 26 Apr 1993 14:28:51 -0600
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: Meta:Rule vs. Being On Mr. Singh's List
+
+>On Mon, 26 Apr 1993, Tom Morrow wrote:
+>
+>> For Singh and everyone else, let me make it clear: Only ExI's board of
+>> directors can grant permission to use its trademarked terms, such as
+>> "EXTROPY," "ExI," "EXPONENT," "The Journal of Transhumanist Thought,"
+>> "Extropians," etc.  ExI will take all moral and legal measures that it
+>> deems adequate and necessary to protect these trademarks from infringement.
+>> 
+>
+>While ExI have a right to protect their property, is it not the case that
+>Extropianism is a theory competing in the free market of ideas? Wouldn't
+>it be able to compete more effectively if it is distributed more widely?
+>
+>Malcolm Hutty
+
+ExI claims only trademark rights, not the right to control what others say
+or think about Extropianism.  With that in mind, you are quite right.  In
+fact, ExI lays the groundwork for others to discuss Extropianism by
+protecting its trademarks.  If anyone can sponsor a list called
+"Extropians" (or a magazine called "EXTROPY," etc.) and and use it to
+promulgate ideas unrelated or opposed to Extropianism, then it will become
+much more difficult to discuss Extropianism intelligently.  We can't be
+sure what the term means anymore.
+
+Again, to clarify, I emphasize that trademark rights are quite limited. 
+They cannot be used to stifle discussion or criticism of the goods or
+services to which they correspond.  Anyone can therefore set up a list that
+discusses Extropianism; they just can't identify it with one of ExI's
+trademarks.
+
+T.O. Morrow                     --  twb3@midway.uchicago.edu
+Vice President: ExI             --  The Extropy Institute
+Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+
+
+------------------------------
+
+Date: Mon, 26 Apr 1993 15:31:59 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: Meta:Rule vs. Being On Mr. Singh's List
+
+alt.extropians has appeared at my site but is still empty.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    /
+
+
+------------------------------
+
+Date: Mon, 26 Apr 93 15:02:01 MDT
+From: hammar@cs.unm.edu
+Subject: G. Harry Stine
+
+"Perry E. Metzger" <pmetzger@lehman.com> wrote:
+>Mark Read Pickens says:
+>> About thirty years ago a team led by G. Harry Stine performed a series of
+>> experiments designed to determine the speed of (presumably massless) gravity
+>> waves.  The conclusion was that gravity is "at least thirty thousand times
+>> faster than light."  
+>
+>Huh? To my knowledge, no gravity waves have yet been detected. I've
+>also never heard of Mr. Stine, or is it Dr. Stine, and I suspect that
+>I would have.
+
+    G. Harry Stine is a long-time engineer and author of science fact
+and fiction (much of it very libertarian oriented). I don't remember
+the pseudonym he writes fiction under, but he's written nonfition
+under his own name, including _The Fourth Industrial Revolution_, (the
+best book I've seen yet on industry in space, the index alone is a
+better argument than a lot of official L-5 propoganda), _War in Space_
+(exactly what it sounds like, using reasonable technology forcasts),
+and a watered down book on space industry intended for easy reading
+(good propoganda, but no index and he avoids the hard science as much
+as possible due to the intended audience. Good gift for a bright 6th
+grader, or average high school graduate).
+    He also champions a lot of fringe science, in part because he
+thinks it's good to stir people up. In the late 50's or early 60's he
+wrote a piece on how Einstein was wrong about the speed of light for
+Analog (then Astounding SF) and got a year+ long letters war going. He
+openly admitted he was presenting a biased view of the evidence. His
+real purpose, he explained, was to show how much of science consists
+of filtering out data that disagrees with your theory. He predicted
+(maybe even correctly) that the theory that supercedes Relativity will
+explain some of the data he highlighted. (Other parts of it were just
+experemental errors.)
+    He is most famous in the fringe science area for what he wrote on
+the "Dean Drive" in the 50's. A (probable crackpot) inventor named
+Dean had invented and patented a device to "convert angular momentum
+into linear momentum", in other words, a reactionless spacedrive. The
+corporation Stine worked for at the time assigned his boss (Dr. Davis,
+a physisist) to investigate. (This was being taken seriously by
+several companies. One major corporation sent a team with the
+authority to pay a million + royalties on the spot if they were
+convinced it would work.) The results were inconclusive because, with
+typical crackpot paranoia, Mr. Dean wouldn't let them have uncontroled
+access to the machine for testing until _after_ they bought the
+patent. Obviously, they didn't pay, nor did any other company. In the
+(possibly rigged, and definitely not rigourous) demonstration Mr. Dean
+arranged in his lab, the machine did weigh less when running than when
+off. Mr. Dean died shortly after, (mysteriously of course) and noone
+since has been able to make a Dean Drive work from the patent. This
+last isn't surprising, because even if genuine (big if), the machinery
+Stine saw did not match the patent description. Thats a stupid thing
+to do, since patents only cover what is written, but typical for a
+paranoid who thinks he's invented something wonderful.
+
+    I think Stine's SF pseudonym is Turtledove, but I am not sure. (I
+am sure there is an author called Turtledove, but he may not be
+Stine.) I remember a story I'm sure was by Stine under his pseudonym
+which had a bunch of alliances competeing to exploit space in the next
+century, where none of the alliances corresponded to conventional
+political descriptions. For example, the USSR and USA were shooting at
+each others ships occasionally, but were one alliance. The good guys
+in the story were a semianarchist country run by a collection of
+people who went armed all the time and looked down on someone who
+didn't carry a weapon. My memory is a bit fuzzy about whether the
+characters in the story were one corporation in their alliance or
+many.
+
+Neil Hammar
+hammar@unmvax.cs.unm.edu
+
+
+------------------------------
+
+Date: Mon, 26 Apr 93 16:22:23 MDT
+From: Ed_Lane@Novell.COM (Ed Lane)
+Subject: Meta:Rule vs. Being On Mr. Singh's List
+
+> From extropians-request@gnu.ai.mit.edu Mon Apr 26 14:35:05 1993
+> To: Extropians@gnu.ai.mit.edu
+
+Freeman Craig Presson writes:
+
+> 
+> alt.extropians has appeared at my site but is still empty.
+
+I just looked (we are a "well-connected" site), and there are now 19
+postings in alt.extropians.
+
+About 13 appear to be about "flying yogis". 
+
+-Ed
+
+
+------------------------------
+
+Date: Mon, 26 Apr 1993 18:51:40 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Meta:Rule vs. Being On Mr. Singh's List 
+X-Reposting-Policy: redistribute only with permission
+
+Ed Lane says:
+> Freeman Craig Presson writes:
+
+> > alt.extropians has appeared at my site but is still empty.
+> 
+> I just looked (we are a "well-connected" site), and there are now 19
+> postings in alt.extropians.
+> 
+> About 13 appear to be about "flying yogis". 
+
+I would simply ignore the group, and not post to it. Let Mr. Singh
+have his fun. That he believes in things that are demonstrably not
+true is punishment enough for him.
+
+Perry
+
+------------------------------
+
+Date: Mon, 26 Apr 93 16:09:48 -0700
+From: davisd@pierce.ee.washington.edu
+Subject: Meta:Rule vs. Being On Mr. Singh's List 
+
+  >On Mon, 26 Apr 1993, Tom Morrow wrote: 
+  >
+  >> For Singh and everyone else, let me make it clear: Only ExI's board of
+  >> directors can grant permission to use its trademarked terms, such as
+  >> "EXTROPY," "ExI," "EXPONENT," "The Journal of Transhumanist Thought,"
+  >> "Extropians," etc.  ExI will take all moral and legal measures that it
+  >> deems adequate and necessary to protect these trademarks from infringement.
+  >> 
+
+  Tom again:
+
+  Again, to clarify, I emphasize that trademark rights are quite limited. 
+  They cannot be used to stifle discussion or criticism of the goods or
+  services to which they correspond.  Anyone can therefore set up a list that
+  discusses Extropianism; they just can't identify it with one of ExI's
+  trademarks.
+
+Does this I can talk about extropianism, but I just can't use the word? Or
+is the only problem using a name for the list with "extropians" in it?
+Could you clarify just what your trademark rights are?
+
+Buy Buy -- Dan Davis
+
+------------------------------
+
+Date: Mon, 26 Apr 1993 18:32:55 -0600
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: Meta:Rule vs. Being On Mr. Singh's List
+
+Please, folks, let's not turn this list into a tutorial on trademarks! 
+I'll field this question, but I hope that in the future people will do some
+independent research and use their common sense before taking their
+questions to the list.
+
+After I described ExI's trademark rights, Dan Davis asked:
+
+>Does this I can talk about extropianism, but I just can't use the word? Or
+>is the only problem using a name for the list with "extropians" in it?
+
+Exxon has a trademark in its name, but clearly we can use the company's
+name in discussing its corporate strategy.  Likewise with ExI and
+Extropianism: you are allowed "fair use" of ExI's trademarks, such as in
+discussions of the organization and the philosophy that it expounds.  But
+you cannot use ExI's trademarks in a manner that is likely to cause
+confusion as to the source or origin of a good or service.  That is why
+naming another list "Extropians" infringes on ExI's trademark, whereas
+writing an editorial called "Why the Extropians List has Irked Bill
+Clinton" does not.   
+
+Again: Infringement results when someone uses another's trademark in a
+manner that is likely to confuse consumers, leading them to misidentify the
+source or orgin of a good or service.  Setting up an unauthorized list
+called "alt.extropians" clearly has this result.  Saying "I like the
+Extropians list," does not.
+
+I hope this helps, and now return you to the regularly scheduled discussion
+taking place on the *real* Extropians list.
+ 
+
+T.O. Morrow                     --  twb3@midway.uchicago.edu
+Vice President: ExI             --  The Extropy Institute
+Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+
+
+------------------------------
+
+Date: Mon, 26 Apr 93 22:48:03 -0400
+From: tburns@gmuvax.gmu.edu (Dave Burns)
+Subject: Polanyi on Michelson-Morley
+
+"The Michelson-Morley experiment of 1887 , which Einstein mentions in
+support of his theory and which the textbooks have since falsely enshrined
+as the crucial evidence which compelled him to formulate it, actually did
+not give the result required by relartivity! It admittedly substantiated
+its authors' claim that the relative motion of the earth and the 'ether'
+did not exceed a quarter of the earth's orbital velocity. But the actually
+observed effect was not negligible; or has, at any rate, not been proved
+negligible up to this day. The presence of a positive effect in the
+observations of Michelson and Morley was pointed out first by W. M. Hicks
+in 1902 and was later evaluated by D. C. Miller as corresponding to and
+'ether-drift' of eight to nine kilometres per second."
+
+>From "Personal Knowledge: Towards a Post-Critical Philosophy," by Michael
+Polanyi, page 12. Any typos are mine.
+-------------------------------------
+Dave Burns      tburns@gmuvax.gmu.edu
+10310 Main St. #116 Fairfax, VA 22030
+(703)993-1142 Wiretap Chip:IMPOSSIBLE (was Breakfast)
+Public key by finger, with disclaimer
+-------------------------------------
+
+
+------------------------------
+
+Date: Mon, 26 Apr 1993 23:02:08 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: Earth Day
+
+Lefty writes:
+> 
+> >I have seen plenty of celebration of anti-Capitalist ideas on Earth Day.
+> 
+> This is neither here nor there.  I've seen "plenty of celebration of
+> anti-Capitalist ideas" on Shrove Tuesday and St Swithin's Day.
+
+   The environmentalism movement is very leftist/communist at its core.
+The intellectual elite of the movement have been advocating the abolishment
+of property rights and individualism for a long time. It starts
+out as a crack down on cars and the suburban lifestyle -- environmentalists
+want everyone to use public transit and live in compact-urban cities.
+But it goes much further than that, for you see, humans use
+``too much'' energy in their view, so our consumption of resources
+must be drastically reduced.  When their idealogy is actually applied,
+you wind up in a society where the use of property, and the exercise
+of individual rights (like reproduction and movement) are incredibly
+controlled. If this isn't communist, I don't know what is.
+
+   Many environmentalists go even further. They suggest that
+farming should not be specialized -- we all should do it. Their
+model is the chinese commune where each household grows their own food.
+Furthermore, the ``good'' of the ecosystem should be placed above
+the needs of human race. They see the world as overpopulated and feel that
+we should have negative population growth. Say goodbye to cryonics
+and life extension. Finally, they are generally anti-technology luddites
+who feel technology is part of the problem not the solution. In other words,
+we should not try to make the world better by allowing people to consume
+more and pollute less, rather, we should just consume less.
+(social engineering solutions rather than technical ones)
+
+  Now, you may ask, where is my proof, where are my references? It is unlikely
+that a study has been done on the typical environmentalist viewpoint,
+but I offer as evidence sci.environment, misc.activism.progressive,
+and Captain Planet.
+
+  Several list members debate in sci.environment frequently, so I can
+be backed up on this. And if requested, I will forward posts from
+sci.environment with evidencce of the anti-capitalist anti-individual
+attitude. (remember 'Humans as Cancer' ?)
+
+  Earth Day may not openly celebrate anti-capitalism, but you can sure
+that the memes have anti-capitalist components that will continue to grow.
+Earth Day certainly is a very collectivist activity. (BTW, a guy
+on the local news here sang the "Earth Day Anthem" which had a line
+like "...to the day when no one has more than another")
+
+> >If you want to celebrate the birthday of a genocidal maniac, you are free to
+> >do 
+> >so, but it needs to be stated that this is exactly what you are doing.
+> 
+> I'd be thrilled to see you provide some support for this extravagant claim.
+
+   The birthday paradox assures us that with reasonable probability,
+any day will coincide with a historical genocidal maniac. However,  I would
+like to investigate further the reasoning for the specific date they
+chose. Why not the first day of spring, or during equinox, etc.
+
+> Until you do, I hope you won't take it the wrong way if I consider you to
+> be a complete and utter loon.
+> 
+> I intend for this to be my last post on this particular subject.  If Krzys'
+> can provide some credible backing for his claim, I will apologize to him.
+
+   I think your message is starting to become a little flamish in tone.
+Let me guess, you're an environmentalist right?
+ 
+> --
+> Lefty (lefty@apple.com)
+> C:.M:.C:., D:.O:.D:.
+
+p.s. Let me distinguish the difference between an environmentalist and
+an environmental engineer/scientist.  Environmentalists are generally
+politically motivated and driven by fear and ignorance. This can easily
+be tested by just bringing up the concept of nuclear power. I was
+unfortunate enough to catch the latest anti-nuke flame in sci.energy
+where eco-idiots where claiming that nuclear power plants could
+explode "just like an atomic bomb." Anyone with even a miniscule knowledge
+of fission power knows this is simply impossible in a normal power
+plant design. (otherwise, atom bombs would be a piece of cake to build,
+but they aren't as simple as just achieving a chain reaction) One
+eco-loonie commented "it doesn't matter that my statements are
+factually incorrect [about nuke planets exploding like bombs], my opinion
+of nuke power is still valid" (paraphrased)  
+  The environmental movement also has a sneaky propaganda scare-tactic of
+showing nuclear test explosion footage interleaved with images of cooling
+towers on nuke plants. Presumably, this scares people into associating
+nuclear energy with nuclear weapon proliferation. Every so often, 
+images of industrial assembly lines are mixed in too.
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0220
+****************************************
+

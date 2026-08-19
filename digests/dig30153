@@ -1,0 +1,957 @@
+From extropians-request@gnu.ai.mit.edu Wed Mar 24 20:21:38 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA23868; Wed, 24 Mar 93 20:21:34 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from churchy.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA19727; Wed, 24 Mar 93 20:21:29 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by churchy.gnu.ai.mit.edu (5.65/4.0)
+	id <AA08892@churchy.gnu.ai.mit.edu>; Wed, 24 Mar 93 23:09:26 -0500
+Message-Id: <9303250409.AA08892@churchy.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Wed, 24 Mar 93 23:09:02 -0500
+X-Original-Message-Id: <9303250409.AA08878@churchy.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0153
+X-Extropian-Date: Remailed on March 25, 373 P.N.O. [04:09:25 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Thu, 25 Mar 93            Volume 93 : Issue 0153
+                        
+Today's Topics:
+                    BANG: How I got my Extropian Name(s)              [1 msgs]
+                       Chomsky, Conspiracies, and Jews                [1 msgs]
+                        ECON/CRYPT: Crypto-Extortion                  [2 msgs]
+                  HEX: Some shell aliases for HEx requests            [2 msgs]
+                             HUMOR: (was reason)                      [1 msgs]
+                 META: Is an armed society a polite society?          [1 msgs]
+                 PARABLES: Extropian Parables -- a proposal           [1 msgs]
+                  PHIL: Identity, Transformation, Uploading           [2 msgs]
+           PHIL: Transformation, Uploading, and Sexual Engineering    [1 msgs]
+                             POLI: Noam Chomsky                       [1 msgs]
+                       PRIVACY: End of anon.penet.fi?                 [1 msgs]
+                      PRIVACY: anon.penet.fi time limit               [1 msgs]
+                     Subject: META: Why not moderation?               [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50635 bytes.
+
+----------------------------------------------------------------------
+
+Date: Wed, 24 Mar 1993 17:48:07 +0100 (MET)
+From: ggoebel@sun1.ruf.uni-freiburg.de (Garrett Goebel)
+Subject: PRIVACY: End of anon.penet.fi?
+
+It was reported that the anon.penet.fi remailer 
+has ceased to exist... or something along that 
+line.
+
+I used it yesterday.  
+I posted to a newsgroup.
+I sent anonymous mail.
+
+It is still working... at the moment.
+
+They have installed a new password requirement...
+but it still seems to be running.
+
+-- 
+C. Garrett Goebel
+<ggoebel@sun1.ruf.uni-freiburg.de>
+
+------------------------------
+
+Date: Wed, 24 Mar 93 12:34:48 CST
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: HEX: Some shell aliases for HEx requests
+
+Here are some shell aliases for participants in the (cool)
+reputation market.  These are not exhaustive, but extensions
+to the other commands should be pretty obvious.  These kinds
+of aliases make interaction with the system pretty painless!
+
+Improvements welcome!
+
+derek
+
+alias hex_desc 'mail -s "DESCRIBE \!*" HEx@sea.east.sun.com < /dev/null'
+alias hex_quote 'mail -s "QUOTE \!*" HEx@sea.east.sun.com < /dev/null'
+alias hex_list 'mail -s LIST HEx@sea.east.sun.com < /dev/null'
+alias hex_report 'mail -s REPORT HEx@sea.east.sun.com < /dev/null'
+alias hex_account 'mail -s ACCOUNT HEx@sea.east.sun.com < /dev/null'
+
+------------------------------
+
+Date: Wed, 24 Mar 93 12:14:41 MST
+From: hammar@cs.unm.edu
+Subject: PRIVACY: anon.penet.fi time limit
+
+THis is reprinted (without permission) from news.admin.policy
+
+*********************
+>From: julf@penet.fi (Ze Julf)
+>Subject: Anon.penet.fi no more
+>Organization: No!
+>Date: Tue, 23 Mar 1993 14:56:35 GMT
+>Lines: 54
+>
+>The anonymous service at anon.penet.fi has been closed down. Postings to
+>netnews and mail to arbitrary addresses has been blocked. To enable users
+>who know each other only by their anon ID's to arrange alternate
+>communication paths, mail to anonymous users will still be supported for
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>two weeks. After this period all database entries will be deleted.
+ ^^^^^^^^^
+[rest of pst deleted]
+
+The remainder of the post is worth reading if you are interested. Julf 
+does not say who applied what type of preasure to force him to shut down.
+If I remember correctly he owns his own business, so it wasn't something as
+simple as harrasing his boss, which is what took out the last anon server
+I know of.
+
+Neil Hammar
+hammar@unmvax.cs.unm.edu
+
+------------------------------
+
+Date: Wed, 24 Mar 1993 14:23 EST
+From: LEVY%LENNY@Venus.YCC.Yale.Edu
+Subject: BANG: How I got my Extropian Name(s)
+
+How I Got my Extropian Name(s)
+by Simon! D. Levy a.k.a. S1m0n D. Levy
+
+Well, Max was encouraging his friends to change their names to something
+more Extropically powerful.  I am a pretty conservative sort, and feel
+that I have earned the name Simon through extraordinary amounts of 
+childhood peer harrassment (Simon Says, Simon Bar Sinister, Simon the Pieman, 
+Simon the computer game) in a country where the name is comparatively rare.
+Also, I identify both my first and last names with the Extropoid
+values (integrity, hard work, skill) of my paternal grandfather Simon H. Levy,
+who died shortly before I was born.  In fact, Levy is a name taken at
+Ellis island by _his_ father, whose Russian Jewish name was apparently
+too difficult for the immigration clerk to handle.  So, in fact, my last
+name is Libertarian-Extropian: It comes from a man who left Russia to seek
+economic opportunity (and probably to escape government-sactioned
+antisemitism) and who was either then the victim of bureaucratic laziness,
+or who voluntarily changed his name when he improved his circumstances.
+
+As for the ! (bang), well, I wanted to make a change that would allow me to 
+keep the pronounciation of my cherished given name, while also allowing
+readers of _Extropy_ and the List (and later _Exponent_) to see my efforts
+at positive change.  The bang, originally intended as a small parody of
+the in-your-face exhuberance of names like More and Plus, ended up taking
+on an etiological life of its own.  On the one hand, it is the symbol for
+the factorial function, which is (conveniently) written n!, meaning
+that the /n/ in my name is actually of some use too.  N! ("n factorial") 
+increases explosively with n (2! = 2; 3! = 6; 4! = 24; 5! = 120; 6! = 720,...), 
+so  I think I have captured some of the expansive flavor of names like More 
+and Plus.  Furthermore, the fact that the function is recursively defined 
+(n! = n * (n-1)!) makes it especially appealing to the computer nerd in me.
+
+On the other hand, the ! is a symbol used for the rare lateral click (a.k.a.
+lateral velaric ingressive) sound found in Zulu, Xhosa, and other
+southern African languages, which pleases the linguist in me.  (To
+make this sound, put the back of your tongue against the roof of your
+mouth, suck in, and snap one side of your tongue down.  It should sound like the
+noise made to get a horse moving.)  The sequence /n!/ cannot come at
+the end of a word in any language I know of, so it's kind of a cheat, but
+it's fun hearing people try to pronounce it.
+
+There is also a dark side to the bang: It is the negating symbol in
+C, a hacker "language of choice"; it turns any non-zero value into zero
+(and zero into one).  Also, the usage of the bang as a delimiter in network 
+addresses could cause me problems if I started using certain networks.
+
+Recently, I have begun using the name S1m0n to reflect the fact that
+I now spend most of my time programming binary-based digital computers.
+Like Simon!, this name rhymes with... Simon.
+
+------------------------------
+
+Date: Wed, 24 Mar 1993 15:25 EST
+From: LEVY%LENNY@Venus.YCC.Yale.Edu
+Subject: POLI: Noam Chomsky
+
+Chomsky is a tough row to hoe.  On the one hand, he is a brilliant
+mathematician who invented the Chomsky hierarchy of formal languages,
+making an indelible contribution to both pure mathematics and computer
+science.  On the other hand, he is a brilliant and controversial linguist 
+who while almost singlehandedly inventing modern generative linguistics 
+simultaneously denied the intellectual debt owed to his Structuralist 
+predececssors, most notably his own teacher Zelig Harris; in fact, Chomsky
+went out of his way to contrast the explanatory scientific power of
+his framework with the putative vacuousness of Structuralist  "discovery
+procedures" for analysis of linguistic data.  Like Socrates, he is
+demonically clever at defeating anyone who seems to have a bulletproof
+"intuitive" reason for attacking his approach.  Were in not for Chomsky,
+I would venture to say, linguistics would remain a completely obscure
+sub-discipline of anthropology and literary criticism, instead of being
+a quasi-obscure field in its own right, with most major American universities
+having a linguistics department.
+
+Personally, I think that the Chomskyan approach has shed some light on the 
+very specifically linguistic, counter-intuitive nature of human language, 
+but has pretty much run its course, with Chomsky's adherents debating fine 
+points that are important to them alone.  Chomsky's desire to make linguistics
+a sub-field of psychology never really materialzed; most language psychologists
+I know are either openly or quietly hostile to Chomsky's ideas, probably
+because those ideas are based on a grammatical, rather than stastistical,
+approach to language behavior.  I strongly suspect that, as computers
+become more powerful, the really interesting work in linguistics and other
+social sciences will come from complex systems theory, especially the
+models used in artificial life.  For better or for worse, it is mostly
+physicists and computer scientists who have the training to do this
+sort of work; I think it's only a matter of time before such persons
+start publishing papers on the origins of language universals and other
+exciting topics that the Chomskyan framework could not address.
+
+Chomsky's political views are equally tricky.  He calls himself a Libertarian
+Socialist, which makes very little sense to me, and, as in his linguistic
+work, he is intentionally inflammatory in what he says about world affairs.
+I once saw him lecture on the refugee camps that Israel was running in
+Lebanon in the early 80's; he was comparing the Israelis' treatment of Arabs
+to the Nazis' treatment of Jews  in World War II.  This comparison achieved two
+purposes: First, it enraged Jews everywhere, especially those
+who survived the Holocaust and see Israel as the Jews' only chance
+of escaping total annihilation.  Second, it made a generally pro-Israel
+Jew like me think about whether, in preserving a Jewish State, Israelis
+must become "goyish" in their treatment of others.  
+
+I am inclined to agree with an earlier post that Chomsky's true colors 
+can be discerned by the fact that he writes for Z, the last enclave of 
+die-hard campus pinkos who think that the Soviet Union's bad rap was mostly 
+a result of American media propagandizing.  For lack of anything better to
+read while waiting in a university library last month, I picked up a 
+copy of that mag and read a Chomsky article on the U.S. "invasion"
+of Somalia.  As usual, I found myself agreeing with many of Chomsky's
+points (e.g., that the military operation was too little too late and
+had a least of part of its motivation in the armed forces' desire to
+look necessary after the Cold War), and hating his style.  For example,
+economists only had their affiliations mentioned if they were, like
+Chomsky, at MIT; this kind of in-crowd cheerleading is also common among his
+linguistics colleagues and students.  Finally, he dismissed Friedmanist
+free-market economics as "having failed at every turn," but gave none
+of the jillion references he uses to support an idea with which he agrees.
+
+In conclusion, I would say that no matter how you feel about Chomsky,
+nothing he says can be dismissed lightly.
+
+-- Simon
+
+------------------------------
+
+Date: Wed, 24 Mar 93 13:49:37 PST
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: PHIL: Identity, Transformation, Uploading
+
+Max has written a thoughful piece, clearly part of a large carefully
+considered body of thought.  But I am somewhat uncomfortable with
+framing the central question as something like trying to figure out
+just what we mean, or want to mean, by "same identity" for a person.
+
+To pose things this way suggests there is a relatively objective
+answer, which we just have to search for.  However, it seems that
+instead the central question is really "what do I want?", i.e., what
+kind of future, with what kinds of future beings, do I want to
+contribute to?
+
+Do I want beings with my memories, my personality, my beliefs, my
+sexual tastes, my facial expression, etc., and how am I willing to
+trade these off against one another, and against the number of each,
+their relative wealth, etc.?  People have always had to deal with some
+of these issues, when they decided how much to stay "youthful" and
+perhaps irresponsible, and how much to "mature" in various ways.  But
+the prospects for much more unbundling of these traits raises lots
+more interesting issues which folks should consider, and I'm glad Max
+is doing so.
+
+But talking about "identity" instead seems too indirect, and not
+entirely honest.  Mark Miller wants a future that will credit him, so
+he defines identity in terms of credit.  Max wants to change a lot, so
+he defines identity in terms of continuity, and criticizes similarity
+based conceptions of identity.  The bottom line seems to be that
+people seem to want to preserve both "I want the future to be X", and
+"I want the future to have lots of *me*", and are willing to slide the
+meaning of "me" to maintain both these statements.  
+
+For example, Max says
+
+>A view of identity or personal continuity promoting the belief
+>that change brings death clearly will not foster extropian commitment to
+>self-transformation and personal growth!  Of course, an extropian with this
+>view might choose self-sacrifice, self-destruction in favor of their superior
+>successor.  Still, such a self-conception seems open to abuse.  Fortunately,
+>not only is it anti-extropic, it is false.
+
+"false" is a bit strong, and all these concepts of identity seem "open
+to abuse".  Why not just talk about what kinds of futures we want, and
+not pretend we must mean the same thing by "identity"?
+
+Robin Hanson
+
+------------------------------
+
+Date: Wed, 24 Mar 1993 13:42:37 -0800 (PST)
+From: szabo@techbook.com (Nick Szabo)
+Subject: PHIL: Transformation, Uploading, and Sexual Engineering
+
+Quite interesting post by Max More.  What is the lossiness of
+the uploading process?  Physically, are we uploading the function 
+of hormones along with that of the neurons, neurotransmitters, etc?  
+What about the thymus, pituitary, testes or ovaries, pancreas, digestive 
+tract, sexual organs, etc.?  The point where psychology leaves off and 
+irrelevant physical detail begins is not clear, and even the most 
+intellectually motivated person may be irrevocably disoriented if 
+these kind of biological processes and motivations are removed 
+suddenly.  If we upload our neurons, and leave behind the hormones, does 
+that gives us Y(A,B)=.90 or Y(A,B)=.10?  I don't think the answer
+is at all clear.  Much as we take pride in our intellect most humans
+spend most of our time at the dictates of our hormones: eating,
+sleeping, seeking sex.  
+
+We might call the loss of biological substrate upon uploading the 
+problem of dangling sexuality (so to speak :-), or more generally 
+phantom biology, or phantom motivation.  I refer to the phenomenon 
+of "phantom limbs" in which pain etc. are felt in a limb even after 
+it has been lost.  The big problem here is that an uploader may
+be left with no motivation at all.  Why expand memory or CPU?  Why search
+for better algorithms?  Why explore the universe and put it to
+use?  Why not commit suicide or go hide in some archive until
+the universe ends?  Without extropian motivations, there
+is no clear reason for or against doing any of these.  And it's
+not just a matter if abstractly wanting to do these things; it's
+a matter of being hungry for them, of lusting after them, of falling
+head over heals in love with them.
+
+Uploaders will likely face stiff competition: military/hacking competition 
+from mature a-life and/or experienced uploaders, economic competition 
+from evolving trader bots, etc.  If the uploader spends excessive CPU cycles
+simulating glands and hormones, recreating 3D landscapes and
+living out old sexual fantasies, etc. they may quickly go bankrupt.
+Depending on the rules of the uploader PPL, they may have
+their memory garbage collected and be filed away into a museum
+archive, may be merged into other consciousness (cf. proposal
+to auction off organs of bankrupt people in biological PPL), etc.
+So even if the capability exists to simulate sexuality, hunger,
+taste for music, and other old dominant motivations in a minimally 
+lossy way, competition may require these quickly be dumped overboard in
+favor of motivations that allow the agent to survive and grow
+in the new environment.
+
+By the same token we can step back and examine what is valuable
+in our own environment, here today.  We seem to live in an environment
+that is very forgiving wrt our forebears, and perhaps may be very
+forgiving compared to the world of a-life and uploader.  But is
+our own environment really that forgiving?  Isn't it an incredibly
+great great loss when people die, for good, because they lack money 
+for life extension and cryonic suspension, and do not make what might 
+be called "semi-connected backups" (children, long-lived memes)?  Our 
+current decisions and motivations are quite important, and even in today's 
+environment biology may lead us astray.  Consider the time we spend on 
+work, recreation, entertainment, sexuality, eating, listening
+to music, etc.  Do we do what is most extropic, or do we do what
+biology and culture have led us to want to do? How can we transform 
+ourselves into a more extropian state?
+
+So, we see that the impedance of biology is not unique
+to uploaders; even today we can start the task of self-transformation
+from biological motivations suitable for a hunter-gatherer tribe,
+to extropian motivations suitable for today.  Taking this a step
+further, this leads us to ways of avoiding a sudden change in 
+connectedness upon uploading.  Well before we begin the physical 
+process of uploading, we can begin the psychological process of 
+uploading.  This requires that we anticipate the uploader environment, 
+and what it will take for us to succeed there, and transform ourselves 
+in that direction even as we remain in our biological bodies. By the
+time we upload, we should be already well-transformed; psychologically
+prepared to do combat in cyberspace.  Such transformation might include:
+
+Fetish engineering:  moving our sexuality away from biological and 
+towards economic or information-resource triggers.  We may be able
+learn from precedents (eg monks), but mostly we will be breaking
+new ground.  Anti-aphrodisiacs or training on fetish objects with 
+aphrodisiacs may help here.  Finding fetishes that suitably
+motivate abstract goals such as learning, life extension, child
+bearing and raising, expansion of the bank account, etc. may not
+be easy.  Fetish engineering may be the most important and productive
+form of self-transformation, if we can pull it off (sorry! :-)
+
+Aesthetic shift: retrain ourselves to get aesthetic pleasure
+from technological or economic accomplishment, eg hacking good
+code or making a good deal in the market, and less from similar 
+but less useful aesthetic pastimes like music or good cooking.
+It may be necessary to develop very sophisticated tastes
+in music, cooking, etc. before such transformation is possible;
+or perhaps the opposite is true, that sophistication in music or
+cooking detracts from technological or economic sophistication.
+It's important that we resolve these issues; otherwise we won't
+know whether we're transforming towards or away from a consciousness
+suited to our environment, or ready for uploading.
+
+Thirst, hunger, satiation, and taste:  In the uploader, these
+need to be linked to new resources: taste buds to sense, and
+software to respond to memory and CPU cycles and power sources instead 
+of fats and proteins and carbohydrates.  Today, many of us already 
+find these biological motivations excessive, to the point of distracting 
+us from intellectual tasks and even being downright unhealthy (eg
+overweight lowers life expectancy).
+
+This suggests also empirical benchmarks, telling us how far we've
+progressed on the road from human to transhuman to posthuman.
+How much of our motivational energy, or more measurably how many hours
+per day, are spent chasing obsolete biological ends?  How much
+are spent in ways that would be beneficial to an uploader?  If
+we spend more of our time at the latter, we might truly call
+ourselves transhuman; if our schedule is dominated by what would
+also concern the uploader, then we have reached posthumanity.
+
+All this may sound very cold & dry: trying to turn sophisticated
+biological & culture tastes into cold & abstract mechanisms. Far
+from it!  The fact that we find the machines cold & abstract is
+a problem endemic to humans; the transhuman task is developing 
+tastes for the new resources that not only rival our current
+_haute cuisine_, sexual skills and romantic subtleties, but go beyond 
+them in both sophisticated elegance and raw powerful lust.
+
+It may also sound quite perverted, engineering fetishes in place
+of "normal, healthy" sexuality. But we already live in a world where 
+the genetic goal of sex is short-circuited by birth control, sex is 
+perverted by pornography, brood-care perverted by pets and dolls, etc.  
+Yesterday's perversion can be tommorrow's route to success or failure.  
+Political correctness, social norms, and our current personal tastes bear 
+no relation to the outcome unless they have either emerged to a state
+of rationality, or been designed rationally -- and even then are subject 
+to continual obsolescence as culture evolves around us.  Putting these 
+genies back in the bottle is futile.  The idea here is to sort out our 
+perversions, to figure out which are extropic and which entropic, and use 
+both perversions and self-discipline to transform ourselves into ever 
+greater heights of extropy.
+
+Nick Szabo					 szabo@techbook.com
+
+------------------------------
+
+Date: Wed, 24 Mar 93 11:59:07 PST
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: ECON/CRYPT: Crypto-Extortion 
+
+Perry writes:
+>Irrespective of your solution, I'll note the problem exists now. You
+>can be mailed a threat anonymously using ordinary U.S. Mail, and you
+>can be forced into an anonymous payment scheme pretty easily. The
+>second part isn't obvious, but its true. It will even work with
+>extreme surveilance -- lets say extortionist can't himself receive
+>payment safely -- he could still easily send someone a note saying
+>"contribute $10,000 to ExI or I blow your wife's head off".
+
+Well this is a point worth noting, but the set of people both willing
+to engage in extortion and holding a strong interest in some charity
+where they can anonymously verify who donated is probably pretty
+small.  It seems clear to me that the ability to get money to
+*yourself* by extorting would certainly increase the set of people
+interested, and therefore raises the concern of more such activity.
+
+Of course if you could show that there are many people who are
+interesting in charity extortion, but are now prevented from doing so
+by the risk of getting caught carrying out their threat, then that
+would show that just allowing anonymous payment shouldn't raise the 
+extortion rate greatly.  
+
+Robin Hanson
+
+------------------------------
+
+Date: Wed, 24 Mar 1993 16:02:33 -0600
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: HEX: Some shell aliases for HEx requests
+
+Derek, will these addresses work okay? I mailed Brian Hawthorne
+earlier today, and he apparently was having problems with the
+mail setup. (I wonder why? What does Sun make that it has such
+poor mail routing?) Anyway, there's a message from him in my queue
+a couple messages down from yours, so maybe he has them fixed...
+
+Phil
+
+------------------------------
+
+Date: Wed, 24 Mar 93 14:08:09 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Chomsky, Conspiracies, and Jews
+
+Whether one agrees with him or not, the world is a better place for having
+Chomsky in it, in my opinion. I enjoy his radio interviews and find his
+stuff prevocative. 
+
+Though I'm a libertarian/anarchocapitalist, I also "fellow travel" with
+some mostly leftist "conspiracy theory" types (found on public broadcasting
+radio stations across the nation). A particular favorite of mine is Dave
+Emory, a former student of Mae Brussell, who originates a radio broadcast
+in the Bay Area. (For Bay Aryans, Sunday nights from 7 to 11 on KFJC, 89.7
+and Monday nights from 9 to 10:30 on KKUP, 91.5)
+
+Typical keywords: CIA, NSA, Wackenhut, Danny Casolaro, Reinhard Gelhlen,
+Nazis, U.S. funding of Hitler, Allen Dulles, Bank for International
+Settlements, BCCI, Banco Nazionale del Lavoro, Gladio, P2, Italian fascism,
+terrorism, links to U.S. intelligence agencies, invasion of Panama, Iraq,
+Iran, Cabazon Indians, arms deals, biological weapons, mind control,
+Satanism, Zodiac killer, and so on.
+
+Fun stuff. I usually tape his broadcasts and then replay them to put me a
+pleasant state of paranoia and altered consciosness.
+
+These points, which sound like paranoid conspiracy theories to most folks,
+actually relate to the many abuses of state power these last several
+decades. While the socialist countries are by no means any better (they are
+in fact much, much worse) in abuse of government power, it is important
+that we expose government crimes whenever possible.
+
+BTW, the leftists who are often associated with these theories are
+sometimes allied with right-wing groups (like the Liberty Lobby, and even
+the Birchers). Libertarian ideas may someday find a fertile ground here
+(perhaps after disillusionment with Clinton sets in).
+
+Regarding Simon's (or Simon!'s or S1mOn's) points:
+
+>I once saw him lecture on the refugee camps that Israel was running in
+>Lebanon in the early 80's; he was comparing the Israelis' treatment of Arabs
+>to the Nazis' treatment of Jews  in World War II.  This comparison achieved two
+>purposes: First, it enraged Jews everywhere, especially those
+>who survived the Holocaust and see Israel as the Jews' only chance
+>of escaping total annihilation.  Second, it made a generally pro-Israel
+>Jew like me think about whether, in preserving a Jewish State, Israelis
+>must become "goyish" in their treatment of others.  
+
+I have no desire to start a flame war over Israel and its right to exist
+here, so take my words as just my opinion. (By the way, it's interesting to
+me that in 8 months of reading the list, I can't recall seeing the issue of
+Israel coming up.)
+
+Concentrating Jews in a land they hadn't lived in for thousands of years by
+kicking Palestinians off the land they *had* been living in does not seem a
+"fair" solution. (Yes, I know many Palestinians fled their land during the
+war in 1948. But since when does fleeing a war zone cause ownership of a
+home or farm to change hands?)
+
+And I doubt the survival of Jews in the state of Israel is really any
+better than elsewhere. A few nukes delivered to Tel Aviv and Haifa will
+kill a lot more Jews than I can imagine ever dying in a new Holocaust. Call
+this a practicality argument.
+
+And Simon's point about "goyish" behavior is right on, except I'd
+characterize it as "statist" behavior. Israel is a state, a highly statist
+state (controlled economy, militarily disciplined, etc.--though with far
+more freedoms, needless to say, than its Arab and Palestinian neighbors).
+By locating the Jews in a hostile locale, the U.N. essentially played a
+kind of trick on the Jewish survivors of the Holocaust--they caused Jews to
+form their own state and imitate many of the structures that led to the
+rise of Hitler in Germany. (Understand that I am in no way imputing Nazi
+ideas to Israeli leaders--mostly they seem pretty reasonable. Nor am I
+forecasting that Israel will ever follow the Nazi path...refugee camps are
+a far cry from death camps.)
+
+But since I am not religious (not even NeoPagan), and don't generally think
+of ethnic heritage as being all that important, I've never understood the
+importance placed in announcing one's "Jewishness" or supporting a
+particular religious state, be it Israel or Iran.
+
+Israel as a nation-state bores me. If Jewish heritage is a powerful set of
+memes, let it flourish in diverse locations, not crammed into a tiny part
+of the desert.
+
+-Tim May
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+Date: Wed, 24 Mar 93 16:30:26 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: ECON/CRYPT: Crypto-Extortion
+
+Robin Hanson writes:
+
+>An influential friend whom I respect is seriously concerned that the
+>possibility of cryptographic support for extortion should make us
+>seriously question the desirability of wider use of cryptography.  So
+>I did the following analysis to see if we can find good enough ways to
+>discourage such extortion.
+
+Yes, crypto will bring on a Brave New World.
+
+Use of anonymity and untraceable digital cash for unsavory uses, such as
+extortion and contract murders (think about it for a minute), has been on
+my mind for several years. Since beginning to talk about "crypto anarchy"
+in late 1987, I've talked with several folks about these issues. (Phil
+Salin, Mark Miller, Dean Tribble, Marc Stiegler, Eric Drexler, Chris
+Peterson, Gayle Pergamit, David Chaum, Jim Bennett, Dave Ross, all by 1988,
+and many more since.)
+
+First, there are already several direct analogies. Perry Metzger has
+already mentioned postal mail threats and telephone calls. (Not the origin
+of the terms "blackmail" and "poison pen letters" for evidence this is not
+a new problem.) Likewise, our modern society is open to many debilitating
+attacks.
+
+For example, a single person can shut down the entire U.S. table grape
+market merely by injecting a few grapes with cyanide (the Chilean grape
+story of a few years back). Maybe extortion, maybe unionizing activities,
+maybe an axe to grind, maybe something else. Similar cases have hit bottled
+medicines (Tylenol case), meat, etc. In an open, scattered society, such
+things are possible. Anonymous bomb threats recently emptied the Empire
+State Building. And so on. Life goes on.
+
+Second, strong crypto cannot easily be stopped. Check out the "Cypherpunks"
+list for debate on this, or sci.crypt. The "genie is out of the bottle."
+While I applaud Robin's interest in this scenario, and encourage him to
+continue studying it, we should understand that the "dark side" of crypto
+will probably not be sufficient to stop strong crypto from spreading.
+
+Third, I *do* expect some people will explicitly adopt a "I don't read
+messages unless I know who they're from" strategy, in much the same way
+publishers have to be very careful not to read manuscripts sent to them
+unsolicited.  This will still not stop extortion, as the extortionist can
+find many channels for getting the initial message to his victim (letters,
+phone calls, a message tied to a rock through his window, etc.). But it
+makes some targets harder to reach and thus damps the extortion threat
+somewhat.
+
+Just as a policy of "no negotation with kidnappers" is not perfect, so too
+will this strategy not be perfect.
+
+Fourth, more crypto privacy may mean knowing how much money a potential
+victim has is harder to achieve. People may live more sheltered lives,
+perhaps behind walls (as in Arab cultures). This still does not end the
+threat.
+
+Fifth, and most speculatively, the threats in the "real world" may
+accelerate a conversion to more interactions in cyberspace, where physical
+identities ("true names") are well-secured. This will not happen anytime
+soon, of course.
+
+>The basic scenario is that everyone *says* up front that they will not
+>give into extortion, but this claim may not be credible.  So an
+>extortionist sends an anonymous threat to someone, asking that a
+>certain amount of untraceable digital money be sent to them by a
+>certain date, demonstrating in some way that the extortionists knows
+>where they live or can be harmed, and claiming that if they are not
+>paid something very bad will happen to this victim.
+>
+>The extortionist also makes reference to an extortionist rating
+>agency, who offers information relevant for estimating the chance that
+>this extortionist will follow through on a threat, and on the
+>additional number of similar threats the victim may expect if they
+>give in to this one.  If the victim's normal mechanisms for preventing
+>him/her from giving in have failed for some reason, the victim then
+>may give in if the ransom asked is less than the expected harm if
+>he/she doesn't give in.
+
+...equations and "formalism" elided....
+
+>The technology of commitment determines how g is a function of R.
+>Larger payments are harder to hide from one's family and associates,
+>who can help one enforcer prior commitments to not give in.  Larger R
+>also increases n,m because others are more likley to learn of your
+>having given in.  Ensuring that digital cash transfers above a certain
+>amount are known to associates provides a way to commit to not give in.
+>
+>The technology of filtering determines r.  If one could send all
+>unsolicited messages to an extortion filter, which promises to filter
+>out all such messages from your view, r might be made low.  Or such
+>messages might always be forwarded to an associate in order to reduce g.
+
+Yes, one can always hire others to screen messages, to approve all
+transfers of wealth, etc. Sort of like a "power of attorney" or a
+mail-screening service.
+
+...Robin's creative ideas on constructing an extortion service elided...
+
+>Without a plausible scenario for how such reputations could be created
+>and communicated, extortion seems less of a problem; potential victims
+>would estimate n,m so high that they would not think it in their
+>interest to give in, even if able.  This is hopeful, but before
+>breathing too easy we should work harder searching for such scenarios.
+
+Nothing forces either the extortionist or the victim to go through these
+hypothetical extortion rating agencies...if in fact such agencies make
+extortion less profitable or even not feasible, why would they be used?
+
+An extortionist can always "secretly" contact his victim, make a threat,
+demand a payment, and collect his payment all without contacting anyone or
+any entity besides his victim. In other words, the way it's usually done
+today.
+
+As for the idea of requiring a second party to authorize any transactions
+(to provide a way to stop extortion payments), this can be bypassed in the
+usual creative ways (called "money laundering"--many creative schemes can
+be found). The extortionist may agree to periodic payments below the
+"threshold" that Robin mentioned in his original message, exactly analogous
+to how blackmail victims keep paying and paying. And so on. (But I agree
+with Robin that this seems to be an avenue to pursue.)
+
+Though I favor strong crypto and even crypto anarchy, I am less confident
+than Robin that these markets in assassinations and extortion can be
+suppressed.
+
+-Tim May
+
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+Date: Wed, 24 Mar 93 17:24:00 CST
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: PHIL: Identity, Transformation, Uploading
+
+Robin Hanson writes, regarding Max More's thoughts on identity:
+
+> The bottom line seems to be that
+> people seem to want to preserve both "I want the future to be X", and
+> "I want the future to have lots of *me*", and are willing to slide the
+> meaning of "me" to maintain both these statements.  
+
+Identity theory does have purpose, at least according to our
+current common world-views; it helps us make sense out of the
+way we move through time, and helps us make descisions about
+how to treat changes in ourselves and others [or so the story
+goes!].
+
+If anything, *our desires about X* are what do the sliding,
+depending on how we understand our identities.  When Max and
+Mark Miller and others make statements like:
+
+> >A view of identity or personal continuity promoting the belief
+> >that change brings death clearly will not foster extropian commitment to
+> >self-transformation and personal growth!
+
+I believe that what's really meant is that the intuition about
+identity being expressed *depends on* and thus *needs to be
+expressed in relation to* things like commitment to self-
+transformation and personal growth.  I justify this by noting
+that there are two classes of identity theories:
+
+  1) Those that are obviously incorrect (for example, if
+  I tried to claim that my identity follows the hat I'm
+  wearing now).
+
+  2) Those that are arguable.
+
+That is, there can't be a single rigorously correct identity theory,
+because then the thing it's a theory *of* would have to be spelled
+out in exact detail, and many people would then say, "that's not
+what *I* mean by identity!"
+
+So, theories of type two are (purportedly) judged on the basis of
+how well they explain identity-phenomena -- taking into account
+the past and (as Max has pointed out) the future.
+
+More importantly, though, is to note, as Max implies in the above
+snippet, that identity theories of type two are really best seen
+as "memetic viruses" -- infecting the hearer with a world view.
+Logic and rhetoric are good transport mechanisms.  When Max
+and his fellow philosophers argue and "disprove" each other's
+ideas about identity, they're not so much explaining as *defining*
+what you are and what you'll be.
+
+derek VRRRROOOOOOOOMMMMMM!
+so watch your rear -- those philosophers have done a pretty good
+job of covering their intentions with images of bumbling and
+angels-on-pinheads...
+
+------------------------------
+
+Date: Wed, 24 Mar 93 15:52:10 PST
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: META: Is an armed society a polite society?
+
+OK, here is the final version of the Polite Society rules, should
+anyone still be interested.  Folks may now officialy join, though I
+won't quibble if folks who claimed to join before the final rules were
+out now reafirm their membership.  
+
+Robin Hanson, Polite Society Member Since 3/93 - 0 Hits, 0 Shots
+
+P.S. I also now officially join the Accountable Society, and have
+applied for and been accepted as a member to the Invitational Polite
+Society.
+
+----------------------------------------------------------
+         AN INVITATION TO JOIN THE POLITE SOCIETY
+
+  "An armed society is a polite society" - Anon
+
+Tired of flaming and discourteous manners in email and netnews?  Why not
+join the "Polite Society"?  Each member is "armed" and may "shoot" any
+other member they deem has made an especially impolite post.  After a
+shot, neither member may post for one week to any newsgroup, email list,
+BBS, etc.  While not a perfect indicator, longstanding members with few
+hits have passed at least one substantial test of their politeness.
+
+This society is not intended as a game, or as a way to play "cowboy".  To
+make this work, a substantial majority of members must restrain themselves
+and shoot only for clear impoliteness.  Members should consider anyone
+doing otherwise to be extremely impolite, and act accordingly.
+
+Frequent posters suffer more per shot, but in general make more impolite
+posts.  Society members accept this, accepting "lurkers" as equal members.
+
+FINE POINTS:
+- Any person may join by so declaring in a signature to a post.
+- Members must use their true names when acting as members, and may
+  not join under more than one name.
+- One may not shoot until having been a member for two weeks.
+- A "shot" is a post submitted to the same newsgroups, lists, etc.
+  as the offending post, and it must be forwarded, with a copy of the
+  offending post, directly to the person hit.  
+- A shot post should quote offending passages, include a paragraph 
+  (20-200 words) explaining how the offending post is impolite (rather 
+  than just wrong), and include or refer to an example of what should 
+  have been said in place of the offensive quotes.  
+- For one week after being hit, a person may not post messages to any
+  email list, newsgroup, BBS, or analogous communication media.
+- Exceptions are made for a short message explaining one's upcoming
+  absence, and for posts required to maintain one's job.
+- It takes one month to "reload" for another shot.
+- You can't ever shoot the same person twice, be shot twice for the
+  same offending post, or shoot someone out from a hit.
+- A post whose subject line includes an "(impolite)" warning, or which
+  appears on a list, etc., explicitly labeled as such, may not be shot at.
+- After getting ten hits one is expelled from the Society for two years.
+- Members grant permission for shot posts to be freely distributed, 
+  including their offensive quotes.
+- When asked, a member must admit their membership, tell the year and
+  month they joined, and the number of times they have shot or been hit.
+- All this information should be included in any membership declarations.
+  For example: "Polite Society Member Since 3/93 - 0 Hits, 1 Shot"
+- To allow verification, each member must record who shot them, who
+  they shot, on what dates, and forward this info to whomever asks.  
+- If two members dispute how these rules should apply to some case, they
+  should pick a neutral member to arbitrate.  Failing this, members should 
+  shoot any member whose violations are so clear and substantial as to be
+  considered impolite.  
+
+This invitation may be freely distributed, and is copyright Robin Hanson 1993.
+
+
+
+------------------------------
+
+Date: Wed, 24 Mar 1993 18:53:47 -0500 (EST)
+From: Carol Moore <cmoore@cap.gwu.edu>
+Subject: PARABLES: Extropian Parables -- a proposal
+
+As a songwriter I've written hundreds of "parables"
+over the last 19 years.  (While I've done it on an
+amateur level, I've won 3 of 4 song contests I've 
+entered--two of them libertarian contests in Los
+Angeles.)  If anyone would like to seem them, I'll
+include 5 or 6 of the best one.  (I just wrote a racy
+one today called "T*x Me, Bill" which starts off
+Oh, Bill, keep picking my pockets and leave
+your hand on my loin..." and continues in that
+vein...hohoho)
+
+
+
+
+
+
+------------------------------
+
+Date: 24 Mar 93 22:26:00 EST
+From: "Thomas D Burns" <TBURNS@gmuvax.gmu.edu>
+Subject: Subject: META: Why not moderation?
+
+X-Reposting-Policy: redistribute wantonly!
+----------------------------
+
+Dani Eder writes
+>make a voluntary
+>choice available to receive the moderated list or the raw feed.
+
+& someone else suggested that it could be done already by subscribing 
+& trashing everything but mail from the chosen moderator.
+Perhaps there should be a 'lurking license' which gives posting privileges but
+ not the 'raw feed.' Someone who wants a moderated version gets a lurk license
+and the subscribes separately to the moderated list.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Dave Burns                   tburns@gmuvax.gmu.edu
+10310 Main Street #116,   Fairfax, VA 22030  (703) 993-1142
+Breakfast:IMPOSSIBLE
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+P.S. I've been out of town for a week and I'm catching up with a lot of old
+mail.
+I hope my deluge of responses doesn't offend anyone.
+
+
+
+------------------------------
+
+Date: 24 Mar 93 22:24:00 EST
+From: "Thomas D Burns" <TBURNS@gmuvax.gmu.edu>
+Subject: HUMOR: (was reason)
+
+From: Dale
+> We are not made for our pleasure, or even for our benefit, but
+ >   rather for the benefit of the genes which made us.
+
+Extropians of the world, unite! You have nothing to lose but your genes!
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Dave Burns                   tburns@gmuvax.gmu.edu
+10310 Main Street #116,   Fairfax, VA 22030  (703) 993-1142
+Breakfast:IMPOSSIBLE
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0153
+****************************************
+

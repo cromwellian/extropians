@@ -1,0 +1,992 @@
+From extropians-request@extropy.org Wed Nov 17 07:11:49 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA16188; Wed, 17 Nov 93 07:11:48 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA19524; Wed, 17 Nov 93 07:11:36 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA02089
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 17 Nov 1993 09:58:27 -0500
+Date: Wed, 17 Nov 1993 09:58:27 -0500
+Message-Id: <199311171458.AA02089@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: November 17, 373 P.N.O. [14:58:20 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Wed, 17 Nov 93             Volume 93 : Issue 320
+
+Today's Topics:
+                                                                      [1 msgs]
+                   ANARCHY: The Coming Crypto Phase Change            [1 msgs]
+                                    Drugs                             [1 msgs]
+                                   E-prime                            [4 msgs]
+                             INTEREST? True Nyms                      [2 msgs]
+        INVEST: Corn futures (was Re: Efficient Market Hypothesis...) [1 msgs]
+           INVEST: Efficient Market Hypothesis and Wacky P/E Ratios   [1 msgs]
+                          Kangaroos (and defamation)                  [1 msgs]
+                        META: Charging $ for the List                 [1 msgs]
+                        META: Charging $ for the List                 [1 msgs]
+                                 PPL, Iceland                         [2 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52377 bytes.
+
+----------------------------------------------------------------------
+
+Date: Tue, 16 Nov 1993 23:02:33 -0400 (EDT)
+From: COURTNEYSMIT@delphi.com
+Subject: INVEST: Efficient Market Hypothesis and Wacky P/E Ratios
+
+Clearly, to me, you have given a couple of examples of how the efficient
+market theory does not explain reality.
+
+A second major knock against the theory is the seasonality of grains. 
+Everybody knows that the harvest of corn will occur in November and 
+December and that there will be a glut of supple relative to demand.
+This has the effect of depressing the price of corn many more 
+ going into December. Everybody knows this yet the price still sells off.
+
+------------------------------
+
+Date: Tue, 16 Nov 1993 21:53:26 -0800
+From: jamie@netcom.com (Jamie Dinkelacker)
+Subject: INTEREST? True Nyms
+
+Extropians,
+
+Aside from the flamebait puke of the COLORADO CRAZIE, the cypherpunks list
+doesn't seem to be an optimum forum for dicussion of false names, true
+nyms, multiple personality entropy, blah blah.
+
+Yet, I find it a fascinating topic. Anyone here interested?
+[pointer --> extropians-request@gnu.ai.mit.edu]
+
+My apologies to subscribers of both the Extropian and Cypherpunk lists who
+received this message twice.
+
+--
+................................
+Jamie Dinkelacker   Palo Alto CA 
+Jamie@netcom.com    415.941.4782 
+................................
+
+
+
+------------------------------
+
+Date: Wed, 17 Nov 93 1:08:08 WET
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: META: Charging $ for the List
+
+Edgar W. Swank writes:
+> 
+> Thanks for Ray Cromwells & Tim May's comments on my complaints about
+> list charges.  I'd like to respond.  First Ray said:
+> 
+>     Well, I'm sorry to see you leave, however it costs us $20 a month
+>     just for the exi account alone.  CPU and bandwidth charges could
+>     soar from $50-90 a month depending on list activity.  ...
+> 
+> OK, that comes to $1320/year max.  300 list members paying $12 comes
+> to $3600/year.  Even at $6, $1800 leaves a comfortable margin. Also
+> note David Kovar's post:
+
+  The bandwidth charges are $50-90 but we are charged for CPU too and
+CPU chews up even more. Bandwidth charges are linear (increases by
+some constant times the number of users) but CPU charges are
+non-linear. More users do not add that much to CPU, but excludes/# of messages
+posted do. Basically, the $12/yr is price of individual bandwidth
+(estimated) + Total CPU/# of users + comfortable buffer zone + misc fees
+Any unused money is credited to your account so for instance, if no
+mail is delivered to you for a year (::exclude all), you don't have to
+pay any more. Plus, since list credits will be tradable, you could 
+buy/sell them from others.
+    
+  Believe it or not, ExI is not getting rich off this deal. The list
+has been a sunk cost for a long time, and Extropy the journal was
+run off of credit cards for a period. It will be a long time before
+any list costs are recovered.
+
+>     Perhaps moving to another site would be a good thing?  I have an
+>     account on world.std.com that I use for running a mail to news
+>     gateway for a large USENET newsgroup.  All I am paying is $20 per
+>     month, and that includes 5MB of disk space.  No charges for CPU or
+>     bandwidth.
+> 
+> That's $240 a year or less than $1/list member.  I -would- pay $1/yr
+> to continue receiving Extropians.
+
+   I doubt world.std.com would go for it when they realize how
+much bandwidth we are using. Take an average of 50 msgs/day * 1024 bytes/msg
+* 350 users (mostly SMTP direct deliverly, disjoint machines execept for
+about 30 netcom users) = 17.5 MB a day (or 17,000 connections)
+Now add in 15-20 CPU seconds used per message (not even counting
+sendmail cpu usage), and you have a drag on their machine.
+(especially if world only has a T1. Netcom might be a better choice since
+they are T3)
+
+   We had to leave gnu because we were a serious drag on their machine.
+
+  Mail2news is nothing in terms of bandwidth, but panix has to call
+up 300+ machines and deliver messages. (and this was especially
+painful when they only had a 56kbps connection!)
+
+>     ...I'm sure for poor students, Max could work out an installment
+>     plan.  $3 quartly, or $1.5 quarterly for extropy subscribers.
+> 
+> Installments just increase the cost.  What about a bargain rate for
+> us retired senior citizens? (I don't subscribe to extropy; I think
+> it's overpriced too.)
+
+  Max was (I think still is), losing money on Extropy. I wouldn't say
+it's overpriced compared to many of the other $500+/yr journals out there
+and it is not subsidized by advertisements to any significant degree.
+
+> Now this is constructive!  First, please refresh my memory on what
+> happened with gnu.ai.mit.edu?  They handled the main list for free at
+> one time didn't they?  They still handle exi-bay and exi-essay for
+> free, dont't they?  Did they throw the main list off because we were
+> using too much bandwith?  Or did we leave because we wanted to
+> experiment with complex list software?
+
+   They threw us off when we were using Perry's software which only
+used about 1 CPU second/msg (mostly less). However, delivering
+300+ messages was a serious drain on their machines. I regularly
+watched load averages rise to 3.0 and above. This caused list messages
+to be queued and sometimes not delivered for days. Besides, gnu
+ran hundreds of other mailing lists too, their machines are unreliable
+and infested by crackers. There is no security so at any time, anyone
+could shut down the extropians list. Half the users have root access too.
+	
+> mailing list for L. Detweiler as an alternative to Cypherpunks.  Even
+> the Extropians main list is a drop in the bucket compared to his
+> remailer bandwith & CPU requirements.  Perhaps he'd offer to accept
+
+   I doubt this. His remailer is only point to point (one incoming megssage
+generates one outgoing message) The list on the other handle generates
+300 outgoing connections for every incoming one. 
+
+> Finally, an easy way to get free distribution is to become a
+> newsgroup, e.g. alt.extropians.  All this would require is to POST
+> every mail entry.  You can keep noise down by making it a -moderated-
+
+   Too much of a hassle, sure to lower S/N, and too many privacy
+issues. (e.g. many people don't want their messages to be reposted to
+another newsgroup whose distibution isn't controlled)
+
+> I have no intention of using Exi-bay for anything except news of local
+> events.  This seems to say the main list was thrown off of gnu, true?
+
+   We were asked politely to leave. (several times, but they would
+have kicked us off had we not complied.)
+
+> BTW, speaking of irony, I find it rather ironic that Dave Krieger is
+> handing out free pizza and beer to try to spread the Extropian meme
+> (see his exi-bay post EXI-BATF) while central list management is
+> driving people away with fees.
+
+  Because Dave isn't handling out 15,000 pizza's per day to the tune of
+$1500/yr.
+ 
+  If you want to ``freeload'' (no offense), find someone who has paid
+for the list and get them to forward you messages via .forward.
+I don't think ExI is changing their decision unless someone offers them
+a machine with lots of bandwidth for free and free sysadmin support. Perhaps
+the price will be lowered, but I doubt it will go lower than $6/year
+which is ''cutting it close'' meaning we will have to impose
+rationing on the list if our costs go above our revenue.
+(e.g. quota on number of posts allowed by each person, also
+quotas on exclude, resend, plus making the filterlists more infrequent)
+
+  According to statistics I have collected since June, $8 is minimum
+for a list with ~300 users, with our average # of msgs a day and
+this doesn't take into account increased exclude usage, extra list
+features or list development costs. Plus, I have been hiding sendmail
+cpu usage by forking it on another account so those costs should be
+slightly higher.
+
+  $8 is about the amount of money I spent on Street Fighter II and
+Samurai Shodown at the school arcade in the last 3 days.
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Wed, 17 Nov 93 2:32:36 EST
+From: smo@gnu.ai.mit.edu (Shawn O'Connor)
+Subject: PPL, Iceland
+
+  Oliver Seiler writes:
+  I'm sorry, but what is PPL?
+
+Privately Produced Law.  Tom Morrow's article "Privately Produced Law", 
+found in Extropy #7 is a good overview of the subject.  In brief, since
+competition increases quality and lowers cost, the idea is to have a 
+market in everything governments usually monopolize.  Read _The Machinery
+of Freedom: Guide to a Radical Capitalism_ by David Friedman, and then
+read _The Enterprise of Law_ by Bruce Benson.
+
+In Laissez Faire's November catalog there's a book on the law of saga
+Iceland, called _Bloodtaking and Peacemaking_ by William Ian Miller.
+Has anyone read it?  I started picking up Icelandic sagas after reading
+Machinery, and when I eventually read them I'd prefer to do it in order.
+Does anyone have a complete chronological list of the sagas?  
+
+Shawn
+smo@gnu.ai.mit.edu
+
+
+
+
+
+------------------------------
+
+Date: Tue, 16 Nov 93 23:54:51 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: ANARCHY: The Coming Crypto Phase Change
+
+I want to elaborate on some comments I made earlier about anarchy and
+crypto-anarchy and tie them to the "Oceania" ocean colonization thread.
+
+I wrote:
+
+> Some of us believe various forms of strong cryptography will cause the
+> power of the state to decline, perhaps even collapse fairly abruptly.
+> We believe the expansion into cyberspace, with secure communications,
+> digital money, anonymity and pseudonymity, and other crypto-mediated
+> interactions, will profoundly change the nature of economies and
+> social interactions.
+> 
+> Governments will have a hard time collecting taxes, regulating the
+> behavior of individuals and corporations (small ones at least), and
+> generally coercing folks when it can't even tell what _continent_
+> folks are on!
+
+The "crypto phase change" is the transition to wide use of private
+communications to conduct business, to arrange deals, to meet other
+people, and so on. I contrast it with the idea of a "singularity," so
+often associated with nanotechnology (cf. Vinge, Stiegler, et. al.),
+because nothing is ever truly a "singularity." Discontinuities, yes.
+Phase changes, yes. Singularities, in the sense of infinite spikes,
+no.
+
+Crypto and related cyberspace methods have the potential for causing a
+fairly rapid transition to a new sort of society. Just as printing
+presses did. Just as radio, television, and new media did.
+
+And this phase change could involve--likely _will_ involve--many
+people, perhaps the majority of the population in America and Europe,
+at the least.
+
+Some scenarios:
+
+- people hear about widespread tax evasion by crypto-anarchists, and
+they get interested (for various reasons, including jealousy, anger,
+greed, desire for freedom). "Crypto lasing."
+
+- consultants discover they can consult on projects from other
+countries, from jurisdictions that might ban their invovlement if they
+knew about it, and so on.
+
+- the "permanent tourists" in the world-spanning economy.
+
+- black markets in credit information, dossiers, insurance fraud
+cases, medical malpractice, etc. 
+
+A simple example that will reach many people: You're thinking of
+hiring a lawyer. Under U.S. law, records of "bad lawyers" are hard for
+outsiders to keep, to gain access to, etc.  The Bar Associations,
+like the American Medical Association, like other officially
+sanctioned "guilds," prefers to keep outsiders in the dark. So what
+happens when "Reputations R Us" sets up shop in cypherspace--or, more
+mundanely, on an island in the Caribbean that has no such laws? What
+happens when for the price of an offshore phone call or Net query the
+parochial and paternalistic U.S. laws can be trivially bypassed? It'll
+be a whole new world.
+
+Ditto for gambling, escrow services to hold money (think of the
+reduction in violence when "reputable" digital banks will hold the
+drugs _and_ the money), information markets, private investigation
+services, rent deadbeat records, and credit records that include _all_
+creditor information (not just the last 7 years, and not just the
+"allowable" items...how dare anyone infringe my right to take into
+account records more than 7 years old?!).
+
+(For those worried about tracing the calls, about sting operations,
+etc., that's where digital mixes (remailers) come in and where prepaid
+"coupons" ("The holder of this number is entitled to one database
+query") come in. Even short of full-blown Chaumian digital money, a
+lot can be done. Prepaid digital coupons, or digital postage of a
+sort, can be used to make these off-shore--or in cypherspace, a la the
+"BlackNet" demonstration I did a few months back, and written about in
+"Wired"--markets liquid and profitable.)
+
+Like a seed crystal dropped in a supersaturated solution, crypto could
+trigger a phase change of immmense proportions. (The metaphor is
+slightly awkward, as I see the crypto phase change _increasing_ the
+number of degrees of freedom, as in the transition from a solid to a
+liquid to a gas.)
+
+The "Oceania" project, in contrast, tends _not_ to produce this kind
+of phase change. Joe Nextdoor may eventually start using data havens
+and crypto tax evasion schemes, but he's not at all likely to
+volunteer to man the oars on a floating barge.
+
+(I don't mean to defame the Oceania project. Just my sense of humor.)
+
+Ocean-going colonies have not appeared, even by corporations and
+states, for whatever reasons, so the onus is on the oceanauts to
+explain just what is out there that is so valuable (that can't be done
+by ordinary boats and ships that fish, mine for manganese nodules, do
+oceanographic research, etc.).
+
+Merely seeking freedom is probably not enough. Gambling, prostitution,
+and easy access to drugs and other hedonistic delights may be enough,
+but I've seen nothing to indicate this type of "Love Boat" is being
+planned. Just the dreamy ideas about self-sufficiency. A commune by
+another name. A floating "Hog Farm," with anarchocapitalist ideology
+replacing Thoreau and Marx.
+
+In any case, Oceania-type projects, even if moderately successful (and
+not just the rusting pontoons I predicted in an earlier posting), are
+very unlikely to trigger a phase change such as the one I see for crypto.
+
+This is why I am currently placing my faith in strong crypto and am so
+active in the Cypherpunks group. That's one place where the Revolution
+_will_ be televised.
+
+--Tim May
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Wed, 17 Nov 93 00:54:19 -0800
+From: davisd@auburn.ee.washington.edu
+Subject: META: Charging $ for the List 
+
+>   If you want to ``freeload'' (no offense), find someone who has paid
+> for the list and get them to forward you messages via .forward.
+> 
+> -- Ray Cromwell        |    Engineering is the implementation of science;    
+
+Since the main cost is apparently in sending out the multiple jillion
+messages to all users, incurring CPU charges with each post sent out,
+it would probably make sense to allow for "freeload" senders who can
+post to the list but don't receive posts directly from the list,
+charging them an even more modest fee than the current minimum. There
+is a lot of bandwidth that people can get away with using for small
+reflector lists. Seems little point in paying Panix for what could be
+gotten for free.
+
+I like the list software and wouldn't want to be on a reflector in
+which I had no control, but I think a significant number of people
+would be happy to lighten the computing load by receiving all posts
+from a reflector site. If they saved a buck or two in the process,
+that is.
+
+Of course, I suppose the reflector could run his own excludes, and
+good performance on exclusions might be worth money to some people.
+People could shop between reflectors...
+
+Buy Buy -- Dan Davis      
+
+
+
+------------------------------
+
+Date: Wed, 17 Nov 1993 01:05:21 -0800
+From: kwatson@netcom.com (Kennita Watson)
+Subject: E-prime
+
+Having finished _The Illuminati Papers_, I have begun to read _A New
+Guide to Rational Living_, by Albert Ellis and Robert A. Harper.  It
+differs from its predecessor, _A Guide to Rational Living_, in that it
+is written in E-prime (the term I asked about in an earlier message).
+
+For the uninitiated, a quote:  "The name E-prime comes from the
+semantic equation:  E prime = E minus e:  where E represents all the
+words of standard English and e represents all the forms of 'to be':
+such as 'is', 'was', 'am', 'has been', 'being', etc."
+
+For the initiated, a request:  please help me out by translating the
+following into E-prime -- the book gives a definition, but very few
+examples, and I don't see how to do these.
+	1) "[The book] is written in E-prime."
+	2) "What are you doing?"
+I would also appreciate a general rule for tranlating sentences in
+progressive tenses, such as "I am going to the store.", "I was eating
+lunch.", etc.
+
+I feel distress over my linguistic inflexibility in this regard.  At
+the same time (in the light of my recovery efforts) it seems
+consistent with the (at times) oversimplified Randian world view, with
+its absolute truth and truth-in-perpetuity, both of which lend
+themselves to "to be", up till now my favorite verb.  
+
+I also note my fascination with Heidegger's introduction to _Being and
+Time_, and my delight in twisting myself into mental pretzels over
+such sentences as "Insofar as Being constitutes what is asked about,
+and insofar as Being means the Being of beings, beings themselves turn
+out to be what is _interrogated_ in the question of Being.".  Not to
+mention that to ask "What is Being?" in a precise way requires already
+knowing what Being is in some sense, because we need to know what it
+would mean for Being to _be_ anything.  But I digress.
+
+Willing to attempt the E-prime experiment, and with beads of sweat
+breaking out on my brow (not quite) as I labor to rewrite my
+sentences, I request assistance on the issues above.  I would also
+welcome opinions/discussion of the value of General Semantics and/or
+Rational Emotive Therapy (I think both fit under the umbrella of Self
+Transformation, and possibly Dynamic Optimism, if you wonder what
+business they have on the Extropians list).
+
+Thanks much,
+Kennita
+
+<Hooray! I already had a .sig in E-prime!>
+
+Kennita Watson      |  Do I want to live forever?  Maybe not, but give
+kwatson@netcom.com  |  me one or two hundred thousand years to think
+HEx: KNNTA          |  it over.     - KLW, 1993
+
+------------------------------
+
+Date: Wed, 17 Nov 1993 01:45:19 -0800
+From: kwatson@netcom.com (Kennita Watson)
+Subject: Drugs
+
+Having just finished _The Illuminati Papers_, I have been thinking a
+lot about the issue of drugs.  RAW seems to think highly of their use
+in Self Transformation.  I have tried none at all (well, one and a
+half beers at one high school party and one-half cup of straight vodka
+once in college, but most people don't think that counts), and have
+decided that I have the kind of aversion to doing so that RAW
+addresses in his "Dissociation of Ideas I" exercise (whose point, for
+those who might not have read about it, involves coming up with 20
+counterexamples to any ideas that I take for granted to the point
+of exhibiting knee-jerk behavior with respect to them).
+
+I have done the exercise twice so far.  It took me two hours of
+concerted effort to come up with 20 inventions we could do without,
+and three days off and on to come up with 20 good things about getting
+up early.  I expect that any idea ingrained enough to warrant doing
+the exercise on would prove similarly challenging.  However, I
+don't think that I could come up with 20 benefits to giving up control
+of myself, no matter how long I could take. 
+
+I associate drugs with lack of control, and I feel petrified at the
+thought of lack of control.  It seems particularly stupid to me to
+take drugs when around other people taking them, because if I did
+something stupid like drinking Liquid Drano (TM) or breaking
+furniture, people who would otherwise have the presence of mind to
+stop me might not.
+
+Discussion, please.
+
+Thanks,
+Kennita
+
+Kennita Watson      |  Do I want to live forever?  Maybe not, but give
+kwatson@netcom.com  |  me one or two hundred thousand years to think
+HEx: KNNTA          |  it over.     - KLW, 1993
+
+------------------------------
+
+Date: Wed, 17 Nov 93 2:23:40 PST
+From: szabo@netcom.com (Nick Szabo)
+Subject: E-prime
+
+Kennita Watson writes about E'.  I lack E-xpertise
+in the matter, but I'll give her queries a shot.
+
+> 	1) "[The book] is written in E-prime."
+> 	2) "What are you doing?"
+
+E' concerns itself mostly with the form "is <noun>", as
+in "A is A" (the ultimate egregious violation of E'),
+and "is <adjective>" where it can be converted to an
+action verb (eg "is red" --> "looks red").  Less often
+it's useful to convert "is <verb>".  (1) can be
+rewritten as "[We/they/the authors] wrote the book in
+E'", admitting the possibility that they might have slipped
+up at some point, so that the book wouldn't necessarily be
+excepted by a rigorous E' parser.  I don't see any need to change 
+(2).
+
+In general, I don't think the "is <verb>" usually needs
+conversion.  My opinion; I don't know what the "official"
+E' rules are for "is <verb>".  Since Korzybski and
+Peirce before him emphasized the "default heirarchy"
+of rules/exceptions (now most well known as the class 
+heirarchies in "object oriented programming"), it might violate
+the spirit of the general philosophy to have rigid rules 
+on the matter.  
+
+The little spiel on the "Fair Witness" in Heinlein's
+_Stranger in a Strange Land_ ("this side of the house
+looks white") is a good explanation of how E' 
+improves the accuracy of thinking.  I'd say E' improves
+inductive thinking at some expense to parsimony and deduction 
+(because the sentences are now in a form difficult to translate 
+first-order logic).  The parsimony problem is mostly due to
+the fact that "is" is so engrained in English that we lack
+the morphemes to construct succinct sentences without it.
+But we should start the conversion.  Since computers are vastly 
+better at deductive logic than humans, there might come a future 
+era where computers handle the rational arguments and humans the 
+inductive "common sense".
+
+> Not to
+> mention that to ask "What is Being?" in a precise way requires already
+> knowing what Being is in some sense, 
+
+This seems to be a great example the of unproductive lines of
+deduction E' allows us to avoid.  Korzybski and Peirce would
+recommend accumulating the knowledge of ourselves first, and
+building from that a language, in which the word "Being"
+might or might not play a significant role.
+
+_Feeling Good_ by Dr. David Burns, on Cognitive Therapy, is a good
+example of applying GS/E'-style thought to one's thinking about
+one's own self, with the specific application of overcoming 
+depression.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Wed, 17 Nov 93 4:22:50 WET
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: E-prime
+
+Kennita Watson writes:
+> 
+> For the initiated, a request:  please help me out by translating the
+> following into E-prime -- the book gives a definition, but very few
+> examples, and I don't see how to do these.
+> 	1) "[The book] is written in E-prime."
+> 	2) "What are you doing?"
+
+  How about:
+
+    1) The book's grammatical style resembles E-Prime.
+    2) Please elaborate on your current activities.
+
+   E-Prime sometimes sounds like Lt. Commander Data's script from Star
+Trek.
+
+> I would also appreciate a general rule for tranlating sentences in
+> progressive tenses, such as "I am going to the store.", "I was eating
+> lunch.", etc.
+
+   1) The velocity vector I possess now points towards the store.
+   2) My previous biological state resembled the consumption of lunch.
+
+;-) ;-) ;-) 
+
+Kraut von Future Slime
+
+
+------------------------------
+
+Date: Wed, 17 Nov 93 12:14:09 GMT
+From: jrk@sys.uea.ac.uk (Richard Kennaway)
+Subject: E-prime
+
+Kennita Watson asks, and Kraut von Future Slime answers:
+>> For the initiated, a request:  please help me out by translating the
+>> following into E-prime -- the book gives a definition, but very few
+>> examples, and I don't see how to do these.
+>>       1) "[The book] is written in E-prime."
+>>       2) "What are you doing?"
+>
+>  How about:
+>
+>    1) The book's grammatical style resembles E-Prime.
+
+Despite the "Kraut von Future Slime" tag, this expresses (1) in a quite
+satisfactory way.
+
+>    2) Please elaborate on your current activities.
+
+A little stiff, perhaps, but notice how it focusses not on what the person
+"is" doing, but on the meaning of their actions to themselves (which may
+differ greatly from what anyone else might think those actions "were").
+
+>   E-Prime sometimes sounds like Lt. Commander Data's script from Star
+>Trek.
+
+Not necessarily a bad thing.  It doesn't have to, though.
+
+>> I would also appreciate a general rule for tranlating sentences in
+>> progressive tenses, such as "I am going to the store.", "I was eating
+>> lunch.", etc.
+
+With E-Prime, as with Loglan (go on, ask me), you often need to completely
+rethink what you want to express.  For example, "I was eating lunch,
+when..." might be recast as "While eating lunch...".  Depending on the
+situation, "I am going to the store" might be replaced by "I intend going
+to the store", "I want to go to the store", "I need to buy some groceries",
+"I need to go to work", "Bye", etc.
+
+
+Indirectly related to E-prime, I came across this story a long time ago. 
+(Does anyone know the original version and source?)
+
+A missionary in Africa, learning the language of the natives, one day
+knocked on a table and asked, "What do you call this?"  Getting six
+different answers, he marvelled at the richness of a language which had six
+different words for a table.  Only later did he find out that while one of
+them had given the word for a table, another had given the word for wood,
+another the word for a fist, another a hand, another the action of
+knocking, and the sixth the sound of a knock.
+
+--                                  ____
+Richard Kennaway                  __\_ /    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk      \  X/     University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk    \/       Norwich NR4 7TJ, U.K.
+
+
+
+------------------------------
+
+Date: Wed, 17 Nov 93 08:27:59 EST
+From: Tim Freeman <tsf@cs.cmu.edu>
+Subject: INVEST: Corn futures (was Re: Efficient Market Hypothesis...)
+
+From: COURTNEYSMIT@delphi.com
+>A second major knock against the theory is the seasonality of grains. 
+>Everybody knows that the harvest of corn will occur in November and 
+>December and that there will be a glut of supple relative to demand.
+>This has the effect of depressing the price of corn many more 
+>going into December. Everybody knows this yet the price still sells off.
+
+A bushel of corn in December isn't quite the same commodity as a
+bushel of corn in, say, March, so one would expect them to have
+different prices.  The differences are:
+
+1. Somebody has to do the work to store the corn between December and
+   March, and to maintain the equipment for storing it, buy the
+   equipment, etc.
+
+2. Money invested in the corn between December and March could have
+   been invested elsewhere, so corn in March has to sell at a high enough
+   price to provide about the same return.
+
+Are the fluctuations larger than can be explained by the above?
+
+If the market isn't efficient, then that's a money-making opportunity.
+Anyone want to get into the corn-storing business?  Maybe we have
+another point:
+
+3. Storing corn for a living is BORING, and the workers demand
+   proportionately higher wages. :-)
+
+Tim
+
+------------------------------
+
+Date: Wed, 17 Nov 1993 08:29:08 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: PPL, Iceland
+
+In <9311170732.AA05773@apple-gunkies.gnu.ai.mit.edu>, Shawn O'Connor writes:
+[...]
+|> In Laissez Faire's November catalog there's a book on the law of saga
+|> Iceland, called _Bloodtaking and Peacemaking_ by William Ian Miller.
+|> Has anyone read it?  I started picking up Icelandic sagas after reading
+|> Machinery, and when I eventually read them I'd prefer to do it in order.
+|> Does anyone have a complete chronological list of the sagas?  
+
+Haven't read Miller, but DDFr summarizes the Icelandic experience in
+_MoF_ for those who don't want to make a big project of it.
+
+I don't have a chronology of the sagas here, although there might be
+one in one of my books at home. I would recommend you read the Eddas
+first if you haven't yet. If all you want is a closer look at how the
+Althing and the wergild system worked, _The Saga of Burnt Njal_ has
+enough on it. Bear in mind as you read that the frequent occurences of
+"and then they all rode down to the Althing" are actually separated by
+at least a year, but that the skald found that reciting the
+proceedings of the various court cases was a quick and authoritative
+narrative device. This makes the sagas seem like stories of an
+incredibly bloodthirsty and contentious people on casual reading, but
+a count of actual bloodlettings per year shows that, while they were
+certainly proud and grim folk, and terrible when angered, they did not
+go out of their way to slaughter each other. The murder rate and the
+outlawry rate were actually quite low.
+
+Reading projects like this are one quick answer to "why do you want to
+live forever?". A few years ago I set myself to re-reading the
+Greco-Roman classics: at the rate of about one Iliad-book per night at
+bedtime, I went through the _Argosy_, the _Iliad_, the _Odyssey_, and
+the _Aeneid_ (Fitzgerald's translations, exquisitely done) and petered
+out with some Aeschylus and Sophocles, about 5 months' worth of
+bedtimes. I then started reading them aloud to my children, so for a
+while I was really up on the Heroic Era material ("Which Akhaian was
+first ashore and first killed?" I'd ask and answer.)
+
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+
+
+------------------------------
+
+Date: Wed, 17 Nov 1993 08:32:12 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: INTEREST? True Nyms
+
+Jamie Dinkelacker:
+
+> Aside from the flamebait puke of the COLORADO CRAZIE, the cypherpunks list
+> doesn't seem to be an optimum forum for dicussion of false names, true
+> nyms, multiple personality entropy, blah blah.
+> 
+> Yet, I find it a fascinating topic. Anyone here interested?
+
+I confess that, although I subscribe to cypherpunks, I haven't been
+following what passes for discussion on this issue there.  The
+topics I like to see there relate to technical aspects of cryptology
+(mainly cryptography though I recognize the importance of cryptanalysis),
+the practical issues of crypto tools, and the prospects for the
+development of Tim's "crypto-anarchy" -- the desirability of which
+I accept.
+
+This may indeed be a better forum for discussion of "softer" issues
+because we can come at it from a particular perspective without
+being accused of being maniacs (hopefully!).
+
+I'll ignore the entire history of pseudonymous activity, because it
+seems clear that electronic communication has made such activity
+much more interesting than previously.  In this day when most
+e-communication is via an ASCII stream, it's particularly easy
+to maintain pseudonymous identities (though care must be taken
+not to overly-indulge in similar communication style and usage,
+and not to mix up what each persona should know [which apparently
+L. Detweiler has failed to do {short, shameful confession: I do
+love the pseudonym S. Boxx...}]).  As technology increases, it
+may well be the case that synthesized video images for psuedonymous
+communication could develop to the point of feasibility by the time
+Panix is forwarding video e-mail to Extropians.
+
+This issue is actually quite interesting -- the logistics of maintaining
+pseudonyms that resist content analysis and correlation.  I expect
+that a guide to the relevant techniques will appear eventually.
+
+One other glurg:  it's important to monitor how secure a digital
+nym actually is.  Right now, there would be definite limits I
+would use when deciding what I could safely discuss pseudonymously,
+because the current distribution mechanisms (anonymous remailers)
+strike me as being rather insecure.  If the person running the
+remailer became outraged enough, he or she apparently could
+(anonymously!) reveal the linkage between a true name and 'nym.
+Still, for most purposes, I gather that it is quite safe.  I find
+the S. Boxx case interesting because it is a test of this -- by
+outraging the very people with the expertise to blow a cover,
+a valuable service is being done there.  But I digress.
+
+The important question:  WHY would anybody want to use a 'nym?
+By "'nym", I mean a _real_ pseudonym, not a pseudopseudonym, such
+as Tim May uses at times (Klaus!) for rhetorical purposes.
+
+I can think of three classes of reasons:
+ * danger avoidance (as in Vinge's "True Names").  I will leave that
+   reason for others to discuss.  Most people I talk to don't care
+   about that -- and most "mundanes" would as soon see it banned
+   even if means banning all secure cryptography.
+ * reputation preservation
+ * "psychological" reasons
+
+Reputation preservation.  When we receive a message, we look at two
+things:  Content, and Author.  The reason we look at the author and
+take that into account when evaluating the content is that we have
+a history with various Authors on the Net.  Often, we use the
+Author to decide whether we should even read a message at all.
+For example, the newsreader I use ('nn') has a facility where I
+can search all of the zillions of messages in Usenet news for
+articles by a particular person.  I use this facility regularly
+because I am interested in what certain people have to say, regardless
+of the forum or context.  Those people have positive reputations with
+me.
+
+However, the burden of Authorship (especially in a "BlackNet Investigations"
+world) is such that a public persona is created -- and this can be
+quite important, as we must continually make decisions about who we
+will spend time associating with, and even who we will have economic
+transactions with.  Our reputations preceed us, and it pays to keep
+them in good shape.
+
+Now, suppose that I "publish" a persona in which I value the power of
+the free market, the Goodness of business, the Badness of regulations,
+and so on.  Such a reputation could be a good idea to maintain if I
+planned to do business with similarly-inclined people.  However, suppose
+that I believed that the threats to the environment were such that they
+override those basic beliefs, and say that I feel a need to speak about it.
+I could urge environmental regulation and restrictive statist policies
+under a pseudonym (say, "Green Lantern") and begin to build a distinct
+reputation in such a way.  For the record, I don't have any such
+beliefs or needs to express them -- and there is a penalty for using
+'nyms: dilution of reputation.  In the extreme case, one could use
+a new pseudonym for every message, which would make it impossible
+to build any reputation capital at all.
+
+Psychological reasons.  In the early days of BBSes (and presently,
+for all I know), users would very frequently use "handles" instead
+of their True Names when interacting in those fora.  Why?  That has
+always puzzled me a bit.  I can only guess that there is a "fantasy"
+aspect involved.  It could conceivably be rather liberating to
+become somebody else, to present a persona that for whatever reason
+doesn't manifest itself in one's "normal" life.  Thus a reclusive
+bookish male librarian can get off on playing the electronic role
+of a Dominatrix, or could vent repressed feelings of anger in flames
+or diatribes without tarnishing a "primary" reputation.
+
+derek
+but do pseudonymous activities tend to demolish the self?  Does it
+tend to fragment and suppress the ego?  Is it Buddhist therapy?
+
+------------------------------
+
+Date: Wed, 17 Nov 1993 14:27:51 +0000 (GMT)
+From: Charlie Stross <charless@sco.com>
+Subject: Kangaroos (and defamation)
+
+David Friedman writes:
+>Subject: Kangaroos (and defamation)
+
+>At a slight tangent to this thread ...  . Under current law, publishing a
+>statement of the form "A says that B murdered his wife, but I do not
+>believe it" is actionable as libel. I happen to know that because I
+>discussed it with a colleague recently in a different context. According to
+>what he told me, if Perot says on nationwide TV that Gore is an
+>axe-murderer and the New York Times reports it, the Times is guilty of
+>libel--although, of course, it is not likely that Gore would sue. They are
+>not saved by Times v Sullivan, the case which restricted libel in cases
+>involving a public figure. Under the Sullivan standard, it is libel to say
+>something libelous about even a public figure if you believe it is
+>false--and the Times, in my hypothetical, obviously would believe it was
+>false that Gore is an axe-murderer. Attributing the libel (truthfully) to
+>someone else is no defense--you have still published it.
+
+Okay. But what about the "allegedly" cop-out? This is one used a lot
+in journalese; "A allegedly said that B murdered his wife, but I do
+not believe the allegation." By adding this weasel-word you inject a
+variable -- that you are not saying authoritatively that A said
+something libelous, but only that A _may_ have said it. My
+understanding is that this is a pretty efficient way of sidestepping
+libel cases, at least in the UK. Am I wrong, right, or being misled by
+a local law not applicable in the USA?
+
+>David Friedman
+>Cornell Law School
+>DDF2@Cornell.Edu
+
+
+-- Charlie
+--------------------------------------------------------------------------------
+Charlie Stross is charless@sco.com, charlie@antipope.demon.co.uk  
+ 
+ 
+ 
+
+
+------------------------------
+
+Date: Wed, 17 Nov 1993 08:56:12 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: E-prime
+
+In <199311170905.BAA16359@mail.netcom.com>, Kennita Watson writes:
+[...]
+|> For the initiated, a request:  please help me out by translating the
+|> following into E-prime -- the book gives a definition, but very few
+|> examples, and I don't see how to do these.
+|> 	1) "[The book] is written in E-prime."
+|> 	2) "What are you doing?"
+|> I would also appreciate a general rule for tranlating sentences in
+|> progressive tenses, such as "I am going to the store.", "I was eating
+|> lunch.", etc.
+
+Everyone finds progressive constructions useful, and only the most
+radical E-prime advocates insist on removing them. I don't know a good
+general way; GS time-binding theory would suggest meta-speak like:
+
+"I (11/17/1993 13:21) walk to the grocery store."
+
+But that is really another issue, pointing out that "I (11/17/1993
+13:21)" differs from "I (11/16/1993 13:21)" and from every "I
+<timestamp>" with a different value of <timestamp>.
+
+You can always translate passive voice to active, by naming the
+actors, and usually make your writing more clear in the process:
+
+"Ellis and Harper wrote the book in E-Prime."
+
+Herein we see the virtue of E-prime: it makes you take responsibility
+for your opinions, and assign responsibility where it belongs.
+Contrast:
+
+"Searle is clueless." with
+"I find no evidence that Searle has a clue."
+
+The second sentence allows and invites rational discourse better than
+the flamish first sentence.
+
+[...]But I digress.
+
+You certainly did :-)
+Well, we had a rousing debate-of-basics a while back over stuff like
+this (existence exists) so I don't want to get off into Heidigger (he
+makes me dizzy anyway).
+
+|> Willing to attempt the E-prime experiment, and with beads of sweat
+|> breaking out on my brow (not quite) as I labor to rewrite my
+|> sentences, I request assistance on the issues above.  I would also
+|> welcome opinions/discussion of the value of General Semantics and/or
+|> Rational Emotive Therapy (I think both fit under the umbrella of Self
+|> Transformation, and possibly Dynamic Optimism, if you wonder what
+|> business they have on the Extropians list).
+
+We have kicked GS around before on Extropians. I have a list of
+GS-interested parties (I had a plan to start a mailing list, which has
+fizzled for lack of a host). I can send you some names of folks who
+know more than I about it, and maybe see if I have some more info
+archived, if you'd like. I recommend that you take a deep breath and
+read Korzybsky (_Selections from Science and Sanity_ makes a good
+start). Actually, if you can hack Heidigger, Korzybski might not seem
+hard. There's a gimmick to reading _S and S_: you have to change your
+methods of evaluation to learn what he means by some of his strange
+terms, and by the time you catch on, you have learned a new way of
+reacting to experience, which was his point.  Sneaky.
+
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+
+
+------------------------------
+
+End of Extropians Digest V93 #320
+*********************************
+

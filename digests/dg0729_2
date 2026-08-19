@@ -1,0 +1,538 @@
+From extropians-request@extropy.org Fri Jul 29 15:02:13 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id PAA06128 for <more@chaph.usc.edu>; Fri, 29 Jul 1994 15:02:07 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA17177; Fri, 29 Jul 94 15:01:56 PDT
+Received: by news.panix.com id AA22791
+  (5.65c/IDA-1.4.4 for more@usc.edu); Fri, 29 Jul 1994 18:01:36 -0400
+Date: Fri, 29 Jul 1994 18:01:36 -0400
+Message-Id: <199407292201.AA22791@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-7-248 - #94-7-259
+X-Extropian-Date: July 29, 374 P.N.O. [18:01:20 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Fri, 29 Jul 94             Volume 94 : Issue 209
+
+Today's Topics:
+                                                                      [1 msgs]
+                             "Dog eat dog" quote                      [1 msgs]
+                             FAQ & medical ethics                     [1 msgs]
+              Houston's economy Was [RE: Venezuela & Socialism]       [1 msgs]
+                                  NanoFlaws?                          [1 msgs]
+                                  NO SERVICE                          [3 msgs]
+                          Quantum Crypto out to Bid                   [1 msgs]
+                           SELF: my heart (pumping)                   [1 msgs]
+                              us.* Hierarchy CFV                      [2 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 28905 bytes.
+
+----------------------------------------------------------------------
+
+From: smo@gnu.ai.mit.edu (Shawn O'Connor)
+Date: Thu, 28 Jul 94 21:58:09 WET DST
+Subject: [#94-7-248] us.* Hierarchy CFV
+
+Since the argument against the us.* hierarchy has just been posted 
+here, I'm forwarding an argument in favor of us.* that appeared on 
+cypherpunks.  Any other arguments for or against?
+
+Shawn
+smo@gnu.ai.mit.edu
+
+------------
+
+Date: Thu, 28 Jul 1994 11:49:56 -0400
+From: "L. Todd Masco" <cactus@bibliob.slip.netcom.com>
+Message-Id: <199407281549.LAA08615@bb.com>
+To: cypherpunks@toad.com
+Subject: One more time... us.* 
+
+[Very little c'punk content, just explaining why the us.* proposal is nothing
+ like a movement towards censorship, but an attempt to resist it]
+
+First, you have to understand that nobody has any say over what newsgroups
+ are created on a machine except for the news admin on that machine.  Most
+ news admins hand this authority over to Dave Lawrence, the current moderator
+ of news.newgroups.announce, when they install their news software. 
+ However, *anybody* can decided to ignore anybody else's decisions on
+ *any* newsgroup and issue a newgroups message (and someone else will
+ usually issue an rmgroup message in response: it's an anarchy, and most
+ of us like it that way).
+
+The us.* hierarchy "cabal" idea is *not* to determine what groups
+ will get passed and what ones will not;  In fact, the intent is to eliminate
+ "no" votes, passing groups only on the basis of significant interest.  If
+ you know any USENET history, you'll know about fiascos like the
+ soc.culture.tibet, soc.culture.macedonia, and soc.religion.islam.ahmadiya
+ proposal -- cases where the newsgroups had a significant amount of interest,
+ but were defeated due to large populations having some sort of grudge
+ or religious/national interest in supressing a point of view.
+
+This part of the proposal will, in fact, reduce censorship, preventing 
+ organized campaigns from defeating newsgroups, effectively preventing
+ people from discussing their subject on USENET (for the traditional
+ definition of USENET that excludes alt.*).
+
+The other part of the proposal, the one which seems to have pushed people's
+ "censorship" kneejerk buttons, is the concept of the "namespace cabal."
+ Again, if you have any knowledge of USENET history, you'll know that there
+ used to be a far stronger cabal than is proposed by the us.* idea: the
+ backbone cabal controlled everything -- they were the news admins at
+ the backbone sites and they had the last word.  News admins at other
+ sites listened to them because, well, they were the backbone cabal.  They
+ had the connectivity.
+
+When the set of newsgroups became too big for news admins to effectively
+ manage them (and the connectivity model changed, there no longer being a
+ real news backbone), a newer system for gaining consensus over newsgroup
+ creation was created.  Votes would be taken -- *NOT* on democratic principals
+ or anything of that nature, but simply to gauge interest so that news admins
+ would have some basis on which to approve group creation.  Over time,
+ the formula was tweaked in various ways when groups that people thought
+ should never have passed (like the rec.acquaria, sci.acquaria, etc. groups)
+ were created.  Still, this is basically the system we have today.
+
+As I mentioned above, the current model allows large groups of people to
+ squash newsgroups of interest to smaller (or even equal sized, since the
+ current guidelines require 2/3 majority to pass) groups.  THAT is censorship,
+ the tyrany of the majority.  There is also another thing that needs fixing.
+ 
+There is a problem with the current USENET namespace management strategy:
+ it is damn near impossible to manage a namepsace by vote.  In extreme
+ cases, Dave Lawrence has simply refused to publish the newsgroup creation
+ message, but nobody is very happy with this: it's too much like Dave is
+ censoring the net, and it's wrong to stop the creation of a newsgroup on
+ a subject simply because its proponent insists on a name noone likes.
+
+As a USENET volunteer votetaker, I have become embroiled in proposals for
+ groups where a vast number of people wanted a newsgroup but had to wait
+ months, sometimes missing the opportunity to discuss events important
+ to them, because the newsgroup proponent was insisting upon a name that
+ nobody agreed with or because no clear consensus (among users) appeared
+ about the naming of the group.
+
+It is the namespace issue that the proposed "cabal" will cover.  It's no
+ different than the government refusing to take a vote on where every
+ single book in a public library will end up on the shelves or where 
+ each document is stored.  Namespace management is simply impossible to
+ do by voting, especially when the "voters" have no understanding of the
+ issues involved.  We've squeeked by so far, but only barely -- and as the
+ net grows, it become much more difficult to maintain the current voting
+ scheme.
+
+That is why it is absurd to view the "namespace cabal" concept as an attempt
+ to censor a democratic form.  It isn't an attempt to censor (it is an
+ attempt to stop censorship), and the current form isn't democratic.  Please,
+ before you try to argue this -- check out the facts about the proposal,
+ the history behind it, and the real mechanisms in place before you spout
+ off.
+--
+L. Todd Masco  |  Bibliobytes books on computer, on any UNIX host with e-mail
+cactus@bb.com  | "Information wants to be free, but authors want to be paid."
+
+
+------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Thu, 28 Jul 94 22:17 CDT
+Subject: [#94-7-249] us.* Hierarchy CFV
+
+In <9407290158.AA22246@geech.gnu.ai.mit.edu>, Shawn O'Connor writes:
+> Since the argument against the us.* hierarchy has just been posted 
+> here, I'm forwarding an argument in favor of us.* that appeared on 
+> cypherpunks.  Any other arguments for or against?
+
+Yes, against, because it should be difficult to create a newsgroup,
+because the namespace (the highest level index, so to speak) is
+already complex enough and its growth should be restrained until a
+more intelligent indexing method is available.
+
+Right now we have:
+
+newsgroup namespace tree
+	subject:'s
+		threads
+	keywords
+		text
+
+and we depend on the top part of this hierarchy too much. Time to
+get on with better ways of specifying the content we want  to see.
+
+(* 
+ ! OHMIGHOD! DO YOU SEE WHAT I'VE DONE? !
+ ! IMMINENT DEATH OF USENET PREDICTED!! ! 
+ ! FILM AT 11!!!!!!!!!!!!!!!!!!!!!!!!!! !
+*)
+
+-- fREEbOY
+
+------------------------------
+
+From: rmtodd@servalan.servalan.com
+Date: Thu, 28 Jul 94 23:01 CDT
+Subject: [#94-7-250] 
+
+	id m0qTi6d-00077IC; Thu, 28 Jul 94 21:55 CDT
+Message-Id: <m0qTi6d-00077IC@servalan.servalan.com>
+To: extropians@extropy.org
+Subject: James Burke's Connections 
+In-reply-to: Your message of "Thu, 28 Jul 1994 00:54:38 PDT."
+             <199407280754.AAA21173@netcom14.netcom.com> 
+Date: Thu, 28 Jul 1994 21:55:16 -0500
+From: Richard Todd <rmtodd@servalan.servalan.com>
+
+In message <199407280754.AAA21173@netcom14.netcom.com> Tim Starr writes:
+>What also might be worth putting on the list are James Burke's "Connections"
+>videos/books as well as some of his other works.  Does anyone know where they
+>can be rented?  I just found a number they can be ordered from, but they're
+>too rich for my blood, about $179.00.  Some of the best popularization of the
+>history of technology I've ever seen in any form.  I'll post the number when
+>I have it handy.
+
+Well, if you're short of cash, and you have cable (or know somebody who does),
+you can tape 'Connections' and 'Connections 2' off of TLC Wednesdays 
+at 7:00pm/10:00pm CST (for Connections) and Sundays at 7:00pm/10:00pm CST for
+Connections 2.  Alas, I don't think they're running 'The Day the Universe 
+Changed' right now.  Also, TLC did make some cuts in the programmes to
+make room for more commercials, at least on 'The Day the Universe Changed'
+(not sure about the others, that's the only one I checked against the tapes I
+made when PBS last aired them many years ago....)  Sigh.   
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Fri, 29 Jul 1994 07:24:39 -0400
+Subject: [#94-7-251] FAQ & medical ethics
+
+ jbaker@halcyon.com  (James Baker) writes in X-Message-Number: #94-7-241:
+>Does anyone know of a book that explains the opposite kind of prosthesis?
+>ie taking neuro-signals out of the body to control things. For example
+>artificial limbs. Or any research using outbound neuro-signals to
+>communicate.
+
+ I've been looking for info about this for several years, and these are
+all I have found:
+
+Eric A. Wan, Gregory T. A. Kovacs, Joseph M. Rosen, and Bernard Widrow,
+ "Development of Neural Network Interfaces for Direct Control of Neural
+Prostheses" in Proceedings of the International Joint Conference on
+Neural Networks 1990, Vol 2.
+
+They describe a device under development which could connect
+microelectrodes to all the axons in an arm (at densities up to
+2000 axons per mm^2). They give some ideas about how an artificial
+arm could be trained to communicate with the biological part
+of the arm of an amputee so as to behave like a natural arm.
+
+Gregory T. A. Kovacs, Christopher W. Storment, and Joseph M. Rosen,
+"Regeneration Microelectrode Array for Peripheral Nerve Recording
+and Stimulation", IEEE Transactions on Biomedical Engineering, Vol 39, No 9,
+September 1992.
+
+Some references posted to comp.ai.neural-nets which I haven't tracked
+down yet:
+------------------------------------------------------------------------
+R. B. Stein, A. Kostov, M. Belanger, W. W. Armstrong and D. B.
+Popovic, Methods to Control Functional Electrical Stimulation in
+Walking, First International FES Symposium, Sendai, Japan, July 23 -
+25, 1992, pp. 135 - 140.
+
+Aleksandar Kostov, Richard B. Stein, William W. Armstrong, Monroe
+Thomas, Evaluation of Adaptive Logic Networks for Control of Walking
+in Paralyzed Patients, 14th Ann. Int'l Conf. IEEE Engineering in
+Medicine and Biology Society, Paris, France, Oct. 29 - Nov. 1, 1992
+vol.4, pp. 1332 - 1334.
+
+W.W. Armstrong, R. B. Stein, A. Kostov, M. Thomas, P. Baudin, P.
+Gervais, D. Popovic, Application of adaptive logic networks and
+dynamics to study and control of human movement, Second Int'l Symp. on
+3D Analysis of Human Movement, Poitiers, June 30 - July 3, 1993
+pp. 81 - 84.
+
+D. B. Popovic, R.B. Stein, K. L. Jovanovic, R.Dai, A. Kostov,
+W.W. Armstrong, Sensory Nerve Recording for Closed-Loop Control to
+Restore Motor Functions, IEEE Trans. Biomed. Eng., vol. 40 no. 10
+pp. 1024 - 1031, 1993.
+
+Aleksandar Kostov, Richard B. Stein, Dejan Popovic and W. W. Armstrong,
+Improved Methods for Control of FES for Locomotion,
+Proc. International Federation of Automatic Control
+(IFAC) Symposium on Modeling and Control in Biomedical Systems,
+Galveston, Texas, March 27 - 30, 1994.
+
+You can get some info on ALNs via ftp from ftp.cs.ualberta.ca in
+pub/atree.  Please contact me if you want further information about
+the newest ALN software and a publication about their use in control.
+--
+***************************************************
+Prof. William W. Armstrong, Computing Science Dept.
+University of Alberta; Edmonton, Alberta, Canada T6G 2H1
+arms@cs.ualberta.ca Tel(403)492 2374 FAX 492 1071
+------------------------------------------------------------------------
+
+ A reference from sci.engr.biomed which I haven't looked at yet:
+------------------------------------------------------------------------
+	http://www.ee.surrey.ac.uk/Personal/D.Banks/index.html
+
+At the moment there's some brief notes on my PhD project (extracellular
+recording from peripheral nerves using silicon based microelectrodes), an
+------------------------------------------------------------------------
+
+-----------------------------------------------------------
+Peter McCluskey | pcm@world.std.com | Repeal Gresham's Law!
+-----------------------------------------------------------
+
+------------------------------
+
+From: Mike Gurstein <mikeg@nywork2.undp.org>
+Date: Fri, 29 Jul 1994 08:14:14 -0400 (EDT)
+Subject: [#94-7-252] "Dog eat dog" quote
+
+I guess the rest of you must have missed the fact that the story was 
+obviously MI 5 planted disinformation designed to affect the outcome of 
+the selection of the new President of the European Community--German 
+shepherd, French poodle, Europa Times....hm....
+
+Mikeg
+
+On Thu, 28 Jul 1994, Michael Clive Price wrote:
+
+> Mike Gurstein writes:
+> > Some of you may have missed an article in the July 1994 edition of
+> > Europa Times:   [Feathers mauls Bruno.  Bruno decapitates Feathers]
+> 
+> Mike, if you thought that's funny you're a sick man.
+> 
+> And please post some more :-)
+> 
+> Mike Price                         price@price.demon.co.uk
+> 
+
+------------------------------
+
+From: dasher@netcom.com (Anton Sherwood)
+Date: Fri, 29 Jul 1994 07:29:20 -0700
+Subject: [#94-7-253] SELF: my heart (pumping)
+
+My blood pressure has always tended to be on the low side
+but something else now surprises me: ten and fifteen years
+ago my pulse was usually in the high eighties, and now it's
+in the high sixties.  Why would that be?  I haven't started
+running marathons or anything.  I stopped drinking sugary
+sodas; I've cut way down on red meat, pizza and fatty
+Chinese food.  Would any of that do it?
+
+Anton Sherwood   *\\*   +1 415 267 0685   *\\*   DASher@netcom.com
+
+------------------------------
+
+From: "Brady, Mark" <mbrady@msmail.his.tch.tmc.edu>
+Date: Fri, 29 Jul 94 10:52:00 PDT
+Subject: [#94-7-254] Houston's economy Was [RE: Venezuela & Socialism]
+
+Since I am now living in Houston, I have to throw in my two cents worth.  I 
+would say that Houston's economy is still dependent on oil.  Right now, some 
+of the Majors are having layoffs.  However, it is more diversified than it 
+used to be.  I work in the Medical Center and we have some 100,000 people 
+directly or indirectly employed.  In addition, there is the Port of Houston, 
+NASA, the banks and Compaq (and related industries).  The oil company 
+layoffs are not expected to hurt the Houston economy the way they did in the 
+early 80s when Reagan kept the price of oil down.
+
+BTW Houston is the only major city NOT to have zoning.  The people felt, 
+over the objections of the Mayor and City Council, that voluntary agreements 
+were working effectively enough that government intervention was not needed. 
+ However, just to be sure, the city charter was amended by a 2-1 margin so 
+that it could not be imposed without a citywide referendum.  My local 
+agreement says that I cannot drill for oil or keep livestock in my back yard 
+ which is fine with me.
+
+Also George Bush, Jr. is running against Ann Richards.
+
+The big issue here is the Federal government wanting to outlaw assault 
+rifles in the latest anti-crime bill.  Used in less than 1% of crimes, they 
+are still high profile political targets.  I don't favor making them illegal 
+for a variety of reasons, the right to privacy comes to mind first (I don't 
+buy the NRA's Citizen's rights to bear arms), but I was wondering what the 
+other opinions on the issue were.
+
+
+Mark Brady
+MBRADY@MSMAIL.HIS.TCH.TMC.EDU
+Disclaimer:
+The opinions in this message are strictly those of the author and do not 
+belong to Texas Children's Hospital, St. Luke's Episcopal Hospital, the 
+Texas Heart Institute or any other sane entity.
+
+
+------------------------------
+
+From: Marcia Ann Perry <maperry@sfsuvax1.sfsu.edu>
+Date: Fri, 29 Jul 1994 10:27:52 -0700
+Subject: [#94-7-255] NO SERVICE
+
+I do NOT wish to receive bulletins, service, or email of any kind.  Please 
+DO NOT send me any more email and please REMOVE MY EMAIL ADDRESS from your
+database; please DO NOT BILL me; in fact, please forget I exist.
+
+Thank you.
+Marcia Perry
+
+------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Fri, 29 Jul 1994 18:22:27 GMT
+Subject: [#94-7-256] NanoFlaws?
+
+James Baker:
+> I hope EMP resistance doesn't become necessary for uploads (except
+> perhaps during space travel) but if it does there are ways to cope.
+
+What wavelength is the EMP?  If more than a few nanometers (and it must
+be, surely, or it would be visible and non-penetrating?) why can't a
+nano-faraday cage, like a cranium, be constructed around the
+nanoelectronic brain?
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: Marcia Ann Perry <maperry@sfsuvax1.sfsu.edu>
+Date: Fri, 29 Jul 1994 11:04:45 -0700
+Subject: [#94-7-257] NO SERVICE
+
+I do NOT wish to receive bulletins, service, or email of any kind.  Please 
+DO NOT send me any more email and please REMOVE MY EMAIL ADDRESS from your
+database; please DO NOT BILL me; in fact, please forget I exist.
+
+Thank you.
+Marcia Perry
+
+
+
+------------------------------
+
+From: "Stephens, Marc R." <Marc.R.Stephens@med.umich.edu>
+Date: 29 Jul 1994 14:17:02 -0400
+Subject: [#94-7-258] NO SERVICE
+
+Hey Marcia, I sent in my unsubscribe MONTHS ago, a few hours after discovering
+the same fact that seems to have prompted your message. They want $15 a year
+for e-mail messages? Crazy. Anyway, I got a reply back from the server telling
+me I was unsubscribed, only to find I keep getting messages every single day.
+I've not received a bill yet. Maybe this will prompt the administrators to
+either a: take me off the list, or b: rethink charging for this, since I'm not
+about to pay a single red penny for services requested turned off but still
+received... 
+
+
+Pax,
+
+Marc
+_______________________________________________________________________________
+From: extropians@extropy.org on Fri, Jul 29, 1994 1:36 PM
+Subject: NO SERVICE
+To: Extropians@extropy.org
+
+I do NOT wish to receive bulletins, service, or email of any kind.  Please 
+DO NOT send me any more email and please REMOVE MY EMAIL ADDRESS from your
+database; please DO NOT BILL me; in fact, please forget I exist.
+
+Thank you.
+Marcia Perry
+
+
+------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Fri, 29 Jul 94 13:44 CDT
+Subject: [#94-7-259] Quantum Crypto out to Bid
+
+Excerpt from Commerce Business Daily Fax edition (residual typos from OCR
+possible):
+
+--------------------------------
+To: CRAIG PRESSON - T4 COMPUTER SEC                  From: NEAR SBDC
+	                                 7-21-94 6:51am   p. 2 of 3
+
+
+Search Output For T4 COMPUTER SECURITY                          Paqe
+July 21st 1994                                                 91381
+
+
+ Los Alamos National Laboratory, Mail Stop 0405, P.O. Box 1553, Los
+ Alamos, NM 87545
+
+ SOFTSHARE Order Number: 940721-0005PROCURE
+*A -- QUANTUM CRYPTOGRAPHY RESEARCH AND DEVELOPMENT SoT IPO-94-519.
+ Contact Principal Investiqator Richard J. Huqhes, P-15 (Physics
+ Division), Mail Stop 0405, TEL: (505) 557-3875, EAX: (505) 557-4415.
+The
+ University of California which operates Los Alamos National
+Laboratory
+ (LANL) under contract to the Department of Enerqy (DOE), solicits
+ information from companies wishinq to participate in a cooperative
+R&D
+*effort to develop practical security applications of quantum
+*cryptoqraphy. Cryptoqraphic key information would be encoded in the
+ quantum coherence between probability amplitudes for sinqle photons
+ travelinq throuqh optical fibers. Security is quaranteed by
+Heisenberq's
+ uncertainty principle: measurinq a quantum system disturbs it and
+yeilds (sic)
+ incomplete information about its state before the meaurement. An
+ eavesdropper thus cannot read the key information or evade detection:
+ the loss of quantum coherence caused by an eavesdropper's measurement
+ would be detectable by the sender and intended recipient. The
+prototype
+ system built thus far uses sinqle 1300-nm photons passed throuqh
+ unequal-arm Mach-Zehnder interferometers at the sendinq and receivinq
+ ends. For each photon the phases in the interferometers are randomly
+*chosen from a set of values to encode the bids (sic) which constitute the
+*cryptoqraphic key, accordinq to a predefined protocol. Photons are
+ detected with subnanosecond time resolution to select those that have
+ traveled throuqh one short path and one lonq path. Sinqle-photon
+ interference has been observed in an open table-top experiment; the
+ computer-controlled code-sendinq protocol has been implemented; and a
+ complete fiber- optics-based system is now beinq developed.
+ Commercialization will involve optical fiber technoloqy,
+interferometry,
+ fast sinqle-photon detection in the infrared, hiqh speed data
+ acquisition and miniaturization of electronics. The statement of
+ interest must be dated within 30 days from the date of this notice.
+ (195)
+
+              MATCHING KEY WORDS:
+               1. cryptograph*
+               2. security
+
+
+------------------------------
+
+End of Extropians Digest V94 #209
+*********************************
+

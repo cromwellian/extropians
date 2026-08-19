@@ -1,0 +1,186 @@
+From extropians-request@gnu.ai.mit.edu Mon Sep  6 02:04:27 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA22777; Mon, 6 Sep 93 02:04:25 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from geech.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA23938; Mon, 6 Sep 93 02:04:23 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by geech.gnu.ai.mit.edu (5.65/4.0)
+	id <AA28565@geech.gnu.ai.mit.edu>; Mon, 6 Sep 93 02:37:20 -0400
+Message-Id: <9309060637.AA28565@geech.gnu.ai.mit.edu>
+To: ExI-Essay@gnu.ai.mit.edu
+From: szabo@netcom.com (Nick Szabo)
+X-Original-Message-Id: <9309060636.AA21215@netcom5.netcom.com>
+Subject: Safety of Flyby and Aerobraking of Large Payloads at Earth
+X-Original-To: exi-essay@gnu.ai.mit.edu
+Date: Sun, 5 Sep 93 23:36:09 PDT
+X-Extropian-Date: Remailed on September 6, 373 P.N.O. [06:37:19 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+	Safety of Flyby and Aerobraking of Large Payloads at Earth
+		copyright 1993 by Nick Szabo
+		permission granted to copy without alteration
+
+We've often heard suggestions for capturing asteroids
+into earth orbit, and for using earth as a gravity or
+atmosphere brake in order to slow down large chunks
+of incoming material.  For some these images bring visions of 
+wealth; for others visions of destruction. This article will 
+explore the costs and benefits of using the earth for gravity 
+assist and aerobraking of large payloads, and suggest some policies 
+for taking advantage of these benefits without harming the earth.
+
+Orbiting planets contain enormous amounts of kinetic energy, and
+tiny fractions of this energy can be tapped by spacecraft
+to great advantage. The two mostly widely used methods are gravity 
+assist and aerobraking.
+
+Here's how a gravity assist works. The planet is moving, 
+so there's our energy source. The slingshot can be computed 
+with the patched-conics approximation.  If we do a Hohmann 
+ellipse to the planet in the inertial frame, the trajectory 
+is a hyperbola in the frame of the planet.  The energy of 
+the vehicle is the same at symmetric points on opposite sides 
+of the hyperbola in the planet frame.  If we exit the rendezvous 
+moving in the same direction as the planet, we gain velocity 
+in that direction in the inertial frame.  If we exit the 
+rendezvous moving opposite the direction of the planet, we lose 
+inertial velocity.  Either gaining or losing velocity can
+be useful, depending on where we're going.
+
+Aerobraking is simpler to understand.  In layman's terms,
+the air slows the spacecraft down, just like wind
+resistance slows down a bicyclist.  In orbital mechanics
+terms, the spacecraft exchanges momentum with the particles
+in the atmosphere.  An interesting variant, called cometary 
+aerobraking, vaporizes a piece of ice a split second before 
+it intercepts the spacecraft at high velocity.  The spacecraft 
+uses the temporary cloud of gas to aerobrake, as if it were 
+a planetary atmosphere.   
+
+All these maneuvers allow us to tap into the energy
+already stored in the orbits of the planets and minor
+planets.  They can greatly reduce the mass of propellant
+and tank needed for a mission; in the case of Galileo
+the Venus-Earth-Earth-Jupiter trajectory saved it from
+being cancelled when it had to substitute a smaller
+upper stage for the powerful Centaur.
+
+Very large payloads can benefit from these trajectories
+for the same reason, especially at earth, which raises
+the important question of safety.  We cannot tolerate 
+bringing a dinosaur-killer sized asteroid anywhere near 
+earth, or coming towards earth near an intercept trajectory.  
+Reentry of c. 100 ton Shuttles is safely performed and 
+tolerated towards inhabited areas, and natural fireballs 
+and meteorites massing several tons each hit the earth 
+harmlessly every year.  Somewhere between these two extremes, 
+we need to figure out the margins of safety and enforce them.
+
+We'll look at three techniques for using earth to change the orbital 
+trajectory of objects:
+
+* fast aerobraking (eg Shuttle, Apollo)
+* slow aerobraking (eg Hiten)
+* gravity assist (eg Galileo)
+
+All three of these can play important roles in reducing the costs of
+capturing space materials from comet fragments and asteroids into 
+various earth orbits.  The delta-v savings are can be up to an order 
+of magnitude for gravity flyby, and up to two orders of magnitude for
+aerobraking, for returning material from the near-earth asteroids
+to earth.  Fast and slow aerobraking are also useful for inserting lunar 
+payloads into low earth orbit.
+
+For gravity assist, the following data need to be considered:
+
+* what is the margin of error due to fringe atmospheric density,
+  gravity anomaly and trajectory measurement error?
+* how quickly and precisely can the on-board engines compensate for
+  trajectory errors directly before and during the flyby?
+* can the operation be timed so that a worst-case error will cause
+  reentry over an uninhabited area (eg the ocean)?
+* how much material on board is strongly toxic or radioactive?
+* what is the worst-case scenario for the mass, composition, and
+  worst-case error trajectory of the payload?
+
+For slow aerobraking, we must also consider the above points, paying
+close attention to the fringe atmospheric density, since that is what
+we are using to change the trajectory. 
+
+For fast aerobraking, we need to pay very close attention to upper 
+atmospheric density at all levels.  The error margins are much less.  
+Unless the worst-case scenario is trivial or the spacecraft is 
+well-controlled aerodynamically, fast aerobraking is much more 
+dangerous than slow aerobraking or gravity flyby.
+
+A natural example of fast aerobraking is the large meteor, or
+fireball.  Chyba[1] calculates burst diameter and yield, and concludes 
+that non-ferrous objects of diameter less that 50m typically detonate 
+too high to be dangerous.  
+
+Future military use of space might include constellations of heavy 
+kinetic engery vehicles, or javelins, manufactured from asteroid material 
+for the specific purpose of penentrating Earth's atmosphere intact
+and destroying the target below.  For commercial projects, we should
+use the above data to determine whether is ethically and politically 
+tolerable, and whether it can be insured.
+
+For the sake of discussion, I make the following initial proposed rules
+of thumb:
+
+gravity assist & slow aerobrake 
+	* <.0001% chance of trajectory error sufficiently large for reentry
+	* if reentry, >98% chance it will occur over & towards 
+	  uninhabited area
+	* payload mass limits:
+	  	solid metallic materials: 5,000 tons (no piece > 1 ton)
+		stony materials: 10,000 tons (no piece > 5 tons)
+		carbonaceous materials or loose regolith: 30,000 tons
+		volatile ices w/pores: 50,000 tons
+		strongly toxic or radioactive material: 
+			(varies by material; 1 ton typical)
+		
+The shape and attitude of the container also play a major role.
+For example a long, thin cylinder will be dispersed more widely 
+than a sphere if it hits the atmosphere sideways instead of 
+headlong.
+
+fast aerobrake:
+	* aerobrake must contain control surfaces sufficient to
+	  give <.001% chance of reentry due to error
+	* if reentry, >98% chance it will occur over & towards
+	  uninhabited area
+	* no strongly toxic or nuclear materials on board
+	* mass limits:
+		solid metallic materials: 200 tons
+		all other materials: 400 tons (note: ceramic heat shield will
+		be significant % of mass for any payload)
+
+Significant amounts of simulation, study of real-life artificial 
+and natural reentries, and benefit/risk analysis need to go into 
+determining the actual safety margins.  Calculations like those 
+done by Christopher Chyba[1] and Zdenek Sekanina at JPL to predict the 
+ability of asteroidal and cometary material to penetrate the earth's 
+atmosphere need to be perfected.
+
+Privately financed insurance with unlimited liability
+should be required for all such payloads.  If no insurance 
+company is willing to underwrite the risk it is a good sign 
+for the public that the maneuver is too risky and should be 
+not be tolerated.  On the other hand if the insurance industry
+volunteers to take on the risk, this is a good sign that the
+risks, financial and physical, are minimal, and that the payoff 
+directly to the companies, and indirectly to mankind as a whole, 
+are well worth it.
+
+
+[1] _Nature_ (v.363, no.6431, 24-June-1993):
+``Explosions of small Spacewatch object in the Earth's atmosphere''
+Christopher F. Chyba, pp.701--703;
+
+

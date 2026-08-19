@@ -1,0 +1,858 @@
+From extropians-request@extropy.org Fri Aug 27 02:24:05 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA06459; Fri, 27 Aug 93 02:23:58 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA23220; Fri, 27 Aug 93 02:23:47 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA08630; Fri, 27 Aug 93 05:19:31 EDT
+Received: from news.panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+	id AA08625; Fri, 27 Aug 93 05:19:14 EDT
+Received: by news.panix.com id AA11153
+  (5.65c/IDA-1.4.4 for exi-maillist@ung.gnu.ai.mit.edu); Fri, 27 Aug 1993 05:19:18 -0400
+Date: Fri, 27 Aug 1993 05:19:18 -0400
+Message-Id: <199308270919.AA11153@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: August 27, 373 P.N.O. [09:19:06 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Fri, 27 Aug 93             Volume 93 : Issue 238
+
+Today's Topics:
+                                                                      [2 msgs]
+                             ADMIN: List Address                      [1 msgs]
+                                Commercial PGP                        [1 msgs]
+                         MEDIA: Review of Extropy #11                 [1 msgs]
+                   META: What does the list SW do when ...            [1 msgs]
+                            Nightly Market Report                     [1 msgs]
+                           OCEANIA: "Chain Breaker"                   [1 msgs]
+                         POLI: More stupid patents...                 [4 msgs]
+                     Plugging Game Computers into the Net             [6 msgs]
+                    Plugging Game Computers into the Net              [1 msgs]
+                       SCIFI: Vernor Vinge in the news                [1 msgs]
+                       a little birdie told me this...                [1 msgs]
+                                     test                             [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51417 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 26 Aug 93 21:42:55 BST
+From: Mark Grant <Mark.Grant@isltd.insignia.com>
+Subject: Commercial PGP
+
+>From: Montgomery Gabrys <monty@alembic.com>
+>
+>if they could get it down to 25 dollars, they could sell it like  
+>hotcakes.
+>
+>at 100, for a encryption utility that the public has no idea why they  
+>"need" it's dead, red taped, chapter 11ville.  Pitty too, since it  
+>needs to be put out in mass quantities.
+>
+>-monty
+
+Note, however, that the announcement says that the freeware version of PGP
+will still be available - in addition, compatability between the freeware
+version and the commercial version will be essential for it to be a
+world-wide standard, since the commercial PGP will be restricted to the US
+and Canada.
+
+They specifically mention that they're aiming for the corporate market, where
+PGP has been little used due to it's 'illegality'. Obviously, at the $100 price,
+many individuals are simply going to keep the freeware PGP and accept the limited
+chance that PKP will send in the cops to bust them, whereas corporations who
+have considered the use of PGP in the past will now be able to do so without
+the rather greater risk that the same might happen to them.
+
+Lastly, of course, the simple existence of a commercial version of PGP helps
+to legitimize the freeware users - currently if you have a public key on a
+keyserver it is pretty certain that you've got a copy of the unlicensed PGP
+and are willing to use it, whereas once the licensed version is released, who
+knows who is licensed and who isn't ?
+
+
+			Mark
+
+
+PGP key available from keyservers
+
+------------------------------
+
+Date: Thu, 26 Aug 93 14:00:12 PDT
+From: peb@procase.com (Paul Baclace)
+Subject: POLI: More stupid patents...
+
+When the PTO embarks on Patent Harmonization (1995?  Not sure, my info
+is on tape) stupid patents may finally be reduced--that is, if the PTO
+recognizes Computer Science as a "Science", then they will hire CS majors
+to review patent applications for software.  Today, and until this changes,
+they hire mathematicians or physicists to review software patents.  
+
+>From the description of stupid touch tone patent, it looks like there is
+some ambiguity...  "ABC"--> 222222, "BCA"--> 222222.  Why didn't they use
+"*#" as shift keys?  Hey, there's a new patent!  Wow, don't tell anyone,
+but I have to rush off to my attorney...;^)
+
+
+Paul E. Baclace
+peb@procase.com
+
+
+------------------------------
+
+Date: Thu, 26 Aug 93 14:16:24 PDT
+From: peb@procase.com (Paul Baclace)
+Subject: POLI: More stupid patents...
+
+>somewhere I heard that in order to have a trademark, you have to 
+>have a product
+
+These rules were relaxed some years ago; there is no time-out on the 
+trademark anymore.  Because of this, name brokers have popped up who
+trademark lots of stuff and sell the trademarks.  (I recently saw an
+ad for such a service in Upside magazine.)
+
+
+Paul E. Baclace
+peb@procase.com
+
+------------------------------
+
+Date: Thu, 26 Aug 93 14:33:45 -0700
+From: davisd@pierce.ee.washington.edu
+Subject: Plugging Game Computers into the Net 
+
+> From: Derek Zahn <derek@dpls.dacc.wisc.edu>
+> Subject: Plugging Game Computers into the Net
+> 
+> Edward "Jay" OConnell
+> 
+> > Its MUDs. Or some more visual multi-player, multi user game.
+> 
+> I'm curious about the packet charge.  If it costs a penny
+> to deliver a 1K email message, that's probably okay.  But
+> if it costs too much per play to play a game (say, more than
+> a nickel a minute) the market will be restricted.
+
+A nickel a minute? Here I thought I was a tightwad. $3.00 an hour is
+pretty cheap for entertainment. A dime a minute is still pretty cheap. 
+
+The penny for an email message is pretty cheap too. Not everyone is
+going to want an Extropian megabit stream pumped into their house.
+
+> As to MUDs, I don't know.  A vanishingly small fraction even
+> of computer freaks like and use them (I tried for a while once
+> but found it a hideous waste of time... 
+
+Could be that the computer freaks you know are just getting older. I
+used to play those damn rogue games until I swore off on each one
+consecutively. There is something mindlessly addicting about them, and
+it looks to me like those games do have a big following. I haven't
+moved onto MUDs, and don't intend to, but I would think that unless
+teenagers have changed dramatically in the last decade, these games
+will find lots of players.
+
+Buy Buy -- Dan Davis      
+
+
+
+
+------------------------------
+
+Date: Thu, 26 Aug 93 17:41:26 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Plugging Game Computers into the Net
+
+  Just a data point:
+
+ In Japan, Famicom (Nitendo) _CAN_ plug into a network. Japanese owners
+of the game system can play network games, do banking at home, order
+goods, etc
+
+ Anyone who doesn't think a networked gaming system would take off
+is sadly mistaken. The number of new muds have been growing exponetially
+along with other visual interactive games (Netrek, Internet Flight Simulator,
+Jetpack, Crossroads, etc)
+
+ -Ray
+
+BTW, Nitendo is now the most profitable company is Japan. They have
+sold 750 MILLION copies of Mario Brothers. 1 for every 7 people on the
+planet.
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 26 Aug 93 15:42:42 MDT
+From: morgan@arc.ab.ca (Sean Morgan)
+Subject: POLI: More stupid patents...
+
+BTW, some are limited by national borders.  E.g., a few years somebody made
+a bundle (in Mexico, I believe) by tm'g the names, Coke, McDonald's, Xerox,
+etc., then licensing them out.
+
+-----------------+---------------+----------------------------------
+Sean Morgan      | Integrated    |  ALBERTA  3rd Flr, 6815 - 8 St NE
+403/297-2628     | Manufacturing | RESEARCH  Calgary, AB, Canada
+morgan@arc.ab.ca | Program       |  COUNCIL  T2E 7H7
+
+
+
+------------------------------
+
+Date: Thu, 26 Aug 93 14:42:04 PDT
+From: thamilto@pcocd2.intel.com (Tony Hamilton - FES ERG~)
+Subject: Plugging Game Computers into the Net
+
+> > The obvious reason to plug your game computer into the internet isn't
+> > e-mail, really.
+> 
+> You might be right... my concern when thinking about this is the
+> message latency in a network of this type.  I would think that
+> there could be considerable delays in packet delivery, on the
+> order of seconds even.  If somebody disagrees with this for a
+> technical reason, please speak up... it would be useful to try
+> to pin down how the net of the future will perform.
+
+This is one of the reasons why I don't see the Internet as the end-all
+of telecommunications, but rather just one component which will combine
+later with others. Today, how do we accomplish this? Modems, of course.
+Many games are modem-compatible, and at 9600 baud (most I know of
+max out at this, although I'm sure others are working with up to 14.4K
+and v.42 compression), they run quite respectably. Most BBSes with multi-
+player, live games also work fairly well in real-time as well. These
+applications simply aren't going to migrate to larger networks or
+services until the network throughput and processing power are increased.
+
+> > Its MUDs. Or some more visual multi-player, multi user game.
+> 
+> I'm curious about the packet charge.  If it costs a penny
+> to deliver a 1K email message, that's probably okay.  But
+> if it costs too much per play to play a game (say, more than
+> a nickel a minute) the market will be restricted.
+> 
+> Of course, different games have different bandwidths...
+> consider an ICS (internet chess server, available for quite
+> a while) client.  It won't really need to send more than a
+> couple of bits per second.
+
+I guess here we have to ask ourselves, how do the phone companies get
+away with flat monthly rates for local service? I can call all the
+computers I want in my local calling area and transfer all I want for
+no extra charge. Is it the infrastructure that allows them to offer
+the service for so cheap? Is it that long-distance calls offset losses
+taken in local calling? Does that $3-$4 you pay for unlimited local 
+calls really cover it? All I know is, if the phone company can do it,
+there is certainly promise for future computer networks.
+
+<much deleted about various cartridges.
+
+I still think the whole idea of cartridges for internet access on a
+game machine is kind of silly. If you're going to want internet access,
+you're _not_ going to be too happy if you have to put one cartridge in
+for email, one for every game you play, another for news, another for
+stock quotes, and so on and so on. That's why we all have PC's, and not
+Atari 2600's on our desks. An all-purpose cartridge which can store various
+programs and such, you propose? If we're going to go that far, you may as
+well just start over with a _real_ computer anyway. It's kind of like
+adding a keyboard and disk drive to your game machine. To go that far and
+then still be limited by the specific software for that system, is absurd.
+Better to get an all-purpose, standard computer, like a PC, Mac or Amiga.
+
+I really _can_ appreciate the concept of wanting to get folks exposed to
+the internet via the simplest means possible. I just think that if it is
+going to happen, it will either be computer oriented, or TV oriented. This
+means, instead of focusing on those people who have Segas or Nintendos, 
+why not just design your product for people who own a TV? Much larger
+market, and you are no longer saddled with the constraints of the game
+system design. Design a board, put a box around it, maybe add a PCMCIA
+port or something, and connections for the network (phone, network, cable,
+whatever), and away you go. I _think_ am describing what the industry is
+actually moving towards. The point? Focus on the game systems, and you'll
+find yourself outpaced by those who had a broader strategic direction in
+mind.
+
+Tony Hamilton
+thamilto@pcocd2.intel.com
+HAM on HEx
+
+------------------------------
+
+Date: Thu, 26 Aug 1993 18:07:03 -0400
+From: Extropy Institute <exi>
+Subject: test
+
+test
+
+------------------------------
+
+Date: Thu, 26 Aug 93 18:20:52 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: ADMIN: List Address
+
+  A few weeks ago the list was moved from exi@panix.com (it was running
+out of the .forward file in that account) to extropians@extropy.org.
+Some people have been sending mail and commands to exi@panix.com.
+This is incorrect. exi@panix.com is the address of the list development
+account and mail sent there goes into its mailbox -- not the list.
+
+Send all mail and commands in the future to either
+
+extropians@extropy.org  (preferred), or
+extropians@gnu.ai.mit.edu
+
+-Ray
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 26 Aug 93 15:28:57 PDT
+From: thamilto@pcocd2.intel.com (Tony Hamilton - FES ERG~)
+Subject: Plugging Game Computers into the Net
+
+>  Anyone who doesn't think a networked gaming system would take off
+> is sadly mistaken. The number of new muds have been growing exponetially
+> along with other visual interactive games (Netrek, Internet Flight Simulator,
+> Jetpack, Crossroads, etc)
+
+Don't forget VGA Planets, I believe the only shareware title to consistently
+hit the net's top ten (or so I hear).
+
+> BTW, Nitendo is now the most profitable company is Japan. They have
+> sold 750 MILLION copies of Mario Brothers. 1 for every 7 people on the
+> planet.
+
+I think that is a loaded number. We're talking about Mario Brothers on coin-op,
+Nintendo, Super-Nintendo, Super Mario Bros., and all other variants of the
+game. I'm sure a large portion of players buy them all, and certainly only
+a small number of those 750 million Mario-Bros variants are actually in use
+today. Also, don't forget, that Nintendo doesn't just do video games. I'm
+sure if they can own a major-league baseball team, they probably do everything
+under the sun (or is that ... the "Rising Sun" ;-)
+
+Oh, I almost forgot more variants on the game - for just about _every_
+computer platform ever made - Apple, Commodore, PC, and so on and so on.
+Point: # of Mario Bros. games sold doesn't equate to sucess of game system,
+ for it is hardly a 1:1 relationship.
+
+Tony Hamilton 
+thamilto@pcocd2.intel.com
+HAM on HEx
+
+------------------------------
+
+Date: Thu, 26 Aug 1993 10:27:34 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: a little birdie told me this...
+
+>From: Derek Zahn <derek@dpls.dacc.wisc.edu>
+>Subject: a little birdie told me this...
+>X-Original-To: extropians@extropy.org
+>Date: Thu, 26 Aug 93 11:34:39 CDT
+>X-Extropian-Date: Remailed on August 26, 373 P.N.O. [16:35:09 UTC]
+>X-Message-Number: #93-8-782
+>
+>If and when billing can be done "per packet" [which should
+>be doable at not too high a cost as if I remember correctly
+>IP packets contain their return address and the IP protocol
+>could be part of the cable converter], it would be an
+>incredibly cheap way for many many people to hook up to
+>email, since most of them will use very little bandwidth
+>
+>derek
+
+The cypherpunks have been talking about "digital postage" for quite a
+while; Norm Hardy has proposed a protocol that is not "precise" but
+sufficiently good for tiny amounts, and that doesn't require any
+"billing"... you encode the postage as part of the transmission, and the
+various handlers along the way extract their costs from the balance as it
+goes.  My knowledge of it is second-hand, since I'm not taking the
+cypherpunks list any more; you'll need to seek elsewhere for details.
+                                        dV/dt
+
+
+
+------------------------------
+
+Date: Thu, 26 Aug 1993 10:22:28 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: MEDIA: Review of Extropy #11
+
+>From: Derek Zahn <derek@dpls.dacc.wisc.edu>
+>Subject: MEDIA: Review of Extropy #11
+>X-Original-To: extropians@gnu.ai.mit.edu
+>Date: Thu, 26 Aug 93 10:59:26 CDT
+>X-Extropian-Date: Remailed on August 26, 373 P.N.O. [16:01:27 UTC]
+>X-Message-Number: #93-8-781
+>
+>Another fabulous issue.  Details:
+>
+>Layout:  Continuing the evolutionary improvements from #10,
+>#11 introduces some nice touches.  The font changes work very
+>well, and the overall style is becoming more consistent,
+>sophisticated, and distinctive.
+
+Hmmm... I thought the variety of fonts went a little bit overboard.  If you
+use too many different fonts in a publication it starts to look like a
+ransom note.  ("If y0U eVEr wAnt T0 sEe THe NExt i$sUe, $enD Ni9E D0llArs
+to...")  The layout was, as you say, sophisticated; I liked it a lot.
+
+>One problem, though:  Where
+>are the pictures?  Ralph Merkle and Julian Simon are the only
+>contributors pictured in the whole issue (well, except for my
+>hand).  I like the picture feature, and hope that in the future
+>it will be used more consistently (though, obviously, if authors
+>refuse, there's little to be done).
+
+Um... though I dislike my face, I guess I'd be willing to have it published
+if some Extropian photog would be willing to do a portrait sitting of me...
+I presently have no suitable head shots 'cuz they cost $$.
+
+>Merkle's "Uploading":  Despite some Extropians' disparaging
+>remarks about this kind of "best guess" speculation...
+>
+>Price's "Contact!":  I think it's a tour de force...
+
+My assessment of these two articles was exactly opposite... I think we'll
+be uploading long, long, long before we're shoving wormholes around!  In
+fact, this issue (and Moravec's article in #9 on time travel) prompted me
+to come up with the idea for a sort of "far-out meter" that would appear at
+the beginning of each article, perhaps in the form of a horizontal scale
+(like the progress "thermometers" that most software gives you during file
+transfers and copies) -- a short bar means this article is about
+next-few-years stuff; a medium-length bar means this article is about the
+period after we have assemblers but before "Singularity" whatever that
+means; and a bar the full length of the scale means "real way out stuff
+we'll need to be gods to play with."  Part of what chafed me about the
+_Wired_ review was that Kelly obviously thought we think all of the
+technologies we discuss are equally probable/imminent.
+
+>Miller/Krieger's "Part Two":  Rather better than part one,
+>though I still wish that a clear explanation of an agoric
+>system was given (perhaps as a sidebar) and a few words
+>on the future of Xanadu would have been timely and interesting.
+
+Thanks.  I hope to review _The Ecology of Computation_ for #12 (in my
+copious free time :-); plus, since that book is out of print, there is
+likely to be a new volume soon with more concentration on Agoric stuff,
+reprinting the Miller/Drexler papers plus some others by other authors.
+
+>I hope that once Extropy goes quarterly Max decides to open
+>a letters column.  I'm sure that if he simply announced
+>it periodically to the list, he'd get lots of feedback
+>and probably some interesting material to fill a few
+>pages.
+
+I think _Extropy_ has always had a letters column; it's just that since the
+mailing list started, people are sending their thoughts here instead of "to
+the editor".  Try sending something to Max as a "letter to the editor" for
+Extropy; he might publish it.
+
+>derek
+>start writing your Extro 1 papers right away!
+
+What he said, folks; May is not that far off.
+                                        dV/dt
+
+
+
+------------------------------
+
+Date: Thu, 26 Aug 1993 09:57:26 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: META: What does the list SW do when ...
+
+>From: extr@jido.b30.ingr.com (Freeman Craig Presson)
+>X-Original-To: Extropians@extropy.org
+>Subject: META: What does the list SW do when ...
+>X-Extropian-Date: Remailed on August 26, 373 P.N.O. [15:06:20 UTC]
+>X-Message-Number: #93-8-779
+>
+>BTW, this software needs a name.
+
+The name "EXclude" comes naturally to mind (if your mind is as sprained as
+mine)...
+                                        dV/dt
+        dkrieger@synopsys.com==Dave Krieger
+                                Synopsys does not share my opinions.
+  Personal mail, unless it's time-critical, should go to dkrieger@netcom.com.
+
+                        (~)  Turn down your lights  (~)
+                         U     (where applicable)    U
+
+
+
+------------------------------
+
+Date: Thu, 26 Aug 1993 09:38:30 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: POLI: More stupid patents...
+
+>From: davisd@pierce.ee.washington.edu
+>X-Extropian-Date: Remailed on August 26, 373 P.N.O. [06:35:47 UTC]
+>X-Message-Number: #93-8-774
+>
+>Could someone in the legal know comment on the possible success of
+>this scheme, detailing the requirements for trademark infringement?
+>
+>> From: Alexander Chislenko <sasha@cs.umb.edu>
+>> 
+>>    Recently, I came up with a 'great' idea: to register trademarks
+>> for 'Hexium', 'Septium' and 'Octium' so that Intel would either
+>> have to change the naming for its x86 - Pentium line, or pay me
+>> to give those trademarks up.  Then I dropped this idea as too
+>> cheap and dirty.
+>>    Maybe, I was wrong...
+
+In order to trademark a name with the U.S. trademark office, you have to be
+selling something under that name across state lines.  So for Sasha to pull
+this off, he would have to sell computer chips with those names to some
+folks outside of Mass. (and they have to be "legitimate" sales -- selling a
+chip to yourself at P.O. Box 23 in Missoula, Montana won't cut it).
+
+I'm not a lawyer... I don't even play one on TV...
+                                        dV/dt
+
+
+
+------------------------------
+
+Date: Wed, 25 Aug 1993 09:41:10 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: SCIFI: Vernor Vinge in the news
+
+At  7:01 PM 8/24/93 -0700, John McPherson wrote:
+>FWIW, Vernor Vinge was featured in the San Diego Union Tribune
+>on Monday 23 Aug 93.  On the front page of the "Currents" section
+>is an almost full-page feature titled in large caps "A FIRE UPON
+>THE DEEP", and a stylized illustration of Johanna feeding a
+>couple of the Tines.  Vernor's picture and bio are included in
+>the piece, as well as an excerpt from AFUTD concerning the part 
+>where Johanna feeds Blacky at the hospital and is about to get 
+>in big trouble ...
+
+Could anyone with hardcopy of this feature be persuaded to key it in and
+post it?
+                                        dV/dt
+
+
+
+------------------------------
+
+Date: Thu, 26 Aug 93 18:37:44 -0500
+From: allan@elvis.tamu.edu (Allan Bailey)
+Subject: META: What does the list SW do when ...
+
+Dave Krieger writes:
+>>From: extr@jido.b30.ingr.com (Freeman Craig Presson)
+>>
+>>BTW, this software needs a name.
+>
+>The name "EXclude" comes naturally to mind (if your mind is as sprained as
+>mine)...
+>                                        dV/dt
+
+  I was thinking more along the lines of "Norb"  or "Chester".
+
+  Have fun.
+
+Nefud the Delirious.
+
+
+------------------------------
+
+Date: Thu, 26 Aug 93 20:24:35 -0400
+From: merritt@macro.bu.edu (Sean Merritt)
+Subject: Plugging Game Computers into the Net
+
+Edward J OConnell <ejo@world.std.com> said:
+Message-Number: #93-8-789
+
+
+>   The obvious reason to plug your game computer into the internet isn't
+>   e-mail, really.
+>
+>   Its MUDs. Or some more visual multi-player, multi user game. The E-mail
+>   would be a side thing. Who wants to write, really? Perhaps simple macros
+>   to remember anniversarys and Birthdays would be popular, though--The
+>   Forget me Not cartridge, from SEGA... there would be places you could e-
+>   mail stuff, that would print them out and snail it for you, like CheckFree...
+
+
+Nintendo and Silicon Graphics recently announced a joint venture very
+much targeted at such a market. 
+
+
+>   I'm not really sure what would be feasible, in terms of muliplayer games
+>   through existing internet type lines. I guessing you wouldn't be able to
+
+Perhaps not with ISDN technology which the phone companies are pushing.
+Any idea on the data transfer rate required for real-time interactive
+games?
+
+As an aside the projected revenues for ATM related network equipment:
+(in millions)
+
+1993	$ 79.2
+1994     177.1
+1995     334.5
+1996	 537.6
+1997     749.6
+1998	 990.2
+
+source: IBD , International Data Corp.
+
+
+-sjm
+
+merritt@macro.bu.edu
+sjm@world.std.com
+
+
+
+------------------------------
+
+Date: Thu, 26 Aug 93 20:36:30 -0400
+From: merritt@macro.bu.edu (Sean Merritt)
+Subject: a little birdie told me this...
+
+To give some reference point for these "back of the envelope" market
+calculations: market penetration of Nintendo like systems is
+38% percent. This is from a recent Investor's Business Daily
+article.
+
+-sjm
+
+merritt@macro.bu.edu
+sjm@world.std.com
+
+
+------------------------------
+
+Date: Thu, 26 Aug 1993 18:10:52 -0800 (PDT)
+From: phoenix@ugcs.caltech.edu (A phase devil animal slur)
+Subject: Plugging Game Computers into the Net
+
+In #93-8-796 Dan Davis writes:
+/> From: Derek Zahn <derek@dpls.dacc.wisc.edu>
+
+/> As to MUDs, I don't know.  A vanishingly small fraction even
+/> of computer freaks like and use them (I tried for a while once
+/> but found it a hideous waste of time... 
+
+/Could be that the computer freaks you know are just getting older. I
+/used to play those damn rogue games until I swore off on each one
+/consecutively. There is something mindlessly addicting about them, and
+/it looks to me like those games do have a big following. I haven't
+/moved onto MUDs, and don't intend to, but I would think that unless
+/teenagers have changed dramatically in the last decade, these games
+/will find lots of players.
+
+Never fear, they're all over.  nethack is pretty popular among the
+computer population here, and variants like moria and larn pop up as
+well.  They also exist on the PC's and Macs around here in rather high
+densities.  MUD/MUSH/MUCK's are pretty popular as well, judging both by
+the people I know who use them and the activity I see on them.  For what
+it is worth, of the two I've been on it is the more casual,
+'anything-goes' one which is really heavy.  The other one, which tries
+to be more of a specific role-playing one, has much lighter traffic.
+The heavy one also has a lot of "TinySex" going on, and heated
+discussions flare up on its bbs equivalent on the practive -- mostly in
+favor.  Given the popularity of just text-based interactive sex, there
+is probably quite a _lot_ of market potential in higher VR.  Expect
+moralistic flak as well.
+
+-xx- Damien X-) phoenix@ugcs.caltech.edu
+
+------------------------------
+
+Date: Thu, 26 Aug 93 19:07:29 PDT
+From: martino@gomez.Jpl.Nasa.Gov (Martin R. Olah)
+Subject: OCEANIA: "Chain Breaker"
+
+So did anyone else receive a mailing from The Atlantis Project*? I just got 2 
+unsolicited issues of their newsletter "Chain Breaker", which deals mostly
+with their attempt to design and finance a floating libertarian city/country
+to be called Oceania. Actually they don't give too much detail but it's pretty
+cool anyway. I spent years trying to track down groups like this and suddenly
+they're in my mail box. Is there an Extropian Connection? They expect the
+design to be done by the firm that did the Saigon Floating Hotel. I think they
+would be more successful condo-ing that or a new hotel than explicitly creating
+an independant community, but I like knowing there are other "crazy" dreamers
+out there. If anyone has any other sources of information on autonomous
+communities, secessions, etc ( I already have "HOW TO START YOUR OWN COUNTRY")
+I'd like to hear from you. I know these attempts are generally doomed from the 
+beginning but I admire them for trying.
+
+ * Apparently not the same as Spencer McCullum's (sp?) Atlantis Project from
+some decades ago. This one involves Mike Oliver, who has also tried related
+schemes before.                              
+                                    - O Martin   (martino@gomez.Jpl.Nasa.Gov)
+                                                      
+
+------------------------------
+
+Date: Fri, 27 Aug 93 00:10:03 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+News Summary as of: Fri Aug 27 00:10:02 EDT 1993
+
+
+Newly Registered Reputations:
+(None)
+
+New Share Issues:
+(None)
+
+Share Splits:
+(None)
+
+
+Market Summary as of: Fri Aug 27 00:00:03 EDT 1993
+
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+1000          .20      .40      .20        10000         4000          800.00
+110           .01      .10      .10        10000         1750          175.00
+150           .01      .10      .10        10000         1750          175.00
+1E6             -      .05      .02        10000           25             .50
+1E9           .01      .05        -        10000            -               -
+200           .10      .20      .20        10000         4075          815.00
+80            .01        -        -        10000            -               -
+90            .01        -      .10        10000         2000          200.00
+ACS             -      .05      .10        10000         1224          122.40
+AI            .01      .50      .30        10000         1000          300.00
+ALCOR           -     2.25     2.00        10000         3173         6346.00
+ALTINST         -      .25      .05        10000         4000          200.00
+ANTON         .25      .26      .25        10000          314           78.50
+ARKU          .25      .26      .25        10000         4900         1225.00
+BIOPR         .01      .03      .10        10000         1500          150.00
+BLAIR        1.25    30.00    50.00        10000           25         1250.00
+CYPHP           -      .05      .15        10000          200           30.00
+DC1000          -      .10        -        10000            -               -
+DC200           -      .15      .10        10000         1500          150.00
+DC7000          -      .10        -        10000            -               -
+DCFLOP          -      .10        -        10000            -               -
+DEREK           -      .49      .49       100000         8220         4027.80
+DRXLR           -      .50     1.00        10000         2256         2256.00
+DVDT          .75     1.55     1.55        10000         9900        15345.00
+E             .58      .75      .75        10000         6287         4715.25
+ESR             -        -        -            -            -               -
+EXI          1.54     3.20     3.00        10000         3025         9075.00
+FAB             -        -        -            -            -               -
+FCP          1.50     1.60     1.50        80000        16385        24577.50
+GHG           .02      .60      .60        10000         6980         4188.00
+GOBEL         .01     1.50     1.00        10000          767          767.00
+GOD             -      .10      .10        10000         3000          300.00
+H             .76      .76      .76        30000        19290        14660.40
+HAM           .01      .50      .50        20000        15460         7730.00
+HEINLN        .01      .10      .05        10000         3100          155.00
+HEX        100.00   101.00   100.00        10000         3288       328800.00
+HFINN        1.50     6.00     6.00        10000         1005         6030.00
+IMMFR         .25      .80      .80        10000         1838         1470.40
+JFREE         .02     1.00      .10        10000         3000          300.00
+JPP           .26      .30      .26        10000         3000          780.00
+KARL          .50      .50        -        10000            -               -
+LEARY         .20      .50      .20        10000         1000          200.00
+LEF           .01      .15      .05        10000         3026          151.30
+LEFTY         .01      .45      .45        10000         3051         1372.95
+LIST          .40    10.00      .75        10000         5000         3750.00
+LP              -      .15      .15        10000         4625          693.75
+LSOFT         .59     1.00     1.00        10000         7650         7650.00
+LURKR         .06      .07        -       100000            -               -
+MARCR           -        -        -            -            -               -
+MED21         .01      .04      .02        10000         3400           68.00
+MLINK           -      .01      .02      1000000         2602           52.04
+MMORE         .10     1.25      .10        10000         3000          300.00
+MORE          .75     1.25     1.25        10000         3160         3950.00
+MWM           .15     1.50     1.50        10000         1260         1890.00
+N           20.00    25.00    25.00        10000          120         3000.00
+NEWTON          -      .20        -        10000            -               -
+NSS             -      .03      .01        10000           25             .25
+OCEAN         .10      .12      .10        10000         3100          310.00
+P           22.50    25.00    25.00      1000000           94         2350.00
+PETER           -      .01     1.00     10000000          600          600.00
+PLANET        .01      .02      .05        10000         1500           75.00
+PPL           .30      .65      .30        10000         1400          420.00
+PRICE           -     4.00     2.00     10000000         1410         2820.00
+R             .25      .70      .60        10000         6000         3600.00
+RAND          .05      .06      .05        10000         1500           75.00
+RJC          1.00   999.00      .60        10000         5100         3060.00
+ROMA            -        -        -            -            -               -
+RWHIT           -        -        -            -            -               -
+SGP             -        -        -        10000            -               -
+SHAWN         .01     1.00        -        10000            -               -
+SSI           .22      .35      .22        10000         4700         1034.00
+TCMAY         .57      .75      .75        10000         4500         3375.00
+TIM           .50     1.00      .50        10000         1600          800.00
+TRANS         .01      .02      .40        10000         1511          604.40
+VINGE         .75     1.00      .50        10000         2000         1000.00
+WILKEN       1.00    10.00    10.00        10000          101         1010.00
+-----------------------------------------------------------------------------
+Total                                                               481406.44
+
+------------------------------
+
+Date: Thu, 26 Aug 93 21:59:49 PDT
+From: thamilto@pcocd2.intel.com (Tony Hamilton - FES ERG~)
+Subject: Plugging Game Computers into the Net
+
+> Perhaps not with ISDN technology which the phone companies are pushing.
+> Any idea on the data transfer rate required for real-time interactive
+> games?
+
+I personally think that current modem communications is well ahead of the
+software needs for interactive games. With a 14.4 V.42 modem, you can
+_average_ about 38K bps. For most interactive games, you're not transferring
+raw data, but rather tokens or command sequences - a game protocol if you will.
+Each end has all the graphics and processing power it needs to handle all the
+interpretation of that data, converting it into whatever visual form is 
+required by the game. Sure, we'll want to send more in the future, but I
+am confident the technology will keep pace. First you have to come up with
+the applications, though.
+
+If you doubt what can be transferred over a modem, try it sometime. I once
+developed an X-like protocol for Commodore 64's running at 300bps. I was
+tinkering with writing some 2-player modem games. Only got as far as some
+interesting BBS-hosted games before my interests moved me elsewhere. Anyway,
+at 300bps I was able to provide a _great_ deal of interactive, real-time
+communications. The fewer the resources you have, the better you get at
+optimizing them. I'd very much like to get into doing something like that
+again, sometime, but with 14.4 modems ... :-)
+
+Tony Hamilton
+thamilto@pcocd2.intel.com
+HAM on HEx
+
+------------------------------
+
+End of Extropians Digest V93 #238
+*********************************
+

@@ -1,0 +1,1113 @@
+From extropians-request@gnu.ai.mit.edu Fri Jun 25 14:06:41 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA12536; Fri, 25 Jun 93 14:06:39 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA06437; Fri, 25 Jun 93 14:06:34 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA01700@wookumz.gnu.ai.mit.edu>; Fri, 25 Jun 93 16:42:46 -0400
+Message-Id: <9306252042.AA01700@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Fri, 25 Jun 93 16:42:24 -0400
+X-Original-Message-Id: <9306252042.AA01689@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0355
+X-Extropian-Date: Remailed on June 25, 373 P.N.O. [20:42:45 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Fri, 25 Jun 93            Volume 93 : Issue 0355
+                        
+Today's Topics:
+            AIT VirtSem: "Algorithmic Information and Evolution"      [1 msgs]
+                   AIT: Defined only for infinite strings?            [3 msgs]
+                   AIT: Virtual seminars, virtual meetings            [1 msgs]
+                                 Aesthetics                           [1 msgs]
+                         CHAT: Amusing Contradiction                  [1 msgs]
+                         DIET: Metabolic stimulators                  [1 msgs]
+                         F: Re: Meta: Grading posts                   [1 msgs]
+                          FWD: Iowa on-line markets                   [1 msgs]
+           HUMOR: Fermat's Last Theorem (was: Re: Extropian Music)    [3 msgs]
+                             I'm off temporarily                      [1 msgs]
+                             Meta: Grading posts                      [1 msgs]
+                          NANO:Critiques of Drexler                   [2 msgs]
+                          Self-replication is easy                    [1 msgs]
+                                   extropy                            [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 54961 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 24 Jun 93 23:48:07 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: AIT: Defined only for infinite strings?
+
+A poster on sci.crypt (I think) yesterday stated that AIT applied only
+to infinite strings.  Any finite string, he argued, could be shown to
+have a near-zero algorithmic information content by choosing an appropriate
+Turing machine to calculate it (in effect, packing the information for that
+particular string into the design of the machine).  Therefore, algorithmic
+information content is not meaningful for finite strings, he said.
+
+Hal
+
+------------------------------
+
+Date: Fri, 25 Jun 1993 09:24:50 +0200 (MET DST)
+From: ggoebel@sun1.ruf.uni-freiburg.de (Garrett Goebel)
+Subject: extropy
+
+ebrandt@jarthur.claremont.edu writes:
+} > I read about Extropy in Wired. Can you send me more info?
+} 
+} Is there a designated handler of these?  I believe Tom was doing this,
+} but he's no longer with us.
+
+I have been forwarding such notes to extropians-request@gnu.ai.mit.edu.
+
+I hope doing so doesn't create more problems than I was hoping to solve.
+
+Garrett
+ 
+
+
+-- 
+C. Garrett Goebel
+<ggoebel@sun1.ruf.uni-freiburg.de>
+
+------------------------------
+
+Date: Fri, 25 Jun 93 01:13:42 PDT
+From: pls@cup.portal.com
+Subject: DIET: Metabolic stimulators
+
+> Date: Thu, 24 Jun 93 15:10:34 EDT
+> From: "David G. Katz" <dkatz@qa1.pica.army.mil>
+> Subject: DIET: Metabolic stimulators
+> 
+> Sorry about the deprenyl post.  I meant to send it to Romamna.
+
+Quite all right. I'd also apprciate information on sources for such 
+materials.
+
+    ++PLS
+
+------------------------------
+
+Date: Fri, 25 Jun 1993 01:12:51 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: NANO:Critiques of Drexler
+
+Andrew Hall:
+> Before I sit down and do some calculations and grind through this with
+> the effort needed to confirm or deny, I would like to see some expert
+> criticism of Drexler. 
+
+I'd like to see this, too.  I haven't even seen any reviews of
+_Nanosystems_ in a scientific journal; nor have I seen any 
+in-depth critique of _Nanosystems_ on the net or off of it.  As smart
+as Drexler is, a book that crosses such a large number of
+disciplines with such depth must have at least a few nits that critics
+can pick, and _Engines_-era Drexler did not lack for vocal critics.
+Drexler's fame and citation habits generated quite a bit of resentment
+with at least a few research scientists : the _Artificial Life I_ proceedings
+feature an article on the history of "nanotechnology" that covers
+everything from Heinlein's Waldo to Feynman to Ettinger to sub-micron 
+lithography, but dismisses Drexler with ill-concealed animosity.
+
+Given the claims in _Nanosystems_ about Mhz-frequency robotics, 
+eutactic diamond chemistry, self-rep machines, etc., the vocal
+critic of his previous efforts, and the lack of commercial investment, 
+there is a startling lack of scientific critique.
+
+Is the book so cross-discipline that every specialist feels it's not
+their place to comment?  Are the claims considered so wild that practically 
+all scientists dismiss them without even reading the book?  Is
+_Nanosystems_ so perfect that no one can find flaws?  I was expecting 
+a firestorm by now, but instead we have dead silence.  Yet Powell's 
+(our huge Portland bookstore) features _Nanosystems_ prominently in the 
+chemistry section, and they say it's been selling well, so I can't 
+imagine that so few chemists have been exposed to it.
+
+Nick Szabo				szabo@techbook.com
+
+------------------------------
+
+Date: Fri, 25 Jun 1993 01:20:29 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: FWD: Iowa on-line markets
+
+forwarded from Libernet:
+
+The famous Iowa Political Stock Market has expanded.  I think this will be of
+interest to many Libernet subscribers.  Note that there are no transaction
+costs, so it's a true zero-sum game.
+
+Mike Brooks
+brooks@icbr.ifas.ufl.edu
+
+******
+                       THE IOWA ELECTRONIC MARKETS
+
+WHAT ARE THE IOWA ELECTRONIC MARKETS AND WHY DO THEY EXIST?
+     The Iowa Electronic Markets are a collection of computerized exchanges in
+which traders buy and sell financial contracts.  The contracts traded in each
+market promise a liquidation value which is to be determined by the value of
+certain fundamentals on a pre-specified date.  Currently two exchanges are
+operating, the Iowa Earnings Market and the Iowa Economic Indicators Market,
+each involving contracts based on a set of related fundamentals.  These two
+exchanges and the contracts traded in them are described below.
+     The Iowa Electronic Markets are operated for educational and research
+purposes.  For the exchange Governors and Directors, it is a field experiment
+designed to study the predictive power of markets, the behavior of traders,
+and the relationship between information and prices.  Traders are provided the
+opportunity to learn about financial markets and the impact of information on
+prices through direct participation.  With the opportunity to make or lose
+money, participants are also motivated to learn more about the fundamentals
+in which they are trading.
+
+WHAT FINANCIAL CONTRACTS ARE TRADED ON THE IOWA EARNINGS MARKET?
+     The fundamentals on which Iowa Earnings Market contracts are based are
+specific accounting statistics for selected companies.  The contracts
+initially offered will be based on the earnings per share (EPS) of five
+companies -- three in the airline industry (American, Delta and United) and
+two in the computer industry (Apple and IBM).  Each company will have a
+separate set of contracts for reported EPS in the first and second quarters
+of 1993.  As an example, the market in IBM's first quarter EPS is comprised
+of two contracts, with contract codes and liquidation values as follows:
+      IBM1u  -  $0.20 + 40% of IBM's EPS for the quarter ending 03/31/93
+      IBM1d  -  $0.80 - 40% of IBM's EPS for the quarter ending 03/31/93
+
+WHAT ARE THE FUNDAMENTALS OF IOWA ECONOMIC INDICATORS MARKET CONTRACTS?
+     The Iowa Economic Indicators Market offers contracts based on selected
+economic statistics.  Initially, there will be two types of contracts: 
+inflation rate contracts whose liquidation values will be determined by the
+monthly change in the Consumer Price Index (CPI) and currency contracts in the
+Mexican peso whose liquidation values will be determined by the end-of-month
+exchange rate between the dollar and the Mexican peso.  For example, there are
+two contracts based on the end of February exchange rate between the Mexican
+Peso and the U.S. Dollar.  The code for each contract and their liquidation
+values are as follows:
+      MP2u:  $4.00 x (2/26/93 peso per dollar exchange rate) - $12.00
+      MP2d:  $13.00 - $4.00 x (2/26/93 peso per dollar exchange rate)
+
+WHO CAN PARTICIPATE IN THE IEM?
+     Invitations to participate in the IEM are offered to members -- students,
+faculty and staff -- of academic communities across the United States and
+around the globe.  Prospective traders must apply to either the Iowa Earnings
+Market or the Iowa Economic Indicators Market and deposit some amount of money
+with the IEM administrator.
+
+HOW MUCH CAN I INVEST IN THE IOWA ELECTRONIC MARKETS?
+     The minimum investment in an Iowa Electronic Markets account is $5.00 and the
+maximum is $500.  The amount you invest will be posted to your cash account. 
+Funds from this account can then be used to buy individual contracts from
+other traders or unit portfolios from the Iowa Electronic Markets.  If they
+so choose, traders who register with the Iowa Economic Indicators Market may
+also have access to the Iowa Earnings Market and vice versa.
+
+HOW CAN I MAKE MONEY BY PARTICIPATING?
+     As in other financial markets, you make money by "buying low and selling
+high."  Contracts have liquidation values that depend on the expiration date
+value of their underlying fundamental -- IBM1u and IBM1d liquidation values
+will be determined by the first quarter 1993 EPS of IBM stock, for example. 
+You will earn profits on any sale of a contract at a price higher than its
+liquidation value and on any purchase of a contract at a price lower than its
+liquidation value.
+    
+WHY DO I NEED A CASH ACCOUNT?
+     When you buy an individual contract or a unit portfolio you must have the cash
+to pay for that purchase.  Your cash account provides you with the necessary
+liquidity -- purchases of contracts are charged to it; sales of contracts are
+credited to it.  Further, as markets close the liquidation values you earn on
+contracts in those markets will be credited to your cash account. 
+Arrangements can be made with the IEM administrator for the withdraw of funds
+from your cash account.
+
+WHAT ARE "UNIT PORTFOLIOS"?
+     Unit portfolios are the means by which contracts are issued and placed in
+circulation.  For the February Mexican Peso Market a unit portfolio consists
+of one MP2u contract and one MP2d contract.  For the IBM - First Quarter
+Earnings Market a unit portfolio consists of one IBM1u contract and one IBM1d
+contract.  The price charged for each unit portfolio is $1.00.  After a unit
+portfolio is purchased from the Iowa Electronic Markets, the contracts in it
+may be traded individually with other participants in the market.  Unit
+portfolios may be purchased at any time, and they may also be redeemed at any
+time for the same price of $1.00.
+     The specification of unit portfolios and the calculation of liquidation 
+values guarantee that the liquidation value of the contracts comprising a unit
+portfolio is exactly $1.00, the same as the issue price of that portfolio. 
+Thus the Iowa Electronic Markets neither makes nor loses money through the
+issuance of unit portfolios; all amounts paid for them are distributed to
+traders in the form of liquidation values.
+
+WHEN DOES THE IEM OPEN?
+     The IEM will open the Iowa Earnings Market and the Iowa Economic 
+Indicators Market for trading at 9:00 a.m. CST, Thursday, January 14, 1993.  
+Other markets may open and new contracts may be offered at later dates at the
+discretion of the Governors of the IEM.  Trading in individual contracts will
+cease as of the pre-specified liquidation date of each contract.  No closing
+dates for individual markets or the IEM itself have been set, though no market
+will close until all contracts offered on it have expired.  Traders can open
+accounts or add cash to existing accounts at any time.  Individual traders may
+close or withdraw funds from their accounts on or about the fifteenth day of
+any month or on other dates mutually agreed to with the market administrators.
+
+ARE THERE ANY COMMISSION OR ENROLLMENT FEES?
+     The Iowa Electronic Markets are unique among existing financial markets in
+that no commissions or other fees are charged to traders.  The only payments
+you make to the Iowa Electronic Markets are the amounts you choose to invest
+in the market.  The total of all invested funds will be redistributed to
+traders in the form of liquidation values or cash balance refunds.  The Iowa
+Electronic Markets are operated as educational and research laboratories and
+all administrative costs are paid from educational and research funds.
+
+HOW DO I MAKE TRADES?
+     The Iowa Electronic Markets are fully computerized markets with no brokers
+or other middlemen.  Registered traders log into their market accounts from 
+their own computer terminals to check market prices or account information and 
+to extend offers to buy or sell.  Cost free access is available from virtually
+any personal computer or terminal attached to a network at any college or
+university in the country.  Telephone/modem access is also available, though
+traders must bear the cost of telephone charges.  The market remains open 24
+hours a day.
+
+HOW DO I USE MY COMPUTER TO ACCESS THE IEM?
+     If your communications program or TCP\IP telnet software has communication
+parameters, set them to:  Data bits--8; Parity--none; Stop bits--1.  The
+preferred terminal emulation modes are Dec VT-100, 200 or 220, though other
+modes are also supported.  To access the IEM via Telnet, enter one of the
+following commands from your computer:
+           telnet iem.biz.uiowa.edu      or      telnet 128.255.44.2.
+If you do not have direct Telnet access, make a modem connection to the
+University of Iowa computer system by dialing 319-335-6200 and then issue one
+of the above Telnet commands.  Upon successfully connecting to the market, you
+should find everything quite transparent.  If not write, e-mail or call us for
+more information.
+
+CAN I FIND THE CURRENT MARKET QUOTES WITHOUT ENROLLING?
+     Yes, information on market prices is available to the general public using
+the same market access procedures as those used by traders.  In addition, a
+"practice" market is available for use by prospective traders to familiarize
+themselves with how the market works.
+
+WHERE CAN I GET ADDITIONAL INFORMATION?
+     Contact the Iowa Electronic Markets administrator to obtain a copy of the 
+IEM Trading Manual, enrollment forms and other information.
+
+Address:   IEM Administrator           Phone:   (319) 335 0881
+           556 PHBA                    E-mail:  IEM@SCOUT-PO.BIZ.UIOWA.EDU
+           University of Iowa
+           Iowa City, IA  52242
+
+IOWA ELECTRONIC MARKETS GOVERNORS:  Robert Forsythe, Forrest Nelson and George
+      Neumann
+IOWA EARNINGS MARKET DIRECTORS:  Joyce Berg, Douglas DeJong and Bruce Johnson
+IOWA ECONOMIC INDICATORS MARKET DIRECTORS:  Carol Fethke, Gary Fethke, Raymond
+      Riezman and Robert Tamura
+
+                                                              (1/5/93)
+
+
+------------------------------
+
+Date: Fri, 25 Jun 93 02:27:00 -0700
+From: p199-ac@garnet.berkeley.edu (Zak Zaidman)
+Subject: Aesthetics
+
+(The network's down again.  Seems to do that every night at 2 p.m. PDT.  So,
+I, Tim Starr, am once again sending this from an account besides my own.)
+
+It's possible for there to be an extropian aesthetics, just as it's possible
+for an Objectivist one, but there isn't much of either, yet.
+
+It's a mistake to place aesthetics outside philosophy, but that doesn't
+mean that it's a very well-developed part of philosophy.  Rand was mistaken
+when she said that epistemology was the least-developed part; aesthetics
+is, despite her sometimes successful efforts to improve this state of
+affairs.
+
+Art can "fit" a philosophy in at least two ways.  It can express it, and
+it can measure up to its standards well.  For example, Atlas Shrugged
+does a good job of expressing Objectivism, but it does a poor job of
+measuring up to the Objectivist standard by which art is to be measured:
+the glorification of man.  Similarly, art can express extropianism, but
+no extropian standard for art has emerged.
+
+Not all art that expresses a philosophy is enjoyable, either.  Some is -
+I keep listening to "Tomorrow's World" by Joe Jackson and it's good!  I
+really must post the lyrics.  But some art that expresses philosophy,
+even correct philosophy, is no fun at all.
+
+I will say that some of the most beautiful art I've ever seen has been
+pointed out to me by Aristos, an Objectivist-inspired art journal.  However,
+they've had to go beyond Rand to do so.  Also, Aristos' critical intro
+to Objectivist aesthetics is the best exposition and critique of Rand's
+views on art that I've ever seen.
+
+Tim Starr
+
+------------------------------
+
+Date: Fri, 25 Jun 93 12:05:39 BST
+From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+Subject: AIT: Defined only for infinite strings?
+
+>A poster on sci.crypt (I think) yesterday stated that AIT applied only
+>to infinite strings.  Any finite string, he argued, could be shown to
+>have a near-zero algorithmic information content by choosing an appropriate
+>Turing machine to calculate it (in effect, packing the information for that
+>particular string into the design of the machine).  Therefore, algorithmic
+>information content is not meaningful for finite strings, he said.
+>
+>Hal
+
+First, a disclaimer: All I've read of Chaitin's work is his papers in JACM
+in the mid-seventies, not his more recent stuff. (I haven't read his more
+recent stuff because from what I've heard of it it seems to me to be just a
+recycling of what he did back then.) I'm assuming from the context of the
+thread that the definition of a.i.c. is this, or something similar: choose
+a universal Turing machine; then the a.i.c. of any string is the length of
+the shortest input to the machine which will cause it to produce that
+string as output and stop.
+
+What the poster says is rather like saying that the longitude of a single
+point on the Earth's surface is not well-defined, because one can always
+choose that point as the origin of the longitude system.
+
+Algorithmic information content is indeed not meaningful for a single
+finite string, for the reason that the poster said, and that applies even
+to any finite set of finite strings. It is, however, meaningful for all but
+at most a finite number of finite strings.  Which finite strings are the
+exceptions is determined by the choice of universal Turing machine.
+
+Cf. computational complexity: a problem such as satisfaction of
+propositional formulas is NP-complete, but each instance is computationally
+trivial -- the answer is either yes or no.  Any algorithm for solving the
+whole family of problems can have a finite number of particular instances
+built in, which it can recognise and print out the answers to immediately.
+Asymptotically, however, it must take a very long time for large enough
+problems.  Note that infinite problems don't enter into the matter, and
+while it is possible to talk about the a.i.c. of an infinite string, a.i.c.
+is meaningful for finite strings, and it is with finite strings that
+Chaitin's main results are concerned.
+
+Just to complicate the matter more, even if we ignore the possible
+exceptional strings built-in to the Turing machine, a.i.c. is still not
+precisely determined on the other strings, because it will still vary with
+the choice of universal Turing machine, and the type of Turing machine. 
+There is nothing sacred about Turing's precise definition of the eponymous
+machines. One may use an alphabet of any finite size, any finite number of
+infinite tapes, any finite number of read/write heads, counters and other
+extensions. This will change the a.i.c. of all but a finite number of
+strings by only a small amount, relative to the asymptotic behaviour --
+perhaps by a linear factor, perhaps more, I'm not sure. What matters is the
+asymptotic behaviour which remains after ignoring such factors. The precise
+value of a.i.c. for a particular string and a particular type of Turing
+machine is not important, and by one of Chaitin's results is almost always
+not even computable. I doubt if there is any possibility of computing, say,
+the a.i.c. of a Boeing 747, or of comparing it with that of the Stealth
+fighter.
+
+I've also seen a couple of (rather lukewarm or unfavourable) reviews of his
+work.  Readers may care to look up the following:
+
+%A Lambalgen, Michiel van
+%T Algorithmic information theory
+%J J. Symbolic Logic
+%V 54
+%N 4
+%P 1389-1400
+%D 1989 Dec
+
+The abstract reads: "We present a critical discussion of the claim that
+algorithmic information theory sheds new light on Godel's first
+incompleteness theorem."  It is strongly critical of Chaitin's claims for
+the significance of his work.
+
+A few soundbites:
+
+"We discuss the alleged discovery of 'randomness in mathematics'."
+
+"To counter these grand claims, we first give a very short proof of
+Chaitin's result using general nonsense only (thereby making the need for
+an explicit description of the 900,000 character 17,000 variable universal
+exponential Diophantine equation, deemed to be necessary in [Chaitin's
+book] slightly less pressing). While this alone would lead one to suspect
+that the result is not deep, it is also argued that Chaitin's association
+of randomness in nature with the mathematical phenomenon loosely described
+above is rather unfortunate."
+
+"Alleged"!  "Slightly less pressing"!  "Unfortunate"!  This is considered
+strong stuff on this side of the pond. :-)
+
+--                                  ____
+Richard Kennaway                  __\_ /    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk      \  X/     University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk    \/       Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Fri, 25 Jun 93 11:40:32 EDT
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: HUMOR: Fermat's Last Theorem (was: Re: Extropian Music)
+
+> As a guy by the name of Mark Kaufman here at KSR commented:
+> `My understanding is that Andrew Wiles only made a "marginal" improvement.'
+> [to Fermat's last theorem]
+> -chrism
+
+I was pissed that the New York Times didn't find the proof "fit to print."
+(:-)
+
+-fnerd
+quote me
+
+------------------------------
+
+Date: Fri, 25 Jun 93 09:55:31 MDT
+From: hammar@cs.unm.edu
+Subject: I'm off temporarily
+
+Hi.
+   All our computers are going down this weekend for an upgrade. ANyone
+who needs to reach me can either wait till Monday to send their mail,
+or send it to my CIRT account  hammar@vesta.unm.edu. (Where it still
+probably won't get read until Monday, but at least you can be sure it
+reached me.)
+
+Neil Hammar
+hammar@unmvax.cs.unm.edu
+aka
+hammar@vesta.unm.edu
+
+------------------------------
+
+Date: Fri, 25 Jun 1993 12:17:04 -0400 (EDT)
+From: Carol Moore <cmoore@cap.gwu.edu>
+Subject: Meta: Grading posts
+
+On Thu, 24 Jun 1993, Harry Shapiro wrote:
+> 
+> If you much use grades, I would suggest "grades" are put inside the
+> prefix:
+> 	(e.g, Meta/C: ALl about life)
+> 
+> In fact the new list software will work much much better if you
+> don't put the grades on the first line.
+
+HMMMM...If it's not on the first line, then people won't
+usually be able to read it in their message list which has
+finite number of spaces.  Why not META: C/All About Life
+Then the C would just be part of the description.
+
+
+
+------------------------------
+
+Date: Fri, 25 Jun 1993 11:37:25 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: HUMOR: Fermat's Last Theorem (was: Re: Extropian Music)
+
+In <9306251544.AA28261@wookumz.gnu.ai.mit.edu>, FutureNerd Steve Witham writes:
+|> > As a guy by the name of Mark Kaufman here at KSR commented:
+|> > `My understanding is that Andrew Wiles only made a "marginal" improvement.'
+|> > [to Fermat's last theorem]
+|> > -chrism
+|> 
+|> I was pissed that the New York Times didn't find the proof "fit to print."
+|> (:-)
+
+I just read on sci.math that the paper with the full proof will run
+about 200 pages, and this is without incorporating the prior proof
+that the Taniyama-Weil Conjecture => FLT.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO
+    /ExI 4/373 PNO ** E' and E-choice spoken here
+
+
+------------------------------
+
+Date: Fri, 25 Jun 93 9:45:48 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: HUMOR: Fermat's Last Theorem (was: Re: Extropian Music)
+
+> From: tcmay@netcom.com (Timothy C. May)
+> Something that most mathematicians would think is whole more "iffy" is
+> the Extended Riemann Hypothesis. Or the issue of P ?=? NP. 
+
+I think there is a strong consensus for the truth of each of these --
+not that opinion polls necessarily mean much.  Really, can you
+imagine the hoopla that would ensue if somebody were to prove
+Riemann wrong?  Mathematicians the world over would faint dead away.
+
+> Or the Axiom of Choice.
+
+This is not a comparable situation.  You can either use or not use
+the axiom of choice.  If you toss it in, you still have a consistent
+system -- it just lets you prove certain things that make some people
+unhappy.  (Actually, I don't think set theory has ever been proved
+consistent, so restricted + Choice is merely consistent if restricted
+is.)
+
+> -Tim
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Fri, 25 Jun 93 10:45:32 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: AIT: Defined only for infinite strings?
+
+>A poster on sci.crypt (I think) yesterday stated that AIT applied only
+>to infinite strings.  Any finite string, he argued, could be shown to
+>have a near-zero algorithmic information content by choosing an appropriate
+>Turing machine to calculate it (in effect, packing the information for that
+>particular string into the design of the machine).  Therefore, algorithmic
+>information content is not meaningful for finite strings, he said.
+>
+>Hal
+
+I haven't seen this particular post, but it is not true as stated here.
+Much of the work on AIT deals explicity with finite, even fairly short,
+strings.
+
+Let's take a concrete example: the 32-bit binary strings.
+
+There are of course precisely 2^32 = 4,294,967,296 of them.
+
+Some of them are describable in very concise terms:
+- "all 0s", "all 1s", "1010....repeated", and so on
+
+Some apparently random-looking strings are even highly compressible if a
+"key" (same as some particular Turing machine) is known. For example, the
+apparently random-looking string "1011010001110010101010001010001" may be
+discovered--by a person or program that is clever enough--to be the binary
+expansion of, say, "666," which is a "special" number to some.
+
+(I apologize if this example has made things more confusing. My point being
+that any number can look "special" to the right person, to the right Turing
+machine/program.)
+
+But of all the 32-bit strings, "most" are not compressible to much less
+than the length. No matter which Turing machine (program) is picked, at
+most 4 of the strings can be compressed to 2 bits, 8 to 3 bits, 16 to 4
+bits, and so on. The pigeonhole principle: too many strings to fit into the
+smaller space of short-bitlength strings.
+
+We can compress English strings somewhat by exploiting the redundancy, the
+fact that the entropy per character of English is only about 2.3 bits per
+character, instead of the nearly 6 bits per character one would otherwise
+expect (2^6 = 64, enough for 26 characters, and caps, and numbers,
+punctuation, etc.).
+
+It is true that any _particular_ string can be made to look "simple." This
+is the encryption problem. In fact, strings which _appear_ to be
+incompressible but which actually are, given the right key, are called
+"cryptoregular."
+
+Finding the key (a specific Turing machine, if you wish to use that
+language) that converts the apparently-random-looking string
+"1010010100001101010001010" into "Buy IBM" is the classic cryptanalysis
+problem. If the system uses a cipher, there is some hope that the
+decryption is possible. If the sytems uses a "one-time pad," there is no
+hope.
+
+(So I can, in theory, convert any particular random string into a nice
+simple "All 1s" string by XORing the random string with the suitable
+complement string...my "special Turing machine.")
+
+Also, the "undecideable" aspect is that it is generally undecideable
+whether one has achieved maximum compression, not whether one has gotten
+any compression at all. To know that no better compression exists, in
+general, would be to know the solution to the halting problem.
+
+Practically speaking, it means that most strings cannot be compressed
+much--a fact known for several decades, and well familiar to Shannon,
+Huffman, Lempel, Ziv, and other "classical information theory"
+practitioners.
+
+
+-Tim
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+Date: Fri, 25 Jun 93 10:45:20 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: AIT VirtSem: "Algorithmic Information and Evolution"
+
+Hal Finney writes:
+
+>I appreciate Tim scanning in Chaitin's article, but I have to say that
+>I really don't follow the proposed connection between AIT and evolution.
+>
+>Chaitin's Omega analogy shows that if you compute for an infinite amount
+>of time you can generate infinite complexity.  But his example doesn't
+>relate at all to the fundamental idea of evolution, the role of natural
+>selection applied to self-replicating systems.  There is no assurance
+>whatsoever that evolution will lead to infinite complexity.  We might
+>hope that it will, but I don't see how Chaitin's argument sheds any light.
+
+There is no statement, though, that any living organism will ever come
+"close" to "infinite complexity." Chaitin argues somewhat elliptically that
+evolution is making a lot of computations (the Turing machine being the
+survival, the input being a genome, the outcome then is the "acceptance" of
+the input....all loosely speaking, of course).
+
+In GA and GP systems (genetic algorithms, genetic programming), string
+complexity does in fact increase. One can visualize some particular
+sequence like this:
+
+Initial String:                 11111111111111111......1111111
+Later (a few mutations):        11110111110111111......1111111
+After a crossover:              11110111110111111......0001010
+Later (more mutations, cross.): 01100110101110110......1010001
+
+(The initial string could have been picked by tossing coins, so I'm not
+implying that the initiall string is highly regular, such as all 1s or all
+0s, and that it then gets more "random" with time. What I'm implying is
+that the process of evolution (mutations, crossovers) alters the strings)
+
+Are the later strings "compressible," that is, describable in many fewer
+bits? I suspect not, except for compressing-out certain artifacts of
+evolution (like introns). But this is an open question, as I'm sure Chaitin
+would agree. It makes sense to look at this.
+
+
+>
+>Chaitin also points out that biological evolution can be thought of as
+>having done a lot of computation.  Perhaps so, but then, so can the planets
+>in their orbits around the sun, as well as the waves striking the beach.
+>Again, there is no guarantee that the computation is useful or productive
+>in terms of generating new complexity.
+
+Not at all the same sense. Dawkins has made similar points, in "The Blind
+Watchmaker," about the computations done by organisms and the evolution of
+complexity.
+
+I think it's not really doubted by many that evolution has produced new
+complexity, in a way that the orbits of planets around the sun have not.
+
+Some processes have, as with geology (all that folding and transformation).
+Chaitin is not making a mystical point that biological evolution is unique
+in creating complexity.
+
+
+>Chaitin warns that his point is abstract, and perhaps I am being too
+>literal in trying to see an analogy between AIT and evolution.
+>
+>The one place I can see a possible connection between AIT and evolution
+>would be by analogy to the AIT result that a formal system can't prove
+>theorems more complex than the size of its axioms.  Perhaps this could
+>be taken to suggest that an evolutionary process is similarly limited
+>in terms of the complexity that it can produce?
+
+I doubt this, as the "axioms" of life/biology  are ill-defined (if present
+at all). I see no limits whatsoever on overall complexity.
+
+I thank Hal for making his points.
+
+-Tim
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+Date: Fri, 25 Jun 93 11:05:00 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: F: Re: Meta: Grading posts
+
+Harry Shapiro and Carol Moore debate the details of grading posts with "A,"
+"B," and "C" prefixes:
+
+>On Thu, 24 Jun 1993, Harry Shapiro wrote:
+>> 
+>> If you much use grades, I would suggest "grades" are put inside the
+>> prefix:
+>>       (e.g, Meta/C: ALl about life)
+>> 
+>> In fact the new list software will work much much better if you
+>> don't put the grades on the first line.
+>
+>HMMMM...If it's not on the first line, then people won't
+>usually be able to read it in their message list which has
+>finite number of spaces.  Why not META: C/All About Life
+>Then the C would just be part of the description.
+
+This relates in a minor way to the discussion of Chaitin and AIT,
+interesting enough. To wit, using simple prefixes compresses the postings
+into too few bins!
+
+When I sort posts by topic--and I usually don't, preferring to read
+chronologically--I want to see something like this:
+
+AI: A bunch of bull!
+AIT VirtSem: Who Cares?
+Flying Yogis: Proof found
+Flying Monkeys in Wayne's World
+HUMOR: Did ya hear the one about...
+Vitamins Don't Work
+
+I don't want the valuable "information" in these titles wiped out by
+something like:
+
+A: Flying Yogis
+A: Vitamins Dont't Work
+A: Proofs
+B: Yogic Pilots
+B: Vitamins Don't Work
+C: Flying Yogis
+C: Proofs
+
+This destroys the sorting value of thread names (one reason I think it's a
+waste to use prefixes like "TECH/SCI:" or "SOC/CHAT:" when a well-picked
+thread title is more than enough for anyone to figure out what the thread
+is about. Imagine some fool saying "Make sure you put a TECH/SCI: prefix in
+fron of your science postings, so I won't read them by accident.")
+
+I figure it works this way:
+
+- If the thread is of no interest to you after you've read the first one or
+two messages, it's easy enough to just delete all messages with that thread
+name
+
+(and Carol's "mechanical" naming algorithm is basically to name all later
+posts with a "B:" prefix, and perpaps a "C:", so the "Bs" and "Cs"
+basically carry no information...they merely indicate they came later,
+which is already obvious if the normal prefixes are used!)
+
+- if the thread interests you, and you want to read all the posts, it makes
+no difference that they have a "B" or "C" in front of them!
+
+
+And of course sometimes later threads are much more interesting than the
+earlier threads, so the "B" and "C" ratings are invalid. Are we asking
+people to volunteer that they think their message rates an elevation to "A"
+rank? 
+
+A bad idea.
+
+Sorry, Carol. (But at least I'm not satirizing it, so progress has been made.)
+
+-Tim
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+Date: Fri, 25 Jun 93 15:14:07 WET DST
+From: smo@gnu.ai.mit.edu (Shawn)
+Subject: AIT: Virtual seminars, virtual meetings
+
+  Tim writes:
+  - not everyone has access to it (many folks barely have a functioning
+  e-mail system, let alone an IRC capability)
+
+True, but given the goal of obtaining IRC or telnet access most people
+on the list could do so within a few days.
+ 
+  - scheduling....is there any given time that all of us (or most of us)
+  can make it?
+
+This no doubt contributed to the sparse showing last time.  Email has
+definite advantages to real-time communication.
+  
+ - do we really need a chat system? Won't e-mail work as well,
+  especially as we are spreading out what might normally be an hour a
+  week physical seminar into many e-mail exchanges.
+
+Actually, I think email works better and has a higher s/n ratio than 
+most realtime interaction.  Now I'm curious as to why Cypherpunks 
+bother to meet after that list was created.  Are the physical meetings
+more akin to social gatherings than exchanges of information?
+
+Shawn
+smo@gnu.ai.mit.edu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+Date: Fri, 25 Jun 93 14:47:13 CDT
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: Self-replication is easy
+
+Lets take the modular replicator in pieces and see what it takes
+for it to make a copy of itself:
+
+(1) Structure
+
+Start with hexagonal bar stock.  Circular cut-off blade is attached
+to end of module and driven by rotation joint.  Sure, it isn't that
+fast, since a small robot will only have on the order of ten watts
+to work with, but eventually you will cut off a six inch length.
+Change to drill bit #1, and cut a hole lengthwize through the
+stock.  Change to milling cutter #2 and cut slots though one
+face and out the other side.  Rotate 60 degrees and repeat two
+more times.  You now have a hexagonal frame that is hollow
+inside to hold the other parts.
+
+If you intend to have one face be a mirror, then use aluminum as
+the starting material and simply not cut all the way through one
+side.  This also allows you to leave some places to attach screws.
+
+(2) Raw materials
+
+A reducing furnace can be made in a vacuum chamber to reduce 
+common oxides to metals and oxygen.  Any oxide will dissociate
+to some extent at a high enough temperature.  If you have a
+chamber with a temperature gradient, the raw material can be placed
+at the hot end, and different metals will plate out from the vapor
+at different locations, with the oxygen coming out last at the
+coolest end.  Of course, the furnace itself must be made out
+of refractory oxides.  The heat source is a lot of robot modules
+collectively focussing their mirror sides on the furnace.
+
+I would be happy to one or two metals (iron, magnesium, or aluminum),
+or even a weird alloy combination of these (since getting pure
+metals won't be easy with thermal plating out.  As long as the
+material is reasonably machinable and reasonably conductive, we
+can use it for structure and conductors.
+
+Refractory oxides can be made by the simple technique of concentratin
+g enough sunlight on a sample of rock.  Boil off everything else,
+and what you have left will be a refractory.  If you can get
+alumina in any reasonalby pure form, it can be both a refractory
+and an abrasive (it's what grinding wheels and sandpaper use).
+
+If we are going all the way to raw materials, the robots need to
+see to search for ores, be able to measure the size and weight
+and color of samples (size and color from the CCD, weight by how
+much power to lift the rock).  It must also be able to dig, hence
+the claw and shovel attachments.
+
+(3) Motors
+
+Requires wires and the ability to make gears and frames, then
+winding the coils and assembling the motor.  More drilling and
+milling for the frames, and coil winding can be done by wire
+rolling onto a core rotated by a rotary joint.  You will need
+fine grippers, which is more machining and milling to make.
+
+(4) Electronics and photovoltaics
+
+[TBD later]
+
+
+Dani Eder
+
+------------------------------
+
+Date: Fri, 25 Jun 93 12:03:24 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: NANO:Critiques of Drexler
+
+Nick Szabo asks why there has not been more debate/criticism/reaction about
+Drexler's work in general and "Nanosystems" in particular:
+
+>Andrew Hall:
+>> Before I sit down and do some calculations and grind through this with
+>> the effort needed to confirm or deny, I would like to see some expert
+>> criticism of Drexler. 
+>
+>I'd like to see this, too.  I haven't even seen any reviews of
+>_Nanosystems_ in a scientific journal; nor have I seen any 
+
+I believe Ralph Merkle posted to sci.nanotech a review he saw in "Nature"
+or "Science." Also, the special issue of "Science" that dealt with
+nanotech-related issues (this was circa November 1991) had a page on
+Drexler and his critics and had some critical remarks by a Stanford guy
+(whose name I've forgotten).
+
+(Drexler is scathing in his sarcasm directed at these critics...perhaps
+word has spread about this. Personally, I wish he would tone down his
+attacks on those who dare to raise questions about the glorious nanotech
+future.)
+
+>Drexler's fame and citation habits generated quite a bit of resentment
+>with at least a few research scientists : the _Artificial Life I_ proceedings
+>feature an article on the history of "nanotechnology" that covers
+>everything from Heinlein's Waldo to Feynman to Ettinger to sub-micron 
+>lithography, but dismisses Drexler with ill-concealed animosity.
+
+The feud between Conrad Schneiker, the author of the paper Nick is
+presumably referring to, "NanoTechnology with Feynman Machines: Scanning
+Tunneling Engineering and Artificial Life," is perhaps not well known on
+this list....especially since Conrad seems to have dropped off the radar
+screen (at least I haven't heard about him lately). At the A-LIFE
+conference, Drexler was highly suspicious of _me_ just because I spent some
+time talking to Conrad! Drexler really had it in for him.
+
+(The feud dates from around 1985-6, when something happened. Hard to say
+who was "right." Certainly Schneiker's work is less impressive, and is even
+flaky in some ways (Schneiker worked with Hameroff, of "cytoskeletal
+consciousness" notoriety). Needless to say, Schneiker is not inside the
+Drexler circle.) I though Schneiker's review of nanotechnology was
+negligent and vindictive in the way it minimized Drexler's many
+contributions.)
+
+On why Drexler's book is not getting more academic attention (evidenced, by
+Nick's arguments, by the lack of discussion, critical reviews, positive
+reviews, etc.), I would assume there are several points to consider:
+
+1. The various calculations are mostly physical chemistry and mechanical
+engineering. Don't expect AI or space colonization experts to read and
+critique it (though they may be inspired by it, may flip through it, etc.).
+
+2. That there is little commercial development is a factor.
+
+3. Drexler's confrontational arguing style is not conducive to debate...I
+speak from *experience*! Eric *believes* so strongly in his vision of
+general assemblers, life extension, cell repair, asteroid mining, etc. that
+he finds it incomprehensible that the rest of us are not dropping what
+we're doing and immediately beginning to work in this field.
+
+I also think he believes most critics are either fools or knaves.
+
+4. What's to debate, really? The ultimate vision is more a matter of
+economic development paths, funding, etc. I liken the reaction to Drexler's
+work to that with Babbage more than a century ago. Not the most original
+comparison (many have made it), but one which increasingly rings true. To
+wit:
+
+- a good idea, many decades ahead of the supporting technology
+
+- no plausible funding strategy (though some may argue in favor...fine, so
+go out and get the funding from the private sector!)
+
+- the most important issues, as with Babbage, cannot be addressed until
+some stuff is actually built (programming and all the good stuff since 1950
+didn't pick up until there were many kinds of machines and languages).
+
+
+By locating himself in the "Foresight Institute" and surrounding himself
+with True Believers, I think Eric is missing some major opportunities. He's
+written three books already, and may be at work on a fourth. However, now
+is the time for actual research (not that his calculations are not a form a
+research...).
+
+By contrast, I worked for Paul Hansma in 1972-3 when he first arrived at UC
+Santa Barbara. He was setting up a lab to study Josephson junctions and
+SQUIDS, and I volunteered to help--and it probably helped me get a job at
+Intel in 1974, as I was the rare physics student who had some chip-building
+experience.
+
+What's happened to him since is truly astounding. He now has a dozen grad
+students, is the world's leading applier of AFMs to biological systems, and
+was in on the founding of Santa Barbara-based Digital Systems, makers of
+the "NanoScope" STM/AFM. And Hansma's wife, now a prof in the biology
+department, is probably the leading researcher in studying the sequencing
+of DNA with Paul's gadgets.
+
+In 1988, the "Crypto" conference was held, as always, at the UCSB campus. I
+took Ralph Merkle on a tour of Hansma's labs, which now occupy most of the
+top floor of the physics building.
+
+(Pete Capello, if he reads this, is at UCSB and can certainly confirm what
+I'm saying about Hansma's reputation. Hal Finney, who works in Santa
+Barbara, may also know about this. And, yes, Drexler cites Hansma. I don't
+know if the reverse is true...not saying this, understand.)
+
+What I'm saying is that Eric needs to be involved in a major, multi-pronged
+research effort. Why isn't he? Why isn't he at Stanford or MIT with a large
+and growing team of grad students and postdocs? Leading research, teaching
+some classes, and still writing some books. He now has a Ph.D., granted
+recently, and so this is not a barrier, if it ever was.
+
+To me, this is the more interesting question.
+
+
+-Tim
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0355
+****************************************
+

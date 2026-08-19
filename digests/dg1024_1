@@ -1,0 +1,1071 @@
+From extropians-request@extropy.org Sun Oct 24 02:46:17 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA14151; Sun, 24 Oct 93 02:46:16 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA27603; Sun, 24 Oct 93 02:46:12 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA26052
+  (5.65c/IDA-1.4.4 for more@usc.edu); Sun, 24 Oct 1993 05:40:32 -0400
+Date: Sun, 24 Oct 1993 05:40:32 -0400
+Message-Id: <199310240940.AA26052@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: October 24, 373 P.N.O. [09:40:07 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Sun, 24 Oct 93             Volume 93 : Issue 296
+
+Today's Topics:
+                                                                      [1 msgs]
+                          Beating the Stock Market?                   [7 msgs]
+                          Beating the Stock Market?                   [1 msgs]
+             Genetic Programming and stocks: the "data" question      [2 msgs]
+                                    Help!                             [1 msgs]
+                             OUTREACH:  Magazines                     [2 msgs]
+                          QUERY: off shore accounts                   [2 msgs]
+                                    scams                             [2 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 53645 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sat, 23 Oct 1993 07:52:15 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: Help!
+
+If exclude is not working, it is because you are sending commands
+from an address that is different from the address we are using
+to send you mail. Send me that address.
+
+/hawk
+
+a conscious being, Christina M Grimes wrote:
+> 
+> It's not as if I don't enjoy the discussion on the list, but I seriously
+> a) don't have the time to read/respond and b) don't have the space in my
+> quota on the mail server; it keeps filling up, and I have to wade
+> through dozens of messages to find ones from friends (which I often
+> miss). I've tried to ::exclude all three times, but it hasn't worked.
+> I'm not sure why. I'll give it one more shot, I guess, but there seems
+> to be something up with the program.
+> 
+> Thanks a lot,
+> Ratha
+> 
+
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+Date: Sat, 23 Oct 93 5:33:30 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Beating the Stock Market?
+
+I made some doodles this evening towards AIT theories of
+time series compression and arbitrage.  It would be interesting 
+to see if the new Kolmogorov complexity book has come up with 
+something similar, and I'd love to hear comments, critique, & 
+elaborations of this stuff.
+
+We start with the "brilliant penny" scenario, where we 
+want to find a model that predicts a random binary sequence x.
+If we flip 2^|x| pennies |x| times each, chances are
+one of the sequences will match, the "brilliant penny" that magically 
+"predicts" the original sequence.  To model a random series like 
+this requires fully |x| bits: H(x)=|x|.
+
+For a sequence x where odd bits are random, while even bits are 1,
+	H(x) = |x|/2 + Htm("even bits are 1").  
+
+Now let's create two random temporal sequences x and y. The ground
+rule for doing trading here is that we can read any
+prices at time T<t to buy or sell at time t.  delta-t is
+the time it takes information to propagate from one market
+to another.  We magically trade "at market" with no transaction 
+costs.
+
+So, for example the two binary price sequences
+
+x = 01101011    => H(x) = |x| = 8
+y = 11000010	=> H(y) = |y| = 8 = |x|
+
+By themselves both x and y are random, but
+we notice that for even bits in y, y(t) = x(t-1) xor 1.    So
+for sufficiently large |x|, H(x,y) < H(x) + H(y).  Specifically, 
+	H(x,y) = H(x) + H(y)/2 + Htm(f(x,y))
+		= 3|x|/2 + Htm(f(x,y))
+
+Where f(x,y) = "if (t even) then y(t) = x(t-1) xor 1".
+
+>From f(x,y) we construct the trading strategy
+	if (t even) and x(t-1)==1 buy y(t)
+	if (t odd) and x(t-1)==0 sell y(t)
+and gain a profit of 4 bits on the sequence.  ($.50!)
+
+So we have an arbitrage model "f" which reduces the mutual
+complexity of sequences x and y which, by themselves, look
+random.   Now we said the sequences "looked random", but
+there might be other good Turing machines that compress the time 
+series, either involving arbitrage between x and y, or individually.  
+Our goal is to find, not the smallest H(x,y), in general an impossible
+task, but an H(x,y) smaller than our trading competitors.
+
+The chance of finding |x|/2 xors coincidentally in two
+random sequences of size x is 1/2^(|x|/2).  From this we can 
+compute risk profiles, p(ruin), etc.   Here we can see formally
+Occam's Razor, what both scientists and traders have long suspected:
+why a more parsiminous model is also a more predictive
+model.  The chance that we can compress a randomly generated
+sequence is very small -- we are much more likely to find 
+uncompressed "brilliant pennies".  The larger is the
+difference |x1| + |x2| + ... - H(x1,x2,...), the greater the 
+chance that the component thus compressed by Htm(f(x1,x2,...) is
+not random, but rather contains a compression that will 
+also compress the component similarly in the future.  (In future work 
+I will endevour to prove this formally, also providing a formal model 
+for the parsimony and predictive capability of arbitrage strategies).
+
+It's easy to extend this theory from binary prices to
+arbitrary price ranges (but of course it's too big to fit in 
+the margins).  The binary model above predicts 100% of the sample
+with risk a function of the 1/2^(|x|/2).  In real-world
+models compression is only statistically correct, that is to
+say the models include large components, some hedgeable and
+some not.  To lower risk as much as possible, we create synthetic assets 
+to hedge away as many random components as possible, thus making our 
+trading strategy correspond to the best compression we can find with 
+the information at hand.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Sat, 23 Oct 1993 10:49:20 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Beating the Stock Market? 
+
+Ray says:
+> Timothy C. May () writes:
+> > I was skeptical of his reported annual rates of return (> 30% on
+> > average, for the past N years), having read Burton Malkiel's "A Random
+> > Walk Down Wall Street" at an impressionable age.
+[...]
+> Statistically, if you do your homework (e.g. follow technology, follow
+> trends) I believe you can beat the market. You won't be able to beat it
+> all the time, but it will be enough to multiply some wealth.
+[...]
+
+Some traders like Paul Jones and Lewis Bacon have managed to produce
+double and even occassionally treble digit returns regularly for
+years. It is certainly possible to do it, and do it for prolonged
+periods. Its very unusual, however -- we are talking maybe a dozen to
+two dozen managers in the world. Whenever you are shown such returns,
+a red warning flag should immediately go up. I immediately reach for
+Nexis/Lexis and start searches. If the guy is the subject of Wall
+Street Journal articles on "Joe Foo does it for another year running!"
+then he might, might, be trustworthy. More likely you will find out
+that the guy has been in and out of court for years for fraud. In any
+case, such investments are very high risk, and shouldn't be made with
+money you can't afford to lose.
+
+Perry
+
+
+------------------------------
+
+Date: Sat, 23 Oct 1993 12:53:31 -0500 (CDT)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Beating the Stock Market?
+
+Nick Szabo:
+
+> I made some doodles this evening towards AIT theories of
+> time series compression and arbitrage.
+
+Neat!  Let's see...
+
+> Now let's create two random temporal sequences x and y. The ground
+> rule for doing trading here is that we can read any
+> prices at time T<t to buy or sell at time t.  delta-t is
+> the time it takes information to propagate from one market
+> to another.
+
+I'm not sure what you mean here.  If you can trade and read both
+markets instantaneously, doesn't that mean that delta-t is zero?
+Or do you mean some kind of information propagation channel that
+you have access to but others don't?
+
+> By themselves both x and y are random, but
+> we notice that for even bits in y, y(t) = x(t-1) xor 1.    So
+> for sufficiently large |x|, H(x,y) < H(x) + H(y).
+
+Yes... In _Mathematical foundations of information theory_ (p8),
+Khinchin puts it this way:  "The amount of information given
+by the realization of two finite schemes A and B equals the
+amount of information given by the realization of scheme A
+plus the mathematical expectation of the amount of additional
+information given by the realization of scheme B after the
+realization of the scheme A."  Or, H_a(B) <= H(B), where
+H_a(B) is the entropy of the scheme B given that the scheme
+A has been realized.  This is elementary info theory... 
+
+I suppose that you're driving toward the idea of using
+something like Genetic Programming with a high parsimony
+bias to construct arbitrage models for the two sequences.
+This seems promising to me...
+
+However, in the case of trading strategies, it's not clear
+to me that:
+
+> an H(x,y) smaller than our trading competitors. ...
+> a more parsiminous model is also a more predictive
+> model.
+
+My doubt comes from the fact that every trader in the
+market is building models of the market and the actual
+market prices are emergent phenomena of their ensemble.
+I'm not sure that Occam's razor is as compelling in
+such a circumstance.
+
+> In real-world
+> models compression is only statistically correct,
+
+This I think is a crucial issue -- parsimony vs accuracy.
+Suppose I have a compression program for x that is 90%
+accurate and its size is 0.2 * |x|.  Suppose I have
+another that is 93% accurate but its size is 0.4 * |x|.
+Which is better?  It seems like there should be a
+principled answer to this sort of question.
+
+> To lower risk as much as possible, we create synthetic assets 
+> to hedge away as many random components as possible, thus making our 
+> trading strategy correspond to the best compression we can find with 
+> the information at hand.
+
+Could you elaborate on this?  I'm not sure what you mean by
+synthetic assets as hedges.
+
+derek
+
+------------------------------
+
+Date: Sat, 23 Oct 1993 13:10:03 -0500 (CDT)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Beating the Stock Market?
+
+Tim May:
+
+> So, multiplying wealth by analysis seems pretty Extropian to me.
+
+Data, data, we need data!  It's unreasonable (IMO) to think that
+we can train some automated system to do market prediction without
+letting it have the same information that its competitors (professional
+analysts) can use.  I get exhausted just thinking about such a
+data collection and massaging task, not to mention that much of it
+(e.g. product classification, political turmoil) is difficult to
+formalize well.
+
+On the other hand, I see these toupeed "technical analysts" on
+CNBC with their strangely-drawn "support" lines and their bollinger
+bands and other heuristic aids handed down from generation to
+generation... those formulae are usually based on simple trading
+price data, which is easily given to automated regression engines.
+
+Some of those things are kind of interesting.... for instance, the
+"support" idea -- that there is a natural range surrounding a trend
+that if broken through likely indicates that _something_ is happening
+and it's a good thing to jump on such a new (hopefully) trend.  I
+wonder to what extent the wisdom that such trends will continue is
+caused by self-fulfilling prophecy as many traders using similar
+strategies create its validity by bidding stocks up or down...
+
+derek
+football might be easier
+
+
+------------------------------
+
+Date: Sat, 23 Oct 1993 13:15:21 -0500 (CDT)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Beating the Stock Market?
+
+Oh, also note that the Santa Fe Institute does a time series
+prediction contest I think yearly; some of the finest minds
+in the field take part.  One of the more interesting and successful
+ideas is to take a hodgepodge of different techniques, train them
+all, and then train a "supervisor" to decide how to weight their
+opinions in a particular circumstance.  If I remember right, the
+guy who won the contest with this approach is named Chen or Chien or
+something like that and works for Thinking Machines.
+
+derek
+
+
+------------------------------
+
+Date: Sat, 23 Oct 93 12:01:50 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Beating the Stock Market?
+
+(Good to see the old AIT crowd, Nick S. and Derek Z., back at work.)
+
+Derek Zahn writes:
+
+> Tim May:
+> 
+> > So, multiplying wealth by analysis seems pretty Extropian to me.
+> 
+> Data, data, we need data!  It's unreasonable (IMO) to think that
+> we can train some automated system to do market prediction without
+> letting it have the same information that its competitors (professional
+> analysts) can use.  I get exhausted just thinking about such a
+> data collection and massaging task, not to mention that much of it
+> (e.g. product classification, political turmoil) is difficult to
+> formalize well.
+
+The hedge fund manager I mentioned subscribes to several hundred
+dollars a month of price quotes, and routinely loads 50 megabyte data
+sets into RAM for crunching. (On a mix of IBM RS/6000s, 486 boxes, and
+Mac Quadra 950s.)
+
+I don't know if this is "enough." Nick's simple mutual entropy
+calculation for a random sequence was at one extreme (one or a few
+price vectors), the stuff Wall Street has is at the other side
+(firehoses of data).
+
+How much can be done "in between"? Does the amount of data--the price
+of slippers in Tangiers, the yak population in San Diego--make
+a real difference?
+
+> On the other hand, I see these toupeed "technical analysts" on
+> CNBC with their strangely-drawn "support" lines and their bollinger
+> bands and other heuristic aids handed down from generation to
+> generation... those formulae are usually based on simple trading
+> price data, which is easily given to automated regression engines.
+
+These are pretty easily dismissed: the "angles" they talk about (e.g.,
+45 degree lines drawn) and whatnot are not invariant to time-scaling.
+I gave watching CNBC, except for the running ticker, even before I had
+my cable t.v. subscription cancelled. These market mavens consistently
+fail to report true indicators of their past accuracy, just the
+selective revealing of winners (selective exposure of information is
+of course the explanation of the "brilliant penny" scam and all the
+similar variations mentioned here lately).
+
+The techniques I'm talking about, which may or may not work, are a
+whole lot more sophisticated than finding "candlestick formations" in
+mostly random data. Time-series analysis is only a tiny part of the
+picture.
+
+(Hint: automate a lot of "fundamental" ideas into thousands of if-then
+rule sets...like an expert system. Mix with neural nets, genetic
+programming to "crawl" through huge amounts of data, combine with
+sophisticated statistical analyis, season with hedging and portfolio
+insurance to adjust the beta to taste.)
+
+> Some of those things are kind of interesting.... for instance, the
+> "support" idea -- that there is a natural range surrounding a trend
+> that if broken through likely indicates that _something_ is happening
+> and it's a good thing to jump on such a new (hopefully) trend.  I
+> wonder to what extent the wisdom that such trends will continue is
+> caused by self-fulfilling prophecy as many traders using similar
+> strategies create its validity by bidding stocks up or down...
+
+Well, this is what has me interested. When I first started investing
+in stocks, in the mid-70s, I went through a phase of keeping charts on
+stocks I followed, on computing simple moving averages (computed with
+exponential smoothes on my then-new H-P 25 programmable calculator!),
+and so forth. This lasted for about 3 months, then I gave it up.
+
+My friend's work with using a panoply of induction techniques (every
+trendy word, from neural nets to genetic programming to Black-Scholes
+portfolio methods to chaos to expert systems to Bayesian
+statistics....) crunching on huge data sets on fast computers has me
+very interested.
+
+Like I said, I'm skeptical, but intrigued. Since I'm about to start
+the Kolmogorov-Chaitin book anyway...
+
+And I can imagine how even in a random, chaotic data set a "strategy"
+can be found:
+
+An amazingly simple strategy: Suppose Malkiel and the efficient market
+random walkers are right, that there is no mechanistic strategy (hence
+_no_ strategy??). But then by betting _against_ all those who _do_
+think there is a strategy, one will profit from their misplaced faith.
+
+That is, "no strategy" implies there _is_ a strategy!
+
+I obviously don't claim this is trivial to implement, or necessarily
+exploitable.  But it's an area that combines a lot of interesting
+algorithms, gets into areas of predictability and determinism in a
+more concrete way (for me at least) than speculations about "free
+will" do, and could be lucrative if in fact these methods work.
+
+I'm skeptical, but who knows?
+
+> derek
+> football might be easier
+
+Actually, I just saw an ad for a "neural net football predictor"
+program. It has scores of the last n seasons already in it, and the
+user enters new scores as they happen. Then the "neural net"
+supposedly learns the patterns and predicts future scores.
+
+Obviously, "fundamental analysis," such as injuries to key players and
+the like, is not reflected in this model (so far as I know).
+
+But this football example makes the same points. Can crunching on a
+lot of data (horse races, football and sports, stocks) with a lot of
+approaaches (as mentioned earlier) give an "edge"?
+
+As home users will have access to more and more such data, there may
+also be a market for software which "helps" them make bets with their
+freinds or bookies on point spreads and the like. (Scenario: Joe
+Sixpack loads his "Joe Montana Picks the Winners" CD-ROM into his 3DO
+machine on top of his t.v., opens a Bud, and sits down to crunch the
+latest scores, possibly downloaded automatically, via subscription.
+Farfetched? What about track betters armed with Newtons? Could be
+a market, even if the techniques are dubious.)
+
+I'll keep you posted.
+
+--Tim May
+
+(BTW, my friend the hedge fund manager is a friend of John Koza's and
+is acknowledged in "Genetic Programming." He's been running such
+models for several years now and is also in contact with "Chaos Cabal"
+guru Doyne Farmer, formerly of Los Alamos and the Santa Fe Institute
+and now with his own company, Prediction, Inc.)
+
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Sat, 23 Oct 1993 14:35:22 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Genetic Programming and stocks: the "data" question
+
+I'd like to raise a couple points about doing market analysis
+of any kind and the "data" question that Derek Zahn and Tim
+May were just talking about.
+
+Simply put, a lot of the bets and analyses that are being discussed
+here seem to be immune to any sort of algorithmic system applied
+to any sort of large commercial data dump. Or so it seems to me.
+
+For instance: the 3DO/Atari/Commodore/ect. example: there doesn't seem
+to me to be any way for 3DO's future stock performance to be modeled
+as a function of a) its competitors past performance, b), its past
+performance, general consumer spending, durable goods spending, et
+cetara.... one of the main factors seems to be based on, "Is the
+company going to deliver?" As someone at least a little skeptical
+about 3DO/CD^32/Jag/whatever's market prospects, I didn't really have
+any doubt that those companies were actually going to _deliver_ those
+products, but it also seems to me that a lot of the fluctuation in 3DO
+Corp's price was due to the doubts of others in precisely this area,
+and in a way rather artificial.
+
+Hmm... thinking... is it possible that each company has a "confidence"
+function, how much its stock is going to rise/fall based on whether or 
+not it meets a given performance benchmark (delivers a product, etc)...
+
+Microsoft, for instance, didn't seem to suffer much at all no matter
+how many times Windows NT was delayed.
+
+How expressable as an algorithm could a confidence function be?
+
+I know that company stocks aren't the target per se of most of the AIT
+applications to market prediction that have been discussed both here
+on the list and elsewhere. But for non-resource-extraction companies,
+and/or other non-commodity companies, is there anything for the algorithm
+engines to evaluate?
+
+
++-----------------------+---------------------------------------+
+|Phil Fraering          | "...drag them, kicking and screaming, |
+|pgf@srl03.cacs.usl.edu | into the Century of the Fruitbat."    |
++-----------------------+-Terry Pratchett, _Reaper Man_---------+
+
+
+
+------------------------------
+
+Date: Sat, 23 Oct 93 13:03:32 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Genetic Programming and stocks: the "data" question
+
+Phil Fraering writes:
+
+> For instance: the 3DO/Atari/Commodore/ect. example: there doesn't seem
+> to me to be any way for 3DO's future stock performance to be modeled
+....
+
+Indeed, and no one I know thinks that a particular stock can be
+predicted in this way. The time series of a stock is underconstrained,
+in a sense, as a vast number of factors affect the future price.
+
+The kind of "prediction" we are talking about here is more related to
+whether a slight statistical "edge" can be found. 
+
+> Hmm... thinking... is it possible that each company has a "confidence"
+> function, how much its stock is going to rise/fall based on whether or 
+> not it meets a given performance benchmark (delivers a product, etc)...
+
+Well, there are a zillion such "heuristics" which may in fact enter in
+to a model, a "machine" that crunches data of all sorts and outputs
+buy and sell orders. 
+
+In fact, my friend's system presumably looks for this sort of
+correlation.
+
+Maybe too much data to crunch. Maybe it's all futile.
+
+But it can't hurt to take another look at algorithmic trading.
+
+--Tim
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Sat, 23 Oct 93 13:17:22 -0700
+From: kwatson@netcom.com (Kennita Watson)
+Subject: scams
+
+   2^N possible con victims
+   N days
+
+   Call the victims and tell them each day your prediction of which way a
+   stock with equiprobable likelyhood of rising or falling will move.
+   Tell half one story, half the other. At the end of N days, you will
+   have convinced one investor that you really really  can predict the
+   market.
+
+Don't you need 3^N, to take care of the case when the stock stays the
+same? 
+
+Kennita
+
+
+------------------------------
+
+Date: Sat, 23 Oct 93 13:37:06 -0700
+From: kwatson@netcom.com (Kennita Watson)
+Subject: OUTREACH:  Magazines
+
+I don't tend to keep my old copies of _Extropy_ or _Cryonics_
+magazines around for reference, but it seems a shame to toss them
+immediately.  I was considering dropping them off at my doctors'
+offices (clinic, chiropractor, dentist, optometrist).
+
+I can see plusses and minuses.  What do you think?
+
+Kennita Watson      |  Do I want to live forever?  Maybe not, but give
+kwatson@netcom.com  |  me one or two hundred thousand years to think
+HEx: KNNTA          |  it over.     - KLW, 1993
+
+------------------------------
+
+Date: Sat, 23 Oct 1993 16:50:26 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: scams
+
+>Don't you need 3^N, to take care of the case when the stock stays the
+>same?
+
+Nah, that can be explained away:
+
+"See? There was no activity, which is because the investors know the
+stock was overvalued/undervalued."
+
+"Considering that the whole market went up, in relative terms, stock
+X went down."
+
+"See? A fraction of a cent decreace! And that guy in New York was selling
+short! I told you it would fall!"
+
+After all, with this scam, you're looking for the people who have abandoned
+a scientific mindset to begin with and can often make useful "fudges" to
+garner more than the classical 1 out of 2 ^ N seekers...
+
+Phil
+
+------------------------------
+
+Date: Sun, 24 Oct 93 00:31:33 GMT
+From: sjw@liberty.demon.co.uk (Stephen J. Whitrow)
+Subject: Beating the Stock Market?
+
+A few years ago when I was trying out some futures trading, my
+brokers were providing me with recommendations from a "computer
+trading system" they had, which "tracks the movements in thirty
+commodity futures markets and uses over forty analytical tools in
+order to produce its portfolio or recommendations.  On a day to
+day basis the system generates various buying and selling
+recommendations, accompanied by a relevant stop loss."  They also
+claimed that it was already being used by "one of the four major
+clearing banks in the U.K."
+
+Well, the system was producing an average gross profit per trade
+of about $60 judging by the trades I'd been advised.  The trouble
+was I was charged $100 commission a round turn, but it might have
+had some potential for an owner of the system utilising a discount
+broker.  I suspect the risks of holding open positions overnight
+would outweigh potential gains, though.  It was called *The
+Intelligent Trading System* by Providence Research Group, Inc.
+Anyone heard any more on this?
+
+I designed a system for day trading silver futures on the COMEX
+Exchange, using a very simple strategy.  Over a period of 47 days
+the system _had_ made average gross profits of $218 per day with only
+ten losing days, and a minimum profit of $475 every week.  (This was
+the optimised 'with hindsight' version, with carefully chosen targets
+and stops, but this choice wasn't too critical.)  Naturally, it failed
+later when there was a sudden slide in the precious metals.  It shows
+how easy it is to design simple mechanical systems which fail to live
+up to initial promise.  With the more sophisticated methods, I'd expect
+any falling off in performance to be a more gradual process as others
+discover them. 
+
+Steve Whitrow                           sjw@liberty.demon.co.uk
+
+------------------------------
+
+Date: Sat, 23 Oct 93 21:35:24 EDT
+From: mpeel@ccs.carleton.ca (Michelle Peel)
+Subject: OUTREACH:  Magazines
+
+Kennita Watson writes:
+> 
+> I don't tend to keep my old copies of _Extropy_ or _Cryonics_
+> magazines around for reference, but it seems a shame to toss them
+> immediately.  I was considering dropping them off at my doctors'
+> offices (clinic, chiropractor, dentist, optometrist).
+> 
+> I can see plusses and minuses.  What do you think?
+> 
+> Kennita Watson      |  Do I want to live forever?  Maybe not, but give
+> kwatson@netcom.com  |  me one or two hundred thousand years to think
+> HEx: KNNTA          |  it over.     - KLW, 1993
+> 
+
+Make sure that the doctor (etc.) doesn't just throw them out for fear
+of being linked to the philosophies described therein.
+
+Me.
+
+------------------------------
+
+Date: Sat, 23 Oct 1993 23:09:56 -0400
+From: Duncan Frissell <frissell@panix.com>
+Subject: QUERY: off shore accounts
+
+P >1) How is one established?
+
+Calling faxing, writing, telexing banks taken from one of the 
+international bank directories in your local library.
+
+P >2) What countries are good to establish one in? 
+
+Depends.  For most US resident's needs, even the UK is an "offshore" 
+country.  Switzerland remains good unless you are a very large-scale 
+criminal type.  I like the Isle of Man and the Channel Islands myself.
+
+P >3) I understand the tax advantage reason why one would be established 
+P >and the fact that the assets are basically untraceable by the USG & US 
+P >companies.  Are there any other reasons why it might be a good idea?
+
+Judgment proofing, investment diversity, currency diversity, better 
+service, to get a Eurocheque card you can use while traveling in Europe, 
+personal growth, political risk diversity, and higher interest. 
+
+P >4) What is an approximate amount of assets that one must have before 
+P >it is worth establishing such an account?
+
+I know someone who opened one with $300 once.
+
+P >5) How are transactions handled?
+
+By mail, fedex, fax and telex.
+
+P >6) What is the legality of such an account? What must you legally 
+P >tell the USG about? 
+
+As legal as church on a Sunday.  You are required to report foreign 
+accounts totaling more than $10,000 on which you have signature authority. 
+ You have to report interest income received from all accounts.
+
+P >7) Do you lose out by not receiving interest?
+
+What makes you think offshore accounts don't pay interest?
+
+P >8) How safe are those assets?
+
+As safe (on average) as US deposits. 
+
+P >9) Is there any references about this topic? Book, ftp sites, ...
+
+Thousands (though not many online).  Someone wrote a FAQ a while ago.
+
+Duncan Frissell
+--- WinQwk 2.0b#1165                                               
+
+------------------------------
+
+Date: Sat, 23 Oct 1993 23:45:21 -0400 (EDT)
+From: ptbast@ivy.WPI.EDU (Peter F Bastien)
+Subject: QUERY: off shore accounts
+
+	[Stuff deleted]
+> 
+> P >2) What countries are good to establish one in? 
+> 
+> Depends.  For most US resident's needs, even the UK is an "offshore" 
+> country.  Switzerland remains good unless you are a very large-scale 
+> criminal type.  I like the Isle of Man and the Channel Islands myself.
+> 
+
+How about Canada? Or is it too "close" to the USG?
+
+> P >3) I understand the tax advantage reason why one would be established 
+> P >and the fact that the assets are basically untraceable by the USG & US 
+> P >companies.  Are there any other reasons why it might be a good idea?
+> 
+> Judgment proofing, investment diversity, currency diversity, better 
+> service, to get a Eurocheque card you can use while traveling in Europe, 
+> personal growth, political risk diversity, and higher interest. 
+> 
+	[Stuff deleted]
+> 
+> P >8) How safe are those assets?
+> 
+> As safe (on average) as US deposits. 
+
+Does this mean the deposits are issured as they are in the US?
+
+	[Stuff deleted]
+> 
+> Duncan Frissell
+> --- WinQwk 2.0b#1165                                               
+> 
+Just some follow up questions.
+Thanks,
+Pete
+
+------------------------------
+
+Date: Sun, 24 Oct 93 00:10:02 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+News Summary as of: Sun Oct 24 00:10:02 EDT 1993
+
+
+Newly Registered Reputations:
+(None)
+
+New Share Issues:
+(None)
+
+Share Splits:
+(None)
+
+
+Market Summary as of: Sun Oct 24 00:00:02 EDT 1993
+
+Reputations of members of the Extropians mailing list:
+[ Note: Contact hex-request to have a reputation placed on this list. ]
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding
+AMARA         .10      .50        -        10000            -
+ANTON         .61      .63      .63        10000         1943
+ARKU          .30      .31      .30        10000         5301
+BLAIR         .01     1.20      .01        10000           26
+BROOX         .01     1.00        -        10000            -
+DEREK         .06      .19      .19       100000        18430
+DROSE           -      .15      .10        10000         3000
+DRS             -      .15      .15        10000         2600
+DVDT          .75     1.75     1.70        10000        10000
+E             .80     1.00      .90        10000         8011
+ESR             -        -        -            -            -
+FCP           .06     1.30     1.50        80000        15345
+GHG           .02      .30      .20        10000         8180
+GODII         .01     1.00        -        10000            -
+GOEBEL        .01      .25     1.00        10000          767
+H             .40      .76      .76        30000        10290
+HAM           .60      .90      .90        20000        15918
+HANNO         .15      .24        -        10000          500
+HFINN        1.50     6.00      .01        10000         1005
+IMMFR         .25      .70      .80        10000         1838
+JFREE         .02      .50      .50        10000         3200
+JOHN          .30      .40      .35        10000          600
+JPP           .26      .29      .26        10000         3500
+KARL         1.00     1.50     2.00        10000         1000
+KNNTA         .12      .19      .26       100000        10100
+LEFTY         .31      .40      .40        10000         4751
+MARCR           -        -        -            -            -
+MEEKS           -        -        -            -            -
+MLINK           -      .01      .01      1000000       102602
+MWM             -     1.50      .01        10000         1260
+N            5.00     9.00     9.00        10000         4750
+P           22.50    25.00     1.50      1000000           94
+PETER           -      .01     1.00     10000000          600
+PRICE           -      .01      .01     10000000         1410
+R             .40      .80      .70        10000         6100
+RJC           .65     2.00     1.00        10000         5200
+ROMA            -        -        -            -            -
+RWHIT           -        -        -            -            -
+SAMEER        .30      .75      .61        10000         9810
+SHAWN         .55      .55      .01        10000           25
+SWANK           -     1.00        -        10000            -
+TIM           .10      .60      .50        10000         2104
+WILKEN       1.00    10.00     1.00        10000          102
+-----------------------------------------------------------------------------
+
+Other reputations:
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding
+1000          .05      .40      .20        10000         5000
+110           .01      .10      .10        10000         1750
+150           .01      .10      .10        10000         1750
+1E6           .20        -      .20        10000         8825
+1E9           .01      .09      .20        10000         7000
+200           .02      .20      .10        10000         5075
+80            .01        -        -        10000            -
+90            .01        -      .10        10000         2000
+ACS           .10      .15      .12        10000         3223
+AI            .01      .09      .10        10000         2400
+ALCOR         .25      .85      .60        10000      3675.00
+ALTINST         -      .25      .05        10000         4000
+ANARCHY       .20      .90     1.00        10000         1100
+BIOPR         .01      .09      .05        10000         3000
+BITD          .01     1.00        -        10000            -
+BLACK           -      .10      .10       100000         6000
+CHUCK           -        -        -            -            -
+CYPHP         .20      .40      .30        10000        10000
+D&M             -        -        -        10000            -
+DC1000          -      .10        -        10000            -
+DC200           -      .15      .10        10000         1500
+DC7000          -      .10        -        10000            -
+DCFLOP        .15        -      .15        10000         6000
+DRXLR         .75      .90      .80        10000         4545
+EXI           .10      .25     1.54        10000         3025
+FAB             -        -        -            -            -
+GOD             -      .10      .10        10000         3000
+GUNS            -      .90     1.00        10000         3900
+HART            -     1.99     2.00        10000         9000
+HEINLN        .28      .30      .30        10000         6600
+HEX        100.00   101.00   100.00        10000         4188
+KLAUS           -      .45      .45       100000        36004
+KPJ             -        -        -            -            -
+LEARY         .01      .50      .20        10000         1000
+LEF           .10      .35      .10        10000         5214
+LIST          .40    10.00      .75        10000         5000
+LP            .25      .30      .50        10000         5625
+LSOFT         .50     1.00      .50        10000         9550
+LURKR           -      .01        -       100000            -
+MED21         .01      .30      .30        10000         5399
+MMORE           -     1.25      .10        10000         3000
+MNSKY           -     1.80        -        10000            -
+MORE          .38     1.25      .75        10000         2660
+NEWTON          -      .50      .20        10000         1000
+NLAW            -      .50        -        10000            -
+NNLAW           -      .50        -        10000            -
+NSS           .02      .03      .01        10000           25
+OCEAN         .15      .18      .20        10000         6600
+OOMPH           -    15.53    22.00        20000            -
+PENNY           -      .08     1.50        10000         2500
+PGP             -     1.00     1.00       100000         2100
+PLANET        .01      .02      .02        10000         4000
+PPL           .30      .45      .30        10000         4600
+RAND          .18      .20      .20        10000         3900
+RAW             -      .05        -        10000            -
+SHECKY          -        -        -            -            -
+SSI           .15      .20      .20        10000         5200
+TCMAY         .38      .40      .38        10000         6200
+TRANS         .01      .90      .60        10000         3211
+VINGE         .01     1.00      .75        10000         3449
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Sun, 24 Oct 1993 00:10:28 -0400
+From: Duncan Frissell <frissell@panix.com>
+Subject: Beating the Stock Market?
+
+I take it that everyone has read the Economist's October 9, 1993 Finance 
+Survey on this very topic?
+
+"The crossing of economic and mathematical theory has yielded a bumper 
+harvest of jargon. Does the stockmarket show generalized auto-regressive 
+conditional heteroskedasticity? Can time-delayed embedding explain and 
+profit from the leptokurtosis of stock trades, or will the limit set by 
+the Lyapunov exponent forever make it impossible? Does the 
+back-propagation of errors lead inevitably to overfitting?"
+
+Here are the abstracts of the individual survey articles:
+
+
+Title:       On the edge. (computer prediction of capital markets) 
+             (Finance Survey)
+
+Authors:     Ridley, Matt
+
+Subjects:    Program trading (Securities)_Research
+             Nonlinear theories_Usage
+
+Reference #: A14513797
+
+Abstract: Intelligent computer software which employs recent mathematical
+          research in non-linear statistics, can now produce approximate
+          predictions of financial markets.
+
+
+Title:       Efficiency and after. (classic economic theory versus 
+computer prediction of capital markets) (Finance Survey)
+
+Authors:     Ridley, Matt
+
+Subjects:    Time and economic reactions_Research
+             Program trading (Securities)_Economic aspects
+
+Reference #: A14513807
+
+Abstract: Currency arbitrage markets can be predicted by computer programs
+       because no market is perfectly efficient in the classical economics
+          sense. Slight inefficiencies in the uses of the same market
+          information can be predicted for short time periods.
+
+
+Title:       A dose of empirical evidence. (computer prediction of capital
+             markets) (Finance Survey)
+
+Authors:     Ridley, Matt
+
+Subjects:    Program trading (Securities)_Analysis
+             Nonlinear theories_Usage
+
+Reference #: A14513813
+
+Abstract: Non-linear, or unexplained currency market behavior can be
+          discovered with large amounts of data and modern, powerful
+          computing. Such behavior can be generalized inductively and used 
+          to inform trading decisions.
+
+Title:       A tale of fat tails. (computer prediction of capital markets)
+             (Finance Survey)
+
+Authors:     Ridley, Matt
+
+Subjects:    Program trading (Securities)_Analysis
+             Gaussian distribution_Research
+             Random noise theory_Research
+
+Reference #: A14513825
+
+Abstract: Random statistical 'noise' which does not fit the two-tailed    
+          random Gaussian distribution is the key to understanding current 
+          research in computer prediction of markets. The herd behavior of
+          human traders is being quantified into statistical patterns.
+
+Title:       The proof of the pudding. (Olsen and Associates - computer
+             prediction of capital markets) (Finance Survey) (Company 
+             Profile)
+
+Authors:     Ridley, Matt
+
+Subjects:    Program trading (Securities)_Analysis
+             Time and economic reactions_Research
+
+Companies:   Olsen and Associates_Evaluation
+
+Abstract: Five companies which use extensive non-linear computer trading
+          programs are described. A sixth, Olsen, is very open about its
+          research and methods. Founder Richard Olsen explains how he     
+          analyzes huge amounts of data to predict how markets will react 
+          to world or market events.
+
+
+Title:       Neural networking. (computer prediction of capital markets)
+             (Finance Survey) (Company Profile)
+
+Authors:     Ridley, Matt
+
+Subjects:    Program trading (Securities)_Analysis
+             Neural networks_Usage
+
+Reference #: A14513847
+
+Abstract: Neural network computer programs recognize patterns in data.    
+          With the right data, commercial neural networks such as         
+          NeuralWare's Professional II+ or Right Information System's     
+          Forethought can be effective investment tools.
+
+Title:       Cash machines? (computer prediction of capital markets)      
+             (Finance Survey)
+
+Authors:     Ridley, Matt
+
+Subjects:    Program trading (Securities)_Forecasts
+             Foreign exchange_Forecasts
+
+Reference #: A14513849
+
+Abstract: Forecasting software will change capital markets forever. 
+          However, no current software can apply human trading intuition. 
+          The impact of computer forecasting will be in easier access to 
+          markets by more traders, increasing liquidity and spurring 
+          general economic growth.
+
+************
+
+I have full text.  If anyone can suggest a place where I could dump it for 
+short time personal FTPing by list members, I'd be happy to.
+
+Duncan Frissell
+
+--- WinQwk 2.0b#1165
+                                                                       
+
+------------------------------
+
+End of Extropians Digest V93 #296
+*********************************
+

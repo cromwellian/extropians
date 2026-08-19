@@ -1,0 +1,512 @@
+From extropians-request@extropy.org Sun Apr  3 21:01:59 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id VAA27955 for <more@chaph.usc.edu>; Sun, 3 Apr 1994 21:01:58 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA26899; Sun, 3 Apr 94 21:01:42 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA18820
+  (5.65c/IDA-1.4.4 for more@usc.edu); Mon, 4 Apr 1994 00:01:14 -0400
+Date: Mon, 4 Apr 1994 00:01:14 -0400
+Message-Id: <199404040401.AA18820@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-4-15 - #94-4-20
+X-Extropian-Date: April 4, 374 P.N.O. [00:00:58 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest              Mon, 4 Apr 94              Volume 94 : Issue 93
+
+Today's Topics:
+                       Extropians List Statistics 3/27                [1 msgs]
+                     PCR: Relative Boundary of Certainty              [1 msgs]
+                            RIGHTS: Invisible Hand                    [1 msgs]
+              Simulation vs. Reality - part 2: sentient machines      [1 msgs]
+                         Trouble with Left Anarchists                 [2 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 27370 bytes.
+
+----------------------------------------------------------------------
+
+From: rjc@gnu.ai.mit.edu (Ray)
+Date: Sat, 2 Apr 94 6:33:10 WET
+Subject: [#94-4-15] Simulation vs. Reality - part 2: sentient machines
+
+Stephen J. Whitrow writes:
+> The mechanists have got two choices [and I don't think many would go for
+> 1) these days]: 
+> 
+> 1)  They can adopt the philosophical "barefoot" behaviourism, popular until
+> about the fifties / sixties (particularly with the Soviets).  If men are
+> essentially just unconscious automata, whose output can be consistently
+                   ^^^^^^^^^^^^^^^^^^^^
+> predicted from their sensory inputs, it's quite likely that simulation of
+> their particles on a machine would successfully simulate each individual.
+> After all, the simulation needn't be conscious.  However, this leads to a
+> form of solipsism -- it can't be applied to oneself (except for people who
+> claim to be zombies), and one's own mental states still exist in an
+> unexplained mental world.  (Whether or not this is technically a fallacy of
+> self-exclusion, it sure sounds like it!)
+ 
+  I don't understand why Soviets have to be brought into the
+analogy unless you are trying to make mechanism sound scary. Anyway,
+the underlined phrase zeros in on why your proposed "either-or" is flawed.
+You have already assumed that automata can not be conscious which is
+not proven (you can't prove it by philosophy alone) However, in
+a previous paragraph you talked about nondeterminism being a useful part of 
+your ideal theory, but even nondeterminism can be modeled by automata.
+In the case of finite machines, every nondeterministic finite automaton
+can be converted to a deterministic finite automaton. Now, you might
+argue that brains have more than finite precision which is a possibility,
+but probably not all of that precision is useful information. On the
+other hand, the brain can not store more than a finite amount of information.
+Recently, a thread on the cypherpunks list brought up the Bekenstein
+bound which (I hope I am interpreting it correctly) states that
+in any region of space enclosed by a certain surface area, only a finite
+amount of distinguishable states may be stored (and I assume that
+attempting to store more leads to a black hole) Quantum gravity
+or some more precise theory might change this but I think it's safe to
+assume that the brain can only store a finite amount of information.
+The thing which has to be decided is that it only does a finite calculation
+between each state.
+
+[much deleted. I don't understand how you are defining consciousness.
+"heat differences?" never heard that one before]
+
+> Ironically, once you move too far from the identity theory of tying up
+> each possible mental state with a specific physical state, yet don't
+> revert to behaviourism, this leads towards a mild dualism.  You have to
+> assume that an individual's mental states mysteriously arise just through
+> having an accurate enough algorithm, and it's not supposed to matter
+> whether buttons or ball-cocks and cisterns are used to run the algorithm.
+> Each mental state does not tie up with a corresponding physical state,
+> only a logical state.  Therefore qualia cannot be reduced to physical
+> states, hence these physical states are independent of the "mind".
+
+   It's hard to follow this, but I think the error you are making is
+the same one which prevents you from imagining that microscopic
+phenomena are responsible for macroscopic thermodynamics, or the same
+one which stops creationists from imagining how evolution could have
+produced beings as fantastically complex as us. The error is that
+seemingly simple phenonmena cannot lead *in combination* over time or space
+to very complex phenomena. (i.e. that any combination of algorithms
+could produce something as complex as the mind) Also, logical states and 
+physical states are convertable (give me a physical state, and I'll
+give you a machine with the same logical state, or I'll convert a
+logical state into a physical device representing that logical state)
+
+> In my alternative, each possible mental state, however complex, could
+> be represented by its own particular landscape involving the fifth
+> dimension of electromagnetic space.  Let's say you're conceiving of a group
+> of people living in a muddy commune, one section stocked up with Molotov
+> cocktails for the revolution, another with booze and crack for their
+> recreation.  Each concept would have its particular meme or neuronal
+> structure; the total mental state would be described by all of these
+> firing, maybe with various spiking frequencies or amplitudes to define the
+> relative intensity of each element.  The full result would be a complex set
+> of e.m. waves relating to this mental state, perpendicular to the world-
+> line of the individual in the volume of space occupied by the brain.  With
+> electromagnetic waves explained as ripples in the fifth dimension, a given
+> mental state would be represented by a set of fifth-dimension warps along
+> a section of the individual's world-line approximately 200-400 mS in
+> length.  Since stronger signals with a longer range such as mains hum
+> would attenuate less sharply across the individual's world-line compared
+> to true signals emanating from neurons and would not correspond to any
+> learned memetic signal, they would be rejected as meaningless noise.
+
+  Nice theory (sounds almost like Star Trek technobabble), but Fifth dimension?
+Doesn't exist except in Kaluza-Klien models which aren't generally accepted. 
+Still, it doesn't matter how many dimensions you add, your EM waves will still
+be predictable by a model because they can be described by a theory
+(indeed, you give one). What you must exibit to prevent a UTM from
+being able to simulate your system is a system which does more than a
+finite amount of labor at each step (and thus invalidate church's thesis)
+The interaction of fields are particles in your theory must not be
+predictable (i.e. they must be totally random) and the system as
+a whole must compute more than a TM.
+ 
+> If consciousness requires _anything_ other than a succession of logical
+> states, and the universe is not a simulation, then consciousness could not
+> be simulated since a simulation of the particles would not reproduce the
+> necessary physical conditions.  This would even apply if consciousness has
+> no effects on behaviour; the simulation would behave properly but would be
+> unconscious or its subjective experiences would be inaccurate.
+
+   For consciousness or the universe not to be a sucession of
+*causually related* states (you can define a state for any system, and 
+therefore derive a sucession of them) the universe would have to be
+non-linear and non-causual. That is, there can be no information
+derived for a future state from past states (similar to a totally
+random bit stream, the next bit can not be predicted from any former
+bits)
+   You for looking for a strong version of free will which I don't
+think exists. I think our thoughts are contrained by physical law,
+and the state of our brain at any given moment. That doesn't
+neccessarily mean that they are simply deterministic (there's probably a 
+random element), but having your thoughts controlled by random 
+non-determinism is no more "free" than having it controled by a 
+pseudo-random deterministic generator.
+
+> If the universe is a simulation then our consciousness is likely just a
+> succession of logical states.  But then it might be said that the simulated
+> beings were already simulations, therefore they hadn't successfully 
+> simulated themselves even if they thought they had -- it was an illusion.  
+
+   Why do you believe a simulation of a simulation is not a simulation,
+or that simulations are illusions? You are making arguments by 
+assuming the conclusion. You assume that simulated things are
+illusory in the context of the simulation, you assume that
+automata are unconscious or unliving, and you assume that you have
+more free will than you actually have.
+   Assume this universe *IS* a simulation. To you, simulated things
+are real because you are in the simulation. There is no experiment
+or argument you can perform to detect whether or not this is all
+simulated. To you this is not an illusion because this is the only
+reality you have ever known. (similar to a Star Trek holodeck
+character)
+
+-Ray
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;   --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.     --
+
+------------------------------
+
+From: goodwin@snug.demon.co.uk (Tim Goodwin)
+Date: Sat, 02 Apr 94 12:12:25 GMT
+Subject: [#94-4-16] Trouble with Left Anarchists
+
+In message <940402091632_74204.3113_BHT21-1@CompuServe.COM>
+ "James H. Daugherty" writes:
+> 
+> Left anarchists, in my opinion, are hopelessly tied to non-sensical
+> ideas of spontaneous socialism and would fight as a mob to
+> exproppriate anything extropians or other believers in property
+> tried to build (especially if we were so evil as to offer
+> employment to left anarchist drifters instead of opening the
+> Board of Directors to all of them that happened by!).
+> 
+> Without secure property rights no one bothers to work for the
+> future. . .just like left anarchists.
+> 
+> The fantasy about "free land" above to which I am responding
+> is total nonsense.  To use land you must be able to lay claim to
+> it in some fashion. . .either first use, renting, or purchasing.
+> I won't negotiate with the local mob every time I want to make a
+> productive decision on my land.
+> 
+
+I find your assertion that spontaneous socialism is non-sensical somewhat 
+specious when spontaneous order, an Extropian basic tenet, is deemed to be 
+possible.  Surely socialism, whether you like it or not, is a form of order and 
+can thus be assumed to be theoretically spontaneously possible.
+
+"Left anarchist drifters" seems to me to be a perjorative term that encourages 
+stereotyping and offers little in the way of rational debate.
+
+"Free land" is of course a fantasy.  It is something that people, not 
+necessarily left anarchists,have been fighting for for years.  From the days of 
+the enclosures, when common land was taken forcibly into private ownership and 
+was opposed by groups like the Diggers and their ill-fated stand on St Georges 
+Hill, the concept of private ownership of land has been a political hot potato.
+
+It seems to me that what is lacking in this debate is any justification for the 
+private ownership of land.  Note: I am not talking about use of land or defence 
+of the use of it. I am talking about ownership.
+
+In the UK large tracts of land that were in common use are privately owned.  
+It  has not been until fairly recently that landlords offered a public right 
+of way through miles and miles of some of the most beautiful moorland and hills 
+in the country.  Again, this right did not come about through the enlightened 
+attitude of the land owners, but mass campaigns and mass trespasses through the 
+land in question.
+
+What on earth is the justification for ownership of part of the planet that we 
+were all born on?  The Diggers manifesto 1649: "No man has any right to buy and 
+sell the earth for private gain."  I still happen to think that this is not a 
+bad idea.  Soon the air we breathe will be up for sale.
+
+-- 
+Tim Goodwin             :PGP key available on request
+goodwin@snug.demon.co.uk:  Life without dead time!!!
+
+------------------------------
+
+From: sjw@liberty.demon.co.uk (Stephen J. Whitrow)
+Date: Sat, 02 Apr 94 15:51:01 GMT
+Subject: [#94-4-17] PCR: Relative Boundary of Certainty
+
+On 27 Mar 94 16:17:32 EST, Reilly Jones wrote:
+>The maybe-I-am-a-simulation possibility I have never seen as more than
+>sophistry, easily eliminatable with reflection over time on the richness of
+>sensory experience and the free will of thought to choose subjective purposes
+>and then act on those purposes.
+
+I don't see simulation as a credible reality; however, it does seem just
+possible that it could be proven true if I suddenly wake up in the
+simulators' reality, and they explain to me how it was all done.  The
+arguments from introspection -- richness of sensory experience, free will
+of thought, etc -- look rather good to me, but I'd admit I could be
+mistaken.  So I'd give simulation a probability of about 10^-20, whilst
+being certain in my belief that "I am not a simulation" is an extremely
+credible belief.
+
+>Steve Whitrow again: <But how could you be certain that my posts aren't written
+>jointly by five people together with an AI program, and that "Steve Whitrow" is
+>just a pseudonym?  It might even be the name given to the AI, which actually
+>favours entropic death worship, but keeps getting overruled by the humans.  You
+>could be certain that you believe this to be unlikely, but you couldn't be
+>certain of its certainty in objective reality due to the epistemological
+>limits.>
+>
+>I'm nervous enough about espousing ideas that directly challenge very powerful
+>groups of people world-wide without being made more nervous wondering about
+>entropic death-worshipping covert AIs subverting this list.  Thank you very
+>much.
+
+Sorry if the above was startling; covert operations to infiltrate the list
+by entropic death-worshippers couldn't be ruled out, but I don't think we
+should allow this to silence us.  I'm certain that I couldn't possibly be
+mistaken over my belief that I'm opposed to entropic death-worship
+(although it's possible that over periods of a fraction of a second I
+might be mistaken over perceived images, for instance).  And for any
+beliefs that I'm almost certain of (maybe assigning them a probability of
+0.9999999999 for example) I'd act as if they were true.  
+
+Ideally you would evaluate all possibilities, and take into account their
+probabilities and the risk/reward ratio of each, to maximise utility.  If
+we ever decided that the probability of corruption by entropists times the
+probability of their harming our interests times the stakes involved were
+too high, it would then be more profitable for us to infiltrate the
+entropists.  Or if we were confident that consensual reality could forge
+consensual purpose but third parties represented a serious threat, we
+could use more secure communication channels.
+ 
+By the way, if there are two opposing theories, one believed by 99% of
+people and another believed by 1% of people, and I believe the more
+popular theory, I'd expect this to make the popular theory consensual
+reality (from my viewpoint) since it's "we".  But the alternative's being
+"they" doesn't make it objective reality, so it doesn't seem that "they"
+is always a good term for objective reality.  I'd have objective reality
+as slightly more likely to be the theory with 99% support, although you'd
+have to judge each on their own merits. 
+
+Steve Whitrow                           sjw@liberty.demon.co.uk
+
+------------------------------
+
+From: sjw@liberty.demon.co.uk (Stephen J. Whitrow)
+Date: Sat, 02 Apr 94 19:58:17 GMT
+Subject: [#94-4-18] RIGHTS: Invisible Hand
+
+Reilly Jones wrote on 27 Mar 94 16:17:01 EST
+(re my matrix on subj./cons./obj. reality vs. nat. disorder/order/design):
+
+>I have played around with matrices like this but mine get complicated quickly
+>because I throw in memetic evolution as a much more complex selectional system.
+>This more complex selectional system is what makes for a mixed economy like
+>your milk price example.  Your matrix is a good representation of what really
+>happens.  You could add natural language, semiotics, pragmatics into c.r./s.o.
+>and artificial languages, mathematics and logic into c.r./design.  You could
+>add survival values into s.r./s.o. and chosen values under s.r./design.
+
+I'd have laws of maths and logic -- at least, a number of them -- as
+objective reality and possibly spontaneous orders -- discovered rather than
+designed.  I believe them to be pre-existing orders with an objective
+existence, "written into the universe" if you like.  Although unlike the
+typical spontaneous order (e.g. a dinosaur brain), they didn't evolve into
+existence over a time, but either appeared instantly (Big Bang cosmologies)
+or are eternal (ageless infinite universe cosmologies).  I don't think that
+should disqualify them from the spontaneous order category, unless we add a
+slot in for pre-existing orders of nature.  
+
+Another thing that might fit into the same category is the utility of
+rights, although the rights themselves would be part of consensual reality.
+
+>I've been trying to model how a university should be organized around the
+>different specialties of knowledge and where interdepartmental efforts are
+>crucial to gain broader understanding of the larger framework that memetic
+>evolution fits within.
+
+This sounds like the sort of operation that would benefit memetic
+evolution.
+
+Steve Whitrow                           sjw@liberty.demon.co.uk
+
+------------------------------
+
+From: rjc@gnu.ai.mit.edu (Ray)
+Date: Sat, 2 Apr 94 19:26:20 WET
+Subject: [#94-4-19] Trouble with Left Anarchists
+
+[suggestion: cut your lines to 78 columns in the future]
+Tim Goodwin writes:
+> I find your assertion that spontaneous socialism is non-sensical somewhat 
+> specious when spontaneous order, an Extropian basic tenet, is deemed to be 
+> possible.  Surely socialism, whether you like it or not, is a form of order and 
+> can thus be assumed to be theoretically spontaneously possible.
+
+  The usual Extropian viewpoint is that socialism is inherently
+unstable.
+
+> It seems to me that what is lacking in this debate is any justification for the 
+> private ownership of land.  Note: I am not talking about use of land or defence 
+> of the use of it. I am talking about ownership.
+
+   Before it was private land, it was unowned. The first person to 
+possess the land, and defend it, has ownership of it. I don't support the
+claim that before property was owned, it was owned by everyone.
+
+> What on earth is the justification for ownership of part of the planet that we 
+> were all born on?  The Diggers manifesto 1649: "No man has any right to buy and 
+> sell the earth for private gain."  I still happen to think that this is not a 
+> bad idea.  Soon the air we breathe will be up for sale.
+
+  I think it is a terrible idea because it is totally unworkable as a
+system for allocating land resources. The idea that land use could be
+democratically (without State!) allocated efficiently is a fantasy.
+Local mobs who "democratically" decide to do something to local land
+merely establish a defacto socialist state with those who were out-
+voted being forced to watch land being used for something they
+didn't want. All this does is create a political class where the mob
+votes what it wants and dissenters get the shaft. This is not any
+better than a property system and in fact it is much worse because
+the minority has no recourse (like in a market) and it is incredibility
+bureaucratic.
+  The only way the Diggers philosophy would work is on a frontier where
+population is sparse and land is plentiful, and the major product was
+agriculture. This isn't the situation today.
+
+
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;   --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.     --
+
+------------------------------
+
+From: extropians-request@extropy.org (Extropians Mailing List)
+Date: 
+Subject: [#94-4-20] Extropians List Statistics 3/27
+
+Weekly List Statistics for 3/27 to 4/2
+
+Total Number of Messages Posted: 95
+Total Size of Messages Posted  : 479341 bytes
+Average Total Size per Day     : 68477 bytes
+Average # of Messages per Day  : 13
+Average Message Size           : 5045 bytes
+Number of Posters Participating: 33
+
+
+
+Top Ten Posters by Frequency
+
+1. 70544.1227@compuserve.com (8 total, 1.1/day, 8.4% of total)
+2. plaz@netcom.com (8 total, 1.1/day, 8.4% of total)
+3. timstarr@netcom.com (8 total, 1.1/day, 8.4% of total)
+4. 74204.3113@compuserve.com (7 total, 1.0/day, 7.4% of total)
+5. rjc@geech.gnu.ai.mit.edu (7 total, 1.0/day, 7.4% of total)
+6. grigsby@agames.com (6 total, 0.9/day, 6.3% of total)
+7. davisd@u.washington.edu (6 total, 0.9/day, 6.3% of total)
+8. dasher@netcom.com (5 total, 0.7/day, 5.3% of total)
+9. xtr@liberty.demon.co.uk (5 total, 0.7/day, 5.3% of total)
+10. rosaphil@phantom.com (3 total, 0.4/day, 3.2% of total)
+
+
+
+Top Ten Posters by Volume
+
+1. 74204.3113@compuserve.com (103.1kbytes, 15078 bytes/day, 22.0% of total)
+2. 70544.1227@compuserve.com (49.8kbytes, 7289 bytes/day, 10.6% of total)
+3. habs@sun.panix.com (49.8kbytes, 7287 bytes/day, 10.6% of total)
+4. xtr@liberty.demon.co.uk (32.7kbytes, 4786 bytes/day, 7.0% of total)
+5. timstarr@netcom.com (30.3kbytes, 4425 bytes/day, 6.5% of total)
+6. plaz@netcom.com (29.7kbytes, 4344 bytes/day, 6.3% of total)
+7. rjc@geech.gnu.ai.mit.edu (25.7kbytes, 3755 bytes/day, 5.5% of total)
+8. more@usc.edu (24.0kbytes, 3510 bytes/day, 5.1% of total)
+9. grigsby@agames.com (15.3kbytes, 2232 bytes/day, 3.3% of total)
+10. davisd@u.washington.edu (12.2kbytes, 1783 bytes/day, 2.6% of total)
+
+
+
+
+Histogram of the week by number of messages
+
+       +---------------------+
+Sun    |21                   |
+       +---------------------+
+       +-------------------+
+Mon    |19                 |
+       +-------------------+
+       +-------+
+Tue    |7      |
+       +-------+
+       +---------------------+
+Wed    |21                   |
+       +---------------------+
+       +--------+
+Thu    |8       |
+       +--------+
+       +------------+
+Fri    |12          |
+       +------------+
+       +-------+
+Sat    |7      |
+       +-------+
+
+
+
+
+Histogram of the week by daily volume
+
+       +--------------------+
+Sun    |                    |83215
+       +--------------------+
+       +------------------------+
+Mon    |                        |102239
+       +------------------------+
+       +-----+
+Tue    |     |22170
+       +-----+
+       +------------------------------+
+Wed    |                              |123155
+       +------------------------------+
+       +-----------------+
+Thu    |                 |73672
+       +-----------------+
+       +-----------+
+Fri    |           |45240
+       +-----------+
+       +-------+
+Sat    |       |29650
+       +-------+
+
+------------------------------
+
+End of Extropians Digest V94 #93
+********************************
+

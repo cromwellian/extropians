@@ -1,0 +1,1072 @@
+From extropians-request@gnu.ai.mit.edu Mon May 10 16:19:05 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA15881; Mon, 10 May 93 16:19:01 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA10523; Mon, 10 May 93 16:18:56 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA19164@wookumz.gnu.ai.mit.edu>; Mon, 10 May 93 19:05:48 -0400
+Message-Id: <9305102305.AA19164@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Mon, 10 May 93 19:05:13 -0400
+X-Original-Message-Id: <9305102305.AA19156@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0253
+X-Extropian-Date: Remailed on May 10, 373 P.N.O. [23:05:47 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Mon, 10 May 93            Volume 93 : Issue 0253
+                        
+Today's Topics:
+                            AI:Human Equivalence                      [1 msgs]
+         CFP: Cybernetics of Knowledge Symposium, EMCSR'94 (Vienna)   [1 msgs]
+                  CRYONICS: Re: Reviving a neuro suspendee            [1 msgs]
+                    CRYONICS: Reviving a neuro suspendee              [1 msgs]
+                                ConFrancisco                          [1 msgs]
+                                   Extropy                            [1 msgs]
+                   Forwarded: Cybernetics of Knowledge/PCP            [1 msgs]
+                 LIFE-X: the 120 yr limit, cryogenics, blah           [3 msgs]
+                        META: Singh and all that mess                 [1 msgs]
+                              Meta: List Outage                       [1 msgs]
+                Meta: Metzger vs. McCandlish case II verdict          [1 msgs]
+                          Meta: Privatizing Judges                    [4 msgs]
+                            Nanotech Beanstalks?                      [2 msgs]
+                    The Incredibly High Cost of High Tech             [4 msgs]
+             Why does complicated accounting fail on this List?       [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 53303 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 10 May 1993 11:43:20 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: The Incredibly High Cost of High Tech 
+X-Reposting-Policy: redistribute only with permission
+
+Rich Walker says:
+> Curiously enough, there's a solution to this problem. ARM Ltd's
+> processor, a 32-bit RISC design, weighs in at a pitiful number of
+> transistors for its power, and so becomes an ideal vehicle for
+> testing far-out ideas: if you want to build nano-tech processors,
+> look at this one as a starting point. So simple is it's design (I
+> have no connection with them, except liking them) that a professor
+> at Manchester recently designed a fully-asynchronous version, which
+> I believe has been seen to work in producible silicon. This has two
+> advantages:
+> 
+>   1. No clock! No clock skew! No clock distribution!
+>   2. It's easy to port to faster technologies or slower ones.
+
+Asynchronous digital circuit design is just asking for trouble.
+
+1. Have enormous fun constantly trying to solve metastability
+   problems. Higher the clock rate, the worse it gets. Any time you
+   need a synchronizer, you can't completely avoid the metastability
+   problem. Happy happy happy joy joy joy.
+2. Have even more fun sweating over timing problems.
+
+The course recalled with the greatest fear and loathing of all as I
+contemplated my graduate corsework was asynchronous digital circuits.
+Pain and suffering beyond the capacity of humans to describe.
+
+I'm sure that async circuits that worked well could be designed -- by
+artificially intelligent computers working overtime. Mere humans are
+going to have to work with more reasonable methodologies for the
+forseeable future.
+
+.pm
+
+------------------------------
+
+Date: Mon, 10 May 1993 10:07:19 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: Forwarded: Cybernetics of Knowledge/PCP
+
+Check this out for at least two examples of Extropian memes
+in a more or less mainstream academic enterprise, and for
+the general atmosphere of intellectual hubris (big thinking,
+or Dynamo Optimisim).
+-- Craig
+
+
+------- Start of forwarded message -------
+Newsgroups: sci.systems
+Distribution: world
+Organization: Free University of Brussels
+X-UserAgent: Nuntius v1.1.1d20
+X-XXMessage-ID: <A80D6360EE012365@pespmc1.vub.ac.be>
+X-XXDate: Wed, 5 May 93 11:28:16 GMT
+From: Francis Heylighen <fheyligh@vnet3.vub.ac.be>
+Subject: CFP: Cybernetics of Knowledge Symposium, EMCSR'94 (Vienna)
+Date: 5 May 93 10:32:03 GMT
+
+
+                        CALL FOR PAPERS
+
+   *************************************************************
+   *                       Symposium :                         *
+   *      CYBERNETIC PRINCIPLES OF KNOWLEDGE DEVELOPMENT       *
+   ************************************************************* 
+
+                         as part of the	
+
+    12th European Meeting on Cybernetics and Systems Research 
+               EMCSR'94, Vienna, April 5-8, 1994
+
+
+About the Symposium:
+====================
+
+A symposium in collaboration with the Principia Cybernetica Project (PCP)
+will be held at EMCSR'94. Chairmen are F. Heylighen (representing PCP)
+and S. Umpleby. The theme is a cybernetic perspective on the creation and
+evolution of knowledge, with special emphasis on methods of model
+construction in science. We wish to focus on both fundamental principles
+(what is knowledge, what is science, which criteria distinguish adequate
+knowledge, how does knowledge originate and develop, what is the role of
+induction, abduction, blind variation, selection, recombination, memetic
+spreading...) and practical applications (which methods and tools can
+help us to steer or improve the generation of knowledge). The latter is
+especially important for the Principia Cybernetica Project, as a
+collaborative computer-supported attempt to develop philosophical
+knowledge.
+
+[blurbage deleted]
+
+For more information about the Symposium (not for paper submissions),
+contact:
+
+Dr. Francis Heylighen
+PO-PESP, Free University of Brussels, Pleinlaan 2, B-1050 Brussels,
+Belgium. 
+Fax: +32-2-641 24 89.
+E-mail: fheyligh@vnet3.vub.ac.be.
+
+Prof. Stuart Umpleby
+Dep. of Management Science, School of Business and Public Management,
+George Washington University, Washington DC 20052, USA.
+Fax: +1-202-994 4930.
+E-mail: umpleby@gwuvm.bitnet.
+
+
+About Principia Cybernetica:
+============================
+
+The Principia Cybernetica Project (PCP) is a collaborative attempt to
+develop a complete cybernetic and evolutionary philosophy. Such a
+philosophical system should arise from a transdisciplinary unification
+and foundation of the domain of Systems Theory and Cybernetics. Similar
+to the metamathematical character of Whitehead and Russell's "Principia
+Mathematica", PCP is meta-cybernetical in that we intend to use
+cybernetic tools and methods to analyze and develop cybernetic theory. 
+
+These include the computer-based tools of hypertext, electronic mail,
+electronic publishing, and knowledge structuring software. They are meant
+to support the process of collaborative theory-building by a variety of
+contributors, with different backgrounds and living in different parts of
+the world. PCP will thus naturally develop in the "cyberspace" of data
+shared through interlinked electronic networks, as implemented for
+example in the World-Wide Web distributed hypertext software.
+
+PCP is to be developed as a dynamic, multi-dimensional conceptual
+network. The basic architecture consists of nodes, containing expositions
+and definitions of concepts, connected by links, representing the
+associations that exist between the concepts. Both nodes and links can
+belong to different types, expressing different semantic and practical
+categories.
+
+As its name implies, PCP will focus on the clarification of fundamental
+concepts and principles of the broadly defined domain of cybernetics and
+systems, which includes related disciplines such as the "sciences of
+complexity", AI, ALife, Cognitive Science, Evolutionary Systems, etc.
+Concepts include: Complexity, Information, Entropy, System, Freedom,
+Control, Self-organization, Emergence, etc. Principles include Natural
+Selection, and the Laws of Requisite Variety, of Requisite Hierarchy, and
+of Regulatory Models.
+
+The PCP philosophical system is to be seen as a clearly thought out and
+well-formulated, global "world view", integrating the different domains
+of knowledge and experience. It should provide an answer to the basic
+questions: "Who am I? Where do I come from? Where am I going to?". 
+
+The PCP philosophy is systemic and evolutionary, based on the spontaneous
+emergence of higher levels of organization or control (metasystem
+transitions) through blind variation and natural selection. It includes:
+  a) a metaphysics, based on processes or actions as ontological
+primitives,
+  b) an epistemology, which understands knowledge as constructed by the
+subject or group, but undergoing selection by the environment;
+  c) an ethics, with survival and the continuance of the process of
+evolution as supreme values.
+
+Philosophy and implementation of PCP are united by their common framework
+based on cybernetic and evolutionary principles: the computer-support
+system is intended to amplify the spontaneous development of knowledge
+which forms the main theme of the philosophy.
+
+PCP is managed by a board of editors, presently: V. Turchin [CUNY, New
+York], C. Joslyn [NASA and SUNY Binghamton] and F. Heylighen [Free Univ.
+of Brussels]. Contributors are kept informed through the PRNCYB-L
+electronic mailing list, and the Principia Cybernetica Newsletter.
+Further activities of PCP are publications in journals or books, and the
+organization of meetings or symposia. 
+
+More information about PCP is available by anonymous ftp to
+is1.vub.ac.be, directory /pub/projects/Principia_Cybernetica, or by email
+request to fheyligh@vnet3.vub.ac.be.
+
+
+
+About EMCSR'94:
+===============
+
+[Announcement and CFP]------- End of forwarded message -------
+
+------------------------------
+
+Date: Mon, 10 May 93 12:11:07 -0400
+From: pavel@PARK.BU.EDU (Paul Cisek)
+Subject: LIFE-X: the 120 yr limit, cryogenics, blah
+
+Stanton McCandlish writes:
+>
+>Last neuroscience stuff I read suggested that individual neurons themselves
+>don't store info at all.  Only large groups of neurons do that.  A bit like
+>slime molds.  Maybe some reading is in order?
+
+Well, there's distributed coding, which means that a specific "symbol" or
+"equivalence class" is not represented by a single neuron (a 'grandmother'
+cell) but by a distributed pattern of activities.  Many people have a problem
+with this because they say you cannot learn such a representation - because no
+neuron knows whether to correlate two events or not.  I disagree, each neuron
+only needs to correlate local information - as long as a given pattern always
+elicits an appropriate response...  There's also the notion that each
+neuron does not store an absolute value but a ratio relative to its
+neighbors.  This can be accomplished by lateral inhibition and allows a much
+greater range to be represented.
+
+But anyway, the neurons still do have to store something, whether it is a
+discrete bit or meaningful symbol or just part of a distributed pattern...
+So it depends on your definition of `info'.
+
+Paul
+
+
+------------------------------
+
+Date: Sun, 09 May 93 00:05:52 EDT
+From: caravaggia@aol.com
+Subject: Extropy
+
+I saw the bit on your magazine in _Wired_ and wondered if I could get a
+sample copy. I might be interested in subscribing.
+Thank you!
+
+------------------------------
+
+Date: Mon, 10 May 93 11:42:51 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: LIFE-X: the 120 yr limit, cryogenics, blah
+
+Peter McCluskey writes:
+
+>  There is certainly a lot of complexity in neural behavior that is not
+> captured by ANNs, but as far as I can tell very little of it affects
+> the storage capacities. Can you provide a more specific reference to
+> something that suggests that neurons have more storage capacity than
+> an ANN with 7-bit accuracy in its inputs and outputs, or are you just
+> saying that there's a lot we don't know?
+
+My particular objection involves the meaning of "storage capacity".
+You gave one possible meaning for that -- number of patterns that
+can be distinguished.  However, for such a definition to be applied
+to processing units more complex than perceptrons, you have to
+define what it means to distinguish patterns, and what the information
+content of such an operation would be.  Then, once an adequate
+capacity definition is developed, we can look at biological neurons
+to see how they do.
+
+But even more than this must be done.  My skepticism is based on
+the fact that biological neurons exhibit extremely complex behavior.
+If your (radical and in need of support) claim -- that seven bits
+of information per synapse is an upper limit on the storage capacity
+of biological neurons -- is to be tested, you have to show that
+your capacity definition is the CORRECT one; ignoring aspects
+of neural function that do not fit into your abstract model is
+hazardous at best and it is wrong to put the burden of proof on
+those who do not accept such simplification without proof.
+
+derek
+
+
+------------------------------
+
+Date: Mon, 10 May 93 13:15:33 -0400
+From: pavel@PARK.BU.EDU (Paul Cisek)
+Subject: LIFE-X: the 120 yr limit, cryogenics, blah
+
+Peter McCluskey writes:
+>
+> There is certainly a lot of complexity in neural behavior that is not
+>captured by ANNs, but as far as I can tell very little of it affects
+>the storage capacities. Can you provide a more specific reference to
+>something that suggests that neurons have more storage capacity than
+>an ANN with 7-bit accuracy in its inputs and outputs, or are you just
+>saying that there's a lot we don't know?
+>
+
+I think I can answer that.  A real biological neuron fires when the
+post-synaptic potentials that travel down from the synapses to the 'axon
+hillock' overlap sufficiently to exceed a threshold above which a
+self-regenerating reaction occurs.  This is affected by both the amplitude of
+the individual spikes and the time delay between them.  The amplitude of each
+spike at the synapse is determined by a number of variables like the
+concentration of Calcium and various complex proteins, which may therefore be
+used to 'store' information in a sense.  As the signal propagates down the
+dendrite it decays exponentially, so the distance that must be traveled (a
+structural variable) also determines the neuron's likelihood of firing.  The
+width of the dendrite segments also has an effect.  The time delay between
+spikes is determined also by various biochemical concentrations at the
+synapse, as well as by the properties of the cell membrane.  As far as the
+chemical concentrations are concerned, there are various amplifying and
+inhibiting enzymes present; the construction of some of these from DNA may also
+be guided by neurotransmitters released from other neurons.  In short, there
+is a perplexing number of places that a neuron can store information over a
+long term (please excuse my tirade).
+
+Then there's the notion of automatic gain control - that neurons
+with a limited range of firing frequencies can represent a huge dynamic range
+of meaningful values when placed within a field of laterally inhibiting
+neurons.  For example, your retina can discriminate 9 orders of
+magnitude, down to individual photons!  Substantially more than your 7-bit
+accuracy.  This range is determined by the connectivity, which is in turn
+determined by the variables I mention above...
+
+ANNs assume the existence of a 'point neuron', an abstraction analogous to
+point masses in physics.  If this abstraction is correct then our speculations
+are reasonable.  However, not knowing, we are foolish if we don't exercise any
+caution and confidently announce that our network experiences human
+phenomena...
+
+Paul
+
+
+------------------------------
+
+Date: Mon, 10 May 1993 11:10:44 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: The Incredibly High Cost of High Tech 
+X-Reposting-Policy: redistribute only with permission
+
+Timothy C. May says:
+> Bizarrely, Samsung is having some problems. Their CEO ran for
+> President of S. Korea, and lost. The new President holds a grudge and
+> the government has blocked money flows out of Korea for Samsung, so
+> they can't pay their U.S. employees! The wonders of tight cooperation
+> between the State and Korporations.
+
+I believe the Chaebol in question is Hyundai, not Samsung, and
+although I can believe that the established parties are making the
+company miserable, I have trouble believing that its gone that far
+because I suspect I would have heard about the impact that would have
+been having on their shipments of Sparc clones, which to my knowledge
+are happening right on schedule.
+
+.pm
+
+------------------------------
+
+Date: Mon, 10 May 93 10:39:32 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: Meta: Privatizing Judges
+
+You may be right that my scheme is too complex, though it seems simple
+enough to me.  In any case, the basic foundation we need to allow PPL
+on the list is for the list to honor prior contracts about who will
+judge disputes.  So I do seriously request that ExI form and publish
+an official position on this question.
+
+Robin Hanson
+
+------------------------------
+
+Date: Mon, 10 May 93 10:56:54 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: CRYONICS: Reviving a neuro suspendee
+
+Hal Finney writes:
+>I have seen three different scenarios discussed for how a body may
+>be created and attached to the head of someone who takes on neurosuspension.
+>In addition, there is a fourth scenario, uploading, in which the head
+>never acquires a body but comes to life as a computer simulation in a
+>virtual reality.
+
+I've always wanted to use the term "uploading" to also include the
+situation where one's brain is ported to new computer hardware, but
+where that brain is given a real android body.  And I have further
+speculated that that body would be only a few millimeters tall.
+
+In any case, the uploading path has long seemd the obvious dominant
+revival path to me.  I expect we will know how to upload before we
+know how to repair freezing damage, and that economic pressures would
+make most folks prefer uploading even if the alternatives were just as
+easy.  In fact, cryonics patients might at first have legal advantages
+over ordinary folks to allow researchers to try uploading on them.  
+
+Robin Hanson
+
+------------------------------
+
+Date: Mon, 10 May 93 13:01:20 CDT
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: Nanotech Beanstalks?
+
+An object hanging at the bottom of an orbital suspension bridge
+is moving more slowly than orbital velocity at that height.
+The gravitational attraction of the Earth is not affected
+by the horizontal velocity, but the centrifugal acceleration
+(v^2/r) is.  In circular orbit, these accelerations are equal
+and opposite, so the net is zero.  On the suspension bridge,
+you have an excess of gravity realtive to centrifugal 
+acceleration, so you see a net downward force.  You appear to
+be hanging from the bottom of the cable.
+
+The mass of a semi-beanstalk depends on the allowable loads
+you design to and the amount of redundancy you build into
+the structure.  In theory, a material with a strength of
+1 million psi and a density of 0.66 lb/in^3 (i.e. the best
+existing carbon fiber), would have a mass of cable:mass of
+payload of 4000:1.  
+
+An increase of 20% in strength would allow the mass ratio
+to fall to 1000:1, so you can see the mass is very sensitive
+to strength.  These types of mass ratios (a few thousand to
+one) are considered feasible because they are similar to
+the weight of a suspension bridge relative to the weight
+of a vehicle crossing the bridge.  It requires many trips
+on both types of bridges to justify their construction -
+an orbital suspension bridge for one trip is a losing
+proposition
+
+Dani Eder
+
+------------------------------
+
+Date: Mon, 10 May 1993 14:04:42 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: AI:Human Equivalence 
+X-Reposting-Policy: redistribute only with permission
+
+Hal Finney says:
+> The point is, it doesn't matter how fast your hardware is if you don't
+> know what program to run on it.  The real problem isn't the hardware, it's
+> the software.  Extrapolating current trends in computer speedups is both
+> unsound (the same methodology would have failed during almost any
+> innovative period in the past, giving us, for example, locomotives
+> travelling at thousands of miles per hour, or cotton picking equipment
+> capable of clearing a whole field in milliseconds) and pointless, as
+> faster computers are neither necessary nor sufficient for AI.
+
+My favorite way to punt on this issue is to note that you can, in
+theory, simply use precisely simulated human brains without needing to
+understand how they work. Not that this is the best route, but given
+enough computing power and nanomachines to map a whole brain out, it
+should function as advertised.
+
+Perry
+
+------------------------------
+
+Date: Mon, 10 May 1993 13:38-EDT
+From: Marc.Ringuette@GS80.SP.CS.CMU.EDU
+Subject: The Incredibly High Cost of High Tech
+
+> Total cost of capital needed to build peak volume of 386:      $100 million
+> Total cost of capital needed to build peak volume of 486:        $1 billion
+> Total cost of capital needed to build peak volume of Pentium:    $5 billion
+
+Tim extrapolates that costs may reach $100 billion at some point.
+This goes against everything I know about technology curves (which,
+I'll admit, isn't much).  
+
+To me, a normal technology curve looks like "constant cost, increasing
+performance" or "constant performance, decreasing cost".  Drastic
+increases in plant cost just aren't a part of my world model, except
+as the behavior of a bloated giant about to self-destruct.
+
+I guess I'm motivated by a fundamental feeling that "small is beautiful"
+and I'm searching for the killer argument that the economies of scale
+will almost never favor a $100 billion plant in normal circumstances.
+This echoes the standard anarchocapitalist rationale against monopolies,
+which is that economies of scale just aren't what they're cut out to be.
+
+Maybe some of you can help me out on this one.  Can you give some
+substance to my intuition that plant costs won't continue to increase?
+
+
+-- Marc Ringuette (mnr@cs.cmu.edu)
+
+
+
+------------------------------
+
+Date: Mon, 10 May 1993 14:15-EDT
+From: Marc.Ringuette@GS80.SP.CS.CMU.EDU
+Subject: Why does complicated accounting fail on this List?
+
+> This is a question I've been wondering about: Why do schemes involving
+> complicated accounting and pricing work in the "real world" but fail to
+> catch on on this list?
+
+My model of this phenomenon, which seems to hold up pretty well across
+a wide range of "why didn't this happen" questions, is this:
+
+  In order to succeed, an idea must BE GOOD and it must HAVE A CHAMPION.
+
+Some of the market-based filtering ideas have sounded good, but none of
+them has had a champion.  HEx may be the first success if Brian has the
+energy and time to get it together, purely because there's one person
+who's willing to take the whole project on his shoulders.
+
+Virtually all Internet success stories involve both a well-aimed idea
+and a person to carry it all the way through.
+
+
+-- Marc Ringuette (mnr@cs.cmu.edu)
+
+------------------------------
+
+Date: Mon, 10 May 1993 09:55:32 -0700
+From: 155yegan%jove.dnet.measurex.com@juno.measurex.com (Terry Egan)
+Subject: ConFrancisco
+
+> Will any of you be at ConFrancisco?
+
+I will be going.  What will be the Schelling point for meeting each other ?
+
+Terry Egan
+
+------------------------------
+
+Date: Mon, 10 May 93 11:29:18 PDT
+From: danielg@autodesk.com
+Subject: CRYONICS: Re: Reviving a neuro suspendee
+
+Hal Finney described the problems of bringing back a nerosuspendee.
+I enjoyed his posting very much.  It was very well thought out and
+presented.  I suspect however that there may be a subtle flaw in his
+reasoning which could invalidate his conclusion that the process is
+doomed to fail.
+
+Let's assume that we only have the head and are trying to match up the
+nerve ends with those of an unfamiliar body (or simulated nerves with
+a simulated body which is the same problem).  We do the back
+tracing into the brain to see roughly what each one is for.  Hal seemed
+to imply that the match needed to be perfect to be of any use, and that
+attempts to get it right would be torture.
+
+I agree that to attempt to get it perfect would be torture, but I don't
+believe that we need to do that.  I think that "close is good enough".
+The mind will learn and adapt to it's new inputs.
+
+In support of this belief I'd site the experiment in which a subject
+would wear a prism over his eyes which would flip his vision up-side-down.
+After a day or so, he adjusts quite well to the new view.  The wierd
+thing is that after removing the device, he again sees everything
+up-side-down for a while and needs to get used to his original eyes again.
+
+The fact that the human mind can make such a huge adjustment so easily
+leads me to suspect that it could do the same with slightly misplaced
+nerve connections.  Sure, the relearning process might be frustrating
+and slow (probably much like that experianced by stroke patients) but
+I would gladly go through it in order to live.
+
+- Daniel Green
+  danielg@autodesk.com
+
+------------------------------
+
+Date: Mon, 10 May 93 13:06:48 EDT
+From: Andy Wilson <ajw@Think.COM>
+Subject: META: Singh and all that mess
+
+   From: Stanton McCandlish <anton@hydra.unm.edu>
+   Date: Mon, 10 May 93 1:52:37 MDT
+
+   > >    I don't know whether people have figured this out yet, but
+   > > RAPSW is Pandit Singh. He crossed posted that Buddism post to a religious
+   > > list in an attempt to get responses to show up here. RAPSW has
+   > > been blocked from posting (he was never on the list).
+
+   Something I've been thinking about: I remember talk of someone Way Back When
+   who was banned from the list, some time before Singh appeared. One list member
+   suggested that the person was toying with or experimenting on extropians.
+   Considering that [I presume it is somehow provable] Singh has used various 
+   other aliases, is it not likely that Singh is actually this other person under
+   yet another alias?  Just an idea.  I think Pandit Singh is a fake name anyway;
+   sounds like a combination of pundit and bandit, with the rather stereotypical
+   Singh tacked on the end (maybe he/she/it watch Wrath of Khan too many times?)
+
+Pandit is a respectful title in Hindi,  sometimes having a meaning similar
+to "Doctor" (as in Ph.D., not M.D),  sometimes having a meaning more like
+"Reverend".  For example,  the musician Ravi Shankar is sometimes called 
+"Pandit Ravi Shankar".  The Urdu equivalent used by Muslims is "Ustad".
+
+Singh is a very common surname,  so "Pandit Singh" is about like saying 
+"Dr. Jones" in English.  I would have said "Dr. Smith" but if you've ever
+seen "Lost in Space"...
+
+Andy
+
+   -- 
+   Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+   Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+   IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+   Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+   Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+   Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+
+------------------------------
+
+Date: Mon, 10 May 1993 14:59:51 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: The Incredibly High Cost of High Tech 
+X-Reposting-Policy: redistribute only with permission
+
+Marc.Ringuette@gs80.sp.cs.cmu.edu says:
+> > Total cost of capital needed to build peak volume of 386:      $100 million
+> > Total cost of capital needed to build peak volume of 486:        $1 billion
+> > Total cost of capital needed to build peak volume of Pentium:    $5 billion
+> 
+> Tim extrapolates that costs may reach $100 billion at some point.
+> This goes against everything I know about technology curves (which,
+> I'll admit, isn't much).  
+> 
+> To me, a normal technology curve looks like "constant cost, increasing
+> performance" or "constant performance, decreasing cost".  Drastic
+> increases in plant cost just aren't a part of my world model, except
+> as the behavior of a bloated giant about to self-destruct.
+
+I think what is being missed here is the vast increases in the volume
+of chips being shipped. The $5 billion doesn't represent a rising cost
+for a given volume of chips -- it represents the anticipation of sales
+of a vastly larger number of chips. Its not unexpected that as
+production volume rises total factory costs might rise even as
+per-unit costs fall. Compare current yearly volume of computer sales
+to just a decade ago and you will see what I mean.
+
+
+Perry
+
+------------------------------
+
+Date: Mon, 10 May 1993 16:08:12 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Meta: Privatizing Judges
+
+I am confused as to were (below) LA = List Adminstrator and were
+				      it means List Ajudicator
+
+
+a conscious being, Tom Morrow wrote:
+> 
+> I'm very encouraged by this thread.  It seems to me as if we are reaching a
+> consensus on a method that will allow both allow us more freedom to choose
+> legal methods on this list and improve the peace of our virtual community.
+> 
+> As I currently understand that consensus, everyone who has posted on the
+> topic agrees that list members should have the right to choose third
+> parties to adjudicate their disputes.  They need not notify the List
+> Administrator of their privately-adjudicated disputes, but the LA retains
+> the right to bring separate charges for violation of the list's rules.
+> 
+> There is at least one topic that I think we still need to discuss, however.
+>  Robin has said that:
+> 
+> >I think the question is whether ExI will honor contracts made before a
+> >dispute has arisen, about who should judge any disputes between two
+> >parties.  . . . If they agreed to used judge A,
+> >and then one side changes their mind once a dispute has arisen, the
+> >List Administrator refuses to judge the case.
+> 
+> This sounds as if Robin wants the default rule to be: The LA will not hear
+> a case involving a party who refuses to honor a prior agreement to use a
+> private adjudicator.  But I am not sure that this is the optimal rule for
+> ensuring that the disputes get settled.  I would prefer to say that the LA
+> will honor adjudication contracts that explicitly say the LA is not to be
+> used.  Of course, as always, the LA retains the right to bring separate
+> charges.  But the default rule would be that anyone can make recourse to
+> the LA's services.  Parties must contract around this default rule.
+> 
+> I think this is consistent with Robin's restatement of his proposal:
+> 
+> >I hereby officially propose that ExI honor private prior contracts
+> >specifying who should judge future disputes regarding Extropy rules.
+> 
+> 
+> I will try to encourage, or at least leave room for, the PPL reforms we
+> have been suggesting as I revise the List Code.
+> 
+> T.O. Morrow                     --  twb3@midway.uchicago.edu
+> Vice President: ExI             --  The Extropy Institute
+> Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+> 
+> 
+> 
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Mon, 10 May 1993 15:03:36 -0600
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: Meta: Privatizing Judges
+
+I'm very encouraged by this thread.  It seems to me as if we are reaching a
+consensus on a method that will allow both allow us more freedom to choose
+legal methods on this list and improve the peace of our virtual community.
+
+As I currently understand that consensus, everyone who has posted on the
+topic agrees that list members should have the right to choose third
+parties to adjudicate their disputes.  They need not notify the List
+Administrator of their privately-adjudicated disputes, but the LA retains
+the right to bring separate charges for violation of the list's rules.
+
+There is at least one topic that I think we still need to discuss, however.
+ Robin has said that:
+
+>I think the question is whether ExI will honor contracts made before a
+>dispute has arisen, about who should judge any disputes between two
+>parties.  . . . If they agreed to used judge A,
+>and then one side changes their mind once a dispute has arisen, the
+>List Administrator refuses to judge the case.
+
+This sounds as if Robin wants the default rule to be: The LA will not hear
+a case involving a party who refuses to honor a prior agreement to use a
+private adjudicator.  But I am not sure that this is the optimal rule for
+ensuring that the disputes get settled.  I would prefer to say that the LA
+will honor adjudication contracts that explicitly say the LA is not to be
+used.  Of course, as always, the LA retains the right to bring separate
+charges.  But the default rule would be that anyone can make recourse to
+the LA's services.  Parties must contract around this default rule.
+
+I think this is consistent with Robin's restatement of his proposal:
+
+>I hereby officially propose that ExI honor private prior contracts
+>specifying who should judge future disputes regarding Extropy rules.
+
+
+I will try to encourage, or at least leave room for, the PPL reforms we
+have been suggesting as I revise the List Code.
+
+T.O. Morrow                     --  twb3@midway.uchicago.edu
+Vice President: ExI             --  The Extropy Institute
+Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+
+
+------------------------------
+
+Date: Mon, 10 May 1993 16:37:28 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: Nanotech Beanstalks?
+
+   I read somewhere that diamond fiber (pure) is just good enough for a 
+beanstalk to be built to orbit (from the ground). This is kind of depressing,
+because we are limited as to the strength of materials and our theoretical
+best barely gets us off the planet. Being an optimist, I hope that one day
+we can harness the strong nuclear force like we harness the electromagnetic
+force to build super strong materials.
+  I don't know anything about QCD, however I know that the strong force
+is very short range.  Does anyone know if it is possible to build
+a fiber/crystal structure made out of nothing but bound protons/neutrons? 
+Like neutron star material, but held together without massive gravity.
+
+  What about an active material, maybe a diamoid structure but strengthened
+somehow by an external mechanism (say, a strong magnetic force
+generated at the nanoscale between interlocking structures?)
+
+  Com'on Extropians, we can't be satisfied with just plain old carbon!
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Mon, 10 May 1993 17:01:09 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Meta: List Outage
+
+It is not a bit uncertain about when FSF is moving the list.
+
+If it happens suddenly there may be a longer list outage than
+expected previously. 
+
+If for some reason you stop getting list traffic for a day or
+two don't panic.
+
+/habs
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Mon, 10 May 93 14:32:49 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: Meta: Privatizing Judges
+
+Tom Morrow writes:
+>This sounds as if Robin wants the default rule to be: The LA will not hear
+>a case involving a party who refuses to honor a prior agreement to use a
+>private adjudicator.  ... I would prefer to say that the LA will
+>honor adjudication contracts that explicitly say the LA is not to be used.  
+>...  But the default rule would be that anyone can make recourse to
+>the LA's services.  Parties must contract around this default rule.
+
+Hmm.. well I didn't intend to be advising default rules.  As long as
+we're clear what the default is, it shouldn't matter that much.  I
+would have thought that a contract reading "Perry and Robin agree to
+use Tim to judge any future Extropians disputes, a contract in effect
+until both change it" would imply that I couldn't go running to the LA
+for justice if I had a beef against Perry.  But if we need to add
+specific words to that effect, fine - just be clear about that.
+
+>I will try to encourage, or at least leave room for, the PPL reforms we
+>have been suggesting as I revise the List Code.
+
+Great!
+
+Harry writes:
+>I am confused as to were (below) LA = List Adminstrator and where
+> means List Ajudicator
+
+If there's a difference, I would think the latter is what we mean.
+
+Robin Hanson
+
+------------------------------
+
+Date: Mon, 10 May 1993 18:03:08 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Meta: Metzger vs. McCandlish case II verdict
+
+In the spirt of the recent debate on the nature of judging list
+"rules" I am changing my MO.
+
+I find that some of the lang. Mr. McCandlish directed at Mr. Metzger
+was both flame bait and/or flaming. 
+
+This is not allowed under list rules.
+
+I ban Mr. McCandlish from posting from 5/11/93 to 5/18/93.
+
+With the publication of this verdict I lift any ban on it's
+discussion.
+
+/Harry
+
+As always either party to the dispute may appeal.
+
+The charges filed were:
+  -- cut here
+ From: "Perry E. Metzger" <pmetzger@lehman.com>
+
+I wish to press charges against Mr. McCandlish.
+
+To whit:
+
+1) Name calling, i.e. refering to me as a weasel (a.k.a. weaseling).
+2) Gratuitous insult (i.e. "Learn to read.")
+3) Flaming ("BS")
+4) More insult, to whit
+  "<snort> If you are going to spout ludicrosities like this forget
+  it.  I have not desire to converse with someone who has a
+  god-complex."
+  "I refuse to stoop to lower-circuit hairless ape
+  chestbeating contests with someone who"
+5) More flaming.
+
+I do not feel that this sort of behavior is conducive to a well
+functioning list.
+
+Perry Metzger
+
+Stanton's Message Follows:
+
+------- Forwarded Message
+
+ To: Extropians@gnu.ai.mit.edu
+ From: Stanton McCandlish <anton@hydra.unm.edu>
+ X-Original-Message-Id: <9304281828.AA25031@hydra.unm.edu>
+ Subject: Earth Day
+ X-Original-To: Extropians@gnu.ai.mit.edu
+ Date: Wed, 28 Apr 93 12:28:47 MDT
+ X-Extropian-Date: Remailed on April 28, 373 P.N.O. [18:31:11 UTC]
+ Reply-To: Extropians@gnu.ai.mit.edu
+ Errors-To: Extropians-Request@gnu.ai.mit.edu
+
+Perry E. Metzger
+
+> > For one thing, that is weaseling.
+> 
+> No, its not. On the other hand, you are resorting to name calling.
+
+How so?  I think it is a dead-on-target statement.  I accused you of one
+thing and you totally avoid that, and go off on a tangent:
+ 
+> Your claim was that because I have no scientific studies in hand, I am
+> necessarily wrong. This is specious -- a logical argument without even
+
+You still insist on this despite having told you THREE TIMES now:
+That is NOT what I said.  Learn to read.  My point was that if you cannot
+back up your statement, it is necessarily an UNKNOWN.  Neither right nor
+wrong.  As you will remember, I even agreed with you that it may well be
+a correct assessment of what most environmentalists are like, but without
+a study, it is NOT a known fact, it is just BS that might be true and might not.
+ 
+> > Everyone, more or less, knows that, and it
+> > is a widely accepted, common-sense given.  That all (or in your estimation 
+> > just most) environmentalists are misanthropic leftists does not have that
+> > status.
+> 
+> On the contrary. The phrase "most" is very important here. I believe,
+> for instance, that without scientific studies I can state that it is
+> likely that most american men spend more time watching sports on
+> television than most american women. I am not in possession of a study
+> -- I am basing this entirely on anecdotal evidence. It is none the
+> less likely completely correct.
+
+Again, you are weaseling.  That is EXACTLY parallel to the subway example:
+it is a common-sense "known fact" that is taken as given by anyone you care
+to ask (and in fact studies HAVE been done on that.  Every heard of the 
+Neilsen Ratings?).  It is NOT parallel to the enviro example in any way what
+so ever, because that is NOT a general consensus opinion bases on experience,
+its is a PERSONAL opinion based on PERSONAL experience, extremely at odds 
+with many others' experiences.
+
+> > > for chrissake. I readily admit that its foolish to believe something
+> > > if it is contradicted by scientific evidence -- but often such
+> > > evidence is not readily at hand.
+> > 
+> > IMNSHO, it is almost as foolish to believe something that simply has no 
+> > support either way.  As I believe Krysz' posted, think "I don't understand
+> > this", not "This is wrong" [or right].
+> 
+> My statement has support. It has plenty of support. I believe myself
+
+Such as what? Besides caricatures, your anecdotes, and Krzys' rants?
+ 
+> > > To whit, I know of no good scientfic polls of the environmentalist
+> > > community. However, I've spent a lot of time with a lot of
+> > > environmentalists, and I've seen very few who were not leftists or
+> > > even authoritarians.
+> > 
+> > Fine. Then you (and the original poster) could have said "Well, based upon
+> > my admittedly limited experience with people who seem to fit this
+> > category,
+> 
+> My experience is not limited. In various activist causes, I suspect I
+
+<snort>  If you are going to spout ludicrosities like this forget it.
+I have not desire to converse with someone who has a god-complex.  Not limited
+indeed...
+> 
+> > it appears to me that most of them are misanthropic, clueless leftists."
+> > Simple, to the point, and requiring no proof.  Compare that to the original.
+> 
+> But the original is quite likely the case. 
+
+Again you missed the entire point.  The debate is not whether the statement
+is a root true or false but rather that it is weasely doublespeak that attempts
+to pass itself off as fact without any evidence other than the anecdotal.
+ 
+> Fine. $1000. Is that enough for you? If it isn't, I'll raise the pot
+> again. I suspect others will go in on it with me. There is likely more
+> than enough money available to make this interesting to you. As they
+> say, put up or shut up.
+
+Definately forget it.  I refuse to stoop to lower-circuit hairless ape
+chestbeating contests with someone who
+1) weasels out of the argument repeatedly
+2) misses the point no matter how plain I make it (I point out AGAIN that
+the issue is not the veracity of the statement, but the mentality behind 
+it; thus your 4th offer to bet on this and bet on that is totally irrele-
+vant)
+3) who attempts to get out of defending their logic by throwing up smoke-
+screens like gambling matches in the first place, and ordering people to
+"shut up" if they won't play by their rules.  I further point out that
+when I request YOU to "put up" (i.e. demonstrate some evidence for what you
+say), you refuse to do so.
+
+I cannot argue with that.  Just like I cannot argue with fanatics and megalo-
+maniacs.  I CAN but it is a waste of time.  I have more important things to
+do.  Good day.
+
+PS: cry "flame charges" all you want to.  I think my statements are quite 
+accurate and easily supportable.  They are not flames but simple observations.
+
+- -- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------- End of Forwarded Message
+
+
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0253
+****************************************
+

@@ -1,0 +1,1040 @@
+17
+Message 17:
+From exi@panix.com Thu Jul 29 16:15:24 1993
+Return-Path: <exi@panix.com>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+        id AA29032; Thu, 29 Jul 93 16:15:19 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+        id AA22247; Thu, 29 Jul 93 16:15:08 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by panix.com id AA23607
+  (5.65c/IDA-1.4.4 for more@usc.edu); Thu, 29 Jul 1993 19:11:00 -0400
+Date: Thu, 29 Jul 1993 19:11:00 -0400
+Message-Id: <199307292311.AA23607@panix.com>
+To: Exi@panix.com
+From: Exi@panix.com
+Subject: Extropians Digest
+X-Extropian-Date: July 29, 373 P.N.O. [23:10:51 UTC]
+Reply-To: extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Thu, 29 Jul 93             Volume 93 : Issue 209
+
+Today's Topics:
+                                                                      [2 msgs]
+                    AI: Searle's Chinese Torture Chamber              [1 msgs]
+                FSF: Some Useful Software, No Useful Politics         [1 msgs]
+           Intellectual Property and the personal computer industry   [1 msgs]
+                            MEDIA Networld article                    [1 msgs]
+                          Papers on Searle available                  [1 msgs]
+                       Searle's Chinese Torture Chamber               [1 msgs]
+                  Searle's Chinese Torture Chamber Revisited          [1 msgs]
+                        Who is signed up for cryonics                 [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52717 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 29 Jul 93 5:40:52 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Intellectual Property and the personal computer industry
+
+Inigo Montoya () writes:
+> First, Ray made a comment (in response to someone else) that "no
+> one will get rich in software anymore" unless property rights are
+> respected.  I'd like to make quite clear that I don't see that as
+> a problem.  If Ray thinks this is not "EC" of me, well, that's his
+> business.  I *do* care about the quality of my future, and how much
+> I accomplish, and how much fun I have along the way.  Getting rich
+> is irrelevant.  I understand he may feel otherwise.  Many people
+> do.
+
+   Of course getting rich (not super-rich, but just well-off) is a factor for 
+many extropians because it allows you to have more resources 
+at your disposal. Financing Free Oceania, paying for cryonics, starting a
+business to research something you like, and paying for equisite health care. 
+One of the reasons ExI can't sell more copies of Extropy is because they are
+strapped for cash. ExI could _give_ Extropy away but then they
+couldn't finance other badly needed projects.
+
+> Let's see if I can clarify some other points.
+> 
+> As Dean Tribble pointed out, even if you give the source away for
+> free, there are opportunities to make money (a) matching people up
+> with products (b) supporting the product (this may mean adding
+> desired features, fixing bugs, training, notifying of upgrades).
+> Ray seems to think that this money is going to dry up Real Soon
+
+  I think you're way off on this. I wish you'd provide figures
+backing up your assertion. I have serious doubts about the amount of
+money you can make selling manuals, upgrades, etc _without copyright_
+In a world where high quality printing/copying/scanning is
+dropping rapidly, why wouldn't someone else just OCR the manual?
+
+ I'll give you anedotal evidence supporting my point right now.
+Almost every single piece of cracked software nowadays comes with the
+manual. If challenged, I will give you BBS numbers and FSP sites on the
+net where you can verify this. Moreover, if you have problems
+with the pirated software you can call your local bbs and get adequate
+_free_ support.
+
+  Additionally, FSF's financial figures are freely readable on GNU and it
+is quite clear that every year they have been taking a _LOSS_ selling
+manuals.
+
+  Also, pirate groups usually spread updates massively the first
+day they are released (along with an attached README file bragging that
+they were the first to do it)  Pirates pride themselves getting
+and distributing "zer0 dayz 0ld warez"
+
+  Finally, Dean's idea sounded good but AMIX wasn't exactly a sparkling
+success was it? Personally, if free software was available on the net,
+I'd use Archive/Gopher/WAIS/WWW to locate it instead of paying Dean
+simply because it's free. The service provided by AMIX is marginal. Only
+if they had scarce goods, something I wanted badly but couldn't get free,
+would I be interesting in using their service.
+
+> Ray also seems to be concerned about several other things.  One of
+> the major ones is that products for the personal computer market
+> are going to somehow dry up if we don't charge for the software.  
+> Let me explain what I think will happen to the personal computer 
+> market.  *NOT* under anarchocapitalism.  Here.  In the near future.  
+[...]
+> I think that all those wide varieties of word processors, desktop
+> publishers, spreadsheets, and other amazingly common applications
+> are going to shakeout over the next decade or so.  The results of
+> this shakeout will wind up sold in ROM chips (rare upgrades, but real
+> solid -- pretty close to being effectively bug free).  I know of 
+> at least one startup in Bellevue betting on exactly this (and 
+> hoping to get the portable result down to somewhere in the 
+> vicinity of early calculator size).
+
+   There is absolutely no advantage to running software in ROM. It makes
+upgrades harder, ROMs have more wait-states than fast ram, and ROMs are
+more expensive than floppies. It sounds like you are simply reinventing
+the days of rom-cartridges that are now available on video games. And ROM
+software is trivial to pirate. The purported advantages against
+viruses can be achieved just as easily with protected memory. Viruses
+really aren't a major issue for most people.
+ 
+> I think there will continue to exist applications programmers (in
+> the sense I think of them now).  I have a hard time imagining a
+> world which isn't continually hungry for new games, if nothing
+> else.
+
+   But *WHY* will they develop these applications? From personal knowledge,
+I can tell you that in many markets (Commodore 64, Amiga, Atari), pirating
+is so rampant that making $5000 off of a 6 month game development is considered
+good! The hypothetical bonanza to be made from manuals/support/upgrades
+hasn't materialized. Programmers are leaving to these platforms in
+droves to the PC only because the market is larger (but the pirating
+is about the same).  About the only truly successful games recently have
+been lemmings and populus. (on the PC it's a different story as Lord British
+seems to be making a killing, but it's not from support/manuals)
+
+> I'll have to pay for the hardware when I buy one of these toys,
+> but I doubt it'll be expensive.  More than a watch.  Less than a
+> car.  High end stuff will be prime theft targets.  Low end stuff 
+> you can get for 10 boxtops + postage and handling.  Early obsolescence.
+> 
+> It'll come with a variety of stuff already (word proc.,
+> spreadsheet, etc. ad absurdum).  I'll be able to *buy* additional 
+> ROM software. (These programs will be solid, very close
+> to bug free, and flipping fast.  They will be designed to solve a
+> well-defined task.  And I'll pay for them, because I'm basically
+> paying for the media.  The developers will likely sell them for a
+> flat rate (no royalties) to the chip makers, who need them to sell
+> chips -- because there is no money in hardware.).
+
+  Now all you're doing is applying the solution the music industry has
+adopted which is to increase the price of the media. So because of your
+proposal we can expect the price of computers, ram, floppies, and rom chips
+to increase so the software industry can be subsidized. This dilutes
+the market price signals as they first have to pass through the hardware
+manufacturers who will no doubt invent excuses to raise them higher.
+Of course, since this isn't an anarchocapitalist society we are discussing
+you can expect consumer groups to rebel and call for increased regulation.
+(see Cable Industry) Incorporating the cost of the software into the media
+merely hides the true cost from the consumer. In that respect, there's no
+difference between an application that costed 1 million to develop and market
+or one that costs $1000. When you pay for the media, you don't get to choose
+based on the true price as it is averaged out over all of the software that
+has "cashed in" with the media company.
+
+> I'll be able, via magnetic media or a network, to acquire other software.
+> This stuff will likely run slower, and have more bugs (earlier in
+> the cycle), but may have features unavailable elsewhere.  How do
+
+   Actually, the software will run slower out of ROM/FlashROM.
+
+> I acquire it?  If it's available on something like AMIX (sorry
+> about that earlier typo, by the way), I probably will wind up paying
+> money at some point (to find it, to learn how to use it, to find
+> out what the heck it *does* -- and believe me, if things go the
+> way I expect they will, it may accomplish a well-defined task in
+> a user-friendly fashion, but if I have no *clue* what that task
+
+   Many people will just download the software complete with free
+tutorial and go get help in alt.software.application.help. I noticed a long
+time ago that people on usenet are extremely willing to help so
+I contemplated writing a program which would take a question, ask net.experts
+known for helping, and automatially extract/organize the responses from the
+net for you. That would really nullify the need of consultants on AMIX
+as my program would be drawing from a more diverse pool of talent
+(the whole world).
+
+> is, I have a problem.  Just like Jane User and Yacc.  Simple,
+> elegant, easy to use.  But the task is as obscure as, as, as, scholasticism
+
+   Yacc is a poor example, nevertheless, the texinfo manual on Bison
+is good enough that most programmers can figure it out themselves. We're
+talking about word processors, spreadsheets, and terminal programs here, not
+APL. Yacc is a programmer's utility and few people ever need it. (and no
+doubt, visual easy-to-use versions of yacc will evolve which graphically
+construct grammars.)
+
+> (I mean the philosophy).).  If it's been posted in a publicly
+> accessible area, maybe I can grab it (only cost being amortized
+> cost of my access, and whatever media I need to get it from there
+> to here).  Once I have it, I see nothing stopping me from letting
+> all my friends borrow/copy/use/change it.  Got that?  Nothing.  Not
+> the technology, not the law.  But I won't be able to sell it,
+> because anybody can get it for free.  If I got it off something
+> like AMIX, I might have to sign something saying I won't
+> do some of those things.  Contract version of intellectual
+> property.
+
+   BINGO!  No where, NEVER, nadda, ZIPPO, have I ever advocated state imposed
+copyright. Has anyone been listening? All I have been advocating is copyright
+by tit-for-tat/contract/ostracism. Simply put: Johnny writes software.
+Johnny tells Jill that she is allowed to purchase the software on the 
+condition that she not distribute it (or maybe a looser condition like
+she may only give a copy to her best friend).  Jill uploads
+software to MEGA-PIRATE BBS. Johnny finds out. Jill asks to buy upgrade
+or Johnn'y new application. Johnny tells her to fuck off. Johnny tells
+all of his fellow developers about Jill and her unethical contract breaking.
+
+  Simple enough?
+
+> The future I envision is one in which early versions are posted in
+> extremely accessible areas, the middle-cycle (about what would be
+> considered a mature product in the pc market) stuff available from
+> stuff like AMIX, and the *really good stuff* being available on
+> chip.  Cashing in is convincing a chip-maker that so many people
+> have grabbed your software (off AMIX, or whatever -- you're collecting
+> statistics, right?) and like it *so much* that they can expect
+> people to buy their chips if your product is on it.  They buy your
+
+   I find your arguments for ROM based software even more unlikely
+than making big money off of support. Perhaps you might have an argument
+for BUNDLING software with newly sold computers, or cashing in on
+CD-ROM distribution (e.g. big collections of hundreds of applications)
+but ROM? Yeech.
+
+> And the only way to get rich in this future is by being one of the
+> lucky few who has a great idea just everybody will want, and seeing
+> it through to that one time major cash sale.  Sort of like getting
+> a best-selling novel made into a movie.  But you can make a
+
+     Only because movies can cash-in. People are now getting THX
+mini-theatres in their homes, and digital high-resolution movie distribution
+would allow the average person to see Jurassic Park in all of its
+glory at home. And this is even closer to reality than bugless software.
+$100 million movies aren't going to be made if no one is going to pay to 
+see them. If I could get a multi-terabyte disk holding every movie ever
+made, I wouldn't bother with tv/cable tv/movies.
+
+> respectable living the AMIX route, or contracting your skills to
+> someone who needs something that doesn't exist already.  I see, as
+> a result, software development becoming something like writing
+> novels.  A lot of people do it, but work a day job.  Some of the
+> people who do it, actually sell something, but not enough to live
+> off of.  And a few people make a respectable living  A dozen or so
+> get rich.
+    
+    As a result, software development will slow down. Only the already
+well-off will be able to afford the time to write software. Meanwhile,
+all the rhetoric about the "Information Age Economy" will fall flat. Most
+of the real jobs will be Mcjobs, service economy (physical-visual interaction,
+not software), health care, and Engineering -- which isn't too bad for me 
+since I'm training to be an engineer, but it does cause me to wonder who will
+be paying to finance new software. I think it will be Academia, which means 
+taxes. I don't care what hypothetical method you invent(support, media charges,
+etc) for making money on software, people have to be paid somehow for their
+work. The only way the amount of software development won't drop is if 
+an equivalent amount of revenue is obtained somehow, somewhere.
+
+> One of the holes in this scenario is, what's to stop a chip maker
+> from buying a copy of the software, and putting it on chip without
+> paying you a dime?   Depends on what the legal setting is.  If
+> intellectual property of nearly any form is upheld, it shouldn't
+> be a big problem (and you can sue if it becomes one).  If you're
+> really worried, don't ever post a public version (this may slow
+> down propagation of the product, or even prevent it from getting
+> the mass-market it needs to succeed.  If you worry about people
+> stealing your story and making a movie, publishing it as a novel
+> is a risk.).  Sell all copies with signed contracts not to further
+> copy/distribute/etc.  Nail every twonk who breaks the contract.
+
+   Which is everything I've been advocating. I don't think you've been
+reading what I've been posting.
+
+> In the meantime (certainly for the next ten years), the money will
+> be increasingly in support/training/upgrades/warranties, decreasingly
+> in the software itself, and, as usual, hardware will only be produced
+> because you can't run software without it.  Eventually, the money
+> will probably be in matchmaking and specialized development, too.
+> The older the industry gets, the fewer people getting rich.
+
+  This has yet to be demonstrated and is highly speculative.
+ 
+> it.  Sell what the people who *are* buying care about:
+> support/training/upgrades/documentation.
+
+  You keep asserting this, I'd like to see some research to back it
+up. I assume one of the many software/stock industry tracking companies
+hase done some research on it. IBM tried to support a multibillion dollar
+corporation on super-service/support -- it didn't work.
+
+> I think the most surprising thing about this is the vituperative
+> nature of the response I got from Ray.  Why on earth should he care
+> if I go broke or have to work at McD's to support myself?  Do you
+> think my behavior will so undercut your product and attempts to
+> sell it that you'll wind up poor, too?  I kind of doubt that.
+> I don't see GNU/FSF putting anyone out of business.
+
+  I don't really care whether or not you go broke, I was trying to 
+make you see that your political views threaten your own future but
+I made the erroneous assumption that you actually cared about advancing
+your own wealth. I do see your advocacy as a threat to the progress of
+computer technology and I will oppose that just as vehemently as I oppose
+advocates of government regulation of the industry.
+
+  The one thing that puzzles me greatly is why? For what utilitarian/extropian
+reason do you support free software? Instead of me defending the benefits
+of intellectual property rights why don't you list all of the glorious
+benefits of giving away software for free and how they fit in with the
+general principle of this list? Some ideas like the Libertech project
+had stated goals, your advocacy just sounds like irrational Gibson-eqse
+rambling, "information yearns to be free."
+
+-Ray
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date:     Thu, 29 Jul 93 9:42:07 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Searle's Chinese Torture Chamber Revisited
+
+>From: rjc@gnu.ai.mit.edu (Ray)
+>Subject: AI: Searle's Chinese Torture Chamber
+>
+>starr@genie.slhs.udel.edu () writes:
+>> 
+>> Searle's critics still don't seem to be getting his point.  Maybe it has
+>
+>  We've got it, it just isn't a strong argument.
+
+You STILL don't seem to be getting it, Ray!  You've judged it weak by standards
+I find very questionable at best.  (You in the plural form, that is.)
+
+>> You get a message from the operative: Y.  You reply: B.  What did you just
+>> say?  What did you tell him?  What do A, B, X, and Y mean?  He knows this,
+>> but you didn't need to know, so you weren't told.
+>
+>  This "symbol exchanger" method isn't sufficiently complex to be
+>intelligent.
+
+The human being is intelligent.  Any further "complexity" is superfluous.
+
+>It's a one step algorithm, TABLE_LOOKUP[operator_key].
+
+No, it's not, it's a human being doing something.
+
+>Furthermore, in such a test, the human is no more
+>significant than the electron that travels through a transistor in a CPU or
+>the cog in a difference engine.
+
+Then you should be able to replace the human with either.  Be my guest.  Your
+"system" still won't be conscious.
+
+>Furthermore, the human has no "eyes" presumably
+>to see what effects his resultant symbol has on the real world.
+
+Sure he does.  He could be sitting at a table in a cafe, reading a book,
+playing chess, drinking a beer, nibbling on a sandwich, and eavesdropping on
+conversation when he gets the message, processes it, and replies.
+
+>Searle's argument is like saying "since I can't understand it, it must not
+>be possible."
+
+No, it's like saying: "Since it isn't self-aware, it can't be a mind."
+
+>He completely overlooks the possibility that conciousness
+>is an emergent behavior.
+
+False.  Go read "Minds, Brains, and Science," and then get back to me.  He
+argues that consciousness is an emergent property, a process, of the brain.
+
+>For all intents and purposes, such a room _could_
+>be concious even though the human inside had no idea what is going on --
+
+Not for all intents and purposes.  For the intent and purpose of the human
+inside the room to be aware of the meaning of the symbols it's processing,
+it's no good at all.
+
+>no more than a single brain cell in your head is capable of understanding
+>the complete chinese dictionary.
+
+How can brains cells understand anything?  How can brains understand
+anything?  How can anything besides a mind understand anything?
+
+>From: extr@jido.b30.ingr.com (Craig Presson)
+>Subject: AI: Searle's Chinese Torture Chamber
+>
+>In <9307281051.AA22551@geech.gnu.ai.mit.edu>, Ray writes:
+>|> starr@genie.slhs.udel.edu () writes:
+>|> > 
+>|> > Searle's critics still don't seem to be getting his point.
+>
+>I have read a lot of Searle critics who understand him perfectly. I
+>read the whole Chinese room thread on comp.ai a few years back
+>(agony!).
+
+I've yet to read any on this list that seem to understand him very well at
+all, much less "perfectly."
+
+>There, he said it. There are two perfectly good refutations of the
+>Chinese Room gedankenexperiment -- 1, it isn't good enought to pass a
+>Turing Test _anyway_, and 2, it doesn't exhaust the possibilities of
+>_systems_ which include symbolic language processing.
+
+These refutations are no good at all.  The first one begs the question of
+how passing a Turing test can make something a mind, and the second one begs
+the question of how a symbolic language processing system can be a mind.
+
+>There are similar problems with Dreyfus's and Penrose's arguments
+
+Haven't read them.
+
+Please, don't anyone get me wrong.  I'm not arguing against either the
+possibility or desirability of machines that can process symbolic language
+well enough to pass Turing tests.  I'm questioning the underlying philosophy
+(mechanistic) of mind.  I have no doubt that such machines are possible and
+desirable.  I have doubts than they will have minds.
+
+And, no, I don't have to posit any homunculous, any ghost in the machine, any
+Cartesian inner theater, to question this view of minds as brains as machines.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Thu, 29 Jul 93 7:23:27 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Papers on Searle available
+
+  Tim Starr didn't understand my argument about the human/Searle room
+not having "eyes" (I didn't state it well). What I mean is that the 
+Searle room has no sensory input. It's fairly difficult to learn the 
+meaning of words without geing able to connect them to reality. If I
+were dropped on an island with a Chinese person, I could teach them English
+by pointing to things and naming them. ("Me <- Ray, this is a Rock, here
+is a Flower")  The computer/room doesn't have that luxury. 
+
+  I have posted and archived two long papers on this subject. You can retrieve
+them by doing
+
+::resend #1314
+::resend #1315
+ 
+ if you are on the beta list. One is written by Searle.
+
+  I still disagree with Searle totally. He agrees that the brain is based
+on physical laws, that alone is enough to justify the computationalist
+viewpoint.  All physical laws are causal and well-stated. Any mathematical
+statement can be transformed into a computer program and simulated. In
+fact, I would go further and say that everything is simulable and everything
+is computation. Fredkin has actually gone further and stated that the
+universe _is_ a computer. (although it doesn't look like any)
+
+  The only ways to avoid my argument are to claim that there are some
+physical laws that we will never discover or that the brain is the most
+compact (non-compressible) form of intelligence (anything that can 
+simulate the brain would be just as slow/complex), or that the mind
+is not governed by physical laws at all (ghost in the machine).
+
+  Since I believe the universe is governed by completely physical causal laws,
+and all available evidence in physics points to this, the logical consequence
+is to accept the mechanistic/computationalist viewpoint.
+
+-Ray
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date:     Thu, 29 Jul 93 11:50:58 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Searle's Chinese Torture Chamber Revisited
+
+>From: lovejoy@alc.com
+>Subject: AI: Searle's Chinese Torture Chamber
+>
+>This has already been considered and answered: this argument confuses
+>the little man behind the curtain (a cog in the machine, or the machine
+>itself) with the effects produced by the operation of the machine.
+
+This answer confuses mind with machine.
+
+>The humain brain--as a collection of neurons--is not conscious any more
+>than a human hand is.
+
+Granted.  Brains aren't conscious, minds are.
+
+>Not a single neuron in a human brain understands a single word any
+>human ever speaks or hears.
+
+Granted once again.  Neurons aren't conscious either, minds are.
+
+>It is the effect of
+>the-execution-of-the-Tim-Star-program-by-a-brainlike-neural-network-computer
+>that has the property of being conscious.  The brain itself is just
+>unconscious hardware.
+
+Easier claimed than shown.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Thu, 29 Jul 93 8:23:34 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Searle's Chinese Torture Chamber Revisited
+
+starr@genie.slhs.udel.edu () writes:
+> >It is the effect of
+> >the-execution-of-the-Tim-Star-program-by-a-brainlike-neural-network-computer
+> >that has the property of being conscious.  The brain itself is just
+> >unconscious hardware.
+> 
+> Easier claimed than shown.
+
+  You should apply the same standards to Searle. He claims that you could
+build his model of the Chinese room that can pass the turing test, and then
+assuming that conclusion, proceeds to debunk it as an argument against
+all formulations of Strong AI. At best, his argument can be considered
+a straw man.
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date:   Thu, 29 Jul 1993 09:23:45 -0700
+From: Brian D Williams <talon57@well.sf.ca.us>
+Subject: MEDIA Networld article
+
+ I saw this in this weeks network world, I thought you all might enjoy it.
+
+The following text is Copyright (c) 1993 by Network World. All rights
+reserved.
+
+Permission is granted by the copyright holder and the author to
+distribute this file electronically or otherwise as long as the entire
+file is printed without modification (other than cosmetic or formatting
+changes).
+
+<<begin text>>
+
+Velocihackers and Tyrannosaurus superior
+
+by M. E. Kabay, Ph.D.
+
+Director of Education
+National Computer Security Association
+10 South Courthouse Avenue
+Carlisle, PA 17013
+Tel 717-258-1816
+Fax 717-243-8642
+
+
+The current hit movie "Jurassic Park" stars several holdovers from 65
+million years ago. It also shows errors in network security that seem
+to be as old.
+
+For those of you who have just returned from Neptune, "Jurassic Park"
+is about a dinosaur theme park that displays live dinosaurs created
+after scientists cracked extinct dinosaur DNA code recovered from
+petrified mosquitoes. The film has terrific live-action dinosaur
+replicas and some heart-stopping scenes. It also dramatizes awful
+network management and security. Unfortunately, the policies are as
+realistic as the dinosaurs.
+
+Consider a network security risk analysis for Jurassic Park. The
+entire complex depends on computer-controlled electric fences and
+gates to keep a range of prehistoric critters from eating the tourists
+and staff. So at a simple level, if the network fails, people turn into
+dinosaur food.
+
+Jurassic Park's security network is controlled by an ultramodern Unix
+system, but its management structures date from the Stone Age. There is
+only one person who maintains the programs which control the security
+network. This breaks Kabay's Law of Redundancy, which states, "No
+knowledge shall be the property of only one member of the team." After
+all, if that solitary guru were to leave, go on vacation, or get eaten
+by a dinosaur, you'd be left without a safety net.
+
+Jurassic Park's security system is controlled by computer programs
+consisting of two million lines of proprietary code. These critical
+programs are not properly documented. An undocumented system is by
+definition a time bomb. In the movie, this bomb is triggered by a
+vindictive programmer who is angry because he feels overworked and
+underpaid.
+
+One of the key principles of security is that people are the most
+important component of any security system. Disgruntled and dishonest
+employees cause far more damage to networks and computer systems than
+hackers. The authoritarian owner of the Park dismisses the programmer's
+arguments and complaints as if owning a bunch of dinosaurs gives him
+the privilege of treating his employees rudely. He pays no attention to
+explicit indications of discontent, including aggressive language,
+resentful retorts, and sullen expressions. If the owner had taken the
+time to listen to his employee's grievances and take steps to address
+them, he could have prevented several dinosaur meals.
+
+Bad housekeeping is another sign of trouble. The console where the
+disgruntled programmer works looks like a garbage dump; it's covered in
+coffee-cup fungus gardens, historically significant chocolate bar
+wrappers, and a treasure trove of recyclable soft drink cans. You'd
+think that a reasonable manager would be alarmed simply by the number
+of empty calories per hour being consumed by this critically important
+programmer. The poor fellow is so overweight that his life expectancy
+would be short even if he didn't become dinosaur fodder.
+
+Ironically, the owner repeats, `No expense spared' at several points
+during the movie. It doesn't seem to occur to him that with hundreds of
+millions of dollars spent on hardware and software--not to mention the
+buildings and grounds and an entire private island--modest raises for
+the staff would be trivial in terms of operating expenses but
+significant for morale. 
+
+In the movie, the network programmer is bribed by competitors to steal
+dinosaur embryos. He does so by setting off a logic bomb that disrupts
+network operations completely. The network outage causes surveillance
+and containment systems to fail, stranding visitors in, well,
+uncomfortable situations. Even though the plot is not exactly
+brilliant, I'd like to leave at least something to surprise those who
+haven't seen the movie yet.
+
+When the systems fail, for some reason all the electric locks in the
+park's laboratory are instantly switched to the open position. Why
+aren't they automatically locked instead? Normally, when a security
+controller fails, the default should be to keep security high, not
+eliminate it completely. Manual overrides such as crash bars (the
+horizontal bars that open latches on emergency exits) can provide
+emergency egress without compromising security.
+
+As all of this is happening, a tropical storm is bearing down on the
+island. The contingency plan appears to consist of sending almost
+everyone away to the mainland, leaving a pitifully inadequate skeleton
+crew. The film suggests that the skeleton crew is not in physical
+danger from the storm, so why send essential personnel away?
+Contingency plans are supposed to include redundancy at every level.
+Reducing the staff when more are needed is incomprehensible.
+
+At one point, the systems are rebooted by turning the power off to the
+entire island on which the park is located. This is equivalent to
+turning the power off in your city because you had an application
+failure on your PC. Talk about overkill: why couldn't they just power
+off the computers themselves?
+
+Where were the DPMRP (Dinosaur Prevention, Mitigation and Recovery
+Planning) consultants when the park was being designed? Surely
+everybody should know by now that the only way to be ready for
+dinosaurs, uh, disasters, is to think, plan, rehearse, refine and
+update. Didn't anyone think about what would happen if the critters got
+loose? Where are the failsafe systems? The uninterruptible power
+supplies? The backup power generators? Sounds like Stupidosaurians were
+in charge.
+
+We may be far from cloning dinosaurs, but we are uncomfortably close to
+managing security with all the grace of a Brontosaurus trying to type.
+
+I hope you see the film. And bring your boss. 
+
+<<end text>>
+
+
+     Best wishes,
+
+     Mich
+
+     Michel E. Kabay, Ph.D.
+     Director of Education
+     National Computer Security Association
+
+<<end file>> 
+
+
+                                                   Brian Williams
+                                                   Extropian Arcology
+                                                   Midwest N.A.
+
+
+------------------------------
+
+Date: Thu, 29 Jul 1993 12:55:03 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: FSF: Some Useful Software, No Useful Politics 
+
+Tony Hamilton - FES ERG~ says:
+> Perry,
+> 
+> First, you keep focusing on the legality/illegality of certain acts. I
+> haven't been discussing that issue. Not that what you have to say is
+> meaningless, it just isn't addressing the issue of enforcement.
+> 
+> Which brings me to point number two. You state that, in my example of
+> Olaf the thief stealing from Fred, he can be sued for damages. Again, how
+> is this carried out? What does a "suit" entail in extropian society?
+
+Well, what does a suit entail in current society?
+
+If you want a long answer, read a book on private legal systems, like
+Bruce Benson's.
+
+Perry
+
+------------------------------
+
+Date: Thu, 29 Jul 1993 13:04:30 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Who is signed up for cryonics 
+
+X91007@pitvax.xx.rmit.edu.au says:
+> Perry sez:
+> 
+> >You aren't in the wrong country. You can sign up with Alcor in any
+> >country -- all it does is add some expenses that you can pay for with
+> 
+> I live in Melbourne, Australia. While I am quite happy to accept that I 
+> can join Alcor I am not convinced that they will be able to get to my body 
+> before a significant amount of degredation has occured.
+
+That is entirely possible. Folks in the U.K. have it better because
+there Alcor has actual facilities and trained volunteers. If you die
+in a non-sudden manner, however, you should be fine -- Alcor will fly
+people out to do your suspension who will be on site when you die.
+Most people die with substantial warning in hospital beds, you know.
+
+> What does 
+> Alcor do for people in non-US countries? How long does it take from 
+> point of death to being frozen?
+
+It depends on the amount of warning available, but anything from
+having a whole crew on site if there is significant warning to simply
+picking up whats left of you and freezing it if no one tells them for
+days are possible outcomes. I'll point out that this is pretty much
+the case for people in the U.S. as well.
+
+If there is warning, you will have no worse a treatment than people in
+the U.S.
+
+> Would I have to be flown out to California or freezing occur in
+> Melbourne?
+
+Well, final cooldown to LN2 temperatures would occur in California as
+it stands unless you were in the U.K., but depending on your condition
+you would be brought down to near freezing on site.
+
+> Sorry for all the questions 
+> but I am a little worried that by the time I reached Alcor there
+> wouldn't be enough of my brain left to make freezing worthwhile.
+
+Depends on how you die, of course. If you have your head blown off in
+a lab explosion, its unlikely you can be helped no matter where you
+are. If, on the other hand, you take a couple of days to die in the
+hospital, its likely that you would get pretty good care.
+
+If you were very concerned about this, of course, you could try to
+organize something similar to what the U.K. people have.
+
+Perry
+
+------------------------------
+
+Date: Thu, 29 Jul 1993 10:18:02 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: Searle's Chinese Torture Chamber
+
+At  9:08 AM 7/29/93 +0000, starr@genie.slhs.udel.edu wrote:
+>>From: fnerd@smds.com (FutureNerd Steve Witham)
+>>The point is, "you", the agent, aren't the person who the field operative is
+>>communicating with.  He is communicating with the system: {agent+instructions+
+>>scratchpaper}.  That whole system *does* know what it's saying.  The field
+>>operative may be fooled into thinking you're the person, but that's 
+>>irrelevant.
+>
+>This at least brings the contrast into high relief, but I don't understand
+>why anything beyond the agent should be considered to be the one being
+>communicated with.
+
+Because the agent (CPU, Searle's Demon) doesn't know what "he" (the system)
+is saying.  If the agent doesn't know what the conversation is even about,
+then he is obviously not the one doing the communicating!  Come on, you're
+sharper than this, Tim.
+
+>>Talking about the agent alone is like talking about the processor without
+>>its memory contents (program+data), or the neurons considered separately
+>>from their synapses, arrangement and connection to sensors/effectors.
+>
+>This begs the question of whether computers and minds are analogous, and
+>ignores serious differences between them.  Mental agents get input on their
+>own.  They also program themselves.  Computers do neither.
+
+It seems unlikely that mental agents program themselves.  They program each
+other, and they are programmed by outside stimuli, but (as Minsky points
+out in Society of Mind) agents that programmed themselves would be too
+prone to positive feedback to be evolutionarily stable.
+
+Similarly, mental agents do not get input on their own.  Only certain
+subsystems of the brain (e.g., the visual cortex) get input from the
+outside world; all other systems of the brain receive only input that has
+been filtered by these "perceiving" agents.  You don't propose that your
+vocabulary center can bypass the visual cortex and grab direct access to
+the optic nerve, do you?
+
+>>> Searle's argument is that computers can seem like they know what they're
+>>> communicating in the same way, but they don't.  His argument is designed so
+>>> that people trained to approach subjects from one point of view only, the
+>>> third-person, external point of view, have to approach it from another
+>>> point of view, the first-person, internal one.
+>>
+>>In other words, he's trying to locate the homunculus, the little person
+>>inside the person.
+>
+>Strawman.  The person is quite clearly the human being, not his instructions
+>or his scratch paper.
+
+If the human being is the person, how come he doesn't know what the system
+is saying?  _Someone_ is communicating, and it isn't the guy running the
+lookup tables!  You're saying that Searle's Demon, as he described it, is a
+straw man.
+
+>Why should "the person as a whole" include anything external to the human
+>being?
+
+Because the human being does not know what the conversation is about. 
+Since communication is taking place, the human cannot be the whole of the
+system that is doing the conversing.
+
+>>Consider this version of the experiment: we put me and Searle in a room.
+>>You see me through a window; Searle is hidden behind a curtain.  You ask
+>>me a question; I frown and turn off the outside intercom.  Searle answers.
+>>I turn the intercom back on and answer as if I had done the thinking.
+>>Do I know what Searle was thinking?  Of course not.  So what?
+>
+>Indeed, so what?  You aren't conscious of the meaning of what he said,
+>either, unless you can think what he thought.
+
+I think you missed the point, Tim.  In this version, Searle represents the
+set of lookup tables.  If Searle is intelligent, then so is the set of
+lookup tables.
+
+>>From: dkrieger@Synopsys.COM (Dave Krieger)
+>>Subject: AI: Searle's Chinese Torture Chamber
+>>
+>>Okay, Tim; now let's suppose that your set of lookup tables is much more
+>>complex: instead of a simple two-possible-inputs, two-possible-outputs
+>>system, you have a much greater list of recognized inputs, available
+>>outputs, conditional and history-based responses ("If the last three
+>>messages were Y-in, B-out, W-in, then send M out."), and so forth.  Suppose
+>>that the system is scaled up to the point that it-plus-you passes the
+>>Turing test.  It can converse with an outside interlocutor (in Mandarin, if
+>>you like) with sufficient verisimilitude that it cannot be distinguished
+>>from a human being.  (There's no way you could implement such a system
+>>using a human being and lookup tables with a response time of less than
+>>centuries, but this is only a thought experiment anyway.)
+>
+>Of course!  But why bother?  I made my example simple because of Occam's
+>Razor.  Why make things more complex than need be?
+
+Because your example isn't complex enough to carry on a conversation, which
+the Chinese Room is able to do.  Complexity is central to the discussion,
+Tim; no one is arguing that minds can be simple.
+
+>>Then the system it-plus-you _is_ intelligent.  You (who are only part of
+>>the system, the "CPU", if you will) are not the mind that is experiencing
+>>the conversation.  The intelligence does not reside in you, nor in the
+>>lookup tables, but in the system formed by the union.  A CPU with no
+>>software is not capable of doing algebra analytically, but
+>>CPU-plus-Mathematica is.
+>
+>By what definition of intelligence?
+
+By the definition of "able to interact with its environment in a manner
+indistinguishable from a human mind."
+
+>How can systems that are part biological,
+>part mechanical, have minds?  What about my mind?
+
+Tim, here you are employing "Argument by Incredulity":  "I can't imagine
+such a thing, therefore it can't be true."  This is a form of assuming your
+conclusion.  Whether or not systems that are part (or all) mechanical is
+the question under discussion.  Saying, in incredulous tones, "How can such
+things be?" does not prove they can not be.  
+
+>And who cares whether CPUs with Mathematica can perform analytic algebra?
+
+The analogy is to a system being able to perform tasks that are beyond the
+capabilities of one of its parts.
+
+>Why do you and Steve take mathematics to be paradigmatic of thought?  Do you
+>think all thought reducible to the performance of mathematical operations?  If
+>so, why?
+
+As a matter of fact, I do, but that's irrelevant to the argument. 
+Mathematics is a knowledge domain with which most of the subscribers to the
+list are familiar.  We could as easily choose other examples of systems
+which can perform tasks that are beyond the capability of {any of their
+parts in isolation}.  In the example of CPU-plus-software, the parts are
+well-defined.  A non-mathematical example:  hydraulic backhoes can move
+earth which the hydraulic system alone (in the absence of the framework),
+or the framework alone, without the hydraulics, could not.  Which one is
+moving the dirt, the frame or the hydraulics?  Neither; it takes the entire
+system.  Your argument gains nothing by moving to a non-mathematical
+domain.
+
+>>Searle argues that it would be possible (in principle) to implement a
+>>Chinese room that is indistinguishable from a mind,
+>
+>Au contraire.  It is quite clearly distinguishable from a mind - from the
+>first-person point of view.  It is only indistinguishable from a mind from the
+>third-person point of view.
+
+This statement is not subject to disproof, since the first-person point of
+view is accessible only to the first person -- the mind that is carrying on
+the conversation -- which is demonstrably _not_ the agent who is
+manipulating the lookup tables.
+
+>>but isn't "really" a
+>>mind, because one component of that mind (the person performing the table
+>>lookups, the CPU, the "intelligence agent", Searle's Demon) is not itself
+>>intelligent.
+>
+>What?  The person most certainly is intelligent!  It's the rest of the system
+>that isn't!
+
+No, Tim.  The person isn't "intelligent", because he's not privy to the
+contents of the conversation.  The conversation takes place, but if you ask
+the Demon what it was about, he is ignorant, because _he_ wasn't the one
+carrying on the conversation... it was the system-as-a-whole.
+
+>>Neither is the speech center of your brain itself an entire
+>>mind... but the system formed from it, plus the other components of the
+>>nervous system, is.
+>
+>This begs the question of whether brains are minds.  I don't think this is so,
+>either - and Searle argues against it in an earlier chapter of "Minds, Brains,
+>and Science."  Why are brains minds?
+
+Very well, Tim, we'll say the whole body is needed to constitute the mind. 
+This still doesn't make the speech center, by itself, conscious.  Or are
+you postulating an animating soul?
+
+>>Searle's fallacy is that he mistakes the Demon for the interacting mind. 
+>
+>Why is this a fallacy?
+
+Because the Demon (your "intelligence agent") doesn't know what the heck
+the conversation is about.  He's not the one carrying on the conversation,
+the {system of which he is a part} is.
+
+>>The intelligence is a characteristic of the system-as-a-whole, not of any
+>>single part.  None of the individual faces of a cube has the property of
+>>"being a cube", but the system of six-faces-in-a-particular-relationship
+>>does.
+>
+>This "system" is part human, part inanimate objects.  How can inanimate objects
+>be conscious?
+
+The inanimate objects, by themselves, are not.  The system, of which they
+are a part, is.  Did the example of the cube go right past you?  The
+consciousness is a property of the system-as-a-whole which is not inherent
+in any of its parts.
+                                        dV/dt
+
+
+------------------------------
+
+Date: Thu, 29 Jul 1993 13:24:31 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: AI: Searle's Chinese Torture Chamber 
+
+starr@genie.slhs.udel.edu says:
+> Searle's critics still don't seem to be getting his point.  Maybe it has
+> something to do with the fact that most of them seem to have learned all
+> they know about it from a secondary source, Douglas Hofstadter, rather
+> than from reading Searle himself.
+
+Hofstadter republished Searle's ENTIRE essay in "The Mind's I". I
+would hardly call that reliance on a secondary source.
+
+I also quite familiar with his essay, having read it about a half
+dozen times and having spoken on it.
+
+Overall, I find his argument incomprehensable -- were it true, pocket
+calculators wouldn't actually be giving us the sum of 2 and 2 -- they
+would merely be somehow cleverly SIMULATING calculation without
+actually DOING it -- which is patently absurd.
+
+Were Searle's argument right, there would be no reason to expect that
+HUMANS were self aware, either, since the neurons in your brain aren't
+self aware.
+
+He also stoops to all sorts of bizarre obfuscations like "well, I
+could memorize the entire Chinese Woman program and then the whole
+system would be in my head" as if this would actually be possible or
+even relevant. Searle's argument against AI is at least as any
+religious argument I've seen.
+
+Perry
+
+------------------------------
+
+End of Extropians Digest V93 #209
+*********************************
+
+& 

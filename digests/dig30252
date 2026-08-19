@@ -1,0 +1,1000 @@
+From extropians-request@gnu.ai.mit.edu Mon May 10 09:49:34 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA00198; Mon, 10 May 93 09:49:33 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA12179; Mon, 10 May 93 09:49:29 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA12184@wookumz.gnu.ai.mit.edu>; Mon, 10 May 93 12:42:11 -0400
+Message-Id: <9305101642.AA12184@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Mon, 10 May 93 12:41:53 -0400
+X-Original-Message-Id: <9305101641.AA12175@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0252
+X-Extropian-Date: Remailed on May 10, 373 P.N.O. [16:42:11 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Mon, 10 May 93            Volume 93 : Issue 0252
+                        
+Today's Topics:
+                            AI:Human Equivalence                      [2 msgs]
+                    CRYONICS: Reviving a neuro suspendee              [1 msgs]
+                                 ContrAnton                           [1 msgs]
+         Hiding Messages in Files, was CRYPTO: Steganography Part II  [1 msgs]
+                 INFO: Channel capacity and Reversible logic          [1 msgs]
+                 LIFE-X: the 120 yr limit, cryogenics, blah           [4 msgs]
+                        META: Singh and all that mess                 [1 msgs]
+                             PHIL: A Question...                      [3 msgs]
+                           PHIL: ethics vs. morals                    [1 msgs]
+                                    POLL                              [1 msgs]
+                            POLL: Starr vs. Price                     [1 msgs]
+                        POLL: Starr vs. Price (more)                  [1 msgs]
+                            Price's Innate Ideas                      [2 msgs]
+                         SUBSCRIBE ExI mailing list                   [1 msgs]
+                            Unsubscribe me please                     [1 msgs]
+                                 quick ones                           [2 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 51232 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 9 May 93 14:16:04 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: INFO: Channel capacity and Reversible logic
+X-Reposting-Policy: Redistribute freely
+
+Here is a reference from "Information is Physical", Rolf Landauer,
+Physics Today, May, 1991, p. 26:
+
+"A somewhat similar history has beset the question, how much energy is
+needed to move a bit along a communications link?  Shannon [1] showed
+that in a linear transmission line with thermal equilibrium noise at
+least kT ln 2 per bit is required, assuming that the energy in the
+message has to be dissipated at the receiving end [1].  Unfortunately,
+later authors ascribed a universal applicability to Shannon's conclusion,
+which he had presented as arising from an analysis of a _special_case_.
+Information does not have to be sent by waves; we can use the postal
+service to mail a letter or a floppy disk.  Information need not use
+linear transmission media in which noise added to the signal can easily
+cause it to be confused with another signal.  As we have seen in
+connection with figures 4 and 5, information can be handled in nonlinear
+systems with local states of stability, where small noise signals
+introduce no error at all.  By iterating the process shown in figure 5
+[figure 5 shows a reversible copy operation from one register to
+another], information can be passed along a chain of time-modulated wells
+with a dissipation proportional to the speed of transmission.  Elsewhere
+I have analyzed this and several other communications links that
+demonstrate this possibility [12]."
+
+Reference 1 is to: C.E. Shannon, Bell Syst. Tech. J. 27, 379 (1948).
+Reference 12 is R. Landauer, in Selected Topics in Signal Processing, S.
+Haykin, ed., Prentice-Hall, Englewood Cliffs, N.J. (1989) p. 18.
+
+It sounds like this ref 12 might have more detail on methods of
+communication that beat the Shannon limit.  I haven't looked at it.
+
+Hal
+
+------------------------------
+
+Date: Sun, 9 May 93 14:21:29 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: AI:Human Equivalence
+X-Reposting-Policy: Redistribute freely
+
+It's already true that we have the hardware needed to produce human-
+equivalent AI (if it is possible at all).  Our hardware can do anything
+the hardware of the future can; ours is just slower.  (At worst we need
+more disk drives.)
+
+The point is, it doesn't matter how fast your hardware is if you don't
+know what program to run on it.  The real problem isn't the hardware, it's
+the software.  Extrapolating current trends in computer speedups is both
+unsound (the same methodology would have failed during almost any
+innovative period in the past, giving us, for example, locomotives
+travelling at thousands of miles per hour, or cotton picking equipment
+capable of clearing a whole field in milliseconds) and pointless, as
+faster computers are neither necessary nor sufficient for AI.
+
+Skeptically,
+
+Hal Finney
+hal@alumni.caltech.edu
+
+------------------------------
+
+Date: Sun, 09 May 93 22:43:33 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: Price's Innate Ideas
+
+Tim Starr:
+
+>>Ever heard of anyone claiming that babies are born spouting E=MC2? 
+>>That's what called a straw man, Tim.
+>
+> I don't think so.  The doctrine of innate ideas would have it that
+> such concepts would possibly be among the things human babies are 
+> born knowing.  By not being specific, you left yourself open to this
+> speculation.
+
+Speculation indeed.  Speechless I am rendered in the face of such
+elevated logic! :-)
+
+[attempt to categorise all behaviour in babies as reflexive deleted]
+
+> Suckling is a reflex, just as kicking one's knee when tapped with a
+> hammer is, or jerking one's hand away from a hot surface that one has
+> touched.
+
+There are degree's of reflexes, from the simple reflex arcs such as the
+knee-jerk response which are mediated via neurons in the spinal cord to
+the more complex reflexes which involve cortical neurons.  Suckling is
+a more complex reflex than the knee-jerk.  The plain fact of the matter
+is that there is no hard and fast distinction between reflex arcs and
+cognition loops.  Reflexes become more complex as higher parts of the
+spinal cord and then cortex are drawn into the loop.  A sufficiently
+perverse behaviourist could describe my actions at the keyboard in terms
+of conditioned reflexes, but it wouldn't be a useful definition.
+
+> Now it's your turn to really employ a straw man.  Man, that is, the
+> human species, is the rational animal, that is, the only animal known
+> to have the survival tool of reason.
+
+Utter rubbish.  Many higher animals employ reason.  Chimps have complex
+social structures and use language as a means to lie and deceive each
+other, forming teams and operating tit-for-tat alliances to climb the
+troop hierarchy.  By reflex?  Anyone who has observed the west african
+forest chimps hunt monkeys knows there's lot going on inside the skull
+of chimps that can't possibly be described as reflexive.  One of the
+theories for the rapid evolution of the human brain is that it evolved
+not to cope with inter-species environmental hazards but from intra-
+species hierachial pressures.  Outwit the troop leader, become the alpha
+male, and you had more children.  So the concept of other people having
+mental states is seen as cruical to the evolution of the human brain. 
+That such a key concept is hard-wired in surprises me not the least.
+
+The fact is that the reasoning abilities of animals lie along a spectrum
+ourselves at one end (with the apes, dolphins, elephants, whales etc
+fairly close).  Paint a chimp's and baboon's facial cheeks and give them
+mirrors.  A chimp will realise (after a while) that the image in the
+mirror is itself and try to remove the paint that it *reasons* (but
+can't directly observe) is on it's face.  A baboon, being a creature of
+reduced reasoning powers (compared to Bonzo) will not make this
+connection.  Then there are the classic experiments where chimps stack
+up crates to reach a banana otherwise out of reach.  Are they doing that
+by reflex?  No, they are using reason and logic.  Similarly when a dog
+digs a tunnel under a fence to break into a chicken pen.  Is that a
+reflex action?  No, it's called intelligent behaviour.
+
+> Such has been the definition since Aristotle
+
+Try replacing 
+    "Man is the rational animal"
+ by 
+    "Most humans are more rational than other animals"
+ or "Some animals are more rational than others"
+
+Sorry it's a bit longer, but there are more things in heaven and earth,
+Tim, than are dreamt of in your philosophy.
+
+I notice you didn't respond to the evidence of neural pathways being
+formed during fetal development.....
+
+> It seems to me that autism is the default state we'd all be in 
+> without such learning.  Your presumption is the other way around. 
+
+Not a presumption.
+
+> What scientific evidence is there to support your claim?
+
+Brain scans of autistic children.  Autism correlates with brain damage. 
+Autistic children can be quite intelligent, they just don't communicate
+spontaneously until they learn that other people have minds as well. 
+The conjecture is that this hard-wired concept is sometimes destroyed
+by brain damage.  Saw an interesting programme (Antenna for UK viewers)
+where this was being demonstrated.  An intelligent autistic child was
+asked to say under which box a particular shape was put.  No problems
+there.  Advanced for his age.  Problems began when asked where he
+thought some one else would think a shape was.  Even when the individual
+was out of the room when the placing was done.  He couldn't get his head
+round the concept that other people didn't immediately know what he
+knew, whereas other children of his age had no problems.  Autistic
+children have great difficulty lying for this reason.  Unlike most
+children, who take to lying like ducks to water :-)
+
+> Also, what would take to falsify your claim?
+
+A more widely accepted theory of the causes or description of autism.
+
+> I invite you to submit the claim that I suffer from an impaired
+> worldview due to ideological blinders to private arbitration.
+
+I'd rather something more specific be judged, like your claim
+    "Man is the rational animal"
+
+> Please suggest the list reader you would think best suited to judge
+> this.
+
+If you're serious in sticking to this then I am prepared to go to
+arbitration.  Defendant gets to choose judge, I believe?  Any
+volunteers?
+
+> Would you agree to take Sandy Sandfort up on his offer to arbitrate
+> on this?  I should warn you that he and I have met face-to-face, and
+> get along fairly well, however.
+
+Put like that, no.  No offence Sandy :-)
+
+> If you aren't confident enough to do so, then your claim isn't
+> reputable; if the HEx were up and running, there'd be a run on your
+> stock.
+
+We shall see.  Should be an interesting experiment, to be sure.
+
+>Tim Starr - Renaissance Now!
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+------------------------------
+
+Date: Sun, 9 May 93 15:53:06 MDT
+From: edlane@godot.Eng.Sandy.Novell.COM (Ed Lane)
+Subject: quick ones
+
+Eric S. Raymond <esr@snark.thyrsus.com> wrote:
+
+> I will.  Who else?
+> 
+> Extropians party, anyone?
+
+Just the other day when asked by a local Extropian if I would be
+attending I said there were a couple of Exi-personalities I would
+travel to meet FTF.  Eric was one of those I mentioned.  So I guess
+I'm committed now 8^).
+
+-Ed
+<edlane@godot.Eng.Sandy.Novell.COM>
+
+------------------------------
+
+Date: Sun, 9 May 93 16:58:12 MDT
+From: hammar@cs.unm.edu
+Subject: POLL: Starr vs. Price
+
+price@price.demon.co.uk (Michael Clive Price) wrote:
+>Tim Starr:
+>>>Ever heard of anyone claiming that babies are born spouting E=MC2? 
+>>>That's what called a straw man, Tim.
+>>
+>> I don't think so.  The doctrine of innate ideas would have it that
+>> such concepts would possibly be among the things human babies are 
+>> born knowing.  By not being specific, you left yourself open to this
+>> speculation.
+>
+>Speculation indeed.  Speechless I am rendered in the face of such
+>elevated logic! :-)
+>
+>
+[ much bickering deleted ]
+>
+>> If you aren't confident enough to do so, then your claim isn't
+>> reputable; if the HEx were up and running, there'd be a run on your
+>> stock.
+>
+>We shall see.  Should be an interesting experiment, to be sure.
+>
+>>Tim Starr - Renaissance Now!
+>
+>Mike Price                         price@price.demon.co.uk
+
+    Well HEx isn't in operation yet, but there is the old fashioned
+method.  I'm taking a poll on the subject. For any list members who
+care eanough about the subject to mail an answer, I have two
+questions:
+
+Who do you believe is closest to right?
+    A). Tim Starr
+    B). Mike Price
+    C). Neither
+
+If I could invest real money in the reputations of three people I
+would put:
+    S% of my money on Tim Starr and
+    P% of my money on Mike Price.
+    X% on someone else. (Who?)
+
+
+    For any list members who don't care, but want to express an
+opinion anyway, I have question. Fill in the blank, 25 words or less.
+
+I don't care about this (subject, poll or what) because _____________.
+
+
+
+Send replys to 
+
+hammar@unmvax.cs.unm.edu
+
+with POLL as the header please.
+
+    I will sumarise and report the results (except flames, unless they
+are really creative) sometime after Sun May 16 16:55 MDT 1993.
+
+
+Neil Hammar
+hammar@unmvax.cs.unm.edu
+
+------------------------------
+
+Date: Sun, 9 May 93 18:44:31 MDT
+From: hammar@cs.unm.edu
+Subject: POLL: Starr vs. Price (more)
+
+    Due to popular request (100% of my 1 respondants so far) replys to me
+will be kept anonymous. If your reply gets posted to the list by your mailer,
+deliberatly or accidentally, I won't keep it anonymous.
+
+Neil Hammar
+hammar@unmvax.cs.unm.edu
+
+------------------------------
+
+Date: Sun, 9 May 1993 21:40:08 -0400 (EDT)
+From: Edward J OConnell <ejo@world.std.com>
+Subject: POLL
+
+Price sounds good. Starr is being pointlessly annoying. Of cource, as
+Price admitted to socialism, or so I hear, I imagine everybody discounts
+his thinking automatically.
+
+Jay
+
+
+
+------------------------------
+
+Date: Sun, 9 May 1993 21:02:45 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: quick ones
+
+> > I will.  Who else?
+> > 
+> > Extropians party, anyone?
+> 
+> Just the other day when asked by a local Extropian if I would be
+> attending I said there were a couple of Exi-personalities I would
+> travel to meet FTF.  Eric was one of those I mentioned.  So I guess
+> I'm committed now 8^).
+
+Gawrsh.  I have a public.  :-)
+
+Question is, should we throw our own bash, or parasitize the @-party?
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Sun, 9 May 93 21:13:53 MDT
+From: edlane@godot.Eng.Sandy.Novell.COM (Ed Lane)
+Subject: PHIL: A Question...
+
+Here's a question...
+
+Not ment to be controversial, but rather something I've been wondering
+for some time.  Recent postings have caused me to ask this question
+publicly:
+
+	Is any philosophy, that does not take into account the
+	neuro-cognitive processes of the human brain, doomed to the
+	scrap-heap as our insight into these processes expands?
+
+It would seem that at least the "Epistemolgy" of a philosophy -- "how
+we know what we know", must be revised.
+
+-Ed Lane
+<edlane@godot.Eng.Sandy.Novell.COM
+
+------------------------------
+
+Date: Mon, 10 May 93 0:13:24 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: PHIL: A Question...
+
+Ed Lane writes:
+
+> Here's a question...
+> 	Is any philosophy, that does not take into account the
+> 	neuro-cognitive processes of the human brain, doomed to the
+> 	scrap-heap as our insight into these processes expands?
+
+Perhaps I'm not receiving you clearly.  The obvious answer is
+"Of course".  Or at least it must account for those processes,
+and any other causally important aspects of our behavior.
+ 
+> It would seem that at least the "Epistemolgy" of a philosophy -- "how
+> we know what we know", must be revised.
+
+Well, neuroepistimology is a hot area of study last I saw.  My
+personal feeling is that philosophers need to rethink exactly
+what they expect from epistemology.
+
+derek
+grants, naturally
+
+------------------------------
+
+Date: Mon, 10 May 1993 01:03:49 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: PHIL: A Question...
+
+> 	Is any philosophy, that does not take into account the
+> 	neuro-cognitive processes of the human brain, doomed to the
+> 	scrap-heap as our insight into these processes expands?
+
+Maybe.
+
+One of the things we don't know, but can hope to learn something about from
+doing AI and animal ethology, is what the reasoning processes of minds
+*without* human `neuro- cognitive' circuitry are like.
+
+My personal opinion is that there is *not* much in the content of a sane
+epistemology that depends critically on human brain wiring --- that is, the
+operational criterion, scientific method, and so forth would still work for AIs
+or extraterrestrials.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Sun, 9 May 93 22:53:25 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: CRYONICS: Reviving a neuro suspendee
+X-Reposting-Policy: Redistribute freely
+
+I have seen three different scenarios discussed for how a body may
+be created and attached to the head of someone who takes on neurosuspension.
+In addition, there is a fourth scenario, uploading, in which the head
+never acquires a body but comes to life as a computer simulation in a
+virtual reality.
+
+Thomas Donaldson on Cryonet suggested that a body would actually be
+grown from the base of the head, being attached to the neck at all times.
+I don't really see how this would work, as it's difficult for me to
+imagine an embryonic (using the term figuratively) spinal cord, nervous
+and digestive system actually being attached to the mature counterparts
+in the neck at all times in the development process.  Our DNA codes for
+development of the body in a certain order, and I don't think you can
+change that order freely.  Some animals can re-grow limbs, though, so
+perhaps this process could serve as a model for what we want.
+
+A more commonly imagined possibility is to clone one or more of the
+existing cells and produce a new body, perhaps through a rather natural
+process similar to that which we have all gone through.  The head of this
+new body would be removed (presumably brain growth was suppressed) and
+the revived head attached.  It is hoped that due to the body being a
+clone that it will be close to identical to the original body and
+therefore the attachment process will be not too difficult.
+
+I think there are a lot of problems with this idea, too, starting with
+the problems with growing a physically mature body which nevertheless
+lacks a brain, and progressing to the many differences which exist
+between identical twins, especially as mature adults.  I wouldn't expect
+the topology of the nervous system to match between the brain and the
+cloned body, and I don't see how you would acquire the information needed
+to match up these incompatible halves.
+
+A third possibility is a variant on this; you simulate the growth of a
+cloned body on a computer (presumably running a simulation at the
+cellular or sub-cellular level, but probably not at the molecular level),
+figure out what the body would or should look like, then tell your
+nanomachines to build it in whatever order they like.  Then you attach
+the head.  This bypasses the step of actually growing a clone and waiting
+20 years for it to reach adulthood, although you are still likely to have
+matchup problems when you attach the head.
+
+One of the things I like about whole-body is that you don't have this
+matchup problem.  You've got a body right there that you know has nerve
+trunks which match what the brain expects.  If you grow a clone you might
+have many percent more or fewer nerve trunks than you need, they may be
+dispersed and distributed differently, and it may not be at all clear how
+to hook them up.
+
+I think you'll have the same problem if you try to upload.  Uploading a
+person will require giving him a simulated body which matches the nerve
+connections of his simulated brain.  If you start with an intact body
+you can trace each nerve and say, this one needs to go to the foot,
+this to the hand, and so on.  But if all you had were a brain, you
+don't have that information.
+
+Now, you may say, can't you just trace the nerves up into the brain, see
+where they go and how they are connected, and from that DEDUCE where they
+must have attached to in the body?
+
+I don't think this will be as easy as it sounds (and I know that it
+doesn't sound very easy!).  The brain is an active device.  Knowledge of
+its pattern of interconnects will not in and of itself tell you
+everything there is to know about how it behaves.  It may be necessary to
+actually simulate the operation of the brain in order to find out what it
+would do with certain patterns of inputs.
+
+It's like a computer for which you are given a computer program.  You are
+asked some question about how the computer will behave when it runs
+this program.  One famous one is, will this program ever halt or will
+it run forever?  For some simple programs and questions you can give an
+answer.  But for most cases you just have to run the program and see what
+it does.
+
+That's what I'm afraid is likely to be the case with the brain.  Unless
+it turns out to be startlingly simple, it may be that the only way to
+determine whether THIS neuron is attached to the top of the big toe or a
+spot a millimeter away is to run the brain under both cases and see whether
+it notices any differences between this input and its memories of how its
+toes used to feel.
+
+If this process is necessary, then given the many inputs to the brain,
+there may be a combinatorial explosion of possibilities to try to pin
+down.  Until you are close to right the match-to-memory process can't
+work - the brain will just experience a confusing jumble of sensations
+that doesn't correspond at all with its memories.  And there would be so
+many possibilities that the universe's lifetime is not enough to try out
+all the possibilities.
+
+(Consider this thought experiment.  I train a present-day neural net which
+takes its inputs from an irregularly spaced 8-by-8 array to recognize
+the letters of the alphabet.  This has 64 inputs, say 15 hidden-layer
+neurons, and 26 output-layer neurons.  It will have 1,350 weights on its 
+15+26=41 neurons.  Now I remove the information about which input went
+where, and build you a new "retina" with 70 differently-positioned
+neurons.  Your task is to connect this "cloned" (inaccurately) retina to
+the neural network in such a way as to reproduce, as closely as possible,
+the neuron activations which produced letter recognition before.  I'd
+suspect that trial and error is going to be the best way to go, and I'd
+be surprised if you could reproduce anything similar to the original
+network.)
+
+Not only is there the computational problem, there is the ethical issue
+of subjecting a concious mind to these experiences.  Even if the brain is
+"just" a simulation, if you are matching sensations to memories then I'd
+argue that there's someone experiencing these sensations and having these
+memories.  Given the tedium involved in this process, which could go on
+for subjective years even if somehow it is sped up in realtime, this
+could be considered a form of torture.  All memory of this could be
+erased afterwards, of course, but based on earlier discussion on this
+list I would argue that this in no way eliminates the ethical impact of
+subjecting a human being to such an experience, nor does it make me as a
+potential suspendee willing to put myself in that position.
+
+Hal Finney
+hal@alumni.caltech.edu
+
+------------------------------
+
+Date: Mon, 10 May 93 1:52:37 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: META: Singh and all that mess
+
+> >    I don't know whether people have figured this out yet, but
+> > RAPSW is Pandit Singh. He crossed posted that Buddism post to a religious
+> > list in an attempt to get responses to show up here. RAPSW has
+> > been blocked from posting (he was never on the list).
+
+Something I've been thinking about: I remember talk of someone Way Back When
+who was banned from the list, some time before Singh appeared. One list member
+suggested that the person was toying with or experimenting on extropians.
+Considering that [I presume it is somehow provable] Singh has used various 
+other aliases, is it not likely that Singh is actually this other person under
+yet another alias?  Just an idea.  I think Pandit Singh is a fake name anyway;
+sounds like a combination of pundit and bandit, with the rather stereotypical
+Singh tacked on the end (maybe he/she/it watch Wrath of Khan too many times?)
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Mon, 10 May 93 2:55:32 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: ContrAnton
+
+> Ever heard of anyone claiming that babies are born spouting E=MC2? 
+> That's what called a straw man, Tim.
+> 
+> Since you're in communication with these ethereal Randian SuperBrains
+> I won't bore you with such arguments as mere human babies having innate
+> recognition of the human face or fear of heights (which is why babies
+> will not crawl out on glass surfaces) since the SuperBrains, no doubt,
+
+*I'd* certainly agree with this.  Indeed, the idea that humans are NOT born
+with at least some instincts and "hardwired" "knowledge" is truly ludicrous.
+
+> perspective.  This additional hard-wiring is what distinguishes the apes
+> from the monkeys.
+
+Could you elaborate on that?  Monkey are as social, in most cases, as apes.
+I don't think they'd be classed as "autistic". In fact, I think that whole 
+line of reasoning is suspect.  Even one-celled organisms act collectively,
+so seems to me that recognition of others' though processes is NOT what deter-
+mines communication or lack thereof.
+ 
+> developing of new routes starts in the womb.  Witness the firing of
+> retinal cells in embryos and the associated development of structures
+> in the visual cortex.  So reminiscent of neural networks, I might add.
+
+Interesting...
+ 
+> Why, indeed?  Because the Objectivist filter has distorted your view of
+> the world.  Wake up Tim.  Break free.  Join us.
+
+But if Tim does NOT, I can see why.  A cultlike "borgian" statement like that
+would be enough to make ME run for the hills!
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Mon, 10 May 93 3:36:00 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: Price's Innate Ideas
+
+Tim Starr quoth:
+
+> Fear is an emotion, not an idea; I'm not sure what you mean by "recognition."
+> Suckling is a reflex, just as kicking one's knee when tapped with a hammer
+> is, or jerking one's hand away from a hot surface that one has touched.
+
+??  Where on earth did you dig up these "daffynitions"? Fear is most certainly
+not an "emotion" it is a combination of physical responses to stress and per-
+ceived threat, often coupled with emotions.  And suckling is not a reflex it
+is an instinct; the two are very different.  Suckling is not "just like"
+knee-jerks or hand-jerks, which stem from the spine and are set in motion before
+the impulses even reach your brain.
+ 
+> refutation of the medeival concept of innate ideas is about the mind, not
+> the emotions or the reflexes.  To say that man is born tabula rasa is to
+
+The emotions are a product of the mind.  Again this is a confusion of terminol-
+ogy.
+
+> >On the conceptual level note that humans have an innate concept of other
+> >people and minds.  Children in which this innate concept is not hard-
+> >wired develop as autistic cripples.  They have to *learn* that other
+> 
+> This isn't clear to me at all.  I hope you find this amusing: I had to learn
+> that others had minds and emotions.  It seems to me that autism is the default
+> state we'd all be in without such learning.  Your presumption is the other way
+> around.  What scientific evidence is there to support your claim?  Also,
+> what would it take to falsify your claim?
+
+I have to agree here.  ALL people learn this supposedly innate "concept of 
+other people and minds".  Babies certainly do not demonstrate it until pretty 
+late.  I'd have to say that autistics are those that simple don't develop 
+it at all.
+ 
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Mon, 10 May 93 4:53:14 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: PHIL: ethics vs. morals
+
+> If someone initiates force then the defender has the right to use whatever
+> force is necessary for self-defence. But merely being from another tribe is
+> surely no excuse for bloodshed.
+
+Sure to us it is "barbaric", but I assure you that among certain Papua New
+Guinean tribes, it *IS* plenty excuse.  But the wierd thing is, it is not
+just random violence it is highly ritualized, and few people are really
+that seriously hurt.  There are exceptions (I saw a film of a shaman getting
+shot in the eye with an arrow.  Not real pretty.)  Anyway, part of my forth
+coming contention will be that such a system still follows the same rules
+of ethics, but the DEGREE differs.  I'd suggest that the "golden rule" is
+pretty much the base of it all.  In a culture like that, it is quite ethical
+to shoot arrows at the guy down the road, because you fully expect the same
+treatment in return. Applying an idea like this to a study of, say, gang 
+warfare might yield interesting and surprising results...
+
+...
+> than islanders' etc. I'm particularly interested in the ethical system we will
+> follow after the advent of nanotechnology, when we have conquered 'natural'
+> death, disease and aging, have augmented brains, and are travelling through
+> interstellar space on our way to the Far Edge Party.
+... 
+> But provided the human race progresses, some day this sort of trash will
+> be rejected -- enlightenment will arrive. Once natural death is conquered
+> and the deathists are relegated to a rapidly decreasing minority of diehards
+> -- a stubborn, dying breed that are the butt of numerous jokes -- I see the
+> non-initiation of force ethic taking on a whole new importance. People who
+> are going to live for a very long time will have to be more careful how
+> they treat each other. They can afford to be more patient in fulfilling their  
+> goals (thus diminishing the pressures for conflict), will be more concerned
+> with their reputation, will have more responsibility for the future, will
+> know that over a long period past crimes are more likely to catch up with
+> them, and will be less likely to risk their lives over some 'conflict'. 
+
+Very astute, and I think that is a trend to watch as life-X improves.  Hell,
+just a look at history will show something of this.  Back in Roman times
+avg. human lifespan was what? 45? Roman army enlistment was for TWENTY YEARS,
+and it was a total way of life.  Today avg lifespan is (last I heard) some-
+where between 60 and 80, and people have much better to do; more plans, more
+money to carry them out; better education; all these things we like to call
+"extropian"; army enlistment can be as short as TWO years, and is generally a
+tool to be used to get college money, for anyone but the real dolts.  And, 
+given all this, is it very surprising that war is no longer, in most cases,
+seen as glory, and a Good Thing, but as hell and a Bad Thing?  As you'd say,
+we are becoming less likely to risk our lives for that sort of crap, and as
+I'd say the degree of the ethic is shifting (the GR still holds, but what I
+do unto you and expect done in return is considerably less gory nowadays).
+
+...
+> >other primates, and dolphins/whales.  And for another, how can something that
+> >is a human code of behaviour have anything to do with eternal Truths of the
+> >universe.  Not saying it doesn't but I am asking for a clarification/expansion
+> >of this idea before I am ready to accept (or reject) it. 
+> 
+> I referred to 'civilised intelligent life'; although many people place humans
+> in this category I only include transhumans and above.
+
+Ah, but who gets to define just what "transhuman" is?  For all their talk, I 
+don't think a single person on this list is even close to being transhuman, 
+except in some very trivial ways if even that.  I think most of us here are on
+the right path, but have a long way to go.
+
+I won't comment on the aliens part.  I remain 100% neutral on this whole alien
+life bit.  There is just no evidence to speak of either for or against, so...:)
+
+
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Mon, 10 May 93 2:41:41 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: LIFE-X: the 120 yr limit, cryogenics, blah
+
+> Peter McCluskey writes:
+> 
+> >  There are very definite limits on how much information an
+> > individual neuron can store.
+
+Last neuroscience stuff I read suggested that individual neurons themselves
+don't store info at all.  Only large groups of neurons do that.  A bit like
+slime molds.  Maybe some reading is in order?
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Mon, 10 May 93 13:52:57 METDST
+From: Massimo Cotrozzi <cotrozzi@ghost.dsi.unimi.it>
+Subject: Unsubscribe me please
+
+Unsubscribe me please
+
+------------------------------
+
+Date: Mon, 10 May 1993 07:12:59 -0400
+From: Rens Troost <rens@stimpys.IMSI.COM>
+Subject: Hiding Messages in Files, was CRYPTO: Steganography Part II
+
+On Sat, 8 May 93 16:39:06 PDT, Eli Brandt
+	<ebrandt@jarthur.Claremont.EDU> said
+
+   ebrandt> that the fellow I was talking to about JPEG steganography
+   ebrandt> has popped up on cypherpunks with an implementation, as
+   ebrandt> a hack to [cd]jpeg. Check out ftp.cs.ubc.ca:pub/pickup/jsteg.
+
+Thanks for the pointer. Is there any PD or copyleft ADPCM code out
+there? An archie search proved fruitless.
+
+   rens> The world is full of covert channels.
+
+   ebrandt> To nitpick, I don't think this is technically a covert channel.
+
+I reckon you're right. 
+
+-Rens
+
+------------------------------
+
+Date: Mon, 10 May 93 11:33:35 -0400
+From: pcm@cs.brown.edu (Peter C. McCluskey)
+Subject: AI:Human Equivalence
+X-Reposting-Policy: redistribute freely
+
+ hal@alumni.cco.caltech.edu  (Hal Finney) writes:
+>The point is, it doesn't matter how fast your hardware is if you don't
+>know what program to run on it.  The real problem isn't the hardware, it's
+
+ If you have some educated guesses about what program you need to run,
+then it matters a great deal if it takes a year to test a program that
+is trying to simulate a process that would take a minute for a human
+brain to do. It will take a lot of testing to find the right software,
+and slow CPUs are currently one of the limiting factors in that testing.
+
+-----------------------------------------------------------------------------
+ Peter McCluskey >> pcm@cs.brown.edu >> Eradicate global namespace pollution!
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Mon, 10 May 1993 10:25:12 -0500 (EDT)
+From: Harry Duran <hduran@UMDNJ.EDU>
+Subject: SUBSCRIBE ExI mailing list
+
+SUBSCRIBE extropians mailing list hduran@njmsa.umdnj.edu
+
+
+
+------------------------------
+
+Date: Mon, 10 May 93 10:31:06 -0400
+From: pcm@cs.brown.edu (Peter C. McCluskey)
+Subject: LIFE-X: the 120 yr limit, cryogenics, blah
+X-Reposting-Policy: redistribute freely
+
+ derek@cs.wisc.edu  (Derek Zahn) writes:
+>> >Peter McCluskey writes:
+>>  I claim that artificial neural networks have been sufficiently successful
+>> at explaining the behavior of single neurons that we can assume with a
+>> fair degree of confidence that real neurons have similar storage capacities.
+>
+>This claim is simply unjustifiable.  ANNs admittedly behave in
+>ways that are crudely analogous to biological neurons, but that's
+>about all.  Look at the series of NIPS (Neural Information Processing
+>Systems) proceedings, not to mention the harder to follow actual
+>research in neurophysiology, and you can't help but see the layers
+>of complexity continually being uncovered in neural behavior.
+
+ There is certainly a lot of complexity in neural behavior that is not
+captured by ANNs, but as far as I can tell very little of it affects
+the storage capacities. Can you provide a more specific reference to
+something that suggests that neurons have more storage capacity than
+an ANN with 7-bit accuracy in its inputs and outputs, or are you just
+saying that there's a lot we don't know?
+
+ anton@hydra.unm.edu (Stanton McCandlish) writes:
+>> Peter McCluskey writes:
+>> 
+>> >  There are very definite limits on how much information an
+>> > individual neuron can store.
+>
+>Last neuroscience stuff I read suggested that individual neurons themselves
+>don't store info at all.  Only large groups of neurons do that.  A bit like
+>slime molds.  Maybe some reading is in order?
+
+ I don't think I understand your point. If groups of neurons store information,
+then parts of that information must be contained in individual neurons. Are
+you just pointing out the well-known fact that it is stored in a distributed
+and redundant manner?
+
+-----------------------------------------------------------------------------
+ Peter McCluskey >> pcm@cs.brown.edu >> Eradicate global namespace pollution!
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Mon, 10 May 93 9:25:50 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: LIFE-X: the 120 yr limit, cryogenics, blah
+
+Karl Barrus writes:
+
+> Hm... I wonder if this will lead to new neural networks which output
+> imaginary values, or ones which have imaginary weights.  This would
+> allow magnitude and phase information!
+
+I just recently read the following article:
+
+  Michael C Mozer, Richard S Zemel, Marlene Behrman, and Christopher
+  K I Williams.  Learning to Segment Images Using Dynamic Feature
+  Binding.  Neural Computation 4 (1992), pp 650-665.
+
+In this paper, they have complex-valued activations and weights
+(and use a generalization of backprop).  In their system, the
+numbers are actually expressed in polar coordinates; the "phase"
+is then used to represent a labeling.  The idea is to have the
+network dynamically relax onto consistent labelings by matching
+the phases of units firing in response to features from the same
+object (well, rectangle or triangle...).
+
+Interesting paper.  There was no claim, however, that biological
+nets use phase for this particular purpose.
+
+derek
+
+
+------------------------------
+
+Date: Mon, 10 May 93 08:55:05 -0500
+From: elee9sf@Menudo.UH.EDU
+Subject: LIFE-X: the 120 yr limit, cryogenics, blah 
+
+Hal wrote:
+> The thing is, there are recent observations that hint that not just
+> frequency, but phase may be important in real neurons.  The relative
+> phase between the pulses of different subsystems of neurons has been
+> observed to correlate with certain forms of information.
+
+Hm... I wonder if this will lead to new neural networks which output
+imaginary values, or ones which have imaginary weights.  This would
+allow magnitude and phase information!
+
+As Michael Price said, some networks are not biologically plausible:
+backpropagation for example (hard to imagine real neurons calculating
+gradients and propogating errors back to previous layers to "learn".)
+But some paradigms are biologically plausible (much of Grossberg's
+work, etc.) and would be able to have imaginary parameters.
+
+/-----------------------------------\
+| Karl L. Barrus                    |
+| elee9sf@menudo.uh.edu             | <- preferred address
+| barrus@tree.egr.uh.edu (NeXTMail) |
+\-----------------------------------/
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0252
+****************************************
+

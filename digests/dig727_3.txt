@@ -1,0 +1,945 @@
+7
+Message  7:
+From exi@panix.com Tue Jul 27 12:40:30 1993
+Return-Path: <exi@panix.com>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+        id AA25853; Tue, 27 Jul 93 12:40:28 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+        id AA15062; Tue, 27 Jul 93 12:40:02 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by panix.com id AA01220
+  (5.65c/IDA-1.4.4 for more@usc.edu); Tue, 27 Jul 1993 15:29:35 -0400
+Date: Tue, 27 Jul 1993 15:29:35 -0400
+Message-Id: <199307271929.AA01220@panix.com>
+To: Exi@panix.com
+From: Exi@panix.com
+Subject: Extropians Digest
+X-Extropian-Date: July 27, 373 P.N.O. [19:29:06 UTC]
+Reply-To: extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: R
+
+Extropians Digest             Tue, 27 Jul 93             Volume 93 : Issue 207
+
+Today's Topics:
+                             ADMIN: List Problems                     [1 msgs]
+                                   BOOK GHG                           [1 msgs]
+                         Bits and Bytes Online v1 #3                  [1 msgs]
+                   Controlling your neighbor with a button            [1 msgs]
+                                EXI EMERGENCY                         [1 msgs]
+                FSF: Some Useful Software, No Useful Politics         [2 msgs]
+                                 Future Fairs                         [1 msgs]
+                        Natural rights and Natural Law                [1 msgs]
+                    POLI: William Gibson - a statist!  :-(            [1 msgs]
+                      SOC: Design of a confidential poll              [1 msgs]
+                               Wage Competition                       [3 msgs]
+                        meta: involuntary crossposting                [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 53043 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 26 Jul 93 19:51:12 EDT
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: Wage Competition
+
+dkrieger@synopsys.com (Dave Krieger) sez- 
+> At  6:08 PM 7/23/93 -0400, FutureNerd Steve Witham wrote:
+> >Also, 1E6/1E2 is still 1E4.  If this could be done in ten years, it might
+> >do the trick, but it has to work *during* the singularity, right?
+> 
+> Ah, but Perry was talking about humans.  With AIs you can do the variation
+> and selection at machine speeds (the variation/selection mechanism doesn't
+> need to be as complex as the programs it's supervising), maybe with
+> hundreds to thousands of generations per day.
+
+Well, let's define a unit.  One "PIPS"--Person Interacting at Person Speed--
+is the processing power to run one human-equivalent AI at human-equivalent 
+speed.
+
+Now, ask yourself, how many PIPS will common desktop computers have at the
+point where "real AI" software becomes commonly available?
+
+It's a trick question, though.  The more PIPS are available, the faster
+AIs will be able to take over the economy.  But the fewer that are 
+available, the fewer slave-breeding generations you'll be able to run
+before it's too late.
+
+Wouldn't you need to run the thing through a whole lifetime before you
+could test it for slavishness?  Maybe ten years.  Also, what environment
+would you run it in?  Some kind of light-processing-load VR?  How do you
+simulate the slave-owner?
+
+-fnerd
+quote me; I love it when you do that
+
+------------------------------
+
+Date: Mon, 26 Jul 1993 17:11:01 -0800
+From: Romana Machado <romana@apple.com>
+Subject: SOC: Design of a confidential poll
+
+Fellow Extropians:
+
+Would you like to collect data on any pet theories you might have
+about Extropians or their behavior? Please send me private mail 
+about the questions you would like to see included a confidential poll.
+
+
+
+
+
+Romana Machado (romana@apple.com)
+----------------------------------------------------------------------------
+"I want to have control / I want a perfect body
+ I want a perfect soul  / I want you to notice..." - Radiohead, "The Creep"
+
+
+------------------------------
+
+Date: Mon, 26 Jul 93 20:17:20 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: EXI EMERGENCY
+
+Alexis Rosen () writes:
+> 
+> I have moved your .forward file to former-forward. It almost crashed Panix.
+> Here is some output from a sysadmin utility I use. It is representative but
+> not complete- there were almost a hundred of these exi processes.
+> 
+> This is _totally_ unacceptable. I don't know what was going on but you _must_
+> preflight or test while logged in. I can't have this list crashing the whole
+> machine, which it threatened to do by chewing all available swap space. (The
+> load hit 25 momentarily.)
+
+  I have fixed the problem, added new measures to detect such rogue
+processes, and reenabled the list.  I am very very sorry this happened.
+The problem was in two key areas: 1) perl was dumping because someone's
+db record expanded past 1024 bytes (current dbm limit), this corrupted
+the db slightly (the corrupted db left newlines in odd places like email 
+addresses, truncating the sendmail command line and running email addreses
+through the shell. This has been fixed by an error check.  
+
+2) a typo in a split() in the digest code caused e-mail addresses packed into
+a string to be split into individual characters. One of those characters 
+happened to be 'e' and somehow hundreds of copies of 'e' (the editor) got ran.
+The typo was made by me last night but didn't show up till today because
+digests only run every 12 hours.
+
+Here's what our list software log said:
+[10030]Sending Message to List, Users=772, Size=881 lines.
+
+   Since we only have 20-30 users on the digest, I recognized that
+email addresses must have been exploded into characters.
+
+  I have added a process listing to my login script to detect rogue processes
+being ran and I am writing a script to scan the list software logfile
+looking for odd things like incredibly long user lists, messages, or
+mail loops.
+
+ Once again, I'm sorry.
+
+-Ray
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Mon, 26 Jul 93 19:09:24 CST
+From: <dsg@staff.tc.umn.edu>
+Subject: Future Fairs
+
+On Mon, 26 Jul 93 16:43:13 CDT, <boydl@SEMATECH.ORG> wrote:
+
+>Dan Goodman sez:
+>>There will be a future fair (more like a local carnival, actually) in
+>>Minneapolis next month.  The people running it seem to have decided that
+>>the future will be cyberpunk and heavy metal.
+>
+>Dan, can you give us more details on what's happening at the fair?
+>Is it running 24 hours like a future information society should?
+>What's their spin on "heavy metal" in the future?
+>
+So far, all I've seen is their posters inviting exhibitors to participate.  
+I'll have to look again, to see the exact wording (and I've forgotten the 
+date!).  Stay tuned for further reports.
+
+I suspect their spin on heavy metal in the future is "The kind of music I 
+like is the music of the future."
+
+Dan Goodman dsg@staff.tc.umn.edu
+
+------------------------------
+
+Date: Mon, 26 Jul 93 20:25:02 EDT
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: Wage Competition
+
+Jay <ejo@world.std.com> sez-
+
+> Heck, simple operant conditioning would be enough to turn anyone on this
+> list into slaves.
+> 
+> Dont' believe me? Come to my house; I'll imbed the necessary radio
+> controlled devices in your pain and pleasure centers, watch you through video
+> cameras at a safe distance, and see what happens after a year to two of
+> judicious application of current...
+
+Okay, this is a good argument.  Jay proposes:
+        1) start with a matured intelligence
+        2) condition it for a year.
+
+Assuming this would work, what happens when you then release copies of me on
+the world?  Will none evolve (naturally or through someone's deliberate
+deprogramming) that think for themselves?  If some independent fnerds
+evolve, would they be economically more viable than Jayslaved fnerds?
+They would for people other than Jay, I guess, but could you condition me
+to want to work for my "owner," in general, rather than a specific person?  
+How would you program me to recognize my owner?
+
+-fnerd
+quote me, master
+
+------------------------------
+
+Date: Mon, 26 Jul 93 20:11:48 EDT
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: Wage Competition
+
+i mentioned the idea of the slave holder having control of the slave-AI's
+pleasure center (with a button).
+
+Hans Moravec sez--
+> 
+> No, no the conditioning system is a program inside the robot.  The robot
+> feels good when its psychology module says its owner is happy.
+
+Okay, but who or what conditions the psychology module to give the right
+answers?  Or how do you program it with a suitably subtle idea of what the
+owner wants?  Maybe having this module unable to learn is a good safety
+feature--the robot might never "get" some of your interesting desires, but
+at least it would be less likely to veer off course believing it knows
+what you "really" want.
+
+The easier the psychology module is for the human to understand, the more it's
+like the pleasure button, in which case my previous argument stands.
+
+In any case, I think with a sufficiently smart, learning system, it would turn
+into a game of "find out what makes the psychology module say the owner is
+happy," with solutions on the order of holding a picture of the smiling owner
+up to your face.
+
+> >I don't believe the idea of a "strictly rational" intelligence makes sense.
+> >Emotions are the aspect of intelligence that figures out what to think about
+> >and what works.  I think those issues are central, not peripheral, to making
+> >intelligence work.
+> 
+> Logic is a universal programming language.  It's possible to implement
+> anything in it, ...
+
+I believe I was denying a statement of yours that with a logically set-up 
+robot, you could set arbitrary goals (axioms) for a general reasoning
+system.  You're right that if something is programmable, it's programmable in
+logic.  But what I'm effectively saying is, although it's logically possible,
+it's too hard to program an arbitrary goal structure into a robot.  Certainly
+much harder than "changing the axioms in a reasoning system" makes it sound.
+And it's just as hard again whenever you change your mind.
+
+> Pure logic may be, but probably isn't, the best way of
+> implementing a robot psychology.
+
+[I say I haven't read _Mind Children_ yet]
+> better hurry, the chapter I mentioned is from the next book!  
+
+I'm enjoying the chapter you posted!
+
+-fnerd
+quote me quote me let me be your footnote
+
+------------------------------
+
+Date: Mon, 26 Jul 93 20:35:36 GMT
+From: al007@cleveland.freenet.edu (Nombrist Beor)
+Subject: FSF: Some Useful Software, No Useful Politics
+
+In message <9307262014.AA07223@klingon.East.Sun.COM> you write:
+>The basic charter of FSF states that software ought to be free and that
+>intellectual property is a sham, solely because that software can be
+>copied without destroying the original. (At base, this is what the
+>claim rests on. The appeals to economics to be found in the FSF
+>literature are uneducated claptrap.)
+
+The original "copyright" law from the common law jurisdiction was that of 
+the Statute of Anne. When the printing press became wide spread, the 
+previous scribes lobbied the royalty to enact this statute to secure a 
+monopoly on their books to stop the evil printing press from putting them 
+out of business.
+
+Agreed: In general, the FSF is using flawed interpretations.
+
+>Now, FSF can produce tons of code every year and give it away, but none
+>of this erases the fact that their express purpose is to work towards a
+>legal environment in which the product of an individual's mind and
+>hands can be expropriated at will by "society." It's a grim sort of
+>benefactor indeed that gives with one hand while trying to take away
+>with the other.
+
+I do not understand this? You believe that the only way for your economic 
+theory to work is purely on the basis of a monopolistic system, where the 
+means of production AND the process itself cannot be duplicated by someone 
+else? It appears from the rest of your reasoning that this is not so, but it 
+is the claim you appear to be making here.
+
+Although at the time of this writing, I can't think of an alternative (I 
+took the time to do so), but copyright is an inherently monopolistic system, 
+in the same vein as patents. I fail to see where individuals and thereby 
+society in general benefit from them. What you do is create an artificially 
+inflated market (which is the nature of a monopoly) for a product that by 
+your claims would be unmarketable otherwise.
+
+I own very little software. In every case, I bought the software 
+specifically for reasons other than the code itself. In several cases (such 
+as shareware), I paid for the software because I feel that it really is 
+worth the price. Although you may look upon my interpretation as flawed 
+because I am "giving to charity", I am not doing so. I am entering into a 
+value-for-value relationship with the author in which I am tendering the 
+author money in a nebulous hope that he will respond in kind by producing 
+more software of a similar nature. This is also the nature of the Free 
+Software Foundation.
+
+Note also that I have never paid a dime to FSF. I have no current need for 
+their compiler; emacs is too slow and large for my tastes, and their dozen 
+or so other utilities are equally unusable to me currently for various other 
+reasons.
+
+I do have one solution to your dilema. I am a contractor. I am currently 
+being paid to develop instrumentation systems. The instrumentation systems 
+are computer controlled sensors and the software is all custom written. When 
+I leave the project, the source code will remain with it and it is very 
+possible that the work I have done will be marketed. I could have obtained a 
+royalty agreement or raised my asking price; however, I did not do so 
+because I did not feel that the net gain from such an agreement would be 
+worth my time. I may be wrong, and that's the chance I take.
+
+I have also had several other contracts. Some of them were strictly 
+software, while some were strictly hardware in nature. Some didn't involve 
+any construction at all, such as one firm that essentially wanted a book 
+keeper and another which wanted a different graphic artist than the local 
+printing shops. I have never needed a monopolistic copyright to this day. 
+The only time I have ever even considered such a beast was when I was very 
+young (in High School), but I have become more experienced over time.
+
+------------------------------
+
+Date: Mon, 26 Jul 93 19:44:34 CST
+From: "" <dsg@staff.tc.umn.edu>
+Subject: meta: involuntary crossposting
+
+Messages I was sure I'd sent to AltInst but not to Extropians have been 
+showing up on both lists.  I thought my memory might be a bit off.  
+However, the last message I sent was definitely sent only to AltInst.  And 
+it showed up on both lists.
+
+So far, I haven't sent anything to AltInst that I specifically didn't want 
+to go to Extropians.  But I'd like to know what's going on.
+
+Dan Goodman dsg@staff.tc.umn.edu
+
+------------------------------
+
+Date: Mon, 26 Jul 93 21:02:00 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: ADMIN: List Problems
+
+  I accidently sent a private message to the list, but it bears clarifying.
+Today, the list software blew up because of a bug. I've fixed it, but
+some people didn't get their digests/filterlists because of it. If you
+think you've missed messages (and you are on the beta list), send a 
+::list, and use ::resend, or ::resend thread to retrieve messages you want.
+For further info, see ::help list and ::help resend
+
+-Ray
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Mon, 26 Jul 93 18:00:54 -0700
+From: davisd@nimitz.ee.washington.edu
+Subject: Controlling your neighbor with a button
+
+> From: fnerd@smds.com (FutureNerd Steve Witham)
+> Subject: Wage Competition
+> 
+> 
+> i mentioned the idea of the slave holder having control of the slave-AI's
+> pleasure center (with a button).
+
+For those interested, Stephen Donaldson's new series revolves around
+issues of power and control, particularly around putting electrodes in
+people's heads and pressing their buttons. Haven't read the third in
+the series yet, since I am a cheap bastard and am waiting for it to
+come out in paperback, but the title is A_Dark_and_Hungry_God_Arises. 
+
+Buy Buy -- Dan Davis
+
+------------------------------
+
+Date: Mon, 26 Jul 93 21:32:22 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: FSF: Some Useful Software, No Useful Politics
+
+Nombrist Beor () writes:
+> I do not understand this? You believe that the only way for your economic 
+> theory to work is purely on the basis of a monopolistic system, where the 
+> means of production AND the process itself cannot be duplicated by someone 
+> else? It appears from the rest of your reasoning that this is not so, but it 
+> is the claim you appear to be making here.
+> 
+> Although at the time of this writing, I can't think of an alternative (I 
+> took the time to do so), but copyright is an inherently monopolistic system, 
+> in the same vein as patents. I fail to see where individuals and thereby 
+> society in general benefit from them. What you do is create an artificially 
+> inflated market (which is the nature of a monopoly) for a product that by 
+> your claims would be unmarketable otherwise.
+
+   I do not see how copyright is inherently monopolistic -- anymore than
+land property rights. Unlike patents, copyrights (non-look-and-feel) do not
+prevent others from entering the market. Copyrights prevent others from
+stealing your work for their own gains. If copyrights were erradicated
+it would be near impossible for anyone who has specialized in software or
+writing books to make a living at it.  Computer scientists would be added
+to the list of "starving artists", along with other professions which
+rely on intellectual property rights.
+
+   Sure, one could get a job doing consulting/contracting, but this tiny
+niche market for custom software will be erradicated in the future,
+especially by object oriented technologies like superdistribution.
+
+   If you want to get software without paying for it, you can rent it.
+Perhaps in the future, public libraries will carry software that can be 
+borrowed.
+
+  In my mind, there is no difference between spending 1000 hours building
+a car or 1000 hours building a piece of software except the former
+is protected by property rights and you advocate that the latter not be.
+Shareware sucks, and CS people know it. Programmers depending on shareware
+/freeware contributions for a living would be welfare cases making less than 
+janitors.
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: 26 Jul 1993 21:41:07 -0400 (EDT)
+From: Mark Sulkowski <SULKOM@ubvmsb.cc.buffalo.edu>
+Subject: Natural rights and Natural Law
+
+ From: "James A. Donald" <jamesdon@infoserv.com>
+>
+>In <9307251850.AA27700@wookumz.gnu.ai.mit.edu>, UANDCOH@uncmvs.oit.unc.edu (Andrew I Cohen)  wrote:
+>> I am still a bit concerned about the grounding of such NL, and
+>> how it is that we have access to it.  It's an interesting move
+>> to liken NL to some objectively "external" observable fact,
+>
+>As Tooby and Cosmides state, the human mind has specialized
+>cognitive mechanisms for reasoning about social exchange.
+>[Barkow, Cosmides, and Tooby, page 164]
+>
+>As I said in the essay, judging people is as important for
+>survival as judging distances.  Robbery and assault is not
+>robbery and assault because the state decrees it so, but
+>because we can see that it is so.
+>
+>We intuitively know the difference between coercion and 
+>consent because we know what kind of animals we are.  
+
+        I'm confused here.  I've never been quite clear at what level
+this "intuition" of right and wrong operates on (according to your
+understanding).
+
+        Are you suggesting that this intuition is hard-wired in?
+For example, I've heard of cases where people with brain damage
+have great difficulty in performing certain mental tasks.  For example,
+a person who is no longer able to recognize 'fruit' with ease, or 'humor',
+or other things.  Are you suggesting that it is possible that someone
+with just the right brain damage might not recognize 'theft' or 'right
+and wrong'?   (And does this explain Karl Marx ;)
+
+        Or, are you suggesting something less hard-wired?  You said that
+we "intuitively" have knowledge (automatic knowledge?) of coercion
+because we "know" what kind of animals we are.  Is this 'knowing' something
+learned _instead_ of instinctual?
+
+        It would be nice if you could pin all of this down.  Several weeks
+ago in extropians I asked if there was such a thing as "creole morality".
+(See latest EXTROPY for discussion of "creole morality".)  It occurs to me
+that you may be asserting there is.
+
+
+>> James discusses the role of sociobiology in understanding NL, and
+>> that seems like a promising route.  But, again, it's unclear that
+>> sociobiology will unequivocally indicate some singular conception
+>> of NL.  Now what do we do with Randall Terry?
+>
+>If Randal Terry goes around saving unborn babies with a
+>six gun, then we shoot him.  Otherwise we let him be.
+
+        I really DON'T want to get into a huge debate on abortion on
+this list, but I would like to ask something here.  WHY should we shoot
+Randal Terry?  I could place a spin on this as follows:
+
+        "If women go around seeking to kill their unborn babies, then
+we shoot them (possibly after transfering the fetus to another womb).
+After all, the women would be murderers.  Otherwise we let them be."
+
+        I don't see how this is conceptually different from your example.
+Also, if it is possible to be pro-life, where is the pro-choice "intuition"?
+
+
+>Plainly in a state of nature, a man who went around
+>violently preventing murder and robbery amongst strangers,
+>by killing and maiming murderers and robbers, would be a
+>hero.  A man who went around violently forcing women to
+>carry their babies to term would be a dangerous lunatic to
+>be killed at the first safe opportunity to do so.
+
+        I honestly wish that were so 'plain' to me!  It's not!
+
+        *    .
+====\\.    ~  //====
+||   \\ ~ . *//   ||
+||    \\ *  //    || 
+||     \\.~//     || 
+||      \\//      || 
+|| Mark  \/enture ||
+====================
+
+------------------------------
+
+Date: Mon, 26 Jul 93 20:46:17 CDT
+From: capntaz@dudemar.b24a.ingr.com (Heath G. Goebel)
+Subject: BOOK GHG
+
+-- 
+Heath G. Goebel, <capntaz@dudemar.b24a.ingr.com>
+
+
+------------------------------
+
+Date: Mon, 26 Jul 93 19:03:19 -0700
+From: jamie@netcom.com (Jamie Dinkelacker)
+Subject: POLI: William Gibson - a statist!  :-(
+
+The issue of giving software away for free to schools as a wonderful, gift
+from heaven benefit to all of us In The Future is confounded by the
+generational speed in software upgrades as distinct from hardware
+replacement. On DOS/WIN, I went through Wordstar, Word Perfect and
+MicroSquish Word, but kept plugging away on Intel driven machines from a
+8086 to 80386 then my 80486. The shifts of hardware and software didn't
+necessarily match. I also migrated from Paradox to Filemaker (yes, it's not
+relational but it's EASY and FAST for most of what's needed). I'm also a
+VERY loyal Apple customer with desktop and portable models but my software
+choices are much more variable (sometimes Claris, sometimes not). My
+business uses both Macs and PCs. This is one example.
+
+Here's another example. It was clear in many marketing research projects I
+conducted that organizations don't necessarily tightly follow the software
+upgrade path on the same platform, especially small and medium sized
+companies. When platforms are upgraded enterprise-wide (e.g., '286 to '486)
+a fresh look is frequently taken at software apps. If the company has
+lagged behind the upgrade path, there's not a lot of incentive to stick
+with the OLD supplier if there's a more advantageous application available.
+It's a complicated mess of the extant personnel skill set, perceived needs
+and deals that can be cut.  Orgs that have stayed current tends to migrate
+the apps to the new platform, those who have lagged behind either do
+nothing or make fresh decisions.
+
+ The point here is that its doubtful that giving software to kids will
+necessarily engender long-term brand loyalty for application publishers.
+They'll go through much by the time they have many disposal rubles they
+direct to software. Many, many software generation will come and go, and so
+will many companies.
+
+Plus, I doubt many of the teachers would take the time to learn all the
+software. Aren't we always hearing how badly they're overworked and
+underpaid. Horrors, especially for a career path they chose freely. 
+
+Jamie@netcom.com 415-941-4782    
+
+
+------------------------------
+
+Date: Mon, 26 Jul 93 22:12:32 EDT
+From: Javier Machado from ConRail Corporation <jmachado@pacs.pha.pa.us>
+Subject: Bits and Bytes Online v1 #3
+
+BBB  III  TTT  SSS       BBB   Y   Y  TTT  EEE  SSS
+B  B  I    T   S         B  B  Y   Y   T   E    S     ONLINE EDITION
+BBB   I    T   SSS  AND  BBB    YYY    T   EEE  SSS   VOL 1, NUMBER 3
+B  B  I    T     S       B  B    Y     T   E      S     7/26/93
+BBB  III   T   SSS       BBB     Y     T   EEE  SSS
+======================================================================
+Scientists believe that the universe is made of hydrogen because they
+claim it's the most plentiful ingredient. I claim the most plentiful
+ingredient is stupidity.                           - Frank Zappa, 1993
+======================================================================
+What's On The Tube Tonight, HAL?
+ 
+Imagine if while you were at work today, your TV set was busy working
+for you. First, it checks a list of your viewing preferences, then it
+sifts through thousands of shows and records several programs it
+thinks you might like to watch tonight. Sound like science fiction?
+Well, think again - this new technology is coming to a TV set near you
+this fall. One of B&B's primary focuses is the growing interaction
+between computers, phones, cable TV and just about any other gizmo you
+can think of. This "electronic TV Guide" is an early indicator of
+things to come. With it, a viewer can push a button and order their TV
+to find, preview and record any show. "Truly, this is the first
+interactive TV," says Brian Klosterman, a senior vice president at
+StarSight Inc., which will offer the electronic guide this fall. If
+successful, these guides portend big changes in how you use your TV -
+and how your TV uses you. ... "Channels become irrelevant in a world
+where viewers shop only for those shows that interest them," says T.
+Gary Trimm, president of Scientific-Atlanta's broadband communications
+group, which makes the cable boxes that use the new technology. And as
+viewers shop for programming, big brother will be watching, and taking
+careful note. Two-way TV opens up the potential for the ultimate in
+direct marketing, with advertisers able to reach, say, every Hispanic
+woman between the ages of 18 and 24 (something B&B has also been
+trying to do :-). "It's another step toward losing our ability to live
+anonymously," warns Les Brown, a media scholar at the New York-based
+Center for Media Studies. ... The StarSight system is intelligent
+enough to keep track of what you like to watch. Using your
+preferences, it can scan through all 7,000-12,000 shows on any given
+week and flag or record programming for you. However, this powerful
+feature will be kept turned off in its first products, since some
+consumers in test marketing complained that they felt like their TVs
+were 'spying on them'. Other features: While watching one show, you
+can bring up a list of what's playing elsewhere. You can preview any
+show without changing channels. Shows can also be grouped by type,
+listing all the sci-fi movies, baseball games, or swimsuit specials on
+today, this week or this month. And best of all, you can program your
+television to record a show without setting your VCR. Joy!
+(Source: Charles Haddad, Cox News Service)
+======================================================================
+Megatrends or Megamistakes II
+ 
+There is also serious concern that media infoglut is having a damaging
+effect on society - in particular the younger generation. As
+Chesebro and Bonsall (1989) show, the television set is on in the
+average American household for 7 hours and 7 minutes a day. In
+addition, recorded video tapes are watched for a further 5 hours 8
+minutes a week on average (1987 figures). Young Americans can also
+tune in to any of 9,300 radio stations in the US, on one of the 5.3
+radios in the average American household. In these and other ways,
+the typical American encounters no less than 1,600 advertisements
+each day. By the age of 17, the average American child would have seen
+over one-third of a million ads. It is little wonder that US academics
+are talking about America "amusing itself to death," its collective
+mind numbed by video-pulp, 10-second sound bites and 30-second video
+clips. A recent report by the Times Mirror group concluded that the
+current under-30s generation in the US - despite the benefits of a
+higher standard of living, better education, information technology,
+etc. - "knows less, cares less and reads newspapers less than any
+generation in the past five decades."
+(Tom Forrester, Opening Address to International Conference on the
+Information Society, Gottlieb Duttweiler Institute / Green Meadow
+Foundation, Zurich, Switzerland,  11/18/91)
+======================================================================
+The Tao of DOS
+ 
+A master was explaining the nature of Tao to one of his novices.
+"The Tao is embodied in all software - regardless of how
+ insignificant," said the master.
+"Is the Tao in a hand-held calculator?" asked the novice.
+"It is," came the reply.
+"Is the Tao in a video game?" continued the novice.
+"It is even in a video game," said the master.
+"And is the Tao in the DOS for a personal computer?"
+The master coughed and shifted his position slightly.
+"The lesson is over for today," he said.
+ 
+(from "The Tao of Programming" by Geoffrey James (Info Books, 1987)
+======================================================================
+IS and Business Units, Living Together In Perfect Harmony:
+What A Beautiful World It Could Be
+ 
+IS managers and the heads of their organizations' business units are
+in the same speedboat, says Patrick Fortune, CIO of Bristol-Myers
+Squibb. And they'd better learn to help each other steer as they
+careen wildly through a future of perpetual change. ... Without
+cooperation between IS and the business units, neither side can expect
+to make progress. His suggestions? First, break down traditional
+barriers between IS and the business units. Then, concentrate on
+creating an "information-literate" organization so that business execs
+understand what IT can do for them. Finally, create a comprehensive IT
+toolkit that can provide the standards, techniques, and procedures
+business units need to forge into the murky mist.
+(Source: John P. McPartlin, "IS And Business Units: Happy Together?"
+Information Week, 7/5/93, p. 62)
+======================================================================
+NEW PRODUCTS, SERVICES, AND INDUSTRY NEWS:
+PictureTel Turns your PC Into A Videophone
+ 
+PictureTel Corp. has introduced equipment that turns your PC into a
+video teleconferencing system. The $6,000 setup will allow users to
+view the person they're talking to in a corner of the computer screen
+while running other applications. Users will also be able to view the
+work on each other's computer screens. The system includes a
+speakerphone and a video camera that can also be used to display
+printed documents. Also included will be a screen sharing application
+that will allow users to share and view the same file. This technology
+will make it easier for people to work from home but not miss out on
+meetings, brainstorming sessions, and other 'human contact' elements,
+the lack of which are one of the big stumbling blocks to effective
+telecommuting. The main drawback at present is lack of support for
+LANs, mainly due to insufficient bandwidth for the video signal. But
+this is a problem that will soon be resolved.(PictureTel 508/762-5000)
+(Sources: Wall Street Journal 7/16/93, p. B8, Communication Week
+7/19/93, p. 5)
+==================
+RAM Prices Skyrocket
+ 
+Prices of computer memory chips have more than doubled in the past
+week, in response to a factory fire in Japan where an important chip
+ingredient is manufactured. Small companies have experienced the
+largest sticker shock. It is estimated that the surge in prices could
+raise the cost of building a PC by $120.
+(Source: New York Times 7/21/93, p. D5)
+===================
+Midrange To Go
+ 
+A new mobile computing concept should emerge soon from the somewhat
+unlikely environs of IBM's Rochester, Minn., labs - home of the
+AS/400. IBM has a luggable single user AS/400 in the works that would
+be aimed mainly at software vendors and resellers looking to do on-
+site customer demonstrations and AS/400 programmers who want to take
+their work home or on the road with them. Pricing is expeeted to start
+in the $5,000 to S6,000 range for the machine, which would contain the
+OS/400 operating system in full. (Source: Computerworld, 7/5/93, p. 90)
+====================
+Adobe's Acrobat: Electronic Paper
+ 
+Simply put, Adobe's revolutionary new Acrobat software allows users to
+share their documents electronically regardless of hardware platform,
+operating system, or what application created the document. The
+receiving system doesn't even need to have the right fonts installed.
+Like I said above, electronic paper - I create a document on my IBM PC
+using Pagemaker, I send it to my friend, who has a MAC and never even
+heard of Pagemaker, and no problemo, there is my document in all it's
+glory. There are 3 versions of the software: a $50 read only version,
+a $195 version that allows you to create, view, annotate and print the
+documents, and for power users, the $695 version, which can convert
+Postscript files to Adobe's PDF format and is available in a network
+version. Sharing information just got several orders of magnitude
+easier.
+(Sources: PC Computing, INFOWORLD)
+====================
+Free ADA Compiler!
+ 
+Ada is a programming language developed by the US Department of
+Defense and others. There is an ANSI standard for Ada (which is named
+after the first programmer, Augusta Ada Byron, Countess of Lovelace),
+and it is mandatory for all new DoD software. Apparently, Ada is a
+nice programming language, offering readable, structured language (all
+you non-programmers can skip a few lines), strong typing, separately
+compiled interfaces, data abstraction, built-in multitasking,
+reusability and more. Ada's strengths, according to INFOWORLD
+Publisher Bob Metcalfe, are for projects that must be written by many
+people, that must be readable, portable across different platforms,
+maintainable, reusable, and oh yeah, highly reliable. "Everthing else
+can be written in C," says Metcalfe, who says that C++ is old
+technology and best left behind. A *free* copy of the Gnu Ada compiler
+can be obtained by calling the BBS at 800/232-9925.
+======================================================================
+Smithsonian Institute Starts Software Collection
+ 
+The Smithsonian Institute, which often refers to itself as "the
+nation's attic," has started The National Software Collection at the
+National Museum of American History. This collection will eventually
+include much of the Institute's vast mainframe and minicomputer
+software collection. Microsoft Word will be the first program
+officially inducted into the collection. In addition to the software
+itself, the company is also donating archives containing materials
+relating to the creation and subsequent development of Microsoft Word.
+(Source: Newsbytes News Service, 7/16/93)
+======================================================================
+The Ross Perot Law Of Information
+ 
+Information doesn't care about organizational politics or
+institutional boundaries. The fastest way to flatten an organization
+is to give employees the means to send and receive information on an
+ad hoc basis to anyone in the company, including the CEO. Start by
+identifying E-mail as a mission-critical application, then stand back
+and watch what happens. Informal work groups will begin to form;
+introverts will share their ideas more freely. Mid-level bureaucrats
+will go into cardiac arrest when control of information leaves their
+fiefdom. (Source: Fank J. Ricotta Jr., "The Six Immutable Laws of
+Information," Information Week, 7/19/93, p. 63)
+======================================================================
+Documentation From Hell: Place Your Votes Now
+ 
+The Communications Circle, a group of fed-up professional writers, is
+holding a contest for the worst manual of the year. Send your nightmare
+documentation example to:
+Worst Manual of The Year c/o The Communications Circle,
+918 La Senda, N.W., Albuquerque, NM 87107. Entries must be received by
+Halloween. There is bound to be a crowded field for this coveted
+award and I'm sure we all have our favorites. B&B wil report on the
+winner(s) as soon as they are announced.
+(Source: Computerworld, 7/12/93, p. 134)
+======================================================================
+There's A Seeker Born Every Minute
+ 
+In Crestone, Colorado, followers of Kuthumi, a spirit entity said to
+communicate via computer, say that Kuthumi has instructed them to
+build a 45 story pink granite pyramid near the town. Why, you ask? To
+draw a signal from space that that will keep the earth safely on its
+axis, of course! Bits and Bytes will stay on top of this momentous
+story, and will attempt to contact Kuthumi on the astral plane for an
+exclusive B&B interview. In the meantime, donations to the Pink
+Pyramid Construction fund can be sent in care of the editor.
+(Source: Newsweek)
+======================================================================
+The Beauty of Client/Server
+ 
+The beauty of client/server computing is the potential to fulfill end
+user's desire for more control of data manipulation, and to allow
+network managers and IS professionals the ability to maintain back-end
+network and data integrity. I like this model because makes sense. End
+users tend to think more strategically about data manipulation than IS
+and network managers. On the other hand, IS and network managers know
+more about networked systems, security and maintaining data integrity
+than end-users.
+(David Buerger, "End Users Are About To Gain Front-End Control,"
+Communications Week, 7/5/93, p 38)
+======================================================================
+Bits and Bytes Bookshelf
+ 
+Amusing Ourselves To Death: Public Discourse In The Age of Show
+Business  by Neil Postman [Penguin Books, 1985. $8.95]
+- (from the back cover) "Television has conditioned us to tolerate
+  visually entertaining material measured out in spoonfuls of time, to
+  the detriment of public affairs. ... Before we hand over politics,
+  education, religion, and journalism to the show-business demands of
+  the television age, we must recognize the ways in which the media
+  shape our lives and the eay we can, in turn, shape them to serve our
+  highest goals." An important, thought provoking, and entertaining
+  book. Soon to be a major motion picture - NOT! Highly recommended.
+ 
+THe Metaphysics Of Virtual Reality  by Michael Heim [Oxford University
+Press, 1993. $21.00]
+- (from the forward by Myron Krueger) "In this book, Heim puts his
+  finger on why virtual reality has excited us as a culture." Heim
+  explores the philosophical implications of emerging computer techno-
+  logies with an eye for the dark as well as the bright side.
+  Hypertext, multimedia, RSI (repetitive stress injury), and the
+  effects of word processing on the English language are a few of the
+  topics discussed. I just statred reading this one, and am finding it
+  very interesting. If these issues interest you, recommended.
+======================================================================
+AT THE NEWSTAND...
+ 
+"Domesticating Cyberspace" (Scientific American August 1993, pg.100)
+This article provides a good summary and analysis of the history and
+current status of networking developments.
+====================
+The July 1993 issue of PC Magazine features a search for the "perfect"
+PC, with lots of advice and recommendations.
+====================
+Last and definitely NOT least: if you enjoy B&B, there is a good
+chance you will enjoy WIRED magazine. With only 3 issues under their
+belt, WIRED is already *the* single best source for news from the
+frontlines of the digital revoltion. Issue 3 (July/August '93)
+contains a major new article on the digital highway by Mitchell Kapor,
+designer of Lotus 1-2-3 and co-founder of the Electronic Freedom
+Foundation, and interviews with science fiction author Arthur C.
+Clarke and Peter Drucker, the father of modern management. Also
+reports on interactive rock and roll (products coming soon from David
+Bowie, Peter Gabriel, U2 and others), online role playing games, IBM's
+big buck attempt to go Hollywood, the new Radio Shack stores, Internet
+books, cool electronic gizmos, and so much more that your head may
+explode. Highly recommended.
+======================================================================
+Meet Me On The Holodeck
+ 
+Admit it: Arcade games have hit a wall. That clutch-the-joy-stick-and-
+stand-at-the-video-terminal interface is getting real old. It's time
+to move to the Next Generation. Edison Brothers Entertainment agrees.
+By late 1993 it plans to introduce fully immersive virtual reality
+games based on the hit series "Star Trek: The Next Generation." To be
+anchored in our country's most revered cultural centers - malls -
+these centers will be a dramatic departure from the typical quarter-
+slogging video game haunts of yesteryear (many of which, by the way,
+St. Louis-based Edison Brothers owns and operates). Edison won't tell
+us how much a trip into the "Star Trek" world will cost, but it will
+use actual footage from Paramount Pictures ("Star Trek's" producer)
+and claims the ride will be fully interactive.
+(Source: Wired Magazine 1.1, )
+======================================================================
+Sending Email To The White House: How Not To Do It
+ 
+DEAR MR. PRESIDENT:
+THERE ARE TOO MANY STATES NOWADAYS. PLEASE ELIMINATE THREE. 
+I AM NOT A CRACKPOT.
+(Grandpa Simpson, The Simpsons, Fox TV, Thursday nights at 8 PM)
+======================================================================
+                        ADMINISTRIVIA
+Reaction to Bits and Bytes Online has been overwhelming. Subscription
+requests have been pouring in from all over this crazy old world. I
+thought I was hip to the age of information and the information
+explosion and all that, but my exponentially growing mailbox has made
+brought it all home to me in no uncertain manner. In my ignorance of
+my mailbox software's capabilities, however, I made a mistake: I am
+getting requests to the pacs address without the requestor's mailing
+address attached. From now on when subscribing or unsubscribing,
+please include the email address you wish B&B sent to. I have modified
+the instructions below to reflect this. If you sent in a request and
+are not receiving B&B, please resend your request. SORRY! If you are
+on America Online you can now download B&B from their files section.
+On the Internet, B&B will be available from various servers and
+mailing lists. Details next issue. Please unsubscribe if you do start
+getting B&B from another source. Feedback is always welcome - I am
+still trying to find the right balance of material. See you next week!
+======================================================================
+Bits and Bytes Online is a weekly electronic newsletter.
+Email Subscriptions are available at no cost from slakmaster@aol.com
+or jmachado@pacs.pha.pa.us. Put "SUBSCRIBE in the subject header and
+your email address in the body of the message. If you work for "the
+rail" send a similar message to my emailbox. To unsubscribe, send a
+message with "UNSUBSCRIBE" in the subject header and your email
+address in the body. Questions and comments are welcome at any
+address. If you come across anything you think should be included
+here, please pass it on! Send long postings to the pacs address. If
+you need to reach me on paper, my snailmail address follows:
+                       ===============================================
+                       =  (Copyleft 1993 Jay Machado) *UNALTERED*    =
+Jay Machado            =  electronic distribution of this file for   =
+1529 Dogwood Drive     =  non-profit porpoises is encouraged.        =
+Cherry Hill, NJ, 08003 =  The opinions expressed herein do not       =
+ph (eve) 609/795-0998  =  do not necesarily represent anyone's       =
+                       =  actual opinion.                            =
+=============== end of Bits and Bytes Online V1, #3.==================
+
+
+------------------------------
+
+End of Extropians Digest V93 #207
+*********************************
+
+& 

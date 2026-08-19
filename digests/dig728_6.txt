@@ -1,0 +1,921 @@
+15
+Message 15:
+From exi@panix.com Thu Jul 29 04:21:48 1993
+Return-Path: <exi@panix.com>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+        id AA03787; Thu, 29 Jul 93 04:21:46 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+        id AA18056; Thu, 29 Jul 93 04:21:33 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by panix.com id AA15061
+  (5.65c/IDA-1.4.4 for more@usc.edu); Thu, 29 Jul 1993 07:04:55 -0400
+Date: Thu, 29 Jul 1993 07:04:55 -0400
+Message-Id: <199307291104.AA15061@panix.com>
+To: Exi@panix.com
+From: Exi@panix.com
+Subject: Extropians Digest
+X-Extropian-Date: July 29, 373 P.N.O. [11:04:52 UTC]
+Reply-To: extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Thu, 29 Jul 93             Volume 93 : Issue 209
+
+Today's Topics:
+                                                                      [2 msgs]
+                          Cryonics & Pascal's Wager                   [1 msgs]
+           Intellectual Property and the personal computer industry   [1 msgs]
+                           Irrationality of e-word                    [1 msgs]
+                             MEDIA: tv in general                     [1 msgs]
+                Meta: List functions and forwarding permission        [2 msgs]
+                            Nightly Market Report                     [1 msgs]
+                               QUERY: GA's list                       [1 msgs]
+                                 Remove me...                         [1 msgs]
+                                 competition                          [1 msgs]
+                                  television                          [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51752 bytes.
+
+----------------------------------------------------------------------
+
+Date: Wed, 28 Jul 93 17:44:28 -0700
+From: davisd@nimitz.ee.washington.edu
+Subject: Meta: List functions and forwarding permission
+
+I would like to see the new list software allow each user to set a
+default reposting policy which will list in all his message headers,
+which he can override explicitly in his message. 
+
+As it is now, the default is "do not forward", by list rules, which is
+unnecessary for a lot of people, including myself. I've sent email to
+people asking to forward some joke they posted, and it just seems like
+a needless waste of time for all parties.
+
+Buy Buy -- Dan Davis
+
+------------------------------
+
+Date: Wed, 28 Jul 1993 22:49:21 -0400 (EDT)
+From: Harry Shapiro <habs>
+Subject: Meta: List functions and forwarding permission
+
+a conscious being, davisd@nimitz.ee.washington.edu wrote:
+> I would like to see the new list software allow each user to set a
+> default reposting policy which will list in all his message headers,
+> which he can override explicitly in his message. 
+
+To: davisd@nimitz.ee.washington.edu and other interested list members.
+
+We will consider adding such a feature but it would require extra cpu
+access on each message. Are you willing to underwrite such a feature?
+(we don't know what the cost will be; we will not be adding any cpu
+based features for several months so we can find/determine the costs
+of the current set-up.)
+
+In the future we hope to have "allowed" list posts be archived and
+hyperlinked via something LIKE Wais/www.
+
+Thus we we add commands like: "::wais" or "::repost ok"
+
+There is a low cost solution you can use right away. It can be done at
+the front end; it is an "x-reposting-policy:" header. You can add this
+header to all your outgoing mail.
+
+/hawk
+
+-- 
+Harry S. Hawk                                 habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+            The Extropians Mailing List, Since 1991
+EXTROPY -- A measure of intelligence, information, energy, vitality,
+experience, diversity, opportunity, and growth.  EXTROPIANISM -- The
+philosophy that seeks to increase extropy.          
+
+------------------------------
+
+Date: Thu, 29 Jul 93 00:10:02 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx                 Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+---------------------------------------------------------------
+News Summary as of: Thu Jul 29 00:10:01 EDT 1993
+
+
+Newly Registered Reputations:
+MMORE   Max More
+
+New Share Issues:
+(None)
+
+Share Splits:
+(None)
+
+---------------------------------------------------------------
+Market Summary as of: Thu Jul 29 00:00:05 EDT 1993
+
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+1000          .10      .20      .10        10000         2000          200.00
+110             -      .10        -        10000            -               -
+150             -      .10        -        10000            -               -
+1E6             -      .10        -        10000            -               -
+1E9             -      .10        -        10000            -               -
+200           .10      .20      .10        10000         2000          200.00
+80              -      .10        -        10000            -               -
+90              -      .20      .10        10000         2000          200.00
+ACS             -      .15      .50        10000         1124          562.00
+AI              -      .50      .20        10000         1000          200.00
+ALCOR        2.00     3.80     2.00        10000         3031         6062.00
+ALTINST         -      .10      .10        10000          200           20.00
+ANTO            -        -        -            -            -               -
+BIOPR           -      .20      .10        10000         1500          150.00
+BLAIR           -    30.00    50.00        10000           25         1250.00
+CHAITN          -      .05        -        10000            -               -
+CYPHP         .15      .20        -        10000            -               -
+DEREK           -      .42     1.00       100000         8220         8220.00
+DRXLR           -     2.00     2.00        10000         2246         4492.00
+DVDT         1.55     1.63     1.50        10000        10000        15000.00
+E               -      .70      .60        10000         5487         3292.20
+ESR             -        -        -            -            -               -
+EXI          1.00     1.25     1.25        10000         3000         3750.00
+FCP             -      .50        -        80000         4320               -
+GHG             -      .01      .01        10000         2755           27.55
+GOBEL         .01      .30     1.00        10000          767          767.00
+H             .75        -        -        30000        18750               -
+HAM             -      .20      .10        10000         3000          300.00
+HEINLN        .30      .50        -        10000            -               -
+HEX        100.00   125.00   100.00        10000         3268       326800.00
+HFINN        2.00     6.88    10.00        10000         1005        10050.00
+IMMFR         .25      .80      .49        10000         1401          686.49
+JFREE           -      .15      .10        10000         3000          300.00
+JPP           .25      .40      .25        10000         2510          627.50
+LEARY           -      .20      .20        10000          100           20.00
+LEF             -      .15      .30        10000         1526          457.80
+LEFTY           -      .30      .15        10000         1951          292.65
+LIST          .40      .50      .50        10000         5000         2500.00
+LP              -      .09        -        10000            -               -
+LSOFT         .58      .60      .58        10000         7050         4089.00
+LURKR           -      .09        -       100000            -               -
+MARCR           -        -        -            -            -               -
+MED21           -      .08        -        10000            -               -
+MLINK           -      .09      .02      1000000         2602           52.04
+MMORE           -        -        -            -            -               -
+MORE          .75     1.60      .75        10000         3000         2250.00
+MWM           .15      .15     1.50        10000         1260         1890.00
+N           20.00    25.00    25.00        10000           98         2450.00
+NEWTON          -      .20        -        10000            -               -
+NSS             -      .05        -        10000            -               -
+OCEAN         .10      .15      .10        10000         1500          150.00
+P           20.00    25.00    25.00      1000000           66         1650.00
+PETER           -      .01     1.00     10000000          600          600.00
+PLANET          -      .10      .05        10000         1500           75.00
+PPL           .10      .25      .10        10000          400           40.00
+PRICE           -     4.00     2.00     10000000         1410         2820.00
+R             .49     2.80      .99        10000         5100         5049.00
+RAND            -      .06        -        10000            -               -
+RJC          1.00   999.00      .60        10000         5100         3060.00
+ROMA            -        -        -            -            -               -
+RWHIT           -        -        -            -            -               -
+SGP             -        -        -            -            -               -
+SHAWN           -     1.00        -        10000            -               -
+SSI             -      .05        -        10000            -               -
+TCMAY         .38      .75      .75        10000         4000         3000.00
+TIM          1.00     2.00     1.00        10000          100          100.00
+TRANS           -      .05      .40        10000         1511          604.40
+VINGE         .20      .50      .20        10000         1000          200.00
+WILKEN       1.00    10.00    10.00        10000          101         1010.00
+-----------------------------------------------------------------------------
+Total                                                               415516.63
+
+------------------------------
+
+Date: Wed, 28 Jul 93 22:08:33 PDT
+From: thamilto@pcocd2.intel.com (Tony Hamilton - FES ERG~)
+Subject: Cryonics & Pascal's Wager
+
+> Actually, if I remember correctly, all these scenarios only hold for
+> the 20th century form of instant gratification heaven, or for
+> reincarnation. Isn't the old style heaven something which only comes
+> at the end of time, with in fact your soul hanging out in your body
+> until Gabriel(?) blows his horn? 
+
+Indeed, it is hard to find a biblical reference which would suggest
+otherwise. In John 3:13, Jesus explicitly tells Nicodemus that no one has
+ever gone into heaven except Jesus himself. 
+
+> Gotta decide on which heaven you believe in before you calculate your
+> utility for cryonics. Cryonics definitely goes with the old style
+> heaven, since I'd rather live til the end of time than just wait in a
+> hole. If you believe in reincarnation, it would seem that the choice
+> is whether to switch bodies or not. If you believe in the instant
+> gratification heaven, you'll have to figure out just how the soul business
+> works with reanimation. So many brands, how does one choose?
+
+Dare I blaspheme, but could it be that things such as cryonics and uploading
+might be the avenues to heaven, and that once revived, or in cyberspace, we'll
+be there? :-) Maybe God's waiting for all of us to be suspended or uploaded
+before he descends, and then he'll bestow upon us the technology for revival
+and unlimited CPU cycles, and we really will be in heaven! You know, with
+all the interpretations of the bible (especially Revelations), why not an
+Extropian one? It wouldn't be _any_ less plausible. We could publish an
+Extropian interpretation of the bible, and call it "From Heaven to Cyberspace,
+the Christian's guide to Extropy" :-)
+
+Tony Hamilton                 |
+thamilto@pcocd2.intel.com
+HAM on HEx
+
+------------------------------
+
+Date: Wed, 28 Jul 93 21:33:00 -0500
+From: michael.morgan@ehbbs.com (Michael Morgan)
+Subject: Irrationality of e-word
+
+   Sorry this is so late; the BBS here crashed and has been resurrected.
+
+   Mike at mike@highlite.gotham.com writes:
+
+>         o       that extropianism was conceived to further the ideals
+>                 behind the extropian principles, among which included
+>                 rationality and libertarianism.
+>
+>         o       that many list members joined the list seeking fellow
+>                 rationalist libertarianists, and consider the self-
+>                 transformational things limited to a healthy colon while
+>                 waiting for nanotech uploading...
+
+   I agree and can find no wrong in this (not that I think you intended
+   to write there was wrong here). More at the end...
+
+>         o       Free will. And I quote from Minsky's _Society of Mind_:
+>
+>                 "No matter that the physical world provides no room for
+>                 freedom of will: that concept is essential to our models
+>                 of the mental realm. Too much of our psychology is based
+>                 on it for us to ever give it up. We're virtually forced
+>                 to maintain that belief, even though we know it's
+>                 false...."  (30.7)
+
+   There seems to be two warring camps here. Freewill and pure
+   determinism. In a zennish state of mind I say poopoo to both and
+   assume that nature (whatever that is) has caused us to seek a greater
+   degree of freewill (when I really should remain mute and let it
+   happen). We can easily see that in the 1400s there were no airplanes,
+   now there are. We wrought another tiny piece of freewill on our
+   minuscule anvils of desire. I make no claim of what degree of
+   freewill we have now, but say that we are achieving more. And I think
+   that's good.
+
+>         o       The idea that we are all fully conscious and aware of our
+>                 decisions (this all follows from free will).
+
+   It's an interesting self-transformation experiment for me to
+   temporarily assume that I am not fully conscious and then try to
+   think about what I'm not conscious of. I constantly do something
+   similar in assuming that I am not me, not alive (but rather a gestalt
+   of all those things and memories that make up 'me'). What was it about
+   me that caused me to be me? Nothing rational there: I happen without
+   thinking about happening. It seems the "I" that I am is an illusion.
+   Thus any transformational scheme that I use will need to encompass all
+   the different parts of me (including my need to feel part of some
+   larger group). And admittedly this is a game too, but it's a useful
+   game. B^)
+
+>         o       The idea that we are important. Hey, we might be the only
+>                 intelligent race in the universe. In the cosmic sense of
+>                 things, this seems ridiculous - although I hasten to add
+>                 that we should act as if we are, this gives our lives
+>                 purpose - but this is a belief, not the result of
+>                 rational analysis (imho).
+
+   Wouldn't you agree that in a universe devoid of meaning we humans can
+   assign to the meaning of life anything we want? Thus, while there
+   appears to be no absolute reason for us to exist we can choose and
+   cultivate any meaning(s) we desire, including adopting the ridiculous.
+   And if the ridiculous makes us feel good, then it has more power over
+   us. Nice trap there, huh?
+
+> When I first saw the reading list in Extropy #9, I was amazed: a group
+> devoted to everything I'm interested in. The shorter list in # 10 was
+> disappointing: more evidence that the self-transformational aspects had
+> taken a back seat to libertarianism, about which there is already plenty
+> of stuff produced elsewhere.
+
+  Would you agree that politics is beginning to take precedence over
+  self-transformation? I'd agree. I also assume that's normal for us
+  domesticated-primate type animals. B^)
+
+> I'd suggest
+> that everyone read the first chapter of RA Wilson's _Prometheus Rising_,
+> concerning the "Thinker" and the "Prover", and decide for themselves if
+> Tim May's p-word judgement is due more to his "prover" confirming his
+> "thinker" than rational analysis.
+
+  I'd also like to recommend a current article in the July issue of THE
+  HUMANIST which addresses the problems some humanists perceive in their
+  community. With just a scanning of that article I see that it fairly
+  applies to groups like Extropians.
+
+> Imho, self-transformation requires a deep sense of self-understanding.
+> Extropianism (imho) has it's own set of beliefs which I've never seen to
+> be proven "rationally".
+
+  And it remains to be proven (as THE HUMANIST article points out) that
+  an effective community of individuals can be directly or indirectly
+  coerced (via any number of techniques) to form such a community.
+
+  The banned p-worders (as I know them) seek a community which forms
+  *naturally* (not virtually, nor rationally) of its own accord.
+  Individualist seem to seek to extend their individualism at the expense
+  of community. Like the apparently useless freewill/determinism debate
+  the community/individualism debate may clarify the issues, but still
+  seems to lead us to dead ends.
+
+  We need a new perspective, but I can't foster one at this time other
+  than writing that rationality has its limit(s). And irrationally, while
+  seeming ridiculous has its deep, multi-dimensional grip in our psyches.
+
+  So if we are to ban the p-word because of the inclusion of irrational
+  myth, then should we not ban extropianism because of the irrational
+  aspects of pure individualism?? Humm...
+
+  I call myself a futurist, humanist and extropian, but there's nothing
+  really rational about that. B^) It's just something I like doing.
+
+... When privacy is outlawed only outlaws will have privacy.
+--- Blue Wave/QWK v2.10
+       
+----
++---------------------------------------------------------------------------+
+| Ed Hopper's BBS - Home of uuPCB - Usenet for PC Board                     |
+| Node 1 - USR HST - 404-446-9462    Node 2 - V.32bis - 404-446-9465        |
++---------------------------------------------------------------------------+
+
+------------------------------
+
+Date: Wed, 28 Jul 1993 23:18:07 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: QUERY: GA's list
+
+GA-list has been mentioned.  Also of interest is the
+the genetic programming list (genetic-programming-request@
+cs.stanford.edu) and the comp.ai.genetic newsgroup which
+covers evolutionary techniques in general.
+
+Genetic programming uses computer program parse trees instead 
+of strings as the genetic code.  One interesting task GP implements 
+easily is symbolic regression, which breeds an arbitrary,
+possibly nonlinear function to best least-squares-fit
+the input data -- in other words the regression includes
+automatically finding the best family of function,
+instead of forcing the user to specify linear vs. 
+quadratic vs. cubic vs. Taylor series vs. etc.
+
+Nick Szabo                                      szabo@techbook.com
+
+------------------------------
+
+Date: Wed, 28 Jul 93 23:58:34 -0700
+From: Inigo Montoya <inigo@u.washington.edu>
+Subject: Intellectual Property and the personal computer industry
+
+Well, I think I'm going to abandon this quote/respond model because
+Ray seems to be heading off into the deepend of sarcasm.  However,
+the confusion about my stance has reached a level that causes me
+to make at least one more post on the subject.  But probably only
+one.
+
+A good chunk of this has almost nothing to do with intellectual
+property, and a lot to do with half-baked speculation
+about where personal computing is headed.  I'd actually like
+to hear people's opinions on that, independent of the intellectual
+property debate.
+
+First, Ray made a comment (in response to someone else) that "no
+one will get rich in software anymore" unless property rights are
+respected.  I'd like to make quite clear that I don't see that as
+a problem.  If Ray thinks this is not "EC" of me, well, that's his
+business.  I *do* care about the quality of my future, and how much
+I accomplish, and how much fun I have along the way.  Getting rich
+is irrelevant.  I understand he may feel otherwise.  Many people
+do.
+
+Let's see if I can clarify some other points.
+
+As Dean Tribble pointed out, even if you give the source away for
+free, there are opportunities to make money (a) matching people up
+with products (b) supporting the product (this may mean adding
+desired features, fixing bugs, training, notifying of upgrades).
+Ray seems to think that this money is going to dry up Real Soon
+Now when we get the Holy Grail of Computing (bug-free, user-friendly,
+expert system, object-oriented programs -- did I miss any buzzwords?
+I notice functional programming has dropped from the standard list
+these days, and I haven't heard fault tolerant.  Or real time.).
+I think he's wrong, but I'll cheer if he turns out to be right.
+
+Ray also seems to be concerned about several other things.  One of
+the major ones is that products for the personal computer market
+are going to somehow dry up if we don't charge for the software.  
+Let me explain what I think will happen to the personal computer 
+market.  *NOT* under anarchocapitalism.  Here.  In the near future.  
+Or at least a version of the near future which accepts the idea that 
+people will copy software about like they copy videos, tapes, and articles in
+the newspaper.  (Which means anyone who saves this can laugh really
+hard at me when I turn out to be totally wrong n years down the
+line.)
+
+I think that all those wide varieties of word processors, desktop
+publishers, spreadsheets, and other amazingly common applications
+are going to shakeout over the next decade or so.  The results of
+this shakeout will wind up sold in ROM chips (rare upgrades, but real
+solid -- pretty close to being effectively bug free).  I know of 
+at least one startup in Bellevue betting on exactly this (and 
+hoping to get the portable result down to somewhere in the 
+vicinity of early calculator size).
+
+I think that along the way to this, OS's (at least for that market)
+are going to shakeout and become transparent.  The resulting
+combination of hardware/software will be a portable tool that will
+let you do everything from write the Great American (Hypertext)
+Novel (word processor), to balancing the federal budget (spreadsheet),
+publish a magazine (desktop -- er, pocket publisher), connect to
+whatever the net is in those years, watch tv, listen to the radio,
+make telephone calls, morph images, animate random sh*t, design a
+house (CAD), play arbitrary numbers of games, lord knows what else.
+Hopefully good map software and a mechanism for telling me how to
+get there from here.
+
+OK.  *Several* decades down the line.  But I can dream, can't I?
+And I think the word processsing/spreadsheet/terminal version
+could happen almost immediately.
+
+I think there will continue to exist applications programmers (in
+the sense I think of them now).  I have a hard time imagining a
+world which isn't continually hungry for new games, if nothing
+else.
+
+How do I see people paying for this?  Never mind anarchocapitalism,
+what do I think will happen here?
+
+I'll have to pay for the hardware when I buy one of these toys,
+but I doubt it'll be expensive.  More than a watch.  Less than a
+car.  High end stuff will be prime theft targets.  Low end stuff 
+you can get for 10 boxtops + postage and handling.  Early obsolescence.
+
+It'll come with a variety of stuff already (word proc.,
+spreadsheet, etc. ad absurdum).  I'll be able to *buy* additional 
+ROM software. (These programs will be solid, very close
+to bug free, and flipping fast.  They will be designed to solve a
+well-defined task.  And I'll pay for them, because I'm basically
+paying for the media.  The developers will likely sell them for a
+flat rate (no royalties) to the chip makers, who need them to sell
+chips -- because there is no money in hardware.).
+
+I'll be able, via magnetic media or a network, to acquire other software.
+This stuff will likely run slower, and have more bugs (earlier in
+the cycle), but may have features unavailable elsewhere.  How do
+I acquire it?  If it's available on something like AMIX (sorry
+about that earlier typo, by the way), I probably will wind up paying
+money at some point (to find it, to learn how to use it, to find
+out what the heck it *does* -- and believe me, if things go the
+way I expect they will, it may accomplish a well-defined task in
+a user-friendly fashion, but if I have no *clue* what that task
+is, I have a problem.  Just like Jane User and Yacc.  Simple,
+elegant, easy to use.  But the task is as obscure as, as, as, scholasticism
+(I mean the philosophy).).  If it's been posted in a publicly
+accessible area, maybe I can grab it (only cost being amortized
+cost of my access, and whatever media I need to get it from there
+to here).  Once I have it, I see nothing stopping me from letting
+all my friends borrow/copy/use/change it.  Got that?  Nothing.  Not
+the technology, not the law.  But I won't be able to sell it,
+because anybody can get it for free.  If I got it off something
+like AMIX, I might have to sign something saying I won't
+do some of those things.  Contract version of intellectual
+property.
+
+The future I envision is one in which early versions are posted in
+extremely accessible areas, the middle-cycle (about what would be
+considered a mature product in the pc market) stuff available from
+stuff like AMIX, and the *really good stuff* being available on
+chip.  Cashing in is convincing a chip-maker that so many people
+have grabbed your software (off AMIX, or whatever -- you're collecting
+statistics, right?) and like it *so much* that they can expect
+people to buy their chips if your product is on it.  They buy your
+product (one time sale, but big).  By this time, of course, everyone
+who's anyone knows how to use it, and it enters the core group of
+applications everyone expects to be around forever.  Serious users
+of the product will buy the chip, because it'll run faster, and
+stop taking up temp space  -- and they don't have to worry about
+their copy getting corrupted.  ROM ain't exactly susceptible to
+virus attack.  (You probably sign a contract with the ROM people
+saying you're not going to sell it to anyone else.)
+
+And the only way to get rich in this future is by being one of the
+lucky few who has a great idea just everybody will want, and seeing
+it through to that one time major cash sale.  Sort of like getting
+a best-selling novel made into a movie.  But you can make a
+respectable living the AMIX route, or contracting your skills to
+someone who needs something that doesn't exist already.  I see, as
+a result, software development becoming something like writing
+novels.  A lot of people do it, but work a day job.  Some of the
+people who do it, actually sell something, but not enough to live
+off of.  And a few people make a respectable living  A dozen or so
+get rich.
+
+One of the holes in this scenario is, what's to stop a chip maker
+from buying a copy of the software, and putting it on chip without
+paying you a dime?   Depends on what the legal setting is.  If
+intellectual property of nearly any form is upheld, it shouldn't
+be a big problem (and you can sue if it becomes one).  If you're
+really worried, don't ever post a public version (this may slow
+down propagation of the product, or even prevent it from getting
+the mass-market it needs to succeed.  If you worry about people
+stealing your story and making a movie, publishing it as a novel
+is a risk.).  Sell all copies with signed contracts not to further
+copy/distribute/etc.  Nail every twonk who breaks the contract.
+Use stegnography to track copies.  But I think I agree with some
+of what Harry Hawk said.  Specifically, I think that those chip
+makers will pay to get a trusted source.  (If only because a
+successful product will generate a lot of pirating along the way,
+cluing the developers in to the fact that they have A Hot Item.
+They can then insert some obscure but Really Really Bad thing into
+the code for the last couple of versions before selling to the
+chipmakers -- any chipmaker who buys one of those versions is going
+to hurt as a result.  They will pay for a Trusted Source.  I'm sure
+you all can think of other clever scenarios with the same result.
+In fact, it strikes me as likely that chip-makers would approach
+the developer partway through the cycle and negotiate a deal
+with the developer long before it reached the ultimate, ultra-stable
+stage.  To ace other hardware manufacturers out.)
+
+Prior to that fuzzy future, tho, the pragmatist in me looks around
+and thinks of all those pirate boards, and tries to remember the
+last time someone she knew paid for software, and notices that all
+the corporations that buy software behave in a fashion that causes
+her to think you could *give it away*, and they'd throw money at
+you to support/train/fix it/listen while they whine.  Does everyone
+on this list realize that, in the workstation market, most vendors
+of major products will ship a bugfixed version for an important
+customer between scheduled versions?  Sometimes only *to* that
+customer?  This is what they pay for.  Microlimp doesn't do this.
+NOBODY in the pc market does this, to my knowledge.  This is why
+people *buy* products on workstations and *pirate* stuff on pcs.
+This is why I suggested giving the software away and *selling* the
+warranty.  I believe the net result would reward people who produce
+good products, and punish (right out of the market) those who
+produce crap.  I believe the net result would focus development in
+a useful direction, in an efficient way.  Rather than some twonk
+dreaming up what I want, I can tell a developer what I want to see
+in the next release, and if enough other people ask, actually get
+it.
+
+And you can say all you want how training/supporting/fixing/upgrading
+will One Day Be AutoMagicked Out of Existence, but they've been
+chasing that grail for 30 years now (new software techniques, expert
+systems to aid in development, compilers will one day be obsolete,
+etc., etc., etc.), and they're *still* here and they're *still* where
+the money is.  In the meantime, new software development and new
+hardware development goes on, because if you don't have something
+to support/train/fix/upgrade, ya got nothing.  Oh, and if giving
+away software seems so odd to you, keep in mind that companies give
+away hardware to sell software *right now*.  That is a trend that
+will continue.
+
+Summary for those who think the above too wordy:
+
+I think we've been promised the Holy Grail of bug-free, user-friendly,
+computing a lot too many times.  I'll believe it when I see it;
+I'll adjust when I must.  If Ray wins by anticipating it by a decade
+or so, well, congratulations!  I've seen too many people get nailed
+hard expecting this.  (And NASA is definitely the 5%, btw.  I don't
+even need to invoke exceptio probat regulum.  That's what Sturgeon's
+Law says.).
+
+In the meantime (certainly for the next ten years), the money will
+be increasingly in support/training/upgrades/warranties, decreasingly
+in the software itself, and, as usual, hardware will only be produced
+because you can't run software without it.  Eventually, the money
+will probably be in matchmaking and specialized development, too.
+The older the industry gets, the fewer people getting rich.
+
+And my old argument was:  Really interesting development
+doesn't happen in mass-markets.  It'll continue to happen, independent
+of intellectual property issues (excepting trade secrets), in phone
+companies, banking institutions, and insurance companies, with some
+in government and academia (and scattered niche markets, plus weird
+stuff like FSF, which is financed about like a charity in many
+ways).  The rest of the argument was that I don't give a rat's ass
+about the pc market anyway, AND people don't behave as tho they
+believe in property rights, and you'll lose if you try to impose
+it.  Sell what the people who *are* buying care about:
+support/training/upgrades/documentation.
+
+And ultra, ultra, ultra stripped down version:
+
+My initial suggestion was merely that in an anarchocapitalistic
+society, ppls would coexist, some of which would support some form
+of intellectual property, and others which would not recognize
+it (with shades in between).  I said I'd belong to the latter.  Quickie
+question:  even if this were a stupid decision economically (which
+I *do not* stipulate, save for purposes of this digression), why
+would anyone else *care*?  Doesn't the continued existence of FSF (and the
+willingness of people like Harry to support FSF even tho disagreeing
+with their politics) support that bald assertion?
+
+I think the most surprising thing about this is the vituperative
+nature of the response I got from Ray.  Why on earth should he care
+if I go broke or have to work at McD's to support myself?  Do you
+think my behavior will so undercut your product and attempts to
+sell it that you'll wind up poor, too?  I kind of doubt that.
+I don't see GNU/FSF putting anyone out of business.
+
+Rebecca Crowley 
+standard disclaimers apply 
+rcrowley@zso.dec.com
+(Posted from a borrowed account, so replying isn't a great idea.)
+
+------------------------------
+
+Date: Thu, 29 Jul 93 9:19:09 MET DST
+From: Massimo Zancanaro <zancana@irst.it>
+Subject: 
+
+
+------------------------------
+
+Date: Thu, 29 Jul 93 00:39:45 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: competition
+
+rgardner@charon.MIT.EDU wrote:
+> Why is it that when A get 25% more, and B gets 75%
+> more, A will prefer that A and B get only 10% more?
+
+> I think this phenomenon is known as the "Prisoners
+> Dilema".  It is explained very nicely in "How Real
+> Is Real?" by Paul Watzlawick.  . . .
+
+Tell me more about that book!  But it doesn't quite meet the definition of
+"Prisoner's Dilemma" as we are accustomed to using the term (after Dawkins).
+
+Anton Sherwood                                               dasher@netcom.com
++1 415 267 0685                   1800 Market St #207, San Francisco 94102 USA
+
+------------------------------
+
+Date: Thu, 29 Jul 93 00:41:02 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: television
+
+It ain't all bad.  I particularly enjoy "A Bit of Fry and Laurie" (Bravo),
+"The Kids in the Hall" (Comedy Central) and "Northern Exposure" (CBS?). 
+Each entertainingly assaults the edges of reality in different ways.
+
+An occasional character in "Kids" wears what looks like a "There's No
+Government Like No Government" button.
+
+I recently saw "Picket Fences" for the first time, a multi-threaded episode
+about Waco, self-transformation, duty, free will an' stuff.  I was blotto
+so I'll refrain from recommending it ;)
+
+Also, I often stumble on good movies by chance, like "Noises Off",
+a farce within a farce.
+
+*\\* Anton                                              Ubi scriptum?
+
+------------------------------
+
+Date: Thu, 29 Jul 1993 18:28:23 -0500 (EST)
+From: X91007@pitvax.xx.rmit.edu.au
+Subject: MEDIA: tv in general
+
+exclude thread tv
+::exclude thread tv
+::exclude thread television
+
+------------------------------
+
+Date: Wed, 28 Jul 93 12:24:35 EDT
+From: roy@eckerd.edu (Jonathan Roy)
+Subject: Remove me...
+
+I apologize for mailing the entire list with my request, but mail
+to exi-daily-request and extropians-request seems to be ignored.
+
+About 2 weeks ago I requested a user at my site be removed from the mailing
+list. In responce, I was added! I've never requested myself to be added,
+and definatly do not want to be on the list. We have to pay LD charges
+for email, so now we are stuck paying even more each night for asking
+to be removed...
+
+If anyone out there can do anything about this, PLEASE do. 
+
+Thank you.
+
+  F F  Jonathan Roy, of the Free Access Foundation        Email: ninja@faf.org
+   A   Mail faf@halcyon.com for information, or FTP to halcyon.com:  /pub/faf/
+  F F  Vorlons, of the Galactic Bloodshed Development Team      GEnie: J.ROY18
+ "Everything that has transpired has done so according to my design." - _RotJ_
+
+------------------------------
+
+Date:     Thu, 29 Jul 93 9:08:55 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Searle's Chinese Torture Chamber
+
+>From: fnerd@smds.com (FutureNerd Steve Witham)
+>Subject: AI: Searle's Chinese Torture Chamber
+>
+>Tim Starr <starr@genie.slhs.udel.edu> sez-
+>> ...
+>> Imagine you're an intelligence agent that has been given instructions on how
+>> to communicate with a field operative.  All you know is that if he tells you
+>> X, you're to tell him A; if he tells you Y, you're to tell him B.
+>> 
+>> You get a message from the operative: Y.  You reply: B.  What did you just
+>> say?  What did you tell him?  What do A, B, X, and Y mean?  He knows this,
+>> but you didn't need to know, so you weren't told.
+>> 
+>> >From your field operative's perspective, you seem to know what you're
+>> communicating.  But you don't.
+>
+>The point is, "you", the agent, aren't the person who the field operative is
+>communicating with.  He is communicating with the system: {agent+instructions+
+>scratchpaper}.  That whole system *does* know what it's saying.  The field
+>operative may be fooled into thinking you're the person, but that's 
+>irrelevant.
+
+This at least brings the contrast into high relief, but I don't understand
+why anything beyond the agent should be considered to be the one being
+communicated with.
+
+>Talking about the agent alone is like talking about the processor without
+>its memory contents (program+data), or the neurons considered separately
+>from their synapses, arrangement and connection to sensors/effectors.
+
+This begs the question of whether computers and minds are analogous, and
+ignores serious differences between them.  Mental agents get input on their
+own.  They also program themselves.  Computers do neither.
+
+>> Searle's argument is that computers can seem like they know what they're
+>> communicating in the same way, but they don't.  His argument is designed so
+>> that people trained to approach subjects from one point of view only, the
+>> third-person, external point of view, have to approach it from another
+>> point of view, the first-person, internal one.
+>
+>In other words, he's trying to locate the homunculus, the little person
+>inside the person.
+
+Strawman.  The person is quite clearly the human being, not his instructions
+or his scratch paper.
+
+>But there is no such person to be found in either a
+>real person, an upload, or an AI.  Only the person as a whole is a person!
+
+There are no such things as uploads or AIs.  Their very possibility seems to
+depend upon whether the mechanistic view of mind is true.  I don't think it
+is, and that's what I'm questioning, so don't jump ahead of the game.
+
+I'm not doing this because I want to be a spoil-sport, but because I love
+truth.
+
+Why should "the person as a whole" include anything external to the human
+being?
+
+>> Then, if I were the intelligence agent in the above scenario, you'd be able
+>> to observe that I'd have no awareness whatsoever of what A, B, X, and Y
+>> mean.  You'd be able to observe for yourself that I had no understanding of
+>> what I was communicating, even though the field operative wouldn't be able
+>> to tell this about me.
+>
+>Whoa, as I said, the agent is not the system.
+
+Saying something != proving or explaining it.
+
+>You've wired the mechanical
+>telpathy wrong.
+
+I don't think so at all.  It would work just fine for ordinary conversation,
+where I did know what the variables symbolized.
+
+>Searle puts a human inside his system, and then assumes that the human is
+>where you should look for the consciousness, rather than looking at the
+>structure of the system as a whole.  
+
+You construct a hypothetical system of consciousness, but can only do so on
+analogy to that of humans.  Thus, you, too, must look at humans in order to
+find consciousness to hypothesize an analog to.  Congratulations!  You've
+committed the fallacy of self-exclusion.
+
+>Consider this version of the experiment: we put me and Searle in a room.
+>You see me through a window; Searle is hidden behind a curtain.  You ask
+>me a question; I frown and turn off the outside intercom.  Searle answers.
+>I turn the intercom back on and answer as if I had done the thinking.
+>Do I know what Searle was thinking?  Of course not.  So what?
+
+Indeed, so what?  You aren't conscious of the meaning of what he said,
+either, unless you can think what he thought.
+
+>From: dkrieger@Synopsys.COM (Dave Krieger)
+>Subject: AI: Searle's Chinese Torture Chamber
+>
+>Okay, Tim; now let's suppose that your set of lookup tables is much more
+>complex: instead of a simple two-possible-inputs, two-possible-outputs
+>system, you have a much greater list of recognized inputs, available
+>outputs, conditional and history-based responses ("If the last three
+>messages were Y-in, B-out, W-in, then send M out."), and so forth.  Suppose
+>that the system is scaled up to the point that it-plus-you passes the
+>Turing test.  It can converse with an outside interlocutor (in Mandarin, if
+>you like) with sufficient verisimilitude that it cannot be distinguished
+>from a human being.  (There's no way you could implement such a system
+>using a human being and lookup tables with a response time of less than
+>centuries, but this is only a thought experiment anyway.)
+
+Of course!  But why bother?  I made my example simple because of Occam's
+Razor.  Why make things more complex than need be?
+
+>>Then, if I were the intelligence agent in the above scenario, you'd be able
+>>to observe that I'd have no awareness whatsoever of what A, B, X, and Y
+>>mean.  You'd be able to observe for yourself that I had no understanding of
+>>what I was communicating, even though the field operative wouldn't be able
+>>to tell this about me.
+>
+>Then the system it-plus-you _is_ intelligent.  You (who are only part of
+>the system, the "CPU", if you will) are not the mind that is experiencing
+>the conversation.  The intelligence does not reside in you, nor in the
+>lookup tables, but in the system formed by the union.  A CPU with no
+>software is not capable of doing algebra analytically, but
+>CPU-plus-Mathematica is.
+
+By what definition of intelligence?  How can systems that are part biological,
+part mechanical, have minds?  What about my mind?
+
+And who cares whether CPUs with Mathematica can perform analytic algebra?
+CPU's can program themselves, and the combination of both hardware and software
+can't tell what the variables stand for!
+
+Why do you and Steve take mathematics to be paradigmatic of thought?  Do you
+think all thought reducible to the performance of mathematical operations?  If
+so, why?
+
+>Searle argues that it would be possible (in principle) to implement a
+>Chinese room that is indistinguishable from a mind,
+
+Au contraire.  It is quite clearly distinguishable from a mind - from the
+first-person point of view.  It is only indistinguishable from a mind from the
+third-person point of view.
+
+>but isn't "really" a
+>mind, because one component of that mind (the person performing the table
+>lookups, the CPU, the "intelligence agent", Searle's Demon) is not itself
+>intelligent.
+
+What?  The person most certainly is intelligent!  It's the rest of the system
+that isn't!
+
+>Neither is the speech center of your brain itself an entire
+>mind... but the system formed from it, plus the other components of the
+>nervous system, is.
+
+This begs the question of whether brains are minds.  I don't think this is so,
+either - and Searle argues against it in an earlier chapter of "Minds, Brains,
+and Science."  Why are brains minds?
+
+>Searle's fallacy is that he mistakes the Demon for the interacting mind. 
+
+Why is this a fallacy?
+
+>The intelligence is a characteristic of the system-as-a-whole, not of any
+>single part.  None of the individual faces of a cube has the property of
+>"being a cube", but the system of six-faces-in-a-particular-relationship
+>does.
+
+This "system" is part human, part inanimate objects.  How can inanimate objects
+be conscious?
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+End of Extropians Digest V93 #209
+*********************************
+
+& 

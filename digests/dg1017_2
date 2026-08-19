@@ -1,0 +1,539 @@
+From extropians-request@extropy.org Mon Oct 17 15:02:53 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id PAA23568 for <more@chaph.usc.edu>; Mon, 17 Oct 1994 15:02:34 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA08687; Mon, 17 Oct 94 15:02:27 PDT
+Received: (from exi@localhost) by news.panix.com (8.6.9/8.6.9) id SAA14586; Mon, 17 Oct 1994 18:01:46 -0400
+Date: Mon, 17 Oct 1994 18:01:46 -0400
+Message-Id: <199410172201.SAA14586@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-10-270 - #94-10-274
+X-Extropian-Date: October 17, 374 P.N.O. [18:01:18 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Mon, 17 Oct 94             Volume 94 : Issue 289
+
+Today's Topics:
+                               cats and coyotes                       [1 msgs]
+                            Challenge to Uploaders                    [1 msgs]
+                           Interface-ing messages ?                   [1 msgs]
+                             SCI: Many-Worlds FAQ                     [1 msgs]
+                               Searle's popgun                        [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 25806 bytes.
+
+----------------------------------------------------------------------
+
+From: freeman@netcom.com (Jay Reynolds Freeman)
+Date: Sun, 16 Oct 1994 21:59:37 -0700
+Subject: [#94-10-270] cats and coyotes
+
+> [Phil G. Fraering comments on cats and coyotes]
+
+  The consensus from experienced cat owners will probably be that 
+the best solution is to keep cats indoors.  Birds and small mammals
+will appreciate it, too.
+
+  Before you become an ardent coyote-hater, seek carefully for reports
+of feral dogs, or of dogs running amok.  I'm not saying there is cause to
+rule coyotes out, only that feral dogs should be considered a possibility.
+There might be a possibility of legal recourse if a pet dog were running
+wild and killing other pets.
+                                                      --  Jay Freeman
+
+------------------------------
+
+From: dasher@netcom.com (Anton Sherwood)
+Date: Mon, 17 Oct 1994 00:05:59 -0700
+Subject: [#94-10-271] Searle's popgun
+
+Tim Starr claims:
+> Just as socialists quit talking about pure socialism and start talking about
+> "market socialism" when confronted with Mises' impossibility proof, so do
+> AI advocates stop talking about strong AI and start talking about something
+> else when confronted with Searle's Chinese Room argument . . .
+
+I missed something.  What is the Chinese Room alleged to prove, other than 
+that if such a Room can be made, vitalism is empirically indistinguishable 
+from mechanism?  Perhaps I don't understand what "strong AI" means.
+
+> Searle pointed out the irrefutable fact that mere syntactic operations per-
+> formers lack a key ingredient of the mind: semantic capability.  . . .
+
+What is that, if not a subtle kind of symbol-manipulation for a particular 
+purpose?
+
+Anton Sherwood   *\\*   +1 415 267 0685   *\\*   DASher@netcom.com
+
+------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Mon, 17 Oct 1994 13:38:19 GMT
+Subject: [#94-10-272] SCI: Many-Worlds FAQ
+
+Nick Szabo writes:
+> My point here was orthogonal to many-worlds, I suspect.  I was 
+> disputing the alleged "proofs" of Eberhard et. al. that information 
+> can't be transmitted FTL in EPR, despite FTL transmission of
+> correlated states.
+
+The disproof of FTL signalling is orthogonal to many-worlds, as Nick
+says, although I find it easiest to see this from that view point. 
+Many-worlds is a local theory, without FTL (ignoring gravity), which
+reproduces all the experimental results of normal quantum theory.  It
+therefore follows, no matter which interpretation we hold, that no FTL
+signalling is possible.
+
+>  These proofs rely on the assumption that the EPR 
+> source is random: 
+
+I don't think the randomness or pseudo-randomness of the source is
+relevant and in fact confuses the issue by leading folks to start
+thinking in classical terms of the source having a definite, though
+unknown or hidden, state prior to measurement of the EPR photons.  This
+is what Bell, Aspect and other showed was not possible.
+
+It is true that the no FTL property of physics is only an assumption,
+but it is an assumption consistent with all known facts, including all
+the pseudo-paradoxes of quantum theory, so we have no reason for
+dropping it.
+
+Here is my many-worlds FAQ entry on EPR, which may or may not be
+relevant to the issue that Nick is addressing:
+********************
+Q28  Does the EPR experiment prohibit locality?
+     ------------------------------------------
+The EPR experiment is widely regarded as the definitive gedanken
+experiment for demonstrating that quantum mechanics is non-local or
+incomplete.  We shall see that it implies neither.
+
+The EPR experiment was devised, in 1935, by Einstein, Podolsky and Rosen
+to demonstrate that quantum mechanics was incomplete [E].  Bell, in
+1964, demonstrated that any hidden variables theory, to replicate the
+predictions of QM, must be non-local [B].  QM predicts strong
+correlations between separated systems, stronger than any local hidden
+variables theory can offer.  Bell encoded this statistical prediction
+in the form of some famous inequalities that apply to any type of EPR
+experiment.  Eberhard, in the late 1970s, extended Bell's inequalities
+to cover any local theory, with or without hidden variables.  Thus the
+EPR experiment plays a central role in sorting and testing variants of
+QM.  All the experiments attempting to test EPR/Bell's inequality to
+date (including Aspect's in the 1980s [As]) are in line with the
+predictions of standard QM - hidden variables are ruled out.  Here is
+the paradox of the EPR experiment.  It seems to imply that any physical
+theory must involve faster-than-light "things" going on to maintain
+these "spooky" action-at-a-distance correlations and yet still be
+compatible with relativity, which seems to forbid FTL.
+
+Let's examine the EPR experiment in more detail.
+
+So what did EPR propose?  The original proposal was formulated in terms
+of correlations between the positions and momenta of two once-coupled
+particles.  Here I shall describe it in terms of the spin (a type of
+angular momentum intrinsic to the particle) of two electrons.  [In this
+treatment I shall ignore the fact that electrons always form
+antisymmetric combinations.  This does not alter the results but does
+simplify the maths.]  Two initially coupled electrons, with opposed
+spins that sum to zero, move apart from each other across a distance of
+perhaps many light years, before being separately detected, say, by me
+on Earth and you on Alpha Centauri with our respective measuring
+apparatuses.  The EPR paradox results from noting that if we choose the
+same (parallel) spin axes to measure along then we will observe the two
+electrons' spins to be anti-parallel (ie when we communicate we find
+that the spin on our electrons are correlated and opposed).  However if
+we choose measurement spin axes that are perpendicular to each other
+then there is no correlation between electron spins.  Last minute
+alterations in a detector's alignment can create or destroy correlations
+across great distances.  This implies, according to some theorists, that
+faster-than-light influences maintain correlations between separated
+systems in some circumstances and not others.
+
+Now let's see how many-worlds escapes from this dilemma.
+
+The initial state of the wavefunction of you, me and the electrons and
+the rest of the universe may be written:
+
+   |psi> =  |me> |electrons> |you> |rest of universe>
+             on      in       on
+            Earth   deep     Alpha
+                    space   Centauri
+or more compactly, ignoring the rest of the universe, as:
+   |psi> =  |me,electrons,you>  
+And
+   |electrons> = (|+,-> - |-,+>)/sqrt(2) 
+        represents a pair electrons, with the first electron travelling
+        towards Earth and the second electron travelling towards Alpha
+        Centauri.
+
+   |+> represents an electron with spin in the +z direction
+   |-> represents an electron with spin in the -z direction
+
+It is an empirically established fact, which we just have to accept,
+that we can relate spin states in one direction to spin states in other
+directions like so (where "i" is the sqrt(-1)):
+   |left>  = (|+> - |->)/sqrt(2)    (electron with spin in -x direction)
+   |right> = (|+> + |->)/sqrt(2)    (electron with spin in +x direction)
+   |up>    = (|+> + |->i)/sqrt(2)   (electron with spin in +y direction)
+   |down>  = (|+> - |->i)/sqrt(2)   (electron with spin in -y direction)
+and inverting:
+   |+>  = (|right> + |left>)/sqrt(2) =  (|up> + |down>)/sqrt(2)
+   |->  = (|right> - |left>)/sqrt(2) =  (|down> - |up>)i/sqrt(2)
+
+(In fancy jargon we say that the spin operator in different directions
+form non-commuting observables.  I shall eschew such obfuscations.)
+
+Working through the algebra we find that for pairs of electrons:
+
+   |+,-> - |-,+> =  |left,right> -  |right,left>
+                 =  |up,down>i    - |down,up>i
+
+|me> represents me on Earth with my detection apparatus.  I shall assume
+that we are capable of either measuring spin in the x or y direction,
+which are both perpendicular the line of flight of the electrons.  After
+having measured the state of the electron my state is described as one
+of either:
+   |me[l]> represents me + apparatus + records having measured 
+           x-axis spin and recorded the x-axis spin as "left"
+   |me[r]> ditto with the x-axis spin as "right"
+   |me[u]> ditto with the y-axis spin as "up"
+   |me[d]> ditto with the y-axis spin as "down"
+
+Similarly for |you> on Alpha Centauri.  Notice that it is irrelevant
+*how* we have measured the electron's spin.  The details of the
+measurement process are irrelevant.  To model the process it is
+sufficient to assume that there is a way, which we have further assumed
+does not disturb the electron.  (The latter assumption may be relaxed
+without altering the results.)
+
+To establish familiarity with the notation let's take the state of the
+initial wavefunction as:
+
+             |psi>_1 =  |me,left,up,you>
+                             /     \
+                           /         \
+    first electron in left          second electron in up state
+    state heading towards              heading towards you on
+        me on Earth                        Alpha Centauri
+        
+After the electrons arrive at their detectors, I measure the spin
+along the x-axis and you along the y-axis.  The wavefunction evolves
+into |psi>_2:
+
+                local     
+     |psi>_1 ============> |psi>_2 = |me[l],left,up,you[u]> 
+              observation
+
+which represents me having recorded my electron on Earth with spin left
+and you having recorded your electron on Alpha Centauri with spin up. 
+The index in []s indicates the value of the record.  This may be held
+in the observer's memory, notebooks or elsewhere in the local
+environment (not necessarily in a readable form).  If we communicate our
+readings to each other the wavefunctions evolves into |psi>_3:
+
+               remote 
+     |psi>_2 ============> |psi>_3 = |me[l,u],left,up,you[u,l]> 
+             communication
+
+where the second index in []s represents the remote reading communicated
+to the other observer and being recorded locally.  Notice that the
+results both agree with each other, in the sense my record of your
+result agrees with your record of your result.  And vice versa.  Our
+records are consistent.
+
+That's the notation established.  Now let's see what happens in the more
+general case where, again,:
+
+    |electrons> = (|+,-> - |-,+>)/sqrt(2).
+
+First we'll consider the case where you and I have previously arranged
+to measure the our respective electron spins along the same x-axis.
+
+Initially the wavefunction of the system of electrons and two
+experimenters is:
+
+  |psi>_1 
+    =  |me,electrons,you>
+    =  |me>(|left,right> - |right,left>)|you> /sqrt(2)
+    =  |me,left,right,you> /sqrt(2)
+     - |me,right,left,you> /sqrt(2)
+
+Neither you or I are yet unambiguously split.
+
+Suppose I perform my measurement first (in some time frame).  We get
+
+  |psi>_2
+    =  (|me[l],left,right> - |me[r],right,left>)|you> /sqrt(2)
+    =   |me[l],left,right,you> /sqrt(2)
+      - |me[r],right,left,you> /sqrt(2)
+
+My measurement has split me, although you, having made no measurement,
+remain unsplit.  In the full expansion the terms that correspond to you
+are identical.
+
+After the we each have performed our measurements we get:
+
+  |psi>_3
+    =  |me[l],left,right,you[r]> /sqrt(2)
+     - |me[r],right,left,you[l]> /sqrt(2)
+
+The observers (you and me) have been split (on Earth and Alpha Centauri)
+into relative states (or local worlds) which correlate with the state
+of the electron.  If we now communicate over interstellar modem (this
+will take a few years since you and I are separated by light years, but
+no matter).  We get:
+
+  |psi>_4
+    =  |me[l,r],left,right,you[r,l]> /sqrt(2)
+     - |me[r,l],right,left,you[l,r]> /sqrt(2)
+
+The world corresponding to the 2nd term in the above expansion, for
+example, contains me having seen my electron with spin right and knowing
+that you have seen your electron with spin left.  So we jointly agree,
+in both worlds, that spin has been conserved.
+
+Now suppose that we had prearranged to measure the spins along different
+axes.  Suppose I measure the x-direction spin and you the y-direction
+spin.  Things get a bit more complex.  To analyse what happens we need
+to decompose the two electrons along their respective spin axes.
+
+  |psi>_1 =
+      |me,electrons,you>
+    = |me>(|+,-> - |-,+>)|you>/sqrt(2) 
+    = |me> (
+            (|right>+|left>)i(|down>-|up>)
+          - (|right>-|left>)(|down>+|up>)
+           ) |you> /2*sqrt(2) 
+    = |me> (
+            |right>(|down>-|up>)i
+          + |left> (|down>-|up>)i
+          - |right>(|down>+|up>)
+          + |left> (|down>+|up>)
+           ) |you> /2*sqrt(2) 
+    = |me> (
+            |right,down> (i-1) - |right,up> (1+i)
+          + |left,up> (1-i)    + |left,down> (1+i) 
+           ) |you> /2*sqrt(2) 
+    =  (
+       + |me,right,down,you> (i-1)
+       - |me,right,up,you>   (i+1)
+       + |me,left,up,you>    (1-i)
+       + |me,left,down,you>  (1+i) 
+       ) /2*sqrt(2) 
+
+So after you and I make our local observations we get:
+
+   |psi>_2 =
+       (
+       + |me[r],right,down,you[d]> (i-1) 
+       - |me[r],right,up,you[u]>   (i+1) 
+       + |me[l],left,up,you[u]>    (1-i) 
+       + |me[l],left,down,you[d]>  (1+i)
+       ) /2*sqrt(2)
+
+Each term realises a possible outcome of the joint measurements.  The
+interesting thing is that whilst we can decompose it into four terms
+there are only two states for each observer.  Looking at myself, for
+instance, we can rewrite this in terms of states relative to *my*
+records/memories.
+
+   |psi>_2 = 
+       ( 
+         |me[r],right> ( |down,you[d]> (i-1) - |up,you[u]> (i+1) )
+       + |me[l],left>  ( |up,you[u]> (1-i) + |down,you[d]> (1+i) )
+       ) /2*sqrt(2)
+
+And we see that there are only two copies of *me*.  Equally we can
+rewrite the expression in terms of states relative to *your*
+records/memory.
+
+   |psi>_2 =
+       ( 
+         ( |me[l],left> (1-i) - |me[r],right> (i+1) ) |up,you[u]> 
+       + ( |me[r],right> (i-1) + |me[l],left> (1+i) ) |down,you[d]>
+       ) /2*sqrt(2)
+
+And see that there are only two copies of *you*.   We have each been
+split into two copies, each perceiving a different outcome for our
+electron's spin, but we have not been split by the measurement of the
+remote electron.  
+
+*After* you and I communicate our readings to each other, more than four
+years later, we get:
+
+   |psi>_3 =
+       (
+       + |me[r,d],right,down,you[d,r]> (i-1) 
+       - |me[r,u],right,up,you[u,r]>   (i+1) 
+       + |me[l,u],left,up,you[u,l]>    (1-i) 
+       + |me[l,d],left,down,you[d,l]>  (1+i)
+       ) /2*sqrt(2)
+
+The decomposition into four worlds is forced and unambiguous after
+communication between the remote systems.  Until the two observers
+communicated their results to each other they were each unsplit by each
+others' remote measurements, although their own local measurements had
+split themselves.  The splitting is a local process that is causally
+transmitted from system to system at light or sub-light speeds.  (This
+is a point that Everett stressed about Einstein's remark about the
+observations of a mouse, in the Copenhagen interpretation, collapsing
+the wavefunction of the universe.  Everett observed that it is the mouse
+that's split by its observation of the rest of the universe.  The rest
+of the universe is unaffected and unsplit.)
+
+When all communication is complete the worlds have finally decomposed
+or decohered from each other.  Each world contains a consistent set of
+observers, records and electrons, in perfect agreement with the
+predictions of standard QM.  Further observations of the electrons will
+agree with the earlier ones and so each observer, in each world, can
+henceforth regard the electron's wavefunction as having collapsed to
+match the historically recorded, locally observed values.  This
+justifies our operational adoption of the collapse of the wavefunction
+upon measurement, without having to strain our credibility by believing
+that it actually happens.
+
+To recap.  Many-worlds is local and deterministic.  Local measurements
+split local systems (including observers) in a subjectively random
+fashion; distant systems are only split when the causally transmitted
+effects of the local interactions reach them.  We have not assumed any
+non-local FTL effects, yet we have reproduced the standard predictions
+of QM.
+
+So where did Bell and Eberhard go wrong?  They thought that all theories
+that reproduced the standard predictions must be non-local.  It has been
+pointed out by both Albert [A] and Cramer [C] (who both support
+different interpretations of QM) that Bell and Eberhard had implicity
+assumed that every possible measurement - even if not performed - would
+have yielded a *single* definite result.  This assumption is called
+contra-factual definiteness or CFD [S].  What Bell and Eberhard really
+proved was that every quantum theory must either violate locality *or*
+CFD.  Many-worlds with its multiplicity of results in different worlds
+violates CFD, of course, and thus can be local.
+
+Thus many-worlds is the only local quantum theory in accord with the
+standard predictions of QM and, so far, with experiment.
+
+[A]  David Z Albert, _Bohm's Alternative to Quantum Mechanics_
+     Scientific American (May 1994)
+[As] Alain Aspect, J Dalibard, G Roger _Experimental test of Bell's
+     inequalities using time-varying analyzers_ Physical Review Letters
+     Vol 49 #25 1804 (1982).
+[C]  John G Cramer _The transactional interpretation of quantum
+     mechanics_ Reviews of Modern Physics Vol 58 #3 647-687 (1986)
+[B]  John S Bell:  _On the Einstein Podolsky Rosen paradox_ Physics 1
+     #3 195-200 (1964).
+[E]  Albert Einstein, Boris Podolsky, Nathan Rosen:  _Can
+     quantum-mechanical description of physical reality be considered
+     complete?_  Physical Review Vol 41, 777-780 (15 May 1935).
+[S]  Henry P Stapp _S-matrix interpretation of quantum-theory_ Physical
+     Review D Vol 3 #6 1303 (1971)
+***********************
+
+Michael Price                        price@price.demon.co.uk
+
+------------------------------
+
+From: Leo Barnard <lbarnard@gwent.ac.uk>
+Date: Mon, 17 Oct 1994 16:23:47 +0100 (BST)
+Subject: [#94-10-273] Interface-ing messages ?
+
+Greetings....All my mail from the last week has been destroyed :-\
+If any one sent any mailings regarding the Interface could they please 
+send me a new copy , Thankyou .
+
+PS - I am currently organising an event to take place at the  Brighton 
+Art & Technology conference taking place in March 1995 , If anyone is 
+interested or may have be able to contribute some enthusiasm to the event 
+please conntact me . There will be two days of general lectures and talks 
+and a third day which will be dedicated to people working in the field 
+and will be open to presentations,Installations demonstrations etc
+
+ B-)
+
+Leo
+lbarnard@gwent.ac.uk
+Telematics Representative 
+
+------------------------------
+
+From: John K Clark <johnkc@well.sf.ca.us>
+Date: Mon, 17 Oct 1994 08:58:55 -0700
+Subject: [#94-10-274] Challenge to Uploaders
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+EdRegis@aol.comon  Sun, 16 Oct 1994 in Message #94-10-260 wrote:
+
+       >Actually, I view the matter of definition as irrelevant to the
+       >issue.  We know what consciousness is through personal experience
+      
+I agree with you about that.
+      
+	  >and we know enough about it, on the basis of that
+	  >experience, to conclude that apples, for example, are not
+	  >conscious
+	  
+I disagree with you about that , we know nothing about the
+personal experience of apples, or anything else. I believe that
+apples are not conscious because they don't act conscious, but
+then, I believe in the Turing test. 
+
+	>The challenge is to show that these same computers, or their
+	>turbo-revved successors, will reproduce consciousness if and    
+	>when they simulate minds
+	
+What's the difference between simulated music and real music,
+simulated arithmetic and real arithmetic, simulated minds and
+real minds?
+	 
+	 >For my money, a computer's passing the Turing test, whatever    
+	 >else it may prove, doesn't prove the computer is
+	 >conscious in the sense of what *we* experience as consciousness.
+	 
+What's this "we" business? If your going to be consistent you'd
+have to say I am conscious but the consciousness of other people
+is unknown. Actually your correct, the Turing test doesn't
+rigorously prove anything about consciousness it's just a rule
+of thumb but one all of us use every day, even Searle. Nobody
+can live their life thinking they are the only conscious being
+in the universe. 
+  
+				   John K Clark         johnkc@well.sf.ca.us
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+iQCzAgUBLqKYan03wfSpid95AQF/UATwmTbDOdOeA/3ulVv5h46lTzeXZ22AsBKA
+M1rJPBJUzFgjHdylOX5WxlQls3m3EBFcsZ379Ju0gxk0h6zx5EaVnfsaPCwYOyII
+z7kXeCcbTn59FKlHMartUYD5odXPEvTtovKIqwsUGwPVdI2p1ZKD21EkPy5UVPAw
+AkgiOWR9LIYL8D52bbHctYJZmmQDAayB1G2+FAikMkL7oZCPXKU=
+=+pyU
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+End of Extropians Digest V94 #289
+*********************************
+

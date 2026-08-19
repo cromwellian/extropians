@@ -1,0 +1,519 @@
+From extropians-request@extropy.org Tue Jul 12 09:05:44 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id JAA04703 for <more@chaph.usc.edu>; Tue, 12 Jul 1994 09:05:43 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA11546; Tue, 12 Jul 94 09:05:34 PDT
+Received: by news.panix.com id AA12803
+  (5.65c/IDA-1.4.4 for more@usc.edu); Tue, 12 Jul 1994 12:05:31 -0400
+Date: Tue, 12 Jul 1994 12:05:31 -0400
+Message-Id: <199407121605.AA12803@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-7-86 - #94-7-96
+X-Extropian-Date: July 12, 374 P.N.O. [12:01:12 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Tue, 12 Jul 94             Volume 94 : Issue 192
+
+Today's Topics:
+                         AI development acceleration                  [2 msgs]
+                         AI development acceleration                  [1 msgs]
+                              Childhood Anecdote                      [1 msgs]
+                              emergence defined                       [4 msgs]
+                                  food stuff                          [2 msgs]
+                  Forward: Marketing/advert. via telephone..          [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 25645 bytes.
+
+----------------------------------------------------------------------
+
+From: rjc@gnu.ai.mit.edu (Ray)
+Date: Mon, 11 Jul 94 11:43:14 WET DST
+Subject: [#94-7-86] emergence defined
+
+nancy@genie.slhs.udel.edu writes:
+> 
+> "Peter C. McCluskey" <pcm@world.std.com> writes:
+> 
+> > At Alife 4, Vince Darley (vince@das.harvard.edu) proposed this definition:
+> >"A true emergent phenomenon is one for which the optimal means of prediction
+> >is simulation".
+> 
+> Cool--and this leads to a nice parallel between emergent behavior and
+> random sequences.
+> 
+> How certain is it that quantum behavior is random rather than chaotic?
+
+   Chaotic processes are locally determinstic (i.e. measure them
+quick enough and you can predict a very short interval ahead)
+
+   Quantum mechanics is such that the outcome of any one experiment
+can not be determined, no matter how much "history" you know about the
+experiment. I'm pretty sure this is a feature of the mathematical model
+itself. i.e. QM says nothing about what the outcome of an experiment
+will be, only what the probable outcomes *might be*
+
+  I'm not at all sure that QM is *proof* of nondeterminism. I don't
+think it can logically rule out an underlying determinism. Mike
+Price probably knows more.
+
+
+------------------------------
+
+From: derek@cs.wisc.edu (Derek Zahn)
+Date: Mon, 11 Jul 1994 12:53:25 -0500 (CDT)
+Subject: [#94-7-87] AI development acceleration
+
+Doug Cutrell:
+
+> I see there being at
+> least two major camps... those who see AI as requiring the gradual piecing
+> together of a very complicated system, with many individually crafted
+> components, and those who see AI as potentially arising emergently from a
+> much more undifferentiated complex system.
+
+A third camp:  those who see AI as something that can be evolved or
+otherwise searched for.  Such search becomes cheaper and cheaper.
+
+derek
+q: is this program intelligent?
+a: nope
+q: how about this one?
+a: nope
+q: how about this one?
+a: nope
+...
+q: how about this one?
+a: yep
+
+
+------------------------------
+
+From: derek@cs.wisc.edu (Derek Zahn)
+Date: Mon, 11 Jul 1994 13:12:28 -0500 (CDT)
+Subject: [#94-7-88] emergence defined
+
+Peter McCluskey:
+
+>  At Alife 4, Vince Darley (vince@das.harvard.edu) proposed this definition:
+> "A true emergent phenomenon is one for which the optimal means of prediction
+> is simulation".
+
+This seems hopelessly confused to me.  
+
+  * solving analytically for the positions of the balls on my
+    frictionless Platonian Pool Table is pretty intractable after
+    a while... much easier to simulate it.  I see nothing particularly
+    emergent there.
+  
+  * what is meant by "optimal" (that is, by what measurement --
+    computer cycles on a VAX, man-hours, or what?  And why?)
+    Also, since we can never tell what's optimal for sure, this
+    definition is useless in actually identifying emergent
+    phenomena.
+  
+  * what is "simulation"?  When we write computer programs or
+    mathematical expressions we are building formal models
+    of the phenomena under study.  We make predictions by
+    manipulating those representations according to the rules
+    of the model.  How are we to decide which modeling techniques
+    are simulations and which aren't?
+  
+  * is "simulation" really the "optimal" way to predict, say,
+    the migrating patterns of birds?  Many emergent phenomena
+    are chaotic in nature, making their prediction highly
+    dependent on very small changes in initial conditions.
+    Given that perfect measurement of those conditions is
+    impossible, how could a prediction given by a simulation
+    be optimal?
+
+derek
+
+
+------------------------------
+
+From: iandoug@cybernet.za (Ian Douglas)
+Date: Mon, 11 Jul 1994 20:12:10 +0200 (GMT+0200)
+Subject: [#94-7-89] food stuff
+
+Carl Feynman wrote:
+> 
+> it's just obviously got to bad for you, requiring no justification.  But I
+> thought that it was well known that bacteria in the intestines do a lot of
+> useful work in digesting stuff down into molecules we can absorb.  So it
+> sounds like putrefaction and fermentation are to be encouraged.  Certainly
+> my experiences with oral antibiotics that sterilize the digestive tract
+> have not been happy ones.
+
+Then eat yoghurt afterwards, it contains the 'good' bacteria and helps
+restore the correct flora balance in the guts.
+
+> I have a mild and intermittent case of ulcerative colitis, a chronic
+> disease which, among other things, speeds up peristalsis.  When I'm having
+> an attack, food goes through me somehat faster than usual.  I find that
+> this increases my appetite.  It's kind of fun-- I can eat big hearty meals
+> at every sitting and not grow fat.  I have to watch that I don't fall
+> behind and start losing weight.
+
+Have you tried eating more of your food raw (like 75% of your daily total)?
+Cooked food has much of its nutritional value destroyed.
+
+Cheers, Ian
+
+-- 
+-----------------------------------------------------------------------------
+Ian Douglas                                    InterNet: iandoug@cybernet.za
+P.O. Box 484           Lead, Follow,           FidoNet: 5:7102/119
+7532 Sanlamhof         or get out of           TopNet: 225:2048/1
+South Africa             the way.
+-----------------------------------------------------------------------------
+
+------------------------------
+
+From: doug@OpenMind.com (Doug Cutrell)
+Date: Mon, 11 Jul 1994 12:52:58 -0800
+Subject: [#94-7-90] emergence defined
+
+Peter McCluskey writes:
+
+>  At Alife 4, Vince Darley (vince@das.harvard.edu) proposed this definition:
+> "A true emergent phenomenon is one for which the optimal means of prediction
+> is simulation".
+
+A while back, in message number 94-6-122, Derek Zahn wrote:
+
+>For example, we certainly
+>would like to say that:
+>
+> memetics and politics are emergent phenomena
+> speciation is an emergent phenomenon
+> higher mathematics shows emergent order
+> and so on.
+
+These test cases seem to rule Vince Darley's proposed definition as
+inadequate.  I think this is natural... the mistake is in trying to come up
+with a single "definition" that will apply in all the cases we would like
+it to.  There are different domains of discourse, and the term "emergence"
+serves somewhat different functions in each.  Darley's definition probably
+serves admirably within the limited domain of neural networks, genetic
+algorithms, and similar topics.  It is probably quite useful in these
+domains, and I doubt that any definition which would also serve for
+"memetics" could be substituted in these cases, without losing something.
+
+Perhaps there is something analogous occurring in these other domains:  for
+example, maybe we can always find two or more different levels of
+explanation or "model", with an asymmetric embedding of one inside the
+other (memetics and politics embedded within the attitudes and behavior of
+all the individuals of a population, etc.)  But I would hold that no matter
+what kind of definition you come up with, there will always be cases in
+which it does not seem to really apply.  For example, I don't think that
+"higher mathematics" fits into my just described definition.
+
+This does not mean that the search is useless -- but I'd suggest the focus
+be inclusive, seeking to collect a body of definitions that collectively
+serve our purposes, rather than exclusive, seeking to find the single
+universal definition.  With this in mind, I think the relevant question
+with regards to Vince Darley's definition is "What are the different
+domains where this definition works?"  I submit that it does work for
+neural networks, cellular automata, and genetic algorithms.  Are there any
+other domains in which it also works?
+
+Doug
+
+
+                       __   __   __                             __
+Doug Cutrell          /  ) /__) /_  /\  /    /| /|   /  /\  /  /  )
+doug@OpenMind.com     \_/ /    (_  /  \/    / |/ |  /  /  \/  /__/
+===================================================================
+
+
+
+------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Mon, 11 Jul 1994 17:17:39 -0400 (EDT)
+Subject: [#94-7-91] Forward: Marketing/advert. via telephone..
+
+Don't know if this will take off, but I wouldn't mind this if the
+person placing the ad picked up the cost of the call.. In the "digital"
+future when the bits for the average phone call will cost pennies.. I
+expect that might happen... 
+
+/hawk
+
+
+a conscious being, Gregory Aharonian wrote:
+
+> From srctran@world.std.com Mon Jul 11 09:02:16 1994
+> Date: Mon, 11 Jul 1994 08:58:04 -0400
+> From: srctran@world.std.com (Gregory Aharonian)
+> Message-Id: <199407111258.AA08501@world.std.com>
+> To: patents@world.std.com
+> Subject: NEWS: A new obnoxious telecommunications patent
+
+>     OH NO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+>     Just when you thought that telephone calling couldn't get any worse
+> (due to annoying phone mail systems, and other such "breakthroughs"), along
+> comes some technology that automatically switches your phone call, when it
+> encounters a busy signal, to a node that provides advertising to listen to
+> until the person you are calling is through, when it completes the connection.
+> Having to listen to phone Muzak is bad enough while waiting, but now we have
+> to listen to advertising?
+>     OH NO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+> Greg Aharonian
+> Internet Patent News Service
+> (for subscription info, send 'help' to   patents@world.std.com)
+> (for prior art search services info, send 'prior' to patents@world.std.com)
+> ==============================================================================
+
+> US PAT NO:     5,321,740 [IMAGE AVAILABLE]             ANS: 1
+> DATE ISSUED:   Jun. 14, 1994
+> TITLE:         Telephone marketing system
+> INVENTOR:      Mark R. Gregorek, Mahwah, NJ
+>                Jeffrey C. Dillow, Sparta, NJ
+> ASSIGNEE:      Quantum Systems, Inc., Mahwah, NJ (U.S. corp.) 
+> APPL-NO:       07/718,080
+> DATE FILED:    Jun. 20, 1991
+> ART-UNIT:      261
+> PRIM-EXMR:     Thomas W. Brown
+> LEGAL-REP:     Panitch, Schwarze, Jacobs & Nadel
+
+> ABSTRACT: 
+> A marketing system selectively modifies an existing telephone network by
+> modifying a portion of the call processing software of the existing telephone
+> network and by replacing at least a portion of an audible call progress
+> signal generated by the telephone network by a prerecorded announcement. A
+> calling party places a telephone call at a first telephone to a second
+> telephone having a particular calling status. Once the call is made, a switch
+> or an associated network signaling system determines the busy/idle status of
+> the second telephone. In place of the usual ringback or busy signal, an
+> announcement indicates to the calling party the status of the second
+> telephone and a series of announcements are played for a predetermined period
+> of time. During the announcements, the system continues to determine the
+> status of the telephone line of the second telephone. The announcements are
+> played until the call is completed or abandoned.
+
+>  We claim:
+
+>  1. A marketing system for selectively modifying an existing telephone
+> network by modifying a portion of the call processing software of the
+> existing telephone network and by replacing at least a portion of an audible
+> call progress signal including either a busy signal or a ringback signal
+> generated by the telephone network by a generally continuous prerecorded
+> announcement, the system comprising:
+>  means for placing a telephone call by a calling party at a first telephone;
+>  means for connecting the telephone call to an identified called station at a
+>   second telephone having a particular calling status;
+>  means for initially determining the busy/idle status of the second
+>   telephone, said determining means thereafter checking the busy/idle status
+>   of the second telephone at predetermined intervals prior to completion of
+>   the call;
+>  means for playing at least one generally continuous announcement to the
+>   calling party for a predetermined period of time during a time period when
+>   an audible call progress signal would have been provided to the calling
+>   party, said playing means determining the announcement to play based upon
+>   criteria established exclusively by the marketing system and independently
+>   of the identity of the called station; and
+>  means for terminating the playing of the announcement and completing the
+>   call to the called station, in the case of the second telephone having an
+>   initial idle status, said announcement terminating and call completing
+>   means completing the call when the second telephone is answered and, in the
+>   case of the second telephone having an initial busy status, said
+>   announcement terminating and call completing means completing the call when
+>   the status of the second telephone changes to an idle status and the second
+>   telephone is thereafter answered.
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+From: Eric Watt Forste <arkuat@netcom.com>
+Date: Mon, 11 Jul 94 14:54:43 -0700
+Subject: [#94-7-92] AI development acceleration 
+
+Doug Cutrell's second camp:
+
+> those who see AI as potentially arising emergently from a much more
+> undifferentiated complex system.
+
+Derek Zahn's third camp:
+
+> those who see AI as something that can be evolved or otherwise
+> searched for. Such search becomes cheaper and cheaper.
+
+How do you distinguish between these two? I must be missing something,
+because, generalized, they seem to me to be mere restatements of one
+another.
+
+Eric Watt Forste || finger arkuat@c2.org || http://www.c2.org/~arkuat
+
+------------------------------
+
+From: "John M. Bozeman" <jmb5b@faraday.clas.virginia.edu>
+Date: Mon, 11 Jul 1994 18:27:31 -0400 (EDT)
+Subject: [#94-7-93] food stuff
+
+>> > useful work in digesting stuff down into molecules we can absorb.  So it
+>> > sounds like putrefaction and fermentation are to be encouraged.  Certainly
+>> > my experiences with oral antibiotics that sterilize the digestive tract
+>> > have not been happy ones.
+>> 
+>> Then eat yoghurt afterwards, it contains the 'good' bacteria and helps
+>> restore the correct flora balance in the guts.
+>> 
+
+Please correct me if I am wrong, but I think that there are a lot
+more types of bacteria in the gut than simply Lactobacter.
+
+           John
+
+
+
+------------------------------
+
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Date: Mon, 11 Jul 94 17:57:45 EDT
+Subject: [#94-7-94] Childhood Anecdote
+
+I don't have a great libertarianization story, but
+my discovering the word was like Sasha's son's;
+
+> ...he found himself in the ultra-libertarian corner of
+> the chart, and, being deeply impressed with the questions, asked:
+>  
+>   - "Who are those smart people?" 
+
+That's what happened when I first saw an ad for Reason magazine,
+at the end of high school in the mid-'70s.  The ad said, "We believe
+in *these* sorts of freedoms...*and these* sorts of freedoms,"
+and it was like a Peanuts cartoon for me:
+
+      "THAT'S IT!!!!!"
+
+and also that "Who are those smart people" response.
+
+-fnerd
+
+
+- - - - - - - - - - - - - - -
+spam is in the eye of the beholder (splat)
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+aKxB8nktcBAeQHabQP/d7yhWgpGZBIoIqII8cY9nG55HYHgvt3niQCVAgUBLMs3K
+ui6XaCZmKH68fOWYYySKAzPkXyfYKnOlzsIjp2tPEot1Q5A3/n54PBKrUDN9tHVz
+3Ch466q9EKUuDulTU6OLsilzmRvQJn0EJhzd4pht6hSnC1R3seYNhUYhoJViCcCG
+sRjLQs4iVVM=
+=9wqs
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Mon, 11 Jul 94 16:39:21 GMT
+Subject: [#94-7-95] emergence defined
+
+Peter C. McCluskey:
+>  At Alife 4, Vince Darley (vince@das.harvard.edu) proposed this 
+> definition:
+> "A true emergent phenomenon is one for which the optimal means 
+>  of prediction is simulation".
+
+Nancy Lebovitz:
+> Cool--
+
+Yup, pretty neat.
+
+> and this leads to a nice parallel between emergent behavior and
+> random sequences.
+
+Pseudo-random, IMO.
+
+> How certain is it that quantum behavior is random rather than chaotic?
+
+Very certain, 'though it's kinda hard to explain.  There's just been a
+"lively" thread on sci.physics on this.  It is rather unlikely that
+there is any connection between chaos and quantum-randomness.
+
+The debate was about whether radioactive decay was "truly" random or
+whether there could be hidden differences between one nuclei/ particle/
+etc and another that are responsible for the time of decay.  The
+solution relies on noting that the exclusion principle (the thing that
+stops electrons around an atom all dropping into the lowest orbital)
+implies that there are no hidden differences between same-type
+particles.  That all same-type particles (eg all electrons or all
+neutrons) are identical in principle as well as in appearance.  If there
+was extra hidden machinery inside particles then this effect - and
+quantum interference in general - would not work.
+
+Chaos implies that very slight differences between states are magnified
+with time.  But quantum-interference says there is no difference to
+begin with.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: derek@cs.wisc.edu (Derek Zahn)
+Date: Mon, 11 Jul 1994 19:48:08 -0500 (CDT)
+Subject: [#94-7-96] AI development acceleration
+
+Eric Watt Forste:
+
+> > those who see AI as potentially arising emergently from a much more
+> > undifferentiated complex system.
+> 
+> > those who see AI as something that can be evolved or otherwise
+> > searched for. Such search becomes cheaper and cheaper.
+> 
+> How do you distinguish between these two? I must be missing something,
+> because, generalized, they seem to me to be mere restatements of one
+> another.
+
+The "undifferentiated complex system" (actually an oxymoron as no
+undifferentiated system is complex) has certain characteristics:
+e.g. a learning rule, the "physics" of interaction, etc.  The
+question is:  What specific characteristics lead to the desired
+result, and how do we find them?
+
+This "third" view is fairly agnostic about the extent to which
+the AI system possesses complex structure prior to pressing its
+on button.  Clearly, either designing a monstrously complex
+structure or finding a suitable substrate is a very difficult
+task, but both are castable in terms of searching through
+alternatives instead of by applying brainpower.
+
+derek
+
+
+------------------------------
+
+End of Extropians Digest V94 #192
+*********************************
+

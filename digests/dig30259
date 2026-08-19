@@ -1,0 +1,1083 @@
+From extropians-request@gnu.ai.mit.edu Thu May 13 16:36:49 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA18689; Thu, 13 May 93 16:36:46 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA14302; Thu, 13 May 93 16:36:40 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA27407@wookumz.gnu.ai.mit.edu>; Thu, 13 May 93 19:30:35 -0400
+Message-Id: <9305132330.AA27407@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Thu, 13 May 93 19:30:05 -0400
+X-Original-Message-Id: <9305132330.AA27400@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0259
+X-Extropian-Date: Remailed on May 13, 373 P.N.O. [23:30:32 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Thu, 13 May 93            Volume 93 : Issue 0259
+                        
+Today's Topics:
+                      AI: Synaptic Storage Requirements               [3 msgs]
+                            AI:Human Equivalence                      [2 msgs]
+                 Drake Equation and Modelling of the Unknown          [2 msgs]
+                             First CDs, then...                       [7 msgs]
+                                Magic Numbers                         [1 msgs]
+                       POLL: Expertise survey results                 [1 msgs]
+                  TECH/PHIL: (non)interactive entertainment           [4 msgs]
+                 TECH/PHIL: (non)interactive entertainmentu           [1 msgs]
+                         TECH: Numerical Speculation                  [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50806 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 13 May 1993 13:21:21 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: AI:Human Equivalence
+
+In <9305131609.AA22799@wookumz.gnu.ai.mit.edu>, "Kent Hastings" writes:
+|>  Reply to:     RE>AI:Human Equivalence#000#
+|> Someone who will remain nameless because I erased it wrote:
+F'bork. That was I. Freeman Craig the Uneraseable.
+
+|> > Most of us read at a few hundred bits per second, but we don't
+|> > memorize what we read, either. If we could read as fast as we 
+|> > could form images of pages, we could beat Evelyn Wood all hollow!
+|> 
+[...]
+|> Anyway, one of the presentations was about speed reading. The 
+|> claim was made that a new speed reading method using cycled white 
+|> noise in stereo headphones could guide readers past the 
+|> "sub-vocalization" barrier permanently, after a month of use.
+[...]
+Hm, I could try that with my MasterMind DLS, just leave off the
+goggles.
+
+I went to an Evelyn Wood come-on session many years ago. I didn't
+read any faster by following my finger than not.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    /
+
+
+------------------------------
+
+Date: Thu, 13 May 1993 14:20:58 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: TECH/PHIL: (non)interactive entertainment 
+X-Reposting-Policy: redistribute only with permission
+
+Marc.Ringuette@gs80.sp.cs.cmu.edu says:
+> I see what you mean, but my experience is very different.  I think movies
+> are the greatest entertainment medium yet devised by man.  I like them,
+> despite their lack of interactivity, because they're the closest thing
+> to immersion in a completely alien environment that I have access to.  By 
+> watching movies about diverse things and people, you extend your experience!
+> 
+> Of course, I look forward to using a fully interactive immersion VR like the
+> holodeck from ST:TNG.  I think it would be fantastic to really "be there" and
+> I wouldn't be too surprised if such VR's made reality obsolete.  But even
+> after reality becomes obsolete, people will still want to watch movies!
+> (In the sense of being entertained linearly and non-interactively.) 
+> Sometimes when a person wants to "veg out", they actually _need_ some
+> scripted entertainment.  Movies are less stressful than life, and that's 
+> a good thing sometimes.
+
+I think there is something else missed here -- as an artist, its much
+easier to produce a good story if you are telling it or showing it. I
+doubt VR environments will be the same sort of thing as a great book
+or movie at all.
+
+Perry
+
+------------------------------
+
+Date: Thu, 13 May 93 12:02:48 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: AI: Synaptic Storage Requirements
+
+From: derek@cs.wisc.edu (Derek Zahn)
+> Anyway, the issue for us here is how difficult the modeling is likely
+> to be -- because it's convenient we say "how many bits to specify
+> each neuron/synapse/whatever?"  Educated guesses of this let us
+> play scenarios about technological requirements, as well as let us
+> reflect on what we can actually expect from our current machines;
+> comments of "it's the software, stupid" are perhaps inappropriate if
+> reasonable neuron models can only simulate tiny networks on current
+> hardware.
+
+As I recall, the topic of discussion is whether it is useful to attempt
+to calculate the information capacity needed to store or simulate the
+brain.  Paul's point was that we know so little that such calculations
+are not useful at the present time.
+
+I can't really agree with Derek's point that our current educated
+guesses, couched in "convenient" (for us) terms, tell us much about
+technological requirements.  At one extreme we have calculations of the
+sort seen in Mind Children or Engines of Creation (neither of which I
+have handy, darn it): 10^10 neurons times 10^3 synapses per neuron times
+10^2 bits per synapse, leading to 10^15 bits total (I just made these
+numbers up as an example).  At the other extreme we can figure that if
+we record the position and type of every atom in the brain that ought
+to be enough (well, to be safe let's figure every molecule in the body
+since some learning takes place in the muscles and joints and nerves):
+About 10^27 atoms times enough bits for position information at
+Angstrom level in 3 dimensions, about 10^2, times 10 bits per atom for
+the type: 10^30 bits.  This would be an upper bound.  Ralph Merkle
+actually used a calculation something like this in a discussion of
+whether cryonics could work.
+
+The difference between 10^15 bits and 10^30 bits is so large that it
+demonstrates how little we know.
+
+> Also note that whenever a researcher sets out to develop a model of
+> neural function, s/he is implicitly doing exactly the same sort of
+> guesswork that we're talking about here -- by choosing the level of
+> description and complexity of the model that they propose and study.
+> All we're doing is expressing that guesswork in a different way.
+
+No, we're doing something different.  The researcher knows that she may
+be a long way from reality, that her improved theory is just a tiny step
+towards that long-term goal.  What we're doing is taking her theory and
+saying, if this is actually how the brain works, then it will take X
+number of bits to store the brain's whole state.  But no one is proposing
+that this is actually how the brain works, least of all the neuroscience
+theorists.  The extrapolation is based on a false premise.  That's why
+the calculations which result are not likely to be useful.
+
+Hal Finney
+
+------------------------------
+
+Date: Thu, 13 May 1993 15:18-EDT
+From: Marc.Ringuette@GS80.SP.CS.CMU.EDU
+Subject: TECH/PHIL: (non)interactive entertainment 
+
+Perry's on target when he points out the thorny authorship problems of
+interactive fiction.  We'll need a whole new culture of authorship.
+For instance, an author's main job may become one of designing
+compelling characters with traits, motivations, and memories, rather
+than writing down a set of pre-packaged interactions which bring out
+those characteristics.  We run the risk of moving towards fiction which
+is more interactive but shallower, until people figure out how to be 
+outstanding authors in the new medium.  And until enough geniuses come
+along and write interactive fiction, we'll still want to read Thomas Hardy.
+
+
+-- Marc Ringuette (mnr@cs.cmu.edu).   Freely repost/archive any of my messages.
+
+
+------------------------------
+
+Date: Thu, 13 May 93 11:38:02 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: TECH: Numerical Speculation
+
+Robin writes, responding to Paul Cisek:
+> 
+> Why must speculation only be done in words and not with numbers?
+> While perhaps more work to construct, numerical speculations generally
+> make their assumptions more explicit, and thereby *help* us remember
+> what we do and don't know.  What's wrong with numbers?
+
+I would not criticize numerical speculation in general, but rather
+speculation as it is often practiced, which gives a false sense of
+accuracy.  Paul gave the example of the Drake equation for the number of
+civilizations in the galaxy.  This did make its assumptions fairly
+explicit, and perhaps could be said to help us remember what we do and
+don't know.  The problem was, we really know almost nothing about many
+terms in that equation.  And the equation didn't make that clear, at
+least in the form in which it is often presented.
+
+What you really need to do with a numerical speculation is to identify a
+range of values for each parameter, along with some arguments for why
+that range is approrpiate.  Applying this to the Drake equation would
+change the result from "1.2 civilizations per galaxy" (which is nonsense)
+to something like "more than 1E-40 and fewer than 1E+10 civilizations per
+galaxy, probably" (which makes clear how little we know).
+
+In discussions of the computing power needed to simulate the brain (in
+real time, a stipulation seldom mentioned), similar fudge factors should
+be made explicit.  We don't know how many neurons there are; we can't be
+sure glial cells (which outnumber neurons by a factor of 10 or more)
+aren't involved; we don't really know what mechanisms are important in
+determining how individual neurons will behave.  How do you quantify
+this?  You just have to put in huge fudge factors if you want to do it at
+all.
+
+Then, the whole analysis tends to ignore the need for learning.  Synapses
+change; neurons change shape; as Paul pointed out, the whole dendritic
+tree may need to be stored because it will determine which neurons are
+close enough that new synapses may conveniently form.  All this is
+ignored in calculations of the form X neurons times Y synapses per neuron
+times Z bits per synapse.
+
+A simple numerical analysis of this form (which we have seen many times
+on this list) does not make its assumptions explicit.  You have to read
+them into it: "let's see, he's allowing 30 bits per synapse, so evidentally
+he's assuming detailed synaptic shape is unimportant; he doesn't have any
+other state information than this, so evidentally he's assuming that changes
+in synapse state can be deduced by a model which knows only activation
+levels and current synaptic weights; etc."
+
+I don't think Paul's point was that numerical speculations are inherently
+invalid.  It is rather that when we deal with a domain which has so many
+more unknowns than knowns, properly done numerical analyses will produce
+results with such massive error bars as to be virtually useless.  In this
+domain, verbal arguments are more appropriate because they remind us that
+we are only waving our hands.
+
+Hal
+
+------------------------------
+
+Date: Thu, 13 May 1993 15:21:29 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: First CDs, then...
+
+> Richard Kennaway says:
+> > It seems to me that the fundamental limit currently is not the time to
+> > print it, but the ability to produce one-off copies of acceptable physical
+> > quality and price.
+
+a conscious being, Perry E. Metzger wrote:
+> I disagree.
+
+> Here in the U.S., the bulk of book sales are made from large chain
+> stores like Waldenbooks and Barnes and Noble -- and made from stock at
+> the stores. People are used to instant gratification of their book
+> purchasing desires. To make this into a successful commercial venture
+> would require that people be able to buy things on the spur of the
+> moment and walk home with them a few minutes later. Retail shops that
+> require weeks for delivery won't make enough money to survive -- they
+> will be outcompeted by superstores.
+
+I agree that getting books I already know I want via some point of
+purchase printing program/setup would be good, I have two reservations.
+
+1) A vast book warehouse with a touch tone based ordering system
+(push in the ISBN # and you account # and they send it) would meet
+many of Richard's needs and not require any technological advancements.
+
+2) I like buying books. I have spent $5,000 a year on books, although
+I am now probally spending only about $1,000. I buy these books
+by broswing through them. A print on demand system would not work
+for me as I wan tot see the book before I buy it.
+
+
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Thu, 13 May 93 14:01:25 MDT
+From: edlane@godot.Eng.Sandy.Novell.COM (Ed Lane)
+Subject: AI: Synaptic Storage Requirements
+
+A (timely and relevant?) product announcment from a blurb in a magazine
+just picked up today at the news stand:
+
+	"Computers With Humanlike Brains?"
+
+	No computer can match the processing power of the human brain,
+	but Intel Corp. and Nestor Inc. believe they've come much
+	closer to that human ideal with a more advanced  "neural
+	network" chip they recently delivered to the govenment's
+	Defense Advannced Research Projects Agency, or DARPA.
+
+	The new chip, called the Ni1000, has 1024 artificial neurons.
+	That's puny compared with the more than 100 billion neurons
+	typical of a human brain.
+
+	[...]
+
+	... the Ni1000 could improve the character-recognition
+	capabilities of computers by three orders of magnitude, from 10
+	to 10,000 characters per second.
+
+	Later this year, Intel says the Ni1000 should be available on
+	add-in boards for PCs that use its 486 or Pentium
+	microprocessors.
+
+OK, now the reference:  Popular Science, June 1993. Page 47, Blurb by
+Sandy Reed.
+
+Any one have access to the Data Sheet on this chip?
+
+-Ed
+<edlane@godot.Eng.Sandy.Novell.COM>
+
+
+------------------------------
+
+Date: Thu, 13 May 93 15:11:07 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: AI: Synaptic Storage Requirements
+
+Hal writes:
+
+> As I recall, the topic of discussion is whether it is useful to attempt
+> to calculate the information capacity needed to store or simulate the
+> brain.  Paul's point was that we know so little that such calculations
+> are not useful at the present time.
+
+One last response, then I stop debating the point for now.
+
+As to "usefulness", I suppose it's useful in tempering expectations
+for currently-available hardware.  Also, I find it useful for my
+own thinking -- just like the Drake equation (of which I will apparently
+be a lonely defender), it serves to break the issues into
+pieces -- even if the error bars are large and even if there isn't
+much confidence in a "best guess", any style of calculation that
+reveals as many issues as we've discussed is useful -- if for
+nothing else -- as a rhetrorical device.
+
+How many of our conversations on this list are lots more
+"useful", anyway?
+
+Even if not "useful", perhaps "interesting".  Presumably that's
+why such people as Moravec and Merkle and Schwartz and Waltz
+and Cherniak have found it worth their time to write about.
+
+> The researcher knows that she may
+> be a long way from reality, that her improved theory is just a tiny step
+> towards that long-term goal.  What we're doing is taking her theory and
+> saying, if this is actually how the brain works, then it will take X
+> number of bits to store the brain's whole state.  But no one is proposing
+> that this is actually how the brain works, least of all the neuroscience
+> theorists.
+
+Yes, I see that in papers all the time (er, I'm trying to
+be jovial while I whine here...):  "This theory is not intended
+to even be close to reality; in fact, it's probably such an
+insignificant step toward the goal that the theory's complexity may
+well be fifteen orders of magnitude too simple to account for the
+phenomena we're interested in."
+
+And, as far as I saw, nobody was taking somebody's mechanical theory
+and translating it into information requirements -- the articles
+quoted in this discussion engage in "theoretical speculation" about
+the level of complexity that an adequate theory might need, based
+on trained intuitions about the structures under discussion.  There are
+steps involved in this process, such as the "brain function reduces
+to cell function" theory I sketched in a previous note, as well as
+theories about synaptic capacity and so on (made by people with much
+more knowledge than I).
+
+But since such talk is useless, I'll stop polluting the list with it.
+
+derek
+
+
+------------------------------
+
+Date: Thu, 13 May 1993 14:10:47 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: First CDs, then... 
+X-Reposting-Policy: redistribute only with permission
+
+Richard Kennaway says:
+> When I look for a book that's in print, I usually have to order it, which
+> takes weeks.  Being able to get out-of-print books in such a time frame
+> would still be an improvement on not being able to get them at all, or
+> making a bootleg photocopy of an interlibrary loan.
+> 
+> It seems to me that the fundamental limit currently is not the time to
+> print it, but the ability to produce one-off copies of acceptable physical
+> quality and price.
+
+I disagree.
+
+Here in the U.S., the bulk of book sales are made from large chain
+stores like Waldenbooks and Barnes and Noble -- and made from stock at
+the stores. People are used to instant gratification of their book
+purchasing desires. To make this into a successful commercial venture
+would require that people be able to buy things on the spur of the
+moment and walk home with them a few minutes later. Retail shops that
+require weeks for delivery won't make enough money to survive -- they
+will be outcompeted by superstores.
+
+The real greatness of instant books is that you can avoid inventory
+and space problems. The Barnes and Noble superstore that just opened
+in New York has, in my estimation, about three million dollars tied up
+just in the inventory on the shelves (never mind in the basement), and
+being in Manhattan the price per square foot of floor space likely
+adds millions a year to overhead. If the store could be a tenth the
+size, offer more books and handle the same sales volume profit margins
+would skyrocket and even fairly expensive printing equipment and
+dispensery kiosks could be justified. Yes, the capacity to get ANY
+book that a person would want, including "out of print" titles, is a
+big plus -- but remember, "out of print" books tend to be out of print
+because they are too small a fraction of sales to justify the effort
+of stocking them. Some money will be made off of this capacity -- but
+not nearly as much as could be made by eliminating stock and excess
+space.
+
+Perry
+
+------------------------------
+
+Date: Thu, 13 May 1993 16:58:38 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: TECH/PHIL: (non)interactive entertainmentu
+
+  Opps, I forgot to mention that I take in a Japanese Anime once in a while.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 13 May 93 11:42:55 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: First CDs, then...
+
+Two points on instant books:
+
+1. How is browsing done? I suppose the bookstore could have *one* (or
+a few, for popular titles) copy on the shelf for browsing. But the
+"unlimited selection" model means this will not always be the case.
+
+I like to flip through my books before I buy them. In fact, I suspect
+most of us look through many books before buying one. Very seldom do I
+walk into a bookstore looking for a specific, hard to find book (which
+is the ideal case for "instant books"). I'm not saying here that the
+system won't work, only that such systems will likely fail if they
+don't cater to typical browsing tastes. (Perhaps high-res monitors can
+be used to "preview" the books...this'll cost some bucks. Perhaps
+"sample pages" can be printed for free (Ha!) or for some low fee (and
+I'd still miss the feel of flipping around the book to see what I was
+getting). Plenty of opportunities, plenty of problems.
+
+2. Keith Henson, who apparently is not reading the List right now,
+tried to start a commercial project to do exactly this: high-speed
+on-site printing of books. He called it "Gutenberg Express." When he
+was doing this in earnest, circa 1985-6, he met with little
+interest/success. (A few years later the local Tower Records installed
+a "make your own cassette" system, from a company whose name escapes
+me, and this lasted for about 6 months....then the company folded.)
+
+-Tim
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+
+
+------------------------------
+
+Date: Thu, 13 May 1993 17:07:31 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: First CDs, then... 
+X-Reposting-Policy: redistribute only with permission
+
+Timothy C. May says:
+> Two points on instant books:
+> 
+> 1. How is browsing done? I suppose the bookstore could have *one* (or
+> a few, for popular titles) copy on the shelf for browsing. But the
+> "unlimited selection" model means this will not always be the case.
+
+I'd assume you'd sit in front of a monitor, scan lists of titles or
+pictures of book covers, and if you wanted to look at something you'd
+select it and scan the pages on the monitor -- if you decided that you
+wanted the book, you'd stick your credit card into the machine, and
+out would spit a book.
+
+> I like to flip through my books before I buy them. In fact, I suspect
+> most of us look through many books before buying one.
+
+I guess you'd just browse electronically.
+
+> don't cater to typical browsing tastes. (Perhaps high-res monitors can
+> be used to "preview" the books...this'll cost some bucks.
+
+The printing system itself will likely cost $100k or more. The display
+system is cheap by comparison.
+
+> 2. Keith Henson, who apparently is not reading the List right now,
+> tried to start a commercial project to do exactly this: high-speed
+> on-site printing of books. He called it "Gutenberg Express." When he
+> was doing this in earnest, circa 1985-6, he met with little
+> interest/success. (A few years later the local Tower Records installed
+> a "make your own cassette" system, from a company whose name escapes
+> me, and this lasted for about 6 months....then the company folded.)
+
+The problem with the Personics system (which you are mentioning) was
+that it was a way to produce custom cassettes -- and it required
+significant work on the part of the patron, and most songs were
+unavailable in the system, and cassette sales in general have been
+dropping, and the cassettes you got weren't as good quality as normal
+ones. I suspect you can get around all these problems.
+
+Perry
+
+------------------------------
+
+Date: Thu, 13 May 93 14:04:09 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: First CDs, then...
+
+Harry Shapiro writes:
+>I like buying books. I have spent $5,000 a year on books, although
+>I am now probally spending only about $1,000. I buy these books
+>by broswing through them. A print on demand system would not work
+>for me as I wan tot see the book before I buy it.
+
+I buy by browsing too.  Music and movies are bought less by browsing,
+so they are better candidates for other approaches.  No accident that
+CDs are being done first.  Robin
+
+------------------------------
+
+Date: Thu, 13 May 93 14:03:24 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Drake Equation and Modelling of the Unknown
+
+Derek Zahn writes:
+...
+>As to "usefulness", I suppose it's useful in tempering expectations
+>for currently-available hardware.  Also, I find it useful for my
+>own thinking -- just like the Drake equation (of which I will apparently
+>be a lonely defender), it serves to break the issues into
+>pieces -- even if the error bars are large and even if there isn't
+>much confidence in a "best guess", any style of calculation that
+>reveals as many issues as we've discussed is useful -- if for
+>nothing else -- as a rhetrorical device.
+>
+>How many of our conversations on this list are lots more
+>"useful", anyway?
+.....
+>But since such talk is useless, I'll stop polluting the list with it.
+
+I'm a defender of the usefulness of the Drake equation, as a sounding board
+for debating the sizes of the terms, if not for the conclusions themselves.
+I see nothing wrong with trying to pin down some estimates of how many
+civilizations there may be in a galaxy, just as I see nothing wrong with
+trying to pin down some estimates of when general purpose assemblers may be
+built. Ditto for brain estimates, obviously (I stayed silent on this thread
+as I had nothing substantive to add).
+
+It seems obvious that making some estimates, which can then be critiqued
+and deconstructed, is better than answering "probably not many" or "a lot!"
+to the questions asked about numbers of civilizations, years to general
+assemblers, or bits in the brain. It makes sense to decompose estimates
+into smaller pieces which can be analyzed separately.
+
+In fact, I supported an idea that came up between Derek Zahn, Nick Szabo,
+and myself (I'm not sure if any of us discussed it on the list) some time
+ago to have a project to make more sophisticated estimates of some of these
+things....with the right kind of error bars, indications of nearly total
+uncertainty, critical path nodes, footnotes attached to the estimates, etc.
+The idea being to take something important to us, like the timetable for
+general assemblers, or the bit capacity of the brain, and come up with some
+models that could be critiqued, added to, assumptions checked, and
+timetables revised automatically as inputs changed.
+
+For the case of bits in the brain, a "spreadsheet"-like model that
+contained various terms (the fudge factors mentioned in the thread) and
+experimental or theoretical support for the values of each would be useful.
+To me, this is what hypertext is mostly about (of course, simple
+cross-references would do nicely...one doesn't need full-blown Xanadu-style
+links to get the benefits).
+
+As for the Drake equation itself, Frank Drake is here at UC Santa Cruz, so
+I suppose I could go ask him about his current thinking. Personally, I
+suspect we're nearly the only civilization in the galaxy, for reasons
+discussed many times on this list (Fermi paradox: why aren't they here
+already?, anthropic cosmological principle, etc.).
+
+(Barrow and Tipler made their own "Drake equation"-style estimates, with
+some terms given only within several orders of magnitude, and having this
+estimate was much more satisfying than a simple verbal estimate of "not
+many" or "lots" would have been.)
+
+
+-Tim May
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+
+
+
+------------------------------
+
+Date: Thu, 13 May 1993 17:17:48 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: First CDs, then... 
+X-Reposting-Policy: redistribute only with permission
+
+Harry Shapiro says:
+> 2) I like buying books. I have spent $5,000 a year on books, although
+> I am now probally spending only about $1,000. I buy these books
+> by broswing through them. A print on demand system would not work
+> for me as I wan tot see the book before I buy it.
+
+You could still browse on line -- one could even build electronic
+"shelves" that one would virtually scan through on line...
+
+.pm
+
+------------------------------
+
+Date: Thu, 13 May 1993 17:11:29 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: AI:Human Equivalence
+
+> This one's a real result, not a floating fudge factor.  George Miller, 
+> "The magical number seven, plus or minus two:  some limits on our 
+> capacity for processing information".  _Psychological Review_ 63:81-97
+> (1956).
+
+Yow!  Thanks!  I've been looking for that cite to add to the {magic number}
+entry in the Jargon File.
+
+The second edition of The New Hacker's Dictionary is in the pipeline now, BTW.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Thu, 13 May 93 14:37:47 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: First CDs, then...
+
+Perry Metzger writes:
+
+> > I like to flip through my books before I buy them. In fact, I suspect
+> > most of us look through many books before buying one.
+> 
+> I guess you'd just browse electronically.
+> 
+> > don't cater to typical browsing tastes. (Perhaps high-res monitors can
+> > be used to "preview" the books...this'll cost some bucks.
+> 
+> The printing system itself will likely cost $100k or more. The display
+> system is cheap by comparison.
+
+Yes, any *single* high-res workstation is cheap by comparison, but check
+out a crowded bookstore, with several dozen patrons browsing the
+shelves! I doubt they'll be happy waiting for a screen to be freed up.
+
+
+(Someday, in-home or in-office systems may be common, and this wil
+alleviate the problem I just mentioned, but for now I
+assume we are talking about conventional bookstores replacing some or
+much of their printed inventory with high-speed printers and some
+means of previewing and ordering books.)
+
+I remain skeptical that a phase transition is imminent.
+
+
+-Tim
+
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+
+
+------------------------------
+
+Date: Thu, 13 May 1993 17:26:40 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Drake Equation and Modelling of the Unknown 
+X-Reposting-Policy: redistribute only with permission
+
+Timothy C. May says:
+> As for the Drake equation itself, Frank Drake is here at UC Santa Cruz, so
+> I suppose I could go ask him about his current thinking. Personally, I
+> suspect we're nearly the only civilization in the galaxy, for reasons
+> discussed many times on this list (Fermi paradox: why aren't they here
+> already?, anthropic cosmological principle, etc.).
+
+Indeed, the real problem with the Drake equation is its assumption
+that the variables are independant, when they could easily be argued
+to be very dependant on each other.
+
+Perry
+
+------------------------------
+
+Date: Thu, 13 May 93 14:48:38 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: TECH/PHIL: (non)interactive entertainment
+
+Craig Presson writes, describing his entertainment tastes:
+
+> Haven't seen UteotW yet :-(
+
+Compression is great, but I have no idea what "UteotW" means!
+
+I am guessing this means "Until the End of the World," but it could
+mean other things.
+
+Could I suggest, politely, that people be less cryptic when asking
+hundreds of subscribers to do a macro expansion like this?
+
+TijaPC!
+
+-TFIWTJ
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+
+
+------------------------------
+
+Date: Thu, 13 May 93 17:07:47 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Magic Numbers
+
+Eric Raymond exclaims:
+
+> Yow!  Thanks!  I've been looking for that cite to add to the {magic number}
+> entry in the Jargon File.
+
+That other "magic number" (just a couple of dribbly bits per second into LTM)
+comes (I think) from:
+
+Landauer, Thomas K.  "How Much do People Remember?  Some Estimates
+of te Quantity of Learned Information in Long-Term Memory".  Cognitive
+Science 10 (1986).  Pp. 177-493.
+
+derek
+
+
+------------------------------
+
+Date: Thu, 13 May 1993 16:54:12 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: TECH/PHIL: (non)interactive entertainment
+
+  For those extropians who watch tv or go to movies, what kind 
+do you watch? I'm interested to see if extropians restrict themselves
+to "high art" or if they take in action/sf/comedy movies too.
+
+Here's what a usually watch on TV during the week:
+
+Saturdays: Star trek: The Next generation, Dr. Who
+Wednesday: Star Trek: Deep Space Nine.
+Tuesdays: Nova, if it's interesting
+Every Night if possible: Rush Limbaugh
+Sometimes: Entertainment Tonight
+Sometimes: C-SPAN
+Sometimes: Batman: The Animated Series
+
+  It's about 5-6 hours a week, ~1 hr day.
+
+Last few movies I saw:
+Point of No Return
+Loaded Weapon 1 (big mistake)
+Unforgiven
+
+Movies I plan on seeing:
+Dave (a few have recommended it to me)
+Jurassic Park
+Arnie's ``The Last Action Hero''
+
+I plan on seeing Jurassic Park for the same reason I wasted my time
+watching Lawnmower Man, to see the computer graphics. I plan on
+seeing Arnie's new movie because it is the most expensive movie ever
+made (>$100 million, more than Terminator 2) -- I'm curious as
+to why it costs so much. (it might be the advertising! Supposedly,
+the marketers are lauching a 1-mile long space billboard into low earth
+orbit)
+
+  I'm a sucker for almost any SF movie no matter how bad it is.
+
+-Ray
+  
+p.s.   I would love to see a good screen adaptation of The Peace War,
+the Ungoverned, or Marooned in Real-time. 
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 13 May 93 18:43:42 -0400
+From: pavel@PARK.BU.EDU (Paul Cisek)
+Subject: POLL: Expertise survey results
+
+Here are the results of my survey on expertise.  I thank all the people
+who responded - and apologize for the somewhat shoddy handling of this
+(I should have made the purpose more clear, provided a better template, allowed
+for personal info...).  However, I think the result is somewhat interesting,
+and perhaps useful for people who have specific questions and don't know who to
+ask...  The first part is some stats on broad areas of expertise, the second a
+listing by field, and the third a listing by name.  As expected, the expertise
+of list members covers a pretty good range of fields, though it is somewhat
+heavily slanted toward computer related fields (again, not unexpectedly).
+
+If there are any mistakes in how I represented your information here, please
+let me know and I'll correct it.  Also, if enough people request to be added
+to this I'll be happy to compose an update.  I also welcome suggestions on how
+this could be improved.
+
+Thanks again to all who participated...
+
+
+Part 1)
+
+Here's a quick breakdown by broad areas of expertise.  The numbers mean how
+many people expressed knowledge in a particular area.
+
+                   Computers: 24
+         Physics/Mathematics: 7
+       Economics/Finance/Law: 6
+          History/Philosophy: 6
+            Space Technology: 3
+
+Part 2)
+
+Here's a more precise list of who expressed knowledge about a particular field.
+I've included only those fields that were mentioned more than once.
+
+Computer science:
+    Bruce Baugh, Robert Brooks, Dave Burns, Peter Cappello,
+    Alexander Chislenko, Paul Cisek, Anthony J. Gatlin, Dave Gordon,
+    Amara Graps, Elias Israel, Tim May, Stanton McCandlish, Peter McCluskey,
+    Harvey Newstrom, Ray Peck, Freeman Craig Presson, Mike Price,
+    Eric S. Raymond, Marc Ringuette, Nick Szabo, Rens Troost
+
+Data encryption/security:
+    Anthony J. Gatlin, Tim May, Marc Ringuette
+
+Economics:
+    Dave Burns, Alexander Chislenko, David Friedman, Krzysztof Ostaszewski
+
+Electrical Engineering:
+    Dan Davis, Mark DeSilets
+
+Finance/investment:
+    Tim May, Krzysztof Ostaszewski, Nick Szabo
+
+History:
+    Bruce Baugh, Blair Haworth
+
+Mathematics:
+    Alexander Chislenko, David Friedman, Amara Graps, Krzysztof Ostaszewski
+
+Neural Networks / AI / Genetic Algorithms / Robotics:
+    Paul Cisek, Dan Davis, Mark DeSilets, Peter McCluskey, Marc Ringuette,
+    Nick Szabo
+
+Philosophy:
+    Dan Davis, Stanton McCandlish, Eric S. Raymond, Rens Troost
+
+Physics:
+    Dani Eder, David Friedman, Amara Graps, Tim May, Mike Price
+
+Science fiction/futurology:
+    Bruce Baugh, Alexander Chislenko, Edward J. O'Connell
+
+Space:
+    Dani Eder, Amara Graps, Nick Szabo
+
+
+Part 3)
+
+Here are the actual entries for all the list members who responded.
+(In an attempt at standardization, I needed to do some paraphrasing.  I
+apologize if anyone's entry has been distorted - please let me know and I'll
+correct.)
+
+Bruce Baugh: Computer consultant/temp worker
+	- history, science fiction, comic books
+	- Bruce.Baugh@p23.f40.n105.z1.fidonet.org
+
+Robert Brooks: Computer engineer
+	- VLSI design and simulation, multiprocessor computer architecture
+	- rb@hprrb.rose.hp.com
+
+Dave Burns: Ph.D. student (Economics)
+	- economics, computer programming
+	- XIAOZHOU%PUCC@BUACCA.bu.edu
+
+Peter Cappello: Associate Professor of Computer Science, UC Santa Barbara
+	- The relationship between algorithms and architectures with respect to  
+	  scheduling concurrent computation and application-specific CAD tools.
+	- cappello%cs@hub.ucsb.edu
+
+Alexander Chislenko: Software engineer
+	- mathematics, CS, economics, futurology, global modeling,
+	  demographics, evolutionary theories
+	- sasha@cs.umb.edu
+
+Paul Cisek: PhD candidate (Cognitive & Neural Systems)
+	- computer science, neural networks, neuroscience
+	- pavel@cns.bu.edu
+
+Dan Davis: PhD candidate (Electrical Engineering)
+	- neural networks, learning theory, egoist philosophy (Rand and Stirner)
+	- davisd@pierce.ee.washington.edu
+
+Mark DeSilets: Electrical Engineer
+	- control systems, robotics, systems engineer
+	- desilets@sj.ate.slb.com 
+
+Dani Eder: Space Transport guru at Boeing
+	- officer of Society for Creative Anachronism, physics
+	- eder@hsvaic.boeing.com
+
+David Friedman: Academic economist
+	- theoretical physics (PhD), economics, medieval cooking,
+	  medieval combat, law
+	- ddfr@midway.uchicago.edu
+
+Anthony J. Gatlin: Cadet (Computer Eng.), US Military Academy
+	- data and computer security, data encryption, applications programming, 
+	  intelligence gathering
+	- x62727g2@usma8.USMA.EDU
+
+Dave Gordon: President of Algorithmic Arts Inc.
+	- computer graphics rendering, modeling and animation,
+	  software development and production
+	- dgordon@crow.omni.co.jp
+
+Amara Graps: Scientific programmer
+	- physics, numerical methods, planetary science
+	- graps@argus.arc.nasa.gov
+
+Blair Haworth: PhD candidate (Military history/history of technology)
+	- library operations, general bibliographic/reference technique
+	- bhaworth@acpub.duke.edu
+
+Elias Israel: SunSelect Engineering
+	- CS, X windows, MS-windows, OOP, language design, software management,
+	  SGML
+	- eisrael@suneast.East.Sun.COM
+
+Tim May: Investor
+	- physics, computer science, cryptology
+	- tcmay@netcom.com
+
+Stanton McCandlish: BBS sysop, computer consultant
+	- Celtic culture, smartdrugs, underground publication,
+	  fringe philosophy/subculture
+	- anton@hydra.unm.edu
+
+Peter McCluskey: Grad student (Computer Science)
+	- neural nets, C++
+	- pcm@cs.brown.edu
+
+Harvey Newstrom: A.S. Computer Science; B.A. Business Administration
+	- CS, computer security, network engineering, network security,
+	  software engineering, nutrition, life extension, western occult
+	  tradition, and comparative religions
+	- hnewstrom@hnewstrom.ess.harris.com
+
+Edward J. O'Connell: Science Fiction writer
+	- Graphic Artist/DTP production slave/Imagesetter operator
+	- ejo@world.std.com
+
+Krzysztof Ostaszewski (a.k.a. Krzys'): Chartered Financial Analyst
+	- mathematics (PhD), actuarial science, mathematical economics,
+	  finance & investments, classical real analysis
+	- KMOSTA01@ULKYVX.LOUISVILLE.EDU
+
+Ray Peck: Software guy
+	- computer architecture/chip design, software
+	- rpeck@pure.com
+
+Freeman Craig Presson: Software Scientist
+	- OS, realtime systems, distributed systems, system management
+	- extr@jido.b30.ingr.com
+
+Mike Price: Systems analysis/Software engineer
+	- theoretical physics
+	- price@price.demon.co.uk
+
+Eric S. Raymond: Systems programming
+	- music, philosophy, martial arts
+	- esr@snark.thyrsus.com
+
+Marc Ringuette: Grad student (Computer Science)
+	- machine learning, information filtering, cryptography, robotics
+	- Marc.Ringuette@GS80.SP.CS.CMU.EDU
+
+Anton Sherwood: Office drudge
+	- heraldry, dabbler in linguistics, math
+	- dasher@well.sf.ca.us
+
+Nick Szabo: Software engineer
+	- CS, Unix, C, perl, genetic programming, finance, space industry,
+	  sociobiology
+	- szabo@techbook.com
+	      
+Rens Troost: Systems Administration Manager
+	- CS, Philosophy (18th/19th Century)
+	- rens@stimpys.IMSI.COM
+
+Christopher Weeks: Undergraduate (technology education, ceramic art)
+	- technology education, ceramic art
+	- C576653@MIZZOU1.missouri.edu
+
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0259
+****************************************
+

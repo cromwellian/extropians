@@ -1,0 +1,1043 @@
+From extropians-request@gnu.ai.mit.edu Sat Mar 13 20:31:04 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA09337; Sat, 13 Mar 93 20:31:01 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from churchy.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA20085; Sat, 13 Mar 93 20:30:46 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by churchy.gnu.ai.mit.edu (5.65/4.0)
+	id <AA01717@churchy.gnu.ai.mit.edu>; Sat, 13 Mar 93 23:22:47 -0500
+Message-Id: <9303140422.AA01717@churchy.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Sat, 13 Mar 93 23:22:24 -0500
+X-Original-Message-Id: <9303140422.AA01711@churchy.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0130
+X-Extropian-Date: Remailed on March 14, 373 P.N.O. [04:22:44 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Sun, 14 Mar 93            Volume 93 : Issue 0130
+                        
+Today's Topics:
+      BOGUS/FOOLS/GULLIBLE/PHIL: Reincarnation vs. Migration to Silicon [1 msgs]
+                     CHALLENGE: What I do *not* believe               [2 msgs]
+                               META/ANON: Test                        [1 msgs]
+                        META: CC Censure/SELF-CONTROL                 [1 msgs]
+                    META: Extropianism lost in the noise              [3 msgs]
+                 META: Is an armed society a polite society?          [1 msgs]
+                  META: posters' reputations, new subjects            [1 msgs]
+                          Meta: Cargo Cult censure?                   [1 msgs]
+                     NANO/AI/GP/TECH: Nanosystems, etc.               [1 msgs]
+                        NANO: Smallest Nanocomputer?                  [1 msgs]
+             PHIL/DANCE: Reincarnation vs. Migration to Silicon       [2 msgs]
+                           PHIL: Extropian magick?                    [1 msgs]
+                        POL: TEMPS AND TAX RESISTANCE                 [1 msgs]
+                      PPL: The Assassination Bureau Ltd               [1 msgs]
+                       SCI: Consciousness Methodology                 [1 msgs]
+                                 SOC: Taboos                          [1 msgs]
+                                mailing list?                         [1 msgs]
+                                   reason                             [1 msgs]
+                                 unsubscribe                          [2 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50488 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sat, 13 Mar 93 18:08:00 GMT
+From: carterd@elegabalus.cs.qub.ac.uk
+Subject: unsubscribe
+
+unsubcribe
+
+Please remove me from the list.
+
+------------------------------
+
+Date: Sat, 13 Mar 93 12:10:33 CST
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: NANO/AI/GP/TECH: Nanosystems, etc.
+
+Under a previous prefix, Tim May wrote:
+
+> How many of you have read even part of Drexler's "Nanosystems" book? Hal
+> Finney raised some points on it, but got little response. This is an area
+> of obvious Extropian interest, and yet there is little discussion of real
+> issues.)
+
+Guilty as charged; for me, at least, it's sometimes easier to
+speechify about rationality than contribute to substantive
+discussion (though philosophical points can be interesting and
+even important).
+
+I no longer have Hal's post.  Could you repost it, Hal?
+
+My lack of _Nanosystems_ discussion stems primarily from a
+bafflement about where to start.  It's sort of like reading
+(or trying to read) a quantum mechanics textbook and then
+attempting to make interesting comments about it at a party
+with loud music in the background...  (um, nice typesetting,
+eh?  what software package did he use?)  If somebody could
+identify a particular important point from which to begin,
+I'd shore appreciate it.
+
+BUT, so that this message is not completely content-free, I will
+try to kick off a nanotech thread by offering TWO glurgs*, one
+speculative and one supplemental.
+
+GLURG #1:  How to Build a Nanotech Doghouse in Three Easy Steps
+(if this idea isn't laughed off the stage I may expand it into
+an ExI-Essay someday...)
+
+Tim mentioned Genetic Programming (GP) and I agree with his
+assessment of its interest.  Remember Thought Habit #13 [from
+a previous post of mine that sank like a stone, alas]:  juxtapose
+new memes with old favorites and shake vigorously.  First (as a
+free bonus), here's a 1-minute GP lecture:
+
+  GP is like genetic algorithms (see Extropy #9) except that the
+  genome is a computer program, represented as a parse tree
+  (usually of a subset of LISP).  Recombination involves swapping
+  subtrees between members of the population -- thus there is a
+  function set (allowed functions) and a terminal set (constants),
+  which is a bit silly since constants are usually treated as just
+  zero-argument functions, but never mind that.  The idea is to
+  evolve computer programs by comparing the computations performed
+  with the desired functionality and using this comparison as a
+  "fitness" measure of the program to see if it gets to have sex
+  with another program or clone itself.  In this way, programs
+  have been evolved to play tic-tac-toe, direct simulated robots
+  to follow walls, and other useful tasks.  One point that is
+  largely unrecognized is that the fitness functions of programs
+  are REALLY to make themselves noticed, studied, and published
+  by the researcher, but such subtleties are beyond the scope of
+  this discussion.
+
+Now, here's the idea (simplistic version):  our only data type
+is molecules (more precisely, molecule sets).  Let the terminal
+set be some initial batch of easily-produced molecules (or molecules
+produced by some other process).  Let the members of the function
+set be chemical reactions.  Each program then "outputs" products
+of a complex chain of reactions.  Now, if we define the functional
+properties of the molecule we want (e.g. binding to a particular
+diamondoid-phosphorous-wedge-thingie), and if we have molecular
+simulation software capable of checking to what degree the result
+molecules satisfy the functional requirements, we should be able
+to evolve the intermediate stages we'll need to perform sophisticated
+nanotech construction operations.
+
+Of course, we'd want to make extensions, to allow for other operations
+such as centrifuging, heating, sending products through molecular
+filters, and so on; but these functions would have the same form as
+the other functions.  To make it right, the data type should probably
+be some kind "concentration map" of the various chemical species...
+and so on... the details are left as an exercise for the lurker.
+
+There are also problems, such as the feasibility of the fitness
+computation, how partial functionality is noticed, the shape of the
+search space, and so on.  These problems are general to GP (and any
+progress there would be directly applicable), and most of them simply
+imply that it'll be difficult to take steps that are too large (e.g.
+feed it "self-reproducing-assembler" and the periodic table and go to
+lunch); but still it could be an important part of a functional design
+system.
+
+Comments?
+
+
+GLURG #2:  What Eric D. Forgot to Tell You
+
+There are two technologies that I didn't see mentioned in _Nanosystems_
+that will probably end up being important parts of the nano-engineer's
+toolbox:
+
+A: LASERS
+
+[Chu, Steven.  Laser Manipulation of Atoms and Particles. Science
+ 253 (1991), pp 861-865]
+
+ You probably heard of this research regarding its ability to supercool
+ molecules to 3 x 10^-6 degrees kelvin (that's right, within a few
+ millionths of a degree of absolute zero -- eat your hearts out,
+ cryonicists!).  Of at least as much interest is the ability to
+ use these "optical traps" to hold single biological molecules in
+ place and move them around; the researchers have "attached a polystyrene
+ sphere to each end of a lambda phage DNA molecule via a biotin-strepavidin-
+ biotin bridge" -- it's nice to see that for some nanomanipulation tasks
+ there are alternatives to AFMs and STMs.
+
+B: MOLECULAR EVOLUTION
+
+[For a review, see Kauffman, Stuart A.  Applied Molecular Evolution.
+ Journal of Theoretical Biology 157 (1992), pp. 1-7]
+
+ [In other news, Kauffman has suggested that a finite number of enzymes
+ may serve as a universal enzymatic toolbox, which could be quite
+ important]
+
+ It would be nice if proteins and other biological molecules that we
+ want to use to perform specific tasks could be evolved in vitro
+ instead of being designed.  For some classes of molecules this is
+ in fact turning out to be possible.  Techiniques for cloning DNA,
+ RNA, proteins, etc, have been developed, which implies that the following
+ simple process can be used to evolve biomolecules that bind to particular
+ sites:  First, generate a bunch of "random" molecules, then cause
+ their concentrations to change in proportion to how well they perform
+ the desired task (for example, by introducing large molecules with
+ the desired binding sites on them and then filtering the results).
+ Then clone whatever's left, and repeat this process over and over.
+ Because multiple mutations are often necessary to turn an existing
+ protein into one that performs the task at hand, the ability to
+ search through a multitude of alternatives and amplify good matches
+ in this way is very helpful.
+
+
+Well, Tim, I hope you're satisfied -- I've used up my posting time
+quota for the day... and I could have written six flames about
+rationality in the time it took to write this ONE measely message!
+
+derek
+*glurg:  if thirty seconds expires looking for a word, just sling
+any old phoneme string in there and let the context do the talking.
+
+------------------------------
+
+Date: Sat, 13 Mar 93 11:15:40 EST
+From: eisrael@suneast.East.Sun.COM (Elias Israel - SunSelect Engineering)
+Subject: PHIL/DANCE: Reincarnation vs. Migration to Silicon
+
+>Just out of pure, perverse curiousity, how is transferring consciousness to
+>silicon more falisfiable than transferring consciousness to another
+>physical being?
+
+Because in the former case, one can devise a set of tests that would
+determine whether consciousness had been trasferred. After the transfer
+process, real, measurable effects would be available for examination.
+This is not the case for any proposed mechanism of reincarnation that
+I've ever heard.
+
+Even if you suppose that a person has memories of past events -- data
+that could only have been obtained from the person who experienced them
+-- that still does not prove that they *were* that person. There is no
+way to connect the two individuals.  Given this supposition, one could
+argue as easily for a kind of "race memory" ala Jung.
+
+Elias Israel
+eisrael@east.sun.com
+
+------------------------------
+
+Date: Sat, 13 Mar 93 11:19:07 EST
+From: eisrael@suneast.East.Sun.COM (Elias Israel - SunSelect Engineering)
+Subject: META: Is an armed society a polite society?
+
+Dale Worley asks, of MUDs:
+>So killing was suppressed by order of an authority?
+
+Not really. More like, people began migrating to MUDs where killing
+was not an option, in part or all of the MUDspace. Eventually, it
+became predominant.
+
+Elias Israel
+eisrael@east.sun.com
+
+------------------------------
+
+Date: Sat, 13 Mar 93 10:23:07 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: META: Extropianism lost in the noise
+
+Tom Morrow writes:
+
+>I would add one feature to this system of duelling, however:  medical care.
+> Suppose, for example, that Perry nails Pandit for one day's worth of
+>access.  Both are off line for one day.  Pandit responds by hitting Perry
+>up for a week's access.  Now both are off line for an additional week.  But
+>I want to get Perry's opinion on pending securities exchange reforms, as do
+>six other list members.  We each thus give Perry one day's worth of posting
+>time.  I and each of the other six contributors lose access for one day,
+>but Perry comes back on line.  This proposed reform would thus allow us see
+>how culture evolves on a list where people are endowed with ASCII medicine.
+
+Too byzantine even for this list!
+
+Suppose Joe Average, who almost never posts, decides to "take out" Perry
+Metzger for a week. The cost to Joe is minimal, as he seldom if ever posts.
+
+Ah, I recall someone saying, we'll perhaps adjust the "take out times" for
+posting frequency--or was it quantity? Joe Average builds up his
+"firepower" by either posting a lot of little messages (perhaps taunts from
+the Bible about how Jesus could walk on water and had invented reanimation
+long before the cryonicists) or some very long ones (long sections from the
+Hindu Vedas come to mind).
+
+Ah, then we'll consider the "quality" of the posts.....
+
+I enjoy these speculations about (somehow) creating a kind of "market" for
+posting privileges...I just can't any plausible way to do it. Paying for
+posts was once discussed--that would just stop some of us from sharing our
+contributions with the list (is this what you want?). Setting quotas on
+numbers of posts would put Joe Average, who rarely has anything to say, on
+the same level with Perry Metzger, who has a lot to say (as an example).
+
+The normal market approach is *not* to put quotas on writers or make *them*
+pay for postings. The normal market approach is to have _editors_ who seek
+out articles, either paid or unpaid, and then _charge_ subscription fees.
+Could this work on this list? Probably not today.
+
+-Tim May
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+Date: Sat, 13 Mar 93 13:10:13 CST
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: META: Extropianism lost in the noise
+
+Tim May argues that my proposal to give list members ASCII arms and
+medicine is
+
+>Too byzantine even for this list!
+>
+>Suppose Joe Average, who almost never posts, decides to "take out" Perry
+>Metzger for a week. The cost to Joe is minimal, as he seldom if ever posts.
+
+I don't think the cost is minimal, as Joe loses *all* access to the list. 
+If he has been hanging around as a lurker, he must value reading others'
+posts.  Being knocked off for a week will cause him to lose this benefit. 
+And he must think it is of considerable value, for reading this list takes
+up quite a bit of time!
+
+T.O. Morrow                        --  twb3@midway.uchicago.edu
+Law & Politics Editor: EXTROPY     --  Journal of Transhumanist Thought
+Associate Executive Director: ExI  --  The Extropy Institute
+
+
+------------------------------
+
+Date: Sat, 13 Mar 93 13:14:43 CST
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: NANO: Smallest Nanocomputer?
+
+As a target for discussion, I would like to put forward the
+goal of designing the smallest (simplest) nanocomputer (see
+JoSH's article in Extropy #10) capable of significantly aiding
+the process of molecular simulation.  I seem to recall (damn
+leaky memory) a description of some super-RISC ARM microprocessor
+that used only a few hundred transistors; could a similarly
+simple mechanical nanocomputer be devised?  What I want is
+massive parallelism to test alternative nanotech component
+designs.
+
+derek
+hold the pickles
+
+------------------------------
+
+Date: Sat, 13 Mar 1993 11:33:24 -0800 (PST)
+From: Scott C DeLancey <delancey@darkwing.uoregon.edu>
+Subject: META: Extropianism lost in the noise
+
+Here's another possible legalistic solution.  Some kind of "right
+of challenge", along the lines of the "burden of proof" idea that
+was tossed around a few weeks ago, but incorporated into the
+existing legal system.  A member could challenge another to explain
+why the topic of a given post is relevant to the purposes of the
+list.  If not explanation was forthcoming, or the challenger found
+the proffered explanation inadequate, the challenge could be made
+a legal complaint.  The administrator might want to solicit public
+or private comment from members as to their opinion of the relevance.
+A judgement that the topic was not relevant would then make further
+postings on it a punishable offence.
+
+Scott DeLancey
+
+
+
+
+
+------------------------------
+
+Date: Sat, 13 Mar 93 9:40:07 PST
+From: derry@sfu.ca
+Subject: mailing list?
+
+> subject. I joined the "genetic-programming" mailing list, where a promptly
+
+Sorry to bother you (I figure you must be a pretty busy guy).. May I
+ask how you find out about new (I assume) mailing lists like this
+genetic-programming list?  Also, if it's possible for me to join,
+where should I send my request?
+
+Thanks for your time.. 
+
+PS  I still think your your posts continue to be excellent, so
+    thanks for them too! 
+
+-- 
+Andrew Derry - derry@sfu.ca
+Academic Computing Services
+Simon Fraser University
+Vancouver, B.C. Canada
+
+
+------------------------------
+
+Date: Sat, 13 Mar 93 13:37:22 MST
+From: mlinksva@nyx.cs.du.edu (Michael Linksvayer)
+Subject: META: posters' reputations, new subjects
+
+Here's an idea for an easy way to recognize people who make high
+quality contributions to the list and encourage those whose
+postings are not worth the amount of time it takes to read them
+to shut up or improve: 
+
+The extropians posters' hall of fame and hall of shame. Any list
+member could list the three people whose postings are of the
+highest quality and two people whose postings are of the lowest
+quality (emphasis on the postive). Updated lists of the famous 3
+and infamous 2 could be posted once a week or month or never if
+this is a stupid idea).
+
+On the subject of new topics, I am surprised that _Extropy_
+articles never get discussed here. I have questions and comments
+on almost every article in the latest issue, and will start
+posting them over the next few days.
+
+
+
+Mike's Extropian Hall of Fame:
+	Keith Henson
+	Tim May
+	Nick Szabo
+
+Mike's Extropian Hall of Shame:
+	Krysz'
+	Pandit Singh
+
+--
+Mike Linksvayer   mlinksva@nyx.cs.du.edu
+
+------------------------------
+
+Date: Sat, 13 Mar 93 21:18 GMT
+From: Pork Pie <porkpie@cix.compulink.co.uk>
+Subject: unsubscribe
+
+please also unsubscribe me.
+
+The automatic way of doing it is not working.
+
+The volume is too high.
+
+------------------------------
+
+Date: Sat, 13 Mar 1993 14:54:56 -0800 (PST)
+From: Scott C DeLancey <delancey@darkwing.uoregon.edu>
+Subject: PHIL: Extropian magick?
+
+Derek Zahn writes:
+
+> Scott DeLancey makes the point that 
+> 
+> > manipulating, controlling, altering, improving one's consciousness
+> 
+> is an Extropian activity.  So far, so good, so long as we don't
+> push that slippery term "consciousness" very far [but that's
+> a debate for another time].
+
+Actually that's the really interesting question.
+
+>  He also says that
+> 
+> > the interesting claims of yoga, various meditiation systems, magick, etc.,
+> 
+> provide concrete ways of achieving these extropian ends, and
+> that the oft-associated supernatural sideshows often associated
+> with those areas of study are not the whole story.
+
+Well, fair enough to push me on this.  Actually I took pains not to *say*
+anything more than that if there are any such concrete ways currently
+available that this is probably where they are to be found.  But, yes,
+I think that this hypothetical case is indeed true.
+ 
+     [very cogent paragraph expressing toleration for reports on
+     practical mystical experimentation, subject to reasonable
+     constraints of rationality or replicability compressed into
+     this space]
+
+Let me say at the outset that I am not likely to be the source of any
+first-hand discussion of practical techniques.  But this isn't the only
+possible line of discussion.  I would be interested--though it may be of
+marginal relevance to  the list--in discussion of possible interpretations 
+of mystical data on consciousness in terms of modern theories of
+consciousness and cognition.  In a certain sense the experiment is 
+reproducible, in that different experimenters can
+agree on a description of the phenomenological results.  (The
+difference between this and experimental science being that her
+the phenomenological facts are the only data, which limits
+verification of intersubjective agreement).
+     So their descriptions of their observations constitute data. 
+If you can find any pattern in these data, you have something you
+can then compare with your favorite theory of consciousness.  So,
+for example, many meditation techniques--"clearing your mind",
+reciting mantras, doing yoga or martial arts katas so as to focus
+your attention on your body, ritual magick, and more--could be
+described as having the same function, of pulling your
+consciousness away from the word-stream and the stream of visual
+and auditory percepts that are your normal phenomenological
+environment.  OK, given a model of consciousness--Dennett's, say-
+-can you make it make any predictions about what the effect of
+such an exercise might be?
+
+
+> Let's get specific:  You mention 'magickal experimentation'
+> as one of your reasonable examples.  I choose that one because
+> I haven't a clue what 'magick' is.  Your scholar is apparently
+> to hope to be lucky enough to find
+> 
+> > a few people making systematic observations
+> > that eventually might actually contribute to the basis of a science.
+> 
+> The implication is that this would apply to your 'magick' as
+> well.  Could you clue me in a bit (I don't expect a detailed
+> research paper, just some general hints) on what "systematic
+> observations" have been done with 'magick' that we should
+> pay attention to it?
+
+     OK, first what I mean by "magick" is the use of ceremonial
+ritual as a mystical exercise--the sort of thing explored and
+expounded by Aleister Crowley.  In fact I don't know anything
+first- or reliable second-hand about ritual or its effects.  (On
+the basis of the few practioners of it that I've known and its
+public proponents, like Crowley and Wilson, I tend to suspect
+that taste for ritual is one of those extrovert things, like
+football and idle conversation with strangers, that I'm
+constitutionally unable to understand).  I put it prominently in
+my list mostly as a provocation--there are people who tend to be
+undercritical rather overcritical of harmless-seeming things like
+yoga and meditation, and would gloss over what I was suggesting
+with images of meditation as a relaxation technique and how good
+yoga is for your back.
+     I put it on the list on the basis of Robert Anton Wilson's
+defense and advocacy of Crowley.  If you look at much by Crowley
+you'll probably decide that if Wilson actually found any wheat in
+there, he must have been a magician himself to dig it out of the
+colorful but very fluffy chaff.  But I actually think he did. 
+Magick in this sense is a sort of externalized meditation. 
+Mystical techniques are all intended to teach you to take
+conscious control of your phenomenological environment.  Most of
+them involve internally directing your attention and
+consciousness.  (A little more on this in another post).  Group
+ritual works from outside by controlling your social, and
+Crowleyian individual ceremonial by controlling your sensory,
+environment.  It seems like a stupid idea to me, I admit, but I
+can well believe that it can have an effect.
+
+
+Scott DeLancey
+
+
+
+------------------------------
+
+Date: Sat, 13 Mar 1993 19:09:41 -0500 (EST)
+From: Carol Moore <cmoore@cap.gwu.edu>
+Subject: META: CC Censure/SELF-CONTROL
+
+Date: Thu, 11 Mar 1993 23:51:52 -0500 (EST)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Meta: Cargo Cult censure?
+I am interested in discussing how list members feel about
+increased censure of repeated discussion's of non Extropian
+topics like reincarnation and flying yogis? I am going to ask
+the same question to the ExI board.
+  
+CAROL REPLIES:
+While I can't speak on past posts on flying yogis**, I would
+like to note that serious discussion of reincarnation (pro and
+con) was probably LESS than 25% of the discussion (message
+number and message length) of whether or not Extropians should
+discuss reincarnation!!  
+  
+To me the answer is simply SELF-CONTROL.  
+  
+*    If you bring a topic to the list, try to be more specific
+     about how it relates and, if relevant, whether or not
+     their is empirical and logical, as well as intuitive,
+     evidence the phenomena exists.  (I certainly shall try to
+     do so.)  Extropians cannot "ban" discussions of
+     "reincarnation" which is just a part of the larger
+     discussion of the nature of consciousness and where it
+     exists in relation to the physical body.
+  
+*    If you think the topic is bunk don't freak out because
+     others are discussing it seriously.  And don't feel you
+     have to have tantrums, sent numerous messages and discuss
+     the distastefulness of the topic ad nauseam.  I've found
+     a number of discussions to be absurd--I just delete them. 
+     (I deleted all Cargo Cult messages after the first one so
+     don't even know what that thread was about, by the way.)
+  
+*    Most importantly, if two people get into one of those I'm
+     right-no,I'm right-no,I'm right merry-go-rounds PLEASE
+     take it to E-mail.  
+  
+  
+     When SELF-CONTROL fails, then the SYSOP must step in:
+  
+*         Ask indiviudals to take certain discussions to E-
+          mail
+ 
+*    I liked Michael Linksvayer's idea about Halls of Fame and
+     Shame lists.
+  
+*    If someone keeps bringing totally irrelevant topics to
+     the list like the coming of Jesus or the glories of
+     social security or methods of hair transplant for men,
+     the SYSOP should ruthless delete them.  But then I guess
+     that last might well be relevant to extropians.
+     (hohohooho  :-)
+   
+**(As for flying yogis, I'd think that could be easily proven
+or disproven with videotapes which would make it clear if they
+were flying or just in possession of extraordinarily strong
+upper leg muscles.  So I must wonder what all the hoopla's
+about on that one.)
+
+
+
+
+
+------------------------------
+
+Date: Sat, 13 Mar 1993 19:12:26 -0500 (EST)
+From: Carol Moore <cmoore@cap.gwu.edu>
+Subject: SCI: Consciousness Methodology
+
+(NOTE:  I call this message "Consciousness Methodology"
+to remind us all that this business labeled "reincarnation"
+is in fact a discussion of whether consciousness can
+pass from body to body over time.  If anyone can think
+of a more extropian-sounding name for this phenomena,
+I'd be delighted to hear it!  :-)
+
+
+Date: Sat, 13 Mar 93 11:15:40 EST
+From: Elias Israel 
+  
+REPLYING TO QUESTION:
+>Just out of pure, perverse curiousity, how is transferring
+consciousness to >silicon more falisfiable than transferring 
+consciousness to another >physical being?
+  
+ELIAS WRITES:   
+Because in the former case, one can devise a set of tests that
+would determine whether consciousness had been trasferred.
+After the transfer process, real, measurable effects would be
+available for examination. This is not the case for any
+proposed mechanism of reincarnation that I've ever heard.
+  
+Even if you suppose that a person has memories of past events
+-- data that could only have been obtained from the person who
+experienced them -- that still does not prove that they *were*
+that person. There is no way to connect the two individuals. 
+Given this supposition, one could argue as easily for a kind
+of "race memory" ala Jung.
+  
+CAROL REPLIES:  First, there certainly have been numerous
+cases of individuals having intimate knowledge of the lives of
+others (there are numerous books giving such examples).  More
+importantly, should psychologists and other scientists CHOOSE
+to thorough investigate claims of knowledge of past lives,
+even more could be collected.**
+     Would it prove that the consciousness inhabiting the
+second person is the same as the first?  That's a very good
+question and not one I've come to any definitive decision on. 
+     Other hypothesis DO include that one has accessed a "race
+memory" or human "morphogenetic field" and, for whatever
+reason, latched onto those specific memories.  Even seeing a
+pattern over several lifetimes--as in being a martyr, or a
+finagler, or a libertarian or whatever-- might be just a
+matter of preferring to access the memories of those types of
+people rather than one's viewing one's own past patterns.  
+ 
+     I am glad your answer at least took the necessary
+methodology seriously.  To me these are interesting questions
+to be investigated--not excuses for intellectual put downs,
+absurdist humor, surveys, etc etc far in excess of any
+questions asked.
+  
+  
+** TO REPEAT information which I should have included in my
+FIRST message mentioning reincarnation:   Helen Wambaugh is 
+a psychologists who hypnotized thousands of people in an
+attempt to prove it was all baloney.   She would ask them very
+concrete questions about the kind of clothes they wore, money
+they used, houses they lived in, eating utensils they used,
+etc. and she found a statistically significant number of
+people remembered things that they just would not know unless
+they were deep readers of the minutiae of history.  I would
+like to see a lot more of this type of research done.
+
+
+
+
+
+
+
+------------------------------
+
+Date: Sat, 13 Mar 93 19:21:45 WET
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: CHALLENGE: What I do *not* believe
+
+> nanosecond it becomes coercive. I feel safe.) Imho the use of terms
+> such as "deathist" for people who can't imagine living forever
+> begins the dehumanization process. Who could argue with "death to
+> deathists?"
+ 
+   If so, then calling someone a "hyperrationalist" (I guess this is supposed
+to brand them as a wacko or extremist) dehumanizes the target.
+
+
+------------------------------
+
+Date: Sat, 13 Mar 1993 19:19:52 -0500 (EST)
+From: Carol Moore <cmoore@cap.gwu.edu>
+Subject: POL: TEMPS AND TAX RESISTANCE
+
+The 3/11/92 Wall Street Journal has an article
+about temporary workers that states "temporary,
+contract and part-time workers now make up about 25%
+of the workforce."
+  
+As an individual who stopped paying federal income
+tax in 1976 and has worked temporary, contract
+and part-time jobs ever since (except for 2 years
+of full time employement) I can only wonder what
+percentage of those individuals are already tax
+resisting--and what happen if they rest of them
+decided to do so!
+
+
+
+
+
+
+------------------------------
+
+Date: Sat, 13 Mar 93 19:42:25 WET
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: META/ANON: Test
+
+> 
+> Keywords: meta label prefix keyword
+> X-Reposting-Policy: don't be silly
+> This is a test: what happens if I try naively to add lines to a header.
+> 
+> Say Harry, have you any records of who posted how many times in a given
+> period?  (Numbers without names would suit me; I'd like to calculate the
+> fnord entropy function.)
+> 
+
+   What happened is that you added headers to the body of the post and
+not the header. If you are using elm, hit "h" instead of "s" for send.
+If you are using a dos or mac client I can't help you.
+
+
+------------------------------
+
+Date: Sat, 13 Mar 93 15:48:30 EST
+From: pmetzger@snark.shearson.com (Perry E. Metzger)
+Subject: reason
+X-Reposting-Policy: redistribute only with permission
+
+>From: D Anton Sherwood <dasher@well.sf.ca.us>
+
+>> Personally, I have no care about convincing you of
+>> this -- as Ayn Rand has pointed out, the denial of reason is in some
+>> sense its own punishment as those who deny reason in the end die because
+>> of it.
+
+>So, Perry -- why?
+
+When you deny reason and reality, you make it hard for yourself to
+function in the real world. If cause and effect cease to mean anything
+for you, what stops you from walking in front of cars? If you can't
+think or think that thinking is bad, you start having trouble managing
+to make a living or keeping yourself fed.
+
+"Atlas Shrugged" is rather badly written for my tastes, but it does
+make a few good points (in its "yell in their faces" alegorical way)
+-- one of them is that when men start denying reason the world, which
+cares nothing for what people think, will become a far more dangerous
+place to them. To the man who bothers to think, grabbing high-tension
+wires on a whim is not a likely action, but to the man who denies
+reason, it becomes a much more likely event. Although few of the
+reason-denyers out there grab high tension wires since few of them
+truly ban reason completely from their lives, they do similar things
+that take longer to achieve the same results. Denying reality is never
+a good thing -- reality has a way of creeping up and biting you in the
+ass when you least expect it.
+
+Perry
+
+
+------------------------------
+
+Date: Sat, 13 Mar 93 15:41:30 EST
+From: pmetzger@snark.shearson.com (Perry E. Metzger)
+Subject: PPL: The Assassination Bureau Ltd
+X-Reposting-Policy: redistribute only with permission
+
+>From: D Anton Sherwood <dasher@well.sf.ca.us>
+
+>In a PPL world, would the Yellow Pages list hitmen?
+
+>Suppose I value your death enough to pay the expected wergild, plus the
+>hitman's fee.  I imagine I'd be offered a choice of contracts:  some in
+>which the hitman refers all inquiries to me; some in which my name is kept
+>out, and I pay the wergild up front, with a little extra for insurance lest
+>a court find a higher wergild.
+
+>Are the dangers of the profession enough to keep hitmen underground even
+>where there is no "crime"?
+
+Interesting questions all. I do not know the answer. I will say this
+-- its likely that bounty hunters who go after and kill outlaws will
+show up, since that might become a profitable business. This other
+question, of course, becomes interesting. I would hope that the danger
+in the profession associated with disgruntled community members simply
+killing the hitman because he's a threat and simply paying his
+weregeld might become high enough to keep hitmen underground or in ads
+in Soldier of Fortune, but who can tell?
+
+Perry
+
+------------------------------
+
+Date: Sat, 13 Mar 93 15:21:11 EST
+From: pmetzger@snark.shearson.com (Perry E. Metzger)
+Subject: CHALLENGE: What I do *not* believe 
+X-Reposting-Policy: redistribute only with permission
+
+>From: davisd@pierce.ee.washington.edu
+
+>  From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+
+>  > Astrology helps tremendously to keep the company I work for afloat.
+
+>  To avoid flaming, I will
+>  carefully avoid pointing out that astrology is asinine in the
+>  extreme.  
+
+>Perhaps his company makes money off of people who believe in astrology?
+
+Friend of mine is a semi-con man who did just that for quite a while.
+(I say semi-con man because he's never taken money from people on
+false premises -- but he is most certainly a cold exploiter of human
+folly.)  He used to run a mail-order and by phone psychic reading
+service and astrological chart making operation. Made a lot of bucks
+off the marks. (I note "used to" because after a while he got greedy
+and took too much working capital out of the business which made it go
+bankrupt -- a warning to budding extropreneurs.) I see nothing wrong
+with parting money from fools -- indeed, I'd say that its a wonderful
+thing to do because it not only makes you rich but takes resources
+away from people who are liable to be in favor of things that might
+enslave you.
+
+Perry
+
+------------------------------
+
+Date: Sat, 13 Mar 93 14:44:08 EST
+From: pmetzger@snark.shearson.com (Perry E. Metzger)
+Subject: PHIL/DANCE: Reincarnation vs. Migration to Silicon
+X-Reposting-Policy: redistribute only with permission
+
+>From: lefty@apple.com (Lefty)
+
+>>Carol Moore writes:
+>>> It suddenly occured to me -- why is the idea of
+>>> humans storing or transfering their consciousness to
+>>> silicon chips taken seriously in some circles,
+>>> while the idea of transfering consciousness to another
+>>> physical being is not?
+>>
+>>Because the former is falsifiable while the latter is not.
+
+>Just out of pure, perverse curiousity, how is transferring consciousness to
+>silicon more falisfiable than transferring consciousness to another
+>physical being?
+
+In principle, both are falsifyable propositions. However, the
+reincarnationists insist that the conditions for testing their
+hypothesis be rigged in such a way that it becomes non-falsifyable.
+This reminds me much of the problem with Mr. Singh's flying yogis --
+they can only fly for the faithful, and since anyone could be declared
+non-faithful it is impossible to test the hypothesis. It thus goes
+into the same category as the invisible bunnies and all the other
+non-falsifyable hypotheses. Now, were someone to claim that with the
+use of a particular technique it was possible to produce complete
+memory of a previous life from any test subject, including things like
+memory of the ancient language the subject spoke and the like, it
+would be possible to test the past-lives hypothesis, and thus it would
+be possible to falsify it.
+
+Perry
+
+------------------------------
+
+Date: Sat, 13 Mar 93 19:36:53 PST
+From: Pandit Singh <pandit@crash.cts.com>
+Subject: SOC: Taboos
+
+> Why do we have a taboo against cannibalism in this culture?  
+Hmmm... Freud wrote a book called Totem and Taboo - have you read it?
+> 
+> I am not sure what the origin of the taboo against sex with children is.
+> Is it universal?  
+
+Do you personally want to have sex with your own kid?
+Do you personally want to have sex with your grandmother? How about
+your mother? 
+
+> Anyway, are there any non-human species that can be considered to be capable
+> of giving informed consent to sex with a human?
+
+Sightings had a pretty bizarre episode last night in which they portrayed
+people having sex with aliens. In addition, aliens would watch people
+have sex. The show was highlighting mass abductions. 
+
+--- hall of shame
+
+------------------------------
+
+Date: Sat, 13 Mar 93 19:29:42 PST
+From: Pandit Singh <pandit@crash.cts.com>
+Subject: BOGUS/FOOLS/GULLIBLE/PHIL: Reincarnation vs. Migration to Silicon
+
+>    Well, it is an interesting claim but it takes more than a manuscript to
+> prove an extrordinary claim. But let's suppose all these claims are
+> 100% true, I see other problems
+> 
+> 1) There is no reason why a Super-Yogi hasn't taken over the world unless
+> there is a conspiracy of other yogis to keep him in check or some postulated
+> divine anti-evil force.  Entering another's body and surpressing his
+> mind is the ultimate form of coercion. 
+In a nutshell, "abuse" of yogic power can lead to loss of power.
+Powers are generally regarded as hindrances to Realization.
+
+> No statist could ever steal your
+> body from you. It remains the ultimate form of private property. Why
+> hasn't a group of profiteering yogi's either taken over the world, or
+> dominated the business world? Imagine entering another's body during
+> a business meeting and signing a contract for them.
+
+The aim of yoga is not to "take over the world", or invade other living
+people's bodies. The aim is eternal Peace, eternal realization, becoming
+one with eternal Consciousness - becoming immortal! I could relate a 
+story which describes a scenario similar to what you've painted, but Harry
+might get upset. The story involved the first Sankaracharya using another
+man's body to learn tantra.
+
+
+> 
+> 2) Since the yogi can enter a dead body, how long does it take in 
+> microseconds before this becomes impossible. If there isn't some
+> line between dead body and decomposed body are you willing to claim that
+> a yogi can enter creamated remains? What about skin flakes? Plants
+> and bacteria which have digested human remains?
+
+The yogi would be entering the dead body for a reason, so it might be
+"rational" to assume that the body would have to be in an undecomposed state.
+
+I think that the basic conflict here is that you view consciousness as
+an emergent property of the nervous system. Yoga teaches
+that the physical body is the last product of a series of creations,
+originating from sound of OM. Consciousness existed before the body was
+created, and existed afterwards as well.  
+
+> 
+> 3) What possible mechanism does the yogi use to do this? Does the effect
+> have a range and how fast does the conciousness travel. For instance,
+> if it is faster than light, yogi-uploading violates relativity and
+> CAUSUALITY. If it doesn't travel faster than light, explain why this
+> should be so. If it's chemical, explain how it's possible to interface
+> nervous systems through skin contact.
+> 
+> 4) Since no yoga master has taken become dominant in the world it is obvious 
+> that the yoga are not extropian. They had their chance to boundlessly
+> expand and they fouled up. The technological west has now taken over.
+> Yoga is out of the competition.
+Basic premise is flawed. Yogis dissolve the mind, thus dissolving the world.
+The world is taken to be unreal. They experience infinite expansion of
+consciousness and infinite bliss. At that point there is no one 
+to compete with!
+> 
+>    People who push religion memes have to realize that the burden of
+> proof is on them. Creative excuses like "the world is really 6000 years
+> old, the devil put fossils there" or "yogi can fly and upload, of course
+> you will never see any evidence because they refuse to demonstrate for the
+> non-believer" won't cut it.
+> 
+
+As a said before, I have seen a demonstration (not TM related). 
+If you want to see a demonstra-
+tion you could try talking to the TM people about their Siddhis program,
+but if you are an outsider, I don't know what they'd tell you.
+
+More mundane scientific studies were performed on Swami Rama some years
+ago, in which I believed he demonstated stopping his heart, cessation of
+breathing, but I don't know if he levitated or not for the researchers!
+
+Harry has asked me to voluntary cease from discussion of yogic powers.
+That's fine with me, because they aren't really important to me in
+the vast scheme of things.
+
+--- Pandit "Hall of Shame" Singh!
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0130
+****************************************
+

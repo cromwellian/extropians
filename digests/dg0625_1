@@ -1,0 +1,575 @@
+From extropians-request@extropy.org Sat Jun 25 03:01:45 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id DAA16671 for <more@chaph.usc.edu>; Sat, 25 Jun 1994 03:01:43 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA29339; Sat, 25 Jun 94 03:01:37 PDT
+Received: by news.panix.com id AA27885
+  (5.65c/IDA-1.4.4 for more@usc.edu); Sat, 25 Jun 1994 06:01:22 -0400
+Date: Sat, 25 Jun 1994 06:01:22 -0400
+Message-Id: <199406251001.AA27885@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-6-131 - #94-6-140
+X-Extropian-Date: June 25, 374 P.N.O. [06:00:50 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Sat, 25 Jun 94             Volume 94 : Issue 175
+
+Today's Topics:
+                            (Fwd) Junk.humor.essay                    [1 msgs]
+                   [#94-6-88] digital cash and free banking           [1 msgs]
+                                 digital cash                         [2 msgs]
+                           digital cash and privacy                   [1 msgs]
+                    Request for Comments:  U.S. Tech Corps            [1 msgs]
+                      SAT Scores and the average student              [1 msgs]
+                      U.S. Tech Corps & State Schooling               [1 msgs]
+                         U.S. Tech Corps: No thanks                   [1 msgs]
+                                   unscribe                           [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 29241 bytes.
+
+----------------------------------------------------------------------
+
+From: tfv0@Lehigh.EDU (Theodore F Vaida ][)
+Date: Fri, 24 Jun 1994 15:02:49 EDT
+Subject: [#94-6-131] Request for Comments:  U.S. Tech Corps
+
+Note, the US Grubbymint is not specifically empowerd to operate a school
+system, ONLY STATE GOVERNMENTS CAN INSTITUTE A PUBLIC SCHOOL SYSTEM.  You
+will note that schools are paid for by real-estate taxes, so your first
+problem is not dealing with Clinton, Gore or any other national politician.
+As a note, all the bruhaha over vouchers for private school from the
+grubbymint, would never have ammounted to anything, that money is legally
+untouchable by anyone but the state/county officials.  If you are looking
+to fight the school 'system' it would have to be on a county by county
+basis, but I would certainly think that best, the grubbymint CANT
+officially interfere (tho they could pull one of those 'do what we want or
+you get no federal aid' things like the frederal highway aid and the
+national 55 limit).
+---------============= tfv0@lehigh.edu aka: PCap ====================---------
+SigLite, [same great wits, less bits!][same great parties, less sausage!]
+IN HOC SIGNO VINCES		   He's a one bit brain with a parity error! 
+---------============================================================---------
+
+------------------------------
+
+From: tburns@mason1.gmu.edu (T. David Burns)
+Date: Fri, 24 Jun 1994 15:35:28 +0200
+Subject: [#94-6-132] digital cash
+
+SIPROJ wrote:
+
+>Suggested reference
+>in proceeding in an anti-monetarist fashion means getting the
+>"Time Dollar" book from Essential Research, an offshoot of
+>Ralph Naders group.
+
+Somehow I'm not overwhelmed with confidence that something associated with
+Nader and called a time dollar will be a serious contender. Could you give
+some rough description of what it's about in case I might actually want to
+spend some time looking for it?
+>
+>Barter systems get thwarted by entropian/statist notions by
+>virtue of convertibility to centrally controlled denominating
+>systems.  To avoid that trap, avoid convertibility or exchange
+>with monetarists, i.e. prohibit it in absolute terms, a firewall
+>that prevents DigiFinance from going down in flames with the
+>monetary system...
+
+Somehow I think the IRS is going to want to breach this firewall. At least,
+they want you reporting your income, and using $s as unit of account. If
+you don't want to give them a conversion factor, they'll be happy to come
+up with their own.
+
+>Anyone know where to get source code to facilitating software
+>for this?  PGP 2.3 v1.1 for all platforms, including GUI
+>based systems overseas ftp locations?
+
+PGP doesn't do the blinding trick you need. There was talk of releasing
+various crypto toolbenches (that would at least help) on the cypherpunks
+list back when I was subscribing. I suggest you ask over there.
+(cypherpunks-request@toad.com)
+
+Or try Chaum's company - info@digicash.nl (I think).
+
+Dave
+
+
+
+------------------------------
+
+From: Mark Grant <Mark.Grant@isltd.insignia.com>
+Date: Fri, 24 Jun 94 21:00:25 BST
+Subject: [#94-6-133] digital cash and privacy
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+
+With regard to the question of what this thread has to do with digital
+cash, it would seem obvious to me that if you are attempting to create
+a payment system that protects the privacy of those who use it, then
+discussion of methods of getting round your digicash anonymity would be
+fairly important. Otherwise, you might just as well use a credit card.
+
+marym@finesse.com (Mary Morris) said :
+
+> I agree that you could just withdraw and deposit money to mess up their
+> figures. Knowing dollar amounts, dates that the money was transacted
+> on, address and employer, someone can usually sit down and identify
+      ^^^^^^^^    ^^^^^^^^
+Well, there's the first issue. Digicash ought to make it easier for
+employers (assuming you have one and aren't self-employed) to pay you
+in Digicash and prevent the bank from knowing who your employer is.  In
+fact, if your employer is paying you in Digicash anyway, there's no
+need for the bank to know your address either. Technically speaking
+(rather than legally, as I don't know what the restrictions on opening
+US bank accounts are), as long as you don't want credit, all they would
+need to open an account would be a public key to encrypt outgoing cash
+with and to verify signatures on withdrawal requests. Taken to
+extremes, you don't even need to know where the *bank* is, as long as
+you're willing to trust their reputation.
+
+> rent, utilities, phone, and the general basics without knowing the
+> other end of the transaction.
+
+However, if you merely withdraw a few hundred dollars of digicash in
+one transaction and then split it up to pay the different bills, then
+this should be less of a problem. One of the advantages of digicash is
+that you can keep it stored in an encrypted form so that even if it is
+stolen the thief can't use it. You can keep a backup somewhere (either
+locally, or more sensibly as an encrypted file spread amongst a number
+of friends), and if it's stolen you just retreive the backup. As a
+result, as long as you trust the bank, there's no reason not to keep a
+few hundred dollars out of your account at any time.
+
+If you're willing to trust the bank not to close down its digicash
+operations, then you could avoid the need to have an account at all,
+and keep all your money on an encrypted disk, smartcard, whatever. This
+is the way the 'Magic Money' digicash system works.
+
+> Then knowing how much of the remainder
+> is used by check / ATM and the day of the month (namely weekday 
+> or weekend), combined with lifestyle data can paint a rough image.
+
+Well, checks ought to go away in most cases, but ATMs would still be a
+potential problem (particularly when they have TV cameras). I'd guess
+that what you'd really want would be an ATM that took digicash off your
+smartcard and paid it back to you in paper cash. That way you could get
+your digicash from the bank anonymously (via remailers or whatever),
+and it wouldn't be able to link later paper cash withdrawals from ATMs
+to a particular account.
+
+			Mark
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6
+
+iQCVAgUBLgs7T2hZrcRdG1w1AQEaTwP/Za50vImNljSYADXYQix3vnsByyxhTZzm
+CRmMx5W7jki4oM773jpsyLEb9nFzik8ulTbbPjp/D713atJo9Ng1/8efBzaSqLlz
+7UBiqWDEFOqYwsXgrdFRYXumyXIRUr69mRR7E6PRLcrQGbFh5gsbZ3bAi23HVWqu
+e2j9grDFa5s=
+=JxKd
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+From: Mark Grant <Mark.Grant@isltd.insignia.com>
+Date: Fri, 24 Jun 94 21:26:22 BST
+Subject: [#94-6-134] digital cash
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+tburns@mason1.gmu.edu (T. David Burns) said, in reply to siproj@pwibbs.com :
+
+> Somehow I think the IRS is going to want to breach this firewall. At least,
+> they want you reporting your income, and using $s as unit of account. If
+> you don't want to give them a conversion factor, they'll be happy to come
+> up with their own.
+
+Depends. From what I've read, tax avoidance is running at something
+like 15 % in both the US and UK, and if they can't get better than 85 %
+compliance with 'real' cash, they're going to be in trouble with barter
+and digicash without some serious police state tactics. Not that I
+don't expect them to adopt those tactics, but in the meantime there's a
+while for the memes and technology to spread.
+
+> >Anyone know where to get source code to facilitating software
+> >for this?  PGP 2.3 v1.1 for all platforms, including GUI
+> >based systems overseas ftp locations?
+> 
+> PGP doesn't do the blinding trick you need. There was talk of releasing
+> various crypto toolbenches (that would at least help) on the cypherpunks
+> list back when I was subscribing. I suggest you ask over there.
+> (cypherpunks-request@toad.com)
+
+Try 'Magic Money' by Pr0duct Cypher, which is available from various US
+ftp sites and a couple in Europe. PGP is available all over the place
+in the US and Europe (e.g. ftp.demon.co.uk in /pub/pgp). The crypto
+toolkit is called 'PGP Tools', and comes with 'Magic Money', though the
+only version I've found in Europe is an early one that you need a few
+bugfixes for. I think both of them are listed on the 'Where to get PGP
+- FAQ' posted to alt.security.pgp every once in a while.
+
+			Mark
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.6
+
+iQCVAgUBLgtBZ2hZrcRdG1w1AQHkEgQAp9kut8SthspFk550jbT3y3D5cghG9957
+dstK/mLEay0CYA2iyndngTfI1GRLhaqw+DzcqamDW8q3iHCJ09psZpLnm2zsKEg0
+65luGK25FXbtSCPqqQ7P6v1BIRDKSzIyTmxhffmfkfIWvP1a9oTrqGhljErlW/nQ
+k1YUrQDbTsE=
+=tJEK
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+From: sullivan@blaze.cs.jhu.edu (Gregory Sullivan)
+Date: Fri, 24 Jun 94 16:27:06 EDT
+Subject: [#94-6-135] SAT Scores and the average student
+
+  I recommend reading the article cited below if you are interested in the
+state of American education or trends in test scores.
+
+What's Really behind the SAT Score Decline
+by Charles Murray and R. J. Herrnstein
+The Public Interest
+Winter 1992
+
+  Most of what you may have read on this issue in the mass media is
+oversimplified and distorted.  The readers of this forum must be aware of
+this disappointing general principle by now.  Attempting to assess the
+knowledge and/or capabilities of the ``average'' high school student by
+examining SAT score trends is quite difficult. Below are just some of the
+problems:
+
+1) The SAT pool is not representative of the general population
+  of high school students.
+2) The pool taking the SAT has changed.
+3) US demographics have changed.
+4) The SAT scale actually has drifted by several points
+5) See the article for more problems.
+
+To examine the ``average'' student the article uses data from national norm
+studies conducted by ETS and``well-validated'' stable tests such as the Iowa
+Test of Educational Development (ITED).
+
+Below is an excerpt from the article:
+
+  Two parts of the conventional wisdom surrounding the SATs are accurate: SAT
+scores really did nosedive in the late 1960s, continuing to decline well
+into the 1970s, and the change in ethnic composition of the SAT pool really
+has been large.  Nearly everything else in the SAT story as it is translated
+in the annual newspaper stories about the latest scores is out of alignment
+with the available facts - and even the two accurately understood parts of
+the story do not have the causal relationship that is widely assumed.
+Pulling the pieces together:
+
+  For the nation's students as a whole, the recovery from the bottom of the
+trough in the 1970s seems to be complete:  they are probably doing about as
+well as they were in the supposedly halcyon days of the 1950s and early
+1960s. This does not mean that they are well educated by absolute standards,
+nor that they are well educated enough to meet the challenges from the 
+ever-stronger competitors overseas, only that things are no worse in the
+United States than they used to be.
+
+End of excerpt.
+
+I believe attempting to access intelligence and/or achievement using limited
+and simplistic tests such as the SAT or ACT is problematic.  However, if you
+wish to try then the paper above provides some insights.
+
+            Gregory Sullivan
+
+------------------------------
+
+From: whitaker@dpair.csd.sgi.com (Russell Whitaker)
+Date: Fri, 24 Jun 1994 14:27:20 -0700
+Subject: [#94-6-136] (Fwd) Junk.humor.essay
+
+How's this for dynamic optimism......
+
+--- Forwarded mail from obana@uhura (Andrea Obana)
+
+To: cse-info@uhura, mtvtac-info@uhura
+
+
+Levity time....
+
+andrea
+
+
+(forwards deleted...)
+
+----- Begin Included Message -----
+>
+> Humor
+> -----
+> This is an actual essay that a guy used to get himself accepted at NYU 2 or
+> 3 years ago.  The author of this essay, Hugh Gallagher, now attends NYU
+>
+> 3A. ESSAY
+> IN ORDER FOR THE ADMISSIONS STAFF OF OUR COLLEGE TO GET TO KNOW YOU, THE
+> APPLICANT, BETTER, WE ASK THAT YOU ANSWER THE FOLLOWING QUESTION:  ARE THERE
+> ANY SIGNIFICANT EXPERIENCES YOU HAVE HAD, OR ACCOMPLISHMENTS YOU HAVE
+> REALIZED, THAT HAVE HELPED TO DEFINE YOU AS A PERSON?
+>
+> I am a dynamic figure, often seen scaling walls and crushing ice.  I have
+> been known to remodel train stations on my lunch breaks, making them more
+> efficient in the area of heat retention.  I translate ethnic slurs for Cuban
+> refugees, I write award-winning operas, I manage time efficiently.
+> Occasionally, I tread water for three days in a row.
+>
+> I woo women with my sensuous and godlike trombone playing, I can pilot
+> bicycles up severe inclines with unflagging speed, and I cook Thirty-Minute
+> Brownies in twenty minutes.  I am an expert in stucco, a veteran in love,
+> and an outlaw in Peru.
+>
+> Using only a hoe and a large glass of water, I once single-handedly defended
+> a small village in the Amazon Basin from a horde of ferocious army ants.  I
+> play bluegrass cello, I was scouted by the Mets, I am the subject of numerous
+> documentaries.  When I'm bored, I build large suspension bridges in my yard.
+> I enjoy urban hang gliding.  On Wednesdays, after school, I repair electrical
+> appliances free of charge.
+>
+> I am an abstract artist, a concrete analyst, and a ruthless bookie. Critics
+> worldwide swoon over my original line of corduroy evening wear.  I don't
+> perspire.  I am a private citizen, yet I receive fan mail.  I have been
+> caller number nine and have won the weekend passes.  Last summer I toured New
+> Jersey with a traveling centrifugal-force demonstration.  I bat .400.  My
+> deft floral arrangements have earned me fame in international botany circles.
+> Children trust me.
+>
+> I can hurl tennis rackets at small moving objects with deadly accuracy.  I
+> once read Paradise Lost, Moby Dick, and David Copperfield in one day and
+> still had time to refurbish an entire dining room that evening.  I know the
+> exact location of every food item in the supermarket.  I have performed
+> several covert operations for the CIA.  I sleep once a week; when I do sleep,
+> I sleep in a chair.  While on vacation in Canada, I successfully negotiated
+> with a group of terrorists who had seized a small bakery.  The laws of
+> physics do not apply to me.
+>
+> I balance, I weave, I dodge, I frolic, and my bills are all paid.  On
+> weekends, to let off steam, I participate in full-contact origami.  Years ago
+> I discovered the meaning of life but forgot to write it down.  I have made
+> extraordinary four course meals using only a mouli and a toaster oven.  I
+> breed prizewinning clams.  I have won bullfights in San Juan, cliff-diving
+> competitions in Sri Lanka, and spelling bees at the Kremlin.  I have played
+> Hamlet, I have performed open-heart surgery, and I have spoken with Elvis.
+>
+> But I have not yet gone to college.
+>
+----- End Included Message -----
+
+
+
+
+
+--- End of forwarded mail from obana@uhura (Andrea Obana)
+
+--
+Russell Earl Whitaker			    whitaker@csd.sgi.com
+Silicon Graphics Inc.
+Technical Assistance Center / Centre D'Assistance Technique /
+  Tekunikaru Ashisutansu Sentaa
+Mountain View CA     			    (415) 390-2250
+================================================================
+#include <std_disclaimer.h>
+
+
+
+
+
+------------------------------
+
+From: hnash@mason1.gmu.edu
+Date: Fri, 24 Jun 94 17:40:01 -0400
+Subject: [#94-6-137] U.S. Tech Corps: No thanks 
+
+levy@lenny.haskins.yale.edu writes:
+> A Connection Machine at every desk isn't going to help
+> anyone who can't do basic arithmetic...
+
+I disagree.  
+
+It takes a lot of imagination for a child to figure out how 
+calculas or literature is useful or relevent to him.  Most 
+public school teachers don't know what calculas is good for, 
+and so they can't help much.  It's simply rational for kids 
+not to learn subjects for which no relevence has been 
+demonstrated.  
+
+It takes less imagination to see how a videogame or a CAD 
+program is relevent.  Suddenly calculas is relevent, because 
+you can use it to make videogames.  With a Connection Machine 
+at every desk, teachers couldn't prevent kids from exploring 
+all sorts of fascinating stuff.  The result would be a lot 
+more fascinated kids.  
+
+ ==== Yours Truly, Hadon Nash =======  "in founding a family or a state,
+ or acquiring fame even, we are mortal; but in dealing with truth we are
+ immortal, and need fear no change nor accident." -- Henry David Thoreau
+
+
+------------------------------
+
+From: Robert Rounthwaite <robertro@microsoft.com>
+Date: Fri, 24 Jun 94 17:35:22 PDT
+Subject: [#94-6-138] [#94-6-88] digital cash and free banking
+
+ ) Mary Morris writes:
+ ) ....
+ ) If you really want your digicash to be anonymous, you will probably
+ ) end up paying an additional fee equal to what the institution would
+ ) get for selling that info on the open market.
+ )
+
+You will probably end paying an additional fee equal to far more than 
+the fraction of revenue your information represents on the free market 
+to the institution. Information of this sort is most useful in large 
+database form, and isn't usually sold in individual packets (purchasers 
+will buy, for example, lists of all those with incomes greater than 
+$XX, living in a certain area, rather than information on the income of 
+a certain person) The usefulness of such a list declines 
+disproportionally when a certain fraction of people are not 
+represented. e.g. - if half of the people at the bank elect to pay to 
+not be include in the info list, the value of that list declines by 
+more than half.
+
+Robert
+
+------------------------------
+
+From: William_Lasley@lamg.com (William Lasley)
+Date: 24 Jun 1994 23:49:38 -0000
+Subject: [#94-6-139] unscribe
+
+unscribe
+
+L-Tech EXport IMport Commerce fax 310 451-2992
+
+
+------------------------------
+
+From: timstarr@netcom.com (Tim Starr)
+Date: Sat, 25 Jun 1994 01:26:32 -0700
+Subject: [#94-6-140] U.S. Tech Corps & State Schooling
+
+>From: onomoto@netcom.com (Young and Loud)
+>Date: Thu, 23 Jun 1994 23:58:24 -0700 (PDT)
+>Subject: [#94-6-113] U.S. Tech Corps: No thanks
+>
+>Ray writes:
+>> 
+>>    The proof is already out there. SAT scores are lower than ever. The
+>> SAT was recently "re-calibrated" so that today's average scores
+>> are competitive with what they were fourty years ago.
+>
+>	Um.. not to excuse the state of public schools or anything but,
+>from what I read in the NYT when the "re-calibration" was reported,
+>there's a fairly substantive change in the demographics of the kids
+>taking the SAT now than with those 40 years ago. In particular  40
+>years ago most high school students weren't college bound.
+
+"It is sometimes claimed by the education establishment that test scores
+have fallen because more students are taking college admissions tests
+these days.  But the absolute number of students with outstanding scores
+has fallen dramatically as well; between 1972 and 1988 the number of high
+school seniors scoring above 600 (out of a possible 800) on the SAT's verbal
+section fell by about 30 percent.  In 1988 only 986 seniors in the entire
+country scored above 750 - fewer than half as many as in 1981 and probably
+the lowest number ever." - David Boaz, "The Public School Monopoly: America's
+Berlin Wall," _Liberating_Schools_, p. 2
+
+>>    Our schools have lost something essential, and it has nothing to
+>> do with teacher salaries.
+>> 
+>
+>	I agree with this.  On the other hand, I find the argument that
+>teachers are expected to do a whole lot more than in previous
+>generations to be fairly persuasive.   I think that the necessity
+>of the two-income family has a lot to do with this, as a lot of kids
+>seem have received less parenting than before.  
+
+On the contrary, teachers are expected do no more or less than before;
+they are expected to do different things than in the past.  In the past,
+they were expected to teach reading, writing, and arithmetic.  Today,
+they are expected to teach social status, dependency, and complacency.
+All the available evidence indicates that they are succeeding splendidly.
+
+>	School overcrowding is pretty serious also.
+
+Yes, it is a serious canard the teacher's unions use to try to get less
+work for more pay.  Classrooms of 50 students were common in the 1950s,
+when test scores were much higher - according to the SATs, the average
+score was 75 points higher then, 500 out of 800.  The recent change was
+to renormalize today's average of about 425 back up to 500.
+
+Joseph Lancaster used peer tutoring to teach as many as a thousand students
+in his school, with himself as the only adult in the building.  Anglican
+missionaries did similar things in India, and Lancaster's results were
+replicated all over the world, from London to New York City and Caracas,
+Venezuela, where he personally set up one of his schools at the express
+invitation of the Liberator, Simon Bolivar.  The NYC school had 500 students
+at its peak, and observing it in operation led then-Governor of NY DeWitt
+Clinton to call Lancaster "the benefactor of the human race."  Lancaster
+was put out of business by the Anglicans because he was a Quaker and refused
+to teach Anglican doctrine in his schools.  Who do you think Lancaster,
+Pennsylvania, is named after?
+
+Today, students are expected to enter college who would be unable to pass
+an average high school graduation exam before WWI.  Nor are they much more
+likely to be able to pass it after they graduate from college!
+
+In the Middle Ages, students were expected to have mastered not only reading,
+writing, and counting, but also grammar, logic, and rhetoric - the trivium,
+or first three, of the liberal arts.  Upon entering college at the age of 16,
+they then studied the quadruvium: history, literature, philosophy, and
+mathematics.  For their texts, they took what some now call the Great Books
+of Western thought in each subject, such as Herodotus, Homer, Aristotle,
+and Euclid.  Many students now leave college without having encountered any
+of these, or their equivalents from non-Western cultures.
+
+State schooling is dead, because it is inherently incapable of imparting to
+students the high skills which are earning the fastest-growing rewards of
+the job market of the Information Revolution.  It is structured to produce
+a standing army of low-skilled laborers to be easily managed by those with
+higher skills - not high-skilled, self-managing producers.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - timstarr@netcom.com
+
+------------------------------
+
+End of Extropians Digest V94 #175
+*********************************
+

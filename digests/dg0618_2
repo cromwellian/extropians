@@ -1,0 +1,570 @@
+From extropians-request@extropy.org Fri Jun 17 21:04:17 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id VAA23346 for <more@chaph.usc.edu>; Fri, 17 Jun 1994 21:04:15 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA02316; Fri, 17 Jun 94 21:04:09 PDT
+Received: by news.panix.com id AA07483
+  (5.65c/IDA-1.4.4 for more@usc.edu); Sat, 18 Jun 1994 00:01:27 -0400
+Date: Sat, 18 Jun 1994 00:01:27 -0400
+Message-Id: <199406180401.AA07483@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-6-38 - #94-6-49
+X-Extropian-Date: June 18, 374 P.N.O. [00:01:08 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Sat, 18 Jun 94             Volume 94 : Issue 168
+
+Today's Topics:
+                            Extropians FAQ on WWW                     [3 msgs]
+                            Extropy #13: Out soon!                    [1 msgs]
+         Forward: On-Line Images (OLI) now publically available (fwd) [1 msgs]
+                    Quantum Computers Break Cryptography?             [3 msgs]
+                   SCI: Chaos, Complexity, and Reductionism           [1 msgs]
+                                  shamanism?                          [3 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 26789 bytes.
+
+----------------------------------------------------------------------
+
+From: Joe Kiraly <jkiraly@cln.etc.bc.ca> (Joseph Kiraly)
+Date: Mon, 13 Jun 94 09:41:10 PDT
+Subject: [#94-6-38] shamanism?
+
+    anyone know anything good about the subject....                    
+
+
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Mon, 13 Jun 1994 10:29:03 -0700
+Subject: [#94-6-39] Quantum Computers Break Cryptography?
+
+------- Start of forwarded message -------
+From: Paul.Vitanyi@cwi.nl
+To: physics.computation@hc.ti.com
+Message-Id: <9406121348.AA08908=paulv@gnoe.cwi.nl>
+Date: Sun, 12 Jun 1994 15:48:33 +0200
+Subject: Just in case...
+
+
+Just in case you have missed this news: it has been
+shown by Peter Shor of AT&T that quantum computers
+can factorize (and do discrete logarithm) in polynomial
+time. This shows that quantum computation can do
+things which we do not know how to do classically
+(maybe impossible). 
+
+This has great impact on cryptography (RSA like schemes
+rely on difficulty of above problems) and will be a strong
+push for physicists to realize quantum computers.
+------- End of forwarded message -------
+
+------------------------------
+
+From: doug@OpenMind.com (Doug Cutrell)
+Date: Mon, 13 Jun 1994 11:40:24 -0800
+Subject: [#94-6-40] SCI: Chaos, Complexity, and Reductionism
+
+Regarding the recent discussion of the proper use or meaning of the term
+"emergent phenomena":
+
+Here is a summary of a recent technical report from the Santa Fe Institute,
+"The Evolution of Emergent Computation", by James P. Crutchfield and
+Melanie Mitchell (SFI tech report 94-03-012).  I have no connection to the
+Santa Fe Institute or to either of the authors, but I think they have done
+a good job at carefully defining their specific use of the term "emergent"
+in a way that could shed light on the general discussion.  My intent in
+this post is purely illustrative -- to show how the term "emergent" can be
+given a clear and definite meaning in this particular example.
+
+The authors study one-dimensional cellular automata (CA).  Each cell
+changes its state as a function of its three nearest neighbors in either
+direction (the states are binary, and the one dimensional array "wraps
+around" at the ends -- i.e. it's really a circle).  The CA is initialized
+with some random configuration of states, 1s and 0s, and the computational
+task is to decide whether or not the initial configuration consists of more
+than half 1s.  The desired behavior is for the CA to quickly converge to a
+state of all 1s if the initial state consists of more than half 1s, and to
+converge to all 0s otherwise.  This task is interesting because it is
+intrinsically global in nature -- in the authors' words, "no linear
+combination of local computations -- such as the cells computing the
+majority of 1s in their neighborhood -- can solve this problem."  The
+authors' employ a genetic algorithm to evolve CA for performing this task.
+
+The resulting CAs which perform best share a fascinating property:  their
+strictly local rules give rise to information carrying "particles" which
+propagate through the array with varying rates, and interact with each
+other when they collide.  These "particles" consist of the location of
+boundaries or "interfaces" between regions of the array with different
+regular repeated patterns.  Different computational strategies discovered
+by different CA can be completely analyzed by an identification of the
+types of particles that can evolve, their directions and speeds of
+propagation, and the rules for interaction that describe what happens when
+two particles collide (for example, they may annihilate each other, they
+may generate several new particles of different types, they may merge into
+a single new particle, etc.)  It is like a kind of "particle physics" in
+the "active media" of the cellular array.
+
+Although the individual elements of the cellular automata, and their rules,
+and even the genetic algorithm used for evolving them are all "local" in
+nature, these particles have the ability to propagate over large space-time
+distances and conduct a qualitatively different type of computation than
+the local rules.  They can carry information about the density of 1s and 0s
+from distant parts of the array.  These particles, and the computation
+which they carry out, are "emergent" from the local elements and state
+transition function of the cellular automata.  The term "emergent" here is
+not offered as a further clarification of what is going on, but simply as a
+label that seems easy to agree should be applied in this case.  (The
+meaning of a term resides in its agreed upon usage.)
+
+(To retrieve postscript of this tech report from the Santa Fe Institute,
+ftp to ftp.santafe.edu, cd to /pub/Users/mm, and get file EvEmComp.ps.Z)
+
+This is my first posting to the list.  Greetings to all!
+
+                       __   __   __                             __
+Doug Cutrell          /  ) /__) /_  /\  /    /| /|   /  /\  /  /  )
+doug@OpenMind.com     \_/ /    (_  /  \/    / |/ |  /  /  \/  /__/
+===================================================================
+
+
+
+------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Mon, 13 Jun 94 20:32:59 GMT
+Subject: [#94-6-41] shamanism?
+
+I don't know if it's definitive, but I like _Urban Shamanism_ by
+Serge Kahili King. He writes about Hawaiian shamanism, a
+much kinder and more pro-enjoyment variety than what Castenada
+describes. 
+
+The book is at least of libertarian interest--it has a description
+of how an over-authoritarian Hawaiian society left itself vulnerable
+when the Americans arrived.
+
+On the other hand, I haven't been able to get the one technique
+from the book (reversing injury by changing memory of the accident)
+to work at all--I don't if I'm doing it wrong or if it's simply
+useless.
+
+Nancy Lebovitz
+
+
+
+------------------------------
+
+From: salo <salo@io.org>
+Date: Mon, 13 Jun 1994 17:08:27 -0400 (EDT)
+Subject: [#94-6-42] Quantum Computers Break Cryptography?
+
+On Mon, 13 Jun 1994, Robin Hanson wrote:
+
+> ------- Start of forwarded message -------
+> From: Paul.Vitanyi@cwi.nl
+> To: physics.computation@hc.ti.com
+> Message-Id: <9406121348.AA08908=paulv@gnoe.cwi.nl>
+> Date: Sun, 12 Jun 1994 15:48:33 +0200
+> Subject: Just in case...
+> 
+> 
+> Just in case you have missed this news: it has been
+> shown by Peter Shor of AT&T that quantum computers
+> can factorize (and do discrete logarithm) in polynomial
+> time. This shows that quantum computation can do
+> things which we do not know how to do classically
+> (maybe impossible). 
+> 
+> This has great impact on cryptography (RSA like schemes
+> rely on difficulty of above problems) and will be a strong
+> push for physicists to realize quantum computers.
+> ------- End of forwarded message -------
+> 
+
+Can someone enlighten me at as to how a quantum computer differs from 
+normal computers?
+
+You could point me to a FAQ too, that'd be nice.
+
+
+
+------------------------------
+
+From: sjm@world.std.com (Sean J Merritt)
+Date: Mon, 13 Jun 1994 18:31:39 -0400
+Subject: [#94-6-43] Quantum Computers Break Cryptography?
+
+   From: hanson@hss.caltech.edu (Robin Hanson)
+   Date: Mon, 13 Jun 1994 10:29:03 -0700
+   X-Original-To: Extropians@extropy.org
+   X-Extropian-Date: Remailed on June 13, 374 P.N.O. [13:28:57 UTC]
+   X-Message-Number: #94-6-39
+   Reply-To: extropians@extropy.org
+   Errors-To: Extropians-Request@gnu.ai.mit.edu
+   X-Mailer: MailWeir 1.0
+
+
+>   Just in case you have missed this news: it has been
+>   shown by Peter Shor of AT&T that quantum computers
+
+for people who are interested can refer to the message to this list from:
+
+John K Clark <johnkc@well.sf.ca.us>
+
+Subject: Shore on Quantum Computers
+
+X-Message-Number: #94-5-271
+
+which contains comments by Schor himself(although there was no PGP sig
+8^)...
+
+And I snagged this from sci.physics.research:
+------------------------------------------------------------------------
+
+
+Having followed the discussion on quantum computing on this
+newsgroup for some time now, I would like to hazard my own
+opinion on the matter. In discussions like this
+it is often implied that continued miniaturization of electron
+devices will essentially force industry to adopt
+completely coherent quantum computers, within the next
+two to three decades. This may be necessary if one restricts
+attention to semiconductor-based technologies. Even then
+Landauer (last reference below) has pointed out problems such as 
+wave function localization, which will limit the use of abstract 
+models of coherent computation which have been
+implemented on condensed matter systems. Another problem 
+with coherent computing is the need for extremely low 
+temperatures. However, there are a number of recent proposals for
+"hardware" implementations of quantum computers :
+
+@article{lloyd93:ar,
+Author = {S. Lloyd},
+title = {A Potentially Realizable Quantum Computer},
+journal = {Science},
+year = 1993,
+volume = 261,
+pages = {1569--1571},
+month = {September}  }
+
+@article{bando94:ar,
+Author = {S. Bandyopadhyay and B. Das and A. E. Miller},
+title = {Supercomputing with Spin Polarized Single Electrons
+in a Quantum Coupled Architechture},
+journal = {to appear in Nanotechnology},
+year = 1994,
+pages = {},
+month = {}  }
+
+@article{lent93:ar,
+Author = {C. S. Lent and P. D. Tougaw and W. Porod and G. H. Bernstein},
+title = {Quantum Cellular Automata},
+journal = {Nanotechnology},
+year = 1993,
+volume = 4,
+pages = {49--57},
+month = {}  }
+
+@article{korner93:ar,
+Author = {H. K\"{o}rner and G. Mahler},
+title = {Optically Driven Quantum Networks : Applications
+in Molecular Electronics},
+journal = {Phys. Rev. B},
+year = 1993,
+volume = 48,
+number = 4,
+pages = {2335--2346},
+month = {July}  }
+
+These have been commented on in the following :
+
+@incollection{landauer94:ar,
+Author = {Rolf Landauer},
+title = {Is Quantum Mechanics Useful},
+booktitle = {Ultimate Limits of Fabrication and Measurement},
+editor = {M. E. Welland},
+publisher = {Kluwer},
+address = {Dordrecht},
+year = 1994,
+pages = {} }
+
+Opinion :
+
+There are probably alternative approaches which will permit 
+the use of semiclassical models well into the nanometer 
+level of device scaling, while allowing room temperature
+operation. One such effect is the single-electron phenomenon,
+which comes about when the transfer of a single electron
+elicits a substantial change in the electrostatic potential
+of a nanometer-sized particle. A metallic particle 5 nm in
+diameter can have over 1000 conduction electrons, and can be
+treated semiclassically. Recently, a memory device based on this effect 
+was demonstrated at room temperature (K. Yano et. al., Hitachi). 
+There is reason to believe that large arrays of such particles can 
+be configured to achieve limited computational effects.
+How these might compare with coherent computing in terms
+of performance measures, it is premature to comment.
+
+[Moderator's note - Thanks for providing a reference to the Seth Lloyd
+paper, and thanks for the others, too! - jb]
+------------------------------------------------------------------------
+
+jb is Net/Mathematical Physicist J. Baez, I lost the author's address.
+
+
+-sjm
+------------------------------------------------------------------------
+" We are not in fact facing the "new world order" today's politicians 
+ constantly invoke. Rather, we are facing a <<new world disorder>>..." 
+-from: Post Capitalist Society, by P.F. Drucker	(| sjm@world.std.com |)
+
+
+
+
+------------------------------
+
+From: Eric Watt Forste <arkuat@netcom.com>
+Date: Tue, 14 Jun 94 00:59:37 -0700
+Subject: [#94-6-44] Extropians FAQ on WWW
+
+Okay, I made a mistake. I didn't take Netcom's firewall into account.
+
+On Netcom, "world-readable" really means "Netcom-user-readable". Now I have
+done what I should have done in the first place and secured an FTPable
+directory in their less-secured area, so here is the *real* URL of my
+home page:
+
+http://ftp.netcom.com/ftp/pub/arkuat/beastie.html
+
+If that doesn't work, try:
+
+file://ftp.netcom.com/ftp/pub/arkuat/beastie.html
+
+Enjoy, and if you still can't access it send me email. The very first link
+on my home-page is to my attempt at a rough-and-ready HTMLized Extropians
+FAQ, using only pre-existing components.
+
+Eric Watt Forste         finger arkuat@netcom.com for the rest of my signature
+
+------------------------------
+
+From: Arkuat <arkuat@joes.garage.com>
+Date: Tue, 14 Jun 94 01:33:28 +0100
+Subject: [#94-6-45] Extropians FAQ on WWW
+
+My apologies in advance if this turns out to be a duplicate post, but
+Netcom came crashing down just as I made my previous post, and I'm not
+sure whether that made it out.
+
+I failed to take Netcom's firewall into account when "publishing" the 
+URL of my home page. On Netcom, "world-readable" really means "Netcom-
+user-readable".
+
+The real URL of my home page is:
+
+http://ftp.netcom.com/ftp/pub/arkuat/beastie.html
+ or
+file://ftp.netcom.com/ftp/pub/arkuat/beastie.html
+
+The first link on my home page is to a jury-rigged Extropians FAQ
+built entirely of off-the-shelf parts. It is, of course, still under
+construction, and I could list ten URLs, just off the top of my head,
+that should be linked there but aren't yet.
+
+If you can't get to it, let me know. If you can, enjoy.
+
+Eric Watt Forste       finger arkuat@netcom.com for my signature
+
+------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Tue, 14 Jun 1994 10:15:43 -0400 (EDT)
+Subject: [#94-6-46] Forward: On-Line Images (OLI) now publically available (fwd)
+
+a conscious being, R. P. Channing ["Rick"] Rodgers wrote:
+
+> From www-announce@www0.cern.ch Tue Jun 14 04:10:35 1994
+> Date: Tue, 14 Jun 1994 02:10:35 +0200
+> Errors-To: secret@hpwww.cern.ch
+> Message-Id: <9406111603.AA05000@billings.nlm.nih.gov>
+> Errors-To: secret@hpwww.cern.ch
+> Reply-To: rodgers@nlm.nih.gov
+> Originator: www-announce@info.cern.ch
+> Sender: www-announce@www0.cern.ch
+> Precedence: bulk
+> From: rodgers@nlm.nih.gov (R. P. Channing ["Rick"] Rodgers)
+> To: Multiple recipients of list <www-announce@www0.cern.ch>
+> Subject: On-Line Images (OLI) now publically available
+> X-Listprocessor-Version: 6.0c -- ListProcessor by Anastasios Kotsikonas
+
+-----BEGIN OF PGP DECRYPTED TEXT-----
+
+> Dear Fellow Web Walkers,
+
+> The National Library of Medicine is pleased to announce the
+> availability of its completely redesigned World-Wide Web server,
+> HyperDOC, the URL for which is:
+
+>    http://www.nlm.nih.gov
+
+> HyperDOC now includes:
+
+> 1) Electronic access to all of the library's on-line database services
+>    (some of which require registered accounts).
+
+> 2) Several new multimedia exhibits from the History of Medicine
+>    Division (HMD).
+
+> 3) The Web's first large cataloged image collection, the 60,000 images
+>    from the HMD prints and photographs collection, known as On-Line Images
+>    from the History of Medicine (OLI/HMD).  OLI/HMD requires NCSA Mosaic
+>    for X, version 2.4, or functionally equivalent browser supporting HTML
+>    forms with hidden fields).  The URL to this service is:
+
+>       http://www.nlm.nih.gov:82/
+
+>    This project was demonstrated at the recent First International World-Wide
+>    Web Conference.
+
+> 4) An on-line interactive course on the history and uses of the Internet.
+
+> You can get at most of the above by selecting the home page item entitled
+> "On-Line Informations Services" and navigating from there.
+
+> If you're using a Web client to read news:
+
+> <A HREF="http://www.nlm.nih.gov">HyperDOC: The National Library of Medicine (NLM)</A>
+> <A HREF="http://www.nlm.nih.gov:82/">On-Line Images from the History of Medicine</A>
+
+> Cheerio, Rick Rodgers
+> --------------------------------------------------------------------------------
+>    R. P. C. Rodgers, M.D.                   Computer Science Branch
+>       rodgers@nlm.nih.gov (Internet)        Lister Hill National Center
+>       rodgers@nlm.nih.gov.arpa (BITNET)        for Biomedical Communication
+>       (301)496-9300 (office)                National Library of Medicine, NIH
+>       (301)496-0673 (fax)                   8600 Rockville Pike   
+>       (301)564-9343 (home)                  Bethesda MD 20894 USA
+
+-----END OF PGP DECRYPTED TEXT-----
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+From: Eric Watt Forste <arkuat@netcom.com>
+Date: Tue, 14 Jun 94 10:47:34 -0700
+Subject: [#94-6-47] Extropians FAQ on WWW
+
+Well, I'm frustrated. I've triple-checked the permissions and Netcom's
+docs about making files available for external FTP access, but my Web
+pages are still inaccessible to outsiders. Netcom moved to a new 
+physical site last night, and their message-of-the-day warns about 
+"network instability". I'm hoping that this is all there is to it.
+
+If you are *really* curious, please let me know, I will e-mail you my
+extropian page and the four or five local pages it references. This would
+be on the order of ten kilobytes of text.
+
+My apologies to all the non-Netcom users for all the false starts. I will
+continue to do what I can to make these pages generally accessible.
+
+Netcom users should have no problem accessing these pages at
+"file://ftp.netcom.com/ftp/pub/arkuat/beastie.html" or
+"file://localhost/u1/arkuat/pub/beastie.html"
+
+Eric Watt Forste     (finger arkuat@netcom.com for the rest of my .signature)
+                     (yes, it really should work now)
+
+------------------------------
+
+From: Ian Douglas <iandoug@cybernet.za>
+Date: Tue, 14 Jun 1994 20:21:39 +0200 (GMT+0200)
+Subject: [#94-6-48] shamanism?
+
+Hi Nancy
+
+> On the other hand, I haven't been able to get the one technique
+> from the book (reversing injury by changing memory of the accident)
+> to work at all--I don't if I'm doing it wrong or if it's simply
+> useless.
+
+You surprise me  :-)
+
+Surely you recognise mumbjo jumbo when you see it? How can changing how you
+remember POSSIBLY change an injury which occurred at that time?
+The laws of nature never change, nor does the past :-)
+
+no offense. Cheers, Ian
+
+
+------------------------------
+
+From: Max More <more@chaph.usc.edu>
+Date: Tue, 14 Jun 1994 12:02:22 -0700 (PDT)
+Subject: [#94-6-49] Extropy #13: Out soon!
+
+EXTROPY #13 has been delayed by (a) organizing the EXTRO 1 conference;
+(b) lack of money for printing; (c) technical problems with the cover.
+Thanks to a contribution by member Richard Tobey and a substantial loan
+from Perry Metzger, the financial problem has been solved or postponed.
+The cover that was being put together turned out to be impossible to
+print, so Nancie Clark and I put together a new one hastily.  The issue will
+be going to the printer today, and should be ready for mailing in little
+over a week, if the printer is as fast as they claim.
+
+The issue includes Nick Szabo's "Boundless Constellations: The Emergence of
+Celestial Civilization", part 2 of Dave Krieger's fascinating interview
+with David Ross "Souls, Cyberspace, Sin, and Singularity", Robin Hanson's
+"If Uploads Come First: The Crack of a Future Dawn", J. Storrs Hall's
+"Utility Fog" (an application of nanotech), Reilly Jones's review of Kaufmann's
+Origins of Order, Self-Organization, and Selection in Evolution", my review
+of Julian Simon's Good Mood, Simon! Levy's '"Sequential Neural Networks",
+an exchange between me and Charles Platt on "Two Questions for Extropians",
+and Carl Feynmann's ad for the Galactomatic-1000!
+
+You can get the issue for $4.95, or a 4-issue subscription for $18.  Extropy
+Institute membership ($45 regular or $100 sustaining) including a subscription.
+
+Extropy Institute
+13428 Maxella Avenue, #273
+Marina Del Rey, CA 90292
+
+Onward and Upward!
+
+Max More	more@usc.edu	more@extropy.org
+Editor		EXTROPY: The Journal of Transhumanist Thought
+
+
+------------------------------
+
+End of Extropians Digest V94 #168
+*********************************
+

@@ -1,0 +1,542 @@
+From extropians-request@extropy.org Mon Nov 28 23:38:41 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id XAA16571 for <more@chaph.usc.edu>; Mon, 28 Nov 1994 23:38:36 -0800
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA23519; Mon, 28 Nov 94 15:02:22 PST
+Received: (from exi@localhost) by news.panix.com (8.6.9/8.6.9) id SAA28930; Mon, 28 Nov 1994 18:02:08 -0500
+Date: Mon, 28 Nov 1994 18:02:08 -0500
+Message-Id: <199411282302.SAA28930@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-11-459 - #94-11-468
+X-Extropian-Date: November 28, 374 P.N.O. [18:01:43 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Mon, 28 Nov 94             Volume 94 : Issue 331
+
+Today's Topics:
+                       COMPUTERS: the persistence of C                [1 msgs]
+                       COMPUTERS: the persistence of C                [1 msgs]
+                                FEMME: Paglia                         [2 msgs]
+                    LARVAE: Extropian kids' books, schools            [1 msgs]
+              META/HUMOR: How (not) to be removed from the List       [1 msgs]
+                                 Pentium Bug                          [1 msgs]
+                              POLL: safe living                       [2 msgs]
+                    Population, Simon Sez, and Environment            [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 27190 bytes.
+
+----------------------------------------------------------------------
+
+From: sjm@world.std.com (Sean J Merritt)
+Date: Mon, 28 Nov 1994 12:13:45 -0500
+Subject: [#94-11-459] Pentium Bug
+
+In case you haven't been reading comp.sys.intel;
+
+There is a floating point math error in most Pentium chips out there
+at present. The bug manifest itself in the fp division of certain numbers.
+
+Intel claims that most users will not experience the defect and seems
+to be taking the position that replacement CPU's are on a *need* only
+basis.
+
+There is an assembly language routine you can get to check your 
+machine at:
+
+math.ucdavis.edu
+
+ /pub/fdiv
+
+to get the Intel position or to bitch in general:
+800-628-8686(916-356-3551 international)
+FaxBack number=(503)264-6835
+
+This produced the error in my spreadsheet and MathCad: 
+x= 4195835.0   y=3145727.0 (you want floating point numbers here)
+
+delta=[x-(x/y)*y]
+
+delta of course should be zero.
+
+ackthpppt! (the result I got was 256?!)
+
+-sjm
+
+------------------------------
+
+From: levy@cs.utk.edu
+Date: Mon, 28 Nov 1994 14:02:03 -0500 (EST)
+Subject: [#94-11-460] FEMME: Paglia
+
+> From: plaz@netcom.com (Plaz)
+> 
+> Dominatrix, trite? Uh-oh. Better don the asbestos underwear before Mistress
+> R replies.
+
+I kinda hoped she'd discipline me in person.  Anyway, after her, all
+other dominatrices seem trite, don't you think?
+
+> What's wrong with a woman acting young? Frankly, it's one of the things I
+> like about Paglia. I wouldn't think it very extropian to tell her to "act
+> her age".
+
+Acting doesn't mean pulling it off.  Mae West remained sexy well into
+middle age.  Ditto Liz Taylor, Raquel Welch, Tina Turner, et al.
+Paglia, like any other wannabe, tries too hard and doesn't
+make it.  She talk the talk, but she don't walk the walk.  Maybe she 
+needs a better photographer.
+
+> Vega has managed to capture more of the fragile victim psychology, it's
+> true. Hers is the poetic lyrics and better music, but she can barely manage
+> to psyche herself up to get on stage.
+
+Good points, but listen to, e.g., "The Queen and the Soldier" on her 
+first album, or "Calypso" on her second, and I think you'll end up with a 
+subtler, more complex, and much more interesting picture than that of the 
+fragile victim.
+
+> 
+> Madonna on the other hand, is an extropian heroine. She's made millions
+> getting people to see things in a different, more sex-positive way. She's
+> brought aspects of the gay culture into the mainstream. And she's done it
+> all while making few comprimises.
+
+I wouldn't go that far.  From what I hear, her rise to popularity had
+as much to do with her willingness to sleep with powerful men, as it
+did with her "talent". Do you know what they called her during her
+early days in New York?  McDonna -- billions and billions served!  
+You may view this as a simple exchange of good(ie)s for services; I see 
+it as more of the same thing that's been going on in the entertainment
+industry for decades.  Big deal.
+
+And as for bringing aspects of the gay culture into the mainstream,
+let's give credit to those who've earned it.  Admittedly, Madonna had the 
+savvy (and guts) to bet on the growing acceptance of gay lifestyles, 
+but gay men themselves deserve the kudos, not her.  It nauseated me 
+to watch her flaunting her grief over the AIDS death of her friend Keith 
+Harring, in _Truth or Dare_.  Dead gay friends: every gal should have one!
+
+> 
+> 
+> A lot of pop-culture sucks, I know that. But lets not bash something just
+> because it *is* pop-culture. 
+
+I agree with you there. I'll take Tom Petty over Beethoven any day.  But Madonna
+bores me with her attempts to look like something new, as Paglia embarrasses
+me with her awkward efforts to join the Pepsi generation.  
+
+Also, you should keep in mind the statistical fact that, as something
+grows more popular, it gravitates more toward the mean, and further
+away from extremes like Extropianism.
+
+
+>                              With luck, we may find ourselves in the
+> limelight someday.
+
+Okay, who do I have to sleep with ;-) ?
+
+-- 
+
+I wrote this message in E-prime.
+
+
+Simon D. Levy			levy@cs.utk.edu
+
+------------------------------
+
+From: Ryan Derek <DEREK@alcor.org>
+Date:  Mon, 28 Nov 94 12:10:23 
+Subject: [#94-11-461] POLL: safe living
+
+Craig Presson writes:
+
+>My paranoid little 10-yr-old son just asked where on earth are the
+>best and worst places in terms of natural disaster potential. Does
+>anyone have suggestions for places, or sources of data?
+
+In the upcoming fourth quarter edition of _Cryonics_ magazine, 
+there will be an article by Dr. Mark Voelker about natural disaster 
+safety in the United States.  (Sorry, no info about the rest of the 
+earth.)
+
+Before we moved Alcor away from Ground Zero For The Big One 
+(a.k.a., Riverside, CA), we looked around for a safer place.  We 
+examined risk assessments for earthquakes, blizzards, tornadoes, 
+and hurricanes, and when we overlayed the maps generated by each 
+of these assessments, we found one little strip transecting Arizona 
+and Southern Nevada which showed no significant risk for any of 
+these types of natural disaster.  
+
+The only major metropolitan area in that strip is Phoenix, and that's 
+one of the main reasons that we're here now.  (Actually, we're in 
+Scottsdale, which is more or less a suburb of Phoenix.)
+
+Derek Ryan
+derek@alcor.org
+
+------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Mon, 28 Nov 1994 14:07:03 -0600
+Subject: [#94-11-462] COMPUTERS: the persistence of C
+
+At 01:03 PM 11/28/94 WET, Ray wrote:
+[...]
+>  Actually, the next generation of games systems are already
+>moving to operating systems and high level language.[...]
+
+>DOOM was quickly ported to
+>NeXT, SGI, QNX, OS/2, Windows, Linux, Jaguar, and Sega Genesis.
+>(the SGI port was done in a single day)
+
+I'll bet that's a sight to see: DOOM on an SGI box.
+
+>  Look at all the new PDAs, they are all based on scripting languages.
+>(NewtonScript, Telescript). 
+I think other application domains will go this way too. Of course,
+I also hear the voices of the doomed prophets of 4GL-ism holding
+out their promises of user-programmable applications by 1985 ...
+
+One area that will probably be a holdout for a while, that I
+underestimated, is embedded systems. If you are going to
+program an avionics computer or an engine control chip or
+whatever, it probably makes sense to use a small, hardened
+package for a computer and spend the bucks to program it 
+tightly and test the hell out of it -- because you're going to
+ship a hell of a lot of identical copies in big-dollar systems,
+and not change it much.
+
+So we've identified several conflicting drivers ... some numbers
+would come in handy. I suppose IEEE has industry surveys that might
+highlight a trend.
+\\ fcp@nuance.com (Craig Presson)   CPresson@aol.com\
+-- WWW: http://www.nuance.com/~fcp/ -----------------\
+-- President & Principal,  T4 Computer Security ------>
+-- P.O. Box 18271, Huntsville, AL 35804 -------------/
+// (205) 880-7692 Voice, -7691 FAX -----------------/
+
+
+------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Mon, 28 Nov 1994 14:12:49 -0600
+Subject: [#94-11-463] POLL: safe living
+
+At 12:10 PM 11/28/94, extropians@extropy.org wrote:
+[...]
+
+>The only major metropolitan area in that strip is Phoenix, and that's 
+>one of the main reasons that we're here now.  (Actually, we're in 
+>Scottsdale, which is more or less a suburb of Phoenix.)
+
+The bright white light of stupidity goes off in my head. *Of course*
+the one group who would do this analysis would be cryonicists.
+
+And of course the coincidence of the name "Phoenix" was just an
+add-on, right? Uh-huh.
+
+\\ fcp@nuance.com (Craig Presson)   CPresson@aol.com\
+-- WWW: http://www.nuance.com/~fcp/ -----------------\
+-- President & Principal,  T4 Computer Security ------>
+-- P.O. Box 18271, Huntsville, AL 35804 -------------/
+// (205) 880-7692 Voice, -7691 FAX -----------------/
+
+
+------------------------------
+
+From: whitaker@extropia.corp.sgi.com (Russell Whitaker)
+Date: Mon, 28 Nov 1994 12:51:32 -0800
+Subject: [#94-11-464] META/HUMOR: How (not) to be removed from the List
+
+On Nov 27, 11:00pm, levy@cs.utk.edu wrote:
+> Subject: META/HUMOR: How (not) to be removed from the List
+> > From: Eric Klien <oceania@terminus.intermind.net>
+> > Date: Thu, 17 Nov 1994 17:06:52 -0800
+> > Subject: [#94-11-263]
+> >
+> > UNSUBSCRIBE
+> >
+>
+> Uh... now we have a better idea of why Oceania went belly up (?)
+>
+
+I noticed also that Eric Klein - who knows better - subscribed to the
+list only for the duration of his mailblast.  Rude.  I'm not surprised,
+though.
+
+--
+Russell Earl Whitaker           	       whitaker@sgi.com
+I.S. Assistance Center                             415-390-3826
+Silicon Graphics, Inc.	 		      Mountain View, CA
+===============================================================
+1.] If you are behind SGI's firewall, here's my WWW home page:
+	http://extropia.corp.sgi.com:8001/people/whitaker.html
+2.] Outside the SGI firewall, try this:
+	http://www.c2.org/~whitaker/whitaker.html
+
+------------------------------
+
+From: cactus@bb.hks.net (L. Todd Masco)
+Date: 28 Nov 1994 16:35:41 -0500
+Subject: [#94-11-465] Population, Simon Sez, and Environment
+
+ goetz@cs.Buffalo.EDU (Phil Goetz) writes:
+>Ask a city planner about building a city the size of Texas and Oklahoma
+>with the population density of San Francisco.  She will laugh.
+
+City planner's are not the ones to ask.
+
+Read some Bucky Fuller and investigate his designs for "Old Man River
+City" (a smaller city) and upward.  _Critical_Path_ is a good place to
+start.
+-- 
+Todd Masco     | "Roam home to a dome, Where Georgian and Gothic once stood
+cactus@hks.net |  Now chemical bonds alone guard our blond(e)s,
+cactus@bb.com  |  And even the plumbing looks good."  - B Fuller
+
+------------------------------
+
+From: plaz@netcom.com (Plaz)
+Date: Mon, 28 Nov 1994 13:11:39 -0800
+Subject: [#94-11-466] FEMME: Paglia
+
+At  2:02 PM 11/28/94 -0500, levy@cs.utk.edu replies to moi:
+>> From: plaz@netcom.com (Plaz)
+>>
+>> Dominatrix, trite? Uh-oh. Better don the asbestos underwear before Mistress
+>> R replies.
+>
+>I kinda hoped she'd discipline me in person.
+
+It's a priviledge, not a right.
+
+>Anyway, after her, all
+>other dominatrices seem trite, don't you think?
+
+No actually. Most of the dominatrix's I know are pretty cool. Maybe you
+need to find a new crowd. Try looking in the back of the local weekly, the
+Phoenix, if you need to improve your discipline.
+
+>> What's wrong with a woman acting young? Frankly, it's one of the things I
+>> like about Paglia. I wouldn't think it very extropian to tell her to "act
+>> her age".
+>
+>Acting doesn't mean pulling it off.  Mae West remained sexy well into
+>middle age.  Ditto Liz Taylor, Raquel Welch, Tina Turner, et al.
+>Paglia, like any other wannabe, tries too hard and doesn't
+>make it.  She talk the talk, but she don't walk the walk.  Maybe she
+>needs a better photographer.
+
+I think she does fine, besides trying is better than not trying anyday.
+
+My own opinion: (to quote the Dice) "I'd do 'er." I'm sure the pillow talk
+would be excellent.
+
+[...My comments on Vega as victim elided...]
+>Good points, but listen to, e.g., "The Queen and the Soldier" on her
+>first album, or "Calypso" on her second, and I think you'll end up with a
+>subtler, more complex, and much more interesting picture than that of the
+>fragile victim.
+
+I've heard and loved them many times. As I said, I'm a fan of both artists.
+I don't mean to put Vega down. She's come a long way, and I love her music.
+I just don't think your point was entirely valid.
+
+>> Madonna on the other hand, is an extropian heroine. She's made millions
+>> getting people to see things in a different, more sex-positive way. She's
+>> brought aspects of the gay culture into the mainstream. And she's done it
+>> all while making few comprimises.
+>
+>I wouldn't go that far.  From what I hear, her rise to popularity had
+>as much to do with her willingness to sleep with powerful men, as it
+>did with her "talent". Do you know what they called her during her
+>early days in New York?  McDonna -- billions and billions served!
+>You may view this as a simple exchange of good(ie)s for services; I see
+>it as more of the same thing that's been going on in the entertainment
+>industry for decades.  Big deal.
+
+Making few compromises means she does what she wants when she wants. I'm
+sure she slept with many people, for both power and pleasure. I respect her
+for that, too. Believe me, if it meant becoming a rich mega-star I could do
+the same and enjoy it.
+
+It's an economic transaction. Can you imagine having something so valuable
+that you could trade a half-hour's use of it for millions of dollars? Would
+you let your dignity get in the way?
+
+Ferengi Law of Aquisition:
+Dignity and an empty sack is worth: an empty sack.
+
+>And as for bringing aspects of the gay culture into the mainstream,
+>let's give credit to those who've earned it.  Admittedly, Madonna had the
+>savvy (and guts) to bet on the growing acceptance of gay lifestyles,
+>but gay men themselves deserve the kudos, not her.  It nauseated me
+>to watch her flaunting her grief over the AIDS death of her friend Keith
+>Harring, in _Truth or Dare_.  Dead gay friends: every gal should have one!
+
+And Madonna deserves *no* credit? I suppose other pop-culture "fag-hags"
+deserve no credit either? How about Madonna's own bi-sexuality? Can
+lesbians (Melissa Etheridge, Sandra Bernhard, etc.) get some credit, too?
+Or is it just gay men? Whenever a media personality is open and accepting
+about alternative lifestyles it enriches the culture. To put her down for
+it is bullshit. (Especially, putting her down for having grief for dead
+friend. How the **** was she supposed to represent that? What would have
+met with your approval?)
+
+>> A lot of pop-culture sucks, I know that. But lets not bash something just
+>> because it *is* pop-culture.
+>
+>I agree with you there. I'll take Tom Petty over Beethoven any day.
+
+Amusing, I'll take Beethoven over Tom Petty. To each their own.
+
+>But Madonna
+>bores me with her attempts to look like something new, as Paglia embarrasses
+>me with her awkward efforts to join the Pepsi generation.
+
+Look, I can understand not liking either Paglia or Madonna aestheticly. I
+too have found myself cringing at some of their antics, but your dismisal
+of Paglia as a trite dominatrix wannabe and Madonna as top-fourty tripe,
+rang of knee-jerk intellectual snobbery against pop-culture instead of your
+usual well thought comments. I had to object.
+
+>Also, you should keep in mind the statistical fact that, as something
+>grows more popular, it gravitates more toward the mean, and further
+>away from extremes like Extropianism.
+
+Does that include Extropianism? [A very relevant thought to me, as part of
+Team FQA. Since Dv/Dt, Mistress Romana and I are working on a book designed
+to make Extropianism more popular.]
+
+________________________________________________________________________________
+Geoff Dale                                      Mail me-> mailto:plaz@netcom.com
+AnarchyPPL Anarch                           Visit me -> http://io.com/user/plaz/
+                                     Hire me -> http://io.com/user/plaz/rez.html
+AnarchyPPL Charter ->                    http://io.com/user/plaz/AnarchyPPL.html
+________________________________________________________________________________
+    Ask not what you can do for Extropianism,
+                                 but ask what Extropianism can do *for* you.
+
+
+
+------------------------------
+
+From: sullivan@blaze.cs.jhu.edu (Gregory Sullivan)
+Date: Mon, 28 Nov 94 16:52:45 EST
+Subject: [#94-11-467] COMPUTERS: the persistence of C 
+
+Trying to predict computer language popularity in fifteen years is difficult
+in my opinion. First, you need to ask how you are measuring popularity.  You
+can use `lines written' or `lines executed' or some other measure.
+
+Nick Szabo's prediction about C does not seem to rely much on the concept of
+`information distance'. He appears to be claiming that C fits a niche which
+will remain important in fifteen years and that inertia will prevent it from
+being replaced by a comparable language. This is plausible to me but the
+niche ``efficient and also high-level'' may be changing. In C you can
+declare a variable as a register. Does this make sense with future
+sophisticated compilers for chips that may be VLIW, heavily pipelined,
+super-scalar. In fifteen years there will probably be many functional units
+on a chip. A future efficient language may be one which exposes parallelism
+effectively so that the many units on the chip can be kept busy.  C has a
+conventional thread of control.
+
+Looking back in time `Why did C become popular?' UNIX was given free/cheaply
+to universities by ATT.  OS courses could be taught using UNIX because
+source code in C was available.  UNIX multiplied.  Many C hackers were
+created. There is more serendipity to this story (e.g. the actions of ATT)
+then logical trend in my opinion.  Could the rise of C be predicted over a
+15 year timeframe?
+
+What are the popular languages now?  There are candidates that are not
+usually mentioned.  In terms of lines written or executed maybe a
+spreadsheet language (Excel macros, etc) is most popular?  What will be
+popular in the future? Below are some candidate classes of languages:
+
+Conventional (C, etc.)
+Legacy (Fortran, Cobol)
+Military (Ada)
+Spreadsheet language (Excel macros, etc) is most popular?
+High level database/development language (PowerBuilder, etc)
+Bill Gates obsession (Basic, Visual Basic)
+Functional language (Haskel, etc.)
+Mathematically oriented language (Mathematica, Maple)
+Object oriented (C++, Objective C, Smalltalk)
+and other classes I am forgetfully omitting.
+
+Some emerging classes:
+
+Network oriented agent language (TeleScript)
+Multimedia scripting (Hyperscript, ScriptX)
+
+Embryonic classes:
+
+Virtual reality oriented language manipulating objects/behaviors/layout
+Developer language for interactive set top boxes
+                     gfs
+
+------------------------------
+
+From: cactus@bb.hks.net (L. Todd Masco)
+Date: 28 Nov 1994 16:58:56 -0500
+Subject: [#94-11-468] LARVAE: Extropian kids' books, schools
+
+In article <199411280339.WAA16706@duncan.cs.utk.edu>,  <levy@cs.utk.edu> wrote:
+>> 
+>> On a related line of thought, are there any elementary or secondary school
+>> teachers (private, of course ;-) ) out there who are incorporating
+>> Extropian Principles into the curriculum?  What kind of results/reactions
+>> have you gotten?
+>
+>I have heard good things about Montessori schools.  Our own beloved Max
+>More went to one of those, and has spoken highly of it to me.
+
+I also went to Montessori schools until 3rd grade.  I view it as the most
+important thing my parents ever did for me: they teach one to *love*
+learning (though they might not have taught me to spell Montessori).
+
+I can rant for hours about the differences between the Montessori
+schools and "good" traditional schools (they claimed that the one I
+was sent to later was good -- they had no choice, since there were
+no others for kids older than 1-2nd grade in my area).
+
+My most vivid memories are of the games they had us play to learn
+mathematics (how's the "bank game" grab ya, Extropes?) and the informal
+experimentation they had us do to answer questions.  It definitely
+showed us that the learning process can be (should be) fun.
+
+I recommend, in the strongest possible terms, sending one's children
+to Montessori schools.
+-- 
+Todd Masco     | "Roam home to a dome, Where Georgian and Gothic once stood
+cactus@hks.net |  Now chemical bonds alone guard our blond(e)s,
+cactus@bb.com  |  And even the plumbing looks good."  - B Fuller
+
+------------------------------
+
+End of Extropians Digest V94 #331
+*********************************
+

@@ -1,0 +1,993 @@
+From extropians-request@gnu.ai.mit.edu Thu Apr  1 17:53:52 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA02269; Thu, 1 Apr 93 17:53:50 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from geech.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA03713; Thu, 1 Apr 93 17:53:44 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by geech.gnu.ai.mit.edu (5.65/4.0)
+	id <AA13524@geech.gnu.ai.mit.edu>; Thu, 1 Apr 93 20:41:05 -0500
+Message-Id: <9304020141.AA13524@geech.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Thu, 1 Apr 93 20:40:40 -0500
+X-Original-Message-Id: <9304020140.AA13512@geech.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0166
+X-Extropian-Date: Remailed on April 2, 373 P.N.O. [01:41:04 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest             Fri, 2 Apr 93             Volume 93 : Issue 0166
+                        
+Today's Topics:
+                           HUMOR: The Anti-Metzger                    [1 msgs]
+                          HUMOR: UFO's From Future?                   [1 msgs]
+                           Humor: The Anti-Metzger                    [2 msgs]
+                       LAW: Patent Law in Outer Space                 [1 msgs]
+                                 META: test                           [1 msgs]
+                     Outrageous Abuse of Anonymous Mail!              [1 msgs]
+                           Speech for the defense                     [2 msgs]
+                     TECH: Entropic costs of computation              [4 msgs]
+                    TECH: Entropic costs of computationt              [1 msgs]
+                       TROPIANS: Announcing a New List                [1 msgs]
+                                Traffic guide                         [2 msgs]
+                  Traffic guide - passthrough brake lights            [1 msgs]
+                               Unitarian Joke                         [1 msgs]
+                         VR: question re: P. Science                  [2 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50965 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 1 Apr 93 11:37:19 CST
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: TECH: Entropic costs of computation
+
+This post will be rather long -- I figured it was better to respond
+to everything at once than make little snippets.  Plus, this way I can
+pull out excerpts (hopefully not out of context!) to illustrate the
+points I want to make.  Thanks to everybody who has participated so
+far in this discussion.  I hope it can continue, because nothing at all
+has been settled.
+
+First, for the purposes of discussion, let's restrict our attention to
+molecular rod-logic computers, because they are the subject of JoSH's
+article in Extropy #10, they are the only design I've seen for which
+the tiny supposed entropic costs mean anything, and they allow us to
+dispense with considerations of electricity.  Now, there are two
+distinct issues involved here:
+
+1) Heat dissipation caused by the mechanism itself.  This is what Tom
+   Litow seemed to be talking about when he wrote
+
+> the heat produced is from the work done by the electric
+> current through a resistive medium, and I would expect the
+> total entropy of the computational system to thereby increase -
+> "caused" by the electric current, _not_ any change in uncertainty
+> in our knowledge of the register contents.
+
+This is an interesting issue of its own, but Tim May points out:
+
+> The effect Derek is referring to--and questioning--is much
+> more basic and subtle than stuff about resistive heating of
+> wires...it is basic to the nature of computation.
+
+In particular, what I am questioning is the necessity of taking
+special care to make the computation "reversible" -- by somehow
+recording intermediate states of the computation.  In Tom's explanation,
+such mechanisms would INCREASE the dissipation because there are more
+rods banging into one another.  So that's not it.
+
+Ray Cromwell's point is similar to Tom's in that it doesn't talk about
+information per se.  He imagines a digital gate which takes three inputs
+and produces one output and wonders where the extra energy goes.  However,
+as he points out, this might not apply to rod logic and anyway this problem
+has nothing to do with _inherent_ costs to computation, just to dissipation
+caused by banging around electrons or rods.
+
+2) Hal Finney introduces the subtler issue at hand:
+
+> any write operation (whether a 0 or a 1) will cost energy
+> because you have forgotten what value was held before.  It is the act
+> of forgetting which causes the energy cost.  The operation is irreversible:
+> 0->0  and  1->0  would be the state transitions for writing a zero.
+
+See my response below to JoSH's article for my complaint about this.
+
+> Now, theoretically, if you could deduce what had been there before even
+> after you have written the zero (like, if it was an earlier result of
+> the calculation which can be deduced from the current global state of
+> your computer), then you haven't lost information and in principle the
+> 0 could be stored without costing energy.
+
+Here's where it gets tricky.  I will present my confusions by arguing
+a contrary case; hopefully somebody will point out the flaws in my arguments.
+
+1) It is ALWAYS "theoretically" possible to "deduce what had been there
+   before" (time t - 1) in the case of deterministic computations -- simply
+   restart the computation from its initial state and run it until time
+   t - 1 and look!  That sounds stupid, but really isn't different from the
+   "unwinding" involved in the cascade-thingie.
+
+2) The physical laws that caused the rod-jostling in the first place
+   are reversible -- NO MATTER WHAT, nothing has been "erased" -- simply
+   reverse the velocities of the particles and you'll get back the
+   old value!  This argument is the crux of my displeasure at the "macrostate"
+   view of nanocomputers and demons, and I will expand on this below.
+
+3) Who is the 'you' in Hal's "theoretically, if you could deduce what had
+   been there before"  ???  An omniscient being, or an actual observer?
+   This is critical.  If omniscient, see argument (2); if actual, then
+   what is to be the time unit of our deduction?  I'll NEVER be able to
+   deduce a preceding microstate from my observation, for ANY delta T in
+   the past.  Do I have to pay a penalty for that in a continuous fashion?
+   If not, who decides what time in the past corresponds to the penalty
+   point?  Can I go all the way back to the beginning of the computation?
+
+Now, a technical detail or two.  In Schneider's J Theor Biol article,
+he deduces teh supposed dissipation minimum:
+
+deltaS = -k log2(R)    [k is Boltzmann's constant]
+
+  where deltaS is the change in entropy and R is the gain of information,
+  and this equation "gives a direct, quantitative relationship between the
+  decrease in entropy of a molecular machine and the information that it
+  gains during an operation"  [I will ignore for now the wanton disregard
+  for units in the derivation of this formula, but may come back to it
+  later -- more obvious objections first].
+
+  * what is an *operation*?  Is there an a priori basis for choosing how
+  an operation is defined?  Suppose I define an operation as an entire,
+  involved computation, running for a bazillion years -- the program is
+  such that it leaves the memory of the machine in the same state in which
+  it started except that the single output bit (it's a yes/no computation,
+  for the purpose of example) gets set to the answer.  I've only gained
+  one bit of information, regardless of whether there's special "reversibility"
+  mechanisms inside the computer.  Right?
+
+I will finish this by referring to JoSH's article in Extropy #10, where
+he tries to make all this clear; however, he just confused me even more.
+Apparently, the idea is supposed to be that if the machine is in a particular
+"macrostate", and then we write a zero into some (1-bit) register, then the
+number of microstates that could make up the new macrostate is smaller,
+unless we dissipate some energy, since the "macrostate" of the machine after
+the operation has a zero in that register, but the previous "macrostate"
+could have (from the point of view of the later macrostate) had a one or
+a zero in that register -- a macrostate with twice as many microstates as
+the macrostate afterward.
+
+But this is completely silly because of the arbitrary selection of what
+we choose to call a "macrostate", and which parts of the machine we
+include in that description.  JoSH says "This does sound a bit strange",
+and then goes on to explain with Maxwell's Demon.  I didn't see how
+that explained anything at all!  Whether or not the Demon records the
+things it did, the resulting state can be reversed quite simply by reversing
+the velocities of the particles:  that is, in reality there has been no
+change in the volume of the phase space -- the only way it would appear
+that way is with a particularly pernicious choice of "macrostate" -- and
+I can ALWAYS choose macrostates in such a way that the same problem will
+occur, by arbitrarily choosing to leave out as "unobserved" particular
+aspects of the starting or final state.
+
+Help!!!
+
+derek
+fnord
+
+------------------------------
+
+Date: Thu, 1 Apr 93 10:27:19 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: TROPIANS: Announcing a New List
+
+I've gotten fed up with all the revisionist bickering and historical
+digressions on this so-called List. So I'm leaving this list and forming my
+own list in the time-honored tradition of religious schisms.
+
+The Tropians List will be devoted to *turning* in all forms, not just
+"in-turning" (entropy) or "out-turning" (extropy). We will spin in circles,
+turn toward the sun, plant Tropian colonies in the tropics, study
+postmodern tropes in the English language, give ourselves trophies for our
+puns, and turn in our neighbors for nontropian activities.
+
+
+The Tropian Principles, Version 1.0
+
+1. Polynomial Expansion - Seeking many terms and many factors, an unlimited
+Taylor series of opportunities. Overcoming limits of the bounded form,
+implicitly irrational and unendingly diverging.
+
+2. Impulsive Disorder - Promotion of transient, emergent social
+disorganization mechanisms. Spinning, dancing, hot tubbing, and other
+disorders. (Not to be confused with the Illuminati-inspired Branch
+Discordians.)
+
+3. Dynamaxian Opticalism - We see the world through Bucky's eyes, seeking
+the geodesic arc to bliss. Rejecting both Blind Faith and Traffic, we strut
+our stuff. "Totally Buckytubular" is our transnanotech motto!
+
+
+
+Join me in this new Tropian adventure. We can really turn this into a
+celebration of turning in all its forms. 
+
+Send your request to: "tropians-request@klaus.bang.april.com"
+
+Hoping for a big turnout.
+
+
+-Klaus! von Future Prime, Ex-Extropian ("X Squared"), Founder of Tropians
+
+
+
+------------------------------
+
+Date: Thu, 1 Apr 93 11:10:50 PST
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: HUMOR: UFO's From Future?
+X-Reposting-Policy: Redistribute freely
+
+I've been interested in UFO's since I was a boy.  Our public library
+had lots of books about flying saucers, aliens, sightings, etc.  I
+would read these at night and get a deliciously scary thrill imagining
+aliens hiding in the shadows.
+
+Today, though, I am totally skeptical about these issues.  I am an amateur
+astronomer and a private pilot so I've spent a fair amount of time watching
+the skies.  I've never seen a UFO or anything like one.  Some of the material
+presented on TV as mysterious and unexplainable is transparently obvious.
+One show depicted a mysterious light in the sky moving in crazy jiggles
+and changing colors rapidly.  This was clearly a case of a hand-held camera
+with poor "seeing" (turbulent air) leading to the color changes.  These kinds
+of color flashes are common and pretty sights through the telescope.
+
+Once I drove 200 miles to see the mysterious "ghost lights" of Marfa, TX.
+I saw lights, but they looked to me to be due to atmospheric refraction.
+I had hoped for something far more dramatic and was disappointed.
+
+The wild stories of UFO abductions and alien attacks I have to assign
+to fantasy.  The even wilder stories about the U.S. government working
+with or warring against these aliens fall into the same category.  The world
+would be a more interesting place, perhaps, if these stories were true.
+But for me there are simpler and more concise explanations without invoking
+supernatural alien powers.
+
+Hal Finney
+hal@alumni.caltech.edu
+
+------------------------------
+
+Date: Thu, 1 Apr 1993 11:26:23 -0800 (PST)
+From: Scott C DeLancey <delancey@darkwing.uoregon.edu>
+Subject: Speech for the defense
+
+Krzys' says:
+
+> As much as I despise hippies,
+
+Urk.  
+
+I know it would take some stretching and twisting to make an
+Extropian-relevant topic out of this, but as an old-time hippy
+I can't let this one pass:
+
+> The entire hippie movement was about sacrifice.
+
+Huh?  Krzys', whatever are you talking about?  I'm used to hearing
+slams like Dale's on hippiedom as pathologically self-absorbed and
+narcissistic, and usually don't even bother to argue with it, though 
+it's more a caricature than a useful assessment of the phenomenon.
+But "about sacrifice"?  Sacrifice of what, to what?  I can't even
+beginning to imagine what you might have in mind here.
+
+Scott DeLancey
+
+
+
+------------------------------
+
+Date: Thu, 01 Apr 93 20:36:53 +0100
+From: Rich Walker <grlw1@cus.cam.ac.uk>
+Subject: Traffic guide
+
+I've pondered the matter of improving body transporting facilities a little,
+and my personal two favourite methods are:
+1) The old Batman movie where the world leaders (? Ambassadors?) get 
+dehydrated, and later rehydrated. Given the rather good results obtained there
+from mixing individuals, either people could be shipped in test-tube form, or
+for moments where it was more important to get lots of people moved than to get
+specific people moved (rush hours, football games, military manoeuvers, office
+parties moving to the restaurant) just dehyrate them, and tip them all into a
+bulk-tanker... The blending could do wonders for removing cultural and social
+inhibitions... (;->, in case you didn't guess)
+2) Proximity detection, hooked into the steering and engine. Not a nasty harsh
+system, just something that made it harder to do silly things. So, the front 
+detector is hooked up to the brakes, and the rear to the accelerator; the side
+detectors go sirectly into the steering. Then, if you get too close to something
+at the sides, the car tends to drift away from it. If you're too close to the c
+car in front, you slow down. And so forth.
+  This has one or two neat features: if properly calibrated, parking in tight
+spaces could be done by pointing the car at it, and rolling forwards; the 
+system manages (most of) the obstacle avoidance. Also, it _should_ serve to
+eliminate one of the main causes of traffic jams: driver reaction time. If
+ten cars are waiting at the lights, and the front one moves, it takes, IMHO,
+2-4 seconds for each later driver to start moving. Cut this down to .2 to .4 
+seconds, and you can get 10 times the number of cars through a green light...
+  Okay, I'm sure someone is going to regard this as infringing on their
+freedom as a driver; myself, I regard it as an incitement to exceedingly lazy
+driving.
+  (Incidentally, note that this system would provide almost-automatic car tr
+trains; the only problem being to keep them together when the front one turns.
+If they're on a major road with barriers centre and sides, then hopefully they
+should be tending to avoid the barriers sufficiently to prevent the train
+breaking down at a curve)
+
+Rich! (lacking a signature, thru' lacking an X-term)
+
+------------------------------
+
+Date: Thu, 1 Apr 93 13:25:20 EST
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: Unitarian Joke
+
+> ...Near as I can tell, most of the 
+> children raised as Unitarians grow up to be plain atheists.  (Though I 
+> understand there is an east to west gradient with the east coast 
+> Unitarians believing in something like god one day in three, and the 
+> west coast ones doing so one day a month.  :-)  ) 
+
+Hmph.  And I thought Unitarians worshiped the god Unitar.
+
+-fnerd
+
+------------------------------
+
+Date: Thu, 1 Apr 93 11:38:30 PST
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: TECH: Entropic costs of computation
+
+From: derek@cs.wisc.edu (Derek Zahn)
+> 
+>   Suppose I have a machine that executes the following operation:
+>   Register A := Register A + Register B.  Now, supposedly this
+>   sort of operation must pay a penalty for erasing the bits in
+>   Register A.  But entropy as usually presented is a measure of
+>   uncertainty, which would imply that the uncertainty about the
+>   machine state has supposedly gone down (thus I must pay that
+>   back somehow with heat or some other disordering process).  But
+>   surely it hasn't!  I knew what the machine's state was before,
+>   and I know it now.  If anything, I'm less sure because it could
+>   have malfunctioned.  Put another way, there is no information
+>   gain involved here, whether rubegoldbergian cascade-type mechanisms
+>   are in place or not.  What gives?
+
+I am not expert on this topic, but I will make a couple of points.
+First, as it happens, Derek's specific example of A:=A+B is reversible.
+At the end of that calculation it can be reversed by A:=A-B.  So
+there is no inherent change in the information.
+
+A simpler example is A:=0.  This is not reversible.  (There is nothing
+magical about the '0'; any constant could be used.)  Now, paraphrasing
+Derek's argument, I knew what A was before (it was whatever was there)
+and I know what it is now (it is 0).  What is the change of information?
+
+The difference is that the set of possible values available for A has
+changed.  Previously A could have held anything.  Now it holds 0.  We
+have therefore compressed the phase space and so we have gained information.
+Think of A's previous value as being the result of observing some random
+process and the phase space change becomes clearer.
+
+(Now, if you say, what if A's value was _not_ random, but simply an
+intermediate result in the calculation?  Then we have one specific and
+reproducable value transforming into another and there is no phase
+space change.  I discuss this below; in principle such a transformation
+of A could be done with no cost, but in practice if A is physically
+constructed such that it _could_ hold a random value and then be
+cleared, then physical principles will require the clearing operation
+to be costly.  So even if it happens that A didn't hold a random value
+_this_time_, its construction will be such that there will be a heat
+cost when we store the 0.)
+
+> A tangential question:  It's been said that a coin that has been
+> flipped must pay the penalty for one bit (heads/tails), but what
+> if I'm interested instead in which of 1,000,000 evenly-spaced
+> rotations that the coin ends up in?  Same coin, same toss, but
+> now (because I have a different intent when watching it??!) it
+> must pay the penalty for about ten bits.  Doesn't that seem sort
+> of silly?
+
+I think it would be more true to say that a coin which has been flipped
+must pay the penalty for at least one bit.  More generally, any irreversible
+physical process must pay the penalty for all the information that could
+be derived from it.  The limitation on the information derivable will
+be thermal, in my view.
+
+Drexler's rod logic calculations assume only the one bit's worth of
+information must be lost as heat.  Actually, if a rod could be measured
+with more than one bit of precision then perhaps more than one bit's worth
+must be lost, as I see it.  However, his rods are so tiny that thermal
+fluctuations will prevent much more than one bit from being measured, so
+perhaps his numbers are not too far off.  I seem to recall he was using
+information considerations to produce lower bounds, anyway.
+ 
+> Perhaps what's implied somehow is that MY uncertainty is reduced,
+> and the physical measurement process required to perform that
+> reduction is the cause of the balancing entropy.  But if this is
+> so, surely it is only the RESULTS (state of output bits at some
+> time) that must be measured, which would be independent of the
+> number of computations used to produce them.
+
+I think you're right that in principle you have to look at the different
+entropies of the inputs and outputs of a calculation in order to derive
+the minimum heat cost.  But in practice I'm not sure that a computer
+could be constructed to only feel such a global constraint.  If one register
+gets stored to I think there will be a heat cost, even if the information
+is saved elsewhere in some form.  This is the price you pay for a modular
+design; it is less efficient than the theoretical maximum.
+
+The main sources I've used for learning about these topics are some papers
+by Charles Bennett.  He also has had a couple of Scientific American
+articles.
+
+Hal Finney
+
+------------------------------
+
+Date: Thu, 1 Apr 93 15:12:39 EST
+From: sulko-m@acsu.buffalo.edu (Mark A. Sulkowski)
+Subject: HUMOR: The Anti-Metzger
+
+From: Harry Shapiro <habs@Panix.Com>
+X-Original-Message-Id: <199304010244.AA26203@sun.Panix.Com>
+>A common disorder of psychotic christians is they think they are
+>Jesus Christ.
+>
+>I guess psychotic Extropians will think they are the Anti-Metzger ;)
+
+	Hey!  What do you mean psychotic?!?  What are you implying?
+
+	(Now where did I put those war-nanomachines...)
+
+
+Branch Anti-Metzger member since 4/1/93
+===============================================================================
+|   |\    /|    | "But we must not follow those who advise us, being men, to  |
+|    \\  //     | think of human things, and, being mortal, of mortal things, |
+|     \\//      | but must, so far as we can, make ourselves immortal..."     |
+| Mark \/enture |                 - Aristotle, _The Nicomachean Ethics_       |
+===============================================================================
+
+
+------------------------------
+
+Date: Thu, 1 Apr 93 12:29:48 PST
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: TECH: Entropic costs of computation
+
+Derek Zahn asks about entropy of computation, and Ray Cromwell was
+kind enough to quote from my reversible agents paper (available on
+request).  There are many good reviews of this material, such as in
+the refs Tim May gave, and the basic ideas really are very simple once
+you "get" them.
+
+But even so, there are many otherwise smart people very confused about
+these things, and this is a poor forum for interactive tutorials.  If
+"challenged" on this subject I would much rather hold a phone
+conversation.  
+
+It's interesting that there are such subjects; so difficult to "get",
+but so simple and easy to "see", and yet so powerful, once you get it.
+I love, perhaps more than anything else, to "get" more and more such
+insights.
+
+Robin Hanson
+
+
+------------------------------
+
+Date: Thu, 1 Apr 1993 15:23:31 -0500 (EST)
+From: rjc@gnu.ai.mit.edu
+Subject: TECH: Entropic costs of computationt
+
+Derek Zahn writes:
+> Here's where it gets tricky.  I will present my confusions by arguing
+> a contrary case; hopefully somebody will point out the flaws in my arguments.
+> 
+> 1) It is ALWAYS "theoretically" possible to "deduce what had been there
+>    before" (time t - 1) in the case of deterministic computations -- simply
+>    restart the computation from its initial state and run it until time
+>    t - 1 and look!  That sounds stupid, but really isn't different from the
+>    "unwinding" involved in the cascade-thingie.
+
+    I think Hal means in devices which don't throw away information used
+in the computation. (e.g. Fredkin gates. That is, if your computation
+adds two numbers together and outputs the result. You can reverse the
+operation if you save atleast one of the original numbers. )
+
+> 2) The physical laws that caused the rod-jostling in the first place
+>    are reversible -- NO MATTER WHAT, nothing has been "erased" -- simply
+>    reverse the velocities of the particles and you'll get back the
+>    old value!  This argument is the crux of my displeasure at the "macrostate"
+>    view of nanocomputers and demons, and I will expand on this below.
+  
+    But heat dissipation is kind of hard to reverse.  
+
+> But this is completely silly because of the arbitrary selection of what
+> we choose to call a "macrostate", and which parts of the machine we
+> include in that description.  JoSH says "This does sound a bit strange",
+> and then goes on to explain with Maxwell's Demon.  I didn't see how
+> that explained anything at all!  Whether or not the Demon records the
+> things it did, the resulting state can be reversed quite simply by reversing
+> the velocities of the particles:  that is, in reality there has been no
+
+   But how do you simultaneously reverse the velocities of all particles
+in the box? I don't even understand how Josh's demon is supposed to work.
+If the demon has somehow managed to record the _exact_ position and velocity
+of every particle on his tape, he still has to contend with a huge N-body
+problem to calculate when to close and open his door. If the demon 
+runs a simulation of all particles in the box, he will atleast duplicate
+the entropy of the real system in the box.
+   As for erasing the tape, why not have the demon orbit a blackhole
+and jettison the tape into the blackhole after the operation? ;-) Doesn't
+that violate the second law by decreasing the total entropy? (unless
+of course, it takes more entropy to assemble the demon in the first place).
+
+   Why does erasing bits require energy dissipation? Why not set up your
+bit storage system so that erasing a bit returns energy to the system?
+
+  I guess I need a copy of nanosystems so I can see a thorougly documented
+rod-computer design. Josh's examples are nice, but they aren't complete.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 1 Apr 1993 15:46:00 -0500 (EST)
+From: rjc@gnu.ai.mit.edu
+Subject: META: test
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 1 Apr 1993 15:23:06 -0600
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: TECH: Entropic costs of computation
+
+In <9304012029.AA10061@geech.gnu.ai.mit.edu>, Robin Hanson writes:
+|> Derek Zahn asks about entropy of computation, and Ray Cromwell was
+|> kind enough to quote from my reversible agents paper (available on
+|> request).  There are many good reviews of this material, such as in
+   ^^^^^^^
+OK! I'd like to read that!
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+
+
+
+------------------------------
+
+Date: Thu, 1 Apr 1993 14:20:20 -0800
+From: lefty@apple.com (Lefty)
+Subject: VR: question re: P. Science
+
+Ed Lane writes:
+>If you're not familiar with Marilyn [Vos Savant], she *is* the smartest person 
+>on the planet (IQ = 230).
+
+Truly?
+
+What exactly has she _accomplished_, other than obtaining a job answering
+trivial questions in Parade magazine?  By the way, my own IQ is officially
+unmeasurable: the last time I took a Stanford-Binet, I didn't get any
+answers wrong.
+
+An interesting, but not terribly useful, definition of intelligence you
+have there.
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: Thu, 1 Apr 93 17:31:53 -0500
+From: Anonymous <nowhere@bsu-cs.bsu.edu>
+
+Extropians,
+
+Help! I've been trying all day to reach this new list, called "Tropians"
+but all I get are error messages. I sent  mail to
+"tropians-request@klaus.bang.april.com" but it bounced. I tried to finger
+the site "klaus.bang.april.com" but got an error message saying "If you
+finger this site, this site will finger you." What's it all mean?
+
+Does anybody know who this guy Klaus! is? Somebody said he's really Jeff
+Harrington, somebody else said he's a reincarnation of somebody named
+Pandit Singh.
+
+Is this some kind of joke? I don't get it.
+
+What a day to be so confused!
+
+-A. Newby
+
+
+
+------------------------------
+
+Date: Thu, 1 Apr 93 14:48:56 PST
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: Traffic guide
+X-Reposting-Policy: Redistribute freely
+
+Along the lines Rich suggested, I agree that a proximity detector system
+would be useful.  I'd like to see sensors on all four sides of the car
+which produce a map of the traffic situation surrounding the car.
+
+I drive the freeways quite a bit, and I think it would be easy to design
+a sensor to watch for the lane line and keep the car a certain distance
+from it.  It would steer back and forth to keep you in the lane.  If
+you combine this with a front proximity detector (radar or visual based),
+it could slow you down if you approached a car.  It wouldn't be able to
+change lanes, but you could think of it as a "super cruise control" for
+easy driving.
+
+You'd want to make sure the lane line wasn't going to disappear unexpectedly.
+But this would be a much easier task for the road maintenance people to
+undertake than adding new flashing lights or radio transmitters to the
+road.  Just have them guarantee a lane line.  Maybe some change in the
+lane pattern alerts the driver (via a beep from the lane follower) that
+your lane is about to disappear.
+
+The lane line detector could be as simple as three photodetectors aimed
+at the road near the left front bumper - the middle one for a "correct"
+distance, and inner and outer ones for corrections.  In practice you'd
+want more for redundancy.
+
+For this to work nicely, you'd first want "drive by wire" control of your
+car.  I'm tired of steering wheels, accelerator and brake pedals.  I want
+a joystick.  Push forward, speed up; pull back, slow down; side-to-side
+means turn.  With a system like this adding computer control would be a
+lot easier.
+
+Autopilots are common on private airplanes.  They keep the wings level
+and can keep you on course.  You still have to look out for traffic and
+be ready in case the autopilot fails.  Similar advantages would come from
+a car autopilot.
+
+Most of these things could be done on a per-car basis without having to
+change society (except a few adjustments to the liability laws ;-), and
+they bring direct benefits to the owner.  At last you can read the paper
+while you drive to work.
+
+Hal Finney
+hal@alumni.caltech.edu
+
+------------------------------
+
+Date: Thu, 1 Apr 93 18:42:20 EST
+From: sulko-m@acsu.buffalo.edu (Mark A. Sulkowski)
+Subject: LAW: Patent Law in Outer Space
+
+	I wonder if someone here can help me.
+
+	I have heard that just recently (within the past year or two)
+patent law was extended to allow patents to apply to research done in
+outerspace.  I need to find out what the details are.  Specifically,
+let's say that some vibrational tests were performed in orbit.  Could
+the data or equations resulting from study of such data be patented?
+
+
+===============================================================================
+|   |\    /|    | "But we must not follow those who advise us, being men, to  |
+|    \\  //     | think of human things, and, being mortal, of mortal things, |
+|     \\//      | but must, so far as we can, make ourselves immortal..."     |
+| Mark \/enture |                 - Aristotle, _The Nicomachean Ethics_       |
+===============================================================================
+
+
+------------------------------
+
+Date: Thu, 1 Apr 1993 18:52:04 -0500 (EST)
+From: Carol Moore <cmoore@cap.gwu.edu>
+Subject: Humor: The Anti-Metzger
+
+While I ignore most of Perry's posts, including
+the current thread about names and the Holocaust,
+I have been sitting here saying -- what about
+the 2 million Irish who died in the Irish potato
+famine and the other 2 million who had to flee
+to America?  And that wasn't the result of any
+high faluting philosophy--even twisted nazims--
+it was just plain old ethnic superiority of
+the English and the refusal to allow the import
+of food or to stop exporting food to feed the
+starving.  Happily, the Irish aren't continually
+reminding the world about it, but many of us,
+even over here, still remain quite annoyed
+at the English oppressors at that one!
+Thanks for letting me share!!
+
+Carol O'Moore (whereever moore was...)
+
+
+
+
+On Wed, 31 Mar 1993, Harry Shapiro wrote:
+
+> A common disorder of psychotic christians is they think they are
+> Jesus Christ.
+> 
+> I guess psychotic Extropians will think they are the Anti-Metzger ;)
+> 
+> /harry
+> -- 
+> Harry Shapiro  				      habs@panix.com
+> List Administrator of the Extropy Institute Mailing List
+> Private Communication for the Extropian Community since 1991
+
+
+
+
+------------------------------
+
+Date: 	Thu, 1 Apr 1993 16:15:51 PST
+From: Jerry_Wedekind.ES_CP8@xerox.com
+Subject: Traffic guide - passthrough brake lights
+
+I have skipped this thread until now, but happened to read Hal's latest, and
+presume the topic has to do with using technology to improve traffic safety (so
+that we may improve our chances of a graceful deanimation).
+
+Has anyone mentioned the idea of "pass-through" brake lights which turn on when
+the brake lights of the car ahead turn on?  One of many possibilities is that
+these would supplement standard brake lights.  The pass-through sensor could
+not assume that the car in front had pass-through lights, of course; it would
+have to look for standard brake lights (lights of the right color, direction
+and spacing, which turn on in unison, etc.)
+
+Unfortunately, my perception is that a technology-based safety innovation which
+directly or indirectly causes one horrible accident for every 100 it prevents
+will probably itself die a horrible death in the civil courts (again, sorry for
+any redundancy).
+
+Cheers,
+Jerry
+
+------------------------------
+
+Date: Thu, 1 Apr 1993 16:30:48 -0800
+From: nobody@pmantis.berkeley.edu
+Subject: Outrageous Abuse of Anonymous Mail!
+
+"Anonymous" writes (is he ashamed to let us know who he is?):
+
+>Extropians,
+>
+>Help! I've been trying all day to reach this new list, called "Tropians"
+>but all I get are error messages. I sent  mail to
+>"tropians-request@klaus.bang.april.com" but it bounced. I tried to finger
+>the site "klaus.bang.april.com" but got an error message saying "If you
+>finger this site, this site will finger you." What's it all mean?
+
+I for one am sick and tired of these infidels posting their anonymous
+messages on this list! I believe anonymous posting violates the Fair Truth
+in Speech Act of 1990 and may be grounds for having the free speech license
+of this list revoked.
+
+I am following the example of my friend David Sternlight and am writing to
+the site administrator at gnu.ai.mit.edu and asking that the "Extropians"
+list be removed! Many of the articles I have seen their are disrespectful
+to government and even advocate disobedience! I use the other services at
+gnu.ai.mit.edu and would not want my access to those services jeopardized
+by the irresponsible actions of the disobedient few who place their
+interests above the interests of the many.
+
+Since malicious hackers have been known to retaliate against these kinds of
+responsible actions by good Net citizens, I regret to say that I have
+chosen to use a pseudonym here.
+
+With no little irony,
+
+Your servant, 
+
+Nobody
+
+
+.......................................
+ Mohammed X. Anubi, anubi@.scheherazade.baghdad.edu
+Grad Student, Department of Camel Husbandry Studies, University of Baghdad 
+"The Will of Allah Shall Be the Whole of the Law."
+
+
+------------------------------
+
+Date: Thu, 1 Apr 1993 20:06:42 -0500 (EST)
+From: rjc@gnu.ai.mit.edu
+Subject: VR: question re: P. Science
+
+   IQ tests are a poor way of measuring intelligence. You can "learn"
+to beat them. My IQ was tested to be about 183 a few years ago, but
+nothing on the test required "raw" intelligence.
+
+   IQ tests should test short term memory capacity, spacial and
+linguistic perception, computation and creative power, but these are
+hard to test objectively and probably meaningless anyway.
+
+   I tend to think that Newton, Gauss, Archimedes, Riemann, and Einstein
+were true geniuses but that is based totally on historical evidence
+of their problem solving capability. No doubt, some of the stories are
+false.
+
+   
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 1 Apr 93 16:45:52 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Humor: The Anti-Metzger
+
+Carol Moore contributes to the spirit of this day:
+
+>While I ignore most of Perry's posts, including
+>the current thread about names and the Holocaust,
+>I have been sitting here saying -- what about
+>the 2 million Irish who died in the Irish potato
+>famine and the other 2 million who had to flee
+>to America?  And that wasn't the result of any
+>high faluting philosophy--even twisted nazims--
+>it was just plain old ethnic superiority of
+>the English and the refusal to allow the import
+>of food or to stop exporting food to feed the
+>starving.  Happily, the Irish aren't continually
+>reminding the world about it, but many of us,
+>even over here, still remain quite annoyed
+>at the English oppressors at that one!
+>Thanks for letting me share!!
+
+And thank you for sharing a great April Fools Day satire with us! Comparing
+the Irish potato blight famine to the Nazi death camps! What a hoot! To add
+to this joke, did you hear how the English commissioned I.G. Farben to
+manufacture the potato blight virus that killed the potatoes?
+
+And I agree with you that those Jews should just stop "continually
+reminding the world about it." Why can't those pesky Jews be peaceful like
+the Irish folks in the IRA (the Irish Renaissance Association, devoted to
+Celtic music festivals). The whinings of these Jews really gets my irish
+up.
+
+P.S. There are something like 30 million Irish-descended Americans in
+America today, compared to about 5 million in both parts of Ireland, so the
+potato blight of the 1840s and the resulting emigration probably was a net
+benefit for the "Irish race."
+
+- Tim May, descended from English and Viking oppressors of the Irish
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+Date: Thu, 1 Apr 93 19:57:14 -0500
+From: Clark Reynard <clark@metal.psu.edu>
+Subject: Speech for the defense
+
+In response to Dale Worley:
+
+I find your theory interesting; I do believe that in many cases what
+is known as 'corporal punishment' is necessary, but that it has often
+been over-used or mis-used entirely.  I believe that corporal punishment
+is to be used only in cases in which it would prevent greater harm to
+the child to avoid it.  For example, I believe--that even a "Spock" 
+parent would agree that running across a busy intersection or drinking 
+poison would be a behavior to be discouraged in the strongest possible
+way.  No one but a fool would claim that it was best to allow a child
+to kill itself out of ignorance.  
+
+However, where the line is drawn is of utmost importance; for example,
+beating a child on a refusal to go to bed might be considered cruel
+if administered upon even a token resistance by the child.  However,
+if the child then proceeded to throw a tantrum, destroy items, and
+basically be 'intolerable to be around,' I, and many others, would 
+believe that something other than logic was that for which the 
+situation called.  However, behaviorists have shown--I am certain
+that even the word 'behaviorist' is an obscenity in some circles--
+that it is often quite enough merely to isolate the child in a neutral
+environment until such time as the child will behave in an acceptable
+manner.  Another option is the so-called 'token economy' in which
+a preferred behavior is rewarded by a 'token,' either physical or,
+in children old enough to comprehend abstractions, some form
+of appreciation, to be represented in allowing the child some
+activity or treat.  For example, NOT causing a scene (the 'bribe'
+of which Worley spoke) would be worth a token, whereas some positive
+behavior, such as making the dinner table without being asked to
+do so, might be worth ten.  An ice cream cone might require a token,
+whereas some desired activity (a movie and popcorn with a friend)
+might be worth ten.  The only difficulty with this sort of system
+is that often its benefit fades when the system is no longer implemented,
+as it basically requires no moral lesson to be taught, but only
+a practical lesson.
+
+However, whether or not this instills discipline is not decided;
+in one paragraph, Worley berates the selfish hippie generation,
+not mentioning the fact that often this supposedly selfish group
+was able to face physical violence in the name of an ideal; on
+the other hand, he criticizes the lack of discipline of this generation,
+which has paradoxically gone on from idealism to seventy-hour work
+weeks for material objects.  The simple fact is that the hippie
+generation was anything but selfish, and also anything but 
+disciplined; whereis the yuppie generation it has become is
+quite selfish, but certainly disciplined.  
+
+Whether this might be related to the rearing of this generation is
+yet to be determined; in college, often this generation failed 
+miserably, as college brings no concrete, immediately-tangible
+rewards; however, in a work environment, this generation has
+been remarkably successful; it is worthwhile to note that today's
+work environment closely resembles the 'token economy' in which
+many of these children were raised.
+
+Of course, this is a vast oversimplification, but may be valid
+for proposing hypotheses.  Simply, I believe that Worley is both
+right and wrong, but the ways in which he is wrong are, I find,
+more interesting than the ways in which he is right.
+
+fc
+clark@metal.psu.edu
+ 
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0166
+****************************************
+

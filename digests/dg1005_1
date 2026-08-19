@@ -1,0 +1,548 @@
+From extropians-request@extropy.org Wed Oct  5 03:01:27 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id DAA06823 for <more@chaph.usc.edu>; Wed, 5 Oct 1994 03:01:22 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA27047; Wed, 5 Oct 94 03:01:18 PDT
+Received: by news.panix.com id AA14586
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 5 Oct 1994 06:01:15 -0400
+Date: Wed, 5 Oct 1994 06:01:15 -0400
+Message-Id: <199410051001.AA14586@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-10-51 - #94-10-66
+X-Extropian-Date: October 5, 374 P.N.O. [06:00:57 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Wed, 5 Oct 94             Volume 94 : Issue 277
+
+Today's Topics:
+                               "Proof" in Math                        [2 msgs]
+                                Book of Enoch                         [2 msgs]
+                               Interface .....                        [1 msgs]
+                    MRI and it's resolution from Dr. Chao             [1 msgs]
+                               Neural Darwinism                       [1 msgs]
+                          Non Destructive Uploads ?                   [2 msgs]
+                           Non-destructive upload?                    [2 msgs]
+                          Recursion, science and God                  [1 msgs]
+             SCI/COMP/CRYPT: Goodbye RSA, hello Quantum Computer      [2 msgs]
+                       The pitfalls of futurology (fwd)               [1 msgs]
+                             X rays for uploads ?                     [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 29465 bytes.
+
+----------------------------------------------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Tue, 04 Oct 1994 08:01:09 GMT
+Subject: [#94-10-51] Non Destructive Uploads ?
+
+John K Clark writes:
+>  A run of the mill Magnetic Resonance Imaging machine (MRI) can
+> make a 3D image of an entire LIVING , conscious brain without
+> radiation. It can revel structures so small it would take a good
+> magnifying glass to see. If the resolution were 100 times better
+> perhaps we would have enough information to upload
+
+Hmmm.  Would that resolution let us see neurotransmitter vesicles 
+sizes and numbers and types at synapses (which probably relate to the 
+connection "weights") and the identify various neurochemical 
+concentrations in glial cells (which may be involved in long-LTP)?
+
+Michael Price          price@price.demon.co.uk
+
+------------------------------
+
+From: Michael Clive Price <price@price.demon.co.uk>
+Date: Tue, 04 Oct 1994 07:56:45 GMT
+Subject: [#94-10-52] Book of Enoch
+
+L. Todd Masco writes:
+> GREG NEWTON <gnewton@ozemail.com.au> wrote:
+>> I have a copy of the Book of Enoch from Victoria University NZ. It
+>> makes for *very* interesting reading - in fact when read along with
+>> the Bible, a whole different story appears, and many "translation
+>> errors" seem to come clear.  Definitely recommended reading if 
+>> this is where you're at in a personal study of religion.
+> 
+> If there's anybody in NYC who'd like to read this, I have a copy
+> (from the days when I was much more interested in religion research
+> than I am at this moment) that I'm willing to lend out.
+
+I'm not in NYC, but I'd be interested to read this, or a summary, if
+someone has the time to scan in.  Isn't Enoch one of the 3 or 4 biblical
+immortals?
+
+Michael Price          price@price.demon.co.uk
+
+------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Tue, 4 Oct 1994 06:29:58 -0700 (PDT)
+Subject: [#94-10-53] SCI/COMP/CRYPT: Goodbye RSA, hello Quantum Computer
+
+In terms of most everyday uses of RSA (such as in PGP for the
+remailer network), declaring the "end of RSA" is premature.  
+The technical problems, such as the need for practically atomic 
+scale accuracy in the quantum dot, and the rapid collapse of 
+the superposition before long keys can be factored, may mean a 
+practical factoring machine might take quite a long time to
+appear.  There's an outside chance that the NSA is building a 
+quantum computer even now, but I heavily doubt that this 
+will happen within the next ten years, and it might take much longer.  
+
+If a few specialized agencies like the NSA develop quantum
+computers, RSA will still protect messages from everybody else.  
+It's not until quantum computing chips becomes widely avaiable that
+that most of us need to replace RSA.  Also, commercial fabs
+are now ahead of government contractors on the tech curve, so
+it's doubtful that any sppoks will find out about the existance 
+of practical fabrication capability for such quantum computers,
+long enough before we do to actually build one in secret.
+
+A big question is whether we can create a public key system 
+that a quantum computer can't crack: technically speaking 
+a polynomial function with quantum superpolynomial inverse
+and polynomial trapdoor inverse.  There's no partcularly
+good reason why such functions wouldn't exist, and the
+task has now risen to the top of the the crypto theorists'
+queues.
+
+A positive aspect of this, that outweighs the blow to RSA
+in the long run, is that several important machine
+learning problems, such as PAC ("probably, approximately
+correct") learning of finite automata, are as hard as
+factoring.  By solving factoring, we can also solve a large
+class of important induction taks in polynomial time.
+Quantum computers thus might make great learning computers.  
+The same result motivates the evolution of quantum computing
+in the brain, although I suspect the brain environment 
+is too messy to implement quantum computation.
+
+Another area to watch for rapid improvements via quantum effects
+is the the use of optically active polymers to create "optical
+computing" elements.  A recent issue of _Science_, for example,
+describes the fabrication and testing of an element that can 
+compute a correlation of two 5000*5000 pixel pictures in one
+step: the equivalent of 10^16 operations per second (7 orders of 
+magnitude faster than current supercomputers).
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Mon, 03 Oct 1994 21:23:32 -0500
+Subject: [#94-10-54] Recursion, science and God
+
+At 11:26 PM 10/3/94 -0700, dasher@netcom.com (Anton Sherwood) wrote:
+[...]
+>Craig Presson riposted:
+>> Nope. Recursion is a method.[...]
+>Recursion isn't a method either; it's a technique.  ;-P
+
+Yes, a highly effective technique for using all available
+memory and time.
+
+Aren't you afraid you'll get your keyboard stuck in that
+position (";-P")? I mean, wink and stick out your tongue
+in front of a mirror. Ewww.
+
+
+
+\\ fcp@nuance.com (Craig Presson)   CPresson@aol.com\
+-- WWW: http://www.nuance.com/~fcp/ -----------------\
+-- President & Principal,  T4 Computer Security ------>
+-- P.O. Box 18271, Huntsville, AL 35804 -------------/
+// (205) 880-7692 Voice, -7691 FAX -----------------/
+
+
+------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Tue, 4 Oct 94 14:22:30 GMT
+Subject: [#94-10-55] SCI/COMP/CRYPT: Goodbye RSA, hello Quantum Computer
+
+If there's an area of mathematical development that you want to
+speed up, use it as a basis for encryption.
+
+Nancy Lebovitz
+
+------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Tue, 4 Oct 1994 11:14:20 -0400 (EDT)
+Subject: [#94-10-56] MRI and it's resolution from Dr. Chao
+
+The text of the your message follows.
+
+This would not be possible with our curent level of technology.  Look up 
+MR microscopy, proton spectroscopy, MRI.  In order to increase resolution 
+100 times takes 100 times the imaging time.  YOu must stay perfectly 
+still for this.  In order to image such small structures the object would 
+have to stay still for inordinate amounts of time.  Plus the 
+radiofrequencey energy delived to a small region of your brain might 
+literally change the protein structure (i.e. cook you)..... Philip W. 
+Chao MD (Not a pleasant prospect)  
+
+
+
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+From: cactus@bibliob.slip.netcom.com (L. Todd Masco)
+Date: 4 Oct 1994 11:44:39 -0400
+Subject: [#94-10-57] Non-destructive upload?
+
+In article <199410032310.TAA38552@faraday.clas.Virginia.EDU>,
+John M. Bozeman <jmb5b@faraday.clas.virginia.edu> wrote:
+>I think another possible way to increase the information available
+>to NMR/MRI is through the use of radioactive tags... 
+
+This isn't necessary.  NMR is tunable, by altering the frequency at
+which you emit pulses in the magnetic field.  In fact, all the NMR
+work I've done (in college) was using this to determine the composition
+of unknown solutions.
+
+You could easily build an NMR setup that scanned through the relevent
+frequencies to pick up all the desired elements and isotopes.  The
+only problem I can see (as far as mapping the chemistry, that is) is
+that it won't pick up the "handedness" of various molecules.
+-- 
+L. Todd Masco  | Ingredients:  red, blue, and green quarks, six varieties of
+cactus@bb.com  |  gluons, electrons.  Some settling may occur in shipping.
+
+------------------------------
+
+From: Leo Barnard <lbarnard@gwent.ac.uk>
+Date: Tue, 4 Oct 1994 16:08:19 +0100 (BST)
+Subject: [#94-10-58] Interface .....
+
+The interface can be described as the boundary between two or more systems
+. The Art of the Interface is to ~remove~ the boundary and this can be
+applied to a boundary of any kind .
+
+If for example , you are learning to drive a car , the first stages will
+be that of seperated systems : The gears , brakes , steering and
+observation . As the ~user~ becomes more experienced , and this can be
+applied to a user of any desccription , the separate sections merge
+together .... the act of driving becomes an art ,  boundarys are
+fused and the interface becomes transparent . Mind and machine are fused
+. The vehicle shell becomes an extension of the body .
+
+As we enter the next Millenium the boundary can be seen to be at the edge
+of disappearing , the boundaries are being replaced by fusion .The
+boudaries between natural and artificial , human and machine , real life
+and virtual reality .
+
+I am currently writing a paper on the art of the interface ,
+all opinions and comments are welcome
+
+lbarnard@gwent.ac.uk
+
+
+------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Mon, 03 Oct 1994 23:23:46 -0500
+Subject: [#94-10-59] Non-destructive upload?
+
+At 11:44 AM 10/4/94 -0400, cactus@bibliob.slip.netcom.com (L. Todd Masco) wrote:
+[...]
+>You could easily build an NMR setup that scanned through the relevent
+>frequencies to pick up all the desired elements and isotopes.  The
+>only problem I can see (as far as mapping the chemistry, that is) is
+>that it won't pick up the "handedness" of various molecules.
+
+I can tell you that without an NMR -- all bioactive molecules are
+D-isomers.
+
+\\ fcp@nuance.com (Craig Presson)   CPresson@aol.com\
+-- WWW: http://www.nuance.com/~fcp/ -----------------\
+-- President & Principal,  T4 Computer Security ------>
+-- P.O. Box 18271, Huntsville, AL 35804 -------------/
+// (205) 880-7692 Voice, -7691 FAX -----------------/
+
+
+------------------------------
+
+From: Reilly Jones <70544.1227@compuserve.com>
+Date: 04 Oct 94 12:49:17 EDT
+Subject: [#94-10-60] Neural Darwinism
+
+Luciana Haill wrote 10/4/94: <Anyone with any views on Neural Darwinism (that
+the brain selects advantageous neural connections through evolutonary
+development) please respond as I was not aware of such an idea for cerebral
+improvement at neuronal level.>
+
+Please see my review-essay of "Bright Air, Brilliant Fire" by Gerald Edelman in
+upcoming Extropy #14.  The subject is "Consciousness: Spontaneous Order and
+Selectional Systems".  Neural Darwinism is covered (both developmental and
+experiential selection) along with related topics on consciousness.
+
+------------------------------------------------------------------------
+Reilly Jones               |        Philosophy of Technology:
+70544.1227@compuserve.com  |  The rational, moral and political relations
+                           |  between 'How we create' and 'Why we create'
+
+
+------------------------------
+
+From: Reilly Jones <70544.1227@compuserve.com>
+Date: 04 Oct 94 12:49:36 EDT
+Subject: [#94-10-61] Book of Enoch
+
+Mike Price wrote 10/4/94: <I'm not in NYC, but I'd be interested to read this,
+or a summary, if someone has the time to scan in.  Isn't Enoch one of the 3 or 4
+biblical immortals?>
+
+The 'Book of Enoch' (1 Enoch) and also the 'Book of the Secrets of Enoch' (2
+Enoch) are in "The Other Bible" ed. Willis Barnstone, HarperSanFrancisco, 1984.
+ISBN 0-06-250031-7.
+
+This source has the complete Jewish Pseudepigrapha, Christian Apocrypha, Gnostic
+Scriptures (incl. Mandaean, Pagan & Manichaean), Kabbalah, Dead Sea Scrolls,
+Pseudo-Dionysius and even Plotinus' 'The Enneads'.
+
+This collection is so esoteric, people who love to read legal documents and
+computer manuals might be self-transcended beyond the Omega Point.
+
+------------------------------------------------------------------------
+Reilly Jones               |        Philosophy of Technology:
+70544.1227@compuserve.com  |  The rational, moral and political relations
+                           |  between 'How we create' and 'Why we create'
+
+
+------------------------------
+
+From: Reilly Jones <70544.1227@compuserve.com>
+Date: 04 Oct 94 12:49:26 EDT
+Subject: [#94-10-62] "Proof" in Math
+
+Sasha wrote 10/3/94: <I would be interested to see that proof of the sphere
+turning inside out...>
+
+Steve Smale proved this was possible in 1957, Arnold Shapiro found a practical
+way of demonstrating it in 1964, and you can order a videotape showing how it is
+done following the method Bill Thurston (dir. of Math. Sciences Research Inst.
+in Berkeley) devised in 1974.  The tape is called "Outside In" created by The
+Geometry Center in 1994 directed by Silvio Levy, Delle Maxwell, and Tamara
+Munzner and includes a 32-page booklet.
+
+------------------------------------------------------------------------
+Reilly Jones               |        Philosophy of Technology:
+70544.1227@compuserve.com  |  The rational, moral and political relations
+                           |  between 'How we create' and 'Why we create'
+
+
+------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Tue, 4 Oct 1994 17:00:27 -0400 (EDT)
+Subject: [#94-10-63] Non Destructive Uploads ?
+
+a conscious being, Michael Clive Price wrote:
+> 
+> John K Clark writes:
+> >  A run of the mill Magnetic Resonance Imaging machine (MRI) can
+...
+> > magnifying glass to see. If the resolution were 100 times better
+
+
+> Hmmm.  Would that resolution let us see neurotransmitter vesicles 
+> sizes and numbers and types at synapses (which probably relate to the 
+> connection "weights") and the identify various neurochemical 
+> concentrations in glial cells (which may be involved in long-LTP)?
+
+My friend Dr. Chao, a specialist in this area writes:
+
+This would not be possible with our curent level of technology.  Look up 
+MR microscopy, proton spectroscopy, MRI.  In order to increase resolution 
+100 times takes 100 times the imaging time.  YOu must stay perfectly 
+still for this.  In order to image such small structures the object would 
+have to stay still for inordinate amounts of time.  Plus the 
+radiofrequencey energy delived to a small region of your brain might 
+literally change the protein structure (i.e. cook you)..... Philip W. 
+Chao MD (Not a pleasant prospect) 
+
+------------------------------
+
+From: doug@OpenMind.com (Doug Cutrell)
+Date: Tue, 4 Oct 1994 14:59:01 -0700
+Subject: [#94-10-64] "Proof" in Math
+
+Reilly Jones writes (on turning a sphere inside out):
+
+>Steve Smale proved this was possible in 1957, Arnold Shapiro found a practical
+>way of demonstrating it in 1964, and you can order a videotape showing how
+>it is
+>done following the method Bill Thurston (dir. of Math. Sciences Research Inst.
+>in Berkeley) devised in 1974.  The tape is called "Outside In" created by The
+>Geometry Center in 1994 directed by Silvio Levy, Delle Maxwell, and Tamara
+>Munzner and includes a 32-page booklet.
+
+Well, so we order it from where...?
+
+Doug Cutrell
+
+___________________________________________________________________
+Doug Cutrell                    General Partner
+doug@OpenMind.com               Open Mind, Santa Cruz
+===================================================================
+
+
+
+------------------------------
+
+From: sw@tiac.net (Steve Witham)
+Date: Tue, 4 Oct 1994 23:57:09 -0400
+Subject: [#94-10-65] The pitfalls of futurology (fwd)
+
+Nancy Lebovitz writes-
+
+>This relates to something I've been mulling lately--I don't think that
+>new ideas are developed in words--it can take living with them for
+>a bit (or longer) before they can be put into words. What are they
+>developed in?
+>
+>I get them as feelings before I can put them into words a lot of
+>the time, but now that I think about it, the feelings relate to
+>something being there, and various ideas or descriptions fitting or
+>not fitting with it. This suggests that the idea may not exactly be
+>the feeling, either.
+
+(Third hand through a talk by Alan Kay:)
+
+Someone in the middle of this century took a poll of physicists:  Do
+you think in words, pictures, or what?
+
+   Some, but not the best physicists, thought in words.
+   Most thought in pictures.
+   One said he felt sensations in his hands and arms--Einstein.
+
+This is interesting when you consider his ability to write as well.
+
+There are two patterns I notice in how I think.  One is, I say aloud what
+I think the problem or solution or state of solution is.  Then I usually
+say, "No, that doesn't sound quite right, the *real* problem is..." and
+iterate like that.  The other is, I draw a diagram, and redraw and redraw
+and redraw, trying to make it a perfect map of a problem.
+
+ --Steve
+
+ - - - - - - - - - -
+Lemme make it plain--better make way for homo superior --Bowie.
+
+
+
+------------------------------
+
+From: John K Clark <johnkc@well.sf.ca.us>
+Date: Tue, 4 Oct 1994 21:06:57 -0700
+Subject: [#94-10-66] X rays for uploads ?
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+ Anders Sandberg nv91-asa@nada.kth.se   on October 3, 1994 wrote: 
+      
+	>Acording to calculations made on the cryonics mailing list a
+	>few years back, the necessary energy densities would vaporise
+	the brain. Since synaptic structures are so small, high
+	>frequencies would be needed. But the brain doesn't absorb them
+	>very well, so the energy has to be rather intense.
+	
+I haven't read these calculations but I do know that absorption
+is not the only thing that's important. In a conventional X- ray
+photons have to be absorbed if we are to get any information out
+of the object were looking at, this is because when the photon
+hits the film only the position and to some degree the amplitude
+of the wave is recorded, the phase of the wave is completely
+lost. In a hologram the phase information is retained so even if
+a photon is not absorbed by the target we can still get
+information about the target, the photon could get diffracted.
+That is , after all, how the DNA double helix was discovered and
+they didn't even have X ray lasers or holography just a crude X
+ray machine and a crystal to act as a diffraction grating.
+	
+	>I love the image of using gamma-ray lasers driven by atomic
+	>explosions in space to image brains onto holographic film                   
+	>moving at relativistic speeds.
+
+The work of Dr. Rhodes with " hollow" xenon atoms ( Aug. 25 ,
+1994 Nature) seems to indicate that desk top X-ray lasers in the
+2 angstrom range should be practical in a few years, visible
+light is about 7000 angstroms. A hologram could be recorded onto
+a photorerefractive crystal or one of the newer polymers such as
+poly-N-vinylcarbazole. You could even record it on regular X ray
+film and view it with visible light, you'd just have to enlarge
+it by 3500 ( 7000 angstroms / 2 angstroms). Dealing with film
+that big would be a bit awkward but it beats moving it at
+relativistic speeds.
+
+An X- ray enlarger could be made with today's technology. Dr.
+Nat Ceglio at Livermore made an X ray mirror using many thin
+layers of Molybdenum and Silicon. Each layer doesn't reflect
+much but  if the thickness of the layers are chosen properly at
+one wavelength all the reflected waves coincide. The
+reflection is coherent and about 60 % efficient. X- ray lenses
+are also possible. M.A Kumakhov and Walter Gibson at the State
+University of New York at Albany made one by bundling thousands
+of tiny hollow glass capillaries that guide X-rays.
+    
+I don't claim to have proven this is a way to make a non
+destructive upload but it is worth thinking about.
+
+		  johnkc@well.sf.ca.us
+
+- -----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: 2.3a
+
+mQCrAi2+qw4AAAEE8PDiHA05CEGh0S2XLWFHBP1TpHsKZjaEC/ZdzDmbfYSbsDk0
+Lx1QEqLhCmXe/lmuWJVLpa87uYoVOMTwtc83LfwwQlJIJVkYSn1p5IymR5iZ9cZr
+FIg6BktntleggMY3tb5QP8Zo5la1rcDepMht0Qiv7wyQ7lJLMDv3E4DrpcuCBHuK
+IYgOkuzgnycPYyaEKKI8u1NCX303wfSpid95AAURtCdKb2huIEtldmluIENsYXJr
+IDxqb2hua2NAd2VsbC5zZi5jYS51cz4=
+=TNMW
+- -----END PGP PUBLIC KEY BLOCK-----
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+iQCzAgUBLpG1oX03wfSpid95AQGThQTvdzgzjsGB+7ZCR7jESgqp1fFNRK+kGuVt
+1sJiRz/R8eGPuPKGQXO+e763k08QvTehEyNlmsku1WDNidYZH+/29qBgZ+UXJilQ
+cO19QBzBvK8O5k/eH7XOzwTLYdZ345OiWKQu8bxaZ5DBASzLIOxuChRupzJ0WJcJ
+4LqYjADO5r7h2fyo0eqh5cdaGgYj0f/BK+wTeQXmfvvyVv4oxLQ=
+=Ej28
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+End of Extropians Digest V94 #277
+*********************************
+

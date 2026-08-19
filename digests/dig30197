@@ -1,0 +1,1103 @@
+From extropians-request@gnu.ai.mit.edu Fri Apr 16 14:38:59 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA07655; Fri, 16 Apr 93 14:38:56 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from churchy.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA06436; Fri, 16 Apr 93 14:38:52 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by churchy.gnu.ai.mit.edu (5.65/4.0)
+	id <AA19617@churchy.gnu.ai.mit.edu>; Fri, 16 Apr 93 17:23:27 -0400
+Message-Id: <9304162123.AA19617@churchy.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Fri, 16 Apr 93 17:21:55 -0400
+X-Original-Message-Id: <9304162121.AA19608@churchy.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0197
+X-Extropian-Date: Remailed on April 16, 373 P.N.O. [21:23:26 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Fri, 16 Apr 93            Volume 93 : Issue 0197
+                        
+Today's Topics:
+                     BOOKS: Wilson's LaNague Chronicles               [1 msgs]
+                         COMP: Complexity of sorting                  [1 msgs]
+                      Dorothy Denning's friends strike                [4 msgs]
+                          HUMOR: Anti P(C) Graffito                   [1 msgs]
+                       HUMOR: Libertarian Party doomed                [2 msgs]
+                                 IMPORTANT!                           [6 msgs]
+                       Korzybski's "E-Prime", also NLP                [3 msgs]
+                      TECH: Genetic algorithms question               [6 msgs]
+              White House announcement on encryption--FORWARDED       [1 msgs]
+[tcmay@netcom.com (Timothy C. May): White House announcement on encryption--FORWARDED] [1 msgs]
+    text of White House announcement and Q&As on clipper chip encryption [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 52092 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 16 Apr 93 09:12:19 CDT
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: HUMOR: Anti P(C) Graffito
+
+Reputed graffito, as reported by ESQUIRE magazine:
+
+"The political is never correct."
+
+T.O. Morrow                     --  twb3@midway.uchicago.edu
+Vice President: ExI             --  The Extropy Institute
+Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 09:59:30 -0400 (EDT)
+From: cbmvax!snark.thyrsus.com!esr@uunet.UU.NET (Eric S. Raymond)
+Subject: Korzybski's "E-Prime", also NLP
+
+> I do find that since learning of E-Prime and of GS in general, that a
+> warning flag goes up in my mind whenever I encounter excessively izzy
+> statements or questions such as "what *is* X, *really*?".  Words like
+> "really", "essentially", "only", etc. have the same effect.  They usually
+> disguise muddled thinking.  I even regard the word "the" with suspicion on
+> occasion.
+
+*Excellent*!  It sounds like you are beginning to internalize consciousness of
+abstracting.  You have just increased your intelligence.
+
+Next step; learn the sme suspicion about claims that rely on excluded middle.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Fri, 16 Apr 93 11:20:25 -0400
+From: pavel@PARK.BU.EDU (Paul Cisek)
+Subject: TECH: Genetic algorithms question
+
+Eli writes:
+>
+>If you just remove half of the population randomly with respect to
+>the gene in question, the removed half and the remaining half will
+>have the same expected allele frequencies, just by symmetry.  You
+>might expect more inbreeding, but really, those related to you are
+>as likely to be removed as those not.
+>
+
+I was thinking of a population decreasing nonrandomly but rather based upon
+territory.  Thus any particular group within a region may survive and be forced
+to inbreed through lack of other mates.  But your point is well taken.  For a
+large number of scenarios (like disease) this mechanism wouldn't work.  It
+could only work under certain assumptions, perhaps for climate changes and
+such...
+
+-Paul
+
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 11:40:25 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: HUMOR: Libertarian Party doomed 
+X-Reposting-Policy: redistribute only with permission
+
+rjc@gnu.ai.mit.edu says:
+> 
+>   CBS late nite news showed a clip of a naked woman riding through a city
+> on horseback wearing only the sign "Libertarians oppose income taxes!"
+> 
+> I thought such a stunt was humorous, but it is damaging to the image
+> of libertarians. It is unprofessional and tends to project a 
+> "crackpot" image. For this reason, the L-party will probably never
+> enter the mainstream (unless it can deal with it's image problem).
+> 
+>   I've met quite a few people who think libertarians are nothing more
+> than drug using homosexual republicans.
+
+"Humor" is the wrong prefix. "Truth" is more like it. 
+
+(This is not to say that libertarians are all drug using homosexual
+republicans: it is to say that the Libertarian Party is pretty much
+going nowhere.)
+
+Perry
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 11:50:29 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Korzybski's "E-Prime", also NLP 
+X-Reposting-Policy: redistribute only with permission
+
+Eric S. Raymond says:
+> Next step; learn the sme suspicion about claims that rely on excluded middle.
+
+Can you elaborate on that?
+
+Perry
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 12:02:55 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Dorothy Denning's friends strike
+X-Reposting-Policy: unlimited redistribution permitted.
+
+To: cypherpunks@toad.com, libernet@dartmouth.edu, extropians@gnu.ai.mit.edu
+
+[Libernet readers -- please do not follow up on libernet, as it is
+only for announcements. All readers -- please do not CC lists you are
+not on with replies.]
+
+According to a front page article in today's New York Times, the
+Clinton Administration is going to be releasing a standard encryption
+technology that commercial users will be encouraged to adopt that
+involves having the government keep copies of "back door" keys
+associated with every device deployed. The article is entitled,
+with unintentional irony, "Communications Plan to Balance Government
+Access with Privacy". The article indicates that the move is "inteded
+to resolve a long standing dilema[...] how to preserve the legitimate
+right for businesses and citizens to use codes [...] without letting
+criminals and terrorists conspire beyond the reach of the law".
+
+The implications are obvious.
+
+Perry Metzger
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 09:50:24 -0400 (EDT)
+From: cbmvax!snark.thyrsus.com!esr@uunet.UU.NET (Eric S. Raymond)
+Subject: TECH: Genetic algorithms question
+
+> Now waitaminit.  The pigment is in the iris, not the cornea -- if it
+> were in the cornea, everything you see would be tinted (well, maybe
+> not, given adaptation. But it would screw corneal transplants to
+> hell.)  I have hazel eyes and have just been assured that I do not
+> have tinted corneas.
+
+Possibly I have my anatomical terminology slightly wrong.  There was
+a sort of feel about the memory as though it had lost some detail;
+haven't accessed it in some time.  By `cornea' I meant the transparent
+(or almost transparent) tissue over the iris.
+
+> As to the blue color of blue eyes being produced by scattering, that
+> sounds reasonable.  It supports the implicit assumption I made in
+> explaining eye-color dominance, that the "default" color is blue.
+
+Yup.  Except that, worldwide, the statistical norm is brown.  I'm not
+sure, but I believe that blue/green/gray eyes are effectively confined
+to European populations.  This may bear on your next point.
+ 
+> If I were designing an eye, I'd make the iris black, as opaque as
+> possible.  Who'd make a camera with a translucent diaphragm?  I
+> guess there are other considerations than light scattered through
+> the iris, because nobody's got black eyes...
+
+But most people, worldwide, have dark brown eyes.  It may be that brown
+is the human norm, with blue an old local adaptation to mist and fog
+conditions, and all the other colors being essentially off-blues.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 09:52:01 -0400 (EDT)
+From: cbmvax!snark.thyrsus.com!esr@uunet.UU.NET (Eric S. Raymond)
+Subject: BOOKS: Wilson's LaNague Chronicles
+
+>      Has anyone out there read any of F. Paul Wilson's science
+> fiction?  The new issue of Liberty describes Wilson's
+> The_LaNague_Chronicles as "explicitly libertarian science fiction". 
+> The book is an omnibus edition incorporating three novels "Healer",
+> "Wheels Within Wheels", and "An Enemy of the State" (you gotta love
+> that last title).  
+>  
+>      Anyone care to cough up a review?
+
+No time to write one now, but I can tell you that Liberty is correct and
+the books are pretty good (especially AEotS).
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 10:27:32 -0800
+From: lefty@apple.com (Lefty)
+Subject: HUMOR: Libertarian Party doomed
+
+Perry says
+>(This is not to say that libertarians are all drug using homosexual
+>republicans: it is to say that the Libertarian Party is pretty much
+>going nowhere.)
+
+I can't imagine this coming as any sort of a surprise to anyone.  The
+Libertarians have yet to demonstrate that they could campaign their way out
+of a pay toilet.
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: Fri, 16 Apr 93 10:24:51 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: TECH: Genetic algorithms question
+
+> From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+> > [introns just sit there]
+> Is this actually known to be the case, or speculation based only on current
+> ignorance of any known function for the apparently functionless material? 
+
+Well, it's always partially speculation.  Some unexpressed material
+actually serves a structural rather than genetic purpose.  But the
+bulk of it is just normal genome, sitting there and never getting
+expressed.  It has no *means* to function, except by its
+untranslated presence.  The appendix at least is hanging around your
+abdomen, capable of doing something.
+
+There has been speculation that this material is actually a carrier
+for species memory, or that it's a message from our alien creators,
+and so forth.  I don't find this very plausible (though I like the
+second one), because if you look at the stuff, you see ordinary
+genetic material.  Some pieces are recognizably similar to known
+genes.
+
+> Richard Kennaway
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Fri, 16 Apr 93 10:28:20 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: TECH: Genetic algorithms question
+
+> From: pavel@PARK.BU.EDU (Paul Cisek)
+> I was thinking of a population decreasing nonrandomly but rather based upon
+> territory.  Thus any particular group within a region may survive and be forced
+> to inbreed through lack of other mates.
+
+Ah, this would work.  I don't have a feel for how often this sort of
+population reduction will happen, but it will to some extent.
+Probably quite a bit, actually.
+
+> -Paul
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Fri, 16 Apr 93 10:39:18 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: TECH: Genetic algorithms question
+
+> From: cbmvax!snark.thyrsus.com!esr@uunet.UU.NET (Eric S. Raymond)
+
+> By `cornea' I meant the transparent (or almost transparent) tissue over
+> the iris.
+
+Yeah, the cornea is the clear `window' in the anterior surface.  But
+I've never heard of a tinted one (though this might be an EC
+self-alteration: rose-tinted corneae?).  Are you sure you're not
+seeing light that's come off the iris and been internally reflected?
+
+> But most people, worldwide, have dark brown eyes.  It may be that brown
+> is the human norm, with blue an old local adaptation to mist and fog
+> conditions, and all the other colors being essentially off-blues.
+
+Sounds reasonable; I was just thinking that you could probably do
+better than brown.  This is probably a result of my tendency to
+misjudge optical densities.  Really, brown is probably almost
+exactly as good as black.  I wonder how blue eyes help in fog?
+
+(But you know, I'm not sure this is on topic, strictly speaking)
+
+> 					Eric S. Raymond <esr@snark.thyrsus.com>
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Fri, 16 Apr 93 10:47:35 -0700
+From: cappello%cs@hub.ucsb.edu (Peter Cappello)
+Subject: COMP: Complexity of sorting
+
+>	The reason that  radix sort is able to work in linear time is
+>that it depends on the number of digits in the number being sorted. 
+
+
+True.
+
+>So while
+>it is not (n*lg n), it is (d * lg n), where d is the logarithm of n  
+>or larger.
+
+That is too fast.
+
+If b is the number of bits/number and there are n numbers, then its  
+complexity is O(bn): linear in the size of the input, with respect to  
+the random-access machine model.
+
+-Pete
+cappello@cs.ucsb.edu
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 13:38:30 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: [tcmay@netcom.com (Timothy C. May): White House announcement on encryption--FORWARDED]
+
+Forwarded message from Tim May:
+
+From: tcmay@netcom.com (Timothy C. May)
+Message-Id: <9304161638.AA19495@netcom3.netcom.com>
+Subject: White House announcement on encryption--FORWARDED
+To: cypherpunks@toad.com
+Date: Fri, 16 Apr 93 9:38:01 PDT
+X-Mailer: ELM [version 2.3 PL11]
+
+Cypherpunks,
+
+Here's a message from sci.crypt that's of relevance to us in several
+ways. I assume from its length, seriousness, and wording that it's not
+a spoof...I can't check the White House's signature!
+
+Some messages:
+
+1. It tells us what Denning and Rivest were probably actually working
+on when they floated their "trial balloons" last summer and fall.
+
+2. A goverment-sanctioned phone encryption technique has implications
+for the phone encryption topics we've discussed at the Cypherpunks
+meetings (notably with Paul Rubin and Whit Diffie).
+
+3. As always, end-to-end encryption, bypassing such schemes as this,
+is looking better and better.
+
+4. It is not clear if the government scheme will legally preclude
+other encryption schemes.
+
+5. I expect a lively debate will soon take place in sci.crypt.
+
+
+Newsgroups: sci.crypt
+Path: netcom.com!netcomsv!decwrl!uunet!dove!csrc.ncsl.nist.gov!clipper
+From: clipper@csrc.ncsl.nist.gov (Clipper Chip Announcement)
+Subject: text of White House announcement and Q&As on clipper chip encryption
+Message-ID: <C5L17v.GH5@dove.nist.gov>
+Sender: news@dove.nist.gov
+Organization: National Institute of Standards & Technology
+Distribution: na
+Date: Fri, 16 Apr 1993 15:19:06 GMT
+Lines: 282
+
+
+Note:  This file will also be available via anonymous file
+transfer from csrc.ncsl.nist.gov in directory /pub/nistnews and
+via the NIST Computer Security BBS at 301-948-5717.
+     ---------------------------------------------------
+
+                         THE WHITE HOUSE
+
+                  Office of the Press Secretary
+
+_________________________________________________________________
+
+For Immediate Release                           April 16, 1993
+
+
+                STATEMENT BY THE PRESS SECRETARY
+
+
+The President today announced a new initiative that will bring
+the Federal Government together with industry in a voluntary
+program to improve the security and privacy of telephone
+communications while meeting the legitimate needs of law
+enforcement.
+
+The initiative will involve the creation of new products to
+accelerate the development and use of advanced and secure
+telecommunications networks and wireless communications links.
+
+For too long there has been little or no dialogue between our
+private sector and the law enforcement community to resolve the
+tension between economic vitality and the real challenges of
+protecting Americans.  Rather than use technology to accommodate
+the sometimes competing interests of economic growth, privacy and
+law enforcement, previous policies have pitted government against
+industry and the rights of privacy against law enforcement.
+
+Sophisticated encryption technology has been used for years to
+protect electronic funds transfer.  It is now being used to
+protect electronic mail and computer files.  While encryption
+technology can help Americans protect business secrets and the
+unauthorized release of personal information, it also can be used
+by terrorists, drug dealers, and other criminals.
+
+A state-of-the-art microcircuit called the "Clipper Chip" has
+been developed by government engineers.  The chip represents a
+new approach to encryption technology.  It can be used in new,
+relatively inexpensive encryption devices that can be attached to
+an ordinary telephone.  It scrambles telephone communications
+using an encryption algorithm that is more powerful than many in
+commercial use today.
+
+This new technology will help companies protect proprietary
+information, protect the privacy of personal phone conversations
+and prevent unauthorized release of data transmitted
+electronically.  At the same time this technology preserves the
+ability of federal, state and local law enforcement agencies to
+intercept lawfully the phone conversations of criminals. 
+
+A "key-escrow" system will be established to ensure that the
+"Clipper Chip" is used to protect the privacy of law-abiding
+Americans.  Each device containing the chip will have two unique
+
+
+                                2
+
+
+"keys," numbers that will be needed by authorized government
+agencies to decode messages encoded by the device.  When the
+device is manufactured, the two keys will be deposited separately
+in two "key-escrow" data bases that will be established by the
+Attorney General.  Access to these keys will be limited to
+government officials with legal authorization to conduct a
+wiretap.
+
+The "Clipper Chip" technology provides law enforcement with no
+new authorities to access the content of the private
+conversations of Americans.
+
+To demonstrate the effectiveness of this new technology, the
+Attorney General will soon purchase several thousand of the new
+devices.  In addition, respected experts from outside the
+government will be offered access to the confidential details of
+the algorithm to assess its capabilities and publicly report
+their findings.
+
+The chip is an important step in addressing the problem of
+encryption's dual-edge sword:  encryption helps to protect the
+privacy of individuals and industry, but it also can shield
+criminals and terrorists.  We need the "Clipper Chip" and other
+approaches that can both provide law-abiding citizens with access
+to the encryption they need and prevent criminals from using it
+to hide their illegal activities.  In order to assess technology
+trends and explore new approaches (like the key-escrow system),
+the President has directed government agencies to develop a
+comprehensive policy on encryption that accommodates:
+
+     --   the privacy of our citizens, including the need to
+          employ voice or data encryption for business purposes;
+
+     --   the ability of authorized officials to access telephone
+          calls and data, under proper court or other legal
+          order, when necessary to protect our citizens;
+
+     --   the effective and timely use of the most modern
+          technology to build the National Information
+          Infrastructure needed to promote economic growth and
+          the competitiveness of American industry in the global
+          marketplace; and 
+
+     --   the need of U.S. companies to manufacture and export
+          high technology products.
+
+The President has directed early and frequent consultations with
+affected industries, the Congress and groups that advocate the
+privacy rights of individuals as policy options are developed.
+
+
+
+                                3
+
+The Administration is committed to working with the private
+sector to spur the development of a National Information
+Infrastructure which will use new telecommunications and computer
+technologies to give Americans unprecedented access to
+information.  This infrastructure of high-speed networks
+("information superhighways") will transmit video, images, HDTV
+programming, and huge data files as easily as today's telephone
+system transmits voice.
+
+Since encryption technology will play an increasingly important
+role in that infrastructure, the Federal Government must act
+quickly to develop consistent, comprehensive policies regarding
+its use.  The Administration is committed to policies that
+protect all Americans' right to privacy while also protecting
+them from those who break the law.
+
+Further information is provided in an accompanying fact sheet. 
+The provisions of the President's directive to acquire the new
+encryption technology are also available.  
+
+For additional details, call Mat Heyman, National Institute of
+Standards and Technology, (301) 975-2758.
+
+- ---------------------------------
+
+
+QUESTIONS AND ANSWERS ABOUT THE CLINTON ADMINISTRATION'S
+TELECOMMUNICATIONS INITIATIVE
+
+
+
+
+Q:   Does this approach expand the authority of government
+     agencies to listen in on phone conversations?
+
+A:   No.  "Clipper Chip" technology provides law enforcement with
+     no new authorities to access the content of the private
+     conversations of Americans.
+
+Q:   Suppose a law enforcement agency is conducting a wiretap on
+     a drug smuggling ring and intercepts a conversation
+     encrypted using the device.  What would they have to do to
+     decipher the message?
+
+A:   They would have to obtain legal authorization, normally a
+     court order, to do the wiretap in the first place.  They
+     would then present documentation of this authorization to
+     the two entities responsible for safeguarding the keys and
+     obtain the keys for the device being used by the drug
+     smugglers.  The key is split into two parts, which are
+     stored separately in order to ensure the security of the key
+     escrow system.
+
+Q:   Who will run the key-escrow data banks?
+
+A:   The two key-escrow data banks will be run by two independent
+     entities.  At this point, the Department of Justice and the
+     Administration have yet to determine which agencies will
+     oversee the key-escrow data banks.
+
+Q:   How strong is the security in the device?  How can I be sure
+     how strong the security is?  
+
+A:   This system is more secure than many other voice encryption
+     systems readily available today.  While the algorithm will
+     remain classified to protect the security of the key escrow
+     system, we are willing to invite an independent panel of
+     cryptography experts to evaluate the algorithm to assure all
+     potential users that there are no unrecognized
+     vulnerabilities.
+
+Q:   Whose decision was it to propose this product?
+
+A:   The National Security Council, the Justice Department, the
+     Commerce Department, and other key agencies were involved in
+     this decision.  This approach has been endorsed by the
+     President, the Vice President, and appropriate Cabinet
+     officials.
+
+Q:   Who was consulted?  The Congress?  Industry?
+
+A:   We have on-going discussions with Congress and industry on
+     encryption issues, and expect those discussions to intensify
+     as we carry out our review of encryption policy.  We have
+     briefed members of Congress and industry leaders on the
+     decisions related to this initiative.
+
+Q:   Will the government provide the hardware to manufacturers?
+
+A:   The government designed and developed the key access
+     encryption microcircuits, but it is not providing the
+     microcircuits to product manufacturers.  Product
+     manufacturers can acquire the microcircuits from the chip
+     manufacturer that produces them.
+
+Q:   Who provides the "Clipper Chip"?
+
+A:   Mykotronx programs it at their facility in Torrance,
+     California, and will sell the chip to encryption device
+     manufacturers.  The programming function could be licensed
+     to other vendors in the future.
+
+Q:   How do I buy one of these encryption devices? 
+
+A:   We expect several manufacturers to consider incorporating
+     the "Clipper Chip" into their devices.
+     
+Q:   If the Administration were unable to find a technological
+     solution like the one proposed, would the Administration be
+     willing to use legal remedies to restrict access to more
+     powerful encryption devices?
+
+A:   This is a fundamental policy question which will be
+     considered during the broad policy review.  The key escrow
+     mechanism will provide Americans with an encryption product
+     that is more secure, more convenient, and less expensive
+     than others readily available today, but it is just one
+     piece of what must be the comprehensive approach to
+     encryption technology, which the Administration is
+     developing.
+
+     The Administration is not saying, "since encryption
+     threatens the public safety and effective law enforcement,
+     we will prohibit it outright" (as some countries have
+     effectively done); nor is the U.S. saying that "every
+     American, as a matter of right, is entitled to an
+     unbreakable commercial encryption product."  There is a
+     false "tension" created in the assessment that this issue is
+     an "either-or" proposition.  Rather, both concerns can be,
+     and in fact are, harmoniously balanced through a reasoned,
+     balanced approach such as is proposed with the "Clipper
+     Chip" and similar encryption techniques.
+
+Q:   What does this decision indicate about how the Clinton
+     Administration's policy toward encryption will differ from
+     that of the Bush Administration?  
+
+A:   It indicates that we understand the importance of encryption
+     technology in telecommunications and computing and are
+     committed to working with industry and public-interest
+     groups to find innovative ways to protect Americans'
+     privacy, help businesses to compete, and ensure that law
+     enforcement agencies have the tools they need to fight crime
+     and terrorism.
+
+Q:   Will the devices be exportable?  Will other devices that use
+     the government hardware?
+
+A:   Voice encryption devices are subject to export control
+     requirements.  Case-by-case review for each export is
+     required to ensure appropriate use of these devices.  The
+     same is true for other encryption devices.  One of the
+     attractions of this technology is the protection it can give
+     to U.S. companies operating at home and abroad.  With this
+     in mind, we expect export licenses will be granted on a
+     case-by-case basis for U.S. companies seeking to use these
+     devices to secure their own communications abroad.  We plan
+     to review the possibility of permitting wider exportability
+     of these products.
+
+ 
+     
+
+- --
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+
+
+
+- -- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+
+
+------- End of Forwarded Message
+
+
+------------------------------
+
+Date: Fri, 16 Apr 93 13:19:33 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: TECH: Genetic algorithms question
+
+Eli Brandt:
+
+> > > [introns just sit there]
+> > Is this actually known to be the case, or speculation based only on current
+> > ignorance of any known function for the apparently functionless material? 
+> 
+> Some unexpressed material
+> actually serves a structural rather than genetic purpose.  But the
+> bulk of it is just normal genome, sitting there and never getting
+> expressed. ... if you look at the stuff, you see ordinary
+> genetic material.
+
+Well, ordinary in that there's not silly string or polywater in
+there, but the statistical distribution of the codons (and better
+yet codon pairs or triples) in noncoding regions is very different
+from those in coding regions.  This is the major reason that it's
+pretty easy to train a neural net to do a very good job telling
+the difference between noncoding and coding regions.
+
+Note also that 'intron' is not a generic term for noncoding regions
+of DNA.  An intron is a chunk that is between pieces of a gene.
+This means that it gets translated into RNA, whereas other
+noncoding regions (generally) do not.  Some of this RNA then
+performs catalytic functions similar to proteins.
+
+derek
+
+------------------------------
+
+Date: Fri, 16 Apr 93 14:25:21 EDT
+From: pmetzger@lehman.com (Perry E. Metzger)
+Subject: IMPORTANT!
+X-Reposting-Policy: redistribute only with permission
+
+The White House cryptography initiative I've posted about today is in
+my opinion the most important threat to freedom of the last twenty
+years, possibly the biggest since the end of world war II. I urge
+everyone who has not done so to read the press release I forwarded by
+way of Tim May.
+
+Perry
+
+------------------------------
+
+Date: Fri, 16 Apr 93 11:55:34 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: Dorothy Denning's friends strike
+X-Reposting-Policy: Redistribute freely
+
+A press release from Clinton's ofice describing this shocking proposal
+(or fait accompli?) has been posted to several newsgroups, including:
+
+sci.crypt
+alt.security
+comp.org.eff.talk
+comp.security.misc
+comp.org.acm
+comp.org.ieee
+
+It is also available, according to the document, via anonymous ftp to
+csrc.ncsl.nist.gov in directory /pub/nistnews, and via the NIST Computer
+Security BBS at 301-948-5717.  I encourage people to read it for
+themselves.
+
+Frankly, I find myself stunned by the implications of this proposal.
+It seems clear to me that for the government to achieve its goals in
+producing this chip it must forbid people to use strong encryption of
+their own.  Otherwise the terrorists and criminals the government claims
+to want to crack down on would obviously avoid using chips with back doors
+in them.
+
+It is so shocking to me that the United States would actually ban a
+technology useful solely for protecting privacy that I hardly know how
+to respond.  Hopefully the next few days will reveal some prospects for
+positive action that might have an impact.  Obviously there was no effect
+from the sound drubbing this scheme got when Dorothy Denning proposed a
+variant on sci.crypt last year.
+
+Hal
+hal@alumni.caltech.edu
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 15:01:01 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Dorothy Denning's friends strike 
+X-Reposting-Policy: redistribute only with permission
+
+Hal Finney says:
+> It is so shocking to me that the United States would actually ban a
+> technology useful solely for protecting privacy that I hardly know how
+> to respond.  Hopefully the next few days will reveal some prospects for
+> positive action that might have an impact.  Obviously there was no effect
+> from the sound drubbing this scheme got when Dorothy Denning proposed a
+> variant on sci.crypt last year.
+
+Dorothy was obviously put up to it. For them to have released working
+product they had to have been working on this for a long time.
+
+Seriously folks, quit what you are doing and start researching this
+well enough that you can talk to your congresscritter, newspaper, etc
+about this. We are going to need to crush this and soon. Its a real
+personal threat to all of us -- I mean that. No hyperbole: this is as
+big as McCarthyism. Its important, its real, and its here.
+
+Perry
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 14:27:32 -0400 (EDT)
+From: cbmvax!snark.thyrsus.com!esr@uunet.UU.NET (Eric S. Raymond)
+Subject: Korzybski's "E-Prime", also NLP
+
+>>Next step; learn the same suspicion about claims that rely on excluded middle.
+> 
+> Can you elaborate on that?
+
+Sure.  In the real world, Aristotelian logic is in general false.  Neither the
+"Law of the Excluded Middle" (A | ~A), nor noncontradiction ~(A & ~A) holds.
+
+It's become a cliche to trot out QM in support of this, but it's true even
+classically (as proponents of fuzzy logic and the related "fudgy logic" in
+AI have realized).  To see this for yourself, think carefully about the
+predicates "hot" and "cold".
+
+Part of "conscious of abstracting" is the awareness that natural language
+tends to impose on our thinking a two-valuedness which is unsane.  GS teaches
+this insight not just as an intellectual bagatelle but as an active, constant
+corrective towards sanity.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Fri, 16 Apr 93 14:41:45 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: IMPORTANT!
+
+Perry writes:
+
+> The White House cryptography initiative I've posted about today is in
+> my opinion the most important threat to freedom of the last twenty
+> years
+
+Why?  I agree that government should just butt out, but I'm not
+sure why this particular piece of rubbish is more devastating
+than other government "initiatives".  I thought that the perceived
+danger was from regulations prohibiting encryption devices.  This
+thing doesn't appear to do that -- isn't this just a government
+program trying to convince people to use their solution?  I can't
+see why people would, so it'll likely bomb.
+
+Hmm.  On the other hand, I could see the "broad policy review"
+coming up with awful legislation banning non-government-decryptable
+data transmissions, and this idiotic "Clipper chip" thing being used
+as a justification; but I can scarcely believe that it would have a
+major impact on the fundamental privacy issue.
+
+So, since legislation like that has been a threat for some time already,
+am I right in thinking that what's new is just this (hypothetical)
+justification mechanism?
+
+Even though it does seem a minor "new" threat, those straws
+are indeed piling up on this camel's back.  I haven't been
+following the issue very closely; what is the current thought
+on first amendment protection of private encryption?
+
+derek
+
+dear mr. president:
+You do not seem to realize that one of the major reasons
+we the people want encryption technology is that we do
+not trust your thugs to behave honorably and within their
+rules, nor do we recognize the justice or legitimacy of
+those rules.  Must I also write all correspondence in 6th
+grade english so that the FBI can not only read but understand
+my private communications?
+
+
+
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 15:48:35 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: IMPORTANT! 
+X-Reposting-Policy: redistribute only with permission
+
+Derek Zahn says:
+> Perry writes:
+> 
+> > The White House cryptography initiative I've posted about today is in
+> > my opinion the most important threat to freedom of the last twenty
+> > years
+> 
+> Why?  I agree that government should just butt out, but I'm not
+> sure why this particular piece of rubbish is more devastating
+> than other government "initiatives".  I thought that the perceived
+> danger was from regulations prohibiting encryption devices.
+
+Thats what it is all about! Read it again!
+
+> This
+> thing doesn't appear to do that -- isn't this just a government
+> program trying to convince people to use their solution?  I can't
+> see why people would, so it'll likely bomb.
+
+The only way that they can assure that their people will be able to
+read messages going by is to impose the use of this system. If they do
+not impose the use of the system, the key registration technology they
+are proposing becomes useless gibberish. It is obvious to many people,
+including myself, Phil Zimmermann, Phil Karn, folks at EFF, etc, that
+this is what the direction is.
+
+> So, since legislation like that has been a threat for some time already,
+> am I right in thinking that what's new is just this (hypothetical)
+> justification mechanism?
+
+No.
+
+Perry
+
+------------------------------
+
+Date: Fri, 16 Apr 93 15:15:35 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: IMPORTANT!
+
+Oh, another thing:
+
+> The only way that they can assure that their people will be able to
+> read messages going by is to impose the use of this system. If they do
+> not impose the use of the system, the key registration technology they
+> are proposing becomes useless gibberish.
+
+No it doesn't.  For example:  you must do it to get government contracts.
+You must do it to send encrypted data over NREN or any other government-
+owned data transmission medium.  And so on.  There are lots of reasons
+that do not restrict my freedom as a private individual.
+
+I'm not defending this typical clownish government lunacy; just
+trying to clarify what it is actually saying, rather than what
+others project onto it.
+
+derek
+
+
+------------------------------
+
+Date: Fri, 16 Apr 93 15:16:18 CDT
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: Dorothy Denning's friends strike
+
+On a technical work-around level, won't it be possible to have
+voice to encrypted data stream and back using personal computers?
+My Macintosh at home has a microphone and a modem port, and
+sounds can already be converted to data files and back.  I don't
+think the Mac is fast enough to do this in real time right now,
+but I could Imagine holding a conversation slowly by recording
+onto a data file, encrypting it, sending it via modem, then
+reversing the process and listening to the speech via a speaker.
+How much more computer power would it take to do this real time?
+
+Of course, at typing speeds, I imagine it is no problem to hold
+a secure conversation right now through a modem, provided the
+encryption scheme itself is secure.
+
+Dani Eder
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 16:22:23 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: IMPORTANT! 
+X-Reposting-Policy: redistribute only with permission
+
+Derek Zahn says:
+> Oh, another thing:
+> 
+> > The only way that they can assure that their people will be able to
+> > read messages going by is to impose the use of this system. If they do
+> > not impose the use of the system, the key registration technology they
+> > are proposing becomes useless gibberish.
+> 
+> No it doesn't.  For example:  you must do it to get government contracts.
+> You must do it to send encrypted data over NREN or any other government-
+> owned data transmission medium.  And so on.  There are lots of reasons
+> that do not restrict my freedom as a private individual.
+
+I disagree. They are going to try to get it used in all phone
+equipment so that they can catch terrorists -- they say so, more or
+less. I cannot believe your naivite -- just because the document
+doesn't come out and say "we are banning private encryption" doesn't
+mean thats not very obviously their ultimate intent. Government does
+NOT come out and say we are going to rape you -- they put out
+ambigious press releases.
+
+Read between the lines. They want to push this and hard. It becomes a
+mockery if people are using secure encryption systems other than it --
+they are going to have to impose the technology eventually.
+
+Perry
+
+------------------------------
+
+Date: Fri, 16 Apr 93 15:10:02 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: IMPORTANT!
+
+> > Why?  I agree that government should just butt out, but I'm not
+> > sure why this particular piece of rubbish is more devastating
+> > than other government "initiatives".  I thought that the perceived
+> > danger was from regulations prohibiting encryption devices.
+> 
+> Thats what it is all about! Read it again!
+
+I did.  Four times so far.  Here's part of it:
+
+Q:   If the Administration were unable to find a technological
+     solution like the one proposed, would the Administration be
+     willing to use legal remedies to restrict access to more
+     powerful encryption devices?
+
+A:   This is a fundamental policy question which will be
+     considered during the broad policy review.  The key escrow
+     mechanism will provide Americans with an encryption product
+     that is more secure, more convenient, and less expensive
+     than others readily available today, but it is just one
+     piece of what must be the comprehensive approach to
+     encryption technology, which the Administration is
+     developing.
+
+     The Administration is not saying, "since encryption
+     threatens the public safety and effective law enforcement,
+     we will prohibit it outright" (as some countries have
+     effectively done); nor is the U.S. saying that "every
+     American, as a matter of right, is entitled to an
+     unbreakable commercial encryption product."  There is a
+     false "tension" created in the assessment that this issue is
+     an "either-or" proposition.  Rather, both concerns can be,
+     and in fact are, harmoniously balanced through a reasoned,
+     balanced approach such as is proposed with the "Clipper
+     Chip" and similar encryption techniques.
+
+
+Where does it say anywhere that this proposal would make unbreakable
+private encryption illegal?  That document is not "all about"
+such regulations -- it doesn't even mention them!
+
+All I'm saying is that I'd like to see one further question answered
+by somebody in the administration:
+
+Q: Is it part of your proposal to make private encryption of data
+   (by any means) illegal?
+
+derek
+
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0197
+****************************************
+

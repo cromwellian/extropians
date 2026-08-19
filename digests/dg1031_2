@@ -1,0 +1,1065 @@
+From extropians-request@extropy.org Sun Oct 31 19:29:31 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA07493; Sun, 31 Oct 93 19:29:28 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA06546; Sun, 31 Oct 93 19:29:24 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA00753
+  (5.65c/IDA-1.4.4 for more@usc.edu); Sun, 31 Oct 1993 22:21:11 -0500
+Date: Sun, 31 Oct 1993 22:21:11 -0500
+Message-Id: <199311010321.AA00753@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: November 1, 373 P.N.O. [03:20:48 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Mon, 1 Nov 93             Volume 93 : Issue 304
+
+Today's Topics:
+                                                                      [1 msgs]
+                                    (none)                            [1 msgs]
+                          Beating the Stock Market?                   [2 msgs]
+                           Beating the stock market                   [1 msgs]
+                          Beating the stock market                    [2 msgs]
+                                   Bet 5000                           [2 msgs]
+                            EXTROPIAN CORRECTNESS                     [2 msgs]
+                            EXTROPIAN CORRECTNESS                     [1 msgs]
+                                FOOD: Variety                         [1 msgs]
+                                  Free Will                           [1 msgs]
+          META: A Proposal for Easy Ratings of Articles and Authors   [1 msgs]
+          Measuring the Singularity (WAS: NEWS/UK: How computers...)  [1 msgs]
+                             Meta: Using Commands                     [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 53408 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 31 Oct 1993 00:34:55 -0400
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Subject: FOOD: Variety
+
+  My father used to work at the Zoological Institute of the Russian 
+Academy of Sciences.  I would expect that such an institute is the best
+place you can find to experience the variety of foods; they were collecting
+all kinds of living stuff from all over the world, from pinguins to
+wingless butterflies to trilobytes to mammoths, for research and taxidermic
+expositions, and were both adventurous and indiscriminate enough to try
+(with absence of any decent food in the stores being an additional incentive).
+- I don't think they actually ate trilobytes though ;-)
+
+   Due to various reasons, I didn't get much of this stuff though;
+probably, the most adventurous thing I remember eating were flat sea worms
+- about a 20 cm  long, with lots of legs on the sides.  They looked OK
+when floating, somewhat...uh...unusual fried, on the plate, but tasted 
+pretty good, much like sprats.
+
+   I have a suspicion that there can't be that much adventure in the
+world of foods, since our sensory ability in this area is pretty much
+limited, and to a great extent has already been experienced -
+but I am willing to taste refutations of this hypothesis.
+
+   I wonder if medieval dishes have distinctly different taste from
+modern ones (I would not expect as much difference as there exists
+among today's national cuisines).
+
+   Maybe, we may ask David Friedman to post a few of his favorite
+medieval recipes?
+
+
+
+Sasha-from-Russia.
+
+------------------------------
+
+Date: Sun, 31 Oct 93 00:01:04 -0700
+From: jamie@netcom.com (Jamie Dinkelacker)
+Subject: Beating the Stock Market?
+
+This is admittedly VERY low tech, but as a marketing and management
+consultant I get exposure to numerous small companies either several months
+before or several months after their IPO. If the company's morale is high,
+I tend to buy. Other indicators that I look for include:
+
+* Management talks about the next 90-180 days, not after the singularlity;
+
+* The company has at least one "visionary" in the top ranks;
+
+* Efficient level of secretarial/administrative support;
+
+* Cooperative (at least tolerant) attitudes between marketing and
+engineering/development;
+
+* The company has a clear picture of who their customer is;
+
+* Low debt structure (aside from the Venture game and its nuances).
+
+This hasn't made me rich; but has sure made much more than I've put into it.
+--
+................................
+Jamie Dinkelacker   Palo Alto CA 
+Jamie@netcom.com    415.941.4782    
+
+
+------------------------------
+
+Date: Sun, 31 Oct 93 00:42:39 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: Bet 5000
+
+I'm glad Donald is proceeding with his quantum computer claim.
+
+Donald's design, as I suspected, contains a fundamental conceptual flaw.
+
+Rather than test Donald's design by simulation, which would be very
+messy and difficult to judge (even supposing that the program gets
+written) I shall show that Donald's design does not perform as he claims
+it will.  Specifically I dispute his claim that the system remains in
+the ground state of the instantaneous hamiltonian.  I presume Donald
+claims that a slow shift in energy levels, induced by the a*C*cnorm
+term, doesn't alter the probability associated with each energy level. 
+Thus, he reasons, because the system starts in the ground state of the
+initial hamiltonian it ends in the ground state of the final
+hamiltonian.  I shall show that this is false.  Undergraduate level
+stuff.
+
+I presume:
+-    we have a noise-free system (this is implied, but I'm just
+     checking)?
+-    a*C*norm >> N0+N1+N2 .... +Nm in the final in the final
+     hamiltonian?  In other words that "a" is arbitrarily large?
+-    that we can ignore any bouncing from one energy level of the
+     instantaneous hamiltonian to another?
+
+Seth Lloyd sounds like a suitable choice of judge.  I would not be
+prepared to lodge my bond with Seth Lloyd.  He is, no doubt, an
+excellent physicist, but I know nothing of his financial probity.  I
+don't think that either of us should contact him, so that allegations
+of bias and collusion can't creep in.  Rather we should contract with
+Exi to sound him out, or let Exi select someone else if he's unwilling. 
+I notice Gregory Benford is the physics consultant/reviewer for Extropy
+and is more likely to be amenable to an approach by Exi.  There is also
+our own Dave Krieger as science consultant.  A composite panel would be
+best.
+
+I suggest that Exi should be recompensed for their involvement.  You
+mentioned $200.  I will match this sum.  $400 to Exi as fee if they're
+interested in taking the administration of this wager on.  My hope is
+that a system ("Exi Science Court") might be established whereby wagers
+can be clarified and settled through the hire.  Obviously neither of us
+can be involved in setting this up.  Which is why I suggest that Exi
+might be interested.  Exi gets a science court and attendant fees.  Exi
+acts as honest broker.  They appoint an acceptable (to us) jury.  We
+plead our cases to the in open court (ie on the List, CCing the jurors). 
+If Exi appoints a panel of jurors then I suggest decision by unanimous
+verdict.
+
+If no verdict can be agreed, no fee gets paid (ie Exi is paid by
+results) and the antes returned.  Otherwise the winner takes the lot,
+minus $400 for Exi.
+
+Should be more entertaining than a pledge drive, if nothing else.
+
+Mike Price                         price@price.demon.co.uk
+
+PS side bets are encouraged!
+
+------------------------------
+
+Date: Sun, 31 Oct 1993 09:32:42 -0500 (EST)
+From: ptbast@ivy.WPI.EDU (Peter F Bastien)
+Subject: Beating the Stock Market?
+
+> 
+> This is admittedly VERY low tech, but as a marketing and management
+> consultant I get exposure to numerous small companies either several months
+> before or several months after their IPO. If the company's morale is high,
+> I tend to buy. Other indicators that I look for include:
+> 
+> * Management talks about the next 90-180 days, not after the singularlity;
+> 
+> * The company has at least one "visionary" in the top ranks;
+> 
+> * Efficient level of secretarial/administrative support;
+> 
+> * Cooperative (at least tolerant) attitudes between marketing and
+> engineering/development;
+> 
+> * The company has a clear picture of who their customer is;
+> 
+> * Low debt structure (aside from the Venture game and its nuances).
+> 
+> This hasn't made me rich; but has sure made much more than I've put into it.
+> --
+> ................................
+> Jamie Dinkelacker   Palo Alto CA 
+> Jamie@netcom.com    415.941.4782    
+> 
+	I believe the point that some of the other postings were getting at
+is how to quantify these investing heuristics and to prove or disprove
+if such heuristics are sufficient. 
+
+	The first step alone would be difficult to do for a select group
+of companies, such a biotech. How do you measure moral in quantifiable
+term, is one example. Then once the measure or metrics are determined,
+how do you decide the go-no go or confidence level criteria?
+
+	The most difficult part would be to prove or disprove if these
+heuristics are sufficient. About the only way that I see how to do it
+is to run some experimental trials on the heuristic set and compare it
+to some market index, such as S&P 500. If the heuristic showed a 
+significantly better return, then it captured at least some of the 
+dynamics of the system.
+
+	Am I gravely in error or is what I'm thinking somewhat
+accurate?
+
+Pete
+ptbast@cs.wpi.edu
+
+
+------------------------------
+
+Date: Sun, 31 Oct 1993 11:13:44 -0500
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Beating the stock market 
+
+Nick Szabo says:
+> Perry, Tim May, David Friedman, et. al. have mentioned investing in 
+> individual stocks based on an evaluation of the business's use of
+> technology (typically in their products).  No doubt this information 
+> eventually enters the market, either early via those closest to the 
+> business or later by reflection of the product's success in the company's
+> financial statement.  As a strategy technology analysis may average
+> slightly better than throwing darts, if you consistently utilize 
+> valuable information and distinguish popular techno-fads from
+> real market demands.  However, there are several problems with this 
+> strategy:
+> 
+> (1) Nobody has demonstrated they can consistently beat the market 
+> this way.
+
+Nick, look in the last Forbes 400 at the profile of Warren Buffet, the
+richest man in America. He made every penny he's earned from
+fundamentals based investing.
+
+> (2) Even assuming these investors have sufficiently unique and
+> important information, the method typically used to take a
+> advantage of it, investing in individual stocks, is crude,
+> often needlessly exposing the investor to risk unrelated to
+> the claimed information.  It is often better to hedge away  most
+> non-info-related risk, industry- or market-wide, with index options 
+> or option baskets, and achieve the desired risk/reward profile via 
+> margin.
+
+I shared an office with a trader who was "inactive" for about six
+months (long story -- we were both basically waiting to be fired and
+sending out our resumes because our department was dissolved), during
+which period we swapped a lot of stories. On of the best pieces of
+information he shared with me was this: if you are always completely
+in hedge, you are going to cut your returns dramatically. If you are
+doing an arbitrage being in hedge is a natural part of your operation,
+but if you are betting that Kodak is going to recover, completely
+hedging your position with, say, futures, means that should the
+economy do better you are also completely hedged against making any
+money. Portfolio insurance is dead, largely for this reason.
+
+> (3) These strategies are often subjective, insufficiently explained
+> and therefore non-replicable.  This also makes it difficult to
+> determine risk profiles, integrate the strategy into computerized
+> portfolio analysis, etc.
+
+Well, actually, there is plenty to be computerized in fundamentals
+analysis, and were someone to throw me a chunk of money I could tell
+them what, I suspect, could be a very nice strategy for finding
+overlooked companies. Since this sort of thing would go away if
+everyone did it, I'm not talking about what I think the strategy would
+be untill someone throws me the cash.
+
+Perry
+
+------------------------------
+
+Date: Sun, 31 Oct 1993 11:15:41 -0500
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Beating the stock market 
+
+Nick Szabo says:
+> (4) The people with the knowledge don't necessarily have the money
+> to invest, and vice versa.  This suggests the need for an 
+> institution to swap these two kinds of resources.
+
+Its called an "investment bank". If you feel you can actually make
+money at this, become a technology analyst at a place like Hambrecht
+and Quist (may have gotten the spelling wrong there) which is right by
+you in San Francisco.
+
+Perry
+
+------------------------------
+
+Date: Sun, 31 Oct 1993 08:25:53 -0800
+From: John K Clark <johnkc@well.sf.ca.us>
+Subject: Free Will
+
+On Thu, 28 Oct 93 sjw@liberty.demon.co.uk (Stephen J. Whitrow)Wrote:
+	       
+		>>John K Clark said ( Please note I said I was "absolutely
+		>>sure" I did not say I was correct, a very different thing. 
+		>>A person can be absolutely positively 100% certain of 
+		>>something and still be dead wrong,in fact it's very common.)
+	       
+	>Sounds like a Russell paradox
+
+	       
+No , I'm positive about this and my barber agrees with me. Being
+certain is just a subjective emotional state and has very little
+correlation with being correct. If you read the newspapers too
+much you would say it has a negative correlation. I'm certain
+about this and I never make mistakes (well, I think I'm certain
+but I'm not sure). I thought I made a mistake once but I was
+mistaken.
+	       
+
+	>Let's say I plan to travel to some place and I judge that
+	>there are two routes of equal value.  I've eliminated the others
+	>as clearly being inferior. [...]   So I mark one
+	>as "even", one as "odd".  I pick a number roughly halfway
+	>between one and ten, giving it six decimal places, raise e to
+	>that power,  and look at the sixth significant digit.  This
+	>tells me which route to take,as already marked out.  So
+	>there can be no meaningful correlation between the decision and
+	>any previous events,
+
+	
+Assuming your thinking was rational, you used a deterministic
+process to eliminate all but two routes. Then you used another
+deterministic process to decide to use randomness to make the
+decision. I admit that randomness plays a part in our lives but
+I don't think it has anything to do with free will.
+
+	
+	>I did go on to point out that this [electrodes in the brain]
+	>was a particular case of intervention; the brain surgery was not
+	>even intended to give an accurate perception.
+
+	
+I don't think intention has much to do with it but for the sake
+of argument lets assume that it does. Were constantly surrounded
+by things that were never intended to give an accurate
+perception of reality, the entire advertising industry was built
+on this. It changes our thinking ,our desires and our actions.
+The same is true for, alcohol , coffee, tea and cigarettes. Even
+Art distorts reality although in a benevolent way. Imagine a
+realistic movie about an average hour in an average man's life,
+it would be so dull it'd put the world to sleep. 
+		
+
+		>>Hans Moravec calls these ideas "Universal Realization" and
+		>>is currently writing a book about it. His main points:          
+		>>1) Anything can simulate anything.
+		
+	>This has to be wrong, [...]  "We're about to run a simulation
+	>of Albert Einstein using this blade of grass and a wet blanket." 
+	
+
+Grass and wet blankets, why not? A computer doesn't have to be
+made of integrated circuits or even vacuum tubes. Babbage made
+one with gears and levers, IBM used hydraulics , Daniel Hillis
+built a working computer out of nothing but Tinker Toys, and
+Weizenbaum showed how to make one using a roll of toilet paper
+and a pile of small stones. Just make sure the computer is big
+enough, run the correct program and "it's a honor to meet you
+Professor Einstein ".
+	
+
+	> David Ross agrees with Searle's point that you can't simulate
+	>a flame on a computer and produce the flame's heat.
+      
+
+A simulated flame is certainly not identical to a real flame but
+to say it has absolutely no reality can lead to problems.
+Suppose you say that for a fire to be real it must have some
+immaterial essence of fire, a sort of "burning" soul, thus a
+simulated flame does not really burn because it just changes the
+pattern in a computer memory. The trouble is using the same
+reasoning you could say a real fire doesn't really burn, because
+it just oxidizes chemicals; but really a flame can't even do
+that, it just obeys the laws of chemistry. If we continue with
+this we soon reach a point where nothing is real but elementary
+particles and the laws of physics, an obvious absurdity.
+      
+I think a simulated flame is real at one level but care must be
+taken not to confuse levels. A simulated flame won't burn your
+computer but it will burn a simulated object. A real flame won't
+burn the laws of chemistry but it will burn your finger.
+      
+The more abstract something is the more accurate the simulation
+can be. A phonograph plays real music not simulated music. A
+computer performs real calculations not simulated calculations
+and when computers are big enough they will have real minds not
+simulated minds. A simulated concrete object is not the same as
+a real object but a "simulated" mind is identical to a real mind.
+      
+			  John K Clark                   johnkc@well.sf.ca.us
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+Date: Sun, 31 Oct 1993 09:05:55 -0800
+From: John K Clark <johnkc@well.sf.ca.us>
+Subject: EXTROPIAN CORRECTNESS
+
+On Fri, 29 Oct 19930 "Phil G. Fraering" pgf@srl01.cacs.usl.edu wrote:
+ 
+	>In fact, it turns out that the Corvair was a perfectly safe
+	>car for the time,
+	
+Afraid not, I know, I was almost killed in a Corvair. In the
+first place I found the car to be very undependable, but that's
+not surprising considering it was made out of tin foil and silly
+putty. In the slightest rain the brakes would get wet and become
+useless and it had all the stability of a pencil balanced on
+it's point. I was going around a gentle curve at 35mph when a
+tire blew out, the car did a 360 and was totaled, I was not.
+	
+	> and they are now collected by some folks.
+	
+But not by me, regardless of how long I live.
+	
+		      John K Clark                       johnkc@well.sf.ca.us
+
+
+
+
+
+
+
+
+------------------------------
+
+Date: Sun, 31 Oct 1993 12:34:51 -0600
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: EXTROPIAN CORRECTNESS
+
+1. John, although I'm in agreement with Harr}iy about what he said,
+in your response you attributed something he said to me.
+
+Please don't do that in the future. It causes confusion.
+
+The Corvair may have been tinfoil, but you miss the point: roughly
+two thirds of the cars on the road today have similarly non-rugged
+construction. Since this was done in the name of one of the great
+consumer advocate Ralph Nader's private gods, "energy efficiency,"
+you won't find him saying a thing about it.
+
+Let's take this into e-mail, please...
+
+Phil
+
+------------------------------
+
+Date: Sun, 31 Oct 1993 14:50:58 -0500
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: EXTROPIAN CORRECTNESS 
+
+John K Clark says:
+> On Fri, 29 Oct 19930 "Phil G. Fraering" pgf@srl01.cacs.usl.edu wrote:
+>  
+> 	>In fact, it turns out that the Corvair was a perfectly safe
+> 	>car for the time,
+> 	
+> Afraid not, I know, I was almost killed in a Corvair.
+
+Big deal. I was almost killed in a K-car. So what?
+
+Anecdotal evidence doesn't cut it.
+
+Perry
+
+------------------------------
+
+Date: Sunday, 31 October 1993 10:11:29 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: Bet 5000
+
+In <19197@price.demon.co.uk>, price@price.demon.co.uk (Michael Clive Price)  wrote:
+> 
+> I'm glad Donald is proceeding with his quantum computer claim.
+> 
+> Donald's design, as I suspected, contains a fundamental
+> conceptual flaw.
+
+In that case I assume that you will be happy if the bet
+depends on the outcome of a numerical simulation of the
+quantum computer, rather than a flame war concerning the
+behavior of many body quantum systems.
+
+Remember that if I fail to write the simulation, or Seth
+Lloyd judges that the simulation fails to simulate the
+quantum computer it purports to, or the simulation fails to
+show the behavior I predict - polynomial time behavior
+over the small range of bits accessible to numerical
+experiment - behavior radically different from 2^n or n!
+then you win the bet.
+
+> we have a noise-free system (this is implied, but I'm just
+> checking)?
+
+The noise sensitivity of a quantum computer is proportional
+to the spatial and temporal extent over which it is
+required to maintain phase coherence.  Thus if the time
+required to perform the algorithm only increases
+polynomially fast with the number of bits, then the noise
+sensitivity only increases polynomially fast with the
+number of bits, hence we can legitimately ignore noise.
+Noise will be a very large problem, but it is a problem of
+order P(m), not of order 2^m or of order m!, where m is the
+number of bits.  (The time required for a classical
+computer to perform the simulation of course does increase
+exponentially with the number of bits - m^3 * 2^m, but the
+quantum computer being simulated continues to take a
+reasonably fast time.
+
+By the uncertainty principle, the noise energy required to
+disturb a quantum computer is inversely proportional to
+how long the computation takes.
+
+> Seth Lloyd sounds like a suitable choice of judge.  I
+> would not be prepared to lodge my bond with Seth Lloyd.  He
+> is, no doubt, an excellent physicist, but I know nothing of
+> his financial probity.  I
+
+I know nothing of the financial probity of the Exi
+officers, other than that they have been accused of being
+barkers and stooges for a cryonic Ponzi scheme.  (I do not
+endorse or believe this accusation - it is mere hearsay -
+but I am unwilling to trust them with money.)
+
+How about this proposal.  We place the money in an account,
+where it can be withdrawn by any two of three signatures -
+the three signatures being the judge, mine, and yours.
+
+I am unwilling to have the bet administered by Exi
+officials.  How about this proposal:
+
+I nominate a second, who is known to you, and you nominate
+a second, who is known to me, and the seconds administer
+the bet, contact prospective judges, set up the account
+and the like.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Sunday, 31 October 1993 10:48:38 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: Measuring the Singularity (WAS: NEWS/UK: How computers...)
+
+In <9310291511.AA26978@klingon.East.Sun.COM>, eli@suneast.east.sun.com (Elias Israel - SunSelect Engineering)  wrote:
+> 
+> Perry writes:
+> > A man in 1000 AD would have largely recognised the technologies in use
+> > in 1200 AD, with a few small exceptions. This was true throughout most
+> > of human history. The "technological event horizion" has been getting
+> > closer and closer.
+> 
+> I would tend to agree with this statement, but I wonder: how could one
+> quantify this assertion? Other than subjective statements about what a
+> "reasonable man" from 1000AD would be expected to comprehend, how can
+> we show concretely that the event horizon has been shrinking?
+
+Technological change was very visible in the twelfth
+century, and in the sixteenth century (handguns, etc), and
+people commented on the acceleration of technological
+change, then as now. It has been more visible in the
+nineteenth and twentieth century.  
+
+The change in the nineteenth and twentieth centuries is
+seems larger to us, but is this merely a perspective
+effect?
+
+Is the difference between the AK47 and the handgun greater
+than the difference between the longbow and the handgun?
+I doubt it. On the other hand the difference between the
+airplane and the stirrup, *is* greater than the difference
+between the stirrup and the war chariot.
+
+There was radical change between 1920 and 1950, but no
+radical change between 1950 and 1980.
+
+The growth in energy consumption per head in America was
+more rapid between 1850 and 1920, than it was between 1920
+and 1990. (Historical Statistics of the United States,
+Colonial times to 1970, issued by the Bureau of the Census,
+Washington DC)
+
+Although there has been a general trend of acceleration,
+there have also been large fluctuations in this trend
+caused by social, political and cultural changes.
+
+Technology is once again accelerating, and it looks like
+we are in for another period of rapid technological change,
+but I doubt that the coming wave is the start of
+singularity.  I expect it will be just another wave. (I
+hope it will be the singularity of course, but before we
+hit the singularity we will have to understand the problems
+involved in creating artificial intelligence.  Despite
+numerous reports to the contrary "Mind is still a mystery,
+and Elvis is still dead."
+
+Between quantum mechanics and computers on every desk, the
+delay was about seventy five years.  Between Newtonian
+physics, and rockets to the moon, the delay was about three
+hundred years.
+
+I expect a very substantial delay between the scientific
+breakthrough that makes it possible for us to start working
+on artificial intelligence, and the technology that makes
+it possible to expand intelligence to a useful extent.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Sun, 31 Oct 93 12:43:06 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: META: A Proposal for Easy Ratings of Articles and Authors
+
+I propose here a simple system for rating postings, with the intent
+that the currently moribund "Essay" list be replaced by a low-volume
+"Best of Extropians" list. I also have some comments about the
+stagnant HEx market.
+
+(Three topics in one post, but they're related.)
+
+At a mostly Extropians party last night (Amara and Vince), there was
+some discussion of rating postings and, in a different conversation,
+of the Essay list. Some points emerged:
+
+* some people seem to think the HEx market is mainly designed to
+"rate" posts and posters. I think this is misguided, as most markets
+operate to make money (thornes), e.g., I buy and sell, when I do at
+all, based on what I think the future price will be, not based on
+giving approval or demerits to posters. Some people even add notices
+with things like: "If you liked this post, buy Foo on HEx." (The
+analogous situation might be signs at MacDonalds saying: "If you liked
+this Big Mac, buy MacDonald's stock." Right.)
+
+* all agreed that HEx is currently so thinly traded as to
+uninteresting at this time. (What to do about this is a topic for
+another time.)
+
+* one non-member of the list is on the Essay list and commented on the
+low volume of it. (This was a reminder to me that the Essay list even
+exists....I'd pretty much forgotten about it.)
+
+So, HEx is hardly suited for rating posts or individul posters. And
+the Essay list is very low-volume. (The naive solution to the Essay
+list volume problem, assuming one post ever several weeks represents
+a "problem," is to encourage more folks to write essays for it. This
+fails for many reasons, mostly having to do with the spontaneity of
+posts to the list and the unwillingness of many of us to polish such
+pieces for the Essay list. Also, the lack of feedback, of discussion,
+etc., makes the Essay list even more of the "isolated speeches"
+environment Hal Finney wrote about recently. Thus, urging more essays
+has not and likely will not work.)
+
+Here's my proposal:
+
+* use the current "::command" syntax in the following way:
+
+- upon reading a post, a reader may send back a command of the form
+"::rating", where "rating" is a number between 0 and 10.
+
+- thus, suppose I am reading a post entitled "How I Froze My Assets
+Off by Investing in Cryonics," by Isaac Berg. I decide this is a great
+article, so I respond to it by sending the command:
+
+"::8"
+
+- I presume the List software could be modified (I'm making no claims
+as to how easy this will be, or if should be done this way...just
+proposing and idea to talk about) so as to apply this rating to both
+the specific article, the author, and even perhaps a cumulative
+measure of the popularity of the thread itself.
+
+(If the List software has to have the reader type something more
+verbose, like "::rate article 1093225 8" then of course it will be
+much more cumbersome to use and may not be used by many people. I
+would favor the simple command described above, with the List software
+handling the pointers.)
+
+* There are still flaws in this system. For one thing, the
+"popularity contest" nature...but this is what we tried with HEx, so
+nothing is new. And the reputations or popularites of the raters are
+not reflected in the vote, unless even more complicated software is
+developed. (Which may be fine for a second-generation system, but for
+now the simple "::8" system should be tried.
+
+Another issue is who votes? True of all voluntary systems.
+
+Other flaws in all such schemes exist, and we can discuss them if
+there's interest.
+
+* Here's where it gets interesting:
+
+- if the voting is done fairly quickly (as with the easy-reply
+scheme), then posts can be rated in time for the evening digest, for
+example. Thus, Alice could request that she be sent only those posts
+which got an average score of 5 or better.
+
+- or only see posts from posters whose rating is, say, 4 or higher.
+And so on.
+
+- this effectively allows the readers to set a threshold for "best of"
+posts, given the limitations (there has to be a time delay, of course,
+and at least some readers have to be getting the "raw" feed...if
+everyone is setting a threshold, the problems are obvious).
+
+* The ratings of individual posts can also go into a running
+score---perhaps exponentially smoothed with a time constant of a month
+or so so as to give more weight to recent posts--for the poster
+himself. And even the thread itself, though this seems much less
+important (since threads change name so often).
+
+One might imagine issuing a command and seeing this report:
+
+RATINGS REPORT
+
+Article: 109347564, "How I Froze My Assets Off by Investing in
+Cryonics," Isaac Berg. Rated 6.92 by 23 respondents.
+
+Rating of Isaac Berg: 4.91
+
+
+(Pay no attention to the precise form of the report, as that's up to
+the developers, input from others, etc.)
+
+
+* With this kind of reader feedback, filtering commands could be made
+even more useful. The articles most enjoyable to the most people could
+then be automatically collected as a substitute for the Essay list, or
+as supplemental kind of low-volume list.
+
+* Like I said, some downsides. Some people will get their feelings
+hurt, some people will get angry. Such is life.
+
+I'd rather have some form of real market in postings, as with the way
+we vote with our dollars in deciding what magazines and books to buy,
+but I suspect the Extropians list cannot reasonably solve this tough
+problem in the near term. (It's not just the lack of suitable
+software, it's the natural unwillingness to run everything as a
+market...after all, we don't have conversations in which participants
+buy and sell parts of it, do we?).
+
+Someday it may be plausible for each of us to have a weighted voting
+scheme, where the ratings are themselves weighted by our own respect
+for the voter. (This would involve the List software storing a vector
+or table of weightings for each user and doing some crunching. Not a
+thing to consider lightly.)
+
+I claim that this very simple "::rating" addition to our List software
+would open up new avenues for filtering messagess based on the
+recommendations of others. It may sound like a "herd mentality," but
+it reflects how many of us pay attention to the popularity of books,
+magazines, movies, etc. 
+
+At least it's a start.
+
+--Tim
+
+--
+..........................................................................
+Timothy C. May | Crypto Anarchy: encryption, digital money,
+tcmay@netcom.com | anonymous networks, digital pseudonyms, zero
+408-688-5409 | knowledge, reputations, information markets,
+W.A.S.T.E.: Aptos, CA | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy
+it.
+
+------------------------------
+
+Date: Sun, 31 Oct 93 20:34:30 GMT
+From: extropia@eternity.demon.co.uk (Russell Earl Whitaker)
+Subject: (none)
+
+-- 
+
+Russell Earl Whitaker                   whitaker@eternity.demon.co.uk
+Communications Editor                                 AMiX: RWhitaker
+EXTROPY: The Journal of Transhumanist Thought
+Board member, Extropy Institute (ExI)
+    Co-organizer, 1st European Conference on Computers, Freedom and
+    Privacy, London, 20 November 1993
+
+
+
+------------------------------
+
+Date: Sun, 31 Oct 93 14:32:33 -0800
+From: plaz@netcom.com (Geoff Dale)
+Subject: Meta: Using Commands
+
+/hawk complains:
+>        Many of you are sending commands to Extropians-request@extropy.org
+>        
+>        extropians@extropy.org
+>
+>        Remember it is not such a difficult thing to check the address
+>        of where you are sending message. Everyone forgets from time
+>        to time (including me). Some members of this list forget all the
+>        time.
+
+Perhaps if the list of filtered messages had a "Reply-To:
+extropians@extropy.org" line you'd get a slight drop off in this problem,
+since the natural thing to do when requesting a resend of a message that
+was filtered is to reply to that message.
+
+If you could set up the software to handle extropians-request messages,
+that would be great! I'd definately send to that address when doing
+excludes, to avoid those pesky accidental public plonkings.
+
+
+
+_______________________________________________________________________
+Geoff Dale    -- insert standard disclaimers here --    plaz@netcom.com
+               "We are the shock troops of reality."
+                - Voice of the Friends (Wild Palms)
+
+
+
+------------------------------
+
+Date: Sun, 31 Oct 93 14:35:11 PST
+From: szabo@netcom.com (Nick Szabo)
+Subject: Beating the stock market
+
+Perry Metzger:
+> Nick, look in the last Forbes 400 at the profile of Warren Buffet, the
+> richest man in America. He made every penny he's earned from
+> fundamentals based investing.
+
+Based on his knowledge of technology?  I don't think so.
+Fundamental analysis typically refers foremost to looking at
+the balance sheet, and secondarily at a wide variety of econometric
+factors affecting the company's business, and at company
+attributes like management team, marketing of the company's products,
+and on occasion technology analysis.  The comments in my last
+message were focused on informal technology analysis as had been mentioned 
+by yourself and several others on the list.  Which I'm not against,
+but I think the way it is done could be greatly improved.
+
+> if you are always completely
+> in hedge, you are going to cut your returns dramatically.
+
+You'll cut your _variance_ in returns dramatically. You'll win
+less, lose less.  That's why I said hedge, not all the risk, but
+as much as possible of the risk not associated with the information
+derived from technology analysis.  BTW, if the trader you are
+talking about is Paul Tudor Jones, part of his claimed "edge" is his
+ability to track overall short-term econometric trends ("time the
+market"), and engage in voluminous trade in close connection
+with floor traders, getting a tiny piece of the bid/ask spreads
+(probably the main source of his edge).  Both
+strategies argue against hedging market risk -- for him such
+hedging would be a counter-bet on the very thing he claims to
+have an edge at, it would rack up large transaction costs with 
+his voluminous trading, and put restrictions on the split-second timing 
+of trades he needs.  The buy-and-hold technology investor in constrast 
+greatly profits from such hedges.
+
+> but if you are betting that Kodak is going to recover, completely
+> hedging your position with, say, futures, means that should the
+> economy do better you are also completely hedged against making any
+> money. 
+
+My point is, this is a suboptimal bet to be making based on the claimed
+information.  The proposition is that you have unique and important 
+information that, say, Kodak's technology is promising, not that you 
+have some supernatural oracle which tells you "Kodak will recover".  
+With this strategy you would needlessly have lost quite a bit of 
+money in many cases (90% in 1929-32, 60% after inflation in 1970-1982, 
+etc.), for reasons unlrelated to the technology.  Of course you would 
+have made money in 1982-92, again for reasons unrelated to that specific
+technology, so some contemporary traders might falsely believe it.
+If you have unique info that Kodak's technology is 
+better than its competitors, this says nothing about how the overall 
+economy is going to do.  You shouldn't be betting for or against the
+expected growth rate, there are $100's of billions worth of investors with 
+vastly more information on that than you, it's not not your edge and so 
+you're needlessly throwing darts at the board, putting your money at risk.  
+(Or worse, trading on old news against the smart money which has already
+adjusted the price to reflect the news).  As as a practical matter, alas, 
+most people can't or don't know how to construct such a hedge and end up 
+doing the riskier investment.
+
+> Well, actually, there is plenty to be computerized in fundamentals
+> analysis,
+
+Which I'm all in favor of, but that wasn't the original point I
+was responding to.
+
+> Since this sort of thing would go away if
+> everyone did it, I'm not talking about what I think the strategy would
+> be untill someone throws me the cash.
+
+:-) :-) :-)
+
+Nick Szabo					szabo@netcom.com
+
+------------------------------
+
+Date: Sun, 31 Oct 93 22:26:33 GMT
+From: extropia@eternity.demon.co.uk (Russell Earl Whitaker)
+Subject: Bet 5000
+
+In message <2cd40535.jamesdon@jamesdon.infoserv.com>
+writes:
+[quoting Mike Price]
+
+> 
+> > Seth Lloyd sounds like a suitable choice of judge.  I
+> > would not be prepared to lodge my bond with Seth Lloyd.  He
+> > is, no doubt, an excellent physicist, but I know nothing of
+> > his financial probity.  I
+> 
+> I know nothing of the financial probity of the Exi
+> officers, other than that they have been accused of being
+> barkers and stooges for a cryonic Ponzi scheme.  (I do not
+> endorse or believe this accusation - it is mere hearsay -
+> but I am unwilling to trust them with money.)
+>
+
+Sigh.
+
+James:
+
+I, for that matter, am unwilling to take your money.  You two
+[James Donald and Mike Price] should now consider me out of the
+loop on the financial/escrow side of your bet.  I'm tired of
+this type of talk.  If you're going to say things like this, on
+a list hosted by us, I suggest you back up your lack of trust
+with substantial inquiry, rather than insinuation.
+
+I have no particular interest in the outcome of this bet, other
+than the fact that ExI could well do with more money now, and it
+would benefit us if a portion of the funds allotted were donated
+to ExI.  It seems fair: consider that you're using our list as a
+vehicle for your transaction.  If our getting a cut is not to
+your satisfaction, you could of course migrate discussion of
+your proposition to another forum.
+
+The only reason that I got involved in the first place was that
+Mike Price, in the capacity of friend, called me up and asked me
+to help out.  I hadn't been following the discussion, and had no
+idea of the rancor involved.  Now, having quickly scanned the
+thread thus far, I have decided to remove myself as a candidate
+for bondholder.  I don't want the job, and certainly don't need
+the money.
+
+But, given that I've been involved - I'm talking to you, Mike -
+and, further, have been slighted - that's you, Donald - I am
+going to do something mildly uncharacteristic: I'm going to lay
+down The Law (as seen by me):
+
+1.) James and Mike: agree on judges/juries and bondholders;
+2.) Pontificate;
+3.) Adjudicate;
+4.) Accept judgement;
+
+After the acceptance of judgement, in your (non-ExI) "Science
+Court", pay $400 to the business account of the Extropy
+Institute within 8 working days.  In agreement with Mike, I _do_
+believe it's much better than a "pledge drive".
+
+I'll lay down further law:  you - both of you! - *must* now
+authenticate your formalised bets (whenever you finish them) by
+signing the plaintext of your messages to this list with PGP 2.3
+or a later version.  This means using public key encryption tools.
+I will not have either of you repudiating anything you've posted
+to our list.  Mike was given a copy of PGP 2.3 at today's UK
+Cryptoprivacy Association meeting.  Donald, I believe Infoserv
+allows its users ftp and telnet, correct?  If you don't have it
+already, you need to pick up PGP.  Do an archie search on PGP,
+or better yet, use gopher or veronica.  You'll find it.  As a
+matter of fact, try ftp to ftp.demon.co.uk in /pub/pgp.
+
+In case either of you are wondering how to sign plaintext such
+that it can be transmitted in the clear, but with appended
+authentication, the command to use is:
+
+         pgp -sta +clearsig=on <name of outgoing mailfile>
+
+To not do this will be considered unacceptable by me, and I will
+not budge in my insistence that it be done this way.  The
+alternative is to cease this thread immediately.  List use is
+not an entitlement.
+
+James continues:
+
+> How about this proposal.  We place the money in an account,
+> where it can be withdrawn by any two of three signatures -
+> the three signatures being the judge, mine, and yours.
+> 
+> I am unwilling to have the bet administered by Exi
+> officials.  How about this proposal:
+>
+
+See my comments above.  For different reasons, I am unwilling to
+take your money.  I find your personal style distasteful, but am
+willing to play host to the dispute, as long as the donation is
+forthcoming from the payout transaction, and you play ball by
+authenticating all further list discussion on this matter.
+
+> 
+>  ---------------------------------------------------------------------
+>                        |  We have the right to defend ourselves and our
+> James A. Donald        |  property, because of the kind of animals that we
+>                        |  are.  True law derives from this right, not from
+> jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+> 
+> 
+
+-- 
+
+Russell Earl Whitaker                   whitaker@eternity.demon.co.uk
+Communications Editor                                 AMiX: RWhitaker
+EXTROPY: The Journal of Transhumanist Thought
+Board member, Extropy Institute (ExI)
+    Co-organizer, 1st European Conference on Computers, Freedom and
+    Privacy, London, 20 November 1993
+
+
+
+------------------------------
+
+End of Extropians Digest V93 #304
+*********************************
+

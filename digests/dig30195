@@ -1,0 +1,968 @@
+From extropians-request@gnu.ai.mit.edu Thu Apr 15 15:31:06 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA19381; Thu, 15 Apr 93 15:31:02 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from churchy.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA24490; Thu, 15 Apr 93 15:30:50 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by churchy.gnu.ai.mit.edu (5.65/4.0)
+	id <AA04677@churchy.gnu.ai.mit.edu>; Thu, 15 Apr 93 18:23:29 -0400
+Message-Id: <9304152223.AA04677@churchy.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Thu, 15 Apr 93 18:23:03 -0400
+X-Original-Message-Id: <9304152223.AA04671@churchy.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0195
+X-Extropian-Date: Remailed on April 15, 373 P.N.O. [22:23:27 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Thu, 15 Apr 93            Volume 93 : Issue 0195
+                        
+Today's Topics:
+                         COMP: Complexity of sorting                  [2 msgs]
+                          COMP: Parallel processing                   [1 msgs]
+            Complexity of sorting (was Re: Extropian Priorities)      [2 msgs]
+                        ECON\UPLOAD: The Singularity                  [1 msgs]
+                              Economic systems                        [1 msgs]
+                            Extropian Priorities                      [4 msgs]
+                                    FAQs                              [1 msgs]
+                         Life on the edge of k-space                  [1 msgs]
+                                   My Trip                            [1 msgs]
+                              Reversible logic                        [1 msgs]
+                             Singularity Studies                      [5 msgs]
+                      TECH: Genetic algorithms question               [2 msgs]
+                         TIM: Apology and Self-exile                  [1 msgs]
+                               The Singularity                        [1 msgs]
+                               Wired: Tim May                         [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 51307 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 12 Apr 1993 23:32:22 -0400 (EDT)
+From: cbmvax!snark.thyrsus.com!esr@uunet.UU.NET (Eric S. Raymond)
+Subject: Economic systems
+
+> If you believe this, you should read "The Threat" by Alexander Cockburn.
+
+Trust *Cockburn's* assessment of the ex-Soviet threat?  It is to laugh.  Maybe
+he wasn't on KGB Directorate V's payroll, but he's certainly behaved as
+though he were with remarkable consistency.  That man is the kind of raving
+loony-left pustule who makes right-wing paranoia seem almost credible.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Tue, 13 Apr 1993 16:20:12 -0400 (EDT)
+From: cbmvax!snark.thyrsus.com!esr@uunet.UU.NET (Eric S. Raymond)
+Subject: TIM: Apology and Self-exile
+
+> Since I have been strongly attacked in public, I will respond in public.
+
+Speaking as one of Tim's targets, I hope he (a) doesn't stay gone too long,
+and (b) learns just a skooch more tolerance while on vacation.  His satires
+are great stuff (I'd love to see him lampoon neopaganism), but there's bit
+too much anger behind them, which tends to drive out wisdom.
+
+> >P.S.  I for one am waiting on the NeoPagan vs. Rationality verdict...
+> >I'm sure it promises to be amusing, entertaining, and informative.
+> 
+> I expect to post it on or near May Day, also known as Beltane.
+
+I'm looking forward to it.  Separately from the satire, one hopes. :-)
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Thu, 15 Apr 93 10:29:45 BST
+From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+Subject: Reversible logic
+
+Is the CV^2 * RC/T rule specific to CMOS, or more generally applicable? 
+Can R be set equal to zero by using superconductors?
+
+--                                ____
+Richard Kennaway                  \ _/__    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk       \X  /    University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk      \/     Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Thu, 15 Apr 1993 06:06:42 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: Extropian Priorities
+
+Eric S. Raymond writes:
+> 
+> >  Once programming languages and styles adapt to parallelism, the limits
+> > to CPU-speed growth will be economics, not physics.
+> 
+> This is by no means clear.  There are many important problems that are
+> intrinsically serial.  No matter how hard you try, for example, you won't
+> get factor K speedup out of splitting a sort between K processors.  The
+> merge of sorted sublists isn't quite O(n**2) but it's not O(n) either.
+
+  Actually, I read a paper a few weeks ago about a parallelized
+version of quicksort that was supposed to have big performance gains.
+I'm not a CS major, but it seems that your above statement is untrue.
+
+   Consider a mergesort which is about O(n lg n) (can't recall
+exactly. It takes about lg n split operations, and ~n operations for the merge
+for two sublists). Sort a list of N=65536 elements. Let each split/comparison
+operation require 1 cpu tick (unit of time). That's 1048576 operations,
+and t~=1048576 ticks to sort the list. But now, split the main list
+into two sublists, N_1=32768, N_2=32768 and have two subprocessors
+sort them. Each processor requires t_1=t_2~=491520 ticks, but they can
+sort the two sublists simultaneously. All that is left is for the main
+processor to merge the two lists which is ~O(N), with n=32768.
+So the final running time for a two processor mergesort is t~=491520+32768
+which is 524288 ticks which is 1048576/2.
+(Of course a split and a comparison operation will not require equal time.
+ A split can be done with ~N/2 operations, but let's assume we have
+a special processor with a split instruction and it takes one cycle.
+Also, let's assume that the list elements are strings with fixed length)
+
+  Can anyone look this up in Knuth to confirm it? I'm looking at a merge
+routine (linked list) right now that requires 3 comparisons + 3 moves per loop,
+plus a constant 2 comparisons (worst case) and 1 move. This comes out
+to 6N + 3 operations to merge sublists of size N. That's as far as I can
+take the analysis with my limited understanding of computational complexity,
+but it seems obvious by inspection that a merge is linear, I don't see
+how it can be quadratic. Of course, I have an excuse for any errors
+I made ;-) (it's >5am in the morning!)
+
+> Massive parallelism is a big win for numerical computing, for pattern
+> recognition, and for a number of AI problems that are hard to attack
+> serially.  However, the belief that it's a panacea that will end-run us
+> around quantum speed restrictions is confined to people who haven't done
+> any serious algorithmic analysis.
+> -- 
+> 					Eric S. Raymond <esr@snark.thyrsus.com>
+
+   A couple of weeks ago, someone wrote up a post about
+"the traveling salesphoton" which was an idea similar to Moravec's idea of
+using quantum mechanics to solve NP problems. I caught only a reply to
+the post (not the original, so I only saw part of it) but it concluded
+that any NP problem could be solved in linear time(doubtful), you may want to
+search for it.
+
+----   
+  I'm rather confused about this whole sorting business. I thought it was
+generally conceded that no sort could be better than O(n*log(n)) on
+average, but apparently there are two algorithms out there which claim
+they can beat this.  The compact radix sort (based on radix tree) was
+recently posted to comp.theory and the author claims it is O(N).
+(surprisingly, I didn't see anyone successfully refute it). Also,
+a year ago, I heard about some new sort called the Fusion sort based on
+'fusion trees' which supposedly beat n*log(n).
+
+
+-Ray 'tired, stayed up allnight to study' C. ROMwell
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+
+
+------------------------------
+
+Date: Wed, 14 Apr 1993 12:04:37 -0400 (EDT)
+From: cbmvax!snark.thyrsus.com!esr@uunet.UU.NET (Eric S. Raymond)
+Subject: Extropian Priorities
+
+>  Once programming languages and styles adapt to parallelism, the limits
+> to CPU-speed growth will be economics, not physics.
+
+This is by no means clear.  There are many important problems that are
+intrinsically serial.  No matter how hard you try, for example, you won't
+get factor K speedup out of splitting a sort between K processors.  The
+merge of sorted sublists isn't quite O(n**2) but it's not O(n) either.
+
+Massive parallelism is a big win for numerical computing, for pattern
+recognition, and for a number of AI problems that are hard to attack
+serially.  However, the belief that it's a panacea that will end-run us
+around quantum speed restrictions is confined to people who haven't done
+any serious algorithmic analysis.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Thu, 15 Apr 1993 08:52:30 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: FAQs
+
+In <9304140937.AA13838@geech.gnu.ai.mit.edu>, Eric Watt Forste writes:
+|> 
+|> I've been lurking for about two weeks now and this is my first post to
+|> this list. Because it's my first post, I'm including my PGP key at the
+|> end of this message.
+
+Wilkommen, Bienvenue, Welcome, Come in!
+
+[...]
+|> I've been an anarchist for as long as I've been politically literate.
+|> I started out as the naive left-wing typically adolescent anarchist
+|> (reference: LeGuin's The Dispossessed) but was fortunate in running
+                                                  ^       ^ extremely
+
+|> across libertarian stuff by Leonard Read while I was still in high
+|> school, and reading Ayn Rand and Henry Hazlitt, who at least kept me
+|> confused and open-minded about the private property thing until I met
+|> Anton Sherwood, who handed me a copy of Friedman's tMoF, in which for
+|> the first time I found a coherent system of political ideas that I was
+|> entirely comfortable with.
+
+Careful, now. Ddfr is not "entirely comfortable" with or within tMoF,
+so I don't think you get to be either. Of course, he's around here on
+the list somewhere and can decide for himself how much hero-worship he
+wants :-)
+
+Your history is reflected by that of several here, me included. I was
+"immune" to individualist memes in high school; I'm not even sure
+exactly why, except that accepting them might have entailed agreeing
+with my father.
+
+I'm going to an L5-sponsored conference here in Huntsville in May. I
+suppose the NASA-sycophant faction will be firmly in command here in
+Rocket City, home of the Marshall Space Flight Center, etc., etc -- a
+Big Space company town, that's us.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    / ** FIDONET DISTRIBUTION FORBIDDEN **
+
+
+------------------------------
+
+Date: Thu, 15 Apr 93 10:25:29 CDT
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: Singularity Studies
+
+This is my mechanistic insight.  I assume that 'progress' is measured
+by the growth of human population - technology allows more people
+to live.  I assume that 'progress' is proportional to human population.
+What this means is that the rate of invention is constant per person,
+so that if there are more people, inventions are made faster in
+a linear relationship.
+
+If I make these assumptions, then the population trends I observe
+are the ones I would expect - the population growth rate increases
+with population, and hence the time constant for a set increase goes
+down.  I would expect 1/population to produce a straight line.
+
+The interruptions I see, such as the Black Death, are caused by
+disease, i.e. not affected by the rate of invention.  Once the
+plague stopped recurring, the population trends resumed their 
+historical pattern.
+
+Going back as far as 10,000 years, the big break in slope seems
+to be at the Neolithic Revolution, with the introduction of agriculture
+and cities.  There are other changes in slope which I cannot explain
+fully now.  I speculate that the slowdown around 3-5,000 years ago
+was from the big invention of agriculture having mostly run it's course,
+but the next big invention or inventions not getting going for a
+while.
+
+For reference, the population of the world 12,000 years ago is
+estimated at only 4 million.  If we divide the 1.2 trillion
+person-years of mankind from then through the year 2000, the
+quintile points are 200AD, 1230AD, 1750AD, and 1940AD.  In other
+words, equal amounts of mankinds existence occurs between these
+point when measured in total person-years.
+
+Another way to break history down is into thirds, which I will
+call Ancient, Medieval, and Modern.  The breakpoints are 960 AD
+and 1840 AD.
+
+As far as whether there is a reasonable mechanism to have an
+infinite population, I can show you that space colonies could
+support an ordinary human population of 10^15 in this solar
+system alone.  Then you get into machine life, and the upper
+bound gets very high.  
+
+My intent was to show another indicator of when the Singualrity
+might occur, this one based on history.  I don't think that
+population will truly go to infinity, but a population of
+10^20 based on machine life would be hard to tell from infinity
+from our point of view.
+
+Dani Eder
+
+------------------------------
+
+Date: Thu, 15 Apr 1993 10:55:44 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: My Trip
+
+In <9304140904.AA13662@geech.gnu.ai.mit.edu>, starr@genie.slhs.udel.edu writes:
+|> My apologies to those Alabamans whose hospitality I won't be able to accept.
+|> Perhaps I will be permitted a rain check?
+
+Why sho-ah, Timmuh. We'll save y'all some grits 'n hushpuppies.
+
+-- Freeman Craig Presson, Native Suthunnah
+cpresson@ingr.com
+72430.1422@compuserve.com
+** DISTRIBUTION ON FIDONET NOT ALLOWED **
+Today is the anniversary of -- 
+4/15/1930, birth of Vigdis Finnbogadottir,
+           president of Iceland.
+
+
+
+
+
+------------------------------
+
+Date: Thu, 15 Apr 93 13:42:11 -0400
+From: pavel@PARK.BU.EDU (Paul Cisek)
+Subject: TECH: Genetic algorithms question
+
+I have some questions for the Genetic Algorithms people out there.  I hope
+they're of interest to the list...
+
+In biological genetics, there is often a relationship between genes within a
+pair of alleles where one is dominant over the other.  A recessive genes is
+consequently expressed much less often than the dominant one.  My first
+question is: What determines the dominance of one gene over another?  Is it a
+part of the code in the cistron itself or is it a property of the chromosome
+that it happens to be carried by?  The simple example I always hear is that
+blue eye color is recessive and brown is dominant.  I'm sure most traits,
+including eye color are actually much more complicated than that, but
+nevertheless, is the following reasoning accurate:
+
+Whenever there exists a relationship between genes where one is dominant over
+another, the recessive one is expressed less often.  Thus, it is not
+selected-against in the population as severely as the dominant (even a very
+damaging gene can survive in organisms where it's masked by a dominant one).
+Thus, we can expect a pool of recessive genes to show more variety in
+mutations than the dominant ones do.  When a population decreases in size, the
+likelihood that an organism winds up with two recessive genes increases, and
+thus we expect more mutations (as seen in cases of inbreeding).
+We seem to wind up with an automatic mechanism for increasing mutation rate
+during times of evolutionary stress upon a population (a kind of emergency
+system).
+
+Is this right?  Please point out any problems with any of the above steps.
+(BTW - I've read the Selfish Gene, and am not arguing for selection
+among populations or even individuals, but just pointing out an effect that
+selection among genes can have on the evolutionary rate in a population).  My
+next question is:  Has this kind of mechanism been attempted in genetic
+algorithms?  What kind of results were observed?
+
+-Paul
+
+
+------------------------------
+
+Date: Thu, 15 Apr 93 10:41:24 -0700
+From: cappello%cs@hub.ucsb.edu (Peter Cappello)
+Subject: Extropian Priorities
+
+>>No matter how hard you try, for example, you won't
+>> get factor K speedup out of splitting a sort between K processors.   
+>>The merge of sorted sublists isn't quite O(n**2) but it's not O(n)  
+>>either.
+>
+>  Actually, I read a paper a few weeks ago about a parallelized
+>version of quicksort that was supposed to have big performance  
+>gains.  I'm not a CS major, but it seems that your above statement  
+>is untrue.
+
+I believe that there is strong, albeit inconclusive, evidence that  
+P-complete problems do not parallelize as much as one would like: As  
+I understand it, no one has found any P-complete problem in NC---the  
+set of problems that can be solved in poly-logarithmic time, using a  
+polynomial number of processors.  An equivalent view of NC is the set  
+of problems that can be computed by a circuit of poly-log depth, and  
+of polynomial size. (BTW, using a circuit of exponential size  
+probably would not help for physical reasons.)  P-complete problems,  
+by definition, have a worst-case complexity that is polynomial.  I  
+seem to recall (don't hold me to this) that, for example, MAXIMAL  
+CLIQUE (i.e., a set of nodes that form a clique, but which are NOT  
+part of a bigger clique) is P-complete.
+
+I am not a theoretician, so I am not well-versed in these matters.   
+One, of course, should be careful about drawing conclusions about  
+theoretical evidence without knowledge of the details.  Sometimes,  
+theoretical complexity results are of little practical consequence.
+
+>I'm rather confused about this whole sorting business. I thought it  
+>was generally conceded that no sort could be better than O(n*log(n))  
+>on average, but apparently there are two algorithms out there which  
+>claim they can beat this.  The compact radix sort (based on radix  
+>tree) was recently posted to comp.theory and the author claims it is  
+>O(N). (surprisingly, I didn't see anyone successfully refute it). 
+
+
+This is well known.  Radix sort was used to sort cards with the card  
+sorters of yesteryear.  The Omega(n log n) lower bound for sorting is  
+on the number of comparisons between elements.  Radix sort does not  
+treat each element as atomic.  It does not do comparisons between  
+whole elements.  It is a kind of bucket sort, and violates the model  
+used to prove the lower bound.
+
+-Pete
+cappello@cs.ucsb.edu
+
+------------------------------
+
+Date: Thu, 15 Apr 1993 14:22:11 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: The Singularity 
+X-Reposting-Policy: redistribute only with permission
+
+Eli Brandt says:
+> Thanks for the repost, Perry.  It was pointed out last time this
+> came up that the singularity may not be as sudden as you suggest, as
+> experiments with less dramatic mind enhancement will probably become
+> possible before million-times speedups.  
+
+Sure, that could happen. That isn't important to what I was getting
+at, though. What I was pointing out was this: regardless of how steep
+the curve is, we will get to the stage within the next half century to
+century where all is moot, and finding exact definitions of where the
+"singularity" is or trying to calculate an exact date is immaterial.
+No matter how you slice it, by some point in the 21st century the
+world will have become unrecognisable, period.
+
+Perry
+
+------------------------------
+
+Date: Thu, 15 Apr 93 11:32:53 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: Singularity Studies
+
+Responding to Dani's prediction of a population singularity:
+
+Remember Nick's point about the S-shaped growth curve (often called the
+"yeast growth curve").  At the left part, it looks exponential.  A little
+yeast cell extrapolating at that time would predict huge growth rates.
+But that extrapolation is meaningless.  You can't tell an S-shaped curve
+from an exponential one at first.  So we really have no basis for concluding
+that population, or computer speed, will continue to increase exponentially.
+
+Many industrial technologies have gone through S-shaped curves.  Locomotive
+speeds; cotton production as the cotton gin was being refined; etc.  At one
+time such mundane businesses as textiles were exciting, fast-moving fields
+where each year new techniques and processes were obsoleting the old.  There
+is no reason to expect that the "hot" fields of today will be immune.
+
+Hal
+
+------------------------------
+
+Date: Thu, 15 Apr 93 11:36:13 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: COMP: Parallel processing
+
+My experience is that Eric is right that for any given problem of a specified
+size, there is a limit to how much parallel computing power you can throw
+at it.  This observation has taken on the status of a "law" (I forget the
+name) in the parallel computing field.
+
+BUT - there is a countervailing factor, which is that if you scale up problem
+size as you scale up the number of processors, you can retain nearly 100%
+efficiency.  And this is in practice what is done.  People don't use
+thousand-processor systems to solve the little problems that bogged down their
+uniprocessors.  Instead they run great big problems on these machines,
+bogging them down just as thoroughly and justifying expenditures on even larger
+designs.
+
+Hal
+
+------------------------------
+
+Date: Thu, 15 Apr 93 12:02:11 EDT
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: Singularity Studies
+
+> > From: eder@hsvaic.boeing.com (Dani Eder)
+> 
+> > I am looking at a graph of "10^9/Population" (inverse population
+> > mormalized to 1 billion) plotted from 500 AD through 2000 AD.
+> > It is a surprisingly steady trend, with only the Black Death
+> > causing a 200 year delay in the pattern.
+ 
+Eli   ebrandt@jarthur.claremont.edu responds:
+
+> I'm sure you can fit all sorts of things to the data.  Choosing a
+> functional form which introduces a singularity seems like poor
+> modeling, as there is no reasonable mechanism by which to have an
+> infinite population.  
+
+No, but there are perfectly reasonable mechanisms that ride that
+curve, follow the differential equation for it, i.e.,
+	        2
+	y' = k y
+*for a while*, just like there are mechanisms that follow other curves
+for a while.  The good ol' sigmoid is a loyal exponential till it runs
+out of steam.
+
+I mean, how can you criticize a curve for going to infinity, fer
+chrisesakes??  *Lines* go to infinity!  :-)
+
+> Without mechanistic insight, you can use this
+> reciprocal-linear form, or a tweaked exponential, or a polynomial of
+> outrageous order, without any idea as to which -- if any -- will
+> extrapolate in a reasonable fashion.
+
+?  Seems to me it's okay to propose forms of curves before coming up
+with detailed mechanisms, evaluating by simplicity of mathematical
+model vs. closeness of fit to the facts.  If 1/t has really been *much*
+closer to the truth than, say, exp(t) over, say, an order of magnitude 
+or two of change, then I'd say that deserves attention.
+
+But if you want a mechanism it's easy enough to propose.  For instance:
+
+	Carrying capacity of the Earth is proportional to something
+		called, say, "efficiency."
+	This efficiency is raised a certain tiny percentage by 
+		each person who works on improving it.
+	The number of people working on it is proportional to
+		the population.
+
+At first glance, that might look like an exponential model, but it's
+not; it's a reciprocal model.  1/t doesn't just come out of thin air.
+Here's a rule of thumb:
+	An exponential motor speeds up a fixed number of RPM every turn.
+	Or, an exponential motor speeds up a fixed percentage every second.
+	A reciprocal motor speeds up a fixed percentage every turn.
+
+-fnerd
+quote me
+
+------------------------------
+
+Date: Thu, 15 Apr 93 19:08:47 BST
+From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+Subject: Complexity of sorting (was Re: Extropian Priorities)
+
+Ray Cromwell writes:
+>  I'm rather confused about this whole sorting business. I thought it was
+>generally conceded that no sort could be better than O(n*log(n)) on
+>average, but apparently there are two algorithms out there which claim
+>they can beat this.  The compact radix sort (based on radix tree) was
+>recently posted to comp.theory and the author claims it is O(N).
+>(surprisingly, I didn't see anyone successfully refute it). Also,
+>a year ago, I heard about some new sort called the Fusion sort based on
+>'fusion trees' which supposedly beat n*log(n).
+
+I haven't seen the posts on comp.theory, but I'll take a look.  I haven't
+heard of fusion trees.
+
+There are two arguments for the O(n*log(n)) lower bound, one restricted but
+precise, one general but dubious.
+
+The restricted, precise version is that if a sorting algorithm proceeds by
+performing pairwise comparisons of elements of the list, then it must
+require at least O(n*log(n)) comparisons on average.  This is because each
+comparison gives 1 bit of information, there are n! possible outcomes for
+the sort, and log(n!) = O(n*log(n)).
+
+Note that this argument says nothing about the possibility of doing better
+with parallelism.  It's a bound on the total work to be done, not the time
+taken to do it.  I can immediately think of at least one way to sort in
+O(n) time using comparisons and O(n) parallelism (ignoring the costs of
+communicating among such a huge number of parallel processes).
+
+Radix sort does not work by pairwise comparisons, so this argument is not
+applicable to it.
+
+The general but dubious derivation of O(n*log(n)) is on information-
+theoretic grounds.  As mentioned above, any sorting algorithm must somehow
+generate O(n*log(n)) bits of information to sort an arbitrary list of n
+elements.  Supposedly this must take a proportional amount of time.  A
+rigorous argument to this effect appears wanting.  I might believe
+O(log(n*log(n))) time to generate n bits, but that's a lot smaller -- in
+fact, it's overwhelmed by the O(n) time required just to read and write the
+whole list.
+
+In practice, when keys are short, radixsort is linear for all practical
+purposes, and the information-theoretic argument can be ignored.
+
+In general, the proper choice of sorting algorithm depends on the
+particular problem.  All have their own strengths and weaknesses, and
+running time is only one of several properties which will determine the
+choice.  Radix sort is very fast, but can require a lot of temporary
+workspace.
+
+Extropian relevance?  Hmm, what about that information-theoretic argument? 
+Another "fundamental limit" that isn't, like the kT limit that can be
+circumvented by reversible computation and the CV limit that several people
+have recently found a way around?  I remember an article in Sci.Am. many
+years ago (no reference) about completely different types of machine for
+solving problems such as sorting much faster.  For example, how long does
+it take to find the maximum element of a list?  O(n), surely, since you
+must at least look at each one?  Not if the elements are pieces of uncooked
+spaghetti of various lengths.  To find the longest, stand them upright in a
+bundle on a flat surface, then the longest can be picked out easily in O(1)
+time.
+
+--                                ____
+Richard Kennaway                  \ _/__    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk       \X  /    University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk      \/     Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Thu, 15 Apr 93 11:44:23 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: Life on the edge of k-space
+X-Reposting-Policy: Redistribute freely
+
+I like Nick's idea of an investment firm which goes for really low-probability
+but high-payoff investments, and diversifies to protect itself from risk.
+I have seen occasional claims in the literature that high-risk returns are
+higher than they should be in a fully rational market.  This whole approach
+reminds me of Heinlein's "Long Range Foundation".
+
+But, the big problem is in estimating the probability of success.  Where do we
+get a number like 1% for the chance of coming up with a smart drug that
+raises IQ to 150?  You can't just go on "gut feel", not if you're investing
+other people's money.  But there is so little information available as to
+whether success is possible.
+
+There is a lot of philosophical literature about estimating probabilities in
+states of near-zero information.  A classic example was "is there life on
+Mars", asked at a time when we knew virtually nothing about that planet.
+No agreement seems to exist about what methodology is optimal to use for
+problems of this type.  I'd like to see more work in this area.  We had
+something here a while back about a class of problems for which very little
+information was given and there was a provably optimal strategy involving
+the constant 1/e.  I wonder if something like this could be applied to
+uncertain problems like those Nick describes.
+
+Hal
+
+------------------------------
+
+Date: Thu, 15 Apr 93 12:05:35 -0700
+From: cappello%cs@hub.ucsb.edu (Peter Cappello)
+Subject: COMP: Complexity of sorting
+
+>For example, how long does it take to find the maximum element of a  
+>list?  O(n), surely, since you must at least look at each one?  Not  
+>if the elements are pieces of uncooked spaghetti of various lengths.   
+>To find the longest, stand them upright in a bundle on a flat  
+>surface, then the longest can be picked out easily in O(1) time.
+
+I believe that the time, using this approach, can be bounded from  
+below by Omega (sqrt(n)).  Assume that the speed of light is fixed.  
+The time needed to detect the longest strand of spaghetti, then is  
+bounded from below by the time for light to travel the distance from  
+the longest strand to they eye of the observer.  According to the way  
+you have described the algorithm, the strands are held in a bundle (a  
+cylinder). Its radius is Omega(sqrt(n)).  
+
+
+One can arrange things differently, but I doubt that a time of O(1)  
+can be achieved for any finite n.
+
+BTW, sorting does parallelize nicely.  Batcher gave a O(log^2(n))  
+algorithm many years ago that helped to popularize the  
+shuffle-exchange network.
+
+-Pete
+cappello@cs.ucsb.edu
+
+------------------------------
+
+Date: Thu, 15 Apr 1993 15:21:54 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: ECON\UPLOAD: The Singularity 
+X-Reposting-Policy: redistribute only with permission
+
+Robin Hanson says:
+> Perry writes:
+
+> Sigh.  I guess we need to have the same conversation all over again.  
+> I'm pretty sure Perry will grant most of my points, but I'm less
+> confident this will be reflected in the next context in which he posts
+> on the subject.  
+
+I think you don't understand the point I am making -- its oblique to
+yours.
+
+> First, I find it highly unlikely that uploading technology will start
+> out at 10^8x faster on the first day.  Even if the hardware were
+
+Never mind all that. The point is this -- no matter how it happens,
+its going to end up happening extremely fast on a reasonable time
+scale. No matter what, we are within 50 or 100 years of hitting a
+historical wall. No matter what your definition of singularity, no
+matter what your mechanism for uploading, no matter what your X, its
+likely happening within our lifetimes. Speculation beyond that really
+doesn't matter, does it?
+
+The point of my off-the-cuff speedup scenario was not to imply that
+uploading would happen in one day. It was to imply that when it
+happens the rules break so badly it no longer matters if it took 1
+year or 10 years go get there -- the result is a historical predictive
+brick wall. Yeah, maybe slower uploading will be available first --
+but if slower uploading is available first it will only SPEED UP the
+whole process by speeding up the rate of change before we hit "the
+wall".
+
+Let me reiterate so I am absolutely clear:
+
+Many scenarios are possible. I don't care to speculate what precisely
+will happen. All I know is that at some point within at lowest twenty
+five years and at most about one hundred years, we are going to have
+intelligent entities spawned by our race operating at 10^8 times the
+speed of humans by some reasonable benchmark. When that happens the
+world will become completely incomprehensible to humans. Whether that
+happens slowly or quickly, over a decade or in one day, etc, does not
+matter. What does matter is the predictive brick wall, and that it is
+showing up SOON.
+
+Or, in one line: trying to see beyond the brick wall is impossible,
+and trying to do so is virtually futile.
+
+Perry
+
+------------------------------
+
+Date: Thu, 15 Apr 1993 15:25:10 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: Complexity of sorting (was Re: Extropian Priorities)
+
+
+------------------------------
+
+Date: Thu, 15 Apr 93 15:37:57 EDT
+From: Brian.Hawthorne@East.Sun.COM (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: Singularity Studies
+
+> For reference, the population of the world 12,000 years ago is
+> estimated at only 4 million.  If we divide the 1.2 trillion
+> person-years of mankind from then through the year 2000, the
+> quintile points are 200AD, 1230AD, 1750AD, and 1940AD.  In other
+> words, equal amounts of mankinds existence occurs between these
+> point when measured in total person-years.
+
+I would be very interested in knowing where these population estimates
+came from. Are they based on physical/archaelogical evidence, or are
+they themselves based on extrapolations from the curve? If the latter,
+it sure would explain why the curve fits the data so well.
+
+Do you have references to PRIMARY sources of population data pre-1900?
+I'd be curious to read some of them.
+
+------------------------------
+
+Date: Thu, 15 Apr 1993 16:09:04 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Wired: Tim May
+
+I have seen the cover and indeed Tim is on it - although
+you might not recognize him...
+
+Buy it and see for yourself.
+
+/harry
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Thu, 15 Apr 93 16:51:49 -0400
+From: pcm@cs.brown.edu (Peter C. McCluskey)
+Subject: Extropian Priorities
+X-Reposting-Policy: redistribute freely
+
+ esr@snark.thyrsus.com  (Eric S. Raymond) writes:
+>>  Once programming languages and styles adapt to parallelism, the limits
+>> to CPU-speed growth will be economics, not physics.
+>
+>This is by no means clear.  There are many important problems that are
+>intrinsically serial.  No matter how hard you try, for example, you won't
+>get factor K speedup out of splitting a sort between K processors.  The
+>merge of sorted sublists isn't quite O(n**2) but it's not O(n) either.
+>
+>Massive parallelism is a big win for numerical computing, for pattern
+>recognition, and for a number of AI problems that are hard to attack
+>serially.  However, the belief that it's a panacea that will end-run us
+>around quantum speed restrictions is confined to people who haven't done
+>any serious algorithmic analysis.
+
+ My assertion implicitly included the claim that typical problems which will
+require faster processors can benefit significantly from parallelization.
+I stand by this claim, although I don't claim that the speedup will be
+linear in the number of processors, nor do I mean to trivialize the paradigm
+shift that will be needed.
+
+ Sorting n numbers on a array of n processors has been proven to require
+O(sqrt(n)) time, due to the time required to move the data from one end of
+the array to the other. (I am ignoring the better than O(log^2 n) time
+achievable on hypercube-like networks because the hardware doesn't scale up
+well enough due to fan-out and/or wire length problems).
+ I think this is sufficient to demonstrate that the limits on single processor
+speeds won't be a major deterent to the singularity.
+-----------------------------------------------------------------------------
+ Peter McCluskey >> pcm@cs.brown.edu >> Eradicate global namespace pollution!
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Thu, 15 Apr 93 16:03:13 CDT
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: Singularity Studies
+
+No, I have not gone back to primary sources.  Demogrpahics
+demographics is a large enough subject to have it's own
+name.  You can start by looking in any almanac, you should
+be able to find a table of population vs year for the
+world.  I also found one book (whose title page I neglected
+to copy) which gives population history country by country
+and also for the world as a whole.  This is a secondary
+source, and evidently relied on other sources for it's data.
+
+If you are really interested in population estimates, I suggest
+you look under "demographics" or "population - history" in a
+good library.  You should find sufficient information there.
+
+Dani Eder
+
+
+------------------------------
+
+Date: Thu, 15 Apr 93 17:09 EDT
+From: kqb@whscad1.att.com
+Subject: COMP: Complexity of sorting
+
+Ray Cromwell writes:
+>  I'm rather confused about this whole sorting business. I thought it was
+>generally conceded that no sort could be better than O(n*log(n)) on
+>average, but apparently there are two algorithms out there which claim
+>they can beat this.  ...
+
+Complexity bounds depend on the model of computation chosen.
+If I recall correctly from 15 years ago, the O(n*log(n)) lower
+bound for sorting assumes that the comparison tree uses only analytic
+functions.  A floor function is not analytic, though, and can be used
+for a faster sorting algorithm, or at least a faster *expected
+time" sorting algorithm.  (I'll skip radix sort since someone
+already mentioned that.  Also, I'll assume only one processor
+is used to do the comparisons.)
+
+Bruce Weide's 1978 Carnegie-Mellon Computer Science Department
+thesis ("Statistical Methods in Algorithm Design and Analysis")
+describes a simple and fairly general-purpose linear expected
+time sorting algorithm using the floor function.  It is easiest
+to understand if the N numbers to be sorted come from a uniform
+distribution over the interval [0,N), but most any ordinary kind of
+distribution is OK because in sublinear time one can sample some
+of the N numbers and construct a function that will transform
+(in linear time) the N numbers so that they are approximately
+uniformly distributed.
+
+To sort N uniformly distributed numbers in linear expected time,
+do the following:
+
+  (1) create an array of N/C bins, for some constant C
+  (2) create an (initially empty) linked list for each of
+      those N/C bins,
+  (3) for each number n
+        add n to the linked list for bin |_ n/C _|
+  (4) for each of the N/C linked lists
+        sort the list in constant expected time
+        output the sorted list
+
+For the full details, read Bruce Weide's thesis or some reference to it.
+
+                              Kevin Q. Brown
+                              INTERNET    kqb@whscad1.att.com
+                                 or       kevin_q_brown@att.com
+
+------------------------------
+
+Date: Thu, 15 Apr 93 17:43:02 -0400
+From: pcm@cs.brown.edu (Peter C. McCluskey)
+Subject: TECH: Genetic algorithms question
+
+ pavel@PARK.BU.EDU  (Paul Cisek) writes:
+>In biological genetics, there is often a relationship between genes within a
+>pair of alleles where one is dominant over the other.  A recessive genes is
+>consequently expressed much less often than the dominant one.  My first
+>question is: What determines the dominance of one gene over another?  Is it a
+
+ I haven't heard a mechanism described, so I assume that it's more a byproduct
+of different reaction rates for synthesis of different proteins than anything
+specifically evolved to create dominance.
+
+>Thus, we can expect a pool of recessive genes to show more variety in
+>mutations than the dominant ones do.  When a population decreases in size, the
+>likelihood that an organism winds up with two recessive genes increases, and
+>thus we expect more mutations (as seen in cases of inbreeding).
+>We seem to wind up with an automatic mechanism for increasing mutation rate
+>during times of evolutionary stress upon a population (a kind of emergency
+>system).
+
+ While this effect undoubtably happens, there is another mechanism that
+appears to be more important in increasing the rate of change when the
+population size decreases. In a tiny population a new gene can take over
+the entire population in a few generations if it does well, whereas in a
+large population even the best of new genes takes a long time to outcompete
+existing ones.
+
+>next question is:  Has this kind of mechanism been attempted in genetic
+>algorithms?  What kind of results were observed?
+
+ I haven't even diploid chromosomes used in GA's, much less dominance among
+pairs of alleles. I presume this is because it's a pain to figure out
+rules for translating the conflicting genetic material into a consistent
+algorithm.
+
+-----------------------------------------------------------------------------
+ Peter McCluskey >> pcm@cs.brown.edu >> Eradicate global namespace pollution!
+-----------------------------------------------------------------------------
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0195
+****************************************
+

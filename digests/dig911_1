@@ -1,0 +1,984 @@
+From extropians-request@extropy.org Sat Sep 11 08:38:29 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA22592; Sat, 11 Sep 93 08:38:27 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA13561; Sat, 11 Sep 93 08:38:21 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA09379; Sat, 11 Sep 93 11:17:20 EDT
+Received: from news.panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+	id AA09373; Sat, 11 Sep 93 11:16:59 EDT
+Received: by news.panix.com id AA16611
+  (5.65c/IDA-1.4.4 for exi-maillist@ung.gnu.ai.mit.edu); Sat, 11 Sep 1993 11:16:51 -0400
+Date: Sat, 11 Sep 1993 11:16:51 -0400
+Message-Id: <199309111516.AA16611@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: September 11, 373 P.N.O. [15:16:34 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Sat, 11 Sep 93             Volume 93 : Issue 253
+
+Today's Topics:
+                                                                      [2 msgs]
+                        Discovery, Concepts, and Rights               [1 msgs]
+                                 Oil Drilling                         [1 msgs]
+                 "Code Warriors" Article in "Metro" Newspaper         [1 msgs]
+                              Extropian Exploits                      [1 msgs]
+                         HUMOR: Article i meant to se                 [1 msgs]
+         META: Any "Eudora" users having problems with List software? [1 msgs]
+                 META: Any "Eudora"...Lefty Saves the Day!!!          [1 msgs]
+                            Nightly Market Report                     [1 msgs]
+                             PATENT: Gene Patents                     [2 msgs]
+                        PHIL: Extropian epistemology?                 [1 msgs]
+                        SOC: Human population argument                [1 msgs]
+                    The Discoveries of Concepts and Rights            [1 msgs]
+                             constitutional myth                      [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51719 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 10 Sep 1993 16:14:05 -0800
+From: lefty@apple.com (Lefty)
+Subject: META: Any "Eudora" users having problems with List software?
+
+>* Eudora is an offline mail reader for the Mac (and soon, Windows).
+>Incoming mail messages can be sorted by sender, date sent, subject,
+>etc. Very nice for high-volume mailing lists.
+>
+>Eudora sorted messages by original sender, not by the resending site
+>(extropians@extropy.org).
+>
+>* After rejoining the Extropians list, on around 9-5-93, I discovered
+>that all messages from the Extropians list were being sorted as having
+>one sender: the extropians@extropy.org address.
+>
+>The mail headers still have the original sender listed, of course, but
+>I cannot sort by sender, nor can I tell at a glance who has sent a
+>message.
+
+I bet you've upgraded your copy of Eudora in the interim.  I noticed this
+same thing when I upgraded to version 1.4.
+
+Here's the scoop as I understand it (I'm working from my memory of a
+posting on this issue on comp.sys.mac.comm about a week ago).  There is a
+resource 'STR#' 5400 in Eudora which specifies the "preference order" of
+various lines which might appear in the header.  Default setting is
+"Reply-To:" "Resent-Reply-To:" "From:" and "Resent-From:".  Eudora uses
+this list both to determine what it displays in the In basket, but also to
+determine who a response should go to.
+
+The order of the entries, I believe, changed between 1.3 and 1.4.  A copy
+of the resource is also stored in the Eudora Preferences file; this is why
+1.3 now behaves strangely.
+
+This is to say, Mr. Dorner has effectively screwed us by using one resource
+for two different things.  You could reorder the list so that "From:" came
+first; your In basket would then display correctly, but when you tried to
+reply, it would go to the sender (i.e. the name on the "From:" line) rather
+than the list (i.e. the name in the "Reply-To:" line).
+
+>* By the way, the "Exi-Bay" list was giving me normal results up until
+>the same time I rejoined the main list (a coincidence? or evidence
+>that something at *my end* changed?).
+
+No, a "Reply-To:" line is also used in the Exi-Bay list header.
+
+>* My other mailing lists (notably Cypherpunks, others) are still
+>sorting the way they always have--only the Extropians lists are
+>behaving as I've just described.
+
+There's no "Reply-To:" line in Cypherpunks headers.
+
+>I forwarded some of the headers to Ray as I received them online, on
+>Netcom, before Eudora saw them, and thene the same headers _after_
+>Eudora has downloaded them. No obvious explanations occurred.
+>
+>So, is anyone else out there using Eudora? (BTW, the behavior
+>described happens both with the new version 1.4fc1 and the old
+>standby, version 1.3, which I've been using for 8 months.)
+>
+>Anyone seeing this behavior? Any suggestions?
+
+Um, try trashing the Preferences file and fall back to 1.3?
+
+Send death threats to Steve Dorner?
+
+>I hope someone can help, as I cannot really live with a high-volume
+>list like Extropians dumping all messages into one "sender."
+
+It _is_ a nuisance...
+
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: Fri, 10 Sep 93 19:21:37 -0400
+From: Jeff Fabijanic <jeff@PROFESSOR-ED.ELF.COM>
+Subject: HUMOR: Article i meant to se
+
+   >Today my friend is . . . in competition with 
+
+   >thousands of other recent-grads for a limited supply of jobs.
+   >What do you propose as a solution for my friends 'real-time'
+   >problem? 
+
+
+   If we knew the answer to this, we'd be Gandhi, Edison and Ford combined.
+
+>Diapered stubborn Nazis?  ;-)
+
+Ouch - that one almost got me, captain!
+
+ -Jeff
+
+
+
+------------------------------
+
+Date: Fri, 10 Sep 1993 18:09:03 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: "Code Warriors" Article in "Metro" Newspaper
+
+I wish a long enough time would pass between "remove buffer" commands
+being issued by the modem for me to do a pretty excerpt and nice reply
+to Mike Diehl's post about how it's getting harder for the government
+to lie to us due to electronic communications...
+
+Well: you heard about how we recently found out about how all
+the Star Wars tests were false? This is a good example of what
+you were talking about, right?
+
+(Thanks to improved communications, we find out the government is
+lying, right?)
+
+Wrong!
+
+A pair of "high-ranking defense officials who requested anonyminity"
+simply tried to gain favor with the current faction by "leaking"
+that the last faction faked certian tests having to do with interceptor
+missles and seeker technology.
+
+These officials didn't bother, as well as the reporters for the "paper
+of record" that printed the story, to concoct a means of throwing
+the test that is compatible with what the average BS Physics
+student know about the inteptor from AvLeak and about the environment
+said interceptor is supposed to operate in. 
+
+Has anyone else spotted the problem?
+
+
++-----------------------+Here, all too soon the day!
+|"Standard Disclaymore" |Wish the moon to fall and alter our tomorrow.
+|pgf@srl03.cacs.usl.edu |I should know, heaven has her way;
++-----------------------+Each one given memories to own.
+
+------------------------------
+
+Date: Fri, 10 Sep 93 16:20:00 PDT
+From: thamilto@pcocd2.intel.com (Tony Hamilton - FES ERG~)
+Subject: SOC: Human population argument
+
+> More to the point: how traceable are the current economic
+> problems to overpopulation? 
+
+The US is neither overpopulated, nor inefficient (just in case someone
+might propose this). We're simply not manufacturing anymore. Instead, we're
+servicing, legislating, network marketing, and suing. Oops, I almost
+forgot "sulking". We do a lot of that, too. Can you tell I'm not too 
+impressed with the outlook here? And _I'm_ someone with a very solid job,
+living the so-called American Dream (closing on a house in 3 weeks)...
+
+Tony Hamilton
+thamilto@pcocd2.intel.com
+HAM on HEx
+
+------------------------------
+
+Date: Fri, 10 Sep 93 17:39:50 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: META: Any "Eudora"...Lefty Saves the Day!!!
+
+Lefty has saved the day and has earned my undying respect....well, until
+the next flame war at the very least.
+
+His fix worked, and I am back to having my mail sorted properly.
+
+His point that Eudora 1.4 *evilly* and *foolishly* modifies the "Settings"
+file (Eudora doesn't use a conventional "Preferences" file) and then
+doesn't put it back to what it was even when the earlier software (1.3) is
+restored is the key.
+
+My advice to Extropians: Stick with version 1.3, unless and until future
+versions fix this situation. If you have already upgraded to 1.4fc1, you
+have probably already seen the problem I've been describing. If so, go back
+to 1.3 after trashing the "Settings" file (which may be in both the System
+folder and your main Eudora folder).
+
+However, be sure you have an *old* copy of your "Settings" file (before
+having installed 1.4), as just trashing the current Settings file will
+leave you with a brand new environment sans your old mailboxes and the
+like. (There may be a way to recover or open mailboxes into a new
+environment, but I don't know how. I was lucky to have saved a complete
+copy of Eudora 1.3, including my old Settings file, so I was able to
+restore my old environment.)
+
+Lefty wrote, for reference:
+
+>I bet you've upgraded your copy of Eudora in the interim.  I noticed this
+>same thing when I upgraded to version 1.4.
+
+Yes, but then I thought going back to Version 1.3 would be a double-check
+that  it wasn't just the software at *my* end. Obviously 1.4 did evil
+things.
+
+>
+>Here's the scoop as I understand it (I'm working from my memory of a
+>posting on this issue on comp.sys.mac.comm about a week ago).  There is a
+>resource 'STR#' 5400 in Eudora which specifies the "preference order" of
+>various lines which might appear in the header.  Default setting is
+>"Reply-To:" "Resent-Reply-To:" "From:" and "Resent-From:".  Eudora uses
+>this list both to determine what it displays in the In basket, but also to
+>determine who a response should go to.
+>
+>The order of the entries, I believe, changed between 1.3 and 1.4.  A copy
+>of the resource is also stored in the Eudora Preferences file; this is why
+>1.3 now behaves strangely.
+
+I can only find the "Eudora Settings," which is probably the same thing.
+
+>This is to say, Mr. Dorner has effectively screwed us by using one resource
+>for two different things.  You could reorder the list so that "From:" came
+>first; your In basket would then display correctly, but when you tried to
+>reply, it would go to the sender (i.e. the name on the "From:" line) rather
+>than the list (i.e. the name in the "Reply-To:" line).
+
+Eudora is otherwise wonderful, and I hope future versions provide some kind
+of switch to allow the old mode (1.3), the new mode (1.4), or other modes,
+or whatever.
+
+Many thanks to Ray and Harry for trying to help, but clearly it was best
+that I asked the List, as it was the specific knowledge Lefty had that did
+the trick.
+
+Of course, maybe what Eudora is doing (cf. Lefty's details) is part of some
+emerging standard about "Reply To:"s and "From:"s, and maybe the List
+managers want to look into this. (Seems like a low-priority, though.
+Perhaps an item for a FAQ, though.)
+
+What a relief!
+
+(By the way, all the messages sorted into "extropians@extropy.org"
+miraculously got properly sorted as soon as I restarted Eudora. I was
+fearful that somehow Eudora had modified them irreversibly--just paranoid,
+I guess.)
+
+Thanks, 
+
+-Tim
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+Date: Fri, 10 Sep 93 20:52 EDT
+From: kqb@whscad1.att.com
+Subject: PATENT: Gene Patents
+
+The Sept. 4, 1993 issue of Science News has on pages 154 - 157 an
+article on issues surrounding patenting of genes and gene fragments.
+The news, in case you didn't already know, is that there is a patenting
+frenzy among researchers decoding the human genome.  They are even
+patenting small fragments of genes (ESTs = Expressed Sequence Tags)
+for which there is no known function (yet).
+
+This has some interesting implications:
+
+  (1) I assume that I won't have to pay royalties to those researchers
+      for using these genes in my own body, even though the article
+      didn't mention that potential problem.  (I guess merely living is
+      not considered a commercial application of those genes?)
+
+  (2) Biotech products based on these genes likely will be both small
+      and valuable, the patents will be public information, and gene
+      sequencing and manufacturing machines will become both cheaper
+      and faster.  Is there any reason to believe that those patents
+      will be enforceable for their 17 year lifetime?  In particular,
+      once gene synthesis machines get cheap enough, people will be
+      able to create their own biotech products on their home synthesis
+      units, provided they have the proper programming.  (And access to
+      the proper programming will be readily available via BlackNet,
+      if necessary.)  How long will this take?
+
+  (3) Offshore biotech havens and manufacturing in locations that
+      ignore US patent law should become very big business.  This may,
+      however, prompt the US government to destroy these offshore
+      manufacturing plants under some "War On Drugs" pretext, even
+      though the real goal is just to protect the local monopolies
+      granted by the patents.  Or am I exaggerating the risk?
+      The US doesn't outright destroy bootleg manufacturers of PCs and
+      chips although they do seek other kinds of sanctions.  But maybe
+      that's because it's a lot harder to apply the "War On Drugs"
+      banner to destruction of bootleg PCs and chips than to destruction
+      of patented biotech products.
+
+                              Kevin Q. Brown
+                              INTERNET    kqb@whscad1.att.com
+                                 or       kevin_q_brown@att.com
+
+------------------------------
+
+Date: Fri, 10 Sep 1993 22:28:29 -0400
+From: tburns@gmuvax.gmu.edu (T. David Burns)
+Subject: PHIL: Extropian epistemology?
+
+Back when I was dabbling in such things, I got the impression that in
+philosophy of science, Popper had been undermined by Kuhn (and Quine?), and
+perhaps succeeded by Lakatos and/or others. (Though someone told me Lakatos
+is a rip-off of late Popper, but I'm not sufficiently well read in this
+field to know whether that holds any water.)
+
+My real field, Economics, is still pretty much dominated by Popperian
+thought, or even unreconstructed pre-Popperian Positivism (try saying that
+fast three times). There are of course some post-modernists at the margin.
+
+My observation on this list leads me to believe that the other sciences (or
+at least CS?) also continue to dance to the Popper song. Is that so? Is
+there an Extropian epistemology? What about the evolutionary
+epistemologists?
+
+I guess I could check the latest rev of the Extropian principles in the
+latest Extropy. What do YOU think?
+
+tburns@gmuvax.gmu.edu (T. David Burns)
+
+
+------------------------------
+
+Date: Fri, 10 Sep 1993 22:27:09 -0400
+From: tburns@gmuvax.gmu.edu (T. David Burns)
+Subject: The Discoveries of Concepts and Rights
+
+At  1:31 PM 9/10/93 -0500, Freeman Craig Presson wrote:
+>I had in mind to distinguish things like the use of money as being much
+>more abstract and requiring a higher degree of negotiation (literally
+>:-) than things like language; 
+
+I'm not sure what you mean. Buying a newspaper is more abstract than
+explaining quantum physics? Money is built on language?
+
+>in fact, something like the use of money could not even arise until language
+>>and custom prepared a place for it.
+
+Was this a necessity? I suppose so. Agoric systems may turn this on it
+head, and achieve AI by assembling components that use money at a low level
+of  abstraction. But you're historically correct, of course.
+
+> Language, like tool-making, can be seen to be rooted in
+>behavior we clearly class as instinctual, but the same cannot be said
+>for money.
+
+As in, a feral child will make noises but won't make trades? I think you're
+stretching it, and I'm not sure why. What do you want to use this
+distinction for? Even if money is "a few levels of abstraction higher and,
+unlike language, has no clear precedent in our instinctual heritage," there
+is some merit to thinking about its similarity to language. Neither was
+invented nor found, both are subjected to, but not controlled by, the
+conscious efforts of individuals. If you find similar phenomena at
+different levels of abstraction, isn't that interesting?
+
+>we'll never have the evidence;[. . .]
+>the theories you cite above, while
+>appealing to common sense, can't be empirically supported.
+
+What, no such thing as Archeology? B-) Okay, so no one has a video tape of
+the first money transaction. So what? Does that mean we can know nothing
+about it? That certain speculations can't be eliminated/falsified? That
+talk on this subject is just a waste?
+
+tburns@gmuvax.gmu.edu (T. David Burns)
+
+
+------------------------------
+
+Date: Sat, 11 Sep 93 00:10:03 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+News Summary as of: Sat Sep 11 00:10:03 EDT 1993
+
+
+Newly Registered Reputations:
+(None)
+
+New Share Issues:
+(None)
+
+Share Splits:
+(None)
+
+
+Market Summary as of: Sat Sep 11 00:00:02 EDT 1993
+
+Reputations of members of the Extropians mailing list:
+[ Note: Contact hex-request to have a reputation placed on this list. ]
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+ANTON         .27      .28      .27        10000          367           99.09
+ARKU          .27      .29      .28        10000         5101         1428.28
+BLAIR        1.25    30.00    50.00        10000           25         1250.00
+DEREK           -      .49      .49       100000         8220         4027.80
+DRS           .05      .07      .10        10000         1010          101.00
+DVDT         1.55     1.60     1.60        10000         9900        15840.00
+E             .90     1.00     1.00        10000         8087         8087.00
+ESR             -        -        -            -            -               -
+FCP             -     1.30     1.50        80000        15345        23017.50
+GHG           .02      .60      .60        10000         7180         4308.00
+GOBEL         .01     1.50     1.00        10000          767          767.00
+H             .76      .76      .76        30000        19290        14660.40
+HAM           .60      .65      .60        20000        15820         9492.00
+HANNO         .01     7.00        -        10000            -               -
+HFINN        1.50     6.00     6.00        10000         1005         6030.00
+IMMFR         .25      .70      .80        10000         1838         1470.40
+JFREE        1.25     1.25     1.00        10000         3200         3200.00
+JOHN            -        -        -            -            -               -
+JPP           .40      .57      .30        10000         3500         1050.00
+KARL          .50     1.00     1.00        10000         1000         1000.00
+LEFTY         .05      .45      .45        10000         3551         1597.95
+MARCR           -        -        -            -            -               -
+MLINK           -      .01      .01      1000000       102602         1026.02
+MWM           .15     1.50     1.50        10000         1260         1890.00
+N           20.00    25.00    25.00        10000          176         4400.00
+P           22.50    25.00    25.00      1000000           94         2350.00
+PETER           -      .01     1.00     10000000          600          600.00
+PRICE           -     4.00     2.00     10000000         1410         2820.00
+R             .25      .70      .60        10000         6000         3600.00
+RJC          2.00   999.00      .60        10000         5100         3060.00
+ROMA            -        -        -            -            -               -
+RWHIT           -        -        -            -            -               -
+SAMEER        .01      .60      .61        10000         9810         5984.10
+SHAWN         .01      .55        -        10000            -               -
+TCMAY        1.50     3.00     1.50        10000         6000         9000.00
+TIM          1.00     2.00     1.00        10000         1700         1700.00
+WILKEN       1.00    10.00    10.00        10000          101         1010.00
+-----------------------------------------------------------------------------
+Total                                                               134866.54
+
+Other reputations:
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+1000          .20      .40      .20        10000         4000          800.00
+110           .01      .10      .10        10000         1750          175.00
+150           .01      .10      .10        10000         1750          175.00
+1E6             -      .05      .02        10000           25             .50
+1E9           .01      .05        -        10000            -               -
+200           .10      .20      .20        10000         4075          815.00
+80            .01        -        -        10000            -               -
+90            .01        -      .10        10000         2000          200.00
+ACS             -      .10      .05        10000         2724          136.20
+AI            .01      .50      .30        10000         1000          300.00
+ALCOR        1.50     2.25     2.25        10000      3176.00         7146.00
+ALTINST         -      .25      .05        10000         4000          200.00
+BIOPR         .01      .10      .05        10000         3000          150.00
+CYPHP           -      .15      .08        10000         3100          248.00
+DC1000          -      .10        -        10000            -               -
+DC200           -      .15      .10        10000         1500          150.00
+DC7000          -      .10        -        10000            -               -
+DCFLOP          -      .10        -        10000            -               -
+DRXLR         .85     1.00     1.00        10000         4346         4346.00
+EXI          1.54     3.20     3.00        10000         3025         9075.00
+FAB             -        -        -            -            -               -
+GOD             -      .10      .10        10000         3000          300.00
+HEINLN        .01      .25      .05        10000         3100          155.00
+HEX        100.00   101.00   100.00        10000         3457       345700.00
+LEARY         .20      .50      .20        10000         1000          200.00
+LEF           .35      .50      .05        10000         3026          151.30
+LIST          .40    10.00      .75        10000         5000         3750.00
+LP              -      .30      .15        10000         4625          693.75
+LSOFT        1.00     1.50     1.00        10000         9550         9550.00
+LURKR           -      .01        -       100000            -               -
+MED21         .01      .19      .02        10000         3400           68.00
+MMORE         .10     1.25      .10        10000         3000          300.00
+MORE          .75     1.25     1.25        10000         3160         3950.00
+NEWTON          -      .20        -        10000            -               -
+NLAW            -     1.00        -        10000            -               -
+NNLAW           -     1.00        -        10000            -               -
+NSS             -      .03      .01        10000           25             .25
+OCEAN           -      .15      .12        10000         3100          372.00
+PLANET        .01      .02      .05        10000         1500           75.00
+PPL           .30      .45      .30        10000         4600         1380.00
+RAND          .05      .06      .05        10000         1500           75.00
+SGP             -        -        -        10000            -               -
+SSI           .22      .29      .22        10000         4700         1034.00
+TRANS         .01      .60      .02        10000         3011           60.22
+VINGE         .75     1.00     1.00        10000         2100         2100.00
+-----------------------------------------------------------------------------
+Total                                                               393831.22
+
+------------------------------
+
+Date: Fri, 10 Sep 93 22:08:00 -0500
+From: michael.morgan@ehbbs.com (Michael Morgan)
+Subject: Extropian Exploits
+
+On 09-10-93  17:39, T. David Burns wrote to Michael Morgan
+regarding: "Article i meant to se"... 
+
+>If there are no markets to exploit, will smart people exploit
+>dumber people? Apparently yes. 
+
+TDB> Will dumb people exploit smart people? If 'no,' only by definition.
+
+That extremely likely in any democracy approaching a pure
+democracy.
+
+TDB> Will lower paid people exploit higher paid people? Yes. Will the poor
+TDB> exploit you? Sure. Con artists come in all economic strata. Okay, so
+TDB> I'm being snotty (should I put a smiley here?), but there's some
+TDB> context missing here, or something. What was the intended meaning of
+TDB> this paragraph?
+
+To point out that extropians can indeed exploit each other. Is
+exploitation a feature of spontaneous economies? Should it be?
+
+>Let's guard against gosh-wow futurism and get down to the
+>real nitty gritty.
+
+TDB> I would welcome this. Unfortunately, sometimes real solutions are only
+TDB> long-term solutions, and not easy anyhow.
+
+For the population problem (if there indeed is one) I suggest
+associations of individuals who live fuller lives without the
+interference of children. I've thought about writing articles on
+the subject; I just haven't got around to it yet.
+
+--------
+First Extropian Gunrunner - Selling inexpensive, lethal weapons to
+needy folks in a neighborhood near yours.
+
+... At least politically correct people are biodegradeable!
+--- Blue Wave/QWK v2.10
+
+----
++---------------------------------------------------------------------------+
+| Ed Hopper's BBS - Home of uuPCB - Usenet for PC Board                     |
+| Node 1 - USR HST - 404-446-9462    Node 2 - V.32bis - 404-446-9465        |
++---------------------------------------------------------------------------+
+
+------------------------------
+
+Date: Sat, 11 Sep 93 0:15:01 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: PATENT: Gene Patents
+
+Kevin Brown writes an excellent article on gene patents and
+speculates on how they might be enforced:
+>       ...prompt the US government to destroy these offshore
+>       manufacturing plants under some "War On Drugs" pretext, even
+>       though the real goal is just to protect the local monopolies
+>       granted by the patents.
+
+For one of the more fun kinds of biotech, it might indeed be a direct
+application of the WoD.  A bit of metabolic engineering and DNA tweaking,
+and all sorts of fun crops might start cranking out THC.  
+
+In either case, they'd have to take out every barn between the
+Mexican border and Tierra Del Fuego.  They'd also have to
+hit the RVs, yachts and seaplanes that house the equipment during barn
+raids.  Rotsa ruck.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Sat, 11 Sep 93 00:27:29 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: constitutional myth
+
+> (convertibility to gold and/or silver, as
+> spelled out in the Constitution, was abandoned many years ago)
+
+Article I, Section 10:
+"No State shall . . . coin Money; emit Bills of Credit; make any Thing
+but gold and silver Coin a Tender in Payment of Debts; pass any . . . Law
+impairing the Obligation of Contracts . . ."
+
+In other words, the power to inflate is reserved to the Federal authority,
+shielded only by its wisdom.
+
+Anton Sherwood						   DASher@netcom.com
++1 415 267 0685		1800 Market St #207, San Francisco, California 94102
+
+------------------------------
+
+Date:     Sat, 11 Sep 93 10:15:53 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Rights and Concepts
+
+>From: extr@jido.b30.ingr.com (Freeman Craig Presson)
+>Subject: The Discoveries of Concepts and Rights
+>
+>In <9309101037.aa09178@genie.genie.slhs.udel.edu>, starr@genie.slhs.udel.edu writes:
+>|> Having generally given up on trying to teach those extropians afflicted
+>|> with the methodological monism I call "engineeritis," I won't bother arguing
+>|> with most false claims about the moral concept denoting and affirming
+>|> man's freedom of action in a social context, a.k.a., "rights."  However,
+>|> the following goes too far:
+>
+>Ooooh, pissy :-) I see you're jealous of Carol Moore's status as "most
+>excluded list member"
+
+Not at all.  I just can't stand it when people let their methodology determine
+their subject matter, rather than the other way around.  Besides, I like Carol,
+and have never been able to figure out why she elicits such bad responses from
+others.
+
+>I've rarely seen such a bad case of emotional
+>hair-across-ass
+
+What an odd phrase!  What on earth could you possibly mean by it?
+
+>as you have about "engineeritis", a disease I would
+>certainly be proud to claim.
+
+I'll do you the compliment of presuming that you would do so only out of
+ignorance of what it means.
+
+>However, I'll hold off for a bit, since I don't want to compete with
+>you (and others -- you know who you are) for "most stiffnecked
+>extropian" honors.
+
+Sheeit, if y'all keep up, I may cease considering myself an extropian.  I
+know some of you may cheer at the thought, so go ahead.
+
+>Tim, what is your definition of "concept"?[1]
+
+An integration of particulars based upon their similarities.
+
+>It sounds like you and
+>Ratha might be talking about different levels of abstraction here.
+
+Nope.  Different theories of concepts.  David Kelley calls them the
+"constructionist" and "discovery" theories, but I like "creationist" better
+than "constructionist" because it has more pejorative connotations.
+
+>I conceive the minimal concept of a "concept" (since we're dicing and
+>slicing self-references anyway) is a remembered image _with
+>associations_.
+
+This entails representationalism, which, being an attempt to split the
+difference between idealism and realism, is inherently unstable.  I reject
+it in favor of realism, by which theory a concept isn't a representation of
+an object at all but a means by which the mind grasps objects, relates to them.
+
+>The second dictionary definition[1] "concept = thought"
+>is not very useful, since we don't know how to observe thoughts in
+>others.
+
+1) Truth is most useful.  2) Subject determines method.  Since thoughts
+are only observable from the internal, first-person perspective, then
+that's the method by which they must be studied.
+
+>At this rather low level of abstraction, we have yet to part company
+>with at least the higher primates,
+
+On the representationalist theory, it's difficult if not impossible to tell
+the difference between percepts and concepts.  This theory leads to the
+conclusion that concepts are merely complicated percepts, distinct merely
+in quantity, not quality, and thus to the further conclusion that such is
+the difference between man and beast.
+
+>(In case it's not clear, I'm agreeing with your proof, for all
+>definitions of "concept" and "invention" with which I am comfortable.)
+
+Thanks for making that clear, as I wouldn't have figured it out otherwise!
+
+>|> Both concepts and rights are most certainly discoveries, not inventions.
+>
+>What have you said above that entitles you to throw "rights" back
+>into the mix?
+
+I have said nothing above that does this.  Carl Menger wrote a whole book
+on it: "On the Origin of Money."  Unfortunately, I'm still working on his
+first book, "Principles of Economics," so I'll have to rely on the secondary
+source of Murray Rothbard's "Man, Economy, and State."
+
+>The utility of rights does seem like a "discovery", if
+>we can use that term for "stable product of cultural evolution"; but
+>certainly by the time humans began to _argue_ about rights, they were
+>directing the future evolution of them.
+
+Which is why I threw that qualifier "primarily" in.  Once spontaneous social
+orders have been formed, they can be "designed" to some extent, although this
+intervention is more like rechanneling ol' Miss and damming it up than
+building something from scratch.  This doesn't change the fact that they
+aren't and can't be results of human design, only other kinds of human action.
+
+>What justifies dropping money in with language and other
+>culturally-evolved pragmas?
+
+See the above mentioned books by Rothbard and Menger.
+
+>They are all of prehistoric, indeed
+>probably preliterate, provenance, but if you know of a definitive
+>history or well-supported theory of the development of money that
+>shows that Ook didn't have to *explain* to Og that Ook's four cowrie
+>shells could be exchanged for one of Og's spearheads because Mogh had
+>gone fishing that morning and would almost certainly trade a fish for
+>two cowries[2] when he got back
+
+Like I said, see Rothbard, Menger, Mises... the very concept of spontaneous
+order was discovered by the Austrian economists during their research on the
+origin of money.
+
+Money is implicit in barter, and barter is pre-linguistic.  When the Hudson
+Bay Company wanted to open up trade relations with Indian tribes on the shore
+they had just anchored off of, they would lay goods on a blanket.  The Indians
+would lay some goods of their own on a blanket.  The Hudson reps would either
+accept the trade, or alter what lay on their blanket.  Then the Indians would
+either accept the deal or alter what lay on their blanket, etc.  All this
+without speaking a word of each other's language.
+
+This may not be a proof, because each people did have their own language
+already, but it is an illustration.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Sat, 11 Sep 93 10:16:18 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Oil Drilling
+
+>From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+>Subject: Can backwaters like Louisiana make it in the coming era?
+>
+>The only industry we have that California doesn't is offshore
+>oil drilling. (Side note: has everyone heard about the projected
+>discovery in the Eugene Island Oil Block?)
+
+Wrong.  California has that, too.  We probably just don't have as much
+of it because our eco-fascists are more powerful than yours.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Sat, 11 Sep 93 10:17:00 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Discovery, Concepts, and Rights
+
+>From: davisd@nimitz.ee.washington.edu
+>Subject: The Discoveries of Concepts and Rights 
+>
+>Does Mr. Starr claim that a fetus starts out with concepts?
+
+No.
+
+>If not, how
+>does the maturing fetus eventually acquire them, except by creating them?
+
+Pretty well, normally.
+
+As for a description of concept-formation, I still think the best one is
+Rand's "Introduction to Objectivist Epistemology," in spite of all the
+vitriol heaped upon her.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Sat, 11 Sep 93 10:17:24 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Discovery, Concepts, and Rights
+
+>From: "Perry E. Metzger" <pmetzger@lehman.com>
+>Subject: The Discoveries of Concepts and Rights 
+>
+>starr@genie.slhs.udel.edu says:
+>> Not only are concepts most certainly not any kind of invention whatsoever,
+>> neither are rights.  To dispose of the claim that concepts are made, rather
+>> than found, requires nothing more than to consider the question: how can
+>> anyone invent anything without already having any concepts?  They can't.
+>
+>Sounds very much like the notion that evolution can't occur, Tim.  You
+>can invent things without concepts -- but until you invent concepts
+>you can't conceptualize what you've invented. Nature, unconsciously,
+>does lots of inventing -- look at the invention of photosynthesis, for
+>example -- a great invention, but certainly not one requiring the
+>existance of consciousness, let alone concepts.
+
+You abuse the term "invention," which entails intentional causation of
+necessity.  Things can be formed without concepts, but not literally made.
+This is a case of confusing the metaphorical and literal uses of words.
+
+We can form things without concepts, unconsciously, as occurs naturally all
+the time, but these are not inventions, not "made" by anyone.  True, we can't
+conceptualize anything until we've formed concepts, but they aren't invented,
+either.  Their representations may be, but they are not.
+
+>You're the one suffering from a fallacy here -- the fallacy
+>that what you are doing is formal reasoning, when in fact you can't do
+>formal reasoning on anything other than a formal system.
+
+I've thought about this charge of your since you last made it against me,
+and I've come to the conclusion that you're mistaken in placing formal
+reasoning as primary to informal.  Formal reasoning is reasoning stripped
+of referents, of intentional relation to concrete objects.  It is a derivative
+form of reasoning, not a primary.  The primary form of reasoning is intentional,
+referential, in relation to concrete objects.
+
+What your accusation ultimately comes down to is the metaphysical denial of
+the laws of Identity, etc., which are apodictic.
+
+>This leads to conclusions like the idea that
+>the evidence of your senses must be correct (we have proof otherwise
+
+To be blunt, bullshit.  We do not.  Every such alleged proof I have ever
+heard of is refuted in "The Evidence of the Senses," by David Kelley.
+
+What we have are a lot of bad epistemological and metaphysical assumptions
+which have hung on vestigially without being questioned and rejected and
+have led to most of the failures of Modern philosophy and science.  What
+we have is a lot of question-begging and hysteria.  We have no such proof.
+
+>In concrete terms, what you
+>claim is that there are a set of natural rights that can be
+>established by pure reason.
+
+I do no such thing.  The very phrase "pure reason" ought to be banished from
+conversation until it can take its place as the historical curiosity of an
+example of a philosophical failure that it is.  I'm no Kantian, no matter how
+much you may try to interpret me as one.
+
+This is nothing more than a strawman, whether you intend it as such or not.
+
+I suggest you ask me what I think before you tell me what I think.  Since
+you're merely being argumentative, I'm not going to take your flame-bait.
+
+>What you have, Tim, is not a set of axioms and theorems. What you have
+>is a model.
+
+"Model" is another term that ought to be banished as above.  All it does is
+confuse the issues.
+
+>Now, I can model human rights pretty well by deriving them from
+>decisions made in the context of human interactions. Rights tend to be
+>legal schelling points selected by people in the course of daily
+>interaction and later reified by custom.
+
+This is nothing more than what I think, considered exclusively from an
+external perspective.  What you seem to object to is that I like to integrate
+this with consideration of the problem from an internal point of view.
+
+You like to skip over the questions that arise from the internal, first-
+person point of view, but I think this is a mistake.  Most recently, a form
+of genetic determinism has emerged as the answer given by you and Dave
+Krieger to the question of why we pick the goals we do, among other things.
+
+How do you know?
+
+This is yet another commission of the fallacy of self-exclusion, however.
+If your preferences are the result of genetic determinism, then your claim
+that your preferences are the result of genetic determinism is a result of
+genetic determinism, and may or may not be true.  This is neither falsifiable
+nor axiomatic, but a mystical article of faith.
+
+You seem to think that I'm denying the role of custom in determining rights,
+but that's not it at all.  I'm trying to address the fact that customs are
+not irreducible primaries, but have their origin in our nature.
+
+>Contract law as we know it is very much a human creation
+
+It is not any kind of creation.  To use a term you may be more familiar
+with, it is an emergent property.
+
+>I find it interestingly inconsistant, by the way, that on the one hand
+>you rail against the notion of a creator, and yet claim that there are
+>absolute rights observable in the structure of the universe the way
+>that scotch tape or radioactivity are observable.
+
+1) You have never bothered to present any definition of the mysterious way
+in which you use the term "absolute," preferring to package-deal, switching
+from one meaning to another as it suits you.  Until you provide a suitable
+definition, consisting of genus and differentia, there's no point in my
+trying to answer you about whether I do or do not claim anything at all
+about anything "absolute."
+
+2) In fact, you seem to have introduced the term itself merely in order to
+confuse the issue, which seems to me like unprovoked hostility on your part.
+Is it?  I'm perfectly content to leave it out.
+
+3) What it all really comes down to is that you implicitly attack me for
+what are ultimately methodological differences.  I'm quite willing to
+acknowledge that I don't pretend to address the questions of social science
+by the methods of physics, and furthermore, to defend my methods as those
+indicated by the subject matter.  If you aren't willing to do the same for
+your implicit claim that social science ought to be done the same way as
+physics, then you have nothing relevant to say.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+End of Extropians Digest V93 #253
+*********************************
+

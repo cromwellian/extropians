@@ -1,0 +1,931 @@
+From extropians-request@extropy.org Wed Nov 24 07:20:42 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA11858; Wed, 24 Nov 93 07:20:40 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA09250; Wed, 24 Nov 93 07:20:27 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA05523
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 24 Nov 1993 10:12:27 -0500
+Date: Wed, 24 Nov 1993 10:12:27 -0500
+Message-Id: <199311241512.AA05523@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: November 24, 373 P.N.O. [15:12:14 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Wed, 24 Nov 93             Volume 93 : Issue 327
+
+Today's Topics:
+                                                                      [3 msgs]
+                       Info Brokers, Don't Quit Day Jobs              [1 msgs]
+                           MYTHS: Heroin & Addiction                  [1 msgs]
+                               Comments on NSA                        [5 msgs]
+                                  Cryptocash                          [1 msgs]
+                         GP algorithm discovery rate                  [1 msgs]
+                 GP for cryptanalysis, algorithm design, etc.         [2 msgs]
+                   GUNS: Evil Babykilling Assault Weapons!            [1 msgs]
+                     Socialism Isn't Necessarily Statist              [1 msgs]
+                                    Sorry!                            [2 msgs]
+                          Start-Up VirtSem: 1st step                  [2 msgs]
+                                   TAX EM!                            [1 msgs]
+                           Virtual Sem: My Start-up                   [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52366 bytes.
+
+----------------------------------------------------------------------
+
+Date: Tue, 23 Nov 93 22:56:54 EST
+From: rjc@gnu.ai.mit.edu
+Subject: Comments on NSA
+
+Timothy C. May writes:
+> 
+> X-Message-Reference: #93-11-884
+> By "brute force" I meant factoring of the modulus, not trying every
+> possible key. Factoring the modulus, the large number n that is the
+> product of two primes p and q, allows the immediate reconstruction of
+> the secret key (by some math related to the RSA algorithm).
+
+   I wonder if there is an efficient algorithm for calculating phi(m)
+without factoring m? That can be a potential attack. Also, if an
+algorithm is discovered for doing the discrete log, one can get the decryption
+exponent with it. I don't think we'll ever be truly sure about RSA
+until the complexity hypotheses are proved. (e.g. there is no algorithm
+possible which can factor in polynomial time)
+
+   BTW, there is a discussion in comp.theory/sci.math about factoring
+in O((log n)^3) time given a hypothetical "Integer Machine" capable of
+multiplying/dividing arbitrarily large integers in O(1). 
+
+   I don't believe the NSA can crack RSA, otherwise they wouldn't be
+so worried about it. On the other hand, the NSA does have one of the
+largest supercomputing sites in the world so it's plausible that they could
+brute force smaller keys, DES, etc, if a massive need occured. I'm far
+more afraid of the NSA's _listening_ capability right now. They are probably
+state of the art signal analysis. They don't need to crack PGP if they can
+sit in a van outside your house and read your keystrokes. Imagine
+if the NSA had voice recogonition software running on international phone
+calls. They could literally _GREP_ people's phone conversations, millions
+of them, without employing a standing army of spooks.
+
+   I wouldn't be surprised of lots of interstate calls are intercepted
+this way too.
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Tue, 23 Nov 93 23:04:15 EST
+From: rjc@gnu.ai.mit.edu
+Subject: Comments on NSA
+
+Christopher Garrett Goebel writes:
+> 
+> X-Message-Reference: #93-11-876
+> Could it be conceivably possible that cryptanalysis ten years from now
+> could be able to decrypt the letters we are sending today, much
+> more efficiently and timely than brute force?
+>
+  
+  Perhaps.
+
+> Moreover, could this cryptanalysis software running on much faster computers
+> (possibly massivily parellel), be quick enough at recognizing patterns in
+> readily available quantities of encrypted material (years of archived
+> postings)?
+
+   This is a very interesting speculation in context of the recent discussions
+on this list regarding Genetic Programming and Science. If the optimistic
+claims for GP are true, the NSA with its billions of flops, possibly trillions
+10 years from now, could employ more GP's than they employ mathematicians
+for far less money. This savings could be used to buy even more computing
+power. Imagine: GP's running around the clock, _relentless_, searching for
+that one combination of bit operations which will uncover a better than
+brute force attack.
+ 
+    I don't know how good GP's have proven at crypto, but it's a scary
+scenario.
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Tue, 23 Nov 93 20:03:36 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Start-Up VirtSem: 1st step
+
+> 
+> I like this thread.
+> 
+> What qualities are most important in a person founding a startup:
+> 
+> 1) passion to get rich
+> 
+> 2) passion to be your own boss
+> 
+> 3) passion to see your brilliant idea succeed
+> 
+> 4) none of the above
+> 
+> Well, okay, I'm a cynic. So where does that leave us? How do you take the
+> first step toward this goal, given that the above are nice but
+> insufficient?
+> 
+> I won't even take a grope at the answer, beyond pointing to a technique
+> that appeals to me. Write some freeware, then when/if it becomes popular,
+> sell the copyright to a company that has the marketing/management
+> capabilities to make the upgrades a profitable proposition. This still
+> requires marketing skill, but reduces the problem. Use the BBSs and
+> internet archives for distribution and marketing, then concentrate your
+> sales pitch on potential buyers. It's a lot easier selling a mediocre
+> product with an established user base than brilliant vaporware. Phil
+> Zimmerman's PGP is an obvious example (of the technique, not of a mediocre
+> product). Steve Dorner's Eudora is another. Versions below 1.4 are
+> freeware, 2.0 is payware from Qualcomm. I don't know what deal Dorner got,
+> but I bet it's nicer than the people Qualcomm hire out of college.
+> 
+> I wish I knew more ways. Anybody want a degree from a one-man university? 
+> 
+> (I hope this hasn't duplicated effort. I tried to ::include this thread,
+> but apparently I blew it, I've got to ::resend it again.)
+> 
+> Dave
+> 
+> 
+> 
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Tue, 23 Nov 93 20:09:42 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Sorry!
+
+I think I accidentally sent out a copy of Dave Burns' article to the
+List.
+
+Grrh!!! I hate UNIX and all these arcane commmands! I wrote a long
+article making some points about Dave's analysis, and suggesting my
+own best explanation of success in start-ups, and then my phone
+connection vanished in a "NO CARRIER" drop. 
+
+I've been unable to recover the temp file (any tips? I'm using elm as
+my mailer and emacs as my editor...the "snd.4075" temp file, by the
+way, did not contain my comments).
+
+Anyway, whenever I lose an hour of work like this, I am put off from
+posting for a while, so expect me to be silent for a bit as I cool off
+and go do other things.
+
+I _hate_ UNIX!
+
+--Tim
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Tue, 23 Nov 1993 20:25:38 -0800
+From: onomoto@netcom.com (Young and Loud)
+Subject: Comments on NSA
+
+Ray:
+>Imagine: GP's running around the clock, _relentless_, searching for
+>that one combination of bit operations which will uncover a better than
+>brute force attack.
+> 
+>    I don't know how good GP's have proven at crypto, but it's a scary
+>scenario.
+
+        Perhaps this is exactly what you're talking about, Ray, but what
+I'm reminded of is a discussion in my MetaMath class about how in a given
+system, a proof is just a path from LHS to RHS of a proposition, taking
+legal modus ponens-like steps.  In other words, "all" a mathematician does
+is search this proof tree.
+
+        In a lot of ways, this is identical to what a chess-playing program
+does.  Or anything else which searches a huge tree.  
+
+        What I haven't seen (I'd like a reference if it's around, though)
+is a GA/P routine which does this kind of search.  Offhand, I'd be
+surprised if there were, since the applications I've seen GA/P used on is
+essentially a restated optimization problem involving a lot of "dirty"
+"real-world" data.  
+
+        Comments?
+
+        -o
+
+
+
+------------------------------
+
+Date: Tue, 23 Nov 1993 22:25:37 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: Comments on NSA
+
+In <9311232304.AA44389@student2.cl.msu.edu>, Christopher Garrett Goebel writes:
+[...]
+|> What I wonder about, and am unknowledgable about, is the use of frequency
+|> analysis on PGP and other related encryption schemes... finding patterns
+|> in masses of archived pgp encrypted mail --encrypted in a specific key.
+
+But it's _not_ masses of stuff in a specific key. You'd have to break
+RSA, with only a few bits per message of arbitrary session key to work
+with, or brute-force IDEA to get around the session key encryption.
+
+Maybe there is an obscure weakness in IDEA (wanna bet? :-) but the Bad
+Guys won't get their breakthrough just because of volume. That's the
+lovely point about the hybrid system -- it makes a virtue of necessity.
+
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+
+------------------------------
+
+Date: Tue, 23 Nov 1993 22:32:26 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: GUNS: Evil Babykilling Assault Weapons!
+
+In <199311232313.PAA09567@mail.netcom.com>, Timothy C. May writes:
+[...]
+|> (I know this sounds absurd, but I expect a "zero tolerance"
+|> enforcement system is coming for the increasingly byzantine laws on
+|> guns. Janet Reno has declared her ultimate intent is to get guns out
+|> of the hands of "those who don't need them.")
+
+I have in mind to write a screed on how sick it made me to see Reno on
+CNN ranting about how we don't need these weapons that have no
+"sporting purpose" in private hands. Well, she can sure be trusted
+with firearms, huh?
+
+|> Here's the news: The gun store I often go to had a Ruger Mini-14
+|> tucked away....these are on the list to be banned under the new laws.
+|> Deciding this would be my last chance to buy one of these
+|> Babyshootin,' Lawyerkillin,' Politiciandisposin' "Assault Weapons," I
+|> bought it today.
+|> 
+|> Being the Ranch Rifle model, it has scope rings. Recommmendations on a
+|> good 3-7x, 40 mm scope are welcome.
+
+Gee, I'm probably going to put a 4x32 or so on my Viper varmint rifle,
+maybe we can go huntin' varmints sometime :-). Haven't done the
+comparisons yet, though.
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+
+
+------------------------------
+
+Date: Tue, 23 Nov 1993 19:03:33 -0800 (PST)
+From: Sameer <sameer@uclink.berkeley.edu>
+Subject: Virtual Sem: My Start-up
+
+> 
+> o Set up an internet node
+>   -I've found a number of providers (Best Deal: $800/month /w equipment
+>    provided free)
+>   -I've been dumping all my spare money into improving my existing PC and
+>    I'm looking to buy a second one...
+
+	While on the subject of setting up internet nodes..
+
+	Looking at around one-year from now, I'm tossing around the
+idea with myself and friends about renting a place together, and
+getting an internet line into it. In Berkeley it will cost 325/month
+through TLG for a 56K line.
+	This won't be a commercial venture, more of a cooperative
+living situation. (There would be a charge/person + a charge/room, and
+extra money each month would go to a maintenance/new equip. fund.
+Individuals would pay for their own voice/modem lines, etc.)
+
+	The main negative point for me is that it won't lend itself to
+my nomadic leanings. If I set up a house with a node, I'd have a
+strong financial reason to *stay* there, for quite some time. (I don't
+have any big plans to leave in the *near* future.. I'll be a student
+here for the next 3.5 years, so there's that length of time
+available..)
+
+
+------------------------------
+
+Date: Tue, 23 Nov 93 23:53:23 EST
+From: rjc@gnu.ai.mit.edu
+Subject: Sorry!
+
+Timothy C. May writes:
+> 
+> I've been unable to recover the temp file (any tips? I'm using elm as
+> my mailer and emacs as my editor...the "snd.4075" temp file, by the
+> way, did not contain my comments).
+
+   Try looking for /tmp/#snd.4075#
+   If it exists, edit it. If it doesn't, try doing "ps x" which lists
+all your processes. If you see your editor and elm still running,
+kill them. ("kill -SIGHUP process_id" or "kill -9 elm_process_id")
+(don't kill emacs)
+
+> Anyway, whenever I lose an hour of work like this, I am put off from
+> posting for a while, so expect me to be silent for a bit as I cool off
+> and go do other things.
+> 
+> I _hate_ UNIX!
+
+   Set your autosave interval to something shorter in emacs.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Tue, 23 Nov 93 21:35:49 PST
+From: szabo@netcom.com (Nick Szabo)
+Subject: Cryptocash
+
+Craig Presson:
+> Since digicash is secure
+> anyway, the safekeeping function of the bank is not needed in the same
+> way that vaults are needed to protect notes and bullion today.
+
+Right now, digicash is not at all secure, because it isn't implemented!
+(In a form a bank or its customers can use).  The bank is
+definitely needed to insure the integrity of the development and
+operation of the digicash system, just as it protects vaults full
+of gold, etc.
+
+Nick Szabo			szabo@netcom.com
+
+------------------------------
+
+Date:     Wed, 24 Nov 93 5:59:12 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Info Brokers, Don't Quit Day Jobs
+
+A friend of mine is an information broker.  He charges about $100/hr
+all right, but he doesn't get it all the time.  He has to supplement
+this with other incomes.  So, those of you who want to become information
+brokers, don't quit your day jobs!  Or make all your jobs "moonlighting"
+ones.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Wed, 24 Nov 93 6:06:42 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Socialism Isn't Necessarily Statist
+
+Ray Cromwell claimed that socialism has never supported people's choices
+not to participate.  False.  There's a long tradition of voluntary
+socialists, including Pierre Proudhon.  Most of the 19th-century
+socialists were voluntary socialists, not State socialists.  Anarco-
+syndicalists were somewhat prevalent.  When State socialists like Marxists
+gained dominance at the turn of the century, the voluntary socialists
+were outraged.
+
+Growing up in Berkeley as I did, where there's a substantial anarco-
+syndicalist community, I learned these things.  Most of the leaders of
+the People's Park Defense Union are anarco-syndicalists or anarco-
+communists.  The Cynic in me says it's because they have no hope of
+even getting elected to public office at the municipal level (one of
+their Trotskite leaders ran for mayor, but only got about 5% of the
+vote), but the talk they talk is anarchist.
+
+I've been told that if libertarians tell anyone they're anarchists,
+they'll alienate listeners.  Doesn't happen in Berkeley.  Now, if you
+tell them you believe in private property rights...  or oppose rent
+control...  or socialized medicine...  I've been known to take on
+entire cafes arguing about these.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Wed, 24 Nov 93 6:07:52 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Prop. 174
+
+>From: szabo@netcom.com (Nick Szabo)
+>
+>The California school choice initiative, similar to the one passed in
+>Wisconsin, upon being vilified as a "libertarian" initiative by its 
+>opponents, had its campaign funding dry up, and lost by a landslide, c. 
+>70%-30%.  Such a stunning rout is rare in the history of public 
+>initiatives.
+
+Bull.  Prop. 174 never had much funding to begin with, and what little
+it had got squandered on Republican hack consultants' salaries and TV
+ads in 3 counties in Low Cal.  And 70%-30% losses are common in the
+history of "public initiatives," even for ones incorporating concepts
+that eventually win, like tax limitation.  Prop. 13 was the third time
+tax limitation was put on the ballot in CA, and the third time was a
+charm.
+
+Prop. 174 was more like a school choice initiative in Colorado in 1992
+than the one Polly Williams got through the Wisconsin State legislature,
+after being gutted and watered-down by the legislatie pimps of the
+teachers' unions.  The one in Colorado lost by about the same margin, too.
+As did the one in Oregon before that.
+
+I don't think Prop. 174 fits into your critique of libertarian effective-
+ness at electoral success, Nick.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Wed, 24 Nov 93 6:07:18 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  MYTHS: Heroin & Addiction
+
+>From: Sameer <sameer@uclink.berkeley.edu>
+>Subject: Drugs
+>
+>	It's my understanding that severe heroin withdrawal is fatal.
+
+Not according to Richard Lawrence Miller in his book "The Case for
+Legalizing Drugs."  According to him, heroin's reputation for
+inducing physical chemical dependency is exagerrated, and he
+suggests the term "physical resonance" instead.  He notes that many
+people get off heroin for the weekend to visit parents and family
+with little problem.  Set (what one expects from a drug) appears to
+make the most difference here.  If you know what to expect from a
+drug, you'll find it easier to deal with withdrawal from it.  If
+you don't, you won't.
+
+"Addiction" is not a medical term, but a moral one meaning "habit."
+"Chemical dependency" is the scientifically fashionable term.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Tue, 23 Nov 93 22:15:38 PST
+From: szabo@netcom.com (Nick Szabo)
+Subject: GP for cryptanalysis, algorithm design, etc.
+
+Young and Loud:
+>         In a lot of ways, this is identical to what a chess-playing program
+> does.  Or anything else which searches a huge tree.  
+> 
+>         What I haven't seen (I'd like a reference if it's around, though)
+> is a GA/P routine which does this kind of search. 
+
+GA/GP is far more general purpose than tree searching.  Given a
+Turing-complete terminal and function set (eg Chaitin's "pure
+Lisp" subset, Teller's state machine terminal+function set
+for GP, etc.) GP searches an arbitary but exponentially 
+decreasing subset of the entire space of finite, soon-halting
+Turing machines, including Turing machines that 
+implement tree search!   GA can also be set up to do this,
+by encoding the TM as a binary string.
+
+So if, for example, any algorithm exists to 
+factor in polynomial time (thought to be quite improbable since
+with much effort no human has found a polynomial solution to this
+or a large class of related problems), GP with a fitness function favoring
+fast and correct solutions to factoring test cases might well
+find it.  With the caveat that some regions of Turing space may be 
+"deceptive", or unreasonably spiky; this is an open theoretical 
+question.  Also, searching the space of long-running cryptanalytic 
+algorithms might take an unreasonable amount of time, even with 100's 
+of Crays, Connection Machines, etc. to play with.  In general, any 
+space that contains clues or partial solutions, eg DES known plaintext 
+attacks, most algorithm design problems, etc. is
+susceptible to GA/GP.  (although performance may be inferior 
+to special-purpose algorithms like those used in differential 
+cryptanalysis).
+
+Of course, one could dump the TM-completeness in favor of a
+search tree (eg decision tree) and search it probabilistically.
+This would probably perform worse than special-purpose tree search
+for special-purpose tree search problems.  
+
+For more info, see Koza, _Genetic Programming_ and
+the excellent genetic-programming@cs.stanford.edu mailing 
+list.
+
+Incidentally, the best known algorithms for factoring are,
+like GA/GP, probabilistic, although they finish with much higher 
+confidence than GA/GP (which is notorious for its unpredictability
+in time-til-solution, a necessary comcommitant to its generality).
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Wed, 24 Nov 93 1:36:30 EST
+From: rjc@gnu.ai.mit.edu
+Subject: Socialism Isn't Necessarily Statist
+
+starr@genie.slhs.udel.edu writes:
+> 
+> Ray Cromwell claimed that socialism has never supported people's choices
+> not to participate.  False.  There's a long tradition of voluntary
+> socialists, including Pierre Proudhon.  Most of the 19th-century
+> socialists were voluntary socialists, not State socialists.  Anarco-
+> syndicalists were somewhat prevalent.  When State socialists like Marxists
+> gained dominance at the turn of the century, the voluntary socialists
+> were outraged.
+
+  While in theory the intellectual leaders may claim they support 
+voluntary socialism, the mass movement usually doesn't. This is even
+more prevalent among 90's socialism which has adopted environmental arguments.
+Even some anarchosyndicalists have been sucked into this. For them, it is
+no longer enough ''to simply escape capitalism because capitalism is destroying
+the world. Capitalism must be stopped.''
+
+  Besides, my original comment I believe related to whether or not capitalism
+could be embedded within a socialist commune. (e.g. whether a syndicate
+would tolerate markets and contracts within it among a minority
+of members) An anarchosyndicate could certainly be embedded within an
+anarchocapitalist community, the opposite is not in general true.
+
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Tue, 23 Nov 93 22:50:38 PST
+From: szabo@netcom.com (Nick Szabo)
+Subject: GP algorithm discovery rate
+
+Craig Presson:
+> ...the NSA with its billions of flops, possibly trillions
+> 10 years from now, could employ more GP's than they employ mathematicians
+> for far less money.
+
+The good news is the performance of GP is proportional to the speed
+of the fitness cases, and that fast algorithms with fast tests (eg finding
+primes) can be tested with orders of magnitude fewer cycles than the 
+typically slow algorithms for cryptanalysis (factoring, 
+detection of patterns in a pseudorandom sequence, etc.).
+If the problems have similar testing/verification times, and
+assuming similar editing distance between improvements in the 
+search spaces for the fast and slow algorithms, improvements in fast
+algorithms will be discovered by GP far faster than improvements in
+slow algorithms.   (Alas this fast/slow dichotomy 
+doesn't correspond exactly to the cryptography/cryptanalysis
+dichotomy, since some fast cryptographic algorithms, like PRNG's, 
+require slow algorithms to properly test.)
+
+This interesting phenomenon may even apply to human researchers,
+if as is often observed human induction proceeds by an
+analogous process of recombination of ideas, trial-and-error,
+etc.
+
+The main interests of current GP researchers are complex problems like
+protein classification, robotics, and the like.  But as a little
+side-effort, Koza has already used GP to generate a PRNG 
+with higher entropy than any human-designed algorithm. 
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Tue, 23 Nov 1993 23:36:34 -0800
+From: onomoto@netcom.com (Young and Loud)
+Subject: GP for cryptanalysis, algorithm design, etc.
+
+Nick Szabo:
+>Young and Loud:
+>> [looking for GP doing tree search]
+>
+>[...]
+>GP searches an arbitary but exponentially 
+>decreasing subset of the entire space of finite, soon-halting
+>Turing machines, including Turing machines that 
+>implement tree search!   GA can also be set up to do this,
+>by encoding the TM as a binary string.
+
+        Agreed -- GP's generality is why I'm playing with it, but the
+problem of the proper amount of "evolutionary guidance" seems to crop up
+often.  For instance, while a recursive definition of multiplication over
+integers using addition, subtraction and some control is trivial for
+human-types to come up with, it's remarkably difficult for GP to do the
+same.
+
+        Similiarly, I don't believe the Tower of Hanoi problem's been
+solved by GP.  That's why I asked about navigating trees.
+
+        Not to knock GP -- it's paying my bills, but its current test,
+sort, evolve, repeat incarnation seems far short of a silver bullet.
+
+        -o
+
+        (Oh.. when you subscribe to the GP list, y'all're encouraged to
+mention RKBA)
+
+
+
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 01:01:48 -0800
+From: jamie@netcom.com (Jamie Dinkelacker)
+Subject: Start-Up VirtSem: 1st step
+
+More thoughts on this thread. 
+
+Roughly (VERY ROUGHLY) four strategies are presented here in the most
+rudimentary form and without as much detail as should be. Depending on the
+mix of management skill and philosophy, investor orientation, market
+opportunity, manufacturing and distribution relationships, and providence,
+thinking in terms of one of the following can be useful. (Please note, I'm
+not interested in the 1-person play or the small shop. I did that in
+college, my tastes -- and appetites -- have grown.) Anyway.... for each of
+these strategies, the key is to "own" the customer: to be top of their
+mind, their "first call" and have a preferred position in their mentality.
+
+MASS MARKET
+Bitch of a play. Big guys will eat your lunch if you're not careful, don't
+have unique intellectual property, and you don't want to fight for the long
+haul. Basically, this is the stuff that's advertised on TV and in general
+circulation magazines. Most startups want to stay away from this. This
+requires superb distribution and efficient manufacturing. Typically, low
+margins are the norm and a "win" is done by execution in manufacturing,
+marketing and distribution. Often, this becomes a commodity strategy  The
+costs of getting a distribution system can be a killer, and advertising
+becomes frightfully expensive and can be a rough and tumble play. I
+wouldn't touch it, but be my guest. If you have a unique way to position
+what you're doing, then it might be a better play, but at that point begins
+to approach a niche play. 
+
+
+NICHE MARKET
+Part of the overall market is there for the taking. Seeking a specialized
+protected segment becomes the objective (e.g., Apple for many years with
+desktop publishing, Denon stereo equipment, Kurzweil synthesizers, network
+management utilities, etc). Each of these takes a segement of the overall
+market and pursues it but delivering some unique benefit to the market
+(this may be psychological...Rolex doesn't necessarily keep time better
+than some Timex). This is a less costly approach, but viscious competition
+can exist for a tiny niche. Good news: you know your competitors; bad news:
+they know you and might hire away key people. I believe this is a good
+strategy because it allows marketing efforts to be highly refined and
+targeted, thus allowing nimbleness.
+
+"Adobe"/OEM
+This can be a dream because it removes most of the marketing costs, but
+puts a high emphasis on personal relationships, reliability, and leaves you
+a slave to the vagaries of another company's management decision-making.
+Think about Adobe. They enjoyed wonderful success because of the power of
+their IP (intellectual property) of postscript. For every Apple Laserwriter
+that sold, Adobe got a cut. An OEM strategy can be a bit different
+(OEM=original equipment manufacturer) where you make X and Y includes it or
+just puts his/her label on it. In the "Adobe" strategy, the IP drives the
+deal, and as long as its unique and not priced out of the market, a company
+either plays ball or goes home. This is a dream and if you can do this, do
+it. The OEM strategy has as its customers others who will take on the
+marketing and distribution costs (of your boards, embedded software, ...)
+but you have to keep them happy, show your quality meets spec, deliver on
+time, aren't priced too high, blah blah blah. Friends of mine around
+Silicon Valley who've pursued this for years live in big houses up in the
+hills and swear by it (Silicon Valley is the land of the $100,000 house
+with the $1,000,000 mortgage). It's also problematic and I'm aware of many,
+many small startups that begin with this strategy and got eaten and whose
+owners now work for other companies having lost theirs.
+
+
+ALLIANCE/THREAT
+Sometimes, the purpose of a startup is to be bought ASAP. Depending on the
+the existence of intellectual property, a company may see an opportunity to
+develop a widget or fenetcam that makes another company's product work much
+better, but the developers don't want the hassle of going to market. As
+soon as they have demoware or prototypes (S.Brand: "Demo or Die") they look
+for buyers. This can be for an alliance partner ("we'll make this, you use
+it exclusively and pay us oodles") or as a threat ("we're making this and
+it'll obsolete your razamatazz by the end of next quarter"). Either of
+these approaches can get another company to buy you out, or at least buy
+out the rights (maybe exclusive) to your product and either (1) absorb the
+product and/or company, or (2) bury it. If this has been a strategy from
+day one, the owners walk away with much cash and go do something else. This
+is not a strategy for kids. It can be rough. It also can happen at
+bankruptcy with most unfavorable terms. Successful ones tend to head from
+this from the moment they're out of the gate.
+
+....
+
+Admittedly, these are very, very cursory treatments and my MBA friends
+would hose me with vitrol for being so cavalier with them (afterall,
+internal rates of return are important, convergence of technologies count,
+contribution margins are reasons to invest or not to, many refinements are
+important...), but the purpose here was to point toward on key business
+fact -- be every mindful of who comprises the target market of the company,
+and what strategy is to be used to reach them. This was an attempt to take
+a VERY simplistic cut at a most difficult problem, but in the process to
+offer some food for thought.
+
+Comments invited.
+
+--
+................................
+Jamie Dinkelacker   Palo Alto CA 
+Jamie@netcom.com    415.941.4782 
+................................
+
+
+
+------------------------------
+
+Date: Wed, 24 Nov 93 4:46:11 EST
+From: rjc@gnu.ai.mit.edu
+Subject: TAX EM!
+
+Heard on the news:
+
+"The administration proposes a 10,000% tax on chewing tobacco because it is
+often used by children."
+
+A new york city official says,
+
+"There are 1.7 million guns in New York City. The brady bill will prevent
+any new influx of guns [yeah right], but it won't stop crime. I propose
+that the possession of ammunition be illegal."
+
+
+  Someone quick, invent a compact, handheld, rapid fire, cross bow!
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 11:55:35 +0000 (GMT)
+From: Charlie Stross <charless@sco.com>
+Subject: Comments on NSA
+
+rjc@gnu.ai.mit.edu writes:
+
+>   I don't believe the NSA can crack RSA, otherwise they wouldn't be
+>so worried about it. On the other hand, the NSA does have one of the
+>largest supercomputing sites in the world so it's plausible that they could
+>brute force smaller keys, DES, etc, if a massive need occured. I'm far
+>more afraid of the NSA's _listening_ capability right now. They are probably
+>state of the art signal analysis. They don't need to crack PGP if they can
+>sit in a van outside your house and read your keystrokes. Imagine
+>if the NSA had voice recogonition software running on international phone
+>calls. They could literally _GREP_ people's phone conversations, millions
+>of them, without employing a standing army of spooks.
+
+>   I wouldn't be surprised of lots of interstate calls are intercepted
+>this way too.
+
+You're not being very realistic. I'd expect ALL interstate, and
+probably ALL local calls to be recorded. I'd expect SOME calls -- from
+people flagged as suspicious -- to be keyword monitored. And anyone
+who shows up as a centre for crypto traffic is going to AUTOMATICALLY
+attract attention (as, if nothing else, a possible foreign agent or
+terrorist or drug trafficker).
+
+Here in the UK I did a back-of-envelope calculation a few months ago.
+There are 30 Million phones here. Assume an average of 1 hour/day
+usage. Allow 2kbits/sec bandwidth for an uncompressed voice call. Each
+phone therefore generates 7.6 mbits/day of data, or <1 Mbyte. Thats
+30,000 gigabytes. A lot? Hell, no. There are c. 1000 digital exchanges
+in the UK. Allowing the use of 4.5 Gbyte DAT drives at each exchange,
+you can spool off EVERY phone call in the country by having each
+exchange load a tape, record everything, and send it in to Secret
+Police HQ on a daily basis.
+
+That's without compression, of course ...
+
+For identifying subversive networks you rely on traffic analysis.  The
+network is a nondirected cyclic graph with 30 million nodes.  Each node
+has a call list associated with it, consisting of a destination node
+(the path to the destination is irrelevant unless in-band-signalling is
+possible, and even then it's only relevant if the caller's a phone
+phreak), a start time, and a duration.  Certain nodes are already
+flagged as 'interesting', i.e.  surveillance in progress.  These nodes
+are listened to.  If a call from node A (under surveillance) goes to
+node B (clean), and a call from node B _then_ goes to node C (under
+surveillance), you can assume a transitive dependency between A->B->C
+and therefore include B in your search network.
+
+I believe that Solzhenitsyn wrote in the 70's that once more than 20%
+of the population has a telephone, the secret police can't monitor
+calls effectively any more. (Hence the Moscow phone system :) This
+assertion should now be judged obsolete, as digital switches make it
+far too easy to trace subversive networks and offline spooling of all
+calls makes it possible to compile a _history_ of a network.
+
+The phone system is compromised. Face it. And so, very probably, is
+the Internet.
+
+
+-- Charlie
+
+--------------------------------------------------------------------------------
+Charlie Stross is charless@sco.com, charlie@antipope.demon.co.uk  
+ 
+ 
+ 
+
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 07:55:51 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Comments on NSA
+
+Charlie Stross:
+
+> Here in the UK I did a back-of-envelope calculation a few months ago.
+> There are 30 Million phones here. Assume an average of 1 hour/day
+> usage. Allow 2kbits/sec bandwidth for an uncompressed voice call.
+
+> That's without compression, of course ...
+
+Interesting thing to calculate.  I'd be really interested in the
+actual average use (though 1 hour seems approximately reasonable).
+Unfortunately, the 2kbits/sec uncompressed figure is off by at
+least an order of magnitude.  With 8-bit samples (about the minimum
+that could be used), and a 4K sampling rate (not really enough, but
+being generous), that's 32kbits/sec.  There are ways to compress
+voice so that it's more or less understandable at 5kbits/sec (used
+by the military), but those would require vast (unrealistic) amounts
+of computing power for your telephone company to have installed to do
+the compression.  Realistically, 10kbps is a minimum figure with feasible
+compression.
+
+Now, even if the 2kpbs figure was right, you dropped another decimal
+point:  30,000 gigabytes (1MB * 30M phones) is right.  1000 digital
+exchanges -> 30 GB / exchange / day == ~10 4MB DAT tapes.  Given
+the actual uncompressed rate of at least 20kbps, now we're talking
+about 100 DAT tapes per day per exchange.  Still possible, but logistically
+rather more difficult; per month, the phone company (or the government,
+or whoever) would be buying three million DAT tapes.  If such is happening
+it shouldn't be very difficult to verify.
+
+derek
+also a lover of envelope-back calculations
+
+------------------------------
+
+End of Extropians Digest V93 #327
+*********************************
+

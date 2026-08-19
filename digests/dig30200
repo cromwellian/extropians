@@ -1,0 +1,982 @@
+From extropians-request@gnu.ai.mit.edu Sat Apr 17 02:33:47 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA29436; Sat, 17 Apr 93 02:33:45 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from albert.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA00920; Sat, 17 Apr 93 02:33:41 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by albert.gnu.ai.mit.edu (5.65/4.0)
+	id <AA09653@albert.gnu.ai.mit.edu>; Sat, 17 Apr 93 05:28:32 -0400
+Message-Id: <9304170928.AA09653@albert.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Sat, 17 Apr 93 05:28:07 -0400
+X-Original-Message-Id: <9304170928.AA09647@albert.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0200
+X-Extropian-Date: Remailed on April 17, 373 P.N.O. [09:28:31 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Sat, 17 Apr 93            Volume 93 : Issue 0200
+                        
+Today's Topics:
+                           "Big Brother" Proposal                     [2 msgs]
+          (fwd) White House Public Encryption Management Fact Sheet   [1 msgs]
+                        CRYPTO: The right to encrypt                  [1 msgs]
+                            CRYPTO: Useful irony                      [1 msgs]
+                   Contract engineering & paying the rent             [1 msgs]
+                      Dorothy Denning's friends strike                [1 msgs]
+                       HUMOR: Libertarian Party doomed                [1 msgs]
+                                 IMPORTANT!                           [6 msgs]
+              Key Registration and Big Brother--Time to Fight!        [2 msgs]
+                       Korzybski's "E-Prime", also NLP                [2 msgs]
+                        MEDIA: Public Radio receipts                  [1 msgs]
+                           PRIVACY: A Further Note                    [1 msgs]
+                         Privacy, State, and Crypto                   [1 msgs]
+                        lang: differentiated plurals                  [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50247 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 16 Apr 93 21:34:48 CDT
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: CRYPTO: The right to encrypt
+
+I have already posted on why Clinton's reputed support of the right to
+privacy should lead him to recognize that we have a right to encryption
+technology.  Now I would like to take a quick walk through the Bill of
+Rights in order to point out how it forbids the federal government from
+infringing on our rights to own and use encryption technology.
+
+PENUMBRA:  The Bill of Rights nowhere explicitly recognizes a right to
+privacy.  In Roe v Wade, however, the Supreme court found that such a right
+issued forth from a penumbra created by the Bill or Rights' explicit
+provisions on related topics (eg, the 4th Amendment's right against
+unreasonable search and seizure).  But if the right to an abortion falls
+within this penumbra, the right to encrypt sits square in the middle. 
+Several Amendments speak almost directly of the right to protect
+correspondence from the prying eyes of government authorities.
+
+1st AMENDMENT:  "Congress shall make no law . . . abridging the freedom of
+speech, . . . or the right of the people peaceably to assemble, . . ." 
+This protects our rights to send scrambled messages to one another, to swap
+information that will help us to keep our correspondence private (including
+programs), and to gather in virtual assemblies under the protective sheild
+of cryptography.
+
+4th AMENDMENT:  "The right of the people to be secure in their persons,
+houses, papers, and effects, against unreasonable searches and seizures,
+shall not be violated, and no warrants shall issue, but upon probably
+cause, . . ."  To be frank, this Amendment doesn't do as much for our right
+to encrypt as we might want.  It seems to allow the government to set up
+reasonable means of cracking our codes.  But I know of no case where
+government authorities have used the 4th to justify preventing citizens
+from taking measures to protect their privacy.  Could the feds outlaw
+unbreakable doors and unpickable locks, for example?  Though I would have
+to do more research to be sure, I think that banning certain modes of
+cyptography would be absolutely unprecedented.  Furthermore, note that the
+4th *does not* give the government authority to conduct searches and
+seizures--even reasonable ones.  It only stipulates one condition under
+which it may *not* conduct them.  See the 9th, below, for the argument that
+we retain the right to encrypt.
+
+5th AMENDMENT: "No person shall . . . be deprived of . . . property,
+without due process of law; nor shall private property be taken for public
+use without just compensation."  PGP and related encryption software can be
+viewed as property, whether intellectual (the programs themselves) or
+physical (the diskettes and computers on which the programs are stored). 
+Federal authorities thus cannot force us to erase such programs, or seize
+them, without due process.  They may also be forced to pay us just
+compensation.  This hardly guarantees our rights to encryption technology,
+but it might slow the feds down.
+
+9th AMENDMENT: "The enumeration in the Constitution of certain rights shall
+not be construed to deny or disparage others retained by the people."  This
+means that we retain our rights to privacy, and our rights to create, own,
+and use encryption technology.  The Constitution says nothing to limit
+these retained rights.  The fact that the 4th Amendment protects us from
+unreasonable searches and seizures *shall not* be taken to deny or
+disparage these rights.
+
+I hope this quick review of the Bill or Rights proves useful as
+intellectual ammo in the struggle to protect our privacy from Bill Clinton,
+who is quickly becoming the "Bill or Wrongs."
+
+Permission granted to reproduce this message freely.
+
+T.O. Morrow                     --  twb3@midway.uchicago.edu
+Vice President: ExI             --  The Extropy Institute
+Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 19:24:44 -0700
+From: George A. Gleason <gg@well.sf.ca.us>
+Subject: Key Registration and Big Brother--Time to Fight!
+
+Instead of a conference call in clear voice, how about doing it online from 
+the various meetings, and encrypted?  What would it take to set up a        
+broadcast encryption system that will work in chat mode...?   A conference
+call in clear voice is almost certain to be monitored, and I would bet that
+it would yield a whole lot more high-grade intelligence than we would
+usually expect: first of all, voices of all participants (for later use in
+voiceprint recognition surveillance), second, all the background
+discussions, and third, a lot of the kind of deliberation and
+working-through-things that ordinarily gets filtered out by the process of
+posting things to this list.  
+
+Yes, they can theoretically send visitors to our meetings.  But
+realistically this is more labor intensive and potentially risky than
+recording a conference call which has all the meetings on line.  Let's not
+go leaving any huge holes, please...!
+
+-gg
+
+------------------------------
+
+Date: Fri, 16 Apr 93 23:28:24 EDT
+From: eisrael@suneast.East.Sun.COM (Elias Israel - SunSelect Engineering)
+Subject: CRYPTO: Useful irony
+
+Actually, I think it must be clear that various government agencies
+have been cooking up this scheme since well before the Clinton
+presidency.  Certainly, it can't possibly have been the case the
+Billary Clodham walked into the Oval Office on his first day and said:
+"Listen boys, we gotta stop all this encrypted traffic right now. Get
+on it."
+
+No, the development time on the hardware alone, let alone the
+theoretical work for the encryption algorithms with (at least) one
+trapdoor would have required far more time than he's been around.
+
+This is a problem much bigger than the President of the United States.
+
+We ought to give serious and immediate consideration to taking these
+discussions underground. Although I have no *@#$-ing idea how to do
+that.
+
+Moreover, although some on this list have exhorted others to "join
+the battle," I think one might be wise to consider what or whom one
+is fighting. Perhaps keeping one's head down is the wiser path.
+
+Modern life has become a science fiction novel. Unfortunately, the
+novel is "Alongside Night."
+
+Elias Israel
+eisrael@east.sun.com
+
+------------------------------
+
+Date: Fri, 16 Apr 93 22:36:22 CDT
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: MEDIA: Public Radio receipts
+
+You may recall that in my "Challenge Public Radio" post I criticized Public
+Radio stations for accepting statist funding.  I acted on my own advice,
+and called up a local station during their pledge drive to challenge them
+to admit to using tax dollars and to publically recognize that we taxpayers
+were *already* contributing to their operations.
+
+That station (WBEZ) graciously responded by sending me their fiscal 1991
+report.  From it I learned that matters are even worse than I had imagined!
+ Consider this breakdown of their revenue:
+
+Membership contributions                  $1,598,933
+Government grants                            949,696
+Private gifts and grants                     191,932
+Program underwriting                         240,238
+Investment income                             38,764
+Special events                                15,460
+Satellite and other                           35,087
+In-kind services and other contributions     145,241
+TOTAL REVENUE (fiscal 1991)               $3,215,351
+
+It is almost certainly the case that government grants, which resulted in
+nearly a third of WBEZ's revenues, were the single largest source of the
+station's income.  Though membership contributions resulted in more income
+overall, these probably came from many, many individual sources.  How can
+WBEZ claim to address issues related to proper range and size of government
+programs objectively while it depends on tax funds for its very survival?
+
+T.O. Morrow                     --  twb3@midway.uchicago.edu
+Vice President: ExI             --  The Extropy Institute
+Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+
+
+------------------------------
+
+Date: Fri, 16 Apr 93 23:37:44 EDT
+From: eisrael@suneast.East.Sun.COM (Elias Israel - SunSelect Engineering)
+Subject: (fwd) White House Public Encryption Management Fact Sheet
+
+George Gleason writes:
+>I don't see an implication that crypto gear makers will be facing forfeiture
+>for failing to comply with the "request" to incorporate key escrow.  
+
+Simple scenario: Company XYZ is making crypto gear that the government
+cannot break without inordinate expenditures of computer resources.
+Solution? An "anonymous tip" that the company is involved in drug
+trafficking is all you need to bust down the doors and shut them down.
+Take all of the assets you can sell off and force them to fight for
+them in court.  Don't want them to defend themselves? Freeze any
+accounts you can't automatically drain. This would probably work
+against just about any company that didn't have large resources
+available abroad.
+
+Couldn't happen here? Yea, and religious persecution never happens
+either.
+
+Elias Israel
+eisrael@east.sun.com
+
+------------------------------
+
+Date: 16 Apr 93 23:41:42 EDT
+From: Duncan Frissell <76630.3577@CompuServe.COM>
+Subject: IMPORTANT!
+
+Boy, those guys (and gals) in Washington have really been smoking 
+(and inhaling) something.
+
+I agree with Perry, we should go to the mattresses on this one.
+
+Why we will win, though --
+
+1) I disagree with Tim about the First Amendment.  I consider it unlikely that
+the courts will permit a restriction of my right to transmit the zeros and
+ones that I choose unless they are provably obscene or within one of the
+other recognized exceptions.
+
+2) Imposing a "technical standard" on electronic equipment may violate GATT
+rules if the standard has the effect of reducing the sales of foreign equip-
+ment.
+
+BTW, the most significant phrase in the press release is the following:
+
+"The keys shall be released only to government agencies that have established 
+their authority to acquire the content of those communications that have been
+encrypted"
+
+Translation - "The keys shall be released to any government agency that
+submits the proper paperwork."
+
+Read this language from the Privacy Act of 1974 governing the inter-agency
+transfer of information about individuals:
+
+"Sec. #200, 255 - Conditions of Disclosure.  No agency shall disclose any
+record which is contained in a system of records to any person or to another
+agency, except pursuant to a written request by, or with the prior written 
+consent of, the individual to whom the record pertains, unless the disclosure
+of the record would be..."
+
+[whole bunch of exceptions, including]
+
+"(7)  To another agency or to an instrumentality of any governmental 
+jurisdiction...for a civil or criminal law enforcement activity if the
+activity is authorized by law, and if the head of the agency...has made
+a written request..."
+
+In other words they get the escrowed key if they say "pretty please with
+sugar on top."
+
+
+Duncan Frissell
+
+
+
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 23:20:06 -0400 (EDT)
+From: Carol Moore <cmoore@cap.gwu.edu>
+Subject: PRIVACY: A Further Note
+
+I assume you mean width of columns.
+I use an IBM compatible; set the
+margins on 1" and 1 1/2" if I am
+uploading;  but if I am just typing
+in like now I automatically throw
+the enter key right about here >
+
+If the columns are too wide, please tell me
+and I'll readjust.
+
+
+
+
+On Fri, 16 Apr 1993 rjc@gnu.ai.mit.edu wrote:
+
+> 
+>   Carol, no flame intended, but I have a curious question. Do you happen
+> to be using an old 8-bit computer? The reason I ask is because a lot of
+> your messages are in 40-columns, ala Commodore 64/Atari/Spectrum.
+> 
+> -- Ray Cromwell        |    Engineering is the implementation of science;    --
+> -- EE/Math Student     |       politics is the implementation of faith.      --
+> -- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+
+
+
+------------------------------
+
+Date: Fri, 16 Apr 93 21:16:17 +0100
+From: Eric Watt Forste <arkuat@joes.garage.com>
+Subject: "Big Brother" Proposal
+
+Hal Finney wrote:
+ 
+ HF> Their emphasis is on voice communication, and AT&T has already
+ HF> announced (according to an AP story) that they are looking
+ HF> forward to designing in the Clipper so that they will have a
+ HF> standard encryption method across their whole range of products.
+ 
+One way to fight this that I haven't yet seen suggested is to write
+letters and make phone calls to anyone you know who may reasonably be
+considered a decision maker (or a provider of consumer opinion to
+decision makers) for AT&T, Sprint, MCI, and any other large companies
+you know who manufacture voice-communications equipment.
+ 
+Let them know that you do not wish to patronize any communications
+company that standardizes on an insecure "communications security"
+scheme. Let them know that if they standardize on the Clipper Chip
+system, you will seek out the services of another company which is not
+as subservient to the government's wishes. Let them know that the
+Clinton Administration's encryption initiative is bad public policy
+which will fail without industry support, and which ought to fail, as
+quickly as possible. Ask them to withhold their support from this
+initiative.
+ 
+Even if the government plans to make compliance mandatory rather than
+voluntary, if the telcos are made as uncomfortable about this as
+possible as early as possible, they may be willing to start spending
+some lobbying funds to stop it.
+
+Eric Watt Forste                             arkuat@joes.garage.com
+1800 Market St #243                          San Francisco CA 94102
+      Expectation foils perception.   -- Pamela C. Dean
+
+------------------------------
+
+Date: Fri, 16 Apr 93 21:18:52 +0100
+From: Eric Watt Forste <arkuat@joes.garage.com>
+Subject: "Big Brother" Proposal
+
+Eli Brandt wrote:
+ 
+ EB> Unlikely, I think.  It's a bit too slanted to be accepted as a
+ EB> neutral term for a government proposal
+ 
+Well, I think "Star Wars" was a bit too slanted to be accepted as a
+neutral term for SDI, and that didn't stop anyone ten years ago.
+ 
+Eric Watt Forste                             arkuat@joes.garage.com
+1800 Market St #243                          San Francisco CA 94102
+      "Expectation foils perception."   -- Pamela C. Dean
+
+------------------------------
+
+Date: Sat, 17 Apr 93 00:04:52 EDT
+From: eisrael@suneast.East.Sun.COM (Elias Israel - SunSelect Engineering)
+Subject: Korzybski's "E-Prime", also NLP
+
+Eric S. Raymond writes:
+>Sure.  In the real world, Aristotelian logic is in general false.  Neither the
+>"Law of the Excluded Middle" (A | ~A), nor noncontradiction ~(A & ~A) holds.
+>
+>It's become a cliche to trot out QM in support of this, but it's true even
+>classically (as proponents of fuzzy logic and the related "fudgy logic" in
+>AI have realized).  To see this for yourself, think carefully about the
+>predicates "hot" and "cold".
+
+Having met Eric and seen his writings for some time, I've come to
+respect him quite a bit. I think he's frightfully clever. However,
+while I understand and appreciate the point he's making here, I'd have
+to regard it at least a little bit as a kind of sophistry.
+
+First of all, it is certainly true that two-value logic, while useful
+for lots of different kinds of analyses, isn't really the way the
+human brain works, let alone how the universe works. A common computer
+science exercise is the creation of "neural nets", essentially great
+taxonomies: "Is it a chair? Is it a dinosaur?" But taxonomies are
+fundmentally flawed because individual objects don't have intrinsic
+categories any more than goods have intrinsic value. The "category"
+of a thing depends on what you're doing with it. I call this the "Yew
+Tree" principle. The yew tree is a deciduous conifer. (Which breaks
+the typical notion of conifers as evergreens.)
+
+However, notice how I started my previous paragraph and look at Eric's
+statement above: "... is generally false." Both he and I inevitably
+resorted to true-false statements to describe what we think.
+
+While I would agree that it is a mental error to apply two-value logic
+in cases that allow for a wider interpretation of the facts, I don't
+necessarily consider this a refutation of the non-contradiction axiom.
+Rather, I consider it a reminder that where the non-contradiction axiom
+seems to be violated, I must have missed some of the facts of the
+situation. (e.g. that an object can be both "hot" and "cold" depending
+on what one compares it to.) Additionally, it's probably worthwhile
+to note that the non-contradiction axiom seems to be violated more
+often than not when one is dealing loosely with the facts.
+
+Probably, Eric doesn't intend to "do away with" the non-contradiction
+axiom, but I get the feeling that at least some people are hearing it
+that way. I know I did when I first heard about the yew tree.
+
+Elias Israel
+eisrael@east.sun.com
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 23:37:47 -0700 (PDT)
+From: dorsey@lila.com (Bill Dorsey)
+Subject: IMPORTANT!
+
+>    On a side note, a friend of mine and I have been designing
+> v32bis voice encryption software. It's crude, but it should work.
+> I'm designing my end for an Amiga + cheap sampler, he is designing his
+> end on a 486 + Sound Blaster pro.
+> 
+Interesting.  I'm working on the same deal.  I have (at home) a 486 with
+a Soundblaster Pro, and a Sun Sparcstation.  Along with another friend,
+we're developing software to run under DOS, Linux, and 386BSD on the 386/
+486 and SunOS on the Sparc.  We'll be requiring V.32bis modems.
+
+Right now, we're experimenting with the European GSM voice compression
+algorithm.  It presently uses up about 85% of the CPU bandwidth on a 33MHZ
+486, but by hacking the code, we hope to reduce this substantially.  It
+still probably won't be possible to achieve full duplex communication
+with anything slower than a 50MHZ 486, but we expect high-quality half-
+duplex communications.  I'm talking quality similar to what you got about
+10 years ago on long distance lines -- pretty damn clear.
+
+Extra CPU cycles needed for DES and packetizing the communications are
+negligible next to the time required to compress the speech.
+
+Your approach is interesting, but rather brute force.  There is an excellent
+book on speech compression called "Digital Coding of Waveforms" by Jayant
+and Noll.  It details techniques considerably more efficient at compressing
+speech than what you're using, though some may require more CPU cycles.
+I'd suggest looking into CVSD (continuously variable slope detection) as
+one possible means of compressing speech and still keeping it somewhat
+recognisable.  Motorola uses this technology on their DVP radios which are
+limited to NBFM bandwidths (3KHZ).
+
+Excellent idea, though.  There is a definite need for secure communication
+among citizens, and this could fill that gap.  For a couple of thousand
+dollars, companies like Cylink make black boxes that do this (using DES),
+but few people are going to be willing to spend the money.  On the other
+hand, lots of people will spend the money to buy a PC and modem.
+
+If you'd like to share ideas further, don't hesitate to reply.
+
+--
+Bill Dorsey      "Most people mistake law for justice and authority for
+dorsey@lila.com   liberty.  You will hear them talk of 'liberty under law,'
+PGP 2.X public    and they are content to see it so deep under the law that
+key on request    it is completely obliterated." -- Herbert Spencer
+
+------------------------------
+
+Date: Sat, 17 Apr 93 1:16:16 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: HUMOR: Libertarian Party doomed
+
+> (This is not to say that libertarians are all drug using homosexual
+> republicans: it is to say that the Libertarian Party is pretty much
+> going nowhere.)
+
+Hmm...being new to the list, I am wondering what is the opinion in here of
+the Natural Law Party?  FOR POLITICIANS, I think they are pretty "cool" 
+(meaning intelligent, diverse, open minded, forward thinking, and could
+potentially do a LOT of good.)  They certainly got my vote last goaround.
+Note that your opinions are not likely to sway mine, but I would just the
+same be interested in hearing them.  Are there any other parties that are
+supported (or not slammed into the dirt at least) by Extropia-at-large?
+What about the idea of partyless independat candidates, eh?
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Sat, 17 Apr 93 1:21:58 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: Dorothy Denning's friends strike
+
+> According to a front page article in today's New York Times, the
+> Clinton Administration is going to be releasing a standard encryption
+> technology that commercial users will be encouraged to adopt that
+> involves having the government keep copies of "back door" keys
+
+What exactly does "releasing a standard encryption technology" mean?
+Is this software written by some agency?  Is it a hardware device? Is it a 
+paper technical proposal??
+
+What does "commercial users" mean?  That is awfully general...
+
+> The implications are obvious.
+
+No kidding.  Digital telephony bill out one orofice, White House BackDoor
+scheme shoved into another.  Great.
+
+I see why some people are tempted to believe in conspiracy theories...
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Fri, 16 Apr 93 18:19:18 PDT
+From: Bruce.Baugh@p23.f40.n105.z1.fidonet.org (Bruce Baugh)
+Subject: Contract engineering & paying the rent
+
+ U > From: david@WAL6000B.UDC.UPENN.EDU (R. David Murray)
+ U > Date: Mon, 12 Apr 93 20:22:34 EDT
+ U > 
+ U > Romana and Dani talk about contract engineering, and Duncan talks
+ U > about
+ U > contract technical writing.  What other kinds of contract employment
+ U > exist?  Are there agencies specializing in contract programming?  In
+
+Try talking to temporary agencies; I'm having very good
+experiences with Western. No programming jobs yet, but some
+work involving a goodly quantity of computer experience on the
+user end. And no, relocation isn't called for if you live in a
+metropolitan area--Portland Metro is about 400,000 people and
+is generating all the work I can handle with no travel beyond
+local bus rides.
+
+You can also try what I did: simply hang out your shingle.
+Post some ads at local computer shops and bookstores. If
+you've got a local computer freebie magazine, computer ad rag,
+or something similar, run a small ad in it. Leave info on
+local BBSes (and don't neglect local/regional newsgroups,
+FidoNet echoes, and the like). One thing can lead to another,
+and you can get started (and build up a portfolio) without
+giving up your current work just yet.
+
+A true-life example: When I started making the rounds of temp
+agencies, I did up a very spiffy-looking resume. It was a
+practical necessity that I arrange things so as to not draw
+too much attention to several years of little or no work
+experience during which I was convalescing from severe health
+problems, and to present skills acquired in a variety of
+haphazard ways. But I also wanted to strut my word processing/
+desktop publishing skills. The receptionist was impressed
+enough to ask me if I'd do up one for her, too. In the course
+of conversation we made arrangements for me to give her a few
+hours of tutoring in word-processing and spreadsheet use. Word
+of mouth from her in turn generated another couple of jobs...
+
+And so it goes. It's very, very spontaneous order.
+
+
+--  
+uucp: uunet!m2xenix!puddle!40.23!Bruce.Baugh
+Internet: Bruce.Baugh@p23.f40.n105.z1.fidonet.org
+
+------------------------------
+
+Date: Sat, 17 Apr 1993 00:38:26 -0700
+From: D Anton Sherwood <dasher@well.sf.ca.us>
+Subject: lang: differentiated plurals
+
+Eli asks:
+> (Are there any other examples of a word pair, like "iris" the flower
+> and "iris" the thing in your eye, in which the words are identical
+> in the singular but have different plurals?)
+
+A few.  The classic example is MEDIA / MEDIUMS.
+
+An example in pure Latin is LIBER : LIBRI / LIBERI, of which the first means
+`books' and the second means `free men'.
+
+Anton Sherwood                                   dasher@well.sf.ca.us
++1 415 267 0685          1800 Market St #207, San Francisco 94102 USA
+"Don't forget, your mind only *simulates* logic."  -- Glen C. Perkins
+
+------------------------------
+
+Date: Sat, 17 Apr 93 1:49:30 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: IMPORTANT!
+
+> The White House cryptography initiative I've posted about today is in
+> my opinion the most important threat to freedom of the last twenty
+> years, possibly the biggest since the end of world war II. I urge
+> everyone who has not done so to read the press release I forwarded by
+> way of Tim May.
+
+No.  Don't just read it.  DO SOMETHING ABOUT IT NOW!  Email the White House 
+immediately!  If you do not know how to do this, I will be happy to post in-
+structions
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Sat, 17 Apr 93 1:54:21 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: Korzybski's "E-Prime", also NLP
+
+> Part of "conscious of abstracting" is the awareness that natural language
+> tends to impose on our thinking a two-valuedness which is unsane.  GS teaches
+> this insight not just as an intellectual bagatelle but as an active, constant
+> corrective towards sanity.
+
+I'd hardly call it "unsane".  It is quite sane.  It is the natural process of
+the human mind.  This is not to say it is good, only sane.  By calling it 
+unsane are you not making a value judgement?  Would it not be better to 
+suggest instead that it is not the best mode of thinking?  Personally I 
+dislike the sound of "corrective towards sanity".  Who gets to define "sanity"?
+You? Me? The govt? Korzybsky?
+
+------------------------------
+
+Date: Sat, 17 Apr 93 1:59:20 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: IMPORTANT!
+
+> Hmm.  On the other hand, I could see the "broad policy review"
+> coming up with awful legislation banning non-government-decryptable
+> data transmissions, and this idiotic "Clipper chip" thing being used
+> as a justification; but I can scarcely believe that it would have a
+> major impact on the fundamental privacy issue.
+
+I think that is indeed what the issue is.
+
+> dear mr. president:
+> You do not seem to realize that one of the major reasons
+> we the people want encryption technology is that we do
+> not trust your thugs to behave honorably and within their
+> rules, nor do we recognize the justice or legitimacy of
+> those rules.  Must I also write all correspondence in 6th
+> grade english so that the FBI can not only read but understand
+> my private communications?
+
+Clinton doesn't (likely) read this list. Don't post it here, send it to the 
+White House! I mean it!
+
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Sat, 17 Apr 93 2:18:20 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: IMPORTANT!
+
+> > Thats what it is all about! Read it again!
+> 
+> I did.  Four times so far.  Here's part of it:
+ 
+Are you blind?!
+
+> Q:   If the Administration were unable to find a technological
+>      solution like the one proposed, would the Administration be
+>      willing to use legal remedies to restrict access to more
+>      powerful encryption devices?
+> 
+> A:   This is a fundamental policy question which will be
+>      considered during the broad policy review.  The key escrow
+        ^^^^^^^^^
+
+If they are "considering" it, this is NOT a Good Thing.  It is a very very
+BAD Thing.  When the govt. "considers" taking away our privacy, it is time
+to kick the govt. in the ass. VERY hard.
+
+>      mechanism will provide Americans with an encryption product
+>      that is more secure, more convenient, and less expensive
+                    ^^^^^^
+Wow, just love how they make up their own defintions...
+Secure: 1. Adj.  Possessing a backdoor that can be used by the govt, and
+        anyone who figures out how.  2. removes right to privacy, and allows
+        govt to examine anything it  wants to. 3.  totally full of shit.     
+
+
+>      than others readily available today, but it is just one
+>      piece of what must be the comprehensive approach to
+>      encryption technology, which the Administration is
+>      developing.
+
+Oh I just can't WAIT to see the rest of this plan!
+
+
+>      The Administration is not saying, "since encryption
+>      threatens the public safety and effective law enforcement,
+>      we will prohibit it outright" (as some countries have
+>      effectively done); nor is the U.S. saying that "every
+>      American, as a matter of right, is entitled to an
+>      unbreakable commercial encryption product."  There is a
+>      false "tension" created in the assessment that this issue is
+>      an "either-or" proposition.  Rather, both concerns can be,
+>      and in fact are, harmoniously balanced through a reasoned,
+>      balanced approach such as is proposed with the "Clipper
+>      Chip" and similar encryption techniques.
+
+Sure if you live in Disneyland.  Sorry if this qualifies as a flame. It is
+not meant as one.  Just trying to make it VERY clear what is at stake here.
+
+> Where does it say anywhere that this proposal would make unbreakable
+> private encryption illegal?  That document is not "all about"
+> such regulations -- it doesn't even mention them!
+
+Sure it does.  The question was asked if the govt. would illegalize other
+encryption methods.  The govt. said it was thinking about it. Sheesh.
+
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Sat, 17 Apr 93 2:21:48 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: IMPORTANT!
+
+> I'm not defending this typical clownish government lunacy; just
+> trying to clarify what it is actually saying, rather than what
+> others project onto it.
+
+Oh I see.  Pardon us for considering the possible ramifications, and deciding
+to act to prevent the ones we forsee and don't like.  
+
+I agree with you that it does not NECESSARILY mean that the govt will out-
+law other encryption methods, but it is POSSIBLE, and therefore must be
+prevented (unless of course you WANT them to.)  That's all.
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Sat, 17 Apr 1993 04:37:28 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: Key Registration and Big Brother--Time to Fight!
+
+KMOSTA01@ULKYVX.LOUISVILLE.EDU writes:
+> 
+> 
+> May I please ask that someone posts info on how I can learn the basics 
+> of encryption keys for my Mac (before it is too late). I welcome private
+> mail, but others may also use reading on the subject. Thank you.
+> Krzys'
+> kmosta01@ulkyvx.louisville.edu
+> 
+
+  You can ftp macpgp from soda.berkeley.edu in directory
+pub/cypherpunks/pgp.
+
+  RSA works like this. Given A relatively prime to M (no common
+divisors except 1), and X and Y such that X * Y = 1 (mod phi(M))
+(where phi(m) is euler's totient function meaning the number of
+integers less than or equal to m which have no divisors in common with m.
+ E.g. phi(7) = 6 because out of 1,2,3,4,5,6,7 there is only 7 which has
+a commoner divisor with 7). A^(X*Y) = A (mod M). This says that if
+you take A and raise it to X, and then raise THAT integer to Y,
+modulo with M, you get A back. Encryption is simply raising A^X (mod M).
+Decryption is raising cyphertext^Y (mod M).
+
+  Example: Pick two primes, P=5, Q=11. M=P*Q=55. phi(55)=40. Pick X=3
+Solve 3*Y = 1 (mod 40). Using the well known extended euclidian algorithm
+you get Y=27. (3 * 27 = 81 = 1 (mod 40)).
+
+  Now let's say Alice wants to send us a message consisting of a single
+number which is the day of the month when the cypherpunks will strike at
+the NSA base. Since we don't want to use Clipper-Chip (tm NSA) phones,
+and we can't trade DES keys over a tapped phone line, what should we do?
+Alice wants to send me "7" meaning to attack on the 7th day of the month.
+So I call up Alice and tell her "X=3, M=55". That's all she needs to know.
+Alice writes down that A=7, and A^X=A^3 = 7^3 = 343. She then mods it with
+55 and gets 13. Alice calls you up and says "13".
+
+  You compute 13 ^ 27 (mod 55). Since 13^27 is a pretty big number (~30 digits)
+we need a trick and that trick is modular exponentation. Write 27 as a sum
+of powers of 2. 27 = 16 + 8 + 2 + 1.
+
+  Using the properties of exponents, we can write
+
+  13^27 = 13 ^ 16 * 13^8 * 13^2 * 13 (mod 55).
+
+13 ^ 2 = 169 (mod 55) = 4
+13 ^ 8 = (13 ^ 2)^4 = 4^4 = 256 (mod 55) = 36
+13 ^ 16 = (13 ^ 8)^2 = 36 ^ 2 (mod 55) = 31
+
+13^27 = 31 * 36 * 4 * 13 = 58032 (mod 55) = 7  (tada!)
+
+  So we know that Alice wants us to attack the NSA's Clipper Chip
+foundry on the 7th.
+
+
+   From the NSA's point of view, they can only see (X=3, M=55, cyphertext=13)
+go across the telephone. Why is RSA secure?
+
+   The NSA's job is to find Y such that X * Y = 1 mod phi(55) or
+a Y such that phi(55) would divide 3 * Y - 1. Why is this so hard?
+Because they have to compute phi(55).  Now 55 is a small number so
+
+
+
+
+
+
+
+
+
+
+
+
+
+it wouldn't take much work to write out the numbers less than 55 and
+cross out those which have common divisors with 55 to arrive at 40.
+But what if M=16225927682921336462961629249502496267774021849840901.
+Already with are talking about a list of numbers which would take
+up a large fraction of the matter in the universe. If M is composed
+of two primes P*Q, then phi(M) = phi(P)*phi(Q), and phi(x)=x - 1 if
+x is prime. Therefore, if you can factor M, you can figure out
+phi(M) very quickly, and get Y in ~log(phi(M)) time.
+
+  All you need to do to be reasonably safe is to pick two gigantic primes
+(about 200 digits each), compute M=P*Q, pick an X, give out X and M,
+compute Y, keep Y, P, Q, M private.  
+
+Hope this helps.
+
+
+(any number theory book will give you the tooks needed to prove the
+RSA algorithm within the first 70 pages. All it takes is a knowledge of
+congruences, Euler's generalization of fermat's theorem, and solving
+of linear congruences. These principles in turn can be reduced to
+knowledge of divisibility of integers. It's so simple, it shouldn't
+have been patented, period.)
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+
+
+------------------------------
+
+Date:     Sat, 17 Apr 93 8:56:19 GMT
+From: starr@genie.slhs.udel.edu
+Subject: Privacy, State, and Crypto
+
+I suspected that the news about the State's new crypto standard was bad.
+Denning does seem to have been put up to it.  All she did was hash through
+some fairly superficial arguments, repeatedly, as far as I could see.
+
+One of the most recent Playboy's had an article on threats to privacy.  It
+was clear from that that the greatest threat to privacy is the government,
+although some nasy comments about corporations were made to appease the
+Left.  The best thing that could be done to protect privacy would be for
+the State to stop giving out information about people that it coerces out
+of them.
+
+We know the EFF's good on this issue; who else?  The ACLU?
+
+Not only does this proposal contradict Bill's campaign rhetoric, it also
+contradicts Hilary's comments about the undesirability of an Orwellian
+totalitarian State in last Sunday's Parade magazine.  I tend to agree with
+Kryz more and more: the rhetoric is the means, power over others the end.
+
+Combine this with the prospect of a State "data highway" system.  Recall
+the attempt a while back in New Jersey to pass legislation imposing licensure
+for software programmers.  What composite is implied?
+
+I fear that what we're witnessing is the enslavement of the freest industry
+left in the USA and the world: information technology.  If "the nets" are
+replaced with "Ma Net," a coercive monopoly, then it would be easy to
+prohibit unlicensed programmers from access to Ma Net.  It would be easy to
+prohibit unregistered crypto keys.
+
+For too long, the culture of information technology has had an amoral ring
+to it - one of anarchists and cowboys.  It would be all too easy for the
+State to claim that it's got to "clean up Dodge City," and impose law & order.
+And don't worry - they'll only go after those bad other guys, not good people
+like you - law-abiding, honest, taxpaying, voting citizens of the USA.
+
+As Colorado was in Atlas Shrugged, so, too, has information technology been
+in the USA of the 1980s.  It was the freest industry.  It raised productivity
+and output enormously.  It helped the State stay in tax-financing.  It was
+the outlet for tremendous human creativity and progress.  And it may all be
+coming to an end.
+
+Anti-trust suits will be filed against Microsoft, too.  I'm pessimistic, but
+mad enough to do something about it anyways.  This may even be enough to get
+me to call Dellums, my congressvermin.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0200
+****************************************
+

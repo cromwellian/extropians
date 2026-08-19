@@ -1,0 +1,508 @@
+From extropians-request@extropy.org Tue Jul 12 09:03:49 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id JAA04583 for <more@chaph.usc.edu>; Tue, 12 Jul 1994 09:03:46 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA11496; Tue, 12 Jul 94 09:03:43 PDT
+Received: by news.panix.com id AA12683
+  (5.65c/IDA-1.4.4 for more@usc.edu); Tue, 12 Jul 1994 12:03:40 -0400
+Date: Tue, 12 Jul 1994 12:03:40 -0400
+Message-Id: <199407121603.AA12683@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-7-74 - #94-7-85
+X-Extropian-Date: July 12, 374 P.N.O. [12:01:12 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Tue, 12 Jul 94             Volume 94 : Issue 192
+
+Today's Topics:
+                         AI development acceleration                  [3 msgs]
+                         AI development acceleration                  [1 msgs]
+      AI development acceleration (was: Nanotechnology and uncertainty)[3 msgs]
+                         BOOK: The Collapse of Chaos                  [1 msgs]
+                              emergence defined                       [2 msgs]
+                               Richard Bandler                        [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 26895 bytes.
+
+----------------------------------------------------------------------
+
+From: doug@OpenMind.com (Doug Cutrell)
+Date: Sun, 10 Jul 1994 08:17:55 -0800
+Subject: [#94-7-74] AI development acceleration
+
+Carl Feynman writes:
+>How fast a small number of people can advance a technology depends on how
+>well-developed the technology is.  In the beginning, there is a lot of
+>"low-hanging fruit"-- you just walk around plucking a 10% improvement here
+>and a 20% improvement there.  Eventually it gets harder, and you need big
+>research and development teams with lots of specialists and subcontractors.
+>Look at airplanes before 1910 or computers before 1952: radical
+>improvements were made by tiny teams.  As the technology matures, you can
+>maintain exponential improvement, but only by throwing huge development
+>effort at it.  This is where airplanes were up until about 1970, and
+>computers are today.
+>
+>I was implicitly assuming that there were six orders of magnitude available
+>in the "low-hanging fruit" stage of development.  I guess you're right that
+>that seems implausible.  I wouldn't be suprised if there were three orders
+>of magnitude, though.
+
+I am not sure that "software engineering" fits into this model -- at least
+not  that part of software engineering which consists of the development of
+new algorithms.  It seems to me that the science of constructing new
+algorithms is much more akin to "mathematical research", where I think this
+model clearly does not hold.  For example, in the field of cryptography,
+the acceleration in our ability to do prime factoring on large composite
+numbers (i.e. break RSA) has been almost entirely driven by improvements in
+factoring algorithms, which have been made by just one or at most a few
+mathematicians working at a time (that is, the improvements due to
+algorithmic development have overshadowed hardware advances by several
+orders of magnitude).
+
+Some areas of software engineering certainly do fit into Carl's model --
+for example, building good speech recognition, etc.  And probably a part of
+initial AI development will require this large development team approach.
+However, I suggest that the rapid *acceleration* phase might be driven by
+algorithmic improvements of the mathematical sort.  For example, in fields
+such as neural networks, or genetic engineering, it is at least possible
+that even a single researcher in isolation might come up with algorithmic
+improvements resulting in orders of magnitude increase in efficiency,
+without radical redesign of other portions of the system.
+
+>>  (And I don't see how
+>>the AI scenario could "take off" until the AIs reached near human
+>>intelligence levels.)
+>
+>Of course.  At least near-human intelligence at engineering tasks, anyway.
+
+Perhaps what would be required is near-human intelligence at mathematical
+research.  Some people (e.g. Penrose) have contended that mathematical
+"intuition" may be a qualitatively harder task than, say, mechanical
+engineering...
+
+Doug
+
+
+                       __   __   __                             __
+Doug Cutrell          /  ) /__) /_  /\  /    /| /|   /  /\  /  /  )
+doug@OpenMind.com     \_/ /    (_  /  \/    / |/ |  /  /  \/  /__/
+===================================================================
+
+
+
+------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Sun, 10 Jul 94 19:17:03 GMT
+Subject: [#94-7-75] BOOK: The Collapse of Chaos
+
+Reilly Jones wrote:
+> Bob Grahame wrote (7/6/94): <A couple of quotes which might hook
+> Extropian interests... "[...] the relentless increase of entropy does
+> not apply to a 'free-running' system - such as the entire universe.">
+> 
+> Obviously. [...]
+
+Sorry.  The relentless increase in entropy *does* apply to the whole
+universe.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Sun, 10 Jul 1994 11:56:51 -0700
+Subject: [#94-7-76] AI development acceleration
+
+Carl Feynman writes:
+>I have been assuming ... the hardware is fixed, but the software keeps
+>getting improved by substantial factors.  I think the extraordinary
+>rates of progress in hardware, versus the minuscule rates of progress
+>in AI (or uploading), will produce quite an overhang by the time we
+>finally get an intelligent machine. ...
+>
+>How fast a small number of people can advance a technology depends on how
+>well-developed the technology is.  In the beginning, there is a lot of
+>"low-hanging fruit"-- you just walk around plucking a 10% improvement here
+>and a 20% improvement there.  Eventually it gets harder, and you need big
+>research and development teams with lots of specialists and subcontractors.
+>Look at airplanes before 1910 or computers before 1952: radical
+>improvements were made by tiny teams.  As the technology matures, you can
+>maintain exponential improvement, but only by throwing huge development
+>effort at it.  This is where airplanes were up until about 1970, and
+>computers are today.
+>
+>I was implicitly assuming that there were six orders of magnitude available
+>in the "low-hanging fruit" stage of development.  I guess you're right that
+>that seems implausible.  I wouldn't be suprised if there were three orders
+>of magnitude, though.
+
+What Carl describes is a "breakthrough" scenario.  In it, AI comes not
+because the computer industry makes machines smarter every year, and
+eventually they are as smart as us.  Instead, some conceptual
+breakthough occurs, some new approach is found, and then there are a
+lot of easy ways to improve initial designs.  
+
+In order for this breakthrough scenario to be combined with Carl's
+`AIs design themselves' acceleration scenario, this breakthrough must
+happen to make AI abilities jump from some subhuman level to about a
+human or level.  If it jumps too low, we're back to standard growth as
+we pass the human level.  If it jumps too high, the key was the
+breakthrough; the further improvements are just icing on the cake.
+
+Breakthroughs are certainly possible, but my personal opinion is that
+we are unlikely to discover any huge new conceptual keys to designing
+intelligence - I envision just lots and lots of little improvements.
+
+>> it is hard to take this seriously as a "destabilizing effect on war".
+>
+>I agree.  I got started on this topic not because I was claiming that AI
+>would lead to war, but because someone said that an AI runaway was
+>impossible, based on analogy to existing technology.
+
+This discussion started with George Sullivan suggesting that we
+consider "international governmental controls" on technologies where a
+small group might make such rapid progress that they would be tempted
+to take over the world militarily.  So I think we should distinguish
+"world runaway" from "small group runaway" scenarios.  In the former,
+world technology/wealth might increase by several orders of magnitude
+in a short time; in the latter, this increase would be confined to a
+single military power.  Which are you arguing for?
+
+>In such a scenario, an AI would be different from an upload in that it
+>would probably be easier to redesign and improve an AI without breaking it,
+>since we knew how to design it in the first place.
+
+Perhaps, but upload technology seems more certain to be a
+breakthrough, as it is more intrinsically discrete a transition.  One
+day you don't have a working upload, another day you do.  With AI, one
+day you have a dumber AI, and another day you have a smarter one.
+
+Doug Cutrell writes:
+>For example, in the field of cryptography, the acceleration in our
+>ability to do prime factoring on large composite numbers (i.e. break
+>RSA) has been almost entirely driven by improvements in factoring
+>algorithms, which have been made by just one or at most a few
+>mathematicians working at a time (that is, the improvements due to
+>algorithmic development have overshadowed hardware advances by several
+>orders of magnitude).
+
+Crytography seems much more subject to big breakthroughs to me, more
+like physics where lots of work can be boiled down to a few essential
+equations.  And note that it wasn't the same few people making these
+breakthroughs, so the idea of acceleration by a small isolated team
+isn't supported here.
+
+To me the most plausible rapid transition scenario, for AIs or
+uploads, comes from the ability to make copies of software fast.  Once
+something is created which is more efficient than large numbers of
+ordinary human workers, copies can be rapidly made to replace those
+human workers.  The military scenario (which I don't find especially
+plausible) is you have 10 million robot soldier bodies in storage, and
+one day you get smart software to put in those bodies.
+
+Robin Hanson
+
+
+
+------------------------------
+
+From: amoreno@cyberspace.org (Andrew Moreno)
+Date: Sun, 10 Jul 94 15:35 EDT
+Subject: [#94-7-77] Richard Bandler
+
+Hi. HAs anyone heard of Richard Bandler?
+
+Andrew Moreno
+
+------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Sun, 10 Jul 94 22:17:39 GMT
+Subject: [#94-7-78] AI development acceleration (was: Nanotechnology and uncertainty)
+
+Carl Feynman:
+> Note that this [runaway AI] scenario is independent of the level of
+> nanotechnology available at the time of the development of AI.
+
+Absolutely.  Nanotech is irrelevant to this interesting topic.
+
+Robin Hanson:
+> Maybe designing intelligence is so damn hard that smarter creatures
+> than us find it even harder to improve on themselves
+
+Maybe, but I think that constraints on intelligence are going to be more
+hardware limited than design/software limited.  I say this from the
+perspective of thinking, as an amateur, that neural nets are the way
+forward.  There are some large conceptual gaps in our understanding of
+neural nets - such as finding a local learning algorithm for randomly
+connected networks and how to add new nodes to an operational network
+- but I think they are likely to be solved by the time the hardware is
+up to providing a platform for human-level AIs, say by about 2030-2040.
+
+If hardware is the driving technology behind the transition from merely
+human-level AI to godlike AIs then it is likely to be a gradual global
+phenomenon rather than focused on a single, secretive lab.  The trend
+in chip fabrication advances is towards more collaborative joint
+ventures to cover the investment required.  If this is correct then the
+development of godlike AIs is going to be a highly visible capital
+market activity, although it may take place over only a couple of years,
+as Carl envisages.
+
+Driven by the investment from the capital markets I think the speed-
+up/runaway scenario is more likely to follow from the economic
+consequences of AIs (as Robin said) as they replace human labour, rather
+than the lab-working-in-secret view.  When AIs are capable of replacing
+humans then the dividends will be apparent to all investors and funding
+will really go through the roof.
+
+> We don't really understand intelligence well enough to say one way or
+> the other
+
+True, we can't be sure, but do we have any reason to suspect that
+intelligence is anything other than a function of neural complexity? 
+I can't think of anything convincing.
+
+> and the overoptimism of previous estimates of rates of AI
+> progress is not especially encouraging.
+
+Certainly true.  The AI field has, over the decades, lost a lot of
+credibility through rash prognostications.  Estimates for AI based on
+notions of complexity (as in human = approx 10^17 bits/sec) and economic
+cost of replacing human labour seem more realistic, though, than
+previous crystal ball gazing.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Sun, 10 Jul 1994 15:16:48 -0700
+Subject: [#94-7-79] AI development acceleration (was: Nanotechnology and uncertainty)
+
+Michael Clive Price writes:
+>Maybe, but I think that constraints on intelligence are going to be
+>more hardware limited than design/software limited.
+
+I'd bet against the idea that we'll know what software to run, and
+just be waiting for a fast enough machine.  But opinions vary here.
+
+>If hardware is the driving technology behind the transition from merely
+>human-level AI to godlike AIs then it is likely to be a gradual global
+>phenomenon rather than focused on a single, secretive lab.  
+
+Quite so.
+
+>...do we have any reason to suspect that
+>intelligence is anything other than a function of neural complexity? 
+
+Yes!  A random "big complex" network is almost certainly really dumb.
+Intelligence requires the right *kind* of complexity - not just any
+complexity will do.
+
+Robin Hanson
+
+------------------------------
+
+From: sullivan@blaze.cs.jhu.edu (Gregory Sullivan)
+Date: Mon, 11 Jul 94 02:43:36 EDT
+Subject: [#94-7-81] AI development acceleration 
+
+>This discussion started with George Sullivan suggesting that we
+
+Actually, the name is Gregory Sullivan. Unfortunately, I have had to
+temporarily reduce active participation because of my workload, e.g., two
+papers must be submitted soon, etc. I have some half-written posts trying to
+illuminate my position(s).  Hope to resume discussion soon. 
+      gfs
+
+------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Mon, 11 Jul 94 09:13:25 GMT
+Subject: [#94-7-82] AI development acceleration (was: Nanotechnology and uncertainty)
+
+I asked:
+> ...do we have any reason to suspect that intelligence 
+> is anything other than a function of neural complexity? 
+
+Robin Hanson:
+> Yes!  A random "big complex" network is almost certainly really dumb.
+
+When I said "randomly connected" I only meant in contrast with the
+simpler forward-feed networks, which are clearly dumb.  We need
+circularity, which is implied by randomly connected, for intelligence,
+amongst other properties.
+
+> Intelligence requires the right *kind* of complexity - not just any
+> complexity will do.
+
+My hope is that with some as yet unknown local learning rule that the
+right kind of complexity will emerge as a spontaneous order, within the
+small randomly connected network as it develops into a bigger
+"intelligently connected" network.
+
+I envisage that the local learning rule will dictate things like
+snipping connections if they stablise at small interconnect strengths
+and inserting extra nodes between connections if the interconnect values
+fail to stablise.  Thus isolated nodes are discarded and new nodes form
+in the more dynamic areas.  In a stimulating environment the network
+would grow (I hope) and develop complexity.  Also nodes with the same
+external connections and strengths could be merged with no loss of
+information.  Another idea is that nodes with sustained correlated
+firing could form interconnections.  The odd random connection forming
+might produce interesting effects.
+
+Lots of ideas are waiting to be explored.  The limiting thing is
+searching through the learning algorithm space.  This I expect to be
+very computational expensive, since we can't look at an algorithm and
+deduce which ones are the winners and which are dead-ends, beyond a
+certain point.  The only way to test them is the run them on networks
+and observe their behaviour.  Another number sink is that the dynamic
+networks I'm imagining would very likely have to be run as simulations
+to cope with the dynamic rewiring required.  Small networks with
+different learning algorithms could be tested against each other
+different environments and genetic algorithms used to evolve superior
+learning rules.
+
+Obviously this is just speculation, but the point is that there seem
+plenty of ways of moving forward if only we had the number-crunching
+power available, which is what I mean by AI research being hardware
+limited, rather than software limited.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Mon, 11 Jul 1994 08:08:57 -0400
+Subject: [#94-7-83] emergence defined
+
+ At Alife 4, Vince Darley (vince@das.harvard.edu) proposed this definition:
+"A true emergent phenomenon is one for which the optimal means of prediction
+is simulation".
+ He also proposed a measure of emergence, the "emergence ratio" u(n)/s(n),
+where s(n) is the amount of computation needed to predict the behavior of
+the system via simulation, and u(n) is the amount of computation needed to
+predict the system from a theoretical understanding of it. "Amount of
+computation needed" is defined in terms of the Kolmogorov complexity of
+the optimum representations ("God's simulation" and "God's understanding"),
+so this is a bit too idealized to be accurately measured, but I hope that
+it will help to counter the abuse of the concept by mystics and similarly
+misguided people.
+-----------------------------------------------------------
+Peter McCluskey | pcm@world.std.com | Repeal Gresham's Law!
+-----------------------------------------------------------
+
+
+------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Mon, 11 Jul 94 12:56:16 GMT
+Subject: [#94-7-84] emergence defined
+
+"Peter C. McCluskey" <pcm@world.std.com> writes:
+
+> At Alife 4, Vince Darley (vince@das.harvard.edu) proposed this definition:
+>"A true emergent phenomenon is one for which the optimal means of prediction
+>is simulation".
+
+Cool--and this leads to a nice parallel between emergent behavior and
+random sequences.
+
+How certain is it that quantum behavior is random rather than chaotic?
+
+Nancy Lebovitz
+
+------------------------------
+
+From: doug@OpenMind.com (Doug Cutrell)
+Date: Mon, 11 Jul 1994 08:26:27 -0800
+Subject: [#94-7-85] AI development acceleration
+
+Robin Hanson writes:
+
+>Crytography seems much more subject to big breakthroughs to me, more
+>like physics where lots of work can be boiled down to a few essential
+>equations.  And note that it wasn't the same few people making these
+>breakthroughs, so the idea of acceleration by a small isolated team
+>isn't supported here.
+
+And Mike Price writes:
+
+>My hope is that with some as yet unknown local learning rule that the
+>right kind of complexity will emerge as a spontaneous order, within the
+>small randomly connected network as it develops into a bigger
+>"intelligently connected" network...
+>...Obviously this is just speculation, but the point is that there seem
+>plenty of ways of moving forward if only we had the number-crunching
+>power available, which is what I mean by AI research being hardware
+>limited, rather than software limited.
+
+I agree with Mike Price's first point, that single breakthroughs of the
+algorithmic sort (local learning rules, self-organizational principles,
+etc.) may be a driving force in AI acceleration.  This is why I previously
+argued that the development of AI may follow the model of mathematical
+research more than that of an engineering project.
+
+For the same reason, I would tend to agree with Carl Feynman, that AI
+development, in the *final* stages, may indeed be driven by improvements in
+software, not hardware.  However, I see these software advances as being of
+the purely algorithmic sort... better self-organizational principles, etc.
+
+Mathematical breakthroughs do usually proceed from just one or a few
+mathematicians at a time.  As Robin Hanson indicates, often there are
+multiple teams, each contributing some piece to the overall puzzle.  But
+there are also examples where a single researcher has single-handedly, and
+unexpectedly, sown up an entire field of inquiry.  (The work of Michael
+Aschbacher towards the classification of all finite simple groups comes to
+mind...)  And if some early AI is better at developing new
+self-organizational principles than humans, then we might see the rapid
+exponential explosion that Carl Feynman has outlined.
+
+While this debate is still quite interesting, I think it is clear that at
+some point we are faced with simple differences of subjective feeling as to
+the qualitative nature of likely AI intelligence.  I see there being at
+least two major camps... those who see AI as requiring the gradual piecing
+together of a very complicated system, with many individually crafted
+components, and those who see AI as potentially arising emergently from a
+much more undifferentiated complex system.
+
+Doug
+
+
+                       __   __   __                             __
+Doug Cutrell          /  ) /__) /_  /\  /    /| /|   /  /\  /  /  )
+doug@OpenMind.com     \_/ /    (_  /  \/    / |/ |  /  /  \/  /__/
+===================================================================
+
+
+
+------------------------------
+
+End of Extropians Digest V94 #192
+*********************************
+

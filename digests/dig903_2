@@ -1,0 +1,2043 @@
+From extropians-request@extropy.org Thu Sep  2 21:08:22 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA10829; Thu, 2 Sep 93 21:08:18 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA07428; Thu, 2 Sep 93 21:08:12 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA11627; Fri, 3 Sep 93 00:05:22 EDT
+Received: from news.panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+	id AA11622; Fri, 3 Sep 93 00:04:56 EDT
+Received: by news.panix.com id AA07371
+  (5.65c/IDA-1.4.4 for exi-maillist@ung.gnu.ai.mit.edu); Fri, 3 Sep 1993 00:04:44 -0400
+Date: Fri, 3 Sep 1993 00:04:44 -0400
+Message-Id: <199309030404.AA07371@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: September 3, 373 P.N.O. [04:04:37 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Fri, 3 Sep 93             Volume 93 : Issue 245
+
+Today's Topics:
+                 FUN: For PostScript Fans -- Universe Shares          [1 msgs]
+                                  Green Goo                           [4 msgs]
+                               Human Population                       [5 msgs]
+                    META: list software agent docs wanted             [1 msgs]
+           Meta: I have a problem using the list software with MH     [1 msgs]
+             PHIL: Galt Strike (was: Re: Extropaganza: goodwill)      [3 msgs]
+                           PHYS: grav. anti-energy                    [1 msgs]
+                         SCIFI: Vernor Vinge Article                  [1 msgs]
+                       WAR/NANO/LAW:  Against Nanarchy                [1 msgs]
+                      nominalism is what the other says               [1 msgs]
+                       phys: gravitational anti-energy                [1 msgs]
+                                unsubscribe me                        [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51869 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 02 Sep 93 09:04:25 -0500
+From: "Patrick M. Fitzgerald" <pmfitzge@fitz.b30.ingr.com>
+Subject: Meta: I have a problem using the list software with MH 
+
+In message #93-9-32 
+davisd@nimitz.ee.washington.edu writes:
+> 
+> I use MH through emacs. MH automatically inserts a blank line between
+> the headers and the text.
+
+I don't think MH is your problem.  You probably need to check with
+extropians-request to make sure the list software is correctly
+recognizing your address (otherwise, it won't accept commands from
+you).  I had that problem for a couple weeks, until habs fixed me up.
+
+The only problem I had with MH is that the list software did not
+recognize the default MH In-reply-to: header; thus, I could not reply
+to a message and, for example, put "::exclude thread" at the top.  But
+since MH lets you customize your headers, I just changed the replcomps
+file from
+
+	%<(nodate{date})%{date}%|%(pretty{date})%>."%<{message-id}
+	             %{message-id}%>\n%>\
+
+to
+
+	%<{date}In-reply-to: %{message-id}\n%>\
+
+and now everything works fine.
+-- 
+   ______    Patrick M. Fitzgerald            pmfitzge@ingr.com
+  / ___  )   --------------Intergraph Corporation--------------
+ / __)/ /__  Senior Software Analyst    TIM & DBT Documentation
+(_/it(_____) (205)730-3741, Bldg 30, Room 122m, Mailstop GD3002
+
+------------------------------
+
+Date: Thu, 2 Sep 1993 09:52:33 -0400 (EDT)
+From: Edward J OConnell <ejo@world.std.com>
+Subject: Green Goo
+
+I've been thinking about the Green Goo myself. Of course, I believe that
+some sort of population control is necessary, near term. (Next thousand
+years--I'm pessimistic about nanotech timetables)
+
+So I represent an interesting viewpoint for study. I'm more or less
+sympathetic to the aims of green goo. The sterilizing kind, anyway.
+
+One thought I've had is to embed it in a recreational drug, so that those
+who take it do so voluntarily. Also, it would be reversible, temporarily,
+with some agent that would allow conception for a short term--it would
+flip the human reproductive default. You'd have to take a pill to have a
+kid--not vice versa.
+
+Accidental reproduction is for animals, IMO.
+
+My other thought has been biotech organisms, gas bags, that excrete a mana
+that has within it a temporary contraceptive. Those that eat the free food
+can't reproduce. An end to famine with malthusian growth...
+
+Of course, this smacks of 'class warfare,' as does all green goo, so it
+will offend many liberals. Freeze sperm, and OVa, and maintain a
+population of women in hermitic bubbles, and you'll have a freemarket
+workaround for the rich. The middle class might be able to afford it with
+mechanisms like mortgages--I imagine it would cost a lot.
+
+Jay
+
+
+
+------------------------------
+
+Date: Thursday, 2 September 1993 00:08:45 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: nominalism is what the other says
+
+In <9309012114.AA10395@netcom3.netcom.com>, dasher@netcom.com (D. Anton Sherwood)  wrote:
+> 
+> A long time ago, in fact on August 8, James Donald wrote:
+> > For example if nominalism was correct, then what the
+> > classical Greeks said would be largely meaningless to us,
+> > for example it is unlikely that they would use a word
+> > corresponding to "liberty" in a sense similar to that which
+> > we use. This prediction is obviously false.	Liberty and
+> > similar concepts are plainly true universals, thus plainly
+> > universals exist.
+> 
+> Plainly.  Except that when Westerners tried to promulgate liberalism in
+> China, they had to invent a word for liberty.
+
+True, but when Confucius, describing that conduct of
+citizens which is an indicator of a legitimate government,
+mentions what we would call freedom of speech, he is very
+plainly pointing at the same thing as we point at, even
+though he has no word for it.
+
+Plainly he saw what we saw, and his description of it is
+sound, even though his understanding of it is unsound.  Our
+understanding, the Greek understanding, is better than the
+Chinese, but we both saw the same thing in the world, and
+we both described that thing in terms easily recognizable,
+and we both recognized that thing as very important and an
+indicator of legitimate government.
+
+Chinese use multi word metaphors very extensively.  The
+absence of a specific word does not mean that there was no
+thing in the world that the Chinese pointed at from time to
+time, a thing that we call liberty.  A great many things in
+Chinese are only referred to by metaphors, but obviously
+this does not mean the Chinese lack the concepts.
+
+The Chinese did point to it from time to time, particularly
+when governments were weak.  Thus liberty is a true
+universal, in the East as in the West.  The category is
+recognizable, but during period of authoritarian and
+unified rule the thing referred to was so rare that they
+had little use for such a word.
+
+Liberty is not a word, it is a condition.  The absence of
+the word does not make the condition meaningless or
+unknowable, though the absence of the condition certainly
+does make the word meaningless and unknowable. When
+Chinese comment on the fall of communism, they use extended
+metaphors, or they use western symbols, like the statue of
+liberty, but their meaning is quite clear.  They imported
+the statue, but they would not have imported the statue if
+they had had to import the meaning for which it stood.
+
+> > Thus all theories based on nominalism, for example Marxism
+> > and Utilitarianism, must be false, Marxism because of its
+> > nominalist definition of value, utilitarianism because of
+> > its nominalist definition of the good.
+> 
+> Why shouldn't a Marxist say *our* definition of value is
+> nominalist?  After all we do say one person's measurement
+> of value is as good as another's,
+
+You may say that.  I do not.  It is in fact plainly false,
+especially when one attempts to measure, as the Marxists
+attempt to measure, value for other people, value in
+transactions, value as in equity, value as in torts.
+
+> while Marxists have an objective definition of something
+> that they call "value" (though "cost" is a better word for
+> it).
+
+The Marxists thought that "society" could give, did give,
+an arbitrary definition to "value", and implicitly assumed
+that people could continue to act as if that arbitrary
+thing was in fact value, merely because "society" decreed
+it to be.  This expectation, deduced from nominalism,
+proved false.
+
+Anton Sherwood's form of nominalism probably would not lead
+to that particular kind of error, but it would lead to the
+errors discussed by Robert M. Persig in "Zen and the art of
+Motorcycle Maintenance, printed by Bodley Head, 1974, and
+probably would lead to the errors discussed by Bruno Leoni
+in "Freedom and the law", published by Liberty Press, 1991
+
+Nominalism now appears to be in retreat, losing ground at
+roughly the same time as the most infamous nominalist
+theory is collapsing.
+
+Categories exist in the world, not merely by definition.
+If a category is meaningful and valid, then the things
+belonging to this category have some property in common,
+and we invent a word for this objectively existing
+property, and define the word by pointing at examples of
+things that have this property. Words are one means of
+pointing at things in the world. Some categories are
+universals.  Words are not defined by definitions.
+Definitions, like examples, hint at meanings, by invoking
+our common sense knowledge of the world.  If definitions
+literally defined things, this would involve circularity.
+Consider for example Euclid's definition of a line and a
+point.
+
+Because nominalism falsely describes the meaning of words
+and our relationship to reality, theories based on
+nominalism always err.
+
+Popper falsely deduced from nominalism that Marxism was
+unfalsifiable.  But plainly Marxism has been falsified!
+Marxism was unscientific because it fabricated favorable
+experimental results, and concealed unfavorable results
+with force and violence.  It was not unscientific because
+it failed to meet Popper's arbitrary, unscientific, and
+provably false definition of science.
+
+>From my understanding of what Anton Sherwood is saying, a
+few years ago he would have agreed with Popper on this
+matter, another example of nominalism leading people
+astray.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Thu, 2 Sep 93 17:21:33 BST
+From: Mark Grant <Mark.Grant@isltd.insignia.com>
+Subject: phys: gravitational anti-energy
+
+D. Anton Sherwood wrote on August 7:
+> Between two masses there is negative gravitational potential energy
+> (-Gmm/d).  Energy is equivalent to mass, so this negative energy has
+> negative gravity.  Where is it?  That is, somewhere in the system there
+> should be a locus of (very weak!) repulsion; is it in the masses, in a
+> cloud between them, in their joint center of mass, or what?
+
+If it was anywhere, it would be spread across the entire system, and in any
+case would be very small compared to the mass of the objects in the system.
+
+D. Anton Sherwood wrote:
+>... and goes on to imply that kinetic energy isn't real, either, which was
+>news to me.  Are potential and kinetic energy just a fiction that physicists
+>use to keep the books square?
+
+I think you'll find that the real problem is that you're trying to mix relativity
+and newtonian physics. I'm not certain, but I strongly suspect that if you used 
+general relativity instead of newtonian gravity then this whole situation would 
+disappear.
+
+					Mark
+
+------------------------------
+
+Date: Thu, 2 Sep 93 17:06:43 +0100
+From: Ken MacLeod <kenm@college.ed.ac.uk>
+Subject: unsubscribe me
+
+Please remove me from the Extropians mailing list. This is because of a
+temporary problem with our email and I may ask to be put back later.
+
+Thanks
+
+Ken MacLeod~
+
+
+------------------------------
+
+Date: Thu, 2 Sep 93 18:24:19 BST
+From: Mark Grant <Mark.Grant@isltd.insignia.com>
+Subject: WAR/NANO/LAW:  Against Nanarchy
+
+Robin Hanson <hanson@ptolemy.arc.nasa.gov> wrote: 
+> I proposed that "a viable alternative" to nanarchy is to always hold
+> "parents" responsible for their "children" "(except for human
+> biological children)".
+> 
+> Hal Finney responds:
+> >why in this alternative would one except humans?
+> 
+> Just as a grandfather clause, because we're used to this, and it doesn't
+> fail terribly.
+
+Hmm, I don't think so. Surely if human X (whether a parent, friend, enemy,
+whatever) had 'programmed' in some sense human Y to perform an action (e.g.
+go and kill human Z), then X could at least be charged with conspiracy or 
+something. I think the real difference is that humans are generally regarded 
+as being able to think for themselves, and therefore (at least beyond a 
+certain age) capable of making their own decisions which they take 
+responsibility for.
+
+I would suggest that this would be a better alternative. Unless the AI 
+"children" could be shown to have been programmed to carry out an action, then 
+they should be assumed to be responsible for it. This kind of programming 
+would be easy for an algorithmic organism, but also easily spotted, and the 
+only possible defence from the human programmer would be negligence. For neural 
+networks (which AIs look more and more likely to require), programming of this 
+nature would be very tricky (just like a human), and if you relied on programming 
+the network rather than an obvious algorithmic layer on top of it, would be 
+likely to vanish over time as the network reprograms itself ('learns to think 
+for itself').
+
+This does, obviously, leave the possibility of creating an AI which was 
+programmed to carry out an action, then suicide. If you're lucky, you'd still 
+have a core dump to analyse, if not, well, it's up to the courts to decide, as 
+it would be today with a human... Maybe in *that* case, the "parent" should be 
+assumed responsible.
+
+> >I don't think it makes sense to hold human "parents" always responsible
+> >for the actions of their AI "children".  ...  If you created the AI twenty
+> >years ago and it has been living on its own all this time.
+
+If you did adopt the suggestion above, this might be a neccesary part of it, 
+i.e. the AI might have to have been free from direct "parental" control for some 
+time before it would be held responsible for its actions, to allow it to grow
+out of any parental programming.
+
+> I didn't say it would be optimal, just "viable".  (Though given scenarios
+> like those sketched by Nick Szabo, my proposal may well be optimal.)
+> Crime could be deterred at an acceptable cost.  Nanarchy is not *required*
+> to deal with future crime.
+
+I'm not sure it's really even that viable. Suppose you're an AI, created by
+a human, and you've met a human you dislike and would like to kill, and have
+found a method to do so. If your "parent" is held responsible, then you're
+free to kill anyone you like without fear of reprisals. Or were you intending
+*joint* responsibility, and/or compulsory termination of the AI ?
+
+[Comments on nanotech universe colonization]
+> This makes no sense.  With two exponential growing things, it is the one
+> with the larger exponent (time derivative of log of amount) that grows to
+> be biggest.  If the exponents are the same the ratio between the two is
+> constant.  So I ask again, why should the first colonizer have the biggest
+> exponent?  And ordinary economic growth is (at least) exponetial, so why
+> doesn't this argument apply to that?
+
+I think it makes a certain amount of sense if there is a reasonable length of
+time between the two colonizers starting out, given that both will be
+starting from the same place. Even if one can spread faster, if it is not
+from a much higher tech level, when it arrives in any of the nearby systems
+the colonizer that's already there is likely to have defence systems that
+will win simply based on force of numbers.
+
+							Mark
+
+------------------------------
+
+Date: Thu, 2 Sep 93 14:55:21 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Green Goo
+
+  Absolutely Brilliant essay Nick! I hope you get the guts to post it to
+sci.environment. It's about time a counter offensive was made against
+the forces of ecocentrism and genocide.
+
+  I myself have been contemplating an essay called "the post biological
+world" which details how the earth will become less and less important
+as a life support system. The thing which irritates the ecocentrists
+most is absolute utilitarianism. 
+
+-- Ray Crowwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 2 Sep 93 18:02:01 EDT
+From: Andy Wilson <ajw@Think.COM>
+Subject: Green Goo
+
+   Date: Thu, 2 Sep 1993 09:52:33 -0400 (EDT)
+   From: Edward J OConnell <ejo@world.std.com>
+
+   I've been thinking about the Green Goo myself. Of course, I believe that
+   some sort of population control is necessary, near term. (Next thousand
+   years--I'm pessimistic about nanotech timetables)
+
+   So I represent an interesting viewpoint for study. I'm more or less
+   sympathetic to the aims of green goo. The sterilizing kind, anyway.
+
+I sense a paradox here.
+
+On the one hand,  many environmentally conscious people do not feel that
+the human race has more of a claim to the biosphere than any other species,
+and I tend toward this view myself.
+
+On the other hand,  the human "population explosion" is seen as the worst
+nightmare imaginable.  But I don't see what makes humans special in this
+regard.  Starvation is the what all species are faced with when they are 
+overpopulated.
+
+The cause of famine as it exists in the world today is the inefficiency
+of the world economy in getting the food which does exist to the people
+who need to eat it.  This is a result of a combination of beaurocratic
+ineptitude and actual and threatened violence on the part of nations
+and political factions.
+
+As countries become relatively more educated,  their tendency is toward
+population levels that are fairly stable.  This can be seen in the U.S.
+population and in western europe.  Given the necessary technology for
+birth control,  there is no "population explosion".  Also,  although I
+know of no good studies on the subject,  I think that an increased rate
+of homosexuality and bisexuality is a natural brake on population growth,  
+which explains why it is often taboo in more conservative and/or primitive 
+cultures,  which are organized around population growth as a goal.
+
+If there are any human rights,  then the right to procreate is among them.
+Coupled with that is the responsibility to care for the children.  I don't
+think anyone has a right to have a child if they don't have enough
+resources to care for it.
+
+When the human race,  or whatever it becomes,  begins to expand beyond
+this planet,  then population growth will again be fashionable.
+
+I am absolutely opposed to any and all involuntary methods of "population
+control".
+
+Andy
+
+
+
+
+------------------------------
+
+Date: Thu, 2 Sep 93 15:40:50 -0700
+From: mcpherso@lumina.ucsd.edu (John McPherson)
+Subject: SCIFI: Vernor Vinge Article
+
+        "Award-winning writer up for another honor"
+
+          Vernor Vinge sold his first science fiction short
+        story in 1964, when he was a senior in high
+        school in Okemos, Mich.  But the Wisconsin
+        native wasn't thinking of a writing career then;
+        he wanted to be "an astronaut, a physicist or a
+        mathematician," he recalls now.
+
+          Math won, and after graduating from 
+Michigan State University, he came to San Diego in 1966 to do
+graduate work at UCSD.  A couple of years later he sold his
+first novel.
+
+  "That novel was solicited based on a
+short story I had had published," said
+Vinge, a math sciences professor at 
+San Diego State University since 1972.
+                                            [Vernor's pic here]
+  "Breaking into writing books is hard,
+but if you've established a reputation
+with magazine writing, it's easier.  The
+pay isn't good, bu you get all sorts of
+exposure."
+
+  Since then, Vinge's profile has
+steadily risen among science fiction
+fans and his fellow writers.  Over the
+years, he has been a runner-up for the
+prestigious Hugo Award four times, for
+his novels "The Peace War" (1984) and
+"Marooned in Realtime" (1986), a novella "True Names"
+(1981) and a novelette.
+
+  His latest novel, "A Fire Upon the Deep," is also a Hugo
+contender, nominated for this year's prize to be presented
+Labor Day weekend in San Francisco.
+
+  Vinge says he writes science fiction because "it's what I
+know.  Actually half of the trick for success ... is being familiar
+with the genre, which is a high-flown way of saying I wasted a
+great amount of time reading an enormous number of stories."
+
+  Recently, Vinge has been intrigued with the almost
+incomprehensible speed of change anticipated in the next 30
+years as computers become more and more "intelligent."
+
+  Many people have talked about that, but most just stop
+there," he said.  "But what happens three months later? ... It
+makes it very hard to write science fiction since one option is
+all-encompassing disaster, the other is bugs in the wall --
+humans become a lower life form."
+
+  Vinge's solution in "A Fire Upon the Deep" was to create
+interstellar empires that "allowed me to be faithful to the
+notion that these changes are going to happen and yet still
+have human-size activities going on."
+
+  In this excerpt, the human Johanna works in a hospital,
+unaware of the danger she faces from a guard Tine, a "pack"
+creature composed of many members, that has human intelligence.
+
+                                -- Mary Hellman, Books Editor
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+   "A tale of survival in a world where the whole is greater 
+    than the sum of its parts"
+
+   "All Chitiratte need do was give the signal, and the duo
+    would tead the human apart.  A great tragedy."
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+        The Times are a race of packs.
+        Each individual is a group of
+        four to seven members.  Apart,
+        those members are about as
+        smart as a bright dog: together,
+        the members of a pack make a be-
+        ing of human intelligence. Johan-
+        na is a lone human caught deep
+        in the medieval intrigues of the
+        Tines' World:
+
+  "Now that Vendacious had found a way past the ene-
+my's defenses, everyone was anxious to break camp,
+but ..." 
+
+ [[The excerpt, from Chapter 35, went from p.460 line 2 to p.465
+   line 14, and Vernor (who apparently edited the excerpt) made 
+   some appropriate substitutions so that readers could follow it.
+   Instead of "mantis" he used the word "human"; instead of 
+   "Flenserist forces" he used the word "enemy"; etc. ]]
+
+  "One of Kratzi's heads was looking in Chitiratte's direction,
+waiting for the signal.  Now the human picked up the bowls and
+knelt beside the duo ---"
+
+
+John McPherson         mcpherso@lumina.ucsd.edu         (619) 534-4717
+----------------------------------------------------------------------
+Life -->  Individual  -->  Net Extropic  -->  Free  -->  Free Market
+         Human Action       Production        Trade        Economy
+----------------------------------------------------------------------
+       hardcore signature virus: "As a juror in a Trial by Jury, 
+       you have the right, power and duty to acquit the defendant 
+                if you judge the law itself to be unjust."
+
+
+------------------------------
+
+Date: Thu, 2 Sep 93 15:55:57 -0700
+From: freeman@maspar.com (Jay R. Freeman)
+Subject: Human Population
+
+    There are a couple of data points that might be useful in discussions of
+human population size -- I apologize that my references are at home so I cannot
+dig out original citations:
+
+    (1) Up through about the end of the Pleistocene, roughly 10,000 years
+        ago, the world population of _Homo_sapiens_ did not exceed several
+        million individuals.
+
+    (2) The population size required for an animal species to avoid
+        "genetic bottleneck" (assorted catastrophes from lack of diversity)
+        is presently believed to be as small as a few hundred individuals.
+
+    (3) There are many non-"endangered" vertebrate species whose entire
+        population contains no more individuals than there are humans in
+        a small town.  (Hmn, the thrust of the "non-'endangered'" point
+        is that I am not talking about species whose population has recently
+        been dramatically reduced by human activities.)
+
+    I suspect that a rich, diverse and viable human culture could obtain with
+no more than a few million people alive.  We could reach such levels
+without too much fuss in a few centuries if we could obtain a reproductive
+rate of 0.5 children per adult rather than the 1+ which is more typical now.
+
+                                           -- Jay Freeman
+                                              the other Jay
+                                              the other Freeman
+
+------------------------------
+
+Date: Thu, 2 Sep 93 19:01:49 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Green Goo
+
+Andy Wilson () writes:
+> On the one hand,  many environmentally conscious people do not feel that
+> the human race has more of a claim to the biosphere than any other species,
+> and I tend toward this view myself.
+
+  Our "claim" on the biosphere is nothing more than our ability to take
+advantage of it. Why humans must be held to a higher standard I do not
+know. The beaver does not consider the consequences of the dam he builds
+anymore than the wolf cares about lamb population.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 2 Sep 93 16:23:11 PDT  
+From: "Randall M. Clague" <rclague@netcom.com>
+Subject: PHIL: Galt Strike (was: Re: Extropaganza: goodwill)
+
+<<Galt's "charisma" came from his philosophical fortitude>>
+
+Which would have been useless was he not VERY persuasive.  This requires
+personal magnetism.
+
+<<Denial of socialism>>
+
+I deny socialism every day.  I'm talented, and this allows me to make a
+pretty good salary.  A Strike would do a lot of damage - in AS, it destroyed
+the world (OK, it speeded the already inevitable destuction of the world) -
+I would need to be certain it would bring about a much better world before I
+would support a Strike.
+
+Randall
+--
+Randall M. Clague       |   "Assembly of Japanese bicycle require great       
+Coast Micro Inc.        |   peace of mind."                 
+rclague@netcom.com      |      -- Zen and the Art of Motorcycle Maintenance
+
+------------------------------
+
+Date: Thu, 2 Sep 1993 16:39:54 -0800
+From: lefty@apple.com (Lefty)
+Subject: PHIL: Galt Strike (was: Re: Extropaganza: goodwill)
+
+><<Galt's "charisma" came from his philosophical fortitude>>
+>
+>Which would have been useless was he not VERY persuasive.  This requires
+>personal magnetism.
+
+Hmm.  The only thing I find more difficult to believe than that someone
+could get on the radio and talk like that for six hours is that anyone
+could bear to listen to him.
+
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: Thu, 2 Sep 93 19:34:42 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Human Population
+
+Jay R. Freeman () writes:
+>     I suspect that a rich, diverse and viable human culture could obtain with
+> no more than a few million people alive.  We could reach such levels
+> without too much fuss in a few centuries if we could obtain a reproductive
+> rate of 0.5 children per adult rather than the 1+ which is more typical now.
+
+   ...And assuming we all agree to live a finite lifespan. If technology
+succeeds in lengthening the human lifespan to centuries, what then?
+What we really need to do is do away with the idea that the earth is
+overpopulated. The earth isn't overpopulated and even if it was, 
+the way to reduce the population isn't to reduce the number of humans living,
+but expand civilization off earth.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 2 Sep 1993 17:01:52 -0800
+From: lefty@apple.com (Lefty)
+Subject: FUN: For PostScript Fans -- Universe Shares
+
+Download this to your favorite LaserPrinter.  Why wait for the auction?
+
+--------------------cut------------ 
+%! 
+% Universe share card 
+% Created by Andrew Plotkin, ap1i+@andrew.cmu.edu 
+% Public domain -- distribute freely 
+
+48 48 translate 
+% Work in inches. 
+72 dup scale 
+/cardwidth 3.5 def 
+/cardheight 2 def 
+1 288 div setlinewidth 
+
+/simplewidth {stringwidth pop} def 
+/centershow 
+   {gsave dup simplewidth 2 div neg 0 rmoveto 
+    show 
+    grestore} def 
+/rightshow 
+   {gsave dup simplewidth 1.6 sub neg 0 rmoveto 
+    show 
+    grestore} def 
+/leftshow 
+   {gsave  -1.6  0 rmoveto 
+    show 
+    grestore} def 
+
+/setonefont 
+   {/Times-Bold findfont 2.4 6 div scalefont setfont} def 
+/setbig 
+   {/Helvetica-Oblique findfont 1.9 6 div 
+    scalefont setfont} def 
+/setbold 
+   {/Helvetica-Bold findfont 1 6 div scalefont 
+    setfont} def 
+/settiny 
+   {/Helvetica-Bold findfont 1 11 div scalefont setfont} def 
+/setitalic 
+   {/Helvetica-BoldOblique findfont 1 11 div 
+    scalefont setfont} def 
+
+/oneseal { 
+gsave 
+newpath 
+
+gsave 
+0 setgray 
+0 setlinewidth 
+1 1.2 scale 
+0.095 0.11 0.22 0 360 arc  closepath 
+gsave 
+        0.007 setlinewidth 
+        clip newpath 
+        0 15 360 { 
+        0.095 0.11 moveto 
+        dup cos exch sin exch rlineto stroke 
+        } for 
+grestore 
+0.01 setlinewidth stroke 
+0.095 0.11 0.19 0 360 arc closepath 
+gsave 0.9 setgray fill grestore 
+0.007 setlinewidth stroke 
+grestore 
+
+setonefont 
+0.05 setlinewidth 
+0 0 moveto 
+(1) true charpath 
+stroke 
+0 0 moveto 
+1 setgray 
+(1) show newpath 
+
+grestore 
+
+} def % oneseal 
+
+/lemcolor 0 def 
+/lembordercolor 0 def 
+/lemniscate { 
+gsave 
+translate 
+0.002 dup scale 
+-171 -657 translate 
+171 648 newpath moveto 
+ 126.07 688.71 115 666 115 657 curveto 
+ 115 648 131 629.87 171 656.87 curveto 
+ 210.89 684.07 227 666 227 657 curveto 
+ 227 648 215.93 625.29 171 666 curveto 
+ 131 702 99 684 99 657 curveto 
+ 99 630 139 612 171 656.87 curveto 
+ 206.59 706.45 243 684 243 657 curveto 
+ 243 630 211 612 171 648 curveto 
+closepath 
+lemcolor setgray 
+gsave eofill grestore 
+2.5 setlinewidth 
+lembordercolor setgray 
+stroke 
+171.5 663.95 178.75 657.7 171.75 649.2 163.25 656.45 
+        newpath 
+        moveto 
+        2 1 4 {pop lineto} for 
+closepath 
+lemcolor setgray 
+eofill 
+grestore 
+} def % lemniscate 
+
+% Draw the boundaries of the card. 
+/startall 
+{ 
+gsave 
+0 0 moveto 
+0 cardheight lineto 
+cardwidth cardheight lineto 
+cardwidth 0 lineto 
+closepath 
+0 setlinewidth 
+stroke 
+grestore 
+
+gsave 
+cardwidth 2 div cardheight translate 
+
+setbig 
+0 -.53 moveto 
+(Universe Share) centershow 
+
+gsave 
+-1.50 -.53 translate oneseal 
+grestore 
+gsave 
+1.33 -.53 translate oneseal 
+grestore 
+
+settiny 
+0 -.75 moveto 
+(This bond represents one (1) fractional Share of the) centershow 
+0 -0.1 rmoveto 
+(Universe, including all stars, planets, nebulae, and other bodies) centershow 
+0 -0.1 rmoveto 
+(therein. The bearer has plenipotentiary powers within the) centershow 
+0 -0.1 rmoveto 
+(Share, and is fully responsible for all orbits, conjunctions,) centershow 
+0 -0.1 rmoveto 
+(supernovae, and other astronomical phenomena in that) centershow 
+0 -0.1 rmoveto 
+(region. Sentient species must be negotiated with. Valid for) centershow 
+0 -0.1 rmoveto 
+(all eternity; after that, contracts will be reviewed based) centershow 
+0 -0.1 rmoveto 
+(on performance. Not guaranteed beyond event horizons.) centershow 
+
+setitalic 
+0.15 -1.64 moveto 
+(Warning: this Share includes) centershow 
+0.15 -1.74 moveto 
+(more than you can expect) centershow 
+
+newpath 
+-.65 -1.66 lemniscate 
+
+-1.6 -0.1 0.019 0 360 arc fill 
+1.6 -0.1 0.019 0 360 arc fill 
+-1.2 0.2 1.21 { 
+-0.1 0.019 0 360 arc fill 
+} for 
+-1.3 0.2 1.31 { 
+-1.9 0.019 0 360 arc fill 
+} for 
+
+gsave 
+0 setlinewidth 
+1 0.96 scale 
+0 0.04 1  { 
+        dup -1.3 mul  -.7 add -1.63 exch moveto 
+        180 mul sin 0.22 mul  0  rlineto 
+        stroke 
+} for 
+0.02  0.04 1  { 
+        dup -1.3 mul  -.7 add -1.63 exch moveto 
+        720 mul cos -1 mul 1.6 add 0.11 mul  0  rlineto 
+        stroke 
+} for 
+-1 1 scale 
+0 0.04 1  { 
+        dup -1.3 mul  -.7 add -1.63 exch moveto 
+        180 mul sin 0.22 mul  0  rlineto 
+        stroke 
+} for 
+0.02 0.04 1  { 
+        dup -1.3 mul  -.7 add -1.63 exch moveto 
+        720 mul cos -1 mul 1.6 add 0.11 mul  0  rlineto 
+        stroke 
+} for 
+grestore 
+
+grestore 
+
+} def %startall 
+
+gsave 
+        2 2 scale 
+        currentscreen 
+        3 -1 roll 
+        2 div 
+        3 1 roll 
+        setscreen 
+        startall 
+grestore 
+
+0 6 translate 
+startall 
+
+showpage 
+
+--------------------cut------------ 
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: Thu, 2 Sep 93 17:28:49 PDT  
+From: "Randall M. Clague" <rclague@netcom.com>
+Subject: PHYS: grav. anti-energy
+
+Anti-energy?  Is this a satire like Tim's ExInq, or what?
+
+<<defining zero to be the grav.pot.energy at infinite separation>>
+
+That would be a neat trick.  At infinite separation, all the energy in a
+system (assuming closed two body system for simplicity - somebody jump in if
+I've oversimplified) is potential energy.  That potential energy is
+equivalent to the kinetic energy at their combined escape velocity.
+
+Randall
+--
+Randall M. Clague       |   "Assembly of Japanese bicycle require great       
+Coast Micro Inc.        |   peace of mind."                 
+rclague@netcom.com      |      -- Zen and the Art of Motorcycle Maintenance
+
+------------------------------
+
+Date: Thu, 2 Sep 93 18:07:21 -0700
+From: freeman@maspar.com (Jay R. Freeman)
+Subject: Human Population
+
+> [ Jay Freeman and Ray Cromwell exchange comments that hint that their
+    respective definitions of what constitutes "overpopulation" (of Earth,
+    by non-uploaded individuals of _Homo_sapiens_) differ by at least
+    three orders of magnitude. ]
+
+    It seems to me that the key to the difference of opinion that we seem
+to have elicited here is how you define the condition of Earth being
+"overpopulated" (by non-uploaded _Homo_sapiens_ -- I have no objection
+to uploading or exodus).  Would anyone care to address the issue of said
+definition?
+
+    I suspect there are at least two broad ways to approach the matter.
+One might be relatively objective, in the tradition of science (possible
+tongue in cheek here), based on the notion that the population is too
+high when people are dying off due to lack of some key resource, despite
+our various efforts to procreate and keep ourselves alive.  We could then
+enter a thick can of worms in trying to establish how close to that
+condition we are, how likely we might be to be in that condition in the
+forseeable future, and what we could and/or ought to do if our
+prognostications were worrisome.  These are possibly matters relevant
+to extropians, for even if one believes in dynamic optimism and boundless
+expansion, it doesn't follow that we can't mess up in the near term
+sufficiently to miss the opportunity to enjoy them.
+
+    Possibly a more interesting definition of overpopulation is based not
+on what is possible but on how one would like things to be.  What
+non-uploaded human population of Earth is desirable, and why?  I personally
+would set a number well below the maximum sustainable yield of humanity,
+on grounds which are entirely personal and in substantial part aesthetic.
+By way of analogy, I might venture that I usually keep the quantity of
+stuff in my living room well below the point at which it takes four friends
+shoving to push me in through the door.
+
+                                           -- Jay Freeman
+                                              the other "Jay",
+                                              the other "Freeman"
+
+------------------------------
+
+Date: Thu, 2 Sep 93 19:31:55 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: PHIL: Galt Strike (was: Re: Extropaganza: goodwill)
+
+> Hmm.  The only thing I find more difficult to believe than that someone
+> could get on the radio and talk like that for six hours is that anyone
+> could bear to listen to him.
+
+Tangent: I recently reread a chunk of Illuminatus! and found the
+commentary on the (fictional) novel _Telemachus Sneezed_ absolutely
+hilarous, and rather on the mark.  I'd quote some, but I seem to be
+a victim of state-dependent memory.
+
+> Lefty (lefty@apple.com)
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Thu, 2 Sep 1993 21:34:40 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Human Population
+
+>We could reach such levels without too much fuss in a few centuries if
+>we could obtain a reproductive rate of 0.5 children...
+
+Or if we simply nuked all the cities.
+
+Which is worse, in your mind? They're both the same in mine, if
+you're thinking about roving sterility viruses...
+
+I guess the best way to handle this is nuclear detterence: someone
+has to get enough nuclear weapons and say "If anyone tries massive
+involuntary sterilization or killoff of humans, we'll waste enough
+of what's left for the new pristine ecology to not have anything 
+higher than a cockroach."
+
+Mutual Assured Destruction?
+
+pgf
+And No, Permission is _NOT_ granted to repost it. Someone could take
+it out of context, since we've already considered the possibility
+of genocide of one sort or another, and possibilities for diverting
+it...
+
+------------------------------
+
+Date: Thu, 2 Sep 1993 22:06:19 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: META: list software agent docs wanted
+
+Hey! Who "owns" the list software? Could it be liscenced to other
+lists for money for the programmer and/or ExI? (whichever is
+appropriate; I don't know).
+
+It seems to me there is a need for software like this out there.
+Esp. for the people gettinthe linux groups via mail.
+
+pgf
+
+------------------------------
+
+Date: Thu, 2 Sep 93 23:39:44 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Human Population
+
+Phil G. Fraering () writes:
+> 
+> >We could reach such levels without too much fuss in a few centuries if
+> >we could obtain a reproductive rate of 0.5 children...
+> 
+> I guess the best way to handle this is nuclear detterence: someone
+> has to get enough nuclear weapons and say "If anyone tries massive
+> involuntary sterilization or killoff of humans, we'll waste enough
+> of what's left for the new pristine ecology to not have anything 
+> higher than a cockroach."
+> 
+> Mutual Assured Destruction?
+
+ Introducing, the Spermatozoa Liberation Front.
+
+  We pledge that if any sperm is killed as the result of an artificially
+engineered sterilization virus we will immediately commit acts of terrorism
+against old growth forests, cute rabbits, natcatchers, and spotted
+owls. Even now, our agents are distributing plutonium filled carrots
+into feeding centers which will be automatically triggered to release
+the carrots in the event of virus detection.
+
+  
+
+  
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+End of Extropians Digest V93 #245
+*********************************
+
+From extropians-request@extropy.org Fri Sep  3 10:50:35 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA09295; Fri, 3 Sep 93 10:50:33 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA02334; Fri, 3 Sep 93 10:50:19 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA12096; Fri, 3 Sep 93 13:44:46 EDT
+Received: from news.panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+	id AA12091; Fri, 3 Sep 93 13:44:13 EDT
+Received: by news.panix.com id AA21978
+  (5.65c/IDA-1.4.4 for exi-maillist@ung.gnu.ai.mit.edu); Fri, 3 Sep 1993 13:44:05 -0400
+Date: Fri, 3 Sep 1993 13:44:05 -0400
+Message-Id: <199309031744.AA21978@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: September 3, 373 P.N.O. [17:43:44 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Fri, 3 Sep 93             Volume 93 : Issue 245
+
+Today's Topics:
+                                                                      [1 msgs]
+              )-: "Dilbert" cartoonist insufficiently Extropian       [1 msgs]
+                       Admin/Meta: All Recent Requests                [1 msgs]
+                        Eco-centrism vs. ego-centrism                 [1 msgs]
+                                  Green Goo                           [3 msgs]
+                HEx: Market valuation exceeds 500,000 Thornes!        [2 msgs]
+                               Human Population                       [3 msgs]
+                          Human Population                            [1 msgs]
+                            Nightly Market Report                     [1 msgs]
+             PHIL: Galt Strike (was: Re: Extropaganza: goodwill)      [1 msgs]
+                            WAR/NANO/LAW -- oops!                     [1 msgs]
+                           WAR/NANO/LAW, "nanarchy"                   [1 msgs]
+                       WAR/NANO/LAW:  Against Nanarchy                [1 msgs]
+                       phys: gravitational anti-energy                [1 msgs]
+                                 unsubscribe                          [2 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 54348 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 03 Sep 93 00:10:03 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+News Summary as of: Fri Sep  3 00:10:03 EDT 1993
+
+
+Newly Registered Reputations:
+(None)
+
+New Share Issues:
+(None)
+
+Share Splits:
+(None)
+
+
+Market Summary as of: Fri Sep  3 00:00:03 EDT 1993
+
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+1000          .20      .40      .20        10000         4000          800.00
+110           .01      .10      .10        10000         1750          175.00
+150           .01      .10      .10        10000         1750          175.00
+1E6             -      .05      .02        10000           25             .50
+1E9           .01      .05        -        10000            -               -
+200           .10      .20      .20        10000         4075          815.00
+80            .01        -        -        10000            -               -
+90            .01        -      .10        10000         2000          200.00
+ACS             -      .10      .05        10000         2724          136.20
+AI            .01      .50      .30        10000         1000          300.00
+ALCOR        1.50     2.25    10.00        10000      3174.50        31745.00
+ALTINST         -      .25      .05        10000         4000          200.00
+ANTON         .27      .28      .27        10000          367           99.09
+ARKU          .27      .28      .27        10000         5001         1350.27
+BIOPR         .01      .10      .05        10000         3000          150.00
+BLAIR        1.25    30.00    50.00        10000           25         1250.00
+CYPHP           -      .08      .05        10000         1700           85.00
+DC1000          -      .10        -        10000            -               -
+DC200           -      .15      .10        10000         1500          150.00
+DC7000          -      .10        -        10000            -               -
+DCFLOP          -      .10        -        10000            -               -
+DEREK           -      .49      .49       100000         8220         4027.80
+DRXLR         .65      .85      .75        10000         4256         3192.00
+DVDT         1.40     1.55     1.55        10000         9900        15345.00
+E             .58      .75      .75        10000         6787         5090.25
+ESR             -        -        -            -            -               -
+EXI          1.54     3.20     3.00        10000         3025         9075.00
+FAB             -        -        -            -            -               -
+FCP             -     1.60     1.50        80000        15845        23767.50
+GHG           .02      .60      .60        10000         7180         4308.00
+GOBEL         .01     1.50     1.00        10000          767          767.00
+GOD             -      .10      .10        10000         3000          300.00
+H             .76      .76      .76        30000        19290        14660.40
+HAM           .10      .50      .50        20000        15460         7730.00
+HEINLN        .01      .25      .05        10000         3100          155.00
+HEX        100.00   101.00   100.00        10000         3413       341300.00
+HFINN        1.50     6.00     6.00        10000         1005         6030.00
+IMMFR         .25      .70      .80        10000         1838         1470.40
+JFREE         .02     1.00      .10        10000         3000          300.00
+JOHN            -        -        -            -            -               -
+JPP           .40      .57      .30        10000         3500         1050.00
+KARL          .50     1.00     1.00        10000          500          500.00
+LEARY         .20      .50      .20        10000         1000          200.00
+LEF           .35      .50      .05        10000         3026          151.30
+LEFTY         .01      .45      .45        10000         3551         1597.95
+LIST          .40    10.00      .75        10000         5000         3750.00
+LP              -      .30      .15        10000         4625          693.75
+LSOFT         .59     1.00     1.00        10000         9150         9150.00
+LURKR           -      .01        -       100000            -               -
+MARCR           -        -        -            -            -               -
+MED21         .01      .19      .02        10000         3400           68.00
+MLINK           -      .01      .01      1000000        52602          526.02
+MMORE         .10     1.25      .10        10000         3000          300.00
+MORE          .75     1.25     1.25        10000         3160         3950.00
+MWM           .15     1.50     1.50        10000         1260         1890.00
+N           20.00    25.00    25.00        10000          148         3700.00
+NEWTON          -      .20        -        10000            -               -
+NSS             -      .03      .01        10000           25             .25
+OCEAN           -      .12      .10        10000         3100          310.00
+P           22.50    25.00    25.00      1000000           94         2350.00
+PETER           -      .01     1.00     10000000          600          600.00
+PLANET        .01      .02      .05        10000         1500           75.00
+PPL           .30      .65      .30        10000         1400          420.00
+PRICE           -     4.00     2.00     10000000         1410         2820.00
+R             .25      .70      .60        10000         6000         3600.00
+RAND          .05      .06      .05        10000         1500           75.00
+RJC          1.00   999.00      .60        10000         5100         3060.00
+ROMA            -        -        -            -            -               -
+RWHIT           -        -        -            -            -               -
+SAMEER        .61      .60      .45        10000         9810         4414.50
+SGP             -        -        -        10000            -               -
+SHAWN         .01     1.00        -        10000            -               -
+SSI           .22      .29      .22        10000         4700         1034.00
+TCMAY         .75     1.50      .82        10000         5000         4100.00
+TIM           .50     2.00      .20        10000         1700          340.00
+TRANS         .01      .60      .02        10000         3011           60.22
+VINGE         .75     1.00      .50        10000         2000         1000.00
+WILKEN       1.00    10.00    10.00        10000          101         1010.00
+-----------------------------------------------------------------------------
+Total                                                               527945.40
+
+------------------------------
+
+Date: Thu, 2 Sep 1993 21:38:22 -0800
+From: dkrieger@netcom.com (Dave Krieger)
+Subject: )-: "Dilbert" cartoonist insufficiently Extropian
+
+This is the cartoonist I mentioned:
+
+>Return-Path: <scottadams@aol.com>
+>Received: from mser.hp.aol.net by mail.netcom.com (5.65/SMI-4.1/Netcom) id
+>AA18573; Thu, 2 Sep 93 21:08:05 -0700
+>Received: by aol.com    (16.8/16.2) id AA18269; Fri, 3 Sep 93 00:02:11 -0400
+>From: scottadams@aol.com
+>X-Mailer: America Online Mailer
+>Sender: <scottadams@aol.com>
+>Errors-To: <scottadams@aol.com>
+>Reply-To: <scottadams@aol.com>
+>Message-Id: <9309030002.tn44660@aol.com>
+>To: dkrieger@netcom.com
+>Date: Fri, 03 Sep 93 00:02:09 EDT
+>Subject: Extropian
+>
+>Well, that Extropian stuff is pretty strange.  But thanks.
+>
+>Scott Adams
+>
+>
+
+
+------------------------------
+
+Date: Fri, 3 Sep 1993 00:44:40 -0400 (EDT)
+From: DavePowell <dave9@telerama.pgh.pa.us>
+Subject: unsubscribe
+
+please unsubscribe me from the list. Thanks.
+
+            			 Dave Powell
+  		            Ice Nine Publications 
+                           dave9@telerama.pgh.pa.us 
+
+------------------------------
+
+Date: Fri, 03 Sep 93 05:48:17 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: phys: gravitational anti-energy
+
+Mark Grant says:
+> D. Anton Sherwood wrote on August 7:
+>> Between two masses there is negative gravitational potential energy
+>> (-Gmm/d).
+> 
+> If it was anywhere, it would be spread across the entire system, 
+
+although concentrated near and between the two masses, varying with the
+gravitational field density.
+
+> and in any case would be very small compared to the mass of the 
+> objects in the system.
+
+Not always.  A black hole has radius 2Gm/c^2.  Substitute that into
+Anton's Newtonian PE formula and we get a GPE of -mc^2 /2 - ie the field
+energy (AKA potential energy) is starting to (significantly) cancel out
+the mass-energy.  That's why an object falling into a black hole can
+radiate a significant proportion of it's mass-energy away in
+gravitational and other radiation.  Remember, commonly received wisdom
+says that the universe is on the verge of forming a black hole, so this
+gravitational balancing could be very significant at the universal
+level.  (This fits well with an increasingly popular view that the total
+energy of the universe is exactly zero - which implies the existence of
+negative energy.)
+
+> D. Anton Sherwood wrote:
+>>... and goes on to imply that kinetic energy isn't real, either,
+>> which was news to me.  Are potential and kinetic energy just a
+>> fiction that physicists use to keep the books square?
+
+Energy is a bit of a book-keeping device in non-gravitational physics. 
+The zero-point can be chosen for the convenience of the situation under
+analysis since the dynamics is a function of energy _differences_ and
+not absolute energy values.  When gravity is included the freedom to
+choose a zero point is more restricted since energy gravitates (yes it
+does!) and hence contributes to the dynamics.  That is to say a Schelling
+zero point emerges that is more natural (ie simple) to adopt than others.
+
+>          Mark 
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Thu, 2 Sep 93 22:46:06 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: WAR/NANO/LAW:  Against Nanarchy
+
+Mark Grant:
+> [programmed AI vs. acting on its own]
+> This kind of programming 
+> would be easy for an algorithmic organism, but also easily spotted, 
+
+I'm not so sure about this.  The programmer can use encryption and
+self-destruction ("digital flash paper") to hide the algorithm.  
+The AI might in other ways pass a "free choice Turing test" but still
+have this assasin module built in.
+
+There's also the whole question of *intent*: did the AI intend
+to kill the victim, or was it accidental, in which case (a)
+could the AI have been reasonably expected to be programmed to
+avoid the situation, or (b) could the AI have been reasonably 
+expected to make the free choice to avoid the situation.
+
+> *joint* responsibility, and/or compulsory termination of the AI ?
+
+This might be a good idea.  Pets or wild animals that kill people are
+typically destroyed, and their owners sometimes found negligent.
+
+Nick Szabo					szabo@netcom.com
+
+------------------------------
+
+Date: Thu, 2 Sep 93 22:55:57 PDT
+From: thamilto@pcocd2.intel.com (Tony Hamilton - FES ERG~)
+Subject: Human Population
+
+Jay writes:
+
+>     It seems to me that the key to the difference of opinion that we seem
+> to have elicited here is how you define the condition of Earth being
+> "overpopulated" (by non-uploaded _Homo_sapiens_ -- I have no objection
+> to uploading or exodus).  Would anyone care to address the issue of said
+> definition?
+
+<Jay's two proposed approaches deleted>
+
+If it weren't bed-time, I'd be able to discuss this mathematically, but
+basically, I don't feel the issue needs to be addressed at all. First, in 
+order to enforce population control, you have to use initiatory force. If
+we at least assume an extropian world (hmmm, should I?), then this is not
+likely.
+
+Next, even given the inevitable expansion into space, I cannot imagine any
+scenario where the population on Earth would not still increase. So, whether
+any one person likes it or not, the population will continue to rise. What
+does this mean? I think nothing. I strongly feel (and this is where anyone
+can jump in and provide an inverse square formula or some such thing,
+something I think we can all visualize regardless) that as resources become
+more scarce, the efficiency with which we utilize those resources will
+increase proportionately. Why? Because otherwise, extropians (non-uploaded)
+might have to either lower their standard of living, or die. And, I think
+that, along the way, we will therefore work, successfully, at ensuring this
+is not necessary. Simply put, we will adapt. It is somewhat pointless to go
+into details, because we all know about nanotechnology, virtually inexhaustible
+energy sources (a number of which seem to be feasible in the future), and
+so on. So, we'll _appear_ to keep approaching zero resources, but I don't
+think it will every happen. We'll just get more efficient.
+
+So, what if the world _isn't_ all-extropian? Well, then I guess Darwin comes
+back into the picture and simply speeds the process along by making survival
+a bit more difficult for those who do not adapt. I assume extropians are
+likely to be most apt to be best at adapting to diminishing resources.
+
+What might Earth be like someday, with all these people, then? I kind of
+envision something like Asimov's Trantor, except that I believe Earthlings
+will remain self-sufficient. And, of course, the assumption here is that
+non-uploaded humans can still survive in a society mixed with uploaders.
+If not, then a complete transition of the human race to an uploaded existence
+would change everything.
+
+Tony Hamilton
+thamilto@pcocd2.intel.com
+HAM on HEx
+
+------------------------------
+
+Date: Thu, 2 Sep 93 23:15:10 -0700
+From: drexler@netcom.com (K. Eric Drexler)
+Subject: WAR/NANO/LAW, "nanarchy"
+
+Some comments regarding Robin Hanson's recent message regarding "nanarchy":
+
+On terminology: "nanarchy" is a cute but misleading term. I didn't
+originate it and haven't been using it, so please don't blame it on me.
+
+An idea that I think worth exploring is the use of automated systems to
+provide a stable framework for security (in a military sense and perhaps a
+police sense). In the absence of some idea of how a future political system
+could legitimately decide to violate certain basic principles, one might
+attempt to build those principles into the system and then throw away the
+key. These ideas are touched on, rather gingerly, in Engines of Creation.
+
+Some specific responses to Robin's comments:
+
+>Post-enforcement is not "trashed" by AIs and upload copies.  One viable
+>alternative is to (except for human biological children), always hold
+>"parents" always retains responsibility for the "children"; if parents
+>can't be found then siblings take their place.  Parents might sell this
+>obligation to an insurance company, but if that company goes bust, they are
+>responsible.
+
+Under these conditions, I do not understand how we can expect
+post-enforcement to work, in the absence of additional (universal?) rules.
+With distributed computational systems linked by encrypted communications,
+for example, how does one trace parent and sibling relationships? What does
+it mean to punish a piece of software?
+
+>The risk that any anarchy we might create now could evolve into something
+>else, and then evolve again, must be weighed against the risk that any
+>"permanent" solution may turn out to be terribly wrong.  Unless the
+>permananent solution is clearly better than the "average" expected future
+>political regimes, risk averse folks should prefer the mixture.
+
+If we are in a biological (predation-based) rather than a market
+(trade-based) ecology, major evolutionary steps are likely to kill us. A
+risk-averse person might prefer enforcement of conditions that stabilize a
+market ecology, for example, suppressing the transfer of resources by
+forcible seizure.
+
+"Permanent solution", by the way, is a curious choice of phrase: this was a
+Nazi euphemism for the genocidal policies of the Holocaust. Similar
+monstrous violations of human rights are more likely to be part of Robin's
+"mixture" than to be part of a world with stable, automated security
+arrangements. If a security system works, and is vastly less intrusive than
+modern governments while taking over some portion of their function, just
+what terribly-wrong outcome should we fear?
+
+>If we are considering whether to offer our political support to some
+>growing "movement" in favor of nanarchy, we must consider the possibility
+>that this movement will get out of hand, implementing something that looks
+>to most people like nanarchy, but not to us.
+
+If technological means emerge for projecting military and police power with
+highly automated systems, then it is likely that they will be used in some
+manner. It seems prudent to formulate a picture of how they might be used
+beneficially, or at least less destructively than when military and police
+power has been subject to discretionary political control.
+
+>If this nanarchy must be designed and implemented, and a global political
+>consensus formed in its favor, all before the first wave of intersellar
+>colonization, there is likely not enough time left.
+
+My expectation is that some political entity will (for a time) be able to
+dominate the world, and will be terrified of the consequences of not doing
+so, because of the risks associated with an arms race arising in a more
+symmetrical situation. If this happens, then it would be desirable to have
+a clear understanding of how this power could be relinquished without
+turning it over to potential enemies.
+
+>If technology continues to improve, it's not clear how a nanarchy built on
+>old technology could prevent more advanced attempts at "coercion".  If
+>technological improvement must "run out" before nanarchy, then this seems
+>unlikely before the first intersellar colonization.
+
+If machine intelligence systems can perform a million years of R&D per
+calendar year (and it seems they can), then it may well be that a good
+understanding of the limits of military technology can be developed rather
+quickly.
+
+>Now let's get to the central point.  Mark clearly thinks that colonization
+>of the universe naturally leads to a single military power....
+
+We will seemingly face a time when multiple technological capabilities will
+expand by orders of magnitude, quite rapidly, and in a world closely
+coupled by transportation systems. Why did tiny Britain rule so much of the
+Earth in the late 1800s? Largely because it had ships and was first out the
+starting gate in the Industrial Revolution -- a relatively slow and small
+transition in technology. To understand what may be ahead, imagine a
+history in which the Industrial Revolution had faster payoffs: in which
+Britain had built aircraft carriers and a substantial nuclear arsenal (and
+so forth) before other nations managed to build a steam locomotive.
+Dominance by a single power (or coalition) during the next revolution is
+not certain, but would be unsurprising.
+
+>If at least one of the largest expanding powers were "open", allowing us
+>all to buy shares in it, or to immigrate into it, then there is little risk
+>that the universe will be shut off from us.
+
+Yes indeed: if the dice fall the right way, there is (then) little risk.
+
+>I encourage one or both of them to
+>now submit their ideas, in detail, for critical scrutiny by a larger
+>community.
+
+Actually, the ideas are insufficiently detailed, at present, to be
+submitted in detail to anyone. I've spent much of the last ten years trying
+to explain simple molecular machines, to provide a basis for understanding
+just how large the coming jump in technology will be. I sympathize with the
+view that large jumps should be discounted based on historical experience
+and the prevalence of false alarms ("Boys have cried wolf."), but I am
+persuaded that, this time, we face one. I would encourage Robin to present
+ideas for addressing issues of short-term and long-term military stability
+during and after a rather abrupt transition to a world with molecular
+manufacturing and machine intelligence, without begging the question by
+assuming that the effects of this transition will necessarily be small or
+gradual.
+
+To restate a basic motivating problem:
+
+It is plausible that a political entity or coalition will achieve
+unilateral military dominance based on a technology so different from
+today's that past military experience provides no basis for predicting the
+stability of a multilateral competition. With this (absolutely corrupting)
+power in hand, how can that political entity or coalition relinquish its
+power safely? Who could it trust?
+
+To state a motivating question:
+
+Assume that one favors constitutions and law over dicta and force. Assume
+that we will find ourselves in a world containing entities far more stable
+and predictable than human beings and able to think orders of magnitude
+faster. If constitutional and legal systems are, ideally, impersonal
+systems of rules and enforcement mechanisms, should one insist that they
+forever be structured so as to depend on the decisions (or whims) of
+persons? If so, why?
+
+
+------------------------------
+
+Date: Thu, 2 Sep 93 23:42:13 -0700
+From: drexler@netcom.com (K. Eric Drexler)
+Subject: WAR/NANO/LAW -- oops!
+
+>"Permanent solution"....was a Nazi euphemism for the genocidal policies...
+
+Oops! I confused "permanent" with "final". The point is good, but the
+verbal linker is bogus. My apologies.
+
+
+------------------------------
+
+Date: Fri, 3 Sep 1993 03:01:17 -0400 (EDT)
+From: DavePowell <dave9@telerama.pgh.pa.us>
+Subject: unsubscribe
+
+Please unsubscribe me from the list. Thanks.
+
+            			 Dave Powell
+  		            Ice Nine Publications 
+                           dave9@telerama.pgh.pa.us 
+
+------------------------------
+
+Date: Fri, 3 Sep 1993 07:12:38 -0400
+From: Duncan Frissell <frissell@panix.com>
+Subject: Human Population         
+
+To: Extropians@extropy.org
+
+F >the population is too high when people are dying off due to lack of
+F >some key resource, despite our various efforts to procreate and keep
+F >ourselves alive.  We could then enter a thick can of worms in trying to
+F >establish how close to that condition we are, how likely we might be to
+F >be in that condition in the forseeable future.
+
+We don't seem to be too close with resource prices at historic lows and 
+still heading down.  I'd wait until prices trended up before worrying.
+
+Duncan Frissell
+
+View of the uneducated -- "The US doesn't make anything that anyone wants 
+to buy anymore."
+
+The truth -- "In 1991, the US exported more goods than any nation had ever 
+exported before in the history of the world."
+
+
+--- WinQwk 2.0b#0
+                                                                                                                               
+
+------------------------------
+
+Date: Fri, 3 Sep 1993 07:12:37 -0400
+From: Duncan Frissell <frissell@panix.com>
+Subject: Human Population         
+
+To: Extropians@extropy.org
+
+F >I suspect that a rich, diverse and viable human culture could 
+F >obtain with no more than a few million people alive.  We could reach
+F >such levels without too much fuss in a few centuries if we could obtain
+F >a reproductive rate of 0.5 children per adult rather than the 1+ which
+F >is more typical now.
+
+But since wealth (in humans) increases with larger (free) populations, a 
+larger population of humans (and/or AIs) would be richer.  Humans differ 
+from other animal populations in that they "cheat" and work around their 
+limitations thus locally overcoming enthropy (hence the name of this 
+list).
+
+Duncan Frissell
+
+*************************************************************************
+ATMs, Contracting Out,  Digital Switching, Downsizing, EDI, Fax, Fedex,
+Home Workers, Internet, Just In Time, Leasing, Mail Receiving, Phone 
+Cards, Quants, Securitization, Temping, Voice Mail.
+      
+- Not as sexy as Tim May's signature line but just as important.
+
+
+--- WinQwk 2.0b#0
+       
+
+------------------------------
+
+Date: Fri, 3 Sep 93 08:47:50 EDT
+From: Brian.Hawthorne@east.sun.com (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: HEx: Market valuation exceeds 500,000 Thornes!
+
+You may have noticed that the last line of the market report
+is "Total Market Value". It has been steadily increasing since
+mid-July, and has just passed the 500,000 Thorne mark. 
+
+The money supply held by investors other than the Exchange itself
+is currently 285,101. 
+
+------------------------------
+
+Date: Fri, 3 Sep 93 09:09:31 EDT
+From: Brian.Hawthorne@east.sun.com (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: HEx: Market valuation exceeds 500,000 Thornes!
+
+> The money supply held by investors other than the Exchange itself
+> is currently 285,101. 
+
+One hundred and one?? Sorry, that was a typo. That should be one hundred.
+
+------------------------------
+
+Date: Fri, 3 Sep 1993 09:37:55 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: Admin/Meta: All Recent Requests
+
+As I indicated last week I would be away and not processing list admin
+stuff.
+
+I am now back and will spend the bulk of the afternoon catching up.
+
+Note, all requests can take up to 5 business days.
+
+/hawk
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+Date: Fri, 3 Sep 1993 09:48:36 -0400
+From: jd21@prism.gatech.edu (Jim Demmers)
+Subject: Green Goo
+
+Subject: re: Green Goo
+
+>  Our "claim" on the biosphere is nothing more than our ability to take
+>advantage of it. Why humans must be held to a higher standard I do not
+>know. The beaver does not consider the consequences of the dam he builds
+>anymore than the wolf cares about lamb population.
+>
+>-- Ray Cromwell
+
+Ah...but is the beaver sentient, and is he aware of the greater environment
+that surrounds him as we are.  I think THAT awareness, coupled with the act 
+of taking responsibility for one's own actions, is key in determining the 
+standard by which our actions should be measured.  I make no "claim" to
+the biosphere other than my right to inhabit the space in which I find
+myself at any given moment.  If I find that I must intrude into the space of
+another, I make a reasonable attempt at accomodation (reasonable being a
+relative term).  Being at the top of the food chain, it behooves us to pay
+attention to the ripple effect our actions have on the lower echelons.
+
+- jim
+
+|========================================================================|
+|                                                                        |
+| Jim Demmers   Public Domain, Inc.	INET: jdemmers@.pd.org           |
+|	       	P.O. Box 8899		      jim.demmers@oit.gatech.edu |
+|       	Atlanta, GA  30306-0899       pdomain@emory.edu          |
+|       Phone: 	404-612-7529             FAX: 404-894-9135               |
+|                                                                        |
+|========================================================================|
+
+
+
+
+------------------------------
+
+Date: Fri, 3 Sep 93 10:50:01 EDT
+From: Brian.Hawthorne@east.sun.com (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: Eco-centrism vs. ego-centrism
+
+> Ah...but is the beaver sentient, and is he aware of the greater environment
+> that surrounds him as we are.  I think THAT awareness, coupled with the act 
+> of taking responsibility for one's own actions, is key in determining the 
+> standard by which our actions should be measured. 
+
+Why?
+
+> I make no "claim" to
+> the biosphere other than my right to inhabit the space in which I find
+> myself at any given moment. 
+
+I make a much bigger claim than you. I claim the sole use of that portion
+of the biosphere that is delineated by the property lines around my house.
+I allow some creatures use of this space (in particular, pollinating
+bees, amusing and attractive birds, and certain insects). I deny others
+such use and kill them for trespass (including the squirrels and mice
+that my cat likes to stalk and kill, the slugs and other garden-eating
+things that I crush beneath my heel, and various biting insects that I
+squash with dismaying regularity). In addition, whether I am there or
+not, none of these beasts may enter my dwelling. 
+
+I also claim, through intermediaries, the use of vast areas of the
+planet, to grow my food, provide me with clothing, and various other
+raw materials that are transformed into the necessities and luxuries
+of my life.
+
+> If I find that I must intrude into the space of
+> another, I make a reasonable attempt at accomodation (reasonable being a
+> relative term). 
+
+Does "another" refer to another human, or another living thing? I assume
+you mean the former. If not, what of all the bugs, grass and such that
+you step on daily? (As the Jains say, "All life is suffering").
+
+> Being at the top of the food chain, it behooves us to pay
+> attention to the ripple effect our actions have on the lower echelons.
+
+Well, I certainly find that such attention is quite profitable, in that
+it improves my quality of life, I am only concerned with how such
+ripple effects may come back to me and mine. What else could I 
+be concerned with?
+
+
+------------------------------
+
+Date: Fri, 3 Sep 93 11:36:37 EDT
+From: eisrael@suneast.east.sun.com (Elias Israel - SunSelect Engineering)
+Subject: Green Goo
+
+Andy Wilson <ajw@think.com> writes:
+> On the one hand,  many environmentally conscious people do not feel that
+> the human race has more of a claim to the biosphere than any other species,
+> and I tend toward this view myself.
+> 
+> On the other hand,  the human "population explosion" is seen as the worst
+> nightmare imaginable.  But I don't see what makes humans special in this
+> regard.  Starvation is the what all species are faced with when they are 
+> overpopulated.
+
+Moreover, human overpopulation is a myth. The history of capitalism is
+doing ever more with ever less (which is one of the reasons that
+countries whose economies rely primarily on raw materials rather than
+finished goods or information are doing ever worse). The basic premise
+behind overpopulation -- that resources can get "used up" -- is flatly
+untrue of humans who discover and create new resources every day.
+Resource creation, distribution, and allocation are not zero-sum as the
+"overpopulation" statement implies. The whole notion of overpopulation
+is entropian.
+
+I doubt whether even a four-fold increase in the human population would
+seriously tax the biosphere or the global economy. Rather the opposite,
+in fact. The added labour available should dramatically increase the
+wealth of the planet.
+
+> The cause of famine as it exists in the world today is the inefficiency
+> of the world economy in getting the food which does exist to the people
+> who need to eat it.  This is a result of a combination of beaurocratic
+> ineptitude and actual and threatened violence on the part of nations
+> and political factions.
+
+Widespread hunger has virtually always been caused by war and tyranny,
+and the situation is little changed today. The hunger in Africa, that
+perennial political basket-case, certainly falls into this category.
+
+I think Nick Szabo's raised an important issue that ought to be
+considered carefully. Rising technological levels can be counted on to
+put ever more powerful weapons into the hands of lunatics like the Gaia
+Liberation Front.  It's too easy to think of the future as a gentle,
+happy place where danger and disaster have been banished. It's good to
+remember that though we can conquer many things, human nature is
+certainly not one of them and evil people won't give up and go home
+when we finally invent mature nanotech or fully realize the promise of
+virtual reality. That's the "end-game" fallacy. As in "I do this, and
+the game is over." The game is never over.
+
+Elias Israel
+eisrael@east.sun.com
+HEx: E
+
+------------------------------
+
+Date: Fri, 3 Sep 1993 08:41:42 -0800
+From: lefty@apple.com (Lefty)
+Subject: PHIL: Galt Strike (was: Re: Extropaganza: goodwill)
+
+Eli whacks me upside the head by reminding me:
+>> Hmm.  The only thing I find more difficult to believe than that someone
+>> could get on the radio and talk like that for six hours is that anyone
+>> could bear to listen to him.
+>
+>Tangent: I recently reread a chunk of Illuminatus! and found the
+>commentary on the (fictional) novel _Telemachus Sneezed_ absolutely
+>hilarous, and rather on the mark.  I'd quote some, but I seem to be
+>a victim of state-dependent memory.
+
+Hey!  I'd completely forgotten about that!
+
+Well, I guess I know what _I'm_ (re)reading this weekend...
+
+Thanks, Eli.
+
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: Fri, 3 Sep 1993 12:01:37 -0400 (EDT)
+From: Edward J OConnell <ejo@world.std.com>
+Subject: Human Population
+
+On Thu, 2 Sep 1993, Ray wrote:
+
+> Phil G. Fraering () writes:
+> > 
+> > >We could reach such levels without too much fuss in a few centuries if
+> > >we could obtain a reproductive rate of 0.5 children...
+> > 
+> > I guess the best way to handle this is nuclear detterence: someone
+> > has to get enough nuclear weapons and say "If anyone tries massive
+> > involuntary sterilization or killoff of humans, we'll waste enough
+> > of what's left for the new pristine ecology to not have anything 
+> > higher than a cockroach."
+> > 
+> > Mutual Assured Destruction?
+> 
+>  Introducing, the Spermatozoa Liberation Front.
+> 
+>   We pledge that if any sperm is killed as the result of an artificially
+> engineered sterilization virus we will immediately commit acts of terrorism
+> against old growth forests, cute rabbits, natcatchers, and spotted
+> owls. Even now, our agents are distributing plutonium filled carrots
+> into feeding centers which will be automatically triggered to release
+> the carrots in the event of virus detection.
+> 
+> 
+> -- Ray Cromwell        |    Engineering is the implementation of science;    --
+> -- EE/Math Student     |       politics is the implementation of faith.      --
+> -- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+Ha! Oh, I laughed.
+
+Not.
+
+We do indeed desperately need to get off the planet. Let us stupid 'bunny
+lovers' build a L5 Colony where we can wander pleasantly through parks,
+live in huge, low gravity trees, Reproducing every century or so, and
+leave fast breeders living in piles of their own excrement.
+
+Just you, your e-coli, and some genetailored organisms that allow you to
+eat your own waste products. Maybe shove you into tiny cubicals, and cut
+your legs off, to make room for more. And you can all agree that there is
+not too many of you, when the genome consists entirely of humans, their
+parasites, rats and cockroaches.
+
+Even Drexler admits that Malthus is right. Geometric growth is impossible.
+
+These are aesthetic choices, of course. You can have the human/e-coli
+world. The first meme you should plant is the one that there is, and can
+never be, overpopulation. Make sure you don't look at any statistics
+concerning soil erosion, arable land, desertification....
+
+Oh, I forgot, the entire biological science community is part of a VAST
+LEFTEST CONSPIRACY and there is really NO PROBLEMS AT ALL.
+
+;-)
+
+The Earth is the ultimate tragedy of the commons. I want out. I want the
+complete genome of the planet in my pocket before I leave, though. What of
+it is left after the breeders are done turning it into human excrement, of
+course.
+
+Have a nice day.
+
+Jay
+
+
+
+------------------------------
+
+Date: Fri, 3 Sep 1993 12:23:31 -0400 (EDT)
+From: Edward J OConnell <ejo@world.std.com>
+Subject: Green Goo
+
+Yes.
+
+Its important to realize that powerful tools will one day be in the hands
+of dangerous lunatics who might not like the shape of capitalist wealth
+distribution.
+
+Your choices will be police state or some sort of welfare type appeasment.
+
+Take your pick.
+
+Jay
+
+
+
+------------------------------
+
+Date: Fri, 3 Sep 93 09:32:10 -0700
+From: freeman@maspar.com (Jay R. Freeman)
+Subject: Human Population
+
+> [ Phil G. Fraering, Tony Hamilton, Duncan Frissel and Ray Cromwell make
+    assorted interesting comments on this thread ]
+ 
+    Interesting.  Several comments on possible means and/or lack of them,
+and on their morality/immorality or extropianness/non-extropianness.  I'm
+still curious what people think is a *desirable* non-uploaded human population
+of Earth.
+ 
+Duncan Frissel stated:
+ 
+> But since wealth (in humans) increases with larger (free) populations, a
+> larger population of humans (and/or AIs) would be richer.
+ 
+  I think you mean "richer" in the sense of "more wealth per capita", thus
+higher standard of living, and so forth.  I am not sure that I agree that
+such is necessarily the case in an extropian future, because of the wealth-
+multiplying capability of technology.  As a model of a high-tech, high-wealth,
+low-population-density society, consider the colonized world visited by
+Lije Baley in Asimov's _Naked_Sun_ (which is not on my bookshelf so I can't
+give its name).
+ 
+Phil Fraering and Ray Cromwell discuss force and its undesirability as a
+means of human population control:
+ 
+  The intended thrust of my comment about reproductive rates of 0.5 was not
+to suggest sterility viruses, but to suggest that a human society with
+rapidly declining population need be no odder than one in which everyone is
+an only child (and most of them aren't any weirder than me ...).  Such a
+society might thus be attainable by persuasion or economic means.
+  As a point of theoretical interest, suppose for purposes of discussion
+that a number of extropians and/or libertarians decided that substantial
+reduction of the human non-uploaded terrestrial population was a desirable
+goal.  Is there an extropian and/or libertarian means of implementing that
+goal that has a reasonable chance of working, that is less coercive than,
+say sterility viruses and backyard nukes?  Private law?  Economic transactions?
+Buying up the child futures market?  My tongue is a little in cheek for
+some of these comments, but not entirely so.
+  I explicitly do not ask readers of this thread to agree that such
+population reduction is desirable -- that topic seems to be quite
+controversial.  Rather I am using population control somewhat as a test case
+for how an extropian society might coordinate to achieve goals which in
+other contexts might require massive coercion and centralization.
+ 
+In the context of possible near-term overpopulation, Duncan Frissel says:
+
+> We don't seem to be too close with resource prices at historic lows and
+> still heading down [...]
+
+  For the "not too close" conclusion to follow strictly, I think one must
+assume that (a) the market is right, and that (b) its horizon for discounting
+is farther in the future than is our ability to predict.  I am not sure of
+either (a) or (b), thus I am inclined to wonder about the near-term
+notwithstanding low resource prices.
+
+
+
+    For the sake of clarity and honesty, I should probably state explicitly
+that my personal preference would be for a much reduced non-uploaded human
+population of Earth, for personal reasons (or perhaps I consider human-free
+habitat a valuable resource).  How much reduced?  I don't know.  If I could
+sample different terrestrial human population densities, I would try one
+at a tenth of the present value to see how I liked it.  I suspect I would
+regard it as a substantial improvement and end up picking a value another
+order of magnitude or two lower as my personal choice.
+
+
+                                      -- Jay Freeman,
+                                         the other "Jay",
+                                         the other "Freeman"
+
+------------------------------
+
+End of Extropians Digest V93 #245
+*********************************
+

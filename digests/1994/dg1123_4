@@ -1,0 +1,577 @@
+From extropians-request@extropy.org Wed Nov 23 16:49:03 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id QAA13433 for <more@chaph.usc.edu>; Wed, 23 Nov 1994 16:47:33 -0800
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA07231; Wed, 23 Nov 94 16:44:22 PST
+Received: (from exi@localhost) by news.panix.com (8.6.9/8.6.9) id SAA24835; Wed, 23 Nov 1994 18:05:01 -0500
+Date: Wed, 23 Nov 1994 18:05:01 -0500
+Message-Id: <199411232305.SAA24835@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-11-304 - #94-11-314
+X-Extropian-Date: November 23, 374 P.N.O. [18:03:22 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Wed, 23 Nov 94             Volume 94 : Issue 326
+
+Today's Topics:
+                                apology, 2044                         [1 msgs]
+                 Human Cloning (I hate "medical ethicists")           [1 msgs]
+                                 immortality                          [1 msgs]
+                               Millenial Fever                        [1 msgs]
+                NANOTECH: Drexler predicts when it will happen        [1 msgs]
+                          Nihilism (Re: Environment)                  [1 msgs]
+                    Population, Simon Sez, and Environment            [2 msgs]
+                     TECH: Anyone recently purchase a PC?             [1 msgs]
+                         Wavelets, Image compression                  [2 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 30087 bytes.
+
+----------------------------------------------------------------------
+
+From: sdw@lig.net (Stephen D. Williams)
+Date: Mon, 21 Nov 1994 19:23:37 +0000 (GMT)
+Subject: [#94-11-304] TECH: Anyone recently purchase a PC?
+
+> 
+> NetSurfer asked:
+> >On 15 Nov 1994, L. Todd Masco wrote:
+> >
+> >> Nit: Macs were only the first micro to use SCSI.  It didn't originate from
+> >> Apple.
+> >
+> >Nit picked & acknowledged.  But now I'm curious, who exactly *did* design
+> >SCSI?
+> 
+> As I recall, it was originally designed by Seagate (disk mfg) and the first
+> "S" in the acronym stood for Seagate, not Small.  (They objected to pronouncing
+> it "scuzzy", they originally pronounced it "sexy".)  When SCSI was adopted as
+> a standard they reinterpretted the acronym, in much the same way the HPIB
+> became GPIB...
+
+I believe that NCR microelectronics, in Dayton OH, played a major part.
+As near as a can piece together memory, Seagate did spec early versions,
+but NCR did the chip design and standards work.  That's partly guessing.
+
+When I contracted at NCR, they said: 'we invented SCSI'...
+
+> -chrism
+
+sdw
+-- 
+Stephen D. Williams  Local Internet Gateway Co.; SDW Systems 510 503-9227APager
+LIG dev./sales       Internet: sdw@lig.net  In Bay Area Aug94-Dec95
+OO R&D Source Dist.  By Horse: 2464 Rosina Dr., Miamisburg, OH 45342-6430
+Internet Consulting  ICBM: 39 38 34N 84 17 12W home, 37 58 41N 122 01 48W work
+Newbie Notice:       
+     I speak for LIGCo., CCI, myself, and no one else, regardless of
+     where it is convenient to post from or thru.
+
+------------------------------
+
+From: rjc@gnu.ai.mit.edu (Ray)
+Date: Mon, 21 Nov 94 20:11:21 WET
+Subject: [#94-11-305] Wavelets, Image compression
+
+Phil G. Fraering writes:
+> 
+> I think there are some misconceptions going around here about
+> image compression formats.
+> 
+> MPEG is a standard, but the difference between mpeg1 and mpeg2,
+> as far as I could tell from reading the compression faq's, isn't
+> in the algorithm itself but in the volume and quality of the
+> data being compressed. MPEG2 is, AFAIK, the same as MPEG1. Changing
+> from one to the other isn't going to help image quality much.
+
+  Actually, MPEG-2 does a lot more than MPEG-1 from what I've read. First
+of all, MPEG-2 is optimized better for interlaced images which most TV 
+signals are. If DirectTV isn't using this, that could be one of
+their problems. Secondly, MPEG-2 specifies LayerI,II, and III audio
+compression, and finally, it specifies the way the video streams
+should be encoded for best playback. MPEG-2 also is scalable
+to larger signals, so for instance, MPEG-2 could use the full
+chroma and luma bandwidth for encoding instead of decimating
+chroma by 4 and luma by a factor of 2 like MPEG-1 did.
+
+  No doubt, MPEG has artifacts, but from MPEG video I've seen, they
+aren't as bad as the one's Tim experienced. The one thing that irritates
+me about both MPEG and JPEG is the "blockiness".  Perhaps JPEG/MPEG
+could take some lessons from the Wavelet people and encode the image
+using several block sizes: 8x8 DCT, 16x16 DCT, ... etc.
+
+
+   Wavelets aren't going to take hold until someone makes a free, fast,
+wavelet compression utility portable to all platforms, and the
+people in alt.binaries.pictures.erotica start using it. :)
+
+-Ray
+
+
+
+------------------------------
+
+From: Phil Goetz <goetz@cs.Buffalo.EDU>
+Date: Mon, 21 Nov 1994 20:17:46 -0500
+Subject: [#94-11-306] Population, Simon Sez, and Environment
+
+>> One frightening trend is
+>> the development of fat-free, calorie-free foods. 
+>
+>Our problem with having _too much_ food is a problem of _over_
+>population?  This is rich. :-)
+
+The point is that America may not only soon eat all the food it produces,
+but even start importing it -- for pleasure, not necessity.  The rich
+would use a much larger portion of the world's food supply than now,
+leaving less for everyone else, necessitating the conversion of more
+land into farmland.
+
+>Quite frankly, most of us don't delve into this issue beyond
+>citing Simon because it is such an idiotic and silly issue on its 
+>face, as your fright about fat-free foods well demonstrates.
+>In my experience people who obsess about overpopulation tend to 
+>despise civilization in general, and I've got too many other
+>things to worry about then to give these scum the time of day.
+>
+>Nick Szabo				szabo@netcom.com
+
+How can you say it is an "idiotic and silly issue" when so many intelligent
+people share my view?
+
+Nick, you appreciate the things science has done for us.  You must
+realize that the most important quality a scientist can have is
+objectivity.  One must remain always suspicious of one's own pet ideas.
+The mind that dismisses the opinions of well-informed minds as idiotic
+is a mind that is closed.  You were not wearing you scientist's labcoat
+when you wrote your response.
+
+Phil goetz@cs.buffalo.edu
+
+------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Mon, 21 Nov 1994 17:38:02 -0800 (PST)
+Subject: [#94-11-307] Millenial Fever
+
+BTW, I consider the Foresight millenial fever to be such a
+tragic piece of news, because I have considered the work
+done by Drexler, Merkle et. al. on theoretical applied
+science to be quite important.  Indeed it is perhaps the 
+cornerstone of Extropian thought, as it gives us a rational basis 
+for determining the probability of cryonics reanimation, uploading,
+and several other far-future capabilities that radically improve
+the choices we have available on how to live our lives now.
+
+By predicting the Coming of the Lord in 2000 (or 2010,
+or whatever), whether out of naive business hopes or
+millenial fever, Foresight sets itself up for failure
+and consequent ridicule.  Unfortuneately that repudiation,
+while correctly applied to silly failed predictions (hasn't
+Drexler learned from the O'Neill space-colonies-in-1990 idiocy?),
+will also reflect badly on theoretical applied science, which is 
+a solid and crucially important contribution that Drexler
+and Merkle have made.
+
+Millenial fever -- snap out of it!
+
+Nick Szabo					szabo@netcom.com
+
+------------------------------
+
+From: jbaker@halcyon.com (James Baker)
+Date: Mon, 21 Nov 1994 17:58:37 -0800
+Subject: [#94-11-308] Wavelets, Image compression
+
+rjc@gnu.ai.mit.edu (Ray) writes:
+>
+>  Actually, MPEG-2 does a lot more than MPEG-1 from what I've read. First
+>of all, MPEG-2 is optimized better for interlaced images which most TV 
+>signals are. If DirectTV isn't using this, that could be one of
+>their problems. Secondly, MPEG-2 specifies LayerI,II, and III audio
+>compression, and finally, it specifies the way the video streams
+>should be encoded for best playback. MPEG-2 also is scalable
+>to larger signals, so for instance, MPEG-2 could use the full
+>chroma and luma bandwidth for encoding instead of decimating
+>chroma by 4 and luma by a factor of 2 like MPEG-1 did.
+>
+I find it ironic that these popular compression schemes use just as many
+bits to transmit 10 seconds of blackness as to transmit a complex moving
+image. Same for sound. 10 seconds of silence takes just as many bits as
+complex sounds. 
+
+I realize that some mediums are not easily adapted to variable-rate signals
+but I would guess that the compression efficency to be gained would make it
+worthwhile in some cases. 
+
+So I'm suggesting a compression scheme with peak bandwidth requirements
+much greater than average bandwidth requirements. Peaks would occur during
+complex image changes then smaller changes would use less bits. For
+programs stored on CD ROM or hard disk the advantage would be immeadiate.
+For broadcast signals the advantage would only be realized if many signals
+are statistically multiplexed together and buffered at the receive end. 
+
+Problem is I don't have any hard data on how much bandwidth could be saved
+this way for typical and not-so-typical audio and video content. I suspect
+a lot but I'd love to hear from those with more experience than I in this
+area.
+
+
+ James Baker          |        
+ Seattle, WA USA      |      
+ jbaker@halcyon.com   |          
+
+
+
+------------------------------
+
+From: Phil Goetz <goetz@cs.Buffalo.EDU>
+Date: Mon, 21 Nov 1994 21:17:37 -0500
+Subject: [#94-11-309] apology, 2044
+
+I apologize for broadbanding comments critical of Nick Szabo.
+I will restrict such to email in the future.
+
+I'm reviewing a book called _The World of 2044_.
+Have any of you read it?  If so, would you like to comment on my review?
+
+Phil goetz@cs.buffalo.edu
+
+------------------------------
+
+From: cactus@bb.hks.net (L. Todd Masco)
+Date: 21 Nov 1994 23:16:08 -0500
+Subject: [#94-11-310] immortality
+
+In article <199411212248.OAA14904@netcom7.netcom.com>,
+Nick Szabo <szabo@netcom.com> wrote:
+>> 2. Uncover the major mechanisms of aging (ie. biological clock) develop
+>> strategies to fool cells to reproduce as if the body was younger.
+>
+>It's almost completely unknown whether this can be accomplished, or how.
+
+Actually....
+
+Last weekend, I was speaking with my father, who has been an MD brain
+chemistry researcher/practicing biological psychiatrist for over 25 years
+(in the early 70s, he was one of the first physicians (perhaps the first)
+in the country to use Fluoxetine Hydrochloride (Prozac) in humans), now
+directing the Center for the Treatment of Depression in Florida.
+
+He's confident that the mechanisms that are being uncovered in cancer and
+AIDS research will give us exactly that in the next 20 years.
+
+I also talked to him about "Smart Drugs."  He's extrmemely skeptical of
+claims made about the current compounds so labelled, having worked with
+many of them, but is also fairly confident that "we'll be able to maximize
+efficiency in human brains (given their structure),"(his words) within
+the next 10 years.  That surprised me, since I've always known him to
+take a very conservative view of the progression of technology.
+
+A very large caveat on both predictions, though: "if the research isn't
+suppressed for political reasons."
+
+(Just thought I'd throw in the impressions of someone who is actively
+ involved in brain research).
+-- 
+Todd Masco     | According to the US dept of Justice Stats, 3.98% of the US
+cactus@hks.net | population is in prison, the highest count in the world. We
+cactus@bb.com  | live in a police state and are lulled by notions of normalcy.
+
+------------------------------
+
+From: tburns@mason1.gmu.edu (T. David Burns)
+Date: 	Mon, 21 Nov 1994 16:07:22 -1000
+Subject: [#94-11-311] Population, Simon Sez, and Environment
+
+At 6:33 PM 11/21/94, Phil Goetz wrote:
+>I would expect to have been referred to a
+>different source by each person.  Instead, it appears that the
+>underpopulation dogma rests solely on the work of one man, Julian Simon.
+>This is suspicious.
+
+Uh-oh, an extropian conspiracy!
+
+Or then again, maybe there are plenty of other cites, but Simon is the most
+prominent one, the one that will lead you to most of the others.
+
+I might have some more comments about this incredibly long post later.
+
+Or  I might wait until Goetz does some reading, and stops expecting other
+people to do his homework for him.
+
+Dave
+tburns@mason1.gmu.edu
+
+
+
+------------------------------
+
+From: Phil Goetz <goetz@cs.Buffalo.EDU>
+Date: Mon, 21 Nov 1994 21:51:23 -0500
+Subject: [#94-11-312] Nihilism (Re: Environment)
+
+>>My _personal_ life is as insignificant within the universal system as
+>>is, say, the last surviving insect of a particular species in the
+>>Amazon.  In both cases, we have some unique and irretrievable packet
+>>of life-embodied information.  Which is more valuable?  I see no
+>>absolute external criteria for saying that I am.
+>
+>Oh dear! Your value system is completely upside down. Your life is valuable
+>because it is _yours_; don't even bother about the "absolute external
+>criteria" of  your value to the universe. The universe neither cares about
+>you nor recognizes any obligation to you.
+>
+>The universe that birthed us is amoral. The universe has no system of
+>values; morality is a human construct.
+
+Precisely.  And in happier moments I think it is the most beautiful
+thing we have constructed.
+
+Nihilism is very tempting to us materialists.  But it is ultimately
+pointless; your will to power is not your own as a nihilist, but a
+genetic imperative.  I salute anyone who has the strength to follow
+a value system, even knowing that it is not ordained by God nor by
+absolute external criteria.
+
+(People may write me and ask if I salute Hitler and Stalin for following
+their value systems.  I think Stalin was a nihilist.  Hitler was not.
+I condemn his value system, but he is not as despicable to me as is
+a nihilist.)
+
+Phil goetz@cs.buffalo.edu
+
+------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Mon, 21 Nov 1994 17:23:12 -0800 (PST)
+Subject: [#94-11-313] NANOTECH: Drexler predicts when it will happen
+
+With all due respect, I think Eric Drexler has gone off the deep
+end.  Millenial fever is at hand, run for cover!
+
+Seriously, I think anybody who works desinging or building actual,
+rather than theoretical, mechanical or molecular scale technology for 
+a living, taking a good look at today's tooling base, has to observe 
+that the tooling needed to build diamandoid machines does not exist now, 
+and will not be built any time within the planning horizon of any 
+business or government.  Molecular self-assembly falls vastly short of 
+assemblers in terms of capability and flexibility, and lithography is 
+still several orders of magnitude too large.  There is simply no clearly 
+discernable or easy path from here to there.  Nor has Drexler, or anybody 
+else, ever presented a sufficiently detailed design for a self-reproducing 
+machine.  The devil is in the last 1% of the details.  Drexler 
+assemblers need to be 99.99% self-reproducing or better to be
+economical, and much better still to perform some of the "exponential
+growth" feats postulated for them.  There are many layers of Hell between 
+here and assemblers.  It will take tens of decades, rather than tens of 
+years, for diamondoid assemblers to make their appearance in the tooling 
+noosphere.
+
+We will, however, see continued, perhaps breathtaking progress
+in lithography, agile manufacturing and biotechnology, which will give 
+us many of the benefits that Drexlerian nanotech promises, much sooner.
+Furthermore, Drexlerian nanotechnology is invaluable as a guide for
+determining what kinds of technologies will be possible in the 22nd
+century.  Postulating it as a near term or practical business 
+proposition is idiocy.
+
+Nick Szabo				szabo@netcom.com 
+
+------------------------------
+
+From: sullivan@blaze.cs.jhu.edu (Gregory Sullivan)
+Date: Mon, 21 Nov 94 20:26:51 EST
+Subject: [#94-11-314] Human Cloning (I hate "medical ethicists") 
+
+Nick Szabo's reply to Ray is accurate and insightful in my opinion.  It is
+important to note that medical ethicists are not always monolithic in their
+opinions. (See below for an example.)  Ethicists actually have taken
+multiple distinct positions on some of the issues Ray mentioned.
+
+One the other hand there are some concerns (Ray implicitly identified some):
+
+1) Anyone can develop a carefully thought out ethical position.  One should
+       avoid artificial professionalization that excludes useful
+       perspectives.
+
+2) Some medical ethicists misrepresent particular ethical positions as
+       reflecting the overwhelming consensus or as being ``objective''.
+
+3) Some medical ethicists are overly conservative and would put research and
+      development in a strait jacket.
+
+4) Some laypeople will incorrectly perceive a halo of incorrigibility around
+       a medical ethicist because of academic title or institutional
+       affiliation.
+
+Avoiding these dangers does not require claiming ethicists are benighted or
+that the field is a sham.
+
+Below are quotes from an article (available at the electronic newsstand) in
+a magazine which explores ethical questions.  The authors argue that cloning
+technology (both embryo splitting and nuclear transplantation) is useful and
+that it should be developed and used.  Unsurprisingly, I do not agree with
+all the statements of the authors but the article clearly contrasts with the
+viewpoints Ray has heard.
+
+Magazine: Kennedy Institute of Ethics
+Issue: September 1994
+Title: The Science, Fiction, and Reality of Embryo Cloning
+Author: Jacques Cohen and Giles Tomkin
+
+
+Abstract. Although many scientists view cloning as a useful
+procedure for scientific research into early embryo
+development, one that cannot currently be used to produce
+multiple copies of humans, the popular literature has led
+some individuals to view it as sinister. To address the
+concerns of the public, various conceptions of cloning are
+distinguished and their basis in fact analyzed. The possible
+uses, benefits, and detriments of both embryo splitting and
+nuclear transplantation are explained. Once the nature and
+purposes of cloning are understood, and the distinctive
+ethical dilemmas created by embryo splitting and nuclear
+transplantation are sorted out, these procedures should be
+clinically implemented to assist in vitro fertilization
+treatment for those who are infertile and to further other
+therapeutic and investigational efforts in medicine.
+
+....skip......
+
+CLONING IN THE SCIENTIFIC LITERATURE
+
+The word RcloningS has appeared thousands of times in the
+scientific literature4 and has been used in three broad areas.
+The first is genetic research, where scientists must make
+millions of identical copies of genes of molecular size in
+order to have sufficient material for testing (Rmolecular
+cloningS). The second is the production of cell-lines that
+have identical properties in order to study the biology of
+specific cells without bias from small dissimilarities
+between them (Rcell cloningS). The third area where the
+word RcloningS has now appeared is that of embryo
+multiplication by nuclear transplantation, which is the
+process of introducing nuclei from the cells of early
+preimplantation embryos into unfertilized eggs from which
+the nuclei have been removed. Nuclear transplantation has
+been performed in early cattle embryos in order to produce
+nearly identical offspring with desirable traits.
+
+The only exception to these categories within the scientific
+community occurs in the paper on blastomere separation of
+abnormal human embryos presented by Hall and co-
+workers to the annual meeting of the American Fertility
+Society in the fall of 1993 (Hall et al. 1993). There the
+word R[7mclone[mS was used instead of Rblastomere separationS
+to describe the artificial procedure of identical twinning.5
+In the hundreds of publications on RtwinningS6 or
+RsplittingS embryos, this procedure has never previously
+been referred to as Rcloning.S It is usually called
+Rblastomere separationS when the embryo is split at the
+fourP or eight-cell stage and Rembryo splittingS when the
+embryo is at the blastocyst stage, the last embryonic stage
+during preimplantation development. Scientists and society
+have never regarded natural twins as R[7mclone[ms.S
+Consequently, the use of the word to refer to a procedure
+that could produce identical twins in an officially approved
+scientific context caused far more anxiety among members
+of the media and the public than the actual, fairly modest,
+procedures in the laboratory were intended to evoke. All
+that the investigators did was to separate the individual
+cells of abnormal embryos in order to investigate the
+potential of early human cells to grow independently of one
+another. The same work has been done many times in other
+species, dating back to 1932 (Nicholas 1932). This previous
+work is described as Rblastomere separationS by some and
+Revaluation of totipotencyS by others. The description of
+similar experiments performed in the human (Hardy 1990)
+does not include the term Rcloning.S Nevertheless, ever
+since the publicity given to the twinned embryos made in
+Washington, D.C., reference to embryo splitting as
+RcloningS is ineradicably becoming part of common usage
+throughout the world. Scientists therefore may now be
+forced to accept the term RcloningS to describe blastomere
+separation or embryo splitting as well as nuclear
+transplantation.
+
+...skip....
+
+TO CLONE OR NOT TO CLONE?
+
+Ultimately, there are many good reasons to suggest that
+both embryo splitting and nuclear transplantation should be
+implemented as soon as possible in humans at the in vitro
+fertilization centers that are currently most successful.
+Those scientists with demonstrated expertise in performing
+advanced embryology should participate. Naturally, the
+distinctive ethical dilemmas created by nuclear
+transplantation will have to be sorted out before it is used to
+produce embryo copies.
+
+Although the use of embryo duplication to improve the
+success rates of assisted reproductive technology may have
+immediate clinical benefit, other potential benefits of this
+technique may be equally significant. The technology of
+removing cells from embryos and transferring nuclei
+between cells will expand scientistsU understanding of the
+types of genes that determine the inheritance of
+characteristics and may also reveal how certain genetic
+diseases are activated. Other benefits seem sure to result
+from studying how and why embryonic cells differentiate
+into the specific cells of different organs. This complex
+process can be imitated by producing stem-cell lines from
+embryonic cells. The study of these stem cells is important
+for expanding scientistsU understanding of many diseases.
+
+We believe that irrational fears and fictional scenarios
+currently play a dominant role in determining ethical
+attitudes toward embryo splitting. The word "[7mclone[m" has a
+negative and misleading significance for most people.
+Scientists and medical health-care workers, especially those
+who specialize in embryology and genetics, have erred by
+not informing the public of the real nature of cloning and its
+uses in assisted reproductive technology. Their own
+familiarity with concepts such as nuclear manipulation and
+genetic transfer and the great needs of the individual
+infertility patient has led them, all too frequently, to forget
+that outsiders, both lay and professional, may be disturbed
+by discussion of these realities. It is often easy to overlook
+the confusion between concepts that affects even
+professional practitioners in the absence of clear definitions
+of terms. When such confusion can occur among
+professionals in the field, it obviously can occur more
+extensively among groups without their background
+knowledge. It is hoped that the clarification of terms and
+ideas that we have presented will serve to enhance public
+understanding of the nature and purpose of cloning.
+
+End of quote
+
+------------------------------
+
+End of Extropians Digest V94 #326
+*********************************
+

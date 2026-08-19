@@ -1,0 +1,529 @@
+From extropians-request@extropy.org Thu Aug 18 03:01:46 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id DAA13981 for <more@chaph.usc.edu>; Thu, 18 Aug 1994 03:01:44 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA10742; Thu, 18 Aug 94 03:01:40 PDT
+Received: by news.panix.com id AA24235
+  (5.65c/IDA-1.4.4 for more@usc.edu); Thu, 18 Aug 1994 06:01:30 -0400
+Date: Thu, 18 Aug 1994 06:01:30 -0400
+Message-Id: <199408181001.AA24235@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-8-194 - #94-8-202
+X-Extropian-Date: August 18, 374 P.N.O. [06:01:06 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Thu, 18 Aug 94             Volume 94 : Issue 229
+
+Today's Topics:
+            Does existance exist? (was: EPIST: ah yes, once more)     [1 msgs]
+                            EPIST: certainty again                    [4 msgs]
+                        EPIST: is certainty relevant?                 [1 msgs]
+                            Innateness of language                    [2 msgs]
+                               Rand's certainty                       [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 27282 bytes.
+
+----------------------------------------------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Wed, 17 Aug 1994 11:27:20 -0700
+Subject: [#94-8-194] EPIST: certainty again
+
+EdRegis@aol.com writes:
+>Derek claims that the sense-organs are unreliable, and from this he suggests
+>it follows that "the number of rats is uncertain."  More generally, then, it
+>appears to follow that it is not possible to obtain reliable knowledge from
+>unreliable sources.  While this inference does superficially appear to be
+>plausible, analysis will show that in fact it is fallacious.  ...
+>
+>1.  This whole line of reasoning has a rather good parallel in the history of
+>computation and informaton theory.  One question considered by John von
+>Neumann, Claude Shannon, and others was whether it was possible to get
+>reliable communication from unreliable components.  Again, it would
+>superficially appear that this is impossible, that it would take some divine
+>intervention in order to work such a miracle.  But Shannon explained how you
+>can in fact get reliable communication from unreliable components, through
+>techniques of redundancy, repetition, filtering out the noise, and so on.
+> Reliable communication is possible, and so is reliable knowledge.  
+
+I remain confused as to what Ed intends to mean when he uses words and
+phrases like "certain" and "reliable knowledge".
+
+Imagine your classic noisy channel.  You have some probability
+distribution over the possible bit strings that someone at the other
+end might send you, and then you see some bit string signal at your
+end.  The less noise, the more redundancy, etc., the more strongly
+concentrated your final probability distribution over bit strings will be.
+But you will still remain "uncertain" in the usual sense that you will
+assign some non-zero probability that the signal you've deemed most
+likely to have been sent was not the one actually sent.  The signal
+channel may be more or less "reliable", but I don't understand using
+this word in the binary "it is or it ain't" sense as Ed seems to.
+
+Robin Hanson
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Wed, 17 Aug 1994 12:02:30 -0700
+Subject: [#94-8-195] Does existance exist? (was: EPIST: ah yes, once more)
+
+Marvin Minsky raises a fundamental issue:
+
+>I'm particularly interested in the subsidiary premise that 'existence' has
+>*any* significant implications.  ...  So far as I can tell, we don't, and
+>can't, know that the things we believe are "really" real."  ...  what we
+>really should say is not a simple predicate E(x) at all, but a relation
+>IN(x, U) -- that is, we should say X is in Universe U. ...
+>
+>now consider the program just sitting there as some writing on paper.  Not
+>running in a computer at all.  But simulating the processes that you and I
+>embody. ...  And so far as I can see, the internal experience ought to be
+>exactly the same.  ....  And we can make the same statements about [a
+>program that] isn't even imagined, but merely a "possible" program, not yet
+>even conceived by anyone. ...  And in each such case, if P describes some
+>simulated universe, there is no way for the creatures inside that universe
+>to know whether or not their universe "actually exists" as a feature inside
+>some larger universe. ...
+>
+>So all that religious-philosophical stuff about "who created ..." is based
+>on a simple mistake, of postulating an unnecessary attribute, 'existence' .
+
+In essense, Marvin proposes that we collapse the distinction between
+"possible" and "actual", i.e., that we view all self-consistent
+descriptions for a total "state" of a universe to be equally "real"
+in generating internal experience for things within that universe.
+
+On first glance, this seems a self-consistent view.  But then so does its
+negation, the view that some possible universes are "actual" with real
+experiences, and some are only possible, without real experiences.  
+But if it is self-consistent to have two different universes indentical
+except that one has experience and the other doesn't, then even in the
+first view, there must be a great many universes without experience.
+So unless the second view can be shown to be inconsistent, the
+difference is only over which universes are actual vs. real, but the
+distinction remains.
+
+My head hurts.  I think I'll have lunch.
+
+Robin Hanson
+
+
+
+------------------------------
+
+From: hhuang@MIT.EDU
+Date: Wed, 17 Aug 94 15:54:14 -0400
+Subject: [#94-8-196] Innateness of language
+
+	I am forwarding this message for Alex Chislenko
+(sasha@cs.umb.edu):
+
+*--------------------------------------------------------------------*
+
+   I saw that experiment with chimps. It was pretty neat, and presented a good
+illustration to Marvin Minsky's ideas on the consciousness architecture.
+
+The chimp was shown two dishes with different numbers of candies, would point
+at one, and watch it go to the OTHER chimp. The first chimp would get the
+remaining dish.
+
+  The chimp was smart enough to understand what was going on, but the
+primitive urge to reach for the bigger dish was overwhelming its intelligence.
+(Does anything like that ever happen to you?)  The chimp was pretty mad at
+himself for this.
+
+  Now when the experimenter put 2 candies on one dish, 4 on the other, and
+put the dishes at a *distance*, but gave to the chimp two numbers to choose
+from (a more difficult problem with symbolic representation in the way),
+the urge to point at the bigger _number_ wasn't there, and the chimp could
+apply his brains to the task.  He would consistently choose the *smaller*
+number, and get the bigger dish with all the expressions of pride and
+satisfaction that you may expect from your fellow human.
+
+  I know that many (though not all) people can learn numbers (not all of
+them do though). The chimp was showing skills that many humans don't have,
+and some can't develop.
+
+  I also wonder how many people could *understand* the chimp's behavior in
+this experiment. Probably, very few...
+
+
+
+Sasha.
+
+------------------------------
+
+From: derek@cs.wisc.edu (Derek Zahn)
+Date: Wed, 17 Aug 1994 14:13:24 -0500 (CDT)
+Subject: [#94-8-197] EPIST: certainty again
+
+Ed Regis replies to my reasoning about precision:
+
+> The fact that the
+> senses are not perfectly reliable does not mean that they do not provide
+> true, genuine, and veridical knowledge.  In the vast majority of cases, the
+> senses do in fact give us such knowledge, and when they do, we know it.  
+> 
+> How is this possible?  There's really no miracle here.  In general, it's
+> possible because
+> (1) you can distinguish truth from error in the deliverances
+> of sense-expereience.
+
+Given extremely unlikely malfunctions of the sense organs, this is
+not true (see below).
+
+> And it's possible because (2) you can repeat a given
+> measurement to see whether you've made a mistake.  And (3) you can use one
+> sense-organ to check another.  And (4) the sense-experiences of other people
+> can be used to check how well your own senses are working.  And (5) because
+> there are mechanical instruments that can check on what your senses are
+> telling you.  And (6) there are objective tests to tell you if a sense organ
+> is working correctly or not.  And so on.  
+> 
+> You may answer, "Yeah, well, but what's to guarantee that all these things
+> are going to give you the right answer?  There's still a slim chance that all
+> of them will fail simultaneously, so that you're really no better off than
+> you were to begin with."  
+
+That is exactly what I'd answer, and well put.
+
+> But the point is that you don't need any such "guarantee."  A car does not
+> have to be *guaranteed* to work in order for it to *actually* work.
+
+In order for it to *actually* work *sometimes*.
+
+>  Knowledge arises from examination of the facts and data, and not from any
+> abstract *guarantee.*  The fact that an item of knowledge does not come with
+> a little tag or signature attached, guaranteeing its truth, does not mean
+> that it's not knowledge or that you don't possess it.  
+
+No, but it does mean that it's uncertain.  As I said in my original
+post, I have no problem working with uncertain knowledge.
+
+> 1.  This whole line of reasoning has a rather good parallel in the history of
+> computation and informaton theory.  One question considered by John von
+> Neumann, Claude Shannon, and others was whether it was possible to get
+> reliable communication from unreliable components.  Again, it would
+> superficially appear that this is impossible, that it would take some divine
+> intervention in order to work such a miracle.  But Shannon explained how you
+> can in fact get reliable communication from unreliable components, through
+> techniques of redundancy, repetition, filtering out the noise, and so on.
+
+This, I believe, is incorrect.  Shannon's theorem, as stated by
+Khinchin in _Mathematical Foundations of Information Theory_, is:
+
+  Let there be given 1) a stationary, non-anticipating channel [A,vx,B]
+  with ergodic capacity C and finite memory m, and 2) an ergodic
+  source [A0,mu] with entropy H0 < C.  Let epsilon > 0.  Then, for
+  sufficiently large n, the output of the source [A0,mu] can be
+  encoded into the alphabet A in such a way that each sequence ai of
+  n letters from the alphabet A0 is mapped into a sequence ui of
+  n+m letters from the alphabet A, and such that if the sequence ui
+  is transmitted through the given channel, we can determine the transmitted
+  sequence ai with a probability greater than 1 - epsilon from the
+  sequence received at the channel output.
+
+Epsilon is always greater than zero when components are unreliable.
+ 
+> 2.  When Derek claims that "Any number of (unlikely)
+> mechanical or neurological events, including random 
+> quantum fluctuation completely reordering sense 
+> data or memory, could result in a mismeasurement," he's availing himself of
+> more knowledge than he's entitled to on his own epistemology.  I mean, if we
+> can't know even so much as that 2 rats are dead, how in hell can we know
+> anything so fancy as that "random fluctuations," "neurological events," and
+> so on, exist?  
+
+I will grant that knowledge about random fluctuations, neurological
+events, and so on, is uncertain -- just like other knowledge.  That
+does not make their existence impossible, which is what would
+be required for knowledge gained from sense impressions to be
+certain.
+
+For knowledge about the dead rats to be certain, there cannot be
+any *possible* way for it to be incorrect, right?
+
+Maybe we're missing on what we mean by 'certain'.  'Certain' in
+this strict sense to me means logically necessary.
+
+derek
+
+
+------------------------------
+
+From: minsky@media.mit.edu (Marvin Minsky)
+Date: Wed, 17 Aug 94 18:39:28 -0400
+Subject: [#94-8-198] EPIST: certainty again
+
+>X-Message-Reference: #94-8-191
+>
+>EdRegis@aol.com writes:
+>>Derek claims that the sense-organs are unreliable, and from this he suggests
+>>it follows that "the number of rats is uncertain."  More generally, then, it
+>>appears to follow that it is not possible to obtain reliable knowledge from
+>>unreliable sources.  While this inference does superficially appear to be
+>>plausible, analysis will show that in fact it is fallacious.  ...
+>>
+>>1.  This whole line of reasoning has a rather good parallel in the history of
+>>computation and informaton theory.  One question considered by John von
+>>Neumann, Claude Shannon, and others was whether it was possible to get
+>>reliable communication from unreliable components.  Again, it would
+>>superficially appear that this is impossible, that it would take some divine
+>>intervention in order to work such a miracle.  But Shannon explained how you
+>>can in fact get reliable communication from unreliable components, through
+>>techniques of redundancy, repetition, filtering out the noise, and so on.
+>> Reliable communication is possible, and so is reliable knowledge.
+>
+>I remain confused as to what Ed intends to mean when he uses words and
+>phrases like "certain" and "reliable knowledge".
+>
+>Imagine your classic noisy channel.  You have some probability
+>distribution over the possible bit strings that someone at the other
+>end might send you, and then you see some bit string signal at your
+>end.  The less noise, the more redundancy, etc., the more strongly
+>concentrated your final probability distribution over bit strings will be.
+>But you will still remain "uncertain" in the usual sense that you will
+>assign some non-zero probability that the signal you've deemed most
+>likely to have been sent was not the one actually sent.  The signal
+>channel may be more or less "reliable", but I don't understand using
+>this word in the binary "it is or it ain't" sense as Ed seems to.
+>
+>Robin Hanson
+
+
+Well, in view of Ed Regis' objections to using the methods of professional
+philosophy in everyday life, I'd say that in commonsense matters, Ed uses
+the term "certainty" to mean something like "beyond a reasonable doubt" --
+just like normal people do when you ask, "Are you sure," and they reply,
+"Yes."
+
+Furthermore, from the standpoint of "my philosophy" this is the right thing
+to do.  Ordinary words often have several senses, each appropriate to
+different realms of thought.  "Mathematical Certainty" is usable only in
+artificial mental worlds, but has no place in the "real world".  I
+explained this in Chapter 6 of "The Society of Mind," in one of the
+sections that still like a lot:
+
+>
+>There is no singularly real world of thought; each mind evolves its own
+>internal universe. The worlds of thought that we appear to like the best are
+>those where goals and actions seem to mesh in regions large enough to spend
+>our lives in-and thus become a Buddhist, or Republican, or poet, or
+>topologist. Some mental starting points grow into great, coherent continents.
+>In certain parts of mathematics, science, and philosophy, a relatively few but
+>clear ideas may lead into an endless realm of complex yet consistent new
+>structures. Yet even in mathematics, a handful of seemingly innocent rules can
+>lead to complications far beyond our grasp. Thus we feel we understand
+>perfectly the rules of addition and multiplication-yet when we mix them
+>together, we encounter problems about prime numbers that have remained
+>unsolved for centuries.
+>
+>Minds also make up pleasant worlds of practical affairs-which work because we
+>make them work, by putting things in order there. In the physical realm, we
+>keep our books and clothes in self-made shelves and cabinets-thus building
+>artificial boundaries to keep our things from interacting very much.
+>Similarly, in mental realms, we make up countless artificial schemes to force
+>things to seem orderly, by specifying legal codes, grammar rules and traffic
+>laws. When growing up in such a world, it all seems right and natural-and only
+>scholars and historians recall the mass of precedents and failed experiments
+>it took to make it work so well. These "natural" worlds are actually more
+>complex than the technical worlds of philosophy. They're far too vast to
+>comprehend-except where we impose on them the rules we make.
+
+(The rest of that page is good, too.)
+
+
+
+------------------------------
+
+From: sw@tiac.net (Steve Witham)
+Date: Wed, 17 Aug 1994 19:10:19 -0400
+Subject: [#94-8-199] Rand's certainty
+
+>Steve again: <Nice (!) Ayn Rand quote on rationalizations.>
+
+Reilly Jones replies-
+
+>I really like Rand's strong convictions that, of course, can only arise out of
+>certainty.
+
+Or a constant diet of amphetamine.  Of course Rand was unique, not just an
+"effect" of anything, but besides doubting her conclusions, I wonder how
+she got there.  Rand's meme says, "That's just rationalizing the fear of
+deciding whether she was right."  Ya gotta admire a scrappy meme like that.
+
+> She had faced her fair share of the envy and hatred that the
+>uncertain have for the certain.  It reminds me of another Emerson quote, "the
+>unbeliever, for love of belief, burns the believer."  Emerson must have known
+>about Janet Reno even back then.
+
+People want certainty to cover doubt like the way they join groups to cover
+weak identities.  Some people are strong and creative enough to roll their
+own ideologies, and some people try emulate, immitate, latch on to...
+or envy or hate those people.  I think some people are truly cautious
+about certainty without being envious.  If you let yourself act when you're
+uncertain, but also without too much worry, I think you can get a lot of the
+effect of certainty.
+
+...comparing the relative effects of certainty, faith, serenity,
+decisiveness, etc., as if they were drugs (like Ecstasy and Prozac),
+affecting various receptors and transmitters...
+
+ --Steve
+
+- - - - - - - - - -
+To report fraudulent "OK" experiences of your own, please call 1-800-I-FEEL-OK.
+--OK Soda ad, Coca-Cola [cOKe] Company
+
+
+
+------------------------------
+
+From: sw@tiac.net (Steve Witham)
+Date: Wed, 17 Aug 1994 19:57:40 -0400
+Subject: [#94-8-200] Innateness of language
+
+Han says Sasha says-
+
+>  The chimp was smart enough to understand what was going on, but the
+>primitive urge to reach for the bigger dish was overwhelming its intelligence.
+>(Does anything like that ever happen to you?)  The chimp was pretty mad at
+>himself for this.
+
+"Doh!"
+
+>  Now when the experimenter put 2 candies on one dish, 4 on the other, and
+>put the dishes at a *distance*, but gave to the chimp two numbers to choose
+>from (a more difficult problem with symbolic representation in the way),
+>the urge to point at the bigger _number_ wasn't there, and the chimp could
+>apply his brains to the task.  He would consistently choose the *smaller*
+>number, and get the bigger dish with all the expressions of pride and
+>satisfaction that you may expect from your fellow human.
+
+It would be great to see if you could gradually bring the symbols and the
+dishes closer together until the chimp could point at the smaller dish
+on purpose.  Would the chimp "get" the idea of "doing the backwards thing?"
+
+ --Steve
+
+- - - - - - - - - -
+To report fraudulent "OK" experiences of your own, please call 1-800-I-FEEL-OK.
+--OK Soda ad, Coca-Cola [cOKe] Company
+
+
+
+------------------------------
+
+From: derek@cs.wisc.edu (Derek Zahn)
+Date: Wed, 17 Aug 1994 20:40:12 -0500 (CDT)
+Subject: [#94-8-201] EPIST: certainty again
+
+Marvin Minsky:
+
+> Well, in view of Ed Regis' objections to using the methods of professional
+> philosophy in everyday life, I'd say that in commonsense matters, Ed uses
+> the term "certainty" to mean something like "beyond a reasonable doubt" --
+> just like normal people do when you ask, "Are you sure," and they reply,
+> "Yes."
+
+If by "certain" Ed does in fact simply mean "beyond a reasonable doubt",
+where the reasonableness of a doubt is determined the way we normally
+do in order to get by in life, I greatly misunderstood the subject of
+the discussion.  Certainly (heh) few would deny the possibility that
+knowledge derived from sense data can be certain in this sense.  If
+it wasn't, surely (heh) I would have perished in traffic long ago.
+
+Personally, it seems that extropians would in general apply the word
+"certain" to fewer things than others; and the apparently commonsense
+certainties in the world seem overly abundant to me, rather than scarce.
+
+Certainty of a more absolute sort has a kind of glitter to it; if
+we can't actually have a nice abstract epistemology, it's kind of
+a pity....
+
+derek
+existing, today
+
+------------------------------
+
+From: Eric Watt Forste <arkuat@netcom.com>
+Date: Wed, 17 Aug 94 22:42:28 -0700
+Subject: [#94-8-202] EPIST: is certainty relevant?
+
+Derek Zahn:
+
+>If by "certain" Ed does in fact simply mean "beyond a reasonable
+>doubt", where the reasonableness of a doubt is determined the way we
+>normally do in order to get by in life, I greatly misunderstood the
+>subject of the discussion.  Certainly (heh) few would deny the
+>possibility that knowledge derived from sense data can be certain in
+>this sense.  If it wasn't, surely (heh) I would have perished in
+>traffic long ago.
+
+You got it. And I'd let it rest there, but now that I've gone and
+restarted the Dreaded Epistemology Thread, I might as well make my
+annoying (to objectivists) assertion again, right out of Postman and
+Weingartner (or whomever they plagiarized it from): certainty is
+relative.
+
+Now, from the understanding of "relativism" I've been given by Reilly
+and by Tim Starr (some months ago, now), this assertion does not make
+me a "relativist". In fact, strangely enough, it makes me the opposite
+of a "relativist". "Relativists" apparently judge that only a single
+degree of certainty is possible, namely, a zero degree of
+certainty. Absolute uncertainty, if you like.
+
+What do I mean by saying "Certainty is relative"? Simply that if, for
+example, you have in your head two pieces of knowledge of which you
+are certain, and one day you find that they are logically inconsistent
+with one another, and you end up giving one of them up, then you give
+up the one of which you were (and are) *less* certain.
+
+"Certainty is relative" simply means that you are more certain of some
+certain things than you are of other certain things. Some certainties
+are more certain than others. And some uncertainties are more
+uncertain than others.
+
+Some would have you believe that certainty is an on-off switch, a
+binary quality. But in fact there are degrees of certainty, just as
+there are degrees of nearly every other important quality we use to
+describe bits and pieces of the world, including our own thoughts and
+beliefs.
+
+As someone (I believe it was Plaz) pointed out on the list months ago,
+the question "How certain are you of that fact?" is easily understood.
+I would call this beating a dead horse, but some recent posts I've
+seen on the list make it all too apparent that the horse is still
+wandering around and eating the lettuces in the garden.
+
+Eric Watt Forste || finger arkuat@c2.org || http://www.c2.org/~arkuat
+
+------------------------------
+
+End of Extropians Digest V94 #229
+*********************************
+

@@ -1,0 +1,949 @@
+From extropians-request@extropy.org Wed Dec 22 16:50:08 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA02043; Wed, 22 Dec 93 16:50:06 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA26939; Wed, 22 Dec 93 16:49:55 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA01506
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 22 Dec 1993 19:43:16 -0500
+Date: Wed, 22 Dec 1993 19:43:16 -0500
+Message-Id: <199312230043.AA01506@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: December 23, 373 P.N.O. [00:42:49 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Thu, 23 Dec 93             Volume 93 : Issue 356
+
+Today's Topics:
+                                                                      [1 msgs]
+                        Bayes, Dropouts, and Geniuses                 [1 msgs]
+                                   Buckley                            [1 msgs]
+                             Clueless in Seattle                      [1 msgs]
+                             Extropian Outreach?                      [1 msgs]
+                                Freezing Eggs                         [1 msgs]
+                       POLI/LEGAL: discrimination laws                [1 msgs]
+                          TRIV: Encoding $mas Cheer                   [1 msgs]
+                          Tim May's Social Darwinism                  [3 msgs]
+                           Tim May`s Social Darwini                   [2 msgs]
+                          Tim May`s Social Darwinis                   [1 msgs]
+                          Tim May`s Social Darwinism                  [1 msgs]
+                                    unsub                             [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51507 bytes.
+
+----------------------------------------------------------------------
+
+Date:     Wed, 22 Dec 93 18:03:10 GMT
+From: nancy@genie.slhs.udel.edu
+Subject: Tim May`s Social Darwinism
+
+ Duncan Frissell <frissell@panix.com> writes, answering me:  
+                  
+>N.>I think the suggestion is that, if you think that some people are
+>N.>of no value whatsoever, then you might as well kill them whenever
+>N.>it seems convenient or fun, and if you have scruples about killing
+>N.>them, then you must think that they have some value. 
+>
+>Perhaps Tim never finds killing convenient or fun.  Those (not Nancy) who 
+>argue that if you don't think too much of the "great unwashed" you are as 
+>likely as not to kill them are revealing the core of their own philosophy. 
+
+I am not arguing that Tim is likely to go on a physical rampage against
+the poor. On the other hand, I do think that a sense of empathy or a
+feeling that other people are of the same "kind" as oneself is part
+of what prevents mass murder, and that Tim is encouraging people
+to lose that feeling.
+
+> Their collectivist attitude seems to be that we refrain from killing or 
+>abusing "good people" (however defined) but it is open season on the rest 
+>of the world.  Thus the collectivist's tendancy to kill large numbers of 
+>people.  Libertarians can denigrate others without wanting to kill them.  
+>It is only people of Janet Reno's philosophy who believe in killing those 
+>who disagree with their political/social philosophy.  That is what the 
+>word "totalitarian" means.  Tim is not a "totalitarian."
+>
+You may be right about collectivists--in fact I think you are, if
+you interpret "good people" as a place-holder for "fulfilling whatever
+fantasy the collectivists in power believe at the moment".
+
+I certainly agree that it's possible for libertarians (and people
+in general) to denigrate someone without wanting to kill them.
+
+However, I also believe that seeing someone as not human makes it
+a great deal easier to kill them, and that it's reasonable to
+oppose ideas that I think can lead to murder.
+
+>N.>and the third is that they're succeeding, but very slowly. 
+>
+>I think this is true of libertarianism.  Certainly UUNET is lousy with 
+>libertarians.  I also find it creeping into popular culture.  Certainly 
+>disobedience is on the rise. 
+
+What's UUNET? 
+
+I have the impression that people don't generally believe that obeying
+the law is a moral value quite as much as they used to.
+
+Nancy Lebovitz
+
+
+------------------------------
+
+Date: Wed, 22 Dec 93 12:18:12 CST
+From: lists@alan.b30.ingr.com (Alan Barksdale (lists))
+Subject: TRIV: Encoding $mas Cheer
+
+/* Here's another way to hide your subversive data.  Happy $mas! */
+
+#include <stdio.h>
+#define O (b=b?b-1:(p++,5),*p&1<<b)
+#define o O?O
+char *p,j=2,b,c;
+e(n){for( p="|'8I0>+@{=#_P0-]PV.]F>TM!YK'?? |T\"Z8}aE<&D-!:-T'\"\
+O<~cG5$,<2'#;/UI.0{d^HV6817-2F95-T7X|c^/1XB]*)3WHG0/0}dN>G RMZB.12.P] ~hM^J\\[\
+<R^ (7;)R9A78{gU!:N)E5OPUR><29A6|e&9V;E[Q:,S1.P] }eES.$Z):B.*O+$G_ ~fWU8)75?I#\
+75?WHN0{jE=]<V*1]JI#5VK)R9A6~J5X9X#69/+VX4 =S%!X-[)OE #1XRZ\"?~%^-#Dz&M\\RST|%\
+G66*~&^HV0> {%^-8_P}%N>FO(}'M^JQ=z&U!:O(J{%&9G4|%ERO(~(WU8)G4{'E=]^G4", b=n;*p++
+<122||--b;);c=*p;while(--c>31&&c!=79)putchar(44+(o?o?o?-34:68:O?60:74:O?64:o?o?
+2:54:O?23:63:77:O?55:o?76:15:35:-12:o?61:O?56:65:O?66:53:o?o?O?75:58:0:70:57:o?
+71:o?73:1:67:O?72:59));c>32?e(n-1):0;}main(){while(++j<15)e(1),e(13+j),e(15),e(
+j-(j<4));}
+
+------------------------------
+
+Date: Wed, 22 Dec 1993 10:20:08 -0800 (PST)
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Bayes, Dropouts, and Geniuses
+
+As a "drop out" myself, let me comment on the point Ray Cromwell makes:
+
+> (BTW: I'm not talking about people who drop out of anything, but
+> people who drop out of school, particularly high school. How many
+> supergeniuses are illiterate, or dropped out in the 9th grade, etc)
+..
+>    While Bill Gates was a drop out, and he is visionary in some respects,
+> I would not place the success of microsoft solely on his back but also
+> on the thousands of computer scientists and engineers which he employs --
+> people who didn't drop out.  Gate's is certainly good at management, but
+> as far as programming/analysis goes, he's no Donald Knuth.
+
+Calling Bill Gates a "drop out" is mostly a trivialization of the term
+"drop out," which is perhaps what Ray was getting in.
+
+Gates graduated from high school, but chose to only attend Harvard for
+one or two years (not sure which) before joining Paul Allen to start
+up Micrsoft. I would hardly call this the conventional definition of
+"drop out."
+
+Nor would I call a bright person who failed to graduate from some
+particular high school a "drop out" in the negative sense used to
+discuss the drug addicts, losers, and drop outs we were initially
+discussing.
+
+Of course, I don't know what others consider drop outs to be. Speaking
+for myself, I mean all the folks who cruised through school, possibly
+never read a book for their own pleasure, lived for their drunken
+parties, and now find themselves largely unemployable--desptite what
+Jeff Fabijanic claimed about all the drop outs he knows who are now
+race car drivers (there must be _millions_ of those), rocket
+scientists, authors, and the like. I suspect we're using the term
+"drop out" in radically different ways.
+
+In any case, those drop outs that succeed as race car drivers and chip
+designers, Jeff's friends, clearly need no subsidies stolen from me.
+Hence no need for welfare, AFDC, "substance abuse" programs, etc.
+
+But about the truly clueless, who have no skills others wish to
+compensate them for, my earlier comments stand: "No work, no eat."
+
+--Tim May, who didn't go to grad school but instead went into
+industry, and who is thus a "drop out" when compared to those who did
+go to grad school....it's all relative
+
+
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Wed, 22 Dec 1993 10:53:35 -0800 (PST)
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Tim May's Social Darwinism
+
+Ray Cromwell writes:
+
+>   I agree of course, but I think the problem is that long tirades on
+> traditional liberal heros will eventually provoke a flame war.
+
+My "long tirade" was in response to a question---some would call it a
+"whine," though I mean no aspersions against Betsy--of the sort: "But
+what about the poor?" My answer, which I don't think is a flame, is
+basically this: "Tell the poor that no one owes them a living. Tell
+the poor that they'd better find a job or a trade or something that
+other people want to pay them to do. Otherwise, too bad. No work, no eat."
+
+> I could certainly start a flame war by saying "anyone who belives in
+> the supernatural is an irrational fruitcake who deserves biological
+> extinction when it comes" and if I did so, the coming flames in my email
+> box would be rightly deserved because I know how people will respond.
+> There are certain subjects which are instant hot buttons for some people,
+> like criticizing racial minorities, or as you found out, making statements
+> about other sexualities. 
+
+Sorr, Ray, this is nonsense. Extropians are free to point out the
+absurdity of welfare systems, religious systems, supernatural beliefs,
+astrology, whatever. Even to discuss the evidence about racial
+differences in intelligence. And especially to discuss theories about
+why women appear to be less technically-oriented than men are and why
+men are less communication- and feeling-oriented than women are.
+
+If not on this List, where? 
+
+(And don't forget that Amara _called_ for this discusson of gender
+roles, differences, "women's issues," etc.  She even claimed to have
+learned some "facts" about how men, especially technical men, use
+debate, argument, and creative extrapolation (bullshitting, which
+really isn't, as I argued) to succeed in many industries. She and the
+other women may feel my remarks are politically incorrect and
+misogynistic, but I view them as a truth that needs to be
+discussed....vivre la difference.)
+
+>   Tim, you're a little older so your perspective is different. I grew up
+> in a culture, in a public school, which repeated like mantra: never
+> blame the victim, it's society's fault, bums are people too, etc.
+> And I suspect many other people have absorbed these values. So while
+> it may be right to condemn theives, bums, welfare moms, etc, it's still
+> going fire people up.  
+
+Political correctness, which Ray if referring to here, should be the
+_last_ thing we practice here. Yes, we have "our own" ideas of what is
+politically correct....all cultures do. We, for example, tend to
+axiomatically reject arguments that the individual lives only for the
+good of the Society. So be it. But adopting the mainstream notions of
+political correctness seems too bizarrre to even contemplate.
+
+I intend to continue speaking my mind. I really don't care what sacred
+cows I offend. (And I think the Extropians are "tolerant" of many
+differences in opinion. I, for example, am not signed up for any form
+of cryonic suspension, and yet I am not insulted or chastised for
+these "Extropianly Incorrect" views, nor do I chastise others for
+their faith in Alcor and the like.)
+
+Arguments should be made for positions, and refutations.
+
+The claims in recent days by Price, Starr, and others, that my views
+are tantamount to calling for the extermination of the poor and
+non-white races is _classic_ argumentum ad hominem.
+
+And the claim that discussing gender and racial differences, which
+surely exist to some degree or another, will somehow offend and
+possibly drive away people is ludicrous. Should we _only_ discuss such
+empty issues as the arrival date of the Singularity?
+
+I'm really beginning to see how deeply the younger folks on the List
+have been affected by the last couple of decades of "never hurt
+anyone's feelings" ideology. Instead of calling a spade a spade
+(whoops, can't use that expression anymore, can I?, people step
+gingerly around the real issues. Things get worse because nobody will
+say the Emperor is naked....even here on this List, of all places, we
+see this pussyfooting around.
+
+Folks, recognize that we are an elite. Ubermenschen (assuming the use
+of a fine German word is not verboten by an ersatz Zeitgeist).
+Superior ideas.
+
+Yes, some ideas and some values are "better" than others. I don't
+claim a supernatural or "logical" (a la Rand) origin for this
+statement, but it's something we know. Or at least I hope most of us
+know.
+
+It's what the "Extropian Principles" are all about. If you don't
+believe some values are indeed superior to others, I suspect you don't
+belong on this List.
+
+And if you do believe in the strength of certain values, then you
+should certainly be willing to forthrightly argue for them and not
+cower because the views might "offend" someone (whose values are
+likely anyway to stick a gun in your face and say "give me your
+money"). 
+
+For those who genuinely disagree, or have some questions, engage them
+in discussion. For those who dismiss you as a Nazi, who claim you are
+calling for concentration camps and gas chambers, tell them to go to
+hell and put them in your ::exclude file. It is working for me, as a
+growing number of List simps and wimps have entered my ::exclude file.
+
+
+--Tim May, who has been politically incorrect since at least 1964.
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Wed, 22 Dec 1993 14:25:43 -0500 (EST)
+From: Mark Sulkowski <SULKOM@ubvmsb.cc.buffalo.edu>
+Subject: Tim May`s Social Darwini
+
+ From: Duncan Frissell <frissell@panix.com>
+>
+>Ray Cromwell writes:
+>
+>>Tim, you're a little older so your perspective is different. I grew up
+>>in a culture, in a public school, which repeated like mantra: never
+>>blame the victim, it's society's fault, bums are people too, etc.
+>>And I suspect many other people have absorbed these values. So while
+>>it may be right to condemn thieves, bums, welfare moms, etc, it's still
+>>going fire people up.  
+>
+>Perhaps with a purifying fire.
+
+	Yeah, right.  That's never been my experience in talking with people.
+
+
+>We have to differentiate ourselves on the market.
+
+	Of course, but businesses don't go around intentionally shocking
+the hell out of people.  That's the old Libertarian Party strategy (still
+used in many states unfortunately) and it doesn't work.  When will people
+finally give it up?
+
+
+
+        *    .
+====\\.    ~  //====
+||   \\ ~ . *//   ||
+||    \\ *  //    || 
+||     \\.~//     || 
+||      \\//      || 
+|| Mark  \/enture ||
+====================
+
+------------------------------
+
+Date: Wed, 22 Dec 1993 11:50:01 -0800 (PST)
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Tim May`s Social Darwini
+
+Mark Venture writes, quoting Duncan Frissell:
+
+
+> >Perhaps with a purifying fire.
+> 
+> 	Yeah, right.  That's never been my experience in talking with people.
+> 
+> 
+> >We have to differentiate ourselves on the market.
+> 
+> 	Of course, but businesses don't go around intentionally shocking
+> the hell out of people.  That's the old Libertarian Party strategy (still
+> used in many states unfortunately) and it doesn't work.  When will people
+> finally give it up?
+
+Not me. I use my language not to convert the clueless, who are best
+converted at an earlier age than those typically reading the Net, but
+to "advertise" what my my views are and thus cause associations that
+might not otherwise occur.
+
+And I value the forthrightness with which Max More, Tom Morrow, Simon
+Levy!, Duncan Frissell, Nick Szabo, and too many others to cite here
+have similarly "advertised" their views. This blunt acknowledgement of
+views, not wishy-washy "can't we all just get along?"
+inoffensiveness-to-everyody, is what I cherish about this list. 
+
+For those of you who want to convert nonLibertarians, please go right
+ahead and do so. Either here (though I didn't notice Mark Venture
+answering any of Betsy's, Nancy's, or Amara's questions....) or in the
+many "outreach" programs the LP and SIL organizations sponsor.
+
+"Outreach" is the interesting word here. People stumble across this
+list for various reasons. Are we to hide our lights under a bushel, as
+so many women are (wrongly) taught to do, or are we to openly and
+defiantly to proclaim our views?
+
+I opt for the latter. I'd rather make contact with like minds than
+water down my views so as not of offend people who most likely are
+Preterite, are simply past the impressionable age at which most
+political and social views are shaped.
+
+--Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Wed, 22 Dec 1993 15:00:54 -0500 (EST)
+From: LEVY%BESSIE@venus.cis.yale.edu
+Subject: Tim May's Social Darwinism
+
+Tim May writes:
+
+>Ah, but I have no interest in using subtle methods to persuade people.
+
+I consider this unfortunate, as I see much libertarian thinking as 
+necessarily very subtle -- the hand is *invisible*, after all.  Human 
+behavior is complex, which is why attempts to analyze and control it in 
+a simplistic manner (like the centralized planning of socialism) have 
+never succeeded for any length of time.  So I believe that we  
+libertarians must master the art of subtle argument if we hope to 
+persuade anybody but ourselves.
+
+>My understanding is that the List is somewhat of a "safe haven," as
+>Perry used to put it, for people for whom it is nearly axiomatic that
+>welfare mothers are bums who are in fact breeding like maggots. (I've
+>got the data to show the "doubling time" for these people, if anybody
+>doubts the comparison.)
+
+For me, the main point of this list is to discuss ways to improve our 
+chances of living as long as we want, in the kind of culture that suits us.
+Although few of us have warm feelings for the welfare state, I hate to see
+name-calling attacks on welfare recipients, retarded people, and the mentally
+ill on the List, and I am especially concerned that anyone would believe that
+hatred of such groups is anything like an axiomatic, core belief of 
+Extropianism.
+
+And let's not confuse dismantling the welfare state with cold-heartedness
+toward the unfortunate.  I will always be willing to donate some of my time 
+and/or money to those who had the misfortune to be born retarded or mentally
+ill.  I do not ask Tim, or anyone else, to do the same.  But please don't
+advertise personal feelings about the poor, retarded, clinically depressed, 
+et al., as part of the Extropian philosophy.
+
+-- Simon!
+
+------------------------------
+
+Date: Wed, 22 Dec 1993 12:09:38 -0800 (PST)
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Extropian Outreach?
+
+I want to expand on what I think is an important point:
+
+> For those of you who want to convert nonLibertarians, please go right
+> ahead and do so. Either here (though I didn't notice Mark Venture
+> answering any of Betsy's, Nancy's, or Amara's questions....) or in the
+> many "outreach" programs the LP and SIL organizations sponsor.
+> 
+> "Outreach" is the interesting word here. People stumble across this
+> list for various reasons. Are we to hide our lights under a bushel, as
+> so many women are (wrongly) taught to do, or are we to openly and
+> defiantly to proclaim our views?
+
+Should Extropians be concerned about outreach? Certainly Max would
+like more subscribers to his magazine, so as to break even, let alone
+to expand the pool of Extropians. And certainly we need some more
+thinkers on this list, having lost several of our core thinkers in the
+last half-year or so.
+
+But I suspect we are too small a group to do effective outreach. And I
+notice very little talk of this....the various luncheons, parties,
+Extropoganzas, and perhaps even the "Extro 1" conference, are not
+really oriented toward roping in new converts and giving them a
+"palatable" version of Extropianism.
+
+Unlike the Moonies (recall Duncan's tale) or other groups, which often
+practice strategic deception about their ultimate views (so as to get
+past the initial "sales resistance" of newcomers and skeptics), the
+Extropians have always been an elitist, "in-your-face" sort of group.
+We freely speculated about Jupiter-sized brains, the Singularity,
+uploading, living forever, undermining governments, and on and on,
+with few worries that this will frighten the horses and reduce our
+growth rate.
+
+Frankly, I doubt Max will ever get more than a few thousand
+subscribers. Further, I have yet to see any evidence that people who
+discover "Extropy" on the newstand, for example, are then joining this
+list and becoming core contributors. Are there any of you out there?
+(No offense to the lurkers, but I don't mean "are there _any_ of you
+out there who discovered us throught the magazine.")
+
+But this issue of outreach, of whether a goal is to recruit more
+Extropians, is something that sorely needs to be debated, somewhere.
+
+Unfortunately, few of the "Board" members appear to be reading the
+List, let alone contributing to the discussion, so I suspect any
+debate we have here will be nearly meaningless.
+
+Personally, I'm not much interested in adding a few thousand new
+Extropians to the world, except insofar as it makes the discussion
+here on this list more interesting and the wild parties in the Bay
+Area even more interesting.
+
+--Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Wed, 22 Dec 1993 12:15:31 -0800 (PST)
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Tim May's Social Darwinism
+
+Simon writes:
+
+> never succeeded for any length of time.  So I believe that we  
+> libertarians must master the art of subtle argument if we hope to 
+> persuade anybody but ourselves.
+
+Fine, persuade! Again, I didn't see Simon addressing the points Betsy
+was making, and I am not sympathetic to the view that my response was
+the wrong one.
+
+> Although few of us have warm feelings for the welfare state, I hate to see
+> name-calling attacks on welfare recipients, retarded people, and the mentally
+> ill on the List, and I am especially concerned that anyone would believe that
+> hatred of such groups is anything like an axiomatic, core belief of 
+> Extropianism.
+
+To me, the ubersmensch aspects are the key. Look at the Principles and
+you will see "superman" everywhere. 
+
+I will continue to call this the core value of Extropianism. If the
+Board, for example, consider that I am giving a bad impression of
+their group, they'll have to kick me off. Otherwise, I will speak as I
+see fit.
+
+> And let's not confuse dismantling the welfare state with cold-heartedness
+> toward the unfortunate.  I will always be willing to donate some of my time 
+> and/or money to those who had the misfortune to be born retarded or mentally
+> ill.  I do not ask Tim, or anyone else, to do the same.  But please don't
+> advertise personal feelings about the poor, retarded, clinically depressed, 
+> et al., as part of the Extropian philosophy.
+
+I'll speak as I see fit. If you don't like it, place me in your
+::exclude file...that's what it's there for.
+
+--Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Wed, 22 Dec 93 11:41:58 PST
+From: Blanc Weber <blancw@microsoft.com>
+Subject: Clueless in Seattle
+
+I wonder how many subscribers on this list live in the Puget Sound Area?
+I'm curious to know, if you would reply to me directly, thanks.
+
+Blanc
+
+------------------------------
+
+Date: Wed, 22 Dec 1993 12:22:58 -0800
+From: tribble@netcom.com (E. Dean Tribble)
+Subject: Tim May`s Social Darwinis
+
+	 From: tcmay@netcom.com (Timothy C. May)
+	 Date: Wed, 22 Dec 1993 10:06:02 -0800 (PST)
+	 X-Message-Number: #93-12-660
+	 Errors-To: Extropians-Request@gnu.ai.mit.edu
+
+	 Duncan Frissell writes:
+
+	 (quoting Nancy L., who was commenting on various interpretations of
+	 others about my putative willingness to kill those I consider worthless...)
+
+	 > N.>I think the suggestion is that, if you think that some people are
+	 > N.>of no value whatsoever, then you might as well kill them whenever
+	 > N.>it seems convenient or fun, and if you have scruples about killing
+	 > N.>them, then you must think that they have some value. 
+	 > 
+	 > Perhaps Tim never finds killing convenient or fun.  Those (not Nancy) who 
+	 > argue that if you don't think too much of the "great unwashed" you are as 
+	 > likely as not to kill them are revealing the core of their own philosophy. 
+	 >  Their collectivist attitude seems to be that we refrain from killing or 
+	 > abusing "good people" (however defined) but it is open season on the rest 
+	 > of the world.  Thus the collectivist's tendancy to kill large numbers of 
+	 > people.  Libertarians can denigrate others without wanting to kill them.  
+	 > It is only people of Janet Reno's philosophy who believe in killing those 
+	 > who disagree with their political/social philosophy.  That is what the 
+	 > word "totalitarian" means.  Tim is not a "totalitarian."
+
+	 Precisely! I take the "nonaggression" belief of the libertarians as a
+	 core belief, that is, I'm satisfied to let each person go to hell (or
+	 heaven) in his own way, without interference, directly, from me. This
+	 does not meen I won't "interfere" economically (by not trading with
+	 them on terms they wish, for example), memetically, socially, etc.
+
+I generally agree, although dave krieger pointed out that they (the
+welfare recipients) initiated force by sending tax collectors after
+us.
+
+dean
+
+------------------------------
+
+Date: Wed, 22 Dec 1993 15:27:26 -0500 (EST)
+From: LEVY%BESSIE@venus.cis.yale.edu
+Subject: Buckley
+
+Arthur Hlavaty writes:
+
+>I've read Buckley's _Happy Days Are Here Again_.  The subtitle,
+>in which he describes himself as a libertarian, is as gross a bit of false
+>advertising as I've seen in years.  He still wants the cops to be armed
+>priests, though he has had some second thoughts about drug criminalization.
+>(Basically, he says he'd favor either total legalization or executing
+>pushers, but nothing in between.)  As always, he is very libertarian about
+>making money, less so about other things.
+
+"Libertarian" is a term co-opted by both extremes of the one-dimensional 
+American political spectrum.  Noam Chomsky, at the other end, also calls 
+himself one.  Both he and Buckley are cult-of-personality industries unto 
+themselves; they are selling a product (the William F. Buckley and Noam 
+Chomsky action figures -- collect 'em; trade 'em with your friends!), not a 
+philosophy, and I see their usage of terms like "Libertarian" as akin to the 
+dress-up games of the transvestite voguers in _Paris Is Burning_.
+
+-- Simon!
+
+
+
+------------------------------
+
+Date: Wed, 22 Dec 1993 12:36:46 -0800
+From: tribble@netcom.com (E. Dean Tribble)
+Subject: 
+
+I'm off for the holidays.  See you in a week.
+
+dean
+
+------------------------------
+
+Date: Wed, 22 Dec 93 20:47:33 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: Freezing Eggs
+
+Amara Graps said:
+> Is freezing one's eggs a possible option for a healthy woman aged
+> puberty-35 today if she doesn't want to have children now, but may
+> want to in 10-20 years?  
+[..]
+> Notice that this topic isn't about freezing one's head [..]
+> (No offense to all of you Alcor members out there!) 
+
+None taken.  But if you _did_ have your head (or eggs or almost any
+tissue) frozen your full genome would be preserved.  Tinkering with the
+gene control and expression mechanisms (realistically 10-30 years, IMO)
+would enable the culturing of fully viable ova or whatever.  You'd be
+keeping your options open about having children in the future.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Wed, 22 Dec 93 16:16:55 -0500
+From: hhuang@MIT.EDU
+Subject: POLI/LEGAL: discrimination laws
+
+Ray Cromwell writes,
+
+>A few weeks ago, our campus newspaper was stolen because of
+>"insensitive" comments about the Reginald Denney trial. I'm so used to
+>people exploding over comments far less strong than Tim's that I
+>expect it and try to plan for it. Hopefully, I can go back to normal
+>after I leave college.
+
+Forget college.  Discrimination laws have already brought political
+correctness to the workplaces of America.  As I'll demonstrate, things
+will continue to worsen until the entire nonsense is stopped.
+
+It begins with Title VII of the 1964 Civil Rights Act, the act that
+many American liberals are so proud of.  Title VII held it to be,
+
+  an unlawful employment practice for an employer ... to discriminate
+  against any individual with respect to his compensation, terms,
+  conditions, or privileges of employment, because of such individual's
+  race, color, religion, sex, or national origin.
+
+Under this was created the Equal Employment Opportunity Commission
+(EEOC).  In 1980, drawing upon a body of burgeoning sexual harassment
+caselaw, the EEOC put forth its guidelines on sexual harassment that
+proscribed ``unwelcome sexual advances, requests for sexual favors,
+and other verbal or physical conduct of a sexual nature'' and other
+such conduct that ``has the purpose or effect of unreasonably
+interfering with an individual's work performance or creating an
+intimidating, hostile, or offensive working environment'' as
+actionable as sex discrimination under Title VII.
+
+The controversy over sexual harassment finally led to the 1986
+_Meritor Savings Bank v. Vinson_ Supreme Court decision which
+reaffirmed that,
+
+  Held: A claim of ``hostile environment'' sexual harassment is a form
+  of sex discrimination that is actionable under Title VII.  The
+  language of Title VII is not limited to ``economic'' or ``tangible''
+  discrimination.  [EEOC] guidelines fully support the view that
+  sexual harassment leading to noneconomic injury can violate Title
+  VII.
+
+This is an excellent example of rights expansion.  First, one receives
+the fictitious ``right'' to be free from discrimination.  Then, that
+right expands to include the right to be free from sexual
+``harassment'': a ``hostile environment'' which need not even be
+economic or tangible in basis.
+
+However, the Court was aware of the potential dangers, so it said that:
+
+  ``[M]ere utterance of an ethnic or racial epithet which engenders
+  offensive feelings in an employee'' would not affect the conditions
+  of employment to sufficiently significant degree to violate Title
+  VII. ...  For sexual harassment to be actionable, it must be
+  sufficiently severe or pervasive ``to alter the conditions of [the
+  victim's] employment and create an abusive working environment.''
+
+But who decides what is ``sufficiently severe or pervasive''?  Ray
+notes that he's gotten used to people exploding over the merest
+slights, real or imagined.  Worse, people are now told that they must
+further increase their sensitivity as a means of liberating
+themselves!
+
+In 1991, Congress gave sexual harassment victims the right to a jury
+trial and the right to sue for back pay compensation.  The problem is
+that while juries are understandably hesitant about condemning alleged
+harassers to jail sentences, juries have much less trouble charging
+companies with monetary damages.  And unlike many criminal cases,
+where a ``smoking gun'' needs to be found, a company can be guilty by
+not taking sufficient steps to curb ``hostile environment.''  Merely
+doing nothing may not be good enough in court (``Do you feel
+lucky?'').  One is not so much *prohibited* from engaging in sexual
+harassing behavior so much as one is *obligated* to do something about
+it, or else.  Many companies, finding themselves increasingly at risk
+to ligitation, especially after the Hill-Thomas hearings, began
+curbing the behavior of their employees -- de facto behavior and
+speech codes.
+
+But that a government standard would result in a chilling effect on
+speech, should this not be in violation of the First Amendment?  Yes,
+if certain precedents are any indication.  But the Supreme Court has
+in general been averse to dealing with politically divisive issues,
+issues such as abortion and sexual harassment.  In the recent 1993
+_Harris v. Forklift Systems_ case, the Court did little more than
+weaken slightly the conditions of sexual harassment, and in a speedy
+decision, sent the case back down without ruling on it one way or the
+other.  The First Amendment was mentioned nowhere in the decision:
+
+  Held: To be actionable as ``abusive work environment'' harassment,
+  conduct need not ``seriously affect [an employee's] psychological
+  well-being'' or lead the plaintiff to ``suffe[r] injury.''
+
+  ...
+
+  This standard, which we reaffirm today, takes a middle path between
+  making actionable any conduct that is merely offensive and requiring
+  the conduct to cause a tangible psychological injury. ...  Conduct
+  that is not severe or pervasive enough to create an objectively
+  hostile or abusive work environment -- an environment that a
+  reasonable person would find hostile or abusive -- is beyond Title
+  VII's purview.
+
+But once again, who decides what a ``resonable person would find
+hostile or abusive''?
+
+Now observe rights expansion along a different front: the growth in
+the number of categories protected from discrimination as a result of
+the 1992 Americans with Disabilities Act, which George Bush bragged at
+the 1992 GOP Convention about passing.  So diability is protected from
+workplace discrimination.  But who decides what a disability is, if it
+is based upon the duration, severity, and difficulty of changing the
+said condition?
+
+In July 1993, regarding a Rhode Island district case, the EEOC filed a
+court brief to the First Circuit Appeals declaring extreme obesity a
+disability, thereby opening the door to obesity discrimination suits.
+Amazingly, the EEOC insisted in its brief that,
+
+  although it is possible for an obese individual to lose weight,
+  obesity is a chronic, lifelong condition. ... It is not necessary
+  that a condition be involuntary or immutable to be covered.
+
+The plaintiff's counsel was provided for by, of course, the ACLU.  In
+November 1993, a Boston-based three judge appellate panel ruled in
+favor of the plaintiff citing that,
+
+  In a society that all too often confuses ``slim'' with ``beautiful''
+  or ``good,'' morbid obesity can present formidable barriers to
+  employment.
+
+So it seems that the disabilities act can cover even voluntary or
+mutable conditions that can somehow still be deemed as ``chronic'' or
+``lifelong.''  (Confused?  You should be.)  Alcoholism, for example,
+is protected under disability law.  What next?
+
+I must mention yet another protected category, age, as covered by the
+Age Disabilities Act of 1967.  One must be at least 40 years of age to
+sue for compensation, which can include both back pay as well as
+``front pay'': the damage a person suffers because his or her age
+makes it difficult to easily get another job.  These cases can be
+easier to prove than race or sex based cases, because the employer
+need not be shown to be racist or sexist.  Older people are frequently
+in higher salaried positions and so are often more likely to be laid
+off during company restructurings.  Who can even say if this is age
+bias, or just smart business decision-making?  But government knows
+best.  A recent study by Jury Verdict Research showed that age
+discrimination suits on average win the biggest jury awards.
+
+A major result of anti-discrimination laws is de facto quotas.  Even
+assuming random hiring, probabilistically there will necessarily exist
+companies that will have seemingly ``racist'' hiring patterns.  Since
+one is always potentially liable on charges of race discrimination,
+the question is, ``Do you feel lucky?''  So many employers quietly
+bias their hiring patterns along politically correct lines -- de facto
+quotas.  Also, we are always told how minorities are less financially
+well off, live in worse neighborhoods, and receive poorer educations.
+So should employers happen to hire less people of those minorities,
+who can say that this is racist, or just good business sense?  But
+government knows best.  And what about ``affirmative action'' in
+schools admissions and in government employment?  Isn't that illegal
+discrimination on the basis of race, sex, et. al.?  Silence.
+
+And note the recent fuss with banks being accused of ``racism''
+because many blacks find it harder than whites to get loans.  People
+are upset about this, and once again, government is called upon to
+``do something'' about it.  In the meantime, banks are guilty until
+proven innocent.
+
+In summary, discrimination legislation and jurisprudence will intrude
+more and more upon private property and freedom of association rights.
+So, Ray, though I'd like to think that once one gets out of college,
+that things will get better, I'll note that government is growing
+increasingly intrusive on the discrimination and harassment fronts.
+
+For example, on October 1, 1993, the EEOC put forth trial balloons in
+the form of proposed new guidelines.  The comment period on these
+ended November 30.  In a _Wall Street Journal_ column, ``After
+_Harris_, More Questions on Harassment,'' Ms. R. Gaull Silberman, vice
+chairman of the EEOC in Washington, writes that there are,
+
+  important differences between the EEOC's proposed guidelines, which
+  cover race, color, national origin, gender, age, and disability, and
+  the existing sexual harassment guidelines. ...  Under the proposed
+  guidelines, harassing conduct including ``epithets, slurs, negative
+  stereotyping, or threatening, intimidating, or hostile acts'' and
+  ``written or graphic material that denigrates or shows hostility or
+  aversion toward an individual or group because of (a prohibited
+  basis)'' would establish a hostile environment.
+
+Incredibly, the EEOC proposed to expand the hostile environment clause
+to include ``epithets, slurs, negative stereotyping'' and to greatly
+expand the number of categories covered under harassment to include
+all protected categories, not just gender.  And if the judicial record
+is any evidence, courts have continually reaffirmed EEOC guidelines.
+
+We will soon find out what the new EEOC guidelines will be; perhaps
+the First Amendment criticisms the EEOC has received will convince it
+to deviate from its original plan.
+
+But even if the EEOC is deterred this time, the numbers of newly
+PC-indoctrinated lawyers, judges, and politicians continue to
+increase.  If you think about it, political correctness, legally
+speaking, is almost entirely based on discrimination laws -- bans on
+improper thoughts and actions regarding minorities.  Most importantly,
+many people, lacking a moral defense, cave in on these issues (``Are
+you an X-ist?  How dare you oppose anti-X-ism laws!'').  So until this
+nonsense is stopped, things will only get worse.
+
+On freedom, the analogy is frequently made that if you want to boil a
+live frog, you put it in cold water, and then slowly heat the water to
+a boil.  That is exactly what is happening here: ``But there are too
+many legal precedents now to go back.''
+
+Final remarks:
+
+PC doctrine tells us that in order to liberate ourselves from
+oppression, one of the things we must do is to become supersensitized
+to all the possible things that might hurt or offend one any
+particular group.  Hence, for example, Connecticut's imposition of
+mandatory gender sensitivity training workshops for all sufficiently
+large workplaces.  (At one point, a similar bill passed one house and
+nearly passed the other house of the Massachusetts legislature as
+well.)
+
+But, really, can it possibly be ``liberating'' to enslave one's
+emotions to react to every small bit of perceived offense?  How can
+such behavior be at all rewarding?  Well, in a free market, my guess
+is that it probably wouldn't be (nobody can say for sure).  However
+these days, given the increasing number of and damage awarded in
+discrimination and harassment suits, and that the guiltier one can
+make society feel, the more one can wring concessions for one's group,
+it's the squeaky wheel that gets the grease.
+
+Everything that lies wrong with socialism is that unproductive
+behaviors -- such as hypersensitivity to offense and the blaming of
+everything on discriminatory oppression -- get rewarded.  And by
+robbing from the productive, no less.
+
+-Han Y. Huang                                           hhuang@mit.edu
+
+------------------------------
+
+Date: Wed, 22 Dec 1993 16:31:27 -0500 (EST)
+From: THE KIDD <GCC94ISA02@RCNVMS.RCN.MASS.EDU>
+Subject: unsub
+
+Please unsubscribe me.  Thank you.
+I assume there is a way to exclude this drivel from the public forum, 
+but alas I havn't the time to explore that possibility.  Sorry for the 
+use of disk space.  Happy Holidays!
+--
+in%"gcc94isa02@ecn.mass.edu"
+
+
+
+------------------------------
+
+End of Extropians Digest V93 #356
+*********************************
+

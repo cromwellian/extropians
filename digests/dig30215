@@ -1,0 +1,1049 @@
+From extropians-request@gnu.ai.mit.edu Thu Apr 22 13:10:34 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA04537; Thu, 22 Apr 93 13:10:21 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from churchy.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA07030; Thu, 22 Apr 93 13:10:13 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by churchy.gnu.ai.mit.edu (5.65/4.0)
+	id <AA15032@churchy.gnu.ai.mit.edu>; Thu, 22 Apr 93 15:56:19 -0400
+Message-Id: <9304221956.AA15032@churchy.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Thu, 22 Apr 93 15:55:08 -0400
+X-Original-Message-Id: <9304221955.AA15018@churchy.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0215
+X-Extropian-Date: Remailed on April 22, 373 P.N.O. [19:56:17 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Thu, 22 Apr 93            Volume 93 : Issue 0215
+                        
+Today's Topics:
+                     EPIST: Why do formal systems work?               [1 msgs]
+                                  Earth Day                           [2 msgs]
+                     Forward: Clipper Clippings (part 2)              [1 msgs]
+                           HUMOR: Happy Earth Day!                    [2 msgs]
+                         HUMOR: Schelling point bias                  [3 msgs]
+                           Mathematical Darwinism                     [1 msgs]
+                    PPL/BOOK: Men Are Not Cost Effective              [2 msgs]
+                               Radar Detectors                        [5 msgs]
+                         STEGA: easy veiled messages                  [2 msgs]
+                         Schelling Points and Crypto                  [1 msgs]
+                            Schelling point bias                      [1 msgs]
+                 TECH: Report - Entropic Cost of Computation          [3 msgs]
+                    alt.extropians: proposed FAQ outline              [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 51665 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 22 Apr 93 12:09:20 +0100
+From: Rich Walker <grlw1@cus.cam.ac.uk>
+Subject: STEGA: easy veiled messages 
+
+I always liked the old code system of using abook known by the transmitter
+and the receiver, and letting that provide your code. Pondering the
+transmission of encrypted text invisibly, I came up with a couple of simple
+methods based on primitive automatic-text-generating systems, that can be
+kocjed out in an hour or two if anyone really needs them.
+
+All the methods rely on using the encrypted message instead of a random
+number generator for text generation. Several obvious means of doing so,
+which I'm not going to go into.  Then, take the book in use, and scan it to
+build up a frequency table. Things that can be used for frequencies:
+1. two, three or four letter tuples 
+2. two, three ... word tuples 
+3. grammatical constructs (given some really interesting software, and an
+on-line dictionary) and frequency of words within them.
+
+Then apply an obvious method to generate the text from these.  e.g. 2. for
+3-tuples, given two words, there are n possible words following.  Take
+rnd(n) to choose: this operation loses no information, and so is reversible
+(Note: 'rnd' is, in fact, an appropriate bit of the key, which is itself
+the original encrypted message. Got that?)
+
+This, of course, means that you and I can use any book we oth possess to
+communicate. Or any large block available on-line. Steganography using the
+Gnu C compiler source, tar'd up and gzipped would be mildly amusing; or,
+for that matter, using anything out of Project Gutenberg.
+
+Cracking it? Well, I assume the cracker would need to find the book being
+used to encrypt the text? And have a copy of it. Or, at least, they'd need
+to have the tables extracted from the book. Also, they'd need to notice the
+text; presumably, encrypting your text to look like a news.admin.policy
+flame-war would pretty much eliminate any chance of anyone ever finding it.
+You could even post it there to really confuse the issue...
+
+Rich!
+
+------------------------------
+
+Date: Thu, 22 Apr 1993 08:43:45 -0400 (EDT)
+From: bhaworth@acpub.duke.edu (W. Blair Haworth Jr.)
+Subject: Radar Detectors
+
+> > Anybody have clean info about the merits and use of radar detectors?  I
+> > mean, of course, the sort that one buys to avoid getting speeding tickets.
+> > T.O. Morrow
+
+> A friend once told me he knew someone who was using a device on his car
+> which caused police radar to register a speed about 90 mph faster than the
+> actual speed--far past the point any court would consider plausible.  This
+> was in 1966, when the technology may have been easier to fool.  Does anyone
+> know if this is (or ever was) possible and could it be done within a
+> reasonable budget?
+> Mark Read Pickens   autarch@well.sf.ca.us
+
+It ought to be; it sounds like a basic Doppler velocity gate stealer, a
+staple club in the bag of Electronic Counter-Measures since 1942 or so.  I
+seem to remember a rant published in _Road and Track_ or somesuch maybe
+fifteen years or so ago that actually had some technical clues -
+frequencies, worked-out Doppler shift equations, and so forth - about
+constructing such a jammer.
+
+The really great thing about this is that as long as you don't radiate
+above the 500mW or whatever the FCC allows you, it's probably legal, even
+in Massachusetts, Virginia, or any of the other rectumoid nanny-states
+that include radar detectors among the items prohibited by the annoying
+Burma-Shave-like arrays of no-signs festooning their wretched borders. 
+Unless, of course, they figure out what you're doing and hit you with
+"Obstruction of 'Justice'" or something similarly majestic.
+
+Upon reflection, the legal and regulatory aspects of civilian
+radar-detector marketing/usage may well be directly analogous to the
+current problems of civilian cryptography.  How dare mere citizens use
+devices that inconvenience law-enforcement, especially when they question
+our benevolent intentions and universal competence?  We're here to make you
+Safe, and therefore Happy, so no more of this lese-majeste crap.
+
+Yes.  Pious blather about terrorists and drug dealers aside, you can bet
+that resentment of _lese-majeste_ on the part of the functionaries is at
+the bottom of this.
+
+--Blair Haworth 
+
+
+
+------------------------------
+
+Date: Thu, 22 Apr 1993 08:50:23 -0400 (EDT)
+From: bhaworth@acpub.duke.edu (W. Blair Haworth Jr.)
+Subject: Schelling point bias
+
+David Friedman writes:
+> [...] Of course, since Chicago
+> is a cartesian city (unlike certain other cities which I am too polite to
+> mention to inhabitants of L.A., S.F., and Boston), (0,0) is another
+> possibility.
+
+But Boston isn't just non-cartesian, it's non-euclidian.  What could be
+more extropic? 
+
+------------------------------
+
+Date: Thu, 22 Apr 93 09:23:28 EDT
+From: eisrael@suneast.East.Sun.COM (Elias Israel - SunSelect Engineering)
+Subject: HUMOR: Happy Earth Day!
+
+I awoke this morning to learn that today is Earth Day, which is a pity,
+really, because it means that I haven't had time to make my Earth Day
+T-shirt.
+
+I want a T-shirt that has an image on the front of the Earth in the
+grip of a mailed fist. Underneath, it would say "Earth Day, 1993".  On
+the back, it would say, "Ours by right of conquest to do with what we
+will!"
+
+I love getting in touch with nature, don't all of you?
+
+Elias Israel
+eisrael@east.sun.com
+
+------------------------------
+
+Date: Thu, 22 Apr 93 05:48:18 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: TECH: Report - Entropic Cost of Computation
+
+Derek Zahn:
+
+> 1) You start with the Gibbs (Shannon) definition
+> of entropy for a macrostate, S = -k sum p ln p.  I understand
+> the derivation of this, except for the introduction of
+> boltzmann's constant.  Obviously, any constant would do;
+> what I can't understand is the introduction of the units
+> involved (J/degK).  After deriving a formula that expresses
+> the randomness of a macrostate, it seems fishy to just tack
+> on whatever units are convenient.
+
+I'm not sure what you mean by "deriving" here.  The formula for S is a
+definition, so we have complete freedom to choose anything we want. 
+Suppose, however, we had defined S = - A sum p ln p , where A was
+undefined (including units).  We still get 
+
+    Ni/Nj = exp [-(Ei-Ej)/B]
+
+where B is another undefined constant (but with units of J). 
+Calculating dE/dS gives (for large Ni): dE/dS = B/A.  Just as we can
+*define* temperature as T = B/k so we can choose A = k so that B/A = T,
+to keep it simple.  The units are choosen purely for our convenience.
+
+If you're still unhappy with this then define H = -sum p ln p  and
+replace S in all the equations with kH.  Nothing physically has altered. 
+Instead of        dE = T dS - P dV + u dN
+we have          dE = kT dH - P dV + u dN    etc etc
+
+> 2) In your derivation, you reduce that definition to the Boltzmann
+> entropy definition S = k ln W, where W is the number of microstates
+> in the macrostate.  [...]  However, it assumes that the probabilities
+> of all the quantum states are equal, which doesn't seem justified.
+
+Start with S = -k sum p ln p and vary with respect to p:
+   dS = -k sum (1 + ln p) dp
+      = -k sum ln p dp        (by sum dp = 0, from sum p = 1)
+At equilibrium S is maximised (proof from the Shannon definition) and
+so dS = 0.  Hence ln p = constant.  Hence p = 1/W and
+   dS = -k W * 1/W sum dp = 0
+
+    S = k ln W (at equilibrium)
+
+To generalise we should say:
+
+    S <= k ln W
+
+since we know that non-equilibrium states will have lower entropy.
+Also the dE = TdS - PdV + udN only applies in equilibrium.
+
+> More generally, the Boltzmann definition
+> only applies to systems in equilibrium; an operating nanocomputer
+> is never in equilibrium.
+
+A reversible nanocomputer (or any reversible mechanism) *is* in
+equilibrium.  Calculations of the energy requirements of reversible
+mechanisms are therefore valid from the above equations, using the
+equality.  For irreversible processes we know they are only the lower
+bound (ie we use the inequality).
+
+Hence dE = kT ln2 for the reversible erasure of a bit.
+      dE > kT ln2 for the irreversible erasure of a bit.
+
+> derek
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+PS my thanks to Derek for a reference:
+  Thomas Schneider: Theory of Molecular Machines II
+  Journal of Theoretical Biology (1991) 148, p125-137
+which develops the parallels with Shannon's channel capacity formula and
+nanotechnology/biology.  He, too, says that reversible machines can
+operate slowly and relates this to their channel capacity.  I find this
+depressing it looks like a universal limitation on the speed of
+reversible mechanisms and makes them useless for practical purposes (or
+at least so it seems to me).
+
+------------------------------
+
+Date: Thu, 22 Apr 1993 09:23:18 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Forward: Clipper Clippings (part 2)
+
+Please do not forward this message
+
+The following text is presented for personal educational use only. It
+is not to be copied or otherwise used in a manner which violates
+rights of its copyright holders. This letter serves only as private
+communication to readers of the Extropian Mailing List.
+_________________________________________________________________
+
+
+Copyright 1993 Business Wire, Inc.
+
+Business Wire
+
+April 20, 1993, Tuesday
+
+DISTRIBUTION: Business Editors & Computer Writers
+
+LENGTH: 450 words
+
+HEADLINE: VLSI Technology provides encryption capability; telephone
+security for government agencies first adopters
+
+DATELINE: SAN JOSE, Calif.
+
+BODY:
+
+Incorporating leadership design capabilities and a specialized
+manufacturing process from VLSI Technology Inc., customers can ensure
+the security of data in systems ranging from telephones to video games
+to pay-per-view television.
+
+The result of this capability is that companies can ensure that their
+systems provide secure data and prevent privacy from unauthorized
+sources.
+
+Customized semiconductor chips, known as application-specific
+integrated circuits (ASICs), are designed to a customer's
+specification using VLSI's proprietary FSB library of electronic
+building blocks.
+
+Then VLSI fabricates the chips, using a manufacturing process that
+provides high levels of immunity to visual and electrical probing. The
+opportunity for piracy is reduced as customization is not performed
+during fabrication.
+
+Currently, VLSI is providing design support and commercial
+manufacturing services for the "Clipper" chip developed by Mykotronx
+of Torrance, Calif. The Clipper chip is the first in a series of ASICs
+that VLSI will provide to Mykotronx for use in secure communications
+equipment.
+
+Ray Slusarczyk, director of market development for VLSI Product
+Divisions, said, "Traditionally, security issues have been principally
+a government concern. However, as we move into the age of building
+global information highways, the need for both individual and business
+information security becomes a necessity for the world community.
+
+"VLSI provides the technology that makes this transition occur in a
+way that is automatic and easy to use by consumers."
+
+VLSI estimates that the market for its encryption products could
+account for approximately $100 million over the next three years. The
+company says it sees application for its products in a myriad of
+applications in the following categories: (1) broadcast
+communications, such as cable television, pay-per-view programming;
+(2) general communications, such as cellular phones, facsimile
+machines, voice-and-data encryption; (3) financial services, such as
+smart cards and automatic teller machines; (4) software copy
+protection for CD ROMS, electronic games, and many other areas.
+
+VLSI Technology Inc. (NASDAQ:VLSI) produces application-specific
+integrated circuits and application-specific standard products
+targeted for personal and general computing, communications,
+industrial, consumer, government applications, and through its COMPASS
+Design Automation Inc. subsidiary, specialized electronic design
+automation tools and libraries. The company, which is based in San
+Jose, employs approximately 2,400 people worldwide.
+
+CONTACT: VLSI Technology Inc.
+
+Barbara Kalkis, 408/434-7726
+
+
+
+ORGANIZATION: VLSI-TECHNOLOGY
+
+TICKER-SYMBOL: VLSI
+
+GEOGRAPHIC: CALIFORNIA
+
+
+
+INDUSTRY: COMPUTERS/ELECTRONICS PRODUCT
+
+CO: VLSI TECHNOLOGY INC;
+
+TS: VLSI (NASDAQ);
+
+IND: 171 ELECTRONIC EQUIPMENT MANUFACTURERS;
+
+Copyright 1993 Business Wire, Inc.
+
+Business Wire
+
+April 19, 1993, Monday
+
+DISTRIBUTION: Business Editors & Computers/Electronics Writers
+
+LENGTH: 697 words
+
+HEADLINE: Mykotronx develops "Clipper" chip designed to ensure
+communications privacy
+
+DATELINE: TORRANCE, Calif.
+
+BODY:
+
+"Securing the world of communications bit by bit" is not only the
+motto but the guiding philosophy of Mykotronx Inc., a Torrance small
+business specializing in the design and manufacture of unique digital
+components and equipment.
+
+Mykotronx Monday announced the introduction of an electronic chip --
+designated "Clipper" -- that it believes will ensure the protection of
+sensitive information transmitted via cellular or regular phones,
+computer networks or fax machines. This chip and follow-ons will also
+find application in many other systems, e.g., cable TV and personal
+computers.
+
+Leonard J. Baker, president of Mykotronx, said: "This chip is a good
+example of the transfer of military technology to the commercial and
+general government fields with handsome cost benefits. For 15 years we
+have been evolving this technology to protect government and
+commercial spacecraft from being tampered with and to protect the data
+transmitted by the spacecraft to its ground users. This technology
+should now pay big dividends to U.S. taxpayers."
+
+Economic data of incalculable value is transmitted each day over
+various telecommunications media, including telephones, facsimiles,
+telex, cable and other communications networks. Each message is
+vulnerable to interception through relatively simple techniques.
+
+Exploitation of illegally obtained information can do tremendous
+damage to the parties involved, ranging from embarrassment to the loss
+of hundreds of millions of dollars to a hacker who knows the specifics
+of a competitor's business plans.
+
+Said Baker: "Just as technology provides the means for communicating
+the data, it can now minimize the threat of its loss."
+
+It is in this arena that the chip developed by Mykotronx comes into
+play. It contains an ENCODE and DECODE capability using the
+government's recently announced new algorithm (more than 16 million
+times more keys than available on DES -- the existing system) to
+defeat hackers or eavesdroppers attempting to intercept voice or data
+messages.
+
+This first of a series of Mykotronx chips, developed by a team under
+the direction of Richard J. Takahashi, vice president of engineering,
+has been delivered to AT&T for use in its Telephone Security Device
+(TSD). This device, placed between the handset and base of an ordinary
+telephone, allows the encryption and decryption of conversations so
+that eavesdropping cannot occur.
+
+This inexpensive capability will first be utilized by government
+agencies to protect sensitive conversations. A similar chip has been
+delivered to Motorola for use in its secure telephone products and
+digital radios. More advanced chips, those that protect other data
+transmissions, will be available in the coming months.
+
+These chips are manufactured by VLSI Technology Inc. of San Jose,
+Calif., using its unique FSB technology. VLSI was selected by
+Mykotronx based on its ability to develop high-performance
+semiconductor chips.
+
+Mykotronx, a.k.a. Myko, was founded by Robert E. Gottfried and Kikuo
+Ogawa to develop cryptographic units to protect the communication
+channels between spacecraft and ground stations. The company has
+delivered equipment to the Department of Defense, NASA and most
+aerospace companies.
+
+The strength of Mykotronx lies in its people and their unrelenting
+drive for excellence. Their "can-do" attitude has allowed the company
+to deliver high-quality products on very short time schedules.
+Mykotronx has received numerous commendations for its quality program
+and was recently named "Supplier of the Year" for the second
+consecutive year by IBM's Federal Systems Co. of Boulder, Colo.
+
+Sales of more than $5 million in 1992 are expected to double in 1993.
+Transferring this technology from spacecraft to everyday uses will
+allow the company to fulfill its ambitious motto of "Securing the
+world of communications bit by bit."
+
+For further information concerning these products, contact John C.
+Droge, vice president of program development, at 310/533-8100, or fax
+310/533-0527.
+
+CONTACT: Mykotronx Inc., Torrance
+
+John Droge, 310/533-8100 (phone)
+
+310/533-0527 (fax)
+
+
+
+ORGANIZATION: MYKOTRONX -INC
+
+GEOGRAPHIC: CALIFORNIA COLORADO
+
+
+
+INDUSTRY: COMPUTERS/ELECTRONICS PRODUCT
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Thu, 22 Apr 93 13:14:40 BST
+From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+Subject: STEGA: easy veiled messages
+
+Rich Walker writes:
+[hide encrypted message by using it as the random input to a random
+text-generator]
+
+If anyone wants to try this, I wrote a program for random text generation a
+few years ago, for Unix or similar systems.  It uses three or four-letter
+tuples.  I posted it at the time to comp.sources.misc, called names2.  It
+may be in an archive somewhere, or I can email a shar archive to anyone who
+wants it.  I've also heard of a program for the PC called Travesty which
+does the same, but I don't know if source code is available for it.
+
+--                                ____
+Richard Kennaway                  \ _/__    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk       \X  /    University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk      \/     Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Thu, 22 Apr 93 13:15:09 BST
+From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+Subject: TECH: Report - Entropic Cost of Computation
+
+Mike Price writes:
+>Hence dE = kT ln2 for the reversible erasure of a bit.
+
+Reversible erasure sounds like a contradiction in terms. Clarify?  I
+understood that in theory reversible computers need consume no energy at
+all, or at least arbitrarily little.  Cf. Toffoli's billiard ball machines,
+and the CVV*RC/T formula for reversible electronics.
+
+>PS my thanks to Derek for a reference:
+>  Thomas Schneider: Theory of Molecular Machines II
+>  Journal of Theoretical Biology (1991) 148, p125-137
+>which develops the parallels with Shannon's channel capacity formula and
+>nanotechnology/biology.  He, too, says that reversible machines can
+>operate slowly and relates this to their channel capacity.  I find this
+>depressing it looks like a universal limitation on the speed of
+>reversible mechanisms and makes them useless for practical purposes (or
+>at least so it seems to me).
+
+Depends on the constants of proportionality.  If they dictate an upper
+speed, say, in the teraterahertz region, we've a way to go yet.
+
+If there is a fundamental limit on the speed or energy requirements of
+reversible computation, it might come from answering the following
+question: is there, independently of the nature of the system, a lower
+bound on the energy that must be supplied in order to cause a reversible
+change of state of a given "magnitude" (however that is measured) to happen
+in a given finite time, and to observe that change?  (And can the
+observation of the change be reversible?  I suspect there are deep
+questions of quantum mechanics here, not just thermodynamics.)
+
+--                                ____
+Richard Kennaway                  \ _/__    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk       \X  /    University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk      \/     Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Thu, 22 Apr 93 10:19:46 EDT
+From: Brian.Hawthorne@East.Sun.COM (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: HUMOR: Schelling point bias
+
+> But Boston isn't just non-cartesian, it's non-euclidian.  What could be
+> more extropic? 
+
+Or as Garrison Keillor said years ago:
+
+"It's the only place where two roads can be both parallel and perpendicular
+to each other at the same time..."
+
+------------------------------
+
+Date: Thu, 22 Apr 93 10:35:32 EDT
+From: Andrew S Hall <ashall@magnus.acs.ohio-state.edu>
+Subject: Schelling Points and Crypto
+
+Just an amusing observation from both topics:
+
+In _The Sign of the Four_, Sherlock Holmes receives an encrypted message
+for which he has no key. He works out what is basically a Schelling
+Point for the text used to encrypt it. (It is in the form of using
+a book for the key.) He deduces that it must be an almost universal
+book like an almanac. (The bible is dismissed since there are so many
+printings.) After using the most current (as in released days ago) and
+failing, he sucessfully uses the previous edition.
+
+Just kind of combines two things being discussed.
+
+A.
+
+Techno-Anarchy.Neophilia.Economic Freedom.Cryptography.Anti-Statism.Personal
+Liberty.Laissez-Faire.Privacy Protection.Libertarianis.No Taxes.No Bullshit.
+**********            Liberty BBS 1-614-798-9537                  **********
+**********           Dedicated to Freedom. Yours.                 **********
+
+------------------------------
+
+Date: Thu, 22 Apr 93 9:42:09 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: TECH: Report - Entropic Cost of Computation
+
+Thanks once again to Mike Price for his comments.
+
+> I'm not sure what you mean by "deriving" here.  The formula for S is a
+> definition, so we have complete freedom to choose anything we want. 
+
+What I meant was that we want the formal definition of entropy to
+have certain properties:  we want it to measure the "uncertainty"
+of which microstate a macrostate is in (we want it to be zero when
+we know the microstate, and maximum when all are equally probable),
+and we want it to be extensional.  The "derivation" I meant was
+simply finding such a function --
+
+-C * sum[i] pi ln pi
+
+fits the bill.  A result from information theory says that a
+function of this form is the ONLY one that fits such a bill.
+[See, e.g., Khinchin's _Mathematical Foundations of Information
+Theory_, theorem 1, page 9].
+
+My unhappiness does not involve this, but rather involves the
+subsequent step of expressing "uncertainty of microstate" or
+(accepting equilibrium arguments) "number of microstates" in
+units of energy/temperature.  Also, note that I'm not trying
+to be difficult or unreasonably disbelieving of introductory
+thermodynamics; I become more convinced by the day.... I'm
+just trying to understand so that I can replace the lamentation
+in my previous essay with a concrete explanation of quantitative
+entropic costs of phase space volume reduction.
+
+Your alternatives also seem to do the same thing -- slide that "k"
+in (with units) at some point "purely for our convenience".  Don't
+reply to this point for now, if you don't want, though; I'm planning to
+go see a thermo prof here at UW about it; I feel that a shorter
+round-trip time will be helpful in clearing up my problem.  I
+also want to ask why we couldn't use a base-2 log in the definition
+of S, which would seem (probably doesn't but I don't know why) to
+change the cost of bit erasure.
+
+> At equilibrium S is maximised
+
+On this point, the text I was using defined the approach to equilibrium
+is the approach to SOME constant value of S; not necessarily the
+maximum, which was the source of my question.  I got another rather
+different book that presented it this way (paraphrased):
+
+Postulate: at equilibrium, all the p[i] are equal.  This just seems
+to be true.  Nobody doubts it.  It works.  Most of the rest of the
+book is based on it, so if you don't believe it, throw the book away.
+But you should believe it.  It is equivalent to the second law of
+thermodynamics.
+
+So OK, my skepticism has limits, and I'll accept it.
+
+> A reversible nanocomputer (or any reversible mechanism) *is* in
+> equilibrium.
+
+Hmm.  I thought you defined equilibrium as "all microstates (exact
+particle positions) equally probable."  But while it's computing,
+the machine state changes... I suppose that we could ignore the
+state transitions and just deal with individual states... I agree
+that while in a particular state the machine is in equilibrium
+(if the microstate probabilities are equal in the start state, they
+have to be for all subsequent states).  Though it makes me a bit
+uncomfortable, I guess I can live with it.
+
+derek
+anybody looking to hire a clueless thermodynamicist?  cheap
+rates, willing to learn....
+
+------------------------------
+
+Date: Thu, 22 Apr 93 10:00:59 -0500
+From: elee9sf@Menudo.UH.EDU
+Subject: Mathematical Darwinism 
+
+extr@jido.b30.ingr.com (Craig Presson) wrote: 
+> only during the last 250 of which has there been the slightest hint
+> of pure mathematics -- that is, math theories so abstract that we
+> think they can't possibly describe anything in the real world.
+
+Neil Hammar wrote:
+>     A PhD mathematician used to brag to his collegues that his work
+> was so "pure" that it would never have any practical use at all. He
+> seemed to think this made him a better mathematician than anyone who
+> did applicable work.
+>     His work is now the basis for public key encryption. (Never came
+> kinda fast, didn't it?)
+
+Yeah, and from a crypto course I took, I beleive it was the
+mathematician Carmichael (Carmichael numbers) - although I'm not
+positive...it's been a few semesters.  Carmichael would often say, in
+regards to his affinity for number theory, that he like it because it
+had no real-world applications.  I guess he'd be pretty upset now!
+
+It is difficult sometimes to see the application that a particular
+branch of mathematics will have - for example, when the concept of
+imaginary numbers were proposed.  But I learned from my former EM
+graduate work to not ask how mathematics can be applied :-)
+
+/-----------------------------------\
+| Karl L. Barrus                    |
+| elee9sf@menudo.uh.edu             | <- preferred address
+| barrus@tree.egr.uh.edu (NeXTMail) |
+\-----------------------------------/
+
+------------------------------
+
+Date: 22 Apr 1993 11:45:30 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: HUMOR: Happy Earth Day!
+
+No matter how you cut it, I find any celebration of Earth Day extremely
+offensive -- it is intentionally celebrated on Lenin's birthday.
+Hey, let's also celebrate Stalin's and Hitler's birthday, after all
+why not be consistent.
+Krzys'
+
+------------------------------
+
+Date: Thu, 22 Apr 93 09:03:07 PDT
+From: desilets@sj.ate.slb.com  (Mark Desilets)
+Subject: Radar Detectors
+
+Blair Haworth gibes:
+
+> ... it's probably legal, even
+> in Massachusetts, Virginia, or any of the other rectumoid nanny-states
+> that include radar detectors among the items prohibited by the annoying
+> Burma-Shave-like arrays of no-signs festooning their wretched borders. 
+> Unless, of course, they figure out what you're doing and hit you with
+> "Obstruction of 'Justice'" or something similarly majestic.
+
+
+  This gets my vote for extropian quote-of-the-month!
+  
+  
+  																	Mark
+  																	
+==============================================================================
+| DoD #1.03144248E28 |  Vote Libertarian  |   Mark DeSilets (408)437-5122    |
+| Redskins, Orioles  |                    |   desilets@sj.ate.slb.com        |
+==============================================================================
+|        Defeat the wiretap chip proposal.  Call your congresscritter.       |
+==============================================================================
+|              Laete paschimur quos nos domare volunt                        |
+==============================================================================
+  																	
+
+------------------------------
+
+Date: Thu, 22 Apr 1993 09:52:17 -0800
+From: lefty@apple.com (Lefty)
+Subject: HUMOR: Schelling point bias
+
+>> But Boston isn't just non-cartesian, it's non-euclidian.  What could be
+>> more extropic? 
+>
+>Or as Garrison Keillor said years ago:
+>
+>"It's the only place where two roads can be both parallel and perpendicular
+>to each other at the same time..."
+
+I'm not sure it's the _only_ place.  In New York City, Waverly Place
+intersects Waverly Place down in Greenwich Village.
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: Thu, 22 Apr 1993 09:59:08 -0700
+From: Mark Read Pickens <autarch@well.sf.ca.us>
+Subject: Earth Day
+
+> No matter how you cut it, I find any celebration of Earth Day extremely
+> offensive -- it is intentionally celebrated on Lenin's birthday.
+ 
+> Krzys'
+ 
+I suspect this merely a coincidence.  Does anyone know which group started
+the Earth Day celebration and how that particular day was actually chosen?
+(Incidentally, it's not Lenin's birthday, it's his birthday aniversary.)
+ 
+Mark Read Pickens   autarch@well.sf.ca.us
+ 
+"Common sense is that set of prejudices we pick up before our sixteenth
+birthday (aniversary)."  Albert Einstein
+
+------------------------------
+
+Date: Thu, 22 Apr 93 12:48:54 CDT
+From: lists@alan.b30.ingr.com (Alan Barksdale (lists))
+Subject: HUMOR: Schelling point bias
+
+> > But Boston isn't just non-cartesian, it's non-euclidian.  What could be
+> > more extropic? 
+[...]
+> "It's the only place where two roads can be both parallel and perpendicular
+> to each other at the same time..."
+
+These remarks relate obliquely to extropianism through the general topic of
+"how headcheese works":  About seven years ago in _Psychology_Today_ was an
+article on how people interpret maps.  One conclusion was that in people's
+internal maps, roads are nearly always either parallel or perpendicular to
+each other.  I've wondered whether this characteristic is innate or depends on
+age, culture, or education.
+
+Btw, another conclusion was that "You Are Here" maps with up=forward,
+right=right, left=left, and down=behind are easier for most people to
+interpret.
+______________________________________________________________________________
+|   ...get your carrot juice elsewhere, you puling, bunny-hugging little     |
+|   vegatwit.  Exploitation, my ass; animals are lower life forms, and they  |
+|   exist for us to eat.  They exist at our pleasure; our collective boot is |
+|   planted quite firmly on their collective throat.  Man rules!             |
+|                                       --- Geoff "Mr. Alt.tasteless" Miller |
+| Alan Barksdale -- uunet!ingr.com!b30!alan!alan -- alan@alan.b30.ingr.com   |
+| -- ingr.com!b30!alan!alan@uunet.UU.NET -- afbarksd@infonode.ingr.com --    |
+
+------------------------------
+
+Date: Thu, 22 Apr 93 11:27:15 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: Radar Detectors
+
+> A friend once told me he knew someone who was using a device on his car
+> which caused police radar to register a speed about 90 mph faster than the
+> actual speed--far past the point any court would consider plausible.  This
+> was in 1966, when the technology may have been easier to fool.  Does anyone
+> know if this is (or ever was) possible and could it be done within a
+> reasonable budget?
+
+Check out various "subversive" rags, like 2600, and the archive of such mat-
+erial at ftp.eff.org (look in /pub/cud/journals, and one other dir I forget 
+the name of.  I have a friend who swears he could build a blackbox that will
+BLOW OUT all radar detectors within a 3-8 mile radius (of course it requires
+a very sizable battery, and drains the whole thing in a few seconds, but oh
+well.  I think it has something to do with radar guns' circuitry having a very
+low threshold, and high sensitivity.  Sorry, I don't know the tech lingo for
+that stuff.)
+
+Anyway, my real point was going to be "don't bother":  cops are switching to
+laser speed-guns, and those are pretty damned hard to defeat from what I hear,
+if it is possible at all.  Only thing they lose out on is they only work line-
+of-sight (equiv. to "instant on radar"), so they may still use "round the 
+corner" radar to get a preliminary fix on you.
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Thu, 22 Apr 93 11:35:12 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: alt.extropians: proposed FAQ outline
+
+>    The negative majority opinion, however, is not as large as might
+> be thought.  Four communicators expressed a desire for a more public
+
+Make that five.  I see a definate prob: this list has too-high a volume.
+Even people like myself that spend half their time at work reading email
+have a hard time keeping up.  I keep seeing a lot of sign-off messages,
+too.  One good thing about a newsgroup is that one can use trn or other
+threaded readers and slaughter entire threads wholesale.  Tired of hearing
+about Clipper?  Kill it.  Then get back to your discussion of time travel
+or whatever.  My suggestion for alt.extropians is don't boycott it.  It 
+won't work.  Take it over.  Then make this list more exclusive (not nec-
+essarily private in any way, but demand a better s:n ratio.  Make noisy
+people like me hang out on the group.  *I* won't mind.  I am hard to get
+along with, and I know it.  If there'd been a group, I would have hit 
+that first anyway.  I am getting almost 400 emails per day now, and well
+something will have to go.  
+
+>  Just say NO to Clinton's telephone-wiretap electronic chip proposal!
+
+Damn straight.
+
+--
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Thu, 22 Apr 1993 13:09:08 -0500
+From: pgf@srl02.cacs.usl.edu (Phil G. Fraering)
+Subject: PPL/BOOK: Men Are Not Cost Effective
+
+Dale talks about how old inexperienced drivers are just as
+safe as old experienced drivers, and that it's all due to
+age, not experience.
+
+This isn't true according to the state of La.'s insurance
+companies' acturial tables. Everyone's rates went up when
+Andrei Codrescu got his liscence.
+
+Phil
+
+Okay, here's a smiley, dammit: ;-)
+
+------------------------------
+
+Date: Thu, 22 Apr 93 13:37:47 EDT
+From: Brian.Hawthorne@East.Sun.COM (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: Radar Detectors
+
+> Blair Haworth gibes:
+> 
+> > ... it's probably legal, even
+> > in Massachusetts, Virginia, or any of the other rectumoid nanny-states
+> > that include radar detectors among the items prohibited by the annoying
+> > Burma-Shave-like arrays of no-signs festooning their wretched borders. 
+> > Unless, of course, they figure out what you're doing and hit you with
+> > "Obstruction of 'Justice'" or something similarly majestic.
+> 
+> 
+>   This gets my vote for extropian quote-of-the-month!
+
+Just be sure you correct it first. Massachusetts has no laws against
+radar detectors. You must be thinking of our neighbors to the south 
+(Connecticut).
+
+------------------------------
+
+Date: Thu, 22 Apr 93 11:28:29 -0700
+From: gdale@apple.com (Geoff Dale)
+Subject: PPL/BOOK: Men Are Not Cost Effective
+
+Dale sez:
+>Actually, statistically, the excess risk of beginning drivers is
+>correlated not with their inexperience, but with age...  Old
+>inexperienced drivers are no riskier than old experienced drivers.
+
+I have no idea whether the statistics back you up on this claim.
+
+I'm not sure of the significance of this, but I know some insurance
+companies are switching from age to how long you've been driving. They may
+be responding to pressure to avoid "age-ist" discrimination.
+
+Since I didn't get my license right when I was 16, I was recently bit by
+this. Oh well, I don't mind paying money to back up my principles.
+
+Geoff Dale   -- insert standard disclaimers here --   gdale@apple.com
+"I learned early that crying out in protest could accomplish things." 
+ -- Malcolm X (from his autobiography)
+
+
+------------------------------
+
+Date: 22 Apr 1993 14:38:04 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: Earth Day
+
+"> No matter how you cut it, I find any celebration of Earth Day extremely
+> offensive -- it is intentionally celebrated on Lenin's birthday.
+
+> Krzys'
+
+I suspect this merely a coincidence.  Does anyone know which group started
+the Earth Day celebration and how that particular day was actually chosen?
+(Incidentally, it's not Lenin's birthday, it's his birthday aniversary.)
+
+Mark Read Pickens   autarch@well.sf.ca.us"
+
+It is not a coincidence. I do not have the references here, but I do know
+for certain that Lenin's birthday was picked intentionally.
+Krzys'
+
+------------------------------
+
+Date: Thu, 22 Apr 1993 13:42:42 -0500
+From: pgf@srl02.cacs.usl.edu (Phil G. Fraering)
+Subject: Radar Detectors
+
+>...laser speed guns, and those are pretty damned hard to defeat from...
+
+Wanna bet?
+
+Idea futures strike again!
+
+Phil
+
+------------------------------
+
+Date: Thu, 22 Apr 1993 02:57:14 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: EPIST: Why do formal systems work?
+
+Dan Davis:
+> Whatever system provides the best predictive power is the one to use,
+> regardless of the number of entities involved. 
+
+This disregards computational speed, which is critically
+important, in terms of human learning curves as well as
+machine computation.  Scientists must trade off predictive
+power vs. the ability to understanding, communicate and use
+theory.  The rule of thumb Occam's Razor catches this nicely.  
+
+For example, epicycles had quite good predictive power, but they 
+were too cumbersome to work with, and were replaced by the simpler
+Copernican model and Kepler's laws.  This in turn reduced 
+computational complexity to the point where Newton could build
+on the model to develop laws of gravitation, etc.  Newton's
+laws of gravitation might have been derived from epicycle theory,
+but it would have been *much* more complex, so much so that
+the ideas probably would not have occured to Newton, perhaps
+would not have emerged until the era of modern computers, which would
+likely be needed to crunch the differential equations falling out of 
+the epicycles.
+
+Logarithms are another example of reducing computational complexity.  
+I might go so far as to say that the goal of science is to 
+minimize the computational complexity of predicting the world.
+
+> By what standard is one thing simpler than another? 
+
+Two standards might be used: entropy (in information theory)
+and computational complexity.  Neither is arbitary.
+
+In fact, I would be *awfully* surprised if somebody hasn't
+formalized Occam's Razor in terms of information theory
+or computational complexity.  Anybody know of such work?
+
+Nick Szabo				szabo@techbook.com
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0215
+****************************************
+

@@ -1,0 +1,122 @@
+From extropians-request@gnu.ai.mit.edu Wed May 26 03:53:17 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA00407; Wed, 26 May 93 03:53:16 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA05823; Wed, 26 May 93 03:53:15 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA09858@wookumz.gnu.ai.mit.edu>; Wed, 26 May 93 06:41:10 -0400
+Message-Id: <9305261041.AA09858@wookumz.gnu.ai.mit.edu>
+To: ExI-Essay@gnu.ai.mit.edu
+X-Original-Message-Id: <m0nyIvi-000hlWC@techbook.techbook.com>
+From: szabo@techbook.com (Nick Szabo)
+Subject: Drexler Assemblers and the Origin of Life
+X-Original-To: extropians@gnu.ai.mit.edu, exi-essay@gnu.ai.mit.edu
+Date: Wed, 26 May 1993 03:41:44 -0700 (PDT)
+X-Extropian-Date: Remailed on May 26, 373 P.N.O. [10:41:08 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Drexler Assemblers & The Origin of Life
+---------------------------------------
+Copyright 1993 by Nick Szabo
+permission to archive & forward granted
+
+The question "how difficult will it be to make a Drexler assember"[0]
+often gets translated to "how hard is self-reproduction?"  Its difficulty 
+has sometimes been compared to the 3.5 billion years of "computing time" 
+in which life has been searching the space of fit DNA replicators, but
+this is the wrong timeframe.  Genetic evolution presupposes the
+capability for reproduction.  A better timeframe is how long 
+it took to get from the first simple autocatalytic sets to
+the first replictor.  An autocatalytic set is a network of catalyzed 
+chemical reactions with nonlinear feedback: pre-replicator metabolisms.
+
+Using DNA editing-distance analysis, the first organisms are believed
+to have been non-photosynthetic bacteria[1].  By 3.5 billion years ago, 
+life had already progressed to the level of complex colonies of 
+photosynthetic microorganisms[2,3].  The oldest known terrestrial
+rocks date back c. 3.8 billion years, near the end of the late
+heavy bombardment.  This gives a relatively small upper bound of
+300 million years for reproducing DNA to have emerged from autocatalytic 
+sets of simple amino and nucleic acids, sugars, lipids, etc.
+
+An interesting question arises: what is the computational capability of 
+an autocatalytic set?  Does an autocatalytic set do a random or cumulative 
+search?  Bagley & Farmer [4] have developed a computational model of 
+poly-symbols with catalyzed cleavage and condensation reactions, studying 
+the properties of a well-stirred reactor driven away from equilibrium
+by the flow of mass.  Their Platonic metabolisms can repair themselves 
+and propagate through time.
+
+Catalysts work by reducing the energy hump chemicals need to climb
+in order to react.  Even the simplest bacteria contain thousands
+of such catalysts, called enzymes, constructed from a 20-odd
+amino acid alphabet by ribosomes from instructions encoded 
+in nucleic acids.  The probability that both enzymes and templates 
+could be created through a statistical fluxuation is effectively nil.
+Bagley & Farmer have found that their catalytic reaction networks
+can focus most of the primitive materials into a few chemical
+species give:
+
+* system driven appropriate distance from equilibrium
+* condensation favored over cleavage
+* diverse kinetic paramaters
+
+Bagely & Farmer's method may be comparable to a parallel simulated
+annealing.  Simulating annealing in turn is equivalent to a 1-gene
+genetic algorithm.  How do autocatalytic sets compare computationally
+to genetic algorithms?
+
+For one thing, they can generate a lineage of related autocatalytic
+metabolisms.   They propagate specific information through time,
+namely their their unique polymer sequence. This suggests we should 
+compare "metabolic operators" involved in such transitions to genetic 
+operators like crossover and mutation.   Indeed, via cleavage and
+condensation, something very much like genetic crossover is performed,
+most often end-to-end:
+	abcbabb + bcddaaa --> abcbabbbcddaaa
+This metabolic "reproduction" occurs more continuously and with less 
+fidelity than genetic reproduction.  A complex polymer can be
+easily extinguished if cleavage outraces condensation, but it
+can also be weighted down if it is condensed with junk.  
+Combinations that can catalyze their own condensation from
+more primitive elements are more likely to perpetuate themselves.
+Fit "genomes" are linked not physically but by their capability to 
+reduce the energy levels of each other's condensations.
+
+So it seems that replication per se is not hard at all.  Crystals
+can be considered as tiny genetic codes, and indeed simulated
+annealing is computationally equivalent to a single-point genetic
+algorithm.  Simple autocatalytic sets can also propagate their
+own patterns. The complexity of life lies in its generality: DNA 
+replicators can produce far more varied forms and accomplish far many 
+more tasks than crystals or simple autocatalytic sets.  First via their 
+generality, and then via their stability, life has gobbled up all the 
+amino and nucleic acids that once were found in autocatalytic sets.  
+Even better, these replicators may have extended the scope of those 
+autocatalytic sets from incestuous cannibals to the ability to
+manufacture new nucleic and amino acids out of even simpler building
+blocks. 
+
+The main task of a Drexler assembler is not just to 
+reproduce, but to produce a variety of interesting things for us in the
+bargain.  The computational complexity of manufacturing variety
+should be the main goal of our efforts, not the computational complexity
+of reproduction, which can be simplified as much as we like until
+we're left with trivially replicating crystals.
+
+[0] Drexler, _Nanosystems_, 1992
+[1] Woese, paper in Microbiological Reviews, June 1987
+[2] Morrison & Owen, _The Planetary System_, 1987
+[3] A paper in the April 30th issue of _Science_ describes microfossils
+found dating back to 3.48 billion years BP.
+[4] Bagley & Farmer, "Spontaneous Emergence of a Metabolism",
+_Artifical Life II_, Langton ed. 1992
+
+Nick Szabo				szabo@techbook.com
+

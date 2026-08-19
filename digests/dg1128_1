@@ -1,0 +1,1001 @@
+From extropians-request@extropy.org Sun Nov 28 19:55:50 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA28319; Sun, 28 Nov 93 19:54:59 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA18538; Sun, 28 Nov 93 19:54:50 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA07660
+  (5.65c/IDA-1.4.4 for more@usc.edu); Sun, 28 Nov 1993 22:51:16 -0500
+Date: Sun, 28 Nov 1993 22:51:16 -0500
+Message-Id: <199311290351.AA07660@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: November 29, 373 P.N.O. [03:50:51 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Mon, 29 Nov 93             Volume 93 : Issue 332
+
+Today's Topics:
+                        Copyright under Crypto Anarchy                [8 msgs]
+                    David Friedman's Copyright Proposal...            [2 msgs]
+             Iceland's centralized PPL (reply to David Friedman)      [1 msgs]
+                                  meta: stat                          [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 54054 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 26 Nov 1993 23:53:54 -0500
+From: ddf2@postoffice.mail.cornell.edu (David Friedman)
+Subject: Copyright under Crypto Anarchy
+
+There has been an interesting thread recently on alt.politics.datahighway,
+concerning the problem of rewarding authors in a world of machine readable
+books, anonymity, etc. It was started by someone who argued that copyright
+was unenforcable in that context, and suggested a government run archive
+for all published works, with authors paid (out of tax money) a fee that
+was proportional to the number of people who accessed their work and an
+increasing function of the size of the work. I thought people on this list
+might be interested in my solution to the problem of copyright in such a
+world. I do not know how much of it has been proposed before by others. The
+following is a slightly edited version of what I just posted.
+
+------
+
+After thinking about it, I believe I have a solution to the problem of
+copyrights in a world of widespread encryption, anonymous remailers, and
+associated technology. It works as follows:
+
+I am an author. I offer my work for sale on the following terms. The
+purchaser agrees to pay me for a license which does not include the right
+to pass on the work, in machine readable form, to anyone else who will then
+make it available on line. He further agrees to pay me damages if any copy
+of his copy is made available on line.
+
+Enforcing this contract involves two problems--determining whether it has
+been violated and collecting damages. To solve the first, I provide every
+purchaser with his own custom version of the work, and send it to him
+encrypted with his public key--thus guaranteeing that if it gets out (in
+decrypted form) it is his fault.
+
+By a custom version of the work, I mean a version which has been altered in
+a way that makes it possible to identify future copies of it. A simple
+version of this idea has been used by  encyclopedias for a long time. They
+put in a few bogus entries, to make it possible to prove that a competing
+encyclopedia was copied from them. In my version, the identification is
+different for each customer. It could include features such as occasional
+deliberate misspellings, a particular pattern of variant sentences,
+messages encoded in the low bits of graphic images, et multae caetera.
+Enough is put in so that someone who copies and tries to eliminate all of
+the special features is likely to fail.
+
+What about collecting damages? In the world I am describing, someone can
+make an enforcable contract in at least two different ways. First, he can
+do business under his true name and live in a jurisdiction that enforces
+contracts. Second, he can post a bond with some reliable third party, with
+part of the bond forfeiting if he is adjudged guilty of contract violation.
+The former method puts him under public law, the latter under the private
+law (i.e. arbitration) used by the reliable third party. I, as an author,
+will send my work only to people who have made it possible for me to
+collect damages from them if they let it out.
+
+Note that in such a world, there will be a market for reliable third
+parties and ways of producing them. One way is to do business under your
+true name in a jurisdiction that enforces contracts. Another is to build up
+enough reputational capital (under your public name) so that it is more
+profitable to remain reliable.
+
+A problem that may occur to some of you is the risk of opportunistic
+behavior by the author. Suppose I anonymously send copies of several marked
+copies I have sold to several pirate archives, they put them on line, then
+I claim that my customers have let the work out and sue them. There are two
+solutions to this problem:
+
+A. Legal rules such that the damages minus my litigation costs are less
+than the cost to me of the work getting out, but the damages plus my
+customer's litigation costs are more than what he can sell his copy to the
+pirate for. If necessary, the difference between the cost to him of losing
+the litigation and the benefit to me of winning it can be made larger by
+having part of his damage payment go to a charity or other third party.
+
+B. The use of a trusted intermediary. I send my work to the trusted
+intermediary. It prepares the custom copies and sends them out, keeping
+records so that it can determine whose original a copy was made from.
+Presumably there would be firms in the business of doing this.
+
+A possible objection to this is that a reader is risking a large liability
+judgement if his copy somehow gets out. But under current institutions,
+every driver takes similar risks. Drivers are insured--and readers could
+be. Also, in a world of widespread encryption, keeping things from
+accidentally getting out should be relatively simple.
+
+This set of institutions has several attractive features. It enforces
+copyright in a world where parties can make themselves immune to law,
+either by anonymity or by choosing to live in a jurisdiction that does not
+enforce the law in question. It does so by restricting access to the work
+to people who have chosen to put themselves under law--and making them
+responsible if they pass it on. It does not depend on any particular legal
+regime. It makes it in the interest of jurisdictions to enforce contracts
+on their residents, since doing so makes them more attractive places to
+live--no need to post bond. And it does everything in a completely
+decentralized fashion, and one that takes advantage of private as well as
+public law.
+
+Comments?
+
+David Friedman
+Cornell Law School
+DDF2@Cornell.Edu
+
+
+------------------------------
+
+Date: Sat, 27 Nov 93 19:51:54 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Copyright under Crypto Anarchy
+
+Unfortunately, David Friedman's scheme of distributing N different
+plaintexts, each varying in some degree so as to "tag" the texts, has
+been studied before and found wanting.
+
+For example, two texts may be acquired, by colluders, who then
+determine the differing sections. By merging the two texts, the
+initial author knows only that one or the other, or both, of the two
+recipients stole the text, etc. When N such collusions occur, the "tag
+bits" can also be excised and the resulting text distributed.
+
+(The N sourcetexts may not exhaust the tag bit space, of course. That
+is, the original author may be able to narrow down the leaker to one
+of the N sourcetext holders, but not further. Maybe enough not to sell
+to anyone one of these N folks, but surely not convincing enough to
+successfully prosecute them. Except as a herd.)
+
+As the changes get large enough such that each of M recipients gets
+what appears to be a custom text, then the comparison/XOR approach
+begins to fall apart. Of course, giving M recipients a text that
+differs substantially from the others and yet is still readable,
+itself becomes a tough problem.
+
+--Tim May
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Sun, 28 Nov 1993 00:01:55 -0500
+From: ddf2@postoffice.mail.cornell.edu (David Friedman)
+Subject: Copyright under Crypto Anarchy
+
+Tim May pours cold water on my proposal:
+
+>For example, two texts may be acquired, by colluders, who then
+>determine the differing sections. By merging the two texts, the
+>initial author knows only that one or the other, or both, of the two
+>recipients stole the text, etc. When N such collusions occur, the "tag
+>bits" can also be excised and the resulting text distributed.
+>
+>(The N sourcetexts may not exhaust the tag bit space, of course. That
+>is, the original author may be able to narrow down the leaker to one
+>of the N sourcetext holders, but not further. Maybe enough not to sell
+>to anyone one of these N folks, but surely not convincing enough to
+>successfully prosecute them. Except as a herd.)
+>
+>As the changes get large enough such that each of M recipients gets
+>what appears to be a custom text, then the comparison/XOR approach
+>begins to fall apart. Of course, giving M recipients a text that
+>differs substantially from the others and yet is still readable,
+>itself becomes a tough problem.
+
+I had considered the strategy of using two or more texts to try to spot the
+identifying variations, although perhaps I was too optimistic about ways of
+controlling it. It seemed to me that there were probably enough clever ways
+of varying texts so that such a method would not work reliably--and, of
+course, the more variants the pirate is using as inputs, the more people
+will owe damages if they get caught.
+
+My simplest scheme is for the author, as he writes the work, to
+occasionally note places where two alternative versions of a sentence are
+equally good, and record both versions. Two hundred such provide  2**200 =
+aprox 10**60 variant texts. Any two texts will agree with each other on
+about 100 of the sentences and disagree on about 100, so a pirate working
+from two texts will still have 100 of the tag sentences unidentified. If
+the pirate gave both versions for the identified one, it would be easy to
+spot both sources--there are 10**30 different patterns for the 100
+unidentified. If, as seems more sensible, he randomly chooses one of the
+alternatives for each identified sentence, it gets harder--I have not done
+any actual calculations. I had supposed that combining this scheme with
+four or five others would be sufficient--am I wrong? Note that it is not
+necessary to make piracy impossible--just expensive.
+
+Note also that it is not clear how many variant texts have to go out. Many
+customers may be libraries, which make their single variant available to
+many users in some read-only mode (for example, in the library).
+
+David Friedman
+Cornell Law School
+DDF2@Cornell.Edu
+
+
+------------------------------
+
+Date: Sat, 27 Nov 93 23:35:52 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Copyright under Crypto Anarchy
+
+David Friedman writes:
+
+> Tim May pours cold water on my proposal:
+> 
+> >For example, two texts may be acquired, by colluders, who then
+
+I did not mean to dismiss David's idea, only to note a point of attack
+that others have also found (I seem to recall Derek Zahn and Perry
+Metzger joining in on a thread along these lines some months back,
+perhaps 6-8 months ago....as I have not solved the "indexing problem"
+discussed recently, I have no hope of finding it in a reasoable time
+in the 40 megabytes of e-mail I have accumulated).
+
+> I had considered the strategy of using two or more texts to try to spot the
+> identifying variations, although perhaps I was too optimistic about ways of
+> controlling it. It seemed to me that there were probably enough clever ways
+> of varying texts so that such a method would not work reliably--and, of
+> course, the more variants the pirate is using as inputs, the more people
+> will owe damages if they get caught.
+
+The devil's in the details. Some calculations will be needed.
+
+....
+> unidentified. If, as seems more sensible, he randomly chooses one of the
+> alternatives for each identified sentence, it gets harder--I have not done
+> any actual calculations. I had supposed that combining this scheme with
+> four or five others would be sufficient--am I wrong? Note that it is not
+> necessary to make piracy impossible--just expensive.
+
+I look forward to seeing more calculations. I think you'll find that
+the "comparers" can stay ahead of the "mutators."
+
+> Note also that it is not clear how many variant texts have to go out. Many
+> customers may be libraries, which make their single variant available to
+> many users in some read-only mode (for example, in the library).
+
+Anything readable on a _home_ or _business_ terminal is of course
+immediately capturable. The number of texts which people will consent
+to read only under "controlled conditions" in libraries will continue
+to decline: people just won't go to libraries to do their reading.
+
+However, if David or anyone else can truly figure out a reasonable way
+to tag material ("barium" in spy lingo), the real market will likely
+be in online distribution of material a la ClariNet or in cable
+transmission of movies. Tagging each customers movie with a slight bit
+of noise in the LSBs, the flip side of our steganography talk, could
+be a way to ID such material. The XOR approach still works, but is a
+time delay, which may be enough.
+
+(Somehow I recall hearing that hot movies like "Jurassuc Park," which
+are targets of videotape pirates, are individually tagged--in a way
+that wasn't made clear to me--along the lines David suggested, so that
+theater owners who allow video pirates into the theaters to videotape
+the new movies can be localized.)
+
+--Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Sun, 28 Nov 1993 10:34:46 -0500 (EST)
+From: "Mr. Richard Seabrook" <seabrook@umbc.edu>
+Subject: Copyright under Crypto Anarchy
+
+According to Timothy C. May:
+> 
+[ original poster's thoughts deleted..]
+
+> Anything readable on a _home_ or _business_ terminal is of course
+> immediately capturable. The number of texts which people will consent
+> to read only under "controlled conditions" in libraries will continue
+> to decline: people just won't go to libraries to do their reading.
+> 
+[ thoughts about "tagging" deleted ]
+
+One way to control access to central resources via home
+computer (to prevent unwanted copying) would be to control
+the software on BOTH ends.  For example, MEDLARS might make
+access via Grateful Med compulsory...
+I realize that a reasonably astute hacker could still swipe
+the protocol and gain access anyway, but I imagine there are
+fewer of these than people who'd like to help themselves
+to a free copy...
+Dick S.
+
+
+------------------------------
+
+Date: Sun, 28 Nov 1993 10:32:26 -0600
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: David Friedman's Copyright Proposal...
+
+Thank you! That was very interesting.
+
+I suppose a book/article published in such a regime would consist of
+the item plus a unique serial number concatenated together and signed
+with the author's public key. I'm assuming, for the moment, that
+steganography here would not be worth the added expense. Everyone
+*knows* that there would be serial numbers "embedded" somewhere in the
+text, and unless a different method was used for each book (unlikely)
+there would soon be "cracking" tools for giving a copy of the article
+new "serial numbers." In this case any cracked article that someone
+decided to upload would not be verified with the author's public key.
+
+People would not read those out of simple self-defense against
+fraud. Unless the reader has seen a verified copy of the book through
+other channels, and likely paid for it, he or she might not know that
+the chapter titled "Julius Caesar's Visit to Iceland:
+Crypto-Anarchy That Worked" wasn't in the original work.
+
+
++-----------------------+---------------------------------------+
+|Phil Fraering          | "...drag them, kicking and screaming, |
+|pgf@srl03.cacs.usl.edu | into the Century of the Fruitbat."    |
++-----------------------+-Terry Pratchett, _Reaper Man_---------+
+
+
+
+------------------------------
+
+Date: Sun, 28 Nov 1993 12:55:27 -0500 (EST)
+From: Harry Shapiro <habs@panix.com>
+Subject: David Friedman's Copyright Proposal...
+
+a conscious being, Phil G. Fraering wrote:
+> Thank you! That was very interesting.
+
+I agree. I also agree with TC May in why such scheme's may or
+may not work.
+
+I think we will see the following in the future.
+
+1) A very limited subset of all documents being transmitted, traded,
+   copied, etc. under contract. This would be mostly trade secrets and
+   handled via contact like many mass market computer programs under-
+   going Beta test. 
+
+2) I think the market will evolve to where readers/users of information
+   will pay technology based "trusted sources" (publishing houses,
+   authors, etc.) fee to:
+
+	a) copy material
+	b) verify a copy is "correct"
+
+An example. Perry has a copy of ddfr's latest paper and give me a
+copy via FTP from Perry's own machine. I read the paper with much
+enjoyment and sent it to others I know.
+
+Now, after reading the paper, I wish to write a brief essay for a
+"high brow" mailing list called the Extropians. The essay I am writing
+is based on some of the points made in ddfr's paper; people on the
+extropians list are very "exacting" about "facts." To insure that my
+essay is correct, and to add some credibility to my essay I verify
+that the copy I have is correct. (I do this directly with DDFR or via
+several other sources). I insert a digital "wax seal" from DDFR into
+the essay.
+
+Another example:
+
+On a digital "VCR" tape you can put 100's if not thousands of songs.
+If you acquire such a tape on a street corner, you probably don't care
+about copyright laws; but you might be willing to pay a small fee to
+verify that the copy of Michael Jackson's hit single is "correct."
+This fee will probably be equal to what an artist might get under
+today's scheme's. It sounds very economically effective to me; remove
+the extra costs of advertising, packaging, reproduction/manuf., and
+distribution and replace it with a system where artists and/or artist
+agents directly interact with users. Now Jackson has my electronic address
+and directly market to me and I have acquired his latest song in the
+most cost effective way.
+
+Of course people will still buy songs/music at stores but for reasons
+of the packaging, or other cachet value (e.g., a disc, a poster and a
+hologram in a neat tin/brass/gold package suitable for gift giving).
+
+------------------------------
+
+Date: Sun, 28 Nov 1993 12:27:15 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Copyright under Crypto Anarchy
+
+Tim May:
+
+> I did not mean to dismiss David's idea, only to note a point of attack
+> that others have also found (I seem to recall Derek Zahn and Perry
+> Metzger joining in on a thread along these lines some months back,
+> perhaps 6-8 months ago....
+
+Well, I don't recall that, but then again my long-term
+memory duration has shrunk to a couple of months, I fear,
+so it's possible (when it shrinks to the same duration as
+my short term memory, that'll be a Singularity, I guess).
+
+Still, the analysis shouldn't be too difficult.  Off the
+cuff, I'll start.  Correction and elaboration are welcome.
+
+Let's start by saying there are some number N of "atomic
+change" sites in the text -- each point an atomic
+change can be made from a base reference text.  For
+the purposes of this analysis we'll say that an atomic
+change is either present or not, though there's no reason
+that we couldn't extend it to have multiple "alleles"
+for each change (I don't think that would change the
+results of this analysis very much).
+
+An atomic change should have the following properties:
+
+* A (simple) transformation program should not be able to
+  render the change unrecognizable.  For instance, the
+  simplest schemes, involving the placement  of extra  spaces
+  between certain  words would not be sufficient because
+  a simple filter program could easily strip out all such
+  changes.  Similarly, the use of synonyms, spelling errors,
+  and patterned syntax alterations are inadequate because
+  they are too easily undone.  David's scheme of alternate
+  sentence wordings, if carefully done, would probably work
+  for many cases.  I will use the following, though, which I
+  consider to be more robust to mangling attacks:  an atomic
+  change is simply the deletion of some adjective, adverb,
+  phrase, or sentence in the text.  A programmed mangler
+  is unable to undo such a change because that would require
+  the insertion of the correct text, which can't be guessed
+  with more than a vanishingly small probability of success.
+  Still, it is possible, by randomly deleting parts of the
+  text, to create "false positives" by happily deleting
+  relevant parts of the text.  Note, however, that such
+  a mangler will degrade the quality of the text, making
+  the changed copy less desirable to "customers".  Let's say
+  that an M-efficient text mangler will make a fraction M of
+  the unmade atomic changes appear to be made, while still
+  maintaining some sufficient level of text quality.  I suspect
+  that M will be quite small (though we can debate this
+  subtlety if somebody thinks it's important), so I will omit
+  the possibility from the analysis.
+
+* The atomic changes should not overlap or interfere with each
+  other.  This is easy.
+
+Now, let's say that each legal copy contains some fraction
+F of the atomic changes, chosen at random from the N available (so
+N*F atomic changes are made per purchaser).  We can think of the
+text's "signature" as being an N-digit binary number containing
+ones for the changes made in that text.  For best recognition,
+we want to minimize the number of digits that match in two
+randomly-generated texts' signatures.  That number will be
+N * (2F - 2F^2), which is minimized for F= 0.5, so I'll use
+that from now on.  So the signature overlap on average will be
+N/2 bits.
+
+We are interested in analyzing some "illegal" text.  Innocent
+purchasers will have text signatures that overlap with the
+signature of the illegal text in N/2 places, on average.  In
+fact, only one in a million will overlap in at least N/2 + 20
+places (I think; log2(1000000) == 20)... this gives a simple
+relationship between the degree of overlap and the chances of
+that overlap happening accidentally.
+
+Now, the question is how well colluders can do.
+
+Maximal-protection collusion strategy:  discover as many of the
+atomic changes as they can, and then randomly use or not use
+them to create the illegal version so their legal versions
+will score equally on the match with the illegal version.
+
+Two colluders can on average discover N/2 of the atomic changes.
+After constructing the maximal-protection illegal version,
+each of their personal versions will match all of the N/2
+undiscovered positions and half of those discovered: 3N/4
+positions.  If N > 80, they'll both fail the one-in-a-million
+test.
+
+Of more interest is the case of X colluders, and here the math
+gets a little more tricky:  Since each pairwise comparison
+of a signature reveals N/2 (avg) of the atomic changes,
+Z comparisons will reveal N - N/(2^Z) of them.  X colluders
+will be able to perform (X^2 - X)/2 comparisons, giving a
+truly ugly expression for the number of revealed atomic changes.
+MathCad provides the following answers for various numbers of
+colluders:
+
+X = 2:    N - N/2
+X = 3:    N - N/8
+X = 4:    N - N/64
+X = 5:    N - N/1024
+X = 6:    N - N/32768
+X = 10:   N - N/35184372088832
+X = 100:  N - underflow
+
+Now, if B atomic changes are revealed, the optimal strategy
+will give an illegal version's signature that overlaps with
+B/2 + (N-B) bits of each colluder's text's signature (B/2 ==
+randomly chosen from those discovered; N-B == number left
+undiscovered).  For the one-in-a-million test to catch
+the culprits, 
+
+  B/2 + (N-B) = N/2 + 20
+  N = B + 40
+
+This lets us determine how many atomic change points are required
+to to protect from X colluders with that level of confidence:
+
+X = 2:   N = 80
+X = 3:   N = 320
+X = 4:   N = 2560
+X = 5:   N = 40960
+X = 6:   N = 1310720
+X = 10:  N = 1.4 x 10^15
+
+CONCLUSION:
+
+The Friedman scheme seems possible for protection against
+five or fewer colluders; for more than five colluders, the
+number of changes that the author would have to provide is
+unreasonably large.
+
+derek
+
+------------------------------
+
+Date: Sun, 28 Nov 1993 13:39:43 -0500 (EST)
+From: Harry Shapiro <habs@panix.com>
+Subject: meta: stat
+
+FYI,
+
+		List of users:
+		Number of users: 344
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+Date: Sun, 28 Nov 1993 16:21:38 -0500
+From: ddf2@postoffice.mail.cornell.edu (David Friedman)
+Subject: Copyright under Crypto Anarchy
+
+I worked through some rough numerical calculations last night while trying
+to fall asleep, and it looks to me as though Tim is correct. My method is
+unworkable in the form I proposed it. If the approximations I used are
+legitimate, I can send out thousands of copies of a book with 200 variant
+sentences in it (each can be in either of two versions) and spot who
+cheated if the pirate bases his release on three or fewer texts. But if he
+uses as many as ten texts, figuring out which ones they are appears to be
+impossible with any reasonable number of variant sentences and similar
+devices. So all the pirate has to do is create ten pseudonyms and have each
+order a copy of the book.
+
+Tim writes: 
+>That
+>is, the original author may be able to narrow down the leaker to one
+>of the N sourcetext holders, but not further. Maybe enough not to sell
+>to anyone one of these N folks, but surely not convincing enough to
+>successfully prosecute them. Except as a herd.)
+
+I do not understand this. If the author can identify the whole collection
+of holders who leaked, that is sufficient--he collects damages from all of
+them. Is that what you mean by prosecuting them as a herd? If so, what is
+wrong with it? 
+
+My calculations, unfortunately, suggest that he will not be able to so
+identify them for any significantly large N. The pirate simply identifies
+the variant sentences (by looking for disagreements among his sourcetexts)
+and creates his text using some combination of majority rule (to prevent
+the author from identifying the source by putting a unique variant sentence
+in each version) and coin flipping. With N=10 and each sentence having two
+variants with equal frequency, he will miss only 1/1024 of the sentences.
+The author then has to find all of the groups of ten of the sourcetexts he
+sent out (assuming, for simplicity, that he knows N) which have about
+1/1024th of the variants in common with each other and the pirated version.
+Unless I have made a mistake, there will be many different such groups, so
+identifying the leakers is not practical. If C is the number of copies, we
+have C!/((c-10)!10!) groups of ten, or about (C**10)/10!, which is a very
+large number. If I had 1024 variant sentences I would be looking for groups
+of ten with one variant in common with each other and the pirated
+version--which about half of all the groups of ten will have! Even pushing
+the number of variants much higher will, I think, be inadequate--quite
+aside from the computational cost of checking about 10**20 groups of ten!
+
+I am not, however, willing to give up yet. Several approaches to dealing
+with these problems suggest themselves:
+
+1. Use this method for primary distribution of a relatively small number of
+copies--as in my library example. The customers then redistribute in some
+"read only" mode. This is very unsatisfactory for books--it puts us in the
+situation of movies before home video. But it might work for a data base,
+say, where the customers are querying it, not reading it. Of course, it
+only makes sense in contexts where there is an advantage to having copies
+at a hundred sites (libraries) instead of only at one.
+
+2. Sell copies only to people operating under their true names. This does
+not solve the problem, but it makes life a little harder for the pirate who
+is acquiring sourcetexts, since he has to actually bribe real people.
+Perhaps if you can get some of the "bribed" people (or volunteer
+contributors of sourcetext) to be plants, there is some way of either
+corrupting the pirate copy so it is inferior to real copies, or identifying
+the remaining source texts. For example, you create three variants of some
+sentences--one of which is terrible. All of your plants and only your
+plants use the terrible version, so it outvotes the good version (assuming
+at least a third of the texts used are planted), producing a terrible
+version for the pirate to distribute. There may be a workable version of
+this scheme. Of course, it will have to contend with the pirate's strategy
+of using only people he trusts as sources.
+
+3. Make your variations relate to each other. A simple example is an
+arithmetic text, with variant numbers in the problems. The computer that
+prepares variant versions will match problem versions with answer versions.
+A pirate who is preparing his version mechanically, as described above,
+will not--leading to unhappy customers of the pirate.
+
+Obviously, this example is too simple to actually work. The pirate either
+tells his computer to match problems and answers or has his computer check
+for correlations among variants. But a more complicated version might well
+work. The trick is to have variant units that are not obviously units, but
+that will produce an inferior version of the text if they are not varied
+together.
+
+Consider, for example, the distribution of software in machine language
+form. The compiler produces ten thousand different versions, all
+functionally equivalent, having been compiled from the same source code.
+Short of the pirate decompiling--i.e. disassembling and then figuring out
+what the assembly language means--this should be an effective way of
+tagging a version. I am sure someone has suggested this one in some
+context.
+
+Or consider a computer generated video. The variants are things like camera
+angles. Or an interactive VR adventure--which is essentially a computer
+program distributed in machine code. The pirate can record a single play of
+the adventure, or many plays, but I would think that recreating the whole
+interconnected structure in this way could be prohibitively difficult. If
+he does a mechanical combination of versions of the distributed program,
+the hero's name ends up changing every ten minutes or so.
+
+This approach gets us into a problem analogous to the one whose solution
+produced public key cryptography--one way transformation. We need ways in
+which it is easy for the author to vary his work but hard for the pirate to
+identify and undo the variations.
+
+David Friedman
+Cornell Law School
+DDF2@Cornell.Edu
+
+
+------------------------------
+
+Date: Sun, 28 Nov 1993 17:24:40 -0500 (EST)
+From: Mark Sulkowski <SULKOM@ubvmsb.cc.buffalo.edu>
+Subject: Iceland's centralized PPL (reply to David Friedman)
+
+ From: ddf2@postoffice.mail.cornell.edu (David Friedman)
+>>        Also, from the small amount of information I have gathered so
+>>far, I assert that the Icelandic system was NOT a "PPL".  There was only
+>>one source of law, the Allthing court.  The lesser Thing courts did not
+>>appear to be a source of law independently of the Allthing.  The system
+>>was definitely centralized.  I don't see how the system can be considered
+>>"polycentric" at all.
+>
+>You are correct, and I think I made that clear in my chapter on Iceland.
+
+	Yes, I'm sure you did.  (Great book, BTW.)  I made my 'challenge'
+in order to get extropians thinking about WHY they refer to the Icelandic
+legal system as a "PPL".  Also, I'd like to explore the differences between
+a true PPL and the Icelandic centralized quasi-PPL.  Which is better and
+under what circumstances?  Is a centralized PPL better at promoting peace,
+or does it contain the seeds for further dangerous centralization of power...
+
+
+>The one hint of polycentric law occurs
+>briefly in the year 1000, during the conflict between Christian and Pagan
+>parties. The two sides declare themselves "out of law with each other." 
+>Cooler heads prevail, an arbitrator is chosen, and they end up again with a
+>single legal system.
+
+	It is only a hint though.  It is clear that the Icelanders were
+very much in favor of a centralized legal system.  According to Miller,
+the Icelanders were worried that a polycentric legal system would create
+too much conflict.  On page 21 of _Bloodtaking and Peacemaking_:
+
+	"The importance of maintaining the unity of the law was the
+	 reason Ari, writing in the first third of the twelfth
+	 century, attributed to Thorgeir the Lawspeaker (anno 1000)
+	 for proclaiming Christianity into the law: 'I think it
+	 advisable that ... we all have one law and one religion.
+	 For it is true that if we sunder the law, we will also
+	 sunder the peace"(Islb. 7:17).
+
+	I presume that Thorgeir the Lawspeaker was one of the "cooler heads"
+you are referring to.
+
+	So, I suppose that IN A SENSE the Icelanders had a polycentric legal
+for a brief period of time, but it seems quite clear that this was not
+intentional at all.  In fact, they were quite worried at the prospect of
+polycentric law becoming the norm.  I find it difficult to really consider
+the Icelandic system a PPL for this reason.  Maybe it could be said that
+certain desirable FEATURES of a PPL existed for the Icelanders in their
+time of need.
+
+
+>The source of law was not, by the way, any of the courts at the Allthing
+>but the Logretta, which was the legislature, also at the Allthing, which
+>was an annual assembly.
+
+	Yes.  That is exactly the way it is explained in _Bloodtaking
+and Peacemaking_.  I'm not sure why I had confused the two when I wrote
+that post.  Perhaps I meant to say that all law is developed at the
+Allthing _gathering_ and not the local courts.  Thanks for catching
+the error.
+
+        
+>Iceland gives us an example of private, competing law enforcement, in a
+>system with a single legislature, a single court system, and no executive
+>arm of government.
+
+	Yes, indeed it does.
+
+	I remember you mentioning in _MoF_ that anarcho-capitalism may
+have some rather unlibertarian features (though it may TEND towards a
+libertarian-flavored set of laws for various reasons).  I didn't realize
+what this could mean.  After reading what I have in Miller's book, I
+believe the Icelanders had a limited taxation, no true separation between
+Church and State (er...legal system), slavery (tradable property in
+persons), and restitution based somewhat upon community estimation of the
+"honor" of the victim of aggression.  Not terribly appealing to me
+as a libertarian, though the positives may have outweighed the negatives.
+
+	I just want extropians to keep these possibilities in mind
+so that they really understand the nature of the system they are
+advocating.  Of course, I hope that a modern version of a PPL, whether
+centralized or not, will work well and have stronger tendencies to
+produce libertarian law.  Perhaps a strong market economy, better
+education, and higher technology will work toward this end.
+
+
+        *    .
+====\\.    ~  //====
+||   \\ ~ . *//   ||
+||    \\ *  //    || 
+||     \\.~//     || 
+||      \\//      || 
+|| Mark  \/enture ||
+====================
+
+------------------------------
+
+Date: Sun, 28 Nov 93 14:38:42 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Copyright under Crypto Anarchy
+
+David Friedman writes:
+
+...
+> devices. So all the pirate has to do is create ten pseudonyms and have each
+> order a copy of the book.
+
+Ironically, I recall almost these exact words being used the last time
+this came up, that is, the ease with which pseudonyms could be used to
+order the N copies needed to reconstruct the original text.
+
+(An error detection and correction problem, with the unmutated text
+being the "signal" or "message" and then various point
+mutations--errors--introduced. So long as the errors are sparsely
+distributed--high S/N ratio--then comparison of a relatively small
+number of texts is sufficient to recover the message. Law of large
+numbers, Shannon's coding theorem, etc. I was working on a longer
+piece on this in my off-line newsreader, but the recent posts of Derek
+Zahn and now David Friedman make this issue fairly moot. I will use my
+best pun on you folks, though. In explaining the situation in terms of
+atlas makers who try to foil copyright violators by introducing phony
+cities, I noted that the XOR of 2 or more atlases allows violator to
+simply throw out the XOR hits. Accuracy wins; the practice of
+deliberately introducing errors is declining. Ultimately, atlas makers
+shrugged.)
+
+> Tim writes: 
+> >That
+> >is, the original author may be able to narrow down the leaker to one
+> >of the N sourcetext holders, but not further. Maybe enough not to sell
+> >to anyone one of these N folks, but surely not convincing enough to
+> >successfully prosecute them. Except as a herd.)
+> 
+> I do not understand this. If the author can identify the whole collection
+> of holders who leaked, that is sufficient--he collects damages from all of
+> them. Is that what you mean by prosecuting them as a herd? If so, what is
+> wrong with it? 
+
+I meant a couple of things by this, which I suppose I was not very
+clear about:
+
+1. If a colluder merely _ask_ an "innoncent" third party if they
+remember the opening lines of a book to be "A screaming comes across
+the sky" or "A screaming arcs across the sky," is this sufficient to
+find the third party guilty? I cannot imagine any private copyright
+system operating this way, by forbidding the mere answering of factual
+questions about a text! ....And if questions can be asked and
+answered, this can be all a colluder needs to further recover the
+original text. (Likewise, are we to forbid lending books? This is
+conceivable, though onerous. I know I would not support a PPL system
+which jailed, fined, whatever people for innoncently lending their
+books to friends. I understand the argument that the act of lending is
+not banned, only that the lender must assume responsibility for any
+damages that results. For wide distribution items like books and
+magazines, I just don't think it's practical. Customers won't buy such
+books.)
+
+2. The math indicates that even though a group of N book owners has
+apparently colluded, this cannot be proved. Consider a series of
+"texts" received by various readers. I will first show a fragment of
+the texts received:
+
+Alice gets: "A screaming arcs across the sky....."
+Bob gets:   "A screaming comes across the sky..."
+Chuck gets: "A scremaing comes across the sky..."
+Diane gets: "A screaming appears across the sky..."
+
+To make this simpler, represent the _actual message_, the text prior
+to any point mutations, as the string "0 0 0 0 0 0 0 0 0 0 0 0 0....."
+
+(The positions are of _words_, not of letters.)
+
+Thus,
+
+Alice:   0 0 1 0 0 0...
+Bob:     0 0 0 0 0 0...   
+Chuck:   0 1 0 0 0 0...
+Diane:   0 0 1 0 0 0...
+
+Now, so long as point mutations are sparsely distributed (much more
+sparsely distributed than the example above), it is clear that the
+original unmutated text must be: A screaming comes across the sky."
+
+This could be recovered by picking nearly any group of N folks, where
+N is greater than about 5 or 10 (as the calculations of Derek and
+David confirm).
+
+My point about not being able to prosecute "a herd" is that it is
+manifestly "unfair" (a dangerous term, I agree) to fine or jail people
+for merely being one of the thousands who _could have_ been one of the
+colluders.
+
+Any proposed system which makes criminals out of those who fail to
+keep their texts under lock and key, or which makes nearly every
+reader liable to prosecution under a "probabilistic conspiracy"
+charge, will not be very successful.
+
+The lesson of PPL and anarchocapitalism is, as David knows better than
+most of us, that laws that are not "believed" by most people will not
+last. Most people I know think nothing of violating copyrights by
+taping CDs, by videotaping movies off of cable, etc. (I know, this was
+declared "legal" in the Sony-Disney case and by recent "fair use"
+rulings....but it was basically a situation of public indifference to
+the supposed copyrights.)
+
+....
+> The author then has to find all of the groups of ten of the sourcetexts he
+> sent out (assuming, for simplicity, that he knows N) which have about
+> 1/1024th of the variants in common with each other and the pirated version.
+> Unless I have made a mistake, there will be many different such groups, so
+> identifying the leakers is not practical. If C is the number of copies, we
+
+I agree. For any given S/N ratio--that is, for any given point
+mutation rate--one can recover the error-free signal by looking at
+enough messages. The calculations show this is a relatively small
+number of messages (dozens or less) for reasonable point mutation rates.
+
+...
+> "read only" mode. This is very unsatisfactory for books--it puts us in the
+> situation of movies before home video. But it might work for a data base,
+> say, where the customers are querying it, not reading it. Of course, it
+> only makes sense in contexts where there is an advantage to having copies
+> at a hundred sites (libraries) instead of only at one.
+
+Interestingly, I predicted this as a trend for corporate knowledge--as
+in the extremely valuable design methods and rules in a chip
+company--in an era of crypto anarchy. Knowledge would be embedded in
+"oracular" databases which would be protected against core dumps and
+other forms of getting at the direct knowledge. Since a single DAT
+tape can hold 80 MB of data stegonagrapically hidden in just the least
+significant bits, it is hopeless to try to stop employess from
+stealing and then selling information they can directly access. The
+"oracle" data base, on the other hand, keeps its knoweldge to itself
+and only answers certain questions.
+
+(How many questions one can ask such an agent or oracle to deduce the
+complete underlying knowledge, a la "Twenty Questions," is a
+fascinating problem unto itself, closely related to this issue of
+recovering signals in the presence of noise and to algorithmic
+information theory.)
+
+> 3. Make your variations relate to each other. A simple example is an
+> arithmetic text, with variant numbers in the problems. The computer that
+> prepares variant versions will match problem versions with answer versions.
+> A pirate who is preparing his version mechanically, as described above,
+> will not--leading to unhappy customers of the pirate.
+
+This is an interesting idea. Essentially, this looks like adding
+long-range order to the document (correlations) so as to foil point
+mutation approaches. Put in terms of the example earlier, "A screaming
+arcs across the sky" might be recognizable as not being the long-range
+order implicit in Pynchon's writing style. A la the textual analysis
+of Marlowe vs. Bacon vs. Shakespeare.
+
+> Consider, for example, the distribution of software in machine language
+> form. The compiler produces ten thousand different versions, all
+> functionally equivalent, having been compiled from the same source code.
+> Short of the pirate decompiling--i.e. disassembling and then figuring out
+> what the assembly language means--this should be an effective way of
+> tagging a version. I am sure someone has suggested this one in some
+> context.
+
+I've heard this proposed as a form of copy protection, but never
+actually deployed. Some entrepreneur could perhaps make this a reality.
+
+But of course the changes must be "deep," in the sense of not being
+merely point mutations. Otherwise, the XOR methods could quickly find
+the point mutations. And any program robust against such changes would
+also be vulnerable to "fingerprint smearing" by bootleggers who went
+in and replaced chunks of code with the same kind of "functionally
+equivalent" chunks. Sauce for the gander and all.
+
+It's almost like foiling CD copying pirates by having every CD have
+songs that are different...not so different as to be unlistenable and
+not so alike as to be easily corrected. Figuring out how to do this
+sounds real tough.
+
+> This approach gets us into a problem analogous to the one whose solution
+> produced public key cryptography--one way transformation. We need ways in
+> which it is easy for the author to vary his work but hard for the pirate to
+> identify and undo the variations.
+
+Sounds like it. A tough problem.
+
+--Tim May
+
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+End of Extropians Digest V93 #332
+*********************************
+

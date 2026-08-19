@@ -1,0 +1,786 @@
+From extropians-request@extropy.org Tue Nov 15 23:36:10 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id XAA18041 for <more@chaph.usc.edu>; Tue, 15 Nov 1994 23:36:03 -0800
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA12735; Tue, 15 Nov 94 16:09:20 PST
+Received: (from exi@localhost) by news.panix.com (8.6.9/8.6.9) id SAA07929; Tue, 15 Nov 1994 18:03:32 -0500
+Date: Tue, 15 Nov 1994 18:03:32 -0500
+Message-Id: <199411152303.SAA07929@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-11-197 - #94-11-202
+X-Extropian-Date: November 15, 374 P.N.O. [18:02:23 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Tue, 15 Nov 94             Volume 94 : Issue 318
+
+Today's Topics:
+                         DEMOCRACY WITHOUT DEMOCRATS                  [1 msgs]
+                      HUMOR/MEME: Transhumanistic Tarot               [1 msgs]
+                     TECH: Anyone recently purchase a PC?             [3 msgs]
+                          Unsubscribe extropians...                   [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 35245 bytes.
+
+----------------------------------------------------------------------
+
+From: NetSurfer <jdwilson@gold.chem.hawaii.edu>
+Date: Tue, 15 Nov 1994 07:15:32 -1000 (HST)
+Subject: [#94-11-197] TECH: Anyone recently purchase a PC?
+
+On Tue, 15 Nov 1994, Harry S. Hawk wrote:
+
+> This doesn't surprise me. Are you running unix? I thinkn you
+> only need scsi if you are going to run Unix....
+
+Not true - SCSI runs on all platforms, including apples.  (Whence it came,
+actually.)
+
+> Many motherboards have IDE built in. SCSI drives cost more then IDE
+> drives.
+
+Many do but not typically on your higher end systems.  Those that do have
+IDE on the motherboard also let you disable it.
+
+SCSI drives on larger sizes run about the same as IDE.  For example, you
+can get a 2 GB drive including external enclosure for about $850.  IDE you
+pay a little less for 1GB (haven't seen any 2GB IDE yet.)
+
+SCSI-II, fast SCSI, wide SCSI, all offer faster drive throughput and
+latency compared to IDE drives.  If disk throughput is a concern, I'd go SCSI.
+
+Also, your better CD-ROM drives, scanners, plotters use SCSI.
+
+And while SCSI controllers cost a little more, they also allow you to have
+up to 7 disk drives/SCSI devices per controller card.
+
+My favorite on an ISA bus is the Adaptek 1542CF.  It is internally
+supported by DOS, Win NT, Unixware, SCO Unix, OS/2, and Netware.  Makes it
+easy to switch between operating systems.  And it goes for approx. $220.
+
+So if you plan on having a CD-ROM, scanner or plotter you might want to go
+SCSI from the start and eliminate having two different drive controllers
+on your system.
+
+-NetSurfer
+
+#include <standard.disclaimer>
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+==  =     = |James D. Wilson        |V.PGP 2.7:   512/E12FCD 1994/03/17 >
+ "  "  o  " |P. O. Box 15432        |     finger for full PGP key        >
+ "  " / \ " |Honolulu, HI  96830    |====================================>
+\"  "/ G \" |Serendipitous Solutions|    Also NetSurfer@sersol.com      >
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+------------------------------
+
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Date: Tue, 15 Nov 1994 12:15:02 -0500
+Subject: [#94-11-198] TECH: Anyone recently purchase a PC?
+
+Yes, I plan to run Unix. Specifically, Linux.
+
+SCSI should be better than IDE on any system that has
+virtual memory; this includes current incarnations of
+Windows and OS/2.
+
+BTW, I found a local computer shop that has motherboards with
+on-board SCSI and PCI slots in stock. So the need for this
+thread seems to have vanished...
+
+Phil
+
+------------------------------
+
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Date: Tue, 15 Nov 1994 12:17:27 -0500
+Subject: [#94-11-199] HUMOR/MEME: Transhumanistic Tarot
+
+What's a K3 colony? Perhaps you mean an L-5 colony instead?
+
+Hanno "L-6 or bust!" Antagonist
+
+------------------------------
+
+From: Vigdor Schreibman - FINS <fins@access.digex.net>
+Date: Tue, 15 Nov 1994 13:21:57 -0500 (EST)
+Subject: [#94-11-200] DEMOCRACY WITHOUT DEMOCRATS
+
+----------------Original Message Posted in Multiple Lists----------------- 
+------------------------Republication Authorized-------------------------- 
+  
+FINS: Communicating the Emerging Philosophy of The Information Age       
+FEDERAL INFORMATION NEWS SYNDICATE                    
+Vol II, Issue No. 24 (118 lines)                          November 21, 1994
+    
+     
+                  READ THIS ISSUE OF FINS TO CONSIDER:      
+                                                             
+                *   Betrayal of the "new Democrats"
+                                          
+                *   Plans for a new "Social Contract"
+    
+========================================================================= 
+  
+CLOSING THE "VALUES-GAP": 
+Democracy Without Democrats
+By Vigdor Schreibman 
+
+	As this year began, I described how the most sacred love of my
+country--the United States of America--had somehow entered my psyche under
+the abominable conditions of the great depression; enough to fill my whole
+life with purpose [Fins-NC2-03].  I wrote, "This sacred country that is the
+blueprint for my deepest cognitive reality is comprised of the democratic
+mission of Thomas Jefferson, the humanitarian spirit of the Declaration of
+Independence ... and the promise of equal justice under law."  I also noted
+the contradictions in our paramount reality: "While we are committed in our
+deepest beliefs to sustain and enhance democracy we are governed by a set of
+decadent ideologies--by opportunism, materialism, individualism and the
+morality of the marketplace--that are bereft of human, social, and ecological
+enlightenment but the causes of raging anger and frustration."
+
+	Those value conflicts have been fully documented by conservative pundit
+Kevin Phillips [Arrogant Capital (1994)]. Citizens are also confounded by the
+settled belief that the American political system has been subjected to a
+"hostile takeover" [Kettering Foundation, 1991]. "In the end," writes David
+Mathews, head of Kettering, "citizens believe that they do not--cannot--have
+a say in this system."  The "information superhighways" has exacerbated these
+conditions by enlarging the instrumental power of government officials and
+private industry, in a transformation that will radically disarm popular
+government despite promises to support democracy.  Finally, exploding at the
+ballot box Nov. 8th, voters expressed their outrage over the inequitable
+political system by demolishing the Democratic power structure in Congress.
+Only 12 percent of voters support the Republican program; most voted in
+protest against the politics of rich and poor played by Democrats, which is
+seen as a betrayal of President Clinton's pledge to reverse this pattern of
+behavior, as disclosed in the Nov. 21, 1994 issue of TIME Magazine. 
+
+	The situation gives one pause for reflection.  A friendly fascist right
+wing has absorbed the Republican Party of Abraham Lincoln, led by Newt
+Gingrich, and supported by middle-class white Southern conservatives and an
+illicit, coordinated attack strategy of the conservative Christian Coalition.
+Meanwhile, the Democratic Party of Thomas Jefferson has adopted the
+Republican rule of "artificial aristocrats," asserting arbitrary governance
+by strategically placed persons, also sustained by the collapse of citizen
+responsibility for self-governance.  Gingrich talks about a "Contract with
+America" that would only intensify the politics of rich and poor, revert to
+an ethic of militarism, and repudiate the "Social Contract" that is our
+founding creed.  The United States has become a Democracy without Democrats. 
+
+	Nevertheless, the most powerful idea that still resonates throughout
+this society--that the free and informed exercise of the power of the people
+to control their own destiny--is the sine qua non of republican governance. 
+This idea is sustained by the constitutional assumption affirmed by the
+Supreme Court that "All power is derived from the people."  
+
+	We are now undergoing two global revolutions, involving the environment
+and electronic information networks, both of which will radically change all
+our human, social, and ecological conditions.  The President's Council on
+Sustainable Development has already suggested a holistic vision for that
+possibility, of "a life-sustaining earth," together with a set of draft
+principles and action strategy, now being further revised [Fins-SD-07]. The
+United Nations International Telecommunications Union, in furtherance of the
+development of a Global Information Infrastructure proposed by Vice President
+Al Gore, invited study groups Sept 23, to consider a comprehensive set of
+question raised by this anticipated transformation [Fins-SD-08].  Citizens
+will either plan their future together, or someone will dictate it to them.
+
+	It is a bedeviling situation in which we find ourselves, in the midst
+of a domestic rebellion and two global revolutions, with just two years to
+turn things around by rediscovering our roots and transforming our political
+leadership, consistent with the democratic mission.  During this period the
+vital work of the U.S. Congress will most likely be lost to a grim deadlock
+and cynical process of self-destruction, led by Newt Gingrich and his gang.
+We must confront them directly, and unequivocally hold the democratic line,
+prepared for the worst that they will likely offer.  Meanwhile, the so-called
+"new Democrats" in the White House will be searching for new insight, either
+recognizing what went wrong and how to fix it, or going down badly in shame.
+
+	The time has come for a good talk--just between voters without the power
+brokers--to freely and fairly define what we desire for our shared future and
+how best to get it.  This dialogue should be carried out in preparation for
+the Presidential election of 1996, to inform the electorate and plan for a
+new, authoritative "Social Contract" in America, and a government committed
+to implementing it.  A multibillion dollar infrastructure can be established
+for that purpose by tapping appropriated funds for information technology,
+to arm popular government in the Information Age and assure a life-sustaining
+earth.  The process could be organized under a Presidential/State Council in
+collaboration with schools and libraries.  Voters could deliberate face-to-
+face and electronically, building a consensus for the future derived from
+the paramount power of the people to control their own destiny in our time. 
+
+=========================================================================== 
+BECOME A MEMBER OF FINS--COLLABORATE IN ADVANCING THE GENIUS OF CYBERSPACE 
+--------------------------------------------------------------------------- 
+Membership rate: $30.00 a year.  United States and International members   
+receive 24 issues of Fins News Columns a year; plus networking, or print   
+reproduction rights in primary markets; plus Fins Information Age Library. 
+--------------------------------------------------------------------------- 
+Federal Information News Syndicate, Vigdor Schreibman, Editor & Publisher, 
+18 - 9th Street NE #206, Washington, DC 20002-6042.  Copyright 1994 FINS.  
+Internet: fins@access.digex.net. Browse Fins Information Age Library located
+at the University of Maryland inforM system: if you have a Gopher client :
+gopher to inform.umd.edu and go to the directory Educational_Resources/
+AcademicResourcesByTopic/Computers_and_Society/Fins_Information_Age; or if
+you have ftp : ftp to inform.umd.edu cd to inforM/and the same directory.
+=============================================================================
+
+
+------------------------------
+
+From: cactus@bb.hks.net (L. Todd Masco)
+Date: 15 Nov 1994 13:45:26 -0500
+Subject: [#94-11-201] TECH: Anyone recently purchase a PC?
+
+In article <Pine.3.07.9411150731.C18520-b100000@gold.chem.hawaii.edu>,
+NetSurfer <jdwilson@gold.chem.hawaii.edu> wrote:
+>Not true - SCSI runs on all platforms, including apples.  (Whence it came,
+>actually.)
+
+Nit: Macs were only the first micro to use SCSI.  It didn't originate from
+Apple.
+-- 
+Todd Masco     | "Life is change...how it differs from the rocks: Soon they
+cactus@bb.com  |  will atain the stability they strive for, in the only form
+cactus@hks.net |  it is granted - a place among the fossils" - John Wyndham
+
+------------------------------
+
+From: dkrieger@netcom.com (Dave Krieger)
+Date: Tue, 15 Nov 1994 11:33:16 -0800
+Subject: [#94-11-202] Unsubscribe extropians...
+
+At 7:14 PM 11/13/94, Alex Lancaster wrote:
+>Hi Extropian people,
+>
+>I'd like to unsubscribe from the Extropians list. It's been
+>informative, but I've simply getting information overload...
+>I'd like to have the option of renweing at a later date, if
+>possible.
+
+I hate to see interested people unsubscribe purely for volume reasons;
+that's why we use MailWeir (tm) to run the list.  Do what I do:
+
+ 1) "::exclude all";
+ 2) "::include user foo" for the people whose writings you know you're
+     going to want to see;
+ 3) "::notify on" to start receiving ~daily lists of filtered messages;
+ 3) "::resend #yy-mm-nnn" where "yy-mm" is the 2-digit year and month and
+     "nnn" is the index number from the "List of Filtered Messages" you
+     get daily when you have "::exclude"s in effect.
+
+For example, my current list of commands happens to look like this:
+
+>---------------------------------------------------------------------------
+>Command: stat      User Name: dkrieger@netcom.com
+>---------------------------------------------------------------------------
+>
+>Acknowledgement Mode: verbose
+>Notification Mode   : on
+>Digest Mode         : off
+>Digest Size         : 50 kb
+>
+>List of agent settings:
+>
+>0) exclude all
+>1) include thread faq                                                   (-68.9)
+>2) include thread wired                                                 (-60.1)
+>3) include thread browne                                                (-38.1)
+>4) include thread url                                                   (-37.1)
+>5) include thread independence                                          (-34.1)
+>6) include thread aids                                                  (-34.1)
+>7) include thread superheros                                            (-27.1)
+>8) include user szabo
+>9) include user minsky
+>10) include user hanson
+>11) include user robj
+>12) include thread acrat                                                (-24.1)
+>13) include thread rheingold                                            (-24.1)
+>14) include user starr
+>15) include thread vinge                                                (-5.1)
+>16) include user romana
+>17) include thread statistics                                           (15.0)
+>18) include thread book:                                                (18.0)
+>19) include thread extro-2                                              (25.0)
+>20) include thread shulgin                                              (25.0)
+
+For more detailed info on how to use the system, there is also extensive
+online help available via the "::help" command.  The following commands
+
+        ::help exclude
+        ::help resend
+        ::help include
+        ::help index
+
+brought back the information below.
+                                        dV/dt
+                                        whose noise tolerance is famously low
+                                        and who loves MailWeir like a son
+
+
+>Date: Tue, 15 Nov 1994 14:00:08 -0500
+>To: dkrieger@netcom.com
+>From: extropians-request@extropy.org (List Processing System)
+>Subject: List command processed
+>Reply-To: extropians@extropy.org
+>
+>
+>---------------------------------------------------------------------------
+>Command: help exclude
+>---------------------------------------------------------------------------
+>
+>
+>HELP TOPIC: 'exclude'
+>---------------------
+>
+>     The '::exclude' command is the primary means by which a list
+> subscriber can selectively filter specific classes of posts distributed
+> by the mailing list.
+>
+>Syntax:
+>-------
+>
+>     ::exclude [all|thread|user] [#msgnum|email|subject]
+>
+>Usage:
+>------
+>
+>     There are three distinct forms of the '::exclude' command. The
+> specific syntax for each form is as follows:
+>
+>     ::exclude all
+>     ::exclude thread [#msgnum|subject]
+>     ::exclude user [#msgnum|email]
+>
+>Arguments:
+>----------
+>
+>#msgnum: #yy-mm-nnnn
+>
+>     'yy-mm' is the year and month in which the message was posted, and
+> 'nnnn' is the sequence number of the message in the given month. For
+> example, '#94-3-243' would represent the 243rd message posted in March
+> of 1994. Note that the user must ALWAYS include the '#' before a message
+> number, but that the month and year are in fact optional. If they are
+> omitted, the current month is assumed. The full message format should
+> always be used at the end or the beginning of a month to avoid confusion.
+>
+>subject:
+>
+>     Indicates a specific message "thread" to exclude. A message thread
+> consists of all the messages posted to the list with the same subject.
+> Only part of the subject needs to be provided. While this makes it easier
+> to use this command, it also makes it easy to exclude large categories of
+> subjects with a single command. Imagine all the messages which would be
+> excluded by issuing the command '::exclude subject the'. All messages with
+> the word 'the' in the subject line would be filtered out...
+>
+>     In addition to allowing the user to specify all or part of a subject
+> to exclude one or more threads of messages, MailWeir(tm) also allows any
+> legal Unix regular expression to be used in specifying subjects. For more
+> information on Unix-like regular expressions, refer to a manual on any of
+> the Unix shells, awk, grep, sed, or Perl.
+>
+>email:
+>
+>     All or part of the mail-address of the user whose messages you wish to
+> filter. A typical e-mail address might look like 'joe@vax.school.edu', in
+> which case you could use '::exclude user joe@vax' or any other unique part
+> of the user's e-mail address. As with subjects, you can also use any
+> valide regular expressions to specify user e-mail addresses.
+>
+>Detail:
+>-------
+>
+>     The '::exclude' command provides a powerful means of filtering out
+> unwanted messages from those distributed by the list. A list member may
+> filter out those messages pertaining to specific subjects, or written by
+> certain other list members.
+>
+>     In addition to being able to specify a specific user or thread to
+> exclude using the arguments, as described above, the list member may save
+> time by placing the '::exclude' command in a reply to a message sent from
+> the list. In this manner, an '::exclude thread' command, with no
+> arguments, will exclude all messages posted to the list under the same
+> subject line as the message being replied to.
+>
+>     Similarly, the '::exclude user' command with no arguments will filter
+> all messages posted by the originator of the message being replied to.
+> The only requirement for these short-cut commands to work are that they
+> are sent in reply to a message distributed by the list, and that the mail
+> software being used provides a valid In-Reply-To: field. Most mailers,
+> including elm, do so.
+>
+>     The ultimate form of filtering is to stop the sending of ALL
+> messages, and this is done using the '::exclude all' command. All posts
+> made to the list will not be sent to any list member who sends this
+> command. This command is often useful during vacations, sabatticals,
+> summer breaks, and certainly during those busy, 60-hour work weeks.
+>
+>     Any list member may issue a number of '::exclude' commands, setting
+> up a combination of filter conditions. A limit is usually set, however,
+> upon the number of '::exclude' (and other) filter conditions that a given
+> user may have set. Use the '::stat' command to get a list of filter
+> conditions you have set, and the '::reset' command to remove specific
+> filter conditions.
+>
+>     As a convenience, the list software, by default, sends out periodic
+> filter lists indicating those messages which have been filtered by the
+> conditions you have set. For more information on this, refer to the
+> '::filterlist' and '::notify' commands. Further, the '::resend' command
+> may be used to request specific messages which were previously filtered.
+>
+>     Finally, through the combination of various types of '::exclude' and
+> '::include' commands, a number of useful filters can be set up, but may
+> also lead to apparent conflict. For information on how the list software
+> resolves conflicting '::exclude' and '::include' commands, issue a
+> '::help filtering' command.
+>
+>Examples:
+>---------
+>
+>     A user has just read a message on a long and belaboured subject.
+> It's the last message of that subject they EVER want to read. The message
+> number (found in the message header) is #94-5-347, and the subject is
+> "Hydrophobic bonds in lipids". To exclude all further messages on this
+> subject, the list member would reply to this message with a single line
+> of text in the body consisting of any of the following:
+>
+>     ::exclude thread
+>     ::exclude thread #347
+>     ::exclude thread #94-5-347
+>     ::exclude thread Hydrophobic
+>     ::exclude thread "Hyd.*pids"
+>
+>     Of course, other regular expressions would do.
+>
+>     It may be that the study of molecular bonds and biochemistry are of
+> great importance to you. However, it so happens that one particular list
+> participant, Joe Shmoe, offers plenty of discussion on the topic, but
+> nothing of value (on any topic at all, in fact). In this case, the list
+> member wishing to never read another post from Mr. Shmoe could reply to
+> one of Joe's posts distributed by the listserver with the following
+> command:
+>
+>     ::exclude user
+>
+>     Alternatively, if the list member doesn't have one of Joe's messages
+> handy, but knows a message number (the same as above) or Joe's e-mail
+> address, the following could be used:
+>
+>     ::exclude user jshmoe@vax.companyx.com
+>     ::exclude user #347
+>     ::exclude user #94-5-347
+>
+>     While on vacation for a week, simply send the command:
+>
+>     ::exclude all
+>
+>     It can be RESET when you come back, and your other filters will still
+> remain in-tact.
+>
+>See Also:
+>---------
+>
+>     Filtering, FILTERLIST, INCLUDE, NOTIFY, RESEND, RESET and STAT
+>
+>---------------------------------------------------------------------------
+>Command: help resend
+>---------------------------------------------------------------------------
+>
+>Command name: resend    Usage: ``::resend #<message number>''
+>
+>  The resend command will resend old messages to you if they still exist
+>in the message queue.
+>
+>Update: July 23rd
+>
+>  New operation mode, ::resend thread <pattern>
+>
+>  The pattern works the same way exclude/include does. resend thread
+>will look for all messages in the queue that match <pattern> and send
+>them to you in a digest. Be careful about arbitrary patterns -- if the
+>sieze of matched messages grows beyond a fixed limit (now 100k) it will
+>abort and send you an error. If this happens, limit your search pattern
+>to something more specific.
+>
+>  As in ::exclude thread, you can specify a message number to extract
+>the thread name from, e.g.
+>
+>::resend thread #819
+>  Resend all messages in the same thread as #93-7-819
+>
+>  See also: list
+>
+>
+>---------------------------------------------------------------------------
+>Command: help include
+>---------------------------------------------------------------------------
+>
+>
+>HELP TOPIC: 'include'
+>---------------------
+>
+>     The '::include' command allows a list member to receive messages
+> which would otherwised be filtered out by previously issued '::exclude'
+> commands.
+>
+>Syntax:
+>-------
+>
+>     ::include [all|thread|user] [#msgnum|email|subject]
+>
+>Usage:
+>------
+>
+>     There are three distinct forms of the '::include' command. The
+> specific syntax for each form is as follows:
+>
+>     ::include all
+>     ::include thread [#msgnum|subject]
+>     ::include user [#msgnum|email]
+>
+>Arguments:
+>----------
+>
+>#msgnum: #yy-mm-nnnn
+>
+>     'yy-mm' is the year and month in which the message was posted, and
+> 'nnnn' is the sequence number of the message in the given month. For
+> example, '#94-3-243' would represent the 243rd message posted in March
+> of 1994. Note that the user must ALWAYS include the '#' before a message
+> number, but that the month and year are in fact optional. If they are
+> omitted, the current month is assumed. The full message format should
+> always be used at the end or the beginning of a month to avoid confusion.
+>
+>subject:
+>
+>     Indicates a specific message "thread" to include. A message thread
+> consists of all the messages posted to the list with the same subject.
+> Only part of the subject needs to be provided. While this makes it easier
+> to use this command, it also makes it easy to include large categories of
+> subjects with a single command.
+>
+>     In addition to allowing the user to specify all or part of a subject
+> to include one or more threads of messages, MailWeir(tm) also allows any
+> legal Unix regular expression to be used in specifying subjects. For more
+> information on Unix-like regular expressions, refer to a manual on any of
+> the Unix shells, awk, grep, sed, or Perl.
+>
+>email:
+>
+>     All or part of the mail-address of the user whose messages you wish to
+> receive. A typical e-mail address might look like 'joe@vax.school.edu', in
+> which case you could use '::include user joe@vax' or any other unique part
+> of the user's e-mail address. As with subjects, you can also use any
+> valide regular expressions to specify user e-mail addresses.
+>
+>Detail:
+>-------
+>
+>     The '::include' command allows a user to explicity request that
+> certain messages always be received from the mailing list, regardless
+> of previous filters put in place by the '::exclude' command. Combined
+> with the '::exclude' command, the '::include' command can provide any
+> number of specific filter conditions. For instance, you could combine
+> both commands to filter out all messages on a specific subject (using
+> '::exclude') except for those written by a certain user (using
+> '::include'). Note that there ARE restrictions on what an '::include'
+> command can override. As an example, if a specific user is being
+> excluded, you will never see any of their messages, even if you have
+> issued '::include thread' commands for specific threads. For more
+> information on filter precedence, see the 'filter precedence' help topic.
+>
+>     In addition to being able to specify a specific user or thread to
+> include using the arguments, as described above, the list member may save
+> time by placing the '::include' command in a reply to a message sent from
+> the list. In this manner, an '::include thread' command, with no
+> arguments, will include all messages posted to the list under the same
+> subject line as the message being replied to.
+>
+>     Similarly, the '::include user' command with no arguments will include
+> all messages posted by the originator of the message being replied to.
+> The only requirement for these short-cut commands to work are that they
+> are sent in reply to a message distributed by the list, and that the mail
+> software being used provides a valid In-Reply-To: field. Most mailers,
+> including elm, do so.
+>
+>     The ultimate form of inclusion is to override all previously issued
+> '::exclude' commands, thereby requesting that all posts to the list be
+> received. This is done using the '::include all' command. This could come
+> in handy in cases where you temporarily wanted to "listen in" on
+> everything being posted to the list, placing "on hold" any filter
+> conditions you may have set with the '::exclude' command.
+>
+>     As with '::exclude' you may issue a number of '::include' and
+> '::exclude' commands, setting up a variety of custom filter conditions.
+> A limit is usually set, however, upon the number of filter conditions
+> that a given user may set. Use the '::stat' command to get a list of filter
+> conditions you have set, and the '::reset' command to remove specific
+> filter conditions.
+>
+>Examples:
+>---------
+>
+>     A user has previously used the '::exclude all' command to turn off all
+> messages from the mailing list. However, after reading the nightly filter
+> list, the user decides to listen in on the recent series of posts on
+> subjects related to recursive programming techniques. The user could use
+> the following forms of the '::include' command to request the inclusion
+> of such posts.
+>
+>     ::include thread recursive
+>     ::include thread recurs
+>
+>     If the user sees from the filter list that one of the messages on the
+> subject in question is message #95-8-517 , and it is currently the month
+> of August, they could use one of the following commands:
+>
+>     ::include thread #517
+>     ::include thread #94-5-517
+>
+>     Mote that, if it were not current the month of August, only the second
+> example above would work. Otherwise, all messages with the same subject
+> as message #517 from some other month would be included.
+>
+>     Alternatively, let us assume that the user wasn't sure if "recursive
+> programming techniques" was really that interesting, and decided to
+> request the above message using a '::resend' command. Upon receiving it,
+> and concluding that in fact they did want to receive all future messages
+> on that subject, they could simply reply to the message requested with the
+> command:
+>
+>     ::include thread
+>
+>     Recall that, without arguments, MailWeir will automatically derive the
+> subject from the message being replied to.
+>
+>     As another example of the '::include' command, assume a different user
+> is receiving most messages from the list, but has previously filtered out
+> all messages on the "recursive" subject above. Upon reviewing the nightly
+> filter list, they see that Joe Shmoe is posting messages on this subject,
+> and Joe Shmoe just happens to be an old college buddy and someone worth
+> listening to. So, the user requests one of Joe's posts (message #95-3-71)
+> on the subject of recursive programming techniques using the '::resend'
+> command. After reading it, our hypothetical user decides that, while the
+> subject may be a bit boring, Joe is such an excellent writer that anything
+> he writes is worth listening to. So, the user sends a reply to Joe's post
+> with any of the following command formats:
+>
+>     ::include user
+>     ::include user jshmoe@vax.companyx.com
+>     ::include user #71
+>     ::include user #95-3-71
+>
+>     Note that, as with a previous example, if this wasn't the month of
+> march, 1995, the short-hand message# format would not work.
+>
+>     To override all previous filter conditions:
+>
+>     ::include all
+>
+>See Also:
+>---------
+>
+>     EXCLUDE, Filtering, FILTERLIST, NOTIFY, RESEND, RESET and STAT
+>
+>---------------------------------------------------------------------------
+>Command: help index
+>---------------------------------------------------------------------------
+>
+>>From habs@panix.com Wed Jun  8 02:57:38 1994
+>Received: from panix.com by news.panix.com with SMTP id AA19601
+>  (5.65c/IDA-1.4.4 for <exi-powermail@news.panix.com>); Wed, 8 Jun 1994
+>06:57:39 -0400
+>Received: by panix.com id AA08086
+>  (5.65c/IDA-1.4.4 for exi-powermail); Wed, 8 Jun 1994 06:57:38 -0400
+>From: "Harry S. Hawk" <habs@panix.com>
+>Message-Id: <199406081057.AA08086@panix.com>
+>Subject: DOCS: index (fwd)
+>To: exi-powermail@panix.com (exi-powermail)
+>Date: Wed, 8 Jun 1994 06:57:38 -0400 (EDT)
+>Reply-To: habs@panix.com
+>Mime-Version: 1.0
+>Content-Type: text/plain; charset=US-ASCII
+>Content-Transfer-Encoding: 7bit
+>Content-Length: 655
+>
+>HELP TOPIC: 'index'
+>-------------------
+>
+>The following is a list of commands and other topics for which help
+>information can be obtained using the '::help' command:
+>
+>General Information:
+>--------------------
+>
+>     ::
+>     :::
+>     FILTERING
+>     GENERAL
+>
+>Commands:
+>---------
+>
+>     DIGEST
+>     EXCLUDE
+>     FILTERLIST
+>     HELP
+>     INCLUDE
+>     INDEX
+>     LIST
+>     NOSEND
+>     NOTIFY
+>     PRIVATE
+>     QUIET
+>     REPLY
+>     RESEND
+>     RESET
+>     STAT
+>     VERBOSE
+>
+>Examples:
+>---------
+>
+>     To receive help information on the '::include' command, for example,
+>send the following command to the list:
+>
+>     ::help include
+>
+>See Also:
+>---------
+>
+>     HELP
+
+
+
+------------------------------
+
+End of Extropians Digest V94 #318
+*********************************
+

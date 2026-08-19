@@ -1,0 +1,962 @@
+From extropians-request@extropy.org Wed Nov 24 13:38:33 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA01873; Wed, 24 Nov 93 13:38:30 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA25428; Wed, 24 Nov 93 13:38:22 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA12786
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 24 Nov 1993 16:30:41 -0500
+Date: Wed, 24 Nov 1993 16:30:41 -0500
+Message-Id: <199311242130.AA12786@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: November 24, 373 P.N.O. [21:30:08 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Wed, 24 Nov 93             Volume 93 : Issue 327
+
+Today's Topics:
+                                                                      [2 msgs]
+                   ANARCHY: The Coming Crypto Phase Change            [1 msgs]
+                               Comments on NSA                        [3 msgs]
+                         Drowning in Banal Complexity                 [2 msgs]
+                   Drowning in Banalous Complexisityishness           [1 msgs]
+                          GP PRNG beats human PRNG?                   [1 msgs]
+                         GP algorithm discovery rate                  [2 msgs]
+                   GUNS: Evil Babykilling Assault Weapons!            [2 msgs]
+                                  Hypermedia                          [2 msgs]
+                        META: Charging $ for the List                 [1 msgs]
+                          MYTHS: Heroin & Addiction                   [1 msgs]
+                     Socialism Isn't Necessarily Statist              [1 msgs]
+                         Start-Up VirtSem: my product                 [1 msgs]
+                    UNIX: Be thankful for what you've got             [2 msgs]
+                           Virtual Sem: My Start-up                   [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52375 bytes.
+
+----------------------------------------------------------------------
+
+Date: Wed, 24 Nov 1993 08:03:41 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: GP algorithm discovery rate
+
+In <199311240650.WAA25022@mail.netcom.com>, Nick Szabo writes:
+|> Craig Presson:
+|> > ...the NSA with its billions of flops, possibly trillions
+|> > 10 years from now, could employ more GP's than they employ mathematicians
+|> > for far less money.
+
+I didn't say the above, nor do I claim to know what metric prefix to
+use for the hypothetical NSA-flops parameter :-)
+[...]
+|> The main interests of current GP researchers are complex problems like
+|> protein classification, robotics, and the like.  But as a little
+|> side-effort, Koza has already used GP to generate a PRNG 
+|> with higher entropy than any human-designed algorithm. 
+
+Neat! Do you have the rest of the reference handy?
+
+-- Craig
+
+------------------------------
+
+Date: Wed, 24 Nov 93 09:27:18 EST
+From: Tim Freeman <tsf@cs.cmu.edu>
+Subject: GP PRNG beats human PRNG?
+
+From: szabo@netcom.com (Nick Szabo)
+>The main interests of current GP researchers are complex problems like
+>protein classification, robotics, and the like.  But as a little
+>side-effort, Koza has already used GP to generate a PRNG 
+>with higher entropy than any human-designed algorithm. 
+
+Er, Koza would have to know all human-designed algorithms to be able
+to assert this, which seems unlikely.  Also, if Koza is human, then we
+have an immediate contradiction.  :-)
+
+There are PRNG's that are cryptographically strong, in the sense that
+if there is a polynomial-time algorithm that has a better than 50 +
+epsilon% chance of guessing the next bit for some positive epsilon, we
+can convert that algorithm to one that breaks various cryptography
+problems in polynomial time.  (Definition quoted from memory, hence a
+detail or two is probably wrong.)  
+
+I don't know how to measure the entropy of a string of pseudo-random
+bits, but it seems that if the output from the CSPRNG is
+distinguishable from truly random bits by any polynomial-time
+algorithm, then we have a tool for guessing the next bit (simply pick
+the bit that makes the sequence look less random in the eyes of the
+algorithm that notices the distinction).  If we can measure entropy in
+polynomial time, then there seems to be a contradiction.
+
+Tim
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 08:34:21 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: GP algorithm discovery rate
+
+Craig Presson:
+
+> |> Koza has already used GP to generate a PRNG 
+> |> with higher entropy than any human-designed algorithm. 
+> 
+> Neat! Do you have the rest of the reference handy?
+
+See Koza's book _Genetic Programming_ for an extensive
+discussion beginning on page 395.  Also, see:
+
+  Koza, John R.  Evolving a computer program to generate
+  random numbers using the genetic programming paradigm.
+  In Belew, Rik, and Booker, Lashon (editors), _Proceedings
+  of the Fourth International Conference on Genetic
+  Algorithms_.  Morgan Kaufmann.
+
+Both of those books are available at a bookstore near you!
+
+derek
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 08:34:06 -0600
+From: Anthony Garcia <agarcia@sugar.NeoSoft.COM>
+Subject: ANARCHY: The Coming Crypto Phase Change
+
+Tim May wrote:
+>   I want to elaborate on some comments I made earlier about anarchy and
+>   crypto-anarchy and tie them to the "Oceania" ocean colonization thread.
+... 
+>   Like a seed crystal dropped in a supersaturated solution, crypto could
+>   trigger a phase change of immmense proportions. (The metaphor is
+>   slightly awkward, as I see the crypto phase change _increasing_ the
+>   number of degrees of freedom, as in the transition from a solid to a
+>   liquid to a gas.)
+
+How about "Like a match dropped into a lake of gasoline*" ?  <grin>
+
+-- yours for liberty thru cryptography (and any other means, as well),
+-Anthony Garcia
+agarcia@neosoft.com
+
+[* Preferably one filled with IRS agents, BATF goons, et. al.]
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 08:34:31 -0600
+From: Anthony Garcia <agarcia@sugar.NeoSoft.COM>
+Subject: META: Charging $ for the List
+
+   Date: Mon, 22 Nov 1993 15:29:39 +0500
+   From: brian@suneast.east.sun.com (Brian Hawthorne - SunSelect Strategic Marketing)
+   X-Original-To: @news.panix.com:extropians@extropy.org
+   X-Extropian-Date: Remailed on November 22, 373 P.N.O. [20:30:38 UTC]
+   X-Message-Number: #93-11-834
+   Reply-To: extropians@extropy.org
+
+   > Sure, I agree there is not much experience with reflector trees.
+
+   ...
+
+   There are plenty of Netnews hierarchies that are completely private, yet
+   use NNTP and Usenet/UUCP for propagation. You limit your bandwidth
+   requirements, providing filtering at the recipient's end, and distribute
+   processing all over the place. I've always thought that the Extropians
+   list is heading in exactly the wrong direction: that of increasing
+   centralization and control. 
+
+Interesting idea.  But it would seem to require:
+
+1.)  A network of machines which would carry the private "Extropians.*"
+hierarchy.  This would be easiest to do in cases where individual
+Extropians readers are owners/administrators of the machines which
+they receive extropians on.
+
+2.)  That people who are not owners/admins of their own machines to do
+their reading/posting online, via an NNTP client, rather than offline,
+as many do.  (Alternative: development of an offline NNTP client (if
+indeed they don't already exist.))
+
+3.) Adequate security in order to assure that Extropians message
+distribution is limited to subscribers.  (Does NNTP allow per-user
+authentication?  I'm under the impression that it only allows
+per-machine or per-domain authentication...)
+
+4.) Distribution of managment.  The administrator of each machine in the
+distribution network would have to cooperate and communicate with the
+other admins.
+
+Advantages would be:
+
+1.) Use of subgroups to facilitate division of threads:
+"extropians.biz.start-ups", "extropians.tech.nano", etc.
+
+2.) Distribution of processor and bandwidth load.
+
+3.) Filtering in the hands of readers, where it belongs.  Granted, this
+capability is already here with the Panix-based command processor, or 
+in instances where people use their own mail filters.  But software for
+filtering Usenet messages is more widely deployed than software for filtering
+mail (at least in my experience) and would thus be more readily available 
+to readers.
+
+4.) Potential for "PPL" list filtering: It would be possible to create
+a group which would be used for posting and reading of "kill"
+messages.  This would be best handled automatically by an augmented
+newsreader.  People could choose to use or ignore kill messages posted
+by particular users.  Unpopularity of a particular post could be roughly
+estimated by the number of kill messages it receives.  Likewise,
+"recommend" messages, the inverse of kill messages, could be used to
+recommend particular messages to the attention of others.
+
+-Anthony Garcia
+agarcia@neosoft.com
+
+-- I'm glad to be back.  Have now gone from paper-based reading of Extropians to offline
+electronic reading.  I can almost keep up now...
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 15:09:04 +0000 (GMT)
+From: Charlie Stross <charless@sco.com>
+Subject: Comments on NSA
+
+derek@cs.wisc.edu (Derek Zahn) writes:
+>Charlie Stross:
+
+>> Here in the UK I did a back-of-envelope calculation a few months ago.
+>> There are 30 Million phones here. Assume an average of 1 hour/day
+>> usage. Allow 2kbits/sec bandwidth for an uncompressed voice call.
+
+>> That's without compression, of course ...
+
+>Interesting thing to calculate.  I'd be really interested in the
+>actual average use (though 1 hour seems approximately reasonable).
+>Unfortunately, the 2kbits/sec uncompressed figure is off by at
+>least an order of magnitude.  With 8-bit samples (about the minimum
+>that could be used), and a 4K sampling rate (not really enough, but
+>being generous), that's 32kbits/sec.  
+
+Huh?
+
+I thought the bandwidth of a phone line was about 2 kHz -- part of the
+reason why compression protocols tend to be used for rates faster
+than 2400 baud. The human voice is mostly concentrated in a range from
+200 Hz to 2 kHz, after all. Moreover, it's worth noting that even
+CD's, which try to cover the entire audio spectrum, only use 44
+kbits/sec (to cover a 20 kHz range). While there's some dispute about
+CD's sounding 'flat' on audiophile HiFi systems because they lose the
+ultrasonic harmonics, the phone system is undoubtedly a much lower
+fidelity (and lower bandwidth) system than a CD player!
+
+>                                         There are ways to compress
+>voice so that it's more or less understandable at 5kbits/sec (used
+>by the military), but those would require vast (unrealistic) amounts
+>of computing power for your telephone company to have installed to do
+>the compression.  Realistically, 10kbps is a minimum figure with feasible
+>compression.
+
+"Unrealistic" is relative. If it was done in software I might agree,
+but a single modern DSP chip capable of handling about 20 MIPS could
+do, as far as I can tell, all the compression necessary for >100 (and
+possibly as many as 1000) voice channels. _If_ my lower estimate of
+sampling rates is accurate, that is.
+
+>Now, even if the 2kpbs figure was right, you dropped another decimal
+>point:  30,000 gigabytes (1MB * 30M phones) is right.  1000 digital
+>exchanges -> 30 GB / exchange / day == ~10 4MB DAT tapes.  Given
+>the actual uncompressed rate of at least 20kbps, now we're talking
+>about 100 DAT tapes per day per exchange.  Still possible, but logistically
+>rather more difficult; per month, the phone company (or the government,
+>or whoever) would be buying three million DAT tapes.  If such is happening
+>it shouldn't be very difficult to verify.
+
+Indeed, and I'm a bit red-faced over it.  However, please allow me to
+move the goal-posts over to my side of the pitch :-) For a _big_ data
+monitoring organization I'd go for something like Digital Paper.  This
+stuff was hyped by ICI who developed it a couple of years ago -- then it
+went very quiet.  Digital Paper is basically a very cheap WORM medium; a
+plastic film that can take write-once optical recording.  The
+low-capacity tapes ICI showed could store something like 50Gb, and tapes
+the size of a VHS cartridge could handle on the order of 1-2 Tbytes.
+
+Now plugging a tape drive with a digital paper streamer into each main
+exchange might generate a tape a day at each main switch, and be
+_very_ hard to spot ... and the logistical problem at the archive site
+has been pruned down to about 2-300 tapes per year. ("This is our
+autochanger. It can load any phone call placed in the UK in the past
+six months. Any questions?" "Yeah. Can I listen to one?" "Okay son,
+what name would you like to filter for?" "Diana Windsor ...")
+
+The point is, whatever the medium used to record the data (it could
+even be as analogue tracks on old 78-rpm records, for all I know), the
+storage requirement is within the reach of an organization with a
+budget on the order of the hundreds of millions available to NSA or
+GCHQ. 
+
+
+>derek
+>also a lover of envelope-back calculations
+--------------------------------------------------------------------------------
+Charlie Stross is charless@sco.com, charlie@antipope.demon.co.uk  
+ 
+ 
+ 
+
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 12:54:12 -0500 (EST)
+From: LEVY%BESSIE@venus.cis.yale.edu
+Subject: UNIX: Be thankful for what you've got
+
+>I _hate_ UNIX!
+>
+>--Tim
+
+"I wept because I used UNIX, until I met a man who used 
+VMS."
+
+------------------------------
+
+Date: Wed, 24 Nov 93 13:17:38 -0500
+From: walter kehowski <wak@next11.math.pitt.edu>
+Subject: Socialism Isn't Necessarily Statist
+
+>Socialism Isn't Necessarily Statist
+
+Well, that reminds of a sentimental ditty...
+
+When the moon is the seventh house
+and Jupiter aligns with mars
+there will be peace among the planets
+and love will rule the stars
+It is the Dawning of the Age of Aquarius
+
+PHLZZZ!
+
+Walter A. Kehowski <wak@next0.math.pitt.edu>
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 11:20:16 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Comments on NSA
+
+Charlie Stross:
+
+> Huh?
+> 
+> I thought the bandwidth of a phone line was about 2 kHz -- part of the
+> reason why compression protocols tend to be used for rates faster
+> than 2400 baud. The human voice is mostly concentrated in a range from
+> 200 Hz to 2 kHz, after all. Moreover, it's worth noting that even
+> CD's, which try to cover the entire audio spectrum, only use 44
+> kbits/sec (to cover a 20 kHz range). While there's some dispute about
+> CD's sounding 'flat' on audiophile HiFi systems because they lose the
+> ultrasonic harmonics, the phone system is undoubtedly a much lower
+> fidelity (and lower bandwidth) system than a CD player!
+
+I sincerely wish that this were true, because it would mean that
+voice apps would work much better on PCs than they do today, but
+alas, it is not so.  Telephones may have a frequency response of
+2khz (though that would be a particularly poor phone line, and
+most phones do much better [good thing, or we couldn't understand
+each other over the phone!]), but that's not the whole issue.  
+
+It's true that the "primary" frequency of vowel sounds are rather
+low, but it's the overtones that are important in distinguishing
+an 'aa' from an 'ee' and so on.  These use higher frequencies.
+Fire up a sampling app on your PC and try recording your voice
+at 2000, 4000, and 8000 samples per second and you'll see what
+I mean.  You may be able to make out most of the words at 4000
+(because, as you say, many of the frequencies are below 2khz),
+but you'll need an 8khz sampling rate to do a truly understandable
+job, which is why (for example) the MIME e-mail standard for
+transmitting voice uses an 8khz sampling rate -- believe me, they'd
+love to use a lower rate if it was feasible.
+
+Now, a CD [mono] does NOT use 44kbits/sec!  It uses a 44khz sampling
+rate, but each sample is 16 bits: about 706 kbits/sec.  For low-grade
+sound, 8-bit samples are adequate.
+
+> "Unrealistic" is relative. If it was done in software I might agree,
+> but a single modern DSP chip capable of handling about 20 MIPS could
+> do, as far as I can tell, all the compression necessary for >100 (and
+> possibly as many as 1000) voice channels. _If_ my lower estimate of
+> sampling rates is accurate, that is.
+
+What kind of compression are you talking about?  The algorithms
+used for large-compression voice (9600 or even 4800 bits/sec), based
+on sophisticated linear prediction models, will eat that DSP chip
+of yours for a single channel.  Simplistic "generic" compression
+of sound signals is remarkably hard and you're lucky to get a 3:1
+ratio on a typical voice-app 8khz x 8bit sound (yielding 20kbits/sec).
+This is why we don't see scads of "lectures on disk" floating around.
+A modern fast PC might *just* be able to decompress a 10kbps voice
+stream, so that sort of thing is on the edge of becoming mass-marketable.
+
+> The low-capacity tapes ICI showed could store something like 50Gb, and tapes
+> the size of a VHS cartridge could handle on the order of 1-2 Tbytes.
+
+Now this is a whole different ballgame.  I did not realize that there
+were commercially available terabyte "tape" cartridges.  Could you
+tell us more about this?  All of my objections go away if these
+are in fact feasible; in fact, LOTS of objections go away in this
+case!  Such a tape could hold many hundreds of hours of video!
+The complete genomes of thousands of people (actually, many more
+with a differential encoding)!  Extropians archives for nearly a month!
+
+> the storage requirement is within the reach of an organization with a
+> budget on the order of the hundreds of millions available to NSA or
+> GCHQ. 
+
+Well, I maintain that today it's infeasible to get much below 20kbits/sec
+per phone line without a dedicated fast DSP per conversation (meaning a
+million DSPs or so for all the phone conversations, too expensive today).
+Given that, this gives roughly 8,000 terabytes per month.  With a
+budget of $8M/month (a hundred million per year, imaginable), this
+scenario becomes feasible if and when storage can be gotten for
+$1000/terabyte.  If those new devices you mention are in fact in
+production (ooh, future shock, I love it!), that would be possible.
+For DAT tapes, we're still off by an order of magnitude.
+
+However, I agree that it's only a matter of time before such a thing
+is doable, if it isn't today.  I just don't think it's being done
+today.
+
+derek
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 10:37:35 -0800
+From: onomoto@netcom.com (Young and Loud)
+Subject: MYTHS: Heroin & Addiction
+
+        In my copy of Naked Lunch (paperback with a yellow cover), William
+S. Burroughs includes an article he submitted to the British Journal of
+Addiction concerning his heroin/morphine addiction.  
+
+        -o
+
+
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 12:42:57 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: Hypermedia
+
+In <199311240307.AA09107@umbc7.umbc.edu>, "Mr. Richard Seabrook" writes:
+[...]|> This is an EXCELLENT topic for this group!  If you want a 
+|> REAL inspiration, read a 1947? paper by Vanevar Bush (Library of
+|> Congress) called "As we may think."  We have yet to develop
+|> anything like a "memex"....
+|> Dick S.
+
+I have seen that article referenced 100's of times but have not
+tracked down the original. Does anyone know where it has been
+reprinted, or another way to get an actual copy of the thing?
+
+Poking around with Mosaic has inspired me to see about a SLIP
+connection so I can Web All Night if I want :-)
+
+-- cP
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 13:49:58 -0500 (EST)
+From: Mark Sulkowski <SULKOM@ubvmsb.cc.buffalo.edu>
+Subject: GUNS: Evil Babykilling Assault Weapons!
+
+ From: "Patrick M. Fitzgerald" <pmfitzge@fitz.b30.ingr.com>
+>I may yet be shot down (at least until next year), but I wouldn't
+>count on it.
+
+	You may yet be shot down?  I hope you have a gun to defend
+yourself with.  :)
+
+
+        *    .
+====\\.    ~  //====
+||   \\ ~ . *//   ||
+||    \\ *  //    || 
+||     \\.~//     || 
+||      \\//      || 
+|| Mark  \/enture ||
+====================
+
+------------------------------
+
+Date: Wed, 24 Nov 93 10:50:09 -0800
+From: freeman@maspar.com (Jay R. Freeman)
+Subject: UNIX: Be thankful for what you've got
+
+> >I _hate_ UNIX!
+> >
+> >--Tim
+> 
+> "I wept because I used UNIX, until I met a man who used
+> VMS."
+
+    Someone send these poor computationally challenged souls copies of OS/2.
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 11:11:29 -0800
+From: Brian D Williams <talon57@well.sf.ca.us>
+Subject: holiday
+
+Just wanted to wish everyone a happy and safe holiday
+Party on!
+
+Brian Williams
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 13:11:11 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: GUNS: Evil Babykilling Assault Weapons!
+
+In <01H5P29SB9G28WW26B@ubvms.cc.buffalo.edu>, Mark Sulkowski writes:
+|>  From: "Patrick M. Fitzgerald" <pmfitzge@fitz.b30.ingr.com>
+|> >I may yet be shot down (at least until next year), but I wouldn't
+|> >count on it.
+|> 
+|> 	You may yet be shot down?  I hope you have a gun to defend
+|> yourself with.  :)
+
+Unless there have been confiscations, robbery, etc., since the last
+time I shot with him, I can assure you young Fitz is properly apprised
+of his militia duty and equipped to perform it. I won't give specifics
+of his armament, lest I attract evil baby-killing arsenal-robbers to
+his apartment, but at least the following calibers are represented:
+.22LR, .38, .45, and 7.62x39mm.
+        ^
+       /
+------/---- cpresson@ingr.com (Freefire! Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+"Shhh! Be vewwy vewwy quiet! I am hunting targets!" -- Robert C.
+Presson, age 9, at the range.
+
+
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 11:55:46 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Drowning in Banal Complexity
+
+>>I _hate_ UNIX!
+>>
+>>--Tim
+>
+>"I wept because I used UNIX, until I met a man who used 
+>VMS."
+
+--from Simon! Levy
+
+
+I used VMS on my VAX 11/780 from 1980 to 1984. Then I used Symbolics LISP
+machines. The last 7 years I've used Macs. Except when using Portal and now
+Netcom.
+
+The problem I have with all these wonderful gadgets and systems is
+_proliferation of complexity_. Banal complexity at that.
+
+While I'm no Einstein, in more ways than one, I can't imagine Einstein
+losing a day of work trying to get his emacs "autowrap" working again when
+his site administrator switched from Version 18.xx to Version 19.xx and a
+bunch of things broke. (Turned out I wasn't alone...they had "forgotten" to
+install some necessary hooks to make everyone's scripts work....and here I
+was digging deeper and deeper into my .emacs and .login scripts, tearing my
+hair out as I altered scripts, inserted new commands, and was ready to give
+up and just use the "Return" key to manually wrap lines! When the folks at
+Netcom "remembered" to install the enabling hooks, my old scripts ran
+fine.)
+
+And _something_ "breaks" every few months in most Unix systems I know
+about. All these wonderful little tools and gizmos that need "Unix gurus"
+to fix. 
+
+(Perhaps this is inevitable with most complex systems. I wonder. What I
+cherish about my Macs is the "readiness to hand," in Heideggerian terms, of
+the interface: I know precisely where files are because I can _see_ them,
+and the WYSIWYG interface is consistent in all word processors and
+editors...some of the word processor features obviously vary from program
+to program, but anyone can edit text with any word processor just by using
+the mouse/trackball and the arrow keys--such is clearly not the case in the
+world of Unix or VMS or other text-based systems. Not the fault of Unix per
+se, but still a source of confusion.)
+
+Ditto for time spent getting Eudora 2.0 to talk to my system, and on and
+on. Considering this is just _mail_, I often wonder if it's all worth it.
+
+There was a time when my intellectual energy could be spent almost wholly
+on conceptual issues, on reading books. Now, entirely too much time goes
+into memorizing epiphenomenol bits of cruft, things like what control key
+sequence initiates an auto-reply, what inits on my system bomb other inits.
+
+As Steven Levy put it a MacWorld column a while back, when he was writing
+on a typewriter he didn't need to subscribe to "Remington Rand World" and
+log onto bulletin boards to find the latest patches that allowed his
+telephone to continue working.
+
+(I'll grant you some incredible advantages to computers. Hard to run
+"Mathematica" on a typewriter. But I also find myself drowning in a sea of
+software that breaks, that needs patches constantly, and that is not
+adequately explained anywhere convenient. "Read the man pages" is not what
+I want to do when my editor--which I only use a dozen or so commands
+in--breaks.)
+
+I'm not arguing for a brain-dead system like "Prodigy," where the user has
+few choices in editors, mail readers, etc., just stating my reaction to
+tools that force me to spend a day patching an editor, another day
+installing new scripts, and on and on. (Part of the confusion doubtless
+comes from the fact that I'm cut off from other Unix users, except through
+the Net itself. Thus, there's no "Unix guru" down the hallway that can look
+at my scripts and .login files and quickly see what's just broken.)
+
+This welter of choices is echoed in the encryption business, where the
+couple of dozen major mail systems are all using different interfaces, are
+all requiring custom interfaces to PGP, and are all mostly missing built-in
+encryption (for this and other reasons). We have in software the "tower of
+Babel" problem that so often paralyzes future growth.
+
+How will "the masses" use the current systems if we have to tell them:
+"Well, read the man pages and then, if you're using csh, edit your .login
+file. Install some Lisp code into emacs that recognizes MIME-compliant Post
+Office Protocol sockets. Then it's just a trivial matter of typing "exec
+srlpop/strm" and you should be ready to open your mailbox, which, by the
+way, is stored in /u21/user/mbox/temp. It's really very simple.And if
+you're using ksh..."
+
+I'm not sure my remaining intellectual life should be so oriented toward
+minutiae like this.
+
+[DIGRESSION: Business opportunity: This complexity is being attacked by
+folks writing simpler editors, recognizing that 99% of users don't need the
+power of emacs 19.xx or the latest version of vi...how many people need to
+read NetNews from within an emacs buffer while compiling code in another
+buffer? I think there's a market for a commercial set of tools that
+combines a _stable_ (new versions are always backward-compatible) set of
+tools for reading mail and News, and so forth, with a fairly complete
+feature set. "Eudora" is successful, but it's only a piece of the solution.
+"NewsWatcher" and "Nuntius" are other examples. This could be why "America
+Online" (AOL) is doing well. A consistent, Mac-like interface. I assume a
+Windows version is coming. If AOL offered a flat-rate service, with local
+numbers, like Netcom does, I might switch. A consistent, visual interface
+is what I really covet.]
+
+Back to drowning in complexity. This situation is closely related to the
+complexity seen elsewhere. I have a cordless phone which interferes with my
+answering machine, which is itself frequently "losing it" and having to be
+reinitialized. All this complexity, just to use a phone! The canard that
+most Americans have their VCRs flashing "12:00" because they're too stupid
+to program them is nonsense: after the fourth or fifth power failure, they
+realize they're too _smart_ to hunch down and reset the clock every couple
+of weeks. Why don't VCRs come with battery back-up of the clock? (Actually,
+my new S-VHS deck does. But now that I've had my cable disconnected, what
+to record?
+
+Maybe it's just time for me to cut back on the Net. My life is being sucked
+into a vortex of triviality.
+
+Please, hold off the suggestions that my problems would be solved if only I
+read the man pages on the latest and greatest new editor and switched to
+that. I don't want to spend several days reading about a new editor! Part
+of the reason I use emacs is that I used it on my Symbolics machine and I
+know the basic commands (if not how to compile Ada in a help file
+minibuffer while also binding the command keys to the Coke machine on the
+Net).
+
+
+--Tim May
+
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+
+------------------------------
+
+Date: Wed, 24 Nov 93 11:58:24 -0800
+From: cappello@cs.ucsb.edu (Peter Cappello)
+Subject: Hypermedia
+
+>>If you want a 
+
+>|> REAL inspiration, read a 1947? paper by Vanevar Bush (Library of
+>|> Congress) called "As we may think."  We have yet to develop
+>|> anything like a "memex"....
+>|> Dick S.
+>
+>I have seen that article referenced 100's of times but have not
+>tracked down the original. Does anyone know where it has been
+>reprinted, or another way to get an actual copy of the thing?
+
+Bush, Vannevar, "As We May Think," in From Memex to Hypertext, James  
+M. Nyce and Paul Kahn, editors, Academic Press, 1991, LCCCN:  
+91-076751, ISBN: 0-12-523270-5.
+
+Pete
+
+
+------------------------------
+
+Date: Wed, 24 Nov 93 12:16:23 -0800
+From: Romana Machado <romana@apple.com>
+Subject: Start-Up VirtSem: my product
+
+Generous friends,
+If any of you resident geniuses has advice on how to go about
+getting maximum publicity and distribution for Stego, please
+let me know. I would be very happy to recieve any other Stego-related
+advice, too, either in private email or on the list.
+
+Thanks in advance,
+Romana Machado
+romana@apple.com
+
+
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 12:29:55 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Hypermedia
+
+>In <199311240307.AA09107@umbc7.umbc.edu>, "Mr. Richard Seabrook" writes:
+>[...]|> This is an EXCELLENT topic for this group!  If you want a 
+>|> REAL inspiration, read a 1947? paper by Vanevar Bush (Library of
+>|> Congress) called "As we may think."  We have yet to develop
+>|> anything like a "memex"....
+>|> Dick S.
+>
+>I have seen that article referenced 100's of times but have not
+>tracked down the original. Does anyone know where it has been
+>reprinted, or another way to get an actual copy of the thing?
+>
+>Poking around with Mosaic has inspired me to see about a SLIP
+>connection so I can Web All Night if I want :-)
+>
+>-- cP
+
+I've seen it reprinted in at least one book on hypertext, a collection of
+papers and articles.
+
+Try a university library or a large technical bookstore. In the hypertext
+section, flip through some of the recent books.
+
+(Not promising anything, but I think it might be in one of Barrett's books,
+perhaps with the title "Hypermedia.")
+
+--Tim May
+
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 12:30:02 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Comments on NSA
+
+Charlie Stross and Derek Zahn have been discussing the logistics of
+capturing and storing local phonecalls on DAT tapes (DAT _is_ "tape," I
+know). Some comments:
+
+- capturing and storing at the local phone office would be _very obvious_
+and very labor-intensive, as either Charlie's or Derek's calculations show.
+Too many tapes, too many couriers. 
+
+- under the UK-USA Agreement (cf. Bamford's "The Puzzle Palace"), the USA
+can intercept British phone calls, the UK can intercept USA phone calls.
+Except in emergencies, in the USA at least the NSA is not supposed to do
+this to USA phones (I don't know the situation in Britain, but, lacking a
+Constitution of any meaninful sort, I suspect GCHQ does whatever it wants).
+Thus, carting tapes back and forth would make this interception fairly
+obvious.
+
+- much likelier is interception of the microwave transmissions and even the
+cable lines themselves. In the U.S., for example, there is anecdotal
+evidence that transcontinental microwave routes were rerouted so as to
+cross Indian reservations...this allows interception on a wholesale basis
+because Indian reservations are nominally treated as foreign nations and
+are exempt in various ways from ordinary laws. (This is a simplification.
+Some people believe the CIA used Indian reservations for various operations
+banned in the ordinary United States. I don't know the real truth.)
+
+- in other words, direct input into the NSA computers is the likeliest
+approach. Using DAT tapes as an intermediary seems too crufty. 
+
+- read Bamford for details on large NSA facilities near satellite downlink
+stations in West Virginia, California, England, etc.
+
+(Speculation: A large Comsat downlink/uplink ground station is located at
+the end of the Carmel Valley, not far from me. One of the largest
+collections of Crays is--surprisingly--located at Fort Ord, also near me.
+The Defense Language School, which specializes in foreign language, is also
+nearby. And AT&T's "translation service" (real-time two-way translation,
+from, say, Swahili to Croatian) is also located there. Finally, the
+Monterey Institute for International Studies is believed to be a CIA/DIA
+front. Hence, I believe the Monterey Bay area is a hotbed site for
+intercepting satellite transmissions, for using the Crays and parallel
+computers at the Fort Ord site (nominally a Navy Oceanic Computing Center,
+or somesuch), and for employing the human translators when needed to make
+the final translations.)
+
+--Tim May (who has a lot of collected stuff on the NSA for his
+still-unfinished novel)
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 15:44:35 -0500 (EST)
+From: ptbast@ivy.WPI.EDU (Peter F Bastien)
+Subject: Drowning in Banal Complexity
+
+Tim May said:
+> 
+> >>I _hate_ UNIX!
+> >>
+> >>--Tim
+> >
+> >"I wept because I used UNIX, until I met a man who used 
+> >VMS."
+> 
+> --from Simon! Levy
+> 
+> 
+> I used VMS on my VAX 11/780 from 1980 to 1984. Then I used Symbolics LISP
+> machines. The last 7 years I've used Macs. Except when using Portal and now
+> Netcom.
+> 
+> The problem I have with all these wonderful gadgets and systems is
+> _proliferation of complexity_. Banal complexity at that.
+> 
+>		[Diatribe deleted]
+
+	Your discussion pointed out the hindrance of Unix from being
+completely successful. It is the reason why products which may not
+perform as well as Unix, will be successful by simply working. It is
+why I still run DOS and Windows on my home system. I know they will
+work.
+
+No Brilliant Insight,
+Pete
+
+------------------------------
+
+Date: Wed, 24 Nov 1993 11:11:45 -0800 (PST)
+From: Oliver Seiler <oseiler@unixg.ubc.ca>
+Subject: Virtual Sem: My Start-up
+
+On Tue, 23 Nov 1993, Sameer wrote:
+
+> 	Looking at around one-year from now, I'm tossing around the
+> idea with myself and friends about renting a place together, and
+> getting an internet line into it. In Berkeley it will cost 325/month
+> through TLG for a 56K line.
+> 	This won't be a commercial venture, more of a cooperative
+> living situation. (There would be a charge/person + a charge/room, and
+> extra money each month would go to a maintenance/new equip. fund.
+> Individuals would pay for their own voice/modem lines, etc.)
+> 
+> 	The main negative point for me is that it won't lend itself to
+> my nomadic leanings. If I set up a house with a node, I'd have a
+> strong financial reason to *stay* there, for quite some time. (I don't
+> have any big plans to leave in the *near* future.. I'll be a student
+> here for the next 3.5 years, so there's that length of time
+> available..)
+> 
+
+I've been thinking about the mobility aspect of having my own Internet
+node, and, depending on how much I want to spend, there seem to be some
+good ways to do it.
+
+Currently, mobile Internet nodes are a major area of research. The main
+problem is routing. How do packets 'find' a mobile node?
+
+Until this is solved (I've been thinking of protocols to do it as well),
+having a stationary node somewhere is probably the best course, with
+a mobile set of subnodes or maybe just a modem connection. With the advent
+of satellite telecom (a la Motorola's Iridium) will make connections of
+this sort pretty feasible...
+
+I want to put a node onto a boat, but I'll settle for a satellite uplink
+from the middle of the Pacific...
+
+-Oliver
+
+
+
+
+------------------------------
+
+Date: Wed, 24 Nov 93 13:03:38 PST
+From: martino@gomez.Jpl.Nasa.Gov (Martin R. Olah)
+Subject: Drowning in Banalous Complexisityishness
+
+ Tim May provides a most excellent Rant.
+
+ I now respond:
+I guess this would be a good time to come out of the closet. Computers bug me.
+They just feel so primitive. I want A.C. Clark's "magic", a technology that is
+transparent. I want to sit in front of the screen and say "computer, do this, 
+tell me that", etc.
+  All I own is a C-64, and I just use that as a music sequencer. I haven't 
+written a song in over a year because I'm tired of flipping a dozen switches,
+booting disks, and trying to remember how all my equipment works, when it does.
+  I hate it when technology gets in the way of what I'm doing!!
+                       
+                             O Martin
+
+
+
+                    
+
+------------------------------
+
+End of Extropians Digest V93 #327
+*********************************
+

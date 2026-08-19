@@ -1,0 +1,954 @@
+From extropians-request@extropy.org Sat Nov 27 19:33:44 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA16704; Sat, 27 Nov 93 19:33:40 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA11217; Sat, 27 Nov 93 19:33:34 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA16993
+  (5.65c/IDA-1.4.4 for more@usc.edu); Sat, 27 Nov 1993 22:28:30 -0500
+Date: Sat, 27 Nov 1993 22:28:30 -0500
+Message-Id: <199311280328.AA16993@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: November 28, 373 P.N.O. [03:28:23 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Sun, 28 Nov 93             Volume 93 : Issue 331
+
+Today's Topics:
+                Dad Learned Russian At Monterey Language School       [1 msgs]
+                               Comments on NSA                        [9 msgs]
+                               Crossbows, etc.                        [2 msgs]
+                         Drowning in Banal Complexity                 [1 msgs]
+                       Extropy: Sly Stallone & Cryonics               [1 msgs]
+                                   Indexing                           [1 msgs]
+                                  Librarians                          [1 msgs]
+                                  META: test                          [2 msgs]
+                             Mind-computer links                      [1 msgs]
+          Multinational small business & jurisdictional independence  [1 msgs]
+                         Start-Up VirtSem: my product                 [1 msgs]
+                     UNIX: thoughts on GNU in particular              [1 msgs]
+                 e pluribus unix: a slightly wacky suggestion         [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 53023 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 25 Nov 1993 07:40:46 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Comments on NSA
+
+Ray Cromwell:
+
+> Now assuming 100:1 compression, we need about 75 million Mb. What's the
+> going rate for a Mb per HD, $1.25? That means we need about $93 million
+> or $9.3 billion if speech-to-text isn't available. It's supercollider
+> scale, but still doable.
+
+I understand the point you're trying to make, and maybe this thread
+has run its course, but I just want to point out that there's no
+way you're going to get 100-1 compression from CELP-encoded speech.
+In fact, since CELP is about the best compression for speech that
+anybody's found, you're not going to get *any* further compression
+at all.
+
+Oh, and large disks are available from computer shopper for as low
+as $0.70 / Mb.
+
+derek
+kicker of dead horses
+
+------------------------------
+
+Date: Thu, 25 Nov 1993 07:47:28 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: Comments on NSA
+
+In <9311250213.AA10135@gomez.jpl.nasa.gov>, Martin R. Olah writes:
+|> Does the govt. listen in? I suggest we get to the bottom of this immediately!
+|> We need two Extropians to plot the presidents' assassination over the phone
+|> while the rest of us see what happens. Any volunteers?
+
+Sha. As if. :-)
+
+But now we get to the interesting part. Ray has given a convincing
+b-o-t-envelope demonstration (a _very_ popular sport at MIT) that the
+NSA could be at least storing all US phone traffic; and by extension,
+they would only need about three more such systems to handle most of
+the rest of the world. But you'd still have to do better than simply
+threaten the Bubba of State to get any personal attention, because
+they don't have enough gun-totin-car-drivin-shoe-leather-burnin agents
+to jump and run every time someone plans something Disorderly on the
+phone.
+
+That's one reason the Robocop movies give me the shivers -- the other
+being how bad and corny they are :-)
+
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+
+------------------------------
+
+Date: Thu, 25 Nov 1993 15:29:10 +0000 (GMT)
+From: Charlie Stross <charless@sco.com>
+Subject: Start-Up VirtSem: my product
+
+Romana Machado <romana@apple.com> writes:
+
+>Generous friends,
+>If any of you resident geniuses has advice on how to go about
+>getting maximum publicity and distribution for Stego, please
+>let me know. I would be very happy to recieve any other Stego-related
+>advice, too, either in private email or on the list.
+
+>Thanks in advance,
+>Romana Machado
+>romana@apple.com
+
+Yeah well, it might help if it was visible :-)
+
+I've looked on the berkeley ftp site and I've looked on Sumex and I
+_still_ can't find it. Now I know I'm short sighted, but this is
+ridiculous!
+
+Has it been posted to the mac-gifts alias? (That explodes it to places
+like Sumex and mac.archive.umich.edu?)
+
+
+
+
+-- Charlie
+--------------------------------------------------------------------------------
+Charlie Stross is charless@sco.com, charlie@antipope.demon.co.uk  
+ 
+ 
+ 
+
+
+------------------------------
+
+Date: Thu, 25 Nov 1993 15:44:25 +0000 (GMT)
+From: Charlie Stross <charless@sco.com>
+Subject: Comments on NSA
+
+derek@cs.wisc.edu (Derek Zahn) writes ...
+
+        :
+>Now, a CD [mono] does NOT use 44kbits/sec!  It uses a 44khz sampling
+>rate, but each sample is 16 bits: about 706 kbits/sec.  For low-grade
+>sound, 8-bit samples are adequate.
+
+Huh? Lessee. The maximum CD running time is c. 76 minutes. 76 minutes
+x 60 seconds gives 4560 seconds. 4560 x (706k/8) gives 402,420,000
+bytes. CD-ROMS store about 550 Mbytes. Hmm. I vaguely recall -- now
+you poke me -- that the samples aren't 16 bits; they're something
+weird like 12 bits, and the 16-bit DACs are using some oversampling
+mechanism to improve their fidelity.
+
+And now for somethhing different ...
+
+>> The low-capacity tapes ICI showed could store something like 50Gb, and tapes
+>> the size of a VHS cartridge could handle on the order of 1-2 Tbytes.
+
+>Now this is a whole different ballgame.  I did not realize that there
+>were commercially available terabyte "tape" cartridges.  Could you
+>tell us more about this?  
+
+Well, my memory's a bit hazy. Digital Paper (I _think_ that is what
+they TM'd it as) got exposed in Byte, New Scientist, and similar
+places about 3-5 years ago then went away quietly. I remember seeing
+photographs of a variety of media, including discs and tapes ranging
+in size from 4mm DAT sized up to huge 12" spools. The concept was to
+market cheap archive storage with a cost of c. .1 cent/Mbyte. (i.e.
+$10 for a 10 Gbyte tape).
+
+I presume though that the main market for such a technology is for
+high-capacity backup servers hanging off mainframes and enterprise
+systems; not being a mainframe owner I don't get the kind of sales
+literature that would contain ads for it.
+
+All of my objections go away if these
+>are in fact feasible; in fact, LOTS of objections go away in this
+>case!  Such a tape could hold many hundreds of hours of video!
+>The complete genomes of thousands of people (actually, many more
+>with a differential encoding)!  Extropians archives for nearly a month!
+
+>> the storage requirement is within the reach of an organization with a
+>> budget on the order of the hundreds of millions available to NSA or
+>> GCHQ. 
+
+>Well, I maintain that today it's infeasible to get much below 20kbits/sec
+>per phone line without a dedicated fast DSP per conversation (meaning a
+>million DSPs or so for all the phone conversations, too expensive today).
+>Given that, this gives roughly 8,000 terabytes per month.  With a
+>budget of $8M/month (a hundred million per year, imaginable), this
+>scenario becomes feasible if and when storage can be gotten for
+>$1000/terabyte.  If those new devices you mention are in fact in
+>production (ooh, future shock, I love it!), that would be possible.
+>For DAT tapes, we're still off by an order of magnitude.
+
+Given a storage cost of $1/Gbyte, we can cost out a monitoring
+operation at that $100m/year. Note that GCHQ has a budget >80 million
+UK pounds/year, and NSA (from my hazy memory of "Inside the Puzzle
+Palace") is something stratospheric (like $5Bn).
+
+Back to my main point, though. Traffic analysis is _definitely_ within
+the reach of agency budgets today. Total phone network logging is
+_possibly_ within their budget, and mass tapping ( >1 million phones
+permanently monitored) is _definitely_ within budget.
+
+Question: suppose the government -- any government -- were to clamp down
+suddenly on electronic networking by subversives (i.e.  most of us on
+this list), TOMORROW, what would be the most survivable network
+mechanism? What SHOULD we have in place? And why DON'T we have a
+tamper-proof network that is invulnerable to cryptanalysis,
+steganalysis, traffic analysis, and plain old-fashioned
+boot-through-door confiscation?
+
+WARNING: maybe I'm paranoid, but it might not be a good idea to post
+to the list any plaintext that you would object to the guys in black
+hats reading. After all, we're talking about black-hat proof networks
+here ...
+
+
+
+-- Charlie
+
+
+--------------------------------------------------------------------------------
+Charlie Stross is charless@sco.com, charlie@antipope.demon.co.uk  
+ 
+ 
+ 
+
+
+------------------------------
+
+Date: Thu, 25 Nov 1993 12:58:10 -0500
+From: ddf2@postoffice.mail.cornell.edu (David Friedman)
+Subject: Crossbows, etc.
+
+Tim Starr writes:
+
+ "but I keep thinking about ordering this one pistol bow from one of the
+mail-order
+catalogs we get here.  60-lb draw weight.  Another catalog carries one with
+an 80-lb weight, ..."
+
+Remember that the energy in a bow is (roughly) proportional to draw weight
+times draw distance. 80 lbs sounds impressive--but on a pistol sized
+crossbow it probably results in not much energy. Mac's hand crossbow is
+cocked by turning a sort of big wing nut, attached to a threaded rod to
+which the nut (the thing that holds the string drawn) is attached. That
+gives you a lot of mechanical advantage--and you need it for a bow stiff
+enough to give reasonable power with such short travel.
+
+Tim also discusses the virtue of the .45 colt auto and its relatives. Have
+you tried the H&K P7? It is one of the more radical designs--you cock it by
+closing your hand on the grip. That gives you the trigger release of a
+cocked single action, with the convenience and safety of a double action.
+Drop it and it is safe before it hits the ground.
+
+David Friedman
+(Who has not had time to play with such toys for quite a while, unfortunately)
+
+David Friedman
+Cornell Law School
+DDF2@Cornell.Edu
+
+
+------------------------------
+
+Date: Thu, 25 Nov 1993 11:37:05 -0800 (PST)
+From: Oliver Seiler <oseiler@unixg.ubc.ca>
+Subject: e pluribus unix: a slightly wacky suggestion
+
+On Wed, 24 Nov 1993, Phil G. Fraering wrote:
+
+> It suddenly occured to me that a large part of the problems
+> with Unix could be solved if there were Unix sites whose existance
+> depended on customer/user service first and beta-testing second.
+> 
+> I've never had massive problems with emacs, for instance. Some
+> problems with a subprogram called calc, which I'm sure are calc
+> bugs and not emacs bugs, but that's another story.
+> 
+> I'm also still using emacs 18.4x or .5x or something like that.
+> I was reading the emacs newsgroups when 19 came out. In one week's
+> worth of posts, emacs went from version 19.05 to version 19.17.
+> 
+> In a while I'll check back, see if it's still in beta test. If
+> the testers are done, I might compile it for my system, see if
+> its advanced debugging (should that be alleged advanced debugging?)
+> can help me straighten out the calc bug where it has problems
+> recognizing and solving integrals of the form (du/u).
+
+Tell me about it. I decided to install the newest version on the machine
+at work. After a bit of tweaking to get it to compile (on a Sparc Station
+II) it seemed to work fine on OpenWindows... However, it didn't work at
+all over a terminal connection from home...
+
+After look at the source code, I decided I'd get an earlier version
+(18.something) which compiled fine and runs fine... No problems at all...
+
+Although I didn't look at the dource for the version I finally installed,
+the newest version just struck me as very ugly. I'm not really surprised
+by the amount of problems people are having with it...
+
+> 
+> Phil
+
+-Oliver
+
+
+
+
+------------------------------
+
+Date: Thu, 25 Nov 93 19:53:12 GMT
+From: jrk@sys.uea.ac.uk (Richard Kennaway)
+Subject: Drowning in Banal Complexity
+
+Excellent rants from Tim May and Charlie Stross.
+
+I remember Barry Shein ranting in a similar vein on Usenet a few years ago
+about X-windows and its excessive user-configurability, summing up with the
+words "Don't pretend you've decorated my house when all you've done is
+leave a few wallpaper samples and a book on the chemistry of paint."
+
+I refuse to learn emacs.  I don't even use vi.  I use ex to edit files on
+Unix, and I don't even know or want to know half its commands.  I edit text
+files on a Mac with a simple point-and-click dumb editor.  I wrote most of
+it myself, but whenever I'm tempted to think about making enhancements, I
+lie down until the feeling goes away.  I don't even fix bugs unless they
+crash someone's machine.  It doesn't have a manual and never will.  If its
+users needed any significant support from me, I'd take that as a sign of a
+design flaw.
+
+All tools should be like that.
+
+BTW, where does this myth come from that VCRs are difficult to program? 
+I've never had a problem setting mine to record stuff.  Clearly laid-out
+keypad, most functions clearly labelled (I don't use the ones that aren't).
+ Can't remember the model number, but it's a Sony.
+
+--                                  ____
+Richard Kennaway                  __\_ /    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk      \  X/     University of East Anglia
+uucp:  obsolete                    \/       Norwich NR4 7TJ, U.K.
+
+
+
+------------------------------
+
+Date: Thu, 25 Nov 93 14:56:55 EST
+From: rjc@gnu.ai.mit.edu
+Subject: Comments on NSA
+
+Derek Zahn writes:
+> X-Message-Reference: #93-11-952
+> 
+> Ray Cromwell:
+> 
+> > Now assuming 100:1 compression, we need about 75 million Mb. What's the
+> > going rate for a Mb per HD, $1.25? That means we need about $93 million
+> > or $9.3 billion if speech-to-text isn't available. It's supercollider
+> > scale, but still doable.
+> 
+> I understand the point you're trying to make, and maybe this thread
+> has run its course, but I just want to point out that there's no
+> way you're going to get 100-1 compression from CELP-encoded speech.
+> In fact, since CELP is about the best compression for speech that
+> anybody's found, you're not going to get *any* further compression
+> at all.
+
+   I think you need to reread my message again. For 100:1 compression I
+was using a hypothetical speech recognition algorithm, SPEECH-to-TEXT 
+compressed with LZW. This certainly will compress better than CELP by far.
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Thu, 25 Nov 93 13:03:59 PST
+From: szabo@netcom.com (Nick Szabo)
+Subject: Comments on NSA
+
+Fortuneately, mere taping does not constitute monitoring.  Ever try
+recovering a major system from several tape backups?  Arggghh, may
+I never have to do that again!  Searching a 1,000-tape library
+organized by time and region for specific vocal patterns or
+keywords would be very expensive, unless the wiretappers already know 
+the time and place of the call to be searched.  Global searches,
+traffic analysis, etc. have to be done in batch runs through the
+tapes with search times comparable to real time (divided by the
+amount they can do in parallel).  It might be more convenient to 
+just do such global runs in real time.  Most searches that require
+cross-correlation of large amounts of data between tapes
+(ie some kinds of traffic analysis, depending on the method
+of mass-wiretapping) would be prohibitively expensive.
+
+Complete mass-wiretap of the U.S. would also require either (a) collusion 
+by all the Baby Bells, GTE, etc. or (b) monitoring all major microwave and
+satellite links.  The resulting data would be extremely disorganized --
+encoded in a wide variety of ways, redundant, etc.  They could
+only hope to search those links using the most common encoding
+schemes, and traffic analysis between two such regimes might be
+quite difficult.   An atypical modem compression scheme would be
+practically equivalent to encryption for the purposes of such 
+automated searches.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Thu, 25 Nov 93 13:09:53 PST
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: Comments on NSA
+
+>    I think you need to reread my message again. For 100:1 compression I
+> was using a hypothetical speech recognition algorithm, SPEECH-to-TEXT 
+> compressed with LZW. This certainly will compress better than CELP by far.
+
+Hypothetically, yeah.  But I don't think it's a likely hypothesis,
+even if we grant the NSA a ten-year lead on the rest of the world.
+Recognition of real-world speech is pretty hard.  If you listen to
+one human talking to another, they don't even say most of the
+phonemes that a transcript would suggest.  Add accents and
+phone-quality transmission... well, extrapolating from the history
+of speech recognition, I don't think another ten years will do it.
+
+> -- Ray Cromwell
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Thu, 25 Nov 93 13:24:55 PST
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: Comments on NSA
+
+> Huh? Lessee. The maximum CD running time is c. 76 minutes. 76 minutes
+> x 60 seconds gives 4560 seconds. 4560 x (706k/8) gives 402,420,000
+> bytes. CD-ROMS store about 550 Mbytes. Hmm. 
+
+Factor of two: CDs are in stereo.  44100 Hz x 16 bits x 2 gives
+176400 bytes/sec.  This times 74 min x 60 sec/min is some 747 Mb.
+Most CD-ROMs don't hold this much.  Most music CDs don't hold 74
+minutes either, but the format may introduce some limitations as
+well.  I don't have a CD-ROM handy, but the encoded band doesn't
+cover the whole disk, does it?
+
+> I vaguely recall -- now you poke me -- that the samples aren't 16
+> bits; they're something weird like 12 bits, and the 16-bit DACs are
+> using some oversampling mechanism to improve their fidelity.
+
+The samples are 16 genuine bits, stored essentially raw.  Twelve bits
+really wouldn't be sufficient.  The ADC/DAC system plays all kinds
+of games, probably because DACs linear to 16 bits are moderately
+expensive.  Also because they can sell endless inaudible variations
+to drooling audiophiles.
+
+> Well, my memory's a bit hazy. Digital Paper (I _think_ that is what
+> they TM'd it as) got exposed in Byte, New Scientist, and similar
+> places about 3-5 years ago then went away quietly.
+
+What *was* the stuff?  What was the medium, and the mechanism by
+which it stored and retrieved data?  They could still sell that
+technology today to a whole lot of sysadmins.
+
+> -- Charlie
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Thu, 25 Nov 1993 14:09:42 -0800
+From: onomoto@netcom.com (Young and Loud)
+Subject: UNIX: thoughts on GNU in particular
+
+        I'm surprised that nothing's gone across the list appropos to the
+GNU project.  One comment I'd make are that I suppose it's a testament to
+the non-viability of unix in a commercial setting that some of the best
+tools continue to be free.
+
+        I wonder how those at GNU, working on this ultimate (or at least
+pretty good) operating system will hope to compete with groups like those
+at Apple and Microsoft and a bunch of other people with a profit motive
+when Emacs 19 -- something which (I'd think) isn't near as complex as an OS
+-- came out some 2-3 years behind schedule.
+
+        What are other opinions of GNU?
+
+        -o
+
+
+
+        
+
+
+
+------------------------------
+
+Date: Thu, 25 Nov 93 22:04:18 EST
+From: rjc@gnu.ai.mit.edu
+Subject: Comments on NSA
+
+Eli Brandt writes:
+> 
+> X-Message-Reference: #93-11-974
+> 
+> >    I think you need to reread my message again. For 100:1 compression I
+> > was using a hypothetical speech recognition algorithm, SPEECH-to-TEXT 
+> > compressed with LZW. This certainly will compress better than CELP by far.
+> 
+> Hypothetically, yeah.  But I don't think it's a likely hypothesis,
+> even if we grant the NSA a ten-year lead on the rest of the world.
+> Recognition of real-world speech is pretty hard.  If you listen to
+> one human talking to another, they don't even say most of the
+> phonemes that a transcript would suggest.  Add accents and
+> phone-quality transmission... well, extrapolating from the history
+> of speech recognition, I don't think another ten years will do it.
+
+  Remember, the speech recognition doesn't have to be perfect. All you need to
+be able to do is scan lines for potential illegal activity perhaps by keyphrase
+frequency analysis. Then you can follow up with a full 8-bit quality recording
+of the target for human interpretation.
+
+  However, I disagree with your extropolation of speech recognition. In ten
+years, I predict that independent-speaker continuous speech recognition
+with intonation recognition will be widely available. Add to that, automatic
+language translation with very high accuracy.
+
+  Speech recognition has already made good progress from the simple speaker
+dependent sample recognition systems of yesteryear and change is accelerating.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date:     Fri, 26 Nov 93 7:52:55 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Dad Learned Russian At Monterey Language School
+
+>From: trestrab@GVSU.EDU (BETH TRESTRAIL)
+>Subject: Monterey and NSA
+>
+>Comments and questions on Tim May speculation concerning intelligence
+>activities in Monterey.
+>
+>In '78-79 probably 70% of the students at the Defense Language
+>Institute were radio intercept operators, 15% were POW interogators,
+>and the remaining 15% were officers about to be assigned overseas
+>and spooks.
+>
+>The vast majority studied Russian, German, Chinese, and Korean (in
+>approximate descending order).
+
+My Dad went through this.  Graduated from high school at 17 with no
+plans, so Grandpa, who was allegedly "sargeant-major in charge of NATO
+forces in Europe, the highest-ranking enlisted man in the US Army" pulled
+a few strings to get Dad into Army Intelligence in spite of his dry skin
+condition, which would've kept him from passing the physical, and he
+got sent to Monterey to study Russian, then in Japan to translate radio
+messages from the USSR.
+
+According to what he told me (never can tell how reliable it was - he was
+perversely deceptive, for one thing, and claimed that he couldn't tell
+some stuff because it was classified for another thing), they had him
+studying Russian 8 hours a day, 5 days a week, for about 3 months, if I
+recall correctly.  Note the difference between this teaching method and
+the 50-minute hours, single subject per hour method prevalent in public
+school.  Evidently, if they want you to learn it, they do it the former way,
+not the latter.
+
+Benefits: he knew Russian pretty well, as far as I could tell, able to do
+such miraculous things as correct the English subtitles in Russian-language
+movies, get us around in Yugoslavia without being able to speak any of the
+indigenous languages (and get Russian-hating students mad at us while he was
+at it), and had stories to tell about barrack life in Monterey and Japan
+(he picked up some Japanese, too, which, combined with "Shogun," is probably
+where I got what little I wakarimas).  Evidently, when they got off duty at
+the end of the day, they'd walk into town, buy a cheap jug of Gallo wine,
+and walk back to the base, drinking it on the way.  Dad also claimed to know
+a fellow there who could drink beer so fast that he'd never stop pissing
+until he ran out of it to drink.  All I remember 'bout Japan is that he picked
+up a taste for sushi.
+
+Costs: he got banned from going to the USSR by both the USA and the USSR; the
+USA didn't want him turning sides, and the USSR didn't want him infiltrating
+to kill their Premier, a la the movie "Spies Like Us" :-).
+
+>          Jeff
+
+"Jeff"?  That's funny, it says "Beth" up above...
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Fri, 26 Nov 1993 9:02:12 +0000 (GMT)
+From: Charlie Stross <charless@sco.com>
+Subject: Crossbows, etc.
+
+ddf2@postoffice.mail.cornell.edu (David Friedman) writes:
+>Tim Starr writes:
+
+> "but I keep thinking about ordering this one pistol bow from one of the
+>mail-order
+>catalogs we get here.  60-lb draw weight.  Another catalog carries one with
+>an 80-lb weight, ..."
+
+>Remember that the energy in a bow is (roughly) proportional to draw weight
+>times draw distance. 80 lbs sounds impressive--but on a pistol sized
+>crossbow it probably results in not much energy. Mac's hand crossbow is
+>cocked by turning a sort of big wing nut, attached to a threaded rod to
+>which the nut (the thing that holds the string drawn) is attached. That
+>gives you a lot of mechanical advantage--and you need it for a bow stiff
+>enough to give reasonable power with such short travel.
+
+This led me to some interesting whacky speculation about getting
+around legal bans on automatic weapons and armour-piercing bullets 
+in the US.
+
+Take a hand crossbow and a replica automatic pistol. hack off
+pistol barrel and replace everything forward of breech with a thickly
+wound coil. Take magazine, fill with blanks, and add some magnetized
+iron filings to the blanks. For safety's sake put some kind of target
+chamber on the end of the coil to absorb the shrapnel. 
+
+Take hand crossbow. Replace wing but with high-torque electric motor.
+Ensure that crossbow is magazine-fed. Place solenoid or reed switch
+behind trigger so that when trigger is pulled, switch closes.
+
+Switch runs to handgun-turned-MHD generator. Pulls trigger, fires
+blank, produces _big_ current pulse in coil, feeds to capacitor then
+drains into electric motor in crossbow. Result? A fully-automatic
+crossbow. Armour-piercing, too. 
+
+'Course if this gadget is illegal (it fires blanks, after all), you
+could always power it off a car battery in a rucksack ...
+
+
+-- Charlie
+--------------------------------------------------------------------------------
+Charlie Stross is charless@sco.com, charlie@antipope.demon.co.uk  
+ 
+ 
+ 
+
+
+------------------------------
+
+Date: Fri, 26 Nov 1993 9:11:58 +0000 (GMT)
+From: Charlie Stross <charless@sco.com>
+Subject: Comments on NSA
+
+Eli Brandt <ebrandt@jarthur.Claremont.EDU> writes:
+
+>> Well, my memory's a bit hazy. Digital Paper (I _think_ that is what
+>> they TM'd it as) got exposed in Byte, New Scientist, and similar
+>> places about 3-5 years ago then went away quietly.
+
+>What *was* the stuff?  What was the medium, and the mechanism by
+>which it stored and retrieved data?  They could still sell that
+>technology today to a whole lot of sysadmins.
+
+The answer: I _don't know_. It was some kind of cheap metalized tape
+that could be pitted by a laser (just like a WORM disk) -- only
+difference being, it was on tape. So there were prototype devices
+using just about any method imaginatable for laying down tracks on
+tape, only using a laser instead of a magnet. I don't know where it
+went, either. A friend and I were discussing it last night; a
+potentially revolutionary data archive technology that just
+sort of dropped out of sight shortly after the initial announcement.
+You should be able to find it if you've got an index to the past five
+years of Byte ...
+
+-- Charlie
+--------------------------------------------------------------------------------
+Charlie Stross is charless@sco.com, charlie@antipope.demon.co.uk  
+ 
+ 
+ 
+
+
+------------------------------
+
+Date: Fri, 26 Nov 93 5:32:18 PST
+From: szabo@netcom.com (Nick Szabo)
+Subject: Multinational small business & jurisdictional independence
+
+Extropians may be interested in this essay, which I wrote in
+response to excellent articles by Hal Finney et. al. on
+the Internet Mercantile Protocol list (imp-interest@thumper.bellcore.com).
+
+----------------------------------
+
+Multinational Small Business & the Principle of Jurisdictional Independence
+
+	(c) 1993 by Nick Szabo
+	permission to archive & redistribute with full
+	attributions, granted.
+
+If we include CompuServe et. al. access to stock quotes in today's
+net commerce, we must also include the flourishing net porn industry 
+on BBS's.  BBS's take in upwards of $1 billion a year (according to 
+_Wired_) and I'd estimate that porn boards make up a majority of that 
+figure.  
+
+Despite the many customers who seem to disregard their own privacy
+with controversial services such as porn, I suspect many of the more
+sophisticated customers would pay quite a bit extra for secure
+privacy.  Here's a very simple system: the BBS can accept
+money orders enclosed with a nickname and password
+created by the customer.  These can then be used to
+access the telnet account based on that nickname.  The
+local service account is then then debited by using the services 
+and credited by mailing more money orders with the pass phrase.
+
+This system is far more secure than credit cards, which are
+notoriously subject to fraud even without the rich new
+possibilities for credit card abuse created by the Internet.
+The customer need trust the distant net service with a small 
+money order, not access to their entire credit line.  The
+business need not make the unrealistic expectation that
+a net account corresponds to a "real name".
+
+The money order and password might be instead sent
+to a debit Billing Service that maintains accounts for a wide 
+variety of online services, along the lines of Phil Trubey's 
+proposal.  Small account credits can be used to "ping"
+the various online services, and the fraudulent services
+quickly unmasked.
+
+This money order system also has the quality that is vital
+for international, decentralized Internet commerce --
+it is _jurisdiction independent_.  Small business cannot
+afford the massive amounts of legal help needed to sort out
+the various means of credit enforcement in the vast number
+of jurisdictions criss-crossed by the net.  They must instead
+use transactions that rely on no such enforcement.  This is
+a major but necessary change in outlook if small business is
+to take its place beside the megacorps in multinational
+commerce.  Due to the same lack of legal budget, smart
+small businesses on the net will also take security 
+steps, such as encryption and foiling traffic analysis, to minimize 
+the consequence of accidentally violating obscure entries in a library 
+full of regulations somewhere on the other side of the planet.
+Anybody who thinks that small business should instead
+hire lawyers from all over the planet to be sure that they
+satisfy every jot and tittle in every principality, has obviously 
+never run a small business. That isn't even feasible across the 50 
+states of the U.S.!  A good IMP should be as useful in and
+between Europe, South Africa, Japan, and Singapore as it is in 
+and between the states of the U.S. or EC.
+
+I suspect most Internet commerce in the near term is going 
+to be a straightforward migration from the OSI/X.*00 world and the 
+BBS world, not new services made out of whole cloth. 
+Pure-info publishing (books, CDs, etc.) is going to face severe 
+problems with piracy (as digital porn does now).  Over the long
+term, many more services will be possible from the emerging net-based
+multinational small business.  Since small business is 
+increasing majority share of the world economy, the development
+of jurisdiction-independent protocols, from the simple (money
+order activated net accounts) to the sophisticated (online
+and offline digital cash) for multinational small
+business may well be the most lucrative business opportunity
+of the decade.  Jurisdictional independence looks like the
+keystone of the new generation of net commerce.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Fri, 26 Nov 1993 17:30:42 -0500 (EST)
+From: "Mr. Richard Seabrook" <seabrook@umbc.edu>
+Subject: Mind-computer links
+
+According to Michael R Linksvayer:
+> 
+> > ... why limit yourself to speech?  If the good folks at the
+> > Wadsworth Labs and U. Illinois come thru, we'll soon have
+> > direct mind-computer links to play with..
+> > Dick S.
+> 
+> Please post more information on these!
+
+As I mentioned to Derek a few days ago, I'm working
+on a survey paper this semester reviewing the field
+for a Human-Computer INterface (HCI or CHI, whatever)
+Prof... I hope to do my dissertation research on it.  
+Should have a fairly good bibliography by the end of
+January.  There are at least 3 promising techniques,
+and perhaps a couple more -- mu-rhythm conditioning,
+visually evoked potential (VEP) and induced lateral
+orientation of attention (ILOA)...
+But before anyone gets too excited -- I've not found
+ANYONE who is experimenting, suggesting or even
+contemplating the reading of nor the control of
+thoughts.  Please! -- I'd rather not be responsible
+for such a thread.
+Everyone's trying to figure out how we can learn
+special "mental" responses that we can use to
+control machines -- any kind of "hands-off" operation
+will do.  The implications for quadriplegic individuals
+are obvious....  So far, detection and control activities
+are pretty basic -- cursor movement studies, stuff like
+that -- but its DOABLE!  The biggest problem appears
+to be detection -- EEG's are such a mess, and there are
+SOOOO many neurons and connections...
+More in a few weeks, if anybody's interested.
+Dick S.
+
+
+------------------------------
+
+Date: Fri, 26 Nov 93 23:07:50 -0500
+From: andreag@csmil.umich.edu
+Subject: Librarians
+
+Perry, quoted by Kennita:
+
+   LIBRARIANS. Most people think of librarians as being the old women who
+   sit around and answer small children's questions on how to use card
+   catalogues -- few people realize that what librarians actually worry
+   about is this very problem -- the indexing of all human knowledge.
+
+Since I've been working with all these Info & Library Science professors,
+I'll make a comment before dvdt jumps in.  I do have a fair amount of
+respect for librarians (Library Scientists?), especially the reference 
+types.  But they've all given up on "the indexing of all human knowledge"
+a few years ago.  Or, more precisely, they've given up on indexing it 
+all by hand (because there's no way to keep up and there are a lot of
+retrieval problems) and some of them are working on automated indexing.
+
+Systems exist for indexing knowledge, but they don't work all that well.
+Most people have about 5 avenues they will try before going to the
+library to find a bit of knowledge, and those avenues involve asking 
+other people who they think have the knowledge stored in their brain.
+There are lots of hard problems, and indexing is one of them.
+
+Andrea 
+
+..............................................................
+Andrea L. Gallagher       Grad Student, Cognition & Perception
+andreag@csmil.umich.edu			University of Michigan
+CSMIL: 313-764-6715                         home: 313-994-9551
+
+------------------------------
+
+Date: Sat, 27 Nov 93 8:15:06 WET
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: META: test
+
+ testing
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Sat, 27 Nov 1993 09:16:44 -0500 (EST)
+From: "Mr. Richard Seabrook" <seabrook@umbc.edu>
+Subject: META: test
+
+According to Ray:
+> 
+>  testing
+> 
+... yeah, it still works.  I think everybody just
+decided to take a couple of days off....
+kinda quiet, huh?
+Dick S.
+
+
+------------------------------
+
+Date: Sat, 27 Nov 1993 16:55:39 -0500 (EST)
+From: Harry Shapiro <habs@panix.com>
+Subject: Extropy: Sly Stallone & Cryonics
+
+I the Nov. 27 issue of the New York Post, on Page 8 is an
+article titled, "Love is the drug for Hollywood's he-men."
+
+In it are the following quotes from Sylvester Stallone. "I want to be
+romantic forever"..."To be cryonically frozen with a box of chocolates
+under my arm and some flowers and then be thawed out in 200 years so I
+can propose to someone."
+
+
+Does anyone know if Sly is "signed up" and with who?
+
+/hawk
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+Date: Sat, 27 Nov 1993 20:09:35 -0600
+From: Anthony Garcia <agarcia@sugar.NeoSoft.COM>
+Subject: Indexing
+
+   every once in a while, people would
+   find that their system for indexing had become so unsatisfactory
+   that some of them would feel a strong impulse to reshuffle everything.
+
+   It would be like fights about splitting groups on the net, only
+   much, much worse. And, even though it would be possible to use
+   computers to keep both systems of indexing going at the same time,
+   they'd represent different worldviews and take time to learn, so
+   that people would be fighting for their preferred indexing.
+
+Clifford Neuman's Virtual System Model is a good solution for the
+problem of maintaining multiple indexes to information.
+
+It allows a collection of information to have as many different
+hierarchically-organized name spaces as desired.  Each name space is
+potentially independant (although name spaces may be combined if
+desired), allowing individual users to name and organize things as
+they see fit.  Plus, it also offers neat features like algorithmically
+generated name spaces.
+
+For more info, some Postscript-format papers concerning the Prospero
+system (Neuman's current implementation of the VSM) can be found in
+the directory ftp://prospero.isi.edu/pub/papers/prospero/
+Source code is in pub/prospero on the same machine.
+
+-Anthony Garcia
+agarcia@neosoft.com
+
+
+------------------------------
+
+End of Extropians Digest V93 #331
+*********************************
+

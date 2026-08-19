@@ -1,0 +1,1009 @@
+From extropians-request@gnu.ai.mit.edu Mon May 17 00:25:11 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA15575; Mon, 17 May 93 00:25:10 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA03343; Mon, 17 May 93 00:25:04 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA22803@wookumz.gnu.ai.mit.edu>; Mon, 17 May 93 03:20:37 -0400
+Message-Id: <9305170720.AA22803@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Mon, 17 May 93 03:20:19 -0400
+X-Original-Message-Id: <9305170720.AA22796@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0264
+X-Extropian-Date: Remailed on May 17, 373 P.N.O. [07:20:36 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Mon, 17 May 93            Volume 93 : Issue 0264
+                        
+Today's Topics:
+                            AI:Human Equivalence                      [3 msgs]
+                            ECON: Monopoly money                      [1 msgs]
+                            ECON: monopoly money                      [1 msgs]
+                            FWD: Cyberpunk (fwd)                      [1 msgs]
+                           Forward: NPR on Clipper                    [1 msgs]
+                 LIFE-X: the 120 yr limit, cryogenics, blah           [1 msgs]
+                        Looking for Philly extropians                 [1 msgs]
+                      PHIL: The Utility of Mathematics                [6 msgs]
+                         TECH: Numerical Speculation                  [1 msgs]
+                   The Libernet Administration Experience             [1 msgs]
+                              brain input rate                        [1 msgs]
+                                  cyberpunk                           [1 msgs]
+                              proto-extropians                        [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 52250 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 16 May 1993 01:14:23 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: TECH: Numerical Speculation
+
+Hal Finney:
+> Would there be a difference between a market which was
+> absolutely positive that Clinton had a 50% chance of winning, versus one
+> which was uncertain and considered Clinton's chances to be in the 10-80%
+> range I mentioned above?
+
+The uncertainty market players have about the 50% is reflected in the 
+price volatility, or the standard deviation in the price per unit time,
+assuming the market players are rational.   (Some successful traders
+like George Soros think that irrational psychology plays a major
+role in real-world market volatility, but that's another story). The 
+volatility in Drake Equation idea futures will be quite high, since one 
+new piece of relevant information can change the Drake estimate by orders 
+of magnitude.  Just so we could chart it, I'd make the Drake market 
+log-scale instead of linear.
+
+Players can bet on the volatility itself by purchasing a "straddle", or 
+combination of call option and put option on a futures options market.  
+(There are also ways to synthesize a straddle using loans,
+short & long positions if there is no options market).  The payoff of 
+a straddle looks like a "V": it pays off well if the underlying
+security's price (in this case, the futures price) goes way up 
+or down, and loses money if the price is stable.  Players can also 
+construct a "butterfly spread" which is a bet paying off if the market 
+has lower than expected volatility.
+
+The volatility can also change over time.  If the volatility
+has been decreasing over a long period of time, this means the
+market is converging on an answer.  Not necessarily the most
+correct answer; it is common to converge prematurely
+on suboptimal answers.  This also happens with science (paradigms),
+evolution (puntuated equilibria), etc.  The rate of volatility
+convergence lets us to estimate the range of probabilities 
+of the "correct" answer, although (just as with scientific theories)
+there is no iron-clad guaruntee that the answer is ultimately correct.
+
+The Drake equation market is not zero-information; rather much of the
+information comes in the form of constraints.  Upper and lower bounds
+can be set on components of the Drake Equation, and also on the
+result by using observations beyond the scope of those components
+(eg the Fermi Paradox).  It is especially important to 
+set bounds on the most uncertain components of the Drake Equation, the 
+chances of life originating and the chances of intelligence evolving.
+The market player, having determined such constraints, however large
+they may be, can use them to place bets on future Drake market volatility.
+
+> Does it even make sense to speak of being
+> certain about a probability of a one-time event?
+
+We can be very nearly certain in some cases.  The expiration of an option
+is a one-time event: it is either worth its strike price minus the
+underlying asset's current price, or it is worth nothing.  A 
+50%-out-of-the-money put option on the day of expiration is almost 
+certainly worth zero, since the chances of a stock dropping 50% in one 
+day are near zero.
+
+We can estimate degree of future uncertainty by observing related events.
+The volatility throughout the '92 U.S. Presidential election market can be 
+determined post-hoc.  By comparing it to poll figures, we can derive a 
+function from poll figure volatility to election market volatility, and use
+that to construct volatilties for hypothetical past election markets,
+and in turn use those to project the volatility of future election
+markets.  That's one possible method; there might be several
+other ways to get an estimate of future election market volatilities.
+
+Hal Finney (in previous article):
+> I take two coins and lay them on the table either heads or tails,
+> choosing how each will lie.  I then cover them, and we run a betting
+> market on whether each coin is heads or tails, as well as the total
+> number of heads exposed.  Later I will reveal the coins and we will
+> settle the betting.
+
+Like the other examples you have cited, this is not a zero-info market.
+I would *not* assume independent odds; rather I would assume 
+dependencies and patterns. This effect would become more pronounced
+the more coins are involved, eg the probability of 10 heads in 10 coins
+is n*1/2^10, p(20 heads, 20 coins) is m*1/2^20, and m>n>1.   Likewise
+the likelihood of other low-entropy patterns (eg equal numbers of heads and
+tails) is greater.  Furthermore, the outcome of the first few coins will 
+highly influence the probabilities for the remaining coins, since humans 
+are prone to repeat patterns; even the smartest person's choices would 
+make a very poor random generator compared to coin tossing.  Here we
+can invoke the frequency-counting work in information theory.  
+
+Of course, this presupposes that you are choosing in your head, not from 
+a written or memorized computer-generated sequence.   We could back
+up and bet on even that issue; ie place bets on the entropy of the
+coin sequence, and only starting betting for or against patterns once
+a lack of entropy has been established.  Only if the sequence is
+completely patternless will I admit the possibility of a zero-information
+market (while still holding out the possibility of future cryptanalysis :-)
+
+Nick Szabo					szabo@techbook.com
+
+------------------------------
+
+Date: Sun, 16 May 1993 01:47:43 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: FWD: Cyberpunk (fwd)
+
+Forwarded message:
+From: Barna Janos <JZP1102%HUSZEG11.bitnet@HEARN.nic.SURFnet.nl>
+Subject:      cyberpunk
+
+
+*******************************************************************************
+*******************************************************************************
+| *****       *        ******   *******   *****  ******       ******    ***** |
+| *          ***      **    **     *      *      *    **    **     **   *     |
+| ****      ** **      ***         *      ****   *     **  **           ****  |
+| *        **   **        ***      *      *      *     **  **     ****  *     |
+| *       *********   **    **     *      *      *    **    **     **   *     |
+| *****  **       **   ******      *      *****  ******       ******    ***** |
+*******************************************************************************
+*******************************************************************************
+ SEARCHING CONTACTS TO JOIN & | Cyberart & tech | ESTABLISH WORLDNET 4 FUTURE
+                              *******************
+     HELP! We are the first forming cyberpunk group in the Eastern block.
+
+         We NEED YOUR informations, datas, opinion and knowledge about
+                CYBERPUNK CULTURE, CYBERARTS, HACKERS, NEW EDGE
+  CYBER TECHNOLOGIES, VIRTUAL REALITY, MIND MACHINES, ARTIFICAL INTELLIGENCE
+         BRAIN BOOSTER DRUGS, BBS, WETWARE, INTERACTIVE AND HYPERMEDIA
+            UNDERGROUND CULTURE WAVES, SLANG, MUSIC, GRAPHICS, etc.
+  We have great difficulties in ordering books, mags, fanzines or any kind of
+brochure, so please let us get some if you can : Molnar Daniel
+Our answers will contain short stories,graphics: H-6723, Szeged, Csorba u. 9/A
+novels, musics and experiences on this them.   : Hungary
+
+   BITNET mail: jzp1102@huszeg11
+                /Barna Janos/
+
+                              -=PAX WITH YOU=-
+
+
+
+------------------------------
+
+Date:     Sun, 16 May 93 8:47:07 GMT
+From: starr@genie.slhs.udel.edu
+Subject: The Libernet Administration Experience
+
+Carol Moore cites libernet as a good example of a well-administered list.
+I don't think that its administration is conducive to the extropians list.
+
+As is, Libernet is split into two lists that can be subscribed to separately:
+a sort of newswire, for informational, descriptive posts only, and one
+for debate.  The result of this is that the former now has a fairly high
+signal to noise ratio, and probably is the de facto libertarian wire service
+for lack of superior competition.
+
+This is all to the good.  However, designation of a list for the express
+purpose of discussion, debate, argument, etc., has had more mixed returns.
+Since the old, unified list had a policy of discouraging flames to some
+extent, what has happened is somewhat like I'm told London's Hyde Park is:
+flames, debates, and discussions have come out of the woodwork.  This can't
+possibly have increased the signal to noise ratio!  Basically, people have
+given up any inhibitions about posting well.
+
+And I can't say that I haven't contributed to the noise.  I greatly prefer
+our complaint-driven moderation system to one in which rules are enforced
+at the discretion of the moderator to no moderation at all, and our one-
+list-fits-all format is preferable to bifurcation.
+
+In a way, what I really prefer is how it's the readers who are driving
+the list administration - not the central authority.  Our central authority
+is restricted to dispute resolution of last resort.  The plans for new
+list software will permit users to choose what they will read, too.  And,
+if Carol's idea is adopted, who will be excluded from getting posts, too,
+will be decided by the posters themselves.
+
+I'm quite content with this.  I can't see why so many complain about it so
+much aside from those who want to break the rules.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Sun, 16 May 1993 12:13:33 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Forward: NPR on Clipper
+
+FYI,
+
+/harry
+
+The following text is presented for personal educational use only. It
+is not to be copied or otherwise used in a manner which violates
+rights of its copyright holders. This letter serves only as private
+communication to readers of the Extropian Mailing List.
+_________________________________________________________________
+
+
+Copyright 1993 National Public Radio NPR
+
+SHOW: ALL THINGS CONSIDERED
+
+May 14, 1993, Friday
+
+LENGTH: 1118 words
+
+HEADLINE: New Laws Needed to Prevent Computer Privacy Violations
+
+BODY:
+
+LINDA WERTHEIMER, Host: Computers, even private ones, are increasingly
+linked by electronic systems for sharing information and that trend is
+being encouraged by, among others, Vice President Al Gore who wants to
+see a national data network, a kind of information highway, linking
+the country.  
+
+But the more computers are connected, the more concerns individual
+users have about privacy - how to keep 'hackers' from following that
+information highway right into professional secrets and personal
+accounts.  And those concerns are shared by the federal government,
+which wants data protected from unauthorized eyes but also wants its
+own way in, just in case.  Computer consultant Fred Davis says there
+are software programs intended to protect computers but the government
+is considering a whole new system of security.
+
+FRED DAVIS, Computer Consultant: There are a number of incription
+programs that are commercially sold.  The most popular is based on the
+data incription standard or DES, which was designed about 20 years ago
+and is probably inadequate but we don't know because the government
+won't let us look at the algorithm that's used in that standard.  Most
+computer hackers think that it's probably bad, out-of- date and needs
+a new fix and in fact, the government is now thinking of ways to come
+up with a new fix.  They want to have a skeleton key so they can
+unlock our codes on us.
+
+WERTHEIMER: 'Skeleton key?' Explain that.
+
+Mr. DAVIS: Well, the idea with any kind of computer incription is that
+you put in some kind of password or code that essentially acts like a
+key and locks your information and unless someone else knows that
+special code, they can't unlock the data file.
+
+WERTHEIMER: But what you're talking about is the government reserving
+for itself the skeleton key?
+
+Mr. DAVIS: What they want to do- at first they said, 'Hey, let's just
+get a skeleton key that will unlock any code.' That met with howls of
+protest.  The idea that anybody could get a hold of this key and it
+could fall into an information terrorist's hands and they could look
+at any of your credit reports or private information, was scary.  So
+the concept was that the skeleton key would be broken in half,
+essentially and half of it would be kept by one public agency and the
+other half by another public agency.  Then when the government wanted
+to get a court order or a search warrant to intercept a transmission
+or unlock a file, they'd have to request both halves of the key, glue
+them together and then they'd be able to unlock everything.  
+
+The thing that's spooky about this is you really fear that they'll
+misuse it.  The potential for abuse is tremendous, not only by the
+government but by an illegal hacker who figures out how to make a
+skeleton key on their own, and it's very unsettling.  If you feel that
+you're getting protected by an incription chip or some other encoding
+technology, it give you a false sense of security, especially if
+anybody can get this skeleton key and open it up and look at your
+secrets.  Certainly for businesses this would be very scary - for
+trade secrets, the secret ingredient in Coke and all of those things.
+
+WERTHEIMER: How easy is it right now to break into a computer?
+
+Mr. DAVIS: Well, for a talented hacker, it's pretty easy,
+unfortunately.  It depends on the level of security on the system
+they're trying to break into. Banks and credit care places and
+financial institutions have very good security. Corporations have fair
+security and individual people usually have no security so somebody
+could probably get into your personal computer pretty easily. Anytime
+the information is attached to a wire, people can sneak in over that
+wire electronically and look at what's in your computer.
+
+WERTHEIMER: Do you think a computer hacker would be able to get to
+'the big key?'
+
+Mr. DAVIS: Well, my experience is that computer hackers are usually
+smarter than the people in the government and there's not been a
+system that they've been unable to break into, given enough time and
+patience.  And plus they're- a lot of these folks, they're all over
+the world.  So if you have a whole team of some of the world's
+brightest criminal minds working on this, I don't think it would be
+too long before they could break into the thing.
+
+WERTHEIMER: Do we need a whole new set of laws here, Fred, to deal
+with a whole new kind of privacy.
+
+Mr. DAVIS: Boy, I think that is absolutely critical.  I mean, for
+example, right now there are a lot of laws to protect the U.S. Mail.
+If I go into your mailbox and open a letter and read it, that's
+clearly illegal.  It's not clearly illegal to do that with electronic
+mail.  So as more and more of our personal and business communications
+get converted into electronic mail, all sorts of people- you don't
+even need a search warrant to go read this stuff.  So we need a lot
+of, I think, very stringent privacy laws to protect our natural right
+to privacy.  
+
+I mean, not even, you know, like I said, you don't even need a search
+warrant to go read people's electronic mail.  There have been a lot of
+class-action suits from employees of companies where their boss has
+gone in and read all their E-mail and they said, 'Hey, there's nothing
+illegal about it, so we just want to find out what you guys are up
+to.' One of the feelings in the computer industry is that privacy and
+incription products and security products are probably going to be one
+of the very hot software categories over the next couple of years.
+Some hackers have gotten together and created their own incription
+standard they call, pretty good privacy, or PGP, and that's available
+right now and other products like that will probably come out.
+
+You know, I think that people should reject the government's proposed
+key and just come up with their own.  There are ways, if you don't
+make the skeleton key a potential, you can lock people out of using
+it.  I mean, you can come up with a very secure code.  Once you have
+an ability to break it with a skeleton key, that's where the whole
+thing unravels.
+
+WERTHEIMER: Thank you very much.  Computer analyst Fred Davis.  His
+latest book is the Windows 3.1 Bible.  He joined us from San
+Francisco.
+
+[The preceding text has been professionally transcribed.  However, in
+order to meet rigid distribution and transmission deadlines, it has
+not been proofread against audio tape and cannot, for that reason, be
+guaranteed as to the accuracy of speakers' words or spelling.]
+
+SUBJECT: Computer Hardware & Software
+
+
+------------------------------
+
+Date: Sun, 16 May 93 12:42:41 -0400
+From: pcm@cs.brown.edu (Peter C. McCluskey)
+Subject: AI:Human Equivalence
+X-Reposting-Policy: redistribute freely
+
+ carlf@ai.mit.edu  (Carl Feynman) writes:
+>   From: pcm@cs.brown.edu (Peter C. McCluskey)
+>    While the recently evolved parts of thought such as language with a
+>   sophisticated syntax are probably inefficient kludges, there is a large
+>   visualization portion of the brain which I suspect has been optimized
+>   fairly well by a long period of natural selection. I would be surprised
+>   if you could come up with a convincing reason for thinking that the
+>   visual parts of the brain could be optimized substantially or be done
+>   without.
+>
+>I agree with you that the visual and visualizing areas of the brain
+>are probably fairly efficient designs.  I carefully excused myself
+>from having to include these in my estimates by specifying that I was
+>talking about a thinking machine without sensory apparatus more
+>sophisticated than a TTY connection.
+
+ I believe that a human mind without the visualizing parts would be missing
+a lot more than just sensory input, and I doubt whether such a mind could
+even posess rudimentary sanity. It is not clear how a thinking machine
+could work without reproducing significant portions of these processes.
+
+ Why is that we use phrases such as "I see what you mean" rather than
+"I hear what you mean"? 
+
+ The most compelling testimony for my viewpoint comes from a quote in
+Jacques Hadamard's book "The Psychology of Invention in the Mathematical
+Field", from Albert Einstein:
+ "The words or the language, as they are written or spoken, do not seem to
+play any role in my mechanism of thought. The psychical entities which seem
+to serve as elements in thought are certain signs and more or less clear
+images which can be "voluntarily" reproduced and combined. ...
+The above mentioned elements are, in my case, of visual and some of muscular
+type. Conventional words or other signs have to be sought for laboriously
+only in a secondary stage ..."
+
+ Similar testimonies have been reported from other top mathematical scientists.
+ While images may play a less important role in the thought of an average
+person, I think that there is a lot of image processing that occurs sub-
+consciously which is used in everday commonsense knowledge.
+
+[ Carl apparently left on vacation before I found time to respond, so this
+conversation may not amount to much. Why is it that the most interesting
+discussions on this list start near the end of semesters, when I am too busy
+to give them adequate attention?]
+-----------------------------------------------------------------------------
+ Peter McCluskey >> Hofstadter's Law: It always takes longer than you expect,
+pcm@cs.brown.edu >> even when you take into account Hofstadter's Law.
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Sun, 16 May 93 12:57:03 EDT
+From: clayb@cellar.org
+Subject: Looking for Philly extropians
+
+I'm looking to contact extropians in the Philadelphia area. Doug Platt
+has started "the gathering" ("there can be only fun!") of extropians
+around here, and I'd like to add to his efforts. Also, in particular,
+I'm sort of in the market for new living arrangements, and thought that
+it might be possible to form a Philadelphia extropian nexus. I'm located
+on the Main Line, in the Paoli area, and I'd be interested in setting
+things up somewhere around here.
+
+If you're interested, you can reach me at
+
+Clay Bridges
+clay+@cs.cmu.edu
+(215) 644-5309 (before 11PM)
+
+
+------------------------------
+
+Date: Sun, 16 May 93 13:07:33 -0400
+From: pcm@cs.brown.edu (Peter C. McCluskey)
+Subject: LIFE-X: the 120 yr limit, cryogenics, blah
+X-Reposting-Policy: redistribute freely
+
+ pavel@PARK.BU.EDU  (Paul Cisek) writes:
+>Peter McCluskey writes:
+>> If gain control in neurons works anything like gain control works in
+>>signal processing hardware, then having a group of 5 or more neurons
+>>which can discriminate 9 orders of magnitude is completely consistent
+>>with 7-bit accuracy for individual neurons.
+>
+>Does the scheme you mention use each neuron to represent a portion of the
+>mantissa?  Like using several bytes to build a longword?  ...or do I
+
+ Correct. Presumably neurons can't imitate this efficiently.
+
+>> As for the other ways you mentioned that a neuron could store information,
+>>they are conceivable, but until I hear a theory of how their long term
+>>state could be "learned" in response to sensory input, I will assume they
+>>are unimportant to information storage.
+>>
+>
+>Why would you assume this?  Unless by "learning" you also mean "development".
+>I'd assume we want to store all the functional characteristics...
+
+ I want to store the knowledge and intelligence contained within the mind,
+and don't care if some quirks caused by the biological limits of the existing
+implementation of intelligence are lost. You apparently want more biological
+realism than I do. I admit that I can't provide a compelling argument for
+my assumptions about how the important information is stored; they are
+educated guesses or intuitions based on many little pieces of information
+which I can't enumerate.
+
+>Anyway, synaptic "weights" are presumably learned by a Hebbian correlation, an
+>assumption most people accept.  However, the mechanism for the Hebbian synapse
+>has still not been found (though recent findings suggest that carbon monoxide,
+>of all things, may be involved...)
+
+ Don't you mean nitric oxide? Not that that is any less surprising.
+-----------------------------------------------------------------------------
+ Peter McCluskey >> Hofstadter's Law: It always takes longer than you expect,
+pcm@cs.brown.edu >> even when you take into account Hofstadter's Law.
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Sun, 16 May 1993 11:30:20 -0700
+From: D Anton Sherwood <dasher@well.sf.ca.us>
+Subject: proto-extropians
+
+A long time ago, in fact on March 17, Alan Barksdale wrote:
+> I vaguely remember hearing that a book containing wild technological
+> speculation by J.B.S. Haldane, _The_World,_the_Flesh,_and_the_Devil_,
+> interested [C.S.] Lewis; . . .
+
+That's funny, because I vaguely remember reading that a book by Bernal, with
+the same title, interested Dyson.  ;)  Here is Dyson's citation (in INFINITE
+IN ALL DIRECTIONS, chapter 6, "How will it all end?"):
+
+	One of the great scientists of this century was the crystallographer
+Desmond Bernal . . . .  Bernal was also a gifted writer and philosopher.  In
+the year 1929 he wrote a little book, THE WORLD, THE FLESH AND THE DEVIL: AN
+INQUIRY INTO THE THREE ENEMIES OF THE RATIONAL SOUL.  He explored with
+extraordinary vision and boldness the possible future of mankind, and the
+ways in which we may defeat the three traditional enemies of our progress:
+the World symbolizing material obstacles, famine and flood and poverty; the
+Flesh symbolizing our bodily infirmities, disease and senility and death;
+and the Devil symbolizing the dark irrational forces within our own minds,
+greed and fear and jealousy and madness.  His vision went far into the
+future, and at the end he described what he saw as the ultimate
+transformation of life in the universe.
+
+On the next page, Dyson says:
+
+	Or, if you find Bernal's description too optimistic for our present
+mood of doom and gloom, there is the more sardonic but equally bold
+statement of the biologist J. B. S. Haldane.  . . .  Writing in 1923, six
+years before Bernal, he summarized his view of the human situation in a
+little book called DAEDALUS, OR SCIENCE AND THE FUTURE.  Here is Haldane's
+verdict on the prospects of life in the universe:
+	The human intellect is feeble, and there are times when it
+	does not assert the infinity of its claims.  But even then--
+		Though in black jest it bows and nods,
+		I know it is roaring at the Gods,
+		Waiting the last Eclipse.
+
+*\\* Anton                                                     Ubi scriptum?
+
+------------------------------
+
+Date: Sun, 16 May 93 15:59:53 -0400
+From: pcm@cs.brown.edu (Peter C. McCluskey)
+Subject: ECON: Monopoly money
+X-Reposting-Policy: redistribute freely
+
+ dgordon@crow.omni.co.jp  (David Gordon) writes:
+>  What lack of diversity destabilizes an economy? Daedalus reckons it
+>  is the single currency.  The EC's goal of a single currency is thus
+>  exactly wrong, as you might expect.  Instead, it should achieve
+>  financial unification by making all its currencies legal tender in
+>  every member state.
+
+ Competition between currencies would certainly have a stabilizing effect.
+I don't think it would create diversity, any more than it has created
+diversity in the credit card market, because of the transaction costs
+of converting between currencies, and because there's not much diversity
+in the functions that people want currency to serve.
+
+ The one problem with the proposal that you mention is that making many
+currencies legal tender is very different from creating freely competing
+currencies. Legal tender laws put a one-sided obligation on creditors
+to accept whatever currency that debtors want to give them. This is what
+causes Gresham's "Law", with debtors always getting rid of the least
+valuable currency, with the result that the worst currency circulates the
+most. What is needed is the abolition of legal tender laws.
+
+-----------------------------------------------------------------------------
+ Peter McCluskey >> pcm@cs.brown.edu >> Repeal Gresham's Law!
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Sun, 16 May 93 18:53:02 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: AI:Human Equivalence
+
+Peter McCluskey:
+
+>  I believe that a human mind without the visualizing parts would be
+> missing a lot more than just sensory input, and I doubt whether such
+> a mind could even possess rudimentary sanity. It is not clear how a
+> thinking machine could work without reproducing significant portions
+> of these processes.
+
+Many of us (especially males) have visual minds.  I do, and I
+suspect Peter does.  And obviously Einstein did, as the excellent quote
+shows.  But many people don't think visually.  Some of our most gifted
+poets are blind from birth (Homer?).  Certainly some mathematicians have
+been.  I can't think of any off hand, but such people exist.  They seem
+(!see, I can't stop it either) sane.
+
+  [ example of Einstein deleted ]
+
+My understanding is that there are two main type of mathematical
+imagination.  Some people (like me) think in terms of visual images. 
+I don't feel I've understood an equation or concept unless I can
+visualise what it means.  Give me images of phase space over an equation
+any day.  Other people (particularly linguistically skilled) analyse
+maths from a more algebraic 'viewpoint' and they form direct
+relationships between symbols.  Euler, I suspect, was one of these. 
+Going blind didn't hinder him and produced some of his most amazing
+analytical results whilst blind.
+
+I sometimes muse that blind people have some advantages in the
+theoretical sciences because their condition frees up their visual
+cortex for higher order, abstract processing.  Cortical plasticity and
+all that.  Look at Hawking.  Perhaps the atrophy of his motor skills has
+allowed the frontal cortical areas more room for expansion?  Okay, just
+wild speculation, I know.....
+
+>  Why is that we use phrases such as "I see what you mean" rather than
+> "I hear what you mean"? 
+
+Sometimes I hear the phrase "I hear what you mean".
+
+>  Peter McCluskey 
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Sun, 16 May 1993 15:09:02 -0700
+From: D Anton Sherwood <dasher@well.sf.ca.us>
+Subject: brain input rate
+
+If this story of the delayed stereogram is the straight dope, then Da5id's
+Snow Crash in the Black Sun becomes plausible.
+
+-- this is as good a place as any to list the tv shows I watch -- 
+The Kids in the Hall (and misc other Comedy Central)
+whatever's on VH1 while I'm reading my mail
+The Simpsons
+Lovejoy
+Northern Exposure when I remember it
+NuTrek and NuFu when my roomies have it on
+Beyond 2000, though I haven't found it lately
+
+------------------------------
+
+Date: Sun, 16 May 1993 15:07:35 -0700
+From: D Anton Sherwood <dasher@well.sf.ca.us>
+Subject: ECON: monopoly money
+
+>  What lack of diversity destabilizes an economy? Daedalus reckons it
+>  is the single currency.  The EC's goal of a single currency is thus
+>  exactly wrong, as you might expect.  . . .
+
+Jane Jacobs makes a related point in "Cities and the Wealth of Nations".
+
+>  . . .  A currency that started inflating strongly would rapidly
+>  be abandoned for all purposes, except that of paying tax to the
+>  government printing it.
+
+Would I have a separate W-2 for each currency?  ;)
+
+*\\* Anton                                                     Ubi scriptum?
+
+------------------------------
+
+Date: Sun, 16 May 93 18:31:17 -0400
+From: pcm@cs.brown.edu (Peter C. McCluskey)
+Subject: AI:Human Equivalence
+X-Reposting-Policy: redistribute freely
+
+ price@price.demon.co.uk  (Michael Clive Price) writes:
+>Many of us (especially males) have visual minds.  I do, and I
+>suspect Peter does.  And obviously Einstein did, as the excellent quote
+>shows.  But many people don't think visually.  Some of our most gifted
+>poets are blind from birth (Homer?).  Certainly some mathematicians have
+>been.  I can't think of any off hand, but such people exist.  They seem
+>(!see, I can't stop it either) sane.
+
+ Are they making no use of the visual parts of their brains, or are they
+using them 1/2 or 1/4 as well as Einstein? I don't know of any reliable
+way to distinguish between these possibilities.
+
+-----------------------------------------------------------------------------
+ Peter McCluskey >> Hofstadter's Law: It always takes longer than you expect,
+pcm@cs.brown.edu >> even when you take into account Hofstadter's Law.
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Sun, 16 May 93 23:19:25 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: PHIL: The Utility of Mathematics
+
+Eric Raymond says:
+> Unfortunately, it turns out that there is more than one way to
+> axiomatize set theory.  In particular, there are at least four major
+> different combinations of assumptions about infinite sets that lead
+> to mutually exclusive set theories (the Axiom of Choice or its
+> negation; the Continuum Hypothesis or its negation).
+
+In fact it's even 'worse' than that.
+
+The Axiom of Choice has a choosable true/ false status.  The Axiom of
+Choice says you can always define a procedure for selecting a single
+element of any set.  The negation simply says this in not always so. 
+Interestingly the Communist World never accepted the Axiom of Choice. 
+To them it seemed reasonable that there might exist sets for which no
+procedure could select a single element.  If all animals are equal, how
+do you tell one from the other?  Only a Menshevik-dog, Capitalist-pig
+would declare that all sets contain special elements :-)  As result they
+had to 'prove' theorems without recourse to the Axiom of Choice and so
+Eastern Bloc maths was always at a tangent to Western maths.
+
+The Continuum Hypothesis says you have no transfinite number lurking
+between aleph-null and aleph-one (= 2^aleph-null).  But there are an
+infinite number of ways of negating this.  By fiat you can declare the
+existence of any finite number of extra non-Cantorian transfinites
+between aleph-null and aleph-one.  Hence an aleph-null (not just four)
+number of different, orthogonal axiom bases emerge to confound and
+shatter the old Platonic World into ... Many Worlds :-)
+
+And that's without mentioning the Generalised Continuum Hypothesis which
+has at least aleph-one negations....
+
+> In a negative way, though, a Platonist had the last laugh.  Kurt Godel
+> threw a spanner in the Formalist program of axiomatization when he
+> showed that any axiom system powerful enough to include the integers
+> would have to be either inconsistent (yielding contradictions) or
+> incomplete (too weak to decide the truth or falsehood of some
+> assertions in the system).  
+> 
+> And that is more or less where things stand today.  Mathematicians
+> know that any attempt to put forward mathematics as a-priori knowledge
+> about the universe must fall afoul of numerous paradoxes and
+> impossible choices about  what axiom system describes "real"
+> mathematics.  They've been reduced to hoping that the standard
+> axiomatizations are not inconsistent but incomplete, and wondering
+> uneasily what contradictions or unprovable theorems are waiting
+> discovery out there, lurking like landmines in the noosphere.
+
+I've never understood all the collective wailing and gnashing of teeth
+about Godel.  I don't see it as undermining mathematics or the a-priori
+knowledge ideal.  The way I interpret Godel is every axiom base is
+incomplete in that you will always encounter undecidable theorems which
+are neither true nor false within it.  Instead of shrinking in horror
+from this I accept it as meaning that the adoption of the unprovable
+theorem or one of its negations, as an axiom, will lead to an extension
+of mathematics.  Within each of the extended axiom set new theorems,
+including undecidable ones, are generated.  And the process continues
+without end.  As for which choice of this infinite dimensional axiom
+base is "true" - why they all are!  A or ~A, depending on the situation. 
+"Real" mathematics is the sum of all the alternatives.  Like an
+infinitely long fractal branching tree in axiom/theorem space.  
+
+The Tree of a-priori Truth has many branches.  Godel has guaranteed that
+mathematics will never end.  Praise be to Godel.
+
+>                                  >>eric>>
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Sun, 16 May 1993 21:24:08 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: PHIL: The Utility of Mathematics
+
+aleph-one is not defined as 2^aleph-naught
+aleph-one is the first cardinal following aleph-naught
+there is no such thing as "non-Cantorian" transfinites
+Continuum Hypothesis states:
+aleph-one = continuum
+
+by definition, continuum = 2^aleph-one 
+or not by definition, if you choose to define continuum as cardinality of reals
+
+The Eastern Bloc mathematicians did not deny the Axiom of Choice. 
+Study Banach-Tarski paradox: if AC holds, then I can take a sphere,
+split it into five pieces, take two of them, rotate and translate, and get
+the same sphere back
+then take the remaining three, rotate them and translate, and get the same
+sphere back
+
+This is in response to the post by Michael Clive Price on AC and CH --
+please learn those before you post on them, just learn what they say.
+
+By the way, AC has a version which is not as counterintuitive as the ones
+stated: for any class of sets, the Cartesian product of the class is
+nonempty as long as all of the sets are nonempty. The problem with AC is
+not that you can pick "special elements", but the concept of actual
+infinity -- the very same thing Carl Friedrich Gauss so vigorously
+opposed. 
+
+Jan Mycielski of UofColorado created a system of axioms of set theory
+without actual infinity, all of calculus works just fine in it.
+
+As long as there is no actual infinity, all of the so called problems
+disappear. It is the fact that the set of integers is infinite, and so
+inclusion of actual infinity in the model, which causes Godel's stuff to
+work.
+
+Axiom of Choice and Continuum Hypothesis are fun to play with, but let's
+not get too serious about it. Gauss was right.
+
+Krzys'
+
+------------------------------
+
+Date: Sun, 16 May 1993 23:27:18 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: PHIL: The Utility of Mathematics
+
+> Jan Mycielski of UofColorado created a system of axioms of set theory
+> without actual infinity, all of calculus works just fine in it.
+> 
+> As long as there is no actual infinity, all of the so called problems
+> disappear. It is the fact that the set of integers is infinite, and so
+> inclusion of actual infinity in the model, which causes Godel's stuff to
+> work.
+> 
+> Axiom of Choice and Continuum Hypothesis are fun to play with, but let's
+> not get too serious about it. Gauss was right.
+
+Hm.  Sounds like you want to sort of resurrect intuitionism.  That's OK with
+me if you can really embed calculus in it.  Where can I find out more about
+Jan Mycielski's work?
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Sun, 16 May 1993 23:22:02 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: PHIL: The Utility of Mathematics
+
+> In fact it's even 'worse' than that.
+
+Yes.  I deliberately avoided getting into these details so as not to bog
+down the exposition.  However, the fact that the number of known possible
+consistent axiomatizations of set theory not only isn't 1, but isn't even
+*finite*, is worth noting.
+
+> "Real" mathematics is the sum of all the alternatives.  Like an
+> infinitely long fractal branching tree in axiom/theorem space.  
+
+A consistent (and, I think, rather beautiful) position.  But, since you can
+choose either any undecidable theorem *or its negation* as a new axiom, one
+that plays hell with the Platonic noumena.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Mon, 17 May 93 07:24:32 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: PHIL: The Utility of Mathematics
+
+Krzys'
+
+I shall try not to get into a definitions tangle/wrangle over aleph-one
+and the power of the continuum.  I was defining aleph-(n+1) = 2^aleph-n
+because I regard the terminology as clearer.  Also many books seem to
+get confused using the terms in contradictory ways.
+
+But:
+> there is no such thing as "non-Cantorian" transfinites
+
+I have seen the term "Cantorian" transfinites to mean the aleph series
+after application of the Generalised Continuum Hypothesis.  Hence by use
+of the term.
+
+> The Eastern Bloc mathematicians did not deny the Axiom of Choice.
+
+Okay.  I was going by hearsay (from a mathematican) :-)
+
+> Study Banach-Tarski paradox: if AC holds, then I can take a sphere,
+> split it into five pieces, take two of them, rotate and translate, and
+> get the same sphere back then take the remaining three, rotate them
+> and translate, and get the same sphere back
+
+Give me a reference the London Science Reference Library is likely to
+stock and I'll investigate.  I have studied set theory, so I should be
+able to understand it (eventually).  A question:
+
+Does the Banach-Tarski paradox mean that 
+   (AC true) + axiom of infinity + other non-contentious axioms
+yield an contradition.  If not, what does paradox mean?  If so, isn't
+the answer to reject one of the axioms?
+
+Interesting stuff.  Please post some more.
+
+> Krzys'
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Sun, 16 May 93 23:44:59 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: PHIL: The Utility of Mathematics
+
+Eric Raymond writes:
+
+> Yes.  I deliberately avoided getting into these details so as not to bog
+> down the exposition.  However, the fact that the number of known possible
+> consistent axiomatizations of set theory not only isn't 1, but isn't even
+> *finite*, is worth noting.
+> 
+> > "Real" mathematics is the sum of all the alternatives.  Like an
+> > infinitely long fractal branching tree in axiom/theorem space.  
+> 
+> A consistent (and, I think, rather beautiful) position.  But, since you can
+> choose either any undecidable theorem *or its negation* as a new axiom, one
+> that plays hell with the Platonic noumena.
+
+To use a metaphor such as Eric likes (as in "and now the dragon is
+half slain"), the concept of knowable absolute truth in the
+formalist/Russell manner got nuked a long time ago. The latest
+deepening of the crater was Chaitin's 1987 proof about the
+randomizness of mathematics at all levels (no, not the mundane stuff
+about chaos, attractors, blah, blah)...Chaitin proved arithmetic
+itself, the rock of mathematics, is itself fundamentally random! As
+he put it, "God not only plays dice in quantum mechanics, but even
+with the whole numbers."
+
+This doesn't mean knowledge is formless, provided form is defined in
+operational effectiveness terms. Reality is a landscape with many
+maps, maps of known truths (modulo some axioms), maps of undecidabel
+propositions, and maps (as Chaitin showed) of questions which have
+answers but which cannot be formally represented in any axiom system.
+
+Some of these maps we mostly have sketched out, some maps we have
+glimpses of, and some maps we suspect to exist but will never see. 
+
+The dragon wasn't slain...he saw what was coming and crawled back
+into his egg and pulled the bits of shell around him.
+
+(Sorry for metaphorical excess!)
+
+
+....However, one can still be a Platonist, albeit of a slightly
+different form than Plato would've imagined. Godel himself remained a
+kind of Platonist.
+
+Now of course Platonism is not the naive picture of "Circles" and
+"Open Sets" living some existence out in some abstract space of
+Reality. It is more the notion that the space of provable theorems and
+askable questions is out there waiting for us to explore it, to map
+it, to mark some regions with "Here be dragons!" signs (to continue
+Eric's metaphor), and to see "knowledgequakes" occur as our mental
+framework suddenly shifts and we see new and perhaps better glimpses
+of this Reality.
+
+The relevance of these results for Extropianism in general and our
+place in the Universe in particular is left as an exercise.
+
+
+
+-Tim
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0264
+****************************************
+

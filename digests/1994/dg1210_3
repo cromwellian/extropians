@@ -1,0 +1,428 @@
+From extropians-request@extropy.org Sat Dec 10 09:03:56 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id JAA22133 for <more@chaph.usc.edu>; Sat, 10 Dec 1994 09:03:53 -0800
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA02412; Sat, 10 Dec 94 09:03:33 PST
+Received: (from exi@localhost) by news.panix.com (8.6.9/8.6.9) id MAA01005; Sat, 10 Dec 1994 12:03:21 -0500
+Date: Sat, 10 Dec 1994 12:03:21 -0500
+Message-Id: <199412101703.MAA01005@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-12-405 - #94-12-409
+X-Extropian-Date: December 10, 374 P.N.O. [12:02:35 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Sat, 10 Dec 94             Volume 94 : Issue 343
+
+Today's Topics:
+                                brave new mind                        [1 msgs]
+                   ETHICS: "Sleeping" for success & virtue            [1 msgs]
+                         SING: Are we still evolving?                 [2 msgs]
+                                 Smart Liens                          [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 27778 bytes.
+
+----------------------------------------------------------------------
+
+From: vincek@intergalact.com (Vince Kerchner)
+Date: Sat, 10 Dec 1994 01:39:26 -0800
+Subject: [#94-12-405] SING: Are we still evolving?
+
+pavel@PARK.bu.edu (Paul Cisek) sez:
+
+>The 20 amino acid code has remain unchanged
+>at least since the development of the cell-membrane
+
+Yes, this seems to be true.  So, the time necessary to evolve new amino
+acids may be "quite some time indeed".
+
+>One theory I've heard suggests
+>that the code itself was a "frozen accident"
+
+This makes sense.  I see no evidence, neither from an informational nor a
+thermodynamic standpoint, for one DNA->AA map to be any better than any
+other, especially given the many autonomous repair mechanisms (including
+degenerative nucleotide reamination) which exist for DNA error correction.
+The current map does appear to be stable, in an active sense.  This does
+not mean that it will never change, only that the activation energy
+necessary to induce such a change (and a concomitant change in the support
+system of polymerases, etc...) must be very great.
+
+The fact that all eucaryotes seem to share the same map strongly suggests a
+single common ancestor to virtually all life on Earth.  If one subscribes
+to the endosymbiont theory of eucaryotic evolution, I can well imagine the
+proverbial "gulp" which formed the first cell nucleus, and which may have
+serendipitously frozen the genetic code we have today.
+
+>Originally, a three nucleotide codon was natural for reasons of symmetry,
+>but only the second base pair was used to specify an amino acid.  Thus,
+>the original code only included 4 amino acids (glycine, alanine, valine,
+>and aspartic acid seem like likely candidates).  Afterward, this code
+>differentiated toward specificity of the first bp position, and then
+>toward that of the third.
+
+You're correct in pointing out that the current map contains less than
+three "quads" of information.  The simplest explanation for this is
+probably the correct one: 2 bases, yielding only 4 x 4, or 16, combinations
+for different amino acids, are not enough to provide the diversity in
+protein function we see today, while 3 full bases, yielding 4 x 4 x 4, or
+64, combinations, are superfluous.
+
+As you also point out, the evolutionary tendency has been to make more and
+more use of the information in all three bases, so that it is not
+unreasonable to expect that at some time in the (possibly distant) future,
+all three bases will be fully coded, and that our proteins will consist of
+more than 20 different amino acids.  It is probably unlikely, however, that
+more than 3 bases will ever be used in the map, since that would imply very
+substantial changes to tRNA and ribosomal architecture.
+
+I can think of 2 additional reasons why 3 bases might currently code for AA's:
+
+  1. In very fault-tolerant systems, three subsystems are often used to
+     determine overall behavior.  The rationale is that while two sub-
+     systems might disagree, a third can cast the deciding vote.
+
+  2. The selection of specific tRNA's from mRNA sequences is a matter of
+     3-dimensional conformation.  With only two points of attachment,
+     there is an unaccounted-for degree of freedom in tRNA binding
+     about such an axis.  Three non-colinear points of attachment
+     unambiguously determine tRNA position and orientation, and contribute
+     to system rigidity during the formation of the peptide bond.  There
+     is, however, currently still some steric freedom ("wobble") to the
+     tRNA-mRNA attachment, which may eventually become more stable.
+
+>The
+>space of all possible proteins in about as close to infinite as anything
+>you can think of: 4^1000000000 is a big number
+
+Yes, that's pretty big.  However, the evolutionary information content, and
+target of biochemical selective pressures, of an organism is its DNA, not
+its protein set.
+
+>Survival pressures may have been
+>relaxed, but sexual selection still continues
+
+Sex certainly plays a very large part in evolution.  Sex does not change
+the underlying genetic material, but it does cause it to be rearranged
+substantially.  The evolution of a diplobiontic lifecycle (i.e. homologous
+chromosome pairs), and especially of the diploid-stage organism as the
+primary target of selective pressure (rather than the gametes), gives rise
+to the existence and importance of recessive and dominant genes.
+
+In general, the chromosomal crossover that occurs during meiosis allows
+genetic configuration space to be searched in much larger steps than are
+afforded by the relatively small changes caused by mutation.  This is
+equivalent to a global search process in fitness-function optimization, as
+opposed to the more local search provided by mutation.  Without sex, there
+would be considerably less genetic diversity in our species, and many
+potentially beneficial adaptive traits would not be discovered.
+
+CurtAdams@aol.com sez:
+
+>Mutations
+>tend to kill individuals by changing so many proteins at once
+
+I'm not sure this is true.  Given the redundency of the genetic code, and
+the fact that changes to AA sequences far from the active sites of enzymes
+may have little or no change on the conformation of the enzyme, it might be
+possible for mutations to gradually accumulate over time without being
+reflected in the phenotype.  At some point, a critical AA change will
+eventually occur which does alter enzyme shape and function, and this
+change will be reflected as an observable difference in the organism.
+
+This may be the basis for the punctuated equilibrium of macroscopic
+evolution.  Mutations may be continuously happening to us, without our
+knowledge.  As you suggest, in general, random mutations are not beneficial
+(any more than random changes to a computer program are beneficial), since
+they act to disturb what was once a stable protein configuration.  Benign
+mutations probably must accumulate over time, so as to overcome the local
+activation energy of the micro-evolutionary landscape without killing the
+organism and its descendents, while moving the gene sequence to a new
+optimal point in gene space.
+
+>Of course, we could change the map artificially.
+
+This is one of the key technological goals of Extropian self-transformation.
+
+>A complete change in the
+>map, with associated changes to transcribed proteins and auxiliary item like
+>transfer RNA, would create a nearly identical creature with a completely
+>different DNA.
+
+For this to happen, the new map would still have to specify the old
+sequence of AA's in translated proteins, so that protein conformation and
+function would be the same.  The key items in this process would be the new
+tRNA->AA mappings.  Other than that, I see no reason why this couldn't
+happen.
+
+>Said creature would have one very substantial advantage -
+>current viruses could not affect it.  It also could not breed or swap genes
+>with any existing earth species.
+
+Maybe, and maybe not.  If the only thing to change was the genetic code, it
+would still be possible for a retrovirus to insert its DNA into a
+chromosome of an "altered-code" cell.  This viral DNA would still be
+replicated along with the DNA of the host.  Assuming that the viral
+sequence was transcribed, without regard for function, along with
+indigenous exons, it would be up to the new tRNA->AA mapping to halt the
+infection process.  Such viruses could continue to lie dormant,
+indefinitely.
+
+I don't necessarily see that there would be any pre-zygotic barriers to
+reproduction between aliens and terrestrial species.  There may not be any
+post-zygotic ones either.  Are there any biochemical functions which
+require the presence of both homologous chromosome pairs in order to
+function?  I think there are at least human diseases (especially
+sex-related) which are the result of a chromosomal deficiency.  If there
+are not, then each adult organism would be essentially haploid, and the
+foreign DNA would make no contribution to protein synthesis.  Foreign DNA
+would, however, continue to be replicated, and could be passed on to
+progeny as part of meiosis.
+
+Oliver Seiler <oseiler@unixg.ubc.ca> sez:
+
+>I also suppose their are many other genetic pressures - cuteness
+>and vulnerability seem to make a lot of people band together to save
+>animals.
+
+I've noticed this phenomenon in the movies, especially in Steven Spielberg
+films: all the "good" aliens, dinosaurs, etc, have cute faces with really
+big eyes.  Obviously an adaptive trait. :-)
+
+It is interesting to note, while we're on the subject, that this evening's
+episode of "The X Files" concerned a group of teenagers who were being
+surreptitiously inoculated with alien immunoglobulins (antibodies).
+According to the lab reports, these proteins did not contain terrestrial
+amino acids.  The show didn't say what kind of immunoglobulin, or for what
+antigen it might have been targeted.  They did say, however, that the same
+compound had been injected into beef and milk cattle, which had then been
+shipped to parts unknown.  A good time to become a vegan, perhaps? ;-)
+
+--Vince
+
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+Copyright Vince Kerchner, 1994.                       "We want information."
+Intergalactic Reality                                    "You won't get it."
+vincek@intergalact.com                      "By hook, or by crook, we will."
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+
+
+
+------------------------------
+
+From: vincek@intergalact.com (Vince Kerchner)
+Date: Sat, 10 Dec 1994 01:54:36 -0800
+Subject: [#94-12-406] ETHICS: "Sleeping" for success & virtue
+
+Max More <more@chaph.usc.edu> sez:
+
+>Vince seems to think that merely expressing my view amounts
+>to "imposing it" on others. :-(
+
+Huh?  Sorry if you got that impression.
+
+In general, I agree pretty much with the viewpoints you espoused in your
+first post on this subject.  I just don't have any interest in imposing my
+personal ethic on anyone else (i.e. I wouldn't judge another person by the
+same ethical standard I apply to myself), and I tend to be a little
+overcritical of anyone else who might be doing this.  Perhaps this is a
+contradiction I need to be a little more careful of.
+
+--Vince
+
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+Copyright Vince Kerchner, 1994.                       "We want information."
+Intergalactic Reality                                    "You won't get it."
+vincek@intergalact.com                      "By hook, or by crook, we will."
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+
+
+
+------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Sat, 10 Dec 1994 03:24:52 -0800 (PST)
+Subject: [#94-12-407] Smart Liens
+
+T. David Burns:
+> My PA is agreeing with me that anyone who lends my
+> corporation money does not have the option of grabbing all my stuff if the
+> corporation defaults on the loan. My liability is limited.
+
+Of course, no wise bank will lend you more than your securely liened 
+collateral plus some conservative function of your reputation for 
+payment in full and on time.  Your liability is limited, but so
+is your credit.  The potential for other actions you might take that 
+cause liability, such as damage to others' persons or property, also
+need to be limited.  More on that later.
+
+Many agents, especially new entrants, may lack this reputation capital,
+and will thus need to be able to share their property with the bank
+via secure liens.  A lien is, in a practical sense, a method of
+sharing a piece of property between the "owner of record" and
+a "lienholder", instead of the property having strictly one owner.
+Liens are used in many large credit transactions, such as auto loans, 
+mortgages, farm loans, etc.  They are enforced by the jurisdiction
+specified in the contract; usually this enforcement is done by
+the government and subsidized by the taxpayers rather than paid
+for by the contracting parties.  (In fact this usually is the case 
+with contracts and property rights in general, the enforcement clause 
+is an implicit government subsidy).  One way to implement a lien without 
+governments is via co-signing with your PA (as long as the PA
+has a good credit rating and the contractual right to take
+appropriate action against you).  Another way is with what I call a "smart 
+lien".  A smart lien is an electronic, cryptographic system whereby both 
+parties need to identify themselves to the property for that property 
+to function properly.  For example, a smart lien on a piece of real 
+estate would control the utilities (electric, water, etc.), shutting 
+them off if either the lienholder or the owner so choose, or if the 
+system is tampered with to try to disable the lien.
+
+As is the case today, credit problems will usually be solved by
+artfully written, menacing dunning letters and dings to one's
+credit rating long before the lien needs to be invoked.
+
+If PAs bear ultimate responsibility for the criminal activities of
+their customers, or need to insure lack of defection or future
+payments on the part of customers, they may in turn ask for
+liens against their customers, either in with contractual terms
+allowing arrest of customers under certain conditions (eg if
+they commit acts specified as criminal by the PA contract)
+or (more likely for mobile world-traveling and virtual
+pseudonymous customers) smart liens against resaleable assets 
+such as bank accounts and investment portfolios.  Smart liens over 
+information, such as digital bearer securities, can be implemented 
+via secret-splitting (two or more keys required to unlock the 
+encryption).
+
+The "ultimate lien" would be a kind of cardiac anti-pacemaker
+controlled by the lienholder.  PA customers would likely
+reject PAs with such an outrageous requirement.  However, one
+can imagine PA leaders themselves required to have ultimate
+liens, controlled by an N-out-of-M voting system of their
+customers and/or cross-contracted foreign PAs, as a hedge against 
+their power.
+
+Other important areas of liability include consumer liability
+and property damage (including pollution).  There need to
+mechanisms so that, for example, pollution damage to others'
+persons or property can be assessed, and liens should exist so that the 
+polluter can be properly charged and the victims paid.  Where pollution 
+is quantifiable, as with SO2 emissions, markets can be set up
+to trade emission rights.  The PAs would have liens in place to
+monitor their customer's emissions and assess fees where
+emission rights have been exceeded.  
+
+Alas, there are some dangers where maximum damage could far surpass 
+any liens.  A good rule of thumb here is that if the risk is against
+a third party, and it cannot be liened or insured against, 
+then PAs should not allow it to be taken.  PAs that allow
+their customers to take such risks against non-PA parties
+would ruin their credit rating.  One example of such a risk
+is building a nuclear plant for which no insurance company is 
+willing to submit liability coverage.  If a plant is
+safe, presumably one should be able to convince a good 
+insurance company to cover its potential to damage others'
+property.
+
+Smart liens are one element of smart contracts.  Smart contracts will
+to replace, and even protect against, lawyers, politicians, and violent 
+enforcement in many business and social interactions, as well as to 
+design lucrative new free-market institutions.  See my essay "Smart 
+Contracts", at ftp://ftp.netcom.com/ for more on designing 
+jurisdiction-free institutions around smart contracts.
+
+Nick Szabo					szabo@netcom.com
+
+------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Sat, 10 Dec 94 12:32:02 GMT
+Subject: [#94-12-408] SING: Are we still evolving?
+
+Oliver Seiler writes about human-caused evolutionary pressures on
+animals. I've heard that there's a variant oppossum that runs instead
+of freezing when frightened--it's a better reaction for dealing
+with highways.
+
+I don't know if this is happening, but I would think that all those
+many years of trophy hunting is selecting for smaller, smarter
+deer.
+
+I don't think that environmentalism has been around long enough
+to select for "cuteness", but it would be interesting if that
+happens, since I think that cuteness=neoteny and might go with
+increased intelligence.
+
+Nancy Lebovitz
+
+------------------------------
+
+From: dasher@netcom.com (Anton Sherwood)
+Date: Sat, 10 Dec 1994 04:53:06 -0800
+Subject: [#94-12-409] brave new mind
+
+Mark Fischer:
+>Considering that the human brain is a hack, (With 3 distinct
+>layers, reptilian, mammalian, and the most recently evolved,
+>consciousness providing layer), . . .
+
+Is the last a distinct layer, or just an over-development of the second?
+
+Phil Goetz:
+> I ask:  Is the mind an ear of corn or an onion?
+> Start peeling away sources of irrational behavior:  testosterone,
+> PMS, pain, discomfort, tiredness, anger, sorrow,...
+> Will you eventually reach some golden Platonic mind at the center,
+> or will there be nothing left when you peel away the last layer?
+
+The process is self-limiting: long before you peel away everything, 
+you'll lose interest in the project.
+
+Jordan Sparks contends:
+> . . . .  Now, if you increase the speed of the human's 
+> mind (say, double it), the VR has to keep up by doubling its speed. 
+> The relationship between the speed of the VR and the human brain is
+> a constant, no matter what the factor of increase in speed up.  . . . 
+
+This problem goes away if you upload as a software simulation, time-sharing
+with the VR in the same hardware.  If you as the occupant control the ratio 
+of time-slices spent on yourself to time-slices spent on VR, you can trade off 
+realism for mental speedup.
+
+One limitation on meat that hasn't been mentioned in this thread is the size
+of the skull (or, if you prefer, the size of the adult pelvis).  Nano-logic
+will presumably be smaller than the old-fashioned kind.  So what I want my
+new brain to do first is _grow_ as it did when I was a child.  A growing
+brain is just the thing for learning new techniques.  (I haven't acquired
+another language since puberty.)
+
+Anton Sherwood   *\\*   +1 415 267 0685   *\\*   DASher@netcom.com
+
+------------------------------
+
+End of Extropians Digest V94 #343
+*********************************
+

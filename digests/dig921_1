@@ -1,0 +1,915 @@
+From extropians-request@extropy.org Tue Sep 21 00:07:28 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA03971; Tue, 21 Sep 93 00:07:26 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA13167; Tue, 21 Sep 93 00:07:18 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA06089; Tue, 21 Sep 93 03:00:04 EDT
+Received: from news.panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+	id AA06084; Tue, 21 Sep 93 02:59:37 EDT
+Received: by news.panix.com id AA14037
+  (5.65c/IDA-1.4.4 for exi-maillist@ung.gnu.ai.mit.edu); Tue, 21 Sep 1993 02:59:31 -0400
+Date: Tue, 21 Sep 1993 02:59:31 -0400
+Message-Id: <199309210659.AA14037@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: September 21, 373 P.N.O. [06:58:31 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Tue, 21 Sep 93             Volume 93 : Issue 263
+
+Today's Topics:
+                                                                      [1 msgs]
+                       Arguing Easily Resolvable Issues               [1 msgs]
+                             Being w/Smart People                     [4 msgs]
+                           Durk and Sandy Do Cable                    [1 msgs]
+                     Finished Selfish Gene; any comments?             [2 msgs]
+                                GUNS: Buy now                         [1 msgs]
+                   LOGIC: Core Wars (was: Superrationality)           [1 msgs]
+                            MEDIA: Demolition Man                     [1 msgs]
+             META: Proposal for Paying for Advanced List Features     [1 msgs]
+               META: list software, regexp's, and exclude bombs       [3 msgs]
+                               Meaninglessness                        [1 msgs]
+                            Nightly Market Report                     [1 msgs]
+                              SPACE:DC-X Flies                        [1 msgs]
+                 YAGUSQ:  Yet Another Great USENET .sig Quote         [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51743 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 20 Sep 93 20:52:55 EDT
+From: david@WAL6000A.UDC.UPENN.EDU (R. David Murray)
+Subject: META: list software, regexp's, and exclude bombs
+
+Ray writes:
+>   You could exclude this with ::exclude thread \.\*(...)? or using
+> just the string. The list software tries an exact match before it
+> tries a regexp.
+
+Hey, this is even better!  I ::exclude .*, and it works fine as long as
+people are posting on that topic, but one month after the last such post
+I suddenly don't get anything!
+
+I don't think this is a serious problem with the list software (subject
+lines containing valid regexps are unlikely (though I did toy briefly
+with the idea of retitling this thread <grin>)), but it
+is something to think about in terms of the principle of least
+astonishment.
+
+-- 
+david            david@udcemail.udc.upenn.edu
+
+------------------------------
+
+Date: Mon, 20 Sep 1993 17:24:26 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: YAGUSQ:  Yet Another Great USENET .sig Quote
+
+This from soc.motss:
+
+() God grant me the company of those who seek the truth,
+() and God deliver me from those who have found it.
+()      -- Isaac Newton
+
+
+------------------------------
+
+Date: Mon, 20 Sep 93 21:11:42 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: META: list software, regexp's, and exclude bombs
+
+R. David Murray () writes:
+> 
+> Ray writes:
+> >   You could exclude this with ::exclude thread \.\*(...)? or using
+> > just the string. The list software tries an exact match before it
+> > tries a regexp.
+> 
+> Hey, this is even better!  I ::exclude .*, and it works fine as long as
+> people are posting on that topic, but one month after the last such post
+> I suddenly don't get anything!
+
+  Then ::exclude thread \.\*. That will only exclude subjects with regexp
+.* in them. There is no way to bomb the software. Regexp characters in
+subject lines are treated as ordinary characters.
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Mon, 20 Sep 93 21:13:18 EDT
+From: david@WAL6000A.UDC.UPENN.EDU (R. David Murray)
+Subject: META: Proposal for Paying for Advanced List Features
+
+I really do agree with your paid subscription proposal, Tim, I wasn't
+trying to take part in a fund drive.  I was responding in what I might
+call 'share ware' mode: it seemed to me like it ought to be paid for, so
+I thought I'd pay for it and (superrationally? <grin>) hoped others would
+follow suit.
+
+However, reading your further post, and the other discussion on this 
+topic, I see I was premature, and will switch modes.  I will pay 
+for a subscription to this mailing list if and only if access to the 
+full list is by subscription only.  I will also volunteer some time on 
+talk.extropians when it gets going, in long term self interest.  (This
+to counter Hawk's "minimal outreach" objection.)
+
+I'm not sending money to Ray since he wrote the software under contract
+to Exi.  If I want new features, I will send money, absent a change in
+the current pricing structure.
+
+And I also support any motion toward 'sell posts/buy reads'.  Hmm, maybe
+I should consider writing an agent . . . 
+
+-- 
+david            david@udcemail.udc.upenn.edu
+
+------------------------------
+
+Date: Mon, 20 Sep 93 18:15:34 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Arguing Easily Resolvable Issues
+
+Many issues Extropians argue are intrinsically difficult to resolve. Some
+are philosophical issues, some are esthetic/preference issues, and some are
+just not answerable questions.
+
+Other issues are "common knowledge" issues, such as the recent "Does the
+U.S. ban competitors to the Post Office?" flap. 
+
+Duncan Frissell was the first to cite the statutes passed in the 1840s. (By
+the way, a major theme of one of Thomas Pynchon's novels, "The Crying of
+Lot 49," deals with an outlaw mail delivery service, called "W.A.S.T.E.,"
+which originated in the 1850s when private postal services were outlawed.
+My .sig has contained my "W.A.S.T.E." address for years. 
+
+Several of us also pointed to the existence of many articles and books
+written about "ending the Postal Service monopoly." And we cited the
+limitations placed on FedEx, Airborne, and UPS. Perry M. even bet $1000
+that Jeff Fabijanic's interpretation was incorrect.
+
+Now the debate is being shifted by Jeff as to whether Perry accepted the
+bet, or the counteroffer, or whatever. A complete waste of time, especially
+since everyone seems to agree that the issue got resolved when Duncan
+Frissell posted a summary of legal rulings.
+
+But the "debate" didn't end, as Jeff F. continued to call for Perry to
+answer his challenges, and talked about the philosophical impossibility of
+ever proving a negative (something about not being able to prove that blue
+rhinoceri don't exist....).
+
+Folks, this is a nonsensical waste of our time! I have already elected to
+begin using the new list software (to ::exclude either a thread, or a
+user...I'm not saying :-} ).
+
+Dave Krieger is right that most of us do not carry our reference libraries
+around with us, or even have them well-organized enough at home to find
+things instantly. But resources exist. For example, a few days ago I
+searched on the University of California's library system, all 9 campuses,
+for references on this.
+
+I'll describe how anybody with Internet access (telnet) can do it.
+
+"telnet melvyl.ucop.edu"
+
+specify terminal type (e.g., "vt100")
+
+"catalog" (gives you the huge Melvyl catalog)
+
+"f tw postal monopoly" (find all books with "postal" and "monopoly" in the
+title)
+
+Here's what I found, edited to show the most relevant books:
+
+3. Free the mail : ending the postal monopoly / edited by Peter Ferrara.       
+   Washington, D.C. : Cato Institute, c1990.
+       UCB   IGS       90 00980                                   
+       UCB   Main      HE6371 .F74 1990      
+       UCD   Law Lib   HE6371 .F74 1990
+       UCD   Main Lib  HE6371 .F74 1990    
+       UCI   Main Lib  HE6371 .F74 1990                                       
+       UCLA  URL       HE 6371 F74 1990                         
+       UCR   Rivera    HE6371 .F74 1990                              
+       UCSB  Library   HE6371 .F74 1990 
+
+4. Haldi, John, 1931-                       
+     Postal monopoly: an assessment of the Private express statutes [by] John
+   Haldi, in association with Joseph F. Johnston, Jr.  Washington, American
+   Enterprise Institute for Public Policy Research [1974].
+     Series title:  American Enterprise Institute for Public Policy Research
+   Evaluative studies ; 13.                                                   
+       UCB   IGS       JK400:S  A6e.es  no.13                   
+       UCB   Main      HE6375 .H341                                  
+       UCD   Law Lib   HE6375 .H34      
+       UCD   Main Lib  HE6375 .H34    
+       UCLA  AGSMgmt   HE 6375 H129p    
+       UCLA  URL       HE 6375 H129p         
+       UCR   Rivera    HE6375 .H34x    
+       UCSB  Main Lib  HE6375 .H34         
+       UCSD  Central   HE6375 .H34                  
+       CSL   Main Lib  HE 6375 H34 General Coll
+
+5. Miller, James Clifford.                                                   
+     End the postal monopoly / James C. Miller III.                        
+     IN: The Cato journal. Vol. 5, no. 1 (spring-summer 1985)
+       UCB   IGS       A6542 v.5, no.1 Spring- Summer 1985                  
+
+
+I'm sure several dozen other large university libraries are also freely
+available via telnet. Looking through the books available on some topic is
+often a quick and easy way to get the lay of the land, to find out what the
+main scholarly issues are. In this case, it was apparent that a postal
+monopoly of some sort does exist, as most of us said. The exact form, the
+taxes levied on competitors (if that's done), the rates set, etc., await
+further research. These books would be where I'd start, not reading the
+case law itself.
+
+These books, some of them discussed for years in the pages of
+"Laissez-Faire Books Catalog," "Reason," "Liberty," etc., are just some of
+the strong reasons we have for rejecting Jeff Fabrinac's claims that we
+have not proved there is a postal monopoly, that we cannot prove there is
+not some law allowing competition (or whatever he meant by his point about
+proving negatives), and why we have so little patience with claims that we
+must "prove" things in excruciating detail...all the more ironic since Jeff
+Fabrinac chose not to accept Perry's bet and instead went the route of
+trying to confuse the issue with nonsense about Perry's motives in offering
+the bet and with philosophical mumbo jumbo about the impossibility of ever
+resolving the bet. (Need I repeat what Perry has already said, that he
+several times expressed willingness to negotiate exact terms, conditions,
+and amounts?)
+
+The bet with Perry is now moot. I would go so far as to say that anyone,
+including Fabijanic, who continues to claim the bet is still not being
+accepted by Perry (as Fabijanic has repeatedly claimed) is being
+deliberately baiting and disingenuous. 
+
+My intent is not to flame Jeff Fabijanic here, but to underscore the
+stupidity of debating such issues as whether a postal monopoly exists.
+
+My guess is that we have another Worley Abomination here. Some people just
+want a place to argue, it doesn't matter about what.
+
+
+-Tim May
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+Date: Mon, 20 Sep 93 17:31:18 EDT
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: Being w/Smart People
+
+Here's a topic.  How do you feel about being around people who
+are smarter than you, or as smart as you and much better
+versed in some topic, or much more talented in a certain way?
+
+I think generally I feel more relaxed and safe,"at home"
+somehow.  I mean, contrary to what you might think from the
+way people talk sometimes.
+
+I absolutely love listening to competent people talk about
+the work that they do.
+
+How do you like being in a conversation where you have to
+pick up the basic ideas of a field or topic by smell, by the
+way people raise their eyebrows or laugh at certain points,
+or ask certain questions in a pointed way?  I generally
+love it.  I even like listening to conversations and
+noticing references go by that I don't get.
+
+Sometimes I do get the feeling of being left in the dust.
+I think that happens when the discussion is about something
+I really want to understand and I can't ask enough questions.
+
+I went through a period where I had to push myself to be
+"rude" and ask questions.  I'm still inhibited about that.
+
+How about you?
+
+-fnerd@smds.com
+
+------------------------------
+
+Date: Mon, 20 Sep 93 18:37:01 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: 
+
+digest size 20
+
+------------------------------
+
+Date: Mon, 20 Sep 93 21:44:40 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: LOGIC: Core Wars (was: Superrationality)
+
+Paul Cisek () writes:
+> (The net-game CoreWar is an interesting example of a fluctuating population of
+> strategies.  Anyone know if it has converged to a solution?)
+
+  No it hasn't. The game has converged to three strategies which arrange
+themselves in rock-scissors-paper fashion.
+
+1) Dwarf-like bombers. These programs simply bomb the core mod X (X is
+usually chosen to cover the core quickly, but to not hit your program
+until the last minute. A clever trick is to bomb with SPL (split process)
+which slows your opponent down. When your program ends up bombing itself,
+it switches to "core clear" which just fills the core with DAT #0s. Modern
+dwarfs bomb 2 locations for every 3 instructions executed.
+
+2) B-Field scanners. This programs _quickly_ scan the core looking in the
+B-field of instructions for a non-zero value. If they find anything, they
+bomb it in a few locations.
+2a) Cmp-scanners. These programs scan 2 locations at the same time by
+comparing two indirect areas of the core. Normally the core starts 
+initalized to all DAT #0s, so doing cmp <loc_a, <loc_b will only trigger
+if it finds something. if something is found, loc_a and loc_b are bombed.
+
+3) Imp Rings/Spirals - these programs are harder to describe because
+they exploit flow of executation properties. As the name suggests, they
+fill the core with imps (but imps that hop more than 1 location at a time)
+
+I have left out the category of Mice and Vampires since they were pretty
+much wiped out the dwarfs.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Mon, 20 Sep 93 18:54:20 -0700
+From: davisd@pierce.ee.washington.edu
+Subject: Durk and Sandy Do Cable 
+
+> From: szabo@netcom.com (Nick Szabo)
+> Subject: Durk and Sandy Do Cable
+> 
+> Buy Buy, Dan Davis writes: 
+> > Durk and Sandy don't look so good. 20 years of nutritional research
+> > has been hard on them...
+> 
+> The weight loss, sports nutrition, and various amino
+> acids overdoses probably more than make up for the antioxidants.
+
+Could you elaborate on any of their particular recommendations that
+you disagree with? 
+
+Buy Buy -- Dan Davis      
+
+
+
+------------------------------
+
+Date: Mon, 20 Sep 93 19:03:54 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Being w/Smart People
+
+My hat is off to Steve Witham for introducing an origial topic:
+
+> Here's a topic.  How do you feel about being around people who
+> are smarter than you, or as smart as you and much better
+> versed in some topic, or much more talented in a certain way?
+
+I've been around a lot of bright folks in my day, and can't say it was
+much different from an Extropians lunch, or Hackers Conference, or
+a technical meeting at Intel. Several of my Bay Area
+friends--including at least a couple now on the list--are by any
+standards at the genius level and are quick-witted as anyone I've ever
+met.
+
+The Extropolooza last month certainly was filled with very bright
+people, and I found it a joy. Not at all an overload, even after 12
+hours of nonstop talk (and some partying).
+
+The only really "discombobulating" experience I've ever had--at least
+in recent years--was when I attended the "Crypto" conference in 1988.
+Brilliant mathematicians (Goldwassser, Micali, Shamir, and several
+dozen others) speaking rapidly about zero knowledge, complexity
+classes, and elliptic curves.  I was in over my head, so I settled
+back to just absorb what I could. (And I carefully avoided asking
+questions, for reasons I'll go into below.)
+
+> I think generally I feel more relaxed and safe,"at home"
+> somehow.  I mean, contrary to what you might think from the
+> way people talk sometimes.
+
+Not sure what is meant here, but many of us feel comfortable at home,
+in our nests or lairs, with our books, music, and whatnot available.
+
+> How do you like being in a conversation where you have to
+> pick up the basic ideas of a field or topic by smell, by the
+> way people raise their eyebrows or laugh at certain points,
+> or ask certain questions in a pointed way?  I generally
+> love it.  I even like listening to conversations and
+> noticing references go by that I don't get.
+
+Usually not my cup of tea, as I like to talk (surprise!). So I usually
+try to get up to speed as quickly as possible so I can join in the
+conversation. Jumping in, even prematurely, is very much like the
+"making estimates" point I argued recently: some call it
+"bullshitting," that is, talking about something one is relatively new
+to, but in reality it's a way to quickly "make estimates" and see them
+confirmed or shot down (at which point one can modify positions and
+try again).
+
+This willingness to speculate, to jump in with both feet, is
+well-known to be an area that many/most women are weak in, for
+whatever reasons.
+
+...
+> I went through a period where I had to push myself to be
+> "rude" and ask questions.  I'm still inhibited about that.
+> 
+> How about you?
+
+I'll take a radically different stance here and say that more people
+ought to learn to shut up and listen and not ask stupid questions. I
+know, I know, we are taught to "always ask questions" and we are
+further told of how great scientists often ask embarassingly basic
+questions.
+
+This questioning has its place, but too often people ask dumb
+questions as a substitute for reasoning out an answer for themselves.
+Like little kids, who ask about everything....or like the people in
+movie theaters who turn to their neighbors and ask stupid questions
+about what just happened on the screen instead of just _watching_ the
+action themselves. 
+
+At some Cyherpunks meetings, we've had to discourage "basic" questions
+by people who just don't know the basics of crypto. Watching what's
+being said, doing some reading, and being reasonable is the best way I
+know to come up to speed in a new area.
+
+Steve's point about observing the flow is a good one, and that's what
+I try to do. That's why when I joined the list, I "observed" or lurked
+for nearly a month before posting....something I think all newcomers
+should do! 
+
+
+--Tim May
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Mon, 20 Sep 93 22:24:19 EDT
+From: david@WAL6000A.UDC.UPENN.EDU (R. David Murray)
+Subject: META: list software, regexp's, and exclude bombs
+
+Ray writes:
+>   Then ::exclude thread \.\*. That will only exclude subjects with regexp
+> .* in them. There is no way to bomb the software. Regexp characters in
+> subject lines are treated as ordinary characters.
+
+Yes, I'm aware of that.  That's why I said I didn't think it was a
+problem.  But the behavior that will result if someone *does* exclude
+without escaping the regexp characters violates the 'principle of least
+astonishment' of good interface design.  Which isn't to say you should do
+anything about it, it's just something to tuck away in the back of our
+minds as we consider the design of new agents.
+
+And just in case it I'm still not being clear <grin>, kudos on an
+excellent product.  (In fact, I may yet change my mind again and follow
+Tim's example by sending you some money direct...)
+
+-- 
+david            david@udcemail.udc.upenn.edu
+
+------------------------------
+
+Date: Mon, 20 Sep 1993 22:36:41 -0400
+From: tburns@gmuvax.gmu.edu (T. David Burns)
+Subject: Meaninglessness
+
+>Michael Clive Price:
+>[To say that 'existence exists' is meaningless] 
+>is a statement of how to test for meaningful content. [. . .]
+
+What operational test would lend meaning to the above paragraph, the post
+it came from, or any of these claims? 'Operationalization has been a useful
+heuristic in physics' is not the same as 'that which is non-operational is
+meaningless.' In effect, my correspondent claims that most of the
+conversation on this list is some meaningless ritualized interaction, and
+that if I claim to actually understand what someone writes, I'm lying or
+deluding myself - unless what they've said can be tested operationally.
+
+What is the operational definition of meaning? If I examine a sample of
+physics students performing identical experiments, what measurement would
+show which of them are using the proper definition of meaning and which use
+a tainted version?
+
+"All statements are true, false, or meaningless. All true and false
+statements can be tested operationally. All statements that cannot be
+tested operationally are meaningless."
+
+For the above set of propositions to achieve truth by it's own criteria, it
+must be operationally testable. Is it true? What test reveals the truth?
+
+>What's good enough for Newton and
+>Einstein is good enough for me (there we are, a blatant, unabashed
+>appeal to authority!). 
+
+Me too. But neither of these authorities agrees with this notion of
+meaning. An appeal to authority would have to go to Ernst Mach or the
+logical positivists. Neither Newton nor Einstein shared this horror of
+metaphysics. 
+
+Dave Burns <tburns@gmuvax.gmu.edu>
+
+
+------------------------------
+
+Date: Mon, 20 Sep 1993 21:43:01 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Finished Selfish Gene; any comments?
+
+Aside from the title to this, I now have questions.
+
+First: Which edition of the book have most people
+       out there read? The one I read seemed to be
+       greatly expanded on the first one, with an
+       expanded section on game theory.
+
+Second: Is game theory important enough to have its
+        own section on the reading list? I know that
+        this isn't the reason that _The Selfish Gene_
+        is on the list to begin with (or at least not
+        the main reason).
+
+
+It's just that the list seems to go back to game theory over and over
+again, so maybe more reading list material on game theory would be
+appropriate.
+
+About the game theory sections: you could run the PD with different
+payoffs and get essentially different games; I'm sure someone else
+has pointed this out before, I've probably read it before (in 
+Hofstadter, if nowhere else), and it's probably a significant fact
+in game theory. I just don't really remember the specifics.
+
+I feel sure, however, that Dawkins seems to have avoided this. Does
+this bug anyone else?
+
+Finally, I read TMoF (1st ed) a while back. Which would be a good next
+book on the list for me to read, esp. considering I'll have to
+buy it at retail prices to read it?
+
+Am I the only one here taking the reading list seriously enough
+to spend money buying the books? (Well, some of that will have
+to go towards paying for the list instead now).
+
+While we're talking about limited memberships, perhaps there
+should be a requirement to have read some of the books before
+gaining "privileged" membership? Perhaps some sort of quiz or
+essay requirement?
+
+Am I the only one who doesn't have Phil in his exclude file?
+
+
++-----------------------+Here, all too soon the day!
+|"Standard Disclaymore" |Wish the moon to fall and alter our tomorrow.
+|pgf@srl03.cacs.usl.edu |I should know, heaven has her way;
++-----------------------+Each one given memories to own.
+
+------------------------------
+
+Date: Mon, 20 Sep 93 20:03:40 PDT
+From: martino@gomez.Jpl.Nasa.Gov (Martin R. Olah)
+Subject: SPACE:DC-X Flies 
+
+Not to change the subject back to the Subject, but I have 1 question. Why does
+the DC-X need to hover, move horizontally, and land vertically? This seems to
+be rather extravagant behavior, but please excuse my astounding wealth of
+ignorance.
+                          - O Martin
+
+------------------------------
+
+Date: Mon, 20 Sep 93 20:09:56 PDT
+From: martino@gomez.Jpl.Nasa.Gov (Martin R. Olah)
+Subject: MEDIA: Demolition Man 
+
+FYI, Oct. 8th will bring us Sylvester Stallone's new sci-fi/action/thriller
+"Demolition Man".  It may suck like most everything else, but hey, it's got
+cryonics AND super-duper-automatic weapons, so I'm there.
+                                 - O Martin
+
+------------------------------
+
+Date: Mon, 20 Sep 93 20:12:56 -0700
+From: freeman@maspar.com (Jay R. Freeman)
+Subject: Being w/Smart People
+
+> [ Steve Witham comments about being around smart people ... ]
+
+  I think it's wonderful to be around people smarter than I am (and it's
+just as well, because it seems to be unavoidable...)
+
+  When I was quite small I encountered the idea that an interesting approach
+to interpersonal relations was to assume that for each person, there existed
+at least one thing which that person could do better than anyone else, and
+try to find out what it was.  I tried it, and found it led to fascinating
+conversations and many interesting friends.  (Somewhat later I adopted
+the much easier criterion of assuming that each person had at least one
+thing he or she could do better than I could.)
+
+  I was fortunate enough to go to universities that were excellent in the
+fields I was interested in (CalTech and U. C. Berkeley, theoretical physics
+switching slowly into experimental astrophysics), and some of my most
+wonderful memories come from listening to world-class minds expound on
+topics I loved, with greater knowledge and experience than I had.  My
+favorite was of course Feynman, who taught the first class I ever had
+that was titled "Advanced ...", but I remember watching with glee as
+Jon Mathews integrated cos(ax) from x = 0 to infinity and got a sensible
+answer.  Of course, these people were good teachers as well as good
+minds, but I believe contact with them in the classroom prepared me for
+less formal contact with other smart people later.
+
+  I've had to switch careers once or twice, and soaking up learning from
+smart people is one way to help bootstrap.  Getting someone to talk about
+a topic he or she is interested in is often a good way to learn.  Humility
+and honesty about ignorance and understanding seem useful -- I agree
+with Tim May that stupid questions usually are not useful.  But I have
+rarely encountered objections to asking "where can I read more about ____?"
+
+  One must bear in mind that inteliigence and experience are not the
+same thing.  There are many people who are not too bright but have been
+doing something long enough to be walking encyclopedias of wonder; my
+personal experiences include rosarians and Jane Austen fans.  Then there
+are brilliant intellects with little knowledge but the ability to see
+swiftly to the core of a problem.
+
+  I suspect that the most common reason why people dislike smarter folks
+is simple ego.  However, humility seems to become more bearable with
+practice, mistakes are less painful the more of them you make, and loss
+of pride has for me usually been well worth gains in knowledge.
+
+                                   -- Jay Freeman,
+                                      the other Jay,
+                                      the other Freeman
+
+------------------------------
+
+Date: Mon, 20 Sep 93 20:52:42 PDT
+From: martino@gomez.Jpl.Nasa.Gov (Martin R. Olah)
+Subject: GUNS: Buy now 
+
+Phil G. Fraering:
+
+> Gun range restrictions?
+
+  I don't really have a place to shoot out here, but there is
+  an expensive private range in Lafayette.
+
+  Are the gun ranges in California private or public?
+
+  What's the status of hunting out there?
+
+I shoot in a privately-owned but open-to-public indoor range that only allows
+handguns. For rifles, etc. there is an undeveloped range on public land over
+the hill near Palmdale. I've never had anyone get close to see what I was 
+shooting there.  Once I went with co-workers to an area which they claimed
+allowed shooting, but the sheriffs who helicoptered in were not amused. Due to
+various factors such as the presence of beer, lots of scary looking guns, and
+someones possession of pot (unknown to me), we should be doing time today.
+Why we were let go is beyond me, I'm just ahelluva lot more careful now.
+
+I don't know anything about the status of hunting.
+
+                          - O Martin
+
+------------------------------
+
+Date: Tue, 21 Sep 93 00:10:03 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+News Summary as of: Tue Sep 21 00:10:03 EDT 1993
+
+
+Newly Registered Reputations:
+(None)
+
+New Share Issues:
+(None)
+
+Share Splits:
+(None)
+
+
+Market Summary as of: Tue Sep 21 00:00:03 EDT 1993
+
+Reputations of members of the Extropians mailing list:
+[ Note: Contact hex-request to have a reputation placed on this list. ]
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+ANTON         .27      .50      .37        10000         1214          449.18
+ARKU          .27      .29      .28        10000         5101         1428.28
+BLAIR        1.25    30.00    50.00        10000           25         1250.00
+DEREK           -      .49      .49       100000         8220         4027.80
+DRS           .05      .07      .05        10000         1510           75.50
+DVDT         1.55     1.70     1.63        10000        10000        16300.00
+E             .90     1.00     1.00        10000         8087         8087.00
+ESR             -        -        -            -            -               -
+FCP             -     1.30     1.50        80000        15345        23017.50
+GHG           .02      .60      .60        10000         7180         4308.00
+GOBEL         .01     1.50     1.00        10000          767          767.00
+H             .76      .76      .76        30000        19290        14660.40
+HAM           .60      .65      .60        20000        15820         9492.00
+HANNO         .01     7.00        -        10000            -               -
+HFINN        1.50     6.00     6.00        10000         1005         6030.00
+IMMFR         .25      .70      .80        10000         1838         1470.40
+JFREE         .20     1.25     1.00        10000         3200         3200.00
+JOHN            -      .50        -        10000            -               -
+JPP           .40      .57      .30        10000         3500         1050.00
+KARL          .50     1.00     1.00        10000         1000         1000.00
+LEFTY         .05      .40      .40        10000         3651         1460.40
+MARCR           -        -        -            -            -               -
+MLINK           -      .01      .01      1000000       102602         1026.02
+MWM           .15     1.50     1.50        10000         1260         1890.00
+N           20.00    25.00    25.00        10000          176         4400.00
+P           22.50    25.00    25.00      1000000           94         2350.00
+PETER           -      .01     1.00     10000000          600          600.00
+PRICE           -     4.00     2.00     10000000         1410         2820.00
+R             .25      .70      .60        10000         6000         3600.00
+RJC          1.50     2.00     2.00        10000         5200        10400.00
+ROMA            -        -        -            -            -               -
+RWHIT           -        -        -            -            -               -
+SAMEER        .01      .60      .61        10000         9810         5984.10
+SHAWN         .55      .55      .01        10000           25             .25
+TCMAY        1.50     3.00     1.50        10000         6000         9000.00
+TIM          1.00     2.00     1.00        10000         1700         1700.00
+WILKEN       1.00    10.00    10.00        10000          101         1010.00
+-----------------------------------------------------------------------------
+Total                                                               142853.83
+
+Other reputations:
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+1000          .20      .40      .20        10000         4000          800.00
+110           .01      .10      .10        10000         1750          175.00
+150           .01      .10      .10        10000         1750          175.00
+1E6             -      .05      .02        10000           25             .50
+1E9           .01      .05        -        10000            -               -
+200           .10      .20      .20        10000         4075          815.00
+80            .01        -        -        10000            -               -
+90            .01        -      .10        10000         2000          200.00
+ACS             -      .10      .05        10000         2724          136.20
+AI            .01      .50      .30        10000         1000          300.00
+ALCOR        1.50     2.25     2.25        10000      3176.00         7146.00
+ALTINST         -      .25      .05        10000         4000          200.00
+BIOPR         .01      .09      .05        10000         3000          150.00
+CYPHP           -      .15      .08        10000         3100          248.00
+DC1000          -      .10        -        10000            -               -
+DC200           -      .15      .10        10000         1500          150.00
+DC7000          -      .10        -        10000            -               -
+DCFLOP          -      .10        -        10000            -               -
+DRXLR         .85     1.00     1.00        10000         4346         4346.00
+EXI          1.54     3.20     3.00        10000         3025         9075.00
+FAB             -        -        -            -            -               -
+GOD             -      .10      .10        10000         3000          300.00
+HEINLN        .01      .25      .05        10000         3100          155.00
+HEX        100.00   101.00   100.00        10000         3447       344700.00
+LEARY         .20      .50      .20        10000         1000          200.00
+LEF           .35      .50      .05        10000         3026          151.30
+LIST          .40    10.00      .75        10000         5000         3750.00
+LP              -      .30      .15        10000         4625          693.75
+LSOFT        1.00     1.50     1.00        10000         9550         9550.00
+LURKR           -      .01        -       100000            -               -
+MED21         .01      .19      .02        10000         3400           68.00
+MMORE         .10     1.25      .10        10000         3000          300.00
+MORE          .75     1.25     1.25        10000         3160         3950.00
+NEWTON          -      .20        -        10000            -               -
+NLAW            -      .50        -        10000            -               -
+NNLAW           -      .50        -        10000            -               -
+NSS             -      .03      .01        10000           25             .25
+OCEAN           -      .15      .12        10000         3100          372.00
+PLANET        .01      .02      .05        10000         1500           75.00
+PPL           .30      .45      .30        10000         4600         1380.00
+RAND          .05      .06      .05        10000         1500           75.00
+SGP             -        -        -        10000            -               -
+SSI           .22      .29      .22        10000         4700         1034.00
+TRANS         .01      .60      .02        10000         3011           60.22
+VINGE         .75     1.00     1.00        10000         2100         2100.00
+-----------------------------------------------------------------------------
+Total                                                               392831.22
+
+------------------------------
+
+Date: Mon, 20 Sep 93 23:35:45 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Being w/Smart People
+
+FutureNerd Steve Witham:
+
+> Here's a topic.  How do you feel about being around people who
+> are smarter than you, or as smart as you and much better
+> versed in some topic, or much more talented in a certain way?
+
+Pretty damn awful at first, I'll tell you!  Often, though,
+they can either be intimidated into leaving or manipulated
+onto my intellectual home ground...
+
+heh.
+
+Situations like you describe are tremendous opportunities --
+and not just for the normal views of "smart" but also for
+any other admired quality, such as purposeful commitment
+to self-improvement, eloquence, charisma, or whatever.
+
+The most obvious potential in such a situation is to exercise
+one's learning-curve-climbing muscles* with the best text yet
+invented right there.  Sometimes it is possible to trade alcohol
+or other substances for tutorial conversation and glow-basking.
+
+Being a productive participant in groups effectively discussing
+detailed interesting material is a real rush.  However, I think
+it's important to curb one's natural instincts when it would
+keep an existing discussion from being as interesting as it
+could be if one wasn't there asking dumb questions.  A good
+rule of thumb is to not spout naive questions to a group unless
+you think they might be sexually attracted to you.
+
+I remember once when I was visiting a friend who worked at Fermilab,
+he had a party and a number of employees, including a few theoretical
+physicists, showed up.  I had a wonderful hour watching them discuss
+how to solve one of those puzzles where you have to move a wooden
+ball from one loop of rope to another (they got it; apparently
+nobody at that house had ever solved it before).  The group
+had a definite leader.
+
+derek
+*recent scientific evidence suggests that learning is not in
+fact a muscular phenomenon
+
+
+------------------------------
+
+Date: Mon, 20 Sep 93 21:38:54 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Finished Selfish Gene; any comments?
+
+I appreciated the game theory in _Selfish Gene_, but
+I found even more valuable its fundamental insights into
+human nature.  After studying this and other works of
+the "sociobiology" school, human behavior, my own and other's,
+becomes a much less mysterious and puzzling thing.  Individual+kin 
+(gene) selection, reciprocal altruism, etc. have vastly expanded my 
+capability to explain and predict a wide variety of human 
+phenomonon in a wide variety of cultures.  Along these lines
+I also highly recommend _The Evolution of Human Sexuality_ by
+Donald Symons, which goes in-depth into the anthropological
+literature from a wide variety of cultures, and delves into
+the humanities, showing how a wide variety of human culture
+relates to our "selfish gene" motivations.
+
+> Am I the only one here taking the reading list seriously enough
+> to spend money buying the books? 
+
+I've bought SG, TMoF, and several others on the list.
+
+Nick Szabo			szabo@netcom.com
+
+------------------------------
+
+End of Extropians Digest V93 #263
+*********************************
+

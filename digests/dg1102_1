@@ -1,0 +1,908 @@
+From extropians-request@extropy.org Mon Nov  1 23:27:13 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA24817; Mon, 1 Nov 93 23:27:10 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from apple-gunkies.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA10420; Mon, 1 Nov 93 23:27:05 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by apple-gunkies.gnu.ai.mit.edu (5.65/4.0)
+	id <AA05697@apple-gunkies.gnu.ai.mit.edu>; Tue, 2 Nov 93 02:21:23 -0500
+Received: from news.panix.com by apple-gunkies.gnu.ai.mit.edu (5.65/4.0) with SMTP
+	id <AA05692@apple-gunkies.gnu.ai.mit.edu>; Tue, 2 Nov 93 02:21:13 -0500
+Received: by news.panix.com id AA05880
+  (5.65c/IDA-1.4.4 for exi-remail@apple-gunkies.gnu.ai.mit.edu); Tue, 2 Nov 1993 02:21:00 -0500
+Date: Tue, 2 Nov 1993 02:21:00 -0500
+Message-Id: <199311020721.AA05880@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: November 2, 373 P.N.O. [07:20:50 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Tue, 2 Nov 93             Volume 93 : Issue 305
+
+Today's Topics:
+                                                                      [1 msgs]
+                             BOOK: Learning Perl                      [1 msgs]
+                          Beating the stock market                    [1 msgs]
+                                   Bet 5000                           [1 msgs]
+                           Change in e-mail address                   [1 msgs]
+                            EXTROPIAN CORRECTNESS                     [2 msgs]
+     FOOD:Crosspollination at U of Wisconsin-was Beating the Stock Market[1 msgs]
+             I think I finally have something to contribute... :)     [1 msgs]
+          META: A Proposal for Easy Ratings of Articles and Authors   [9 msgs]
+                                  META: test                          [1 msgs]
+                   MOVIE: "Johnny Mnemonic" soon to roll...           [2 msgs]
+                  MOVIE: "Johnny Mnemonic" soon to roll...            [2 msgs]
+          Measuring the Singularity (WAS: NEWS/UK: How computers...)  [1 msgs]
+                                  Meta: test                          [1 msgs]
+                      Targetted Bio Weapons & True Names              [1 msgs]
+                     Targetted Bio Weapons & True Names               [1 msgs]
+                                    sorry.                            [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52464 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 1 Nov 93 10:44:55 EST
+From: Brian.Hawthorne@east.sun.com (Brian Hawthorne - SunSelect Strategic Marketing)
+Subject: Measuring the Singularity (WAS: NEWS/UK: How computers...)
+
+> There was radical change between 1920 and 1950, but no
+> radical change between 1950 and 1980.
+
+Hmm. I guess little things like usable computers and networks
+don't count, then?
+
+------------------------------
+
+Date: Mon, 1 Nov 93 11:43:04 -0500
+From: walter kehowski <wak@next11.math.pitt.edu>
+Subject: BOOK: Learning Perl
+
+Extropians and Cypherpunks:
+
+ O'Reilly&Assoc. has a new book out, "Learning Perl" (ISBN  
+1-56592-042-2, price $24.95). I have back-ordered it.   
+O'Reilly&Assoc. can be contacted at:
+
+PHONE: 800-998-9938
+FAX: 707-829-0104
+MAILING ADDRESS: O'Reilly&Assoc., 103 Morris St., Suite A,  
+Sebastopol, CA, 95472
+
+Walter, wak@next0.math.pitt.edu
+
+------------------------------
+
+Date: Mon, 1 Nov 93 12:07:47 -0500
+From: walter kehowski <wak@next11.math.pitt.edu>
+Subject: MOVIE: "Johnny Mnemonic" soon to roll...
+
+Seriously, I think Dolph Lundgren is only suitable for the part of  
+"Lewis the Meatball" and Ice-T is only good for the part of "Dog".  
+Now the $1,000,000 question is: Who is suitable for the parts of  
+Johnny and Molly?
+
+-:) Maybe Michael Keaton and Michelle Pfeiffer.
+
+Walter, wak@next0.math.pitt.edu
+
+------------------------------
+
+Date: Mon, 1 Nov 1993 12:52:12 -500 (EST)
+From: "Maxwell D. Schnurer" <mschnure@moose.uvm.edu>
+Subject: sorry.
+
+	Too much, too fast. . . please remove me from the List. 
+
+
+
+
+
+
+------------------------------
+
+Date: Mon, 01 Nov 93 10:22:49 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: Bet 5000
+
+>> Donald's design, as I suspected, contains a fundamental
+>> conceptual flaw.
+> 
+> In that case I assume that you will be happy if the bet
+> depends on the outcome of a numerical simulation of the
+> quantum computer, rather than a flame war concerning the
+> behavior of many body quantum systems.
+
+And I assume that you will be happy to let the judges decide, after
+viewing my comprehensive disproof of your design, on whether they need
+to run a simulation?  To agree on suitable terms for a simulation we
+must first define the experiment precisely.  To agree on suitable terms
+without running a simulation we must define the experiment more.  Either
+way we must define the experiment.  To that end answer the questions I
+asked earlier.  Rephrasing my questions:
+-    Are we assuming a noise-free system?  (My answer = Yes)
+-    Is a*C*norm >> N0+N1+N2 .... +Nm in the final hamiltonian?  
+     In other words, that "a" is arbitrarily large or that the 
+     N-terms are to be ignored in the limit as time goes to infinity?
+     (My answer = Yes)
+-    that we are ignoring any bouncing (transitions induced by the
+     changing hamiltonian) from one energy level of the
+     instantaneous hamiltonian to another?  (My answer = Yes)
+
+So far you have failed to answer any of the points.  Your long
+explanation about noise singularly failed to answer the question posed. 
+You argued that "we can legitimately ignore noise."  This does _not_
+answer what I asked.  I asked, would we be _assuming_ there is no noise
+to simplify matters.  Pardon my pedantry.  Your inability or refusal to
+parse quite simple statements continues to disappoint me.  Your
+continual obfuscation or evasion convinces me of the need to have the
+terms and conditions of this wager nailed down precisely.  Remember this
+is a gedankenexperiment - we can eliminate noise by fiat.
+
+> Remember that if I fail to write the simulation, or Seth
+> Lloyd judges that the simulation fails to simulate the
+> quantum computer it purports to, or the simulation fails to
+> show the behavior I predict [...]
+
+This is not good enough.  Seth Lloyd, or whoever, has to make too many
+judgements in areas where he may have no expertise.  First he has to
+check all your theory.  Then check your simulator code against the
+theory (is he a programmer?).  Then run the simulation (is he PC-
+fluent).  Then collate the data (is he a statistican?).  Then make a
+value judgement on the closeness of fit between prediction and result. 
+My claim is simpler.  Your theory is screwed.  And at an elementary
+level.  At one precise point - where you claim that the system remains
+in the ground state.  Let the judge(s) settle the issue at that stage
+about this one precise area.  Either way, you still have to define how
+you expect the system to behave, so please answer my earlier questions.
+
+I suggest we settle the financial arrangements after we've agreed on how
+the technical issues will be judged.  Once we've decided exactly _how_
+we are going to settle the issue it will be easier to decide _who_ is
+appropriate to settle through.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Mon, 1 Nov 93 11:30:14 PST
+From: Robert Brooks <rb@hprrb.rose.hp.com>
+Subject: META: A Proposal for Easy Ratings of Articles and Authors
+
+First of all, I, too, like this ratings idea.  Further, I think implementing
+a simple non-weighted scheme first, rather than going immediately to
+Ray's and Sasha's fancy interest-vector scheme, has advantages in ease
+of implementation and giving a baseline for evaluating that scheme.
+
+> * some people seem to think the HEx market is mainly designed to
+> "rate" posts and posters. I think this is misguided, as most markets
+> operate to make money (thornes), e.g., I buy and sell, when I do at
+> all, based on what I think the future price will be, not based on
+> giving approval or demerits to posters. Some people even add notices
+> with things like: "If you liked this post, buy Foo on HEx." (The
+> analogous situation might be signs at MacDonalds saying: "If you liked
+> this Big Mac, buy MacDonald's stock." Right.)
+ 
+I guess I'm one of the misguided, then.  I've been holding back on reposting
+a humorous piece that got swallowed in the list outage, because of both
+seeing no bids on HEx for my stock above .01, and all of the "thank god
+maybe this [the outage] will make the S/N ratio improve" comments.
+
+While such a sign at McDonald's does indeed seem ridiculous, I'm not so
+sure it would have been at Ray Kroc's first store in Champaign or Peoria
+or wherever it was, especially if the stock exchange was in its infancy,
+too.
+
+So what _is_ HEx for?
+
+
+Robert
+
+------------------------------
+
+Date: Mon, 1 Nov 93 15:54:14 EST
+From: Andy Wilson <ajw@Think.COM>
+Subject: EXTROPIAN CORRECTNESS
+
+   Date: Fri, 29 Oct 1993 18:21:23 -0500
+   From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+
+   >In fact, it turns out that the Corvair was a perfectly safe car
+   >for the time, and they are now collected by some folks.
+
+They are collected because of their unique design,  with a rear-engine
+rear-drive configuration like a Porsche 911 or VW Beetle,  which is
+strange for a U.S. manufacturer.  They were remarkably fast because of 
+the combination of high horsepower and light weight.  They are most
+certainly not collected because of their safety.
+
+My father,  who builds prototype vehicles for GM,  once had a Corvair
+on which he installed a stock supercharger,  and the car was so 
+fast that he considered it too dangerous,  and took the supercharger
+off.  He never thought his Porsche or a '63 'vette he used to have,
+or even a souped-up VW Beetle he built, were too dangerous.  This is 
+a funny story in our family because he told my mother that he was 
+installing the supercharger in order "to get better gas mileage",  
+and he had to tell her what it was really for in order to justify 
+the effort in taking it back off.
+
+   If you want to see a real cardboard box, Andy, look at any of
+   the econoboxes or even non-compacts on the road today. They
+   and their passenger cages crumple very easily compared to the
+   way they built cars before Ralph Nader came along and started
+   griping about airbags (which may be a minus) while not saying
+   anything at all about how they've taken the metal out of everything
+   but the Volvos.
+
+The reason they are taking the metal out is because of the government's
+obsession with fuel efficiency to the detriment of safety.  If we used 
+methanol or some other non-fossile energy source for cars instead of 
+gasoline,  we wouldn't have to worry so much about gas mileage.  In fact,  
+I would consider some fraction of the automobile accident deaths in the 
+U.S. to be sacrifices at the altar of the oil industry in their calculus 
+of acceptable deaths.  I agree it is a joke to put an air bag in a car 
+that you could crumple with your bare hands and call it safe.  It would
+be better if the car buyer were able to choose between fuel efficiency
+and safety rather than some beaurocrats in Washington making the choice
+for everyone.
+
+Andy
+
+   Phil
+
+
+------------------------------
+
+Date: Mon, 1 Nov 93 17:43 EST
+From: kqb@whscad1.att.com
+Subject: Targetted Bio Weapons & True Names
+
+How feasible is it to target a (viral) disease to an individual person
+within the next 10 years?  Except for identical twins, everyone has unique
+DNA and, presumably, everyone has a unique immune system.  That should
+give the designers something unique to target.  Also, bear in mind that
+the disease must not only be finely targetted, but also highly resistant
+to mutation!  If it self-destructs after a short period, all the better.
+
+Assuming that such individually targetted diseases can be designed and
+produced soon, can they be delivered in such a way that nobody can trace
+their origin?  If so, what are the consequences for highly public
+government officials?  Or any famous people?  Or anyone who irritates
+one too many people?  Will this favor small-scale terrorist attacks more
+than large-scale war machine attacks? **  Will this make revealing your
+True Name a deadly mistake?  Or will it become just another minor risk
+in life, such as crossing the street without getting run over?
+
+Of course, if nobody can get samples of your DNA, you are safe, right?
+But how feasible is that?  How many ways do we shed samples of our DNA?
+Little flecks of skin fly away wherever we walk, don't they?  Shaking
+hands with someone gives an obvious opportunity to scrape off a few
+skin cells.  Blood donations won't give you AIDS but they certainly
+will give away your DNA.  Toilets may become treasure troves of
+valuable genetic information.
+
+Advanced Question: What is the average Kolmogorov complexity of a
+virus targetted to an individual human?  :-)  Would the extra coding
+to achieve this fine-targetting increase the size of the virus so much
+that it could not compete with the other micro-organisms already in
+the environment?  If so, then perhaps only some, unluckily unique,
+individuals can be targetted by a viable virus?
+
+Disclaimer: I am not interested in developing or applying any such
+technology.  I'm just writing a little story and would like to know
+if this idea is too silly to consider.  Also, in case you wondered,
+yes, this year's cold & flu season has arrived...
+
+                              Kevin Q. Brown
+                              INTERNET    kqb@whscad1.att.com
+                                 or       kevin_q_brown@att.com
+
+** Probably the large-scale war machines would prefer to attack
+   targetted genetically-related groups of people, not individuals.
+   Should we expect bio-weapons to enable large scale 21st Century
+   genocide?  Or have the major migrations throughout the last few
+   centuries so distributed and mongrelized the human gene pool that
+   no meaningful distinction can be made between the individuals of
+   one country and another?
+
+------------------------------
+
+Date: Mon, 01 Nov 93 15:12:33 -0800
+From: davisd@auburn.ee.washington.edu
+Subject: Beating the stock market 
+
+Perry replies to Pat Wilken
+
+> PATRICK WILKEN says:
+> > Of course the surface details are different between art and 
+> > stock markets, but I wonder if at a fundamental level analysis there is 
+> > a real difference. What you are trying to do in both incidences is try 
+> > to assess the wishes of a future market in terms of the quality of the 
+> > product and artist/company in the present. 
+> 
+> There are two differences. One of them is that there is no way to
+> objectively assess the value of art, whereas there is a way to
+> objectively assess the value of some stock -- if I bought the whole
+> company out, what would my rate of return be, 
+
+To determine this, you would have to "assess the wishes of a future
+market", as Mr. Wilken said. I like his comparison. It clearly
+embodies the concept that value is subjective.
+
+> -- much horrible art is highly
+> valued (look at cretins like Robert Longo) and much good art will
+> never see the light of day. 
+
+So what? McDs makes loads of money selling crap. Just as subjective.
+
+> The absolutely only way to tell what art
+> is currently worth is to auction it. 
+
+Which is just as true for anything else. The only real prices are
+those of actual exchanges.
+
+Buy Buy -- Dan Davis      
+
+
+
+------------------------------
+
+Date: Mon, 1 Nov 1993 18:39:44 -0500
+From: habs@panix.com (Harry S. Hawk)
+Subject: META: A Proposal for Easy Ratings of Articles and Authors
+
+Rating schemes are the number one new feature for the list.
+
+I have a number people who have given input on this from ddfr, to carlf,
+Sasha, peb (who has published in ACM on this), to name a few.
+
+We will probally consider several agents to use the rating data. It
+should be straight forward to have a "easy" vote-like ranking agent
+and a more complex vector-ranking agent; both agents would use
+the same data.
+
+One concern, is, of course, CPU costs. I would be interested in hearing 
+from those who would be willing to provide CPU service from their machine.
+(Ray and I would have to be able to telnet into it).
+
+It would now be a good time for Sasha to put forward the plans he
+has developed in terms of features, etc. I will ask him to do that.
+
+I am strongly in favor of the more complex ranking system, as I think
+it can do more based on the results I have hear from Carl's work at MIT.
+Also easy systems seem a lot like voting, which is not always EC.
+
+/hawk
+
+
+--
+Harry S. Hawk  -  Extropian  
+                                                        habs@extropy.org
+In Service to Extropians since 1991
+
+
+
+------------------------------
+
+Date: Mon, 01 Nov 93 16:35:40 MST
+From: rdolan@ceulib.ceu.edu
+Subject: Change in e-mail address
+
+I am changing to a new e-mail address effective this date.
+
+My new address is RDOLAN@CEULIB.CEU.EDU
+
+
+My old address was RDOLAN@CC.CEU.EDU
+
+
+Thanks for your time in this matter.
+
+
+Rob Dolan
+
+------------------------------
+
+Date: Mon, 1 Nov 1993 18:28:59 -0600
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: MOVIE: "Johnny Mnemonic" soon to roll...
+
+Just wondering, but are Bruce Sterling and William Gibson really
+of interest to the people on this list?
+
+Have I missed out by not reading them?
+
+Phil
+
+------------------------------
+
+Date: Mon, 1 Nov 1993 18:42:29 -0600
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: EXTROPIAN CORRECTNESS
+
+>Sorry, I should have noticed you were quoting somebody, although
+>in your original post you never said who you were quoting and
+>this also causes confusion. In your second post you said this
+>mysterious person was Harr}iy. How do you pronounce it ?
+
+1. Harry Shapiro quoted me, not vice versa.
+
+2. I was having bad line noise, sorry about that...
+
+
++-----------------------+---------------------------------------+
+|Phil Fraering          | "...drag them, kicking and screaming, |
+|pgf@srl03.cacs.usl.edu | into the Century of the Fruitbat."    |
++-----------------------+-Terry Pratchett, _Reaper Man_---------+
+
+
+
+
+
+
+------------------------------
+
+Date: Mon, 01 Nov 1993 19:43:51 -0500
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Targetted Bio Weapons & True Names 
+
+kqb@whscad1.att.com says:
+> How feasible is it to target a (viral) disease to an individual person
+> within the next 10 years?  Except for identical twins, everyone has unique
+> DNA and, presumably, everyone has a unique immune system.  That should
+> give the designers something unique to target.
+
+Viruses might be much harder than higher organisms like bacteria.
+
+Perry
+
+------------------------------
+
+Date: Mon, 01 Nov 1993 19:52:36 -0500
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: MOVIE: "Johnny Mnemonic" soon to roll... 
+
+"Phil G. Fraering" says:
+> Just wondering, but are Bruce Sterling and William Gibson really
+> of interest to the people on this list?
+> 
+> Have I missed out by not reading them?
+
+Thats a subjective call. I'd say that Bruce Sterling isn't terribly
+good. Gibson paints a mean distopia, and conveys the feel of an entire
+futuristic milieu really well (when he isn't making idiotic technical
+gaffes) but he isn't terribly extropian either. "The Difference
+Engine" which was their jointly authored work was pretty good.
+
+Overall, I'd say that Gibson makes an interesting read, but has no
+direct importance to the list.
+
+Perry
+
+------------------------------
+
+Date: Mon, 01 Nov 1993 19:35:58
+From: tim.hruby@his.com (Tim Hruby)
+Subject: META: A Proposal for Easy Ratings of Articles and Authors
+
+I too agree that a simple ratings scheme would be a fun thing to play
+with.
+
+However, it is important to realize that, like HEx, it will not really
+serve its intended purpose....  Well, I'm not really sure what the intended
+purpose is.  For the reasons Tim May mentions (mainly trading for profit, 
+and not for the "common good"), HEx doesn't reflect the value of people's
+posts to the list.  Rather, HEx values truly represent a pure form of
+"reputation":  what people are willing to pay for something that has no
+intrinsic value, in a currency that has little intrinsic value.  I say
+"little intrinsic vlaue" because thornes are valuable for one thing: you
+can get Nick Szabo to retreive information for you.  HEx values have almost
+no use in controlling the list S/N ratio, tho I suppose one could ::exclude
+all posters whose net worth was below a certain value or somesuch (given
+current market valuations, IMO this would be a horrid strategy for trying
+to improve the S/N one got out of the list).  Don't get me wrong, HEx is
+lots of fun to play around with, and I've even thought of offering to
+broker PGP signed futures contracts, loan out my holdings for people
+who wish to sell short, and loan out thornes to investors (i.e., be the
+first stockbroker, and first _operating_ bank on HEx.)  Never got around
+to it tho....
+
+But back to this ratings system.  There are still many problems with it.
+
+[1]  As Tim May mentioned many moons ago when such things were discussed
+before, who is going to trust those people who rank posts to censor out
+what you will and won't get from the List?  Not me;  I'll decide on my
+own ::excludes and ::includes, based on who and what I think is worth
+listening to.  Still, perhaps the rankings would be useful, in that they
+provide feedback to people who post inane or excellent items.  That gets
+me to my next point, however....
+
+[2]  Similar to the problem of HEx, one has to ask just what do these 
+ratings mean?  They are the average (or maybe some kind of weighted average)
+of the subjective values of those people who ranked the posts, and thus,
+their virtue is supposed to be that they represent some kind of "market
+value" of the posts.  However, there is a major market failure here.
+Just who is going to bother to rank postings, and what keeps them honest?
+
+The major problem here is that there is no incentive for anyone to go 
+to the extra trouble of rating posts, an activity whose benefit inures
+solely to precisely those people who do *not* rank posts, but instead 
+rely on the rankings to filter out the noise.  Rather, those people who 
+send in rankings will be motivated by concerns of personal utility:  i.e.,
+novelty, fun, revenge & sabotage for other slights, etc.  These people 
+will not be a representative sample of List members; it will be those of 
+us hacking the system (which I'll probably be guilty of).  Then, most 
+likely, after much of the novelty wears off, activity will become very 
+sparse.  Even if we manage to add an incentive for taking the time to 
+rate posts (such as by providing List credits, if and when we wind up
+going to a pay-for-the-list scheme) there still is no mechanism for
+keeping people "honest", by which I mean rating for information content
+rather than for other reasons.  If I like Perry, and don't like Tim May,
+why don't I just rate all of Perry's posts "10" and all of Tim's "0"?
+There's no cost to my lying; I still get the same reward in terms of 
+list credits or thornes or whatever.  For the system to "work", you have 
+to reward people for sending in ratings, and for sending in honest ones.
+That may almost be an insurmountable difficulty.
+
+I see a possible solution here in Robin Hanson's Idea Futures.  If you
+devalue my reward based on how far off the norm I am, and increase it
+by how close to the norm I come, then you are encouraging everybody to
+guess what the average value will be.  Thus, they are rating not their
+own personal view of the information, but what they think it is worth
+to everybody else.  If they are right, they win big; if not, the reward
+is smaller, or maybe non-existent, or even a penalty.  I haven't completely
+thought through this idea, and I'd appreciate hearing Robin or anyone
+else's ideas on it.
+
+Still, though, my first question remains.  Even if we get an accurate
+"market value" of the information content of a post, what do we do with
+this information?  Unless you are involved in arbitrage, you don't buy
+something simply because the market values it highly; you buy it because
+you value it more than the market does.  Just because the market highly
+values the thread on "Why Space Aliens will never allow Perry's brain
+to grow larger than Mars" doesn't mean that I care about it at all.  
+Likewise, just because the market doesn't value the thread on "How 
+skipping stones on a lake can add 30 years to your life-expectancy"
+(because most people on the list don't live near a lake) doesn't mean 
+that I (with my own private lake) don't want to hear the news.
+
+Not to put a damper on the parade for this list add-on, but I think
+before a considerable investment of programming resources goes into it,
+we should determine what beneifts it provides, besides the temporary
+spurt of fun we'll all have playing with it.
+
+
+
+Tim
+
+tim.hruby@his.com                    Envelope quality PGP key available
+                                     on request or by server.
+Fingerprint: 507/7305D1:  2C 67 E4 30 A1 A1 B2 2D  94 12 6C 9C 9D F3 A7 B8
+
+------------------------------
+
+Date: Mon, 01 Nov 1993 20:28:13 -0500
+From: "W. Scott Meeks" <meeks@osf.org>
+Subject: MOVIE: "Johnny Mnemonic" soon to roll... 
+
+>Date: Mon, 1 Nov 1993 18:28:59 -0600
+>From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+>Just wondering, but are Bruce Sterling and William Gibson really
+>of interest to the people on this list?
+
+I'd say yes, in a minor way, Sterling moreso than Gibson.  Gibson is a good
+writer, and "Johnny Mnemonic" a good story, but neither he nor his fiction
+are extropian.  Some of it's rather entropian actually.  Sterling's fiction
+is more extropian (Schismatrix, for example, deals with
+self-transformation) and I get the impression from what I've heard about
+Sterling that he's possibly somewhat extropian as well.
+
+>Have I missed out by not reading them?
+
+Only if you've already read everything Vernor Vinge's written!
+
+	Scott
+
+
+------------------------------
+
+Date: Mon, 1 Nov 1993 19:57:17 -0600
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: META: A Proposal for Easy Ratings of Articles and Authors
+
+Harry writes:
+
+>One concern, is, of course, CPU costs. I would be interested in hearing 
+>from those who would be willing to provide CPU service from their machine.
+>(Ray and I would have to be able to telnet into it).
+
+CPU costs are _cheap_. SLIP seems to be the expensive part,
+at least to me out in the boonies... how much do SLIP connections
+cost all of you, for a month or year's worth of connection?
+
+
++-----------------------+---------------------------------------+
+|Phil Fraering          | "...drag them, kicking and screaming, |
+|pgf@srl03.cacs.usl.edu | into the Century of the Fruitbat."    |
++-----------------------+-Terry Pratchett, _Reaper Man_---------+
+
+
+
+
+
+------------------------------
+
+Date: Mon, 1 Nov 1993 21:05:47 -0500 (EST)
+From: Harry Shapiro <habs@panix.com>
+Subject: META: A Proposal for Easy Ratings of Articles and Authors
+
+a conscious being, Phil G. Fraering wrote:
+> 
+> Harry writes:
+> 
+> >One concern, is, of course, CPU costs. I would be interested in hearing 
+> >from those who would be willing to provide CPU service from their machine.
+> >(Ray and I would have to be able to telnet into it).
+> 
+> CPU costs are _cheap_. SLIP seems to be the expensive part,
+> at least to me out in the boonies... how much do SLIP connections
+> cost all of you, for a month or year's worth of connection?
+
+Based on the kinds of number crunching we would need to do, CPU costs
+are a major factor in our plans. (Of course, not just any CPU,
+but one connected to the net...
+
+/hawk
+
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+Date: Mon, 1 Nov 1993 21:13:31 -0500 (EST)
+From: Harry Shapiro <habs@panix.com>
+Subject: META: A Proposal for Easy Ratings of Articles and Authors
+
+a conscious being, Tim Hruby wrote:
+> But back to this ratings system.  There are still many problems with it.
+
+> Just who is going to bother to rank postings, and what keeps them honest?
+
+> The major problem here is that there is no incentive for anyone to go 
+> to the extra trouble of rating posts, an activity whose benefit inures
+> solely to precisely those people who do *not* rank posts, but instead 
+> rely on the rankings to filter out the noise.  Rather, those people who 
+
+1) There is NO value to ranking for someone(s) like Perry or Tim who
+tend to look at every message.
+
+2) For everyone else, complex (or at least not simple), ranking systems
+will enhance the value of those who rank the most; the more you rank
+the more the system will know about what you like.
+
+3) Also, the more you read the list at odd times, or because of work, etc,
+have to skip a day, the more ranking will help you. The reason is that you
+can benefit from those who rank prior to you; while you help those who rank
+after you, etc.
+
+4) The number one reason people leave the list is vol of posts. It would 
+be nice to say, "Rank this 10 starter 'messages' and rank at least
+2 message per week, and we will send you 3 message per day|week that
+you will really like.
+
+FYI, we will rank on -5 to +5, so that zero is the default value for 
+everypost. Most ranking systems use a scale of 1 to 5, so we will
+probally have more data then we need.
+
+/hawk
+
+------------------------------
+
+Date: Mon, 1 Nov 93 21:32:32 WET
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: EXTROPIAN CORRECTNESS
+
+Andy Wilson writes:
+> The reason they are taking the metal out is because of the government's
+> obsession with fuel efficiency to the detriment of safety.  If we used 
+> methanol or some other non-fossile energy source for cars instead of 
+  
+  I would vote for hydrogen, though there may be problems with containment.
+(You don't want to flood the passenger cabin with it in a crash)
+
+> gasoline,  we wouldn't have to worry so much about gas mileage.  In fact,  
+> I would consider some fraction of the automobile accident deaths in the 
+> U.S. to be sacrifices at the altar of the oil industry in their calculus 
+> of acceptable deaths.  I agree it is a joke to put an air bag in a car 
+
+   This has nothing to do with the oil industry and everything to do
+with the EPA and environmental lobby. The president signed a deal a few
+weeks ago to "encourage" (coerce/sell market protection) the big three
+to produce cars with up to 80mpg. Prototypes have already been built and
+they were used in Demolition Man (source: Entertainment Tonight) They were
+the police cars in Demolition Man and are called "Ultralights"
+
+   From the name, you can guess that they are made out of light-weight
+materials (from what I've seen, fiberglas and plastic) I wonder if
+Ralph Nader will go on the warpath after the first few thousand
+people are killed being hit by a good ole American 70's gas guzzler.
+
+
+-Ray
+
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Mon, 1 Nov 93 21:36:07 EST
+From: goetz@cs.Buffalo.EDU (Phil Goetz)
+Subject: I think I finally have something to contribute... :)
+
+What's this about 19 years left?
+
+Phil goetz@cs.buffalo.edu
+
+------------------------------
+
+Date: Mon, 1 Nov 1993 20:36:16 -0600
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: META: A Proposal for Easy Ratings of Articles and Authors
+
+What I was trying to say is that if I buy a 386, put Linux on it,
+and put it on the net, that the "put it on the net" part of the
+equation seems to dominate most of the costs.
+
+The people on this list probably own several orders of magnitude
+more idle processor power than the list would need to run even
+if the software were a lot more cumbersome and featuresome. 
+
+
+Phil (pgf@srl03.cacs.usl.edu)
+
+"Onward! Upward! Outward! Into the garbage!" - Derek Zahn
+
+------------------------------
+
+Date: Mon, 1 Nov 93 18:47:27 PST
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: META: A Proposal for Easy Ratings of Articles and Authors
+
+> From: tim.hruby@his.com (Tim Hruby)
+> [1]  As Tim May mentioned many moons ago when such things were discussed
+> before, who is going to trust those people who rank posts to censor out
+> what you will and won't get from the List?
+
+Particularly if there is a significant amount of rating by the
+lurking contingent.  Not that all you folk in the audience are bad
+people, mind you, but I've never met you.  I don't know whether your
+tastes bear any resemblance to mine.
+
+> The major problem here is that there is no incentive for anyone to go 
+> to the extra trouble of rating posts, an activity whose benefit inures
+> solely to precisely those people who do *not* rank posts, but instead 
+> rely on the rankings to filter out the noise.
+
+The rating-vector schemes have a nice side effect.  If you want the
+list software to be able to accurately assess your tastes, you have
+to rate a fair number of posts, and to do so on a continuing basis.
+
+On the whole idea of rating systems: I'll play with them to see what
+works, but I'll probably continue reading the list by the
+"qdqdqd<space><space>qdqdqd" method.  That is, it's easier for me
+just to skim everything than to futz with ::excludes and ratings and
+prefixes.  The list volume isn't really that large compared to the
+other mail and news I read.  Consider this a tribute to the S/N.  Do
+most people pre-delete some of the traffic, or just skim the list?
+An understanding of the use of available filtering systems may help
+in the design of new ones...
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Mon, 1 Nov 1993 21:52:47 -0500 (EST)
+From: Harry Shapiro <habs@panix.com>
+Subject: Meta: test
+
+Just a test please ignore...
+
+Thanks,
+
+signed
+
+Test. Dept.
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+Date: Mon, 1 Nov 1993 22:03:39 -0500 (EST)
+From: Extropy Institute <exi>
+Subject: META: test
+
+Tets, ignore
+
+------------------------------
+
+Date: Mon, 1 Nov 93 19:15:06 PST
+From: martino@gomez.Jpl.Nasa.Gov (Martin R. Olah)
+Subject: FOOD:Crosspollination at U of Wisconsin-was Beating the Stock Market
+
+David Friedman:
+
+>My wife and I cook and compile recipes from very early cookbooks. Our
+>earliest source is 6th century, and most of our stuff 13th-15th century.
+
+I would be interested in purchasing such a compilation if you ever make one 
+available.
+
+                              O Martin
+
+------------------------------
+
+Date: Mon, 1 Nov 93 19:10:20 -0800
+From: mlshew@netcom.com (Mark Shewmaker)
+Subject: META: A Proposal for Easy Ratings of Articles and Authors
+
+Timothy C. May writes:
+
+>I propose here a simple system for rating postings, with the intent
+>that the currently moribund "Essay" list be replaced by a low-volume
+>"Best of Extropians" list. I also have some comments about the
+>stagnant HEx market.
+>
+>[Comments deleted.]
+
+I've also been feeling a real need for a rating system again lately,
+especially after wading through all the recent damage on cypherpunks
+caused by the Detweiler perversion.  That in particular got me pretty
+much fed up last week, and I went through my files to find the SQL
+server that was in there somewhere, so as I could to actually
+go through with it and set up my own rating system.
+
+The overriding limitation with any such system is the requirement
+that it must not increase the CPU load on exi's machines.  So any
+permanent rating system must exist at another site.  This requirement
+is not open to debate.  (At least as of some months ago.)
+
+I should have a rating system on my own machine up in testing
+(offline) in a week or two.  After I get it working to some extent,
+I'll report back to the list.  (If not before.)
+
+Depending on the results, and interest, (my own included), I may
+set up a mailserver of some sort to do the rating through my own
+netcom account.  (Although possibly still offline for a while.)
+
+The system I plan to implement and test on a small scale will,
+as you might expect, will be based on the method I posted
+in March in my message "Meta:  Opportunity for Spontaneous Order."
+
+-Mark Shewmaker
+ mlshew@netcom.com
+
+------------------------------
+
+End of Extropians Digest V93 #305
+*********************************
+

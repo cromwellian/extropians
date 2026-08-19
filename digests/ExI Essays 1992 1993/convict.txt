@@ -1,0 +1,1597 @@
+From extropians-request@gnu.ai.mit.edu Wed Mar 17 16:24:21 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA11321; Wed, 17 Mar 93 16:24:12 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from churchy.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA07034; Wed, 17 Mar 93 16:23:55 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by churchy.gnu.ai.mit.edu (5.65/4.0)
+	id <AA00706@churchy.gnu.ai.mit.edu>; Wed, 17 Mar 93 18:16:48 -0500
+Message-Id: <9303172316.AA00706@churchy.gnu.ai.mit.edu>
+To: ExI-Essay@gnu.ai.mit.edu
+Date: Wed, 17 Mar 93 15:12:29 PST
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+X-Original-Message-Id: <9303172312.AA16260@ptolemy.arc.nasa.gov>
+X-Original-To: ExI-Essay@gnu.ai.mit.edu
+Subject: Why Not Let Convicts Hire the Police?
+X-Extropian-Date: Remailed on March 17, 373 P.N.O. [23:16:47 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+Just over two months ago, I posted a then 9000 word paper with the
+above title.  The paper is much revised, now 13,500 words, and I have
+just submitted it for publication to the Journal of Legal Studies. 
+
+Here is a Latex version of the paper.  Discussion welcome of course.
+------------------------------------------
+\newcommand{\set}{{\cal S}}
+\newcommand{\ave}[1]{\overline{#1}}
+
+\documentstyle[ijcai91,named]{article} 
+\pagestyle{plain}
+
+\title{Should Privately Enforced Laws Fix Punishment or Restitution?  \\
+		(or, Why Not Let Convicts Hire The Police?)}
+
+\author{Robin Hanson \\
+	{\normalsize 47164 Male Terrace, Fremont CA 94539} \\
+	{\normalsize hanson@ptolemy.arc.nasa.gov}  \\
+	{\normalsize 510-651-7483} \\
+	{\normalsize March 12, 1993}
+}
+
+\date{March 12, 1993}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract} 
+Privately enforced law might fix punishment, restitution, or some
+combination of the two.  Such law might be uniform, depending only on the
+victim's complaint, or it might be contingent, depending on crime types
+determined after a conviction is obtained.  After reviewing the general
+problem of designing private law and enforcement, I compare these three
+ways to fix law under both uniform and contingent law, comparing efficiency
+and ability to induce revelation of relevant information.  Fixed punishment
+seems better at inducing victims to aid private law enforcers and at
+imposing high punishment levels.  Fixed restitution, however, seems
+better at revealing criminal risk preferences, avoiding distortion from
+bribes, accommodating intangible preferences, and inducing criminals to aid
+enforcement.
+\end{abstract}
+
+\section{Introduction}
+
+Of the large and growing academic literature on law and economics, only a
+disappointingly small fraction is devoted to the task of imagining and
+evaluating alternatives to our current legal institutions.  This is
+disappointing because, after our academic clouds of analysis settle (if
+ever), our main general (normative) choice will remain, in law as in most
+economic contexts, a choice between institutions.  And we risk this being
+an empty choice if we have not bothered to imagine specific plausible
+alternatives to existing legal institutions. (And even those convinced
+of the superiority of existing institutions understand them better after 
+comparing them to plausible alternatives.)
+
+Fortunately, there are exceptions to this trend, such as Gary Becker and
+George Stigler's proposal [1] that we privatize law enforcement, using
+competing private law enforcement agencies in the context of traditional
+state monopolies in law courts and legislation.  David Friedman,
+elaborating on this suggestion, offers arguably the best current proposal
+[2].  He suggests that each privately enforced crime would have a
+complaining victim, and victims would initially own the right to collect
+fines from convicted criminals, rights which they would then sell to
+private law enforcers.
+
+Friedman's paper initially responds to a paper by Landes and Posner [3],
+who argue that private enforcers, competing to obtain a legally specified
+fine per crime, could not be economically efficient.  In response, Friedman
+proposes that, rather than specifying a fine, laws could specify an
+expected punishment level for each type of crime.  Using some unspecified
+method to assess criminal risk-aversion, each convicted criminal would be
+fined whatever amount is required to reach the law-specified expected
+punishment, given the enforcer's observed frequency of capturing and
+convicting groups of like criminals doing like crimes.  With punishment
+fixed, victims own the residual after paying for enforcement costs, and so
+want to hire enforcers who minimize these costs.  If the expected
+punishment is set at its optimum value, Friedman shows that enforcers have
+incentives to spend an optimum amount on enforcement.
+
+While Friedman's proposal is certainly an improvement over previous
+suggestions, it still seems less than ideal, ignoring criminal efforts to
+avoid enforcement, being susceptible to bribes, requiring large bundles of
+similar crimes, and requiring official knowledge of criminal risk aversion
+and preferences for intangibles like being treated with dignity.
+
+Therefore, this paper offers yet another (hopefully improved) alternative
+private law institution, where laws fix a specific level of restitution for
+each type of crime, rather than a punishment or fine.  Here criminals would
+own the residual after enforcement costs, and so want to choose an enforcer
+to minimize these costs.  A criminal's agent would estimate each criminal's
+risk preferences, and choose an enforcer offering the minimum expected
+punishment while paying the victim their due restitution.  Specific
+institutions are described for validating case-specific probability
+estimates, without needing like crime bundles, and for validating an
+agent's case-specific estimates of criminal risk.
+
+This approach can induce criminals to cooperate with enforcers, can
+consider the intangible preferences of both parties, and better prevents
+bribes from distorting the parameter that the law fixes (preventing this
+completely under uniform law).  However, it does give risk from uncertain
+enforcement costs to the party who can least afford it, requires more
+formal (and hence costly) rules to ensure that victims adequately aid
+enforcers, and does not allow punishment to be raised above the level where
+restitution begins to fall.
+
+A fourth and more general approach would have the law determine a social
+loss function of punishment and restitution which is to be minimized, and
+have the law directly hire the enforcer whose bid minimized this loss.
+Alternatively, both punishment and restitution could be fixed, with a
+victim's insurer owning the residual after paying enforcement costs.  One
+might have doubts whether the process by which laws were set could
+adequately deal with such complexities, these approaches would less
+consider criminal intangibles, may make it difficult to estimate risk
+preferences, and may fail to entice criminals into aiding enforcement.  But
+they might better allocate risk due to uncertain enforcement costs than
+either of the above alternatives.
+
+All of these approaches can be extended to allow the law to be contingent
+on later court-determined properties of convicted crimes.  Such contingent
+law allows more carefully tuned incentives, and can directly deal with the
+case where the someone falsely claims to be the victim of a crime.
+Enforcement can also be contingent, allowing fines and probabilities of
+conviction to be contingent on later court-determined properties of the
+crime and criminal.
+
+However, under contingent law and enforcement, victims may suffer risk of
+uncertain restitution payment unless they can gain a reputation for being
+forthright in describing crimes.  And bribes can raise both punishment and
+restitution above their legally fixed values.
+
+\section{Law As A Solution To Crime}
+
+But before going into detail on these different institutions, let start
+with the basics of law and enforcement, to provide a context.
+
+Let us call a ``crime'' between two people (or parties), an event which: 
+\begin{enumerate}
+\item Changes the utility of both people, 
+\item May occur even if one or both person objects, and 
+\item Both can influence the chance of it occurring.
+\end{enumerate}
+(Such crime events often violate property rights of the victim.)
+
+If the crime happens a ``criminal'' will receive some benefit $B$, and a
+"victim'' will suffer some damages $D$.  (We might choose the person labels so
+that $B+D$ is positive.)  The probability $q[w,x]$ that the crime will occur
+can be influenced by ``watchfulness'' costs $w$ of the criminal, and ``defense"
+efforts $x$ of the victim.  (These efforts $w,x$ are direct, and do not include
+"deterrence'' attempts to influence the effort of the other party by
+changing their payoff $B$ or $D$.)
+
+For example, a criminal might scratch a victim's car in a parking lot.
+This scratch might be accidental, or it might be an intentional act of
+vandalism (or artistic expression); it might even be an improvement to the
+car.  Thus the net social benefit (something like $B-D$) might be negative
+or positive, as might the benefit $B$ and damage $D$.  So efforts $w,x$
+might be to avoid or to encourage the crime; it all depends on what
+consequences each party expects, and on what they expect the other party to
+do.  Each party has only limited influence over the event; a scratch may
+happen even if both parties were trying hard to avoid it.
+
+Since one party can influence this event in the absence of consent from the
+other party, crimes can have externalities.  The criminal may choose effort
+$w$ to tradeoff watchfulness costs with improved chance of gaining benefit $B$,
+but ignore the effect of increasing the victim's chance of suffering damage
+$D$.  Similarly the victim's choice of defense effort $x$ may ignore the
+benefit $B$ to the criminal.  A social optimum, however, (i.e., a solution
+all parties would prefer when bundled with initial wealth transfers) would
+adjust both $w$ and $x$ to instead minimize a social loss considering both $B$
+and $D$.
+
+To deal with this problem, these two parties would prefer to contract
+before-hand to reduce these externalities.  And if the efforts $w$ and $x$ are
+not cheaply observable (and so make a poor foundation for direct
+contracts), then a common second-best solution is to better divide up the
+net cost (or payoff) of the crime, $D-B$, among the parties.  Ideally they
+would both get positive payoff when the net is positive, both negative when
+the net is negative, and the fraction each received would be in proportion
+to the relative influence they each had over the result.
+
+One way to do this is for these parties to agree to submit to a ``legal
+system'' (or a set of legal systems sharing treaties) which will, when a
+crime occurs, take $P$ from the criminal, through some expected punishment,
+and give restitution $R$ to the victim, with the difference $P - R$ being part
+of the social cost of enforcing a legal system.  (Some initial or
+continuing wealth transfer might compensate those who expected to otherwise
+suffer net loss from the introduction of such a law.)
+
+More precisely, let harm $H_c$ to the criminal from loss $L$ be the
+negative of utility, with $H_c[L] = -U[-L]$ and $H_c[0] = 0$, and let
+additional harm of $l$ after suffering $L$ be $H_c[l,L] = H_c[l+L] -
+H_c[L]$, with all arguments to $H_c$ expressed in terms of equivalent
+amounts of money which induce the same utility changes.  Let harm $H_v$ to
+the victim be defined similarly.  If we define the initial wealth of each
+party to be zero, the criminal and victim expect to suffer losses
+
+\[    H_c[L_c] = H_c[w] + q[w,x] H_c[P-B,w]      \]                   
+\[    H_v[L_v] = H_v[x] + q[w,x] H_v[D-R,x]      \]
+
+\noindent where all arguments now defined as monetary equivalents.  The
+criminal will pick $w$ to minimize $L_c$, while the victim picks defense
+$x$ to minimize $L_v$.
+
+If we assume efforts $w,x$ and loss $L$ are small (relative to each party's
+total wealth), and calibrate each $H$ so that $d_L H[L=0] = 1$ (where $d$ is the
+partial derivative operator), we get the approximations:
+
+\[    L_c = w + qC    \]
+\[    L_v = x + qV  \]
+
+\noindent where $C = H_c[P-B]$ and $V = H_v[D-R]$ are criminal's and victim's
+"shares'' in the crime.  When $C$ and $V$ are also small, $C = P-B$ and $ V=
+D-R$.  Without law ($P=R=0$), the criminal neglects the $w$ dependence of
+$qD$, ignoring damage to the victim, and the victim neglects the $x$
+dependence of $-qB$, ignoring benefit to the criminal.
+
+An optimal prior legal deal, however, would choose $P$ and $R$ to minimize
+social loss $L = L_c + L_v$ and the externalities would become: the $w$
+dependence of $qV$, and the $x$ dependence of $qC$.  Social loss is thus
+minimized for $C$ and $V$ small in magnitude, i.e., for $R$ close to $D$,
+for $P$ close to $B$, and for low $|R|$, since larger wealth transfers incur
+larger absolute legal costs.  (When $|B-D| > |P-R|$, this implies $B<R<P<D$ for
+"bad crime", with a net loss, and implies $D<R<P<B$ for ``good crime", with a
+net gain.)
+
+Abstractly, a socially optimum law minimizes loss $L$ subject to the
+constraints that $x$ minimizes $\ave{L_v}$, the victim's expectation of his
+or her loss, and $w$ minimizes $\ave{L_c}$, the criminal's expectation of
+his or her loss.  Note that what matters for minimizing social loss is not
+so much the actual values of transfers $P$ and $R$, but what the criminal
+and victim estimate them to be when choosing efforts $w$ and $x$.  Note
+also that even with such law, crime still happens.  People often can't
+perfectly control events or tempers, and private and legal estimates of
+benefits and punishment often differ.
+
+\section{Relative Influence}
+
+To understand ``relative influence'' better, let us approximate social loss
+$L[w,x]$ as a quadratic around a minimum $L[0,0] = 0$ (calibrating the
+zeros of $L,w,x$ to allow this simple form), and re-express this quadratic
+in terms of the first derivates at each point.  (This is not a particularly
+constraining assumption, as such an approximation should hold around most
+every $w,x$ point.)  If we further assume that $q[w,x]$ and the
+distributions of $V$ and $C$ are common knowledge, we can find the first
+derivates of $q$ by presuming that $x,w$ are set to minimize private
+losses, giving $d_w q = -1/\ave{C}$ and $d_x q = -1/\ave{V}$ where
+$\ave{C}$ and $\ave{V}$ are each party's expectations of their own crime
+share at the time they choose efforts $w,x$.
+
+Thus we find social loss to be: Eqn [1]:
+
+
+\[ L = \frac{d_{ww} q \frac{(\ave{C}+E)^2}{\ave{V}^2} +
+             d_{xx} q \frac{(\ave{V}+E)^2}{\ave{C}^2} -
+    2 d_{wx} q \frac{(\ave{C}+E)(\ave{V}+E)}{\ave{C}\mbox{ }\ave{V}} }  
+ {2 (\ave{C}+\ave{V}+E) ( d_{ww} q \mbox{ } d_{xx} q) - (d_{wx} q)^2 ) }    \]
+
+\noindent where error $E = C+V-\ave{C+V}$ is the variation of total crime
+loss $C+V$ from prior expectation.  When $C+V$ is approximately constant,
+the quadratic social loss is minimized for
+
+\[ \left( \frac{C}{V} \right)^4 = \frac{d_{xx} q}{d_{ww} q}  \]
+
+\noindent These formulas place a premium on shared responsibility, with
+neither party is at risk of expecting a null share, and on low variation in
+total crime loss $C+V$.  The optimal crime share ratio depends weakly on
+how sharply the crime rate $q$ peaks relative to each party's effort.  The
+party with a wider peak in $q$ should get a larger share of the total crime
+loss.  Thus if the dependence of social loss on victim defense $x$ were
+much more strongly peaked than criminal watchfulness $w$, as it might be if
+the optimal victim defense effort were much smaller than the optimal
+criminal watchfulness, then the criminal should get more of the payoff,
+with $R$ closer to $D$ than $P$ is to $B$.
+
+If one must choose which party gets how much of some residual uncertainty
+in the crime loss, such as due to uncertain enforcement costs, which party
+should suffer that uncertainty?  Social loss only depends on
+variations in the total cost $C+V$, so $C$ vs. $V$ should be traded to give the
+lowest total variation of $C+V$ from its expected value.  If enforcement
+costs increase with larger wealth transfers, so that a given increase in $C$
+brings a smaller decrease in $V$, then all else equal the parties would
+prefer that the victim suffer all the varying enforcement cost risk,
+through fixed punishment and varying restitution.
+
+The above quadratic model is perhaps informative about ``relative
+influence", but surely also misses a great deal.  Reasoning more
+qualitatively, we might guess that if the victim chooses its defense levels
+well before the criminal chooses watchfulness, or is less able to guess the
+law's final best estimate of the criminal's benefit $B$ (or influence) than
+the criminal is able to guess the law's final best estimate of the victim's
+damage $D$ (or influence), then this ignorance may further dilute the
+influence of the victim relative to the criminal.  In the extreme case
+where the criminal could simply choose whether or not to act against a
+helpless victim, the victim's crime share should approach zero, and so
+restitution should exactly compensate the victim for damages suffered.
+Thus we may guess that we typically want $C > V$ and $\ave{(V-\ave{V})^2} >
+\ave{(C-\ave{C})^2}$, with $P,R$ nearer to $D$ than to $B$ and with $R$
+varying more than $P$ does.
+
+\section{Contingent Crime}
+
+The above analysis treats each possible crime independently, ignoring
+possible economies of scale of enforcement or deterrence.  And it ignores
+third party externalities, such as from convicting innocent persons, or
+from inabilities to discriminate between differing criminals or victims.
+Also neglected are economies of scope in encouraging or preventing
+different possible crimes.
+
+To correct one of these limitations, consider the possibility of multiple
+crime types $i$, with type-dependent impacts $B_i$ and $D_i$, and multiple
+criminal efforts $w = \sum_k w_k$ and victim efforts $x = \sum_l x_l$, all
+influencing the chance of each type of crime $q_i[\set_k w_k, \set_l x_l]$
+(where $\set$ is a set collection operator).  Then for equally
+type-ignorant parties, losses are
+
+\[    H_c[L_c] = H_c[w] + \sum_i q_i H_c[P_i-B_i,w] \]
+\[    H_v[L_v] = H_v[x] + \sum_i q_i H_v[D_i-R_i,x] \]
+
+\noindent and an ideal law would now set all $R_i$ and $P_i$ to minimize $L
+= L_c + L_v$, subject to the constraints that all $w_k$ are chosen to
+minimize $L_c$ and all $x_l$ chosen to minimize $L_v$.  If we could
+redescribe the $w_k$ and $x_l$ so that each $q_i$ becomes a function of
+separate $w_ik$ and $x_il$, this analysis would largely reduce to that
+above, with $L = \sum_i L_i[P_i,R_i]$.
+
+But before considering more the complexities of contingent law, let us
+return to the simpler case.
+
+\section{Designing Law}  
+
+As described above, the task of the law is to choose wealth transfers $P$
+and R in order to set the crime shares $V = H_v[D-R]$ and $C = H_c[P-B]$ as
+well as possible, given the relative influence of the two parties.  But
+while a law might be more efficient if expressed in terms of $V$ and $C$,
+laws are more easily made clear and predictable when expressed in terms of
+monetary equivalents of wealth transfer, the $P$ and $R$.  So I assume
+law is expressed in terms of $P$ and $R$, or perhaps even more directly
+in terms of the fine f due from the criminal to the victim upon conviction.
+
+Given this assumption, the two main tasks of the legal system are to set
+the levels of punishment $P$ and restitution $R$ to minimize social loss
+$L[P,R]$, both by adjusting $P,R$ to proper levels, and by implementing this
+wealth transfer with minimal enforcement cost $P-R$.  While the focus of this
+paper is on the second task, that of enforcement, this broader context helps
+us understand just what makes a good enforcement institution.
+
+A major problem with setting punishment/restitution levels is the
+difficulty of getting parties to credibly reveal the relevant information:
+damage $D$, benefit $B$, relative influence $d_{ww} q/d_{xx} q$, and relative
+risk $-d_P C/d_R V$.  For small $P-B$ and $D-R$ relative to each party's
+total wealth, relative risk can be neglected.  And even larger risk can be
+neglected if adverse selection and moral hazard do not overly restrict the
+use of insurance against the risk of crime.  But other information is
+harder to obtain.
+
+The criminal wants to downplay $B$, the victim wants to exaggerate $D$, both
+want exaggerate their risk aversion, and both want to downplay their
+relative influence for bad crimes, and exaggerate it for good crimes.  But
+there are many relevant clues which may reveal damage and benefit.
+
+A crime was probably a net bad ($D>B$) if, without prohibitive transaction
+costs, a similar event could have been induced, but wasn't, through a
+voluntary contract.  If the criminal displayed ``intent'' to encourage the
+crime, benefit $B$ was probably expected to be positive.  Similarly, victim
+expenditures on crime prevention indicate an expected positive damage $D$.
+Victims who purchase crime prevention services from a third party, and who
+use an incentive contract wherein the prevention service loses (though not
+necessarily to the victim) a certain amount when a crime happens, might
+thereby reveal their expected losses from a crime (after expected
+legal restitution).  Victims might even thereby reveal risk preferences
+regarding large crime damages.
+
+A more direct signal might come if victims could buy or sell changes in
+restitution level somehow from potential criminals.  (This suggestion was
+made by David Friedman to a private electronic mailing list.)  Over all,
+we expect victims to better reveal their expectations through their prior
+efforts (at least when victims expect positive restitution), since
+potential criminals might fear that open expenditures would focus unwanted
+attention on them in future investigations.
+  
+Unfortunately, such clues may in general be far from sufficient.  One
+hopes, however, that broader social negotiations over law may settle on
+reasonable values for $P$ or $R$, indirectly forcing the parties to reveal
+expectations about $D,B$ and relative risk and influence.  When such
+expectations are contingent on various features of the envisioned crime or
+parties, features that courts could later uncontroversially determine at
+conviction time, then the law might do better to set punishment and
+restitution contingent on these characteristics.  Of course the costs of
+such negotiations, and the cognitive overhead for people to learn the law,
+may prohibit too many such possible contingencies from being considered.
+
+The simplest legal policy is $P=R=0$, i.e., no legal intervention,
+appropriate when costs of negotiating or enforcing a law would outweigh its
+externality reductions.  The next simplest policies of $P=B$ or $D=R$ both
+have the advantage that only one parameter need be revealed, and for a
+crime of marginal social value, $L~=0$, they both work efficiently,
+eliminating externalities.  But the more general case is more complex.
+
+If it must choose, the law might do better to focus on getting $P$ or $R$
+to be the right distance from the damage $D$, since benefit $B$ is harder
+to measure and should be typically farther away. For a typical bad crime
+with mostly criminal influence, we want $P$ near $D$, or $R$ a fraction
+less than $D$.  But if the law is going to fix one of punishment $P$ or
+restitution $R$, which should it fix?  The answer is not obvious, depending
+on many subtle implications of making the law one way or the other, some of
+which will be described below.
+
+If legal complexity can be tolerated, a more general law might specify a
+set of official social loss functions $Ln_i[P,R]$, one for each type of
+crime $i$, or a single combined contingent crime loss function $Ln[\set_i
+(P_i,R_i)]$ when crime types are not determined until conviction.  The law
+enforcement system would then be tasked with minimizing this social loss,
+by adjusting $P$ and $R$ and minimizing enforcement loss $P-R$.  Setting
+$P=B$ is like making $L[P,R]$ sharply peaked around a particular value of
+$P$ and linear in $R$, and $R=D$ makes $L$ sharply peaked around a
+particular $R$, and linear in $P$.
+
+\section{Designing Enforcement}
+
+A good enforcement institution should induce the parties to reveal whatever
+information the law needs to fix the parameters it wants to, such as
+punishment $P$ or restitution $R$, and should offer incentives for parties to 
+lower enforcement costs $P-R$ as much as possible.
+
+Enforcement costs consist primarily of two factors.  There are the efforts
+that the parties, or their agents, expend to encourage or discourage a
+court conviction given that a crime has occurred, and the risk each party
+suffers from uncertainty about this conviction.  The legal process may also
+impose ``intangible'' costs by not treating the two parties with dignity, or by
+violating their privacy.  Finally, the parties may suffer reputation losses
+(or perhaps gains) if a conviction is publicized.  
+
+Effort by a criminal to avoid being caught should be hard to measure, since
+such effort may be done in secret.  This can make it difficult for law to
+fix punishment.  Effort by a victim, however, can be much more visible if
+the victim hires an ``enforcer", at competitive prices, to do most of their
+investigation and court work.  Even more victim effort becomes visible if
+the enforcer must the hire the victim, at the victim's standard wages, for
+time spend giving testimony, identifying line-ups, etc.  (Of course when
+punishment is fixed, such formal methods to make victim effort visible are
+not needed.)  Costs to run the court system itself are perhaps also
+reasonably paid by the enforcer requesting restitution (as might be the
+legal and other costs of those the court declares innocent).
+
+When the probability of conviction is small for any given crime, victim
+risk is dominated by uncertainty over whether a conviction is obtained or
+not.  But victims can cheaply insure against most of this risk if such
+insurance is bought after it is clear a crime has occurred.  (When bought
+from the enforcer, this insurance is equivalent to victims selling their
+right to restitution to the enforcer.)  While victims might need some small
+stake in conviction to encourage them to aid the enforcer (though
+reputation effects and the usual drive for revenge may be sufficient), this
+risk cost should be small, particularly if the victim must offer a detailed
+complaint before an enforcer is hired.  Thus we may typically neglect
+victim risk.
+
+Criminals avoiding capture, in contrast, cannot insure against conviction
+risk without significant moral hazard costs; they would be betting insurers
+that they would be caught and convicted.  If the probability of conviction
+is near a socially optimal value, then criminal risks must remain a
+substantial fraction of total enforcement costs.  If they were not, total
+enforcement costs could be substantially lowered by simply lowering the
+probability of conviction and raising punishment given a conviction.  Thus
+to fix punishment, the court needs some way to estimate criminal risk.  But
+with punishment fixed, criminals should want to exaggerate their
+risk-aversion to lower fines due.
+
+Reputation effects on the victim should not depend much on enforcement
+since the victim largely reveals their status when complaining of a crime.
+And even for criminals reputation effects should not depend much on the
+probability of conviction, if reputation consumers correct for that
+probability.  Criminals may suffer risk costs from small changes of large
+reputation changes, but otherwise, it is not clear that reputation changes
+create net social losses, and in any case such costs should be hard for
+courts to estimate.  Thus reputation costs will be largely ignored below.
+
+In summary, enforcement costs consist mainly of criminal risk to cash flow
+and (less predictably) reputation, visible enforcer effort, and hidden
+criminal avoidance.  Because the relevant information is less available,
+punishment should be harder to fix than restitution.
+
+\section{Forms Of Punishment} 
+
+When possible, a fine due directly from convicted criminal to vindicated
+victim seems preferable.  Punishments such as prison or mutilation do not
+usually offer the victim a comparable restitution, and so raise
+enforcement costs $P-R$.  When a criminal cannot pay a fine high enough to
+impose the intended punishment, it might seem that other types of
+punishments must be added on, even if such added punishments resulted in
+net reductions in restitutions.
+
+It should be understood, however, that how much fine a criminal can pay
+depends on other aspects of law, such as bankruptcy law and other limits on
+contracts.  Even if one might ordinarily want to prevent people from
+selling themselves into indentured servitude or to a labor prison, it is
+hard to see why these shouldn't be acceptable alternatives to state
+prisons, if in fact the purpose of prison is to impose a given level of
+punishment.  And even if isolation of the criminal were another purpose of
+prison, it seems likely that private prisons could still make net profits
+on most isolated prisoners.  Thus such prisons should be willing to offer
+positive restitution for the rights to such prisoners, even if they must
+post a bond payable if one of their convicted criminals escapes.
+
+Thus it seems the criminal should be allowed to enter into such contracts
+for the purpose of paying a large fine due.  And so if the criminal
+declines to enter such a contract voluntarily, the court should be able
+obtain the fine due by auctioning not only the criminal's personal
+possessions, but also the criminal's future labor, and any other assets.
+Limitations on the kinds of criminal assets a court could auction to obtain
+a fine due might serve to make fines sensitive to risk-aversion, on the
+reasoning that if the court must auction the shirt off of someone's back
+that person must be down to their last few dollars of assets.  But more
+direct means of assessing risk-aversion, such as those described below,
+would be preferable.
+
+A particularly ruthless law might even auction off the criminal's life or
+bodily organs.  If the law's customers judged punishments beyond a certain
+level as ``cruel and inhuman", then a maximum punishment could be set.
+Externalities due to such a maximum might be reduced by requiring everyone
+to obtain crime insurance which pays up to some standard maximum, but only
+after all other (humane) sources of fine payment are exhausted.
+
+In any case, it seems that there should almost always be some fine $f$ due
+(with certainty) which can induce any level of punishment that the law is
+willing and able to impose, with $d_f H_c[f] > 0$ (though perhaps death
+plus costly torture could impose a somewhat higher punishment than just
+death).  Even so, a law might insist on imposing punishments through means
+other than fines, typically resulting in a net reduction in restitution for
+a given level of punishment, and perhaps even resulting in net negative
+restitution (and discouraging victims from complaining of such crimes).  A
+law might also choose non-monetary restitution, such as sympathy, praise,
+or fame.
+
+\section{Optimal Enforcement}
+
+Let us introduce some notation to aid in modeling the enforcement process.
+When a court-determined fine $f$ is due from a convicted criminal to a
+victim, let $G[f] <= f$ be the expected amount that the victim's enforcer
+actually receives, correcting for delays, collection costs, and the
+possibility that the criminal simply does not have the means to pay.  And
+let $p[a,e]$ be the probability of catching and convicting the criminal,
+estimated just after the crime is reported, a function of enforcer efforts
+$e$ and criminal avoidance efforts $a$ (and neglecting victim efforts to aid
+the enforcer).
+
+That said, the enforcer's net loss (or negative profit) is $R + e - p G[f]$;
+the enforcer pays the criminal a restitution $R$ up front, then exerts effort
+$e$, and in return has only a chance of being due a fine $f$.  We assume the
+enforcer is wealthy enough that risk from this conviction is not an issue.
+A net negative profit would bankrupt the enforcer, while a net positive
+profit would be treated by the victim and criminal as just a larger effort
+cost $e$; as an agent of the criminal and victim, the enforcer's net gain is
+not a legitimate part of the social loss that those two parties would
+negotiate to minimize. Thus we can conclude
+
+\[  R[a,e,f] = p[a,e] G[f] - e              \]                           
+
+\noindent With private law enforcement, enforcers compete to gain the
+business of the party that owns the residual after enforcement costs, and
+so benefits from lower enforcement costs.  The point of private enforcement
+is to use competition to discourage waste and inefficiency, so that
+enforcers choose effort e appropriately; with competition we expect no net
+enforcer profit, making e more directly the enforcement effort.
+
+A criminal expending effort $a$ to influence a probability $p$ of being caught
+and required to pay a fine $f$ suffers a certainty equivalent net wealth loss
+$P[a,e,f]$ given by: Eqn. [2]:
+
+\[   H_c[P,-B] = H[a,-B] + p[a,e] H_c[f,a-B]        \]                
+
+\noindent Risk aversion makes $P > a + p f$ as $f$ gets large.  Note that
+while punishment $P$ has been defined to include effort $a$, effort $e$ has
+been defined external to restitution $R$, since contracting with an
+enforcer allows most of this effort to be separated.
+
+Our goal is an enforcement institution with incentives for participants to
+set parameters a,e,f to minimize social loss $L[P,R]$.  When all three of
+these parameters can be controlled, then ideally
+
+\[ \frac{d_a P}{d_a R} = \frac{d_e P}{d_e R} = \frac{d_f P}{d_f R} = 
+   \frac{-d_R L}{d_P L} = Q     \]
+
+\noindent here $Q$ is defined by the last equation, and so the optimal
+$a,e,f$ satisfy
+
+\[  G d_e p = \frac{1}{1-F} > 0   \]
+                               
+\[  H d_a p = \frac{F}{1-F} (d_f H + (p-1) d_a H)  > 0   \]
+
+\noindent where $G = G[f]$ and $H = H_c[f,a-B]$ and factor $F = H d_f G/G
+d_f H$, so that $0 < F < 1$ for risk-averse criminals.  Since both $d_e p$
+and $d_a p$ are positive, in this case both criminal and enforcer cooperate
+to increase the probability of conviction $p$ (which is presumed to be
+estimated similarly by criminal and victim).  With cooperative criminals,
+restitution always rises with rising punishment (since $d_e R > 0$).
+
+It may be difficult, however, to induce the criminal to cooperate in
+setting avoidance $a$, since $a$ is hard to monitor.  In that case we can at
+best minimize $L$ subject to $d_a P = 0$, which implies
+
+\[  H d_a p = - (d_f H + (p-1) d_a H)  < 0  \]
+
+\noindent so that the criminal works to avoid conviction.  With $a$ thereby
+determined, there remain two degrees of freedom, described as either $P,R$
+or $f,p$ or $e,f$.  At this optimum: Eqn. [3]:
+
+\[ \frac{d_{ea} P}{d_{fa} P} = \frac{d_e P - Q   d_e R }{d_f P - Q   d_f R} \]
+
+\noindent which implies
+
+\[ \frac{H - Q' (G - 1/d_e p)}{d_f H - Q' d_f G} = 
+   \frac{d_a H + H d_{ea} p/d_e p}{d_{ff} H + d_f H d_a p/p} \]
+
+\noindent with $Q' = Q d_P H[P-B]$.  In this case there can be a maximum
+possible restitution, after which restitution falls with rising punishment.
+
+Note that in either case criminal avoidance $a$ depends on expected fine $f$,
+contrary to the simplifying assumption made in [4]. 
+
+\section{Fixing Fines}
+
+The simplest legal approach is to have the law just set the fine $f$ due.
+This results in a clear and predictable law.  However, since social loss is
+a function of at least three dimensions ($a,e,f$), just setting the one
+dimension fine $f$ (with no direct relation to social loss) is in general
+simply not enough degrees of freedom to induce the social optimum.
+Specifically, the probability $p$ that an unconstrained enforcer would
+choose would generally be higher than the social optimum.
+
+If one neglects criminal efforts $a$, so that probability $p$ is a function of
+only victim efforts $e$, the space reduces to two dimensions.  In this case
+there exists some tax on enforcement, reducing $R$ relative to $f$, which can
+induce the social optimum, if those who set the tax could obtain the
+relevant information, and had incentives to set it well.  However, such a
+tax would create an incentive for criminals to bribe enforcers not to turn
+them in, so that the criminal and enforcer could split the benefit of
+avoiding the tax.
+
+This problem with privately enforcing legally fixed fines, identified by
+Landes and Posner [3], is seen by some [6] as a justification for state-run
+law enforcement, at least when the optimal probability of conviction is low
+(supposedly not the case for most torts).  State enforced law also offers
+the supposed benefit of allowing political interest groups to influence
+which laws are actually enforced in what contexts (and on whom).
+
+\section{Fixing Expected Punishment} 
+
+David Friedman responds to this problem with fines in the following
+proposal.  Friedman proposes [2] that ``offenses belong to the victims and
+must be purchased [by private enforcers] before or immediately after they
+occur", and that ``the state ... imposes an expected punishment'' $P$.  He
+explains in an example (that ignores criminal risk):
+\begin{quote}
+ ``Suppose, for example, that the expected punishment is set at \$1000. 
+  A particular firm has purchased 100 occurrences from the victims.  If  
+  it succeeds in catching all 100 perpetrators, it can find them \$1000 
+  each ... If it catches and convicts only one criminal, it can fine  
+  him \$100,000 - again an expected punishment of \$1000.'' 
+\end{quote}
+The victim must pay for the cost of enforcement, and ``criminals who are
+unable to pay the fine ... must be punished in other ways ... such as
+flogging or execution ... [or] imprisonment".  The result is that ``the firm
+must weigh the cost of catching more criminals against the advantage of
+being able to collect a larger fraction of the fines [the criminals should]
+pay.''  
+
+This approach also has a problem with criminal bribes to enforcers.  Here
+bribes raise the actual punishment $P$ above the fixed $P_{\mbox{law}}$, by
+making the actual rate at which criminals must pay fines or bribes larger
+than the $p$ figure suggests.  To combat this, Friedman suggests
+\begin{quote}
+  ``The court system need only observe the rate at which crimes occur 
+  against the customers of each firm.  If the rate is consistently 'too' 
+  low then the firm should be instructed to lower its expected punishment; 
+  if 'too' high, to raise it."
+\end{quote}
+In summary, the victim sells an enforcer the right to collect a fine $f$, and
+$f$ is set by solving $Pn[f,p] = P_{\mbox{law}}$, where p is the frequency of
+convictions in some enforcer-chosen bundle of crimes, and $Pn[f,p]$ is
+presumably some official estimate of $P$ taking into account risk-aversion
+and avoidance costs.  Restitution $R$ is whatever the victim can get, and may
+be negative, if the victim so consents.  We expect competition between
+enforcers to find the highest possible restitution $R$ given the fixed
+punishment $P$.
+
+If we assume that criminals cannot be induced to cooperate in setting their
+avoidance effort $a$, and if $d_R L < 0$ near the subspace of $e,f$ which
+satisfies $P[f,p] = P_{\mbox{law}}$ (and which an enforcer could feasibly
+implement), then an enforcer maximizing $R$ under these constraints would
+minimize social loss $L$.  We expect $L$ to fall as $R$ rises, for fixed
+$P$, as long as the potential harm to the criminal from the victim wanting
+less to prevent the crime is not too severe.
+
+Though Friedman is not explicit about this, it seems that the enforcer
+crime bundles must be chosen before the enforcer starts to incur
+enforcement costs, and after a punishment level has been set for the crime.
+If bundles could be chosen after enforcement, then bundles with different
+frequencies and the same punishment would just not be as profitable as
+merging them into one bundle, at least for risk-averse criminals.  If
+punishment were chosen after the bundles, then one couldn't create bundles
+of all the same punishment, giving enforcers incentives to have higher than
+advertized probabilities of conviction for cases for which they expected
+higher punishments, at the expense of lower punishment crimes in the same
+bundle.  (This makes such bundles bad for contingent law, discussed later.)
+
+Advantages of this proposal include intuitive elegance and historical
+precedence.  With victim contributions, punishments can be set higher than
+is possible with fines alone.  Victims have clear incentives to gain a
+reputation for aiding enforcers, since that raises their expected
+restitution.  The party best able to afford it suffers the risk of
+uncertain enforcement costs.  And enforcers, hired by victims, have
+incentives to attend to less tangible preferences of victims, like being
+polite and discreet, though unfortunately a legalistic $Pn[f,p]$ function
+offers no such incentives to respect the dignity or privacy of criminals.
+The law would have to know explicitly how to take them into account, or
+they would be ignored.
+
+There are other problems with this proposal.  Victims must suffer the
+uncertainty due to varying expected enforcement costs, even though the
+quadratic model above suggests this risk would be better assigned to a
+criminal with more influence.  Crimes may not occur in the neat sets of
+near-identical crimes reported at the same time, needed here to validate $p$
+estimates.  No institution is described for discovering an explicit
+punishment function $Pn[f,p]$, capturing both avoidance and risk-aversion
+costs, required to implement the above policy.  Friedman's solution to
+bribes seems less than satisfactory, and his approach has, at least in its
+simplest form, given up on encouraging the criminal to aid enforcement.
+
+\section{Case Specific Probabilities}
+
+Before going on to describe a restitution alternative to fixing punishment,
+let me describe some improvements to the above approach, improvements which
+were invented in the context of the fixed restitution alternative, but
+which might also be applied to fixed punishment.
+
+Friedman's proposal to bundle similar crimes and estimate probability from
+the frequency of conviction in the bundle has the advantage of simplicity,
+but the disadvantage of discouraging small enforcement firms, by creating
+significant economies of scale in bundling crimes.  For a given crime, it
+might take a large pool of customers to find several more crimes reported
+at the same time, with the same criminal risk preferences, optimal fine,
+and probability of conviction.
+
+An alternative is to use bets to validate probability estimates.  When an
+enforcer takes on a case, they declare a probability estimate p of
+conviction, and for a short time offer to bet anyone that the probability
+of conviction is less than this number (i.e., enforcer sells ``\$$X$ if
+convict'' for \$$pX$).  People who take them up on this offer are essentially
+buying into the enforcement project, gaining assets contingent on a
+conviction.  With more bets, the enforcer has a smaller potential payoff
+contingent on a conviction, and hence loses interest in pursuing a
+conviction, creating a natural limit to the amount of bets taken.
+
+Competition between betting speculators should ensure the validated
+probability p is not an underestimate; any speculator who thinks that the
+enforcer is trying to get away with too low a probability $p$ can bet on
+that, both making money if right and actually lowering the probability by
+lowering the enforcers interest in enforcement.  
+
+A criminal who secretly tries to bet on being convicted, and then
+confesses, is like one who signed up to be their own enforcer; they just
+pay a lower net fine by raising their probability of conviction toward one.
+This betting option also offers incentives for anonymous informants to
+contribute information, after they have bet for a conviction (though one
+might worry about incentives to falsely testify).
+
+Such speculators could not prevent an overestimate of $p$, which could
+allow actual punishment to be less than intended.  Such incentives to
+under-enforce, however, only happen when $d_e R$ is negative, which only
+happens when increases in punishment result in decreases in restitution,
+and this does not happen when $a$ is socially optimized.  But it is
+possible if the criminal works to avoid conviction.  Such high punishments
+are legally desired only when $d_P L$ is negative, when great harm to the
+victim from lack of criminal care justifies higher punishment even without
+higher restitution.  In such cases one would want to allow betting against
+enforcement, but restrict this ability to parties clearly unable to help
+prevent conviction.
+
+Since the probability would be declared earlier, the criminal might better
+know what fine they face if convicted.  
+
+\section{Estimating Criminal Risk}
+
+To fix or minimize a punishment level $P$, using (observable) control
+parameters fine $f$ and probability of conviction $p$, one needs to know
+$P[f,p]$, how expected punishment for a particular criminal (estimated after
+a particular crime is reported) varies with $f$ and $p$.  And if one needs to
+impose a punishment higher than any allowed fine could give, one would need
+to know $P$ as a function of prison time, degree of torture, etc.  While
+these problems can always be punted to be dealt with by the expensive
+social negotiations that choose laws, we prefer a more direct and
+case-specific approach.
+
+Contributions to punishment include risk-adjusted cost of owing the fine,
+cost of effort to avoid/encourage conviction, loss to reputation, and other
+intangibles.  Most of these costs are rather difficult for a court to
+measure, and hence difficult to account for in fixing or minimizing
+punishment.
+
+However, risk-aversion can be measured, at least if one is willing to offer
+reduced fines to some fraction of convicted criminals.  A criminal who has
+just received the benefit $B$ of the crime should be indifferent between
+having to pay an amount $P$ for sure, or having to risk a probability $p$ of
+paying fine $f$, after paying effort $a$ for sure.  (This is actually the
+definition of punishment $P$.)  But a criminal who has just been convicted
+has already received $B$ and paid $a$.  So they should be indifferent between
+paying $P-a$ or suffering risk $p$ of paying $f$.  Thus if we can see how much
+they are willing to pay to avoid risking a probability $p$ of owing fine $f$,
+we can see $P-a$.  If in addition the law knew $a$, that would reveal $P[f,p]$
+for this one combination $f,p$.
+
+To help induce honest revelation of willingness to pay, we can introduce
+some competition.  Place each convicted criminal into a group of $2n$
+criminals ($n=1$ may be reasonable) with similar fines, probabilities,
+declared functions $P$, estimates of $a$, and any other characteristics that
+indicates risk preferences (like a history of gambling).  Do not introduce
+these people to each other (or allow insurance against the following risk).
+
+Instead, introduce a small random probability $z$ of freeing this entire
+group from their obligation to pay fine $f$.  Usually each person in the
+group would owe their court-determined fines, but $z$ percent of the time
+they would instead be ``freed'' to suffer only a $p$ probability of having to
+owe their common median fine $f$ (to the enforcer).  In this case, they each
+would each offer a sealed bid saying the amount they are willing to pay to
+avoid this chance of having to owe $f$.  Half, or $n$, of these offers are
+taken and all pay the lowest bid price $P'$ of that half group.  This price
+should be near a median estimate of $P[p,f]-a$ for that group.
+
+If secrecy can be maintained so that freed criminals do not suffer
+reputation losses, this approach also measures punishment through
+reputation loss.  At best, however, this approach only measures punishment
+$P$, even though the total criminal share $C = H_c[P-B]$ is of more direct
+interest to the law.
+
+Of course this test is not yet enough to allow the law to set an official
+function $Pn[f,p]$ to use in setting the fine $f$ from the probability $p$
+set by the enforcer.  Avoidance and other costs are not included, and the
+test can only be conducted for one combination $f,p$, and then only when the
+criminal is freed from paying the full fine.  In principle estimates of
+$P'[f,p]$ could come from a full set of contingent markets valuing payments
+$P'$ by a criminal, conditional on particular possible $f,p$ combinations being
+randomly chosen for testing on that criminal.  But in practice such markets
+might well be too thin to be useful.
+
+Worse, criminals might have incentives to bid too high when the law fixes
+punishment, in order to exaggerate their risk aversion.  While this might
+cost them on the current test, it might induce future markets to raise
+estimates of criminal risk, and hence induce lower fines, for ``similar"
+future crimes.  The effectiveness of this strategic bidding signal would
+depend of course on how easily markets could correlate current crimes with
+previously tested criminals, which would depend on exactly when the markets
+were asked.  
+
+Signaling could be direct if markets were asked to estimate $Pn[f,p]$ after
+criminals have been identified and convicted, but would be harder if
+markets were asked just after a crime was reported.  But such signaling may
+still be possible, particularly if criminals could join into larger
+cooperative groups with distinguishable modes of operation or geographic
+areas.  Such signaling might become harder if the information available to
+agents about a crime were limited, but this would reduce the quality of the
+agent's estimates of criminal risk aversion, avoidance costs, etc.  In the
+worse case, a broad cultural preference might form to always demand a $P'
+>> P$ when tested.
+
+While I do not know a general way to escape these problems if laws fix
+punishment, I do know of plausible approaches if laws fix restitution.  So
+let us turn to that case.
+
+\section{Fixing Restitution}
+
+In Friedman's proposal, social loss $L[P,R]$ is minimized by legally fixing
+the optimal punishment $P$, and then letting the enforcer trade $p$ vs. $f$ to
+maximize restitution $R$.  However, we could similarly have the law fix an
+optimal restitution $R$ and have the enforcer trade $p$ vs. $f$ to minimize
+punishment $P$.  Instead of having the victim, who seeks maximum $R$, hire the
+enforcer, we could instead have the criminal, who seeks minimum $P$, hire the
+enforcer.  And a criminal placed in charge of all three parameters ($a,e,f$)
+might be induced to choose all three for a simultaneous social optimum,
+instead of just the $e,f$ optimized when the victim is in charge.
+
+Minimizing $P$ fails to minimize $L$, however, if $d_P L < 0$, so that great
+harm to the victim from lack of criminal care justifies higher punishment
+even without higher restitution.  It also fails if lack of criminal
+cooperation with enforcement makes restitution fall with rising
+punishment.  And this approach may assign risk from uncertain enforcement
+costs to the party least able to afford it.
+
+Restitution R can be fixed by fixing the amount that the enforcer must pay
+the victim after reporting the crime.  As mentioned before, if the victim
+must give a standard detailed crime report, and if the enforcer must pay a
+standard wage for victim testimony, etc. then victim effort costs might
+reasonably be neglected.  And victim risk can be reasonably
+neglected, even if enforcers are allowed to give a small percentage of
+restitution via payment contingent upon conviction.
+
+Of course criminals in hiding may not want to reveal themselves to
+explicitly choose $f$ and $p$.  However, this problem can be dealt with by
+introducing a criminal's agent, who has clear incentives to do whatever the
+criminal would want.
+
+If a criminal could somehow indicate clearly ``at the scene of the crime"
+who they wanted for an agent, there is no reason why that agent couldn't
+have complete discretion about who is hired as an enforcer, what fines they
+are promised, how those fines are constrained relative to probabilities of
+conviction, etc.   All it would need to do was pick an enforcer who
+guaranteed the legally set amount of restitution $R$ to the victim.  The
+criminal would have an incentive to pick an agent who would set terms to
+minimize the expected punishment to the criminal.
+
+If the agent could not find an enforcer willing to pay the full restitution
+under the constraints the agent usually preferred, then the agent would
+have to relax those constraints until some enforcer was so willing.  And if
+no enforcer was willing under any constraints to pay the full restitution,
+then the agent would have to accept whatever enforcer offered the victim
+the most restitution, regardless of the promised fine, etc.
+
+Here, with restitution fixed, enforcers could have direct incentives to
+attend to the intangible desires of criminals for respect and privacy in
+the enforcement process (assuming agency problems are managed), but not
+directly to similar desires of victims.  Victims could, however, directly
+pay enforcers for such consideration, or make their degree of cooperation
+in obtaining a conviction visibly contingent upon it, an option not easily
+available to criminals in hiding when punishment is fixed.  When
+restitution is fixed instead of punishment, problems such as criminal
+bribes to enforcers to avoid conviction are internalized to the
+criminal/agent/enforcer group, and so do not directly distort the law's
+handle on crime in the way such bribes do if punishment is fixed.
+
+The criminal would want to choose avoidance $a$ to reach a social optimum, if
+it could convince the enforcer to bid based on a compatible estimate of
+$p[e]$, the probability of conviction given that enforcer's effort.  An
+enforcer who expects a cooperative criminal will expect that a lower fine
+is sufficient to achieve a given fixed restitution to the victim.  While
+the criminal's choice of $a$ for this crime is unlikely to influence this
+enforcer's estimates, a distinguishable cooperative community of criminals,
+with similar victims, modes of operation, etc., might create and be
+rewarded for a reputation for cooperation with law enforcement.
+
+\section{Appointed Agents}
+
+When the criminal can not directly designate an agent, one would need to be
+appointed, and such appointed agents would need to have clear incentives to
+help minimize the criminal's expected punishment, and to not be
+representing other interests, such as that of the enforcer.
+
+One way to help align agent interests with that of criminals would be to
+give agents a stake in the punishment, by testing criminals a fraction $z$
+of the time, as described above, and making an appointed agent responsible
+for paying (some multiple of) the same amount $P'$ (also to the enforcer)
+that (half of) the criminal's test group pays (to avoid the probability p
+of again owing fine $f$).  This requires some validation of a probability
+$p$, such as the betting suggestion above.
+
+To give the agents as strong an interest in the criminal's punishment as
+the criminal has, and to (mostly) correct for the fact that the probability
+of conviction affects the probability of a test, appointed agents should
+have to pay $P'/pz$ the enforcer instead of just $P'$.
+
+To avoid bias through how the agents are appointed, the job could just be
+given to whoever offers the lowest bid $Y (~= P'_{\mbox{min}})$ to take on
+the job, (though bidders should be restricted to those passing tests of
+clear independence from other interested parties).  $Y$ would be paid by
+the enforcer once chosen.
+
+To avoid bribes from enforcers to induce agents to choose them, appointed
+agents might be required to choose the enforcer based on an auction with
+explicit untainted criteria.  For example, the agent could publish a
+function $Pn[f,p]$, a best estimate of criminal risk preferences, and agree
+to accept whichever enforcer offered the combination $f,p$ with the lowest
+estimated $P$.  In this case, enforcers who overestimated $p$ should lose the
+competition, so that competition again suppresses both over and
+under estimation, as long as restitution increases with increasing
+punishment.
+
+The agent should want to set $Pn[f,p]$, or whatever criteria are used to
+select an enforcer, to induce the lowest possible $P'$ if the criminal is
+tested.  And it turns out that if the criminal is not going to be
+cooperative in setting $a$, it does not matter for enforcer incentives that
+$P'$ is not the same as $P$, since all the terms in Eqn. [3] describing this
+optimum are the same if $P$ is replaced by $P-a$.  (If one wants to fix
+$P$ though, instead of minimizing it, not knowing $a$ is still a problem.)
+
+If, however, the criminal might be cooperative, then we want an appointed
+agent to pay an estimate $a'$ of avoidance $a$ when a criminal is tested in
+addition to paying $P'$ (all to the enforcer).  While the court convicting
+the criminal might be able to make some crude estimate of $a$, we might do
+better to just accept the criminal's estimate $a'$, as long as it were within
+a broad range deemed plausible by the court.  This ability of the criminal
+to arbitrarily reward or punish the appointed agent would give an added
+incentive for the agent to want to please the criminal.  In estimating $a'$,
+criminals might also take into account other costs such as reputation risk
+losses and general mistreatment from the enforcement process.
+
+An agent who has good reason to believe that the criminal would have wanted
+to appoint them, if only they could have so signaled, could expect the
+criminal would reward them with a low $a'$ estimate, and so could bid lower
+for the job because of its expected lower cost $Y ~= P'+a'$.  In this way
+the law could let criminals often get the agents they want, without
+explicit legal communication on the subject.
+
+With restitution fixed, criminals should no longer have an interest in
+exaggerating their risk aversion; they should not want to game this
+institution because they want it to work, encouraging agents to pick
+enforcers who help minimize criminal punishment.  Thus criminals as a
+community should be free to choose the parameters $z,n$.  Testing more
+often allows smaller organizations to become agents, because of the reduced
+risk, but raises average estimated punishment levels by making conviction
+harder to obtain, $p[a,e] \rightarrow (1-z)p[a,e]$.
+
+Unfortunately, such enforcer auctions cannot directly give enforcers
+incentives to attend to the intangible preferences of either victims or
+criminals, though victims could plausibility negotiate for such
+consideration.  Bribes, however, would only distort validations of
+probabilities $p$ bid by each enforcer.  This might allow one enforcer to
+unfairly win over another, to the detriment of the criminal, but should not
+distort the restitution fixed by law.  When punishments are small, and each
+enforcer has the same percentage of bribed crimes, then bribes may actually
+distort very little.
+
+\section{Trading Punishment vs. Restitution} 
+
+In general, the enforcer's bid determines $P$ and $R$ when the enforcer is
+chosen, and so risk due to uncertainties in enforcement costs after
+this point is taken by the enforcer (for whom it is presumed relatively
+costless).  However, the criminal and victim can still suffer risk, at the
+time they choose their efforts $w,x$, about what the enforcer will bid.
+
+To deal with this, a general solution might be to give both parties a piece
+of that risk by specifying an official legal social loss function $Ln[P,R]$,
+having an agent set $Pn[f,p]$ (constrained to satisfy $d_f Pn[f=0,p]=p$), and
+then extending the above approach to selecting enforcers by auction to pick
+the enforcer whose bid $p,f,R$ minimizes $Ln[Pn[f,p],R]$.  Instead of fixing
+fines, punishments, or restitution, this approach can be said to more
+directly minimize loss.
+
+In order to avoid distorting the incentives of the agent who estimates a
+case-specific $Pn[f,p]$, that agent would have to be more of a social agent
+than a criminal's agent, paying $Ln[P'+a',R]/pz$ when tested instead of just
+$(P'+a')/pz$ as before.
+
+Even so there could remain incentive problems for the criminal similar to
+the case where one is trying to measure criminal risk aversion when
+punishment is fixed.  A cooperative group which can signal its presence
+through information available about a reported crime could act more risk
+adverse than they really are when tested, and thereby reduce future fines
+imposed.  I don't know of a robust general way to avoid this problem,
+though there remains the possibility that it might not actually be much of
+a problem in practice.
+
+This approach would deal with both conditions $d_R L < 0$ and $d_P L > 0$,
+where the fixed approaches fail, though these cases could also be dealt
+with by fixing punishment for some crimes and restitution for others.
+
+And beyond this, it's not clear that this more general solution really buys
+much, especially considering how the added complexity might increase costs
+to negotiate a law.  The simple model behind Eqn. [1] suggests that all
+risk should be given to the victim, if possible.  And which ever party
+suffers this risk might in principle insure against this variation, even if
+general insurance against crime penalties were disallowed.
+
+If a neutral agent, representing neither criminal nor victim, is to be in
+charge of hiring the enforcer, then both restitution $R$ and punishment $P$
+could be fixed at their prior expected values.  The enforcer offering to
+pay the highest amount while fixing both $R$ and $P$ would be hired.  This
+amount would be sometimes positive, sometimes negative, but supposedly
+average to zero.  This fee might be paid to a victim's insurer, who paid or
+was paid by the victim for this right.  When the average amount paid across
+the legal community for a particular type of crime were non-zero, that
+would be a signal for the law to adjust their official estimates of $R$ and
+$P$.  This approach of course still has a problem with inducing criminals to
+reveal risk preferences while fixing punishment, or to cooperate in
+encouraging a conviction.
+
+\section{Contingent Law}
+
+To minimize the externality costs of crime, it is crucial that the court
+set punishment $P$ or restitution $R$ with the best possible estimates of the
+benefit $B$ to the criminal, the damage $D$ to the victim, and their relative
+risk-aversion and influence.  The court ideally wants to know as much as
+either party could plausibly have known when choosing efforts $w$ or $x$.  The
+best time to make these assessments is after a conviction, but the law
+needs to declare its policy before efforts are made.
+ 
+A solution is for the law to be contingent, declaring different punishments
+or restitutions contingent on factors which the criminal and victim might
+have known before choosing efforts, and which the court could later find
+out as a conviction is obtained.  A function $Ln[\set_i P_i,R_i ]$ would be a
+general contingent law, with each type i describing another possible
+legally anticipated contingency.  Contingent law increases legal
+uncertainty for parties who do not know the contingent factors, but allows
+a better tuned law for parties who do [5].
+
+For example, law might be contingent on whether the criminal showed intent,
+on victim expenditures on crime prevention, on whether a similar effect
+could have been obtained voluntarily, on the state of knowledge of either
+party, etc.
+
+In addition to contingent types for setting punishment and restitution,
+enforcers may want to break these law types into further enforcement
+subtypes, to distinguish different classes with different enforcement
+costs.  Some types may be able to afford higher fines, i.e., have a higher
+$G_i[f]$, some might be more likely to have a high risk aversion, and
+others may be more difficult to track down and convict.  For example, the
+asset mix of a person, might be informative about difficulty of collection
+and risk-aversion.  And criminals with prior convictions or who cross state
+lines to avoid being caught may be more difficult to catch.
+
+When restitution is fixed, enforcers should want to pick types to
+distinguish criminals likely to be cooperative in picking avoidance $a$.  For
+example, criminals who seemed to immediately turn themselves in should have
+a high probability of conviction with low enforcer effort.  Like ordinary
+insurers trying to discriminate customer types with different levels of
+risk, enforcers should be free to use any subtypes they find useful, as
+long as these types can be determined by a court if the criminal is
+convicted (and if the cost for this determination is borne by the enforcer).
+
+A serious problem with the non-contingent approach to law described above
+is that a ``victim'' may falsely claim a crime has occurred.  Contingent law
+can deal with this by introducing special false crime contingencies, here
+labeled them $i0$.  Contingent law must specify a zero fine and punishment
+($f_{i0} = 0$) in this case, since there is no criminal to be fined, and thus
+enforcement costs must be paid for by the victim through a negative
+restitution $R_{i0}$.
+
+Contingent law might also allow law to account for the costs of enforcing
+crimes, such as embezzlement, where significant regular enforcement costs
+must be expended to even discover that a crime has occurred.  One might
+regularly hire an enforcer to try and uncover such crimes, expecting to
+usually have to pay negative restitution $R_{i0}$, but recovering crime
+detection costs if a crime occurred.  This should of course only pay for
+detection costs, and not for efforts to prevent crime via threats of
+punishment.
+
+Since each party's ability to avoid or encourage crime can depend on how
+much they know about the crime's type, the type i might also encode the
+court's final judgement on how much the criminal or the victim knew about
+the crime type.
+
+Since crime types are only officially revealed by a court declaring a type
+when a conviction is obtained, the law can't easily give the victim a
+type-dependent restitution $R_i$ regardless of whether a conviction is
+obtained.  Instead the law can in general only offer the victim a take $t_i$
+when there is a conviction declared to be of type $i$.  Thus the victim may
+now suffer conviction risk as well as the criminal, having a small chance
+of winning a possibly large take.  Thus enforcement costs may now include a
+term for victim risks imposed, and estimates of victim risk would have to
+be validated, such as with a similar random testing approach (more about
+this below).
+
+With probabilistic restitution, bribes can now distort fixed restitution,
+as well as fixed punishment, by raising restitution and punishment above
+their legal values.  This is in the interest of the victim, but not the
+criminal, suggesting that allowing the victim discretion to hire the
+enforcer, as in fixed punishment, might lead to more bribe problems than
+having the criminal hire the enforcer, as in fixed restitution.
+
+With proper competition, so that each enforcer offers their best deal in
+all possible contingencies, we expect zero enforcer profit in each possible
+contingency.  So the enforcer's profit equation for each contingency now
+implies
+
+\[  g_i t_i = R_i = g_i G[f_i] - e_i  \]
+
+\noindent where $g_i$ is the enforcer's estimated probability of a
+conviction conditional on the type $i$, and where $e_i$ is the effort the
+enforcer expects to have made by the end of their attempted pursuit of a
+criminal of type $i$ (meaningful even if the criminal is never caught or
+the crime type never revealed).
+
+Summing across the contingencies, the enforcer expects to pay the victim
+$\sum_i p_i t_i$, and to gain $\sum_i p_i G[f_i]$ from the victim.  Here
+$p_i$ is the enforcer's estimated joint probability of getting a conviction
+and having it declared to be of contingency type $i$ (with total conviction
+probability $p = \sum_i p_i$).  The ratio $p_i/g_i$ gives the probability of
+each type $i$.
+
+\section{Contingent Risk}
+
+Eqn. [2] can be directly generalized to give contingent punishment as:
+
+\[    H_c[P_i,-B_i] = H_c[a_i,-B_i] + g_i H_c[f_i,a_i-B_i].        \]     
+
+\noindent This is not the same as the punishment the criminal expects after
+the crime occurs, since the criminal may not know the crime type, but this
+contingent punishment is what the law may want to fix to optimize incentives
+in choosing initial efforts $w_k$ and $x_l$.  Testing of criminal
+risk-aversion would go as before, now using $f_i$ and $g_i$ in place of $f$
+and $p$.
+
+At first glance, it seems that contingent law also imposes significant new
+costs of victim risk, requiring a similar random measuring approach to
+validate estimates of victim risk aversion.  And if the law fixes
+restitution, there are incentive problems in getting victims to reveal
+their true risk aversion, similar to the problems of getting criminals to
+reveal risk aversion when punishment is fixed.  Actually, such problems are
+much worse here, because a victim openly complaining of a crime can be much
+more easily identified to be the same victim as in a previously tested
+crime.  This makes much more direct the reward from faking a high risk
+aversion when tested.
+
+Under contingent law, an uninsured victim suffering conviction risk would
+have restitution given by $H_v[-R_i,D_i] = g_i H_v[-t_i,D_i]$.  However,
+victims could insure against this conviction risk by instead accepting from
+the enforcer a restitution $\ave{R} = \sum_i p_i t_i$.  Adverse selection could be
+limited if the victim commits ahead of time to accept this restitution $\ave{R}$,
+and a law might even insist on this.  (Though a small contingent percentage to
+encourage victims to aid enforcement might be allowed.)
+
+If a victim told potential enforcers most everything they knew about the
+crime, and if the enforcers believed that victim, then the enforcer bids
+$p_i$ should be no worse estimates than the victim's original estimates,
+and therefore victim incentives to choose defense $x_l$ carefully would
+suffer little from this insurance.  Risk due to the variation of the
+enforcers estimate $\ave{R}$ from the victim's original estimated $R$, should
+typically be much smaller than the risk from just owning the right to be
+paid $t_i$ if a conviction is obtained.
+
+A victim who committed ahead of time to be paid $\ave{R}$ might want to only
+reveal information relevant for estimating $p_i$ when that would raise the
+estimated $\ave{R}$.  Others estimating $p_i$ might then presume, often
+erroneously, that lack of detail from the victim indicates a less serious
+crime.  This might then induce too much effort to collect detail about an
+accused crime.
+
+Still, in the absence of better ways to estimate victim risk, these may be
+reasonable prices to pay for allowing contingent law, and so we may just
+assume $R_i = g_i t_i$.  And since the victim suffers the cost of these
+problems, it seems conceivable that the victim could solve at least part of
+through through a reputation for being forthright.  For a victim believed
+to be forthright, the enforcer estimate $\ave{R}$ would embody everything the
+victim knew.  Incentives to gain a reputation as a forthright victim may
+also result in incentives to aid the enforcer in obtaining a conviction,
+even without a conviction-contingent percentage of payment.
+
+\section{Contingent Punishment Or Restitution?}
+
+When a general social loss $L$ can be split into separate contingent losses
+$L_i$, a general law might appoint the enforcer whose bid $\set_i
+(f_i,t_i,p_i,g_i)$ minimized expected social loss
+
+\[   \ave{L} = \sum_i (p_i/g_i) Ln_i[ Pn_i[f_i,g_i] , Rn_i[t_i,g_i] ]   \]
+
+\noindent where $p_i/g_i$ is the probability of the crime being of type
+$i$, $Ln_i[P,R]$ is set by law, and a set of functions $Pn_i$ and $Rn_i$
+might be declared by a criminal's agent and a victim's agent respectively.
+And as discussed above, it might be reasonable to assume that all $Rn = g_i
+t_i$.  Strong competition between enforcers should force zero profit in
+each contingency.  But again such a general law could have problems
+inducing criminals (and victims if victim risk is included) to reveal risk
+preferences.
+
+If the law were to fix contingent punishment, then victims would shop for
+the enforcers they think offer the highest expected restitution, using
+victim's beliefs about crime types, if contingent restitution were allowed.
+If accepting some average $\ave{R}$ were required, they would just shop for the
+highest offered average.  It is not clear how to validate a set of official
+punishment functions $Pn_i$ in this case.
+
+If the law were to fix contingent restitution $R_i$, it might ignore victim
+risk because of the presumption of insurability described above.  In this
+case, an appointed criminal agent (lowest bidder in an action to become
+such) would publish a set of punishment functions $Pn_i$.  The agent would
+then accept that enforcer whose bid $\set_i (f_i,p_i,g_i),\set_{i0} t_{i0}$
+promised the lowest expected punishment
+
+\[    \sum_i (p_i/g_i) Pn_i[f_i,g_i] - \sum_{i0} p_{i0}  t_{i0}   \]
+
+\noindent while promising to pay the victim either a contingent take $t_i =
+R_i/g_i$ or a certain restitution $\sum_i p_i t_i$, with the $R_i$ (except
+the $R_{i0}$) fixed by law.  
+
+Note that if $P,B,a$ are all small compared to the criminal's wealth,
+punishment can be approximated as $a_i + g_i H_c[f_i]$, and so the winning
+enforcer minimizes $\sum_i (p_i H_c[f_i] + a_i/g_i)$.  When $a$ is roughly
+independent of $i$, such as when the criminal doesn't know the type $i$ any
+better than the market, then punishment depends only on $p_i$, and no
+longer directly on $g_i$.
+
+Note that it is possible for only enforcement to be contingent, and not the
+law itself.  In this case fines and probabilities would be contingent, but
+with fixed punishment the criminal would always suffer the same net
+punishment, and with fixed restitution the victim would always receive
+their legal payment soon after reporting a crime.  The law could avoid the
+complexities of contingency, while still allowing the enforcement process
+to take advantage of it.
+
+\section{Contingent Probabilities}
+
+For either restitution or punishment fixed, what the law fixes depends only
+on the $g_i$ estimates and not on the $p_i$ estimates.  However, the $p_i$ are
+perhaps more the focus of the competition between enforcers.
+
+Joint probabilities $p_i$ are somewhat more difficult to validate than the
+total conviction probability $p$ was.  Validation by bundle frequency
+requires even more available cases to form similar bundles, and bundles
+need to be chosen after punishment or restitution is declared, even though
+contingent types are not revealed until conviction.  If, however, enforcers
+validate $p_i$ estimates by offering to bet anyone at those odds, they run
+the risk of betting against an informed criminal or victim.  Such bets
+could allow a criminal to effectively pay a much lower fine if convicted.
+
+One solution is to only allow anyone to bet on the total $p$, but only
+allow bets on $p_i$ by other serious bidders in the
+auction to become the enforcer, a set unlikely to contain the criminal or
+victim in disguise.  Imagine that the winning bid for enforcement used a
+set of probability estimates $\set_i p_i$ such that had some subset $J$ of
+those been $\set_{i\mbox{ in }J} p'_i$ instead of $\set_{i\mbox{ in }J}
+p_i$, that winning bid would have lost to another bid in the auction.  In
+this case we could allow that losing bidder to challenge the winner,
+claiming that those $p'_i$ were a better estimate than the $p_i$, by
+betting at probability $p'_J = \sum_{i\mbox{ in }J} p'_i$ that a criminal would be
+convicted and the contingency type would fall within $J$.  Again this offer
+would only be open for a short time, and would be naturally limited in
+amount.  If restitution falls as punishment rises, so that the enforcer
+would rather overestimate $p_i$, then such losing bidders could similarly
+be allowed to bet against a conviction.
+
+Estimating $g_i$ is more difficult still.  The complication is that while
+bets can be clearly settled about the types of convicted crimes (since the
+court is supposed to label crimes with a conviction), allowing validation
+of $p_i$ estimates, the conditional probability $g_i$ also includes information
+about the types of unconvicted crimes.  To validate $g_i$, one wants a way to
+find out the type of a reported but unconvicted crime, and do so with near
+certainty.
+
+One approach would introduce a very small chance $y$ that a reported crime
+will be tested, and then offer a very large prize $Z$ to any person or group,
+including the criminal or victim, who can demonstrate the type of this
+tested crime to the court's satisfaction before a declared (and distant)
+deadline.  If one auctioned (shares in) obligations to pay off the
+prize for each type (before choosing the enforcer), then each total
+obligation should sell for about $y(1-b)Z(p_i/g_i)$, where $b$ is the
+probability that no prize will be claimed.  Combined with estimates of $p_i$
+these should give estimates of $g_i$.
+
+Underestimates of $p_i/g_i$, via overestimates of obligation prices, should
+be directly discouraged by competition in the auction for each prize
+obligation.  These estimates should sum to one (since $\sum_i p_i/g_i = 1$),
+so overestimates are also discouraged if anyone could create more bundles
+of co-prize shares (paid to those who issue them) for all the
+contingencies, and sell them in the same auctions.
+
+These bundles would have to also include a special non-prize awarded if no
+other prize is awarded.  These non-prizes are actually useful in letting
+the law specify a given accuracy of measurement $b$.  The auctions could
+simultaneously set $Z$, raising it however high is needed so that the
+relative price of non-prize shares falls to $b$ times that of a bundle of
+prize shares.  Alternatively, a separate prior auction could set $Z$ by
+offering to give a co-prize of $Z$, paid whenever someone else wins a basic
+prize, to the bidding $Z$-validator that offers to pay a non-prize $Z(1-b)/b$
+should no one collect a basic prize, and who is willing to do so for the
+lowest prize amount $Z$.
+
+The law might limit such bidders to those unlikely to include the criminal
+or victim in disguise, such as to the serious enforcement bidders, but it
+is not clear this would be needed or desired.  Type-wise criminals or
+victims could earn up to $\simeq yZ$ by buying obligations to pay on types
+they know are not the true type (or more if extra prize bundles are sold),
+and in the process would give enforcers information which might aid in
+catching criminals.  So as long as $y$ is small enough, this need not
+distort the legal process greatly, though with $y$ too small $p_i/g_i$ may
+be estimated poorly.  In this approach, then, the $p_i/g_i$
+estimates are not part of enforcer bids, but are made prior to the auction
+for enforcer.
+
+As before, payments which must be made before an enforcer is hired can be
+made by the complaining victim, who would then gain the right to collect
+that much more later from the chosen enforcer.  Like the parameters $z,n$
+describing how criminal's are tested, free parameters in this approach such
+as $y,b$ should be chosen by criminals if restitution is fixed, by victims
+if punishment is fixed, and by a more expensive combined social negotiation
+if social loss functions are minimized.
+
+\section{Comparing Approaches}
+
+Three plausible approaches to private law have been described here.  The
+law can fix either criminal punishment, victim restitution, or it can set a
+more general social loss function of the two.  All these options seem
+preferable to the familiar forth alternative of fixing criminal fines.
+This paper has compared these approaches, and in the process hopefully
+illuminated some basic issues in designing institutions of private law
+enforcement.
+
+Assuming each possible crime is independent, and ignoring economies of
+scale and third-party externalities, we find that a criminal and a victim
+should, to reduce externalities between them, want to agree on a law.
+Before they each choose how much they want to work to encourage or
+discourage the possibility of a ``crime", they want to agree on some wealth
+transfer plus a legal system which forces the criminal to pay the victim a
+certain fine if the crime happens and the criminal is convicted.  This fine
+should be such that the resulting shares in the crime, the wealth change
+for each party if the crime happens, are both non-zero, the same sign, and
+somewhat larger for the party with more influence and better information.
+If this is the criminal, then the punishment and restitution should be
+closer to the level of the victim's damage than to the criminal's benefit,
+and the damage level should be easier to measure.
+
+Risk due to uncertain enforcement costs would ideally allocated via a
+general social loss function $Ln[P,R]$.  But if just one of the criminal or
+victim is to suffer this risk, a simple model suggests that it should be
+victim, and that giving the victim all this risk may be ideal.  This argues
+for fixed restitution.  However, if the criminal is not given the
+enforcement risk, i.e., the residual after paying actual enforcement costs,
+then it is hard to induce them to cooperate in estimating their risk
+preferences or in encouraging a conviction.  This argues for preferring
+fixed restitution.  The mostly subcontracted efforts of victims to promote
+conviction, in contrast, can be more easily encouraged, and victim risk can
+be more easily insured against.
+
+Both fixed restitution and punishment suffer the possibility of regions of
+$L[P,R]$ where they fail to actually minimize L, though fixed restitution
+seems more likely to actually suffer this problem.
+
+Moving beyond having the law simply fix fines requires validation of
+probability estimates, and this paper suggests betting auctions as an
+improvement over watching frequencies in bundles of like crimes.  Moving
+beyond fixed fines also requires validation of risk aversion estimates, of
+the criminal in general and perhaps also of the victim when there are
+different difficult to insure contingent restitutions.
+
+This paper also suggests a method for validating risk estimates.  However,
+if punishments are fixed then it may be difficult to measure criminal risk,
+if restitutions are fixed then it is surely difficult to measure victim
+risk, and both may be difficult to measure when a general social loss
+function is fixed.  However, the feasibility of insurance suggest we can
+neglect victim risk, and argues for fixed restitution.
+
+The possibility of bribes from criminals to enforcers can make it difficult
+to legally fix punishment, but only affects contingent, not uniform,
+restitution.  Even then, it seems better to place criminals in (indirect)
+charge of managing enforcement, through fixed restitution.  With criminals
+in charge we can expect better attention to their intangible desires, while
+with victims in charge their preferences should be attended to.  However,
+since victims should in any case be able to buy or negotiate for such
+attention, this consideration also prefers fixed restitution.
+
+The option to set some general social loss functions of punishment and
+restitution might allow better allocation of enforcement risk, but would
+require some social agent be placed in charge of enforcement, instead of
+either the victim or criminal.  Thus intangible criminal preferences might
+again be neglected, as might criminal aid to enforcement.  And
+criminals here again can have incentives to distort tests of risk aversion.
+Details of the auction and testing processes would require broader social
+negotiation, and social negotiations to estimate official $Ln[P,R]$ functions
+might be considerably more complex.
+
+So which approach is better?  If we presume against the more complex social
+loss function (on admittedly shallow grounds), we face a choice between
+fixing punishment or restitution.  Since only fixed restitution currently
+has a plausible way to estimate criminal risk or to induce criminal
+cooperation with enforcement, then for desired punishment not too high,
+fixed restitution seems tentatively the best approach.
+
+\section{Getting There From Here}
+
+So far I have described some institutions within which law might be
+privately enforced, and argued the plausibility that these institutions may
+be more efficient than either previous proposals or existing institutions.
+However, while there may be a place for evaluating concrete radical
+proposals, it is also reasonable to ask whether there are incremental paths
+toward such changes.
+
+Private contracts could of course specify the use of alternative dispute
+resolution, such as arbitration or private courts, which use such
+procedures (as long as their procedures were legal).  However, victims might
+be reluctant to use the above procedures at the time they become aware of a
+crime if they did not expect that the unknown criminal had probably signed
+a related contract.  This might be less of a problem within the scope of a
+private community.
+
+Criminals guilty of many ordinary crimes can also be sued for related
+torts, though jurors are unfortunately usually reluctant to award damages
+without a criminal conviction.  More fundamentally, however, the above
+approaches rely heavily on the victim being able to insure against the risk
+of failure to convict, usually by selling their award rights to an
+enforcer.  And selling such rights is currently forbidden (at least in
+personal injury cases - I don't know for sure about wider prohibitions).
+
+The betting approach to validating probabilities unfortunately may requires
+the relaxation of pervasive anti-gambling laws.  However, the above
+descriptions in terms of buying shares of enforcement or prize obligations
+may help deflect such an attack.  Frequency bundle methods would not suffer
+such a limitation, but the need for a minimum number of similar cases would
+make difficult the spontaneous birth of such an enforcement industry.
+
+Once allowed, however, we might hope that for torts with a low probability
+of convicting the offender, courts would come to treat enforcers like the
+victim's lawyer.  That is, in addition to awarding compensation for lawyer
+fees, compensation could also be awarded for enforcer fees, and for
+insurance against the possibility of a failure to convict.  And what better
+way to demonstrate the reasonableness of the fees than an explicit auction
+intended to obtain the direct damages appropriate to the crime with a
+minimum harm to the criminal?  Initially, such validation might
+substantially increase the chance that the court would actually award
+compensation for such costs.  Eventually, there might arise a presumption
+against compensating such costs in the absence of such validation.
+
+Uncertainty about the actual direct damage awarded could be handled in part
+by contingent enforcement, with different probability of conviction
+estimates for different possible ranges of damages awarded.
+
+\section{References}
+
+[1]  Gary Becker, George Stigler, ``Law Enforcement, Malfeasance, and
+     Compensation of Enforcers", 3 J. Legal Studies, 1 (1974).
+
+[2]  David Friedman, 'Efficient Institutions for the Private Enforcement     
+     of Law', J. Legal Studies, June, 379-397 (1984)
+
+[3]  William Landes, Richard Posner, ``The Private Enforcement of Law",
+     4 Legal Studies 1 (1975)
+
+[4]  Mitchell Polinsky, Steven Shavell, ``Enforcement Costs and the
+     Optimal Magnitude and Probability of Fines", J. Law \& Econ v35,
+     133-148. (1992)
+
+[5]  David Friedman, ``Reflections on Optimal Punishment, Or: Should the
+     Rich Pay Higher Fines?'' 3 Research Law \& Econ. 185 (1981)
+
+[6]  Richard Posner, Economic Analysis of Law, 4th Ed., 1992
+
+[7]  Bruce Benson, The Enterprise of Law, 1990. 
+
+[8]  Robert Cooter, Thomas Ulen, Law and Economics, 1988. 
+
+[9]  Mitchell Polinsky, An Introduction to Law and Economics, 1983.
+
+[10] David Friedman, The Machinery of Freedom, 2nd Ed. 1989. 
+
+\section{Acknowledgements}
+
+The following people offered useful comments on portions of previous drafts
+of this paper: Tom Bell, Rebecca Crowley, Tim Freeman, David Friedman.
+
+\section{Glossary} 
+(of terms appearing in multiple contexts)
+\begin{tabular}{lll}
+$d_u$ & $=$ & partial derivative operator, done relative to 
+  subscripted parameter \\
+$\ave{u}$ & $=$ & the expected value of some variable parameter  \\
+$H$ & $=$ &  harm to criminal, inverse of utility  \\
+$B$ & $=$ &  benefit to criminal  \\
+$D$ & $=$ &  damage to victim  \\
+$q$ & $=$ &  probability of crime happening  \\
+$w$ & $=$ &  watchfulness, effort by criminal to encourage or prevent crime  \\
+$x$ & $=$ &  defense, effort by victim to prevent or encourage crime  \\
+$P$ & $=$ &  punishment of criminal, certainty-equivalent cash  \\
+$R$ & $=$ &  restitution to victim,  certainty-equivalent cash  \\
+$C$ & $=$ &  criminal's loss from crime given law  \\
+$V$ & $=$ &  victim's loss from crime given law  \\
+$L_v$ & $=$ &  victim's total loss  \\
+$L_c$ & $=$ &  criminal's total loss   \\
+$L = L_v + L_c$ & $=$ & total loss victim and criminal negotiate to minimize  \\
+$Q$ & $=$ &  ratio of restitution vs. punishment rates of loss increase  \\
+$W$ & $=$ &  wealth level of criminal  \\
+$f$ & $=$ &  fine criminal owes victim given conviction, cash due  \\
+$t$ & $=$ &  take victim is paid given conviction  \\
+$G$ & $=$ &  what enforcer actually gets from victim, certainty equivalent  \\
+$p$ & $=$ &  probability of catching and convicting the criminal  \\
+$a$ & $=$ &  effort by criminal to avoid being convicted  \\
+$e$ & $=$ &  effort by victim's enforcer to catch and convict criminal  \\
+$Pn$ & $=$ &  official function estimating $P$, given by law or criminal's agent  \\
+$Rn$ & $=$ &  official function estimating $R$, given by law or victim's agent  \\
+$Ln$ & $=$ &  official function estimating $L$, given by law  \\
+$z$ & $=$ &  probability of testing criminal's risk aversion  \\
+$n$ & $=$ &  number of criminals pairs tested as a single group  \\
+$Y$ & $=$ &  amount appointed criminal's agent paid for services  \\
+$i$ & $=$ &  type of crime  \\
+$g$ & $=$ &  probability of convicting criminal, given crime type  \\
+$Z$ & $=$ &  prize amount to one who informs about crime type  \\
+$b$ & $=$ &  probability that no prize will be claimed  \\
+\end{tabular}
+
+

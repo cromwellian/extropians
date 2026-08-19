@@ -1,0 +1,545 @@
+From extropians-request@extropy.org Tue Apr 12 20:50:49 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id UAA01402 for <more@chaph.usc.edu>; Tue, 12 Apr 1994 20:50:45 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA25336; Tue, 12 Apr 94 15:01:35 PDT
+Received: by news.panix.com id AA28563
+  (5.65c/IDA-1.4.4 for more@usc.edu); Tue, 12 Apr 1994 18:01:20 -0400
+Date: Tue, 12 Apr 1994 18:01:20 -0400
+Message-Id: <199404122201.AA28563@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-4-72 - #94-4-76
+X-Extropian-Date: April 12, 374 P.N.O. [18:01:01 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Tue, 12 Apr 94             Volume 94 : Issue 101
+
+Today's Topics:
+                BUSI:Public Access Unix Venture Help Wanted...        [1 msgs]
+                       Forward: Free Internet Accounts?               [1 msgs]
+                RAPTOR: A trojan horse of anarchocapitalism ?         [3 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 26108 bytes.
+
+----------------------------------------------------------------------
+
+From: whitaker@dpair.csd.sgi.com (Russell Whitaker)
+Date: Tue, 12 Apr 1994 06:04:51 -0700
+Subject: [#94-4-72] RAPTOR: A trojan horse of anarchocapitalism ?
+
+On Apr 11,  9:55pm, Alexander Chislenko wrote:
+> Subject: RAPTOR: A trojan horse of anarchocapitalism ?
+>    Apogee and Cygnus Software just released a new shareware game, RAPTOR.
+> You are a pilot  and fly over a terrain with lots of tough stuff on  and
+> above it, which you have to shoot - and, occasionally, pick - up.
+
+Cygnus!  They're the people (John Gilmore et al) who've so generously hosted
+the Cypherpunks meetings (future ones will be at SGI) in Mountain View,
+California.  I never knew they did games.
+
+Would you be able, Alexander, to post the location(s) where we might find this
+game?  More importantly, is there source code.
+
+If you don't post the reference, I'll root around with xarchie.
+
+>
+>-- End of excerpt from Alexander Chislenko
+
+
+
+--
+Russell Earl Whitaker				whitaker@sgi.com
+Silicon Graphics Inc.
+Technical Assistance Center, Mountain View CA     (415) 390-2250
+================================================================
+#include <std_disclaimer.h>
+
+
+
+
+
+------------------------------
+
+From: "R. David Murray" <rdmurray@keene.edu>
+Date: Tue, 12 Apr 1994 09:43:10 -0400 (EDT)
+Subject: [#94-4-73] BUSI:Public Access Unix Venture Help Wanted...
+
+On Sun, 20 Mar 1994, Phil G. Fraering wrote:
+> For about the past month or two in our spare time (not much!) a friend
+> of mine and I have been brainstorming the concept of setting up a
+> public access unix node in the Lafayette, Louisiana area. Does anyone
+> here have any experience in that area, or any ideas for unexplored
+> business opportunities in this area?
+
+There is lots and lots of this going on right now.  I don't think the 
+profit margins are very large, but if nothing else it sure is a great way 
+to pay for your own bandwidth.  
+
+Not speaking from direct experience, but after having done some research, 
+I'd agree with your other contacts.  After sinking the cost of the 
+platform ($4-$5K for a 486PC running BSDI, for example), the modem pool 
+is the largest expense, and the one you have to watch carefully.  It's 
+bad for business if your modem pool rings busy very often, so you need to 
+watch your utilization and buy more phone lines and modems *before* you 
+run out of capacity.  The modems themselves aren't really that expensive, 
+but you've got to pay for the phone lines, and that's a monthly charge.
+But vis the modems, you will want to buy top of the line, because you 
+need to be interoperable with the maximum number of other modems.  And, 
+of course, you'll want to have a significant portion of your modem pool 
+be the highest speed modems available on the market. 
+
+Oh, if your user base gets above 5 or 10 simultaneous users, you're
+going to need a second machine to dedicate to news service and other
+servers (I'm pretty sure). 
+
+As I say, I don't have any direct experience in this area, but if things 
+go along as I plan for them to, I will by the end of the year.  I'm 
+working with an entrepreneaur to set up a public access unix site here in 
+Keene, NH.  Right now we are kind of in a holding pattern while I help a 
+local coalition of schools, businesses, and other organizations set up a 
+network provider operation.  (No network provider has a POP in the local 
+calling area, and the major regional Internet provider would not agree to 
+allow us to resell SLIP connections (they may have changed their tune but 
+it may be too late for them now), so we've put together a business plan 
+for setting up our own NOC and reselling bandwidth purchased from Sprint.)
+
+All this because when I moved to this region I found I couldn't get 
+Internet access via a local phone call.  I just had to do something about 
+that <grin>.
+
+As an Extropian I'm in kind of an uncomfortable situation here.  The
+organization I am currently working for (this coalition) is seeking NII
+funding to connect the local schools.  I really hate the idea of using
+federal tax receipts for something I'm involved in, but the entrepreneaur
+I'm working with is not himself an Extropian and so isn't willing to go
+ahead without waiting for this coalition to build the local Internet
+access point.  Besides, he's the business head, so he's probably right,
+strategically. 
+
+Well, whatever else happens, I'm certainly getting a good education out 
+of this.  
+
+> pool.  I also doubt there will be *that* many individual users in the
+> Lafayette area (although I could be wrong). I would probably be
+> relying on selling backdoor SLIP access in order to stay in the black.
+
+We're thinking that the costs of supplying SLIP access are not very 
+different from the costs of supplying a login account.  Since we face 
+potential competition in the region (there is another login account/slip 
+provider well established in the next metropolitan area to the east, and 
+he is expanding in our direction, though he has chosen not to compete 
+directly, for the moment, with this coalition), we are thinking of 
+offering SLIP connections at close to the same price as login accounts.
+My personal prediction is that medium term there is going to be a 
+significant relative growth in SLIP (rather, probably, PPP) connections 
+vs login accounts (but both will continue their explosive growth).
+
+As for potential usage...I have seen estimates that personal computer 
+penetration in the populace has risen from 30% a couple years ago to 
+almost 50% today.  Of those, less than half have modems (I think, I don't 
+have a reference handy).  Of *those*, figure you can pick up, what, say a 
+quarter?  So with good advertising you have a potential (medium term) user 
+base of somewhere around 5% of the population.  Note that that well 
+established login account provider I mentioned above has been seeing 
+growth rates comparable to Internet growth rates overall.
+
+I've seen estimates that 1 modem per 100 accounts is an absolute minimum,
+with 1/45 more reasonable (and 1/10 if you offer a "business plan" where 
+the user is almost guaranteed access).  Of course, for the user who 
+really needs guaranteed access, you charge him enough to cover the costs 
+of a dedicated phone line, modem, and port.
+
+> 1. Information filtering. There's a mountain of information driving past on
+
+I think that, until AI gets really good, there ought to be a market for 
+*human* information filters.  Charge a very modest subscription fee for a 
+focused digest.  For example, I'd pay $10 or $15 a year for someone to 
+feed me weekly summaries of "important" Internet events.  (Important 
+defined by the editor, and if I find myself in disagreement I give 
+feedback, and if I still disagree, I drop my subscription).  Find enough 
+clients, and this should pay for the hours it takes to compile (some 
+number of which hours you'd spend perusing the Net anyway).
+
+>    a. The Extropians List Software!
+>       My main idea here is to offer an Extropians-software-mediated echo 
+>       of such high-volume mailing lists as the linux mailing lists,
+>       the cypherpunks mailing list, and others.
+
+I won't pay for this.  I find the Extropian list features useful for the
+Extropians list, which I (used to) find I read more of than not. The list
+software lets me cut down the noise.  But for the other lists, they are
+mostly noise to me, so my technique is to scan the list of postings and
+select only those items that look interesting.  Yes, I could do this with
+exclude all, but that simply is not as easy as scanning subjects in the
+mailbox and deleting everything afterwards, or better yet using a
+newsreader where the mailing list is gatewayed to a local newsgroup. 
+
+>    a.ii. It would be neat if I could get a portion (*) of the
+>          extropians list as an anchor tenant. I think, but am not
+>          sure, that Harry has been thinking of using Sameer's system,
+>          if it gets set up, to handle part or all of the list.
+
+There might also be special services you could offer Extropians that 
+might make it worth our while to buy a cheap telnet account from you.  I 
+think Geoff(?) was thinking along these lines earlier.  I've certainly 
+got that notion in the back of my mind, though I have no firm ideas yet.  
+Viva la competition <grin>.  (I take that back: there is one idea already 
+floated that I'd been thinking about too: a MOO like Metaverse but 
+dedicated to Extropian principles.  We'd want to figure out MOO cash 
+from get-go.)
+
+>    a.iii.Perhaps have a special "extropians" user group that could
+
+I couldn't figure out what exactly you were talking about in this item.
+Can you clarify?  If you mean, log in to your server and use news to read 
+the mailing list . . . there might be some potential there, but I think 
+the notion would benefit from some group-think development.
+
+--David
+
+------------------------------
+
+From: Mark Grant <Mark.Grant@isltd.insignia.com>
+Date: Tue, 12 Apr 94 16:59:00 BST
+Subject: [#94-4-74] RAPTOR: A trojan horse of anarchocapitalism ?
+
+Alexander Chislenko <sasha@cs.umb.edu> said :
+
+> Maybe if somebody could use a newly built [and yet uninfested by statists]
+> world to demonstrate that anarchocapitalism can suggest clear organizational
+> advantages and be fun to live in,  the users would be more receptive to the
+> idea that a setup like this could well work in wherever they come from...
+
+Sounds like what you really need is an anarcho-capitalist MOO... or maybe 
+SimAnarchy 8-) !
+
+		Mark
+
+------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Tue, 12 Apr 1994 12:08:49 -0400 (EDT)
+Subject: [#94-4-75] Forward: Free Internet Accounts?
+
+Anyone heard of these folks?
+
+A friend of mine asked me to check them out for him.
+
+/hawk
+
+a conscious being, IIA Development Team wrote:
+
+ From staff@iia.org Tue Apr 12 05:49:33 1994
+ Message-Id: <199404121349.AA20196@iia.org>
+ To: habs@panix.com
+ Subject: Re: info 
+In-Reply-To: Your message of "Sat, 09 Apr 1994 15:08:31 EDT."
+             <199404091908.AA05326@panix.com
+Date: Tue, 12 Apr 1994 09:49:33 -0400
+From: IIA Development Team <staff@mary.iia.org>
+
+-----BEGIN OF PGP DECRYPTED TEXT-----
+
+In message <199404091908.AA05326@panix.comyou write: 
+please send me information about obtaining an account on
+your system.
+
+--------CUT HERE(info)--------
+Q: Who is the IIA?
+
+The International Internet Association is an organization of
+engineers and computer and network enthusiasts dedicated to the free
+flow of information without regard to position or affiliation.  In
+keeping with that concept, we are working diligently to ensure that
+all aspects of our society, be they individual, corporate, social,
+educational, intellectual, virtual, or correctional, have the
+opportunity to take part in the world of tomorrow, which we believe
+will be online.  The IIA is simply an organization that wants to do
+its part in shaping the future of the human race by providing net
+access for all...
+
+
+Q: If you're a non-profit association, what is your source of funding?
+How do you pay for the services you provide?
+
+We wheel and we deal, with elbow grease and motivation.  We leverage
+public image, information, and dreams to inspire people and companies
+to support our organization.  Currently, the majority of IIA funding
+comes from private contributions.  We are a not-for-profit association
+incorporated in the District of Columbia Nov. 18, 1993, and have a
+federal 501(c)(3) non profit application pending which will enable us
+to receive tax deductible donations.  We also have and will continue
+to solicit support from commercial organizations for technical assistance 
+
+
+
+Q: How many people work for the IIA?
+
+5 Billion.  They just don't know it.  We hope to increase that by 10%
+over the next two years. 
+
+
+
+Q: Why does the IIA require a credit card number before providing
+service, and why does this "non-profit" organization charge for
+calls via their 800 number?  
+
+One of the missions of the IIA is to provide Internet connectivity
+nationwide.  In order to do so we are putting together the requisite
+equipment and network and telecommunication resources to support a
+national user base.  Unfortunately, we are not yet in the position to
+provide local phone coverage for the entire nation.  As it is our
+interest to support users who do not have commercially available
+alternatives, we have implemented a system to ensure universal
+flat-rate access to our service.  Our system provides 800 access 24
+hours a day seven days a week from any point in the Domestic
+U.S. including Alaska, Hawaii, and U.S. Territories at the rate of 20
+cents a minute.  Though this may not be the least expensive option for
+users in major markets who are already being served by local
+providers, this system will provide users in previously ignored and
+forgotten markets equal access to the Internet.
+
+In order to provide this service we have contracted a U.S. long
+distance provider to supply 800 access.  Over the course of the next
+year the IIA will be reducing the cost of 800 access through a two
+tiered approach.  We will be monitoring our traffic patterns and begin
+placing local access nodes across the country.  Second, we will
+continue to negotiate with our telecomm providers to reduce the cost
+of access.  In
+addition, you can now, and will always be able to, dial directly into
+our nodes, and never will have to pay any access charges.  You have to
+ask yourself the philosophical question.  Would you prefer to pay AT&T
+or support the online future??
+
+The IIA has not ever nor will they in the future charge anything for Internet
+Service.  We make a small royalty off of 800 time, which helps us to
+pay our bills.  What we really need is the
+support of the organizations we work with to make universal
+free Internet access a reality.
+
+Q:  But I don't *want* to use the 800 number...  Why do I have
+to give my credit card?
+
+Unfortunately, our system is currently unable to restrict access to
+the 800 number to specific accounts.  Anyone who has an account is
+able to log on through the 800 number.  As soon as we are able to fix
+this, we will be able to drop our credit card number requirement.
+Once again, if you don't use the 800 number, you will never see a
+charge on your bill.  Really!  Cross our hearts and hope to die!
+Hopefully, the absence of posts about fraudulent charges will provide
+*some* evidence of our honesty...
+
+
+
+Q: Why do you have a DC address when you appear to operate out of NJ?  
+Why is your official address just a PO Box?
+
+Originally it was planned that we would launch our operations from the
+nations capital.  Several of our founding members live in that region
+and the symbolism is very strong.  Unfortunately the reality of the
+swamp by the Potomac is that they have one of the least capable
+telecommunications infrastructures in the nation.  Our attempts to make
+the IIA function from a technical standpoint were so frought with
+problems that we ultimately decided to work instead from our research
+facility in New Jersey.  We still do a great deal of our
+administrative work out of Washington D.C., and will maintain
+operations in that area.  In any case, Washington D.C. has already
+been shown to foster ineffective and inefficient large organizations.
+We plan to play a role in making a new bastion of democracy in the
+minds and keyboards of the Internet.
+
+
+
+Q: Why is the address listed on the net for IIA a residential house in NJ?
+
+We maintain several technical facilities.  One is in Highland park,
+NJ.  On the Internet, and in the world of the IIA, it is not necessary
+to place every resource within geographical proximity of each other.
+As the Internet becomes more prevalent (our goal!), the model of the
+IIA will no longer seem strange.  We neither have the funds nor the
+desire to put up a schnazzy glass-faced office buildings.  Think to
+yourself exactly how much space does several strands of fiber and a
+few Sparc-10's take up?  Well, the answer is really not that much, and
+especially not when you have a few motivated engineers who don't have
+any funds to spare.  The real address of the IIA is on the net, and
+that's always where you'll find us if you want to look.
+
+
+
+Q: Why are you providing local access in NJ, but not in DC?
+When are you going to proide local access in DC?
+
+You have free libraries, an unbelievable metro (compliments of
+taxpayers), parks, 17 independent enforcement agencies, parades,
+marches, fireworks, standard of living, Library of Congress, etc..
+Please be patient!
+
+
+
+
+Q: Why is there no "real people" to answer calls at the "IIA", just 
+ an automated voice system?  Why hasn't the IIA responded sooner to
+ the massive amount of net criticism?? 
+
+We get a call every 68 seconds on average, and just as many direct
+electronic requests.  If anyone is interested we would be willing to
+forward our number to your home and our mail to your account.  We are
+up all night several nights a week, many of us work full-time jobs and
+still put 8 or 10 hours into the IIA at night.  We eat lousy food from
+a corner deli, don't see our families, and spend Christmas Eve (true
+story) answering electronic requests.  Have a little patience.  Rome
+wasn't built in a day..
+
+
+
+Q: I sent in a request for an account but never heard from them?
+Why does it take so long to get an account?
+They seem to have announced their service a long time ago.  Where
+is it?  Are they having staffing or technical difficulties?
+
+Unanswered requests: If anyone has sent a request and not heard we
+apologize.  Two possibilities.
+	1: We screwed up and lost it.  Early on we were still
+perfecting our administrative systems and mistakes were made.  You
+have our sincere apology.  If you contact us via fax we will rectify
+this as quickly as possible.
+	2: We have it.  We will process it as soon as possible.  We
+are getting a whole lot better at this.
+
+
+
+Q: What is the connection between IIA and IDT, which contacted potential
+ users in Europe?
+
+IDT asked us if they could provide foreign access to the IIA through
+the International Call-Back system they invented.  Since this is an
+organization which has members who have been very supportive of us, we
+allowed them to serve in this capacity.  Additionally IDT has served
+invaluably in the capacity of advisor to the IIA in our dealings with
+domestic telecomm companies.  Finally, this is not an exclusive
+arrangement.  If anyone else has a clever way to get to the IIA, we are
+all ears.
+
+
+
+
+
+In Summary:
+
+You achieve in proportion to what you attempt.  The International
+Internet Association is just one organization of thousands on a tiny
+world zipping around in a forgotten corner of the universe.  Much is
+happening on this world, some good, some bad -- yet there is so much
+more that can be done on this world that it makes us all want to cry
+in frustration.  However, we intend to press on in our attempt to make
+the the world a better place through Internet connectivity.  
+God willing we hope you will join us.
+
+
+Maximillian D. Robbins, Executive Director, International Internet Association
+David S. Miller, Chief Technical Officer, International Internet Association
+
+--------CUT HERE(app)--------
+Registration form for FREE Internet access
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Print this out, and fax it to: 202-387-5446, or mail it to:
+
+International Internet Association
+Suit 852
+2020 Pennsylvania Avenue, NW
+Washington, DC 20006
+
+----- CUT HERE -----
+
+Name __________________________________________________________
+
+
+Address  ______________________________________________________
+       
+         ______________________________________________________
+
+
+Fax:  (    ) _____ - ________        Phone:  (    ) ____ - ________
+
+
+
+* 800 access: If you would like to be able to access our services via our
+  800 number, please include a credit card number below:
+
+
+
+
+Credit Card:       VISA          MASTER-CARD          AMEX
+
+
+Number: _______________________________________  Expires: _________
+
+
+
+
+Please read the following agreement, and sign below. Please sign even if
+you did not include credit card information above.
+
+I understand that this account will be used for lawful purposes and I accept
+responsibility for my actions while on-line. I will not hold the IIA 
+responsible for any activities occuring, or initiated by any user who
+makes knowing use of the ID which the IIA assigns to me.
+
+I agree and authorize that any use of the 800 number made available to me by
+the IIA will be billed to my credit card at a rate of $.20 per minute, or
+less. (Currently at $.18/min).
+
+I authorize use of this account for approved on-line services.
+
+
+
+Signature: ___________________________________________   Date: ____________
+
+
+------------------------------
+
+From: "R. David Murray" <rdmurray@keene.edu>
+Date: Tue, 12 Apr 1994 12:57:37 -0400 (EDT)
+Subject: [#94-4-76] RAPTOR: A trojan horse of anarchocapitalism ?
+
+On Tue, 12 Apr 1994, Mark Grant wrote:
+> Sounds like what you really need is an anarcho-capitalist MOO... or maybe 
+> SimAnarchy 8-) !
+
+I think SimAnarchy is a seriously good idea.  Someone ought to be able to
+make good money off it, and it would be good counter-propaganda. Just
+think of how much great free publicity you would get from all those people
+howling about how unrealistic the algorithms behind it are, which gives
+you the opportunity to point out how unrealistic the algorthms behind 
+SimCity etc are.
+
+--David
+
+------------------------------
+
+End of Extropians Digest V94 #101
+*********************************
+

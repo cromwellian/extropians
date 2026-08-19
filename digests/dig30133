@@ -1,0 +1,1037 @@
+From extropians-request@gnu.ai.mit.edu Mon Mar 15 13:00:47 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA17887; Mon, 15 Mar 93 13:00:41 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from churchy.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA28662; Mon, 15 Mar 93 13:00:25 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by churchy.gnu.ai.mit.edu (5.65/4.0)
+	id <AA12587@churchy.gnu.ai.mit.edu>; Mon, 15 Mar 93 15:38:16 -0500
+Message-Id: <9303152038.AA12587@churchy.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Mon, 15 Mar 93 15:37:51 -0500
+X-Original-Message-Id: <9303152037.AA12577@churchy.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0133
+X-Extropian-Date: Remailed on March 15, 373 P.N.O. [20:38:15 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Mon, 15 Mar 93            Volume 93 : Issue 0133
+                        
+Today's Topics:
+                     BRAIN: Creatures of infinite habit               [1 msgs]
+                              Culture: Ex-names                       [1 msgs]
+                         Culture: My Extropian Name                   [1 msgs]
+                      ECON/LAW: Tragedy of the commons                [3 msgs]
+                      Extropians at Cypherpunks Meeting               [1 msgs]
+                Info: Market Research on PC Hardware Purchase         [1 msgs]
+                    META: Extropianism lost in the noise              [3 msgs]
+               Meta: BBS Uploading (was: BBS Announcement!!!!)        [1 msgs]
+                     NANO/AI/GP/TECH: Nanosystems, etc.               [2 msgs]
+                           PAGAN: Witchcraft Trial                    [1 msgs]
+                      PPL: The Assassination Bureau Ltd               [1 msgs]
+                                 SOC: Taboos                          [2 msgs]
+                               frozen assets:                         [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50834 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 15 Mar 1993 02:00:48 -0800 (PST)
+From: szabo@techbook.com (Nick Szabo)
+Subject: NANO/AI/GP/TECH: Nanosystems, etc.
+
+[A glossary is included below]
+
+In a quite good article, Derek Zahn postulates and explores 
+running GP over molecular subparts to generate nanomachine 
+designs.  Paul BaClace on this list has looked into GA for 
+protein folding, and a bunch of other folks around the world are
+working on that now. I've looked a bit into a similar idea of 
+using GAs over a list of parts for mills, robots, 3D printers, etc.
+to design self-replicating macrofactories.  Each design is 
+[read: would be] represented by a flow-graph of parts and their 
+associated processes.  Quite similar to the "autocatalytic 
+network" used by Bagley, Farmer, Kaufmann et. al. to model pre-genetic, 
+self-perpetuating metabolisms, but I must also spatially compose the 
+assemblies.  I must also develop a method for composing new parts
+designs; one of the main design strategies for self-rep is to trade off 
+performance for standardization & simplification of parts.  One fitness 
+function for self-rep is the minimization of the complexity or cost of 
+outside parts used, ie the closure of the system; another is the 
+flexibility of the resulting factory (it should have some capacity to 
+generate real products as well as itself), a third is replication time.  
+
+It is intriguing to think of implementing GP in Autocad LISP, getting a 
+bunch of parts libraries on gigabyte hard disks (CD-ROM too slow), and 
+letting this puppy crank for a few (days? months? years?).  GP builds 
+reasonably good solutions quickly, then spends the bulk of its time 
+optimizing them.  For this search space it is quite possible that good 
+designs will be found quickly, since there has been no serious attempt 
+by engineers to explore this space (at least none in the recorded 
+literature, and no the NASA study wasn't even close to being a serious 
+design).
+
+Implementing GP in Autocad LISP may be a productive task in its
+own right, even if used to tackle less ambitious tasks.  Any LISP or 
+Autocad hackers looking for a job at a startup?
+
+Some things to watch out for, both specifically for Derek's nanopart
+design problem and for design with GP/GA in general:
+
+* One problem sometimes run into with GP/GA is non-composable
+or "deceptive" solutions: subparts contributing to
+greater fitness in one combination do not increase their
+likelihood of contributing to fitness in other combinations.
+GP/GA works very poorly for this small but important minority of design 
+problems.
+* The fitness function has to judge whether one imperfect design
+is better than another imperfect design.  In some problems it
+is difficult or impossible to come up with such a function.
+* How to represent the specifications (functional? positional?
+physical?)  They must be represented so that the
+"distance" of a design from the specs can be evaluated.
+* The bottleneck for GP is usually the fitness function,
+which must simulate the interaction between the subparts.
+Fitness functions must usually be run 10^5-10^6
+times to yield a satisfying result, so it must complete
+in seconds, not minutes or hours common for molecular
+simulations.  Here are some strategies for speeding up
+the fitness function in these kinds of design problems (much
+of this matches Drexler's advice in appendix A of _Nanosystems_
+for human theoretical engineers):
+-- Occam's Razor: Sacrificing one or two orders of magnitude in 
+design performance may be OK if it makes the design simpler, decreasing 
+the GP run time by orders of magnitude.  
+-- Greatly speed computation with compositional grammars over a small 
+number of parts with dominance of well-known short-range interactions.
+Nucleic acids, amino acids etc. are often not simple and there
+are many complicating long-range interactions.  Make design assumptions 
+that eliminate compute-costly interactions, eg cross-links simplify 
+the protein-folding problem.
+-- Since molecular simulations take so long, we need a molecular
+cellular automaton that embodies a conservative, efficient abstraction
+of molecular simulation models, perhaps by modeling short-range
+interactions and forbidding configurations with significant long-range
+interactions. 
+-- When simplifying simulations highest priority is to eliminate false 
+positives; second priority is to minimize false negatives.
+-- Satisficing: we are looking for orders-of-magnitude improvement,
+not small percentages.  Run GP only at its early steepest slope
+and be satisfied with significantly suboptimal design.
+
+* To represent reactions we need a library of eutactic processes.
+In addition to representing the finished design of the subpart,
+the GP might also represent the tools needed to make the subpart.
+Hopefully all these tools will already be in the tools library,
+but if not the GP might construct new tools out of the parts
+library.  This gives us a viable path to the design, which is as 
+important as the design itself.
+* The evolved designs usually resemble the worst spaghetti code.
+We need design beautifiers to remove redundancies, pretty-print,
+etc. for human analysis and inclusion in libraries for further
+runs.
+
+A final idea to throw into the ring: Von Neumann original designed
+a 2D cellular automaton both Turing-equivalent and self-replicating,
+and someone whose name escapes me was able to make a simpler
+one.  (Not Langston; his isn't Turing-equivalent). GA or GP
+should be able to search this space quite quickly on a modern
+supercomputer.  As with the self-replicating factory it is
+more likely to find better solutions since this is a difficult
+space little explored by scientists.  Once we've found a diverse
+set of satisfactory self-rep automata in the simple 2D cellular
+world, we can start search 3D worlds, and after that start adding
+molecule-like interactions, bringing the cellular world closer
+to molecular machine reality. Good ideas from simpler self-replicating 
+automaton can be seeded into the GP developing self-rep for more 
+complex cellular worlds.  While Derek Zahn's system designs down
+building more complex parts in a realistic simulation, this
+system designs up, making self-replicating automata in ever
+more realistic cellular worlds.  Eventually the two paths meet
+in a design for a self-replicating nanomachine in a realistic
+molecular simulation: a Drexler assembler.
+
+Glossary
+--------
+cellular automaton: set of state machines in contiguous cells
+in cellular world
+
+GP: Genetic Programming; composes solutions by swapping
+parse subtrees
+
+GA: Genetic Algorithm; composes solutions by swapping
+substrings
+
+fitness function: in GA or GP, determines which solutions composed
+by recombination or mutation participate in forming the next 
+generation, and which are eliminated.  Combines decoding, simulation & 
+evaluation of the solution with a statistical selection bias.
+
+function set: as used here, simulated processes, reactions, 
+etc., represented as LISP functions
+
+terminal set: as used here, compositional elements: parts, molecules, etc.
+represented as LISP terminals
+
+Nick Szabo					szabo@techbook.com
+
+------------------------------
+
+Date: Mon, 15 Mar 1993 07:15:24 -0500 (EST)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Meta: BBS Uploading (was: BBS Announcement!!!!)
+
+a conscious being, Andrew S Hall wrote:
+
+
+
+> I was also wondering what the Extropian policy would be on my uploading
+> various items from the group and the essay list.
+> I planned:
+> 1) Nothing would be uploaded w/o express consent of the author
+> 2) Everything would have full attribution to the author and the
+>    Extropians.
+
+Re, list rules, the only thing that matter is that the Author
+gives permission - Note however, if the main Author, let's say
+"Tim May" has in his post a quote from Perry, you should,
+for example, also get Perry's permission.
+
+[I present this as an example as Tim always allows his "material"
+to be reposted while Perry requests you get permission.]
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Mon, 15 Mar 1993 07:02:04 -0800
+From: D Anton Sherwood <dasher@well.sf.ca.us>
+Subject: Culture: Ex-names
+
+The Habsburg dynasty took its name from a county whose name was originally
+Habichtsburg, i.e. Hawk Fort.  So "Habs Meme-Hawk" could be considered
+punny.
+
+Me, I like the name I've got, except that "Sherwood" is not easy to
+pronounce in other languages.  What do you think of "Siruda"?
+
+By the way -- the Passport Office raised no eyebrow when I renewed and
+changed from "Anthony" to "Anton".
+
+Anton Sherwood                                   dasher@well.sf.ca.us
++1 415 267 0685          1800 Market St #207, San Francisco 94102 USA
+"Don't forget, your mind only *simulates* logic."  -- Glen C. Perkins
+
+------------------------------
+
+Date: Mon, 15 Mar 93 10:41:58 EST
+From: Brian.Hawthorne@East.Sun.COM (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: Culture: My Extropian Name
+
+Someone asked about methods for changing one's name. Amara Graps
+came back with the Court Petition method and the Usage method.
+
+There is one more, at least for last names in Massachusetts. When
+my wife (nee Carolyn Elizabeth Moore, no relationship to the Carol Moore on the
+list, although her family calls her Carol...) and I (nee Brian Robie Holt)
+got married, there were convenient spots on the "marriage license"
+for "groom's surname after marriage" and "bride's surname after
+marriage".
+
+I filled in "Holt Hawthorne", she filled in "Moore Hawthorne". This
+gave us a legal document to show to government folks to get our
+names changed (on passports, driver's licenses, etc.).
+
+Thus, as far as the USgov is concerned, I am 'Brian Robie Holt Hawthorne'.
+The space in the surname only confuses the IRS. The State Dept. and
+SSA have no problem with it. Of course, I usually just use Brian Hawthorne.
+And all of my friends call me Rowan...
+
+	Rowan
+
+------------------------------
+
+Date: Mon, 15 Mar 93 11:12:02 -0500
+From: "W. Scott Meeks" <meeks@osf.org>
+Subject: ECON/LAW: Tragedy of the commons 
+
+>Date: Sun, 14 Mar 93 16:36:19 EST
+>From: drw@BOURBAKI.MIT.EDU
+>
+>Another aspect of this that I don't understand is that some
+>libertarians seem to be opposed to intellectual property, that is,
+>they want to prevent the development of a system of private property
+>that would stimulate the production of useful information!
+
+Dale, this is intellectually dishonest and inflamatory and you know it.
+
+	Scott
+
+
+------------------------------
+
+Date: Mon, 15 Mar 93 11:22:24 -0500
+From: "W. Scott Meeks" <meeks@osf.org>
+Subject: ECON/LAW: Tragedy of the commons 
+
+My public apologies to Dale Worley.  I accidently sent a private email
+intended to go only to him to the entire list.  Rather than imposing an
+arbitrary punishment on myself (such as not posting for 24 hours) I will
+instead attempt to make restitution by repairing some of the damage to
+Dale's reputation.
+
+I have known Dale for several years and he is generally well read,
+intelligent, and a good critical thinker.
+
+	Scott
+
+------------------------------
+
+Date:    Mon, 15 Mar 1993 8:58:45 -0800 (PST)
+From: GRAPS@galileo.arc.nasa.gov
+Subject: PPL: The Assassination Bureau Ltd
+
+Nick Szabo and Perry Metzger refer to the Soldier of Fortune
+case:
+
+(Nick:)
+>Could the victim's relatives sue said Yellow Pages for damages?
+>_Soldier of Fortune_ was put of business by this phenomenon.
+
+I've been following this case, the below is an article from a
+couple of months ago on the latest developments. Soldier of Fortune
+is almost certainly out of business at this point, but I understand
+from a fellow at the local gun shop that the magazine will probably
+be resurrected under a new name, slightly different format etc. He
+told me that the magazine for the last few months has been conducting
+surveys of its readers trying to get a better idea of what their 
+readers want.
+
+Amara Graps
+graps@gal.arc.nasa.gov
+
+
+-----------------------------------------------------------------------
+>From San Jose Mercury News, dated Tuesday, Jan 12, 1993.
+
+
+In a setback for the publishing industry, the Supreme Court on
+Monday let stand a $4.3 million damage verdict against a magazine
+for printing a classified ad that led to the contract slaying of an 
+Atlanta businessman.
+
+A U.S. appeals court ruled last year that Soldier of Fortune
+magazine can be held liable because its ad posed an "unreasonable
+risk of ... substantial harm to the public." Monday's action by the 
+Supreme Court left that ruling intact.
+
+The decision is not only likely to put the 17-year-old magazine
+out of business, a company official said, but also puts publishers
+nationwide on notice that they must do more to screen the content
+of classified ads.
+
+Media lawyers said the case (Soldier of Fortune vs Braun No. 92-817)
+marked the first time that the high court had upheld a damage award
+against a publisher merely for printing an advertisement written by
+someone else.
+
+In 1985, an unemployed Vietnam vet named Michael Savage had sent in
+a classified ad to Soldier of Fortune titled "Gun for Hire."
+
+He described himself as a "37-year-old professional mercenary (who)
+is discreet and very private. Body guard, courier and other special 
+skills. All jobs considered."  His address and phone number followed. 
+
+Savage later testified that he sought work as a security guard, but 
+instead accepted an offer to kill Richard Braun.  On Aug 26, 1985, 
+Savage and another man shot and killed Braun in the driveway of his
+suburban Atlanta home and wounded his 16-year-old son.
+
+The killers were convicted and sentenced to prison, but the Braun
+family filed a wrongful death suit against Soldier of Fortune.  A jury
+agreed that the magazine was liable and ultimately handed down the $4.3 
+million verdict, an amount the magazine's owners said would be "fatal"
+to its existence.
+
+Last year, a U.S. appeals court in Atlanta upheld the award.
+
+-------------------------------------------------------------------
+
+------------------------------
+
+Date: Mon, 15 Mar 93 10:04:07 PST
+From: desilets@sj.ate.slb.com  (Mark Desilets)
+Subject: META: Extropianism lost in the noise
+
+Regarding Anton's idea of a two-ended silencer, I like the idea, but think there
+needs to be safe-guards.  It would be exceedingly easy for me to create an
+account, which, for the sake of civility, we shall call 
+anti-harelb@sj.ate.slb.com  Now, anti-harelb can "take out" harelb continuously.
+This is an undesirable thing, since someone is equally likely to (for revenge,
+say) create an anti-perry, or an anti-timmay or (heaven forfend) an anti-mark.
+Since we essentially have no verification procedure for who signs onto the
+list, we cannot implement this plan as proposed.   Any thoughts?
+
+
+
+															Aunty Mark
+
+------------------------------
+
+Date: Mon, 15 Mar 93 14:15:04 GMT
+From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+Subject: SOC: Taboos
+
+Alex / Sasha writes:
+> Torture doesn't seem to be a problem to anybody; however, I would be
+>interested in exploring the difference between vandalism and torture
+>as lying in the sentience of the system that is subjected to deliberate
+>harm.
+
+A difference of degree, IMHO.  I see vandalism as wrong not just because of
+the hurt it does to the owners and users of the vandalised property, but
+wrong even if one is vandalising one's own property.  (This is a judgement
+according to my current values, not an assertion of absolute morality.)
+
+>  Body-piercing, tattoing, etc. I have nothing against theoretically,
+>but most of the practitioners *I* observed have been pretty dirty types.
+
+Have you not noticed that a substantial proportion, perhaps a majority, of
+women in Western culture have pierced ears?  Whether by "practitioners" you
+meant the people doing the piercing or the people with the piercings, I
+find it difficult to believe that most of them are "pretty dirty types".
+
+>I have no idea what/who PeeWee Herman is.
+
+You are fortunate.  He has a show on American TV, which I haven't seen.  It
+has spun off a film "Peewee's Big Adventure", which I have seen a clip
+from.  I found it pretty repellent, though not for reasons having to do
+with societal taboos.  Just my personal taste.
+
+What other people are repelled by about him is more likely to be the minor
+scandal he was involved in a year or two ago, concerning his presence in a
+gay cinema and indulging in the activities which customarily go on between
+the customers in such places.  This (his behaviour, not the absurd scandal
+arising from it) is something which to me seems no more remarkable than an
+interest in football.
+
+What is the difference between a taboo and a personal dislike, other than
+the number of people sharing it?  Is this thread concerned with notions
+which are taboos in society at large, or notions which may be taboo among
+the members of this list?  Do homosexuality and body modification belong on
+David Lubkin's list (to pick out two subjects which are not at all taboo
+for me)?
+
+Considering the example of ear piercings, perhaps the difference between a
+taboo and a personal dislike is not that a taboo is widely shared, but that
+it is based on a widely shared stereotype rather than on an objective
+reality, and that the holders of the taboo have actually made no personal
+observation of the underlying reality -- even when face to face with it.
+
+Taboos in that sense are, IMHO, an impediment to personal development.  If
+one abhors something, one should know why, and judge whether one's reasons
+are sufficient.  Alluding to another thread, I understand that some
+magickal practices are designed to break down unthinking adherence to
+taboos that one has never seriously examined.  Rational debate in a "safe
+space" such as this is another method of pursuing this goal.
+
+--                                ____
+Richard Kennaway                  \ _/__    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk       \X  /    University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk      \/     Norwich NR4 7TJ, U.K.
+
+Hobbitsfoot soup: A popular dish in Orcish and other civilised countries.
+Recipe on request.
+
+
+------------------------------
+
+Date: Mon, 15 Mar 93 12:52:16 CST
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: META: Extropianism lost in the noise
+
+>Regarding Anton's idea of a two-ended silencer, I like the idea, but think >there
+>needs to be safe-guards.  It would be exceedingly easy for me to create an
+>account, which, for the sake of civility, we shall call 
+>anti-harelb@sj.ate.slb.com  Now, anti-harelb can "take out" harelb >continuously.
+>															Aunty Mark
+
+Yes, this is a problem.  I've proposed that we give people both ASCII arms
+and medicine.  This would allow people to create accounts that continuously
+counteract the effects of others' anti-accounts.  But it would also allow
+people to give themselves huge doses of virtual medicine, thus
+counteracting honest attempts to sanction them with ASCII arms.
+
+T.O. Morrow                        --  twb3@midway.uchicago.edu
+Law & Politics Editor: EXTROPY     --  Journal of Transhumanist Thought
+Associate Executive Director: ExI  --  The Extropy Institute
+
+
+------------------------------
+
+Date: Mon, 15 Mar 1993 13:53:26 -0500 (EST)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Info: Market Research on PC Hardware Purchase
+
+I am looking names of computer hardware MARKET research firms.
+
+One's you have used and can recommend or have heard of as being good,
+etc.
+
+Please let me know ASAP.
+
+Call collect if you wish 212 941-4438
+
+/harry
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Mon, 15 Mar 93 10:26:39 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: ECON/LAW: Tragedy of the commons
+
+Sorry to butt in on a thread I've stayed out of, but this caught my eye:
+
+Scott Meeks writes:
+
+>>Date: Sun, 14 Mar 93 16:36:19 EST
+>>From: drw@BOURBAKI.MIT.EDU
+>>
+>>Another aspect of this that I don't understand is that some
+>>libertarians seem to be opposed to intellectual property, that is,
+>>they want to prevent the development of a system of private property
+>>that would stimulate the production of useful information!
+>
+>Dale, this is intellectually dishonest and inflamatory and you know it.
+>
+>        Scott
+
+Well, I'm putatively a libertarian and I have argued on this list that
+intellectual property laws may be unenforceable, archaic, and wrong. Many
+libertarians I know are moving in this direction.
+
+So I find Dale's comments generally accurate. The last bit in his quote
+about "prevent the development....stimulate the production of useful
+information!" is, I think, a fair opinion for anyone worried about the "no
+intellectual property" faction of libertarianism.
+
+(I'm still not sure myself what the ramifications of less intellectual
+property will be.)
+
+-Tim May
+
+P.S. I just saw that Scott meant this as a private communication to Dale.
+Since this doesn't change the substance of what I just wrote, I'm sending
+this out anyway.
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+Date: Mon, 15 Mar 93 13:35:12 -0500
+From: pavel@PARK.BU.EDU (Paul Cisek)
+Subject: BRAIN: Creatures of infinite habit
+
+Some interesting replies from Nick, Jay, and Perry...
+
+(I apologize for mentioning 'overpopulation' - how unextropian... ;-)
+
+Perry writes (about changing neural principles):
+
+>I find it very hard to believe that it will never be possible. Never
+>is a very long time, especially for immortals.
+
+Well put.  However, a similar statement could be said for faster than light
+travel, which really may be impossible (attach appropriate disclaimer here).
+
+Development of the brain seems to proceed much like morphological development
+of an embryo, guided by gradients of tropic substances and lateral competition
+between homogeneous tissue (a theory).  A brain is initially very
+undifferentiated and interconnected, neurons bloom during the start of a
+critical period and are pruned away by competition.  The gradients provide
+biases to the competition.  Nick writes about the use of nerve growth factor
+to return the brain to a plastic state.  This certainly can be done, neurons
+can even sprout new axons and collaterals.  However, after the glial cells
+and other guiding agents have been lost, the axon has no idea of where to
+connect to.  Furthermore, since functional systems are already in place, it
+will have no chance in the competition for target tissue.  Some studies have
+been done in guiding axons using tiny plastic tubes, but only on a small
+scale and only in the simplest of neural systems.  Here is where
+nanotechnology will surely lend a hand...
+
+Above I talk about the biological brain, but similar issues will exist for an
+uploaded brain as long as it is a faithful copy.  If the development process is
+crucial to the functionality of a neural-like system, then it will be a serious
+problem for the engineering of immortality.
+
+>We really know very little about the mind that we can be sure of at this
+>point other than a few basics like that it seems to be rooted in its
+>physical substrate. When we know enough to discuss it intelligently,
+>I'll start worrying.
+
+True, the mind is currently quite a mystery.  Your analogy to Paleolithic 
+blast furnace design is excellent - I've always been amused by discussions
+of consciousness when nobody really has an inkling of what it is.  However,
+I enjoy such discussions.  By the same argument all talk of uploading is
+largely speculative, yet still interesting and valuable.
+
+And speaking as someone who devotes a lot of time to study of the mind, let me
+say that the stability/plasticity dilemma is a real one.  Development really
+does seem to proceed by pruning of connections and specialization of tissue.
+Jay mentions that older brains appear to have 'reduced synaptic complexity'.
+What I believe he refers to is the quantitative comparison between young and
+old brains - young brains have vastly more synapses.  However, in this case,
+'less' and 'more' do not map linearly to 'simple' and 'complex'.
+A 2-year-old's brain has more synapses than at any other age, but this does not
+mean that the 2-year-old is smarter than at age 20.  It is the reduction of
+synaptic density that defines increased functionality as brain systems
+specialize and adapt to their environment.  However, as pruning and neuron
+death continues into old age, functionality is reduced again.
+
+Again, this may not be a basic neural principle, but simply the inability of
+the body to stop its growth once the growth becomes detrimental.  Evolution
+never selected out phenotypic effects that would be of benefit past
+reproductive age (at least such is Dawkins' theory on aging).  Hopefully once
+we have a brain constructed out of more robust components over which we have
+more control, we'll be able to simply stop this deterioration.  The problem
+only exists if the deterioration is a fundamental necessity.
+
+Nick writes (about creatures of habit):
+
+>This characteristic, along with lack of motivation & fit values, will 
+>tend to be selected out in an upload environment.
+
+Yes, and if this is so then immortals will have to choose to either remain in a
+plastic state (accepting any potential side-effects) or continuously regress
+brain subsystems to more immature states.  I think the only reasonable solution
+is what Nick mentions - to periodically refresh certain systems (motor systems
+often, cognitive systems less often, etc.).  The brain is certainly extremely
+adaptive, perhaps enough so to deal with such transplantation.  And when
+implemented in a non-biological substrate the issues of immunology are
+avoided.
+
+Finally, as Perry put it, someone who uploads before a theory of mind is
+developed can simply wait around until one is.  This is similar to the
+cryogenic suspension scheme.  Since I do believe that someday such a theory
+will be possible, I consider this an acceptable solution.  (My remaining worry
+about the prospect of radically altering the brain I will withhold)
+
+-Paul
+
+------------------------------
+
+Date: Mon, 15 Mar 93 11:20:31 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: PAGAN: Witchcraft Trial
+
+Just to let you folks know, I'm still reading the material Mr. Raymond
+forwarded. I tried to find Adler's "Drawing Down the Moon," but no
+bookstores had it. I did read about half of "Starhawk"'s "The Spiral
+Dance," and skimmed a dozen or so books on magick, Books of Shadows, how to
+cast spells, rune magic, astrology, voodoo, etc.
+
+I also tried to post a general call for help (for an admitted skeptic) to
+alt.pagan and alt.magick, which I've been reading fairly closely these past
+several days. I didn't mention the names of our list or Mr. Raymond's name.
+(He's welcome to, though.)
+
+Alas, some witchly force intervened and my posting went into the aether.
+(Actually, I think I screwed up when I told my news posting program--which
+is "tin" and is not Mac-friendly the way my newsreader, "Eudora," is--to
+post it to "alt.magick, alt.paganism". The little space between the comma
+and the next group is enough to blow the posting into irretrievable bits!)
+
+I think I can reconstruct the posting from a keystroke capture program I
+hope I left turned on.
+
+If there are any more comments on witchcraft and rationality, hasten them
+along. Judgment Day--the Vernal Equinox--is fast approaching.
+
+-Tim May
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+Date: Mon, 15 Mar 93 11:20:23 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Extropians at Cypherpunks Meeting
+
+I just wanted to tell you folks that Extropians continue to be
+well-represented at the Cypherpunks meetings, including the
+highest-attendance meeting ever, this past weekend.
+
+Since the meeting followed the Computers, Freedom, and Privacy Conference,
+we has lots of new attendees. About 50 people, crammed into the open space
+at Cygnus Support, Mountain View, CA. Fortunately, people came and went, so
+only about 35 were present at any one time.
+
+Extropians that I can recall were: Dean Tribble, Keith Henson, Steve
+Witham, Sandy Sandfort, Dave Krieger, and me. Celebrity attendees included:
+Phil Zimmermann (author of PGP), Phiber Optik (Legion of Doom case), Whit
+Diffie (coinventor of public key crypto), and others.
+
+Topics:
+
+* Status of PGP. Zimmermann talked for a while about the difficulties of
+developing with many coauthors. Some sort of "CVS"-type code repository is
+likely to be adopted, possibly running on the "demon.uk" machine in London
+(to get it out of the U.S.). (At least one U.K. cypherpunk was
+there--linked to Russell Whitaker, I'm sure.)
+
+* A project to build a secure phone using only software to drive
+widely-available sound boards was described. This would thwart efforts to
+restrict crypto by making even phone conversations encrypted, (Sound
+Blaster board for PC clones, "CELP" standard, etc.)
+
+* FIDO Net work was described.
+
+* Dean Tribble talked about reputation filters and using them with mail
+readers. I brought up the Extropian interest in mail filters (the
+Cromell/Shapiro/Feynman proposals) and also the "genetic algorithm"
+newsreader filter written at Autodesk by former Extropians list member Paul
+Baclace. Is there any interest out there in a joint project with the
+Cypherpunks to develop such mail or news filter programs?
+
+* and the usual discussion of crypto privacy (Latest great quote: "In
+cypherspace, no one can read your screen." Patterned after "In space, no
+one can hear your scream," of course.) and digital money. 
+
+The "Wired" magazine article with lots of stuff on "crypto anarchy" and
+digital privacy in general should be out late this month, I hear. And the
+rumor is still that yours truly will be on the cover (along with Eric
+Hughes and John Gilmore). A reporter for the "Village Voice," Julian
+Dibell, was at the meeting--and he'll be coming out here to Santa Cruz on
+Thursday to interview me for an article.
+
+Busy times.
+
+
+-Tim May
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+Date: Mon, 15 Mar 93 13:14:14 CST
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: NANO/AI/GP/TECH: Nanosystems, etc.
+
+[A glossary is included below] -- Good Idea!
+
+Nick Szabo responds with very interesting character strings:
+
+> I've looked a bit into a similar idea of 
+> using GAs over a list of parts for mills, robots, 3D printers, etc.
+> to design self-replicating macrofactories.
+
+That's interesting, especially because sometimes processes operate
+on parts to produce other parts, and sometimes they produce
+other processes!  LISP can do that... I wonder if a (very
+strangely) typed lambda calculus might be an appropriate formalism
+to use for activities of this kind, since it can produce and
+operate on functions.
+
+> Quite similar to the "autocatalytic 
+> network" used by Bagley, Farmer, Kaufmann et. al.
+
+Yes, catalytic networks are probably better for modelling the
+kinds of processes we're discussing, but they are more difficult
+to represent and operate on than LISP S-expressions.  I do
+wonder if such networks can be transformed via graph grammars,
+and in fact whether catalytic network "recombination" operators
+could be defined as production rules in such a grammar.
+
+I have suspicions, based primarily on issues of smooth deformability
+and evolvability, that parallel networks will prove to be more
+appropriate information processing models for evolutionary
+development than procedural languages -- but that's a topic for
+another time (and my thesis proposal).
+
+> * One problem sometimes run into with GP/GA is non-composable
+> or "deceptive" solutions: subparts contributing to
+> greater fitness in one combination do not increase their
+> likelihood of contributing to fitness in other combinations.
+> GP/GA works very poorly for this small but important minority of design 
+> problems.
+
+In fact, design problems may be more prone to deception than other
+types because of the way parts must work together.  The fitness
+function can help if cleverly designed, but
+
+> * The fitness function has to judge whether one imperfect design
+> is better than another imperfect design.  In some problems it
+> is difficult or impossible to come up with such a function.
+
+For this reason, I was kind of surprised that GP works at all!
+Still, most of the problems to which it has been applied are
+those that 1) have well-defined partial success definitions, and
+2) those are partially successful in general because they contain
+some of the right pieces that can be used in better solutions.
+Clearly, a fitness function that measures progress toward the
+moon would look more favorably on a balloon than explosives, but
+that's what we call a "local maxima"!
+
+All we need to do is make sure that we cast our problems in
+terms that allow better fitness functions to be defined!
+
+[Other excellent points about practical difficulties of applying
+GP to design problems omitted because I don't know how to
+fix them yet]
+
+> -- Since molecular simulations take so long, we need a molecular
+> cellular automaton that embodies a conservative, efficient abstraction
+> of molecular simulation models,
+
+This is quite intriguing.  In fact, just yesterday I was puzzling over
+an article called "Beyond the Turing Machine" by Brosl Hasslacher
+(from _The Universal Turing Machine:  A Half-Century Survey_), in
+which Hasslacher claims that our usual computational paradigms are
+completely unsuited for such physical modeling, and that "skeletal
+CA games" are really the way to go.
+
+> * To represent reactions we need a library of eutactic processes.
+
+Yes, this and the related requirement that the catalog of reactions
+be COMPLETE with respect to the reagents we use are, I think, the
+most important obstacles to immediate productive implementation
+of the evolutionary approach to nano-component design.
+
+> the GP might construct new tools out of the parts ...
+> This gives us a viable path to the design, which is as 
+> important as the design itself.
+
+Right, that was the whole point of using the GP paradigm to
+represent hierarchical construction processes.  It highlights
+an important distinction:  the difference between the requirements
+and the synthesis.  The two-pronged approach that Nick submits
+for attacking this issue is very interesting, and in fact
+quite compelling:
+
+  "designing down" -- searching for self-replication given
+  a realistic environment
+
+  "designing up" -- searching for realistic environment given
+  self-replication
+
+Nick suggests that the two paths could meet.  Here's how:
+
+We'll [well, *somebody* will!] define and redefine and reredefine
+a functional component-based interface that will be the actual
+goal of the "designing up" task -- something more akin to lego
+bricks or tinkertoys than chemicals.  The nature of this functional
+interface will be based on (1) convenience for expressing the
+ideas that develop about self-replication and the *functional*
+motifs that comprise it, and (2) flexible molecular building
+block libraries that result from "designing down" toward more
+complex, robust parts.
+
+Note that Nick's scheme could be used, not just for self-replication,
+but for other abstract requirements -- e.g. computation.
+
+derek 2000
+
+
+GLOSSARY
+
+lambda calculus: Notation for studying functions, created by Alonzo
+Church in the 1930's.  Often used as a bridge between theory of
+mathematics and computation.  Equivalent in computational power
+to the Turing Machine.
+
+catalytic network: often a chemical reaction needs a "catalyst"
+which is an agent that is required but is not transformed by 
+the reaction.  Dependence on catalysts can be expressed as a
+graph, which is called a catalytic network.  An auto-catalytic
+reaction is one in which a product species catalyzes its own
+production.  Processes in cell nuclei are prototypical autocatalytic
+reactions.  Important because they increase strong nonlinearities
+into normally linear chemical processes.
+
+graph grammar: rules in grammars replace structural components
+with other structural components.  Normal grammars operate on
+strings, which is convenient since ordering is the only important
+structural relation.  However, when more general structural
+relationships exist between components, those relationships must
+be updated when one or more components are replaced by one or
+more others.  Grammars with this capability are often referred
+to as "graph grammars".
+
+eutactic process: one in which precise molecular positions
+are determined.
+
+------------------------------
+
+Date: Mon, 15 Mar 93 11:33:38 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: META: Extropianism lost in the noise
+
+>>Regarding Anton's idea of a two-ended silencer, I like the idea, but think
+>>>there
+>>needs to be safe-guards.  It would be exceedingly easy for me to create an
+>>account, which, for the sake of civility, we shall call 
+>>anti-harelb@sj.ate.slb.com  Now, anti-harelb can "take out" harelb
+>>>continuously.
+>>                                                                             
+>>                                         Aunty Mark
+>
+>Yes, this is a problem.  I've proposed that we give people both ASCII arms
+>and medicine.  This would allow people to create accounts that continuously
+>counteract the effects of others' anti-accounts.  But it would also allow
+>people to give themselves huge doses of virtual medicine, thus
+>counteracting honest attempts to sanction them with ASCII arms.
+>
+>T.O. Morrow                        --  twb3@midway.uchicago.edu
+
+Why not simply use psychic disruption, voodoo, and sympathetic magick to
+disrupt or block the postings of our opponents? The effectiveness of these
+methods has recently been proved beyond any doubt on this list, and various
+religious tracts contain ample historical proof.
+
+This way, undesirable posts could just be nu
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+Date: Mon, 15 Mar 93 11:33:33 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: SOC: Taboos
+
+Richard Kennaway, commenting on Pee Wee Herman:
+
+>What other people are repelled by about him is more likely to be the minor
+>scandal he was involved in a year or two ago, concerning his presence in a
+>gay cinema and indulging in the activities which customarily go on between
+>the customers in such places.  This (his behaviour, not the absurd scandal
+>arising from it) is something which to me seems no more remarkable than an
+>interest in football.
+
+Sorry, but the movie in question was "Nurse Nancy," starring the
+spectacularly endowed Sandra Scream. It contained no gay scenes, and Paul
+Rubin's alleged activities were reportedly of a solitary nature. (This info
+from the various news reports. And, just to be sure of the facts, I myself
+rented this film. :-} )
+
+
+-Tim
+
+
+------------------------------
+
+Date: Mon, 15 Mar 93 14:34 EST
+From: kqb@whscad1.att.com
+Subject: frozen assets:
+
+Steve (sneal@muskwa.ucs.ualberta.ca) said:
+>>D. Anton Sherwood:
+>>> What about taking it with you -- that is, setting aside a trust fund for
+>>> when you wake up?
+>>
+>> Nick Szabo:
+>>There are apparently rules against perpetuities (except in Luxembourg?),
+>>but I wonder if I could insure my reanimation along these lines:
+> 
+>     It's Lichtenstein, not Luxembourg, that allows perpetual
+>trusts.  The relevant part of Spitz's Tax_Havens_Encyclopaedia sez:
+> ...
+
+Steve,
+Thanks for the information on Lichtenstein law.  FYI: Cryonics message
+number 0004 has the following note on this topic:
+
+ The Reanimation Foundation is set up to enable you to "take it with you"
+ and provide financial support for your reanimation, reeducation, and
+ reentry.  It is based in Liechtenstein, which does not have a Rule Against
+ Perpetuities, and thus allows financial assets to be owned by a person
+ long after the person is declared legally dead.
+    Reanimation Foundation
+    c/o Saul Kent
+    16280 Whispering Spur
+    Riverside, CA 92504
+    (800) 841-LIFE
+
+I cannot claim detailed knowledge about this plan, as I haven't put
+up the money to get into this particular game.  As far as "taking it
+with you" goes, though, it is the most organized attempt I have yet seen.
+(Most of us who are signed up for cryonic suspension are so much more
+concerned about whether or not we will get suspended-and-eventually-revived
+that making the next step, taking monetary assets with us, has not
+received much attention.)
+                              Kevin Q. Brown
+                              INTERNET    kqb@whscad1.att.com
+                                 or       kevin_q_brown@att.com
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0133
+****************************************
+

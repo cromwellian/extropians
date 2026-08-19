@@ -1,0 +1,422 @@
+From extropians-request@extropy.org Tue Nov 29 15:08:20 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id PAA22723 for <more@chaph.usc.edu>; Tue, 29 Nov 1994 15:06:33 -0800
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA02135; Tue, 29 Nov 94 15:03:16 PST
+Received: (from exi@localhost) by news.panix.com (8.6.9/8.6.9) id SAA01232; Tue, 29 Nov 1994 18:02:50 -0500
+Date: Tue, 29 Nov 1994 18:02:50 -0500
+Message-Id: <199411292302.SAA01232@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-11-480 - #94-11-492
+X-Extropian-Date: November 29, 374 P.N.O. [18:01:36 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Tue, 29 Nov 94             Volume 94 : Issue 332
+
+Today's Topics:
+                            'Nother Quigley Quote                     [2 msgs]
+                        BASICS: 'Nother Quigley Quote                 [1 msgs]
+                BASICS: Population, Simon Sez, and Environment        [1 msgs]
+                       COMPUTERS: the persistence of C                [1 msgs]
+                         GENE: Resurrecting the dodo?                 [2 msgs]
+                       Industrial Revolution Economics                [2 msgs]
+                    LARVAE: Extropian kids' books, schools            [1 msgs]
+                    Population, Simon Sez, and Environment            [3 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 25903 bytes.
+
+----------------------------------------------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Tue, 29 Nov 1994 01:39:25 -0800 (PST)
+Subject: [#94-11-480] COMPUTERS: the persistence of C
+
+Ray Cromwell: 
+>   Actually, the next generation of games systems are already
+> moving to operating systems and high level language. 
+
+And as you go on to point out, in each case the programming language
+is C[++].  This is because C allows one to program the hardware
+both portably _and_ efficiently at the same time, a crucial feature 
+missing from other major high level languages because their academic 
+designers dismiss the importance of making software efficient, or because
+the languages are designed for writing customized rather than widely
+used software.  The triumph of C into the games arena, without the
+benefit of any of the existing base of source code that strengthens
+the future of C in systems and mass market applications, again make 
+my point that use of C is expanding, not contracting, and it will 
+hardly be a minor player 15 years from now.
+ 
+>   Look at all the new PDAs, they are all based on scripting languages.
+> (NewtonScript, Telescript). 
+
+Perhaps not coincidentally, PDAs have also flopped.  Perhaps, unlike
+the demo groupies who sold and were sold on these kind of PDAs, real 
+users and programmers are not into the gratuitous inefficiencies and 
+decorations of the scripting languages and GUIs.
+
+Nick szabo				szabo@netcom.com
+
+------------------------------
+
+From: Anders Sandberg <nv91-asa@nada.kth.se>
+Date: Tue, 29 Nov 1994 11:22:03 +0100 (MET)
+Subject: [#94-11-481] LARVAE: Extropian kids' books, schools
+
+>> From: mdm12@psu.edu (Marlin May)
+>
+>> As Newton's birthday comes rushing towards us once again, I find myself in
+>> the position of trying to find Extropian books/gifts for a seven year old.
+
+LEGO!!! It shows how complex systems can be developed out of simple parts
+(although I fear the modern pieces have become a bit too complex for my
+taste... I prefer RISC LEGO :-). 
+
+Simon D. Levy wrote:
+>I have heard good things about Montessori schools.  Our own beloved Max
+>More went to one of those, and has spoken highly of it to me.
+
+I have also went to a Montessori school, but I fear I was less than 
+satisfied. The problem wasn't exactly the pedagogical ideas (which I 
+think are mainly sound), but the fact that I had the misfortune of going 
+to school during the extremely collectivist 70's and that the teachers 
+not yet had learned to use the pedagogical tools correctly. However, I 
+must say the materials for mathematics and geometry were excellent (too 
+bad my techers didn't understand them), and I really learned how to learn 
+things I want without outside influence. I have heard that the Montessori 
+schools of today are very different from the early schools of the 70's 
+here in Sweden.
+
+-----------------------------------------------------------------------
+Anders Sandberg			 	  	     Towards Ascension!
+nv91-asa@hemul.nada.kth.se   http://www.nada.kth.se/~nv91-asa/main.html
+GCS/M/S/O d++ -p+ c++++ !l u+ e++ m++ s+/+ n--- h+/* f+ g+ w++ t+ r+ !y
+
+
+
+
+
+
+
+------------------------------
+
+From: Phil Goetz <goetz@cs.Buffalo.EDU>
+Date: Tue, 29 Nov 1994 10:40:52 -0500
+Subject: [#94-11-482] Population, Simon Sez, and Environment
+
+> My impression from driving accross Pennsylvania is that you should have seen
+>about 50% of the land covered by forest unless the plane detours to the east.
+>Your "except on hillsides" could refer to half the land, so I'm not sure
+>whether your "NO FOREST" means much.
+
+By hillsides I mean the Appalachians.
+
+If you see the ground from the air, you will see that often the freeway
+is surrounded by a zone of forest up to a quarter mile wide on each side,
+presumably because people don't like to live next to the freeway.
+That is the case in western New York.
+
+Pennsylvania does have a lot of forest, as I think I mentioned in my post,
+but it wasn't in my flight path.  (In fact, I drove thru PA yesterday, on
+Route 15, and saw hunters by the roadside in their orange parkas.  The
+first day of hunting season is effectively a state holiday in parts of PA.)
+
+In Simon's world, there would be no room for such forests.  He speaks only
+of the need for "recreational areas", presumably like Central Park.  It
+seems clear from his writing that he would like the whole world to be more
+like Hong Kong, Taiwain, or Holland than like Pennsylvania.  He reminds me
+of a visitor from mainland China who asked me, "Why do you have all these
+forests? Why don't you cut them down?"
+
+>Gee, last I heard environmentalists were critisizing many high fat foods
+>(particulary beef) because they take more land per calorie to produce.
+>What is a calorie-free food? Nutrasweet? It's not obvious that this takes
+>more land per calorie to produce than any other food high in amino acids.
+>All that is changing here is the taste to calorie ratio. I think any trend
+>to produce less calories per acre is a figment of your imagination.
+
+I have no evidence of such a trend.  I'm just
+saying it could happen.  Since most people like to eat,
+but don't like to be fat, we can develop foods that taste great AND are
+less filling.  So the food "requirements" of the US and Europe could
+increase a great deal.  Perhaps this food will be produced in vats
+instead of in fields.  That would be great.
+
+This is an instance of a general principle which I have a hard time
+getting across --- technology enables individuals to consume more.
+
+My concern is not really with the food supply, but with land area.
+
+Phil goetz@cs.buffalo.edu
+
+------------------------------
+
+From: Phil Goetz <goetz@cs.Buffalo.EDU>
+Date: Tue, 29 Nov 1994 10:45:51 -0500
+Subject: [#94-11-483] GENE: Resurrecting the dodo?
+
+Another problem with genetic resurrection is that you will have a
+genetic bottleneck (all the species descended from a few individuals)
+unless you have DNA from a large sample (say, 1000) of organisms.
+A population created from the DNA of just a few dozen ancestors would
+be susceptible to disease.
+
+Phil goetz@cs.buffalo.edu
+
+------------------------------
+
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Date: Tue, 29 Nov 1994 10:57:06 -0500 (EST)
+Subject: [#94-11-484] Population, Simon Sez, and Environment
+
+In relation to the alarms raised on the issue of environment:
+
+- Why is it that the problems of environment can be solved by
+government force, by intimidation, by threats, but ...
+can't be solved by prices? If land is so valuable, why doesn't
+it cost more? 
+
+This is, of course, academic, because prices will always prevail,
+even if force triumphs temporararily.          
+
+How will the problem of overpopulation be solved:
+- I will pay for my space.
+
+Krzys'
+P.S. I will pay for my trees, too.
+
+------------------------------
+
+From: Phil Goetz <goetz@cs.Buffalo.EDU>
+Date: Tue, 29 Nov 1994 11:55:40 -0500
+Subject: [#94-11-485] Population, Simon Sez, and Environment
+
+>- Why is it that the problems of environment can be solved by
+>government force, by intimidation, by threats, but ...
+>can't be solved by prices? If land is so valuable, why doesn't
+>it cost more? 
+>
+>This is, of course, academic, because prices will always prevail,
+>even if force triumphs temporararily.          
+>
+>How will the problem of overpopulation be solved:
+>- I will pay for my space.
+
+Forests are communal.  The amount of land I could buy by myself would
+be miniscule.
+
+That could be overcome by groups that time-share large plots of land.
+But the basic problem is the supposition that there is an absolute market
+value, and that it is the "correct" value.
+
+The market value of a resource is set in part by governmental policies,
+which we set according to societal values.  There is no "true market value"
+unless there is no government, and I think we need government.  Not
+necessarily a central government, but something to keep everybody from
+externalizing their costs.
+
+There are values prior to market values -- moral values.  We use them to
+decide what our government is supposed to do -- what practices it will
+discourage/encourage.  If not, why even discuss these issues?
+Why have a government?
+
+Phil goetz@cs.buffalo.edu
+
+------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Tue, 29 Nov 94 17:13:50 GMT
+Subject: [#94-11-486] Industrial Revolution Economics
+
+ Nick Szabo <szabo@netcom.com> wrote: 
+>
+>"Green Goo" are parasites released by eco-terrorists for the purposes 
+>of population control.  This is already being done in Australia with 
+>other mammal species, and there are several options for bioengineering 
+>viruses that would depopulate humans to the level desired by many ecofascists,
+>either by sterility (the "humane genocide" scenario that is much more
+>easily justified in the minds of many ecofascists, thus more probable), 
+>or outright death.  This scenario is vastly more probable than the 
+>silly "gray goo" scenario.
+
+I've been having my doubts about "gray goo"--I suspect that a gray goo
+would be *very* hard to design--not the kind of thing a kid would come
+up with for a practical joke.
+
+Also, as far as I can tell, nothing but governments really indulge in
+efforts to kill huge numbers of people. Terrorists only seem to want
+to kill smallish numbers for publicity. 
+
+Nancy Lebovitz 
+
+------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Tue, 29 Nov 94 17:39:33 GMT
+Subject: [#94-11-487] Industrial Revolution Economics
+
+ "Phil G. Fraering" <pgf@srl01.cacs.usl.edu> wrote: 
+>
+>Answering Nancy's questions on definitions:
+
+Thank you to you and everyone else who's answered me. 
+>
+>Green goo is a postulated artificial construct meant to protect
+>the environment by killing large numbers of humans (yeah, like
+>the survivors of massive diebacks wouldn't burn the forests for fun
+>if they thought that's what the killers valued...)
+>
+If I were trying to survive in the havoc caused by the death of
+90%+ of the human race, I'd have better things to do than burn
+down possibly useful forests for spite.
+
+It might be better to tell environmentalists about the likely
+effects of nuclear reactors being left unattended--I bet that
+it would lead to several Chernobyls.
+
+Nancy Lebovitz 
+
+------------------------------
+
+From: Phil Goetz <goetz@cs.Buffalo.EDU>
+Date: Tue, 29 Nov 1994 13:27:49 -0500
+Subject: [#94-11-488] 'Nother Quigley Quote
+
+I don't think the Dark Ages should be taken as a model for an Extropian
+society.  I realize some of you are anarchists and think we should have
+no government.  Do you want a dog-eat-dog, red-in-tooth-and-claw jungle,
+or do you think something will prevent people from killing, pillaging,
+raping, etc.?  Local militias are not the answer -- we've always had
+local militias.
+
+Phil goetz@cs.buffalo.edu
+
+------------------------------
+
+From: machado@newton.apple.com (Romana Machado)
+Date: Tue, 29 Nov 1994 10:47:56 -0800
+Subject: [#94-11-489] BASICS: Population, Simon Sez, and Environment
+
+>Phil goetz@cs.buffalo.edu says:
+
+>There are values prior to market values -- moral values.  We use them to
+>decide what our government is supposed to do -- what practices it will
+>discourage/encourage.  If not, why even discuss these issues?
+>Why have a government?
+>
+Good question, Phil. Here are a few more. Are moral values prior to market
+values? Do our economic decisions define our actual, rather than purported,
+values?  Is it possible to legislate morality? When is it practical to
+impose your morals on others by force? Does prohibition ever work?
+
+If you haven't read _The Machinery Of Freedom_, by David Friedman, and
+_Ain't Nobody's Business If You Do_, by Peter McWilliams, I highly
+recommend both books for their exploration of these issues.
+
+............................................................................
+Romana Machado
+romana@apple.com
+http://www.mps.ohio-state.edu/cgi-bin/hpp?romanaHQ.html
+............................................................................
+Without deviation from the norm,
+progress is not possible.  - Frank Zappa
+
+
+
+------------------------------
+
+From: machado@newton.apple.com (Romana Machado)
+Date: Tue, 29 Nov 1994 10:57:57 -0800
+Subject: [#94-11-490] BASICS: 'Nother Quigley Quote
+
+Goetz says:
+> Do you want a dog-eat-dog, red-in-tooth-and-claw jungle,
+>or do you think something will prevent people from killing, pillaging,
+>raping, etc.?  Local militias are not the answer -- we've always had
+>local militias.
+
+And, so? Do you think that government is what keeps people from raping and
+killing each other? Where are your "prior moral values" now? Do you expect
+that commerce and trade would disappear in the absence of government?
+
+............................................................................
+Romana Machado
+romana@apple.com
+http://www.mps.ohio-state.edu/cgi-bin/hpp?romanaHQ.html
+............................................................................
+Without deviation from the norm,
+progress is not possible.  - Frank Zappa
+
+
+
+------------------------------
+
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Date: Tue, 29 Nov 1994 14:08:54 -0500 (EST)
+Subject: [#94-11-491] 'Nother Quigley Quote
+
+If Capitalism is presented as "dog-eat-dog" how is it that 
+"people-eat-people" socialism is never mentioned. No barbarism in
+history of mankind matches that of socialist governments of the
+twnetieth century. Or as Joe Sobran said it -- we live at the end
+of the century in which governments murdered hundreds of millions
+of people, and some people are still fighting robber barons.
+Krzys'
+
+------------------------------
+
+From: Webb_S <WebbS@oplc.psb.bls.gov>
+Date: Tue, 29 Nov 94 14:33:00 EST
+Subject: [#94-11-492] GENE: Resurrecting the dodo?
+
+Nancy Lebovitz wrote:
+>>
+>> -  The fact that birds were much smaller than most dinosaurs, which
+violates
+>>Cope's rule of evolution (small forms evolve from larger forms, not
+>>vice-versa).
+>>
+>!!!! Then where do large animals come from?
+
+Oops.  Yer right, Cope's rule states that large forms evolve from small 
+forms.  That obviously makes more sense in the context of what I was saying. 
+ Olshevsky's question was how could wee little birdies like sparrows evolve 
+from giants like T. Rex?  (Well, OK, nobody's claiming that they did, but 
+even supposed bird precursors like the velociraptors were around 6' long and 
+weighed 150 pounds or more.)
+
+Sorry for that bit of dyslexia.
+
+Steven Webb
+webbs@oplc.psb.bls.gov
+
+Sic semper tyrannosauraus!
+
+------------------------------
+
+End of Extropians Digest V94 #332
+*********************************
+

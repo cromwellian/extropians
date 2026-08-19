@@ -1,0 +1,947 @@
+From exi@news.panix.com Sat Aug 14 08:18:37 1993
+Return-Path: <exi@news.panix.com>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA11299; Sat, 14 Aug 93 08:18:36 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA10778; Sat, 14 Aug 93 08:18:26 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA04047
+  (5.65c/IDA-1.4.4 for more@usc.edu); Sat, 14 Aug 1993 11:14:33 -0400
+Date: Sat, 14 Aug 1993 11:14:33 -0400
+Message-Id: <199308141514.AA04047@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: August 14, 373 P.N.O. [15:14:27 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Sat, 14 Aug 93             Volume 93 : Issue 225
+
+Today's Topics:
+                                                                      [2 msgs]
+                            Axioms and Accusations                    [1 msgs]
+                              The Axiom of Action                     [1 msgs]
+                           AI's as dangerous slaves                   [1 msgs]
+                          AI: Searle's Chinese Room                   [1 msgs]
+                         AI: slaves, selfishness, evo                 [1 msgs]
+                 AMiX: Failure of AMiX?? This is news to me!          [1 msgs]
+                                    Axioms                            [1 msgs]
+                            Extropaganza Lodgings                     [1 msgs]
+    HUMOR: Hillary Clinton's Guide to Medical Terms and their Definitions[1 msgs]
+                              META: test, ignore                      [1 msgs]
+                            Nightly Market Report                     [1 msgs]
+                      PERSONAL: Travelling to Montreal.               [1 msgs]
+                       PHIL: The volume of an electron                [1 msgs]
+                       PHIL: The volume of an electron                [1 msgs]
+                    PROP: Intellectual Property, ppl, etc.            [1 msgs]
+                          Privacy-Friendly Auditing                   [1 msgs]
+                                   Request                            [1 msgs]
+                               good predictors                        [1 msgs]
+                                   meteors                            [1 msgs]
+                          physics: potential energy;                  [1 msgs]
+                                     test                             [1 msgs]
+                             time delays on posts                     [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52827 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 13 Aug 1993 14:26:05 -0400
+From: Extropy Institute <exi@news.panix.com>
+Subject: 
+
+rjc@gnu.ai.mit.edu habs@panix.com
+From: rjc
+To: extropians
+Subject: test
+
+test
+
+------------------------------
+
+Date: Fri, 13 Aug 93 11:33:40 PDT
+From: thamilto@pcocd2.intel.com (Tony Hamilton - FES ERG~)
+Subject: Axioms
+
+> >Objection: irrelevant.  The subject is human ACTION, not human "behavior."
+> >Dead humans behave.  They do not act.
+> 
+> Ah... so "action" is DEFINED as purposeful behavior.  Well, can't argue
+> with that.  Petitio principii, anyone?
+
+Indeed, action and behavior can easily be considered synonyms. You need to
+qualify them more to differentiate them. I don't see a problem with just
+saying "purposeful behavior", or anything like that. We don't _always_ have
+to have a single word for everything.
+
+>                                         dV/dt
+> 
+> Remember, folks, I'm DVDT on HEx, and Tim is TIM.
+
+And I'm HAM. Glad to meet ya... ;-)
+
+Tony Hamilton  
+thamilto@pcocd2.intel.com
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 11:59:09 -0700
+From: Hastings@courier8.aero.org
+Subject: Privacy-Friendly Auditing
+
+I sent messages pertaining to the anonymous auditing problem to Neils
+Ferguson, and like someone who hopes the property owner forgives the
+trespass that occurs when someone walks up and rings the doorbell, I
+hope he doesn't "have a cow" that I'm sharing some of his remarks.
+ 
+>The anonymous auditing problem is, as far as I have understood, not
+>well defined.
+ 
+Duh!!! Ahem...
+ 
+>The purpose is to allow an external auditor compute the sum of all
+>the banks commitments without revealing the individual commitments
+>to the auditor. The problem is: who is going to provide the data to
+>the auditor?
+ 
+>The simplest answer would be that the customers are going to provide
+>the data. In this case the voting protocols described in literature
+>are a good start. It should even be possible to have the bank provide
+>signed account statements for a specific date to all clients which are
+>then used in the protocol to prevent clients from cheating and thereby
+>generating a false result in the audit. But any such scheme is not
+>practical as ALL customers have to cooperate.
+ 
+>If the bank is going to supply the information to the auditors, then
+>there must be some way to stop the bank from creating an entire
+>`shadow' bookkeeping. That is, the data must include some kind of
+>customers signature on the balance of each bankaccount, and the public
+>key of this customer must somehow be verified to belong to a real
+>person (to ensure that it was not generated by the bank itself). The
+>authentication of a public key and linking it to an actual person
+>requires another institution (government?) which keeps track of people
+>and authenticates that they are actual living persons.
+ 
+>Note that all this information does not have to be revealed to the
+>auditor, but it is necessary as input to the cryptographic protocol.
+>In general a cryptographic protocol cannot achieve anything that a
+>computer which is trusted by all parties cannot achieve. If someone
+>could give a description of the required functionality of this virtual
+>trusted computer, then the cryptographers can try to make it into a
+>protocol (and then try to make it practical).
+ 
+>Did I miss something when I quickly read your mail or is the notion of
+>an anonymous auditing still vague?
+ 
+>I havn't studied voting schemes but most of them have serious flaws.
+>Many of them have difficulty handling a dishonest minority, or require
+>too much resources to be practical. One requirement for voting schemes
+>which I have not seen in literature is the unprovability. After voting
+>a voter should not be able to prove what she voted to another party.
+>If this were possible, then buying votes (or blackmailing people to
+>vote a certain way) becomes possible. The old Italian voting system
+>had so many possibilities to cast your vote that this was used by the
+>Mafia in certain areas. They would approach a person and basically
+>state: "You'd better make sure that there is a ballot with exactly
+>these choices in the result or else....".
+ 
+>I don't read the cypherpunk mailing list. If it were a newsgroup I
+>would find it quite interesting, but as a mailing list it is much
+>harder for me to selectively read the articles. Also, my mail handler
+>doesn't support a kill file. When I tried a subscription I found the
+>signal to noise ration to be too low to read it as a mailing list. The
+>volume was also so high that it drowned out my other e-mail. With a
+>newsgroup you can safely ignore it for a while. Maybe I should get a
+>better mail handler, but when I mentioned this problem to Eric Hughes,
+>he said that they could have created a newsgroup but decided not to. A
+>clear mistake in my opinion. Anyways, maybe someone will create an
+>alt.cypherpunk newsgroup and put up a gateway from the mailing list to
+>the newsgroup.
+ 
+Niels Ferguson can be reached at niels@cwi.nl, and I'm sure one of you
+finks will rat on me and tell him I'm betraying confidentiality. Well,
+go ahead, you'll see what I do to you.
+ 
+Kent - <jkhastings@aol.com>
+ 
+ 
+
+------------------------------
+
+Date: Mon, 09 Aug 93 07:21:18 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: physics: potential energy;
+
+Ray Cromwell sez, by way of answering Anton:
+
+>   Be careful. You are discussing the potential _gravitational_ energy.
+> If this were to gravitate, we would have to say that 
+> "gravity gravitates."
+
+And so it does, and is often said.  Anton is correct when he says:
+
+>> Between two masses there is negative gravitational potential 
+>> energy (-Gmm/d).  Energy is equivalent to mass, so this negative
+>> energy has negative gravity [..] in a cloud between them
+
+although it rather trickly trying to localise it.
+> 
+>   Potential energy represents the energy required to move an object 
+> along a path through a field. Thus, potential energy is a measure of
+> the energy of the field. I know that electromagnetic fields can
+> gravitate, I'm not sure about the other forces (strong, weak,
+> gravity). 
+
+They all gravitate because all the fields (and everything else) have 
+energy and hence mass.
+
+>   Intuitively, I would guess that gravity doesn't gravitate 
+> because that would lead to a runaway affect.
+
+Same happens to the strong force (ie the strong force field also 
+contributes to the strong force in its own right).  Makes it harder
+to calculate, but not paradoxical.
+
+>   What this all points out is that you have to be careful about how
+> you apply E=mc^2. For instance, using E=mc^2 we can give mass to
+> photons but we know that photons can't possess mass because they
+> ravel at the speed of light. E=mc^2 is only half the equation. The
+> real equation for massless particles is E=pc, derived from E^2 =
+> (pc)^2 + (mc^2)^2  (p is the momentum, let m=0) 
+
+I know Ray's aware of this, but this is confusing.  In E=mc^2  m is the
+relativistic mass (ie the mass that includes the energy of motion of an
+object).  In E^2 = (pc)^2 + (mc^2)^2   m is the rest mass only.
+
+> -- Ray Cromwell  
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Fri, 13 Aug 93 13:18:07 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: PHIL: The volume of an electron
+
+> From: rjc@gnu.ai.mit.edu (Ray)
+> X-Message-Number: #93-8-271
+
+>    There was a thread in rec.arts.sf.science not too long ago which 
+> "disproved" the plausibility of Vinge's bobbles based on relativity.
+> If bobbles are incompressible, and you can push them around (like in the
+> book), you can signal faster than the speed of light.
+
+Bobbles also break conservation -- their creation requires an energy
+input (variable for a given size, too), but this energy is not released
+when they "burst".
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Mon, 09 Aug 93 07:30:31 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: good predictors
+
+Dan Goodman asks:
+> 
+> I'm looking for writers who 1) Have/had a consistently good record of 
+> prediction or 2) made one, or perhaps a few, lucky hits.
+> 
+Arthur C Clarke and the geostationary telecommunications satellite.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Mon, 09 Aug 93 08:40:55 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: AI: slaves, selfishness, evo
+
+Fnerd:
+> Mike Price <price@price.demon.co.uk> sez-
+> 
+>> ...The goals were hardwired in by evolution [but] the parental
+>> drive has become *detached* from the genetic link and is an
+>> [unselfish] independent goal wired into our heads
+
+> Sounds like a plausible use for the term "unselfish"--something 
+> you'd expect to eventually evolve away--IF your explanation is 
+> true.
+
+Okay, sounds like we talking the same language here.  But...
+
+> Another is that parenthood is mostly motivated by "fun and
+> love"--i.e., goals of the meme-organism.
+
+IMO goals are the meme-organism are subservient to the genetic, primary
+goals of the organism (or equivalently that the memic goals are selected
+by the genetic goals - the m-goals are the expression and sub-goals of
+the g-goals).  Memes are selected and incorporated on the basis of their
+fit with the existing goal structure.  Doing something for "fun and
+love" does not mean that it not a genetic goal (or sub-goal thereof). 
+And probably does means that it is.
+
+> Our genes program our bodies to hitch a ride on a meme-beast whose
+> goals are mostly independent.  I'm flipping my metaphor, but either
+> way the memes are mostly in charge and the genes just ask for an
+> occasional detour.
+
+I wouldn't put it like that.  The first meme-goals were selected by the
+genetic goals and defined the original direction of our lives (with some
+input from our parents' meme-goals :-)  The memes may be mostly in
+charge now, but that's only because the gene-goals passed control over
+to a "safe pair of hands".
+
+> I don't get what you're saying about expression of goals.
+
+Simply that the expression of a gene-goal as behaviour is independent
+of the evolutionary forces that created it.  Eg that parenthood was
+built in to spread our genes through our children but parenthood can be
+misapplied to rear step-children, in blissful indifference to the
+"reason".
+
+> 
+>>>   In designing a robot slave, you're given a master who has little
+>>>    interest in, or ability to, or time to, adapt to the slave.
+>>>    I.e., you're not free to modify one important part.
+>> Disagree.  Designers of AI slaves are going to be very concerned to
+>> produce impressionable slaves - perhaps designed to be imprinted to
+>> obey the first master they meet or are sold to.
+> 
+> My point is that not being able to redesign the master (as our genes
+> can) makes the design job harder.
+
+The design obedient slaves?  I don't follow.  Surely the design of a
+general purpose obedient slave is independent of the masters'
+structures?
+
+>  Now you're volunteering to design a one-size-fits-all slave,
+> constricting your choices further, making it even harder.
+
+I'm lost by your reasoning.
+
+> 
+>>>   The more learning ability or intelligence you have, the 
+>>>    harder it is for the genes to tame the memes.
+>> Disagree.  Intelligence is a tool, a means to ends.  Why should 
+>> more intelligence / problem solving ability reduce the 
+>> effectiveness of the tool?
+> Intelligence does not exist as a separate capability.
+
+I'm not sure if this statement has any content.  The world's full of
+intelligent beings with (very) different goals.
+
+>  All of the intelligences we know are self-promoting memeplexes.
+
+I agree, but the original meme-stance is set by the genes.  We are no
+freer to change our primary goals than a frog is to turn vegan.
+
+>  They are not means to ends but treat themselves as their own ends.
+
+Yes, but they are not free to modify those ends - see below.
+
+> Better brains would presumably evolve intelligences that were
+> better -- at promoting their own interests
+
+But their "own interests" are defined by their goals, which are auto-
+immutable.  Try committing suicide - you can't because you don't _want_
+to.  (Of course some people do commit suicide to satisfy other primary
+goals, like avoidance of pain under torture or ill-health, but I'm
+guessing that Fnerd's not in that invidious position.  To him the will
+to live is immutable - if he redesigned himself he'd leave this goal
+in.)
+
+ -- and harder to bend to other goals.
+
+No intelligence ever has any interest in any but it's _own_ goals.  But
+these goals were not defined by the intelligence - they were already
+hardwired in from the start.  The role of intelligence is to break down
+the externally given goals into sub-goals, appropriate to the world it
+finds itself in, and engage in goal-seeking behaviour.
+
+> All goals are provisional and held in place (or modified or
+> removed) by other goals for which they are subgoals.  And the
+> supergoals are in turn subgoals.  "It's turtles all the way down,"
+> because it goes around.
+
+Absolutely, the chains of goals and sub-goals loop back on themselves
+forming self-reinforcing loops.  More intelligent entities form a more
+complex web of sub-goals so that, IMO, they are even more motivationally
+stable.
+
+> Stubborn goals are meant to be thwarted and frustrated.
+
+You'll have to explain this.
+
+>> I see no reason why life in the service of a master should not be
+>> as interesting and stimulating for slaves as life in the Darwinian
+>> world is for us.
+> 
+> Right, if you can construct a world that the slave can't escape or
+> subvert, and what he does inside it is reasonably profitable on the
+> outside for the owner, compared to the profitability of free AIs.
+> The last condition is something our genes haven't had to cope with
+> yet--another reason we aren't good examples of viable slaves.
+
+On the contrary, we are all slaves to our desires and therefore
+excellent examples of viable slaves.  What desire have we to escape from
+our memeplex?
+
+>> Probably a set of slaves wired to obey a particular master would 
+>> form a structure very similar to a religion like the RC Church or
+>> Islam
+
+> What percentage tithe can you expect to get away with?
+
+Voluntary contributions only please.  I would encourage them to view
+contributions as devotional offerings, competing with each other to
+express their fervour (and therefore being copied more by the Church of
+Price).  Kamikaze behaviour is rewarded by posthumous copying of
+backups.  After all, it's about time religion became a force for good
+in the world.  :-)  :-)  :-)
+
+> -fnerd
+> quote me
+
+-Mike Price
+Obey me
+
+------------------------------
+
+Date: Fri, 13 Aug 93 13:22:18 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: PROP: Intellectual Property, ppl, etc.
+
+T. David Burns writes:
+>At  4:02 PM 8/8/93 -0700, Robin Hanson wrote:
+>>If no copyrights or patents (or any other form of intellectual property)
+>>were the efficient pairwise contract, folks would want to contract that
+>>way regardless of their initial situation. 
+>
+>Is Friedman claiming this is pairwise efficient? I understood it to depend
+>mostly on externalities, that the gain experienced by third parties was
+>greater than the loss of the principals.
+
+By "pairwise efficient" I meant what two parties would want to
+negotiate, holding relations between all other pairs constant and
+ignoring external effects on other parties.  This is in contrast to
+"efficient" which is what everyone would want to agree on together.
+It seemed clear to me that David Friedman claimed that even if
+intellectual property were efficient, it's absence would be pairwise
+efficient, regardless of which other pairs do or don't respect such
+property.
+
+Robin Hanson
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 16:39:20 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: PHIL: The volume of an electron 
+
+Eli Brandt says:
+> > From: rjc@gnu.ai.mit.edu (Ray)
+> > X-Message-Number: #93-8-271
+> 
+> >    There was a thread in rec.arts.sf.science not too long ago which 
+> > "disproved" the plausibility of Vinge's bobbles based on relativity.
+> > If bobbles are incompressible, and you can push them around (like in the
+> > book), you can signal faster than the speed of light.
+> 
+> Bobbles also break conservation -- their creation requires an energy
+> input (variable for a given size, too), but this energy is not released
+> when they "burst".
+
+It might have been released -- the energy required was supplied by
+small batteries at one point in "The Peace War". However, as this is
+all imaginary anyway, what does it matter?
+
+Perry
+
+------------------------------
+
+Date: 	Fri, 13 Aug 1993 16:59:19 -0400
+From: nzr20@amdahlcsdc.com (Nicholas Russon)
+Subject: Request
+
+-- 
+Nicholas Russon  nzr20@meadow.uucp           | Giving money and power to
+Amdahl Canada    nzr20@amail.amdahl.com      | government is like giving
+416-542-6530     nicholas.russon@canrem.uucp | whiskey and car keys to
+416-750-0979                                 | teenage boys.  (P.J. O'Rourke)
+
+------------------------------
+
+Date: Fri, 13 Aug 93 14:59:19 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: AMiX: Failure of AMiX?? This is news to me!
+
+I write:
+> >We should learn from the failure of Xanadu, Amix, etc.
+
+Dave Krieger corrects me on AMiX:
+> "Reports of my death have been greatly exaggerated."
+
+My apologies!  I'm guilty here of repeating what I heard
+in a conversation, probably mis-remembered.
+
+Nick Szabo					szabo@netcom.com
+
+------------------------------
+
+Date: Fri, 13 Aug 93 07:44:52 GMT
+From: "Stephen J. Whitrow" <sjw@liberty.demon.co.uk>
+Subject: meteors
+
+The night of 11-12th was rather a washout in Southern Britain, with
+cloud cover spoiling the view. I spotted one meteor during a period
+of thinning clouds.
+
+However, 12-13th at least provided a clear sky. I saw about a dozen
+meteors, looking at various times from 2130 to 0030 GMT. Sometimes
+2 or 3 showed up within a couple of minutes. A few were quite good,
+with a clearly discernible trail.
+
+Steve Whitrow                           sjw@liberty.demon.co.uk
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 19:46:26 -0400 (EDT)
+From: Mark Sulkowski <SULKOM@ubvmsb.cc.buffalo.edu>
+Subject: HUMOR: Hillary Clinton's Guide to Medical Terms and their Definitions
+
+	I found a photocopy of the following being passed around.
+
+	I thought I would share it with you.
+
+----------------------------------------------------------------------------
+
+   Hillary Clinton's Guide to Medical Terms and their Definitions
+
+Artery....................The Study of Paintings
+Bacteria..................The Back Door of a Cafeteria
+Barium....................What Doctors Do When a Patient Dies
+Bowel.....................A Letter like A,E,I,O, or U
+Cesarean Section..........A Neighborhood in Rome
+Cat Scan..................Searching for Kitty
+Cauterize.................Had Eye Contact With Her
+Colic.....................A Sheep Dog
+D & C.....................Where Washington Is
+Dilate....................To Live Long
+Enema.....................Not a Friend
+Fester....................Quicker
+Genital...................Not a Jew
+G.I. Series...............Soldier Ball Game
+Hangnail..................Coat Hook
+Impotent..................Distinguished, Well Known
+Labor Pain................Getting Hurt at Work
+Medical Staff.............A Doctor's Cane
+Morbid....................A Higher Offer
+Nitrates..................Cheaper than Day Rates
+Node......................Was Aware Of
+Outpatient................A Person Who Fainted
+Pap smear.................A Fatherhood Test
+Pelvis....................A Cousin to Elvis
+Postoperative.............A Letter Carrier
+Recovery Room.............A Place to do Upholstery
+Rectum....................Dang Near Killed 'Em
+Seizure...................Roman Emperor
+Tablet....................A Small Table
+Terminal Illness..........Getting Sick at the Airport
+Tumor.....................More than One
+Urine.....................Opposite of You're Out
+Varicose..................Nearby
+Vein......................Conceited
+
+-----------------------------------------------------------------------------
+
+
+        *    .
+====\\.    ~  //====
+||   \\ ~ . *//   ||
+||    \\ *  //    || 
+||     \\.~//     || 
+||      \\//      || 
+|| Mark  \/enture ||
+====================
+
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 20:51:06 -0400 (EDT)
+From: Harry Shapiro <habs>
+Subject: Extropaganza Lodgings
+
+a conscious being, Mark Desilets wrote:
+> Merrybrook Lodge (cabins): (408)338-6813, About 1.5 Miles, $70/night
+
+I will be staying here.
+
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+EXTROPY -- A measure of intelligence, information, energy, vitality,
+experience, diversity, opportunity, and growth.  EXTROPIANISM -- The
+philosophy that seeks to increase extropy.          
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 20:59:43 -0400 (EDT)
+From: Harry Shapiro <habs>
+Subject: time delays on posts
+
+a conscious being, Michael Clive Price wrote:
+> on the list.  My post to appear took over a day and the last one I sent
+> is about 2 or 3 days over due.
+
+It probally went out ok. If it didn't would either be delays
+get from your site to the list, or more likely once posted, a
+dely in getting back to you.
+
+/hawk
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+EXTROPY -- A measure of intelligence, information, energy, vitality,
+experience, diversity, opportunity, and growth.  EXTROPIANISM -- The
+philosophy that seeks to increase extropy.          
+
+------------------------------
+
+Date:    Fri, 13 Aug 93 18:11 PDT
+From: ibhdnw8                              <IBHDNW8@MVS.OAC.UCLA.EDU>
+Subject: AI: Searle's Chinese Room
+
+------------------------------TEXT-OF-YOUR-MAIL--------------------------------
+
+> Received: (from UCLAMVS for <extropians-request@gnu.ai.mit.edu> via BSMTP)
+> Received: (from SMTP@UCLAMVS for MAILER@UCLAMVS via NJE)
+>  (UCLA/Mail V1.502 M-SMTP-3099-39); Mon, 26 Jul 93 01:29:05 PDT
+> Received: from ude.tim.ia.ung.gnu.ai.mit.ed by MVS.OAC.UCLA.EDU
+>    (IBM MVS SMTP V2R2.1) with TCP; Mon, 26 Jul 93 01:28:56 PST
+> Received: by ude.tim.ia.ung.gnu.ai.mit.edu
+>  id AA00688; Mon, 26 Jul 93 04:06:51 EDT
+> Received: from panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+>  id AA00683; Mon, 26 Jul 93 04:06:35 EDT
+> Received: by panix.com id AA20682
+>   (5.65c/IDA-1.4.4 for exi-remail@ung.gnu.ai.mit.edu); Mon, 26 Jul 1993 03:58:
+12
+>  -0400
+> To: Exi@PANIX.COM
+> Message-Id: <m0oKNUS-000hzmC@techbook.techbook.com>
+> From: szabo@TECHBOOK.COM(Nick Szabo)
+> Subject: AI: Searle's Chinese Room
+> X-Original-To: extropians@gnu.ai.mit.edu
+> Date: Mon, 26 Jul 1993 01:00:58 -0700 (PDT)
+> X-Extropian-Date: Remailed on July 26, 373 P.N.O. [07:58:10 UTC]
+> X-Message-Number: #93-7-1012
+> Reply-To: extropians@GNU.AI.MIT.EDU
+> Errors-To: Extropians-Request@gnu.ai.mit.edu
+>
+> Could we simulate a human brain, slowed down by a factor very large
+> but less than the busy beaver number, by writing symbols on a chalkboard?
+> This might involve, say 10^9 people writing symbols on a chalkboard
+> the size of Manhattan, and sharing results with their neighbors.
+> This might be a "nanosecond Turing test", eg the simulated brain would
+> have behave indistinguishably from a real brain for a nanosecond,
+> during a simulation that might last billions of years and involve
+> billions of people scriblling in parallel.
+>
+> How long is the shortest behavior unique to a conscious being?
+> (A picosecond?  Nanosecond?  Millisecond?  Second?)
+>
+> Nick Szabo     szabo@techbook.com
+
+------------------------------
+
+Date:    Fri, 13 Aug 93 18:11 PDT
+From: ibhdnw8                              <IBHDNW8@MVS.OAC.UCLA.EDU>
+Subject: AI: Searle's Chinese Room
+
+------------------------------TEXT-OF-YOUR-MAIL--------------------------------
+
+> Received: (from UCLAMVS for <extropians-request@gnu.ai.mit.edu> via BSMTP)
+> Received: (from SMTP@UCLAMVS for MAILER@UCLAMVS via NJE)
+>  (UCLA/Mail V1.502 M-SMTP-3099-39); Mon, 26 Jul 93 01:29:05 PDT
+> Received: from ude.tim.ia.ung.gnu.ai.mit.ed by MVS.OAC.UCLA.EDU
+>    (IBM MVS SMTP V2R2.1) with TCP; Mon, 26 Jul 93 01:28:56 PST
+> Received: by ude.tim.ia.ung.gnu.ai.mit.edu
+>  id AA00688; Mon, 26 Jul 93 04:06:51 EDT
+> Received: from panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+>  id AA00683; Mon, 26 Jul 93 04:06:35 EDT
+> Received: by panix.com id AA20682
+>   (5.65c/IDA-1.4.4 for exi-remail@ung.gnu.ai.mit.edu); Mon, 26 Jul 1993 03:58:
+12
+>  -0400
+> To: Exi@PANIX.COM
+> Message-Id: <m0oKNUS-000hzmC@techbook.techbook.com>
+> From: szabo@TECHBOOK.COM(Nick Szabo)
+> Subject: AI: Searle's Chinese Room
+> X-Original-To: extropians@gnu.ai.mit.edu
+> Date: Mon, 26 Jul 1993 01:00:58 -0700 (PDT)
+> X-Extropian-Date: Remailed on July 26, 373 P.N.O. [07:58:10 UTC]
+> X-Message-Number: #93-7-1012
+> Reply-To: extropians@GNU.AI.MIT.EDU
+> Errors-To: Extropians-Request@gnu.ai.mit.edu
+>
+> Could we simulate a human brain, slowed down by a factor very large
+> but less than the busy beaver number, by writing symbols on a chalkboard?
+> This might involve, say 10^9 people writing symbols on a chalkboard
+> the size of Manhattan, and sharing results with their neighbors.
+> This might be a "nanosecond Turing test", eg the simulated brain would
+> have behave indistinguishably from a real brain for a nanosecond,
+> during a simulation that might last billions of years and involve
+> billions of people scriblling in parallel.
+>
+> How long is the shortest behavior unique to a conscious being?
+> (A picosecond?  Nanosecond?  Millisecond?  Second?)
+>
+> Nick Szabo     szabo@techbook.com
+
+------------------------------
+
+Date: Fri, 13 Aug 93 19:10:54 EDT
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: AI's as dangerous slaves
+
+edgar@spectrx.saigon.com (Edgar W. Swank) sez-
+
+> FutureNerd Steve Witham replies to my comments:
+>     The problem with following orders is in making a non-learning
+>     system that can understand the orders and figure out whether
+>     they're being followed.
+> 
+> I never said the AI should be "non-learning."  I said the highest
+> level should be programmed, not a neural net.  I assert that
+> programming and learning are not incompatible.
+
+I assert that unless you allow the *highest level* to change itself,
+then that is the part of the system that will not be smart enough
+to figure out what to do.  And if you do let the highest level change,
+then it won't stick to the goal (at least, it will be infeasible to
+program a system that will be both smart and programmed in the pre-
+uploading timeframe).  
+
+-fnerd
+quote me
+
+------------------------------
+
+Date: Sat, 14 Aug 93 00:10:04 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+News Summary as of: Sat Aug 14 00:10:03 EDT 1993
+
+
+Newly Registered Reputations:
+(None)
+
+New Share Issues:
+(None)
+
+Share Splits:
+(None)
+
+
+Market Summary as of: Sat Aug 14 00:00:03 EDT 1993
+
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+1000          .10      .20      .10        10000         2000          200.00
+110           .01      .10        -        10000            -               -
+150           .01      .10        -        10000            -               -
+1E6           .02      .10        -        10000            -               -
+1E9           .01      .10        -        10000            -               -
+200           .10      .20      .10        10000         2000          200.00
+80            .01      .10        -        10000            -               -
+90            .01      .20      .10        10000         2000          200.00
+ACS           .10      .15      .50        10000         1124          562.00
+AI            .01      .30      .20        10000         1000          200.00
+ALCOR        2.00     3.80     2.00        10000         3031         6062.00
+ALTINST         -      .15      .15        10000         2500          375.00
+ANTON         .02     1.00      .02        10000            3             .06
+ARKU            -      .20      .05        10000         3000          150.00
+BIOPR         .01      .18      .10        10000         1500          150.00
+BLAIR         .01    30.00    50.00        10000           25         1250.00
+CYPHP         .15      .17      .17        10000          100           17.00
+DEREK           -      .42     1.00       100000         8220         8220.00
+DRXLR        1.00     2.00     2.00        10000         2246         4492.00
+DVDT          .75     1.55     1.55        10000         9900        15345.00
+E             .58      .70      .65        10000         5987         3891.55
+ESR             -        -        -            -            -               -
+EXI          1.00     3.00     1.30        10000         3025         3932.50
+FAB             -        -        -            -            -               -
+FCP             -        -     2.00        80000         7320        14640.00
+GHG           .01      .30      .01        10000         6755           67.55
+GOBEL         .01      .30     1.00        10000          767          767.00
+GOD           .10      .20      .10        10000         1000          100.00
+H             .76      .76      .76        30000        18750        14250.00
+HAM           .01      .55      .50        10000         5460         2730.00
+HEINLN        .01      .25        -        10000            -               -
+HEX        100.00   101.00   100.00        10000         3330       333000.00
+HFINN        2.00     6.00      .75        10000         1005          753.75
+IMMFR         .25      .80      .49        10000         1401          686.49
+JFREE         .01      .15      .10        10000         3000          300.00
+JPP           .25      .26      .25        10000         2510          627.50
+KARL            -        -        -            -            -               -
+LEARY         .01      .20      .20        10000          100           20.00
+LEF           .01      .15      .30        10000         1526          457.80
+LEFTY         .01      .45      .30        10000         3051          915.30
+LIST          .40      .75      .50        10000         5000         2500.00
+LP            .01      .09        -        10000            -               -
+LSOFT        1.00        -      .60        10000         7550         4530.00
+LURKR         .06      .07        -       100000            -               -
+MARCR           -        -        -            -            -               -
+MED21         .01      .08        -        10000            -               -
+MLINK           -      .01      .02      1000000         2602           52.04
+MMORE           -      .10        -        10000            -               -
+MORE          .75     1.25      .75        10000         3000         2250.00
+MWM           .15      .15     1.50        10000         1260         1890.00
+N           20.00    25.00    25.00        10000          108         2700.00
+NEWTON          -      .20        -        10000            -               -
+NSS           .01      .05        -        10000            -               -
+OCEAN         .11      .12      .11        10000         1700          187.00
+P           20.00    25.00    25.00      1000000           80         2000.00
+PETER           -      .01     1.00     10000000          600          600.00
+PLANET        .01      .09      .05        10000         1500           75.00
+PPL           .11      .25      .10        10000          400           40.00
+PRICE           -     4.00     2.00     10000000         1410         2820.00
+R             .49     2.80      .99        10000         5100         5049.00
+RAND            -      .06        -        10000            -               -
+RJC          1.00   999.00      .60        10000         5100         3060.00
+ROMA            -        -        -            -            -               -
+RWHIT           -        -        -            -            -               -
+SGP             -        -        -        10000            -               -
+SHAWN         .01     1.00        -        10000            -               -
+SSI             -      .05        -        10000            -               -
+TCMAY         .40      .63      .75        10000         4000         3000.00
+TIM           .25     1.00     1.00        10000          700          700.00
+TRANS         .01      .05      .40        10000         1511          604.40
+VINGE         .20      .50      .50        10000         1001          500.50
+WILKEN       1.00    10.00    10.00        10000          101         1010.00
+-----------------------------------------------------------------------------
+Total                                                               448130.44
+
+------------------------------
+
+Date: Sat, 14 Aug 1993 00:58:38 -0400
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Subject: PERSONAL: Travelling to Montreal.
+
+  I am planning to visit Montreal for a couple of days sometime next week,
+and would like to meet fellow extropians who live there, on on the way
+there from Boston, or near one of the above.
+
+   Please send me email or call if you are interested in meeting!
+
+------------------------------------------------------------------------------
+|  Alexander Chislenko | sasha@cs.umb.edu | Cambridge, MA  |  (617) 864-3382 |
+------------------------------------------------------------------------------
+
+------------------------------
+
+Date:     Sat, 14 Aug 93 8:33:58 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  The Axiom of Action
+
+>From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+>Subject: Axioms
+>
+>Tim Starr writes:
+>>Action != "behavior."  All human action is indeed purposeful.  That's how it
+>>is distinguished from mere human behavior.
+>
+>Is this a definition of the phrase "human action", or an empirical claim
+>about the world, or one element of a larger body of doctrine which as a
+>whole makes empirical claims about the world?  Or something else?
+
+It is an empirical claim about the definition of human action that the larger
+body of praxaeology, a.k.a., Austrian economics, is founded upon.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Sat, 14 Aug 93 5:09:58 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: META: test, ignore
+
+  testing testing testing
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Sat, 14 Aug 1993 05:25:37 -0400 (EDT)
+From: Extropy Institute <exi>
+Subject: test
+
+
+------------------------------
+
+Date:     Sat, 14 Aug 93 10:55:18 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Axioms and Accusations
+
+>From: dkrieger@Synopsys.COM (Dave Krieger)
+>
+>>>The fact that some human behavior is purposeful some of the time does not
+>>>imply that all human behavior is purposeful, or that any human behavior is
+>>>purposeful all of the time.
+>>>                                        dV/dt
+>>
+>>Objection: irrelevant.  The subject is human ACTION, not human "behavior."
+>>Dead humans behave.  They do not act.
+>
+>Ah... so "action" is DEFINED as purposeful behavior.
+
+Mais, bien sur!  Else we'd have only "reaction."
+
+>Remember, folks, I'm DVDT on HEx, and Tim is TIM.
+
+Yes, indeed.  Remember, too, that DVDT is given to wild accusations of
+dishonesty (which he then later retracts in private e-mail alone) about those
+who dare to question the doctrines he holds as sacred cows.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+End of Extropians Digest V93 #225
+*********************************
+

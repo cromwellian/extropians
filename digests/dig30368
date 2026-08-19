@@ -1,0 +1,1004 @@
+From extropians-request@gnu.ai.mit.edu Thu Jul  1 15:55:03 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA24276; Thu, 1 Jul 93 15:54:59 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA26602; Thu, 1 Jul 93 15:54:56 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA04517@wookumz.gnu.ai.mit.edu>; Thu, 1 Jul 93 18:43:29 -0400
+Message-Id: <9307012243.AA04517@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Thu, 1 Jul 93 18:42:53 -0400
+X-Original-Message-Id: <9307012242.AA04498@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0368
+X-Extropian-Date: Remailed on July 1, 373 P.N.O. [22:43:28 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest             Thu, 1 Jul 93             Volume 93 : Issue 0368
+                        
+Today's Topics:
+                      AIT VirtSem: Beginner's question                [1 msgs]
+           AIT VirtSem: Critical Bits, Structure, and Information     [3 msgs]
+                 AIT VirtSem: The Game of "Go" as an Example          [3 msgs]
+                   AIT VirtSem: Undecidable vs. unprovable            [1 msgs]
+                   AIT: Logical Depth vs String Complexity            [1 msgs]
+                                   APOLOGY                            [1 msgs]
+                     ECON: Computer Productivity Paradox              [1 msgs]
+                                Flying snakes                         [1 msgs]
+                   Is there still interest in Pagan Trial?            [1 msgs]
+                  META/CULTURE: "This fat Bavarian pig #005           [1 msgs]
+              META: advanced killfiles (was veganism burbling)        [3 msgs]
+                      NANO: Drexler style nanotech #005               [1 msgs]
+                 NANO: Drexler style nanotech is unworkable           [3 msgs]
+                             School Choice Talk                       [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50834 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 1 Jul 93 9:21:33 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: META: advanced killfiles (was veganism burbling)
+
+> From: "Mark W. McFadden" <mwm@wwtc.timeplex.com>
+>  Anyhoo, can we get past this conflicting arguments stage and get right to 
+> the name-calling?
+
+Hey, I've got an idea for the list 'ware: how about a killfile
+extension that lets you kill not *all* messages by X, but all
+messages by X responding to ones by Y or Z?  I can't think of anyone
+I'd want to kill, but I have some debate pairs I'd like to muffle.
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Thu, 1 Jul 93 9:15:52 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: Flying snakes
+
+Eric Marsh said:
+> If a species of squirrel or lizard finds that jumping increases its
+> chances of survival, then adaptations to allow it to jump further such
+> as the ability to glide are logical. However I am unaware of any tree
+> dwelling species of snake that jumps in any way. Thus, it seems to
+> me that the evolution of a flying snake is quite a "leap."
+
+There is a presently-hip way of describing evolutionary search that
+may make this look less peculiar.  Think of a search within a search:
+the top-level search is in genome space, but it has an inner loop
+searching in behavior space.  The genotype constrains the range of
+behavior which is available, and alters the payoffs.  <Two of the
+three people I've seen describing this did a funky thing with their
+arm and wrist at this point, to demonstrate the degrees of freedom.
+I'll refrain.>
+
+So what?  Well, this suggests that you don't need to start with
+jumping snakes to evolve gliding snakes.  Slim snakes don't jump out
+of trees, because this behavior in their case results in high-
+velocity impact.  But if some mutant snake happens to end up with
+an air-catching belly, it will discover that jumping is now a useful
+behavior.
+
+This description of evolution is relevant to the present discussion
+of GA's as well.  This sort of interpretation, by behavior-space
+search, appears to be more robust than the direct approach on
+certain toy problems.
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Thursday, 1 July 1993 07:56:13 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: NANO: Drexler style nanotech is unworkable
+
+In <9306301656.AA21486@wookumz.gnu.ai.mit.edu>, pmetzger@lehman.com (Perry E. Metzger)  wrote:
+> 
+> 
+> "James A. Donald" says:
+> > There is an obvious and basic error in Drexler's work.  
+> > 
+> > Drexler proposes to make nanomachines of large rigid
+> > molecules, but for large rigid molecules the glass point is
+> > well above the decomposition point, meaning static
+> > friction is so high that they break before they shift.
+> 
+> Okay, I'll bite. Why don't the molecular systems in the human body,
+> typically made of large rigid molecules, fail for this reason?
+
+Your facts are even worse than Drexler's.  As Drexler says,
+(read him) biological molecules are flexible.  The most
+rigid molecule normally used in the body is DNA, and in its
+active state it continually puffs, (locally separates in
+small areas) due to brownian motion.  In its inactive
+state, packed for storage, it is truly rigid, but that is
+irrelevant.
+
+> > People have made Drexler style micro machines etched out
+> > of silicon, using line widths of several micrometers. 
+> > When enough force is applied to make them move, they
+> > shatter, because static friction overwhelms mechanical
+> > strength.
+> 
+> Now, this is bullshit for two reasons. The first is that silicon
+> micro machines are NOT nanotechnology, and the second is that I've met
+> several people involved in micro machines that the things do work, and
+> quite well. In other words, your whole paragraph is just plain wrong.
+
+Micro machines work when they are large enough, or when
+they have NO SLIDING SURFACES hence no static friction.
+All commercially useful micro machines that I am aware of
+have NO SLIDING SURFACES.  Micro engines that rotate,
+hence require sliding surfaces, are not very micro.
+
+> > The Drexler approach has been tried and, as predicted, has
+> > failed.  The smaller you get, the larger static friction
+> > becomes relative to mechanical strength
+> 
+> Huh?
+
+Basic physics.
+
+Van der Waals forces become stronger and stronger at small
+separations. The increase is very rapid.  A crude rule of
+thumb is r^(-6)
+
+Take a length of fishing line:  Imagine a cut lengthwise
+through it.  This arbitrary dividing surface has the same
+gap as the gap between a Drexler axle and a Drexler axle
+housing.  The two halves are held together by the same
+forces as make a Drexler axle stick, van der Waals forces.  
+(Fishing line is covalently bonded along its length, van der 
+Waals bonded perpendicular to its length.) Now slide the 
+two halves apart.
+
+Small problem with static friction between the two halves?
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Thu, 1 Jul 93 12:46:35 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: META: advanced killfiles (was veganism burbling)
+
+Eli Brandt writes:
+> 
+> > From: "Mark W. McFadden" <mwm@wwtc.timeplex.com>
+> >  Anyhoo, can we get past this conflicting arguments stage and get right to 
+> > the name-calling?
+> 
+> Hey, I've got an idea for the list 'ware: how about a killfile
+> extension that lets you kill not *all* messages by X, but all
+> messages by X responding to ones by Y or Z?  I can't think of anyone
+> I'd want to kill, but I have some debate pairs I'd like to muffle.
+
+  Possible, but not a high priority now. The first version of the
+software will allow you to kill users and threads (along with
+some other neato things). The list software is object oriented so that the hex
+exchange, expert systems, or any other filtering mechanism can be
+incorporated seemlessly (or atleast easily).
+
+  I plan to release an "agent shell", sort of a stripped down filtering
+agent so people who can program perl can implemented their own mods.
+I could then install it for others to use.
+ 
+>    Eli   ebrandt@jarthur.claremont.edu
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 1 Jul 93 12:46:35 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: META: advanced killfiles (was veganism burbling)
+
+Eli Brandt writes:
+> 
+> > From: "Mark W. McFadden" <mwm@wwtc.timeplex.com>
+> >  Anyhoo, can we get past this conflicting arguments stage and get right to 
+> > the name-calling?
+> 
+> Hey, I've got an idea for the list 'ware: how about a killfile
+> extension that lets you kill not *all* messages by X, but all
+> messages by X responding to ones by Y or Z?  I can't think of anyone
+> I'd want to kill, but I have some debate pairs I'd like to muffle.
+
+  Possible, but not a high priority now. The first version of the
+software will allow you to kill users and threads (along with
+some other neato things). The list software is object oriented so that the hex
+exchange, expert systems, or any other filtering mechanism can be
+incorporated seemlessly (or atleast easily).
+
+  I plan to release an "agent shell", sort of a stripped down filtering
+agent so people who can program perl can implemented their own mods.
+I could then install it for others to use.
+ 
+>    Eli   ebrandt@jarthur.claremont.edu
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 1 Jul 93 10:20:08 -0700
+From: freeman@MasPar.COM (Jay R. Freeman)
+Subject: AIT VirtSem:  Beginner's question
+
+Delete this if you believe in not reading posts from people who haven't done
+the reading:  _Mea_maxima_culpa_!
+ 
+I see that AIT has to do with characterizing the complexity of a string in
+terms of the length of a program required to create it.  I see also some
+issues having to do with keeping the discussion of complexity as environment-
+free as possible.  I haven't seen any discussion of the nature of the
+"string-describing machine" on which these programs are imagined to run,
+or of the limits and nature of the programming constructs which are allowed
+to be used to write those programs.  It seems to me that once you admit
+program length as a figure of merit, it no longer suffices to talk about
+programs running on Turing machines and exploit the reducibility of fancier
+hardware thereto, because programs for Turing machines sometimes tend to
+be looong... .  So I suspect that the level of complexity of a string
+depends on the hardware and software available for the program that describes
+it, and if I am right, I was wondering whether AIT had found any particularly
+neat ramifications of this idea.
+ 
+               -- Jay Freeman, who really would like to do the reading ...
+ 
+PS:  As to the significance and importance of AIT, it seems obvious that
+     work which seems successfully to have introduced the concept of a
+     blended frog into higher mathematics is clearly remarkable progress.
+     I look forward to more elaborate blendings, perhaps even of members
+     of this discussion group.
+
+------------------------------
+
+Date: Thu, 1 Jul 93 10:32:13 -0700
+From: cappello@engineering.ucsb.edu (Peter Cappello)
+Subject: AIT VirtSem: Undecidable vs. unprovable
+
+The technical meaning of "undecidability" perhaps can be clarified  
+further by the following passage [1, p. 178]:
+
+"That is, a problem is undecidable if there is no algorithm that  
+takes as input an instance of the problem and determines whether the  
+answer to that instance is "yes" or "no."
+
+"An unintuitive consequence of the definition of "undecidable" is  
+that problems with only a single instance are trivially decidable.   
+Consider the following based on Fermat's conjecture.  Is there no  
+solution in positive integers to the equation $x^i + y^i = z^i$ if    
+$ i \geq 3$?  Note that $x,y,z$ and $i$ are not parameters but bound  
+variables in the statement of the problem.  There is one Turing  
+machine that accepts any input and one that rejects any input.  One  
+of these answers Fermat's conjecture correctly, even though we do not  
+know which one.  In fact there may not even be a resolution to the  
+conjecture using the axioms of arithmetic.  That is, Fermat's  
+conjecture may be true, yet there may be no arithmetic proof of that  
+fact.  The possibility (though not the certainty) that this is the  
+case follows from Godel's incompleteness theorem, which states that  
+any consistent formal system powerful enough to encompass number  
+theory must have statements that are true but not provable within the  
+system.
+
+"It should not disturb the reader that a conundrum like Fermat's  
+conjecture is "decidable."  The theory of undecidability is concerned  
+with the existence or non-existence of algorithms for solving  
+problems with an infinity of instances."
+
+[1] Hopcroft, John E., and Jeffrey D. Ullman, "Introduction to  
+Automata Theory, Languages, and Computation," Addison-Wesley  
+Publishing Company, Menlo Park, 1979, pp. 418.
+
+I find their illustration using of Fermat's conjecture to be  
+amusingly prescient.
+
+This book is a [the?] standard text for introductory courses in  
+[computer science] theory of computation.
+
+-Pete
+cappello@cs.ucsb.edu
+
+------------------------------
+
+Date: Thu, 1 Jul 93 10:49:54 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: AIT VirtSem: Critical Bits, Structure, and Information
+
+> From: tcmay@netcom.com (Timothy C. May)
+> - a poker hand is often used to illustrate outcomes, "important" outcomes
+> (like a royal flush), and the basics of probability. It is true that any
+> specific hand is as likely as one of the royal flushes (10-J-Q-K-A in one
+> suit), but "nearly all" poker hands are "less interesting" and are not much
+> changed by twiddling one of the cards.
+
+Let me take a simpler system: a string of 1000 Bernoulli
+(random-bit) variables.  Consider three sorts of strings:
+1) an uncorrelated string.  Random crud, the analog of your "gas" example.
+2) all-ones.  A "crystal".
+3) a string encoding a strategy for a simple game.
+
+Algorithmic complexity pings on (1) and (3), but not (2).
+A "structure" or "bit importance" measure pings on (2) and (3), not (1).
+So we can describe "genuine complexity" as, say, the product of
+the above two measures.  Is this estimator on the right track?
+
+Incidentally, we need a way to measure "structure".  Looking at the
+above three examples, let's consider the size of the set of
+"functionally-similar" strings.  For (1), it's approximately 2^1000.
+For (2) -- well, there's exactly one all-one string, but there
+might be, say, 2^20 strings that we want to call "crystal analogues".
+For (3), there might be 2^5 strings encoding that particular
+strategy, or more if we allow similar strategies, or...
+So now let's define "structural entropy" as
+	lg |set of similar strings|/|set of all strings|
+This does approximately what we want, but is a little simplistic.
+It requires us to define a universal set and speak in terms of
+"functional string classes", which is a little tacky.  If in "bit
+criticality" we want to capture the sensitivity to a particular
+type of mutation (point, frame, whatever), this definition falls
+flat.
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Thu, 1 Jul 93 13:29:09 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: AIT VirtSem: Critical Bits, Structure, and Information
+
+I commend Hal for his clearly stated objection to including
+ideas of function in an expansion of AIT toward studies of
+real complex systems.  I am not willing to give up the
+necessity yet, though, and have a couple of comments on his
+note.
+
+First, as Tim has pointed out, we always take some "environmental"
+concerns into account in the nature of the UTM we choose to use
+to do the programming.  This pales to insignificance on infinite
+strings, but is of some real importance for finite strings.
+
+> modern view towards something more resembling traditional information theory.
+> The introduction of fitness landscapes, and stipulations that the objects
+> under study (organisms, or Go programs) have to have a certain amount of 
+> fitness in competition with others, add a great deal of intellectual baggage
+> to an otherwise clean theory.
+
+Yes, I think this is true.  If that baggage can't be packed efficiently,
+the effort isn't likely to get very far.
+
+> We may agree that in "pure" AIT a blended frog (one whose molecules have been
+> given random positions) has greater information content (at the molecular
+> level) than a living frog.  Derek proposes to "fix" this by requiring that
+> the frog under discussion succeeds in a competitive environment.
+
+well... how about "external evaluation mechanism"?  Competition, per
+se, isn't necessary -- though evolution uses it.
+ 
+> Similarly, the suggestion that the complexity of an entity depends on its
+> environment is out of keeping with the spirit of AIT, in my view.  A frog
+> would be just as complex in a glass jar on the moon as it would in a pond
+> on earth.
+
+That's certainly true -- but the problem is still that the current
+version of AIT gives the "wrong" answer too often.  Note that the
+frog on the moon probably has higher logical depth than the one in
+the pond!
+
+> Taking the poker example, AIT will already tell us that four aces has less
+> randomness than a typical hand.  To try to go beyond this and find a measure
+> which gave higher complexity to four aces plus a king than to four aces
+> plus a queen (on the theory that poker hands of higher value should have
+> greater complexity), based on the fitness of these hands in the poker
+> environment, is not a useful move, IMO.
+
+This I don't understand.  You like that a four-ace hand has distinction
+in AIT.  Why?  The point of mentioning a four-ace hand is that it's
+a really good poker hand, right?  If that's not the motivation, then
+why mention poker at all?
+
+> In general, I feel that we should avoid as much as possible bringing in
+> arbitrary, human-recognized measures in judging complexity and randomness.
+> We should stick to measures which can be formalized, which are objective,
+> and which do not require an a priori recognition of purpose and function.
+
+This I agree with heartily.  But I have a question for you, Hal:  why
+would you like AIT extended (if you would at all)?  That is, what
+question would you like to answer with an extended AIT?  Personally,
+my largest interest is rather practical: I'd like to do some sort of
+calculation of the difficulty of producing objects that have certain
+functional properties (doing classification tasks, thinking, self-
+reproducing, making some kind of widget, etc) -- by purposive or
+evolutionary means.  That's why this connection interests me.
+
+Suppose we do take "life" as some sort of thing that an "objective"
+AIT should be maximum for.  Well, I very much doubt that we'd even
+agree on what life is without bringing in functional concepts, so
+how are we to decide how well an AIT measure performs?
+
+derek
+
+------------------------------
+
+Date: Thu, 1 Jul 93 11:40:32 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: AIT VirtSem: The Game of "Go" as an Example
+
+>Isn't go a terminating game?  If so, there are a finite number of
+>games, as the player has a finite set of options at each move.
+>The best strategy is then to search the game tree.
+>(Sorry.  I have to stop talking to these pure math types.)
+
+>   Eli   ebrandt@jarthur.claremont.edu
+
+
+But the "search tree" is upwards of 10^700 games! Anyone who proposed
+exhaustive search of the Go game tree as a realistic approach would be
+dismissed out of hand (I'm not trying to insult Eli, just note that
+exhaustive search is not an option in the real world. Evolution "knows"
+this, and we are learning it as well.)
+
+Even if one wants to only look ahead, say, 10 moves (which is demonstrably
+not enough when facing expert players), there are something like 10^20 or
+more branches to consider (depends on where one is in the game, of course).
+Analyzing one branch every microsecond (vastly shorter than it would
+actually take with existing computers), the 10^20 branches could then be
+analyzed in several million years!
+
+As Nick Szabo noted, Go is a game of "satisficing," not optimization.Time
+is of the essence. (The rabbit being chased by a fox dashes toward his
+hiding hole, computing a "good enough" path, not an optimal path. Sometimes
+he wins, sometimes he loses. But both the chaser and chasee have
+constraints (speed, energy, endurance, etc.) that make it a complicated
+game, for which "optimal solutions" are intractable to compute---and Nature
+hasn't even tried.)
+
+What do large numbers like 10^700 mean? (And it is completely trivial to
+find situations in which the relevant numbers are _much_ larger. Go played
+on a slightly larger board, for example.)
+
+This becomes a semi-religious point, in a sense, in that I believe
+computations involving exact calculation of 10^200 things (let alone 10^700
+things!) will never, ever, be done in our Universe. I know Mike Price has
+challenged me to prove this, pointing out that I don't know--that none of
+us knows--that such computations will never be done.
+
+True enough, in some sense, which is why it boils down to an eschatological
+(not be be confused with scatological, though there are similarities) view
+about the ultimate nature of computation.
+
+>From what we know, there are about 10^70 elementary particles in the
+Universe...all the galaxies, all the stars, the quasars, the intergalactic
+dust, even the "dark matter." If each of these elementary particles
+(somehow) contained a computer which computed....well, do the calculations
+yourself, with your favorite assumptions about cycle time, etc.
+
+(Even "pocket universes" don't buy us much, when talking about large numbers.)
+
+The essence of AI, or one of the essences, is knowing what to consider,
+what to ignore, and how to make "good enough" calculations. The
+"computational frame problem," as it were.
+
+-Tim May
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+Date: Thu, 1 Jul 93 11:40:45 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: AIT VirtSem: Critical Bits, Structure, and Information
+
+Hal Finney writes:
+
+>I'm a couple of days behind in my AIT reading, so here is a slightly late
+>comment.
+
+Better late than never!
+
+>I am concerned that in the discussion here we are moving away from Chaitin's
+>modern view towards something more resembling traditional information theory.
+>The introduction of fitness landscapes, and stipulations that the objects
+>under study (organisms, or Go programs) have to have a certain amount of 
+>fitness in competition with others, add a great deal of intellectual baggage
+>to an otherwise clean theory.
+
+Good points! I agree that there is a danger this seminar will drift into
+the area of genetic algorithms and genetic programming, which is somewhat
+far afield from "pure" AIT. But to some extent this reflects the interests
+of several of the seminar participants, and they certainly seem to be
+absorbing the basics of AIT, so I see no harm done. (In fact, I think
+Chaitin and Bennett, both very bright folks, would do well to spend a few
+weeks looking at GAs and GP and figuring out some links to their own
+field....I know Chaitin has spoken favorably of Levy's "Aritificial Life"
+book, and Bennett is deeply involved in the physics of computation
+community, so I suspect neither of them is ignorant of the Holland and Koza
+sort of work.)
+
+
+>
+>We may agree that in "pure" AIT a blended frog (one whose molecules have been
+>given random positions) has greater information content (at the molecular
+>level) than a living frog.  Derek proposes to "fix" this by requiring that
+>the frog under discussion succeeds in a competitive environment.
+
+Well, actually it was _me_ who made the point that the blended-up frog has
+much less fitness as a frog (or as anything else other than a protein
+drink).
+
+
+>But this moves us from a structural discussion to a functional one.  And it
+>requires a certain amount of human intuition and understanding to recognize
+>that a frog is competing, that it has an environment, and that it is
+>engaging in certain kinds of activities (reproduction, etc.).  Granted,
+>once this is done, it may be possible to define measures of complexity that
+>are appropriate.  But I feel that much of the motivation of AIT was to
+>avoid the whole need for this.   
+
+But AIT _cannot_ avoid the embedding context (my term). Also, we don't need
+to have any intuition or understanding about the frog...just let it
+compete. Or let computers play tournaments of Go.The strings will still get
+more "complex" when driven by the "force of competition."
+
+(Interesting parallels to Maxwell's Demon and "putting all the molecules on
+one side of the box," so to speak, (Sorry if this allusion is unclear.) We
+end up forming a highly "improbable" state, in classical IT terms, just as
+Dawkins describes in "The Blind Watchmaker." Call it "Darwin's Demon."
+Hmmhhh...maybe I ought to patent that name!)
+
+
+...
+>In general, I feel that we should avoid as much as possible bringing in
+>arbitrary, human-recognized measures in judging complexity and randomness.
+>We should stick to measures which can be formalized, which are objective,
+>and which do not require an a priori recognition of purpose and function.
+>Otherwise I fear we are arguing in circles, claiming to have achieved a
+>new recognition of complexity when we are actually relying on our intuition
+>about what is and is not complex.
+
+Good points to keep in mind. But I also feel the "tournaments" in GAs and
+GP, and in other game-playing systems, do not invoke human-mediated
+processes.
+
+Thus, I think "evolutionary information theory" (EIT, in contrast to AIT
+and IT) has a role to play, as yet largely unexplored.
+
+("Evolutionary game theory," of John Maynard Smith, has been a fertile
+field these last 10-20 years. The same could happen to EIT.)
+
+
+-Tim May
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+Date: Thu, 01 Jul 1993 15:11:54 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: NANO: Drexler style nanotech is unworkable 
+X-Reposting-Policy: redistribute only with permission
+
+Eli Brandt says:
+> > From: "James A. Donald" <jamesdon@infoserv.com>
+> > Take a length of fishing line:  Imagine a cut lengthwise
+> > through it.  This arbitrary dividing surface has the same
+> > gap as the gap between a Drexler axle and a Drexler axle
+> > housing.
+> 
+> On the atomic scale, there is no "friction".  There is, however, the
+> problem of landing in an energy hole which does not let you slide
+> without breaking molecules, and which intermolecular forces will not
+> let you out of.  Devices could presumably be built with this in
+> mind, but I don't know whether this is done.  Has anybody run a
+> small Drexlerian mechanism through a computational chemistry package?
+
+Yes. In fact, thats most of what Merkle does these days. He has a
+video of a simulated molecular bearing -- it works quite well
+according to the simulations, which have been thorough.
+
+Might I suggest that Mr. James A. Donald is ignorant on this topic,
+and does not have the taste to gracefully admit it.
+
+Perry
+
+------------------------------
+
+Date: Thu, 1 Jul 93 12:04:07 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Is there still interest in Pagan Trial?
+
+For some strange reason, I have gotten several inquiries recently about the
+status of the "Great Pagan Trial" decision, that is, the judgment in the
+"First Internet Witch Trial."
+
+There are several (possibly weak) reasons I have not issued the verdict:
+
+1. The List seems uninterested in these issues lately. What with the Flying
+Yogi gone, and only occasional jokes about List members like "Dances Around
+Fires," the issue seems to be dormant.Sort of a "Don't ask, don't tell"
+policy, with the Pagans amongst us keeping a low profile, and the
+Pagan-bashers also sticking to other subjects.
+
+2. I am also uninterested these days, which makes it hard to finish my
+humongous report (100+ pages). After reading more than a dozen books (my
+reading list can be sent to any who are interested), and writing, and
+writing, I ultimately burned out.
+
+3. Personality clashes with one of the principals (ESR) have caused me to
+avoid all dialog with him, and cause me to suspect how my decision might be
+received. (Translation: I think it's an objective decision, but I doubt the
+Pagans and Witches on the List--of which there seem to be about a dozen,
+from comments I've received, from certain names appearing in alt.pagan and
+alt.magick--would think my decisions are impartial. So why bother finishing
+a huge decision report?)
+
+4. The 100-page report is partially fleshed-out text, partially "MORE"
+outline, partially still-to-be-completed text. Clearly, I bit off more than
+I should have, turning the "Challenge" into an examination of belief
+systems, psychology of belief, philosophy of science, and projections about
+the nature of Extropianism as a belief system. (Hint: look for Extropianism
+to be a core of a new Pagan religion, akin to the coopting of Rand and
+Heinlein into the proto-Pagan "Church of All Worlds" some 25-30 years
+ago...and still flourishing here in "nests" throughhout Northern
+California.).
+
+I estimate that adding enough connective text (transitions, complete
+sentences, etc.) would require about 20-30 hours of high-quality,
+concentrated writing time. I'm not sure how long this would take in
+realtime.
+
+5. It's apparent to me that my particular views on the popularity of
+Paganism and Witchcraft are not going to change any minds. No amount of
+discussion of the nature of proof, of evolutionary epistemology, of belief
+systems, is going to change any minds. 
+
+
+
+So, these are the main reasons my "thesis" sits...whether I'll finish mine
+before Max More finishes his is the interesting question.
+
+Your feedback is welcome. While I have my hands full on the AIT VirtSem,
+and other things, enough real interest might trigger me to get this thing
+done and distributed.
+
+-Tim, Da Semi-Retired Judge
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+Date: Thu, 1 Jul 93 12:20:34 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: AIT VirtSem: The Game of "Go" as an Example
+
+> From: tcmay@netcom.com (Timothy C. May)
+> But the "search tree" is upwards of 10^700 games!
+
+Yes yes yes.  As I said, that was a pure-math sort of take on the
+problem, and should be read somewhat tongue-in-cheek.  Really, from
+a mathematical perspective, 10^700 is piddling -- the big numbers are
+the ones like 10^10^10^10^5.  But in the real world, it appears to be
+what a professor of mine described as "unassailable" in both time and
+space.  I'll admit to some doubts as to whether this is really true:
+perhaps with the computing technology of a millenium from now we'd
+be able to prove Goldbach's conjecture by cases.
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Thu, 1 Jul 93 11:52:33 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: NANO: Drexler style nanotech is unworkable
+
+> From: "James A. Donald" <jamesdon@infoserv.com>
+> Take a length of fishing line:  Imagine a cut lengthwise
+> through it.  This arbitrary dividing surface has the same
+> gap as the gap between a Drexler axle and a Drexler axle
+> housing.
+
+On the atomic scale, there is no "friction".  There is, however, the
+problem of landing in an energy hole which does not let you slide
+without breaking molecules, and which intermolecular forces will not
+let you out of.  Devices could presumably be built with this in
+mind, but I don't know whether this is done.  Has anybody run a
+small Drexlerian mechanism through a computational chemistry package?
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Thu, 1 Jul 93 15:30:54 EDT
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: META/CULTURE: "This fat Bavarian pig #005
+
+Eric S. Raymond <esr@snark.thyrsus.com> writes:
+
+> I've learned to *like* the fact that I'm a naked primate that laughs and
+> sweats and fucks and gets angry and excited and has "irrational" attachments
+> to people and places and experiences; I'll miss this body when I upload.
+
+I'll be really mad if I have to upload to a lo-fi simulation.
+
+-fnerd
+quote me
+
+------------------------------
+
+Date: Thu, 1 Jul 93 16:07:13 EDT
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: School Choice Talk
+
+Tim Starr quotes John Taylor Gatto in a draft of talk he's going to
+give.
+
+Tim, although I haven't read your whole talk, it sounds like you're
+using him as ammunition against *public* schools specifically.
+
+Although he is against public schooling, I think he intends the 
+"seven lessons" you quote to apply to any school on the model of
+public schools, and private schools aren't necessarily that 
+different.  So I think you need to clear up the difference between
+his context and yours before you start quoting him in your service.
+
+You make an argument that private schooling is better from an
+incentive-structure and choice standpoint--but you need to decide
+whether you are trying to stick to that sort of theoretical point,
+or try to show that current public schools actually are much
+different from private schools in terms of Gatto's issues.
+
+-fnerd
+quote me
+
+------------------------------
+
+Date: Thu, 1 Jul 93 16:17:24 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: AIT: Logical Depth vs String Complexity
+
+  I've only been following this discussion ocassionally because all my
+energy is going into the list software at the moment, but I have a question.
+
+What would you consider the more important information measure for life,
+logical depth or string complexity(representational)?
+
+  I think logical depth is a better measure and here's why. What if we
+were to take an E. Coli's gene code, run gzip on it, and compress it
+50%. Well, we just found a 50% shorter representation of the E. Coli's
+gene code, does that make it any more or less complex? I think not.
+[note: when I use the word complex, I am using the everyday definition]
+The Coli could still perform a marvelously wide range of functions 
+(very complex ones) even if its program representation was redundant.
+
+  IMHO, it is far more interesting to study how much computation
+is needed to represent life and not how much storage is required.
+
+
+-Ray, been up 24hrs+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 1 Jul 93 17:06:05 EDT
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: NANO: Drexler style nanotech #005
+
+James A. Donald <jamesdon@infoserv.com> writes more:
+> 
+> Hard deterministic machines in a cold vacuum
+> cannot work for components smaller than a few micrometers, at least
+> they cannot work with components that anyone has designed so far.
+
+I don't know whether this means Drexler's designs can't work for
+theoretical reasons, or no working nanomachines have been
+*demonstrated* so far...I guess the former.
+ 
+> Drexler proposes to make nanomachines of large rigid
+> molecules, but for large rigid molecules the glass point is
+> well above the decomposition point, meaning static
+> friction is so high that they break before they shift.
+
+I think a couple of us would appreciate a short tutorial on the
+concepts of glass point and decomposition point.  But I'm not
+sure they'll turn out to be relevant to nanotech, since you
+seem to be discussing them in an argument about friction.
+On that issue, I must not have spoken clearly enough last time.
+
+The parts of nanomachines have clearances around them.
+
+They never slide against each other.  They pivot and
+roll, or they glide through holes with clearance.
+
+By "clearance," I mean an area of vacuum.
+
+There is no friction when nothing rubs against anything.
+
+> Normal macroscopic designs become non functional due to
+> static friction at scales of a few micrometers.  People
+> have tried them and, as predicted from scaling laws, they
+> fail.
+
+All of us agree that normal macroscopic sliding-part designs 
+have nothing to do with it.  Exactly placed atoms in careful
+choreography are different from roughly sculpted heaps grinding
+against each other.  
+ 
+> People have made Drexler style micro machines etched out
+> of silicon, using line widths of several micrometers. 
+
+Here maybe the source of our misunderstanding.  Etched
+machines are of the rough-sculpted-grinding-heaps school,
+and have nothing to do with Drexler's style.
+
+> Designs that will work on a scale a thousand times smaller
+> will need to be fundamentally different.  They will look
+> nothing like macro machines.
+
+Drexler machines look nothing like micro machines, but in a 
+strange way they look like macro machines again, since once
+again you know the exact shapes and behaviors of the parts
+(atoms), which are once again smooth.
+
+> They will consist of highly flexible molecules floating in
+> a very large amount of lubricant, with vastly more
+> lubricant than machinery.  The molecules of the lubricant
+> need to be as small as possible and to have high solvation
+> capability in order to separate the nanostructures. Water
+> is probably the best such lubricant.  In other words
+> nanomachinery must very strongly resemble living
+> protoplasm, and will not resemble rigid clockwork at all.
+
+This is an interesting alternative or roundabout intermediary
+to Drexler-style nanotech.  It sounds like you would have to 
+waste a lot of mass and volume and...
+
+> movement rates that are small compared to the
+> brownian motion.
+
+...time, but when you've got orders of magnitude to spare, 
+why not?  But ultimately I think vacuum and lack of contact 
+are much more compact, lightweight and well-behaved lubricants 
+that support faster motion.
+
+-fnerd
+
+------------------------------
+
+Date: Thu, 01 Jul 93 14:35:11 -0700
+From: davisd@pierce.ee.washington.edu
+Subject: ECON: Computer Productivity Paradox 
+
+Computers up, but productivity is not? 
+
+Sort of depends on what one means by productivity, doesn't it? If
+you are measuring it in dollars, one way to measure it is
+to keep the rest of the economy fixed while you add computers to
+your company. Another way to measure it is to turn off all your
+computers and fax machines for a year and see how your company does.
+Can there be any doubt what the result would be?
+
+Buy Buy -- Dan Davis
+
+------------------------------
+
+Date: Thu, 1 Jul 1993 15:00:01 -0800
+From: Romana Machado <romana@apple.com>
+Subject: APOLOGY
+
+This is a public apology to Nancy Schorr.  I said :
+
+>Controversy, and not truth, is likely to be had from Nancy Schorr,
+>who recently saw fit to stand outside of my home and shout insults
+>at it.
+
+I am sorry if Miss Schorr was offended by the intimation that she was
+yelling
+insults at my home, which is, after all, an inanimate object. More
+accurately,
+she was yelling insults in the direction of my home because there were
+people
+inside of it, including myself, with whom she was attempting to
+communicate.
+
+Please forgive me if I have created any misunderstanding.
+
+
+Romana Machado
+romana@apple.com
+----------------------------------------------------------------------------
+"Learn to behave from those who cannot."  - Sufi proverb
+
+
+------------------------------
+
+Date: Thu, 1 Jul 93 16:56:12 EDT
+From: boojum!esr@gvls1.VFL.Paramax.COM (Eric S. Raymond)
+Subject: AIT VirtSem: The Game of "Go" as an Example
+
+>         I'll admit to some doubts as to whether this is really true:
+> perhaps with the computing technology of a millenium from now we'd
+> be able to prove Goldbach's conjecture by cases.
+
+Not likely.  You'd have to do an infinite amount of computation.
+
+(Or did I miss an invisible smily in there?)
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0368
+****************************************
+

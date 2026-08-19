@@ -1,0 +1,544 @@
+From extropians-request@extropy.org Fri Jun 24 05:13:44 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id FAA29501 for <more@chaph.usc.edu>; Fri, 24 Jun 1994 05:13:43 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA22195; Fri, 24 Jun 94 05:13:39 PDT
+Received: by news.panix.com id AA09414
+  (5.65c/IDA-1.4.4 for more@usc.edu); Fri, 24 Jun 1994 08:11:25 -0400
+Date: Fri, 24 Jun 1994 08:11:25 -0400
+Message-Id: <199406241211.AA09414@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-6-103 - #94-6-113
+X-Extropian-Date: June 24, 374 P.N.O. [06:01:12 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Fri, 24 Jun 94             Volume 94 : Issue 174
+
+Today's Topics:
+                   [#94-6-88] digital cash and free banking           [1 msgs]
+                                 Digital Cash                         [1 msgs]
+                        digital cash and free banking                 [2 msgs]
+                    Request for Comments: U.S. Tech Corps             [1 msgs]
+                   SCI: Chaos, Complexity, and Reductionism           [1 msgs]
+                          U.S. Tech Corps: No thanks                  [3 msgs]
+                         U.S. Tech Corps: No thanks                   [1 msgs]
+                   WWW: yet again, Arkuat tries to publish            [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 27311 bytes.
+
+----------------------------------------------------------------------
+
+From: NetSurfer <jdwilson@gold.chem.hawaii.edu>
+Date: Thu, 23 Jun 1994 07:10:47 -1000 (HST)
+Subject: [#94-6-103] Request for Comments: U.S. Tech Corps
+
+On Thu, 23 Jun 1994, Nick Szabo wrote:
+
+> How about assisting private schools instead?  Public schools already
+> get a large contribution from me.  They didn't even bother
+> to ask me for it, they just took it.  Private schools, on the other
+> hand, haven't ripped me off, and if they have a genuine need we
+> specialized tech folks could meet, perhaps it would be a great idea 
+> to help them out while also communicating the Extropian worldview 
+> to a new generation.  
+
+I agree!  The originator specifically referenced public schools, but
+I personally believe we should support kids, not just kids @ public
+schools.  To only help public schools would be to miss many fine
+private schools.  I personally graduated from a private school, Sacred
+Heart High School, in San Francisco.  When I was at Gallileo HS, a
+public school, I had access to several systems.  The private school,
+run by the Christian Brothers, could not afford the same so I had to
+start auditing night classes at College of Marin.  It was a time
+consuming way to get my access, but it was worth it.  And the instructor
+thought it was neat that a HS student was willing to go that far in
+pursuit of his interests.
+
+> 
+> How about an Extropian web page for K-12?  Space travel, 
+> crypto/stego puzzles, Ninja Turtles-style self-transformation,
+> experimental market games, and whatnot. 
+> 
+
+YES YES YES!!!  Excellent Idea!!!  Are Extropians site willing to 
+pursue this?
+
+
+
+-NetSurfer
+
+#include standard.disclaimer
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+==  =    = |James D. Wilson        |V.PGP 2.4:   512/E12FCD 1994/03/17 >
+ "  "    " |P. O. Box 15432        |     finger for full PGP key        >
+ "  " /\ " |Honolulu, HI  96830    |====================================>
+\"  "/  \" |Serendipitous Solutions|    Also NetSurfer@sersol.com      >
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+
+
+
+
+
+------------------------------
+
+From: marym@Finesse.COM (Mary Morris)
+Date: Thu, 23 Jun 1994 11:47:51 +0800
+Subject: [#94-6-104] [#94-6-88] digital cash and free banking
+
+tburns@mason1.gmu.edu (T. David Burns) writes:
+
+>>From: marym@Finesse.COM (Mary Morris)
+>>At present, I get my paycheck deposited to my bank account electronically.
+>>I tend to use a debit card for most general transactions. [...]
+>>My bills are paid through Check-Free, a service that I pay for.
+>>Very little paper (cash or check) is ever used by me.
+>
+>Most of the responses (listing various advantages and conveniences of
+>digicash) to my questions ignored this option. This is the real alternative
+>to digicash (call it digicheck). The question is anonymous versus
+>data-trail electronic transfers, not anonymous tranfers versus nothing.
+>Will we be forced to choose between leaving a data trail at every
+>transaction, like Mary, or sticking with old-fashioned greenbacks? Are
+>there enough legitimate users and uses of anonymity for it to get a
+>foothold or is the black market our best hope for privacy?
+
+About four or five years ago, I worked for a place that processed 
+bank data. This wasn't the average transaction processing. This place
+took all of a bank's data and merged it together to identify
+what accounts a person had, how money flowed between them and out 
+of them. This was then merged with several demographic and lifestyle
+databases. The end result was a very good profile of what a "household"
+(that was their base unit) did with its money. I worked in the operations
+area verifying the fuzzy logic matches that were made to determine
+who was who and what they did. 
+
+As far as I know, this info stayed inside of the bank. It wasn't information
+that was for sale. With the increasing value of information, I don't
+expect this *ethical stance* to remain. This was/is a necessary
+part of what the marketing and advertising needs to know to get their
+financial support.
+
+Many banks profile people now. I know that as long as I have my money
+in a bank, I am probably subject to this without my knowledge or 
+approval. I have no way to identify who uses this and who doesn't
+now.
+
+If you really want your digicash to be anonymous, you will probably 
+end up paying an additional fee equal to what the institution would
+get for selling that info on the open market.
+
+Considering the Georgia Tech study, WHOIS database, and demographic
+collection currently entertained by GNN and some WWW site dealing
+in publishing magazine excerpts, there is enough information for
+basic profiling without specific transaction information. If 
+transaction information is combined, the clarity is significantly
+improved. 
+
+Anyway, after all of this rambling, the financial institutions currently
+*own* your financial data. (Possetion is nine tenth's of the law).
+Most people don't know this. I don't really expect a digibank
+to have any different perspective on what it *owns*. The transfers
+can be as anonymous as hell, but you are still marked and known.
+
+Mary
+
+
+
+------------------------------
+
+From: Mark Grant <Mark.Grant@isltd.insignia.com>
+Date: Thu, 23 Jun 94 20:31:02 BST
+Subject: [#94-6-105] digital cash and free banking
+
+marym@finesse.com (Mary Morris) said :
+
+> About four or five years ago, I worked for a place that processed 
+> bank data. This wasn't the average transaction processing. This place
+> took all of a bank's data and merged it together to identify
+> what accounts a person had, how money flowed between them and out 
+> of them. This was then merged with several demographic and lifestyle
+> databases. The end result was a very good profile of what a "household"
+> (that was their base unit) did with its money.
+
+But if all you're doing is taking money out of your account and sending
+it to somebody else, what sort of a profile can they create ? If they
+can't link buyer and seller, it seems to me that the most they would be
+able to find out would be your total income and outgoings (which would
+be useless as you could simply withdraw cash and pay it back again to
+upset the figures).
+
+			Mark
+
+------------------------------
+
+From: levy@lenny.haskins.yale.edu
+Date: Thu, 23 Jun 1994 18:54:46 -0400
+Subject: [#94-6-106] SCI: Chaos, Complexity, and Reductionism
+
+About emergence, Derek Zahn wrote:
+
+>  * It requires an observer interested in "talking about" the phenomena.
+>    The pure compression view may not require this, but talk about
+>    the movement of a tornado is only approximate talk, and it's not
+>    clear to me how we can decide a priori which are the "important"
+>    parts to be approximated.
+
+I think that there's a thoroughly quantitative and objective way out of the 
+subjective view of emergence, if you look at correlations across various
+distances.  In general, emergence manifests itself as sudden, large changes
+in the distance over which a system exhibits its greatest correlations.
+
+For example, in the famous Benard convection, which occurs when
+you heat a thin layer of water between two sheets of glass, you start out
+with very short-distance correlations (on the order of a few water molecules'
+diameters) among adjacent molecules, whose movement is essentially random.
+As you increase the temperature, the correlations suddenly jump to several 
+millimeters' distance, as large convection cells begin to form, and huge
+numbers of molecules move around and around together.
+
+In the other direction, you have the change from laminar to turbulent flow,
+as when a rapidly-moving stream of water hits a rock.  Then, the long-distance
+correlation between the molecules suddenly dissappears, as they swirl and
+tumble on the downstream side of the rock.
+
+This sudden, objective hyper-shift in correlations corresponds quite well to 
+our subjective sense of surprise as we observe the system in question.  One 
+physicist, whose name I can't recall, said that when he died he was going to 
+ask God about turbulence.
+
+I think that, with a little imagination, we can apply this quantitative,
+correlative view of emergence to a host of other phenomena.  I strongly
+recommend that anyone interested in emergence read _Order out of Chaos_, by
+Ilya Prigogine & Isabelle Stengers, for a discussion of such behavior in
+a variety of natural phenomena.
+
+-- Simon
+
+------------------------------
+
+From: levy@lenny.haskins.yale.edu
+Date: Thu, 23 Jun 1994 19:08:23 -0400
+Subject: [#94-6-107] U.S. Tech Corps: No thanks
+
+It mystifies me that, as test scores on basic skills like reading and math
+continue to drop, educators grow increasingly frantic about "bringing computers
+into the classroom".  A Connection Machine at every desk isn't going to help
+anyone who can't do basic arithmetic, or identify the subject and predicate
+of a simple sentence.
+
+I will go so far as to say that the education that my parents 
+got forty years ago is better preparation for dealing with the issues of a
+technological society than anything that an American child is getting today,
+or is likely to get if computers are introduced into the curriculum.
+
+-- Simon
+
+------------------------------
+
+From: SIPROJ@pwisbbs.com (SIPROJ)
+Date: Tue, 21 Jun 1994 17:38:36 GMT
+Subject: [#94-6-108] Digital Cash
+
+Mark Grant <Mark.Grant@isltd.insignia.com>
+> Actually, with current regulations, IMHO it's quite likely for
+digicash
+> to be denominated in something other than dollars. Most of the schemes
+> I've seen discussed are along the lines of the local barter or
+> labor-trading schemes that exist in some places, except that they're
+> global rather than being restricted to a small geographical area (e.g.
+> 'You write me some software and I'll send you some digicash to pay for
+> your account on my server'). In this case the denomation would be
+> something like 'access-months' - that does give you an effective
+exchange
+> rate, but it could well be variable rather than fixed.
+
+Well for those really interested in DigiCash, a server is
+available for the Macintosh for ftp erde.darmstadt.de. This
+one is primitive and the above suggestion to denominate
+in non-dollar figures is much better.  Suggested reference
+in proceeding in an anti-monetarist fashion means getting the
+"Time Dollar" book from Essential Research, an offshoot of
+Ralph Naders group.
+
+Barter systems get thwarted by entropian/statist notions by
+virtue of convertibility to centrally controlled denominating
+systems.  To avoid that trap, avoid convertibility or exchange
+with monetarists, i.e. prohibit it in absolute terms, a firewall
+that prevents DigiFinance from going down in flames with the
+monetary system...
+
+Anyone know where to get source code to facilitating software
+for this?  PGP 2.3 v1.1 for all platforms, including GUI
+based systems overseas ftp locations?
+
+siproj@pwisbbs.com
+
+------------------------------
+
+From: "Patrick M. Fitzgerald" <pmfitzge@fitz.b30.ingr.com>
+Date: Thu, 23 Jun 94 21:18:46 -0500
+Subject: [#94-6-109] U.S. Tech Corps: No thanks 
+
+In message #94-6-107 
+levy@lenny.haskins.yale.edu writes:
+> 
+> It mystifies me that, as test scores on basic skills like
+> reading and math continue to drop, educators grow
+> increasingly frantic about "bringing computers into the
+> classroom". [...]
+
+Al Gore was recently on "Larry King Live" defending the
+increasing government intrusion into the expanding
+"information superhighway".  He explained that everyone must
+have access to this wonderful new whatever-the-hell-it-is.
+
+Another of Larry's guests explained that currently you can
+connect to Compuserve for only $8 a month, but that did not
+phase the VP.  Gore calmly explained that the $8 is only for
+basic services.  Can we now look forward to government
+subsidies for SoundBlasters, MPEG cards, and VR helmets
+because ASCII does not suffice and everyone has a god-given
+right to state of the art multimedia?
+
+As my extropian friend Alan Barksdale mentioned in a
+recent conversation, we already have vast, "free"
+information storage vaults scattered across this great land
+(AKA "libraries"), but who uses them most?  I doubt it is
+the "information have-nots" (<-- politically-correct
+term for "struggling downtrodden masses").
+
+I suspect I'm preaching to the choir,
+--
+Patrick M. Fitzgerald, pmfitzge@ingr.com             ______
+                                                    / ___  )
+  I have come here to chew sushi and kick butt.    / __)/ /__
+  And I'm all out of sushi.                       (_/it(_____)
+
+------------------------------
+
+From: tburns@mason1.gmu.edu (T. David Burns)
+Date: Thu, 23 Jun 1994 22:31:56 -0500
+Subject: [#94-6-110] digital cash and free banking
+
+At  1:28 PM 6/21/94 -0700, Eric Watt Forste wrote:
+>>Neither neoclassical nor Austrian theories of money support this
+>>conclusion. How would we test this statement?
+>
+>Austrian theory as developed by George Selgin supports it.
+
+One of his proposals involved freezing the monetary base and continuing to
+use dollars. I'm sure niether he nor White equates free banking with
+commodity money. Mises's theory of money & credit suggests that the value
+of money is based on expectations of future exchangeability, which must be
+rooted in some previous connection to a commodity but need not maintain
+that connection. All you need is some way to maintain those expectations.
+
+[...]
+> Money was understood to be merely a distinguished
+>commodity until well after free banking was completely suppressed in
+>the MDCs.
+
+Post hoc ergo propter hoc. Monetary institutions were still primitive, as
+was the public and scholarly understanding of them.
+
+>>game is half-conceded?" What is the game, anonymity, fed bashing, or
+>>inflation protection?
+>
+>It is no different, and the game is all of the above.
+
+The extropian game is all the above, the digicash game is only anonymity.
+>[...]
+>I also doubt that the bureaucrats will give us financial privacy just
+>because we ask nicely. Serial-number tracking technology, which would
+>make every FRN a marked note, is not far in the future at all.
+
+You can use $s as a unit to denominate your debits and credits without ever
+using an actual serial numbered note yourself.
+
+>>What unit of account will cyberspace adopt? What medium of redemption?
+>
+>These questions are unanswerable, because they require predicting the
+>future. What we need to decide is what units and media *should*
+>cyberspace adopt? We are not haplessly sitting around waiting for
+>something to happen to us; *we* are the people who are going to be
+>designing and implementing these systems. So the question is not
+>"what will?" but "what should?".
+
+There's a lot of positive feedback in money, so knowing the competitors
+should give a pretty good indication of the future. Knowing what is likely
+to happen without interference provides insight into how to get people to
+accept what we want more easily. We can't ram it down their throats.
+Standards can fail, implementations can stagnate.
+>
+>I think we have every reason to want to dump central-bank-controlled
+>currencies, and (given the current regulatory state of affairs) few or
+>no reasons for wanting to preserve them.
+
+Once the central bank is gone, what's so odious about the currency?
+
+[from another post]
+>in all U. S. jurisdictions, you must get official
+>permission from the state to open a new bank. Such permission is very
+>difficult to get in most states. No such permission is required (in
+>most states) to open a new barter exchange or commodity depository.
+>So backing digital cash with anything of value other than fiat
+>currency would expose one to far less bureaucratic oversight.
+
+I find this reasoning much more persuasive. This even seems like a possible
+path to separating the unit of account from the medium of exchange. But
+doesn't the IRS keep a pretty enthusiastic eye on barter exchanges, and
+aren't there regs on precious metals dealers, etc? What unit do barter
+exchanges use for accounting?
+
+-- Dave                       tburns@mason1.gmu.edu (T. David Burns)
+--                                (609) 921-2499 (fax or voice message)
+
+
+
+------------------------------
+
+From: Eric Watt Forste <arkuat@netcom.com>
+Date: Thu, 23 Jun 94 19:47:12 -0700
+Subject: [#94-6-111] WWW: yet again, Arkuat tries to publish
+
+After many false starts, my World-Wide Web pages are now as accessible
+as they are going to be until I find a host site less overloaded than
+Netcom. The  recommended URL template is any of:
+ 
+   file://netcomX.netcom.com/pub/arkuat/extropy.html  (0 < X < 15)
+ 
+The above is *not* an actual working URL. You should replace X above
+with any number from 1 to 14, e. g.
+ 
+   file://netcom3.netcom.com/pub/arkuat/extropy.html          or
+   file://netcom11.netcom.com/pub/arkuat/extropy.html
+ 
+The above *are* actual working URLs.
+ 
+netcom9 is not your best choice, since that is the default recipient for
+external FTP requests, and is likely to be unresponsive during the day.
+Any other number from 1 to 14 should work, though.
+ 
+Some highlights:
+	- lightly-HTMLized copy of the Extropian Principles v 2.5
+	- metaguide to neuroscience and ANN research on the WWW
+	- Commerce on the Internet: a path to an agoric society?
+	- Principia Cybernetica's work on memetics
+	- FAQs for nanotech, cryonics, cryptography, etc.
+	- and yet another Cypherpunk page
+ 
+Eric Watt Forste     (finger arkuat@netcom.com for the rest of my .signature)
+
+------------------------------
+
+From: rjc@gnu.ai.mit.edu (Ray)
+Date: Fri, 24 Jun 94 1:08:05 WET DST
+Subject: [#94-6-112] U.S. Tech Corps: No thanks
+
+levy@lenny.haskins.yale.edu writes:
+> 
+> It mystifies me that, as test scores on basic skills like reading and math
+> continue to drop, educators grow increasingly frantic about "bringing computers
+> into the classroom".  A Connection Machine at every desk isn't going to help
+> anyone who can't do basic arithmetic, or identify the subject and predicate
+> of a simple sentence.
+
+  My thoughts exactly. My school didn't have computers, but I was
+prepared fairly well for today's workplace (I went to a local
+private Christian middle school and a state supported engineering
+magnet high school). Computers aren't going to help kids who can't
+learn basic math and verbal skills.
+
+> I will go so far as to say that the education that my parents 
+> got forty years ago is better preparation for dealing with the issues of a
+> technological society than anything that an American child is getting today,
+> or is likely to get if computers are introduced into the curriculum.
+
+   The proof is already out there. SAT scores are lower than ever. The
+SAT was recently "re-calibrated" so that today's average scores
+are competitive with what they were fourty years ago.
+
+   One day I discovered some old letters my grandparents had written 60
+years ago, and I was facinated. For the time they lived in, their letters
+were remarkably well written and my grandfather was remarkably educated
+(he knew 3 languages and was good at engineering) even though
+he didn't attend college (he only went to a vocational school)
+
+   Our schools have lost something essential, and it has nothing to
+do with teacher salaries.
+
+ 
+
+
+------------------------------
+
+From: onomoto@netcom.com (Young and Loud)
+Date: Thu, 23 Jun 1994 23:58:24 -0700 (PDT)
+Subject: [#94-6-113] U.S. Tech Corps: No thanks
+
+Ray writes:
+> 
+>    The proof is already out there. SAT scores are lower than ever. The
+> SAT was recently "re-calibrated" so that today's average scores
+> are competitive with what they were fourty years ago.
+
+	Um.. not to excuse the state of public schools or anything but,
+from what I read in the NYT when the "re-calibration" was reported,
+there's a fairly substantive change in the demographics of the kids
+taking the SAT now than with those 40 years ago. In particular  40
+years ago most high school students weren't college bound.
+
+>[...]
+> 
+>    Our schools have lost something essential, and it has nothing to
+> do with teacher salaries.
+> 
+
+	I agree with this.  On the other hand, I find the argument that
+teachers are expected to do a whole lot more than in previous
+generations to be fairly persuasive.   I think that the necessity
+of the two-income family has a lot to do with this, as a lot of kids
+seem have received less parenting than before.  
+
+	School overcrowding is pretty serious also.
+
+	-o
+
+-- 
+onomoto -- 555       | Infoto Diegoto DODOTO Tobagoto vetoto Texacoto
+bryant st #136 palo  | Mayoto archipelagoto.   Carusoto gumboto
+alto ca 94301        | Kyototo Oronoto Orinocoto vivoto GINKGOTO.  
+
+------------------------------
+
+End of Extropians Digest V94 #174
+*********************************
+

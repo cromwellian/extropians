@@ -1,0 +1,937 @@
+From extropians-request@extropy.org Thu Sep  2 09:05:51 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA01339; Thu, 2 Sep 93 09:05:48 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA08674; Thu, 2 Sep 93 09:05:39 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA11302; Thu, 2 Sep 93 12:01:45 EDT
+Received: from news.panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+	id AA11296; Thu, 2 Sep 93 12:01:14 EDT
+Received: by news.panix.com id AA23985
+  (5.65c/IDA-1.4.4 for exi-maillist@ung.gnu.ai.mit.edu); Thu, 2 Sep 1993 12:01:07 -0400
+Date: Thu, 2 Sep 1993 12:01:07 -0400
+Message-Id: <199309021601.AA23985@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: September 2, 373 P.N.O. [16:01:02 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Thu, 2 Sep 93             Volume 93 : Issue 244
+
+Today's Topics:
+                                                                      [1 msgs]
+                          AIT:Socialist computation                   [2 msgs]
+                                  Green Goo                           [1 msgs]
+                            Heinlein's predictions                    [2 msgs]
+                    META: list software agent docs wanted             [2 msgs]
+            Meta: I have a problem using the list software with MH    [1 msgs]
+                            Nightly Market Report                     [2 msgs]
+                   REVIEW: Extropaganza a definite success            [1 msgs]
+                       WAR/NANO/LAW:  Against Nanarchy                [1 msgs]
+                                  good books                          [1 msgs]
+                      nominalism is what the other says               [1 msgs]
+                       phys: gravitational anti-energy                [1 msgs]
+                  the Tao that can be written is not the Tao          [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51637 bytes.
+
+----------------------------------------------------------------------
+
+Date: Wed, 01 Sep 93 14:29:16 -0500
+From: "Patrick M. Fitzgerald" <pmfitzge@fitz.b30.ingr.com>
+Subject: META: list software agent docs wanted
+
+In message #93-9-15 
+"Randall M. Clague" <rclague@netcom.com> writes:
+> 
+> I'm still trying to put names to faces [...]
+
+Reminds me of a list software agent that I want to write.
+
+I want to add a "::finger" agent, so you can upload text about
+yourself (including a uuencoded picture?).  Others can retrieve the
+text if they want to know the identity of a particular list member.
+For example, you could reply to this message and put "::finger" at the
+top of the message if you wanted to know more about me.
+
+But I don't have the docs for writing an agent...
+Can someone send them to me?
+
+Habs suggested I contact Ray, but I have received no reply.
+
+Oh, and I agree with Craig: someone decide on a name for the list
+software.
+-- 
+   ______    Patrick M. Fitzgerald            pmfitzge@ingr.com
+  / ___  )   --------------Intergraph Corporation--------------
+ / __)/ /__  Senior Software Analyst    TIM & DBT Documentation
+(_/it(_____) (205)730-3741, Bldg 30, Room 122m, Mailstop GD3002
+
+  What is the sound of Perl?  Is it not the sound of a wall that
+  people have stopped banging their heads against?
+	- Larry Wall
+
+------------------------------
+
+Date: Wed, 1 Sep 93 16:16:06 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: META: list software agent docs wanted
+
+Patrick M. Fitzgerald () writes:
+> 
+> In message #93-9-15 
+> "Randall M. Clague" <rclague@netcom.com> writes:
+> > 
+> > I'm still trying to put names to faces [...]
+> 
+> Reminds me of a list software agent that I want to write.
+> 
+> I want to add a "::finger" agent, so you can upload text about
+> yourself (including a uuencoded picture?).  Others can retrieve the
+> text if they want to know the identity of a particular list member.
+> For example, you could reply to this message and put "::finger" at the
+> top of the message if you wanted to know more about me.
+
+  Definately feasible.
+
+> Can someone send them to me?
+
+  Not written yet. [docs, working on them]
+ 
+> Habs suggested I contact Ray, but I have received no reply.
+
+  I might have lost the message. A few days ago, I lost my entire
+incoming mailbox. Sorry.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Wed, 1 Sep 93 13:32:52 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: AIT:Socialist computation
+
+T. David Burns writes:
+>> planning board ... No one argues they should plan *everything*.
+>That's not what is being argued. ... In full socialism, there is
+>nothing to intervene into. Since no one owns any productive property,
+>all production decisions are ultimately up to the planners.  They can
+>routinize or delegate decisions [but not] intervening in an
+>independent process.
+
+Perhaps I have misused the word "socialism".  Then again, I worry you
+have set up a strawman to attack - is "capitalism" where no central
+organizations make any decisions, such as for national defense?
+
+In any case, most real "socialist" folks in the world promote more,
+rather than less, intervention in "market" processes.  These folks
+imagine they can tell when to intervene and when to leave things
+alone.  And they all want to leave some things alone.
+
+>Why not just make its decisions advisory, with nice democratic
+>institutions mediating between the plan and human rights?
+
+Under almost any institution almost anyone can "advise".  The core of
+the institution determines who has what power.
+
+Robin Hanson
+
+------------------------------
+
+Date: Wed, 1 Sep 93 14:12:41 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: WAR/NANO/LAW:  Against Nanarchy
+
+I proposed that "a viable alternative" to nanarchy is to always hold
+"parents" responsible for their "children" "(except for human
+biological children)".
+
+Hal Finney responds:
+>why in this alternative would one except humans?
+
+Just as a grandfather clause, because we're used to this, and it doesn't
+fail terribly.
+
+>I don't think it makes sense to hold human "parents" always responsible
+>for the actions of their AI "children".  ...  If you created the AI twenty
+>years ago and it has been living on its own all this time
+
+I didn't say it would be optimal, just "viable".  (Though given scenarios
+like those sketched by Nick Szabo, my proposal may well be optimal.)
+Crime could be deterred at an acceptable cost.  Nanarchy is not *required*
+to deal with future crime.
+
+>We might even say that nanarchy is DEFINED to be a stable, self-enforcing
+>political system which provides minimal guarantees against coercion.
+
+We might define socialism as successful central planning too.  But it is
+fairer to define nanarchy as a centralized *attempt* to stop coercion, an
+attempt that could also go terribly wrong (system prevents anyone touching
+anyone else, system taken over by despots, etc.)
+
+>> Mark clearly thinks that colonization of the universe naturally leads to
+>> a single military power ... Sure, "whoever expands fastest ... gets to
+>> have more mass-energy ...".  But the same could be said of ordinary 
+>> economic growth, yet few argue this implies a single power.
+>
+>I do believe that this could easily occur ... nanotech self-reproducing
+>machines could expand from star system to star system.  the first seeds to
+>enter a system ... would end up with full possession of ... that system.
+>They would then be in a position to expand outward all the faster.  You
+>would have an initial wave of exponential growth (which would settle down
+>to third-power growth) and in such a framework an initial head start could
+>become a numerically overwhelming advantage. ...  I think the initial
+>exponential growth phase, when all that is going on is claim-staking and
+>colonization, is going to allow only a very small number of competitors.
+
+This makes no sense.  With two exponential growing things, it is the one
+with the larger exponent (time derivative of log of amount) that grows to
+be biggest.  If the exponents are the same the ratio between the two is
+constant.  So I ask again, why should the first colonizer have the biggest
+exponent?  And ordinary economic growth is (at least) exponetial, so why
+doesn't this argument apply to that?
+
+As Nick points out, technological innovation may not run out, so those who
+stay closer to the center of innovation, and then expand later may grow
+faster, by using more advanced technology.
+
+>> If at least one of the largest expanding powers were "open", allowing us
+>> all to buy shares in it, or to immigrate into it, then there is little risk
+>> that the universe will be shut off from us.
+>
+>It is not clear why such a power would allow us to do this.  
+
+For the same reason that the U.S. should allow immigrants and foreign
+investors; because they help us grow faster.
+
+Robin Hanson
+
+------------------------------
+
+Date: Wed, 1 Sep 93 14:14:21 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: nominalism is what the other says
+
+A long time ago, in fact on August 8, James Donald wrote:
+> For example if nominalism was correct, then what the
+> classical Greeks said would be largely meaningless to us,
+> for example it is unlikely that they would use a word
+> corresponding to "liberty" in a sense similar to that which
+> we use. This prediction is obviously false.	Liberty and
+> similar concepts are plainly true universals, thus plainly
+> universals exist.
+
+Plainly.  Except that when Westerners tried to promulgate liberalism in
+China, they had to invent a word for liberty.
+
+Among the memes we inherit from Greece are many of our words (directly or
+calqued through Latin).  Any Darwinist should recognize that this does NOT
+mean the lexicon is universal or "natural".
+
+"He is a barbarian, and thinks the customs of his island to be the laws of
+nature."  (Bernard Shaw, CAESAR AND CLEOPATRA, likely misquoted)
+
+> Thus all theories based on nominalism, for example Marxism
+> and Utilitarianism, must be false, Marxism because of its
+> nominalist definition of value, utilitarianism because of
+> its nominalist definition of the good.
+
+Why shouldn't a Marxist say *our* definition of value is nominalist?  After
+all we do say one person's measurement of value is as good as another's,
+while Marxists have an objective definition of something that they call
+"value" (though "cost" is a better word for it).
+
+You might call me an evolutionary or market nominalist:  Particular concepts
+(sets) have no privileges *a priori* but must compete for recognition by
+virtue of their descriptive usefulness.  Green is more useful than grue
+because leaves are (as far as we know:) green, not grue.
+
+Anton Sherwood						   DASher@netcom.com
++1 415 267 0685		1800 Market St #207, San Francisco, California 94102
+
+------------------------------
+
+Date: Wed, 01 Sep 93 00:10:04 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+News Summary as of: Wed Sep  1 00:10:03 EDT 1993
+
+
+Newly Registered Reputations:
+(None)
+
+New Share Issues:
+(None)
+
+Share Splits:
+(None)
+
+
+Market Summary as of: Wed Sep  1 00:00:03 EDT 1993
+
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+1000          .20      .40      .20        10000         4000          800.00
+110           .01      .10      .10        10000         1750          175.00
+150           .01      .10      .10        10000         1750          175.00
+1E6             -      .05      .02        10000           25             .50
+1E9           .01      .05        -        10000            -               -
+200           .10      .20      .20        10000         4075          815.00
+80            .01        -        -        10000            -               -
+90            .01        -      .10        10000         2000          200.00
+ACS             -      .10      .05        10000         2724          136.20
+AI            .01      .50      .30        10000         1000          300.00
+ALCOR           -     2.25     2.00        10000         3173         6346.00
+ALTINST         -      .25      .05        10000         4000          200.00
+ANTON         .25      .27      .26        10000          340           88.40
+ARKU          .27      .28      .27        10000         5001         1350.27
+BIOPR         .01      .10      .05        10000         3000          150.00
+BLAIR        1.25    30.00    50.00        10000           25         1250.00
+CYPHP           -      .08      .05        10000         1700           85.00
+DC1000          -      .10        -        10000            -               -
+DC200           -      .15      .10        10000         1500          150.00
+DC7000          -      .10        -        10000            -               -
+DCFLOP          -      .10        -        10000            -               -
+DEREK           -      .49      .49       100000         8220         4027.80
+DRXLR         .65      .85      .75        10000         4256         3192.00
+DVDT          .75     1.55     1.55        10000         9900        15345.00
+E             .58      .75      .75        10000         6787         5090.25
+ESR             -        -        -            -            -               -
+EXI          1.54     3.20     3.00        10000         3025         9075.00
+FAB             -        -        -            -            -               -
+FCP             -     1.60     1.50        80000        15845        23767.50
+GHG           .02      .60      .60        10000         7180         4308.00
+GOBEL         .01     1.50     1.00        10000          767          767.00
+GOD             -      .10      .10        10000         3000          300.00
+H             .76      .76      .76        30000        19290        14660.40
+HAM           .10      .50      .50        20000        15460         7730.00
+HEINLN        .01      .25      .05        10000         3100          155.00
+HEX        100.00   101.00   100.00        10000         3263       326300.00
+HFINN        1.50     6.00     6.00        10000         1005         6030.00
+IMMFR         .25      .80      .80        10000         1838         1470.40
+JFREE         .02     1.00      .10        10000         3000          300.00
+JPP           .26      .57      .30        10000         3500         1050.00
+KARL          .50     1.00     1.00        10000          500          500.00
+LEARY         .20      .50      .20        10000         1000          200.00
+LEF           .35      .50      .05        10000         3026          151.30
+LEFTY         .01      .45      .45        10000         3551         1597.95
+LIST          .40    10.00      .75        10000         5000         3750.00
+LP              -      .30      .15        10000         4625          693.75
+LSOFT         .59     1.00     1.00        10000         7650         7650.00
+LURKR           -      .01        -       100000            -               -
+MARCR           -        -        -            -            -               -
+MED21         .01      .19      .02        10000         3400           68.00
+MLINK           -      .01      .01      1000000        52602          526.02
+MMORE         .10     1.25      .10        10000         3000          300.00
+MORE          .75     1.25     1.25        10000         3160         3950.00
+MWM           .15     1.50     1.50        10000         1260         1890.00
+N           20.00    25.00    25.00        10000          120         3000.00
+NEWTON          -      .20        -        10000            -               -
+NSS             -      .03      .01        10000           25             .25
+OCEAN           -      .12      .10        10000         3100          310.00
+P           22.50    25.00    25.00      1000000           94         2350.00
+PETER           -      .01     1.00     10000000          600          600.00
+PLANET        .01      .02      .05        10000         1500           75.00
+PPL           .30      .65      .30        10000         1400          420.00
+PRICE           -     4.00     2.00     10000000         1410         2820.00
+R             .25      .70      .60        10000         6000         3600.00
+RAND          .05      .06      .05        10000         1500           75.00
+RJC          1.00   999.00      .60        10000         5100         3060.00
+ROMA            -        -        -            -            -               -
+RWHIT           -        -        -            -            -               -
+SGP             -        -        -        10000            -               -
+SHAWN         .01     1.00        -        10000            -               -
+SSI           .22      .29      .22        10000         4700         1034.00
+TCMAY         .75     1.50      .82        10000         5000         4100.00
+TIM           .50     2.00      .20        10000         1700          340.00
+TRANS         .01      .60      .02        10000         3011           60.22
+VINGE         .75     1.00      .50        10000         2000         1000.00
+WILKEN       1.00    10.00    10.00        10000          101         1010.00
+-----------------------------------------------------------------------------
+Total                                                               480921.21
+
+------------------------------
+
+Date: Wed, 1 Sep 93 16:57:17 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: phys: gravitational anti-energy
+
+Humor me just a little bit longer.
+
+D. Anton Sherwood wrote on August 7:
+> Between two masses there is negative gravitational potential energy
+> (-Gmm/d).  Energy is equivalent to mass, so this negative energy has
+> negative gravity.  Where is it?  That is, somewhere in the system there
+> should be a locus of (very weak!) repulsion; is it in the masses, in a
+> cloud between them, in their joint center of mass, or what?
+
+
+Ray Cromwell replied on August 8:
+>   Intuitively, I would guess that gravity doesn't gravitate because that
+> would lead to a runaway affect.
+
+No harm done -- the feedback is negative (and slight).
+
+>   Also, figuring out how energy/mass gravitate is a bit more difficult
+> than applying Newton's law of gravitation. (it takes General Relativity)
+
+That doesn't seem to change the principle of my question.
+
+>   People tend to go overboard when applying relativity's ideas of mass
+> and energy. A common mistake is to ask "if mass increases as you go
+> faster, why wouldn't a very fast spaceship turn into a black hole?"
+
+Donald Moffitt used that rather silly premise in "The Mechanical Sky"
+(Crescent in the Sky / A Gathering of Stars).
+
+
+Dave Krieger wrote on August 9:
+> This is a rather clever paradox, Anton,
+
+Paradox?
+
+> but fundamentally it just comes down to the reification of a bookkeeping
+> trick (or, more charitably, a mathematical abstraction).
+
+... and goes on to imply that kinetic energy isn't real, either, which was
+news to me.  Are potential and kinetic energy just a fiction that physicists
+use to keep the books square?
+
+I agree there's nothing real about defining zero to be the grav.pot.energy
+at infinite separation, but that's not the important thing anyway, as I see
+it.  If we set zero lower (so that it's possible for two masses to have
+positive GPE), we get an infinite universe permeated by pseudo-mass, most
+of which cancels out, leaving pockets of negative pseudo-mass.
+
+Anton Sherwood						   DASher@netcom.com
++1 415 267 0685		1800 Market St #207, San Francisco, California 94102
+
+------------------------------
+
+Date: Wed, 1 Sep 93 19:22:09 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: Heinlein's predictions
+
+Nick Szabo wrote on August 9:
+> Heinlein made ten explicit predictions in 1950, commented upon [in 1965
+> and] in his 1980 _Expanded Universe_.  Alas the book is still packed up
+> in boxes, but three I recall vaguely are:  [deleted]
+
+Two others that I remember were "We'll all be getting a bit hungry
+by and by" and "The cult of the phony in art will disappear."
+
+He also predicted proof of life after death, though perhaps that was
+not on this list.
+
+Heinlein remarked in 1980 that of his ten predictions, the only ones
+flat wrong were the two with explicit dates!
+
+*\\* Anton 						Ubi scriptum?
+
+------------------------------
+
+Date: Wed, 1 Sep 1993 22:56:26 -0400
+From: tburns@gmuvax.gmu.edu (T. David Burns)
+Subject: AIT:Socialist computation
+
+At  1:12 PM 9/1/93 +0000, Ray wrote:
+><statist economist mode on>
+>  It is true that a central planner could not accurately model the
+>outcomes of individuals and small organizations. 
+
+This is a different question. Socialists don't need such a model, they need
+a method of coordinating production without prices. While having such a
+model might suffice, it isn't necessary.
+
+>Analagous to thermodynamics then, could not an economist model
+>macroscopic variables of an economy? In the same way a physicist can
+>manipulate temperature by changing volume and pressure, could not an
+>economist change the GNP by manipulating the money supply, taxes, and
+>subsidies?  
+><statist economist mode off>
+
+Complex systems stuff like far-from-equilibrium thermodynamics, or solid
+state physics might hold better analogies, since they depend more on local
+interaction between the agents/particles rather than just stochastic
+motion. I don't know much about these fields, but spin glasses and
+convection cells sound more like an economy than an ideal gas does. You can
+control convection cells with temperature, etc. within limits, but you
+can't make it sit up and beg.
+
+Hayek talked about pattern prediction. Certainly economists would like to
+be able to say *something* about what causes changes in the macroeconomy. I
+think this level of competence is achievable, though I'm not confident that
+we've yet achieved it. (Bush/Clinton sure knew/knows how to get us out of a
+recession, huh? ;) My intuition says that the kind of knobs politicians
+prefer (manipulate $ supply, interest rates, taxes, subsidies) don't
+maintain a simple cause/effect relations, or else we'd have it figured out
+by now. 
+
+tburns@gmuvax.gmu.edu (T. David Burns)
+
+
+------------------------------
+
+Date: Thu, 02 Sep 93 00:10:06 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+News Summary as of: Thu Sep  2 00:10:04 EDT 1993
+
+
+Newly Registered Reputations:
+JOHN	John McPherson
+SAMEER	Sameer Parekh
+
+New Share Issues:
+Symbol	Shares Issued
+SAMEER	10000
+
+Share Splits:
+(None)
+
+
+Market Summary as of: Thu Sep  2 00:00:03 EDT 1993
+
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+1000          .20      .40      .20        10000         4000          800.00
+110           .01      .10      .10        10000         1750          175.00
+150           .01      .10      .10        10000         1750          175.00
+1E6             -      .05      .02        10000           25             .50
+1E9           .01      .05        -        10000            -               -
+200           .10      .20      .20        10000         4075          815.00
+80            .01        -        -        10000            -               -
+90            .01        -      .10        10000         2000          200.00
+ACS             -      .10      .05        10000         2724          136.20
+AI            .01      .50      .30        10000         1000          300.00
+ALCOR           -     2.25     2.00        10000         3173         6346.00
+ALTINST         -      .25      .05        10000         4000          200.00
+ANTON         .25      .27      .26        10000          340           88.40
+ARKU          .27      .28      .27        10000         5001         1350.27
+BIOPR         .01      .10      .05        10000         3000          150.00
+BLAIR        1.25    30.00    50.00        10000           25         1250.00
+CYPHP           -      .08      .05        10000         1700           85.00
+DC1000          -      .10        -        10000            -               -
+DC200           -      .15      .10        10000         1500          150.00
+DC7000          -      .10        -        10000            -               -
+DCFLOP          -      .10        -        10000            -               -
+DEREK           -      .49      .49       100000         8220         4027.80
+DRXLR         .65      .85      .75        10000         4256         3192.00
+DVDT          .75     1.55     1.55        10000         9900        15345.00
+E             .58      .75      .75        10000         6787         5090.25
+ESR             -        -        -            -            -               -
+EXI          1.54     3.20     3.00        10000         3025         9075.00
+FAB             -        -        -            -            -               -
+FCP             -     1.60     1.50        80000        15845        23767.50
+GHG           .02      .60      .60        10000         7180         4308.00
+GOBEL         .01     1.50     1.00        10000          767          767.00
+GOD             -      .10      .10        10000         3000          300.00
+H             .76      .76      .76        30000        19290        14660.40
+HAM           .10      .50      .50        20000        15460         7730.00
+HEINLN        .01      .25      .05        10000         3100          155.00
+HEX        100.00   101.00   100.00        10000         3413       341300.00
+HFINN        1.50     6.00     6.00        10000         1005         6030.00
+IMMFR         .25      .70      .80        10000         1838         1470.40
+JFREE         .02     1.00      .10        10000         3000          300.00
+JOHN            -        -        -            -            -               -
+JPP           .26      .57      .30        10000         3500         1050.00
+KARL          .50     1.00     1.00        10000          500          500.00
+LEARY         .20      .50      .20        10000         1000          200.00
+LEF           .35      .50      .05        10000         3026          151.30
+LEFTY         .01      .45      .45        10000         3551         1597.95
+LIST          .40    10.00      .75        10000         5000         3750.00
+LP              -      .30      .15        10000         4625          693.75
+LSOFT         .59     1.00     1.00        10000         7650         7650.00
+LURKR           -      .01        -       100000            -               -
+MARCR           -        -        -            -            -               -
+MED21         .01      .19      .02        10000         3400           68.00
+MLINK           -      .01      .01      1000000        52602          526.02
+MMORE         .10     1.25      .10        10000         3000          300.00
+MORE          .75     1.25     1.25        10000         3160         3950.00
+MWM           .15     1.50     1.50        10000         1260         1890.00
+N           20.00    25.00    25.00        10000          120         3000.00
+NEWTON          -      .20        -        10000            -               -
+NSS             -      .03      .01        10000           25             .25
+OCEAN           -      .12      .10        10000         3100          310.00
+P           22.50    25.00    25.00      1000000           94         2350.00
+PETER           -      .01     1.00     10000000          600          600.00
+PLANET        .01      .02      .05        10000         1500           75.00
+PPL           .30      .65      .30        10000         1400          420.00
+PRICE           -     4.00     2.00     10000000         1410         2820.00
+R             .25      .70      .60        10000         6000         3600.00
+RAND          .05      .06      .05        10000         1500           75.00
+RJC          1.00   999.00      .60        10000         5100         3060.00
+ROMA            -        -        -            -            -               -
+RWHIT           -        -        -            -            -               -
+SAMEER          -      .01        -        10000            -               -
+SGP             -        -        -        10000            -               -
+SHAWN         .01     1.00        -        10000            -               -
+SSI           .22      .29      .22        10000         4700         1034.00
+TCMAY         .75     1.50      .82        10000         5000         4100.00
+TIM           .50     2.00      .20        10000         1700          340.00
+TRANS         .01      .60      .02        10000         3011           60.22
+VINGE         .75     1.00      .50        10000         2000         1000.00
+WILKEN       1.00    10.00    10.00        10000          101         1010.00
+-----------------------------------------------------------------------------
+Total                                                               495921.21
+
+------------------------------
+
+Date: Wed, 1 Sep 93 23:46:27 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: the Tao that can be written is not the Tao
+
+Bits & Bytes #6 quotes "The Tao of Programming":
+> A program, no matter how complex, should act as a single unit. The
+> program should be directed by the logic within rather than by outward
+> appearances.
+
+The other commandments are sane, but -- if I may paraphrase Einstein's
+crack about mathematics -- to the extent I understand this one, it seems to
+be wrong.  Can someone elucidate?
+
+*\\* Anton 						Ubi scriptum?
+
+------------------------------
+
+Date: Thu, 2 Sep 93 0:27:34 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Green Goo
+
+		Green Goo  --
+	Life in the Era of Humane Genocide
+
+	copyright 1993 by Nick Szabo
+         	Permission to copy and distribute unaltered,
+		with attributions intact, freely granted.
+
+Central Planning for Ideal Populations
+
+Environmentalists have ambitions far beyond what they can 
+seemingly achieve.  Take, for example, the Wildlands Project,
+which contemplates confiscation and restoration of 50% of the
+land area in the U.S. lower 48.  Even more ambitious and
+controversial are the ideal "steady state" or "sustainable" population 
+numbers promoted by many ecologists.   For example Alan McGowen, a
+prolific contributor to sci.bio.ecology, promotes his long-range
+plan for reducing human population nearly two orders of 
+magnitude, to 100 million people, and constructs an elaborate
+ecological and ethical case to justify this strongly pursued
+goal.  The impact of either the overall or differential 
+population reduction on human economics and civilization? 
+Irrelevant to many environmentalists, compared to their goal
+of creating an idealized Garden of Eden on earth.  At the
+extreme we have groups that openly promote the excision
+of "human cancer" from the revered Gaia.  Are they merely
+dreaming, or do tools exist to make their dreams come true?
+
+Viral Coercion
+
+Much has been made of the speculative possibility of "gray goo" --
+self-replicating nanomachines that consume most biological and
+industrial materials, destroying civilization in the process.
+Gray goo relies on very advanced versions of postulated atomic-precision 
+robots capable of fine, very-high-frequency control over chemical reactions,
+and is thus theoretical possibility in the distant future.  But another 
+weapon of replication and destruction is being created in biotech 
+labs today, for the specific purpose of population control.  These 
+viruses, designed to eliminate species from entire continents and 
+potentially the entire planet, might well be called, reflecting their 
+ecological purpose, "green goo".
+
+The first use of genetically engineered viruses for population 
+control has been announced in Australia.  Biotech engineers say
+they can completely eradicate two species of mammal, the red fox
+and the European rabbit, from entire continent.  
+
+Previously viruses were imported from other continents for this 
+purpose.  In 1859 overeager British colonizers introduced the rabbit 
+and red fox to Australia.  Rabbits soon became a major pest.  As early as
+1888 Louis Pasteur suggested killing off the rabbits by 
+deliberately introducing a disease, and in 1950 somebody actually
+tried it.
+
+Rabbits in Brazil carry a harmless virus called myxomatosis,
+spread by mosquitoes.  But when European rabbits were exported
+to Brazil, over 99% of them died from this disease.  In 1950 the virus
+was introduced into rabbit warrens in a remote region of Australia.
+Ultimately the disease spread through Australia, moving most rapidly
+when moist conditions or standing water encouraged the mosquito
+vectors.  At first, the 99% death rate held, but the rabbit
+and virus population co-evolved to a nonlethal equilibrium.  Even
+so, over 80% of all the rabbits in Australia had been killed before 
+the epidemic played itself out.
+
+Humane Genocide
+
+The virus currently being genetically engineered to eradicate the red 
+fox in Australia can produce more complete results in a more humane
+manner.  The virus turns female red fox's immune system against male 
+sperm, rendering females infertile.   This may be the first truly
+effective green goo.  Because it is fine-tuned by genetic engineering,
+and because new viruses can be designed and released to take up where
+the last virus petered out, these new viruses can overcome genetic
+adaptation of the target population and reduce it to extinction.
+Moreover, the creation of such viruses is well-understood technology.  
+Deploying green goo targeted at human populations -- either specific 
+races or our entire species in general -- would be, like the red fox 
+virus program, a relatively simple and inexpensive biotech project, 
+well within the capabilities of hundreds of biotech labs around the 
+planet.
+
+Because sterilization is a far more humane form of genocide than 
+gas chambers, some of the ecologists and Green activists might 
+have little objection to releasing engineered viruses to reduce
+human populations to their "ideal" level.  The humane nature of a 
+sterility virus also makes it far more effective than traditional 
+forms of genocide, which involve visible, violent death and thus stir 
+the passions of people into resistance.  A sterility virus not only 
+blocks human reproduction, it also makes an end run around the 
+genetically evolved emotions which motivate such reproduction.  The only 
+defense against such a virus is a rational assessment of its consequences, 
+and the ability to motivate extreme, prolonged defense based on that 
+emotionally neutral knowledge.
+
+How Can We Fight Green Goo?
+
+Green goo might take many forms -- retrovirus, herpesvirus, RNA 
+virus, DNA virus, protein virus (prion), etc.  It might take
+the form of a humane, very effective sterility virus, or a cruder
+disease which destroys both the fertility and the health of the
+victim.  At the terroristic extreme, but less effective for the
+purposes of genocide, it might produce prolonged illness and death, 
+like HIV.  Biotechnology has now created a wide variety of viruses
+for the purposes of research, genetic therapy, and now population 
+control; but it has never been able to cure any kind of viral 
+disease.  Sometimes vaccines have been developed within a few years; 
+in many other cases they haven't.
+
+The best personal strategy may be to learn as much about a
+green goo's disease vectors as early as possible, and train oneself
+to avoid the situations and behaviors that tend to enable
+those vectors.  Small motivated groups might use technology 
+developed by Biosphere II and other closed-ecosystem projects.
+We might build largely self-sufficient communities physically 
+isolated from the rest of the planet, at least to the extent of 
+eliminating all possible green goo vectors.  People can then maintain 
+a rich non-physical interaction with the outside world via
+virtual reality.  The most important survival factor may be
+recognizing the the emergence of green goo as early as possible, and 
+taking these paranoid-looking preventitive steps as early as possible.
+
+Given the current memetic environment, both ethical and
+technological, green goo seems inevitable.  But while it
+may take drastic action to avoid, green goo need not
+achieve its genocidal aims on those who keep a lookout for
+it, and act early and effectively to prevent its spread once
+it has appeared.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Thu, 02 Sep 93 03:35:47 -0700
+From: davisd@nimitz.ee.washington.edu
+Subject: 
+
+
+------------------------------
+
+Date: Thu, 02 Sep 93 03:49:55 -0700
+From: davisd@nimitz.ee.washington.edu
+Subject: Meta: I have a problem using the list software with MH
+
+I use MH through emacs. MH automatically inserts a blank line between
+the headers and the text. I finally cc'ed a message to myself to find
+out why my ::help commands weren't working. Sure enough, even though I
+had no blank lines in the message when composed, the cc'ed message
+came back with a blank line between the headers and the text.
+
+man mh-mail says:
+
+     The general memo framework of RFC 822 is used.  A message
+consists of a block of information in a rigid format, followed by
+general text with no specified format.  The rigidly-formatted first
+part of a message is called the message header; the free-format
+portion is called the body.  The header must always exist, but the
+body is optional.  
+
+   *** These parts are separated by a blank line or by a
+        line of dashes. *** 
+
+
+In the editor for mh, the first of the two forwarded messages appeared
+as 
+
+To: extropians@extropy.org
+Cc: davisd@nimitz.ee.washington.edu
+Subject:
+-------
+::help
+
+When received, it appeared with a blank line instead of the -------.
+
+Trying to wriggle around this, I tried deleting the ------- line and
+sending the message. The mailer didn't like that, as evidenced by the
+bizarre things it did to the 2nd message.
+
+I like MH through emacs, and would appreciate any help in getting it
+to work with the list software. I keep the MH files in my own
+directory, so I can change any system files it uses.
+
+Buy Buy -- Dan Davis      
+
+
+
+
+
+------- Forwarded Message
+
+Return-Path: <davisd@nimitz.ee.washington.edu>
+Received: from localhost by nimitz.ee.washington.edu.Jaimie (4.1/SMI-4.1)
+	id AA12513; Thu, 2 Sep 93 02:53:40 PDT
+Message-Id: <9309020953.AA12513@nimitz.ee.washington.edu.Jaimie>
+To: extropians@extropy.org
+Cc: davisd@nimitz.ee.washington.edu
+Subject: 
+Date: Thu, 02 Sep 93 02:53:39 -0700
+From: davisd@nimitz.ee.washington.edu
+
+::help
+::help index
+::help exclude
+::help digest
+::stat
+
+------- End of Forwarded Message
+
+------- Forwarded Message
+
+Return-Path: <davisd@nimitz.ee.washington.edu>
+Received: from localhost by nimitz.ee.washington.edu.Jaimie
+(4.1/SMI-4.1)
+        id AA12634; Thu, 2 Sep 93 03:35:48 PDT
+Message-Id: <9309021035.AA12634@nimitz.ee.washington.edu.Jaimie>
+To: extropians@extropy.org
+Cc: davisd@nimitz.ee.washington.edu
+Subject:
+: :help
+: :help index
+: :help exclude
+: :help digest
+: :stat
+Date: Thu, 02 Sep 93 03:35:47 -0700
+From: davisd@nimitz.ee.washington.edu
+
+------- End of Forwarded Message
+
+
+
+
+
+
+
+------------------------------
+
+Date: Thu, 2 Sep 93 08:37:27 EDT
+From: Brian.Hawthorne@east.sun.com (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: good books
+
+> PLAGUES AND PEOPLES, William H. McNeill.  Anchor/Doubleday 1976. 
+> ISBN 0-385-11256-4.  Analyzes the broad trends of history in terms
+> of parasites.
+Parasites and diseases, as I recall.
+
+A great book that I haven't even cracked since 1980. I'll have to
+go back and re-read it now. Thanks for the reminder!
+
+
+------------------------------
+
+Date: Thu, 2 Sep 1993 09:20:51 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: REVIEW: Extropaganza a definite success
+
+I haven't have time to read all of the posts on this subject,
+but wanted to put in my few cents.
+
+I had a really great time. I was there from about 1pm to 10pm.
+
+I meet lots of Extropians for the first time and meet old friends.
+
+I was glad to see a few faces from the east coast.
+
+I thought our party hosts did a wonderful job in making us all
+feel welcome and I hope we didn't cause to much of a mess.
+
+/hawk
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+Date: Thu, 2 Sep 1993 09:39:07 -0400 (EDT)
+From: Edward J OConnell <ejo@world.std.com>
+Subject: Heinlein's predictions
+
+Reading the texts of Heinlein's worldcon speechs was interesting. (They're
+in the Reqieum collection)
+
+He goes on to describe a scenario in which the Soviets overthrow their
+Government out of a desire for more and better consumer goods and greater
+freedoms. Pretty much what happened.
+
+He then says that anyone who believes inthis scenario is a fool. Because
+the Soviets are true believers, who will not be seduced by sirloin steaks--
+
+He predicted that the US would be overun, and that the Soviet's would rule
+the Earth forever, because unlike most empires, the Soviets would have no
+outside force to topple them. No barbarian hordes.
+
+For Heinlein, and American conservatives, the Soviets represented a
+complete, *ahistoric* evil--you couldn't compare them to any other
+empire--they were qualitatively different. The fear they engendered was
+hysterical, irrational.
+
+And Heinlein, perhaps my favorite writer, was as irrational as anyone in
+this area.
+
+Jay
+
+
+
+------------------------------
+
+End of Extropians Digest V93 #244
+*********************************
+

@@ -1,0 +1,1076 @@
+From extropians-request@extropy.org Sun Sep 26 16:52:43 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA18247; Sun, 26 Sep 93 16:52:40 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA09162; Sun, 26 Sep 93 16:52:28 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA13129; Sat, 25 Sep 93 15:14:30 EDT
+Received: from news.panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+	id AA13123; Sat, 25 Sep 93 15:14:00 EDT
+Received: by news.panix.com id AA11543
+  (5.65c/IDA-1.4.4 for exi-maillist@ung.gnu.ai.mit.edu); Sat, 25 Sep 1993 15:11:07 -0400
+Date: Sat, 25 Sep 1993 15:11:07 -0400
+Message-Id: <199309251911.AA11543@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: September 25, 373 P.N.O. [19:11:00 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Sat, 25 Sep 93             Volume 93 : Issue 267
+
+Today's Topics:
+                                                                      [6 msgs]
+                                Meaninglessness                       [1 msgs]
+                            Bet 5000?  You are on!                    [1 msgs]
+                    Biologist wanted for Foundation movie             [2 msgs]
+                                DisappointNet                         [1 msgs]
+                             Extropaganza roster                      [1 msgs]
+                                 META: Admin:                         [1 msgs]
+                             META: List archives.                     [1 msgs]
+                               Meaninglessness                        [1 msgs]
+                     Meaninglessness (was Miscellaneous)              [1 msgs]
+                             Quantum Computation                      [1 msgs]
+                              employment problem                      [1 msgs]
+                           there ought to be a law                    [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52313 bytes.
+
+----------------------------------------------------------------------
+
+Date: Friday, 24 September 1993 07:28:07 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: "Experiment of interest to AI and quantum computer designers"
+
+In <199309240646.AA12988@panix.com>, ebrandt@jarthur.claremont.edu (Eli Brandt)  wrote:
+> 
+> > 2.  The perception problem (non linear inverse problem) is not
+> >     NP complete, but it is NP by all known algorithms, yet
+> >     quite simple animals can effortlessly solve this problem in
+> >     polynomial time.
+> 
+> It is meaningless to call an technique "polynomial time" unless you
+> can vary the size of the problem it's solving -- increasing it
+> without bound, strictly speaking.  The static vision problem, in
+> contrast, involves input from a fixed number of photoreceptors.
+> Roughly and informally, a constant-size problem is solved in
+> constant time. 
+
+If I stated that mere engineering improvements in the
+perception problem cannot possibly generate useful
+results, I overstated my case.
+
+But it is certainly true that the combinatorial explosion
+means that mere improvements in power applied to existing
+methods will not do anything very useful.
+
+I presume that you are claiming that by merely improving
+existing algorithms so as to achieve a slower explosion
+and throwing enormous increases in computational power at
+the problem we will achieve acceptable results, that no
+fundamental breakthroughs are needed, merely improvements
+in engineering.
+
+It is quite possible you are right, but so far the
+prospects for a mere engineering solution are looking very
+grim.  No significant progress on this class of problem
+has been made since 1980, though there has been progress
+in associated fields, which might feed back into this
+problem.  But I must confess that poor results are not
+proof of impossibility, and if I appeared to claim
+otherwise I was wrong.
+
+Also as Price correctly points out, there is as yet no
+evidence that quantum computers are useful with this class
+of problem.  Indeed, apart from the fact that we can
+effortlessly solve this problem there is no evidence that
+anything is useful for this class of problem.
+
+(I am hoping that his bet will turn up something useful
+for this class of problem.)
+
+
+> (One could, conversely, define problem size in terms of
+> scene complexity.  Larger problems now result in longer
+> solution times; it is not clear to me that a quantification
+> of the values would show polynomial performance.
+
+However those who claim these magic algorithms have been
+notably unsuccessful in constructing programs to parse
+scenes into objects in polynomial time. (Polynomial with
+respect to scene complexity.)
+
+The most successful scene parser was the origami microworld
+parser.  If you can improve on this I am sure the AI
+community would be very interested in hearing from you.
+
+> This leads into a simple, even obvious, explanation of how
+> brains do complicated things in short times: they're highly
+> parallel.
+
+Parallelism is only useful in linear time algorithms, or
+for small non polynomial problems at which one throws a
+very large number of computational units.
+
+By known algorithms, the perception problem is certainly
+not small.  But you could well argue, and I assume that
+you are arguing, that mere engineering improvements in the
+algorithms will make the problem small enough to be swiftly
+solved by computers employing 10^14 units in parallel.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Thursday, 23 September 1993 22:53:47 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: Bet 5000?  You are on!
+
+> 
+> James A. Donald:
+> 
+> > The interesting thing about a quantum computer is that in
+> > principle it can compute some things that require non
+> > polynomial time (effectively infinite time for interesting
+> > problems) for a classical computer.
+
+Michael Clive Price:
+
+> Not so and I'll wager 5,000 UK pounds, 1-1, on that.
+
+
+You are on!
+
+
+Proposed terms for the bet:
+
+
+We will each place 5000 in escrow with a suitable third
+party, someone with a background in computational quantum
+physics, and preferably someone of adequate wealth and
+reputation .  We will pay him a small fee for this service.
+
+(Nominations anyone?  Surely we have a computational
+quantum physicist on the list?)
+
+I will propose an operation that a quantum computer can
+clearly solve in polynomial time, generating interesting
+information.
+
+Within three months of the escrow I will write and post a
+computer program for a conventional computer (IBM PC
+clone, code C++) that emulates the quantum computer
+solving this class of operation, for any problem of this
+class
+
+Within three months of the escrow, you will write and post
+a more efficient program, capable of being executed on an
+IBM PC, in C or C++, for which the running time scales
+polynomially. This program must produce information from
+the given data equivalent to that produced by the quantum
+computer, or emulate the quantum computer, or produce
+information from which a polynomial time emulation of the
+quantum computer can readily be constructed by known and
+well established methods such as random sampling of phase
+space or linearization.
+
+If I write my program, and you fail to write your program,
+or your program takes non polynomial time, or you admit
+defeat, I win.
+
+If I fail to write the program, or the escrow holder rules
+that my program fails to emulate the quantum computer that
+it claims to emulate, or you write a program that does the
+job in polynomial time, you win.
+
+The result will be approximations to n real numbers.  The
+input data on which the answer depends will be order n
+small integers, or equivalently order n log(n) bits.  The
+emulated quantum computer will take time proportional to
+P(n), where P(n) is a low order polynomial of n.  The
+emulating classical computer that I program will take time
+proportional (2^n)*P(n), which is non polynomially large.
+
+To win the bet, your program must take time proportional
+to a polynomial of n.
+
+Note that the terms of the bet are that the quantum
+computer can produce interesting information in polynomial
+time, information that requires non polynomial time for a
+conventional computer to compute from the same data,
+polynomial with respect to n.
+
+The terms of the bet are *not* that a quantum computer can
+solve all NP complete problems, and *not* that a
+quantum computer can improve the running time of
+parallelizable algorithms.
+
+Evidence that a quantum computer is irrelevant to speeding
+up parallelizable algorithms is also irrelevant to this
+bet.  Nobody is claiming that quantum parallelism is
+relevant to algorithmic parallelism, and there is good
+reason to believe that it is irrelevant.
+
+A quantum computer cannot run classical algorithms more
+efficiently than a classical computer.  It can however
+perform algorithms that have no classical equivalent.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Friday, 24 September 1993 22:47:33 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: "Experiment of interest to AI and quantum computer designers"
+
+In <9309240724.AA05136@kropotkin.gnu.ai.mit.edu>, rjc@gnu.ai.mit.edu wrote:
+
+
+> Why not just apply Occam's Razor? Assume That animals do
+> not "effortlessly solve" the problem in "polynomial time"
+> In fact, it is quite possible that they are inefficient
+> and do not completely solve the problem at all but merely
+> find a good approximate answer.
+> 	
+>   Seems simple enough.
+
+We have been here before.  Approximations to the best move
+in chess (terminating the search prematurely) are good
+moves.  Approximations to the correct parsing of sense data
+(terminating the search prematurely) are incorrect
+parsings.
+
+It has been tried.  Every perception program that contains
+arbitrary search limits gives radically wrong answers when
+it misses the right answer, not "almost correct" answers.
+
+
+> I would also add: 3) biological computation could be a very
+> efficient search engine in problem space. It's been
+> searching for millions of years. It probably solved many NP
+> design problems a long time ago, the results being
+> incorporated into our genes.
+
+True.
+
+One form of this theory is the theory that our searches
+are efficient because of a multitude of ad hoc special
+purpose fixes specific to particular problem domains.
+
+However the special purpose hardware for particular senses
+seems to do straightforward stuff.  Perception seems to
+involve a general capacity that can be applied to any sense
+modality.  For example when you are looking an image that
+is hard to make sense of, you will not attend to what you
+are hearing.
+
+This does not prove that the theory is false, but so far
+that form of the theory has not been fruitfull.
+
+An alternate form of that theory, that I find more
+plausible, is that our brains, and the brains of most
+animals, contain a small number of powerfull and general
+methods for solving large classes of these problems, and
+that existing known algorithms are vastly inferior to these
+innate algorithms.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Friday, 24 September 1993 22:39:27 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: "Experiment of interest to AI and quantum computer designers"
+
+James Donald:
+
+> > 2.  The perception problem (non linear inverse problem) is not
+> >     NP complete, but it is NP by all known algorithms, yet
+> >     quite simple animals can effortlessly solve this problem in
+> >     polynomial time.
+>
+In <199309240646.AA12988@panix.com>, ebrandt@jarthur.claremont.edu (Eli Brandt)  wrote:
+
+> Notice that creatures with better visual
+> capabilities frequently have larger visual, uh, cortices.
+
+Indeed they frequently do, but they sometimes do not. 
+
+Most spiders seem to have visual perception that is not
+drastically superior from that of AI program, and the
+horseshoe crab has been shown to have visual perception
+comparable to that of AI program and subject to the same
+kind of limitations as AI programs.  (Which makes it
+effectively blind for most purposes, even though its eyes
+have reasonable resolution.)
+
+Surprise surprise, visual perception in horseshoe crabs is 
+well understood.  There are scientists who say that they 
+know how it works on the level of visual circuitry.  These 
+same scientists also say that the horseshoe crab is 
+effectively blind.
+
+But certain spiders, in particular spiders that hunt
+visually, rather than waiting for their prey to come to
+them, seem to see the world much as we see it.  I would
+conjecture that their categories are much broader and
+cruder than our categories, but AI programs suffer from
+narrow rigid and inflexible categories, not overly broad
+categories.
+
+A pigeon cannot tell a triangle and a square apart.  A
+computer cannot tell that they are alike.
+
+A pigeon can tell the difference between a photograph of
+a tree from a distance, and a photograph of a vegetable
+close up, independently of the particular tree and the
+particular vegetable.  A computer cannot form such
+categories at all.
+
+A pigeon can learn to distinguish a smiling human face 
+from a frowning human face, independently of the 
+person whose face it is, though it cannot recognize these 
+categories innately as a humans can.  A computer cannot 
+tell that a face is a face.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Friday, 24 September 1993 22:48:19 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: Meaninglessness (was Miscellaneous)
+
+James A. Donald:
+
+> > Science assumes that the entities it deals with are real,
+
+In <17438@price.demon.co.uk>, price@price.demon.co.uk (Michael Clive Price)  wrote:
+
+> Operationalism is compatible with this.  That's why I described myself
+> as an operational realist.  
+
+I did not read that.  From my knowledge of operationalism,
+an operational realist is a contradiction in terms, like
+"legal realist" or "military intelligence".
+
+Perhaps we are arguing about different topics.
+
+To me, operationalism is closely similar to logical
+positivism, though with less philosophical crap, and very
+few famous scientists were logical positivists.
+
+Please specify what you mean by operationalism.  If you
+merely mean finding truth from experiment and the evidence
+of the senses, then the category is meaningless, because
+there are no non operationalists outside lunatic asylums.
+
+If you mean that there is no meaningful reality except the
+results of experiments and observation, which is what
+operationalism normally means, then this is obviously
+incompatible with Occams razor.  An aesthetic judgment of
+theories is clearly necessary, because there are an
+infinite number of theories that can explain any finite set
+of facts.
+
+> > Operationalism fails to describe the world, and it fails
+> > to describe how scientists actually act in practice.
+
+> Tell that to Newton, Einstein and Heisenberg.  Newton and Einstein I've
+> covered earlier in the thread.  From Heisenberg's seminal July 29 1925
+> paper on QM (translated in _Sources of Quantum Mechanics_, Dover). 
+> The abstract for the article consists of _one_ sentence:
+> 
+>      "The present paper seeks to establish a basis for theoretical
+>      quantum mechanics founded exclusively upon relationships
+>      between quantities which in principle are observable."
+
+Heisenberg is using the word "observable" in a sense quite
+different to that used by the operationalists. 
+Operationalists who quote him are mangling quantum
+mechanics just as much as those Eastern mystics are.
+
+Note the words "*in principle* observable".  Especially
+note those words "in principle".  Among the many
+observables that Heisenberg treats as real things is the
+local EM potential, (not merely the local EM field, which
+is indeed locally observable, but the local EM potential
+which is not in fact locally observable.
+
+To Heisenberg things that can be observed "in principle"
+are observables, even if they can never be observed in
+practice.  Anything that could affect the world is an
+observable, even if we have no way of discovering the
+effect, and if we were to discover the effect there would
+be no way of determining the cause.
+
+Heisenberg was indeed an operationalist in certain
+important regards, but the philosophy called operationalism
+has been crudely retrofitted onto his interpretation of
+quantum mechanics.  Newton, Einstein, and the like
+certainly were not operationalists, and it would have been
+inappropriate for them to have been in their fields of
+study.
+
+Heisenberg talked about what is observable *in principle*.
+Operationalists talk about what we in fact observe in
+actual experiments.  These are very different things.
+
+Heisenberg is using the word observable in a special sense,
+a sense appropriate to quantum mechanics.  Those
+who use observable in a different sense, the more usual
+sense, and claim the support of Heisenberg, speak bunkum.
+
+Obviously any true statement must imply facts about the
+world and our relationship to the world.  Nobody disagrees
+with this, and in that sense everyone is an operationalist.
+The dispute arises over the false claim that certain facts
+are not facts about the world, that certain issues do not
+have consequences for the way the world works, when in fact
+they do.  Classic example is of course Occams razor, which
+is an aesthetic criterion.  If you agree that aesthetic
+criteria and such like provide us with meaningful
+knowledge of the world, and presumably from your discussion
+of General Relativity you do believe this, then who is that
+who is not an operationalist by your definition of
+operationalist?
+
+Even religious mystics are operationalists by this
+definition, they merely err in that they use irrelevant
+and misleading evidence, for example ancient books of
+dubious authorship, and visions that we would reasonably
+suspect of being hallucinations.
+
+The communists are certainly operationalists by this
+definition, since they, (very reluctantly) put their
+theory to the test.
+
+Who is that is not an operationalist by your definition of
+operationalist?
+
+I repeat the dispute arises not from the issue that truths
+must be testable against the world.  Everyone agrees on
+this except straw men of your own imagination.
+
+The dispute arises from the question of what truths are
+testable against the world, an it is on this issue that those 
+whom I call operationalists are incorrect.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Sat, 25 Sep 93 2:21:16 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: META: Admin:
+
+Alexander Chislenko () writes:
+> 
+>   Since the ADMIN: - prefixed messages can't be excluded by anybody, we
+> shouldn't use them except in extremely important situations.
+> IMO, the lsit software should be modified to not accept ADMIN: -prefixed
+> message from anybody except the list management (e.g. [re]prefix it
+> with META:
+
+   Just a point. Users _can_ exclude ADMIN: messages! They just can't
+exclude them if they are posted by the list management.
+
+e.g.
+If Perry excludes Pandit and Pandit posts a message prefixed by
+Admin: it will get excluded. However, a message posted by me or Harry
+as Admin: can not be excluded (because it bypasses the agents and just gets
+sent to everyone)	
+
+Even if Perry excludes me he can't stop an Admin: post from me reaching him.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Fri, 24 Sep 93 23:32:49 -0700
+From: plaz@netcom.com (Geoff Dale)
+Subject: Extropaganza roster
+
+Also missed were:
+
+Arthur Abraham <a2@ah.com>
+Jay Hayman & Bex Agin (invitees of mine who left early)
+
+_______________________________________________________________________
+Geoff Dale    -- insert standard disclaimers here --    plaz@netcom.com
+      "A small case of mood poisoning, must be something I hate." 
+         - Eli, the Father of the Friends (from Wild Palms)
+
+
+
+------------------------------
+
+Date: Sat, 25 Sep 93 02:47:13 EDT
+From: ptbast@ivy.WPI.EDU (Peter F Bastien)
+Subject: Quantum Computation
+
+	Could someone email a list of references to me on the subject.
+
+Thanks,
+Pete
+ptbast@cs.wpi.edu
+
+
+------------------------------
+
+Date: Sat, 25 Sep 93 00:09:34 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: employment problem
+
+Michael Morgan wrote:
+> Today my friend is hunting for a job in Atlanta. He's semi-freshly
+> graduated from Georgia Tech. and is in competition with thousands
+> of other recent-grads for a limited supply of jobs.
+
+> What do you propose as a solution for my friends 'real-time'
+> problem? Let's guard against gosh-wow futurism and get down to the
+> real nitty gritty.
+
+How about staggered terms?
+
+*\\* Anton 						Ubi scriptum?
+
+------------------------------
+
+Date: Sat, 25 Sep 1993 01:24:17 -0700 (PDT)
+From: more@chaph.usc.edu (Max More)
+Subject: Biologist wanted for Foundation movie
+
+I'm hoping someone here can help me.  Currently I'm doing some consulting
+for a major SF movie to be based on Isaac Asimov's Foundation series. 
+The director is Jean-Jacques Annaud (who also directed The Name of the
+Rose -- one of the more philosophically sophisticated movies of recent times)
+and produced by Chuck Roven (Cadillac Man, among others).  They hired me
+(at nominal rates, alas) to advise them on the shape of future technologies
+and social organization.
+
+The producer is hoping that I can recommend a biologist who they can talk to 
+about possible biological modifications to the human body (perhaps they want
+to double-check my suggestions).  No one comes to mind immediately -- 
+the scientists I'm familiar with tend to be physicists or computer
+scientists.  Can you suggest a biologist who is at least moderately
+Extropian in outlook, with whom I can put the producer in touch?  If a
+suitable biologist can be found, together we have a significant
+opportunity to portray realistic and extropic future trends.  (In a
+recent meeting with the director, producer, and script-writer, I found them
+to be fascinated by the ideas of physical immortality and uploading.)
+
+Thanks in advance!
+
+Max More	more@usc.edu		909-688-2323
+President	Extropy Institute (ExI)
+
+------------------------------
+
+Date: Sat, 25 Sep 1993 01:38:13 -0700 (PDT)
+From: jfitz@techbook.com (John Fitzpatrick)
+Subject: DisappointNet
+
+Charlie Stross,
+
+After your lengthy absense, welcome back to the
+Extropian list.  I hope you like the new tack we
+have taken around here.
+
+CS> Where do _you_ think we're going? What is the net going to
+CS> look like when it finally erupts into public view, and how
+CS> will it compare with its present form?
+
+Something like a cross between cable television and
+video poker, I'm afraid.  But at least your up-to-the-second
+horoscope will be available, from a wide variety of experts.
+
+I sometimes think that some members of this list (and other
+"free-(as-long-as-you-have-money)-market" or "capitalist"
+flagweavers) will be the ultimate death of this great
+social achievement.  All the good stuff will cost money, the
+crap will be free, with commercial interuptions.
+
+My runes tell me that there is, floating among us all, the
+concept which we will stumble upon, that "money" is only
+an effect token when it is tokenizing physical objects,
+that the application of standard economics to information
+is not in Ramtha's plans.
+
+Only half in jest, JKF
+
+-- 
+John K. Fitzpatrick                        (not affiliated with techbook.com)
+jfitz@techbook.com
+Your part in the dance is to disapprove of my part in the dance. - Bela Bartok
+
+------------------------------
+
+Date:     Sat, 25 Sep 93 9:49:26 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Meaninglessness
+
+>From: rjc@gnu.ai.mit.edu (Ray)
+>Subject: Meaninglessness (was Miscellaneous)
+>
+>starr@genie.slhs.udel.edu () writes:
+>> >Webster's 9th:
+>> >   Operationalism:  (1931) a view that the concepts or terms used in
+>> >                    nonanalytic [ie synthetic or empirical -ed]
+>> >                    scientific statements must be definable in terms of
+>> >                    identifable and repeatable operations.
+>> 
+>> Very well.  Now, what are "identifiable and repeatable operations"?  Is
+>
+>   They're usually called experiments.
+
+And I could say that you're called various things, too, but that wouldn't
+be very informative, now, would it?  Besides, I described the thought-
+experiments that apply to axioms months ago.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Sat, 25 Sep 93 9:49:51 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Meaninglessness
+
+>From: price@price.demon.co.uk (Michael Clive Price)
+>Subject: Meaninglessness (was Miscellaneous)
+>
+>I am going to take Dave Krieger's welcome advice and duck out of this
+>thread, with some parting comments.  I'll leave Tim Starr to get the
+>final word in, but it is unlikely I'll respond further.
+
+The bit about getting the final word in is an attempt to insulate
+and immunize against criticism for defecting from the exchange when
+confronted with challenges that the "positivist" or "operationalist"
+can't meet.  I've seen it many times.
+
+>I believe the scientific method is applicable everywhere and there is
+>no need for any other "philosophy" to run our lives or tell us how the
+>universe works.
+
+All well and good, but you've yet to show how it can be used to determine
+itself.
+
+>Tim Starr shows a basic ignorance of terms (like axiom,
+>as Perry has cogently pointed out), the scientific method and an
+>unwillingness to learn (for one, by excluding Perry).  I'll repeat
+>Perry's advice and take a course in formal logic so that he can
+>understand the difference between axioms, propositions and tautologies.
+
+Tsk, tsk.  Back to to blaming me for your persuasion-failure again, I
+see.  You couldn't possibly have been unwilling to answer my questions.
+No, I must have been ignorant and unwilling to learn from your informative
+posts.
+
+I researched the terms in question a long time ago, and posted the fruits
+of my research.  I got no challenge or constructive criticism of my
+conclusions, only praise.  Thus, I conclude that I have borne my burden
+of proof of them.  Your (plural) turn!  Of course, for the next round,
+I can always start citing the elementary logic text Kelley wrote, which
+is widely used.
+
+Of course, what you (again, plural) don't seem to realize is that I'm
+quite willing to defend what positions I actually take against even the
+professors that study and teach formal logic at the highest-reputed
+universities in the world, recognizing appeal to their authority as the
+fallacy that it is.
+
+(It's fascinating to me how people are generally so much more willing
+to criticise the politicians and bureaucrats that put ideas of
+social-engineering into practice rather than those who originate and
+promote those ideas.)
+
+Furthermore, I didn't exclude Perry because he was doing too good a job
+of informing and persuading me, but because he wasn't doing either
+at all, merely crusading against alleged ad hominems more similar to
+Don Quixote's windmill-giants than logical fallacy.
+
+BTW, before you go off telling me to consult my friend with a PhD. in
+the Philsophy of Science, I ought to warn you that she thinks highly
+of Searle, having studied under him.
+
+>> 3) I know quite a bit about positivism, and don't think you've
+>     presented me with any challenge which would require further study
+>     of it on my part.
+>
+>If you don't have an open mind, I can't help you, hence my signing off
+>this thread.
+
+Ironically, this thread began with my denial of being unwilling to learn
+and change my mind, which I do all the time.
+
+>One further thought.  I'm having private email discussion with an
+>objectivist we all know who has convinced me that the statement
+>"existence exists" is nothing but a tautology (along the lines of "A is
+>A") and is perhaps even intended as such.
+
+He's wrong.
+
+>Apparently this the core of
+>objectivism (so I am told), which makes it all rather trivial, IMO.
+
+Metaphysical foundation, not "core."
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+who scanned a "Neo-Tech" text once and thought it silly.
+
+------------------------------
+
+Date: Sat, 25 Sep 93 12:17:45 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: Meaninglessness
+
+I am grateful for Dave Burns persevering with our dialogue, we are
+understanding each other more.
+
+> My original question was about MCP's use of the word 'meaningless.'
+> He seemed to think that because a certain Randian statement
+> ('existence exists') is wooly and non-operational, that it was also
+> therefore 'meaningless.' I responded because I thought this was a bit
+> too much of a jump. I think Randians understand each other,
+
+I'm not convinced that all Randians have a similar understanding of it. 
+At once point I thought it was synonymous with 'reality exists', which
+I accept as a tautology or definition of reality [reality = that which
+exists], but I have since been told that Rand distinguished the two
+statements - unfortunately my source couldn't remember the distinction!
+
+Perhaps it is time to examine the statement 'existence exists' from
+another angle.  Consider the negation of 'existence exists', or as I
+prefer 'reality exists', which would be 'reality doesn't exist'.  There
+are lots of people who would superficially agree with this statement -
+for instance some Hindus believe the world is an illusion in the mind
+of Vishnu, the preserver (if this isn't true, substitute Hindu for your
+favourite flaky religion/belief/quantum philosophy/mumbo-jumbo).  But
+what do they mean by 'reality' in this case?  That reality is subsumed
+and contained within Vishnu's mind.  When they hear us use the word
+'reality' they are assuming that we mean the world as it appears to our
+senses.  What they mean by reality is the 'higher' reality of
+Vishnu/Brahma/Shiva.  Thus they are not denying that 'reality exists'
+but rather that 'reality is as we perceive'.  It would seem that
+negating 'reality exists' is fruitless.  Upon examination everyone
+accepts that reality exists, so the reaction has to be, so what?
+
+Dave correctly summarises my position as:
+
+> He apparently thinks that in some kinds of talk, even when both
+> listener and (sometimes) audience think they understand each other,
+> there is really an absence of meaning;
+
+Here an example:  A while back on the list there was some discussion
+about rights (well, there often is).  Perry would often get into an
+argument with someone who would say "I think strangling kittens is
+morally wrong" or whatever.  Whereupon Perry would challenge them to
+define what they meant by 'right' and 'wrong'.  Can't remember anyone
+ever being able to coherently rise to the challenge, because the concept
+of absolute right and wrong is not capable of an operational definition.
+
+What experiment can you perform to test whether eating fish on Fridays
+is a sin?  Yet many people believe in absolute right and wrong and talk
+to each other about it (at great length).
+
+> but in other cases, even though the talk is rather ordinary and not
+> self-consciously operationalized, that there is meaning;
+
+Whereas by viewing rights and wrongs as concepts that arise from
+interactions between people, and perhaps as Schelling points, PPL and
+customary law we can talk theorise about these things, and actually get
+somewhere.  For instance the old arguments about copyrights, patents and
+intellectual property rights more or less died out when we realised that
+we can leave competing protection agencies to 'slug it out' in the
+market place and see which predominates.
+
+> and that operationalism defines the line between these two kinds 
+> of talk.  I don't understand how this line is drawn.
+
+I hope the two example from the list have been helpful.
+
+> Here is my test for meaning. Take two persons who think they
+> understand each other. Have them each separately talk to a third
+> person until the test subject is satisfied that the other understands
+> the topic. Then ask the third person whether the first two understand
+> each other (not whether he agrees with them). 
+
+This procedure has much merit.  I like it.
+
+> Perhaps this is too subjective to rate the title operational. Also,
+> it's rather trivial, since only lunatics would ever fail it.
+
+And not even then.  See "Can You Speak Venusian?" or somesuch by Patrick
+Moore.  Patrick found two lunatics who were convinced they could speak
+Venusian (click bang whistle etc) and introduced them to each other (on
+TV, I think), expecting denunciations and confusion.  Whereupon they
+chatted merrily away, convinced they understood each other.  Certainly
+the "mutual comprehensibility test" is a necessity for meaningfulness,
+but I doubt whether it is sufficient.
+
+> It is obviously distinct from MCP's test, although I don't know what
+> that is.
+
+Doesn't sound to different from the experiment with the physics students
+we talked about, where the test was whether they made sense to the
+experimenter directly.
+
+> I'm claiming that by your criteria, "novel" and "Picasso's Blue
+> period" are meaningless. If you think they are defined operationally,
+> I don't understand at all.
+
+I don't understand the problem with "novel (book)".  Due you mean the
+subjective evaluation about a novel's content?  When is a novel not a
+novel?  Subjective opinions are fine and admissible as evidence. 
+Science works by consensus.  If by "Picasso's Blue period" you mean how
+do we verify historical events, I guess the answer is that we can only
+verify the records left behind, check that they're consistent etc (but
+I'm not sure if this is what you mean) and form probabilistic
+impressions.  Or is it a query about art in general?  If it I suppose
+I would say that art is not concerned about gathering and classifying
+knowledge scientifically, so the scientific methodology is fairly
+irrelevant.  Could be wrong, though, art, ironically, has always seemed
+meaningless to me.  Wouldn't surprise me if it is all just meaningless
+mumbo-jumbo.  Reminds of something I heard attributed to Dirac about
+poetry.  "Poetry obscures what physics makes clear."  (not verbatim, but
+general gist)
+
+So you could be correct that art is non-operational (I really can't say)
+and I could be right that it is meaningless.  Should that disturb us? 
+Well, it doesn't disturb me.  Guess I'm a philistine, eh?
+
+> So [Newton's] position on the qualities of bodies is clear. How 
+> about philosophy and theology?
+
+His premises (a belief in the bible and the wisdom of the Ancients)
+being flawed meant that his conclusions (Arianism, astrology and
+alchemy) were flawed.
+
+> Newton's formulation of physics certainly was better than his
+> predecessors', but that doesn't mean theirs was meaningless.
+
+Granted.
+
+> ... it's not obvious to me how to apply operationalism to the 
+> question of identity through change, etc.
+
+Me neither, it's a tough nut to crack.  We'd have to start by defining
+a test for identity.  I can't think of one that I'm completely happy
+with.
+
+> Dave Burns
+
+Mike Price                         price@price.demon.co.uk
+
+-  Is it art?
+-  Don't know and don't care!
+
+------------------------------
+
+Date: Sat, 25 Sep 1993 08:11:36 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: META: List archives.
+
+a conscious being, Timothy C. May wrote:
+
+> Maybe a handful of the most complete archives can be merged and
+> purged, but it's still a nightmare. Any volunteers?
+
+We have the software to merge and purge the the various records.
+
+What we need, is a place to do it. I can run it at my work, but
+the problem is bandwidth.
+
+What would be ideal is site with a good internet connection,
+and a Mac with a DAT tape.
+
+THey could gather the files, and sent them to me. I also have
+a dat tape, and could then crunch the archive at my office.
+
+Once our uucp link to panix is in to my office, I will keep an
+on-going copy of the list.
+
+/hawk
+
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+Date: Sat, 25 Sep 1993 07:31:21 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: there ought to be a law
+
+> Anton Sherwood                                             DASher@netcom.com
+> +1 415 267 0685         1800 Market St #207, San Francisco, California 94102
+> 
+> [1] Jeff Riggenbach's thesis, expressed in his essay "Anarchy, State
+> and Stupidity", is that most of our neighbors are simply incapable of
+> the high-level abstract thought required to grok the libertarian message.
+
+Tim May writes:
+
+\Very true.
+
+I'm not sure this is the case, really, or simply that our society
+is dominated by meme-channels that are inherently anti-libertarian.
+I mean, what sort of person do you think deceides to be a reporter
+these days?
+
+/Tonight I went to see a book-signing talk by Michael Heim, author of
+\the "The Metaphysics of Virtual Reality."
+
+The title alone gives me pause.
+
+/Very frustrating. I'm still recovering.
+
+\The crowd, being a Santa Cruz kind of crowd, kept asking about how
+/"democratic input" into VR will be obtained, how democracy will be
+\achieved, so that "white males" won't "dominate, as they already
+/have."
+
+Santa Cruz is mostly black and female/hispanic/amerind?
+
+Anyway, down here vaious different groups would have 
+different spiels: how do we keep the fags/niggers/honkeys/
+catholics/evangelical types/non-Edwin W. Edwards supporters
+from "abusing" the technology in their "culture war."
+
+I'm not totally certian those who really don't belive in the
+culture war or in domination are getting the moral support they
+need...
+
+\Being an anti-democracty person, I pointed out that books, magazines,
+/movies, etc., are all written and distributed with _markets_ in mind,
+\not democratic input. This was met with shakings of heads.
+
+/"White dopes on cyberpunk" indeed.
+
+Well, I think you're getting a _little_ confused about democracy;
+it's sorta orthogonal to libertarianism/statism. Sometimes it's
+seen as the perfect means to either end of that dichotomy, but
+if you think about it it's no more pro or anti freedom than say,
+monarchy. Then again democracy/representational republicanism was
+never meant to be as "winner-take-all" as it is today.
+
+Anyway, my point is, by setting up a "market vs. democracy" sort of
+dichotomy in your mind you reinforced the dichotomy in their mind
+and perhaps got _some_ of the people there who would have been receptive
+to tune out when they began thinking they could pigeonhole you into
+their little hegelian dialectic as the "enemy" party.
+
+(I agree with you more than it sounds here; I'm just thinking that
+an "us vs. the Marching Morons" viewpoint may be somewhat unproductive.
+
+
++-----------------------+Here, all too soon the day!
+|"Standard Disclaymore" |Wish the moon to fall and alter our tomorrow.
+|pgf@srl03.cacs.usl.edu |I should know, heaven has her way;
++-----------------------+Each one given memories to own.
+
+------------------------------
+
+Date: Sat, 25 Sep 93 13:25:20 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: Biologist wanted for Foundation movie
+
+Richard Dawkins?
+
+------------------------------
+
+Date: Sat, 25 Sep 1993 09:30:37 -0400
+From: price@price.demon.co.uk
+Subject: 
+
+
+------------------------------
+
+Date: Sat, 25 Sep 93 14:28:14 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: Bet 5000?  You are on!
+
+James A. Donald:
+
+> Note that the terms of the bet are that the quantum
+> computer can produce interesting information in polynomial
+> time, information that requires non polynomial time for a
+> conventional computer to compute from the same data,
+> polynomial with respect to n.
+
+Before we bet I want to see what you mean by "interesting
+information".  Sounds very suspicious and woolly.
+
+> The terms of the bet are *not* that a quantum computer 
+> can solve all NP complete problems ...
+
+Bet's off then, since, by the equivalence of NP-complete problems,
+that was your claim.
+
+> A quantum computer cannot run classical algorithms more
+> efficiently than a classical computer.  It can however
+> perform algorithms that have no classical equivalent.
+
+Specify such a "non-classical" algorithm, so that we can have 
+a well-defined bet.
+
+> James A. Donald 
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+End of Extropians Digest V93 #267
+*********************************
+

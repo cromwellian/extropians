@@ -1,0 +1,547 @@
+From extropians-request@extropy.org Thu Jul 28 21:02:05 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id VAA22845 for <more@chaph.usc.edu>; Thu, 28 Jul 1994 21:02:03 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA16523; Thu, 28 Jul 94 21:01:59 PDT
+Received: by news.panix.com id AA04342
+  (5.65c/IDA-1.4.4 for more@usc.edu); Fri, 29 Jul 1994 00:01:52 -0400
+Date: Fri, 29 Jul 1994 00:01:52 -0400
+Message-Id: <199407290401.AA04342@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-7-238 - #94-7-247
+X-Extropian-Date: July 29, 374 P.N.O. [00:01:16 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Fri, 29 Jul 94             Volume 94 : Issue 209
+
+Today's Topics:
+                             "Dog eat dog" quote                      [1 msgs]
+                     Another mind saved by reason... :-)              [2 msgs]
+                             FAQ & medical ethics                     [1 msgs]
+                                  NanoFlaws?                          [3 msgs]
+                                   new CFV                            [1 msgs]
+                 Pseudonyms: Stephen Bury and Sterling Blake          [1 msgs]
+                            Venezuela & Socialism                     [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 27059 bytes.
+
+----------------------------------------------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Thu, 28 Jul 1994 04:22:30 -0700 (PDT)
+Subject: [#94-7-238] NanoFlaws?
+
+>pjgehrke@ecst.csuchico.edu (Pat) writes in X-Message-Number: #94-7-187:
+>People like Moravec, Hameroff, Drexler, etc. (and even Feynman I 
+>suppose) all seem to start from the concept of silicon based 
+>nanotechnology. 
+
+Drexler's designs have mechanical computers made from atomic precision 
+diamondoid parts.  They would be much more resistant to EMP than
+any microelectronic device.  Due to their atomic precision, they
+would be more vulnerable to focused high-energy radiation attacks.  
+EMP resistance may even be one of the first applications of nanomechanical 
+computers.  In this market niche mechanical computing becomes economical 
+even if it's still somewhat slower than electronic logic.
+
+A related point that Drexler et. al. haven't pursued yet
+is that nanomechanical computers might achieve reasonable speeds
+even without atomic resolution.  Thus we might see near-future
+( < 15 years) commercial application with 10-100 nm 3D lithographic 
+techniques and "in-place assembly" (lithography produces the
+moving mechanisms in place, so no assembly is required).  Already 
+Texas Instruments has run chips with millions of moving parts 
+(micron-sized mirrors) for several months without a failure.
+We can achieve good reliability in mechanical systems 
+lacking atomic resolution, as long as they use a small variety 
+of well-tested, consistently manufactured parts.  A rod
+logic computer requires only a small variety of parts.
+
+Nick Szabo				szabo@netcom.com
+Big Brother is parsing you.
+
+------------------------------
+
+From: dkrieger@netcom.com (Dave Krieger)
+Date: Thu, 28 Jul 1994 09:37:17 -0800
+Subject: [#94-7-239] Another mind saved by reason... :-)
+
+I gave a copy of Atlas Shrugged to a friend of mine a couple weeks ago, and
+thought some folks on this list might be amused by the results...
+
+>I finished Atlas Shrugged this very evening.  An absolutely amazing book.  My
+>next door neighbor has reread it numerous times.  Her initials coincidentally
+>are D.T.  Unfortunately, she says that she just can't read Galt's monologue
+>anymore.  I swear, that must be the world's longest monologue ever written
+>within the context of a novel or play with more than one character.  It was
+>incredible as I read throught the book, how I was finding more and more of my
+>own values and ideals coming through and how it really reminded me that I'm
+>not crazy just because so few other people I see and know seem to think their
+>way through life.
+>
+[...]
+>
+>To rationality...to humanity...to the best within us.
+>
+>Ciao bello!
+>
+>Alex
+
+
+              ==                        dV/dt
+ _____________==_
+/             == \
+| Agorics     == |   David Krieger                   dkrieger@netcom.com
+| Inc.    ==  == |   Director of Publications
+|         ==  == |   Agorics, Inc.                       ph 415 941 8224
+|     ==  ==  == |   300 Third Street                   fax 415 941 8225
+| ==  ==  ==  == |   Los Altos, CA 94022
+\________________/
+
+
+
+------------------------------
+
+From: jbaker@halcyon.com (James Baker)
+Date: Thu, 28 Jul 1994 10:00:41 -0800
+Subject: [#94-7-240] NanoFlaws?
+
+>>pjgehrke@ecst.csuchico.edu (Pat) writes in X-Message-Number: #94-7-187:
+>>People like Moravec, Hameroff, Drexler, etc. (and even Feynman I 
+>>suppose) all seem to start from the concept of silicon based 
+>>nanotechnology. 
+>
+>Drexler's designs have mechanical computers made from atomic precision 
+>diamondoid parts.  They would be much more resistant to EMP than
+>any microelectronic device.......
+
+There are ways of making conventional electronic devices EMP resistant
+without making the circuits themselves invulnerable. The problem with EMP
+is that it turns transistors on randomly. This can cause CMOS logic to
+destroy itself in milliseconds. 
+
+A hardened B-52 has EMP sensors that shut down all loads within a few
+milliseconds. Everything is designed to reboot quickly ( in under 2
+seconds) and keep very frequent backups of critical states. I don't know
+what kind of device holds the backup data but it has to be unaffected by
+EMP. I learned this from a Harris Semiconductor data book that described
+EMP sensor IC's.
+
+I hope EMP resistance doesn't become necessary for uploads (except perhaps
+during space travel) but if it does there are ways to cope. They
+psychological effect would be like "oops; I just lost my train of thought.
+Perhaps I got zapped by EMP and rebooted myself to a recently saved state".
+
+
+
+ James Baker          |        
+ Seattle, WA USA      |    It's always darkest just before 
+ jbaker@halcyon.com   |    it turns completly black.              
+
+
+
+------------------------------
+
+From: jbaker@halcyon.com (James Baker)
+Date: Thu, 28 Jul 1994 10:07:06 -0800
+Subject: [#94-7-241] FAQ & medical ethics
+
+>Marvin Minsky says:
+>>Yup. In the late 60s there was a highly promising  brain-implanted visual
+>>prosthesis -- but little has happened in this field since then, because of
+>>"ethics." 
+
+Does anyone know of a book that explains the opposite kind of prosthesis?
+ie taking neuro-signals out of the body to control things. For example
+artificial limbs. Or any research using outbound neuro-signals to
+communicate.
+
+
+
+ James Baker          |        
+ Seattle, WA USA      |    It's always darkest just before 
+ jbaker@halcyon.com   |    it turns completly black.              
+
+
+
+------------------------------
+
+From: "Green, Chris" <cgreen@eng.uab.edu>
+Date: Thu, 28 Jul 94 12:53:00 CDT
+Subject: [#94-7-242] NanoFlaws?
+
+James Baker wrote:
+
+>I hope EMP resistance doesn't become necessary for uploads (except perhaps
+>during space travel) but if it does there are ways to cope. They
+>psychological effect would be like "oops; I just lost my train of thought.
+>Perhaps I got zapped by EMP and rebooted myself to a recently saved state".
+
+There might also be no effect. If all parts of the AI were backed up at the 
+same time, when I regained power,  my thoughts could continue from the last 
+point of backup.  A system would likely recognize the disturbance, make a 
+note of it,  and the possibly diagnose how much time had passed via a 
+synchronization check with an external clock.
+
+Chris
+cgreen@eng.uab.edu
+
+------------------------------
+
+From: Safier <safier@unm.edu>
+Date: Thu, 28 Jul 1994 14:52:19 -0600 (MDT)
+Subject: [#94-7-243] Another mind saved by reason... :-)
+
+On Thu, 28 Jul 1994, Dave Krieger wrote:
+> >... so few other people I see and know seem to think their
+> >way through life.
+
+What happens when you don't think? What do you think about that? 
+
+Have you ever thought of thought as the enemy? Can thought describe 
+itself? Perhaps when thought burns itself out, life (energy) remains.
+
+Mirror, mirror on the wall ...
+
+	***********************************************
+	Phil O. Safier  <safier@unm.edu>   Null A World
+	Coaching:  Neuromech,   E',  Actuated Happiness
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+From: "John M. Bozeman" <jmb5b@faraday.clas.virginia.edu>
+Date: Thu, 28 Jul 1994 17:20:39 -0400 (EDT)
+Subject: [#94-7-244] Pseudonyms: Stephen Bury and Sterling Blake
+
+>> 
+>> Another interesting pseudonym is `Sterling Blake' the name given as the
+>> author of `Chiller' which was featured on the cover of Cryonics magazine in
+>> September 1993. The book features a sociopath who attempts to kill
+>> cryoncists.  It was nominated for the Compton Crook award which is given for
+
+There was also a lousy movie by this name, made during the 1970's or
+early 1980's.  Different premise; straight (but bad) horror about\
+the first person to be revived cryonically.  It was on "USA up all
+night," and was so poor that I switched off 1/2 way through.
+
+                    John
+
+
+
+------------------------------
+
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Date: Thu, 28 Jul 1994 18:50:26 -0500
+Subject: [#94-7-245] Venezuela & Socialism
+
+I'd just like to point out that based on recent visits to
+Houston, their economy seems much more diversified than
+Louisiana's. I don't know for sure, but this may mean
+that socialism will be on the retreat there as well.
+
+(Wave hasta le bye bye to Ann Richards? I don't know... it
+would depend on the Republicans running a non-socialist).
+
+Phil
+
+------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Thu, 28 Jul 1994 23:09:56 GMT
+Subject: [#94-7-246] "Dog eat dog" quote
+
+Mike Gurstein writes:
+> Some of you may have missed an article in the July 1994 edition of
+> Europa Times:   [Feathers mauls Bruno.  Bruno decapitates Feathers]
+
+Mike, if you thought that's funny you're a sick man.
+
+And please post some more :-)
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: 155yegan@jove.dnet.measurex.com (egan_t@measurex.com)
+Date: Thu, 28 Jul 1994 17:53:15 -0700
+Subject: [#94-7-247] new CFV
+
+Extropians,
+
+	I pulled this off of the offroad list and have seen it 
+in the libernet digests. It may be of interest to some of us.
+
+Terry Egan
+**********************************************************************
+Date: Wed, 27 Jul 1994 13:25:48 -0700 (PDT)
+From: Sheldon Belinkoff <belinkof@netcom.com>
+Subject: Usenet hierarchy change suggested, may concern us (fwd)
+To: Offroad <offroad@ai.gtri.gatech.edu>
+
+- ---------- Forwarded message ----------
+Date: Wed, 27 Jul 1994 12:23:33 -0700 (PDT)
+From: Don Baldwin <donb@tamri.com>
+To: ca-firearms@shell.portal.com, rkba-dems@netcom.com
+Subject: Usenet hierarchy change suggested, may concern us
+
+I just ran across this posting in rec.guns, thought I'd pass it along
+because it might concern us.
+
+        Don
+======================================================================
+Article: 83078 of rec.guns
+Path: igor!enews.sgi.com!ames!elroy.jpl.nasa.gov!usc!howland.reston.ans.net!gatech!news-feed-1.peachnet.edu!news.duke.edu!eff!cs.umd.edu!dtek.chalmers.se!d9bertil
+From: d9bertil@dtek.chalmers.se (Bertil Jonell)
+Newsgroups: rec.guns
+Subject: Attention: the us.* hierarchy and its effect on the gun groups
+Followup-To: news.groups
+Date: 27 Jul 1994 12:44:31 -0400
+Organization: Chalmers University of Technology
+Lines: 209
+Sender: magnum@cs.umd.edu
+Approved: gun-control@cs.umd.edu
+Message-ID: <315kuo$rd8@nyheter.chalmers.se>
+NNTP-Posting-Host: xring.cs.umd.edu
+
+
+[MODERATOR:  I think this is of valid interest to our group to at
+least know about; I am passing this along as the heads up here, and
+as a pointer to the discussion elsewhere on the net.]
+
+WHATS UP:
+
+  There is discussion over at news.groups to start a new top-level
+hierarchy named us. The main argument being that the US of A should
+have an own hierarchy since everyone else has one.
+
+  Now you might have whatever opinion on that, that is not core of
+the matter, but some people are trying to sneak in something very
+bad under cover of the us.* hierarchy question.
+
+  They, and I'm talking of a cabal of seven persons calling themselves
+the "US Hierarchy Coordinating Committee" out of a net population of 
+twenty million, want to sneak through severe changes in the newgroup
+creation procedures that would put them in absolute command of the us.* 
+hierarchy.
+
+TODAY:
+
+  Today when a new newsgroup is to be created, anyone can propose it,
+a period of discussion where anyone can participate follows and its
+fate it decided by a vote, in which anyone can participate.
+
+TOMORROW:
+
+  In the us.* hierarchy groups can only be created by the cooperation
+of the US Hierarchy Coordinating Committee. After they have decided on
+a name for the group, and 'firmed up the charter', they will start a
+public discussion by announcement on a (by them) moderated group. If
+they decide that the group get enough support they will create it.
+
+  The US Hierarchy Coordinating Committee is not elected by anyone. They
+are totally self-appointed. Their proposal does not include any rules
+or guidelines on how new cabal members are choosen, nor any ways to
+depose the current ones. To quote them directly: "The Committee feels
+that it would be better to wait until the hierarchy exists for a while
+so that the lay of the land may be better understood before proposing
+a whole system of rules for changes to the Committee, the creation
+guidelines, and the structure of the hierarchy."
+  
+  They themselves want to write the rules (if any) by which they
+themselves can be replaced, but they don't want to show us the rules,
+we should just accept them, they say.
+
+WHY:
+
+  Why rip up the old democratic guidelines and replace them with
+this oligarchic mess? They say it is to make the us.* hierarchy more
+efficient and easy to use. Proposals to concentrate power in the
+name of efficiency always makes me wary.
+
+THE NEXT 40 LINES OF THIS MESSAGE SHOULD BE UNNECESSARY:
+
+  Because this proposal should not be judged after how much good the
+the Comittee might do, and certainly not after what good things *they*
+claim they'll do, but after what bad things they *can* do since their
+proposal totally lacks any checks and balances.
+
+  So what I have written upto this point should be enough to
+make you jump to the "WHAT CAN I DO" part:)
+
+MY FEAR:
+
+  There have been much talk recently about how Usenet is lawless, about
+how various nastiness float around here, and about how the wild frontier
+needs to be tamed. I think that is what they intends. This is an attempt
+to impose authority on the net, put barbed wire across the frontier.
+
+  I doubt that any controversial newsgroups will pass the comittee. 
+I suspect that us.rec.guns will be as impossible to get past
+the comittee tomorrow as rec.illegal.drugs would be today.
+
+  So therefore I urge everyone who has interests that is ever so slightly
+non-mainstream, either in reality or as pictured by the media, or feels
+that your interests might slide out of the mainstream soon, to vote NO
+to the us.* hierarchy, if you want a place to discuss your interests on
+on Usenet tomorrow.
+
+  Around here I'm thinking of you who are any or all of pro-rkba, anti-WoD,
+anti-BATF, anti-censorship's, anti-clipper, libertarians, etc etc.
+
+  [only 4 of which is correct about me, but that is irrelevant:) ]
+
+SO WHAT?
+
+  So what? This will only cover the us.* hierarchy? The rest of Usenet will
+be as before? Right?
+
+  Well yes and no. Formally that is right, but the net is growing at an
+amazing rate. New sites are added daily, many of them schools and schools
+lower and lower on the age scale is getting access.
+  What do you think they will choose if given the choise between getting
+only the pg-13 us.* hierarchy, the R-rated normal Usenet or the X-rated
+altnet?
+  Especially since the us.* hierarchy advertises itself as handling the
+US-specific issues on the net, I think most new sites in the US will play
+it safe and only get the us.* hierarchy.
+
+  And the way the net is growing new sites will soon be in the majority
+and not long after that take up 90% of the total net sites.
+  
+  So if you want to say something that more than 10% hear, you'll have
+to go through the us.* hierarchy, and you better hope your interest is 
+covered by the cabal-approved charter of a cabal-approved newsgroup. And
+if you have angered any of the cabal-members in the past you are f*cked.
+period.
+
+WHAT CAN I DO:
+
+  You can vote NO to the proposed us.* hierarchy. A us.* hierarchy might
+or might not be a good idea, but under these rules it would be a disaster.
+
+  It should be possible to just reply to this message (press 'R' on 
+rn/trn/rrn), edit out all quoted text except the 1 line between the 
+dashes, and send it off. You should however check that your mail is 
+going to "voting@qualcomm.com" and not to me before sending it off.
+
+- ---------
+I vote NO on this us.* hierarchy proposal.
+- ---------
+
+After voting you should recieve an ack by mail within a day or two.
+If not then remail your vote.
+
+  The voting closes on August 8, so vote early!
+
+IMPORTANT CAVEAT:
+
+  In their CFV the cabal plainly writes that they will *not* accept
+the usual 'more than twice as many yes as no' criteria for group
+creation, and if they get defeated they also plainly state that
+they will rewrite their proposal and refile it immediately without
+waiting 6 months as is the normal procedure.
+
+  They claim they can do this since there arn't any formal rules 
+for HIERARCHY creation, just NEWSGROUP creation. Well most people
+assumed that in the absence of specified rules, the group rules
+would have jurisdiction, since a hierarchy is just a bunch of
+individual groups, but the cabal seems determined to steamroller
+this through despite any opposition.
+  Kinda makes me wonder if they'd even follow their own rules,
+provided they ever write any that is.
+
+  Therefore it is of the utmost importance that they are made
+to realize that the opposition to their oligarchic proposal is
+compact. Explain the gravity of the situation to all your on-line
+friends and collegues, and get them to vote too.
+
+  This is doubly important if they are sysadmins or similiar.
+Get them to state that they will not carry a us.* hierarchy
+that does not abide by normal newgroup creation procedures.
+
+Thanks
+
+- -bertil-
+
+ADDITIONAL INFORMATION:
+   
+  The full text (the little there is) is available on news.announce.newgroups
+under the Subject "CFV: us.* hierarchy" and with 
+Article ID <us_hierarchy-CFV1@uunet.uu.net>
+
+MORE COMMENTS ON THE MATTER:
+
+  Quoted without permission under the fair use doctrine from John De Armond:
+
+*	New rules are being proposed by a new defacto cabal that replaces
+	the voting system that has worked well for the most part, with
+	a system of "bosses" who control what gets created and what doesn't.
+	And it replaces defined criteria for passage or failure with 
+	the "judgement" of the bosses.  It replaces the will of the users
+	with the will of a few men sitting on high.  This is the antithesis
+	of the net spirit.
+
+*	The proposed group creation criteria is most unsatisfactory.  The
+	newly formed cabal proposes to replace the current vote with an 
+	"interest poll" whereby if 100 people sorta indicate an interest
+	in the group it is created regardless of the number of negative
+	votes.  This is NOT the way to create new groups.
+
+*	The makeup of the cabal has been decreed from the cabal and no 
+	procedure for removing or replacing members is contemplated in
+	this proposal.  The highly controversial nature of several of
+	the proposed cabal members combined with no mechanism for removal
+	almost guarantees a spoils system with no checks and balances 
+	at all.  "Piss me off and your group fails" isn't the way to
+	run the net.
+
+*	This vote is being conducted in a very abnormal manner, without the
+	usual CFD discussion period.  If changes are needed in the current
+	group creation process, the proper way is to implement them 
+	in accordance with the old procedures until those procedures
+	are formally changed.  Change via fiat is again the antithesis
+	of the net culture.
+
+For all those reasons and more, I urge everyone to REJECT this proposal
+and vote NO.  This is a BAD heirarchy and a BAD proposal and deserves to
+die.
+
+- --
+
+------------------------------
+
+End of Extropians Digest V94 #209
+*********************************
+

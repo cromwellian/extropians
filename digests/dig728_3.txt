@@ -1,0 +1,1072 @@
+4
+Message  4:
+From exi@panix.com Wed Jul 28 08:44:38 1993
+Return-Path: <exi@panix.com>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+        id AA21582; Wed, 28 Jul 93 08:44:36 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+        id AA27598; Wed, 28 Jul 93 08:44:16 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by panix.com id AA24055
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 28 Jul 1993 11:37:02 -0400
+Date: Wed, 28 Jul 1993 11:37:02 -0400
+Message-Id: <199307281537.AA24055@panix.com>
+To: Exi@panix.com
+From: Exi@panix.com
+Subject: Extropians Digest
+X-Extropian-Date: July 28, 373 P.N.O. [15:36:52 UTC]
+Reply-To: extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Wed, 28 Jul 93             Volume 93 : Issue 208
+
+Today's Topics:
+                     AI: Searle's Chinese Torture Chamber             [2 msgs]
+                    AI: Searle's Chinese Torture Chamber              [1 msgs]
+              CHAT: Reanimation chores & posthuman mail filters       [1 msgs]
+                       CRYONICS: Reanimation conditions               [1 msgs]
+                          Cryonics & Pascal's Wager                   [1 msgs]
+                FSF: Some Useful Software, No Useful Politics         [1 msgs]
+                          Geno-Anarchy: DNA CopyLeft                  [1 msgs]
+                     can someebody PLEASE unsubscribe me?             [1 msgs]
+                            intellectual property                     [1 msgs]
+      intellectual property, alternate versions of software development[2 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 56180 bytes.
+
+----------------------------------------------------------------------
+
+Date: Wed, 28 Jul 93 03:10:07 -0700
+From: Inigo Montoya <inigo@u.washington.edu>
+Subject: intellectual property, alternate versions of software development
+
+An extropian, rjc@gnu.ai.mit.edu (Ray), writes:
+
+>  Ok, let's see if you will grant me a few datapoints, and I will argue
+>what conclusions can be made:
+
+I'm kind of an argumentative person when it comes to this subject,
+so if you don't want to see quote/response stuff, quit now.  Short
+summary:  I didn't accept hardly any of his premises, except that
+Morovec's Robots Do Our Work For Us is a ways off yet.
+
+>1) Software development tools and new techniques will continually push
+>the amount of bugs in software towards zero 
+
+Sturgeon's Law.  Nope.  I don't accept this.
+
+>2) Software will contually get more user friendly (like the Mac) so 
+>anyone can use it
+
+This certainly happens in the class of software one sees on personal
+computer platforms (whether PC, Mac, whatever).  I believe this
+to be because (a) the user base is very large and quite stupid
+and (b) the software itself is fairly cheap, which means training
+time is expensive relative to software cost -- so easy to use can
+count for a lot in a purchasing decision.
+
+If the user base is quite small, or very clever, or has a large
+background of common knowledge which can be assumed, software
+can be very non-friendly, and still be an extremely efficient
+tool.  Joe User may respond to yacc or bison (or any unix tool)
+with something like "Eeeek" and run screaming from the room,
+but these are still powerful tools and useful -- and improvements
+on them have never struck me as increasingly "user-friendly".
+
+If the software itself is extremely expensive, it can often
+get away with being horribly arcane.  The time to train someone
+to use it is cheap by comparison.  Why, then, wouldn't a competing
+product come out, easier to use/cheaper?  The task may in and
+of itself be very difficult to understand, or the market may
+be so small as to not justify reinventing the wheel.
+
+>3) Updates to software can be pirated and there are diminishing returns
+>to successive updates. Only major rewrites will be interesting and they
+>take quite an amount of capitalization and labor.
+
+You are right -- software bug-fixing cycles continually degrade the
+quality of a product, particularly if the fixes are not in keeping
+with the original design of the product.  However, updates are not
+always easily piratable.  Only on personal computer type systems.
+It is not obvious to me that all computer use will go the way of
+the Mac/PC/blah.  Most computer use, sure.  But I'm not interest
+in most people, most computers, most, in fact, anything.  I'm interested
+in niches; I'm interested in the unusual, the elite, the new-n-different.
+Major rewrites -- even of medium-sized systems -- do *not inherently
+take a large amount of capitalization.  I certainly *used* to think
+this, until I ran across a few truly godlike engineers, capable of
+doing what I consider Real Thinking, and introducing comparatively major design
+changes in a product over the weekend, and making it work.  Given
+the rarity of such individuals, major rewrites tend to
+take a lot of money/labor/time.  My conclusion is not to throw
+more money/labor/time at it, but to accept a slower pace of development,
+and stop hiring Joe Programmer.  Again, this doesn't work with
+big systems, and I do realize that.  I question the need for a lot
+of big systems, however.
+
+I don't know a lot about *large* products (skazillion lines of code, as
+opposed to 10s or 100s of thousands).  I tend to be opposed, in principle,
+to these kinds of products, because most of the ones I've read about
+were (a) monolithic amalgations of what (imo) would have been better handled
+in small pieces or (b) first attempts to do something that will be
+a lot easier to do the second and nth time around (when people have
+figured out how to break up the task, and how to do it at all).
+I know -- it's kind of hard to get to the 2nd or nth round without
+the first painful round.
+
+Now, what really takes a lot of capitalization and labor is marketing.
+
+>4) Points 1,2,3 continually lessen the need for SOFTWARE SUPPORT, and
+>SUPPORT will soon become largely automated (expert systems) which decreases
+>the need for standing armies of support staff. (see IBM and their
+>downfall)
+
+It seems unlikely I'll accept this, in view of the fact that I didn't
+accept 1,2, or 3 without serious reservations.  In any case, I
+know a lot of people who buy service warranties on nearly everything
+they buy, even tho they rarely need them.  This, to me, is quite
+suggestive (and would reward exactly those people who deserve
+rewards, i.e. the people who write comparatively bug-free stuff. They
+collect the warranty and never have to do anything.  Write bad stuff,
+and you'll go into debt satisfying the warranty.  As long as software
+continues to operate on the We Promise Nothing Except to Take Your
+Money and Run principle, intellectual property will appear to be
+the only way to finance software.  But it is, I think, an inherently
+Bad Idea.).
+
+In any case, it sound suspiciously like the statement that internal
+help screens will eliminate the need for external documentation.
+It hasn't happened yet.
+
+Certainly, "standing armies of support staff" will (oh, I hope, I
+hope, this is the most horrid job of all) become increasingly 
+unnecessary.  But I don't see a lot of that now.  I *do* see
+standing armies of sales droids.  I hope they go away, too.
+
+I have a feeling, however, that you have grown accustomed to a
+style of product (often produced by Microlimp) which, if it's
+broken, you work around it.  This is not an acceptable solution
+sometimes, and when it is not, people are often times willing
+to pay interesting amounts of money for someone who is willing
+to fix the brokenness, or supply a non-broken product.  Some 
+people will willingly buy/use flawed products.  Some people 
+can't/won't.  I'm not interested in selling to the former.  
+The competition is way too intense to make any money selling
+things to the suckers -- er, the former.
+
+>5) With points 1,2,3,4 there will be little to no money to be made in software.
+>Large companies like Microsoft able to finance decade long projects will
+>disappear, only small hobbiests will remain.
+
+OK.  No on 1-4, so a pretty obvious no here.  I think any software company
+that finances a decade long project without a clear customer willing
+to finance some/all of the development is suspect, anyway.  A lot of
+long projects of computer development occured, are occurring, and
+will continue to occur *outside of software companies* because
+some group of people desperately need a product to do a certain thing,
+and it isn't out there.  They will pay people to make this product.
+(Sometimes, they effectively hire some/all of a software company,
+or create an internal software company, to do this work.)
+They have, they do, they will.  But *only* if they need it.  Hopefully,
+the future I envision will see a lot less development of products nobody
+wants, or, more commonly, products with a sh*tload of features few
+people want and whose addition -- while making sales droid jobs
+more interesting and complex -- overburden bad design, and result in
+bugs in the old functionality (the, imo, real reason a lot of people
+stop buying upgrades).
+
+>8) Big software projects are good
+
+I disagree.  Big software projects are sometime *necessary*, if
+you can't figure out a small way, or a way to cobble what you 
+need together out of existing pieces.  But it is my claim that
+big software projects -- big, in fact, *anything* is never good.
+But sometimes necessary.  This is a philosophical distinction
+which I'm sure some out there will disagree with.
+
+>On the other hand, GNU has been working for 10 years on their
+>software and they still haven't produced the level of quality and complexity
+>manu commercial projects have. 
+
+True.  On the other hand, ridiculous numbers of people use a lot
+of their tools (notably a certain editor, and a certain compiler,
+which shall remain unnamed).  I mean *ridiculous*.  I won't
+comment on the rest of point (8) -- but don't assume I agreed with
+any of it.
+
+>Conclusions: 
+ 
+>large complex pieces of software will not be developed
+
+As I mentioned above, they will.  When they are needed, to accomplish
+a task which cannot otherewise be accomplished.  Otherwise, they will
+not be developed, thus sparing us the trouble of dealing with them.
+And, imo, a darn good thing, too.
+
+>The only hope for big software development will come from
+>academia
+
+Over and above the fact that academia may, one day, not be
+financed by taxes (discussion on this list has bounced various
+ideas about this around), the Great White Hope (I wonder if that's
+non-PC?  I wonder if I care.) for "big software development"
+will be . . . corporations.  Oooh.  Big surprise here.  I'm
+thinking Space R&D and robotics corporations will be It,
+(in the long run) but I am hopelessly utopian.  And muddled.  
+But that's another story.
+
+And if you want a current example of medium-to-large-scale, 
+interesting software development going
+on inside a non-software corporation, look into a company
+called McCaw Cellular.  Heck, probably any phone company.  They
+use hot tools, they buy hot hardware, they hire some good people.
+I'm not entirely certain what they're doing (they don't seem
+to be selling the result to anyone else -- this is purely in-house
+as near as I can tell).
+
+I'm not going to bother to respond to conclusions (2) and (3).
+They struck me as jokes.
+  
+>4) You will become poor because the next generation of compilers will be
+>easy to use and bug-free. No more income via bug support.
+
+Uh, if I am working in compilers five years from now, well, it'll
+only be because (a) someone is holding a gun to my head or (b) someone
+is paying me orders of magnitude more money (real value) than they
+are now.  So if I'm poor in the future, it won't be because I
+tried to keep making buggies after buggies were no longer wanted.
+I would either go do something else entirely (my plan -- surely you didn't 
+think my be-all, end-all or even career plan consisted of working on 
+compilers.  If it were, don't you think I'd display a 
+significantly more serious attitude about it than I did in my 
+last post on the subject?), or sell my buggy-making
+expertise to the growing automobile industry, and produce automobile
+bodies.
+
+As has been discussed at some length on this list in the past,
+not only are *people* not altruistic, but neither are corporations
+(ok, so corporations are people in the legal sense).  I have
+a hard time envisioning (but don't deny the possibility of) software
+corporations financing AI development of an interesting sort, unless
+they believe they have a market for it in the 5-10 year range.  Even
+if they do have money to burn (which some corporations certainly
+seem to have).
+
+Microlimp is interesting in that it has subsidiaries (satellites?
+related companies?  I don't the exact economic relation) which
+appear to exist solely to develop something that Mr. Gates wants.
+Mr. Gates is a customer.  He wants certain products (notable one
+in the news: a house system for displaying art on large screens,
+etc., changeable at will with functionality for programming music,
+etc.) and finances their development (currently at a loss, I might add).
+Mr. Gates *happened* to make his money in software.  But as long
+as this world contains fabulously rich people, with mildly
+odd tastes, large software/prototype hardware development will occur.
+Nicely covering those cases of large scale development of things
+for which there is no market until the product exists (which is
+the one thing my version of the software industry leaves out).
+
+On the other hand, I am reasonably certain we could make it
+to the singularity *without* that class of products.  We'd just
+have a little less fun along the way.
+
+It occurs to me that a lot of Ray's arguments are variants of
+the Big Science arguments, and a lot of my knee-jerk reactions
+to his arguments are variants of the Smaller Is Really Enough
+arguments -- which I know I've seen on this list before.
+
+As long as I'm on that tangent, I'd like to note that some of
+the most worthwhile (imo, of course!) work in genetics done
+in the last couple of decades was done by Barbara McClintock
+(of jumping genes fames) -- not by the Human Genome whatsit.
+It was done on what can only be described as a shoe-string budget.
+
+Good - cheap - fast.  Choose any two.
+
+Rebecca Crowley
+standard disclaimers apply
+rcrowley@zso.dec.com
+(I post from a borrowed account, so replying isn't all that good of an idea.)
+
+------------------------------
+
+Date: Wed, 28 Jul 93 03:39:48 -0700
+From: davisd@nimitz.ee.washington.edu
+Subject: AI: Searle's Chinese Torture Chamber 
+
+> From: starr@genie.slhs.udel.edu
+> 
+> It may be objected that this first-person perspective is unverifiable.  On
+> the contrary, it is - in principle, at least.  If you were hooked up to my
+> sensory and nervous system so that you got the same sensory input I did,
+> presumably you'd "sense" the same things, and share this part of my point
+> of view.  If you were hooked up to me at a higher level, a sort of mechanical
+> telepathy, then you'd be able to observe my point of view at the level of
+> what I think, intend, mean, and understand.
+> 
+
+This will not settle the argument. People will just argue about
+whether the machine connecting us is just simulating the behaviour of
+a conscious brain while mimicking the responses it gets from you, or
+whether it works at all.
+
+Machine is hooked up.
+
+Outcome 1: I understand your point of view, but not the chinese room's
+perspective. 
+
+Searle's opponent: Big deal. It just shows that it's easier to map from
+a brain to a brain, but that such a device doesn't work from a room to
+a brain. 
+
+Outcome 2: I understand your point of view, and the chinese room's as
+well.
+
+Searle: Big deal. You create a machine which simulates brain activity,
+create the activity appropriate to the words of the chinese room, and
+plug the patient in. All the consciousness occurred in the patient's
+mind, appropriately stimulated by your machine.
+
+Finally, sounds to me like human level AI is a stroll in the park in
+comparison to making a machine which transmits your "high level"
+thoughts understandably into my consciousness.
+
+Buy Buy -- Dan Davis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+Date: Wed, 28 Jul 93 6:51:47 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: AI: Searle's Chinese Torture Chamber
+
+starr@genie.slhs.udel.edu () writes:
+> 
+> Searle's critics still don't seem to be getting his point.  Maybe it has
+
+  We've got it, it just isn't a strong argument.
+
+> Imagine you're an intelligence agent that has been given instructions on how
+> to communicate with a field operative.  All you know is that if he tells you
+> X, you're to tell him A; if he tells you Y, you're to tell him B.
+> 
+> You get a message from the operative: Y.  You reply: B.  What did you just
+> say?  What did you tell him?  What do A, B, X, and Y mean?  He knows this,
+> but you didn't need to know, so you weren't told.
+
+  This "symbol exchanger" method isn't sufficiently complex to be
+intelligent.  It's a one step algorithm, TABLE_LOOKUP[operator_key].
+To see why, let's consider a different experiment. I want to construct
+an algorithm that will pass a limited turing test so I secretly
+conduct sample turing tests with 100,000 humans interviewing each
+other 10 times, each asking 30 questions. This yields ~ 3*10^12
+samples, or about 3 trillion questions/answers. If you spoke one
+complete sentence every second it would take you 95,000 years to
+exhaust all the possibilities. My turing contest entry would simply
+return COLLECTED_ANSWER_DATA_TABLE[processed_question_hash]. Do you
+think this program would pass the test? I don't. Simply straying from
+the topic would be enough to kill it. (note: the hash would use an
+intelligent pattern match like AGREP to weed out typos, synonyms, and
+similar sentences)
+
+  But there's more here to learn. No real computation is done during the test.
+All of it was performed prior to the test when I collected those 3 trillion
+samples.  The same applies to ridiculous symbol exchange arguments. Hardly
+any computation is done by the human in the loop, it was all done prior
+to the whole set up by the human operators on the outside.
+
+  Now if you want to argue that a true Searle setup would use a 
+"sufficiently complex" algorithm for the human to perform, that's fine,
+but I don't see any basis then for claiming that the human couldn't understand
+what was going on.  Furthermore, in such a test, the human is no more
+significant than the electron that travels through a transistor in a CPU or
+the cog in a difference engine. Furthermore, the human has no "eyes" presumably
+to see what effects his resultant symbol has on the real world. You can't
+learn a language if you are provided with no stimuli from the outside
+world. How else would you make the connection between "OOGA" and "Beware,
+dangerous beast in area"?
+
+  Searle's argument is like saying "since I can't understand it, it must not
+be possible."  He completely overlooks the possibility that conciousness
+is an emergent behavior. For all intents and purposes, such a room _could_
+be concious even though the human inside had no idea what is going on --
+no more than a single brain cell in your head is capable of understanding
+the complete chinese dictionary. The sum, in some cases, can be greater
+than its parts.
+
+  
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+
+------------------------------
+
+Date: Wed, 28 Jul 93 7:59:41 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: intellectual property, alternate versions of software development
+
+Inigo Montoya () writes:
+> >1) Software development tools and new techniques will continually push
+> >the amount of bugs in software towards zero 
+> 
+> Sturgeon's Law.  Nope.  I don't accept this.
+
+  I do, see NASA's standards for Space Shuttle software for reference.
+Very high standards, very few bugs. 
+
+> >2) Software will contually get more user friendly (like the Mac) so 
+> >anyone can use it
+> 
+> This certainly happens in the class of software one sees on personal
+> computer platforms (whether PC, Mac, whatever).  I believe this
+
+  Here you reject the largest software market, personal computers. Goodbye
+_millions_ of programming jobs. Gee, answering those "support" calls for
+$12.50/hr sure will be a lot more fun than programming.
+
+> 
+> If the user base is quite small, or very clever, or has a large
+> background of common knowledge which can be assumed, software
+> can be very non-friendly, and still be an extremely efficient
+> tool.  Joe User may respond to yacc or bison (or any unix tool)
+> with something like "Eeeek" and run screaming from the room,
+> but these are still powerful tools and useful -- and improvements
+> on them have never struck me as increasingly "user-friendly".
+
+  So you are claiming just what I claimed in other messages. That
+developers will basically make software obfuscated and bug ridden
+_on purpose_ to get more "support"/"upgrade" money or they will write
+software only for other programmers. Yeah, that's
+progress for you. I'd much rather have intellectual property.
+
+> >3) Updates to software can be pirated and there are diminishing returns
+> >to successive updates. Only major rewrites will be interesting and they
+> >take quite an amount of capitalization and labor.
+> 
+> You are right -- software bug-fixing cycles continually degrade the
+> quality of a product, particularly if the fixes are not in keeping
+> with the original design of the product.  However, updates are not
+> always easily piratable.  Only on personal computer type systems.
+
+  Exactly. So your only customers will be contractors who need niche
+software. It seems to me that todays OS's and applications are incorporating
+so many features that the need for custom applications like point of
+sale systems or health care software is eroding fast. You
+will be forced into fairly cheap labor and fairly specialized 
+niches as mainstream software continues to gobble your market up.
+Remember, things like morphing software were _very_ niche a few years ago.
+Now I can purchase no less than 5 packages for a niche computer, the Amiga,
+that produce output as good as $20,000 silicon graphics software.
+
+> It is not obvious to me that all computer use will go the way of
+> the Mac/PC/blah.  Most computer use, sure.  But I'm not interest
+
+   So the majority of software development (for _most_ computers) will be
+killed. In other words, let's destroy an entire market that has been
+working very efficiently and evolving very quickly and replace it with
+nothing but boring embedded controller software programmed by the few and
+used by the few.
+
+> in most people, most computers, most, in fact, anything.  I'm interested
+> in niches; I'm interested in the unusual, the elite, the new-n-different.
+> Major rewrites -- even of medium-sized systems -- do *not inherently
+> take a large amount of capitalization.  I certainly *used* to think
+> this, until I ran across a few truly godlike engineers, capable of
+> doing what I consider Real Thinking, and introducing comparatively major design
+> changes in a product over the weekend, and making it work.  Given
+
+  Good for them. Now find me a godlike engineer who can develop the equivalent
+of a PDA operating system or Windows NT over night. Software also sells
+hardware and drives progress. Goodbye "doubling of personal computer 
+performance every year". Goodbye creation of new markets like PDA's or
+CD-I. If there is not a significant amount of commercial software development
+there will not be anything pushing speeds up. Why should people want to
+buy a 986 when they won't need it? The only reason accelerators appeared
+in many arguments was because games and raytracers were pushing the limits.
+
+> the rarity of such individuals, major rewrites tend to
+> take a lot of money/labor/time.  My conclusion is not to throw
+> more money/labor/time at it, but to accept a slower pace of development,
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  Thanks for confirming my argument. The elimination of intellectual
+property leads to slow down of progress. This doesn't seem to fit well
+with EC principles of "boundless expansion." In fact, I find the idea
+highly entropic. If we got the FSF working on the next virtual reality
+operating system it would only take them 100 years to finish it.
+
+> and stop hiring Joe Programmer.  Again, this doesn't work with
+> big systems, and I do realize that.  I question the need for a lot
+> of big systems, however.
+> Now, what really takes a lot of capitalization and labor is marketing.
+
+  Don't forget quality assurance, but we won't need that will we
+since BUGS == MO' MONEY for the support staffs' coffer's. 
+
+> >4) Points 1,2,3 continually lessen the need for SOFTWARE SUPPORT, and
+> >SUPPORT will soon become largely automated (expert systems) which decreases
+> >the need for standing armies of support staff. (see IBM and their
+> >downfall)
+> 
+> It seems unlikely I'll accept this, in view of the fact that I didn't
+> accept 1,2, or 3 without serious reservations.  In any case, I
+  
+   You did agree with 1,2,3 by confirming that anyone who is employed
+in mainstream commercial sector programming will be unemployed.
+(who care's about Mac's, PC's, Amiga's, etc when you have a job programming
+some specialized mainframe or embedded controller that no one else can 
+use!)
+
+> In any case, it sound suspiciously like the statement that internal
+> help screens will eliminate the need for external documentation.
+> It hasn't happened yet.
+
+  Mac support isn't nearly as lucrative as MS-DOS support. You don't
+find many Mac books with titles like "MSDOS For COMPLETE IDIOTS",
+"MS-DOS for NON-NERDS", "MSDOS for COMPUTERPHOBES" I claim that online
+documentaton is eroding support and external documentation needs. I claim
+that it is having a visible effect on support required. 
+
+> I have a feeling, however, that you have grown accustomed to a
+> style of product (often produced by Microlimp) which, if it's
+> broken, you work around it.  This is not an acceptable solution
+
+  No, I have grown accustomed to the fact that I have a much greater
+choice of software today than I ever did. Furthermore, my software is
+significantly better than ANY freeware currently out there and commercial
+software from years ago.
+
+> 
+> >5) With points 1,2,3,4 there will be little to no money to be made in software.
+> >Large companies like Microsoft able to finance decade long projects will
+> >disappear, only small hobbiests will remain.
+> 
+> OK.  No on 1-4, so a pretty obvious no here.  I think any software company
+> that finances a decade long project without a clear customer willing
+> to finance some/all of the development is suspect, anyway.  A lot of
+
+    The customer was the consumer, but you've ruled out future
+software development on personal computers. Companies are not going to be
+willing to plunk down major mooh-lah on R&D if they can't protect it.
+
+> long projects of computer development occured, are occurring, and
+> will continue to occur *outside of software companies* because
+> some group of people desperately need a product to do a certain thing,
+> and it isn't out there.  They will pay people to make this product.
+
+   No one ever gets to see this software so it produces no useful value
+for me and my software needs. These niche markets are
+incredibly small and will continually be eroded.
+
+> >On the other hand, GNU has been working for 10 years on their
+> >software and they still haven't produced the level of quality and complexity
+> >manu commercial projects have. 
+> 
+> True.  On the other hand, ridiculous numbers of people use a lot
+> of their tools (notably a certain editor, and a certain compiler,
+> which shall remain unnamed).  I mean *ridiculous*.  I won't
+> comment on the rest of point (8) -- but don't assume I agreed with
+> any of it.
+
+   Emacs exemplifies the "feature ridden" software that you decry. Some
+people just want a editor, not an operating system pretending
+to be an editor. 
+
+> 
+> >Conclusions: 
+>  
+> >large complex pieces of software will not be developed
+> 
+> As I mentioned above, they will.  When they are needed, to accomplish
+> a task which cannot otherewise be accomplished.  Otherwise, they will
+> not be developed, thus sparing us the trouble of dealing with them.
+> And, imo, a darn good thing, too.
+
+  What about operating systems? Gui's? "The cyc project"? Do you dream
+of a ridiculous future where you hire a personal contractor to write 
+software for you everytime you need a task? if you think such a market
+will exist in a large enough size to support a competitive market, forget it. 
+
+  You've simply proven what I assumed -- that your vision of the future
+without intellectual property is one where the majority of software
+companies are put out of business, where application development grinds to
+a halt, where big risks aren't taken to develop radically new software, and
+where software isn't manufactured to aid normal users or enhance personal
+productivity, but to serve a minority of contractors who want a special
+package developed.
+
+  Not exactly a diverse market or an extropic future. I rest my case.
+Eliminating intellectual property requires a very narror and pessimistic
+view of what the future of software should be. I propose that we also
+make all corporations government contractors. 
+
+  Sorry for the sarcasm but I can't believe that you honestly think your
+version of the future of software is an improvement. From a selfish
+utilitarian standpoint, it's awful.
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Wed, 28 Jul 1993 00:44:13 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: CHAT: Reanimation chores & posthuman mail filters
+
+Rich Walker:
+> you're in the Alcor Foundation, and you've been
+> revived. You've been frozen now for approximately 2753 years, so we're
+> going to re-introduce you to the world slowly.
+
+>[30,000 copies Reader's Digest lifetime subscription, library overdo notices]
+
+All dwarfed by what will be waiting in my e-mail folder --
+a five day vacation already puts quite a strain on the
+"d" key!  Presumably posthuman mail filters will be up
+to the task, but then again there will be trillions of
+subjective years worth of posthuman e-mail needing to
+be filtered...
+
+Nick Szabo                              szabo@techbook.com
+
+------------------------------
+
+Date: Wed, 28 Jul 1993 01:20:45 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: CRYONICS: Reanimation conditions
+
+Harvey Newstrom:
+> Should I be revived when they figure out how to bring me back, but haven't 
+> figured out how to stop aging?
+
+This could become a major issue if cryonics technology improves faster
+than other medical research, so that at some point (eg 2020) it 
+becomes possible to freeze people without major damage, and reanimate them
+by fixing that minor damage with biotech, but the underlying disease 
+(eg aging) remains uncured.  With current suspensions, fixing the
+freezing damage is probably a much harder problem than cure(s)
+for ischemic damage, aging, etc.
+
+> Should I be revived if they can expand lifespan by some large but finite 
+> amount?
+
+There will never be such a thing as infinite lifespan, and variance
+in life expectancy will be increasing quickly.  It will become
+primarily a matter of choice.  For example a posthuman could at any point
+choose to commit information-theoretic suicide, unless backup
+copies were secure from his own interference (eg by large
+physical separation).  Even with just cryonics, do you count
+second suspensions?  So I don't know how you would specify
+this condition.
+
+One fear I have is there might be a severe danger of partial reanimation, 
+that is being reanimated too early with severe identity and memory loss, 
+if the group of people at the other end is just trying to get the job done 
+with, rather than having the best interests of the patients at heart.
+I'd like to see some sort of pre-post psychology tests, unique skill
+retention tests (in my case, perhaps specifying my design for
+a GP trader system, which is unique to me), etc.  I'd hope to
+specify that a very high % of the patients with better suspensions than 
+mine would be reanimated and pass these tests before they could attempt
+to reanimate me.
+
+I can't believe there isn't some way to have these kinds of requests
+for revival conditions stored along with the patient (presumably in some 
+efficient long-lasting form, like a Sony mini-CD-ROM).  
+
+There is an informal system of mutual aid, a kind of
+last in, first out chain of altruism, so that the future
+trustees of the Alcor Patient Care Trust Fund (or its
+descendent) pay for and ensure the proper revivial conditions
+for the most easily revived (probably the last ones put
+in suspension), these in turn ensure proper revival conditions
+for the next batch, etc. until all the members have been
+reanimated.  Perhaps this system should become more publicized
+and made more formal?
+
+Nick Szabo                                      szabo@techbook.com
+
+------------------------------
+
+Date: Wed, 28 Jul 1993 02:35:27 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: Cryonics & Pascal's Wager
+
+Perry Metzger:
+> The flaw in Pascal's Wager is this:
+> ...there are very high costs associated with
+> actually going through with it, and very low odds of there being a
+> benefit.
+
+Know thine enemy.  Pascal's assumption is that the payoff of Heaven
+is infinite (compared to Hell or oblivion), so that even if the odds 
+are extremely small, and the costs of being a believer extremely large,
+it pays to believe in God.  In Bayesian terms,
+
+                expected value = P(God)*payoff(Heaven) - cost
+                        = (unknown but non-zero)*(infinite) - finite
+                        = infinite
+
+Furthermore, in the Fundamentalist belief system, the costs of believing
+are extremely small, much smaller than for example the c. $600+ per
+year for cryonics.  Merely believe and you will be saved -- 
+period.  In practice for most versions, you have to work to fight against 
+the the Devil, who presents all sorts of temptations to
+make you an unbeliever, therefore you go to church & contribute, etc.,
+but those are not in theory costs necessary for making Pascal's Wager,
+Fundamentalist version.
+
+The fact that Christianity isn't the only religion promising eternal
+life isn't a major flaw.  There are a finite number of religions 
+giving such a promise.  It makes sense to choose any one of them rather
+than be an atheist, according to Pascal's Wager, ecumenical version.
+
+The flaw is there is another part of the payoff matrix being ignored -- 
+what happens if being an atheist is what is required to get into Heaven?  
+Perhaps God is reserving the Reward for those who eschew faith.
+The theologist can't demonstrate that the odds of this are any lower 
+than the odds of the believer-saved scenario, therefore Pascal's
+Wager is a wash.
+
+This theoretical/theological analysis is not changed by 
+cryonics, or vice versa, since one can both believe in God and sign
+up for suspension, and cryonics' payoff, while potentially large,
+is still finite.  In practice, the two memes tend to compete for
+a similar niche.
+
+To model the payoff from cryonics, we might use my extension of Tim 
+May's initial equation, (with the human life expentency term lopped 
+off for brevity),
+
+expected life quality = P(reanimation) *
+                [(transhuman quality)*(transhuman lifespan) +
+                (P(uploading)*(posthuman quality)*(posthuman lifespan)]
+
+For simplicity I define "transhuman" as the period between reanimation
+and uploading, and "posthuman" as the uploaded state.  Quality is
+subjective, but we might measure it by speedup in subjective time,
+ie the the computational power available to the mind.   So, we
+might get numbers like this
+
+expected life quality= .35 * (1*500 + 0.01*1e20*1e10) = 
+                        3.5e27 human-quality years
+
+The 35% figure is Ralph Merkle's engineering estimate of 70% odds of 
+reanimation times my organizational odds of 50%, based on a very rough
+actuarial guestimate over cryonics history so far.  The 1% for uploading
+is drawn out of a hat, and mostly based on scenarios where a-life
+or early uploaders shut everybody else out of posthumanity, not
+the technical improbability of uploading.  I estimate (very
+roughly from Hans Moravec's computational capacity numbers) 
+mean 10^20 amplification of the human mind's computational power,
+and mean posthuman lifespan of 10 billion years.  The 1 and 500
+for transhuman quality and lifespan are fairly arbitrary, but 
+unimportant since they are dwarfed by the posthuman factors.
+
+Given these numbers it is extremely worthwhile to subtract from one's
+current quality of life (eg by paying for cryonics) to buy even
+a tiny increase in the chances of making it to the posthuman world.
+The odds would have to be many orders of magnitude smaller for
+the cost of cryonics to start looking comparable to its benefit.
+
+Like Pascal's Wager, this analysis is incomplete without including
+the possibility that transhuman or posthuman life may somehow
+be hellish, eg via slavery to sadist posthumans.  Unlike 
+supernatural hypotheses we can in theory estimate some odds for 
+this outcome, and compare it to the odds of the positive scenario
+above, but I won't try it here.  Cryonicists find the positive
+scenario more probable.
+
+Nick Szabo                              szabo@tecbhook.com 
+
+------------------------------
+
+Date: Wed, 28 Jul 1993 01:30:54 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: Geno-Anarchy: DNA CopyLeft
+
+Todd Perlmutter:
+>       Does a person own the rights to his DNA?  
+
+If somebody wants to use my DNA, for whatever purpose, they're
+welcome to it, as long as I'm not forced to pay palimony.
+(On the other hand if I'd like to use her services to
+copy my DNA, we can make special arrangements. :-)
+
+By the same token, I don't recognize anybody else's right to
+gain exclusive access to my DNA, via patent or copyright.
+Hmm, I wonder if it's possible to CopyLeft my genome? :-)
+
+Nick Szabo                                      szabo@techbook.com
+
+------------------------------
+
+Date: Wed, 28 Jul 93 23:20:40 EST
+From: hiscdcj@lux (Dwayne  <hiscdcj%lux@wookumz.gnu.ai.mit.edu>)
+Subject: can someebody PLEASE unsubscribe me?
+
+Hi,
+  look, I've tried extropians-request, I've tried exi-request, i've
+tried all sorts of weird concoctions in the subject line, in the body of
+the message, but I just can't get off this list.
+  Sorry to take up bandwidth, but this is just too high-traffic a list
+for me to cope with, and automagically signing off doesn't seem to work.
+
+So, can the list administrator boot me off please?
+And if this happens, I promise not to write in here again   :-)
+
+Dwayne.
+
+
+------------------------------
+
+Date: Wed, 28 Jul 1993 09:43:20 -0400 (EDT)
+From: Harry Shapiro <habs>
+Subject: intellectual property
+
+I want to add my support to Ray's position with the following:
+
+1) A highly competitive market for software will yield better software
+   at better prices.
+
+2) I don't put much weight in intellectual property of text and code,
+   etc. NOT because I don't think it is property ( I do ) but rather
+   that it will be/is so easy to steal that intellectual property
+   will in most cases be to expensive to support.
+
+3) I think people will pay to get copies from a trusted source and
+   will pay a trusted source to validate their copies.
+
+   That will be a major source of income. Also producers of intellectual
+   property will probally sell directly, getting income from those 
+   who want it "as soon as it is released, directly from the most
+   trusted source."
+
+4) Ray has some very interesting ideas on how complex markets for
+   software objects will evolve and I endorse that view.
+
+5) I send money each month to FSF, not because I believe their
+   politics but because I like their software.
+
+/hawk
+
+
+-- 
+Harry S. Hawk                                 habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+            The Extropians Mailing List, Since 1991
+EXTROPY -- A measure of intelligence, information, energy, vitality,
+experience, diversity, opportunity, and growth.  EXTROPIANISM -- The
+philosophy that seeks to increase extropy.          
+
+------------------------------
+
+Date: Wed, 28 Jul 1993 09:58:50 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: AI: Searle's Chinese Torture Chamber
+
+In <9307281051.AA22551@geech.gnu.ai.mit.edu>, Ray writes:
+|> starr@genie.slhs.udel.edu () writes:
+|> > 
+|> > Searle's critics still don't seem to be getting his point.
+
+I have read a lot of Searle critics who understand him perfectly. I
+read the whole Chinese room thread on comp.ai a few years back
+(agony!).
+
+[...]
+|>   But there's more here to learn. No real computation is done during the test.
+|> All of it was performed prior to the test when I collected those 3 trillion
+|> samples.  The same applies to ridiculous symbol exchange arguments. Hardly
+|> any computation is done by the human in the loop, it was all done prior
+|> to the whole set up by the human operators on the outside.
+[...]
+|>   Searle's argument is like saying "since I can't understand it, it must not
+|> be possible."  He completely overlooks the possibility that conciousness
+|> is an emergent behavior. For all intents and purposes, such a room _could_
+|> be concious even though the human inside had no idea what is going on --
+|> no more than a single brain cell in your head is capable of understanding
+|> the complete chinese dictionary. The sum, in some cases, can be greater
+|> than its parts.
+
+There, he said it. There are two perfectly good refutations of the
+Chinese Room gedankenexperiment -- 1, it isn't good enought to pass a
+Turing Test _anyway_, and 2, it doesn't exhaust the possibilities of
+_systems_ which include symbolic language processing.
+
+There are similar problems with Dreyfus's and Penrose's arguments
+(IMHO Penrose shoots himself in the foot on or about page 1 of
+_Emperor's New Mind_ by proposing to argue against a version of
+"Strong AI" that is beyond what anyone in the field has ever claimed,
+although not beyond what we have dreamed).  This stuff is amusing, and
+it shows how hard the problems are, but as a way to make a living,
+it's not a pimple on the a-- of building and testing systems, or
+proposing novel approaches.  You usually can't do what you believe no
+one can do, so any meme containing "can't do that"[2] is automatically
+suspect of concealing bogus limitations.  (Freeman Craig's Pretty Good
+Can-Do Postulate, cribbed from Henry Ford).
+
+A major problem with the "universal library of Turing Test interviews"
+approach is the familiar one of maintaining context. Since the lookup
+engine only matches a sentence at a time, and has no internal state
+outside of the database, it can be fooled by changes of subject,
+especially those involving different uses of the same terms, or most
+simply by questions about the dialog itself[1]. It's a brittle model,
+although worthwhile to consider because it criticizes and sharpens the
+Turing Test concept. A TT-passing automaton would have to demonstrate
+human-level ability to make inferences about the interlocutor's mental
+state. This is a subject of current research, since useful intelligent
+assistant programs can be built that won't quite pass a TT.
+
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO
+    /ExI 4/373 PNO ** E' and E-choice spoken here
+[1] Humor is likely to be a killer too. Even the writers of ST:TNG
+have used this device -- when they want to belittle Lt. Cmdr. Data, as
+SF potboiler tradition says they must, they have him fail to
+understand a joke.
+
+[2] ERYDT, "You Can't Do That" was the error code of last resort in
+early versions of DG's RDOS. The error code survived into AOS and
+AOS/VS, but most of the ways to make the system return the code were
+removed. Originally, all you had to do was type "lower-case, or other
+grossly improper input" to the CLI. I used to make it my business to
+know all the ways to get this error, but I've forgotten. Where's my
+Dean & Morgenthaler again? ;-)
+
+
+
+------------------------------
+
+Date: Wed, 28 Jul 93 8:12:18 PDT
+From: thamilto@pcocd2.intel.com (Tony Hamilton - FES ERG~)
+Subject: FSF: Some Useful Software, No Useful Politics
+
+>   What's my point? Having access to the newest information is power,
+> stealing it will tend to choke off your access. 
+
+1. Only if you get caught.
+2. Doesn't matter if you are one of many, a thievery co-op of sorts.
+
+>    Because selling software leaves behind traces. A bit of applied
+> stegnography and you can identify who was the source of the leak. 
+> (consider hiding 32-bits of information on a 500mb CD-ROM which has
+> lots of random information on each disk. Very low probability that someone
+> could find it.)  Offer rewards for turning in pirate bbses, etc.
+
+This is your anti-theft proposal? Sound fairly entrenched in today's paradigms
+to me. Low probability that someone would find a hidden 32-bit code on a 
+500MB disk? Do you _really_ think that probability is low for a determined
+thief? And again, so what if someone gets caught? Someone else will replace
+them.
+
+>    It doesn't have to be global, but I guess it would work just like the
+> independent credit info companies work. Some companies might even refuse to
+> hire people with a bad "pirate record"
+
+Why would someone want to be hired when they're _already_ working for a
+company or coop of sorts which _pays_ them to steal? They could consult others
+on their own successes, and ultimate failure. That information alone could
+probably keep them in business for a while. I haven't seen a strong
+disincentive yet.
+
+> > One final concern: I am always concerned when I hear of such things as
+> > "black-listing" and so forth. Justice as dealt by the hand of many is no
+> > less arbitrary than justice dealt by a single individual. That's why the
+> > concept of Democracy is a faled one, and why "Majority Rule" is invalid.
+> > What happens when someone is black-listed unjustly? What keeps someone from
+> > unjustly accusing another? Network logs? Who maintains these logs? Who
+> > set them up? It almost sounds like Big Brother to me, except it isn't your
+> > brother, its your species which is watching. What happens to privacy? Where
+> > does the automated tracking end and the privacy begin? Who decides? Where is
+> > the appeal, and how is it managed? None of this sounds very anarchist to me.
+> 
+>    There are two opposing forces here. The definate need of companies
+> and individuals to gather information (to protect themselves) and
+> the need of individuals and companies for privacy. For the longest time,
+> there was no real way to fight privacy violations. Now we have 
+> computers powerful enough to run cryptography individually. This battle
+> will go on, but the playing field will be more level. Don't expect
+> absolute privacy. Even under cryptographic security, people will tend to
+> trade based on digital reputation.
+
+And once that reputation is tarnished, whether rightfully or wrongfully,
+you don't get a second chance. The ability of others to destroy you without
+using coercion can more dangerous than force itself. Why should I use force
+against my enemies/competitors when I can destroy their reputations?
+
+> > In a truly anarchist, or Extropian, (or whatever other similar concept)
+> > society, wherever one concept is questioned, competition will spring up. If
+> > people don't like the black lists of one network, networks without black
+> > lists will be formed. Hell, if Extropians really _are_ posessing of this
+> 
+>    And these competiting nets won't have any software companies located 
+> on them. If they do, those companies will soon go bankrupt or they will
+> look like FSFs. (the FSF is near financial trouble too)
+
+But that's like saying if you're looking for free software (or at least
+very cheap), you won't find it. What of freeware, shareware and the like
+today? Of course you'd see software developers on such a network. They might
+specialize in software used to illegally acquire software on the other
+networks. Or they might develop normal software, sold to other networks
+via employees with "clean" records there. Who's going to know?
+
+>   I simply believe that it is possible to enforce effective copyright
+> without physical force. I believe there are utilitarian reasons for creating
+> intellectual property. If America wants to maintain its status as the #1
+> software producer, it had better keep intellectual copyright.
+
+America? Of what importance will America be in the future? Sheesh, you're
+losing me, Ray.
+
+>  You don't need to be an idealist, just look at reality. The vast majority
+> of individual piracy goes unpunished. The software industry does fine because
+> the big players, retailers and corporations, are punished for piracy.
+
+They are? From what I have seen, this "punishment" is only of a token nature
+at best. From what I know, the software industry suffers potential losses
+greater than their actual sales, on an international level (losses which
+can only be estimated). I don't know the figures, but I know they're fairly
+grim. I believe the SPA is the org. publishing these figures.
+
+I'm not going to argue against copyrights, since they seem to keep at least
+the sheep in line, but if I published, I wouldn't exactly care either that
+my works would be bootlegged. Any more control would require more intervention
+from our government, which I'm totally against in most any case.
+
+Tony Hamilton
+thamilto@pcocd2.intel.com
+HAM on HEX
+
+------------------------------
+
+End of Extropians Digest V93 #208
+*********************************
+
+& 

@@ -1,0 +1,1046 @@
+From extropians-request@gnu.ai.mit.edu Fri Mar 19 13:22:42 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA20420; Fri, 19 Mar 93 13:22:28 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from geech.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA06446; Fri, 19 Mar 93 13:22:19 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by geech.gnu.ai.mit.edu (5.65/4.0)
+	id <AA29562@geech.gnu.ai.mit.edu>; Fri, 19 Mar 93 15:58:29 -0500
+Message-Id: <9303192058.AA29562@geech.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Fri, 19 Mar 93 15:58:02 -0500
+X-Original-Message-Id: <9303192058.AA29550@geech.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0146
+X-Extropian-Date: Remailed on March 19, 373 P.N.O. [20:58:27 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Fri, 19 Mar 93            Volume 93 : Issue 0146
+                        
+Today's Topics:
+                         BRAIN: Information content                   [2 msgs]
+                         Computers in the 3rd World                   [1 msgs]
+                            ECON/LAW: Copyrights                      [2 msgs]
+                                Galt's Island                         [2 msgs]
+                            MEDIA: April Sci.Am.                      [1 msgs]
+                        MEDIA: Review of Extropy #10                  [1 msgs]
+                 META: Is an armed society a polite society?          [2 msgs]
+                            META: Libertarianism                      [1 msgs]
+                   META: Opportunity for Spontaneous Order            [1 msgs]
+                         PHIL/POLI: Do rights exist?                  [1 msgs]
+              THEOLOGY: Religious meme receptor sites (R-sites)       [2 msgs]
+                       Thalidomide Babies and the FDA                 [2 msgs]
+                                organizations                         [1 msgs]
+                                   reason                             [2 msgs]
+                             unjoin unsubscribe                       [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50521 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 18 Mar 93 15:10:48 PST
+From: tribble@memex.com (E. Dean Tribble)
+Subject: reason
+
+	 Another example of efficient irrationality: Newtonian physics
+	 is literally false, but still the most widely used physics in
+	 engineering, due to its simplicity.  And this is in physics,
+	 where we can set up models much closer to reality than is
+
+But this is not irrationality.  If science is the attempt to model the
+universe so that we can predict it, then Newtonian physics, where
+applicable, is a better model than quantum mechanics or whatever
+because of its simplicity.  Within a restricted domain, it models the
+universe better because it is easier to use to predict things with.
+That's rational.  It's amusing that it corresponds to the engineering
+outlok, however.
+
+dean
+
+------------------------------
+
+Date: Fri, 19 Mar 93 12:41:44 +0000
+From: Rich Walker <grlw1@cus.cam.ac.uk>
+Subject: META: Opportunity for Spontaneous Order
+
+This makes remarkable sense...
+The only thing I think it lacks is the addition of
+
+1. regular informing of people how many subscribers there are on the system
+or
+2. some method of making the monetary values sensible (consider the case
+where I post an article (!) with a bid of $1300, and there are 72
+subscribers. This means the ExI-Funds should read 18.05555555... If you
+want to avoid rounding errors throughtout the system, then
+
+2.1. My ExI-Funds should be passed through unchanged, and I'd put $18 in it.
+2.2. My software should only allow me to input a number that's a multiple
+of the subscriber base
+(but both of these need me to know the number of readers, really...)
+2.3. I put up an ExI-Funds value $1300, and the management software notices
+that this gives a non-integer value. So it alters my bid to
+		int(ExI-Funds / #subscribers) * #subscribers
+which is certainly going to go round nicely.
+
+That way, we wouldn't need to worry about funny values.
+
+Of course, if the final bid is going to get munged around by preferences,
+there's going to have to be an interesting approach to not losing money. I
+suggest this:
+
+since there are always going to be fractions in the system, let them get
+lost.  Every so often, total up the amount of money in the system, and find
+the shortfall. Then label this as 'taxation', and pass it on to the
+appropriate recipient. Has the useful point of being in some manner related
+to the usage of the system; indeed, if the code for calculating the
+rating-munging is set up to lose fractions throughout, it will probably
+produce a tax proportional to
+  number of articles posted
+  number of preferences recorded for each
+  'complexity' of the preference=>money algorithm
+and thus will produce a tax that is dependent on the time needed to handle
+the money...  
+
+Taking the examples Mark used, message 3528 gets rated 93 by Mark, and the
+ExI-Funds bid is $11; Mark is thus offering $21.402. Bob gets $21, and
+$.402 disappears in tax.  
+
+Of course, in this case, messages 3526 and 3529 have their cash-back
+disappear entirely into tax...  
+
+Well, it's a thought...
+
+--- Rich! Walker (grlw1@cus.cam.ac.uk)
+If not voting could change anything, they would have made it illegal by now.
+
+
+
+------------------------------
+
+Date: Fri, 19 Mar 93 0:38:34 EST
+From: mike@highlite.gotham.COM (Mike Wiik)
+Subject: THEOLOGY: Religious meme receptor sites (R-sites)
+
+Mark Venture writes:
+
+> 	That sounds good, but I wish we knew more about what we are
+> dealing with.  We really need to advance the field of memetic research.
+
+If you are prepared to separate the wheat from a LOT of chaff, you
+might try the leri list...
+
+	-Mike	mike@highlite.gotham.com
+
+------------------------------
+
+Date: Fri, 19 Mar 1993 13:51:24 +0100 (MET)
+From: ggoebel@sun1.ruf.uni-freiburg.de (Garrett Goebel)
+Subject: Galt's Island
+
+Anton Sherwood writes:
+} Marko Tervio suggests trying to buy one of the empty islands near Pitcairn.
+} Jon Fisher, author of "Uninhabited and Deserted Islands", says that a rich
+} American tried to buy Henderson Island about a decade ago for a retirement
+} hideaway, without success. 
+
+That example doesn't apply here.  The 'empty' islands near Pitcairn
+'belong' to Pitcairn.  In this sense, they are uninhabited... but
+not exactly deserted.  If Pitcairn were to gain its independence,
+then it would be a sovereign nation.  If Pitcairn sold you an
+island... they could also give you sovereignty over it.  One man
+is an island... is a nation.
+
+Unless Henderson Island is owned by a small sovereign nation...
+the comparison just doesn't hold.
+
+If I had the money, I think it would be a good risk.  Even if
+you don't gain sovereignty, one voice out of a hundred is a lot
+closer to self-governence than one voice in a million, or 260 million.
+And I would expect taxes either not to exist or be much lower on
+Pitcairn.  Government intervention there is probably non-existant
+outside of government intervention from England.
+
+If you could convince another 100 extropians to migrate with you...
+and you could gain citizenship... you could probably vote the 
+existing government out of existance!
+
+Someone should start the Pitcairn-Extropian mutual fund.
+I'll put in my two cents.
+
+Where is Pitcairn anyways?
+
+ggoebel
+
+
+-- 
+C. Garrett Goebel
+<ggoebel@sun1.ruf.uni-freiburg.de>
+
+------------------------------
+
+Date: Fri, 19 Mar 1993 05:32:05 -0800 (PST)
+From: szabo@techbook.com (Nick Szabo)
+Subject: Computers in the 3rd World
+
+One big problem is the cost of satellite time for most 3rd
+world folks is out of reach, as is laying fiber to the millions 
+of villages and burbs.  The connections will go to the universities 
+and governments and megacorps, not to the masses, who we would like to 
+give the opportunity to bootstrap into the information age.  We
+also want to set up direct channels from here to a an extropianizing
+3rd world, cutting off the statist monopoly on information flow.
+
+Two pieces of high-tech that work well right now in the 3rd world
+are the transistor radio and the pocket calculator.  The calculator
+has made running a small 3rd world retail biz much easier, while
+the radio gives the farmer access to market prices, weather
+reports, etc.
+
+I suggest the following self-transformation kit, mass produced
+and distributed throughout the globe:
+
+* portable mini-CD-ROM player ($50) 
+* CD-ROMs ($1-$2 each): English/native/Latin/Greek/German/
+Japanese dictionary, Oxford dictionary, encyclopedia, Merck manual, 
+Physician's Desk Reference, Usenet news and mailing list archives, 
+software toolkit (spreadsheet, RDBMS, editor, CAD, etc.), hard-SF 
+library (Heinlein, Vinge, Benford, Sterling, etc.), Shakespeare, 
+Nietchsze, Extropy, Science, Nature, Economist, university textbooks, 
+etc.
+* cheap biotech-made vitamins & smart pills
+* mini-format (8 mm?) 1st world vids: Teenage Mutant Ninja 
+Turtles, Sesame Street, films, Nobel-prize professors'
+lectures, etc.
+
+Copyright will dominate the cost of CD-ROM and video wares, but 
+as in software we should see massive piracy.  This time not just 
+specialized software, but entire First World libraries and university 
+curricula may be distributed in millions of copies to every village 
+around the globe.
+
+Currently, less than 1/10 of our planet's young people get 
+a decent shot at developing their minds, due to lack of
+access to the world's info resources.  Less than 1% of the 
+world's students get to attend a decent university. Simple, Thai-style
+software piracy could bring the planet's best info to everyone 
+who wants it by 2010, expanding our planet's extropy dozenfold.
+
+
+Nick Szabo					szabo@techbook.com
+
+------------------------------
+
+Date: Fri, 19 Mar 1993 14:48:49 +0100 (MET)
+From: ggoebel@sun1.ruf.uni-freiburg.de (Garrett Goebel)
+Subject: ECON/LAW: Copyrights
+
+Topic:  Basic Rights are there any?  
+Underlying question:  What right do extropians have to self-governence?
+
+} David Lubkin writes:
+} >Why should it be protected?  For all the usual reasons that any property
+} >is protected.  My basic right to own and control the fruits of my labor.
+}
+Richard Kennaway writes:
+} I think we part company here.  I do not believe in basic rights of any
+} sort.  Rights are social conventions, observed either because those
+} involved choose to observe them or because they are imposed by force.
+
+   Richard makes the point well, that there really are no such things
+as "rights", except for where we volunteer to observe them... or are 
+forced to.  I don't think David would dispute it either.  In fact, I
+would have a hard time believing that anyone on this list believes 
+that anyone is born with any basic rights.  If someone does, I gladly
+challenge them to state where any such rights derive from.
+
+   We all on the other hand seem to agree that property rights have
+developed because they are useful in creating motivation.  Motivation
+to be self made.  To have your own house, car, library.  The alternative
+is something out of Aynn Rand's nightmares... where the parasites who
+won't work for their own living, live off those that do.  Most of the
+rest of David and Richard's postings continue trying to determine
+the advantages and disadvantages of differing forms of ownership.
+I on the other hand, would like to spin the conversation back to the
+mention of basic rights... 
+
+   Extropianism in general calls for decreasing government intervention
+to as little as possible, and furthermore believes that no government
+intervention is necessary.  Perry Metzger is the articulate vanguard
+or anarcho-capitalism on this list.  Or at least, has come to represent
+it to me.  I would be very interested in hearing his responses, or 
+indeed the responses from anyone sharing the same mind-frame.
+
+   On what grounds, by what right, do extropians, libertarians, and
+anarcho-capitalists call for governments to reduce their control on
+markets?  It isn't a question of whether or not the government has 
+a right to intervene.  It does intervene.  Does anyone believe that
+the government doesn't have a 'right' to intervene?  Regulations and
+intervention 'rights' exist because governments force their existence.
+Yes, it can logically be reasoned that government intervention is 
+not the best use of the available resources.  That government intervention
+is bad for the market... but on what grounds should gov't be forced
+to give up its control?  What rights do extropians, libertarians,
+and anarcho-capitalists have that superseed the governments ability
+to enforce its own rights?
+
+   I guess I am just turning this discussion back around to the question
+of how anarchists plan on getting the government out of the market.  I
+have heard from many, that the market will simply outgrow government.
+This sounds reasonable to me... but this posting is specifically for 
+those that want anarchy on grounds that it is ideologically superior.
+Those that feel strongest that governments are wrong.  Do these people
+feel that governments don't have the 'right' to do as they do?  
+Personally, I'm not so interested in why they feel governments are 
+wrong, as why they feel anarchy is 'right'.
+
+I am not a socialist,
+
+ggoebel
+
+
+
+
+-- 
+C. Garrett Goebel
+<ggoebel@sun1.ruf.uni-freiburg.de>
+
+------------------------------
+
+Date: Fri, 19 Mar 1993 08:17:09 -0600
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: META: Libertarianism
+
+In <9303190045.AA21486@geech.gnu.ai.mit.edu>, Richard Kennaway writes:
+|> Dale Worley writes:
+|> >Partly I'm just baiting you to see what you believe.
+|> 
+|> Enough said.  BTW, wouldn't libernet be a more appropriate place to discuss
+|> the fundamentals of libertarianism?
+And even better would be libernet-d, as that list recently split due
+to excessive debate on what was supposed to be an "announcements" list.
+
+Sub requests to libernet-d-request@dartmouth.edu and
+libernet-request@dartmouth.edu.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Craig Presson)
+     /
+    /
+Wagner's music is better than it sounds.
+				  -- Mark Twain
+
+
+------------------------------
+
+Date: Fri, 19 Mar 93 14:02:46 GMT
+From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+Subject: THEOLOGY: Religious meme receptor sites (R-sites)
+
+Mike Wiik writes:
+>Mark Venture writes:
+>
+>>       That sounds good, but I wish we knew more about what we are
+>> dealing with.  We really need to advance the field of memetic research.
+>
+>If you are prepared to separate the wheat from a LOT of chaff, you
+>might try the leri list...
+
+Or its recent spin-off, the aleph list, aleph@pyramid.com.
+
+--                                ____
+Richard Kennaway                  \ _/__    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk       \X  /    University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk      \/     Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Fri, 19 Mar 1993 06:36:56 -0800 (PST)
+From: szabo@techbook.com (Nick Szabo)
+Subject: reason
+
+Nick:
+> 	 Another example of efficient irrationality: Newtonian physics
+> 	 is literally false, but still the most widely used physics in
+> 	 engineering, due to its simplicity.  
+
+Dean:
+> But this is not irrationality.  
+> ...Within a restricted domain, it models the
+> universe better because it is easier to use to predict things with.
+
+Some have been calling religions "irrational" because they
+contain false beliefs, so by that definition Newtonian physics
+is irrational, even if only slightly so.  It has _not_
+been demonstrated that religious beliefs are less useful, which I take
+to mean cause measurably more entropy, except by hearsay (eg "Mormons
+who don't stop at stop signs" -- in fact Mormons have above-average
+life expectancy).  I challenge all comers to come up with anti-entropic 
+benchmarks and use them to compare the entropy of rational vs. irrational 
+memes, just as a software engineer might compare the efficiency
+and functionality of computer programs.  Let's be rational about
+rationality.
+
+Might not efficient simplication also apply to some religious beliefs,
+metaphors, poetry, rituals, or teachings like the Ten Commandments?  
+
+Perhaps if we take the voluminous libraries full of psychology, sociology, 
+medcine, anthroplogy, sociobiology, nutrition, ethics, etc. data, and 
+distill them down to an efficient and extropy-optimizing form, teachable
+to the lay person on Sunday mornings, we get something very much like 
+Hinduism or Islam or Mormonism or some other memeset that is _prima 
+facia_ false but, when examined in detail, reveals a highly evolved 
+emergent rationality. Just because their teachings are, like Newtonian 
+physics, literally false, does not mean they cannot like Newtonian physics 
+be efficiently used.  Given the vastly greater complexity, and corresponding 
+less human knowledge about the social world and ethics vs. the 
+simplicity and our great knowledge of physics, it should not be
+surprising that simple social/ethical models vary much farther from the 
+ideal true models, than is the case with simple models in physics.
+
+In no way am I saying that any religion is in an optimal or
+ideal form; in fact I suspect that recent radical innovations like
+birth control and cryonics have or will render quite a bit
+of both contemporary religion and contemporary "rational" ideas
+about psychology, sociology, medicine, ethics, etc. obsolete.
+We have a great opportunity to borrow from both religious and
+rational traditions to form memesets more extropian for the
+future; but if we reject memetic structures in whole just
+because they are based on false beliefs, we will be left with a 
+very parched environment in which to try to grow the new memes.
+
+One rational approach I think has great promise is the study
+of human epigenetic motivations, the built-in human meme filters
+(such as the alleged "R-site").  A good start on this
+is an anthropology/sociobiology text I highly recommned,
+_The Evolution of Human Sexuality_, by Donald Symons, which really 
+drives to the core of human motivations.  There are many other 
+sociobio works that branch into economics, religion, etc. but 
+unfortuneately the field is highly underdeveloped.  Most current social
+sciences are based on axioms with no more basis in reality than
+the faiths of religions (rather they are more academic and high-sounding).
+Sociobiology is a school based around the theories in Richard Dawkin's 
+_The Selfish Gene_.  It delves into the basic biological motivations 
+that academic social scientists have ignored or speculated upon without
+data or biologically based theory for so long.
+
+So while I agree that the ideal memeset is entirely rational,
+I suspect that a successful, practical lay extropian memeset will 
+contain many shortcuts, including false emotion-inducing beliefs that 
+motivate extropian behaviors more than true emotionally neutral
+beliefs would, and false beliefs that are more efficient than the 
+full, complex closest approximations to reality.  We will still
+need science out at the forefront, making the most rational models,
+and a way to translate those models into extropian rather than
+entropian modifications to the world's memesets -- something that
+is right now sorely missing.  So I am in no way arguing against
+rationality or science, I am rather arguing for a diverse meme
+pool that includes both efficient extropianism and full-scale, 
+gigalibrary, empirical, cutting-edge rationality.
+
+
+
+------------------------------
+
+Date: Fri, 19 Mar 93 10:39:08 EST
+From: eisrael@suneast.East.Sun.COM (Elias Israel - SunSelect Engineering)
+Subject: Galt's Island
+
+C. Garrett Goebel writes:
+> Where is Pitcairn anyways?
+
+You can find it on a map at roughly 24 degrees south latitude, 130
+degrees west longitude. It's midway between Easter island and Tahiti,
+more or less.
+
+Dramatically speaking, I can't think of a better place to start than
+the island to which Fletcher Christian led the mutineers of the HMS
+Bounty after tossing out the hated Captain Bly.
+
+Elias Israel
+eisrael@east.sun.com
+
+------------------------------
+
+Date: Fri, 19 Mar 93 11:15:45 EST
+From: lubkin@apollo.hp.com
+Subject: organizations
+
+    For example, here at Sun on the East Coast of the USA, we contract
+    out for our security, our cleaning services, general office
+    management (copying, mail, heating/cooling, etc.), our cafeterias,
+    etc.
+	:    
+    I'm sure we are not the only large company doing this.
+    
+
+HP does this, too.    
+
+
+-- David Lubkin.
+
+========================= lubkin@apollo.hp.com =========================
+Dr. Sandra Markowitz:  "Just to return to reality for a moment..."
+
+Murray Burns:  "I'll only go as a tourist."
+
+                      -- Herb Gardner, A Thousand Clowns, 1965
+========================================================================
+
+
+-------
+
+------------------------------
+
+Date: Fri, 19 Mar 93 11:07:34 CST
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: MEDIA: Review of Extropy #10
+
+Somebody recently wondered why we don't discuss new issues
+of Extropy when they come out.  Good question.  Here's a
+review of #10, consisting of random thoughts and comments:
+
+* Overall, Pretty Damn Good.  Best and biggest issue yet.
+
+* Bag the cover.  A picture of Mark Miller?  Yikes!
+
+* Good job with the layout and stuff; quite attractive.
+
+* The photos of article authors are a nice idea, but I think
+  they should be a bit smaller -- the size for the 3-column
+  pages (e.g. the picture of Hal) seems about right, as opposed
+  to two-column size.
+
+* How come the nifty 5-arrow logo doesn't appear anywhere inside?
+
+* Nice job on the circulation!  from 750 to 2500 in one issue!
+  There might even be a (gasp) profit soon!
+
+* Pigs in Cyberspace:  Typical Moravec -- mind-expanding and fun.
+
+* Protecting Privacy with Digital Cash: Excellent, thorough piece,
+  well-written, informative -- exemplary.
+
+* Technological Self-Transformation: Another great installment
+  in Max's series of expansions on the Principles.  My only
+  quibble is that the "optimal persona" stuff (which was very
+  interesting) had little to do with the topic of the title.
+
+* Miller interview:  The weak point of the issue, for me.  Who
+  is this Mark Miller, and why do I care about what he has
+  to say?  The interview jumped from marginally-interesting
+  topic to marginally-interesting topic... the naive physics
+  discussion came across as rather confused; the credit theory
+  of identity is rather pedestrian and not very helpful without
+  providing some historical context regarding philosophical
+  identity theory.  His credentials involve the Xanadu project
+  and agoric open systems.  Surely those topics (of great
+  interest to Extropians) should at least have been *mentioned*:
+  what is the status of the forever-imminent Xanadu project?
+  If it's really a failure, why?  How would an agoric open
+  system work?  Surely these would be of more interest than
+  vague reprises of well-trodden ground regarding consciousness.
+
+* Nanocomputers:  Another really good, solid article; it has
+  a weakness, though -- the discussion of the entropy problem
+  and reversibility was highly needed (I wish I understood
+  the details of this highly unintuitive linkage of information
+  theory and thermodynamics -- I still don't believe it...),
+  but I couldn't understand the presentation.  If anybody
+  has a reference on this, I'd really appreciate it.
+
+* Reviews:  The Objectism review was an interesting essay in itself,
+  but seemed to drag on a bit as a book review.  The review of
+  Nanosystems was well-written and to the point, but declarations
+  that it forms the "keynote publication of the 21st century" and
+  comparing Drexler to Galileo are premature at best.  The review
+  of Gleick's work on Feynman was perfect.
+
+
+------------------------------
+
+Date: 19 Mar 1993 12:29:42 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: Thalidomide Babies and the FDA
+
+"In conlusion, I would have no hesitation in making these points to a
+thalidomide victim.
+
+-Tim May"
+
+But Tim, you do not understand ... Those awful capitalists pursued
+profits and, as they always do, killed babies in the process. You just
+don't understand, we need to eradicate the capitalists, that's it.
+
+Krzys'
+
+------------------------------
+
+Date: 19 Mar 1993 12:32:18 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: ECON/LAW: Copyrights
+
+By what notion of property do
+you deem yourself to have a right to forbid me from harmlessly using your
+property, and how do you justify it?
+
+says Richard Kennaway
+
+Excellent question. But shouldn't it be your burden to prove that this
+is harmless when the person who owns the property says it is not?
+
+Krzys'
+
+------------------------------
+
+Date: Fri, 19 Mar 93 11:55:30 CST
+From: Richard Martin <rmartin@ccu.UManitoba.CA>
+Subject: unjoin unsubscribe
+
+please unsubscribe unjoin UNSUBSCRIBE UNJOIN
+
+
+
+thanks.
+
+me
+-- 
+RICHARD MARTIN.      .         .     .    .   .C.Y.B.E.R.A.D.D.I.C.T.
+NOISE.       . .   .. .   .   . .   . .. . . . ..N...O...I...S...E...
+.............   . .    . . . .   . .    .   .   .....................
+                 .      .   .     .   industrial_Martin@UManitoba.CA.
+
+------------------------------
+
+Date: Fri, 19 Mar 93 10:25:23 PST
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: META: Is an armed society a polite society?
+
+Tim May writes:
+
+>Robin Hanson's "Polite Society" is getting too baroque and crufty for
+>my tastes ... [and later] ... Sorry Robin, but you're adding too many
+>confusing new terms and conditions. ... [and later] ... The relative
+>cleanness of the original "shooting" concept has by now completely
+>evaporated.
+
+I had similar intutuitions, which is why I offered the line item veto.
+But a big reason for adding the many complications was to respond to
+the many concerns voiced, many of them from you.  You can't have it
+both simple and clearly able to deal with all problems you envision.
+
+>Translate this legalese into English!
+
+Will rephrase. Sorry.
+
+>"Same contexts" means the places posted? My understanding was that this is
+>a strictly Extropians list thing. Seems strange to mix non-ExI folks in for
+>our little experiment.
+
+You've posted a lot on this thread, but I'm not sure how much of
+it you've been reading. I've mentioned this (the netwide aspect of my
+proposal) many times so far, and given reasoning, once responding
+directly to you.
+
+>>- A "bullet" post shows that the shooter can do better.  It is made
+>>  by the shooter after the target, in a similar context, dealing with
+>>  a similar social situation, and the shooter claims it is more polite.
+>
+>Huh? Translation, please. For a system with no moderators, no
+>administration, who judges that this standard has been met? 
+
+I gave explicit rules for the choosing of judges to settle such
+disputes.  The key phrase is "the shooter claims".  I will reword to
+make the whole sentence under the scope of this phrase.
+
+>And it'll still be trivial for someone who almost never posts (or one who
+>is contemplating leaving the list anyway) to zap me off the list for, say,
+>a month. Is this the intent of your system?
+
+If you'll read the rules (should I forward you another copy?), you'll
+see that one person can only *ever* put you off for one week.  And
+then it would take a whole month till they could put of another
+person for a week.  
+
+>(The reason I joined the earlier rule-set incarnation--but not this
+>one--was to make my points by zapping some senior member off the list "just
+>for the hell of it"--I figured the loss would cause some quick
+>soul-searching and would illustrate some flaws in the system in a direct
+>way. The new rules would do little to reduce this effect.)
+
+The fact that you intended to violate the intention of the society, by
+purposely being especially impolite, makes me glad you are not
+joining.  And the fact that the newer rules have discouraged you from
+doing so perhaps suggests that these changes better discourage the sort
+of "sniping" you and others have expressed concern about.
+
+I'd be willing to make bets about whether such sniping will be a big
+problem, if someone could make precise the result they fear.
+
+politely yours, Robin Hanson
+
+------------------------------
+
+Date: 19 Mar 93 18:24:53 GMT
+From: ssandfort@attmail.com
+Subject: Thalidomide Babies and the FDA
+
+_________________________________________________________________
+             FROM THE VIRTUAL DESK OF SANDY SANDFORT
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Michael Price asked for info about adding vitamins to thalidomide
+to make it safe.  I, too, have heard a similar claim.  I think it
+was in an article or editorial in ANALOG many years ago.  If I'm
+not mistaken, it was in an editorial by John Campbell.
+
+The article went through the entire, sad affair.  It seems that
+thalidomide was being hailed as a new wonder drug.  Not only was
+it seen as a safe and effective way to reduce nausea, but there
+were clinical studies that suggested it was effective in treating
+cancer.  There were some other beneficial aspects, but I don't
+remember the specifics.
+
+In any event, it was shown that the disastrous side-effects of
+the drug occurred only when taken by WOMEN who were PREGNANT and
+took it during a very narrow (2-3 weeks, I think) WINDOW of their
+pregnancy and who had a vitamin B complex DEFICIENCY.  If any of
+those factors were absent, there was no problem.  Even if all the
+factors are present, the thalidomide is rendered harmless if it
+is combined with the vitamin B in question.
+
+I have also heard somewhere, that thalidomide has quitely been
+re-introduced in Europe.  I presume it is "protected" with
+vitamin B.
+
+     S a n d y                         ssandfort@attmail.com
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+------------------------------
+
+Date: Fri, 19 Mar 93 11:04:28 PST
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: BRAIN: Information content
+
+Derek Zahn muses:
+>The human genome contains 3 x 10^9 base pairs, ...
+>30% or so of proteins are involved in the construction of the
+>nervous system: 1.3 x 10^7 [or 8] bits ...
+>Isn't that interesting?  The "blueprint" for the brain is quite
+>simple!  This implies: (1) Interaction with the environment is
+>probably important in determining brain structure ("predestined
+>learning"), (2) learning in general is overwhelmingly important,
+>(3) there are severe limits to hardwired functionality, and (4)
+>we have some hope of developing artificial specifications of
+>similar complexity.
+
+The number of bits, per se, does not inspire much hope in decoding the
+brain.  A cryptographic message with this many bits could be quite
+impossible to decode.  Hope comes, I think, from the fact that the
+design has to be pretty modular to function under sexual reproduction.
+This modularity may allow us to understand one piece at a time.  
+
+Hope also comes from the fact that our high level abilities, those
+that distinguish humans from the rest, evolved in relatively few
+generations.
+
+These are not, however, enough to pin strong hopes on.
+
+Robin Hanson
+
+------------------------------
+
+Date: Fri, 19 Mar 1993 13:09:32 -0600
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: MEDIA: April Sci.Am.
+
+For those who don't regularly read _Scientific American_, I noticed
+that the April 1993 issue has an unusual preponderance of
+Extro-relevant articles (comments sketchy on account of I ain't
+read much of it yet):
+
+The Aging of the Human Species,	S. Jay Olshansky, Bruce A. Carnes, and
+Christine K. Cassel. Sociological, contains various limiting
+assumptions.
+
+Cavity QED, Serge Haroche and Jean-Michel Raimond.
+
+Listening with Two Ears, Masakazu Konishi. Study of auditory
+direction-finding in the barn owl (Tyto alba).
+
+Catalysis on Surfaces, Cynthia M. Friend
+
+Science and Business: WESTAR's entry into commercial launch services;
+Jordan and Heuring of U of Colorado build an almost all-optical
+stored-program computer; "Frequent Flaps in the Deregulated [ha! --cP]
+Skies" a disgusting piece by Elizabeth Corcoran and Paul Wallich.
+
+And don't miss the selection of crackpot letters they ran for
+4/1.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Craig Presson)
+     /
+    /
+"My favorite piece of technical writing:
+ 'Assembly of Japanese bicycle require great peace of mind.'"
+	-- Robert Pirsig
+
+
+------------------------------
+
+Date: Fri, 19 Mar 93 14:30:21 EST
+From: sulko-m@acsu.buffalo.edu (Mark A. Sulkowski)
+Subject: PHIL/POLI: Do rights exist?
+
+Garrett Goebel writes:
+>Topic:  Basic Rights are there any?  
+>Underlying question:  What right do extropians have to self-governence?
+>
+>} David Lubkin writes:
+>} >Why should it be protected?  For all the usual reasons that any property
+>} >is protected.  My basic right to own and control the fruits of my labor.
+>}
+>Richard Kennaway writes:
+>} I think we part company here.  I do not believe in basic rights of any
+>} sort.  Rights are social conventions, observed either because those
+>} involved choose to observe them or because they are imposed by force.
+>
+>   Richard makes the point well, that there really are no such things
+>as "rights", except for where we volunteer to observe them... or are 
+>forced to.  I don't think David would dispute it either.  In fact, I
+>would have a hard time believing that anyone on this list believes 
+>that anyone is born with any basic rights.  If someone does, I gladly
+>challenge them to state where any such rights derive from.
+
+	I think it depends on what you mean by 'rights'.  This is a
+deep philosophical question.  I refer you to _Liberty and Nature_ for
+the best philosophical defense that I have seen on such issues.
+
+	I think there are at least two senses in which rights 'exist'.
+The Declaration of Independence declares that it is the proper role of
+government to _secure_ rights.  So, in one sense rights exist as a
+result of government action.  Since there are courts and police who
+recognize rights (in the ideal government) then their actions aim
+at encouraging society to live by those rights.
+
+	Yet if rights are something that are secured, they have an
+existence prior to their enforcement, at least as ideas.  Perhaps these
+ideas developed as "social conventions".  Customary legal systems may
+have had a big role in this.  (See _The Enterprise of Law_ for historical
+analysis.)
+
+	The big question is: is there any BASIS for rights?  Are they
+purely arbitrary?  Is any possible conception of rights _right_?
+
+	My own view is that rights are a recognition that human beings
+have a nature such that they may be harmed or mistreated.  Rights are
+rules of behavior, which, if followed, will lead to the minimization
+of the harm or mistreatment of others.  Rights, if followed, allow
+everyone to live their lives and pursue their own good (happiness,
+eudaimonia, whatever you wish to call it).
+
+	Can such rules be violated?  SURE!  Even with government or
+PPL such rules can be violated.  Does this mean that rights do not
+exist?  Well, even if the idea of rights may not exist in society X,
+the BASIS for such rights (the nature of the beings of society X)
+still exists.  In THAT sense rights exist and may be violated.
+
+
+>  It isn't a question of whether or not the government has 
+>a right to intervene.  It does intervene.  Does anyone believe that
+the government doesn't have a 'right' to intervene?
+
+	Any right that government may claim to intervene is baseless.
+It is a misunderstanding of the situation.
+
+
+>  Regulations and
+>intervention 'rights' exist because governments force their existence.
+
+	They exist only in terms of being implemented.  They are not
+'right' however.
+
+
+>Those that feel strongest that governments are wrong.  Do these people
+>feel that governments don't have the 'right' to do as they do?  
+
+	Yup.
+
+
+>Personally, I'm not so interested in why they feel governments are 
+>wrong, as why they feel anarchy is 'right'.
+
+	Well, I don't *know* that anarchy is 'right'.  The acid test
+is the actual implementation of such a society.  I think that voluntary
+interaction is good in the sense that it minimizes the extent to which
+people can be forced to be hosts to parasites or to be subjects of
+potentially misguided social engineering experiments.  There is much
+more I could say, but I am running out of steam.  :)
+
+
+===============================================================================
+|   |\    /|    | "But we must not follow those who advise us, being men, to  |
+|    \\  //     | think of human things, and, being mortal, of mortal things, |
+|     \\//      | but must, so far as we can, make ourselves immortal..."     |
+| Mark \/enture |                 - Aristotle, _The Nicomachean Ethics_       |
+===============================================================================
+
+
+------------------------------
+
+Date: Fri, 19 Mar 93 11:33:50 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: META: Is an armed society a polite society?
+
+Robin Hanson writes:
+
+>Tim May writes:
+>
+>>Robin Hanson's "Polite Society" is getting too baroque and crufty for
+>>my tastes ... [and later] ... Sorry Robin, but you're adding too many
+>>confusing new terms and conditions. ... [and later] ... The relative
+>>cleanness of the original "shooting" concept has by now completely
+>>evaporated.
+
+Comment on this quoting style: Robin's selective quoting of my comments is
+*very nice*. Yes, I like the "...[and later]..." method. It gets a lot of
+"context" packed into a small space. I plan to copy the method when I can.
+
+>I had similar intutuitions, which is why I offered the line item veto.
+>But a big reason for adding the many complications was to respond to
+>the many concerns voiced, many of them from you.  You can't have it
+>both simple and clearly able to deal with all problems you envision.
+
+Ah, I think the problems are of a fundamental nature (i.e., frequent and
+active posters value their posting privileges differently than lurkers or
+those about to leave the list anyway). Just as an unfree market is not
+really fixed by adding new layers of laws to the control system, so too
+will The Polite Society remain broken even as new "epicycles" are added.
+
+>You've posted a lot on this thread, but I'm not sure how much of
+>it you've been reading. I've mentioned this (the netwide aspect of my
+>proposal) many times so far, and given reasoning, once responding
+>directly to you.
+
+I've tried to read all the messages. I had some house guests for two days,
+and then a reporter for the "Village Voice" here yesterday. I've tried to
+catch up to the several hundred messages that piled up. My response to the
+various posts on this thread was in the post Robin is quoting (which did
+contain the latest rules, so I've seen them a couple of times).
+
+>The fact that you intended to violate the intention of the society, by
+>purposely being especially impolite, makes me glad you are not
+>joining.  And the fact that the newer rules have discouraged you from
+>doing so perhaps suggests that these changes better discourage the sort
+>of "sniping" you and others have expressed concern about.
+
+Yes, this may be so. The new rules are sufficiently complicated--at least
+for those of us who don't study them in detail--that I doubt many will
+join. (I will make a bet that The Polite Society will have fewer than a
+dozen members a month from today. The loser of this bet stops posting for a
+week.)
+
+As to the business of the "intention" of the Society, that was never clear
+to me. Certainly the title made it seem the claimed intention was
+politeness. But, as others have noted, a Society predicated on "shooting"
+others may not engender the proper attitude of politeness.
+
+>I'd be willing to make bets about whether such sniping will be a big
+>problem, if someone could make precise the result they fear.
+
+I will make the bet that if I join I will shoot someone at the max
+allowable rate (one per month, the new rules say? I had thought the "It
+takes one month to "reload" for another shot." rule had to do with shooting
+the _same person_ again.) and that of the remaining 3 weeks out of every
+month, someone else will shoot me an average of one out of those three
+weeks. In short, over a 3 month bet period, I predict I will be off the
+list at least 2 weeks out of every four. The loser of this bet stops
+posting for a week.
+
+I think Robin's idea is a fun one to consider, and perhaps even to deploy
+to see what happens, how it breaks, how a "Rev. 2" model might be built,
+etc.
+
+The very fundamental problem (values of posting privileges not at all
+equal) is the hard one to solve. Any system that allows a "sniper" like me
+(not really, but in order to "break" this system, I'm taking on this role)
+to kick valued and respected posters off the list is not a stable system.
+
+-Tim May, Member of the Flying Yogis Society since 1992:  6 takeoffs, 5
+landings.
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+Date: Fri, 19 Mar 93 14:00:20 CST
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: BRAIN: Information content
+
+Robin Hanson writes:
+
+> The number of bits, per se, does not inspire much hope in decoding the
+> brain.
+
+Agreed; the point of the analysis was to support speculations on
+(1) the role that the world itself takes in molding our intelligence,
+and (2) the possibility that synthetic intelligence might require
+only a similar "program size".
+
+> Hope comes, I think, from the fact that the design has to be pretty
+> modular to function under sexual reproduction.
+
+By modularity, do you mean that proteins tend to be expressed
+in restricted areas of the brain?  I don't see the link between
+sexual reproduction and modularity (though I certainly agree
+that modular systems are easier to understand).
+
+derek
+a rather modular fellow myself
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0146
+****************************************
+

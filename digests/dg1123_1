@@ -1,0 +1,1272 @@
+From extropians-request@extropy.org Tue Nov 23 06:27:27 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA02044; Tue, 23 Nov 93 06:27:25 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA12017; Tue, 23 Nov 93 06:27:20 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA09085
+  (5.65c/IDA-1.4.4 for more@usc.edu); Tue, 23 Nov 1993 09:10:47 -0500
+Date: Tue, 23 Nov 1993 09:10:47 -0500
+Message-Id: <199311231410.AA09085@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: November 23, 373 P.N.O. [14:10:26 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Tue, 23 Nov 93             Volume 93 : Issue 326
+
+Today's Topics:
+                 BlackNet Investigations Needs More Detailed          [1 msgs]
+                      DRUGS: Essay on LSD and Madness...              [1 msgs]
+                                    Drugs                             [3 msgs]
+                          E-Prime - a dumb question                   [2 msgs]
+                             Freezing Eggs, Human                     [1 msgs]
+                        META: Charging $ for the List                 [2 msgs]
+                           Memetic Schelling Point?                   [1 msgs]
+                          NYT: Computerized testing.                  [1 msgs]
+                                 SF: _Cyteen_                         [1 msgs]
+                            SF: _The Modular Man_                     [1 msgs]
+       Serial numbers on currency (was Tech: Truth about Canon Copiers)[1 msgs]
+                          Start-Up VirtSem: 1st step                  [1 msgs]
+                       Tech: Truth about Canon Copiers                [1 msgs]
+                Venture Capitalism/Extropian List Software...         [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 70097 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 22 Nov 93 11:32:03 PST
+From: pierre@shell.portal.com (Pierre Uszynski)
+Subject: META: Charging $ for the List
+
+> From: David Kovar <kovar@nda.com>
+> 
+> > A "reflector tree" is a nice idea but it might be
+> > high-maintenance. Who debugs mail problems, and who gets the notices
+> > of misdelivered mail? If the main list admin has to debug too many
+> > off-site problems you can bet that the price charged to people on
+> > reflector sites will rise, and rise...
+> 
+>   As a mailing list admin, reflector trees are highly frustrating. If
+> you pin the problem down to one bad address, how do you tell which list
+> has the bad address on it? Sometimes the critical header information
+> is gone, or never was there, and you generally have to broadcast a message
+> to all of the reflector admins asking them to check their lists. Then
+> you find out that someone created another reflector without your knowledge.
+> This sort of tree would require a fair degree of cooperation.
+
+Sure, I agree there is not much experience with reflector trees. I was
+suggesting this as a solution to the cost of sendmail calls. I think it
+addresses THAT problem fairly well. So, ok, now there is a management
+problem. Just because there clearly is a potential problem doesn't mean
+it's unsolvable. If the problem is solvable through clever algorithms,
+instead of brute force calls to sendmail, then we still have a solution
+(providing implementation cost is not too high).
+
+One problem that exists with ANY mailing list, is matching returned
+delivery errors to subscriber addresses (after mail went through
+aliases and forwarding mostly). One way to do that is to tag every mail
+that goes out the list (say with a header line), each subscriber is
+assigned a tag, independently from his mail address. Say:
+
+X-list-tag: 643278  
+(is uniquely assigned to joe.random@dockmaster.gov)
+
+You assign these tags sequentially to new subscribers, no need to
+reuse old tags. This way, a returned message is uniquely matchable
+to a list address, no matter how many forwardings happened.
+
+OK, now what happens in a reflector tree. Well we can extend the
+concept:
+
+As a list message goes through the tree, it gets tagged.
+
+So a message starts at
+
+X-list-tag: 24526 (assigned to that first level reflector)
+
+then is reflected as:
+
+X-list-tag: 24526-12   (assigned to the 12th address served by this ref.)
+and
+X-list-tag: 24526-13   (assigned...)
+and 
+X-list-tag: 24526-14   (assigned...)
+
+...
+So, in the end, when something bounces, it returns to somebody, somewhere
+in the reflector tree (maybe the root, maybe the leaf, who knows :-)
+but it returns with a map of the reflector path taken in the form:
+
+X-list-tag: 24526-15-Andy-AEFTY-A1-3 (tags need not be numerical, esp. if
+you are using perl).
+
+If the bouncer deleted all the header, then debug that postmaster
+instead of the list :-)
+
+As for implementation, procmail and perl can take care of this. The
+processing cost per message is not so high, and if a reflector mails
+to only 3 addresses, it does not matter. 
+
+Locating failures is not the only problem of reflector trees, but at least
+this one should be solvable. Could we expect other may solvable too?
+(subscriptions and un-subscriptions is more difficult I think)
+
+Pierre.
+pierre@shell.portal.com
+
+------------------------------
+
+Date: Mon, 22 Nov 93 15:20:32 EST
+From: Andy Wilson <ajw@Think.COM>
+Subject: NYT: Computerized testing.
+
+   Date: Tue, 16 Nov 1993 08:30:08 -0800 (PST)
+   From: Sameer <sameer@uclink.berkeley.edu>
+
+   > which was WRONG! - hope it's a rare exception...  And yes, the same old
+   > emphasis on the 'knowledge' of a simple set of quantifiable facts, just
+	   Wrong questions on SATs are not rare.
+
+A college friend of mine had a mentor in the Philosphy department who
+was on some advisory board for one of the standardized tests,  and he
+said that when the results came in,  they would change the "correct"
+answers to a few questions so that the curve was better.
+
+IHMO it doesn't make much difference, since these standardized tests
+don't measure anything very important.  The ACT is just a speed 
+reading comprehension test.
+
+I think people should refuse to take the tests.  They are just a glaring
+symptom of the utter failure of the government-mismanged education system.
+Life is the only test worth taking, and it sure isn't standardized ;-).
+
+In cyberspace information is very easy to get.  Creativity, intuition, 
+and adaptability become much more important in this scenario.  The
+notion of the "smart" person having an encylopedic mind is becoming
+obsolete.
+
+Andy
+
+------------------------------
+
+Date: Mon, 22 Nov 1993 15:29:39 +0500
+From: brian@suneast.east.sun.com (Brian Hawthorne - SunSelect Strategic Marketing)
+Subject: META: Charging $ for the List
+
+> Sure, I agree there is not much experience with reflector trees.
+
+Excuse me? And just how would you describe something like moderated
+news groups with restricted distribution? Clarinet seems to be having
+lots of success with software that has been refined over a decade of
+use.
+
+There are plenty of Netnews hierarchies that are completely private, yet
+use NNTP and Usenet/UUCP for propagation. You limit your bandwidth
+requirements, providing filtering at the recipient's end, and distribute
+processing all over the place. I've always thought that the Extropians
+list is heading in exactly the wrong direction: that of increasing
+centralization and control. 
+
+
+
+
+
+------------------------------
+
+Date: Mon, 22 Nov 93 07:41:05 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: E-Prime - a dumb question
+
+Perhaps this is overly simplistic, but what is the point of E-prime?
+It seems to be to unpack language and make explicit many assumptions
+that are implicit.  Once these assumptions are pointed out why bother
+to repeat them each time you make a statement?  Sounds like E' is
+something worth knowing about but not practising.
+
+E' reduces the baud rate.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Mon, 22 Nov 93 16:07:50 EST
+From: Tim Freeman <tsf@cs.cmu.edu>
+Subject: Serial numbers on currency (was Tech: Truth about Canon Copiers)
+
+From: Charlie Stross <charless@sco.com>
+>I'd be willing to bet that if you can come up with some of the right
+>kind of paper and a sample banknote you'd have little difficulty, for
+>example, copying whatever they use in Uzbekistan on a copier sold in the
+>US.  (Or even in programming a workstation to print copies with
+>sequentially changed index numbers.)
+
+Hmm.  If the currency maker has any sense, there is some cryptography
+involved in the serial numbers to make it easy for banks and others to
+check that a serial number is valid, but hard for anybody to generate
+a valid serial number without copying an existing bill.
+
+But such a scheme would have to be well-advertised to be useful, and I
+haven't seen the advertisement.  Has anybody else?  Or does anybody
+know for sure that the serial numbers on US $ are sequential?
+
+Tim
+
+------------------------------
+
+Date: Mon, 22 Nov 1993 16:16:05 +0500
+From: brian@suneast.east.sun.com (Brian Hawthorne - SunSelect Strategic Marketing)
+Subject: Memetic Schelling Point?
+
+> 	   Wrong questions on SATs are not rare.
+
+Well, in the last two weeks nearly every single mailing list I either
+moderate or read has converged on the topic of SATs. Sigh. 
+
+------------------------------
+
+Date: Mon, 22 Nov 93 15:56 EST
+From: kqb@whscad1.att.com
+Subject: Freezing Eggs, Human
+
+> From: Bill MacIntosh <wk01739@worldlink.com>
+> X-Message-Number: #93-11-826
+>   . . .
+> Until then, only embroys could be sucessfully frozen.  This resulted in 
+> some interesting court cases when the couple were no longer a couple and one 
+> of them wanted to bring to term the embroy.  I believe there was a well 
+> publisized case in Tennesse about this.
+
+Here is a June 2, 1992 sci.med posting with more information on that
+Tennessee case.  (I just extracted it from CryoNet message #872.)
+As you can see, it concerns only frozen embryos, not frozen eggs.
+                              Kevin Q. Brown
+                              INTERNET    kqb@whscad1.att.com
+                                 or       kevin_q_brown@att.com
+----
+> From: sje@xylos.ma30.bull.com (Steven J. Edwards)
+> Newsgroups: sci.med
+> Subject: Cryopreserved human embryos in the news
+> Date: 2 Jun 92 14:42:26 GMT
+
+According to a public radio report yesterday, the State of Tennessee
+Supreme Court recently ruled on a controversial case involving a set
+of cryopreserved human embryos.  The embryos in question are the
+result of a number of successful in vitro fertalizations of a couple
+who are now separated/divorced.  The mother sued to allow a thawing of
+at least one embryo and to have it brought to term (using the mother
+as the carrier, I guess).  The father opposed this as he no longer
+wanted to be held financially responsible for the upbringing of the
+child as would otherwise be the case for parents under Tennessee law.
+
+The court ruled that the father could not be held liable for support.
+The report did not go into detail, but I assumed that it did not
+forbid the revival of the embryos; it just said that the mother could
+not sue for child support.  A possible conclusion is that a frozen
+embryo just doesn't have the same rights (potential for rights?) as an
+in vivo embryo.
+
+Another case a few years ago in Australia also concerned several
+frozen embryos of a wealthy couple that later died in an accident
+leaving the (potential?) offspring behind.  After a long legal battle,
+the breathing, non offspring relatives of the deceased couple
+successfully convinced the courts that they, and not the more closely
+related embryos, were the legal inheritors of the substantial estate.
+
+It seems that cryopreservation of adults will face legal obstacles
+even after the medical difficulties are solved.  (If they ever are.)
+
+ [The above opinions expressed are my own; not necessarily held by others.]
+      == Steven J. Edwards           Bull HN Information Systems Inc. ==
+      == (508) 294-3484              300 Concord Road         MS 820A ==
+      == sje@xylos.ma30.bull.com     Billerica, MA 01821          USA ==
+"That Government which Governs the Least, Governs Best." -- Thomas Jefferson
+----
+
+------------------------------
+
+Date: Mon, 22 Nov 1993 12:56:51 -0800 (PST)
+From: Oliver Seiler <oseiler@unixg.ubc.ca>
+Subject: Drugs
+
+On Mon, 22 Nov 1993, Kennita Watson wrote:
+> 
+> I've also heard that most of the time the insights one has while under
+> the influence of LSD, etc. seem much less profound after the trip than
+> during it.  I find this discouraging from a self-discovery standpoint.
+
+I'm not much for self-discovery. I'm not really sure what it means. I
+think this is a result of my using LSD. I have a very difficult time lying
+to myself. ie., I know when I'm bullshitting myself. But on the same note,
+I am still an eternal optimist. Why? I know I am bullshitting myself to a
+great degree in many things. This attitude is something I've found to be
+extremely gratifying, since I don't become depressed, don't get phased
+when I'm shown to be wrong, accept my mistakes, and generally bug a lot of
+my friends because I seem so together. 
+
+I think my dabbling into drugs like LSD have promoted these attributes.
+I've found that the reality each person lives in is their own. To a large
+degree we each control that reality, and for myself I've chosen to
+completely and utterly accept that. This is a lot easier to do when you've
+opened yourself up to it.
+
+I can't really say that everyone will have the same results (I have met
+many counterexamples), but for me my occasional use has been beneficial to
+me. Let the buyer beware...
+> 
+> Does LSD also make for more vivid dreams?  Is it any easier (or
+> harder) to remember them?
+
+Since it's so hard to sleep on it for me, I've never really noticed.
+> 
+> 	[re MDMA]: Too expensive for my tastes though.
+> 
+> How expensive?
+
+Up in Canada, about $35 to $40 (for something which depending on what is
+actually in it, may only cost a couple of bucks, if that... If it is real,
+I would say a dose would cost on the order of $1 to $5 to manufacture in
+small amounts). Supposedly before it became popular, it was available in
+Vancouver for $10-$15... Perfect example of market-driven economy... (this
+was in 1989)
+
+> 
+> Eli writes:
+> 	"Speedy" effects are common with all classical psychedelics, though
+> 	I'd heard that they were actually less prevalent with psilocybin.
+> 	This usually means slight to moderate tremor, sometimes bothersome,
+> 	and muscle tension.  This would usually not prevent you from typing
+> 	or preparing food.
+> 
+> I presume that these effects happen after the hallucinogenic effects
+> wear off.  Would friends and coworkers likely notice them?
+> 
+
+Sounds more like when you're on it to me. Most classic psychedelics, with
+the exception of LSD and psilocybin, are based on the amphetamine
+structure. There may be a link with this to the methamphetamine feeling,
+although MDMA is completely different I find...
+
+I've found it quite easy to act normal while on hallucinogens, and it is
+actually quite a bit of fun. Unfortunately, LSD tends to do wierd things
+with capillary blood flow, and makes me look sort of... off. Just a bit
+not normal, so I think that makes people a bit apprehensive even if you
+are acting straight. Plus the fact that your pupils can get really huge,
+which makes some people look more than a bit alien...
+
+In my experiences, I've successfully talked to police, parents (when I was
+younger), store clerks, etc. while being fairly high on acid... (The
+police were a hoot...)
+
+> According to my long-time drug abuse counselor friend (I told him that
+> I had discussed and considered trying drugs -- boy, did I have a hard
+> time telling him that!  He still loves me:  one less thing to worry
+> about.), the effects in question comprise hallucinations and
+> delusions.  I can see how these effects might or might not mimic
+> psychosis ("...characterized by derangement of personality and loss of
+> contact with reality..."), but they do more or less precisely fit the
+> definition of "psychotomimetic": "Tending to induce hallucinations,
+> delusions, or other symptoms of a psychosis."
+
+But I suppose it also depends on whether you believe them or not. I don't
+hallucinate anything spectacular (like giant pink dragons bouncing on the
+horizon, nor do I become paranoid that everyone is an alien and out to get
+me)... I think auditory hallucinations are also more prevalent in people
+diagnosed as psychotic than in LSD trips...
+
+> 
+> 	Nitrous oxide lasts about that long [30 seconds], and has the
+> 	advantage of being legal.  I don't find it particularly
+> 	interesting, though. 
+> 
+> What does it do?  Does it just make one laugh, as the common name
+> would indicate?
+
+I tried it once. Seemed to me to be just a cheap buzz... Hardly anything
+great. I don't really understand the draw with drugs like nitrous or amyl
+or butyl nitrates (poppers, rush)...
+
+> 	A more accessible source [of mescaline] is Trichocereus
+> 	pachanoi, San Pedro cactus -- a popular ornamental, at least around
+> 	here.
+> 
+> By "accessible", do you mean that one could simply de-spine, slice up,
+> and eat the cactus?
+
+Actually I think you eat the buttons on the cactus (that's pretty much
+what they look like)...
+
+> 	Well, I think Tim Leary said in one of his testimonials to
+> 	congress back in the 60's. $40,000, a chemist, and 1 weekend
+> 	can produce in 40 million hits of LSD.
+> 
+> Inflated to 1993, then, the procedure would require more like half a
+> million dollars?  Still a tidy profit at 50 cents a dose, though a
+> mite high in start-up cost.  Can one buy it as readily as such a
+> figure might suggest?
+
+I have a theory that most acid is being produced by relatively few people,
+in crystalline form. This then filters down into the general population
+through channels which are probably extremely well guarded, going from
+crystal to liquid in varying strengths then onto blotter, sugar cubes,
+what have you... These channels were probably formed during the 70's....
+(Sounds kinda paranoid, but what am I paranoid of? Just a speculation)
+
+I can't remember where I read this, but no major LSD labs have been busted
+since the late 70's... Any truth to this? This would tend to support my
+theory...
+
+> 	But *not* eating, (ie: fasting) is an effective way of
+> 	acheiving ASCs. (Altered States of Consciousness). Personally, that's
+> 	not appealling.
+> 
+> Hm.  When I don't eat, I become testy, then indifferent and no longer
+> obviously hungry, then spacey, and after a while can no longer put
+> coherent sentences together.  Sometimes I get to the point where I
+> no longer realize that my problems come from not having eaten.  I get
+> progessively slower and weaker until someone has fed me, or some
+> survival instinct has kicked in and I've eaten anything handy that
+> vaguely qualifies as food.
+
+Try not sleeping for long periods... Oh what fun... (I once new a guy who
+some considered a dolt, who decided to not sleep for two weeks... I heard
+he became a bit crazier than he already was...)
+
+> Kennita Watson      |  Do I want to live forever?  Maybe not, but give
+> kwatson@netcom.com  |  me one or two hundred thousand years to think
+> HEx: KNNTA          |  it over.     - KLW, 1993
+
+-Oliver
+
+
+
+
+------------------------------
+
+Date: Mon, 22 Nov 1993 15:26:27 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: E-Prime - a dumb question
+
+In <20327@price.demon.co.uk>, Michael Clive Price writes:
+|> Perhaps this is overly simplistic, but what is the point of E-prime?
+|> It seems to be to unpack language and make explicit many assumptions
+|> that are implicit.  Once these assumptions are pointed out why bother
+|> to repeat them each time you make a statement?  Sounds like E' is
+|> something worth knowing about but not practising.
+             ^                                    ^
+I think you have it backwards :-) 
+
+|> E' reduces the baud rate.
+
+We've seen some examples where translation into E' seems to require
+circumlocution, but my experience indicates that, at least for
+expository writing, the size of a piece composed in E' differs very
+little from a similar expression in E.
+
+The practice of GS requires changes in a person's habits of thought.
+Similarly, writing or speaking in E' requires the practitioner to get
+certain things clear before writing or speaking. I see many other
+aspects of GS as much more effective and far-reaching, though, and E'
+as a sideshow; but E' provides a simple handle for people to grab on
+to.
+
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+
+
+------------------------------
+
+Date: Mon, 22 Nov 1993 17:31:46 -0600
+From: pgf@srl05.cacs.usl.edu (Phil G. Fraering)
+Subject: Venture Capitalism/Extropian List Software...
+
+I'm about five days behind in my list reading. I'll
+catch up soon... anyway:
+
+Tim May writes:
+
+>Just let me close by saying that the Extropian on-line community
+>could turn out to produce some interesting things.
+
+I'm beginning to realize more and more that this sort of thing
+will be much more likely with the pay-for-extropians system
+than without.
+
+Hmm....
+
+Phil
+
+------------------------------
+
+Date: Mon, 22 Nov 93 16:10:37 PST
+From: szabo@netcom.com (Nick Szabo)
+Subject: BlackNet Investigations Needs More Detailed
+
+Charlie Stross makes excellent comments on net privacy, of which I
+only have a quarrel with this one:
+
+> Moreover I'm not entirely willing to bet my freedom on the security
+> offered by encryption.  Encrypted messages travel in full sight, and
+> GCHQ/NSA have some very big computers and some very bright
+> cryptographers.  
+
+I find it extremely improbable that the NSA or anybody else can
+break long RSA keys (eg, those in PGP) as long as the keys are secure 
+(eg on the private machines of trustworthy people).  Even if they could 
+break the public keys or gain access to the secret keys, they're 
+quite unlikely to spend TM cycles and engineer time on the outside
+possibility of gaining evidence for a relatively minor drug violation.  
+Furthermore, there's so much such minor crypto traffic going around 
+now that they would require other good information (eg traffic analysis)
+prior to attempting to break the codes, to discriminate the 
+potentially important messages from the gigabytes of variously
+encoded trivia.
+
+On the other hand, the local gendarmes in net-heavy areas like
+Silicon Valley could easily hire a net-savvy investigator to monitor
+unscrambled groups like extropians, cypherpunks, etc. and even
+more trivially search back archives of Usenet, to track down
+networks of drug users, and the like.  (For example, the
+apparent True Name who regularly posts a market report listing
+street drug prices around the world to alt.drugs!)  In the future
+this will be even easier, and the archives will still be around.
+
+The main problem is that many net users aren't using PGP and other 
+powerful privacy tools like anon remailers, because (a) they have
+"nothing to hide" from the millions of total strangers, many with
+violent intent, who read the net, (b) the tools are too inconvenient,
+and (c) lack of cultural development of pseudonymity (this is quite
+well developed on several BBS nets, though).  These problems are
+being tackled on several fronts.  I'm writing a user-freindly Windows 
+GUI for PGP and anon remailers.  There's also work going on to integreate 
+PGP into traditional mailers (elm, Eudora, etc.) and the MIME standard.  
+A culture of pseudonymity is starting to spread to the Internet
+(with glacial slowness, and driving control freaks like Dick Depew and
+L.Detweiler insane in the process).  There's no reason you shouldn't 
+be able to post about your LSD experiences and the like, but make 
+sure you're protecting your privacy with the right tools, for goodness 
+sake.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Mon, 22 Nov 93 18:04:39 PST
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: Drugs
+
+Kennita said:
+> 	"Speedy" effects are common with all classical psychedelics, [...]
+> I presume that these effects happen after the hallucinogenic effects
+> wear off.  Would friends and coworkers likely notice them?
+> 
+> 	I've ::nosent some material on this to the list; ###. 
+> Please post the message number.  Thanks.
+
+Duh.  I think you can guess what happened here.  Anyway, make
+that "93-11-843".
+
+> According to my long-time drug abuse counselor friend (I told him that
+> I had discussed and considered trying drugs -- boy, did I have a hard
+> time telling him that!  He still loves me:  one less thing to worry
+> about.), the effects in question comprise hallucinations and
+> delusions.
+
+To qualify as a hallucination, a visual effect must be thought of as
+real.  If you see a pink elephant but know that there's not really a
+pink elephant there, it's an "illusion" or something rather than a
+hallucination.  True hallucinations are quite uncommon with
+`psychedelics', though they may occur with overdoses.
+
+I'm not sure what the precise definition of a "delusion" is.  It
+would probably involve a belief that its holder is incapable of
+checking against reality.  This is a bit fuzzy, but I don't think
+such delusions are particularly common -- though probably more
+common than hallucinations.  The literature on experimental
+administration of LSD and similar drugs does describe some subjects
+who suffered from paranoid delusions.  This would be one type
+of "bad trip".  It's not a desired or routine development.
+
+[re nitrous oxide]
+> What does it do?  Does it just make one laugh, as the common name
+> would indicate?
+
+Some people find it interesting, but to me it resembles postural
+hypotension -- when you've been lying down for a while, stand up
+suddenly, and suffer a `head rush'.  
+
+> I presume from the construction that an "anticholinergic" agent means
+> the same thing as a "cholinesterase inhibitor", but I don't know what
+> mental effect either of these things would have. 
+
+Turns out to be the opposite: acetylcholine (Ach) is broken down by
+an enzyme called cholinesterase.  Destroying this enzyme (as nerve
+gases and many insecticides do) results in a buildup of Ach, causing
+salivation, miosis (pupillary contraction), muscular twitching and
+convulsions, and other unpleasantries.  Inhibiting Ach itself causes
+a dry mouth and pupillary dilation, but also causes long-lasting
+mental derangement, with true hallucinations, bizarre behavior, and
+loss of contact with reality.  Not recommended.  The military
+stockpile[sd] such drugs as chemical warfare agents...
+
+> By "accessible", do you mean that one could simply de-spine, slice up,
+> and eat the cactus?
+
+Pretty much.  Minimal spines, actually, and you supposedly only need
+the section near the skin.  It's "accessible" in that nurseries
+sell them in pots.
+
+> Do any of the drugs we've discussed tend to make one incoherent?
+> Would I know, or would think I made sense and wonder why people looked
+> at me strangely? 
+
+The effect is canonically the opposite -- you think you're making no
+sense at all, but nobody else seems to notice.  Some peoples'
+reports on alt.drugs suggest that there is a transfer of skills to
+the altered state: new users of LSD et al. may have trouble
+speaking or typing, but this impairment rapidly diminishes with
+practice.  This has been better studied with marijuana, which
+frequently impairs task performance in inexperienced users, but may
+actually enhance it in experienced users.
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Mon, 22 Nov 93 18:17:10 PST
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: Drugs
+
+> From: Oliver Seiler <oseiler@unixg.ubc.ca>
+> I can't remember where I read this, but no major LSD labs have been busted
+> since the late 70's... Any truth to this?
+
+It might have been true at the time, but a Bay-area lab was busted
+quite recently.  I don't know if it was "major", but the DEA billed
+it as such.  Maybe somebody from the area has more details.
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Mon, 22 Nov 1993 21:32:47 -0500
+From: ddf2@postoffice.mail.cornell.edu (David Friedman)
+Subject: Tech: Truth about Canon Copiers
+
+>Charlie suggests some uses for color copiers, ending:
+
+>I wonder if advanced scams of this kind have yet made any
+>serious economic impact on third world countries who can't get
+>third-party manufacturers like Canon to defend their fiscal integrity?
+
+This reminds me of one of the century's great crimes--the successful mass
+counterfeiting of the Portuguese currency, I think back in the thirties. No
+high tech copiers. The money was produced for Portugal by a printer in
+England. An enterprising Portuguese got them to run off a lot of extra ones
+for him--which they thought were for the Portuguese government, or central
+bank, or whoever the issuer was. The only case I can think of where a
+substantial inflation was produced by free enterprise.
+
+David Friedman
+Cornell Law School
+DDF2@Cornell.Edu
+
+
+------------------------------
+
+Date: Mon, 22 Nov 1993 20:59:41 -0600
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: SF: _Cyteen_
+
+(I figured, what the heck, if we're even discussing "Groundhog
+Day...")
+
+Over the weekend I read _Cyteen_ by C.J. Cherryh. I highly recommend
+it to the people on this list. It is a little long. I also would like
+to say that the book was split into three parts for paperback
+publication, but was published in one volume when it initially came
+out in hardback. So buying it hardback would only cost about $ 5.00 or
+so more than paperback.
+
+>From some of the background information in the introduction:
+
+	Surely one of the more ironical outcomes of the War, the Treaty of
+	Pell and the resulting economic linkages of three human societies,
+	drawing on three vastly different ecosystems, now exist as the driving
+	forces in a new economic structure which transcends all politics and
+	systems.
+
+	Trade and common interests have proven, in the end, more powerful in
+	human affairs than all the warships ever launched.
+
+So far, at least. I still haven't read how the whole Gehenna crisis
+worked out. That's another book.
+
+It's a fascinating book that takes place about sixty years after the
+end of the "Company War" that is one of the defining events in
+Cherryh's future universe, and examines the impact of some of that
+war's technology on the society of the Union, which won its
+independence from Earth during that conflict, but suffered the
+creation of a large buffer state on its borders called Alliance
+(Union, of course, settled for independance; apparently they wouldn't
+have minded controlling the territory of Alliance or the Sol System
+government itself). The Union that won its independence, however, was
+not the same entity that set out to claim it:
+
+
+	To doubt the integrity of the tapes was paranoid. Oh, there were a few
+	who refused to use them; and studied higher math and business without
+	them, and never took a pill and never lay down to dream what the
+	masses clear across Union dreamed, knowledge pouring into their heads,
+	as much as they could absorb, there in a few sessions. Drama --
+	experienced as well as seen . . . at carefully chosen intensity.
+	Skills -- acquired at a bone and nerve level. You used the tapes
+	because your competition would, because you had to excel to get along
+	in the world, because it was the only way to know things fast enough,
+	high enough, wide enough, and the world changed and changed and
+	changed, in any human lifespan.
+
+	The Bureau of Information vetted those tapes. Experts reviewed them.
+	There was no way any subliminals could get past them. Mikhail Corain
+	was not one of the lunatic fringe who suspected government
+	com-tapping, Alliance poisoning of cargoes, or mind-enslaving
+	subliminals in the entertainment tapes. That sort of purist could
+	refuse rejuv, die old at seventy-five, and live off public works jobs
+	because they were self-taught know-nothings.
+
+
+During the war Union had made use of mass-produced people called Azi,
+who apparently don't have all the rights of natural citizens, but seem
+to have some that the CIT's lack... who also vary in intelligence,
+some much smarter, many more a little dumber, than the ordinary CIT,
+but all vastly more logical. The underpinnings of their minds were
+_designed_ to work rationally, which the Azi consider much better than
+the flux-state CIT's undergo psychogenesis in.  They talk about how
+one day they'll have to set up preserves for all the people who want
+to live their lives ruled by their glands.
+
+_Cyteen_ is about a fairly large number of conflicting themes, among
+them further development of the technology that created the Azi, to
+the point that CIT personalities can be duplicated across an identical
+geneset, as well as manipulated in ways previously reserved for Azi...
+about the successful near-duplication of the personality of Ariane
+Emory, the assasinated genius ward (and perhaps ruler?) of the state
+who pioneered much of the development of Azi mindsets... and the
+forced experiment gone awry that might force her ressurection, again
+and again, to determine if the human race will survive or splinter and
+destroy itself.
+
+If anyone wants me to, I can write a longer, more complete review,
+after I've reread it a couple more times.
+
+Anything more I write now might be spoilers.
+
++-----------------------+---------------------------------------+
+|Phil Fraering          | "...drag them, kicking and screaming, |
+|pgf@srl03.cacs.usl.edu | into the Century of the Fruitbat."    |
++-----------------------+-Terry Pratchett, _Reaper Man_---------+
+
+
+------------------------------
+
+Date: Mon, 22 Nov 1993 23:32:56 -0500
+From: xiaozhou@phoenix.Princeton.EDU (Dave Burns)
+Subject: Start-Up VirtSem: 1st step
+
+I like this thread.
+
+What qualities are most important in a person founding a startup:
+
+1) passion to get rich
+
+2) passion to be your own boss
+
+3) passion to see your brilliant idea succeed
+
+4) none of the above
+
+Well, okay, I'm a cynic. So where does that leave us? How do you take the
+first step toward this goal, given that the above are nice but
+insufficient?
+
+I won't even take a grope at the answer, beyond pointing to a technique
+that appeals to me. Write some freeware, then when/if it becomes popular,
+sell the copyright to a company that has the marketing/management
+capabilities to make the upgrades a profitable proposition. This still
+requires marketing skill, but reduces the problem. Use the BBSs and
+internet archives for distribution and marketing, then concentrate your
+sales pitch on potential buyers. It's a lot easier selling a mediocre
+product with an established user base than brilliant vaporware. Phil
+Zimmerman's PGP is an obvious example (of the technique, not of a mediocre
+product). Steve Dorner's Eudora is another. Versions below 1.4 are
+freeware, 2.0 is payware from Qualcomm. I don't know what deal Dorner got,
+but I bet it's nicer than the people Qualcomm hire out of college.
+
+I wish I knew more ways. Anybody want a degree from a one-man university? 
+
+(I hope this hasn't duplicated effort. I tried to ::include this thread,
+but apparently I blew it, I've got to ::resend it again.)
+
+Dave
+
+
+
+------------------------------
+
+Date: 	Mon, 22 Nov 1993 23:41:27 -0500
+From: Alexander Reynolds <chrome@jhunix.hcf.jhu.edu>
+Subject: SF: _The Modular Man_
+
+	Well, over recent complaints that my posts are a bunch of
+bullshit, I offer this for your perusal.
+
+	_The Modular Man_, by Roger MacAllen Bride, tells the story of a
+man who decides to put his mind into a cleaning robot, thereby releasing him
+from the contraints of a dying human body.  So now he's immortal, and the
+District Attorney wants to make it illegal for cyborgs like this gentleman
+to exist for eternity.  The last part of the book details the show trial
+which goes on, etc.
+	
+	This was in interesting read because of the social and legislative
+issues it brought up in discussing immortality through machinery.  It
+didn't preach, but it did offer one solution to the social problems
+immortality will cause.  I recommend it for those who are interested in
+living forever, i.e. extropians.
+
+	Hoping this soothes grated nerves,
+
+	Alex Reynolds
+	-------------	
+	chrome@jhunix.hcf.jhu.edu
+
+
+
+------------------------------
+
+Date: Tue, 23 Nov 1993 02:29:37 -0500 (EST)
+From: Edward J OConnell <ejo@world.std.com>
+Subject: DRUGS: Essay on LSD and Madness...
+
+    As long as we're talking about drugs...
+    This is my acid madness tale--a few of you might enjoy it.
+It is non-fiction. Sort of.
+     Anyway, this is a few years old, written for a small
+publication, Singularity. It is about my acid triggered
+schizophreniform disorder. You can think of this as a
+psychedelic 'worst case scenario.' Reading through it, I found
+some of the prose clunky, but there are many who've told me
+they consider this to be the best thing I've ever written. Kind
+of a sad thought, as I don't intend to do this again. ;-)
+     One of my most amusing moments as a writer was clicking
+through Eastgate system's "Beyond Cyberpunk" hypercard stack,
+and stumbling across the Singularity entry under Zines. I hit
+the 'sample text icon.' And out popped a few lines from this
+piece. My words had come back to visit me.
+   It made my day.
+   [This will be my last post to Extropians, I believe. I'll be
+gone when the fees start up. Thanks everyone for all the
+verbiage--fascinating stuff, even though I've disagreed with a
+lot of it. It's been an education. Anyway hope some folks find
+this worth the bandwidth used. If it's bothering you, just hit
+N and send me a flame. Unless you'd rather publically humiliate
+me, of course.]
+    (It's a Bonobos *ape* not monkey, isn't it? :-))
+____________________________________________________________________
+     
+     There Is Only One Story
+     
+     E. Jay O'Connell
+
+	3500 Words
+
+[This essay first appeared in Singularity #2.
+Ordering/subsciption info at the end of the piece.]
+
+     ...There are only perhaps a dozen or so people in the
+world.
+     We resonate to the vibration of one or more of the
+twelve--we are archetypes all.
+     I am always Daedalus.
+     I believe that somewhere, the archetypes are imprisoned,
+drugged, chained; that only this could explain the perversity
+of the 20th century.
+     The earth mother preserves me for some unfathomable
+purpose.
+     Prometheus is not the only one chained to that stone.
+     Odin and Jehovah told Zeus to change his name to Jupiter,
+and so Rome was built in a day...
+     
+     (Fragment from notebook one week before the
+hospital.)
+     
+     It was the beginning of my sophomore year at college.
+I thought of myself as an *artist* in those days. I had just
+moved out of the dorm, and into my first apartment. It was a
+bit of a walk to campus, through the park, and although the
+place was blue asphalt shingled dump, it was fairly nice
+inside.
+     My room was tiny, but I didn't care. I was going to build
+a loft.
+     My schedule was a little odd. I have never been able to
+budget my time. I spend my time freely, and only when there is
+some sort of deadline looming do I begin to apply myself.
+Peculiarities in my schedule created a hellish  48-hour "day"
+once a week. Afterwards I would sleep eighteen hours and feel
+much better. Gradually, I noticed that I really didn't need to
+go to sleep the next day, but could simply stay up until
+bedtime, creating a 72-hour day.
+     Eventually I found that I didn't need to sleep at all.
+     Should I mention the drugs? I did them in moderation--my
+circle of friends were more deeply involved than I. I smoked a
+lot of pot, drank less than most frat boys, and did a little
+acid. One hit of acid acted like a permanent catalyst. We found
+it on the kitchen floor, in a baggy. No one could identify
+either the source or type of acid. Acid like manna. We, my
+roommate and I, gobbled it immediately, after splitting it down
+the center with a razor blade
+     I wouldn't come down for months.
+     My relationship with my lover was coming apart, although I
+hadn't really noticed it at the time. I remember the last night
+with her, making love until she had come several times, and was
+getting tired of the wear and tear. She blew me for what seemed
+like hours, while in the muted darkness of my loft I watched
+kaleidoscopic patterns of color flash across my eyelids. This
+was the activity which had replaced sleep for me. I spent a
+hour or two a night in a sort of reptilian stupor, watching my
+own private light show. She wanted to help. She begged me to
+come, and go to sleep.
+     But while I had no difficulty maintaining an erection, I
+could no longer come. She would quietly slip away from me soon
+afterwards, while I was away in the hospital. Not until I
+realized that she had become the girlfriend of an old friend of
+mine would I think to question her reaction.
+     After the manna, I noticed I could *see* things clearly.
+It was like the beginning of the Acid experience, when it seems
+that a gray film has been pulled off the world, showing it to
+be a brighter and more colorful place than you had previously
+imagined. I could see. Photos taken of me at this time are
+alarming; my eyes are literally wide, open too far, the pupil
+almost entirely visible.
+     I was never tired anymore, but was instead filled with a
+manic energy which never seemed to translate into useful work.
+I was too busy talking. And walking. I would walk anywhere,
+miles in any weather, at any time. It felt good, my body now
+obeyed me in a new way; I drove it like an animal. I didn't
+really inhabit it anymore. It was simply a beast to be bullied
+into submission.
+     I made tapes, long ranting diatribes against those I had
+begun to feel were persecuting me, those who would stand in the
+way of my ascension. I dispensed wisdom freely. I played the
+part of mad prophet.
+     "Reality is an emulsion...thin and fragile to the extreme.
+Acid gradually eats away at this emulsion, leaving scratches,
+and holes through which is glimpsed a light, but be careful, it
+burns; the trick is not to be blinded..."
+     In the end I walked home and began drinking my father's
+scotch, in an effort to lose consciousness. I suppose this was
+what you might call a cry for help. I certainly didn't see it
+as such at the time. I was interested in the writings of James
+Joyce, of which my father was something of a student. Glancing
+through various works and letters, sipping warm scotch, I felt
+an amazing sense of kinship with the Irish writer. I believed I
+might well be the current incarnation of his spirit. Dedalus,
+father of artifice, creator of the labyrinth, archetypal
+artist--I happily defaced the books with my own speculations
+concerning the past and present of my immortal spirit.
+     Within 24 hours my family had signed me into a mental
+hospital.
+     I remember the the lounge of the ICU, the intensive care
+unit, as a consciously calm place. It struggled mightily in its
+lighting and decor to be as pleasant and neutral as possible.
+The result was an almost supernatural silence, a mind-numbing
+subliminal drone. Even the TV was turned off here, on occasion.
+     "Oh boy, look at this one," the Constant said.
+     "He's a live one, all right," the Genius agreed.
+     "So, what did you do to land you here? What's your
+problem, kid?" the Constant asked, from within her perpetual
+halo of cigarette smoke.
+     "You mean, you don't think that maybe we're all *onto*
+something here?" I asked. Laughter all around. It was like
+joining a fraternity, we that had learned that the world was
+simply a series of nested asylums.
+     I struck up a relationship of sorts with the nervous
+anorexic Constant. A Constant is a person who can never be left
+alone. She would think of imaginative ways to commit suicide,
+if she ever were. Light bulbs, omnipresent, and potentially
+lethal, were her main strategy. I drew her, (I was an artist,
+remember?) at her request trying to subtract the pain from her
+face, trying to draw her as if she had never been raped and
+gone mad. I drew her in a shaky hand, palsied by the drug,
+Haldol that was my only treatment.
+     Another friend was Trick. He was called Trick because, as
+a trick, a few of his friends had dosed him with over a
+thousand hits of LSD. He was tripping for over a week before
+they hauled him in. He was a wide eyed teen, with frizzy, dirty
+blond hair, and a thermometer protruding from his mouth. The
+thermometer reminded him he was alive, I think. He walked
+slowly and perpetually up and down the small locked hallway.
+The side effect of his medication was called ecesthesia.
+Calling it a "side effect" is funny in a way, because
+practically everyone on Haldol has it, a continuous nagging
+restlessness. Walking back and forth was all you could do about
+it in a locked hallway.
+     It was a private hospital. Expensive. The food was
+excellent. Some people checked in with a cheery hellow at the
+front desk, as if this were some kind of cruise or vacation. I
+called it the Mars Hotel, or the Pit. The address, when I went
+there, was 666 South Salina. I made a fuss about the number. It
+was a joke, I think, because the address was changed to 672 and
+they started changing the number on all the official stationery
+while I was there.
+     The modern psychiatric institution has no bars. That's
+because the prison is erected within the cranium of the
+patient. When the mind is caged, the body may be left to wander
+purposelessly.  The main activities at any mental institution
+are cigarette smoking, television watching, and drug taking.
+There are therapy sessions, but I never was allowed to attend.
+My doctor was no longer interested in insight-based therapy. He
+had reduced the human experience to a pure chemical state.
+Nothing else had any meaning for him.
+     Had I stayed with him, I would still be on Haldol. The
+long-term side effects of Haldol include wild facial tics and
+uncontrollable tongue extensions, not to mention the
+overpowering dullness that makes hallucination of any sort
+impossible. But the tissue drying was my major complaint. It
+made my eyes hurt unbearably. I wore contact lenses then, so I
+had to remove them. I had no glasses at that point, so I was
+forced to tape together an old pair, with an old prescription.
+(My vision is so bad that without correction, I am virtually
+blind.)
+     I was not allowed my contact lens solutions, which
+consisted of distilled water and salt tablets, when I was moved
+from the adult ward to the ICU. I suppose I could have squirted
+the water down my esophagus and drowned. Or I could have deftly
+swapped the salt tablets with poison and attempted my own small
+scale Guyana style tragedy. I had to put my lenses in a cup of
+water that first night, and then try to impress upon the staff
+that no one should throw away the cup or accidentally drink it.
+The maid came by while I was sleeping and threw them away.
+     I was convinced that my roommate, a brain damaged
+Czechoslovakian man who spoke no English, had drunk them in
+confusion. I may have mentioned that fact to someone. The staff
+wrote in my file that I'd drank my contact lenses in order to
+gain "inner vision."
+     If you are ever hospitalized for psychiatric problems, try
+getting your records afterwards. They're full of bogus insights
+like this. Half truths and outright lies.
+     Schizophrenia is the ultimate indictment. As with cancer,
+you are never considered cured, but instead, it is thought to
+go into remission--with the proper medication, mind you. You
+don't get better. The assertions of the chemical men are that,
+once you have exhibited this predilection, for any reason, you
+should probably be medicated for life.
+     Antipsychotics do suppress the symptoms of insanity quite
+nicely, to the point where many think that they are a cure.
+However, I ask for those who have not actually experienced
+these drugs to reserve judgement on their value. This "cure,"
+if not worse than the disease, is hardly much better.
+     I remember being asked "Do you hear voices?"
+     "Yes, " I replied, "when people are talking."
+     "Do you hear voices of people who aren't there?"
+     "Yes, on the phone, on the television, radio, and
+sometimes from sources more obscure..."
+     Delusions of reference were my only hallucinations in the
+beginning. What's that? Think about it. We exist at the center
+of our own personal worlds. We are the main characters of our
+stories. This is normal. Simultaneously, we watch the media, we
+read the paper, and we learn of the world of others, more
+important than ourselves.  We are intimate with the lives of a
+thousand strangers. Celebrities and Politicians. They make the
+decisions, they have their fingers on the buttons and we live
+in their collective shadow.
+     And we know that nothing we say has any effect on them.
+     Now, put that way, it is fatalism. Talking like that
+overlong would get you labeled as depressed. But, if you want
+to put it any other way, you are having delusions of grandeur.
+Sanity, you will learn, if you ever lose yours, is a tightrope
+you walk without thinking about it.
+     What happened to me was a mixture of the outside and
+inside, a confusion of self and other. I saw the news as a
+reflection of self. I saw the headlines of tabloids, and
+thought it was a veiled reflection of my own life. I saw the
+weather as indicative of my mood. People on television talked
+to me, and me alone.
+     And I knew that the world was ending.
+     That was the reason for this mingling of souls, this
+telepathic contact with the powers. The end was a fireball.
+Ronald Reagan was its mother, and when he gave birth to it, we
+would be consumed instantly. the world was struggling to
+communicate this to me. We were the last generation. And we
+needed to participate in the ceremony of its dissolution. I
+would soon be elevated into the sphere of the greats. An
+apocalyptic, personal Christian mythos, as in the music of
+Peter Gabriel, pervaded my waking dream.
+     I had more or less totally departed from what, for want of
+a better term, we can call "consensual reality".
+     What's the best thing to do with someone who has, for
+whatever reason, built up a series of inaccurate ideas about
+themselves, and their place in the world? How do you get them
+to give up their delusions, and invite him back into our shared
+world? I'm not sure, but I'll give you a good example of what
+*not* to do. Don't put him in a room surrounded by intelligent
+people with little notebooks who write down everything he says.
+All my rants were dutifully taken down, round the clock, by my
+private team of jailer/secretaries. I felt I had been
+imprisoned because I had become too potent a force to be
+allowed to wander freely. ***
+     I ran through the mental hospital in nothing flat--the
+first time. What seemed to me to be a few days was actually
+more like ten, but I was sleeping most of it. That was a
+pleasure in itself. Sleep. Pure, blissful unconsciousness. I
+had lost the ability to sleep, and had thought myself better
+off without it, but that, I later knew, was nonsense. Like it
+or not, healthy humans need sleep.
+     I had taken their drugs, and watched TV, and listened to
+the problems of a lot of people much worse off than I was. My
+first roommate was a Vietnam vet. He was there because he had
+begun blacking out, losing days. He had been living in a cabin
+in the woods, drinking and smoking a lot of weed, when things
+began to melt away from him. He had nightmares.
+     I heard some pretty grisly war stories.
+     An interesting aside: I have never been as wasted as I was
+on these therapeutic chemicals. In fact, throughout my decade
+or so flirtation with what we used to call recreational drugs,
+I cannot remember ever having been so completely incapacitated.
+When I talk about major tranquilizers, don't get them confused
+with minor tranks, like Valium and Librium. Major tranquilizers
+are a different kind of drug entirely. They have no perceptible
+buzz, other than a certain all pervasive dullness.
+     I remember sitting at home on a pass, tranked to oblivion,
+drinking beer with my family, watching reruns of the Mary Tyler
+Moore show. Everyone was happy. I was cured.
+     Then my roommate gave me an article about the long-term
+side effects of antipsychotics. In the piece, a long-term
+Haldol patient's face writhes with muscular tics. His speech is
+punctuated by pauses for uncontrollable tongue extensions. "You
+have to be fucking crazy to get mixed up with psychiatrists..."
+     I was not pleased. I switched doctors.
+     Dr. Morrow was much more to my liking. He had a beard and
+a glorious disorganized manner. When we talked, there was a
+connection. He admitted that the world was probably a lot
+crazier than the average psychotic.  The trouble was, to get
+off the medication, I had to go back to the hospital.
+     In retrospect, this was not a good idea; my brain at that
+time was something like a coiled spring, packed with poisonous
+visions. The drugs compressed that spring, allowing me to live
+a "normal" life, while preventing me from rooting them out at
+the source. The drugs should have been withdrawn slowly, over a
+period of months. Instead I went cold turkey. Disaster.
+     I couldn't sleep. I remember walking back and forth along
+the carpeted hall of the ICU. Ecesthesia, restlessness, a side
+of effect of antipsychotics, doesn't seem to want to go away.
+Walking and crawling, miles and miles.
+     This was when the serious hallucinations began.
+     I began to dimly perceive, as I trudged the corridor,
+translucent warriors flanking me, emerging from the closed
+steel fire door at the end of the hall, disappearing into the
+front steel door of the ICU, GIs in fatigues, with rifles and
+packs. They were totally silent, and although others couldn't
+see them, I perceived a certain nervousness in the staff when
+they were around.
+     Gradually I became aware of a noise which we have all
+heard our entire lives, but have tuned out, like an odor that's
+around so much you can no longer smell it. The beast. Some
+gigantic, tortured organism at the center of the earth, upon
+whose eternal suffering we depend. It screams and gibbers
+constantly, roaring obscenities, calling out for help which
+never comes. Again, when it was at its loudest, I sensed
+nervousness from those around me. I wonder now if I was
+mouthing those obscenities without realizing it.
+     One day I woke up, and looked out my bedroom window at the
+snow covered lot, to discover there was no longer any world
+outside at all. No cars, no people, just nothingness, a dull
+gray twilight sky merging with an endless field of dirty grey
+snow. I wandered out of my room. Static blared from the TV and
+radio in the lounge. The two patients there seemed stunned. The
+ICU door was open.
+     I passed through the verboten door. Most everyone was
+together in the main lounge, where two movie projectors had
+been set up,. back to back, spraying light at opposite walls.
+Everyone was standing or sitting, milling around, staring at
+the movies. The projectors made a clattering noise that almost
+drowned out the soundtrack of the films. I heard someone
+talking about the amount of fuel for the backup generators.
+     One of the nurses saw me and smiled and led me to a seat
+in the front row.
+     "We've got to bring it back," she said to me. "Watch the
+movies, and remember what the world was like. This has happened
+before. We know how to deal with it. Something happened last
+night. "
+     I had a blank place in my memory.
+     "Last night?" I asked.
+     "Yes, last night, but of course, you won't remember..."
+     She wanders off.
+     I have fragmentary memories of standing in my room, making
+some sort of deal with the beast, where I promised to lead the
+rest of my life as a normal, if it would bring the world back.
+     I sank deeper and deeper into some sort of belief system
+whereby color was extremely important. I could only move if I
+was in contact with white. White purified. I crept around the
+edges of rooms, brushing the white baseboard, destroying red
+objects whenever I could. Red was the fuse for the coming
+inferno. The ICU seemed to disintegrate around me. Workmen were
+always around patching cracks that kept appearing. Extra fire
+sprinklers were installed.
+     Dr. Morrow showed up one day, saw the state I was in, and
+prescribed Stellazine and an immediate exit from the madhouse.
+I had learned a lot about being insane there. He figured I
+would be better off just about anywhere else. We filled out the
+24 hour release forms. (In New York and many other states, if
+you can write a coherent letter and behave in front of a judge,
+and if your doctor is on your side, you can be immediately
+released from any psychiatric institution.) Much later he told
+me he never expected me to stay away; he figured I would do
+something unforgivable and probably end up in some state
+institution for life.
+     But I didn't. I escaped into this wider, freer asylum
+called reality. I have been happy here, although sometimes I
+feel a twinge of nostalgia for that lost world in which I was a
+far more important person, the inscrutable Agent Orange, badge
+number 666, caught in a cosmic web of conspiracy...sometimes,
+but it's just a twinge. It's so easy to romanticize.
+     I've recently had the opportunity to watch the process
+from the other side, as my friend Ron had a relapse into that
+other state. It wasn't pretty. I'm a lot less smug concerning
+the value of my episode, and psychosis in general. I realize
+that my attitude about the whole thing at times has reeked of
+spiritual superiority, which I think misses the point entirely.
+But as suspicious as I have become of hallucinogenic wisdom and
+shamanic-style initiation, the experience remains an important
+part of what I am.b
+     [Shareright (S) 1989 by E. Jay O'Connell for SINGULARITY
+magazine, 89 Mass. Ave., Suite 199, Boston, MA 02115.  You may
+reproduce this material only of your recipients may also
+reproduce it, you do not change it, and you include this
+notice.]
+E. Jay O'Connell_____________________________________ejo@world.std.com
+"God does not play dice with the Universe"--A Einstein
+"No, she plays SuperScratch-Card Wingo (TM)"--Me.
+____________________________________________________________________
+Information Wants to Be Free      PGP Public Key available by Finger
+
+
+
+
+------------------------------
+
+End of Extropians Digest V93 #326
+*********************************
+
+

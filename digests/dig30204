@@ -1,0 +1,988 @@
+From extropians-request@gnu.ai.mit.edu Mon Apr 19 08:23:51 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA18848; Mon, 19 Apr 93 08:23:49 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from albert.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA18601; Mon, 19 Apr 93 08:23:46 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by albert.gnu.ai.mit.edu (5.65/4.0)
+	id <AA02298@albert.gnu.ai.mit.edu>; Mon, 19 Apr 93 11:03:41 -0400
+Message-Id: <9304191503.AA02298@albert.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Mon, 19 Apr 93 11:03:21 -0400
+X-Original-Message-Id: <9304191503.AA02291@albert.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0204
+X-Extropian-Date: Remailed on April 19, 373 P.N.O. [15:03:41 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Mon, 19 Apr 93            Volume 93 : Issue 0204
+                        
+Today's Topics:
+                           "Big Brother" Proposal                     [1 msgs]
+            Address of major telecom decision makers (AT&T, etc.)     [1 msgs]
+                         Big Brother: Easy to Break                   [1 msgs]
+                   CLIP: Sample/Draft letter to the editor            [2 msgs]
+                        Clipper mailing list messages                 [1 msgs]
+             Crypto Resources--Information, Where to Look, etc.       [1 msgs]
+                         FTL: traversable wormholes                   [3 msgs]
+                       Fighting the Wiretap Chip Plan                 [1 msgs]
+                   Forward: AT&T Press Release on Clipper             [2 msgs]
+                                 IMPORTANT!                           [3 msgs]
+  META/HUMOR: Bring back Klaus! (was Apologies and Begging for Forgiveness) [2 msgs]
+        Meta: explaining !FIDO (Was: HUMOR: Libertarian Party doomed) [1 msgs]
+                        Odd: The Clipper Mailing List                 [1 msgs]
+                                   barter                             [2 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50015 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 18 Apr 1993 15:46:09 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Odd: The Clipper Mailing List
+
+a conscious being, Phil G. Fraering wrote:
+> 
+> Just wondering, Harry, but that may or may not be the same
+> "clipper" as the one we're concerned about.
+> 
+> Phil
+
+we are talking about clipper@csrc.ncsl.nist.gov with an
+alias on the list being csspab which contains e-mail
+address for all of the NIST security board members,
+several with addresses at dockmaster...
+
+It's the same.
+
+/harry
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 15:50:32 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Clipper mailing list messages
+
+a conscious being, Hal Finney wrote:
+> 
+> One of the messages was eliminated.  It was by well-known cryptographer
+> Whit Diffie who was about to describe technical detail on the chip and
+> its usage, supposedly straight from the NSA.  Kapor said that he had
+> elided this "long message" because it was circulating elsewhere.
+
+The message wasn't from Diffie, but from Martin (Marty) Hellman,
+which is why you may not have seen the piece from Diffie.
+
+Have you seen the Hellman piece?
+
+/harry
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sun, 18 Apr 93 12:52:29 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: IMPORTANT!
+
+Based on some of the suggestions I've seen here and on the net, I am
+inclined more to believe that there is no threat to make non Clipper
+cryptography illegal.  The plan instead is to make it a de facto
+standard for all encrypted voice communications.  You will notice in
+the AT&T press release posted here that AT&T is offering to release its
+technical information in order to allow this standardization to
+proceed.  (As the release said, you need more than just a common
+encryption standard, you also need standardization on the voice
+encoding.)
+
+AT&T is obviously in bed with the government on this, and it doesn't
+really matter at this point why.  It's a big company and the government
+can do a lot for it.  AT&T is apparently determined to take whatever
+steps are necessary for this standardization to come about.
+
+As far as non-clipper encryption, I imagine the government will initially
+exert as much influence as it can to prevent any competing standard from
+getting a toehold.  They have apparently waited until the chips were
+ready to deliver in quantity.  AT&T is promising to release clipper
+phones later this year.  It's doubtful that anyone else could even come
+up with a standard that soon, let alone get it into hardware (or
+firmware).
+
+If the standard does become established, it could be tough to defeat it.
+How easy is it going to be to sell a phone which is incompatible with
+everybody else's for secure communication?  You'd have to buy one for
+everybody in your company or group who wanted to communicate.  Then if
+they wanted to make a secure call to someone outside (say, a supplier or
+distributor) they wouldn't be able to do it.
+
+It would be a similar problem to the video phones.  Why buy one when
+almost no one else has one and so you can hardly ever use it?  Who will
+buy a Beta VCR today?  An RCA non-laser video disk?  Non-clipper
+encrypted phones may experience similar lack of success.
+
+I think this is their main strategy.  If it doesn't work, they have a
+fallback before they would have to forbid encryption in the way we have
+feared.  That is to forbid the sale of commercial devices with
+non-clipper encryption.  You don't stop private individuals from making
+their own devices, you just make it illegal to sell them.
+
+There is precedent for this, I think, in the scanner business.  You can't
+sell scanners capable of eavesdropping on cellular calls.  But nothing
+stops you from building your own if you are an electronics whiz.  (I am
+not expert on the legalities of scanner law.  Someone please correct me
+if I am wrong here.)
+
+Notice that in their document they said that U.S. citizens do not have
+the right to unlimited-strength commercial encryption.  I didn't pay much
+attention to the word "commercial" before, but now I think it is important.
+This would imply that their next step would be to ban only commercial
+implementations of cryptography.
+
+This way they can counter our civil-liberties arguments by saying that
+nothing stops anyone from encrypting his messages if he really wants to;
+he's doing it in the privacy of his own home, after all.  But when he
+gets out in the commercial arena the government has many precedents for
+limiting what is bought and sold, the scanner laws being just one of
+many.
+
+I'm not sure how ominous such a world would be - clipper chips dominating
+the (small) encrypted phone market, no commercial competition, and only a
+few hobbyists with PC's and modems able to set up clumsy untappable
+conversations via modem-to-modem links.  I might be able to talk to Tim
+May securely, but not to Mom and Dad.  In a way, I can still have privacy,
+if I really want it.  But it won't be available to most people.
+
+I wouldn't be surprised if something similar to this vision were the goal of
+those behind the clipper.
+
+Hal
+
+------------------------------
+
+Date: Sun, 18 Apr 93 13:35:51 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Crypto Resources--Information, Where to Look, etc.
+
+Several Extropians have requested more information on crypto, on RSA, on
+digital cash, and so forth. Their sudden interest is no surprise, of
+course. Some are newcomers to the list, others may have skipped the
+discussion last time it went around.
+
+Here are some miscellaneous sources of info:
+
+* Read "sci.crypt" first. It contains the usual smattering of specialized
+articles, newbie requests ("Is it true DES has a trapdoor?" is a perennial
+favorite), and FAQs. Lance Dettweiler, one of our Cypherpunks, has written
+an excellent and long series of FAQs on "Privacy on the Internet." Also,
+several Extropians are well-represented in the debates, including Marc
+Ringuette, Hal Finney, Perry Metzger, and others. The "A Trial Balloon to
+Ban Encryption?" posting I made last fall on the Dorothy Denning comments
+generated over 1000 followups. In retrospect, this key registration "trial
+balloon" was already well along.
+
+* Hal Finney wrote a nice piece on "Digital Money" in the latest (#10)
+"Extropy." Anyone who wants to critique digital cash (no slam against
+Stanton M. :-}) might first want to read this article to see what it's
+really all about.
+
+* Ray Cromwell just posted a good summary of the RSA algorithm. Previously,
+many of us have posted similar articles on RSA, the Dining Cryptographer's
+Protocol, digital money, "Libertaria in Cyberspace," etc. (I joined the
+list last July and after waiting several weeks to "get the lay of the
+land," began posting on crypto and similar themes...I just don't have the
+energy to rewrite these essays, and simply reposting them destroys the
+context in which they were written.)
+
+* various articles, including my "Crypto Anarchist Manifesto" and "Glossary
+of Crypto Terms" (co-authored with Eric Hughes), are contained in the
+/pub/cypherpunks (or similar) directory at "soda.berkeley.edu". You can ftp
+to this site and transfer the files. (These have also been posted one or
+more times to this list, perhaps you have them already in your own mail
+archives.)
+
+* the Cypherpunks mailing list has many Extropians on it (a dozen or more,
+I'd guess). It was started last fall by Eric Hughes and me as a forum for
+discussing and building crypto tools and systems. About 200 on the mailing
+list, last I heard. You can join be sending a request to
+"cypherpunks-request@toad.com" and saying the secret word (just a joke,
+from the ghost of Klaus!).
+
+* the latest issue of "Wired" has a cover story on crypto and
+cypherpunks...I still haven't seen it, but folks who have are saying it's
+pretty well done. Lots of other magazines are also planning coverage of
+this issue...the Wiretap Chip may spur on even more coverage. And your
+local university library may have the issues of "Computer" and
+"Communications of the ACM" that have carried articles on these issues.
+
+* the Extropians list has debated these topics many, many times. I suggest
+that this time around we not debate the basics of crypto. Please read the
+articles, the FAQs, and consult the various books on crypto if you are
+really interested.
+
+Well, these are a few places to look for info.
+
+-Tim May
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+Date: Sun, 18 Apr 93 21:03:20 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: FTL: traversable wormholes
+
+Robin Hanson still suggests that in making contact with aliens we should
+send holes to quasars or other Schelling points.  I prefer Schelling
+points based on the geometry defined by our previous interactions.
+
+On reflection I agree that you're unlikely to be able to pinpoint the
+alien hole's destruction site.  The debris from their hole would be lost
+in the immensity of space.  But my solution of heading towards the
+destruction site (of our own hole only) still seems a more natural
+Schelling point, to me, than any other.  
+
+But, what the heck, no reason why we can't do both!  Send some holes off
+to the nearest quasar and some to the destruction site.
+
+> Going slower the next time doesn't solve the problem that the holes
+> threaten to form a causal loop if they cross each other.
+
+If each side decelerates with respect to the co-moving frame then the
+threat of new causal loop forming is reduced.  Travelling more slowly
+means that you can trail out holes more densely behind you this time. 
+When you lose your lead hole you can do a binary chop on the search
+volume and repeat the procedure.
+
+> And going slower takes up empire time.
+
+But you'd have this disadvantage at a quasar as well.  Empire time for
+a stationary hole, at the quasar, is the same as co-moving time.  First
+hole to get to the quasar has to kill time until the second one shows
+up, which since you don't know the trip time of the second hole to the
+quasar, could be *millions* of years in empire time.....  
+
+Searching for each other by firing test holes at each other and binary
+chopping the resultant search volume going is going to be a lot quicker,
+in empire time, than hanging about waiting for contact.  You would trade
+off dropping off of slower marker holes with the time-dilated probing
+of the relativistic test holes.
+
+> Imagine that we sent out holes as soon as we were able and they
+> collided 25 empire years later.  Would we *want* to try hard to meet
+> up with the aliens soon after that?
+
+I agree that it would be best to postpone contact until we'd plateaued
+out.  By definition this would not be until some time after we're
+capable of sending out hole to explore the universe.  Sounds like one
+of those hard problems.  Without central control how could such
+restraint be exercised?  In a free-market lead economy there'd always
+be some (witness SETI, Pioneer-10 and the Voyager probes) who would make
+contact as soon as possible and hang the consequences.  With Tipler
+space probes we were insulated against the effects meeting superior
+aliens by the trip travel times.  With holes they can get at us too
+easily for comfort.
+
+Once we've plateaued out then holes could be rigged against seizure
+without to much trouble.  I'm worried about the period before that.
+
+> Brash civilizations that choose to meet up as soon as they are able
+> might be easy prey for those that wait until their abilities have
+> reached more of a plateau.
+
+The meek shall inherit the universe?  :-) & :-(
+
+> Robin Hanson
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+------------------------------
+
+Date: Thu, 15 Apr 93 07:07:47 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: FTL: traversable wormholes
+
+> Hal Finney writes:
+>> It seems like something similar would happen with the wormholes as
+>> they got into causal loops. [...]  An infinite flux would appear 
+>> just as it became paradoxical.
+> 
+> But isn't there a logical problem here? Aren't you supposing a
+> mechanism that prevents temporal loops that actually relies on
+> temporal loops to work?
+
+> Elias Israel
+
+I'll stick my neck out and guess that the mechanisms that prevent time
+travel come into play just before it becomes possible for a ray of light
+to form a closed time-like loop (CTL) through the putative time machine. 
+The operation of a time machine represents a singular solution.  The
+quantum fluctuation effects of vacuum polarisation screen these acausal
+infinities from us and only permit finite, causal solutions.
+
+Virtual particles (they appear on Feynman diagrams as exchange
+particles) can exert an influence between points that are space-like
+separated (ie points in space time that cannot be connected by a ray of
+light).  It doesn't seem unreasonable to me to suppose that these
+critters can start having an effect just *before* the time machine
+permits non-virtual CTLs.
+
+In the case of a Tipler neutronium cylinder, for example, to turn it
+into a time machine a certain angular momentum has to be built up.  Just
+before the critical angular momentum is reached the vacuum polarises
+around the cylinder.  Virtual particles fly around cylinder, forming
+closed space-like loops.  The angular momentum of these particles oppose
+the angular momentum of the neutronium.  So you'd have to spin the
+cylinder faster....  An analogy might be with back EMF in motor,
+opposing the applied EMF.  In this case the back EMF effect is so strong
+the motor is overwhelmed and never reaches critical.
+
+I suspect that this opposing effect is generic to all time machines. 
+Any attempt to construct a time machine will be confounded by space-like
+vacuum polarisation effects.
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+------------------------------
+
+Date: Sun, 18 Apr 93 15:36:04 -0600
+From: zane@genesis.mcs.com (Sameer)
+Subject: Address of major telecom decision makers (AT&T, etc.)
+
+	If someone has the addresses of these people it would be a very
+good idea to post these addresses (addresses of the NIST, Denning, etc.
+folk would be good as well.. I don't know those but those are probably
+more well-known than head-AT&T folk) here so that we can inundate them
+with mail and use these addresses in the full-page ads we buy in the
+newspapers. 
+
+--
+| Sameer Parekh-zane@genesis.MCS.COM-PFA related mail to pfa@genesis.MCS.COM |
+| Apprentice Philosopher, Writer, Physicist, Healer, Programmer, Lover, more |
+| "Be God" - Me __ "Specialization is for Insects" - Robert A. Heinlein ____/
+ \_____________/  \____________________________________________________/ 
+
+------------------------------
+
+Date: Sun, 18 Apr 93 17:52:33 -0600
+From: zane@genesis.mcs.com (Sameer)
+Subject: CLIP: Sample/Draft letter to the editor
+
+	I wrote up a letter to the editor on the issue, which I will send
+to the local newspapers and the major newspapers. I'd like comments, and
+criticisms so that I may make the letter more effective.
+	I also plan on writing an article in my newsletter _The Free
+Journal_ on this big brother plan. (I plan on including excerpts from
+_From Crossbows to Cryptography_ in this "Crypto" issue as well.)
+
+Editor:
+
+	The Clinton administration on Friday unveiled their plan for
+establishing a standard data encryption system for voice communications.
+This plan is abhorrent and reeks of Big Brother.
+	President Clinton says that he wants to bring the United States
+into the twenty-first century. This proposal is bringing us to 1984.
+First I will mention technical reasons why the system is inadequate.
+	The encryption algorithim is classified. Only a select group of
+people will be allowed to examine the algorithim for flaws. The members
+of the cryptographic community emphasize that the only way to make sure
+that a cryptographic system is secure is to have as many people as
+possible analyze and try to break it for as long as possible. A system
+which has been examined by a small segment of the population will not be
+trusted to be secure.
+	The key used in this algorithim is very small-- it is easily
+attacked by brute-force. The encryption key is only eighty bits long.
+Such a small key lends itself to easy decryption by an unauthorized
+party. It would lend a false sense of security to laypersons in the
+field who do not realize that a key of such simplicity could be cracked
+easily by any talented criminal.
+	Apart from the technical flaws in the system, there are many
+political problems with the recent big brother proposal. First, there is
+the assumption that the government has a right to spy on its own
+citizens. The proposal for this wiretap chip includes the registration
+of keys with two escrow agencies.  This is purported to allow law
+enforcement to keep track of "terrorists" and "drug-dealers." The first
+flaw in this key-escrow system is that no self-respecting criminal will
+use a cryptography system which can be easily tapped by law enforcement
+officials-- they will use strong cryptography. Thus the only people who
+may end up using the wiretap encryption system will be law-abiding
+laypeople who don't fully understand cryptography. (Law-abiding citizens
+who do understand cryptography will use strong cryptography to preserve
+their privacy from a talented criminal.) 
+	The proposal says that in order to obtain the key of a wiretap
+chip user a law enforcement agency must first establish that they have a
+valid interest in the key. Translated out of legalese, that means that
+all a government agency will have to do to get access to all of the
+private communications between, for example, a lawyer and her client
+will be to fill out the necessary forms. Registering cryptographic keys
+with the government is similar to giving the IRS the keys to your house
+and filing cabinet.
+	The chip is being manufactured exclusively by one company. The
+release stated that the Attorney shall request (i.e. coerce)
+telecommunication product manufacturers to use this product.  This
+aspect of the system is a government-mandated monopoly. Such monopolies
+result in high prices and the elimination of market forces which drive
+the improvement of technology. (One needs only look at the state of the
+Soviet Union to see how the lack of market forces affects consumer
+technology.)
+	What is feared the most from the proposal is that if the wiretap
+chip becomes the standard, strong cryptography will be declared illegal.
+If such is the case, then only criminals will have access to strong
+cryptography. As I have stated above-- the wiretap chip will not be used
+by criminals because of the obvious flaws in the crypto-system--
+criminals will use strong crypto, while law-abiding citizens will have
+to use a system which can be easily defeated by any criminal.
+	Strong cryptography already exists for data communications, for
+-free-. Strong cryptography for voice communications for -free- is only
+a few months away for people who own a personal computer. There is no
+way that making strong cryptography illegal will stop it-- it will only
+turn otherwise law-abiding citizens into criminals.
+
+
+			Sincerely,
+
+			Sameer Parekh
+
+
+
+
+
+--
+| Sameer Parekh-zane@genesis.MCS.COM-PFA related mail to pfa@genesis.MCS.COM |
+| Apprentice Philosopher, Writer, Physicist, Healer, Programmer, Lover, more |
+| "Be God" - Me __ "Specialization is for Insects" - Robert A. Heinlein ____/
+ \_____________/  \____________________________________________________/ 
+
+
+
+------------------------------
+
+Date: Sun, 18 Apr 93 23:15:50 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: FTL: traversable wormholes
+
+Edgar Swank says:
+
+> I'm surprised to hear that the chances of FTL are theoretically
+> improved at the same time that those for time travel are disimproved.
+
+I share your surprise.  When I first came across the Chronology
+Protection Conjecture I dismissed it as fanciful, wishful thinking. 
+Having reconciled time travel with physics, to my satisfaction, I
+thought CPC was just a mental defence mechanism for the irreconciled.
+
+> I seem to recall hearing that, according to relativity(?), FTL travel
+> is -equivalent- to time travel; if you can do either you can do both.
+
+You recall correctly, relativity does imply the equivalence of FTL and
+time travel.  Visser has overturned this relativistic equivalence by
+including quantum field theory in his calculations.  Visser provides
+evidence that:
+      relativity ==> (FTL <==> time travel)
+but that
+      quantum field theory ==> (FTL =/=> time travel)
+Quantum field theory includes relativity and so its conclusions
+supersede those of classical relativity.
+
+However, time travel ==> FTL, as far as I know.  Not that that implies
+time travel (or FTL) is possible.  Just that FTL travel is more likely
+than time travel.
+
+Visser says that the prospects for FTL look brighter as time travel has
+faded.  This is because he belongs to the camp that rejects time travel. 
+If FTL implied time travel then he would conclude that FTL is
+impossible.  Can't agree with his motivation but his conclusions seem
+unimpeachable - its been published in reputable journal and no one's
+rubbished it yet.
+
+Also, my thanks to Tim May for the Cosmic Wormholes reference.  I've not
+got hold of a copy yet, but I shall carry on looking.
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+------------------------------
+
+Date: 18 Apr 1993 20:58:06 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: CLIP: Sample/Draft letter to the editor
+
+Excellent letter, Sameer.
+Krzys'
+
+------------------------------
+
+Date: Sun, 18 Apr 93 18:09:09 -0700
+From: cappello%cs@hub.ucsb.edu (Peter Cappello)
+Subject: Forward:  AT&T Press Release on Clipper
+
+Begin forwarded message:
+... 
+
+>  AT&T TO INCORPORATE NEW 'CLIPPER' CHIP INTO SECURE COMMUNICATIONS
+> PRODUCT LINE
+
+...
+
+>    AT&T will use the Clipper chip, announced today by President  
+>Clinton as a new technology for voice  encryption,  in all of its  
+>secure telephone products except those specially designed for  
+>government classified customers. 
+
+
+So much for the naive hope that the government would render its own  
+communications insecure by this technology.
+
+Might this fact be used to discredit the claims that the chip  
+provides protection?
+
+-Pete
+cappello@cs.ucsb.edu
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 23:13:19 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Forward:  AT&T Press Release on Clipper
+
+a conscious being, Peter Cappello wrote:
+
+> >    AT&T will use the Clipper chip, announced today by President  
+> >Clinton as a new technology for voice  encryption,  in all of its  
+> >secure telephone products except those specially designed for  
+> >government classified customers. 
+> 
+> 
+> So much for the naive hope that the government would render its own  
+> communications insecure by this technology.
+> 
+> Might this fact be used to discredit the claims that the chip  
+> provides protection?
+> 
+> -Pete
+
+Probally but they will claim:
+				1) Special needs
+				2) Mil grade vs. commerical grade
+
+BTW, perhaps we can get strong encryption on the basis of 2nd ammendment
+since the government considers it to be a munition.
+
+/harry
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 22:49:38 -0700
+From: D Anton Sherwood <dasher@well.sf.ca.us>
+Subject: barter
+
+Ray(?) said:
+>   2) barterable goods are too bulky to carry around
+
+and Stanton McCandlish <the fake anton> replied
+> Who says I will carry them around all the time? I don't go that many
+> places physically anyway.  I engage in bartering all the time.  I like it.
+
+> It works.
+
+Libertarians have no desire to stop you (a fact which seems to escape
+money-bashers).  If your life-style is such that you never go shopping
+without knowing exactly what you plan to buy, fine.  If everyone with whom
+you trade is willing to accept your widgets, fine, but it would be hard for
+me to trade five minutes' typing directly for three pounds of oranges.
+
+> Granted I cannot pay my gas bill that way, but that is a fault of the
+> monetary system, not the barter system.
+
+Huh?  You can do something with money that you can't do with barter, and
+that's a failure of money?
+
+It may be a failure of statism.  If not for the legal monopoly on methane,
+there might emerge a competing gas company that takes payment in your
+widgets. 
+
+the real
+Anton Sherwood                                   dasher@well.sf.ca.us
++1 415 267 0685          1800 Market St #207, San Francisco 94102 USA
+"Don't forget, your mind only *simulates* logic."  -- Glen C. Perkins
+
+------------------------------
+
+Date: Mon, 19 Apr 93 1:45:47 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: IMPORTANT!
+
+>   The scheme is based on Public-key encryption technology. Public Key
+> encryption allows one to publish a key so other people can send secret
+
+Yes, yes, I know all that.  I already agreed with you that secure electron-
+ic money would be nice.  My point was that it is not going to go unopposed.
+The corps., the banks, and the govt. have a vested interest in keeping track
+of people by monitoring financial transactions.  Incidentally they also have
+more money than anyone else, and consequently more power, to do away with
+things they don't like, i.e. secure e-money.  Am I being to much of a realist?
+Even a pessimist?
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Mon, 19 Apr 93 00:12:27 PDT
+From: hkhenson@cup.portal.com
+Subject: Fighting the Wiretap Chip Plan
+
+When this "Clipper chip" story broke, I was off on an extropian (if 
+not cypherpunk) activity--helping freeze Alcor's 27 patient (another 
+HIV+ case.)  
+
+I doubt I am the strongest hardware person on these groups, but nobody 
+else has commented on this aspect.  You just *can't* make chips 
+entirely resistant to reverse engineering.  I know, I have spent close 
+to 10% of my engineering career reverse engineering things.  Given 
+time and a few samples, *any* chip can be reverse engineered.  This is 
+especially true with tools such as SEM stimulator/state readers and 
+Focused Ion Beam chip slicers and dicers widely available.  *Somebody* 
+will dig out every gate in their spare time.  Thus the following 
+statement looks very odd: 
+
+>Q:   How strong is the security in the device?  How can I be sure
+>     how strong the security is?
+>
+>A:   This system is more secure than many other voice encryption
+>     systems readily available today.  While the algorithm will
+>     remain classified to protect the security of the key escrow
+>     system,
+
+Say what?  Does this mean that if somebody slices up a chip and 
+publishes the algorithm the "security of the key escrow system" is 
+broken?  Can a representative of the government say why, or if, this 
+is the case?  If it is not the case, why not publish the algorithm and 
+be done with it?  Because, soon as the chip can be bought over the 
+counter or stolen, the algorithm will be deduced.
+
+>             we are willing to invite an independent panel of
+>     cryptography experts to evaluate the algorithm to assure all
+>     potential users that there are no unrecognized
+>     vulnerabilities.
+
+Well, unless the "independent panel" includes people who can follow 
+the algorithm all the way through to silicon, I would not trust their 
+report even if I trusted the experts, and that goes double for the 
+next set of masks. 
+
+Keith Henson
+
+------------------------------
+
+Date: Fri, 16 Apr 93 14:21:26 GMT
+From: Philip Tung Yep <phil@dingo.demon.co.uk>
+Subject: META/HUMOR: Bring back Klaus! (was Apologies and Begging for Forgiveness)
+
+In message <9304100037.AA13562@churchy.gnu.ai.mit.edu> Carol writes:
+> I disagree with those who appreciate Mr. May's
+> humor.  I think it is very immature and a time
+
+>[...]
+
+> by e-mail.  However, more timid individuals
+> will be reluctant to offer opinions and information
+> on any topic Mr. May consider "extropianly-incorrect"
+> because of fear of his ridicule.
+   
+Odd.  I'd always considered Tim one of the least EC posters on the list.
+Just a general question to whomsoever wants to reply (email please - I'll
+tally and report back) - Do you believe Tim's humour is too savage and 
+possibly newbie-hostile?
+
+It may be a cultural difference but I'd always considered it rather mild
+compared to the flames that regularly afflict the list.
+
+> I consider Mr. May's behavior towards some of us
+> to be bullying and unnecessary.
+> 
+
+> Carol Moore
+> 
+> <cmoore@cap.gwu.edu>
+> 
+Philip
+
+--
+Philip Tung Yep                           |
+phil@dingo.demon.co.uk                    |
+Dead Dingo Data Systems                   |
+"Zoonecromantic Processors for the Masses"|
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 06:54:09 -0400
+From: Rens Troost <rens@stimpys.IMSI.COM>
+Subject: "Big Brother" Proposal
+
+Hi-
+
+I think someone should post to this list  a list of govt. email
+addresses we can saturate with complaints. Not in the hopes that they
+will listen, but maybe if their spool overflows with complaints
+they'll remember about the "by the people, for the people" thing
+(not). 
+
+-Rens
+
+
+------------------------------
+
+Date: Mon, 19 Apr 93 5:23:06 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: META/HUMOR: Bring back Klaus! (was Apologies and Begging for Forgiveness)
+
+> Just a general question to whomsoever wants to reply (email please - I'll
+> tally and report back) - Do you believe Tim's humour is too savage and 
+> possibly newbie-hostile?
+
+Well, I am unconcerned with the opinions of one poster.  But 2 things I have
+noted here tend to disturb me.  No make that 3.
+
+1) the "Extropianly Correct" silliness that was just lambasted, which mani-
+fests not just in hostility to newbies, but in a lot of general flammage.
+Those with this viewpoint would do well to take into consideration that 
+simply because a person is new to this list does NOT mean they are new
+to Extropy, and further more not all extropians are Extropians, just as
+not all libertarians are members of the Libertarian party.  Many of us are
+interested in specific issues, that incidentally are much discussed on this
+list, and are not interested in others.  We may become interested in an issue,
+say time travel, by encountering it's mention here.  Condescending to such 
+people because they are genuinely curious about an issue, and telling them
+"RTFM" is not only generally dishelpful, but counterproductive.  Elitism
+may have its uses, but swelling the ranks of the extropians is not one of 
+them.  And lastly on this subject, many of us have an extreme aversion to 
+"-isms" of any sort, including this one.  I have often felt somewhat put-upon
+to "be Extropian", when I literally cannot.  I am an individual, period.
+
+2) I have also noted a certain haughty disdain for things that one does not
+choose to put any faith in.  Rather than serious discussion, the reaction 
+tends to be "oh you are just a clueless clod who does not possess the 
+Extropian Nature", etc.  Certainly everyone has pet theories, but that is
+no reason to be illogical about it.  Granted I exaggerate, and no one really
+puts it quite that bluntly, but it is oozing out from between the lines in
+several messages I have seen on the list so far.  Certainly no one here wants
+their mail box full of "I think Velikovsky was right!", much less "what does
+'public key' mean?"  But reasonable debates, and short simple answers to ba-
+sic questions, are not so hard to muster are they?  As for an example of 
+haughtiness, I point you to the post that, in essence, told the recipient "Ah,
+now you have learned to think.  Go read some Aristotle."  I don't think I have
+ever heard such conceit in all my life, unless that was meant jokingly.
+
+3) A smaller gripe, and one I have with a lot of intellectual-oriented con-
+ferences: Why be so quick to correct every typo and questionable statement?
+My mailbox overfloweth with people correcting eachother on points of no
+consequence.  If the matter is important, then go for it.  But is letting 
+things slide Extropianly Incorrect?  I don't mind being corrected if it is an
+provable mistake, but I see no point in mailing, either to the list or in
+private, "corrections" that are just as much a matter of conjecture, opinion,
+or questionable source as the original post.
+
+That's all.  Besides those 3 points, I like this list, and am glad I am
+receiving it.  I was criticized, rightly, for overposting, and apologize for
+that, but I do intend to be here for a while and to contribute what I can.
+Thanks. 
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Mon, 19 Apr 93 09:23:19 EDT
+From: eisrael@suneast.East.Sun.COM (Elias Israel - SunSelect Engineering)
+Subject: Big Brother: Easy to Break
+
+Cal Feynman writes:
+>I was talking about the 56-bit keys used for DES.  80 bits is long
+>enough to preclude reasonable solution times for simple exhausive
+>search.  Here's how I estimate this.  Assume that a Clipper uses an
+>eight-byte block, and can handle 16Kbytes/sec.  That means a single
+>chip decryption engine can test 2000 keys/sec.  If Clipper costs $10,
+>and the NSA spends $10^8 on an exhausive cracking machine, they can
+>test 2x10^11 keys/sec.  Unfortunately, testing all 2^80=10^24 keys
+>will take 5x10^12 sec, which is hundreds of years.  
+
+OK, but suppose that they split the keys up as follows. Give half to
+some agency or organization that is generally trusted by the public
+(you could even go so far as to give them to the ACLU) and then give
+the other have to someone more pliable (say, Justice, FBI, or NSA).
+
+If you can only get half of the 80-bit key, you're left with a 40-bit
+key that you have to crack, no? Is there a way to arrange this so that
+having half of the key does not open the encrypted text to brute-force
+attack? I appears to me to be an integral part of this plan. Else, why
+bother with this 40+40=80-bit key escrow nonsense? The numbers can't
+be accidental.
+
+I don't know much about crypto, but the more I learn and the more I
+think about the clipper, the more this big brother proposal seems
+like a film of lies.
+
+Elias Israel
+eisrael@east.sun.com
+
+------------------------------
+
+Date: 19 Apr 1993 09:40:39 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: barter
+
+In view of Stanton's comments about money, I suggest that Stanton reads 
+at least the first chapter of "Money Mischief", the recent book of
+Milton Friedman. The banks are able to engage in "reserve banking"
+(which Murray Rothbard considers a fraud in "What has the government 
+done to our money") only because of the existence of the Federal Reserve
+System. Banks are not banks in the U.S., which is typical of socialist
+institution (e.g., communists used to say that in Poland under their
+rule, when I lived there, there was socialist democracy, so there was
+no need for opposition parties) -- they are the opposite of what they
+call themselves. Mutual funds, on the other hand, are banks, using
+the standard definition.
+Krzys'
+
+------------------------------
+
+Date: 19 Apr 1993 09:49:30 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: IMPORTANT!
+
+Stanton says:
+"The corps., the banks, and the govt. have a vested interest in keeping track
+of people by monitoring financial transactions.  Incidentally they also have
+more money than anyone else, and consequently more power, to do away with
+things they don't like, i.e. secure e-money.  Am I being to much of a realist?
+Even a pessimist?"
+
+You are definitely unjustifiedly unfair to businesses. Only corporations
+with ties to the government are interested in preserving the status quo.
+Other will compete. The idea stated here is that the commodity on which 
+money is based (be it even Federal Reserve notes) need not change hands
+(read first chapter of Milton Friedman's book), everything can be done
+in book entries. There are banks in Vanatu, Hungary, Estonia, etc., which
+eventually will gladly accept the business. Or Ukraine may became the
+safe haven, as they possess nuclear weapons. All they need is a good
+vault for the gold or stock certificates or other commodity, and
+serious communications/computer capacity.
+This was not possible before because your street corner merchant could\
+not communicate with that Estonian bank. 
+Of course a solid world government with solid enforcement can take
+care of it by killing all suspects (but I still have some hope for the
+Ukrainian nuclear weapons).
+Krzys'
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 09:14:34 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: Meta: explaining !FIDO (Was: HUMOR: Libertarian Party doomed)
+
+In <9304170917.AA09604@albert.gnu.ai.mit.edu>, Stanton McCandlish writes:
+|> >     / ** FIDONET DISTRIBUTION FORBIDDEN **
+|> 
+|> ???????  What is this?  Why?  I do not understand the purpose of that line.
+
+As owner of the words I post, I request that they not be forwarded to
+Fidonet, because of their stupid policy against encrypted mail.  The
+"moderator" of a local Usenet-newsgroup-to-Fido-echo jumped on me for
+sending out a message in ROT-13, which is the Usenet convention for
+"this may offend some people, don't rotate it if you don't want to see
+it".
+
+So, I don't use Fidonet. He also did not respond to my demand for
+information on what other undisclosed conditions he thought I was
+subject to.
+
+Fidonet is also offensive by reason of widespread cluelessness, but
+that's for another rant on another day.
+
+If any followup is needed, please take it to email.
+
+-- Freeman Craig Presson
+cpresson@ingr.com
+72430.1422@compuserve.com
+** DISTRIBUTION ON FIDONET NOT ALLOWED **
+Today is the anniversary of -- 
+4/19/1775, American Revolutionary War began.
+4/19/1933, The US ended the gold standard for the dollar.
+
+
+
+
+
+
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0204
+****************************************
+

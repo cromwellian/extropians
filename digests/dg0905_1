@@ -1,0 +1,500 @@
+From extropians-request@extropy.org Mon Sep  5 15:01:10 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id PAA20363 for <more@chaph.usc.edu>; Mon, 5 Sep 1994 15:01:03 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA03118; Mon, 5 Sep 94 15:00:50 PDT
+Received: by news.panix.com id AA05803
+  (5.65c/IDA-1.4.4 for more@usc.edu); Mon, 5 Sep 1994 18:00:44 -0400
+Date: Mon, 5 Sep 1994 18:00:44 -0400
+Message-Id: <199409052200.AA05803@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-9-27 - #94-9-34
+X-Extropian-Date: September 5, 374 P.N.O. [18:00:28 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Mon, 5 Sep 94             Volume 94 : Issue 247
+
+Today's Topics:
+              Cognitive Dissonance: a computational explanation       [5 msgs]
+                       Extropians List Statistics 8/28                [1 msgs]
+                   FAQ: version 0.09 is out on the streets            [1 msgs]
+                              Political language                      [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 27132 bytes.
+
+----------------------------------------------------------------------
+
+From: extropians-request@extropy.org (Extropians Mailing List)
+Date: 
+Subject: [#94-9-27] Extropians List Statistics 8/28
+
+Weekly List Statistics for 8/28 to 9/3
+
+Total Number of Messages Posted: 76
+Total Size of Messages Posted  : 189018 bytes
+Average Total Size per Day     : 27002 bytes
+Average # of Messages per Day  : 10
+Average Message Size           : 2487 bytes
+Number of Posters Participating: 33
+
+
+
+Top Ten Posters by Frequency
+
+1. jhdaugh@a-albionic.com (13 total, 1.9/day, 17.1% of total)
+2. fcp@nuance.com (8 total, 1.1/day, 10.5% of total)
+3. habs@sun.panix.com (7 total, 1.0/day, 9.2% of total)
+4. davisd@u.washington.edu (3 total, 0.4/day, 3.9% of total)
+5. tburns@mason1.gmu.edu (3 total, 0.4/day, 3.9% of total)
+6. dasher@netcom.com (3 total, 0.4/day, 3.9% of total)
+7. freeman@netcom.com (3 total, 0.4/day, 3.9% of total)
+8. mpeel@ccs.carleton.ca (3 total, 0.4/day, 3.9% of total)
+9. thomas.knox@index.com (3 total, 0.4/day, 3.9% of total)
+10. pcm@world.std.com (2 total, 0.3/day, 2.6% of total)
+
+
+
+Top Ten Posters by Volume
+
+1. jhdaugh@a-albionic.com (54.3kbytes, 7947 bytes/day, 29.4% of total)
+2. fcp@nuance.com (21.3kbytes, 3117 bytes/day, 11.5% of total)
+3. habs@sun.panix.com (9.7kbytes, 1422 bytes/day, 5.3% of total)
+4. dasher@netcom.com (8.4kbytes, 1225 bytes/day, 4.5% of total)
+5. dkrieger@netcom.com (6.9kbytes, 1011 bytes/day, 3.7% of total)
+6. davisd@u.washington.edu (6.3kbytes, 916 bytes/day, 3.4% of total)
+7. mpeel@ccs.carleton.ca (5.3kbytes, 782 bytes/day, 2.9% of total)
+8. betsys@cs.umb.edu (5.3kbytes, 782 bytes/day, 2.9% of total)
+9. safier@unm.edu (5.0kbytes, 734 bytes/day, 2.7% of total)
+10. pcm@world.std.com (4.6kbytes, 667 bytes/day, 2.5% of total)
+
+
+
+
+Histogram of the week by number of messages
+
+       +---+
+Sun    |3  |
+       +---+
+       +--------+
+Mon    |8       |
+       +--------+
+       +------------------+
+Tue    |18                |
+       +------------------+
+       +---------------------+
+Wed    |21                   |
+       +---------------------+
+       +-------+
+Thu    |7      |
+       +-------+
+       +----------+
+Fri    |10        |
+       +----------+
+       +---------+
+Sat    |9        |
+       +---------+
+
+
+
+
+Histogram of the week by daily volume
+
+       +--+
+Sun    |  |8396
+       +--+
+       +----+
+Mon    |    |20397
+       +----+
+       +--------+
+Tue    |        |33682
+       +--------+
+       +--------------+
+Wed    |              |59550
+       +--------------+
+       +----+
+Thu    |    |18307
+       +----+
+       +----+
+Fri    |    |17414
+       +----+
+       +-------+
+Sat    |       |31272
+       +-------+
+
+------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Sat, 3 Sep 1994 20:30:19 -0700 (PDT)
+Subject: [#94-9-28] Cognitive Dissonance: a computational explanation
+
+Akerlof and Dickens[1] explain cognitive dissonance as follows:
+
+"First, persons not only have preferences over states of the world, 
+but also over their beliefs about states of the world.  Second,
+persons have some control over their beliefs; not only are people
+able to exercise some choice about belief given available information,
+they can also manipulate their own beliefs by selecting sources of
+information likely to confirm 'desired' beliefs.  Third, it is
+of practical importance for the appreciation of our theory that beliefs
+once chosen persist over time."
+
+I'd like to suggest that, like all other "preference", these
+"preferences" about beliefs are based on beliefs, and the
+costs and benefits of achieving and using those beliefs.
+Indeed, "preference about beliefs" is tautological and useless.
+Instead, I would explain as follows: the logical depth[2] 
+(computational cost) between old beliefs and new beliefs
+via the new information, is higher than the expected value
+of the new information.
+
+This would explain most phenomenon normally explained by
+"cognitive dissonance", including:
+* Resistance to new information that contradicts prevailing beliefs:
+first, the value of the beliefs might remain for other circumstances
+even though they contradict information in this circumstance, and
+second, there can be a large computational cost to reexamining the
+origin and consequences of beliefs in order to resolve the conflict.
+* Different people interpret the same information differently:
+they start with different beliefs and thus different costs of
+absorbing information.  Certain classes of information are absorbed
+much more readily by people with certain kinds of beliefs, and
+this varies widely between different kinds of information.  There
+is no belief set which is optimal for absorbing all kinds of
+new information.
+* Persons who justify to themselves some difficult undertaking
+often have a strong and persistant belief that the undertaking
+is a good one: this will be true in situations where the cost
+of reaching or changing that belief is high (in terms of
+cost of absorbing new information).
+
+For how these conclusions might be formalized and [dis]proven, 
+see [2].
+
+[1] Akerlof and Dickens (1982), "The Economic Costs of Cognitive
+Dissonance", American Economic Review, v72, 307-19
+[2] Li and Vitanyi (1993), _An Introduction to Kolmogorov Complexity and 
+Its Applications_.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+From: Eric Watt Forste <arkuat@netcom.com>
+Date: Sun, 04 Sep 94 02:48:11 -0700
+Subject: [#94-9-29] FAQ: version 0.09 is out on the streets
+
+I've made the new version available via FTP and WWW, as usual, and I have also
+posted it to exi-essay@gnu.ai.mit.edu. As soon as I get back the results of my
+"::help nosend" command (tomorrow morning, probably), I will ::nosend it to 
+the main list, and post a few more details (such as how you can get it from 
+the main list if you don't have access to the above three resources, and a 
+brief list of *just* the questions without the extensive answers).
+
+	In the meantime:
+
+	ftp://ftp.netcom.com/pub/arkuat/exifaq.txt
+
+	http://www.c2.org/~arkuat/extropy.html
+
+I'll be freezing the content for some time while I work on transforming the
+current flat-text into hypertext.
+
+Eric Watt Forste || finger arkuat@c2.org || http://www.c2.org/~arkuat
+
+
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Sun, 4 Sep 1994 16:30:37 -0700
+Subject: [#94-9-30] Cognitive Dissonance: a computational explanation
+
+Nick Szabo writes:
+>I would explain [cognitive dissonance] :as follows: the logical
+>depth[2] (computational cost) between old beliefs and new beliefs via
+>the new information, is higher than the expected value of the new
+>information.
+
+We of course often don't open info-full junk mail because of just such
+an expectation that the value of the info will be less than the
+computational cost.
+
+>* Resistance to new information that contradicts prevailing beliefs:
+>first, the value of the beliefs might remain for other circumstances
+>even though they contradict information in this circumstance, and
+>second, there can be a large computational cost to reexamining the
+>origin and consequences of beliefs in order to resolve the conflict.
+
+The choice isn't just between ignoring the new info vs. accepting it
+and erasing all trace of any conflicting beliefs.  One can also accept
+a certain level of contradictory beliefs, or one can reduce the
+context of application for the conflicting beliefs until they no
+longer conflict.  But these inconsistent or more complex beliefs can
+be harder to deal with.  The phenomena of cognitive dissonance tells
+us something about the computational value of simple consistent
+beliefs, and so may tell us something about the computational
+strategies used in human thought.
+
+But computational cost need not be the full explanation for human
+resistance to new info.  I can also see evolutionary advantage to
+humans who are reluctant to contradict social consensus. 
+
+Robin Hanson
+
+------------------------------
+
+From: sdw@lig.net (Stephen D. Williams)
+Date: Sun, 4 Sep 1994 23:43:33 +0000 (GMT)
+Subject: [#94-9-31] Cognitive Dissonance: a computational explanation
+
+...
+> * Persons who justify to themselves some difficult undertaking
+> often have a strong and persistant belief that the undertaking
+> is a good one: this will be true in situations where the cost
+> of reaching or changing that belief is high (in terms of
+> cost of absorbing new information).
+
+I think of religion as a perfect example of this.  People will tend to
+keep believing because they have invested so much time, energy, money
+in it themselves and through friends, relatives, children, etc.
+
+Not to mention the fact that organized religion can sometimes be the
+only social organizing force in rural areas.
+
+> Nick Szabo				szabo@netcom.com
+
+sdw
+-- 
+Stephen D. Williams  Local Internet Gateway Co.; SDW Systems 513 496-5223APager
+LIG dev./sales       Internet: sdw@lig.net
+OO R&D Source Dist.  By Horse: 2464 Rosina Dr., Miamisburg, OH 45342-6430
+Comm. Consulting     ICBM: 39 34N 85 15W I love it when a plan comes together
+Newbie Notice:                          (Surfer's know the score...)
+     I speak for LIGCo., CCI, myself, and no one else, regardless of
+     where it is convenient to post from or thru.
+
+------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Mon, 5 Sep 1994 00:51:37 -0700 (PDT)
+Subject: [#94-9-32] Political language
+
+F.A. Hayek and others have pointed out how the use of language has 
+so warped our 20th century political dialogue.  (Cf. the
+chapter "Our Poisoned Language" in Hayek's _The Fatal Conceit_).
+A technique that can sometimes dramatically reveals such warped 
+semantics is the substitution of more accurate words in place
+of the vague Orwellianisms typically used in our political
+discourse.
+
+Homework: for the next week, whenever you read or hear
+the words "social" or "public" to refer to things really
+controlled by politicans, make the substitution:
+
+warped semantics			more accurate
+----------------			-------------
+public policy				political policy
+public property				politicians' property
+Public Broadcasting System		Politicians' Broadcasting System
+public university			political university
+social workers				political workers
+social welfare				political welfare
+public financing			tax financing
+
+Using the more accurate language can also make once puzzling phenomenon 
+become obvious: why, for example, "public" schools are so much better 
+at teaching political correctness than practical intellectual life 
+skills.
+
+In many of these cases substituting "bureaucrat" for "politician"
+can be appropriate.  "Involuntary" and "tax" can also shed light on 
+some concepts described as "social" or "public"; this emphasizes the 
+distinction between the coercion inherent in politics and voluntary 
+private relationships, rather than the false cloaking of violent
+political greed with the mantle of "the public good".
+
+Also, politicians love to use words like "benefits", "health care", 
+"welfare", etc. in a context that implies that if they aren't being 
+supplied by politicians, then they aren't really being supplied.
+
+Recasting the debate in the more accurate terms of "political vs. 
+private", instead of "public vs. private", can quickly cut
+through mountains of thick political fog.  
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+From: schooley@new-orleans.neosoft.com (John Schooley)
+Date: Mon, 5 Sep 1994 10:06:00 -0600
+Subject: [#94-9-33] Cognitive Dissonance: a computational explanation
+
+>Robin Hanson>
+>But computational cost need not be the full explanation for human
+>resistance to new info.  I can also see evolutionary advantage to
+>humans who are reluctant to contradict social consensus. 
+
+It would be interesting to consider cognitive dissonance in the context of
+meme dynamics.  This would make it easy to apply evolutionary theory to the
+creation and replication as well as survival mechanisms of the memes. 
+
+>Nick Szabo quotes:
+
+>Akerlof and Dickens[1] explain cognitive dissonance as follows:
+>
+>"First, persons not only have preferences over states of the world, 
+>but also over their beliefs about states of the world.  Second,
+>persons have some control over their beliefs; not only are people
+>able to exercise some choice about belief given available information,
+>they can also manipulate their own beliefs by selecting sources of
+>information likely to confirm 'desired' beliefs.  Third, it is
+>of practical importance for the appreciation of our theory that beliefs
+>once chosen persist over time."
+
+>Nick Szabo goes on to say:
+
+>I'd like to suggest that, like all other "preference", these
+>"preferences" about beliefs are based on beliefs, and the
+>costs and benefits of achieving and using those beliefs.
+>Indeed, "preference about beliefs" is tautological and useless.
+>Instead, I would explain as follows: the logical depth[2] 
+>(computational cost) between old beliefs and new beliefs
+>via the new information, is higher than the expected value
+>of the new information.
+
+Meme theory would suggest that memes (eg belief complexes) spread in the
+population primarily because they are good replicators.  This is not to say
+that a component of their replicability is their usefulness to the
+individual.  Another component is the meme's ability to survive long enough
+in the individual to be able to replicate.  This often implies defensive
+abilities within the meme complex that could make it difficult to dislodge
+by other memes.  A problem with the cost accounting is that it implies an
+independent cost accounter which is itself a meme complex that is
+independent of the belief meme.  It suggests that we have a more free
+access to the ability to change our belief systems than experience
+indicates.
+
+>Nick Szabo>
+>This would explain most phenomenon normally explained by
+>"cognitive dissonance", including:
+>* Resistance to new information that contradicts prevailing beliefs:
+>first, the value of the beliefs might remain for other circumstances
+>even though they contradict information in this circumstance, and
+>second, there can be a large computational cost to reexamining the
+>origin and consequences of beliefs in order to resolve the conflict.
+>
+Again this implies an objective observer cost accountant.  Most religious
+belief system memes for example are extremely well defended.  Witness the
+way they are inserted into the minds of others (especially the young) using
+multiple psychological techniques such as repetition, parental pressure,
+use of reward and punishment techniques, continual reinforcement by rituals
+and community pressure, etc.  Look at the way they are defended when in
+place.  Self referent belief systems generally ploy a faith component that
+well defends against assaults by competing memes especially ones that
+employ reason over faith approaches.  The changing of these memes takes
+much much more than a computational evaluation of the benefits vs. costs of
+the change. 
+
+
+* Different people interpret the same information differently:
+>they start with different beliefs and thus different costs of
+>absorbing information.  Certain classes of information are absorbed
+>much more readily by people with certain kinds of beliefs, and
+>this varies widely between different kinds of information. 
+
+Once a belief system is in place this probably correctly describes a
+operational dynamic.  Those who believe in miracles have less trouble
+believing in this or that miracle.  Persons who believe in scientific
+method  have an easier time accepting the results of this or that research.
+ 
+>There
+>is no belief set which is optimal for absorbing all kinds of
+>new information.
+
+I doubt this is true.  A non-dogmatic open-minded point of view is probably
+very superior in respect to being able to absorb and integrate the widest
+spectrum of new information.  Although narrow points of view may be better
+at absorbing a particular small class of information.
+
+>* Persons who justify to themselves some difficult undertaking
+>often have a strong and persistent belief that the undertaking
+>is a good one: this will be true in situations where the cost
+>of reaching or changing that belief is high (in terms of
+>cost of absorbing new information).
+>
+
+This can only happen when the proposed undertaking is complementary to the 
+meme that is doing the considering.  So far as I can see now this cost
+computing meme that has control over the decision to add new memes or
+replace older ones is not usually present unless it is attached to a belief
+system (metameme) that is complimentary to it.  This meme complex is very
+likely to be present in the types of persons who write about Cognitive
+Dissonance and also in the readers attracted to it.  Ironically this is a
+self fulfilling prophecy exactly like what is described in the theory. 
+Unfortunately this type of person is decidedly not in the human majority
+and most muddle along under the direction of other meme structures.
+
+
+John Schooley   schooley@new-orleans.neosoft.com
+
+
+
+------------------------------
+
+From: schooley@new-orleans.neosoft.com (John Schooley)
+Date: Mon, 5 Sep 1994 10:06:06 -0600
+Subject: [#94-9-34] Cognitive Dissonance: a computational explanation
+
+>...
+>> * Persons who justify to themselves some difficult undertaking
+>> often have a strong and persistant belief that the undertaking
+>> is a good one: this will be true in situations where the cost
+>> of reaching or changing that belief is high (in terms of
+>> cost of absorbing new information).
+>
+>I think of religion as a perfect example of this.  People will tend to
+>keep believing because they have invested so much time, energy, money
+>in it themselves and through friends, relatives, children, etc.
+>
+>Not to mention the fact that organized religion can sometimes be the
+>only social organizing force in rural areas.
+>
+>> Nick Szabo                            szabo@netcom.com
+
+The major thing that is invested is a large portion of the individuals ego
+structure.  In a very real (litteral) way we are what we believe on a deep
+(especially religious) level.  The other investments you speak of are a
+strengthening result of this.
+
+John Schooley   schooley@new-orleans.neosoft.com
+
+
+
+------------------------------
+
+End of Extropians Digest V94 #247
+*********************************
+

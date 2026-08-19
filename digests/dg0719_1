@@ -1,0 +1,685 @@
+From extropians-request@extropy.org Tue Jul 19 05:02:17 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id FAA20613 for <more@chaph.usc.edu>; Tue, 19 Jul 1994 05:02:15 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA21247; Tue, 19 Jul 94 03:02:16 PDT
+Received: by news.panix.com id AA16648
+  (5.65c/IDA-1.4.4 for more@usc.edu); Tue, 19 Jul 1994 06:02:11 -0400
+Date: Tue, 19 Jul 1994 06:02:11 -0400
+Message-Id: <199407191002.AA16648@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-7-136 - #94-7-147
+X-Extropian-Date: July 19, 374 P.N.O. [06:01:28 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Tue, 19 Jul 94             Volume 94 : Issue 199
+
+Today's Topics:
+                    A-albionic Research Up-date of 7-17-94            [1 msgs]
+                         BOOK: The Collapse of Chaos                  [1 msgs]
+                     Did anyone else miss some messages?              [1 msgs]
+                              emergence defined                       [2 msgs]
+                        Extropians List Statistics 7/7                [1 msgs]
+                         If Knowledge Limits Learning                 [1 msgs]
+                        If Knowledge Limits Learning                  [3 msgs]
+       If Knowledge Limits Learning (was: AI development acceleration)[1 msgs]
+                         INFO: wfs-talk mailing list                  [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 32210 bytes.
+
+----------------------------------------------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Fri, 15 Jul 1994 10:44:02 -0400
+Subject: [#94-7-136] emergence defined
+
+ derek@cs.wisc.edu  (Derek Zahn) writes in X-Message-Number: #94-7-129:
+>Mm.  So, are chess endgames of this kind emergent or not?  It seems you
+>want to say not, since we can look up the answer in some hypothetical
+>data structure enumerating the possibilities, a process that is faster
+>than "simulation" by searching the game tree (and since I asked you
+>for a non-emergent phenomenon).  But what about chess starting from
+>move 1?  Just a bigger "book of chess endings", right? Can't I build
+>a book like that for weather too?  And for neural nets?
+
+ A book of chess endings is not a full-fledged lookup table. It is a
+set of rules reflecting our knowledge of how chess works, enabling us
+to classify an unmanageably large number of possible positions into
+a small enough set that a human can handle them.
+ I would be very surprised if you could do the same for weather or
+chess from move 1 in the forseeable future.
+-----------------------------------------------------------
+Peter McCluskey | pcm@world.std.com | Repeal Gresham's Law!
+-----------------------------------------------------------
+
+------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Fri, 15 Jul 94 15:40:37 GMT
+Subject: [#94-7-137] If Knowledge Limits Learning (was: AI development acceleration)
+
+Robin Hanson:
+> Now if Lenat is right that one can just drop the spatial stuff and 
+> make do with a much smaller computer than a full "human-equivalent"
+> computer, maybe we will have enough hardware to run such a Tabla Rasa
+> simulation before we could even run an upload at normal human speed.
+
+My guess is that Lenat is wrong in a number of ways.  First I don't
+think you can run some human-logic/language equivalent on a greatly
+reduced hardware platform.  Second I think his EURISKO/CYC approach is
+a dead end.  I do not believe that intelligence can be reduced to
+symbol/logic/language manipulation, in any meaningful way.  Third,
+believing that it is more efficient to load knowledge in, rather than
+develop knowledge acquistion skills, is just putting off the evil day
+when CYC's inability to learn, usefully, becomes painfully obvious.
+
+However that doesn't mean that the converse that Robin presents:
+
+> But if we need near full human equivalence, I would guess we'd have
+> uploads long before any such Tabla Rasa is feasible [.....]
+
+is right either.  My guess is the opposite.  Uploads come quite
+considerably after, in technological terms, the ultra-intelligent
+machines arrive.  Uploads have their own problems.  Like developing the
+neurological interface and a complete understanding of the human brain. 
+This is going to require full-blown nanotech, IMO, and huge information
+processing resources.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Date: Fri, 15 Jul 1994 11:53:19 -0400
+Subject: [#94-7-138] INFO: wfs-talk mailing list
+
+   Finally, the World Future Society mailing list, WFS-TALK, is up and
+running.
+
+    The list address is wfs-talk@pandora.sf.ca.us
+
+    The list admin/moderator is Lisa Kimball <lisa@tmn.tmn.com>
+
+Now you have a chance to talk to the 'real' futurists!  ;-)
+(Seriously, I think that the extropians have a good opportunity to introduce
+real futurism into the mundane WFS agenda)
+
+  Meanwhile, I'll post an introductory message on extropians to wfs-talk,
+and share some ideas with the attendees of the WFS conference in Boston next
+week - and then see what hapens.
+
+Sasha.
+
+------------------------------
+
+From: Nefer@aol.com
+Date: Fri, 15 Jul 94 12:01:31 EDT
+Subject: [#94-7-139] If Knowledge Limits Learning 
+
+Mike Price >
+"My guess is that Lenat is wrong in a number of ways.  First I don't
+think you can run some human-logic/language equivalent on a greatly
+reduced hardware platform.  Second I think his EURISKO/CYC approach is
+a dead end.  I do not believe that intelligence can be reduced to
+symbol/logic/language manipulation, in any meaningful way.  Third,
+believing that it is more efficient to load knowledge in, rather than
+develop knowledge acquistion skills, is just putting off the evil day
+when CYC's inability to learn, usefully, becomes painfully obvious."
+
+I tend to agree with the above.  Intelligence seems to be an emergent
+property of dumb hive activities of individual neurons.  Computer AI
+simulations try to reverse this.  It seems that this approach is a result of
+the logic of past and present computer design (serial processing).  It is
+likely that future parallel processing computers will be able to evolve human
+like intelligence but the irony will come that we will still not understand
+what happened due to the evolved unplanned complexity of the intelligent
+system.  
+
+A good book touching on the above and on other interesting topics "Out of
+Control-The Rise of Neo-Biological Civilization" by Kevin Kelly 1994.  I'm
+new to the list so don't know if this book is a common reference here.
+
+
+John Schooley
+
+
+
+
+------------------------------
+
+From: bob_g@eris.demon.co.uk (Robert D Grahame)
+Date: Thu, 14 Jul 94 21:12:42  GMT
+Subject: [#94-7-140] BOOK: The Collapse of Chaos
+
+In article <199407121605.AA12783@news.panix.com> EdRegis@aol.com wrote :-
+>Date: Thu, 07 Jul 94 11:48:10 EDT
+>[...] I see nothing particularly Extropian in the book and advise
+>anyone who reads it to drink lots of Heineken before and during.
+
+Having now finished it, I have to say I agree. I found the book to be
+promising at first, and it does have some intersting arguments. However, the
+manic style gets wearing after a while, and the concluding chapters are,
+IMHO, gibberish.
+
+I'm glad I read it, as it gave me a few ideas I'd not seen, mainly due to my
+not reading up any complexity theory. I also like to read stuff which is
+critical of my worldview from time to time, just in case I've missed
+something important. If you see it remaindered or in a Library, I'd say give
+it a go, but don't fork out full price or push anything else down your
+reading stack to make way.
+
+Regards,
+
+-- Bob Grahame, Streatham, London. LAN Consultant
+-- Voice : +(44)71 406 7795 : PGP Key available
+-- Towel : 0d8'22"W51d24'16"N+29M
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Fri, 15 Jul 1994 20:46:46 -0700
+Subject: [#94-7-141] If Knowledge Limits Learning 
+
+Michael Clive Price writes:
+>I think his EURISKO/CYC approach is a dead end.  I do not
+>believe that intelligence can be reduced to symbol/logic/language
+>manipulation, in any meaningful way.
+
+I don't see how you could possibly know enough to know this. 
+
+>Uploads come quite considerably after, in technological terms, the
+>ultra-intelligent machines arrive.  Uploads have their own problems.
+>Like developing the neurological interface and a complete
+>understanding of the human brain.  This is going to require full-blown
+>nanotech, IMO, and huge information processing resources.
+
+Note that my estimate of your approach needing several hundred thousand
+human-brain-years worth of simulation does not depend on symbolic vs.
+other AI.  How could uploads possibly require more computation than this?
+
+And uploads do not require "a complete understanding of the human brain",
+only an ability to reasonably model some low, probably neuronal, level.
+It it obvious that you will find the right local neural net learning rule
+before this?
+
+Robin Hanson
+
+------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Sat, 16 Jul 94 07:19:42 GMT
+Subject: [#94-7-142] If Knowledge Limits Learning 
+
+Me:
+> I think [Lenat's] EURISKO/CYC approach is a dead end.  I do not
+> believe that intelligence can be reduced to symbol/logic/language
+> manipulation, in any meaningful way.
+
+Robin Hanson:
+> I don't see how you could possibly know enough to know this. 
+
+I did not say I knew it, I said I believed it, which is a weaker
+statement.  Neural nets do not manipulate symbols as their basic
+operations.  If our minds operate in some similar - although much more
+complex - fashion, as I believe the evidence is increasingly saying,
+then neither do we.  I view logic, language and symbol manipulation as
+mere epiphenomena of neural activity and trying to model human symbol
+manipulation directly is a mistake.  IMO.  
+
+> Note that my estimate of your approach needing several hundred
+> thousand human-brain-years worth of simulation does not depend on
+> symbolic vs. other AI.
+
+I didn't comment directly on your analysis because it didn't seem
+applicable to neural nets and I hadn't realised it was intended as such. 
+You had said that you assumed:
+> .... the number of valuable chunks one discovers per unit of internal
+> processing time is proportional to the number of chunks one already
+> has .....
+A blank, simple net should never learn anything by this logic.  Yet they
+do.  So why should I believe that this assumption, plucked from nowhere
+as far as I can see, applies to more complex things, and complex neural
+nets in particular, when it doesn't apply to simple nets?
+
+Even so you seemed to be making the assumption that the neural nets have
+to discover everything for themselves.  Why can't they be trained like
+humans?  I see no reason why a human-level neural net running on a
+hardware platform of approx 10^17 bits/sec should take any longer than
+a 10^17 bits/sec human to learn about the world.  And running on a
+faster platform should take even less time.  Note that once one net is
+trained to any particular level it can be cheaply copied, just as
+uploads could.
+
+> How could uploads possibly require more computation than this?
+> 
+> And uploads do not require "a complete understanding of the human
+> brain", only an ability to reasonably model some low, probably
+> neuronal, level.
+
+I concede a complete understanding is not necessary, I was thinking of
+a low-level understanding, as well.  But to get the uploadee's data out
+you have to dissect their brain down to at least the dendritic/ synaptic
+sub-neuronal level, unless you can come up with some fancy,
+instantaneous non-invasive, high-resolution deep tissue molecular
+scanner.  I note that even glial cells are now suspected of playing a
+role in memory/LTP, so tread carefully :-)
+
+> [Is] it obvious that you will find the right local neural net learning
+> rule before this?
+
+No, but I'd bet and speculate on it.  In a sense I have bet on it, since
+I'm signed for cryonics.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: tburns@mason1.gmu.edu (T. David Burns)
+Date: Sat, 16 Jul 1994 12:06:43 -0400
+Subject: [#94-7-143] If Knowledge Limits Learning
+
+At 12:01 PM 7/15/94 -0400, Nefer@aol.com wrote:
+>A good book touching on the above and on other interesting topics "Out of
+>Control-The Rise of Neo-Biological Civilization" by Kevin Kelly 1994.  I'm
+>new to the list so don't know if this book is a common reference here.
+
+There was an excerpt from this in a recent issue of Whole Earth Review.
+Kelly can write, it was quite interesting. He does stuff for Wired magazine
+also. I saw the book in a store, and the price seemed steep enough for me
+to wait for the paperback or head to the library.
+
+Dave
+tburns@mason1.gmu.edu
+
+
+
+------------------------------
+
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Date: Sat, 16 Jul 1994 16:40:34 -0500
+Subject: [#94-7-144] Did anyone else miss some messages?
+
+I logged on for the first time since Wednesday and there were no 
+digests waiting for me. Did anyone else run into this problem?
+
+Phil
+
+------------------------------
+
+From: derek@cs.wisc.edu (Derek Zahn)
+Date: Sat, 16 Jul 1994 18:08:32 -0500 (CDT)
+Subject: [#94-7-145] emergence defined
+
+Freeman Craig:
+
+> For chess, the table of known winning endings is already large (Fine,
+> _Basic Chess Endings_, is < 600 pages most of which is human readable
+> heuristic text). The reason chess is an interesting case is that the
+> search space is ridiculously large
+...
+> The only sense in which " K B B mates K " is emergent is that it
+> follows from the rules of chess and the will of the stronger side to
+> win.
+
+Yes, Shannon or somebody guessed that chess's game tree has something
+like 10^300 nodes.  Chess is one of those things that only computer
+scientists can call "computable" and maintain a straight face.
+My purpose in wondering about a lookup table for chess from the
+start position was merely to point out that a definition of emergence
+based on difficulty of modeling has to measure memory capacity as
+part of what is meant by "difficult".
+
+Chess, though, is very interesting in that a pearl like "K B B mates K"
+is *exactly* the kind of thing that typifies emergent phenomena.  It's
+a succinct, interesting, recognizable kind of constructed entity
+that arises from a system with simple interactions.  The classic
+representation of the Mandelbrot Set is emergent in this same way --
+and so, I'd claim, is a tornado and the 12-tone scale and winged
+flight and black holes and Freeman Craig Presson.
+
+derek
+partly-emerged
+
+------------------------------
+
+From: extropians-request@extropy.org (Extropians Mailing List)
+Date: 
+Subject: [#94-7-146] Extropians List Statistics 7/7
+
+Weekly List Statistics for 7/7 to 7/16
+
+Total Number of Messages Posted: 113
+Total Size of Messages Posted  : 372395 bytes
+Average Total Size per Day     : 53199 bytes
+Average # of Messages per Day  : 16
+Average Message Size           : 3295 bytes
+Number of Posters Participating: 45
+
+
+
+Top Ten Posters by Frequency
+
+1. hanson@hss.caltech.edu (12 total, 1.7/day, 10.6% of total)
+2. tburns@mason1.gmu.edu (7 total, 1.0/day, 6.2% of total)
+3. extropy@price.demon.co.uk (7 total, 1.0/day, 6.2% of total)
+4. sasha@cs.umb.edu (6 total, 0.9/day, 5.3% of total)
+5. pcm@world.std.com (6 total, 0.9/day, 5.3% of total)
+6. derek@balder.cs.wisc.edu (6 total, 0.9/day, 5.3% of total)
+7. carlf@media.mit.edu (5 total, 0.7/day, 4.4% of total)
+8. minsky@media.mit.edu (4 total, 0.6/day, 3.5% of total)
+9. jhdaugh@mail.msen.com (4 total, 0.6/day, 3.5% of total)
+10. doug@openmind.com (4 total, 0.6/day, 3.5% of total)
+
+
+
+Top Ten Posters by Volume
+
+1. sasha@cs.umb.edu (84.1kbytes, 12305 bytes/day, 23.1% of total)
+2. habs@sun.panix.com (40.7kbytes, 5954 bytes/day, 11.2% of total)
+3. hanson@hss.caltech.edu (28.5kbytes, 4170 bytes/day, 7.8% of total)
+4. jhdaugh@mail.msen.com (19.6kbytes, 2863 bytes/day, 5.4% of total)
+5. extropy@price.demon.co.uk (16.6kbytes, 2428 bytes/day, 4.6% of total)
+6. carlf@media.mit.edu (15.0kbytes, 2198 bytes/day, 4.1% of total)
+7. doug@openmind.com (14.1kbytes, 2064 bytes/day, 3.9% of total)
+8. derek@balder.cs.wisc.edu (14.0kbytes, 2046 bytes/day, 3.8% of total)
+9. pcm@world.std.com (13.8kbytes, 2021 bytes/day, 3.8% of total)
+10. 70544.1227@compuserve.com (12.1kbytes, 1776 bytes/day, 3.3% of total)
+
+
+
+
+Histogram of the week by number of messages
+
+       +--------+
+Sun    |8       |
+       +--------+
+       +------------------+
+Mon    |18                |
+       +------------------+
+       +------------+
+Tue    |12          |
+       +------------+
+       +-------------+
+Wed    |13           |
+       +-------------+
+       +-------------------------------+
+Thu    |31                             |
+       +-------------------------------+
+       +------------------------+
+Fri    |24                      |
+       +------------------------+
+       +-------+
+Sat    |7      |
+       +-------+
+
+
+
+
+Histogram of the week by daily volume
+
+       +-----+
+Sun    |     |23485
+       +-----+
+       +------------------+
+Mon    |                  |75112
+       +------------------+
+       +----------------+
+Tue    |                |66183
+       +----------------+
+       +--------------+
+Wed    |              |58065
+       +--------------+
+       +--------------------+
+Thu    |                    |84953
+       +--------------------+
+       +-----------+
+Fri    |           |48678
+       +-----------+
+       +---+
+Sat    |   |15919
+       +---+
+
+------------------------------
+
+From: James Daugherty <jhdaugh@garnet.msen.com>
+Date: Sun, 17 Jul 1994 12:39:26 -0400 (EDT)
+Subject: [#94-7-147] A-albionic Research Up-date of 7-17-94
+
+                A-albionic Research U-date of 7-17-94
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	Sorry this up-date is so late!  However, I was busy finalizing our
+Gopher and FTP Site set-up.  It was time consuming! 
+
+	We are still waiting for our own domain (to be named a-albionic)
+and, eventually, we will install a mail server for those of you without
+Gopher or ftp service.  Manual document e-mailing still in operation.
+
+	Perhaps we will eventually start a mailing list strictly devoted
+to "Ruling Class/Conspiracy Theories of History" as well. 
+
+Contents This Issue:
+^^^^^^^^^^^^^^^^^^^
+**Instructions for using Msen Market Place, New Paradigms Project Gopher to
+  retrieve free articles, catalogs, instructions, etc.
+
+**Instruction for obtaining the same data by ftp or ncftp
+
+**Index to all articles, catalogs, instructions, etc available from
+  A-albionic Research free of charge.
+
+          New Paradigms Project (Sponsored by A-albionic Research)
+
+The A-albionic Research ftp site and gopher have exactly the same
+information structure.  We would recommend using the Gopher, if you have
+Gopher access, since it is much more user friendly.  
+
+I.  Gopher Navigation:  
+
+1.  Access the Msen Gopher
+2.  Select Msen Market place from the menu provided
+3.  Select New Paradigms Project from the menu provided
+4.  Select Non-Pluralistic Theories of Society from the menu provided
+5.  Select A-albionic Research from the menu provided
+
+. . .or Select other items that might interest you.
+
+II.  FTP Navigation
+
+ftp msen.com        
+
+/pub/vendor/a-albionic
+
+Note:  ncftp (if it is available at your site) is much easier to use as it
+automatically logs you in and allows you to view the files that interest
+you prior to downloading!  So far, we have avoided the use of zip files to
+allow easy viewing with ncftp "page" command.
+
+Command:  ncftp mesen.com
+
+III.  Mail Server
+
+Our mail server is not yet operational.  However, we will mail available
+files to those without Gopher or FTP service.  Please ask for only a few
+files at a time!  Ask James Daugherty jhdaugh@mail.msen.com for the files
+you wish to have.
+
+
+IV.  Index to Files Available
+
+/pub/vendor/a-albionic/
+
+  index     Index of all files currently available
+
+/pub/vendor/a-albionic/gopher/
+
+  about        What is the New Paradigms Project?
+  recread      Disclaimer regarding recommended reading
+  search       In Print/Rare/Out-of-Print Book Service Advertisement
+  socorg.cat   Catalog of Books on Social & Power Organism Theory
+
+/pub/vendor/a-albionic/gopher/conspiracy/
+  
+  atlantic     Complete Membership List of the Atlantic Institute for
+               International Affairs
+
+  bowen        Description of the Bowen Database of 8000+ books on
+               Intelligence Agencies and Covert Action
+
+  cdigest.cat  Conspiracy Digest Back Issue Catalog Including Contents
+
+  cfr          Complete Membership List of the Council on Foreign Relations
+
+  chiefs       List of US Chiefs of Mission
+
+  clubrome     Partial Membership List of the Club of Rome
+
+  environ.cat  Catalog of Books on Environmentalism--Pro and Con
+
+  gen.cat      Catalog of Introductory and Pro-Catholic Books on Conspiracies
+
+  intelligence.cat
+               Catalog of Books on Intelligence Agencies and Covert Action
+
+  masons.cat   Catalog of Books on Masonry and Secret Societies
+
+  mindcontrol.cat
+               Catalog of Books on Mind Control Technology--Zombie Agents?
+
+  newage.cat   Catalog of Books on New Age, Satanic, and Occult Conspiracy
+               Theories--Pro & Con -- Includes Alleged New Age Trends
+
+  recread      Disclaimer regarding recommended reading
+
+  secretgov.cat
+               Catalog of Books on Ruling Class Conspiracy and Corruption
+               with a left-liberal slant (primarily)
+
+  spybase      Description of the Spybase Computer Program (shareware)
+
+  trilat       Complete Membership List of the Trilateral Commission
+
+/pub/vendor/a-albionic/gopher/conspiracy/assassination/
+
+  jfkauth.cat  300+ Books on JFK and Other Assassinations by Author
+
+  jfktitle.cat Same List by Title
+
+/pub/vendor/a-albionic/gopher/conspiracy/NWO/
+
+  uncharter    The Charter of the United Nations
+
+/pub/vendor/a-albionic/gopher/conspiracy/a-albionic/
+
+  albion.cat   Catalog of Books on Anglophobic Conspiracy Theories
+
+  bonus        List of Books Available As Free Bonus with Large Order from
+               A-albionic Research
+
+  bookservice  How to use A-albionic's Universal In-Print/Out-of-Print and
+               Rare Book Service
+
+  josephson    Catalog of Books by Dr. Emmanuel Josephson, the World's
+               Greatest Rockefeller Basher!
+
+  order.frm    How to order books and back issues from A-albionic Research
+
+  project      Description of A-albionic's Quarterly, the Project
+
+  project.cat  Back Issue Catalog including Contents of A-albionic's
+               Quarterly, the Project
+
+  recread      Disclaimer regarding recommended reading
+
+  regcatalog   Description of A-albionic's Regular Catalog of 400+ Books
+
+  supercatalog Description of A-albionic's Super Catalog of 3500+ Books
+
+  vatican.cat  Catalog of anti-Vatican Books
+
+/pub/vendor/a-albionic/gopher/conspiracy/a-albionic/articles/
+
+  articles.zip All articles zipped into one file!
+
+  cfrtxt       Left-Liberal Defend CFR as Instrument of US Interests!
+
+  charles.dos  New Age Reign of Prince Charles Stillborn
+
+  coef.txt     Coefficients Club:  Window on the High Cabal
+               H. G. Well, Bertrand Russell, the Fabians, Round Table
+
+  complex.dos  Complexity/Chaos Theory:  Plot or Progress?
+
+  quigley.dos  Carroll Quigley:  Insider Who Talked or Georgetown Jesuit
+               Vatican Propagandist?
+
+  recread.dos  Recent Recommended Reading (Reprinted from the Project)
+
+  rhodes.txt   Left-Liberal Nation Columnist:  Blood, Class, and Nostalgia
+               Left-Liberal View of the Anglophile conspiracy
+
+  tragwwg.dos  The Tragedy of Whitewater House
+
+  unveil.dos   Unveiling the Virgin:  Protestant, anti-Catholic Conspiracy
+               Theory
+
+  vatattck.dos Suspicions Confirmed:  Royal Family Under Intense Vatican
+               Attack
+
+/pub/vendor/a-albionic/gopher/conspiracy/a-albionic/up-dates/
+
+  update.611   A-albionic Internet Up-date of 6-11-94
+
+  update.624   A-albionic Internet Up-date of 6-24-94
+                (Includes Blue Helmet Hysteria)
+
+  update.706   A-albionic Internet Up-date of 7-06-94
+
+**********************************************************
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/////////////////////////////////////
+James Daugherty, volunteer Postmaster for A-albionic Research, a ruling
+class/conspiracy research resource for the entire political-ideological
+spectrum.  Quarterly journal, book sales, rare/out-of-print searches, and
+custom research since 1984.  Introductory information and free articles
+and catalogs are located in the New Paradigms section of the Msen Market
+Place (Gopher) and Msen ftp site. ftp.msen.com (/pub/vendor/a-albionic)
+
+For those without Gopher or ftp Service or to be added to our Weekly
+Up-date List: e-mail jhdaugh@mail.msen.com, fax 1-313-885-1181, or snail
+mail A-A Research, POB 20273, Ferndale, MI 48220. 
+
+
+
+
+
+------------------------------
+
+End of Extropians Digest V94 #199
+*********************************
+

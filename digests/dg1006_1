@@ -1,0 +1,614 @@
+From extropians-request@extropy.org Wed Oct  5 21:03:22 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id VAA15461 for <more@chaph.usc.edu>; Wed, 5 Oct 1994 21:03:21 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA09436; Wed, 5 Oct 94 21:03:15 PDT
+Received: by news.panix.com id AA21239
+  (5.65c/IDA-1.4.4 for more@usc.edu); Thu, 6 Oct 1994 00:02:52 -0400
+Date: Thu, 6 Oct 1994 00:02:52 -0400
+Message-Id: <199410060402.AA21239@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-10-78 - #94-10-87
+X-Extropian-Date: October 6, 374 P.N.O. [00:01:28 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Thu, 6 Oct 94             Volume 94 : Issue 278
+
+Today's Topics:
+                               "Proof" in math                        [1 msgs]
+                            CHAT: calendar reform                     [1 msgs]
+                            Conversion to Atheism                     [1 msgs]
+       FWD: [Earl Hood: ANNOUNCE: MHonArc -- A mail-to-HTML converter][1 msgs]
+                           Non-destructive upload?                    [2 msgs]
+                      Recursion, science, and God (fwd)               [1 msgs]
+                       The pitfalls of futurology (fwd)               [1 msgs]
+                                  Uploads...                          [2 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 27479 bytes.
+
+----------------------------------------------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Tue, 04 Oct 1994 22:38:57 -0500
+Subject: [#94-10-78] "Proof" in math
+
+At 11:56 PM 10/4/94 -0400, extropians@extropy.org wrote:
+>Before mathematics gets roboticized, I would expect that theorem verification
+>would be automated.
+>
+>Are there good, general automated systems for writing down and verifying
+>proofs?  I've heard of Z, is it used for anything but program verification?
+[...]
+Lenat made his name in AI with programs that discover theorems as well
+as prove them (actually, what they do is generate proofs and test for
+new-and-interesting results with a set of heuristics, hence the
+name "Eurisko"). 
+
+>Of course this would be on a lower level than mathematicians are used to,
+>but I'll bet it would have the same perverse appeal as programming, and
+>create it's own subculture of proof-hackers.
+
+Very much lower level; human mathematicians are total arm-wavers
+compared to programs. This is why theorem provers are not in wide
+use; for most domains, formalizing the proof enough to get the
+program started on it is the same or more work as verifying by hand.
+
+There are so many examples of the computer as labor-creating device,
+I begin to think that is its main purpose :-)
+
+\\ fcp@nuance.com (Craig Presson)   CPresson@aol.com\
+-- WWW: http://www.nuance.com/~fcp/ -----------------\
+-- President & Principal,  T4 Computer Security ------>
+-- P.O. Box 18271, Huntsville, AL 35804 -------------/
+// (205) 880-7692 Voice, -7691 FAX -----------------/
+
+
+------------------------------
+
+From: cactus@bibliob.slip.netcom.com (L. Todd Masco)
+Date: 5 Oct 1994 13:43:57 -0400
+Subject: [#94-10-79] Non-destructive upload?
+
+In article <199410051500.AA02523@world.std.com>,
+Peter C. McCluskey <pcm@world.std.com> wrote:
+> fcp@nuance.com  (Craig Presson) writes X-Message-Number: #94-10-59:
+>>At 11:44 AM 10/4/94 -0400, cactus@bibliob.slip.netcom.com (L. Todd Masco) wrote:
+>>I can tell you that without an NMR -- all bioactive molecules are
+>>D-isomers.
+>
+> Is this intended as a joke, or are you really that confused?
+
+I normally don't sweat it, but please: get your attributions right.  I
+didn't make that assertion.
+-- 
+L. Todd Masco  | Ingredients:  red, blue, and green quarks, six varieties of
+cactus@bb.com  |  gluons, electrons.  Some settling may occur in shipping.
+
+------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Wed, 05 Oct 1994 02:14:25 -0500
+Subject: [#94-10-80] Non-destructive upload?
+
+At 01:43 PM 10/5/94 -0400, L. Todd Masco wrote:
+>In article <199410051500.AA02523@world.std.com>,
+>Peter C. McCluskey <pcm@world.std.com> wrote:
+>> fcp@nuance.com  (Craig Presson) writes X-Message-Number: #94-10-59:
+>>>At 11:44 AM 10/4/94 -0400, cactus@bibliob.slip.netcom.com (L. Todd Masco) 
+wrote:
+[Todd's content excised by PCM]
+>>>I can tell you that without an NMR -- all bioactive molecules are
+>>>D-isomers.
+>>
+>> Is this intended as a joke, or are you really that confused?
+>
+>I normally don't sweat it, but please: get your attributions right.  I
+>didn't make that assertion.
+
+He's right of course: I said it. Upon reference, it looks like I
+was misremembering something from a long-ago organic chem class,
+about some carbohydrates being digestible only in the D-configuration.
+
+Since most natural amino acids are L-'s, I could hardly have gotten
+it more wrong. Serves me right for stepping into a thread I hadn't been 
+reading. Of course you could have been a little less acidic :-)
+about it (acerbic acid, yeah, that's it).
+
+\\ fcp@nuance.com (Craig Presson)   CPresson@aol.com\
+-- WWW: http://www.nuance.com/~fcp/ -----------------\
+-- President & Principal,  T4 Computer Security ------>
+-- P.O. Box 18271, Huntsville, AL 35804 -------------/
+// (205) 880-7692 Voice, -7691 FAX -----------------/
+
+
+------------------------------
+
+From: Superjason <prophet@ksu.ksu.edu>
+Date: Wed, 5 Oct 1994 15:05:16 -0500 (CDT)
+Subject: [#94-10-81] Uploads...
+
+I jumped in on this thread fairly late, but I've been following it for a 
+while now, and I have a question...
+
+Why would one want to upload oneself?
+
+Is it the same urge that drives people to have chlidren?  Your copy 
+personality is, for all observers, basically the same person as you.  I 
+suppose for people who have children in order to pass on a bit of 
+themselves, an uploaded personality would be the ideal child.  Is that it?
+
+Because, if not, then I have to wonder about the technique.  If you 
+actually want it to be YOU, then the upload technique will have to do 
+more than simply copy you perfectly.
+
+
+I have a feeling that this may have already been discussed.  If so, I'm 
+sorry for dropping in halfway through. 
+
+
+J a s o n  H a m i l t o n
+prophet@ksu.ksu.edu
+"An unchanging .signature file is like a cancer on the face of the 
+internet..."
+
+
+------------------------------
+
+From: DEREK@alcor.org
+Date:  Wed, 05 Oct 94 14:45:37 
+Subject: [#94-10-82] Recursion, science, and God (fwd)
+
+Craig Presson writes:
+>At 04:08 PM 10/1/94, DEREK@alcor.org wrote:
+>[...]
+>>(Who did once unabashedly proclaim to an atheist friend his firm 
+>>belief that he would convert said atheist to Christianity within the 
+>>space of not more than two years.  This almost exactly a year 
+>>before becoming an atheist himself.)
+>
+>So, did you still try?
+
+Oh yeah, I tried very hard for about six months.  At the end of that 
+time, I began to see that I was getting nowhere with him, and that 
+our little debates were becoming increasingly frustrating and 
+uncomfortable for me.  I cut him off completely after that, and 
+retreated into my own little shell of prayer and study.
+
+There are a few interesting notes about my "conversion" for those 
+inclined to dissect the particulars.
+
+1)  Right before (literally *minutes* before) I stopped believing, I 
+was at my peak as a believer.  I had never had so much faith, never 
+been so active, and never been so able to defend belief on an 
+intellectual level.
+
+2)  The change of mind was instantaneous and absolute.  During the 
+days and minutes prior to the change, I entertained not a single 
+serious, conscious doubt.  The change itself took no more than 30 
+seconds.  Since the change, I have not once come close to believing 
+again.
+
+3)  I was reading *Stranger in a Strange Land* when the change 
+occurred.  (I guess maybe I read the words "Thou art god" too 
+many times.  :-)
+
+Has anyone out there ever read *ME* by Thomas T. Thomas?  It's 
+about a computer program that gains self-awareness.  Originally 
+created as a device for recon and espionage, ME (Multiple Entity) 
+specialized in slipping into unsuspecting computers, taking over 
+spare computing cycles, writing himself into spare slots on the host 
+hard disk, insuring that the host's normal functions continued (so as 
+to remain undetected), and eventually taking over all processes of 
+the host at once.
+
+This strikes me as parallel to my conversion in many ways.  So long 
+as I was adamantly Christian, and desirous of peace of mind, those 
+tenacious memes of reason and logic could not survive undetected 
+in my conscious mind.  So, they were forced to take a less direct 
+route, festering below the surface for many months, making subtle 
+alterations here and there, implementing important sub-routines, 
+creating the necessary operating platform for the more complex 
+memes which would later be implemented.
+
+And then, at a time when I suspected nothing, it happened all at 
+once.  One minute I'm a complete christian, the next minute I'm a 
+complete atheist.  What an impressive coup!
+
+And what a great study in the complexity of "mind."
+
+Derek Ryan
+
+------------------------------
+
+From: davisd@nimitz.ee.washington.edu
+Date: Wed, 05 Oct 94 16:53:29 -0700
+Subject: [#94-10-83] FWD: [Earl Hood: ANNOUNCE: MHonArc -- A mail-to-HTML converter]
+
+------- Forwarded Message
+
+Date: Thu, 6 Oct 1994 00:11:17 +0100
+From: Earl Hood <ehood@imagine.convex.com>
+To: Multiple recipients of list <www-announce@www0.cern.ch>
+Subject: ANNOUNCE: MHonArc -- A mail-to-HTML converter
+
+
+This message is a MIME multipart/alternative message.  There is a
+text/plain portion and a text/html portion to this message.  If you are
+using a MIME compliant reader, you should not be reading this
+paragraph.
+
+- --cut-here
+                                       
+   __________________________________________________________________________
+                                       
+                                INTRODUCTION
+                                       
+   MHonArc is a Perl program for converting e-mail messages as specified
+   in RFC 822 and RFC 1521 (MIME) to HTML. MHonArc can perform the
+   following tasks:
+   
+     * Convert mh(1) mail folders or mail(1) style mailboxes into an HTML
+       mail archive.
+     * Add new e-mail messages to an existing HTML mail archive generated
+       by MHonArc.
+     * Convert a single message to HTML.
+       
+   An index page is created when an archive is generated. MHonArc allows
+   complete customization over the appearance of the index page including
+   the ability to insert user defined HTML markup and content-type
+   sensitive icons for the mail messages processed.
+   
+
+   
+     _________________________________________________________________
+   
+Why Use MHonArc? 
+
+   Here are some reasons for using MHonArc:
+   
+     * You need to archive mailing lists for use in a World Wide Web
+       (WWW) server.
+     * You want to archive newsgroup postings for use in a WWW server.
+     * You have a WWW client, but no MIME mail reader. MHonArc will allow
+       you to read MIME messages that includes images, audio, video, etc
+       via your Web client.
+     * You think the MHonArc logo is really cool, and it deserves to be
+       used.
+     * You like Perl, and you want to see what it can do.
+     * Just cuz.
+       
+   
+     _________________________________________________________________
+   
+Requirements 
+
+   In order to run MHonArc, you must be using it on a UNIX based system
+   with Perl 4 installed. It is recommed to have patchlevels 34 or later
+   of Perl.
+   
+
+   
+     _________________________________________________________________
+   
+Availability 
+
+   The latest information on MHonArc, and its availability, may be
+   obtained at <URL:http://www.oac.uci.edu/indiv/ehood/mhonarc.doc.html>.
+   
+   
+   
+     _________________________________________________________________
+- --cut-here
+Content-Type: text/html
+
+<HTML>
+<HEAD><TITLE>ANNOUNCE: MHonArc 1.0.0
+</TITLE>
+</HEAD>
+<BODY>
+<H1><HR><A NAME="35018">Introduction</A>
+</H1>
+
+       <EM>MHonArc</EM> is a <A HREF="http://www.cis.ufl.edu/perl/">Perl</A> program for converting e-mail messages as specified in RFC 822 
+       and <A HREF="http://www.oac.uci.edu/indiv/ehood/MIME/1521/rfc1521ToC.html">RFC 1521</A> (<EM>MIME</EM>) to <A HREF="http://info.cern.ch/hypertext/WWW/MarkUp/MarkUp.html">HTML</A>. <EM>MHonArc</EM> can perform the following tasks:
+<P>
+
+<UL>
+<LI>          Convert <CODE>mh</CODE>(1) mail folders or <CODE>mail</CODE>(1) style mailboxes into an HTML mail 
+              archive.
+<LI>          Add new e-mail messages to an existing HTML mail archive generated by 
+              <EM>MHonArc</EM>.
+<LI>          Convert a single message to HTML.
+<P></UL>
+       An index page is created when an archive is generated. <EM>MHonArc</EM> allows complete 
+       customization over the appearance of the index page including the ability to insert 
+       user defined HTML markup and content-type sensitive icons for the mail 
+       messages processed.
+<P>
+
+<PRE>       
+</PRE>
+
+<HR>
+<H2><A NAME="xtocid72751">Why Use MHonArc?
+</A></H2>
+
+       Here are some reasons for using <EM>MHonArc</EM>:
+<P>
+
+<UL>
+<LI>          You need to archive mailing lists for use in a <A HREF="http://info.cern.ch/hypertext/WWW/TheProject.html">World Wide Web</A> (<EM>WWW</EM>) 
+              server.
+<LI>          You want to archive newsgroup postings for use in a WWW server.
+<LI>          You have a WWW client, but no MIME mail reader. <EM>MHonArc</EM> will allow 
+              you to read MIME messages that includes images, audio, video, etc via 
+              your Web client.
+<LI>          You think the <EM>MHonArc</EM> logo is really cool, and it deserves to be used.
+<LI>          You like Perl, and you want to see what it can do.
+<LI>          Just cuz.
+</UL>
+<HR>
+<H2><A NAME="xtocid72752">Requirements
+</A></H2>
+
+       In order to run <EM>MHonArc</EM>, you must be using it on a UNIX based system with <A HREF="http://www.cis.ufl.edu/perl/">Perl</A> 
+       4 installed. It is recommed to have patchlevels 34 or later of Perl.
+<P>
+
+<PRE>       
+</PRE>
+
+<HR>
+<H2><A NAME="xtocid72753">Availability
+</A></H2>
+
+       The latest information on <EM>MHonArc</EM>, and its availability, may be obtained at 
+       &lt;URL:<A HREF="http://www.oac.uci.edu/indiv/ehood/">http://www.oac.uci.edu/indiv/ehood/mhonarc.doc.html</A>&gt;.
+<P>
+
+<HR>       
+</BODY>
+</HTML>
+- --cut-here--
+
+	--ewh
+
+- ----
+    Earl Hood                |   CONVEX Computer Corporation
+    ehood@convex.com         |   3000 Waterview Parkway
+    Phone: (214) 497-4387    |   P.O. Box 833851
+    FAX: (214) 497-4500      |   Richardson, TX  75083-3851
+
+------- End of Forwarded Message
+
+
+------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Wed, 05 Oct 1994 08:27:47 -0500
+Subject: [#94-10-84] Uploads...
+
+At 03:05 PM 10/5/94, prophet@ksu.ksu.edu wrote:
+>I jumped in on this thread fairly late, but I've been following it for a 
+>while now, and I have a question...
+>
+>Why would one want to upload oneself?
+[...]
+>Because, if not, then I have to wonder about the technique.  If you 
+>actually want it to be YOU, then the upload technique will have to do 
+>more than simply copy you perfectly.
+
+What could this mean? More than perfect? There's no ghost 
+in the machine, remember.
+
+>I have a feeling that this may have already been discussed.
+<Chuckle>, yes, it's been discussed a little. Since day 1.
+
+You upload to get into a bigger and better self, and to ensure
+immortality. It's not just a one-time thing: you get busy looking
+for the next generation of hardware to host yourself,along with
+building remotes, exploring, creating ...
+
+\\ fcp@nuance.com (Craig Presson)   CPresson@aol.com\
+-- WWW: http://www.nuance.com/~fcp/ -----------------\
+-- President & Principal,  T4 Computer Security ------>
+-- P.O. Box 18271, Huntsville, AL 35804 -------------/
+// (205) 880-7692 Voice, -7691 FAX -----------------/
+
+
+------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Wed, 05 Oct 1994 09:20:55 -0500
+Subject: [#94-10-85] CHAT: calendar reform
+
+Extro-meter: Freeman Craig	30 Hayekmoon 374 P.N.O. 20:18:51 UTC
+Upload fraction                 0.000001
+Expansion                       1.04
+Enhancements in use             2
+Optimism                        0.65
+Net Intelligences in use        1.0005
+Net Extropic Factor             +4.33
+FCP Reputation quote (20:00)	p88970
+
+
+OK, I'm dreaming. But maybe we should propose some new names
+for those boring old months. Space cats! some are even named after
+integers! At least we could celebrate Newtonmas in a month called
+pi or e or G, right?
+
+How about:
+January     Bacon
+February    Einstein        
+March       Gauss
+April       Hayek
+May         von Mises
+June        Friedman        (Milton [is DDFR still on the list?])
+July        Smith           (Adam)
+August      Jefferson
+September   Locke
+October     Paine
+November    von Braun
+December    Newton
+
+Anyone else want to try? These are all pretty arbitrary except for 
+Newton getting his birthmonth, and Bacon must start the new year as he
+started the new epoch. It might be good to sneak a female or two in.
+
+
+
+
+\\ fcp@nuance.com (Craig Presson)   CPresson@aol.com\
+-- WWW: http://www.nuance.com/~fcp/ -----------------\
+-- President & Principal,  T4 Computer Security ------>
+-- P.O. Box 18271, Huntsville, AL 35804 -------------/
+// (205) 880-7692 Voice, -7691 FAX -----------------/
+
+
+------------------------------
+
+From: Chris Jaeb <cameron@netcom.com>
+Date: Wed, 5 Oct 1994 19:10:18 -0700 (PDT)
+Subject: [#94-10-86] The pitfalls of futurology (fwd)
+
+Deepak Chopra writes-
+
+What is a thought?
+
+It is an impulse of energy and information, like everything else in 
+nature.
+
+Being able to process the raw, chaotic vibrations of 
+the "quantum soup" and turn them into meaningful, 
+orderly bits of reality opens up enormous creative 
+possibilities. However, these posssibilities exist only 
+when you are aware of them.
+
+Thoughts come from nature. Your body/mind is a receiving
+instrument that processes, at a subconsious level, a wide range
+of external stimuli.  
+
+Depending on what you are consciously giving priority to
+at a specific place in time, you become aware of those 
+thoughts. Meaning, constant "consciously" evolving, interrelated
+shifts in awareness produce the verbalization of the energy/
+information that is floating around in the environment.         
+
+Chopra calls this floating "energy/information" the "vibrations
+of the 'quantum soup'". Where the 'quantum soup' is the infinite
+space from which all energy/thought is emitted. If you take any
+object, from human bones to a rock, when you go beyond the
+molecules, atoms, and electrons and get down to the quantum
+level, there is certain intelligence that acts as the glue that
+holds the atoms and molecules together and makes a human bone a
+bone, and a rock a rock.
+
+In other words, at a quantum level, we are all the same stuff, a
+level of intelligence in the space time continuum that creates
+unique objects and energy fields. So when you process a thought,
+you are simply becoming aware of an impulse of energy in nature
+and yourself. 
+
+Real growth comes when you recognize the you do not live in this
+world...this world lives in you! You begin seeing every thought
+as a result of nature. And is a short time you develop more
+control over your mind, become more intuned with nature, and can
+more easily effect the natural evolution of mankind.
+
+                        cameron@netcom.com
+
+On Tue, 4 Oct 1994, Steve Witham wrote:
+
+> Nancy Lebovitz writes-
+> 
+> >This relates to something I've been mulling lately--I don't think that
+> >new ideas are developed in words--it can take living with them for
+> >a bit (or longer) before they can be put into words. What are they
+> >developed in?
+> >
+> >I get them as feelings before I can put them into words a lot of
+> >the time, but now that I think about it, the feelings relate to
+> >something being there, and various ideas or descriptions fitting or
+> >not fitting with it. This suggests that the idea may not exactly be
+> >the feeling, either.
+> 
+> (Third hand through a talk by Alan Kay:)
+> 
+> Someone in the middle of this century took a poll of physicists:  Do
+> you think in words, pictures, or what?
+> 
+>    Some, but not the best physicists, thought in words.
+>    Most thought in pictures.
+>    One said he felt sensations in his hands and arms--Einstein.
+> 
+> This is interesting when you consider his ability to write as well.
+> 
+> There are two patterns I notice in how I think.  One is, I say aloud what
+> I think the problem or solution or state of solution is.  Then I usually
+> say, "No, that doesn't sound quite right, the *real* problem is..." and
+> iterate like that.  The other is, I draw a diagram, and redraw and redraw
+> and redraw, trying to make it a perfect map of a problem.
+> 
+>  --Steve
+> 
+>  - - - - - - - - - -
+> Lemme make it plain--better make way for homo superior --Bowie.
+> 
+> 
+> 
+
+------------------------------
+
+From: William Wiser <sbrooks@chaph.usc.edu>
+Date: Wed, 5 Oct 1994 19:16:21 -0700 (PDT)
+Subject: [#94-10-87] Conversion to Atheism
+
+Derek Ryan writes:
+> And then, at a time when I suspected nothing, it happened all at 
+> once.  One minute I'm a complete christian, the next minute I'm a 
+> complete atheist.  What an impressive coup!
+ 
+My loss of religious faith was very similar. I was reading a booklet by
+one religion denouncing the religion I belonged to and over the space of
+a half hour I realized that most of what they said applied equally to 
+all religion. Voila, I was an atheist. In my case it took several minutes
+to assure myself of the logic of my conclusion but other than occasional
+intentional religious beliefs that last an hour or two, and exercise my 
+mind, I have never looked back.
+ 
+One hour I was a devout Eckist and the next I was a fairly well thought
+atheist (I'm not quite as impulsive as you Derek but close).
+ 
+Will Wiser			sbrooks@scf.usc.edu
+
+
+
+
+------------------------------
+
+End of Extropians Digest V94 #278
+*********************************
+

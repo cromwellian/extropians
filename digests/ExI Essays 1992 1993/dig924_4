@@ -1,0 +1,940 @@
+From extropians-request@extropy.org Fri Sep 24 16:59:40 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA26084; Fri, 24 Sep 93 16:59:30 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA09127; Fri, 24 Sep 93 16:59:20 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA11907; Fri, 24 Sep 93 19:51:57 EDT
+Received: from news.panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+	id AA11897; Fri, 24 Sep 93 19:51:19 EDT
+Received: by news.panix.com id AA19770
+  (5.65c/IDA-1.4.4 for exi-maillist@ung.gnu.ai.mit.edu); Fri, 24 Sep 1993 19:51:19 -0400
+Date: Fri, 24 Sep 1993 19:51:19 -0400
+Message-Id: <199309242351.AA19770@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: September 24, 373 P.N.O. [23:50:47 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Fri, 24 Sep 93             Volume 93 : Issue 266
+
+Today's Topics:
+        "Experiment of interest to AI and quantum computer designers" [1 msgs]
+                  FWD: Genetic programming and Stock Trading          [1 msgs]
+                           Fermi Paradox Resolved!                    [1 msgs]
+                        Fermi Paradox Resolved! (Oops)                [1 msgs]
+                        GAME: Improving on Tit-For-Tat                [1 msgs]
+               GUNS: Ammo will never really be hard to find...        [1 msgs]
+                  GUNS: Buy Chinese (was: Don't buy Chinese)          [1 msgs]
+               GUNS: Don't buy Chinese (was GUNS: buy Chinese)        [1 msgs]
+               Info request on Information Markets/Idea Futures       [1 msgs]
+                 Interstellar claim jumping attempt rebuffed          [1 msgs]
+                                META: archive                         [3 msgs]
+                                META: archive                         [1 msgs]
+                             Meta: List Function                      [1 msgs]
+              NEWS: Lloyd's? (was SPACE: limits on launch costs)      [1 msgs]
+             NEWS: Lloyd's? (was SPACE: limits on launch costs)       [1 msgs]
+                         Netnews information filters.                 [1 msgs]
+                   SELF: Sleep Deprivation (was depression)           [1 msgs]
+                             SMARTDRUGS: Deprenyl                     [1 msgs]
+                           Sorry about the repeats                    [1 msgs]
+                                philosophitis                         [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51568 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 24 Sep 1993 10:28:35 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Interstellar claim jumping attempt rebuffed 
+
+Nick Szabo says:
+> Steve Whitrow: 
+> > ANNOUNCING A BET:  I wager $20 (or U.K. pounds) that no one will pay
+> > me $10,000 for 10% of my rights to the universe, whether 10^-12 or
+> > 10^-11 universes
+> 
+> Your claim, and all the other "equal-distribution" claims are 
+> invalid, since I've already claimed the entire universe beyond
+> Earth orbit for myself.  I'll consider offers.
+
+I bid $.02 for all of it!
+
+Perry
+
+------------------------------
+
+Date: Wed, 22 Sep 93 17:23:24 PDT
+From: edgar@spectrx.saigon.com (Edgar W. Swank)
+Subject: SELF: Sleep Deprivation (was depression)
+
+Randall M. Clague in msg 93-9-671 related anecdotes about sleep deprivation.
+
+My own experience was many years ago while still in high school,
+during Summer vacation.  A friend of mine had told me that no-one
+could stay awake for 3 days in a row without becoming insane, so I set
+out to prove him wrong.
+
+I managed to stay awake at night by listening to an all night radio
+program "Music till Dawn" which played the classics.
+
+On the morning of the third day, my little sister asked me to read to
+her out of her kid's book.  I found I had forgot how to read! At that
+point I called a halt to the experiment and slept.
+
+--
+edgar@spectrx.saigon.com (Edgar W. Swank)
+SPECTROX SYSTEMS +1.408.252.1005  Cupertino, Ca
+
+
+------------------------------
+
+Date: Fri, 24 Sep 1993 10:41:08 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: "Experiment of interest to AI and quantum computer designers" 
+
+Richard Kennaway says:
+> On a scale of bogosity ranging from Ludwig Plutonium to Richard Feynman, I
+> rate this at about the Penrose ("Emperor's New Mind") level.
+
+Please -- the fundamental unit of bogosity, as we all know, is the
+microLenat. See the following definition from the original hackers
+jargon file:
+
+BOGOSITY n. The degree to which something is BOGUS (q.v.).  At CMU,
+   bogosity is measured with a bogometer; typical use: in a seminar,
+   when a speaker says something bogus, a listener might raise his
+   hand and say, "My bogometer just triggered."  The agreed-upon unit
+   of bogosity is the microLenat (uL).
+
+Perry
+
+------------------------------
+
+Date: Fri, 24 Sep 1993 09:43:37 -0500 (CDT)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Netnews information filters.
+
+Clifford Adams:
+
+>	I just thought I'd mention that I''m working on similar
+>things.  (In fact today I did some work on virtual newsgroups and WWW
+>URLS--soon raters should be able to share information using the HTTP protocol.)
+
+I'm sure that many of us would be interested to hear more about this;
+would you care to explain?
+
+After such unabashed begging, I'll post some notes on another Pattie
+Maes paper (to keep my karma balanced).  This one is with Robyn
+Kozierok, also at the Media Lab, and my copy of the paper is marked
+"submitted to the interchi-93 conference, amsterdam, april 93".  I
+did not attend (heh) and don't know if it was presented there or
+what.  I assume so.
+
+Title:  "Learning Interface Agents"
+
+Abstract:  Interface agents are computer programs that employ
+  Artificial Intelligence techniques in order to provide assistance to
+  a user dealing with a particular computer application.  The paper
+  discusses an interface agent which has been modelled closely after
+  the metaphor of a _personal assistant_.  The agent and user share
+  the same (virtual) work environment consisting of the direct
+  manipulation interface provided by the application at hand.  They
+  use the visual and graphical language provided by that interface as
+  their means of communication.  The agent learns how to assist the
+  user (i) by observing the user's actions and imitating them, (ii) by
+  receiving negative feedback when it takes wrong actions and (iii) by
+  being trained by the user on the basis of hypothetical examples.
+  The paper discusses how this type of learning agent can be
+  implemented using _memory-based learning_ and _reinforcement
+  learning_ techniques.  It argues that the machine learning approach
+  to building interface agents is a feasible one which has several
+  advantages over other approaches:  it provides a customized and
+  adaptive solution which is less costly and ensures better user
+  acceptability.  Specifically, the paper argues that the particular
+  approach presented is not subject to the criticisms typically
+  uttered in relation to intelligent interfaces.
+
+One of the more annoying (but perhaps useful, who knows) aspects of
+this system is its use of a little graphical icon to represent the
+agent's state.  The images for the icon are cartoon faces expressing
+such "mental states" as being alert, thinking, surprise,
+gratification, and so on.
+
+Also of great interest (besides their particular representation scheme
+and choice of learning algorithms) is a discussion of whether people
+actually would want any intelligent agents -- the obvious objection
+being that an interface performing complex inferential procedures
+might make users feel like they aren't in control, and might be
+confusing.
+
+I imagine that a copy of the paper could be gotten by writing to
+pattie@media.mit.edu or robyn@ai.mit.edu, if anybody is interested.
+
+derek
+
+------------------------------
+
+Date: Fri, 24 Sep 93 07:51:13 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: META: archive
+
+Tim May:
+> (Harry S. told me at the Extropolooza that the idea of an archive of past
+> postings is being again considered. This is long overdue. Submission of
+> posts to such an archive would be voluntary, of course.)
+
+How about two posting addresses?  Mail to ex-a would be archived, mail to
+ex-b not, but both would be reflected to the list.
+
+*\\* Anton 						Ubi scriptum?
+
+------------------------------
+
+Date: Fri, 24 Sep 1993 11:30:14 -0400
+From: tburns@gmuvax.gmu.edu (T. David Burns)
+Subject: philosophitis
+
+>  Perhaps we need a term for philosophers, like philosophitis - tendency
+>to form abstract content-free arguments with no-relevence at  all to
+>reality and then proclaim that they are "objectively correct" or natural
+>law.
+
+What's the operational definition?
+
+
+------------------------------
+
+Date: Fri, 24 Sep 1993 11:30:34 -0400
+From: tburns@gmuvax.gmu.edu (T. David Burns)
+Subject: GAME: Improving on Tit-For-Tat
+
+At 11:43 PM 9/21/93 -0500, paul whitmore wrote:
+>This months Sci Am, referring to recent paper in Nature, describes a 
+>strategy that does better than Axelrod's tit-for-tat. 
+
+1) This is not new, Axelrod himself reported something like this in 1987.
+
+2) Without saying under what circumstances it does better makes this rather
+mysterious. Many strategies can beat tit-for-tat.
+
+3) Rappoport entered tit-for-tat in Axelrod's tournament, so it is arguably
+Rappoport's tit-for-tat rather than Axelrod's.
+
+Dave Burns
+tburns@gmuvax.gmu.edu (T. David Burns)
+
+
+------------------------------
+
+Date: Fri, 24 Sep 93 09:57:27 MDT
+From: morgan@arc.ab.ca (Sean Morgan)
+Subject: FWD: Genetic programming and Stock Trading
+
+Forwarded from Neuron Digest
+-----------
+Subject: Stock Trading
+From:    raethpg%wrdc.dnet@wl.wpafb.af.mil
+Date:    Thu, 09 Sep 93 13:53:25 -0500
+
+[[ Editor's Note: Readers are reminded that the Moderator of this Digest
+should be awarded 10% of all profits made from using the ideas published
+here. -PM ]]
+
+Given the interest in the Digest on securities trading, I thought the
+attached message would be of interest to the readers.
+
+Best,
+Pete.
+
+
+                  I N T E R O F F I C E   M E M O R A N D U M
+
+                          Date:     07-Sep-1993 06:10pm EDT
+                          From:     @Sunburn.Stanford.EDU:BurmanJ
+                          SUBJ:     GP and Stock Trading
+
+
+(Note: GP refers to genetic programming)
+
+As a GPer and registered investment advisor (great combination), I am
+very familiar with the characteristics of stock trading and the potential
+uses of GP towards trend prediction.  If one studies the statistical
+characteristics of market activities, one finds that there is very little
+correlation between current, past and future behavior of stock prices ...
+this probably results from the Dow Theory which basically says that any
+market advantage in price is very quickly equalized by competition from
+investors and market makers (the people that control the price of stocks,
+bonds, etc.).  However, if one also studies the pattern characteristics
+of stock prices over time (and volume), there are definite patterns that
+seem to emerge.  The real key to market prediction is to try and
+characterize these patterns that can vary with time and price swings
+(i.e. they are not statistically stationary).
+
+>From another perspective, stock trading can be viewed as a zero sum
+game between a trader, the masses and the market makers or
+specialists.  You want to avoid the behavior of the masses and be
+aware of the merchandising behavior of the market makers. 
+Moreover, volume behavior is complex and can be related to price
+variation through temporal modeling.  How to combine these ideas
+into a GP model is not at all easy ... also, attempting to predict
+market behavior in a stock through simulation is very different
+than actually trading.  Selling out your investment is the hardest
+decision since sometimes it pays to cut your loses short versus
+waiting for a turn around that may come over a long period of time.
+
+My basic advice: you need to read several good books on the market and
+really understanding the details of the market mechanisms from
+fundamentals to how the market makers compete against the average
+investor.  It may appear easy to try and develop a GP model for this
+application, but one is competing against professional traders on the New
+York Stock Exchange whose livelihood is to is take your money all the way
+to their bank ... oh by the way, these market makers know who is buying
+and selling and they can trade for their own accounts.
+
+For further discussion and opinions, contact:
+
+  Jerry Burman, jab@joker.iipo.gtegsc.com
+
+
+
+------------------------------
+
+Date: Fri, 24 Sep 93 17:08:13 BST
+From: jrk@sys.uea.ac.uk (Richard Kennaway)
+Subject: META: archive
+
+D. Anton Sherwood writes:
+>How about two posting addresses?  Mail to ex-a would be archived, mail to
+>ex-b not, but both would be reflected to the list.
+
+This wouldn't solve the problem of following up a message the author didn't
+want to be archived, in a message you do want to be archived.
+
+I appreciate the concerns of people not wanting their postings here to be
+spread around in public like caviar to the general, but would there be any
+objection to changing the list rules along the following lines:
+
+Permit anyone to make available to any member of the list a copy of any
+posting they may have saved (regardless of whether the recipient was a
+member when the posting was originally made).
+
+What reasons do people have for not wanting their postings to be archived?
+
+--                                  ____
+Richard Kennaway                  __\_ /    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk      \  X/     University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk    \/       Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Fri, 24 Sep 93 10:26:06 MDT
+From: morgan@arc.ab.ca (Sean Morgan)
+Subject: Fermi Paradox Resolved!
+
+Premise: Life is ubiquitous. Nearly every star system has planets. Nearly
+every planetary system has life-supporting planets. Life evolved inevitably
+on nearly every one of them. Intelligent life is the natural outcome.
+
+Conclusion: Intelligent life is all around us. Probably within a few
+light-years.
+
+So where are they? Barrow and Tipler note several possible reasons (purists
+will note that we are discussing "possible worlds" here, so the use of
+"possible" or "probable" is justified). This list has mentioned most of
+them.
+
+A major reason has been left out!
+
+My theory combines the threads on the Fermi Paradox with the recent threads
+on the selling of the universe (auctioning vs. homesteading, and the legal
+wrangles, involvement of the U.N., World Government, etc.).
+
+I theorize that *legal wranglings* and *planetary governments* have frozen
+expansion of *all* of these civilizations. They are so tied up with legal
+briefs about ownership, property tax, equal rights amendments (gives
+"illegal aliens" a new meaning), and whatnot that they are trapped on their
+home planets. The lawyers are, of course, very happy with this state of
+affairs. 
+
+The usual argument about all it takes is *one* building of a Von Neumann
+Probe to expand across the galaxy in a few million years is *false*. Simple
+examination of the legal culture on our own planet--and by extension, all
+of our many neighbors--reveals that lawyers can replicate faster than any
+known process, including the purported 22-minute doubling time of
+bacteria-like nanomachines (hardly surprising, given that lawyers are a
+specialized form of bacteria).
+
+In fact, the Von Neumann Probes are actually carrying legal briefs to
+neighboring systems, introducing them to the law if they have not already
+discovered it (hardly!), and filing suit against them if they already have.
+Of course, a few civilizations (dare I call them that?) have made contact
+with their nearest neighbors, resulting in a flurry of lawsuits and torts.
+
+Since every theory needs to be falsifiable in order to be considered
+seriously, this is what we need to look for in order to confirm my theory:
+
+- every star system should be surrounded by a Dyson Sphere to house all the
+lawyers, suggesting an infrared signature.
+
+Clearly, star systems we can see are *not* primarily radiating in the
+infrared. Why? My theory is that we are seeing primarily visible light
+because of the well-known fact that lawyers always demand *outside window*
+offices. With the Dyson Spheres, each of the quadrillions of lawyers thus
+has a window on the outside of the Sphere, and what we are seeing in the
+visible spectrum are their _office lights_!
+
+(Ultra high-res images and spectral analysis will likely confirm this, as
+well as giving us the formula for new kinds of fluorescent light bulbs.
+Variable stars are of course telling us what their working hours are.)
+
+There's an old saying that a single lawyer in a town starves, two lawyers
+prosper. With the mass of the galaxy converted to lawyers and their briefs,
+imagine the galactic prosperity!
+
+
+-Klaus! von Future Prime
+
+
+
+
+
+
+
+------------------------------
+
+Date: Fri, 24 Sep 1993 12:39:58 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: META: archive 
+
+Richard Kennaway says:
+
+> I appreciate the concerns of people not wanting their postings here to be
+> spread around in public like caviar to the general, but would there be any
+> objection to changing the list rules along the following lines:
+> 
+
+Myself, I don't want to see this can of worms opened again -- catching
+all the wrigglers last time was pretty bad. I say we just leave it
+alone for now...
+
+Perry
+
+------------------------------
+
+Date: Fri, 24 Sep 93 10:47:19 MDT
+From: morgan@arc.ab.ca (Sean Morgan)
+Subject: Fermi Paradox Resolved! (Oops)
+
+I just meant to archive that.  Sorry.
+
+
+
+------------------------------
+
+Date: Fri, 24 Sep 1993 10:24:31 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: GUNS: Buy Chinese (was: Don't buy Chinese)
+
+>From: eder@hsvaic.boeing.com (Dani Eder)
+>Subject: GUNS: Buy Chinese (was: Don't buy Chinese)
+>X-Extropian-Date: Remailed on September 24, 373 P.N.O. [13:20:21 UTC]
+>X-Message-Number: #93-9-1368
+>
+>Recent history suggests that a totalitarian regime [...]
+>has a mean time to failure of two generations.  [...]
+>At a sufficiently high standard
+>of living, people have the means to subvert a totalitarian regime -
+>desktop publishing, faxes, telephones, etc.  They also will have a higher
+>level of education needed to run a more advanced economy - and I believe
+>it is no co-incidence that universities are often the site of revolts.
+>
+>[...] China
+>is growing rapidly economically.  If it maintains an 8% growth rate
+>I give it a generation until the country has a high enough standard of
+>living to overthrow the present political system.
+
+Cool!  How long until the U.S. has a sufficiently high standard of living
+to throw off _its_ present political system (or will Billary's War on
+Health reverse the trend toward a higher standard of living)?
+                                        dV/dt
+                                        Born in a bad mood
+
+
+------------------------------
+
+Date: Fri, 24 Sep 1993 10:34:48 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: NEWS: Lloyd's? (was SPACE: limits on launch costs)
+
+>From: eder@hsvaic.boeing.com (Dani Eder)
+>Subject: SPACE: limits on launch costs
+>X-Extropian-Date: Remailed on September 24, 373 P.N.O. [14:21:44 UTC]
+>X-Message-Number: #93-9-1370
+>
+>    Interesting social/legal problems would include:
+>
+>    (1)  What sticks up might fall down.  If you don't end up
+>         putting it where fall-down would be harmless, how do you
+>         deal with the possibility of death and damage to others
+>         in the event of a failure?
+>
+>You design it to the requirements to make it an insurable structure,
+>and then get insurance (probably through Lloyd's given the size and
+                                          ^^^^^^^
+>novelty).  A 747 crash landing in a big city would hurt a lot of
+>people too, but they manage to get insurance.
+
+Ummmm... didn't Lloyds suffer a big meltdown recently?  I read a piece in
+the WSJ about how underwriters in Bermuda are making a fortune picking up
+the pieces...
+                                        dV/dt
+
+
+------------------------------
+
+Date: Fri, 24 Sep 1993 10:38:13 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: Info request on Information Markets/Idea Futures
+
+>From: perry@potlatch.hacktic.nl (Paul Michael Perry)
+>Subject: Info request on Information Markets/Idea Futures
+>X-Extropian-Date: Remailed on September 24, 373 P.N.O. [07:32:05 UTC]
+>X-Message-Number: #93-9-1362
+>
+>I'd like to develop my literacy a bit and am looking for essays (you know,
+>RTFM manuals) on information markets and idea futures.
+>Anyone got anything archived which might fill me in a bit?
+>
+>Thanks,
+>
+>Paul
+>        Paul Michael Perry               FAX: +31 50 256662
+>        perry@potlatch.hacktic.nl        Groningen HOLLAND
+
+Try EXTROPY #8, where Robin Hansen published a nice introduction to ideas
+futures.  It also contains bibliographic cites to more detailed papers on
+the topic in the peer-reviewed literature, the main one being in a journal
+on gambling and games of chance, as I recall.  I don't have Robin's new
+e-mail address handy here at work, but I bet he's still reading the list...
+                                        dV/dt
+
+
+------------------------------
+
+Date: Fri, 24 Sep 1993 13:48:55 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: Meta: List Function
+
+>From Panix sysadmin.
+
+
+Internet connection flakeyness (jhawk) Fri Sep 24 13:12:54 1993
+
+   You may have noticed brief periods of time earlier today
+   when our Internet connection was acting flakey, or was
+   unavailabile. This is due to rerouting due to the Amtrak
+   derailment. Hopefully it should not last long.
+
+
+------------------------------
+
+Date: Fri, 24 Sep 1993 14:06:24 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: NEWS: Lloyd's? (was SPACE: limits on launch costs) 
+
+Dave Krieger says:
+> Ummmm... didn't Lloyds suffer a big meltdown recently?
+
+Lloyds is for practical purposes an exchange -- it doesn't itself
+offer insurance per se. It provides a forum for the "names", high net
+worth individuals who participate in the market, to join into pools to
+bid on projects. The names have unlimited liability. Recently, the
+system has been breaking down, mostly because names are a bunch of
+coddled infants who think that if they bid too cheaply on a contract
+that someone else should pay for their mistakes. Lloyds is not,
+however, in and of itself in financial trouble -- its not in a
+position to be in financial trouble.
+
+> I read a piece in the WSJ about how underwriters in Bermuda are
+> making a fortune picking up the pieces...
+
+Yeah, Bermuda is the new hot offshore location for underwriters and
+reinsurance.
+
+Perry
+
+------------------------------
+
+Date: Fri, 24 Sep 93 11:16:24 -0700
+From: kwatson@netcom.com (Kennita Watson)
+Subject: Sorry about the repeats
+
+   Sorry about the repeats. My Windows offline reader had *not* deleted
+   my DOS offline reader's previous replies. Sorry for all the trouble.
+
+Problem is -- I answered all your questions, but never got a reply
+stating what I should do as a result!  I'll assume my answers got
+lost.  Let's see if I can find them....  Ah, here we are:
+
+   Date: Mon, 20 Sep 93 11:12:58 -0700
+   From: kwatson (Kennita Watson)
+
+      KW> I've been thinking of getting one while I still can.  Can you tell me
+      KW> more?  I'm pretty clueless as to what would be a good weapon, a good
+      KW> price, etc.  Truth to tell, I like the idea of a 200-lb pull,
+      KW> double-arch crossbow pretty well, because it's quiet and I think two
+      KW> shots would handle most anybody, but a firearm may be better.
+
+      What do you plan to use it for?
+
+   Self-defense (home under normal circumstances, land/compound/street
+   under extraordinary ones).
+
+      What is the environment you plan to use it?
+
+   Emergency.
+
+      Are there children around?
+
+   Not now.  If the shit hits the fan, who knows?
+
+      What are the secondary uses for the weapon? Hunting? Clubs?
+      Contests?
+
+   Target shooting to learn how to use it.  Maybe contests if it turns
+   out I'm any good at it.
+
+      What can you afford for the weapon and accessories?
+
+   That depends on how soon I would need to do it.  I can shake loose
+   $200 almost immediately, and would need somewhat more time and
+   increasingly better reasons to get my hands on up to say $2000.
+   Anything over that would take me significant amounts of time.
+
+   Is it best to get all at once, or can I buy accessories afterwards (or
+   maybe before, if it looks like the accessories will be outlawed
+   first)?
+
+      How much time an you find to train for and maintain your weapon?
+
+   Maintenance is not one of my strong points.  How much time I'd take
+   would depend on how much fun it turned out to be.  Something I wasn't
+   likely to forget some important safety feature of if I didn't pick it
+   up for years would be good, especially if the weapon is likely to be
+   outlawed and thus opportunities to fire it scarce.
+
+      Are you willing to learn reloading?
+
+   I didn't know it was optional, which indicates that I don't know what
+   it is.
+
+      What are the attitudes of your significant others on the issue?
+
+   Significant others?  What significant others?
+
+      How big is your hand?
+
+   7-1/8 inches from wrist crease to tip of middle finger, 8-1/2 inch
+   spread from baby finger to thumb.  BTW -- I want to learn to shoot
+   with either hand (I'm normally left-handed) because one never knows
+   what weapon will be available.
+
+      What is your body weight?
+
+   160 pounds, compactly arranged.
+
+      Let me know the above and I'll be more than happy to make
+      suggestions. There are many good archery clubs in big cities. Some
+      don't allow crossbows though.
+
+   Am I talking through my hat on the archery issue?  I don't want to be
+   stuck with a crossbow if it turns out it won't stop somebody trying to
+   get to me and my friends, or if ammo really is hard to buy/find/make.
+
+   Thanks,
+   Kennita
+
+Awaiting your reply,
+Kennita
+Kennita Watson         | "Sic gorgiamus allos subjectatos nunc -- we gladly
+kwatson@netcom.com     | feast on those who would subdue us.  Not just pretty 
+                       | words...."                      -- The Addams Family
+                     
+
+------------------------------
+
+Date: Fri, 24 Sep 1993 12:55:43 -0400 (EDT)
+From: LEVY%BESSIE@venus.cis.yale.edu
+Subject: GUNS: Don't buy Chinese (was GUNS: buy Chinese)
+
+One of the reasons I refrain from posting a lot to this 
+list is that, for some reason I don't understand, people 
+seem to attend to the least signficant part of my 
+message.  The most recent example is Mike Price's 
+comments about what happened in Tiannamen Square.  I 
+stand by my zany belief in the wrongness of murdering 
+unarmed student protestors, and thank Richard Kennaway 
+for replying to Mike's attempts to put blame on the 
+students.  Still, the incident itself is tangential to 
+the point I was trying to make, which is that mainland 
+Chinese products are often made by political prisoners 
+in a slave-labor system.  These people are in jail for 
+exercising rights that you and I take for granted, like 
+the right to complain about the quality of food at a 
+grocery store.  
+
+Since Richard has already addressed the issue of why 
+trading with China will probably not improve the 
+political climate there, I won't repeat his comments.  I 
+will, however, add that any positive benefits an action 
+may engender must be weighed against the message that 
+the action gives.  In this case, the Chinese government 
+(and other overseas criminals) have come to realize that 
+they can continue to enslave their citizens and, as long 
+as the price is right, continue to sell their goods in 
+the Land of the Free.
+
+-- Simon!
+
+------------------------------
+
+Date: Fri, 24 Sep 1993 14:51:19 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: META: archive
+
+a conscious being, D. Anton Sherwood wrote:
+> 
+> Tim May:
+> > (Harry S. told me at the Extropolooza that the idea of an archive of past
+> > postings is being again considered. This is long overdue. Submission of
+> > posts to such an archive would be voluntary, of course.)
+> 
+> How about two posting addresses?  Mail to ex-a would be archived, mail to
+> ex-b not, but both would be reflected to the list.
+
+We could do that. We could also make a agent setting that put
+the appropriate x-header in the message.
+
+/hawk
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+Date: Fri, 24 Sep 93 12:00:30 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: GUNS: Ammo will never really be hard to find...
+
+Somebody, apparently Kennita Watson, is talking about getting a crossbow
+because of fears that ammo may someday be hard to find:
+
+
+>       Let me know the above and I'll be more than happy to make
+>       suggestions. There are many good archery clubs in big cities. Some
+>       don't allow crossbows though.
+> 
+>    Am I talking through my hat on the archery issue?  I don't want to be
+>    stuck with a crossbow if it turns out it won't stop somebody trying to
+>    get to me and my friends, or if ammo really is hard to buy/find/make.
+> 
+
+Look at war-torn areas like the former Yugoslavia and you'll see that
+ammo is still widely available. Granted, mainly to militia and the
+like. I cannot see the U.S. ever becoming one giant former Yugoslavia
+or Beirut, except in inner cities and ghetto jungles, so "running out
+of ammo" is even less likely than in these regions.
+
+The real threat to most folks will continue to be muggings, random
+murders, gang shootings, drug deals gone bad, home invasions (and the
+murders of all inside by the invading BATF goons), and crazies who
+take over restaurants and post offices.
+
+(Were I a woman, I'd flout the carry laws and carry a compact 9mm
+pistol in my purse. A girlfriend of mine many years ago did exactly
+this when she went to work a graveyard shift. Cops we met at the range
+(Sunnyvale Rod & Gun, 19 years ago!!) told her that's what their wives
+and girlfriends did, and that the odds of being caught are
+slim-to-none, with a slap on the wrist to anyone caught. (Of course,
+that was then and this is now, and "victim disarmament" (aka, "gun
+control") is tres trendy. Also, metal detectors have proliferated, and
+may be in various public buildings, corporate entrances, etc., so be
+careful.)
+
+Back to crossbows.
+
+Worrying about running out of ammo and instead taking up the crossbow is
+seriously wrong-headed. Take up the bow and arrow if you _like_ it, as
+entertainment, but trust to more modern technology where it counts.
+
+A case of 1000 rounds of 9mm ammo costs about $140. This is not the
+"premo" stuff many of us favor (Hydra-Shoks, Silvertips, and jacketed
+hollow-points in all their many flavors), but it'll certainly do in
+most shooting situations, expecially compared to trying to draw your
+crossbow from under your coat and take down several armed predators.
+
+And even if Moynihan and Company succeed in banning 9mm ammo, several
+boxes (200-300 rounds) should be still far better than medieval
+alternatives. Better still, the aforementioned case. (Should the worst
+occur, and ammo become scarcer, enough of it is already available that
+it'll be for sale on the black market. Maybe a dollar a round, but
+available. The moral: practice now.)
+
+(On the Moynihan proposal: Yes, a real proposal....an armed predator
+rarely does target practice, so a box of cartridges will last him for
+20-30 murders, but law-abiding folks like us, who like to become
+proficient, will be shut out of practice---typical fairyland idea)
+
+What about shotguns? For in-home use, a 12-gauge shotgun is OK. For
+use in cars, on the street, and in close quarters, I say go with a
+handgun. A Glock 17 or 19 is cheap ($420 or so), is incredibly
+reliable, and is easy to learn to operate (no "Condition One" and
+"Condition Two" stuff). The Glock carries about 17-18 rounds.
+
+Other nice pistols are the SIG, the Beretta, etc. I've heard good
+things about the compact (but heavy) "Firestar," also in 9mm.
+
+The .45 is still popular, but much less so. "One-shot stops" are
+actually higher with proper 9mm ammo (115 grain Hydra-Shoks, for
+example). Also, the kick bothers some folks. (My Glock 9mm is more
+pleasant to shoot than my Colt Governement Model .45. I hear the Glock
+.45 is quite mild to shoot.)
+
+Revolvers are another possibility, as most shooting situations don't
+need more than six shots (if the shots are placed carefully, one or
+two ought to do it).
+
+A 4" barrelled Smith & Wesson 586 or 686 (stainless, and not really
+necessary, perhaps not even advisable) will handle mild .38 loads (not
+recommended, especially not for target practice!), hotter loads, and
+.357 loads. Costs range from $300-$400.
+
+Used guns are cheaper, obviously. A fair number of used .357
+revolvers, from police forces that have switched to 9mm, are available
+in the $200-250 range. Perfectly fine guns, generally.
+
+The newer cartridges, .40 S&W and 10mm, don't seem to offer enough
+advantages over the 9mm to make up for their more limited availability
+(forget the "case of 1000 for $140" number) and increased cost. 9mm
+ammo is ubiquitous.
+
+So, a 9mm Glock 19 would be my overall choice. Try others, especially
+the SIG, to see what you like the best. Then practice at least two or
+three times a year. 
+
+(I strongly favor the indoor ranges, as they allow targets to be
+pulled in closer (on pulleys) and thus allow short-range shooting.
+Most defensive shooting will be done at a maximum range of 10 yards
+(typically much less), so the "25 yard" and "50 yard" ranges at most
+outdoor ranges are ill-suited for defensive shooting. In fact, the
+whole "target practice" approach of bulls-eye targets is a bad idea.)
+
+Hope this helps.
+
+-Tim May
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Fri, 24 Sep 93 12:17:57 -0700
+From: plaz@netcom.com (Geoff Dale)
+Subject: SMARTDRUGS: Deprenyl
+
+Cross-posting from Exi-Bay,
+Me replying to W T <wt@ptolemy.arc.nasa.gov>:
+
+>>I don't know too much about deprenyl, but I think it's an MAO-B
+>>inhibitor.
+>
+>Correct on both counts.
+>
+>>It's best known for its use as something to try as a
+>>curative antidepressant, but is gaining favor as a life extension
+>>prophylaxis.  The idea is probably that as people age, the monoamine
+>>oxidase in their synapses increases.  This in turn affects
+>>catecholamine (dopamine) levels, which presumably lowers ones
+>>cognitive performance and appears to contribute to depression,
+>>Parkinson's disease, etc.
+>>
+>>So the idea is that taking low doses of it while you are young keeps
+>>you spunky as a monkey.  Or something like that.  To me, it seems a
+>>bit of a long shot, and I wouldn't do it, given the current state of
+>>knowledge, if I were completely healthy and had good aging genes.  But
+>>that's up to the person shooting long, not up to me.  He has different
+>>betting odds on it than me and I have no right to tell him what to do.
+>>And I'm anxious to find out what he discovers!
+>
+>I used to have a good info packet on this stuff. Including the results of
+>thirty years of clinical trials, but I gave it away. I'll see if I can find
+>another copy and post some pointers.
+>
+>>If ones cognitive performance were not up to ones normal snuff right
+>>NOW (like if you're really pissed off at forgetting appointments all
+>>the time), then ones betting odds would probably improve, once other
+>>classes of substances that have no dietary restrictions were tried.
+>>(I'm not sure about deprenyl, but with some MAO inhibitors, you can't
+>>eat cheese etc. because they contain tyramine.  This is probably
+>>dose-dependent.)
+>
+>Deprenyl is more selective than most MAO inhibitors, it has no
+>"cheese-effect". One side effect I do know about is a synergy with MDMA
+>(ecstacy). It makes MDMA more potent. "Mondo 2000's Guide to the New Edge"
+>even reported than that, while on deprenyl even a little dose of MDMA can
+>kill you. This is not true as far as personal accounts and various
+>experimentation has proved, but be a little more conservative with the
+>stuff than usual.
+>
+>>  There is a need for more classes of substances for
+>>people to try, since zillions of factors can affect zillions of types
+>>of cognitive problems and not everybody fits into the mold of one
+>>particular neurological diathesis or therapeutic class.  And there is
+>>a screaming need for better imaging and other tests.
+>>
+>>RE: IS IT CONTROLLED:
+>
+>Deprenyl is a prescription only drug.
+>
+>_______________________________________________________________________
+>Geoff Dale    -- insert standard disclaimers here --    plaz@netcom.com
+>      "A small case of mood poisoning, must be something I hate." 
+>         - Eli, the Father of the Friends (from Wild Palms)
+>
+>
+>
+
+_______________________________________________________________________
+Geoff Dale    -- insert standard disclaimers here --    plaz@netcom.com
+      "A small case of mood poisoning, must be something I hate." 
+         - Eli, the Father of the Friends (from Wild Palms)
+
+
+
+------------------------------
+
+End of Extropians Digest V93 #266
+*********************************
+

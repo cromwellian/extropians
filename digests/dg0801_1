@@ -1,0 +1,334 @@
+From extropians-request@extropy.org Mon Aug  1 15:02:23 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id PAA26120 for <more@chaph.usc.edu>; Mon, 1 Aug 1994 15:02:15 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA06498; Mon, 1 Aug 94 15:02:06 PDT
+Received: by news.panix.com id AA14665
+  (5.65c/IDA-1.4.4 for more@usc.edu); Mon, 1 Aug 1994 18:01:39 -0400
+Date: Mon, 1 Aug 1994 18:01:39 -0400
+Message-Id: <199408012201.AA14665@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-8-1 - #94-7-281
+X-Extropian-Date: August 1, 374 P.N.O. [18:01:12 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Mon, 1 Aug 94             Volume 94 : Issue 212
+
+Today's Topics:
+                          DIET:  antibiotics/yogurt                   [1 msgs]
+                           DIET: antibiotics/yogurt                   [2 msgs]
+                       Extropians List Statistics 7/24                [1 msgs]
+                           fuzzy prisoner's dilemma                   [1 msgs]
+                          fuzzy prisoner's dilemma?                   [2 msgs]
+                           JOKE: Dog eat dog quote                    [1 msgs]
+                     Kinder & Gentler "Common Heritage"?              [1 msgs]
+                                Party: Tonight                        [1 msgs]
+                          Quantum Crypto out to Bid                   [1 msgs]
+                 Question about New World Times and Unity 94          [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 26415 bytes.
+
+----------------------------------------------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Mon, 1 Aug 94 12:42:56 GMT
+Subject: [#94-8-1] fuzzy prisoner's dilemma?
+
+ Anton Sherwood <dasher@netcom.com> writes: 
+>
+>Has there ever been a fuzzy version of Axelrod's Iterated Prisoner's
+>Dilemma tournament?  By "fuzzy", I mean with choices and scores
+>not restricted to defect (0) and cooperate (1), but including all
+>real numbers between.  The scoring function could be 
+>	a - bx + cy + dxy
+>where x is your move, y is the other move, 0 <= x,y <= 1,
+>0 < b < c, (b-c)/2 < d < b.  (For Axelrod's PD, a=b=1, c=4, d=-1.)
+>
+I've never heard of one, but it sounds like a really cool idea--
+and just to make it a little more like the real world, I'd add
+that the competitors win resources that they can
+use for reward and punishment in future rounds--but there
+are maintenance costs for keeping a large stash.
+
+I'm not sure what the most elegant way is to handle the maintenance
+costs. Just having a cost that goes up as a player accumulates
+points (or that maximizes at some moderate level of points and
+then declines per point as more points are added) is arbitrary,
+though it would be fun to fiddle with the cost.
+
+You could get some interesting results by allowing competitors to
+transfer mainentance ability to each other. In effect, the big
+winners could hire guards/accountants, and if there's a declining
+cost per point for sufficiently large stashes, then it would be
+worthwhile for the small players to form cooperatives. 
+
+A PD variant that I've wondered about is allowing players to
+interact with all the other players during a round, but limiting
+the amount (or perhaps type) of memory that they have for previous
+transactions. By type of memory, I mean that some players might
+be better at remembering who they've played with and others
+might be able to remember more extended histories.
+
+This reminds me of a type of competition that I'd like to see--
+a completely open chess tournament--open to humans, teams of
+humans, programs, teams of programs, and human-program combinations.
+
+I believe that this would lead to some good interface designs,
+not to mention a chance to discover what the current upper limit
+for chess playing is.
+
+Nancy Lebovitz
+
+------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Mon, 1 Aug 1994 11:27:49 -0400 (EDT)
+Subject: [#94-8-2] Party: Tonight
+
+For those who RSVP'd my room # at the Copley Plaza is 575.
+
+See you...
+
+/hawk
+
+
+-- 
+Harry S. Hawk  		   habs@panix.com
+Product Marketing Manager
+PowerMail, Inc. 	   Producers of MailWeir(tm) & PowerServ(tm)
+
+------------------------------
+
+From: pavel@PARK.BU.EDU (Paul Cisek)
+Date: Mon, 1 Aug 1994 11:39:46 -0400
+Subject: [#94-8-3] fuzzy prisoner's dilemma
+
+>From: dasher@netcom.com (Anton Sherwood)
+>X-Message-Number: #94-7-281
+>
+>Has there ever been a fuzzy version of Axelrod's Iterated Prisoner's
+>Dilemma tournament?  By "fuzzy", I mean with choices and scores
+>not restricted to defect (0) and cooperate (1), but including all
+>real numbers between.  The scoring function could be 
+>	a - bx + cy + dxy
+>where x is your move, y is the other move, 0 <= x,y <= 1,
+>0 < b < c, (b-c)/2 < d < b.  (For Axelrod's PD, a=b=1, c=4, d=-1.)
+
+I've never heard of this, but it sounds quite reasonable and very interesting.
+For one, you could apply more "analog" algorithms to search for solutions,
+such as reinforcement learning or a GA with an analog coding.  Then small
+variations in players could translate into small statistical advantages and
+solutions could smoothly explore the smoothly changing fitness function.
+Perhaps this problem formulation could afford a dynamical systems analysis...
+(I assume that you mean an Iterated PD).
+
+I've never heard of such a thing myself, but I'll keep an eye out...
+
+Paul
+
+
+------------------------------
+
+From: kwatson@netcom.com (Kennita Watson)
+Date: Sat, 30 Jul 1994 13:57:06 -0700
+Subject: [#94-7-273] DIET:  antibiotics/yogurt
+
+Someone expressed concern about the fact that yogurt only contains one kind
+of culture, and that that might not be enough to properly repopulate the
+digestive system after taking antibiotics.  Well, at my local health food
+store (Country Sun -- YMMV), I found a brand called Mello Bros.  It's
+nonfat, fruit-juice sweetened, and comes "with living cultures:  S.
+Thermophilus, L. Bulgaricus, L. Acidophilus, and Bifidus".
+
+I have no further data, but those concerned with cultural diversity (so to
+speak) may want to try it.
+
+Kennita
+
+
+Kennita Watson    | The bond that links your true family is not one of blood,
+kwatson@netcom.com| but of respect and joy in each other's life.   Rarely do
+                  | members of the same family grow up under the same roof.
+                  |                            -- Richard Bach, _Illusions_
+
+
+
+------------------------------
+
+From: Safier <safier@unm.edu>
+Date: Sat, 30 Jul 1994 16:15:20 -0600 (MDT)
+Subject: [#94-7-274] DIET: antibiotics/yogurt
+
+On Sat, 30 Jul 1994, Kennita Watson wrote:
+
+> Someone expressed concern about the fact that yogurt only contains one kind
+> of culture, and that that might not be enough to properly repopulate the
+> digestive system after taking antibiotics.  Well, at my local health food
+> store (Country Sun -- YMMV), I found a brand called Mello Bros.  It's
+> nonfat, fruit-juice sweetened, and comes "with living cultures:  S.
+> Thermophilus, L. Bulgaricus, L. Acidophilus, and Bifidus".
+
+The really hot gut-friendly critter: L. salivarius. One needs to go on a 
+fairly intensive regime of 3+ weeks to firmly implant, but then ... say 
+goodbye to your enemies. I can provide info on the source. This one took 
+a lot of work to make implantable orally. Everyone should have it at 
+birth, but since our moms had L-deprived intestines, we do too. 
+Chlorinated water along with antibiotics from docs and butchers adds 
+insult to injury.  But now we can strike back.
+
+Apropos food processing: you also need to add multi-purpose digestive 
+enzymes if you eat cooked food.
+Dy'all know about mycellized vitamins (fat solubles emulsified into water 
+soluble)? The most efficient way to get your RDA+++++.
+
+Knock and the door shall open.
+	*******************************************
+	Phil o Safier  <safier@unm.edu>   Neuromech
+	Mind Gear / Actuated Happiness / E'/ Null A
+	"Forget the Dead." B. Dylan RIP Oblivion,CA
+	*******************************************
+
+
+
+
+
+
+------------------------------
+
+From: shamrock@netcom.com (Lucky Green)
+Date: Sat, 30 Jul 1994 15:32:47 -0700
+Subject: [#94-7-275] DIET: antibiotics/yogurt
+
+>On Sat, 30 Jul 1994, Kennita Watson wrote:
+>
+>> Someone expressed concern about the fact that yogurt only contains one kind
+>> of culture, and that that might not be enough to properly repopulate the
+>> digestive system after taking antibiotics.  Well, at my local health food
+>> store (Country Sun -- YMMV), I found a brand called Mello Bros.  It's
+>> nonfat, fruit-juice sweetened, and comes "with living cultures:  S.
+>> Thermophilus, L. Bulgaricus, L. Acidophilus, and Bifidus".
+>
+>The really hot gut-friendly critter: L. salivarius. One needs to go on a
+>fairly intensive regime of 3+ weeks to firmly implant, but then ... say
+>goodbye to your enemies. I can provide info on the source. This one took
+>a lot of work to make implantable orally. Everyone should have it at
+>birth, but since our moms had L-deprived intestines, we do too.
+>Chlorinated water along with antibiotics from docs and butchers adds
+>insult to injury.  But now we can strike back.
+
+Would you please elaborate?
+
+-- Lucky Green <shamrock@netcom.com>  PGP public key by finger
+
+
+
+------------------------------
+
+From: extropians-request@extropy.org (Extropians Mailing List)
+Date: 
+Subject: [#94-7-276] Extropians List Statistics 7/24
+
+Weekly List Statistics for 7/24 to 7/30
+
+Total Number of Messages Posted: 72
+Total Size of Messages Posted  : 163405 bytes
+Average Total Size per Day     : 23343 bytes
+Average # of Messages per Day  : 10
+Average Message Size           : 2269 bytes
+Number of Posters Participating: 40
+
+
+
+Top Ten Posters by Frequency
+
+1. fcp@nuance.com (5 total, 0.7/day, 6.9% of total)
+2. arkuat@netcom.com (4 total, 0.6/day, 5.6% of total)
+3. pcm@world.std.com (3 total, 0.4/day, 4.2% of total)
+4. minsky@media.mit.edu (3 total, 0.4/day, 4.2% of total)
+5. safier@unm.edu (3 total, 0.4/day, 4.2% of total)
+6. extropy@price.demon.co.uk (3 total, 0.4/day, 4.2% of total)
+7. pgf@srl03.cacs.usl.edu (3 total, 0.4/day, 4.2% of total)
+8. dasher@netcom.com (3 total, 0.4/day, 4.2% of total)
+9. kwatson@netcom.com (2 total, 0.3/day, 2.8% of total)
+10. szabo@netcom.com (2 total, 0.3/day, 2.8% of total)
+
+
+
+Top Ten Posters by Volume
+
+1. arkuat@netcom.com (13.9kbytes, 2035 bytes/day, 8.7% of total)
+2. 155yegan%jove.dnet.measurex.com@juno.measurex.com (10.6kbytes, 1551 bytes/day, 6.6% of total)
+3. mark.grant@isltd.insignia.com (9.8kbytes, 1434 bytes/day, 6.1% of total)
+4. fcp@nuance.com (9.3kbytes, 1358 bytes/day, 5.8% of total)
+5. pcm@world.std.com (8.1kbytes, 1190 bytes/day, 5.1% of total)
+6. minsky@media.mit.edu (6.1kbytes, 898 bytes/day, 3.8% of total)
+7. szabo@netcom.com (6.0kbytes, 878 bytes/day, 3.8% of total)
+8. mbrady@msmail.his.tch.tmc.edu (6.0kbytes, 876 bytes/day, 3.8% of total)
+9. smo@gnu.ai.mit.edu (5.9kbytes, 859 bytes/day, 3.7% of total)
+10. timstarr@netcom.com (5.8kbytes, 846 bytes/day, 3.6% of total)
+
+
+
+
+Histogram of the week by number of messages
+
+       +---+
+Sun    |3  |
+       +---+
+       +-----+
+Mon    |5    |
+       +-----+
+       +----------+
+Tue    |10        |
+       +----------+
+       +--------------+
+Wed    |14            |
+       +--------------+
+       +--------------+
+Thu    |14            |
+       +--------------+
+       +----------------+
+Fri    |16              |
+       +----------------+
+       +----------+
+Sat    |10        |
+       +----------+
+
+
+
+
+Histogram of the week by daily volume
+
+       +-+
+Sun    | |5879
+       +-+
+       +---+
+Mon    |   |13808
+       +---+
+       +----+
+Tue    |    |17895
+       +----+
+   

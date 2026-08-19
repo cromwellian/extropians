@@ -1,0 +1,541 @@
+From extropians-request@extropy.org Tue Jul 19 05:02:08 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id FAA20607 for <more@chaph.usc.edu>; Tue, 19 Jul 1994 05:02:06 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA21250; Tue, 19 Jul 94 03:02:28 PDT
+Received: by news.panix.com id AA16675
+  (5.65c/IDA-1.4.4 for more@usc.edu); Tue, 19 Jul 1994 06:02:24 -0400
+Date: Tue, 19 Jul 1994 06:02:24 -0400
+Message-Id: <199407191002.AA16675@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-7-148 - #94-7-157
+X-Extropian-Date: July 19, 374 P.N.O. [06:01:28 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Tue, 19 Jul 94             Volume 94 : Issue 199
+
+Today's Topics:
+                                                                      [1 msgs]
+                                  fun stuff                           [1 msgs]
+                I'm outta control with the conspiracies, baby!        [1 msgs]
+                         If Knowledge Limits Learning                 [3 msgs]
+                        If Knowledge Limits Learning                  [3 msgs]
+                               shoemaker-levy 9                       [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 28241 bytes.
+
+----------------------------------------------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Sun, 17 Jul 1994 16:39:08 -0700
+Subject: [#94-7-148] If Knowledge Limits Learning 
+
+Michael Clive Price writes:
+>You had said that you assumed:
+>> .... the number of valuable chunks one discovers per unit of internal
+>> processing time is proportional to the number of chunks one already
+>> has .....
+>A blank, simple net should never learn anything by this logic.  Yet they
+>do.  So why should I believe that this assumption, plucked from nowhere
+>as far as I can see, applies to more complex things, and complex neural
+>nets in particular, when it doesn't apply to simple nets?
+
+No net starts totally "blank".  Most any neural net researcher will
+tell you that much of their application success comes from carefully
+representing the data to input, and structuring the neural net to
+match.  So representation knowledge is included.  Also, it is natural
+to think of the basic "local learning rules" as embodying at least a
+few knowledge chunks.
+
+The concept of knowledge chucks was created to help explain cognitive
+science data on real humans (running on real neural nets).  The idea
+that people who know more about some area can discover things about it
+faster is also well supported by data on people.  
+
+>Even so you seemed to be making the assumption that the neural nets have
+>to discover everything for themselves.  Why can't they be trained like
+>humans?  I see no reason why a human-level neural net running on a
+>hardware platform of approx 10^17 bits/sec should take any longer than
+>a 10^17 bits/sec human to learn about the world.  
+
+Babies do *not* enter the world as blank nueral slates.  They are born
+with an incredible amount of knowledge which allows them to quickly
+learn to communicate with us, and to catch on to the nuances of
+current human culture.  Ask yourself why you can't teach all we know
+to whales, with much larger brains than us.  (I first learned of this
+stuff from a book "Programmed to Learn".)
+
+>> [Is] it obvious that you will find the right local neural net learning
+>> rule before this?
+>
+>No, but I'd bet and speculate on it.  In a sense I have bet on it, since
+>I'm signed for cryonics.
+
+How is cryonics related to whether AI happens before uploads?
+
+>I view logic, language and symbol manipulation as mere epiphenomena of
+>neural activity and trying to model human symbol manipulation directly
+>is a mistake.  
+
+Should we view a bird's ability to fly, and the pressure gradients
+near their wings, as mere epiphenomena of bird feathers, so that
+trying to reproduce similar pressure gradients without feathers is a
+mistake?
+
+Robin Hanson
+
+------------------------------
+
+From: kwatson@netcom.com (Kennita Watson)
+Date: Sun, 17 Jul 1994 19:17:07 -0700
+Subject: [#94-7-149] If Knowledge Limits Learning
+
+Mike Price says:
+>Even so you seemed to be making the assumption that the neural nets have
+>to discover everything for themselves.  Why can't they be trained like
+>humans?  I see no reason why a human-level neural net running on a
+>hardware platform of approx 10^17 bits/sec should take any longer than
+>a 10^17 bits/sec human to learn about the world.
+
+I think the neural net could learn about the world at the same rate as the
+human if and only if it had the same level of feedback, and the same
+ability to affect its environment in ways that are meaningful to it, that
+the human has.
+
+Seeing and learning about seeing are not the same thing.  Similarly for
+hearing, tasting, balancing, lifting, and emoting.  Without the ability to
+interact with the world, the net will learn, not about the world, but about
+what humans have encoded about the world.
+
+Mind you, even if it could interact in such a way, the net would not learn
+the same things about the world that a human would.  Humans learn that fire
+(and steam) can burn, that spray-painting in a closed room can cause
+lightheadedness, that unrequited love can cause emotional upset.  There is
+no reason for a net interacting with the world using mechanical sensors and
+actuators to learn any of this -- and that's just the tip of the iceberg.
+Consequently, much of what the net learns about the world may not be useful
+to humans (but may make for interesting study nonetheless, if we can
+understand it).
+
+Kennita
+
+
+Kennita Watson    | "Knock-knock" -->               "Who's there?"
+kwatson@netcom.com| "O.J."        -->               "O.J. who?"
+                  | "!!..._You're_ on the jury!"
+
+
+
+------------------------------
+
+From: mackler@world.std.com (Adam Mackler)
+Date: Fri, 10 Jun 1994 12:40:26 -0400
+Subject: [#94-7-150] I'm outta control with the conspiracies, baby!
+
+gopher to msen.com, then choose:
+
+Msen Marketplace
+
+then
+
+New Paradigms
+
+then
+
+Non-pluraistic theories of society
+
+
+Wow, there's some shit there!
+
+
+------------------------------
+
+From: mackler@world.std.com (Adam Mackler)
+Date: Fri, 10 Jun 1994 12:21:06 -0400
+Subject: [#94-7-151] fun stuff
+
+ftp to soda.berkeley.edu and look in the /pub/cypherpunks/steganography 
+directory for the file stegodos.zip.
+
+
+------------------------------
+
+From: mackler@world.std.com (Adam Mackler)
+Date: Fri, 10 Jun 1994 11:45:25 -0400
+Subject: [#94-7-152] 
+
+--=====================_771288325==_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+
+--=====================_771288325==_
+Content-Type: application/octet-stream; name="MINKIN.PGP"
+Content-Transfer-Encoding: base64
+
+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
+--=====================_771288325==_--
+
+
+------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Mon, 18 Jul 94 07:43:55 GMT
+Subject: [#94-7-153] If Knowledge Limits Learning 
+
+Robin Hanson:
+> .... the number of valuable chunks one discovers per unit of internal
+> processing time is proportional to the number of chunks one already
+> has .....
+Me:
+> A blank, simple net should never learn anything by this logic.  Yet
+> they do.  So why should I believe that this assumption, plucked from
+> nowhere as far as I can see, applies to more complex things, and
+> complex neural nets in particular, when it doesn't apply to simple
+> nets?
+RH: 
+> No net starts totally "blank".  Most any neural net researcher will
+> tell you that much of their application success comes from carefully
+> representing the data to input,
+
+This does not address the issue of the starting data in the network.
+
+> and structuring the neural net to match.
+
+Structuring the net means choosing the number of hidden layers, nodes
+per layer etc.  You seem to be talking about brain architectures,
+whereas I am talking about the connection strengths, which are usually
+randomised at start, which seems the more relevant point.  The types of
+knowledge contained in the architecture and the knowledge contained in
+the more dynamic connections are probably completely different and
+inequivalent.  It could be very dangerous to draw an analogy between
+them.
+
+> So representation knowledge is included.  
+
+> Also, it is natural to think of the basic "local learning rules" 
+> as embodying at least a few knowledge chunks.
+
+No, I don't see this at all.  Since I'm guessing that the same "local
+learning rules" will operate on all scale networks then they contain no
+knowledge about the environment or any species-specific information.
+
+> The concept of knowledge chucks was created to help explain cognitive
+> science data on real humans (running on real neural nets).  The idea
+> that people who know more about some area can discover things about
+> it faster is also well supported by data on people.
+
+So why do people learn faster when younger?  I was under the impression
+that learning rates drop with age.  Look at language acquisition, for
+instance.  Back propagation work fastest at the beginning, as well.
+
+>> Even so you seemed to be making the assumption that the neural 
+>> nets have to discover everything for themselves. [...]
+>
+> Babies do *not* enter the world as blank nueral slates.  [...]
+
+This is a different issue, and one which I don't take issue with.
+
+Digression: I suspect that a lot of the genetic pre-programming you're
+talking about is associated with the learning rules, eg pleasure/pain
+structures to interpret, say, a smack as negative reinforcement and a
+parental smile as positive.  However it would be a mistake to look at
+the brain structures at birth and assume that it is *all* genetically
+hardwired in.  Much learning takes place in the womb, explicable within
+the connectionist model.  Many of the brain architecture, major pathways
+etc, present at birth may have developed this way, following the
+positioning of nerve inputs.  This has been demonstrated for visual
+pathways in other animals (coordinated firing of retinal cells =>
+prenatal pathways in the visual cortex) and is probably true for other
+areas of the cortex and for humans.  (Whilst talking about babies, BTW,
+it is noteworthy that the way that human babies acquire early motor co-
+ordination (arm movements) has been modeled on neural networks.)
+
+This is all a digression, though, and does not address my point that
+your learning time figures assume no externally driven training.  Yes,
+perhaps it would take an UIM two hundred thousand years to rediscover 
+algebra and the law of gravity, if we rely entirely on independent 
+rediscovery.  I have no problem with this, I just don't see its 
+relevance.  Newton did his orginal work in decades by "standing on the 
+shoulders of ye Giants", why can't a UIM do the same?
+
+>>> [Is] it obvious that you will find the right local neural net 
+>>> learning rule before this?
+>>
+>> No, but I'd bet and speculate on it.  In a sense I have bet on it,
+>> since I'm signed [up] for cryonics.
+> 
+> How is cryonics related to whether AI happens before uploads?
+
+If uploading is very difficult, as I suspect, then immortality means
+preserving your brain for a long, long time - probably until after
+AI/UIMs arrives.  Waiting for uploading could be a fatal mistake.
+ 
+>> I view logic, language and symbol manipulation as mere epiphenomena
+>> of neural activity and trying to model human symbol manipulation
+>> directly is a mistake.  
+>
+> Should we view a bird's ability to fly, and the pressure gradients
+> near their wings, as mere epiphenomena of bird feathers, so that
+> trying to reproduce similar pressure gradients without feathers is a
+> mistake?
+
+So?  The world is full of bad analogies.  Are you saying that you don't
+believe neural nets have anything to offer or are you saying that they
+do, but that you still believe that generalised learning can be modelled
+algorithmically as well?
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: derek@cs.wisc.edu (Derek Zahn)
+Date: Mon, 18 Jul 1994 07:48:09 -0500 (CDT)
+Subject: [#94-7-154] If Knowledge Limits Learning
+
+Mike Price replies to Robin Hanson:
+
+> > No net starts totally "blank".
+
+> Structuring the net means choosing the number of hidden layers, nodes
+> per layer etc.  You seem to be talking about brain architectures,
+> whereas I am talking about the connection strengths, which are usually
+> randomised at start, which seems the more relevant point.
+
+Consider a matrix representing connection strengths between all
+neurons in a net.  Selecting an architecture constrains some entries
+in this matrix to a non-random value -- zero.  Specifying this
+"starting data" makes the slate non-blank.  The important question
+is how much information (however encoded) has to be contained on
+the slate intially for learning to add the rest.
+
+I think the amount is likely to be rather large (looking for
+clues to the information content of DNA codings of protiens devoted
+to constructing our nervous systems).
+
+On a related note, I always thought Lenat's CYC project, the exact
+opposite of Mike's hope for a seed AI that grows into a mind flower
+under the influence of the environment, was a bit strange.  They hope
+that once a certain critical mass of information is entered that the
+system will be able to learn more by itself.  But it always seemed to
+me that most of the information they actually enter has nothing
+plausible to do with requirements for learning... that information is
+demonstrably not necessary; and why should we believe it's sufficient?
+
+> > Also, it is natural to think of the basic "local learning rules" 
+> > as embodying at least a few knowledge chunks.
+> 
+> No, I don't see this at all.  Since I'm guessing that the same "local
+> learning rules" will operate on all scale networks then they contain no
+> knowledge about the environment or any species-specific information.
+
+A local learning rule that performs gradient descent or "distance"-based
+clustering, or whatever, contains a priori the very useful "knowledge"
+that such actions are likely to be useful.  A true tabula rasa wouldn't
+be able to estimate an error gradient, much less know whether moving up
+or down or sideways was a good plan.
+
+derek
+
+
+------------------------------
+
+From: iandoug@cybernet.za (Ian Douglas)
+Date: Mon, 18 Jul 1994 20:24:53 +0200 (GMT+0200)
+Subject: [#94-7-155] shoemaker-levy 9
+
+Looking for pics of the comet hitting Jupiter?
+
+Try ftp.ru.ac.za  /pub/saao/images
+
+for .gif files from South African Astronomical Observatory at Sutherland.
+
+Cheers, Ian
+
+-- 
+-----------------------------------------------------------------------------
+Ian Douglas                                    InterNet: iandoug@cybernet.za
+P.O. Box 484           Lead, Follow,           FidoNet: 5:7102/119
+7532 Sanlamhof         or get out of           TopNet: 225:2048/1
+South Africa             the way.
+-----------------------------------------------------------------------------
+
+------------------------------
+
+From: davisd@nimitz.ee.washington.edu
+Date: Mon, 18 Jul 94 15:08:47 -0700
+Subject: [#94-7-156] If Knowledge Limits Learning 
+
+> Date: Sat, 16 Jul 94 07:19:42 GMT
+> From: price@price.demon.co.uk (Michael Clive Price)
+> Subject: If Knowledge Limits Learning 
+> X-Message-Number: #94-7-142
+> 
+> Me:
+> > I think [Lenat's] EURISKO/CYC approach is a dead end.  I do not
+> > believe that intelligence can be reduced to symbol/logic/language
+> > manipulation, in any meaningful way.
+
+Well, I see no reason why intelligence could not be simulated through
+logic levels in digital computers, or indeed through any of a score of
+languages. Lenat will fail for other reasons. He is attempting to have
+a computer learn about the world by studying the structure and
+relationship of the symbols we use to describe it. All the perceptual
+information we have which gives meaning to those symbols is
+unavailable to it, except by inference from our language. Will his
+project even achieve the concept of object permanence? I kind of doubt
+it. I would not say that the inference from symbols only to a model
+which accurately (approximately) accounts for the world is impossible.
+His computer may even produce interesting results in mimicking speech
+patterns, or in drawing inferences from large databases of texts. He
+is unlikely to succeed at a generally functional intelligence as we
+would recognize it. Those proceeding from perceptual information,
+trying to build toward conceptual information, will have more luck,
+IMO.
+
+Buy Buy -- Dan Davis      
+
+
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Mon, 18 Jul 1994 09:37:21 -0700
+Subject: [#94-7-157] If Knowledge Limits Learning
+
+Derek Zahn writes:
+>I always thought Lenat's CYC project ... hope[s] that once a certain
+>critical mass of information is entered that the system will be able
+>to learn more by itself.  But it always seemed to me that most of the
+>information they actually enter has nothing plausible to do with
+>requirements for learning
+
+Actually, Lenat would say he already knows how to make CYC learn, and
+has demonstrated this with EURISKO.  He thinks the learning *rate*,
+however, is limited by the amount of knowledge a system already
+contains.  Hence the focus of CYC, and the title of this thread.
+
+Mike Price originally wrote:
+>My hope is that with some as yet unknown local learning rule that the
+>right kind of complexity will emerge as a spontaneous order, within
+>the small randomly connected network as it develops into a bigger
+>"intelligently connected" network. ...  The limiting thing is
+>searching through the learning algorithm space.  ...  which is what I
+>mean by AI research being hardware limited, rather than software limited.
+
+Now Mike seems to have a bit different vision:
+>your learning time figures assume no externally driven training.  Yes,
+>perhaps it would take an UIM two hundred thousand years to rediscover 
+>algebra and the law of gravity, if we rely entirely on independent 
+>rediscovery.  I have no problem with this, I just don't see its 
+>relevance.  Newton did his orginal work in decades by "standing on the 
+>shoulders of ye Giants", why can't a UIM do the same?
+
+The question is now: How much does a neural net or any potentially
+intelligent system need to know to be "trained" by us, to learn the
+way human children do, by watching, listening to, and talking with
+human parents, teachers, etc. (and by listening in the womb).  The
+evidence seems to me pretty strong that the answer is "a whole lot".
+
+Consider how hard it is for us to "train" whales or elephants, who
+have bigger brains than us, and share a great deal of common genes.
+Clearly human babies know something they don't.  In learning language,
+for example, humans seem to start with strong expectations about
+language should be like, rather than being open to a wider range of
+possibilities.  Humans seem "programmed to learn" language at an early
+age.  (And language acquisition rates naturally drop with age, as Mike
+mentions.)
+
+As Mike mentions, developing brains take many clues from their inputs,
+such as visual and motor control, in forming neural structures.  This
+makes sense if we think of our genetic inheritance as informationally
+compressed; if genes can find a way to encode some final structure by
+saying "look here then for that info", instead of directly encoding
+that info, they will do so.  Similar things happen with encoding
+non-brain body structures.  This does not mean there isn't a great
+deal of knowledge/info encoded in the generative system, any more than
+most developing animal bodies are designed on the fly from a few
+general animal body rules.
+
+If a net must know a great deal before it can be trained by humans,
+then the crucial question is where will this knowledge come from?  If
+each part, such as the trick to learn some motor control Mike
+mentions being recently learned, must be directly entered by neural
+net researchers, this isn't obviously a faster approach than CYC. 
+
+>Are you saying that you don't believe neural nets have anything to
+>offer or are you saying that they do, but that you still believe that
+>generalised learning can be modelled algorithmically as well?
+
+I'm saying both approaches seem not obviously unreasonable to me.
+
+Robin Hanson
+
+------------------------------
+
+End of Extropians Digest V94 #199
+*********************************
+

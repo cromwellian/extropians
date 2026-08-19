@@ -1,0 +1,1055 @@
+From extropians-request@extropy.org Fri Nov 19 03:27:27 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA28232; Fri, 19 Nov 93 03:27:25 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA01494; Fri, 19 Nov 93 03:27:21 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA21368
+  (5.65c/IDA-1.4.4 for more@usc.edu); Fri, 19 Nov 1993 06:22:29 -0500
+Date: Fri, 19 Nov 1993 06:22:29 -0500
+Message-Id: <199311191122.AA21368@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: November 19, 373 P.N.O. [11:21:55 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Fri, 19 Nov 93             Volume 93 : Issue 322
+
+Today's Topics:
+                How Voluntary Socialism is Disproven Rationally       [1 msgs]
+               Another contestant loses in "Say it in E-Prime!"       [1 msgs]
+                          Deja vu: Drugs and E-prime                  [1 msgs]
+                                    Drugs                             [2 msgs]
+                      E-Prime & thoughts on Extropianism              [1 msgs]
+                                   Iceland                            [1 msgs]
+                   LANG: E-prime and General Semantic Swamp           [1 msgs]
+                        META: Charging $ for the List                 [1 msgs]
+                               My new sig (not)                       [1 msgs]
+                            QUERY: NP Completeness                    [1 msgs]
+                          Size of integrated circuit                  [1 msgs]
+                              where are they now                      [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 54309 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 18 Nov 93 22:49:20 -0500
+From: xiaozhou@phoenix.Princeton.EDU
+Subject: My new sig (not)
+
+>  Deathist and socialist arguments don't even have to be rationally analyzed.
+>They are axiomatically ruled out by extropian principles. 
+
+Some people enjoy arguing about the basics (I do), thinking up new attacks
+and defenses, trying to figure out how to persuade. Lots of people on this
+list don't; they've gone through libertarianism 101 and they're ready for
+something else. And extropians tend toward techno-determinism; why argue
+with someone when death and technology will make your point for you?
+
+I don't think the dogmatism quotient (tm) has pushed too high. If Ray ran
+across an argument that concluded that capitalism breeds death I don't
+think he'd run and hide. If he did run, it would be boredom rather than
+fear that jolted him into motion. He's just not excited at the prospect of
+dredging through the dross to find anything that seems new and interesting
+in such a specimen.
+
+People like the Advocates for Self-Government and Michael Emerling try to
+get libertarians to engage their audience, to do what it takes to get the
+skeptic interested. Why shouldn't we expect the same from people who try to
+persuade us? If Ray's eyes glaze over at the prospect of another discussion
+of the injustice of homelessness, that means Ray's would-be persuader
+really blew it. (Of course, >98% of these discussions are just fencing
+matches anyhow, not intended to persuade anyone.) 
+
+I want to make sure my mind is open in this area, but why should I complain
+about someone else? Thinking about this stuff causes a lot of trouble - I
+quit my job and went to grad school so I could think about weird shit all
+day, and now I have no money, few job prospects, and my ideas are even
+weirder. I don't criticize my dogmatic opinions about physics all day (I
+wouldn't glorify such as I have with the term 'knowledge'). Why should
+someone in some other field constantly wrack his brain over political
+economy?
+
+Contemporary socialism makes extropian eyes glaze over. Let them come up
+with something that can compete with Bevis and Butthead.
+
+Dave                    tburns@mason1.gmu.edu
+
+
+
+------------------------------
+
+Date: Thu, 18 Nov 93 20:25:06 PST
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: QUERY: NP Completeness
+
+> From: LEVY%BESSIE@venus.cis.yale.edu
+> I won't feel complete until someone explains NP completeness to me.
+
+Ugh; bad pun.  Anyway...
+
+There is a class, called NP, of problems which can be solved in
+polynomial time on a non-deterministic machine.  If you've taken
+some CS courses, you've probably seen non-deterministic finite
+automata.  Here we use Turing machines or the equivalent, but the
+way non-determinism works remains the same.
+
+An example of a problem in NP is the traveling salesbeing problem:
+given a complete N-vertex graph with non-negative edge weights, does
+there exist a Hamiltonian cycle whose cost is less than a specified
+k?  A non-deterministic machine can start at any point, and take
+*all* paths at each step, totting up the cost to date.  If any
+`thread' comes up with a solution after N steps, it says "yes", so
+the whole machine does.  By judicious handwaving, we can see that
+this algorithm takes time only linear in N.
+
+O.K., now a technical tool: polynomial-time reducibility.  Question A
+is poly-time reducible to question B if there exists a way, requiring
+only polynomial time, to transform an input to A into one for B --
+such that B's answer is correct for A.  Even more informally, it
+means that if you can do B in polynomial time, you can do A too.
+
+Finally, NP-completeness.  A question is NP-complete if it's in NP,
+and *every* question in NP can be poly-time reduced to it.  Thus, a
+poly-time solution to any NP-complete problem is a solution to all.
+Proving that something is NP-complete looks very hard: how do you
+deal with everything in NP at once?  Well, Cook did it in 1971 by
+essentially building an instance of "the boolean satisfiability
+problem" which emulated an arbitrary Turing machine.  Rather slick.
+Now you can prove your problem NP-complete by reducing Cook's
+problem to it -- or any other known NP-complete problem, of which
+there are thousands.
+
+(A question for those in the know: is there a general proof that an
+O(f(n)) solution to an NP-complete decision problem can be used in
+P(f(n)) time to get a solution to the corresponding optimization
+problem?)
+
+> Simon! Levy
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Thu, 18 Nov 93 20:57:24 PST
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: Drugs
+
+> From: Elizabeth Schwartz <betsys@cs.umb.edu>
+> My drug experiences were in high school and college and
+> with the exception of the X, there was no way to know where any of
+> this stuff came from.
+
+That's when it was legal.  Street "MDMA" now is apparently really bad.
+
+>   I'm sure that at least two batches of stuff that we got as LSD was
+> NOT.
+
+Other drugs, such as DOM, DOB, and N-acetyl-LSD, have been sold as
+LSD.  This risk can be minimized by avoiding any dosage form besides
+blotter paper.  An active dose of DOB or DOM will almost fit on a
+tab -- it's been done in Australia, and the tabs were a full
+centimeter on a side, and *crunchy*.  Not hard to recognize.
+
+> I suspect that one batch of marijuana we got was dosed with PCP
+> and another with Mescaline.
+
+PCP, possibly.  Mescaline, never.  First, it's very hard to come by,
+and quite expensive.  Any "mescaline" sold on the street can be
+assumed to be LSD or phencyclidine.  It's an adulteree, not an
+adulterant.  Second, it wouldn't work physically.  The active dose
+is about a fifth of a gram, approximating the active dose of the
+marijuana!
+
+> The only drug that I had any sort of confidence in was mushrooms, which I
+> never actually took, because they LOOK like mushrooms, but there are
+> probably folks out there selling ordinary mushrooms sprayed with LSD and
+> calling them "magic."
+
+This used to happen a lot.  Now that cultivation techniques have
+improved, it doesn't seem to happen much.  Nevertheless, I'd suggest
+that anybody planning to eat a given mushroom get a book and be able
+to positively identify it, or trust someone else who made the
+identification.  Who knows where the things came from?
+
+>    If you're interested in prolonging the quality of your mental
+> function for as long as possible, taking psychoactive chemicals of
+> unknown quality, nature, and strength is a gamble with high stakes.
+
+The legal situation is indeed unfortunate.  (It's worth pointing out
+that it's the "unknown" that's the problem, not the "psychoactive"
+-- I don't see any particular correlation between psychoactivity and
+neurotoxicity or similar hazards.)  The risks can be reduced to
+fairly low levels by knowing what you're doing and by making
+intelligent choices of compounds and dosage forms.  You may still not
+perceive countervailing benefits -- or any benefits at all, for that
+matter.
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date:     Fri, 19 Nov 93 5:17:27 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  How Voluntary Socialism is Disproven Rationally
+
+It's been an interesting study in memetics to see how a few of our members have
+answered the information request about how voluntary socialism is rationally
+disproven.  Only one approach seems to have been used thus far, one I have
+little hope will succeed at being informative: the positivist, it's been tried
+and failed one, based on analogy to the methods of the natural sciences.
+
+Of course, this applies to Artificial Intelligence, too, yet many extropians
+still seem to believe in that, so they must not apply this standard in the
+same way as they do to social systems.
+
+This is only one of three methods of answering the question.  The other two
+are the historicist and praxaeologic.  The historicist is even worse than
+the positivst, because it amounts to: historical conditions aren't right
+for voluntary socialism to work - which leaves unanswered a theory of
+history, specification of what those conditions would be, how they might
+be achieved or not as the case may be, etc.
+
+If this exhausts one's argumentative repertoire, however, then one will fail
+to persuade those who reject the positivist and historicist methods, and
+likely resort to causal explanation of their disagreement with you; they're
+ignorant, evading reality, stupid, etc.  But if your repertoire includes
+more, then you will be able to persuade more people.  Thus, we ought to
+consider adding the praxaeological answer:
+
+Voluntary socialism is impossible because without the emergence of the
+phenomena of prices from the exchange of private property rights, the
+rational economic calculation we need in order to best allocate scarce
+resources (means) to produce goods and services (ends) is impossible.
+
+This is a.k.a. the "knowledge problem" that the Austrian school of
+economics has developed extensively, beginning with Ludwig von Mises
+in the 1920s, continuing with Friedrich von Hayek in the 1930s, to
+a reborn and growing field of scholars today.  A recently published
+book on the subject is "From Marx to Mises," by David Ramsay Steele,
+a former marxist who was converted to libertarianism by this argument.
+
+The conclusion of this argument is that capitalism does a better job
+of coordinating the allocation of resources in society than socialism,
+even without the State.
+
+I hardly consider this debating basics, because it's never been debated
+or hardly even discussed on this list, much less on the newsgroups.  If
+you ask me, this is the single most neglected part of the case for
+capitalism.
+
+I also find it preferable to the historical method because it rules out
+all possible variations of socialism, defined as collective ownership
+of capital (the means of production), without having to cover each
+and every case that's ever happened and consider whether these exhaust
+the possibilities.  The socialist movement of the New Left mainly
+advocates a form of socialism that hasn't been practiced much, and thus
+has yet to fail in practice: direct-democratic socialism, usually at
+the municipal level.  By positivist standards, we'd have to run the
+experiment, at cost to human happiness, before ruling it out, then
+all the rest of the alternatives socialists could possibly come up
+with.
+
+It's not enough to indicate failed socialist institutions in the past;
+there are failed capitalist institutions, too.  Even if there are less
+market failures in the past, this still says nothing about the future.
+Hindsight would seem to be a strange method for futurists to rely on
+exclusively for their argumentation.
+
+The praxaeologic argument rules out, based upon irrefutable axioms,
+all possible variations upon socialism insofar as productivity goes.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Thu, 18 Nov 1993 22:46:04 -0800
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: where are they now
+
+Lefty writes, 
+> I'm quite impressed at the names I no longer see.
+> Where, I wonder, is Scott DeLancey?  Or Mark Read Pickens?  Or [....]
+
+Pickens is absent because They stole his computers and modem. 
+He may reappear within the next few months.
+
+------------------------------
+
+Date: Thu, 18 Nov 1993 23:14:38 -0800
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: Iceland
+
+Shawn says:
+> I started picking up Icelandic sagas after reading
+> Machinery, and when I eventually read them I'd prefer to do it in order.
+> Does anyone have a complete chronological list of the sagas?
+
+There may be none.  But start with the Landnamabok -- that covers
+the settlement.
+
+Anton Sherwood   *\\*   +1 415 267 0685   *\\*   DASher@netcom.com
+
+------------------------------
+
+Date: Fri, 19 Nov 1993 02:26:02 -0500
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Subject: LANG: E-prime and General Semantic Swamp
+
+   I probably should read Korzybsky before talking on the subject
+(maybe, we want to add the book to the extropian ::readinglist too),
+but I'll still risk it:
+
+   I would agree that the way 'be' is usually used, is wrong;
+it would annoy me a lot, if I took the standard human concept set
+seriously.
+
+   Consider sentences:
+
+"Hi, I *am* Bob".
+-----------------
+   - that stupid 'magic of names'.  You [Bob] somehow manage to think
+that this 'introduces' you or reveals your essence. Pure nonsense.
+"My name *is* Bob" makes much more sense.
+"Call me Bob" seems still better; it explicitly carries the invitation
+to contact that was only implied in the previous two versions; it also
+implies a _suggested type_ of relationship (not "Robert [L. Obert]",
+Bobby, Bobzilla or BLOb@nowhere that others may know you as).
+
+
+  "Sasha is a long-haired man".
+  ----------------------------
+
+You either use it as a method of identification - then just say it:
+"you can tell him by...", or want to say that I have long hair, or...
+alas, basic humans tend to 'classify' complex entities by surface
+features...
+"The projection of this object's structure on my pathetic meme-set
+looks like a long-haired-man" would be more appropriate.
+
+
+  "You are a bad boy".
+   -------------------
+
+"Don't pee into my soup any more, or else!" sounds more descriptive,
+constructive and pedagogical, as well as reveals an active position
+and dynamic optimism of the speaker. ;-)
+
+   -------------------------------------------------------
+
+   In all the above examples, "be" attempted to portray statements
+referring to particular events/features as descriptions of the very
+complex objects mentioned. 
+   This is definitely inadequate, since such descriptions have little
+to do with the "essense" of objects, and even in the milder, classifi-
+cational, sense are way too assertive, since classifications based
+on a small arbitrary set of surface features tend to be interpretational,
+oversimplified and/or misleading.
+    
+    Though such overly assertive statements create a feeling of one's
+control over the environment as well as safety and comfort - widely
+preferable to the dynamic confusion in the world filled with statists...
+   
+
+    HOWEVER,  the same classifying and assertive statements seem to be
+quite adequate for describing simple functions, features and entities:
+
+"My e-mail address *is* sasha@cs.umb.edu"       - essense
+"This function *is* smooth".                    - feature
+"My fingers *are* touching the keyboard now"    - action
+"Statists *are* fools"                          - classification of simple
+								objects ;-)
+
+   Two recent examples of (non-Prime thinking)-related problems:
+
+ 1. Import duties on 'foreign' cars.
+
+   U.S. - Canadian agreement allows free trade in cars produced in the
+two countries; however, foreign cars are subject to U.S. import duties.
+Now, how much of the car should be made abroad for the whole thing to be
+considered 'foreign'?
+  The government's semantic gurus consider cars 'domestic' if they [cars]
+have 60% or more value created in North America. Cars with higher "alien
+contents" are considered 'foreign' and are taxed. This arbitrary threshold
+creates multiple *economic* problems.
+  The solution?  (within their economic view): Categorize/tax not *cars*,
+they are [usually] not [entirely] domestic or foreign; Categorize/tax
+the foreign *value contents*!
+   Advantages:
+     - the "47.3% of the cost of this car was incurred abroad" assertion
+	has more semantic validity, objectiveness, and accuracy than
+	"this car is foreign".
+     - the technological considerations of the car manufacturers are not
+	disrupted by a sudden leap in taxes at the 60%/40% value border.
+     - manufacturers of *all* cars would have an incentive to decrease
+	their foreign value contents, not only of those just over 60/40
+	line.
+
+   Unfortunately, these can guys categorize only what they can see: cars.
+
+
+2.  A few days ago, I heard a question on NPR:
+
+   ~ "Until recently U.S. were in the state of cold war with
+Russia. Now it's over. Do we have *any* _direction_ in our
+foreign policy in the 90's? ".
+
+   Aside from the fact that the customary division of all
+aspects of modern history into calendary decades is
+completely irrelevant, this person seemed very uncomfortable
+to have more that one sentence for description of the state
+of the international relations of this big country...
+   The only adequate non-E-prime statement about U.S. as a whole
+that I can think of is "U.S. _is_ too big a country for any
+assertive statement about it except this one to be relevant".
+
+
+  -----------------------------------------------------
+
+
+   I would say that the poor verb 'to be' takes more blame here
+than it deserves.
+   It is just a small part of a general problem:
+
+THIS WHOLE CULTURE IS A SEMANTIC SWAMP.
+
+Terminology in general is a mess.
+
+[ I keep bumping into this semantic-free stuff all the time:
+
+
+ -  "Webster's" mark on the dictionary doesn't mean anything
+anymore, but is thrown on the cover by various publishers just
+because the customers feel good if they see it there;
+ -  Coke and Pepsi fight each other's products with ads whose
+ social symbols have absolutely nothing to do with the drinks;
+ -  "Adult movies" are not those by Fellini.            ]
+
+And everything else...
+
+   The meme-sets.
+   The belief and value systems.
+   Spelling rules.
+   Politically Correct euphemisms.
+   Ethical norms.
+
+  All a huge and desperate mess! Inadequate, incomplete, mostly obsolete 
+and mutually [and internally] inconsistent.
+
+   How pleasant it is to transcend all of it on this list, and
+plunge into the deep and clear pool of really semantically
+profound dialogs touching the very nature of the Universe and
+human identity!   :-)
+
+:-(   :
+
+   FYI:  Speaking of "human identity".  As much as I like the topic...
+Neither of these two words exists in Russian and, I would assume, in
+most other languages, besides <or 'except'?> English.
+"Identity" seems to be a direct descendant of the concept of a 'soul'.
+As for 'human' (as in "Do you think the planet X's inhabitants are
+human?" or "will we still be human?"), this word doesn't seem to have
+any meaning at all.
+
+  Sometimes mesuspect that E'xtropySpeak may have about as much meaning
+outside itself as mere-human's standard English...
+
+
+sasha@cs.umb.edu    <-- this not 'is me', 
+			but this *is* the address for replies.
+
+------------------------------
+
+Date: Fri, 19 Nov 93 00:13:28 PST
+From: GRAPS@galileo.arc.nasa.gov
+Subject: Deja vu: Drugs and E-prime
+
+While driving home from work this evening, I was thinking about the
+last time the topic of mind-altering chemicals came up on the
+Extropians list. It occurred 11 months ago (tis the season to be
+jolly!), and there appears to be a more enthusiastic affirmation on
+this next go-around of the topic. However, what I remembered next
+amused to me no end-
+
+Korb.'s E-prime was discussed at exactly the same time!
+
+What an odd feeling of deja-vu.
+
+The sequence of events 11 months ago was something like this:
+
+I had first stated something about the positive uses of psychoactive
+chemicals...
+
+Elizabeth Schwartz had replied: "LSD *is* dangerous...."
+
+I argued that her statement was far too strong, and I thought it was
+more accurate to say: "LSD *can be* dangerous..."
+
+And somebody else replied (don't remember his name.. JK?  CP?) "Sounds
+like a job for E-prime to me!"
+
+See how neatly I can tie these threads together??  :) :)
+
+So, I have some brief remarks about these two topics.
+
+E-Prime.  When one switches the voice from passive voice to
+first-person or active voice, I note that the result is a more truthful
+accounting of noun and verb. If the noun is a person performing an
+action, then the sequence of events is clear. I much prefer the
+statement: "I conducted experiment A" to "Experiment A was conducted."
+I have not studied E-prime yet, but the topic made me think of the
+world of technical writing, and how the writers/scientists could
+improve their communication 100-fold if they followed some of E-prime.
+When I took my technical writing course some years ago (required for
+Physics graduate students), the teacher was adamant about first-person
+writing. (He and I and others like us are bucking the entrenched trend
+of passive-voice scientific writing.) He taught us that when one writes
+in first person, he/she are taking responsibility for the act
+performed. If you see "Experiment A was conducted" in a paper, who do
+you go to, to get details?  This style of writing is not only boring to
+the reader, but it seems to sweep under the rug, who did what, when,
+and how.
+
+Drugs.  Eli B. and I have praised the PIHKAL book before.  I'm
+anxiously waiting for the TIHKAL book. Anyone know when it will be out?
+I, and several others on this list, have met the Shulgins (authors of
+the PIHKAL). They are serious, dedicated scientists, and I have the
+utmost respect for them.  I also think that what they're doing in
+promoting the positive aspects of psychoactives is very courageous. I
+would put Lester Grinspoon in the same category. His texts in the field
+(I believe he is a chemist like Shulgin) are supposed to be classics.
+He is an old friend of the Shulgins and while I've never met him, I'm
+good friends with his son David Grinspoon, a planetary scientist who
+used to work at NASA-Ames. (How would you like to grow up in a family
+like that? Father, friends, all pioneers in the wonderful world of
+altered states.)
+
+Since MDMA, MDA, LSD have all been talked about, let me fill in a hole
+about the effects of KETAMINE.  Like Charlie's experience with opium
+(I've been very curious about opium myself, not sure that I would have
+the courage to try it, though), I did not *intend* to experience this
+drug.  It was given to me as an alternative to the general anesthetic
+drug I was supposed to receive for a minor surgical operation. I was
+told that the reason that I received this alternative was because I had
+a cold (fluid in throat, nose etc), and therefore it was too risky to
+use the conventional anesthetic. I don't know what is different about
+Ketamine that permits this use. My experience occurred 15 years ago,
+and I sincerely hope that Ketamine is not still being used in this
+fashion. (Does anyone know?) Anyway my experience can be summed up as a
+NIGHTMARE. (It's very vivid to me even now.) I awoke from my minor
+operation with very loud, compressed sounds in my ears.  I couldn't
+open my eyes yet. I couldn't feel my body at all- didn't think I had
+one. I heard nurses voices and a person trying to throw up, and it
+wasn't until an hour or so later that I realized that the voices were
+directed at me, and *I* was the person trying to throw up.  When I
+could finally open my eyes, it looked like all of the walls were caving
+in on me. I felt literally that I would be crushed by them. I was
+terrified. I don't remember much else except that it took a good 2-3
+hours to come out of the effects of the Ketamine- I understand that
+other anesthetics take considerably less time. So for the life of me, I
+can't understand what positive effects John Lilly experienced with
+Ketamine.  Maybe all of those hours in the sensory deprivation tank
+altered his mind so much, that Ketamine was a walk in the park!  I
+wouldn't recommend this drug for *any* kind of transformation
+experience.
+
+Amara Graps 
+graps@gal.arc.nasa.gov
+
+------------------------------
+
+Date: Fri, 19 Nov 93 09:59:54 +0100
+From: kaspars@gvasun1.sps.mot.com (Kaspar Suter)
+Subject: Size of integrated circuit
+
+Tim May answers Michael Kelly's "Size of intergrated circuit" question:
+
+>Usually measured in mm or in mils (.001 inch), more natural units.
+>Modern microprocessors are about 500 mils on a side (.5 inch). Or
+>about 10-15 mm.
+
+In integrated circuit design you use microns (micron= um = micrometer)
+Design rules are specified in microns. Companies sell you circuits
+talking about X micrometer technology.
+
+"mils" are the collapse of the imperial measurement system. Having nothing
+adequate to go below the inch (besides fractions as 3/8" and so on...) they
+jump into metric and leave one leg in imperial. You can call an inch or a feet
+a more natural unit than cm or m. But you are not taking advantage of metric
+just by inventing mils. How many square inches has a 500x500 mils chip? How
+many inches are in a mile? How many fl oz in a barrel? Got it?
+Only Spielberg gets dinosaurs back to live :-) . 
+
+                       Go metric! Kaspar Suter
+
+------------------------------
+
+Date: Fri, 19 Nov 93 2:08:31 PST
+From: szabo@netcom.com (Nick Szabo)
+Subject: E-Prime & thoughts on Extropianism
+
+Sasha writes good examples of where 'to be' can mislead.  But 
+even the following benign-sounding uses can also mislead:
+
+> "My e-mail address *is* sasha@cs.umb.edu"       - essense
+
+E-mail addresses, like practically everything else, are not an 
+essence.  For example my main e-mail address is (since August 1993)
+szabo@netcom.com, but you could also reach me at szabo@techbook.com,
+and perhaps other places.  You can also reach me by mailing to 
+extropians or cypherpunks (quite rude for personal mail, but it 
+would work).  If you fed "Nick's e-mail address *is* szabo@netcom.com"
+into a strictly deductive argument, the outcome might well be garbage 
+(eg "I forgot Nick's address on netcom, therefore I should give up trying
+to reach him").
+
+My point is not to ding folks for using 'is' in these cases -- it's mighty
+convenient, and it often sounds silly when you try to avoid it --
+just to point out that if extrapolated into deductive
+logic 'is' creates the same problems of overgeneralization  that many
+of the other uses of 'is' you sited create.  If you use 'is', don't
+take it too seriously, as in "nay, not seems, it *is*, goddamn
+it!" (Sorry Bill Shakespeare).
+
+> "This function *is* smooth".                    - feature
+
+Depending on the function, it's more precise to say
+"This function is smooth within the XYZ system of axioms".
+
+> "My fingers *are* touching the keyboard now"    - action
+
+This simply modifies the verb "touch".  The only example I can think
+of where this would mislead is if you fed that sentence 
+to an expert system for timing your keystrokes.
+
+> "Statists *are* fools"                          - classification of simple
+> 								objects ;-)
+
+If it were even remotely close to being true, the world would be in much 
+better shape.  The foolishness of one's political opinions bears very
+little correlation to the foolishness of dealings in ones personal
+life (jobs, relationships, gaining power and wealth, etc.)  As
+evidence, I can point to very successful capitalists whose political
+opinions are very socialist (eg Felix Rohatyn), and I can point
+to large doses of foolishness in some relationships in the
+libertarian/extropian community.  The slanderous diatribes 
+between factions in the cryonics and smart drugs communities are two 
+extremely unfortunate examples.  I readily admit to falling short
+in some of these areas myself, alas.  I may even share an
+"individualist" personality type that links habits of (and corresponding
+beliefs in) individualism with some kind of asociality, perhaps due to 
+underemphasis of empathy, cooperation, altruism, love, or other 
+important aspects of human behavior that don't fit neatly into the 
+"rational self-interest" model.  Rational self-interest is fine 
+for describing relationships between strangers and larger groups, but
+(in any reasonably parsimonious form) it plays a much lesser role
+in effective personal relationships.  I even expect to get flamed
+in such asocial ways for daring to make this observation, alas.
+(Perhaps my making these observations is itself asocial, who knows --
+I don't claim to be exempt from this unfortunate phenomenon!)
+
+Digressing a bit more along these lines, the issue of political vs. 
+personal foolishness relates to my biggest gripe about the Extropian 
+movement (which is otherwise quite admirable), is that we spend too
+much time idealizing the free market and too little time figuring 
+out how to succeed in it or helping each other do so.
+Discussions of that nature on this list are often treated as viscious 
+competitions instead of cooperative explorations, and are slighted in 
+favor of personally useless political debates.  Personally useless,
+because the viability of one's politcal opinions about how society
+as a whole shoud[n't] be run has practically no bearing on one's success 
+in personal self-transformation, life extension, and other personal 
+Extropian goals.  (For that matter, the accuracy of libertarian
+argument doesn't even bear much relation to its viability in today's
+politcal arena, eg in electoral success, but that's a whole 'nother
+can of worms).  
+
+Some value this list as a "safe haven" for political beliefs, but
+to me that's not very valuable.  It's not of much value to the
+political movement itself, either.  Political beliefs are meant to be 
+spread; they're useless if confined.  What I'd really like to see 
+is a safe haven for cooperation in achieving more personal kinds
+of Extropian goals.  Conducting one's life and choosing relationships
+primarily based on political belief is an extremely narrow way
+to go.  If that's what the Extropian movement is primarily about it's
+not going to get very far, and we're going to see more people
+drop off, like Hans Moravec, Keith Henson, Hal Finney, Robin Hanson, etc.,
+(and for a while Tim May, Charlie Stross, etc.), to readjust their
+lifestyle to a better balance between the personal and the idealistic.  
+We will also tend to drive off people because they don't
+share this or that specific idealistic belief (eg we've driven off
+libertarians who don't share our optimism about technology,
+anarchists who believe there will be many altruism-based communes
+in an anarchy, etc.), even though they might share many personal
+Extropian goals as well as at least some important idealistic ones.
+
+As many folks know I've written quite voluminously (and with
+high quality, according to most of my feedback) to Usenet advocating
+anarcho-capitalism and many other Extropians idealistic goals, eg
+space travel, and am now engaged in designing and writing software for the 
+crypto-anarchy movement.  However, merely sharing these
+goals makes a poor basis for freindship, love, personal success, etc. 
+if said people are not also committed to sharing personal goals and
+styles of relationship, which often bear little relation to these 
+idealistic goals.  Of course there are gray areas between the idealistic 
+and the personal, such as cryonics and the commercial aspects of 
+crypto-anarchy, and such areas might be the most fruitful for Extropians
+to emphasize.  But the normal stuff of contemporary human
+success (love, wealth, etc.), without which we fail to 
+reach transhuman or posthuman success, should have top priority.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Fri, 19 Nov 93 10:12:36 GMT
+From: jrk@sys.uea.ac.uk (Richard Kennaway)
+Subject: Another contestant loses in "Say it in E-Prime!"
+
+Timothy May writes:
+>(Sorry for not translating this into E-prime. You can do the
+>translation, e.g., "Some people say there may be 25.4 microns to the
+                                               ^^
+BONG!!
+
+--                                  ____
+Richard Kennaway                  __\_ /    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk      \  X/     University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk    \/       Norwich NR4 7TJ, U.K.
+
+
+
+------------------------------
+
+Date: Fri, 19 Nov 1993 02:14:11 -0800
+From: kwatson@netcom.com (Kennita Watson)
+Subject: Drugs
+
+Oliver writes:
+
+	(To tell the truth, I admit that I would rather walk on Mars or fly
+	the asteroid belt. The problem is, I'd rather do it for real than do
+	it virtually... I tend to find virtual experience rather silly
+	overall, except maybe in practice, such as flight simulations, for the
+	real thing...)
+
+What if direct neural stimulation allowed a truly realistic
+experience?  I might use this to save me a lot of time trying things
+I wouldn't enjoy.  It would also allow me to walk on Mars with Earth
+gravity, go from Mercury to Pluto in an instant, and perform other
+nifty experiments.
+
+BTW -- I consider books and movies virtual experiences as well.  Do
+you have some reason why these don't count?
+
+	I have found [LSD]'s use a reprogramming drug to be useful, if not
+	somewhat slow (because of it's interesting 'side-effects')
+
+I thought that one could reprogram oneself faster with LSD than with
+other methods.  Do you know a faster one?  What "interesting
+'side-effects'" do you mean, and how do they slow down the
+reprogramming?
+
+Nancy writes:
+	I've taken MDMA, and found it useful, but I did feel cruddy for about
+	a month afterward--I felt ok after I took some supplements which I
+	think included tryptophan. Anyone else need supplements after MDMA?
+
+Do you think the cruddiness only lasted a month because it took you
+that long to think of taking the supplements?
+
+Has anyone else had this long-term cruddiness experience?
+
+I'd never had any inclination to try heroin (among other things, I
+_hate_ needles), and Charlie's description of heroin just convinced me
+more strongly never to try it.  I also notice that I had lumped all
+drugs into that bin (DANGER!  DANGER!), which explains my universal
+negative reaction.
+
+Charlie writes:
+	Benzodiazepines (including diazepam (vallium) and others) are pretty
+	effective means of blissing out. In low doses you get a warm,
+	comfortable feeling and any low-key anxiety you feel dissolves in a
+	cloud of "so what?"
+
+Having anxiety dissolve seems like a good thing, because it seems to
+me that then I could more easily face otherwise-distressing realities,
+but I presume that you mean that the Benzodiazepines (does "bennies"
+come from this?) cause too much blissing-out (lethargy?) for them to
+have any use for self-discovery.
+
+	Moreover, the withdrawl symptoms are just about
+	the opposite of the drug effects; a heightening of anxiety, neurotic
+	fears and phobias, paranoia, twitchiness.
+
+Would this happen even if I only took it once?
+
+At the moment, I have a mental picture of trying each of several
+different drugs, once each, one per month, under professional
+supervision.  I've only heard of marijuana taking more than one dose
+to show an effect; do other drugs have this property?
+
+	As if that isn't bad enough, addiction can set in after as little as a
+	month or so of use
+
+Wouldn't this depend on the frequency and dosage of use?  Or do any of
+them (besides heroin) hook you basically instantly?
+
+Craig writes:
+	We had one bad trip out of hundreds -- one guy went into a depression
+	from some guilt feelings about not living up to his mother's
+	expectations. He didn't hurt anyone, but he made a pain in the ass of
+	himself for about 6 hours.
+
+Hm.  I can easily see myself doing something like this -- I have
+plenty to deal with.  I take that as another reason to go with a
+professional -- they get paid to deal with my uncontrolled angst.
+
+Alex writes:
+	I have tried alcohol, LSD, and psilocybin (mushrooms), and of all I
+	feel that psilocybin leaves one with the clearest mind with the least
+	danger.  From personal experience, it leaves a calm and clear
+	euphoria in which I tend to be very creative and attentive to my
+	surroundings, with the unfortunate side effect of shaking a great deal
+	afterwards.
+
+Have others had this experience with mushrooms?  How long does the
+experience last?  How long does the shaking last? Does it feel like
+cold?  Like overtightness?  Like overlooseness? Does it keep you from
+performing normal tasks (driving, typing, preparing food), or from
+sleeping? 
+
+	I used to be a staunch "Just Say No" type, but an open mind, and caring
+	good friends who are willing to share the experience with you, have
+	changed both my attitude and my creative abilities to the better.
+
+I think some people would cringe at the thought of my becoming any
+more creative :-) .
+
+I've heard about psychoactives (and maybe other drugs) mimicking
+psychosis, or even precipitating psychotic episodes in nominally sane
+people.  Does anyone know about this one way or the other?
+
+What books (if any) include graphs of body weight vs. dosage vs.
+effect?
+
+Derek writes:
+	LSD can obliterate the sense of self entirely.
+
+Can one get anything useful done in that state?  Certainly it 
+seems difficult to me to do self-discovery without a self.
+
+Oliver writes:
+	[re LSD]
+	Hits is 5 minutese, effects last for at least a day, can sleep on it,
+	wake up still high... Can be kinda annoying to some extent
+	when things last that long... 
+
+Annoying doesn't cover it.  I find that frightening.  Having no way to
+escape the experience scares me.  I'd prefer to start with something
+that lasts as short a time as possible (30 seconds would be ideal -- I
+can put myself in a situation in which I can almost certainly not do
+anything really stupid in 30 seconds), so I don't feel trapped.
+
+Could someone list how long the effects of various drugs last?  I have
+two endpoints (I think):  At one end, heroin (4 minutes); at the
+other, LSD (over a day).
+
+	Pot I don't care for much, only occasionally. It mellows me out too
+	much, and considering I'm already pretty mellow when I'm straight,
+	it's too much dopiness for me...
+
+Do most people actually get dopey on pot?  I can stand to mellow out,
+but I want my brain to still work....
+
+	I'd be willing to bet most street ecstasy is valium and speed.
+
+I envision a market for a whole line of "litmus papers".
+Decriminalization of drugs would make this more likely.  And I can see
+the Consumer Reports survey now....
+
+	PIHKAL is part autobiography, part cookbook. I mean cookbook in that
+	detailed methods for synthesizing various Phenetylamines (mescaline,
+	MDMA, DMA, etc) are given. Not for the chemistry impaired this part...
+
+So I could make this stuff myself?  I have fond memories of my
+Transition Metal Chemistry Lab....  I've heard more than once about
+the difficulty of synthesizing LSD, and the likelihood of ending up
+with something poisonous -- does this extend to other drugs as well?
+
+Thanks to Andy for his discourse on "psychological addiction" versus
+"obsessiveness" and "compulsiveness".  Another reason for me to have
+professional guidance.  I've noticed that not even people I consider
+friends will tell me when they see me acting obsessively/compulsively,
+and I might not notice till way later (when I bring it up, they say "I
+noticed, but I figured you did too and could take care of yourself, so
+I didn't say anything.".  Argh.  More people = more points of view; I
+can't see everything,and sometimes I think my vision blurs most when I
+try to see myself.).
+
+>From Oliver again:
+	[Hell, the afterglow surrounding MDMA
+	sometimes lasts for *months*, if the proper reentry is taken].
+
+Please define "reentry", and the nature of this "afterglow".  Thanks.
+
+Eli writes:
+	However, one tab typically represents
+	about 75 micrograms of the drug, while some people may use 300 mcg
+	and up in order to get the full spectrum of effects.
+
+Do effects kick in one at a time, like colors of a spectrum or
+suchlike?  For instance...?
+
+Eli writes:
+	Any "mescaline" sold on the street can be
+	assumed to be LSD or phencyclidine.  It's an adulteree, not an
+	adulterant.  Second, it wouldn't work physically.  The active dose
+	is about a fifth of a gram, approximating the active dose of the
+	marijuana!
+
+I had envisioned mescaline as a powder.  Does it occur naturally?
+
+Amara writes:
+	Since MDMA, MDA, LSD have all been talked about, let me fill in a hole
+	about the effects of KETAMINE... [highly negative experience
+	elided]... I wouldn't recommend this drug for *any* kind of
+	transformation experience.
+
+Thanks for the heads-up.  Does Ketamine fall under the class of
+barbiturates?  Psychedelics?  Something else?
+
+Thanks again, everyone.  I feel gratified and excited that so many
+people whom I haven't seen post before (or not much) have come out to
+offer support and information on this topic.
+
+Kennita Watson      |  Do I want to live forever?  Maybe not, but give
+kwatson@netcom.com  |  me one or two hundred thousand years to think
+HEx: KNNTA          |  it over.     - KLW, 1993
+
+------------------------------
+
+Date: Fri, 19 Nov 93 02:19:21 PST
+From: pierre@shell.portal.com (Pierre Uszynski)
+Subject: META: Charging $ for the List
+
+> From: rjc@gnu.ai.mit.edu
+> 
+> Pierre Uszynski writes:
+> 
+> > So, in conclusion, I believe a few levels of indirection can solve
+> > this problem just like any other :-) That fees are being implemented
+> > before a network of reflector lists is one reason to argue that the
+> > real reason for them is not to compensate for computer load.
+> 
+>    We are not going to pay for a reflector. You find a machine which is
+> willing to pipe 17+mb of material per day[...]
+
+huuuhhh, I don't know where you got this number from. At my end, it
+looks more like a maximum of 300KB a day. So if
+I set up my procmail filter to forward everything it gets from the
+list to, say, 3 other email addresses, my subscription to the list
+represents 300KB incoming and 900KB outgoing to my site. This load seems
+fairly well distributed throughout the day (and night :-) This is not
+a completely negligible volume, so I would think twice before doing this
+for more than one or two lists, but it is feasible. This would get a
+reflector tree node with 3 branches, and you don't need many layers
+of these to cover all the list membership, no matter what the list
+membership is.
+
+You seem to be thinking in terms of "institutional" reflectors, I was
+thinking in terms of individual subscribers that provide for distribution
+as a share of service to the list. Each such volunteer only has to
+provide for about 3 branches. I'm volunteering to forward to 3 addresses
+if the list stays free for that branch of the tree. The forwarding would
+be automatic, as messages are received, and as such as reliable as my site
+is.
+
+> you set up and administrate a reflector list,[...]
+
+Granted such a collaborative tree distribution would require some
+maintenance software to keep track of subscriptions and unsubscriptions
+and forward them to the right reflector. Even though I'm not volunteering
+to build this, it does not seem unfeasible. Not less feasible than the
+accounting software that is doomed to happen.
+
+> [...] and I'll make sure you get a feed
+> (minus those whose messages contain a X-Reposting-Policy header and those
+> who quote such such messages) if Exi ok's it.
+
+Well, that's a problem. What is ExI's position on forwarding? What is the
+meaning of these non-sensical X-Reposting-Policy headers? (The forwarded
+lists are comprised of extropians subscribers... they can post, they just
+would not be receiving their feed from extropians-owner.)
+
+That's what I meant in a former post by "ExI would have to release their
+Ownership of the List" If extropians-owner feels that this is a commercial
+enterprise and that only he should be allowed and trusted to send these
+posts, then nothing can be done but create a Free Extropians newsgroup.
+
+>   Even if all of the delivery were offloaded from panix, cpu would still
+> cost us $4-6/yr per user. Every posted message consumes 10-20 seconds
+> of CPU time.
+
+Arggghhhhh, what for Kibo's sake are you doing to these poor messages to
+spend 10-20 CPU-seconds on each (not counting delivery)? Even a full
+indexing of them for the benefit of list feature weenies would not take
+that long! :-)
+
+>   You might say "why not just scrap the list software and go to a dumb
+> reflector with no cpu usage?" I say, ExI and Harry have invested their
+> money in the list software development for the improvement of Extropian
+> e-mail service. Some people don't like this, I have received mail from
+> many people who do. Let the market decide.[...]
+> 
+>   Maybe extropians is the first e-mail list to go commercial, but if we
+> didn't do it, somebody would have. (Clarinet has proven to me that
+> commercial internet information becomes far superior than the free access
+> groups)
+
+ok, if the list is a commercial enterprise from the begining, then there
+is little to discuss. In that case, please consider all my suggestions
+as suggestions to the management, and not posts to the list :-) To put
+things in perspective, my account is on a commercial provider (Portal
+$19.95/month), I subscribe to Clarinet ($4/month), and to Dow Jones News
+Retrieval ($29.95/month), and I have a dedicated phone line for my
+computer ($12.58/month to monopolistic PacBell & clan), so it's not like
+I refuse to pay anything to anybody. In addition, I'm myself working
+on "commercial Internet" applications, so it's not like I don't
+expect people to make money from a commercial internet. I don't
+expect the free internet to disappear either (I also happen to run
+a free mailing list, and it will stay free) but that's not our discussion.
+
+The Management presented the list charges as inevitable to
+keep the list running, and not as a turn to a commercial enterprise. I
+joined a list that was under the standard internet model (apart from
+the legalistic administration :-), not a commercial provider. The claimed
+technical reasons for charges seem bogus to me. A claim to switch
+to for-profit status would have been fine by me.
+
+but that's just me,
+Pierre.
+pierre@shell.portal.com
+
+------------------------------
+
+End of Extropians Digest V93 #322
+*********************************
+

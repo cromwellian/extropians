@@ -1,0 +1,961 @@
+From extropians-request@extropy.org Sat Oct 30 14:37:49 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA13957; Sat, 30 Oct 93 14:37:46 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA17359; Sat, 30 Oct 93 14:37:41 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA04326
+  (5.65c/IDA-1.4.4 for more@usc.edu); Sat, 30 Oct 1993 17:31:20 -0400
+Date: Sat, 30 Oct 1993 17:31:20 -0400
+Message-Id: <199310302131.AA04326@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: October 30, 373 P.N.O. [21:30:31 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Sat, 30 Oct 93             Volume 93 : Issue 302
+
+Today's Topics:
+                                                                      [5 msgs]
+                          Admin: Your E-mail address                  [1 msgs]
+                          Beating the Stock Market?                   [4 msgs]
+                     Bet 5000 ... and Exi Science Courts?             [1 msgs]
+     FOOD:Crosspollination at U of Wisconsin-was Beating the Stock Market[1 msgs]
+                   MOVIE: "Johnny Mnemonic" soon to roll...           [1 msgs]
+                             Meta: Using Commands                     [3 msgs]
+                            Nightly Market Report                     [1 msgs]
+                       Sex in Cyberspace Essay Contest                [1 msgs]
+                  THEORY: Information Theory and Extropians           [1 msgs]
+                                 Unsubscribe                          [1 msgs]
+                             one fuckup too many                      [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51738 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 29 Oct 93 19:40:57 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: one fuckup too many
+
+Anton made a boo-boo that cost his boss about $419.  Anton said, rather
+testily, "I fucked up.  So bill me."  Instead, Anton's boss wrote a
+severance check for more than twice the amount of the boo-boo.
+
+This is called "saving face" (vis-a-vis me, his wife and himself).
+
+So.  Does anyone have a use for a menial who speaks three languages?
+Have Powerbook, will consider travel.
+
+Anton Sherwood                                             DASher@netcom.com
++1 415 267 0685         1800 Market St #207, San Francisco, California 94102
+
+------------------------------
+
+Date: Fri, 29 Oct 1993 21:17:27 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: THEORY: Information Theory and Extropians
+
+(10-29-93 note from Tim May: Nick Szabo wrote earlier today about the Cover
+and Thomas book being so good, so I thought I're rebroadcast my message
+from 21 February 1993 about this book. The relevance for finance, betting,
+reversible computation, and AIT remains of prime importance for many
+"extropian" topics. And the new Kolmogorov-AIT book is even better.)
+
+
+
+(This posting includes several pages scanned in from the book "Elements of
+Information Theory," by Cover and Thomas, 1991.)
+
+Hal Finney writes:
+
+>Robin and Tim have both posted about Thomas M. Cover's writings on
+>economics and finance.  I haven't been able to find the book Tim
+>mentioned (it's checked out at one and missing at the other Univ.
+>library that I have access to).  But I found a few of Cover's papers
+>which had some very interesting results.
+
+I want to again repeat my recommendation that folks take a look at this
+book, if they're at all interested in the topics Robin, Hal, and others,
+including me, have talked about recently.
+
+Since "extropy" (and its complementary relation to "entropy") plays such a
+pivotal role in this group, and since there are frequent discussions of
+markets, information, order, disorder, gambling, and so on on this list,
+the field of information theory is quite apropos. Of course, information
+theory is also closely related (some would say subsumed into, others would
+say superior to) to: 
+
+-probability and statistics (hypothesis testing, Bayesian analysis, etc.)
+
+-communications theory (bandwidth, noise, channel capacity, compression,
+coding, etc.)
+
+-pattern recognition and language (patterns, grammars, generators, etc.)
+
+-the nature of intelligence (when is the "key" to a data set found?)
+
+-foundations of physics (a la the Zurek, Bennett, etc. work on the
+"thermodynamics of information," Maxwell's Demon, reversible logic, etc.
+
+(My main interest relates to my long interest in the complexity of building
+self-replicating structures and to issues of the "algorithmic complexity of
+life," the compression in DNA, complex puzzles, and so on. There are also
+some nice links to cryptology, via coding theory, zero knowledge proofs,
+and so on. If anybody out there is interested in a kind of "reading group"
+in this area, let me know!)
+
+I'll let Tom Cover (with co-author Joy Thomas) have the last word. The
+following is from the book "Elements of Information Theory," Wiley, 1991.
+
+(I could not scan in  and OCR the diagrams referred to.)
+
+
+Chapter 1
+
+Introduction and Preview
+
+This "first and last lecture" chapter goes backwards and forwards through
+information theory and its naturally related ideas. The full definitions
+and study of the subject begin in Chapter 2.
+
+Information  theory  answers  two  fundamental  questions  in communication
+theory: what is the ultimate data compression (answer: the entropy H), and
+what is the ultimate transmission rate of communication (answer: the
+channel capacity C). For this reason some consider information theory to be
+a subset of communication theory. We will argue that it is much more. 
+Indeed, it has fundamental contributions to make in statistical physics
+(thermodynamics), computer science (Kolmogorov complexity or algorithmic
+complexity), statistical inference (Occam's Razor: "The simplest
+explanation is best") and to probability and statistics (error rates for
+optimal hypothesis testing and estimation).
+
+Figure 1.1 illustrates the relationship of information theory to other
+fields. As the figure suggests, information theory intersects physics
+(statistical mechanics), mathematics (probability theory), electrical
+engineering (communication theory) and computer science (algorithmic
+complexity). We now describe the areas of intersection in greater detail:
+
+
+Electrical Engineering (Communication Theory). In the early 1940s, it was
+thought that increasing the transmission rate of information over a
+communication channel increased the probability of error. Shannon surprised
+the communication theory community by proving that this was not true as
+long as the communication rate was below channel capacity. The capacity can
+be simply computed from the noise characteristics of the channel. Shannon
+further argued that random processes such as music and speech have an
+irreducible 
+
+
+(this figure involved rotated text and could not be accurately scanned)
+
+Figure 1.1. The relationship of information theory with other fields.
+
+
+
+complexity below which the signal cannot be compressed. This he named the
+entropy, in deference to the parallel use of this word in thermodynamics,
+and argued that if the entropy of the source is less than the capacity of
+the channel, then asymptotically error free communication can be achieved.
+
+Information theory today represents the extreme points of the set of a11
+possible communication schemes, as shown in the fanciful Figure 1.2. The
+data compression minimum I(X; X) lies at one extreme of the set of
+communication ideas. All data compression schemes require description rates
+at least equal to this minimum. At the other extreme is the data
+transmission maximum I(X; Y), known as the channel capacity. Thus all
+
+    Data compression limit                      Data transmission limit
+
+
+min I(X; X)                     max I(X; Y)
+
+
+Figure 1.2. Information theoretic extreme points of communication theory.
+
+
+modulation schemes and data compression schemes lie between these limits.
+
+
+Information theory also suggests means of achieving these ultimate limits
+of communication. However, these theoretically optimal communication
+schemes, beautiful as they are, may turn out to be computationally
+impractical. It is only because of the computational feasibility of simple
+modulation and demodulation schemes that we use them rather than the random
+coding and nearest neighbor decoding rule suggested by Shannon's proof of
+the channel capacity theorem. Progress in integrated circuits and code
+design has enabled us to reap some of the gains suggested by Shannon's
+theory. A good example of an application of the ideas of information theory
+is the use of error correcting codes on compact discs.
+
+Modern work on the communication aspects of information theory has
+concentrated on network information theory: the theory of the simultaneous
+rates of communication from many senders to many receivers in a
+communication network. Some of the trade-offs of rates between senders and
+receivers are unexpected, and all have a certain mathematical simplicity. A
+unifying theory, however, remains to be found.
+
+Computer Science (Kolmogorov Complexity). Kolmogorov, Chaitin and
+Solomonoff put forth the idea that the complexity of a string of data can
+be defined by the length of the shortest binary program for computing the
+string. Thus the complexity is the minimal description length. This
+definition of complexity turns out to be universal, that is, computer
+independent, and is of fundamental importance. Thus Kolmogorov complexity
+lays the foundation for the theory of descriptive complexity. Gratifyingly,
+the Kolmogorov complexity K is approximately equal to the Shannon entropy H
+if the sequence is drawn at random from a distribution. that has 'entropy
+H. So the tie-in between information theory and Kolmogorov complexity is
+perfect. Indeed, we consider Kolmogorov complexity to be more fundamental
+than Shannon entropy. It is the ultimate data compression and leads to a
+logically consistent procedure for inference.
+
+There is a pleasing complementary relationship between algorithmic
+complexity and computational complexity. One can think about computational
+complexity (time complexity) and Kolmogorov complexity (program length or
+descriptive complexity) as two axes corresponding to program running time
+and program length. Kolmogorov complexity focuses on minimizing along the
+second axis, and computational complexity focuses on minimizing along the
+first axis. Little work has been done on the simultaneous minimization of
+the two.
+
+Physics (Thermodynamics). Statistical mechanics is the birthplace of
+entropy and the second law of thermodynamics. Entropy always
+increases. Among other things, the second law allows one to dismiss any
+claims to perpetual motion machines. We briefly discuss the second law in
+Chapter 2.
+
+Mathematics (Probability Theory and Statistics). The fundamental quantities
+of information theory  entropy, relative entropy and mutual 
+information--are  defined  as  functionals  of  probability distributions.
+In turn, they characterize the behavior of long sequences of random
+variables and allow us to estimate the probabilities of rare events (large
+deviation theory) and to find the best error exponent in hypothesis tests. 
+
+
+Philosophy of Science (Occam's Razor). William of Occam said "Causes shall
+not be multiplied beyond necessity," or to paraphrase it, 'The simplest
+explanation is best". Solomonoff, and later Chaitin, argue persuasively
+that one gets a universally good prediction procedure if one takes a
+weighted combination of all programs that explain the data and observes
+what they print next. Moreover, this inference will work in many problems
+not handled by statistics. For example, this procedure will eventually
+predict the subsequent digits of pi. When this procedure is applied to coin
+flips that come up heads with probability 0.7, this too will be inferred.
+When applied to the stock market, the procedure should essentially find all
+the "laws" of the stock market and extrapolate them optimally. In
+principle, such a procedure would have found Newton's laws of physics. Of
+course, such inference is highly impractical, because weeding out all
+computer programs that fail to generate existing data will take impossibly
+long. We would predict what happens tomorrow a hundred years from now.
+
+Economics (investment). Repeated investment in a stationary stock market
+results in an exponential growth of wealth. The growth rate of the wealth
+(called the doubling rate) is a dual of the entropy rate of the stock
+market. The parallels between the theory of optimal investment in the stock
+market and information theory are striking. We develop the theory of
+investment to explore this duality.
+
+Computation vs. Communication. As we build larger computers out of smaller
+components, we encounter both a computation limit and a communication
+limit. Computation is communication limited and communication is
+computation limited. These become intertwined, and thus all of the
+developments in communication theory via information theory should have a
+direct impact on the theory of computation.
+
+
+***end of excerpt***
+
+
+
+------------------------------
+
+Date: Sat, 30 Oct 93 00:10:03 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+News Summary as of: Sat Oct 30 00:10:02 EDT 1993
+
+
+Newly Registered Reputations:
+(None)
+
+New Share Issues:
+(None)
+
+Share Splits:
+(None)
+
+
+Market Summary as of: Sat Oct 30 00:00:03 EDT 1993
+
+Reputations of members of the Extropians mailing list:
+[ Note: Contact hex-request to have a reputation placed on this list. ]
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding
+AMARA         .10      .50      .50        10000         1000
+ANTON         .61      .63      .63        10000         1943
+ARKU          .18      .31      .30        10000         5301
+BLAIR         .01     1.20      .01        10000           26
+BROOX         .01     1.00        -        10000            -
+DEREK         .06      .19      .19       100000        18430
+DROSE           -      .15      .10        10000         3000
+DRS             -      .15      .15        10000         2600
+DVDT          .75     1.75     1.70        10000        10000
+E             .80     1.00      .90        10000         8011
+ESR             -        -        -            -            -
+FCP           .06     1.30     1.50        80000        15345
+GHG           .02      .30      .20        10000         8180
+GODII         .01     1.00        -        10000            -
+GOEBEL        .01      .25      .25        10000          767
+H             .40      .76      .76        30000        10290
+HAM           .60      .90      .90        20000        15918
+HANNO         .15      .24        -        10000          500
+HFINN        1.50     6.00      .01        10000         1005
+IMMFR         .25      .70      .80        10000         1838
+JFREE         .02      .50      .50        10000         3200
+JOHN          .30      .40      .35        10000          600
+JPP           .26      .29      .26        10000         3500
+KARL         1.00     1.50     1.50        10000         1001
+KLAUS           -      .45      .45       100000        36004
+KNNTA         .12      .19      .26       100000        10100
+LEFTY         .31      .40      .40        10000         4751
+MARCR           -        -        -            -            -
+MEEKS           -        -        -            -            -
+MLINK           -      .01      .01      1000000       102602
+MWM             -     1.50      .01        10000         1260
+N            5.00     9.00     9.00        10000         4750
+P           22.50    25.00     1.50      1000000           94
+PETER           -      .01      .01     10000000          601
+PRICE           -      .01      .01     10000000         1410
+R             .40      .80      .70        10000         6100
+RJC           .65     2.00     1.00        10000         5200
+ROMA            -        -        -            -            -
+RWHIT           -        -        -            -            -
+SAMEER        .30      .75      .61        10000         9810
+SHAWN         .55      .55      .01        10000           25
+SWANK           -     1.00        -        10000            -
+TIM           .10      .60      .50        10000         2104
+WILKEN       1.00    10.00     1.00        10000          102
+-----------------------------------------------------------------------------
+
+Other reputations:
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding
+1000          .05      .40      .20        10000         5000
+110           .01      .10      .10        10000         1750
+150           .01      .10      .10        10000         1750
+1E6           .20        -      .20        10000         8825
+1E9           .01      .09      .20        10000         7000
+200           .02      .20      .10        10000         5075
+80            .01        -        -        10000            -
+90            .01        -      .10        10000         2000
+ACS           .10      .15      .12        10000         3223
+AI            .01      .09      .10        10000         2400
+ALCOR         .25      .85      .60        10000      3675.00
+ALTINST         -      .25      .05        10000         4000
+ANARCHY       .20      .90     1.00        10000         1100
+BIOPR         .01      .09      .05        10000         3000
+BITD          .01     1.00        -        10000            -
+BLACK           -      .10      .10       100000         6000
+CHUCK           -        -        -            -            -
+CYPHP         .20      .40      .30        10000        10000
+D&M             -        -        -        10000            -
+DC1000          -      .10        -        10000            -
+DC200           -      .15      .10        10000         1500
+DC7000          -      .10        -        10000            -
+DCFLOP        .15        -      .15        10000         6000
+DRXLR         .75      .90      .80        10000         4545
+EXI           .10      .25     1.54        10000         3025
+FAB             -        -        -            -            -
+GOD             -      .10      .10        10000         3000
+GUNS            -      .90     1.00        10000         3900
+HART            -     1.99     2.00        10000         9000
+HEINLN        .28      .30      .30        10000         6600
+HEX        100.00   101.00   100.00        10000         4088
+KPJ             -        -        -            -            -
+LEARY         .01      .50      .20        10000         1000
+LEF           .10      .35      .10        10000         5214
+LIST          .40    10.00      .75        10000         5000
+LP            .25      .30      .50        10000         5625
+LSOFT         .50     1.00      .50        10000         9550
+LURKR           -      .01        -       100000            -
+MED21         .01      .30      .30        10000         5399
+MMORE           -     1.25      .10        10000         3000
+MNSKY           -     1.80        -        10000            -
+MORE          .38     1.25      .75        10000         2660
+NEWTON          -      .50      .20        10000         1000
+NLAW            -      .50        -        10000            -
+NNLAW           -      .50        -        10000            -
+NSS           .02      .03      .01        10000           25
+OCEAN         .15      .18      .20        10000         6600
+OOMPH           -    15.53    22.00        20000            -
+PENNY           -      .08     1.50        10000         2500
+PGP             -     1.00     1.00       100000         2100
+PLANET        .01      .02      .02        10000         4000
+PPL           .30      .45      .30        10000         4600
+RAND          .18      .20      .20        10000         3900
+RAW             -      .05        -        10000            -
+SHECKY          -        -        -            -            -
+SSI           .15      .20      .20        10000         5200
+TCMAY         .38      .40      .38        10000         6200
+TRANS         .01      .90      .60        10000         3211
+VINGE         .01     1.00      .75        10000         3449
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Sat, 30 Oct 1993 00:12:38 -0600 (MDT)
+From: rcarter@nyx10.cs.du.edu (Ron Carter)
+Subject: MOVIE: "Johnny Mnemonic" soon to roll...
+
+For use by the Extropian mail list only...
+
+>From an article from "The Hollywood Reporter" as published by the
+Rocky Mountain News (Denver, Colorado USA) 29 OCT 93...
+
+"Johnny Mnemonic" soon to roll
+
+  The first work from science fiction author William Gibson to make it
+to the big screen will be "Johnny Mnemonic", a $36 million independent
+production that's on the fast track to TriStar Pictures.
+  The film will mark the directorial debut of artist-turned-music video-
+maker Robert Longo, and is expected to begin shooting in Toronto in late
+November.
+  Though two lead roles are yet to be finalized, Dolph Lundgren and rapper
+Ice-T are already signed, as is Japanese star Takeshi.
+  Set against a chaotic global canvas run by "multinational corporations
+that control entire economies," "Johnny Mnemonic" is the story of a high-
+tech courier who carries information in his brain and winds up with a price
+on his head.
+
+End of article...
+
+Regards, Ron | rcarter@nyx.cs.du.edu | Denver, Colorado, USA | 29 OCT 93
+
+------------------------------
+
+Date: Sat, 30 Oct 93 01:13:09 -0500
+From: "Patrick M. Fitzgerald" <pmfitzge@fitz.b30.ingr.com>
+Subject: Sex in Cyberspace Essay Contest 
+
+Use "::resend #93-10-957" to get an amusing picture.  Uuencoded JPEG
+format.  Rated PG-13: no nudity, adult situations, some pistons.
+
+-Fitz
+{PGPAmiga -7days}
+
+------------------------------
+
+Date: Sat, 30 Oct 93 3:44:42 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Meta: Using Commands
+
+Perry E. Metzger writes:
+> 
+> Harry S. Hawk says:
+> >         Many of you are sending commands to Extropians-request@extropy.org
+> 
+> Frankly, Harry, it would be a Good Think IMHO if such commands were
+> processed -- better than sending them to the main list where syntax
+> errors result in them being forwarded to everyone...
+
+  An out-of-band processor was originally planned but aliases are harder
+to come by on panix. Sooner or later there will be an out of ban processor,
+but there's other stuff I have to finish first.
+
+> .pm
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Sat, 30 Oct 93 10:59:48 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: Bet 5000 ... and Exi Science Courts?
+
+Let's dispel the current List Malaise with some action!  I bring you 
+the...........
+                           The
+                     EXI SCIENCE COURT
+
+Even if James Donald backs down the current quantum computer wager this
+sort of technical dispute is bound to arise again.  Therefore I suggest
+the creation of an Exi Science Court or Star Chamber to help in deciding
+such issues.  There seem to be enough experts on the list in various
+fields to put together an truly impressive array of knowledge and we
+could have a real fun time passing judgement on things like Nuclear
+Winter (oops, I mean Nuclear Fall), Global Warming, Grey Goo etc.  Of
+course people could still dissent from any such "official"
+pronouncements, but it would still be interesting and instructive.  I
+hope no one feels that Exi as an organisation is precluded from forming
+scientific judgements - the Extropian Principles contain many such
+judgements (correctly, IMO) - uploading and AI, for instance.
+
+Because of my involvement in the Donald-Price wager I am (obviously!)
+precluded from having input in the selection of any panel (although the
+Extropy editorial committee, as listed in Extropy#11, would seem like
+a good initial choice to bootstrap the panel self-selection process). 
+Would some impartial Exi official like to do this?
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Sat, 30 Oct 1993 11:10:57 -0400
+From: habs@panix.com (Harry S. Hawk)
+Subject: Beating the Stock Market?
+
+Tim Writes:
+>As for disturbing patterns, in a kind of ersatz Heisenbergian sense, I
+>am more skeptical that this is a major issue. Too many competing
+>models, too much apparent noise in the system, too many heterogeneous
+>agents. 
+
+It would be sorta fun, although probally to expensive, to try to detect
+other computer trading programs and to try to find weaknesses in them,
+and thus earn money off of their flaws. (e.g., ignore the market,
+per se, and just focus on trading "against" other computer traders.)
+
+/hawk
+
+
+--
+Harry S. Hawk  -  Extropian  
+                                                        habs@extropy.org
+In Service to Extropians since 1991
+
+
+
+------------------------------
+
+Date: Sat, 30 Oct 1993 11:11:12 -0400
+From: habs@panix.com (Harry S. Hawk)
+Subject: FOOD, Veganism and politics
+
+Perry wrote:
+>There are other vegans around here, largely for life extension
+>purposes. (Hmmm... I wonder who they might be...)
+
+Of course I am one. I do eat a bit of meat and fish from time
+to time. I eat a lot of Japanese/Chinese foodstuffs like
+Seitan, soy products, and reduced fat TVP.
+
+/hawk
+
+
+--
+Harry S. Hawk  -  Extropian  
+                                                        habs@extropy.org
+In Service to Extropians since 1991
+
+
+
+------------------------------
+
+Date: Sat, 30 Oct 1993 11:11:07 -0400
+From: habs@panix.com (Harry S. Hawk)
+Subject: Meta: Justice was (Bet 5000...and List Justice (what a combo!))
+
+Tim writes:
+>(Then the list outage hit on top
+>of that...all in all, a useful break from the List.) As Mike was off
+>for that entire time, and more, I'd say the whole issue is much more
+>than moot.
+
+Agreed
+
+
+>Frankly, with the "::exclude" feature, I don't even see the need for
+>_any_ list justice system of the sort we have here. 
+
+>I recommend we drop the formal charges business and instead just
+>encourage wider use of "::exclude" functions. Save the formal charges
+>for serious, meta-level issues involving the List as a whole...and at
+>that level, just kick disrupters off the list "for cause."
+
+I strongly agree, for most cases. List member A says List member B is
+flaming them. I, Judge Hawk, say, "Exclude List member B."
+
+If things get out of hand, a list member becomes troublesome, etc.,
+we reserve the right....
+
+/hawk
+
+
+--
+Harry S. Hawk  -  Extropian  
+                                                        habs@extropy.org
+In Service to Extropians since 1991
+
+
+
+------------------------------
+
+Date: Sat, 30 Oct 1993 11:11:09 -0400
+From: habs@panix.com (Harry S. Hawk)
+Subject: EXTROPIAN CORRECTNESS
+
+>My dad once hit my car with a suburban. The suburban had a dent in
+>it, the '68 Impala didn't. (Currently using Nissan Maxima, which
+>in speed and state of repair terms is a lot better, but had _better_
+>be able to maneuver, it won't take much damage compared to the Impala.)
+
+I once owed an 1970 Impala - while I the left lane, some driver in
+the right lane made a left hand turn (illegal in America). My Impala
+had a dent the width of a quarter in the front right of the hood. The
+car, a Station wagon (Mercury Marquis w/ colony park options) lost both
+the drivers door and back door and structural support between the two
+doors, plus other damage.
+
+Not sure how this relates to the list, but I suspect that a corvair would
+be among the safest cars on the road today, if it was in production.
+
+The corvair, I would think, was the kind of car America needed to make for
+the 80's, and if we were making them, we wouldn't have lost so much market
+share to Japan, Inc.
+
+
+--
+Harry S. Hawk  -  Extropian  
+                                                        habs@extropy.org
+In Service to Extropians since 1991
+
+
+
+------------------------------
+
+Date: Sat, 30 Oct 1993 11:11:15 -0400
+From: habs@panix.com (Harry S. Hawk)
+Subject: FOOD:Crosspollination at U of Wisconsin-was Beating the Stock Market
+
+I wrote:
+>|> sea living things (many raw), sheep balls, alligator, and I am sure
+>|> other things that I have forgotten.
+
+Freeman Craig Presson wrote:
+>I have done all of the above except lion and ram's balls (you haven't
+>had sheep balls, either, Harry :-). Also wild boar once at a German
+>restaurant, which was delicious. Also wild squirrel and rabbit and a
+>few varieties of brains.
+
+
+I see what you mean about the balls :) I have several differnet kinds
+of Rabbit (wild and not), and some brains, tongues, etc. (non human
+of course - I have to draw the line there) Oh, yeah.. snakes too.
+
+/hawk
+
+
+--
+Harry S. Hawk  -  Extropian  
+                                                        habs@extropy.org
+In Service to Extropians since 1991
+
+
+
+------------------------------
+
+Date: Sat, 30 Oct 1993 10:38:47 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Meta: Using Commands
+
+What sort of systems is the list software capable of
+running on?
+
+Straight Unix only?
+
+Phil
+
+------------------------------
+
+Date: Sat, 30 Oct 1993 13:11:32 -0400
+From: habs@panix.com (Harry S. Hawk)
+Subject: Change of Address
+
+>Please change the address that extropian postings are sent to me
+>at.
+>
+>The address they are currently sent to is:
+>
+>robin@ganesh.demon.co.uk
+>
+>Please change this to:
+>
+>extropy@ganesh.demon.co.uk
+>
+>Thanks!
+
+we don't normally do this. Who is going to be reading this?
+
+/hawk
+
+
+--
+Harry S. Hawk  -  Extropian  
+                                                        habs@extropy.org
+In Service to Extropians since 1991
+
+
+
+------------------------------
+
+Date: Sat, 30 Oct 1993 13:11:35 -0400
+From: habs@panix.com (Harry S. Hawk)
+Subject: Meta: Using Commands
+
+>Harry S. Hawk says:
+>>         Many of you are sending commands to Extropians-request@extropy.org
+>
+>Frankly, Harry, it would be a Good Think IMHO if such commands were
+>processed -- better than sending them to the main list where syntax
+>errors result in them being forwarded to everyone...
+>
+>.pm
+
+At some point we will have a dedicated address for folk who wish to
+communication with the list out of band.
+
+I think Ray had some techical reasons for doing it the way it is now.
+
+At somepoint the address (reply-to) of list commands (e.g., ::list)
+will be set to Extropians rather than Extropians-request.
+
+/hawk
+
+
+--
+Harry S. Hawk  -  Extropian  
+                                                        habs@extropy.org
+In Service to Extropians since 1991
+
+
+
+------------------------------
+
+Date: Sat, 30 Oct 1993 13:59:36 -0400
+From: ddf2@postoffice.mail.cornell.edu (David Friedman)
+Subject: Beating the Stock Market?
+
+On a lower tech note ...  .
+
+My theory of stock market investing is based on the idea of efficient
+markets. I assume the price contains all publicly available information,
+and that therefore only an insider can make abnormal gains. But an insider,
+in this context, is anyone with better-than-public information--where
+information includes judgement.
+
+For example... . When the Macintosh came out, I had been using a personal
+computer (LNW80) for some years. It was clear to me both that the Mac
+represented a major step forward and that the market, as judged both by
+stock prices and news stories, had not recognized that. I accordingly
+bought stock in Apple.
+
+This approach does not require me to know much about the companies I invest
+in. Suppose Apple's long run value depends mainly on four variables--how
+competent the CEO is, what their capital structure is, ... , and how good a
+product the Mac is. I assume that the market has already incorporated
+public information on all four into the stock price. So if I am right in
+believing that the market estimate of the fourth variable is low by (say)
+$10, it follows that the estimate I would make of the value of the stock,
+if I bothered to get all the public information on the other three, is the
+market price plus $10.
+
+Acting on this principle, I have bought stock in four companies over the
+years: Apple, Microsoft, AOL, and (a few weeks ago) Psion. They have all
+done very well for me. 
+
+David Friedman
+Cornell Law School
+DDF2@Cornell.Edu
+
+
+------------------------------
+
+Date: Sat, 30 Oct 1993 14:02:15 -0400 (EDT)
+From: ptbast@ivy.WPI.EDU (Peter F Bastien)
+Subject: Beating the Stock Market?
+
+In a recent Forbes ASAP there was an article about a company in Sante Fe, NM
+who (try to) predict the commodities market. I'll have to read the article,
+to give more details, but one item that I noticed is that the two primary
+people behind this buisness are the subjects of the book _The Eudaemonic Pie_.
+This book, by Thomas Bass, is basically about a group of people used a 
+computer to beat Roulette wheels. The computer they used was actually worn
+on the body, actually in the shoes. Interesting book.
+
+Pete
+
+------------------------------
+
+Date: Sat, 30 Oct 93 14:27:51 EDT
+From: walkerbill@aol.com
+Subject: Unsubscribe
+
+Please unsubscribe me (great stuff, but since I'm working on paying my
+retroactive taxes this year, I have no time to read it).  I look forward to
+buying the next Extropy 'zine (no.13?).
+
+------------------------------
+
+Date: Sat, 30 Oct 93 11:45:17 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Beating the Stock Market?
+
+David Friedman writes:
+
+> For example... . When the Macintosh came out, I had been using a personal
+> computer (LNW80) for some years. It was clear to me both that the Mac
+> represented a major step forward and that the market, as judged both by
+> stock prices and news stories, had not recognized that. I accordingly
+> bought stock in Apple.
+
+Ditto for me. The Mac went on sale January 24, 1984, for around $2599
+or somesuch. I went at looked at it and was impressed. (I also knew
+Steve Jobs from the Homebrew Computer Club in the mid-70s.)
+
+Instead of buying one, I instead bought 100 shares at $25 apiece,
+which was a nice coincidence. Several years later I sold them for
+about $10,000...enough to buy my Mac IIci a couple of times over.
+
+(In between, I did buy a Mac Plus in 1986.)
+ 
+My interest in "beating the stock market" is not in some
+numerological, chartist-oriented "system," but in studying the rich
+information flows in these complex markets.
+
+In a system that demonstrably consists of many agents, each with their
+own goals, time horizons, risk aversions, and wildly varying amounts
+of information, I'm not sure the efficient market hypothesis is valid.
+Maybe in equilibrium, whatever that is, but I suspect (but cannot
+prove) that the stock market is nearly always not at equilibrium.
+
+Fundamental analysis--of the sort David is talking about--has worked
+well for me the past 15 years. Maybe now it's time to put a small
+amount of money into a different appraoch.
+
+Besides, it makes the study of markets, complexity, entropy, etc. so
+much more interesting!
+
+--Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Sat, 30 Oct 93 12:01:58 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Beating the Stock Market?
+
+Pete Bastien writes:
+
+> In a recent Forbes ASAP there was an article about a company in Sante Fe, NM
+> who (try to) predict the commodities market. I'll have to read the article,
+> to give more details, but one item that I noticed is that the two primary
+> people behind this buisness are the subjects of the book _The Eudaemonic Pie_.
+> This book, by Thomas Bass, is basically about a group of people used a 
+> computer to beat Roulette wheels. The computer they used was actually worn
+> on the body, actually in the shoes. Interesting book.
+
+This is "The Prediction Company." Doyne Farmer and others. I think one
+of the recent "Complexity" books--probably the one by Mitchell
+Waldrop--has a whole section on this development.
+
+The "Chaos Cabal" described in several books, including the wonderful
+little "Eudaemonic Pie" mentioned above, was located right here in
+scenic Santa Cruz in the late 1970s and into the early 80s, when they
+scattered (some to Los Alamos, some to the Santa Fe Institute, one of
+them to join Steven Wolfram at Princeton, etc.). 
+
+At the first Artificial Life Conference, held in 1987 at Los Alamos, I
+got to meet many of them, who were drawn together again for this new
+field. Lots of new stuff, including genetic algorithms, nonlinear
+dynamics, and evolution in general. 
+
+Anyway, The Prediction Company has had a few hiccups in getting
+started with real money, but this supposedly is now happening. My
+friend the hedge fund manager, about whom this thread got started, is
+meeting (or already has met) with Farmer to discuss certain things of
+mutual interest.
+
+The recent debates about "determinism" and "free will" have left me
+cold--which is my right and does not mean the topic is itself
+boring--as I think these issues were disposed of as much as they can
+be long ago.
+
+Of much greater interest to me is the juicy--and experimentally
+rich--area of "determinism in markets," that is, this whole area of
+discovering or inducting algorithms for gaining a market edge.
+
+_Not_ "predicting," just gaining a "thermodynamic edge," a way to in
+the long run extract a surplus of energy (money, in mundane terms)
+from a complex market.
+
+If it is just _not_ possible to do this, as some have claimed in print
+(the strong form of the efficient market hypothesis), then it will be
+interesting to understand why this is so.
+
+Frankly, I view the stock market as being much like markets in the
+past. Thus, if a trader could decide that he could buy sugar in the
+West Indies, ship it to the Colonies, sell it for tobacco to ship to
+England, and so on (I'll ignore the 3rd leg in the cycle--slaves), and
+make huge profits, "efficient market" be damned, then why not similar
+opportunities in stocks and commodities?
+
+--Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Sat, 30 Oct 1993 15:01:32 -0400 (EDT)
+From: Christina M Grimes <ratha+@CMU.EDU>
+Subject: Admin: Your E-mail address
+
+I put digest mode on, and am trying to cancel my ::exclude all status.
+How does one do that? The command processor doesn't like the comand
+"::exclude none".
+
+Also, I want to make sure I mentioned my previous address
+(cg39+@andrew.cmu.edu) when I asked for the change to ratha+@cmu.edu.
+
+Thanks!
+
+Ratha
+
+------------------------------
+
+End of Extropians Digest V93 #302
+*********************************
+

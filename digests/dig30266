@@ -1,0 +1,1079 @@
+From extropians-request@gnu.ai.mit.edu Mon May 17 21:08:16 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA23051; Mon, 17 May 93 21:08:14 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA14967; Mon, 17 May 93 21:08:10 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA02564@wookumz.gnu.ai.mit.edu>; Tue, 18 May 93 00:02:07 -0400
+Message-Id: <9305180402.AA02564@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Tue, 18 May 93 00:01:48 -0400
+X-Original-Message-Id: <9305180401.AA02557@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0266
+X-Extropian-Date: Remailed on May 18, 373 P.N.O. [04:02:06 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Tue, 18 May 93            Volume 93 : Issue 0266
+                        
+Today's Topics:
+         Chaitin, Complexity, and the Thermodynamics of Information   [5 msgs]
+                            Currency Competition                      [2 msgs]
+                         FTL: Traversable Wormholes                   [2 msgs]
+                             First CDs, then...                       [1 msgs]
+                             Guns, Cops & Crime                       [2 msgs]
+                               More on Chaitin                        [2 msgs]
+                          Neil's use of "extropic"                    [1 msgs]
+                  PHIL/MATH: Stronger results than Godel's            [1 msgs]
+                         TECH: Numerical Speculation                  [1 msgs]
+                   TV: "WILD PALMS" Has Libertarian Heros             [1 msgs]
+                               Tipler article                         [1 msgs]
+                  Traversable Wormholes: Some Implications            [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 53284 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 17 May 93 14:01:21 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Chaitin, Complexity, and the Thermodynamics of Information
+
+Ah, the discussion will soon get more interesting! Derek Zahn writes:
+
+>So I went to the library to check this out, and Lo!, right next to it,
+>a book that looked even *better*!
+>
+>Chaitin, Gregory J.
+>Information, Randomness, and Incompleteness
+>World Scientific, Singapore, 1987.
+>ISBN 9971-50-479-0
+>
+>This book is a collection of 21 of Chaitin's papers.  TOC:
+.....
+>Hardy fare for information-hungry extropian!
+>
+>derek
+>say, this will replace Korzybski on the night-table... I got tired of
+>him NEVER GETTING TO THE POINT.  Is there a better (briefer, more
+>readable) work on the topic than _Science and Sanity_?
+>
+>oh, and what's a "logical tile"?
+
+I'm glad the profundities of Chaitin have replaced the obscurities of the
+Count ("Count Zero," I call him) on Derek's reading list.
+
+Yes, Chaitin's little book (the paperback *still* costs $40, which I why I
+refuse on principle to own it when I can Xerox the best articles so much
+more economically!) contains several good articles, including his
+"Scientific American" aritcles on randomness. As I recall, though, the 1987
+collection does *not* contain his crowning conclusion, made in his new
+results book published the same year (which I *did* pay $40 for...at least
+it was a nice hardback.)
+
+Chaitin also has a new (1992) book out, summarizing his points, but I've
+barely looked at it so far.
+
+Ironically, I just checked out Count Zero's "Science and Sanity" as some
+final reading for my 250K-plus (gulp!) report on the Paganism business
+(obviously my net has extended into epistemology, the philosophy of
+science, maps of reality, operational truth, etc.), I found K. as
+inscrutable last night as I did in 1971. So much for the pristine clarity
+of general semantics! (Even worse were some newsletters and yearbooks put
+out by the Inst. for General Semantics, which UCSC has a complete
+collection of...mostly crankish ramblings and pictures of members,)
+
+"Logical tiles" are the locally-logical tilings of a plane, for example,
+where some constraint--such as edges matching shapes or colors--must be
+satisfied. Think of these as "dominoes" which are to be snaked across a
+table-top while meeting some logical constraint (like the numbers on the
+ends matching). 
+
+- Can a domino snake be extended from Point A to Point B? (with the tiles
+or dominoes in a grid, so no funny bending is allowed)
+
+- Can a given finite region be tiled with some given set of tiles?
+
+These problems may sound mundane, but they have been shown to be isomorphic
+(the same structure as) logic in general...tilings are theorems (with the
+specific shapes or edge constraints of the tiles being the axioms or
+previously proved theorems of the system...the "legal moves," as it were). 
+
+Problems of whether a point can be reached by a domino snake are related to
+problems of undecidability. (To make this clearer, a mere 10 x 10 grid has
+more possible snakes than computers can, or ever will, handle. If points A
+and B are, say separated by 10 grid spaces in the X direction and 10 spaces
+in the Y direction, it is intractable to consider all snakes which lie
+within this 10 x 10 array. A 100 x 100 grid is so vastly more intractable
+as to boggle any mind, even  a Jupiter-sized one! And if snakes are allowed
+go out to Yonkers, down to Atlanta, over to Chicago, etc., the answer is
+utterly beyond comprehension. And yet the logical constraint on snakes
+means these are "true theorems" in this system. (The snakes are free to go
+as far in any direction as one wishes...clearly the problems blows up very
+quickly!)
+
+The tiling problem (Huang tiles, for math folks, and mentioned in Grunbaum
+and Sheperd's "Tilings" book) has deep resonances with the "landscape of
+reality" model/metaphor I have used several times. 
+
+To bring this home for Extropians, imagine that "out there" in knowledge
+space (I've mentioned k-space before, but can't go into right now) is a
+true nanotechnology-based "general assembler." How do we get there?
+
+We're busy exploring k-space, extending truths in certain areas, building
+support structures...basically, we humans are "colonizing" this landscape,
+just as settlers moved into uncharted territory and built tools, support
+lines, etc. In the tiling metaphor (which is more than a metaphor), the
+logical constraints correspond to the requirement that local laws of
+mathematics, physics, etc., be observed. (You can't build arbitrarily.)
+
+Now right now we don't know which of the "domino snakes" will take us from
+where we are to the place in k-space that's the "general assembler."
+Knowing that such a gadget is possible is *not* enough to know how to get
+there.
+
+Now of course once we're there, the path will look "retroactively obvious,"
+just as the path to the microprocessor look obvious to us today (but is
+sure as hell didn't to the many bright people in 1970 looking ahead!). The
+"future is nearly opaque, past is nearly transparent" model is closely
+connected to the concepts of NP-completeness (a solution is hard to find in
+the first place, but once a solution is found or presented or even guessed,
+it is trivially easy to verify...a domino snake between two points may be
+incredibly hard to find, but can be easily verified once found).
+
+Nothing here means nanotech is hopeless. Far from it. But my point is that
+knowing an assembler probably "exists" is not enough. (By the way, here's
+where Platonism shows off its strength...don't most of us believe that
+Drexler's vague ideas about a real general assembler actually "exist" in
+some kind of Hilbert space of knowledge?) Colonizing the space in the
+direction means stable economic returns, fertile soil, etc. The analogy
+with the microprocessor is nearly perfect. George Dumbar (or Dumbart?)
+forecast in the early 1950s that someday a component would be built with a
+million or more elements and it would act as a computer. But he was
+ignored, rightly so (in my opinion), because such a forecast said almost
+nothing about the hundreds of intermediate steps, the thousands of workers,
+the products, the failures and successes, and so on. We have built a domino
+snake--a stable pathway in k-space--between Dumbar's vision of 40 years ago
+and the million transistor processors of today. We figured out how to tile
+this part of space.
+
+(Obviously I included economic, social, and legal constraints as part of
+the various "legal moves" of the system.)
+
+To my mind, understanding the nature of this "knowledge space," especially
+for product development and economic exploitation, is of great Extropian
+relevance. Nick Szabo agrees with me, and has used this model in some of
+his own work.
+
+Thus, my model of reality, sketched above (sorry for the succinctness), is
+that knowledge spreads in a process of colonization, or digging out a mine
+in k-space, or tiling with many of these locally-consistent tile snakes.
+
+-Tim May, Explorer and Colonizer of Knowledge Space
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+
+
+
+------------------------------
+
+Date: Mon, 17 May 93 21:50:32 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: FTL: Traversable Wormholes
+
+I've recently posted a 41K file on wormholes to the exi-essay list.  I'm
+looking for feedback about its style and content before submitting it
+for publication in extropy#11.  In particular I'm interested in any bits
+that seem unnecessarily obtuse (or incorrect).  It mostly recapitulates
+the material covered in the recent FTL thread, but I've emphasized the
+return to a conception of Newtonian time as absolute and universal a bit
+more than previously.
+
+Here is the summary:
+
+     Since 1985 there has been much theoretical progress on
+     traversable wormholes.  At first they were thought to enable
+     time travel, so not taken seriously.  More recent work rules
+     out time travel and associated paradoxes, but still permits
+     faster-than-light travel.  This article explores some of the
+     implications traversable wormholes have on the expansion of
+     civilisations through the universe.  In particular it is found
+     each civilisation imposes a local region of simultaneity, or
+     empire-time, which differs from the more natural, co-moving
+     timeframe which astrophysicists.  Distant regions of the
+     universe and alien civilisations can be reached in short
+     periods of empire-time, whereupon their respective empire-time
+     zones fuse together.  Shortly after first contact is made all
+     expanding civilisations connect together to form a universal
+     time.  Finally some of the information processing limitations
+     of euclidean space are contrasted with wormhole connected non-
+     euclidean space.
+
+------------------------------
+
+Date: 17 May 93 14:22:19 U
+From: "Kent Hastings" <kent_hastings@qmail2.aero.org>
+Subject: Guns, Cops & Crime
+
+ Reply to:     RE>Guns, Cops & Crime#000#
+Con Sarn It All, Skippy - someone whose name I deleted (again) 
+quoted me and replied:
+>> The stats on crimes deterred by citizens with guns show that 98% 
+>> did NOT result in the death of the attacker. 
+
+>Which set of "the stats" is this?
+
+>From my memory of a discussion with J. Neil Schulman, founder of 
+the Committee to Enforce the Second Amendment (CESA). 
+
+By the way, Neil also claims that he coined the term "extropic" 
+in \The Rainbow Cadenza\ as well as Bank Anarchocard in 
+\Alongside Night\. His SoftServ Publishing company was founded 
+in 1987 (I was the first V.P. Ops), and his \Here Come the 
+Paperless Books\ brochure covered many of the issues raised in 
+the "CD - Print on Demand" thread. There's a new project related 
+to electronic publishing that I'll post Real Soon Now.
+
+> SF'ish idea for a security device -- you have an armed flying 
+> drone following you whenever you go out ...
+
+Actually, the fleet operator has these units in service 
+most of the time. These FedEx (or whatever) "package pigeons" 
+would be delivering packages without carrying human passengers, 
+thus saving fuel and providing cheap door-to-door delivery. In a
+crisis, the other functions would be activated. 
+
+Targets would be determined by a remote operator, who would be 
+paged by your "panic button" transmission. You can't target 
+anyone, only press the "silent alarm" in your shoe (eg.) 
+without attracting attention.
+
+> ... assassins would probably use telescopic rangefinders to 
+> acquire your drone and shoot it down ...
+
+The proprietor of the community (per Spencer Heath McCallum and 
+L. Neil Smith), might require a good security rating for any 
+UAV/RPVs in use (without identifying owners or compiling a 
+dossier, per Chaum), so bad drones might be destroyed before
+they get you. Perhaps you have a laser or missile in mind to 
+shoot down the birds, hmm, still a problem, but your typical
+stupid criminal will be thwarted.
+
+Kent - kent_hastings@qmail2.aero.org.
+
+
+
+------------------------------
+
+Date: Mon, 17 May 1993 17:59:35 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Currency Competition 
+X-Reposting-Policy: redistribute only with permission
+
+Craig Presson says:
+> In <9305171840.AA26975@wookumz.gnu.ai.mit.edu>, "Perry E. Metzger" writes:
+> |> Selgin makes some good arguments as to why, if the underlying
+> |> commodity basis and units of the currencies are identical, they will
+> |> ultimately be accepted on par with each other. Its enlightening
+> |> reading...
+> 
+> Is there also a tendency to converge on a single favored family of
+> currencies, starting from many different backings?
+
+That I would have to think about, but it wouldn't follow from Benson's
+argument. More or less what Benson points out is this: if Banks
+discount each others notes, an arbitrage opportunity shows up that
+will eventually eliminate the discount. This obviously can't apply to
+your question. However, I wonder if the arguments used to explain
+technological standards dominance could be used to formulate arguments
+for why a single standard currency backing might arise. I suspect not,
+but I'll have to think about it.
+
+> ~~ I got my copy of Benson Saturday. Now I have to order Selgin to have
+> it ready when I finish Benson, I see. ~~
+
+Selgin's book is very lucidly written, and a pretty quick read -- its
+worthwhile for anyone interested in the topic of free banking.
+
+Perry
+
+------------------------------
+
+Date: Mon, 17 May 93 14:34 EDT
+From: kqb@whscad1.att.com
+Subject: First CDs, then...
+
+>   SANDY SANDFORT                          ssandfort@attmail.com
+> . . .
+> It would help if there were some way to view them on a hand-held
+> reader, but I'd spring anyway if I could easily get electronic
+> versions of books I can't otherwise find.
+
+Sandy,
+FYI: Page 88 of the May 11, 1993 issue of PC Magazine has some
+interesting news from commentator Bill Machrone:
+
+    Electronic Books
+    . . .  A number of electronic books, aimed at both the PC and
+    Mac markets, stand ready to enhance your reading experience
+    with indexing, searching, graphics, annotations, glossaries,
+    sound clips, animation, and bookmarks.  As one who has
+    pooh-poohed such efforts in the past, I can finally say that
+    the products are tolerable, even desirable.  Books on-disk
+    are going to be big, and now that the software works, smaller,
+    cheaper laptops will be the gating factor.
+
+                              Kevin Q. Brown
+                              INTERNET    kqb@whscad1.att.com
+                                 or       kevin_q_brown@att.com
+
+------------------------------
+
+Date: Mon, 17 May 1993 17:16:11 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: Guns, Cops & Crime
+
+In <9305172122.AA28915@wookumz.gnu.ai.mit.edu>, "Kent Hastings" writes:
+|>  Reply to:     RE>Guns, Cops & Crime#000#
+|> Con Sarn It All, Skippy - someone whose name I deleted (again) 
+
+That were me again, Sky Pilot.
+
+|> quoted me and replied:
+|> >> The stats on crimes deterred by citizens with guns show that 98% 
+|> >> did NOT result in the death of the attacker. 
+|> 
+|> >Which set of "the stats" is this?
+|> 
+|> >From my memory of a discussion with J. Neil Schulman, founder of 
+|> the Committee to Enforce the Second Amendment (CESA). 
+
+Well, that's a pretty good source. Now if I had his source ...
+
+|> By the way, Neil also claims that he coined the term "extropic" 
+|> in \The Rainbow Cadenza\ as well as Bank Anarchocard in 
+|> \Alongside Night\. His SoftServ Publishing company was founded 
+
+I remember First Anarchist Bank and Trust, AnarchoBank, and Bank
+Anarchocard from _Alongside Night_. I haven't been able to trudge
+through _Rainbow Cadenza_ yet.
+
+|> in 1987 (I was the first V.P. Ops), and his \Here Come the 
+|> Paperless Books\ brochure covered many of the issues raised in 
+|> the "CD - Print on Demand" thread. There's a new project related 
+|> to electronic publishing that I'll post Real Soon Now.
+
+I await eagerly. I'm a spot irritated at Neil for only publishing two
+(paper) books. I recently reread _Alongside Night_ and found it even
+better than the first time. I'll happily buy anything of his that's
+published in an accessible form.
+
+|> > SF'ish idea for a security device -- you have an armed flying 
+|> > drone following you whenever you go out ...
+|> 
+|> Actually, the fleet operator has these units in service 
+|> most of the time. These FedEx (or whatever) "package pigeons" 
+|> would be delivering packages without carrying human passengers, 
+|> thus saving fuel and providing cheap door-to-door delivery. In a
+|> crisis, the other functions would be activated. 
+|> 
+|> Targets would be determined by a remote operator, who would be 
+|> paged by your "panic button" transmission. You can't target 
+|> anyone, only press the "silent alarm" in your shoe (eg.) 
+|> without attracting attention.
+|> 
+
+Nope, don't like your idea at all. I ain't waiting for your "remote
+operator" to decide who the perp is and waste one of us, possibly the
+wrong one.
+
+How would "package pigeons" navigate? I'm too paranoid to put a homing
+beacon on my house -- someone could FedEx me a bomb.
+
+
+|> > ... assassins would probably use telescopic rangefinders to 
+|> > acquire your drone and shoot it down ...
+|> 
+|> The proprietor of the community (per Spencer Heath McCallum and 
+|> L. Neil Smith), might require a good security rating for any 
+|> UAV/RPVs in use (without identifying owners or compiling a 
+|> dossier, per Chaum), so bad drones might be destroyed before
+|> they get you. Perhaps you have a laser or missile in mind to 
+|> shoot down the birds, hmm, still a problem, but your typical
+|> stupid criminal will be thwarted.
+
+Again, if I'm within a secured community, I probably don't need my
+Thunderbird. The whole planet will not consist of armed enclaves,
+however.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    /
+
+
+------------------------------
+
+Date: Mon, 17 May 1993 17:20:07 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: Currency Competition 
+
+In <9305172200.AA29297@wookumz.gnu.ai.mit.edu>, "Perry E. Metzger" writes:
+|> 
+|> Craig Presson says:
+[...]
+|> > ~~ I got my copy of Benson Saturday. Now I have to order Selgin to have
+|> > it ready when I finish Benson, I see. ~~
+|> 
+|> Selgin's book is very lucidly written, and a pretty quick read -- its
+|> worthwhile for anyone interested in the topic of free banking.
+
+I admire Benson's style, too, from what little I've read. He chooses
+arguments and explanations that are well-matched to the subject matter
+in terms of concreteness and lucidity.
+
+Whenever someone proves a commonsensical assertion with a highfalutin
+abstract argument, I begin to suspect his thinking is not very clear,
+or that he has math envy.
+
+-- Craig
+
+------------------------------
+
+Date: Mon, 17 May 1993 18:14:36 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: Chaitin, Complexity, and the Thermodynamics of Information
+
+> I temporarily solved the Halting Problem for my scanner and OCR package
+> (ah, the joys of 40 inits and lots of exotic programs on my Mac...always a
+> new problem!) and scanned-in a few pages from John Casti's wonderful
+> "Searching for Certainty," mentioned  in my last message on this topic.
+
+If I understand that exposition correctly, then "arithmetic is random" is
+a gross over-interpretation of it.  OK, so Chaitin can construct a countable
+infinity of undecideable propositions in arithmetic.  So?  I don't see that
+that tells us anything more fundamental than the presence of a *single*
+such proposition (Godel's theorem).
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Mon, 17 May 1993 16:34:41 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: Chaitin, Complexity, and the Thermodynamics of Information
+
+> say, this will replace Korzybski on the night-table... I got tired of
+> him NEVER GETTING TO THE POINT.  Is there a better (briefer, more
+> readable) work on the topic than _Science and Sanity_?
+
+Didn't somebody post a ref. for "Language In Thought And Action"?
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Mon, 17 May 1993 19:12:20 -0400 (EDT)
+From: Carol Moore <cmoore@cap.gwu.edu>
+Subject: TV: "WILD PALMS" Has Libertarian Heros
+
+The TV miniseries about virtual reality co-opted
+by authoritarian religious nuts WILD PALMS (on
+Sun-Mon-Tue-Wed) posits the bad guys THE FATHERS
+against the good guys THE FRIENDS--who are described
+as "libertarians obsessed with the bill of rights".
+
+Oliver Stone produces.  We'll see if it gets more
+explicitly libertarian tonight.
+
+ (-:   cmoore@cap.gwu.edu   ;-)
+
+
+
+------------------------------
+
+Date: Mon, 17 May 1993 18:57:01 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: PHIL/MATH: Stronger results than Godel's
+
+I've been thinking about the excerpt Tim May posted on Chaitin's omega theorem.
+My initial reaction was that I was disappointed because it doesn't actually
+seem to me to be a significantly stronger result than Godel's Incompleteness
+theorem itself.  To say that it shows "arithmetic is random" certainly seems
+to overstate the case.
+
+What *would* constitute a stronger result would be a proof that the set of
+decidable theorems, within the set of all well-formed propositions, is in some
+sense, a sparse one.  The equivalence Chaitin trades on suggests a way to
+approach this question, because it implies a topology on the set of all
+theorems within which one can characterize at least one infinite point set
+of undecideables.
+
+I'm also bugged more strongly than ever by the suspicion that the Intuitionists
+had something right --- Chaitin's theorem has the same artificial-seeming twist-
+an-actual-infinity-back-on-itself character found in all the nastiest
+indefiniteness results.
+
+Kryzs, would you care to expatiate on how to rescue mathematics from
+actual infinities?  Your reference to Jan M<something-Polish> made it sound
+like there's been more constructive work on this than I'm aware of.
+-- 
+							>>eric>>
+
+------------------------------
+
+Date: Mon, 17 May 1993 19:00:47 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: FTL: Traversable Wormholes
+
+> I've recently posted a 41K file on wormholes to the exi-essay list.
+
+How can I join this list and make sure I get Michael's contribution?
+
+Should I post my pair of historico-philosophical essays to it?
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Mon, 17 May 93 17:37:20 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: Chaitin, Complexity, and the Thermodynamics of Information
+
+Timothy C. May scans John Casti's saying:
+> And there are an infinite number of such undecidable
+>digits, each corresponding to the following simple, definite arithmetical
+>fact: For that value of k in Chaitin's equation X = O, the equation has
+>either a finite or an infinite number of solutions. But as far as human
+>reasoning goes, which of the two possibilities is actually the case may as
+>well be decided by flipping a coin; it is completely and forever
+>undecidable, hence effectively random.
+
+An infinity of undecideable facts is not at all the same as saying
+"arithmetic is random".  I agree that this summary is misleading.
+
+Robin
+
+------------------------------
+
+Date: Mon, 17 May 93 15:02:58 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: Traversable Wormholes: Some Implications
+
+Wow!  I'm glad you took the time to write up an article, and I'm glad
+I've been able to contribute to this process.  As you might have
+guessed, I haven't had the time.
+
+I'll skip responding on typos, etc.  I'm sure you can find those.  In
+general you have a good writing style, so I'll stick to conceptual
+comments. 
+
+You might want a catchier title or subtitle.  Off the top of my head:
+
+   WORMHOLE EMPIRES: Today a Wormhole, Tommorow the Universe! 
+
+>Taking a couple of subjective-years as the
+>limit beyond which people would be reluctant to routinely travel this
+>defines the size of a typical trade zone / culture as not exceeding a
+>couple of light minutes.  
+
+The conclusion is right, but the argument suspect.  The issue is
+travel time relative to time for the local economy to grow/change, or
+for transported valuables to lose their value by decay.   People's
+reluctance to travel is beside the point. 
+
+>     [trips times are not subjectively much altered if we allow higher
+>     accelerations for nanomachines, that can take millions of gees in
+>     their stride [12].  Actual trip times are reduced, but increased
+>     mental speeds compensate to make a journey of a day seem like
+>     centuries]
+
+Again sorta bogus.  Trip times are limited by how fast one can
+accelerate the other end.  Subjective times are from how fast one can
+run a brain.  These need not be related.  Nanotech might increase the
+later without increasing the former, or even vise versa.  Why not just
+give another column in your table for times given a million gee?  
+
+>A space probe with a wormhole could be powered from base.  The fuel is
+>uploaded through the wormhole from base to the in-flight ship.  There
+>would an energetically very strong potential hill for the fuel to climb
+>to reach the ship.  For a ship moving at relativistic speeds most of the
+>energy of the fuel would be lost in the climb.  
+
+It seems reasonable to assume a constant max energy one can stuff
+through this end of the hole per time unit, and to then calculate how
+the acceleration of the other end would slow down as it gets faster,
+and compute a empire-time/distance table from that.  Constant
+acceleration now sounds implausible. 
+
+And there might be a max speed set by having to suffer intersellar
+dust grains n cosmic radiation.  You will sound flakey if you don't
+even mention these concerns.
+
+>Brute force invasion would be suicide for the invaders and
+>their whole empire: once defeated the invader's whole wormhole connected
+>empire would be open to subversion from 'aliens from tomorrow'.
+
+I think I understand this now, but confusing at first.  Needs intro on
+what if they try to take over your hole-net.  
+
+>The easiest way of doing
+>this is, at the point where the relativistic wormholes are destroyed,
+>is to send out sub-light non-relativistic survey probes to establish
+>diplomatic relations.  If both sides explore each other with non-
+>relativistic probes (relative to the co-moving frame) then their empire
+>times will realign themselves, over the locale of the 'neutral zone',
+>permitting diplomatic contact and, assuming no wars, eventual exchanges
+>of wormholes.  The spheres of colonisation are then available to each
+>other and the two empire times merge.
+
+You should really comment on just how long this might take for these
+survey probles to meet up, in empire-time.
+
+>Other expansion scenarios are possible.  A well coordinated, centrally
+>controlled species might halt expansion at the boundary of their home
+>galaxy (say) for a few subjective million years, building up numbers,
+>armaments etc.  
+
+Even if they intended at first to meet up as soon as possible, if a
+thousand empire years later they finally seem ready to actually meet,
+they may have got cold feet by then.  Imagine the politos, saying
+"what's the rush; a few more centuries and they we'd be ready."
+
+>When their technology seemed to have plateaued they
+>resume their expansion relying on technology and numbers to overwhelm
+>aliens.  Such a strategy is technology dependent.  If it turns out that
+>wormholes can be booby-trapped to explode on tampering or hostile attack
+>such a strategy would fail.
+
+Shouldn't tie idea of waiting to idea of wanting to overwhelm them.
+Maybe wait just so we're strong enough not to be overwhelmed.
+
+About this point in paper might also want to mention stuff internal to
+each civilization, about so much easier to sent stuff out from center
+vs. the other way.
+
+>universal map would be impossible.  A trans-human traveller, exploring
+>the highways and byways of life, would likely never encounter another
+>trans-human, beyond the 'here be dragons' point.  If she lost her
+>personal wormhole and forgot her trans-species designation code (a sixty
+>digit number!) she would never, ever find her way home again.  None of
+>her descriptions of where she comes from would relate to anything anyone
+>else knows.
+
+This a bit extreme.  I'm sure there'd be libraries and ways to take
+other info to infer the origon.
+
+Wormholes for computers seems out of place in article.  Best left for
+another article.
+
+>not place them _in_ the wormhole, out of harms way.  The technologies
+>involved in generating artificial inflation to expand the interiors of
+>wormholes into basement or baby universes are of the same orders of
+>magnitude as creating traversable wormholes.  Construction of basement
+>or baby universes has already been discussed and computer-simulated in
+>the literature [4], [8].
+
+Baby-universes out of blue here; needs more explanation or drop it.
+
+>We have already mentioned that we expect speedup rates of a million or
+>so with the adoption of full nanotech.  If just a factor of a thousand
+>translates into GDP growth and population rates then doubling times for
+>the economy may drop from decades to days.  I don't know if these growth
+>rates are sustainable, even in empire-time, but they indicate that any
+>limited resource is likely to be at a premium, within a years /
+>subjective millennia of empire-time.  
+
+Whoa.  Once the above analysis I suggested about distance vs.
+empire-time is done, we can see if exponential volume is possible as a
+function of empire-time.  It may or may not be.  
+
+>Since the amount of natural space
+>per civilisation is finite economics dictates that eventually more and
+>more of the economy will shift over and occupy the artificial space
+>provided by basement universes.
+
+Again, explain more or drop it.
+
+>I am very grateful to Robin Hanson for initially directing my attention
+>to the subject of information processing limits and his subsequent help
+>on all aspects.  
+
+Information processing limits?  What I'd like is to be acknowledged
+for helping develop the concept of empire-time and how quick we might
+grow and meet aliens.  This seems to me the most original contribution
+of this article over previously published stuff.  For evidence I
+offer the following:  :-)
+
+>From: Robin Hanson <hanson>
+To: price@price.demon.co.uk
+Cc: hanson
+Message-Id: <9304051959.AA04705@ptolemy.arc.nasa.gov>
+Date: Mon, 5 Apr 93 12:59:27 PDT
+Subject: Re: Tipler article
+
+Michael Clive Price writes:
+I like the idea of using wormholes as alien detectors.  V.neat.
+
+>> Yes, the simultenaety sheets have a tip at here/now.  The volume of
+>> stuff we could draw upon could grow much more than cubic in local
+>> time, as the far ends went faster and faster. 
+>
+>Isn't the front constrained by the speed of light?  Growth would tend
+>towards cubic, ie 4/3 pi (ct)^3, t = time from start of expansion.
+>Or do you mean that in a negatively curved universe that the sphere
+>formula breaks down?
+
+No, flat space.  But the question is if I step throught the wormhole
+at time t, how many galaxies away is the other end of the wormhole.
+The faster the hole is moving, then if I go through the hole a year
+later, the more galaxies it has passed.  Time dialation.  
+
+...
+
+
+
+
+------------------------------
+
+Date: Mon, 17 May 93 17:53:02 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: TECH: Numerical Speculation
+
+Hal Finney writes:
+>Where I get confused is when dealing with one-time events, or estimates
+>of the truth of various propositions about the universe.  What is the
+>probability that Clinton will be re-elected in 1996?  What is the
+>probability that FTL travel is possible?  Do these questions make sense?
+
+Like many other words, the same word "probability" is used to refer to
+several distinct concepts.  The "frequency of occurance in a large
+set" meaning, which you seem to prefer, is indeed difficult to apply
+to many situations.  The "degree of belief" concept, however, applies
+more broadly, though it is of course relative to an actor holding
+beliefs.
+
+>Would their be a difference between a market which was
+>absolutely positive that Clinton had a 50% chance of winning, versus one
+>which was uncertain and considered Clinton's chances to be in the 10-80%
+>range I mentioned above?  
+
+Sure.  The first market would be very thick; if you tried to move the
+price by buying on one side, folks would rush in to move it back to
+50%.  In the second case, traders might think you had info they
+didn't, and let you move the price more freely.
+
+>I meant to describe a situation where there was no information about what
+>was likely to happen, hence I need to postulate that the people don't
+>know me.  Perhaps we should consider the problem to be posed by an alien
+>being about whose psychology we know nothing.
+
+I don't think the concept of "no information" makes sense.  You always
+know/believe something.
+
+Nick Szabo comments:
+>The uncertainty market players have about the 50% is reflected in the 
+>price volatility, or the standard deviation in the price per unit time,
+>assuming the market players are rational.   
+
+Volatility reflects the rate at which information comes out.
+Information rate is in principle independent of how "sure" the market
+is about that 50% now.
+
+Robin Hanson
+
+------------------------------
+
+Date: Mon, 17 May 93 18:01:14 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: More on Chaitin
+
+Eric Raymond writes:
+
+>I've been thinking about the excerpt Tim May posted on Chaitin's omega theorem.
+>My initial reaction was that I was disappointed because it doesn't actually
+>seem to me to be a significantly stronger result than Godel's Incompleteness
+>theorem itself.  To say that it shows "arithmetic is random" certainly seems
+>to overstate the case.
+
+Here the brevity of English is the problem, as I have no idea what you mean
+by "overstate the case." Maybe  in e-prime? What Chaitin showed, as the
+Casti explanation hopefully conveyed, is that randomness is apparently
+wired in a deeper level than previously suspected.
+
+In another post, I will have more on this.
+
+>
+>What *would* constitute a stronger result would be a proof that the set of
+>decidable theorems, within the set of all well-formed propositions, is in some
+>sense, a sparse one.  The equivalence Chaitin trades on suggests a way to
+>approach this question, because it implies a topology on the set of all
+>theorems within which one can characterize at least one infinite point set
+>of undecideables.
+
+But this is just what Chaitin's result shows! 
+
+Heinz Pagels, in "The Dreams of Reason," 1988, pp. 302-303, writes:
+
+"Michael Rabin, an Israeli mathematician, once characterized the realm of
+mathematics with the following wonderful image. Imagine the set of all true
+propositions about mathematics as occupying a vast space--the space of all
+true theorems. Some of these theorems have been proven,  a rather small set
+of all the true theorems, and these we imagine as a thin illuminated line,
+a bright string with a few branches transversing this dark space. The dark
+part of the vast space consists of all true theorems that we have not
+proven and that probably never will be proven. The reason we cannot prove
+these true theorems is that the proofs require such a long time to
+calculate that even the largest supercomputer grinding away for the
+lifetime of the universe cannot accomplish the proof. They require such a
+large but finite computing time that we will never know if they are true.
+Other "true" theorems might require an infinite computing time -- these are
+the theorems that are undecidable within a specific axiom system. The
+bright line shows us the true and provable theorems, the ones that don't
+require so much time, the ones that ingenious mathematicians can find using
+human skills."
+
+This dark space of true theorems is characterized by Chaitin's uncomputable
+number Omega. If Omega could be computed, then one could just look at the
+expansion of it to some number of decimal places and see if some particular
+theorem was true or not!
+
+(My tiling metaphor from my last posting is of course very similar....we
+have sent out "snakes" to some tiny fraction of true theorems...the "bright
+lines" in Rabin's metaphor. By the way, Rabin is a famous cryptologist.
+Full circle.)
+
+>
+>I'm also bugged more strongly than ever by the suspicion that the Intuitionists
+>had something right --- Chaitin's theorem has the same artificial-seeming
+>twist-
+>an-actual-infinity-back-on-itself character found in all the nastiest
+>indefiniteness results.
+
+Well, I wouldn't count on "intuition" to decide whether the Intuitionists
+were right! Also, most of the Chaitin-Kolmogoroff-Turing-Bennett results
+have more to do with real programs, real objects, and real issues of
+compressibility, randomness, etc., than with infinities. Life, complexity,
+evolution, and logica depth are all deeply interrelated. Many now view
+Shannon's information theory (which has always been focused on
+communication channels) as a subset of a more general approach to
+complexity, that of algorithmic complexity theory.
+
+-Tim May
+
+
+
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+
+
+
+------------------------------
+
+Date: Mon, 17 May 93 18:24:18 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Chaitin, Complexity, and the Thermodynamics of Information
+
+Robin Hanson writes:
+
+>Timothy C. May scans John Casti's saying:
+>> And there are an infinite number of such undecidable
+>>digits, each corresponding to the following simple, definite arithmetical
+>>fact: For that value of k in Chaitin's equation X = O, the equation has
+>>either a finite or an infinite number of solutions. But as far as human
+>>reasoning goes, which of the two possibilities is actually the case may as
+>>well be decided by flipping a coin; it is completely and forever
+>>undecidable, hence effectively random.
+>
+>An infinity of undecideable facts is not at all the same as saying
+>"arithmetic is random".  I agree that this summary is misleading.
+>
+
+Robin's excerpt is itself somewhat misleading, as this brief paragraph
+above is not the whole exposition of Chaitin's work (one reason I included
+several pages). And even Casti is not saying simply that an infinity of
+undecideable facts (which Godel of course knew about) is saying "arithmetic
+is random."
+
+Paul Davies, in "The Mind of God: The Scientific Basis for a Rational
+World," 1992, covers some of the same ground as Casti (and Pagels, and
+others, all deriving from Chaitin's work). He writes, beginning on p. 132:
+
+"Armed with this algorithmic definition, Chaitin has been able to
+demonstrate that randomness pervades all mathematics, including
+arithmetic.....
+
+[a result about Chaitin's "monster equation" is given]
+
+"The implications of this result are startling....Once randomness has
+entered mathematics it infests it through and through....There is
+randomness and hence uncertainty in mathematics, just as in
+physics...Chaitin believes that mathematics will have to be treated more
+like the natural sciences, in which results depend on mixture of logic and
+empirical discovery. One might even foresee universities with departments
+of experimental mathematics."
+
+I would urge all interested folks to first read the semi-popular accounts,
+in Casti, in Pagels, in Davies, and in a few other places, and then perhaps
+read bits and pieces of Chaitin's work. Our friend Charles Bennett, of
+reversible computation fame, has also written extensively on this topic
+(especially as it relates to "logical depth," a topic I've posted on
+before).
+
+-Tim May
+
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+
+
+
+------------------------------
+
+Date: Mon, 17 May 1993 21:48:31 -0600
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: Neil's use of "extropic"
+
+>By the way, Neil also claims that he coined the term "extropic" 
+>in \The Rainbow Cadenza\ 
+
+>Kent - kent_hastings@qmail2.aero.org.
+
+Neil's claim is false in two senses.  1) "Extropic" is a medical term that
+preexists his (or our) use of it; 2) He did not use the word in the same we
+that we use it here on this list, but rather used it to refer to an
+ascending scale of laserlight.
+
+T.O. Morrow                     --  twb3@midway.uchicago.edu
+Vice President: ExI             --  The Extropy Institute
+Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+
+
+------------------------------
+
+Date: Mon, 17 May 1993 22:49:10 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: More on Chaitin
+
+>>[...] about the excerpt Tim May posted on Chaitin's omega theorem.
+>>[...] To say that it shows "arithmetic is random" certainly seems
+>>to overstate the case.
+> 
+> Here the brevity of English is the problem, as I have no idea what you mean
+> by "overstate the case." Maybe  in e-prime? What Chaitin showed, as the
+> Casti explanation hopefully conveyed, is that randomness is apparently
+> wired in a deeper level than previously suspected.
+
+I meant that it seems to me to be over-interpreting the omega theorem to claim
+that "arithmetic is random".  All right, so the digits of omega are random and
+the cardinality of the "omega set" (the set of theorems mapped to the digits
+of omega) is aleph-null.  That doesn't imply anything much about the
+*complement* of the omega set --- not even anything about its cardinality!
+
+(To review: the kth digit of omega, according to your explanation,
+was to be 1 if the set of solutions of X(k) is finite, 0 if infinite, for
+X(k) a particular hairy Diophantine form of kth degree.  Have I got that
+right?)
+
+The key point here is that the omega set doesn't cover the space of all
+WFFs.  It doesn't even come close.
+ 
+>>What *would* constitute a stronger result would be a proof that the set of
+>>decidable theorems, within the set of all well-formed propositions, is in some
+>>sense, a sparse one.  The equivalence Chaitin trades on suggests a way to
+>>approach this question, because it implies a topology on the set of all
+>>theorems within which one can characterize at least one infinite point set
+>>of undecideables.
+> 
+> But this is just what Chaitin's result shows! 
+
+Maybe, but if so neither your explanation nor Costi's has made that clear.
+The demonstration that there is a countably infinite set of undecideables
+does *not* suffice to prove this more general result.  Omega-bar, the complement
+set of theorems *not shown to be undecideable*, is of equal cardinality to
+omega's.
+ 
+> "Michael Rabin, an Israeli mathematician, once characterized the realm of
+> mathematics with the following wonderful image. Imagine the set of all true
+> propositions about mathematics as occupying a vast space--the space of all
+> true theorems. Some of these theorems have been proven,  a rather small set
+> of all the true theorems, and these we imagine as a thin illuminated line,
+> a bright string with a few branches transversing this dark space."
+
+Fine.  This suggests that the set of theorems decidable in finite time is
+finite and sparse in the set of all WFFs.  But that's trivially obvious, and not
+at all the same as demonstrating that the set of WFFs decidable *in principle*
+(in your terms, if one had infinite time) is sparse (which would be the
+stronger result I was looking for).
+
+> This dark space of true theorems is characterized by Chaitin's uncomputable
+> number Omega. If Omega could be computed, then one could just look at the
+> expansion of it to some number of decimal places and see if some particular
+> theorem was true or not!
+
+This might be true, *if the omega set exhausted the space of all theorems*.
+Unless I have misunderstood Costi's explanation, it does not.
+
+Now, let's suppose that the omega set *did* exhaust all theorems.  Then
+the sparseness of the set of decidable WFFs would be proved.  However, the
+claim that "arithmetic is random" would remain a rather meaningless bit of
+rhetorical excess.
+
+I'll argue that point if you convince me that my interpretation of the omega
+theorem is broken.  In the mean time,...um, there's now a naked woman licking
+my ear, which means I have more important things to attend to. :-)
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0266
+****************************************
+

@@ -1,0 +1,1145 @@
+From extropians-request@gnu.ai.mit.edu Wed Feb  3 02:55:48 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA26132; Wed, 3 Feb 93 02:55:46 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from albert.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA07295; Wed, 3 Feb 93 02:55:39 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by albert.gnu.ai.mit.edu (5.65/4.0)
+	id <AA14856@albert.gnu.ai.mit.edu>; Wed, 3 Feb 93 05:49:14 -0500
+Message-Id: <9302031049.AA14856@albert.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Wed, 3 Feb 93 05:47:52 -0500
+X-Original-Message-Id: <9302031047.AA14838@albert.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0044
+X-Extropian-Date: Remailed on February 3, 373 P.N.O. [10:49:10 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest             Wed, 3 Feb 93             Volume 93 : Issue 0044
+                        
+Today's Topics:
+                  ECON: Are Medicare Expenditures Too High?           [1 msgs]
+                       ECON: Medicine & Redistribution                [1 msgs]
+                  EDUC: Thorp lectures at UC Irvine (today)           [1 msgs]
+                                  GA and VR                           [1 msgs]
+                              Health Care Again                       [2 msgs]
+                                  Outlawry                            [2 msgs]
+                               RIGHTS:Patents                         [1 msgs]
+                   TV: Messages from Babylon V's producer             [1 msgs]
+                    competition and intellectual property             [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 57278 bytes.
+
+----------------------------------------------------------------------
+
+Date: Tue, 2 Feb 1993 21:37:58 -0800 (PST)
+From: szabo@techbook.com (Nick Szabo)
+Subject: GA and VR
+
+ 
+Nicolas Berloquin:
+> We would have a 3D squeletton (could be cylinders), and the angles
+> between each limb (torso, arm, forearm, legs...) would be coded
+> in the chromosome. [evolve angles that match image]
+
+Interesting idea.  I suspect the limb lengths would also need to be 
+coded.  The fitness function must determine how closely the skeleton 
+matches the TV images, so there would still be some image processing 
+involved, but it might be simpler than an algorithm that tries to 
+directly extract the image.  
+
+Either kind of algorithm does indeed sound compute-intensive, not 
+the sort of thing that could respond to user movements in real time.
+GAs often take days to run, so even a few orders of magnitude
+improvement in the hardware might not be sufficient. The problem 
+would be easier if the user wore distinctive clothing or tape that forms 
+a skeleton pattern.
+
+You might try bouncing this idea off folks in the newsgroup comp.ai.genetic.
+Also, an interesting mailing list is genetic-programming.  In GP the "gene"
+is a parse tree, and computer programs are recombined heirarchically instead
+of bit strings crossed over linearly.  No reason we should be confined to
+nature's limited representation!
+
+Another way to use GA in VR might be an adaptive user interface.  The
+genetic code might represent user preferences, like those found in an
+X resources file.  The fitness function might determine how quickly
+the user can access the most commonly used objects.   This could
+operate in the background and update the GUI style every few seconds
+or minutes, so it need not be real time.  Alas, the constantly 
+changing style of user interface might be quite disconcerting to 
+the user.... the GUI would be trying to learn about the user at the 
+same time the user was trying to learn the GUI... :-)
+
+Nick Szabo					szabo@techbook.com
+
+------------------------------
+
+Date: Tue,  2 Feb 93 21:52:56 PST
+From: hkhenson@cup.portal.com
+Subject: RIGHTS:Patents
+
+sRe the general thread about the value of patents in terms of rewarding 
+people for their intellectual efforts--I have done a little thinking 
+about one such idea--and have not done anything with it because I 
+can't think of a way I could be rewarded for the idea.  I might as 
+well go into details, because somebody who can think of a way to 
+profit from it might be interested in a joint venture.  Posting to 
+this private list should *not* be considered publishing the idea. 
+
+Desalting sea water takes a pressure difference (depending on the 
+brine concentration) of up to 3000 feet (in the 100 atomosphere 
+range).  For near zero increases in brine concentration, as little as 
+a 900 foot head might suffice.  If you have a deep enough trench 
+handy, the three percent difference in density between fresh and salt 
+water will give the required pressure, and you get fresh water for 
+free.  (The energy comes from lowering salt into the depths.) 
+
+California does not have deep enough water off the coast to make this 
+process energy free, though it does cut the pumping cost some.  One 
+possible implementation would be to put long pipes on the ocean bottom 
+at right angle to the current in with large area surfaces sticking up 
+into the current and draining into the pipes. 
+
+But the *real* place to install this puppy is in Israel.  Put the 
+collection area out where the water is about a mile deep, which 
+supplies about 150 feet of head, pump it 750 feet up, out of the 
+ocean, up over the mountains, and recover all of the of pumping energy 
+(plus!) by letting *fresh* water flow through turbines to nearly the 
+elevation of the Dead Sea (-13,000 feet).  Ignoring losses, one part 
+in 13 flowing to the Dead Sea would recover all the pumping energy 
+need to desalt sea water, with the rest providing all the irrigation 
+water Israel (and for that matter Jordan) could ask for.  (Ok, three  
+parts in 13 if you have to go to the 100 atomospheres used in regular 
+reverse osmosis systems.) 
+
+Anyone have an idea ("intellectual property") on how to profit from 
+this piece of "intellectual property" which they would like to trade 
+for a part interest in the one I have presented here?  I am not much 
+interested in trying to patent this in Israel unless someone wants to 
+put up the money.  This is just too subject to expropriation. 
+
+Keith Henson
+
+------------------------------
+
+Date: Tue, 2 Feb 93 23:03:13 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: competition and intellectual property
+
+I don't always agree with Perry (I just disagreed with his solution to the
+"Wolf's-Head Unlimited" scenario), but then other times I'm in 1000%
+agreement, to coin a phrase.
+
+>Betsy asks, essentially, what if I'm a little guy, I have an idea, and
+>without patent protection I get crushed by a big competitor as soon as
+>its obvious that the idea is profitable.
+>
+>The answer is, too bad.
+>
+>There are many "good ideas". For instance, the idea of starting a fast
+>food restaurant. Should someone out there, however, have been able to
+>get a patent on it? The idea of runing a discount brokerage house was
+>pretty good. Prehaps the inventor of that notion should have gotten
+>coercive protection to stop others from competing with them? 
+...rest elided...
+
+A wonderfully clear posting!
+
+
+-Tim
+
+
+
+
+--
+
+Timothy C. May               | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com        | anonymous networks, digital pseudonyms, zero
+408-688-5409               | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA       | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: waiting for the dust to settle.
+
+
+
+
+------------------------------
+
+Date: Tue, 2 Feb 93 23:03:05 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Outlawry
+
+(Sorry for the quotes-within-quotes...it's just Perry responding to Nick's
+response to Perry's comments.)
+
+>> From: szabo@techbook.com (Nick Szabo)
+>> 
+>> Perry Metzger:
+>> > Certainly there is no central organization dictating here, but remember,
+>> > if someone fails to obey a contract that they have themselves signed, its
+>> > unlikely any rational security agency will take them on as a client.
+>> 
+>> What about Wolf's-Head Unlimited, which specializes in protecting the 
+>> outlaws of the world? 
+>
+>Being itself outlawed, its likely that a smart guy with an F15 could collect
+>millions in bounties with a single bombing run on their headquarters, and
+>no one will notice.
+>
+>Perry
+
+We don't have to look very far to see what are effectively the "Wolf's-Head
+Unlimited" types of protection agencies that Nick was referring to. Namely,
+the "Bloods" and the "Crips," not to mention dozens of others protection
+agency/criminal organizations.
+
+The Medellin Cartel, the Yakuza, the Russian Mafia, the main Mafia, the
+Jamaican gangs, the CIA, etc. Each protects its members to some extent,
+through physical protection, hiding, escape routes, bribery, etc.
+Naturally, each organization makes certain decisions about how far it will
+go to protect its members--sometimes even Wolf's-Head decides to toss one
+of its members to the wolves.
+
+Perry's point about the F-15 strike seems a bit simplistic, else the
+Columbian drug cartel likely would've been wiped out long ago. Other
+constraints factor in, and still would even in a largely stateless world.
+
+Nor does Nick's point refute PPL. I don't think he was trying to--I think
+he was just making an excellent point about some possible flies in the
+ointment about protection agencies arising to protect outlaws. This, by the
+way, was a point David Friedman acknowledged as needing much more research
+when we talked to him in Oakland some months back. 
+
+Freidman and Benson both cite societies like Iceland and Ireland (and
+Benson also describes a Pacific Island with very similar customs). The case
+of an obvious murderer in a relatively small society is fairly ideal for
+ostracism and similar approaches.
+
+Much harder to handle are cases of entire gangs of folks who become
+outlaws. As others have also noted, the set of nations can in some sense be
+considered to be PPL in action. (And obviously Benson's discussion of
+Merchant Law and how it arose between nations explicitly makes this point.)
+"Ostracism" doesn't always work, for reasons familiar to readers of this
+list (defections, smuggling, covert channels, self-sufficiency, etc.)
+
+(Understand that I'm not suggesting that, for example, wars be launched
+against nations like Iraq.)
+
+Perhaps looking at how nations cooperated to handle piracy on the high seas
+would be useful. (On the other hand, nations often _used_ pirates as
+instruments of national policy, perhaps similar to the way the CIA is
+alleged to use the drug cartels?)
+
+Anyway, I have no firm ideas on how this problem of outlaws will be
+handled, except to doubt the glib claims that they'd be eliminated by the
+mere fact of being fair game for anyone.
+
+--Tim May
+
+
+--
+
+Timothy C. May               | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com        | anonymous networks, digital pseudonyms, zero
+408-688-5409               | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA       | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: waiting for the dust to settle.
+
+
+
+
+------------------------------
+
+Date: Tue, 2 Feb 93 23:03:35 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Health Care Again
+
+>Perry E. Metzger
+>> 
+>> > From: Harry Shapiro <habs@panix.com>
+>> > A way from a population of competing heathcare providers, in an 
+>> > isolated community (legally or physically) a good "saw-bones" might
+>> > be hard to come by and thus be close to a "public good".
+>> 
+>> In what way is this different from what might happen in an isolated community
+>> with only one supermarket?
+>
+>> Perry
+>
+>There are many ways to get, grow, import or obtain food - try to take
+>out your own cancerous brain tumor with a doctor and no way of getting
+>to one.
+>
+>/harry
+
+Am I missing some extremely subtle humor? I thought so after his first
+post, and ignored it. But now, with this response to Perry....I don't think
+so.
+
+Harry cannot be serious in suggesting that a doctor be forced to reside
+some place he no longer wishes to because he is "needed." By this argument,
+he could just as easily be ordered to move to a community that needs him
+"even more." And so on. Chattel slavery. The needs of the many outway the
+needs of the few. (Except the "many" will ultimately suffer....who'll
+choose to be a doctor when slavery is implied? Ah, but if people won't
+freely choose to become doctors, then of course we'll have to...and so on.)
+
+And let's be sure companies are not allowed to shut down failing
+businesses, since they may be "public goods." (I would bet that almost any
+resident of a town dominated by one employer, e.g., East Fishkill, New
+York, would see their only large employer as being _even more_ central to
+their survival than their only doctor).
+
+I'm afraid to say that Harry is arguing for the worst kind of slavery.
+
+Turn back, Harry! In your path lies madness!
+
+(Here's hoping he's pullling our legs, testing our anarchocapitalist faith.)
+
+P.S. I see in a later message that Harry is somehow also referring to a PPL
+situation. If a contract is involved, fine. I should think we're all in
+agreement that doctors who agree to work for some amount of time must
+fulfill their contracts, or face the consequences.
+
+But then what did the "public good" part have to do with it?
+
+-Tim, in a mystified state
+
+
+
+--
+
+Timothy C. May               | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com        | anonymous networks, digital pseudonyms, zero
+408-688-5409               | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA       | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: waiting for the dust to settle.
+
+
+
+
+------------------------------
+
+Date: Tue, 2 Feb 93 23:52:42 PST
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: Health Care Again
+
+> Harry cannot be serious in suggesting that a doctor be forced to reside
+> some place he no longer wishes to because he is "needed."
+
+I thought what he said was that an isolated PPL might want to include,
+as a condition of membership, a fee to induce a doctor to move there.
+He never suggested pulling a Machain to get one, as far as I recall.
+
+> -Tim, in a mystified state
+
+	 PGP 2 key by finger or e-mail
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Wed, 3 Feb 93 0:10:33 PST
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: Outlawry
+
+> The first reference is heavily slangy; read "someone who injured my client
+> flees to Los Angeles to avoid prostitution".
+
+Interesting choice of refuge, given that purpose.  
+:-)
+
+> 					Eric S. Raymond <esr@snark.thyrsus.com>
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Wed, 3 Feb 93 0:09:02 PST
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: ECON: Are Medicare Expenditures Too High?
+
+> 	I thought that the (primary) cause of US medical inflation was large
+> mal-practice insurance bills and legal fees ? 
+
+Not in most specialties.  It is a significant cost (and particularly
+irritating because insurance companies raise rates retroactively),
+both directly for malpractice insurance and indirectly by
+encouraging "defensive medicine", but it's not the primary cost of
+our high medical costs.  That honor probably goes either to the fact
+that almost nobody pays for their own medical care, or to the
+government-enforced monopoly on practicing medicine.  I wouldn't
+want to try to call one of those two...
+
+> I know it is certainly the reason why the doctors I know are not
+> interested in practicing in the US. Apparently the number of
+> practising obstetricians is very small, they being most vulnerable.
+
+I do know of ob/gyns who retired early because of malpractice
+concerns.  However, I think the doctors you know overrate it as a
+problem.  You pay your insurance bills, order unnecessary
+procedures, and get second-guessed by a committee of clueless
+functionaries.  No problem (sarcasm).  There are indeed a lot of
+people getting out of medicine these days, but this is more related
+to the general bureaucracy, insurance claims hassling, Medicare
+interventionism, and paper shuffling.  There's probably a good
+market for people willing and able to act as physicians' agents for
+this sort of thing.
+
+> 						Dave Cake
+
+	 PGP 2 key by finger or e-mail
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Wed, 3 Feb 93 0:28:59 PST
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: EDUC: Thorp lectures at UC Irvine (today)
+
+Ed Thorp, whom has been at least mentioned here before, is doing a
+four-lecture series on "Games, Gambling, and the Stock Market" at UC
+Irvine.  I went to the first one a week ago, and found it
+interesting.  They should improve as 1) he moves past elementary
+probability, and 2) the weirdos who want winning craps systems
+filter themselves out.  The second one, today (Wednesday), will
+focus on gambling -- card-counting in blackjack, and so forth.  The
+other two, I think, will concern the stock market.
+
+The dates for the remaining three are February 3 and 17, and March 3.
+(Sorry for the short notice, but I've been offline for a bit.)
+They're at 7:30 (p.m.) and last, nominally, for two hours.  The
+location is "Science Lecture Hall 100A" at UC Irvine -- use the
+signs; they're easy to miss.  The UCI Math Department is 714-856-5503.
+Local folks, tell me if you're going to any; we can try to collide.
+
+	 PGP 2 key by finger or e-mail
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date:     Wed, 3 Feb 93 8:48:16 GMT
+From: starr@genie.slhs.udel.edu
+Subject: ECON: Medicine & Redistribution
+
+It's true, as Dale pointed out, that most people have private health
+insurance without being treated as price-seeking consumers, but this is
+the result of some statist interventions.
+
+During WWII, Roosevelt II put price ceilings on wages.  As an attempt to
+get better employees, firms began offering non-wage compensation,
+including health insurance.  The IRS ruled that this was tax-exempt.  This
+ruling has remained in place, and led to most people having their health
+insurance through their employer; there's no exemption for personal health
+insurance premiums.
+
+Thus, employers are the ones trying to police these costs, not patients.
+The solution to this is to replace the status quo with an exemption on
+one's personal income tax for health insurance.
+
+Since the subject of international comparison was also brought up by Dale,
+consider the policy of Singapore: "provident funds" which everyone is
+required to save 6% of their income in to pay for their medical care.
+Provident funds are also what Chile has instead of Social Security.
+
+The USA and other countries could easily adapt this: establish tax-free
+Medisave accounts where income could be accumulated over the years to
+cover medical care expenses.  The money could be earning interest, invested,
+used to buy insurance, etc, so long as the only consumer services that
+could be purchased with it were medical care services.
+
+Since the exemption would be from personal income, the consumers, patients,
+themselves would police costs.  Since payments would be in cash, cash
+discounts would be possible.  We needn't be so authoritarian as Chile or
+Singapore and force people to save, but need merely allow some to do so;
+the resultant price decreases will benefit even those who don't have
+Medisave accounts.
+
+As for Garrett's view of the Redistributive State: it seems cheaper to
+pay police to keep criminals from stealing one's property than to give it
+away to the criminals.  My view is that the beneficiaries of statist
+anticompetitive policies are often persuaded to share some of the resulting
+wealth with those barred from the competition as partial compensation.
+Thus, real estate developers get restrictive zoning laws to jack up the
+prices of their homes, and then get forced to pay for some "low-income"
+"public housing."
+
+I don't see this as a good thing, rather the opposite.
+
+Tim Starr - Renaissance Now! - Think Universally, Act Selfishly
+starr@genie.slhs.udel.edu
+
+"True greatness consists in the use of a powerful understanding to enlighten
+oneself and others." - Francois Marie Arouet Voltaire
+
+------------------------------
+
+Date: Wed, 3 Feb 1993 04:48:02 -0500 (EST)
+From: rjc@gnu.ai.mit.edu
+Subject: TV: Messages from Babylon V's producer
+
+> Article 8101 of rec.arts.sf.tv:
+> Path: mojo.eng.umd.edu!darwin.sura.net!zaphod.mps.ohio-state.edu!rpi!sarah!cook!psinntp!psinntp!nntp1.radiomail.net!portal!cup.portal.com!Edward_Lee_Whiteside
+> From: Edward_Lee_Whiteside@cup.portal.com
+> Newsgroups: rec.arts.sf.tv
+> Subject: BABYLON 5: Compiled Posts from J. Michael Straczynski (35K)
+> Message-ID: <74703@cup.portal.com>
+> Date: Sun, 31 Jan 93 22:11:16 PST
+> Organization: The Portal System (TM)
+> Lines: 608
+> 
+> 
+> Following are selected posts by J. Michael Straczynski from GEnie from
+> the last month in the Babylon 5 Category.  These posts are copyright
+> 1993 by J. Michael Straczynski with compilation copyright by GEnie.
+> 
+> They deal with the final days of production and the buildup to the airing
+> of the pilot movie "The Gathering".  An updated B5 FAQL will be posted
+> soon to the net in rec.arts.sf.tv.  J. Michael Straczynski is the
+> creator/writer/executive producer of the Babylon 5 movie and proposed
+> series.  
+> 
+> 
+> WARNING: these posts may contain spoilers about the movie and future shows.
+> 
+> 
+>  ------------
+> Category 18,  Topic 1
+> Message 180       Tue Jan 05, 1993
+> STRACZYNSKI [Joe]            at 22:35 EST
+> 
+>      RE: cliffhangers...not between episodes, certainly.  Between seasons,
+> it's...hard to explain.  There are, or will be *changes* that happen from one
+> season to another (as planned), specific events that take place that should
+> bring one up short...but "cliffhanger" in the sense of leaving some guy
+> hanging from a string over a lake of fire...no, no plans for such at this
+> time.
+> 
+>      RE: kids...boy, that one sure hit a nerve on both sides, didn't it?
+> That's good.  An argument like this is what a show or story should do, get
+> people discussing the issues.
+> 
+>      Meanwhile, on other areas....
+> 
+>                              ****WOW****
+> 
+>      I was in the editing bay today during the pre-dub of B5 (which I'll
+> explain more , which btw has a nifty huge projection screen, twelve or fifteen
+> feet across, so I got to see some of the show as if at a theater...plays
+> pretty well.
+> 
+>      Anyway...what a pre-dub is, is this: those who saw the earlier version of
+> the pilot will remember, for instance, the scenes in the main corridor of the
+> station (well, one of them, anyway).  You have Sinclair and Garibaldi talking.
+> It's an un-mixed scene...just as filmed, there are just two guys talking.  All
+> the rest of the set is silent.
+> 
+>      But now...NOW...you're in the editing bay, and now you add in the
+> background voices, human and alien...mechanical sounds nearby...an intercom
+> voice advertising station services...then layer in the music, and suddenly
+> it's a MOVIE!  Someone said that sound is half of a movie, and you forget that
+> until it hits you in the face.
+> 
+>      The pre-dub is where you layer in the voice tracks (original, from the
+> production; adr (automatic dialogue replacement) for lines that were not
+> sufficiently audible or need to be looped; incidental dialogue  (computers,
+> background characters) and walla (general crowd sounds).  You decide how much
+> of any of these is too much, how much more you need, what the balance is...if
+> you need to use the surround capability to put this voice HERE or THERE....
+> 
+>      Then we previewed some scenes with music, and did a little of the same
+> there (we'll do more during the final mix Thursday through Tuesday).   For
+> instance...most music cues are anywhere from a few seconds long to maybe a
+> minute or more.  Ours tend to be longish...the longest is a cue that lasts 7.5
+> minutes, and goes inside the station, outside the station, to different
+> *parts* of the station, and the music continues throughout.  We figured that
+> we needed to better differentiate the sound inside vs. outside the
+> station...so in the music cue, we drop the electric guitar out of the mix for
+> the inside scenes, and put it back in for the outside scenes, for instance.
+> 
+>      The result, basically, being that it becomes a *M*O*V*I*E* for the first
+> time.  And boy, it cooks, lemme tell you.  There are moments of absolute and
+> inutterable self-doubt in a project like this, especially when paired with the
+> monumental press machine from elsewhere which is doing everything possible to
+> bury us in the interests of preserving an economic monopoly and critics who
+> figure we're a clone of another show.   But then you turn around and see
+> something like this, and you know it's going to work...and it really helps.
+> 
+>                                                                    jms
+> 
+> [JMS was asked if David Gerrold was doing the novelization]
+> 
+>  ------------
+> Category 18,  Topic 2
+> Message 547       Tue Jan 12, 1993
+> STRACZYNSKI [Joe]            at 23:15 EST
+> 
+>      Yes, I've asked David (and he's agreed) to write the novelization, which
+> will probably commence within days of the series go being given.   And there
+> have been many screenplays published over the years, in script form/via
+> paperback or hardcover; I have a rather extensive collection of same
+> (including the aforementioned T2 book, which is extraordinarily good).  It
+> might be a good idea to do one for B5, with annotations, but not including the
+> "how to write for tv" material mainly because that's a) covered in my writing
+> book, which b) I intend one of these days to finish updating to Writers Digest
+> Books can stop yelling on me.
+> 
+>      Some random observations and thoughts which might be of interest....
+> 
+>      We've pretty much finished the final mix, as stated, which we'll review
+> tomorrow morning to be sure that it sounds okay on a small set.   But for
+> those of you out there with surround systems, and stations that will broadcast
+> in surround...me boyos, have YOU got a treat coming your way.  We did a *lot*
+> of work on this thing to emphasize the surround.   One act had over 100 passes
+> to make the sound as layered as possible (an average show has maybe 30 per).
+> The movement is quite distinct and compelling.  The sound EFX are also quite
+> good...the sound made by the weapons is also quite good.
+> 
+>      One thing we did with the weapons is to try, again, to be fairly logical.
+> If it's a BIG weapon -- rifle size or better -- then you're going to have a
+> quicker recharge time (if any) between firings, though you may have to change
+> packs more often.  At one point, you'll see a smaller, hand-sized gun being
+> fired a few times.  And each time, you'll hear a power whine as it builds up
+> the required power to fire off another round.  A gun that small simply
+> wouldn't have the capability to fire off one after another after another
+> without some power buildup that might not be present in a larger gun.
+> (Smaller guns are generally things you'd want to smuggle on board, and might
+> be as useful, in those ways, as a Derringer, which could only fire one or two
+> shots, as opposed to a machinegun  or gattling gun brought openly into battle,
+> and which is  intended to be used a lot.)
+> 
+>      Someone mentioned the positive aspects to building the maximum population
+> of a space station around available supplies and other very real
+> considerations.  We're trying, consistently, to ask "How would this work in
+> reality?  What are the SCIENCE considerations in doing SF?"  In general, we've
+> found that if you Ask The Next Question and try to be logical, you get MORE
+> options, and you get more INTERESTING options than if you just throw all that
+> to the winds.  (Often networks say, "Ah, screw the science on it, you'll just
+> limit yourself."  Not true.)
+> 
+>      During the final mix-down, a group of cub scouts came through the mixing
+> facility on a tour.  So we invited them in for the play-back on the next-to-
+> the-last act...this is the one where we kick over the table and it's pretty
+> much nonstop action.  Wanted to see the reaction of kids to the show, because
+> if there's a more relentlessly honest audience than kids that age, I don't
+> know what it is.  The fidget factor is enormous when they get bored.
+> 
+>      They didn't BUDGE.  For some of the shots, they sat there, slack jawed,
+> at what they were seeing.  Which is also good to know, that the show can
+> appeal to kids as well as adults WITHOUT making any dumb compromises (i.e.,
+> writing down, sticking in kids) to that audience.  I heard them later talking
+> about it among themselves, and though one kid was a bit unnerved by the whole
+> thing, the rest just went on and on about it..."awesome"..."cool"..."that was
+> great."  So far, so good.
+> 
+>      Onward.
+> 
+>      In thinking a little about the discussion, and what role I've tried to
+> play (and if I've seemed a bit brief or short of late, my apologies; the
+> workload is immense just now), and I don't want anyone to think that I'm
+> playing coy or just teasing about the series when questions about same come
+> up, insofar as story possibilities or plot stuff is concerned.
+>  Obviously, I don't want to give out stuff that would constitute the Ultimate
+> Spoiler.
+> 
+>      But there are generalities that I *can* talk about.  When this topic
+> first began, I was able to talk a little about what was hoped for in the
+> movie...to let people know what we were talking about, and what to expect in
+> exchange for the interest.  (I've always believed that you have to put your
+> money where your mouth is and earn loyalty by keeping promises and being
+> straightforward in what you do.)
+> 
+>      So what *can* be said about the series, what would you have to look
+> forward to?
+> 
+>      You will find out what happened to Sinclair, for starters, during the
+> Earth/Minbari war.  In that respect, the pilot movie is like the first chapter
+> of a novel.  For nearly 10 years, Sinclair has worked to convince himself that
+> nothing happened to him on the Line other than what seems to be the case: that
+> he blacked out for 24 hours.  He's just managed to convince himself of this.
+> Now, suddenly, someone comes into his life and with seven words -- you'll know
+> them when you hear them -- completely unravels the self-deception.  He knows
+> then that something DID happen to him, that someone DID mess with his
+> mind...and he is going to find out who, and why.
+> 
+>      This he will do.  And the ramifications of that discovery will have a
+> major influence on the series, on his relationships, and the future of not
+> only his character but many others.
+> 
+>      You will see what a Vorlon is...and what it represents.  And what it may
+> have to do with our own saga, and a hidden relationship to some of our other
+> characters (watch the reception scene carefully).  We'll discover that there
+> are MANY players in this game.
+> 
+>      One thing that separates this show from others is that on other shows,
+> very often you do things to them to make for interesting drama...you take them
+> prisoner, you make them kids, whatever...in this show, it's what's INSIDE the
+> characters that will pose the greatest problems...and the greatest
+> possibilities for drama.  Most every major character is either running to, or
+> away from something in their hearts, or their pasts, or their careers.
+> Garibaldi's past will catch up with him in a very  difficult way that will
+> affect his role and make him a very different  character for as much as a full
+> season, and have lasting effects thereafter.  Lyta will take part in a voyage
+> of discovery that will very much change her character.
+> 
+>      Some of the established empires will fall.  Some will rise.  Hopes and
+> fortunes will be alternately made or destroyed.  At least one major group not
+> yet known even to EXIST will make its presence known, but only gradually.
+> Some characters will fall from grace.  Others will make bargains whose full
+> price they do not understand...but will eventually come to realize, and
+> regret.
+> 
+>      At the end of the first season, one character will undergo a major, MAJOR
+> change, which will start the show spinning on a very different axis.  The
+> first season will have some fairly conventional stories, but others will start
+> the show gradually moving toward where I want it to go.   One has to set these
+> things up gradually.  Events in the story -- which is very much the story of
+> Jeffrey Sinclair -- will speed up in each subsequent season.
+> 
+>      Someone he considers a friend will betray him.  Another will prove to be
+> the exact opposite of what Sinclair believes to be true.  Some will live.
+> Some will die.  He will be put through a crucible of terrible force, that will
+> change him, and alter his destiny, in a profound and terrible way...if he goes
+> one way, or the other, will determine not only his own fate, but that of
+> millions of others.  He will grow, and become stronger, better, wiser...or be
+> destroyed by what fate is bringing his way.  In sum, it is a story of hope
+> against terrible adversity and overwhelming odds.
+> 
+>      That, in broad brush strokes, is a *taste* of what I plan to do with the
+> series.  I note this here because when the pilot airs, I am going to ask for
+> your continued help in supporting the endeavor for the series, and it occurs
+> to me that you ought to have at least SOME idea of what you're buying, and
+> being asked to support.  One should never be asked to sign a blank check on
+> the bank of one's conscience.
+> 
+>      Reactions?
+> 
+>                                                                   jms
+>  ------------
+> Category 18,  Topic 2
+> Message 549       Tue Jan 12, 1993
+> STRACZYNSKI [Joe]            at 23:42 EST
+> 
+>      What happens at the end of the five year arc?  The "Babylon 5" series
+> ends...if I have anything to say about it (and I do).  If something esle
+> follows, we'll see what that is, but it won't be the same series, or the same
+> title, or really the same characters.
+> 
+>      Barring that very distant possibility, at the end of the five year arc, I
+> take a very, very, VERY long nap....
+> 
+>                                                                jms
+> 
+> [The following is the opening narration from the movie.  The voice talking
+> is an older Londo Mollari ].
+> 
+>  ------------
+> Category 18,  Topic 8
+> Message 137       Sat Jan 09, 1993
+> STRACZYNSKI [Joe]            at 23:23 EST
+> 
+>      "I was there at the dawn of the Third Age of Mankind.  It began in the
+> Earth Year 2257.  Babylon 5 was the last of the Babylon stations, located deep
+> in neutral space.  It was a port of call for refugees, businessmen, smugglers,
+> diplomats and travelers from a hundred worlds.  It could be a dangerous place,
+> but we accepted the risk because Babylon 5 was our last, best hope for peace.
+> Under the leadership of its final commander, Babylon 5 was a dream, given
+> form.  A dream of a galaxy without war, where species from different worlds
+> could exist, side by side, in mutual respect...a dream that was endangered, as
+> never before, by the arrival of one man on a mission of destruction.
+> 
+>      "Babylon 5...was the last of the Babylon stations.  This...is its
+> story...."
+> 
+>                                                                  jms
+>  ------------
+> Category 18,  Topic 2
+> Message 250       Mon Jan 25, 1993
+> STRACZYNSKI [Joe]            at 04:29 EST
+>  
+>       A video index...oh man...you're *deliberately* trying to make my
+>  life a living hell, aren't you?  (More than it is already.)
+> 
+>       We'll see.  It's something I'll mention, and see how they react.
+> 
+>       Meanwhile, here's a little something I came across in my computer
+>  this evening.  I had always sensed that the Londo introduction/narration
+>  at the top of the pilot was the way to go.  But it never hurts to try
+>  other avenues...you discover the darndest ideas that way.  Anyway, I came
+>  up with an alternate introduction, just to see if it worked or not.  I
+>  rather liked it...and still do, to some degree...but finally opted to go
+>  with the Londo intro instead, which is what we'll stick with.
+> 
+>       But since it's not going to be used, I figured...why not let y'all
+>  take a look at what would've been an alternate opening for the pilot?
+> 
+>                              BABYLON 5
+>                           Insert/Prologue
+> 
+>  FADE IN:
+> 
+>  ON STATIC.  Then: a BLACK SCREEN, OVER which we HEAR the FEMALE 
+>  voice of a news broadcast in progress:
+> 
+>                               FEMALE VOICE (vo)
+>                 -- continue to bring you updates on 
+>                 the Interplanetary News Network.
+> 
+>  And now, gradually, a PICTURE begins to emerge from the darkness 
+>  -- grainy, slightly washed out, a VIDEO IMAGE of Babylon 5.
+> 
+>                               FEMALE VOICE (vo)
+>                 In other news, the Earth Alliance 
+>                 space station Babylon 5 celebrates 
+>                 its first year in operation with the 
+>                 imminent arrival of an ambassador 
+>                 from the Vorlon Empire.
+> 
+>  And now: a MONTAGE of shots from within B5, and some EFX shots 
+>  from outside...the casino, the customs area, the bazaar and other 
+>  areas.  During this, the IMAGE BEGINS TO SHRINK, to recede into 
+>  the distance, and gradually the stars begin to come out on all 
+>  sides of the picture, framing it.  This UNDER:
+> 
+>                               FEMALE VOICE (vo)
+>                 Located in neutral territory, Babylon 
+>                 5 has exceeded all expectations in 
+>                 dealing with the many life forms that 
+>                 pass through the five mile long 
+>                 station.  As a result, Earth Central 
+>                 has approved an appropriations bill 
+>                 to keep the orbiting freeport open to 
+>                 travelers, businessmen and diplomats 
+>                 for another five years.
+> 
+>  And now the image shifts, and the picture continues to recede 
+>  into the distance, now only a few inches across...a grainy black 
+>  and white image:
+> 
+>                               FEMALE VOICE (vo)
+>                 Meanwhile, a new binary star 
+>                 discovered by Mars colony scientists 
+>                 has been named Kennedy Proxima, after 
+>                 20th century president John F. 
+>                 Kennedy, born 340 years ago this 
+>                 week.
+> 
+>  And now, in the small picture framed by stars, receding more 
+>  rapidly from view, we SEE footage of JFK speaking before the
+>  Democratic convention the eve of his presidential nomination:
+> 
+>                               KENNEDY
+>                 I believe that the times require 
+>                 imagination, and courage, and 
+>                 perseverance.  I'm asking each one of 
+>                 you to be pioneers toward that New 
+>                 Frontier.  My call is to the young at 
+>                 heart, regardless of age; to the 
+>                 stout of spirit, regardless of party; 
+>                 to all those who respond to the 
+>                 scriptural call, "Be strong and of 
+>                 good courage.  Be not afraid, neither 
+>                 be dismayed."  For courage, not 
+>                 complacency, is our need today.
+> 
+>  UNDER this, Kennedy's image recedes further into the distance, 
+>  growing smaller and smaller until he is now one of the many 
+>  surrounding stars splashed across the blackness of space.  A
+>  moment, and the MUSIC RISES, brave and martial, as we
+> 
+>  TILT and PAN ACROSS to reveal Babylon 5 itself, up close and
+>  personal in all its huge splendor.  PUSH IN on the station as
+>  a ship approaches, and we HEAR: 
+> 
+>                               LAUREL (vo)
+>                 Confirmed, Delta Gammer Niner, you 
+>                 are clear for docking.
+> 
+> 
+>                                                                  jms
+>  ------------
+> Category 18,  Topic 2
+> Message 251       Mon Jan 25, 1993
+> STRACZYNSKI [Joe]            at 04:33 EST
+>  
+>      That should be Delta Gamma Niner, not Gammer Niner.  Typo.  Sorry.
+> 
+>                                                                 jms
+>  ------------
+> Category 18,  Topic 2
+> Message 265       Mon Jan 25, 1993
+> STRACZYNSKI [Joe]            at 23:17 EST
+>  
+>      Generally speaking, I agree with the sentiments expressed, and what
+> you've picked up on are the reasons that I decided against using this
+> particular form, even though there are things I like about it.  What was, for
+> me, the #1 reason for not using it is that it's...for lack of a better term,
+> fairly prosaic.  A news cast as opposed to the voice of the story teller, a
+> sense of future-history you get through Londo's voice and the identification
+> of him as the storyteller.
+> 
+>      Although I agree about the Kennedy tie, and that it can be somewhat
+> problematic, what I like about it is that it fed into what I've been after
+> with this show from day one...to tie our past, our present and our future. 
+> Done properly, it could've been fairly classy, I think.  And there's Kennedy's
+> voice -- I have the tape of his speech -- which rings powerful and true in
+> that speech.  It set a tone.  But as has been noted here before, writing and
+> acting and directing are fundamentally about making choices...this move rather
+> than that, this attitude over that attitude.  The Londo choice was the
+> *better* of the two, even though there's much about this version to commend
+> it.  
+> 
+>      (A quick aside re: the MURDER question...the episode you cite was one
+> done under my watch, but not the one I mentioned as the last I'd have anything
+> to do with for this season.  That one, which I wrote, aired about two weeks
+> ago.  The one you saw this weekend was from last season, as is the one coming
+> up this Sunday, an episode of mine called "The Committee," a fairly gothic
+> episode that actually came out quite well.  The mystery element may or may not
+> be that strong, but for me, MURDER was always a character story first, onto
+> which you graft a puzzle.)
+> 
+>      Well, review copies of the pilot are going out, and have gone out.  I
+> heard through back channels that a major reviewer for a major magazine saw the
+> pilot on Thursday last and his head exploded, thought it was terrific.  The
+> one comment that I keep hearing back from people is that it redefines SF on
+> television.  Now, that doesn't necessarily mean it's the best thing since
+> sliced bread, but in terms of character and SFX and the general, more adult
+> approach, it redefines what you can get away with.  Which is all to the good.
+> 
+>      As for what I'm doing now...writing a script for a friend who's in a
+> bind, ratcheting up the PR on the show a little more, giving interviews and
+> suchlike, trying to get a leg up on my next novel so I'll be able to  continue
+> with it once this thing gets going to series, and some other stuff that, for
+> the moment, is classified.
+> 
+>      It's now less than a month until this thing shows nationally.  And just a
+> tick over two weeks until those with satellite dishes pull the show out of the
+> general ether.  By February 22nd, I fully anticipate being a complete and
+> total basket case.
+> 
+>      Fortunately, it's unlikely anyone will notice....
+> 
+>                                                                 jms
+>  ------------
+> Category 18,  Topic 2
+> Message 318       Thu Jan 28, 1993
+> STRACZYNSKI [Joe]            at 06:54 EST
+>  
+>      Well, it's almost 4 a.m.  I was going to give you three guesses as to
+> what I've been watching -- again -- but I figure by now that's kinda
+> pointless.  I know, I know, obsessive/compulsive.  Sue me.
+> 
+>      It's now 2 weeks and 1 day until those of you with satellite dishes see
+> the pilot.  I'll be very interested in seeing (well, reading) your reactions. 
+> I must confess that as this dialogue continues, I find myself learning more,
+> and questioning more, and digging deeper for information that had been glossed
+> over before.  I very much appreciate your comments, your suggestions, even the
+> occasional outbursts of Attitude.
+> 
+>      There will shortly be a private screening of the pilot on a real movie
+> screen, just for cast and crew.  The only time that I know of that this thing
+> will be shown in the US on a big screen.  Have been going over what I'm going
+> to say to the assembled folks...how does one properly thank another for the
+> fulfillment of a dream?  How do you quantify five (now six) years of struggle,
+> now given life by people you had hardly met one year before, but have given
+> their blood and time and effort to see  someone else's dream realized?
+> 
+>      During the filming, as I would be standing on stage, off camera, and we'd
+> take a break between shots, invariably someone -- the camera  operator, the
+> costumer, an actor, a carpenter -- would come up alongside and say, "Is this
+> close to what you saw when you wrote it?  How are we doing on the dream?" 
+> They knew what it meant, the long road to get here, that it wasn't just a
+> *job* for me and many others; it was something we wanted to do out of passion.
+> And they responded to that...slept nights on the set rather than going home,
+> produced work above and beyond the call of duty...how do you properly thank
+> someone for reaching into your head and pulling out a vision and giving it
+> form and weight and light and substance?  I don't know.  I don't know.
+> 
+>      Whatever the future holds -- win, lose or draw -- I think we've done
+> something special here.  And it's interesting to see how that sense pervades
+> everything...the casting, the production...and now even this.  I have noticed -
+> - I do a LOT of bbsing, much to my spousal overunit's dismay -- that the tone
+> on this category seems vastly different than it is elsewhere.  I don't
+> know...a give and take, no flame wars, a sense of community, the VERY SAME
+> sense present on the set, in the dressing room, behind the camera.
+> 
+>      In the cold light of morning (when I manage to see it, when I'm not
+> coming at 4 a.m. from the opposite direction), I tell myself it's just a
+> television show, and six months from now, or ten years from now, no one will
+> notice or remember.  At night, as I watch the show again for I no longer know
+> how many times, I allow -- just for a second -- the notion that we've carved
+> out a little piece of history.  Win, lose or draw, we got it on film, when
+> everyone said we couldn't.
+> 
+>      And now it's yours.
+> 
+>                                                                  jms
+>  ------------
+> Category 18,  Topic 12
+> Message 176       Thu Jan 28, 1993
+> STRACZYNSKI [Joe]            at 20:01 EST
+>  
+>      BTW, I've been hearing more and more from our Warners liaison that the
+> reviewers who've gotten copies of the B5 pilot have had their corneas melted
+> by what they've seen.  Half a dozen have already scrapped plans for other
+> covers in their weekly television magazine/supplements in deference to a cover
+> story on B5 (and this during Sweeps Week, no less!).
+> 
+>      Keep your eyes peeled, folkses...the stuff should start hitting the
+> streets in the final week of our countdown.
+> 
+>                                                                 jms
+>  ------------
+> Category 18,  Topic 2
+> Message 363       Sat Jan 30, 1993
+> STRACZYNSKI [Joe]            at 03:20 EST
+>  
+>      Agreed on LBJ...he was something of a thug.
+> 
+>      Flat-out wasted tonight...we had a private screening this evening for
+> cast, crew, some critics and some Warners execs.  About 400+ people at the
+> theater in the Academy of Television Arts and Sciences in North Hollywood (in
+> the shadow of a 50 foot Emmy).  I don't think I've ever been as nervous,
+> because here's where all the people who worked their butts off get to see if
+> we screwed it all up for them or not.  Everyone liked it bigtime.  The few
+> critics who said anything (most headed out, as is standard, you don't want to
+> tip your hand) loved it...one CNN person said he hoped it would run for 10
+> years, another critic said it was the best SF television pilot he'd seen in
+> the last 10 years...I think they liked it.
+> 
+>      Sitting here now with a MASSIVE headache from fretting over all this, so
+> will probably make this short tonight.  (Harlan kept hitting me in the
+> shoulder after the screening, smiling and saying, "Will you for chrissakes
+> ENJOY this?  It's your night!  It's a hit!  It's wonderful!  This kind of
+> night only comes once in your life!  Enjoy it!"  I will...as soon as we get
+> the series Go.  Nothing can be allowed to distract from that.)
+> 
+>                                                                   jms
+>  ------------
+> Category 18,  Topic 2
+> Message 374       Sat Jan 30, 1993
+> STRACZYNSKI [Joe]            at 23:50 EST
+>  
+>      The sound system at the theater was great; we ran it off the D2, the
+> master tape, and it came out very well.
+> 
+>      The point you raise re: Starlost is one Harlan's made to me.  When I was
+> at times feeling a bit low -- I want the series NOW -- he would point out that
+> no matter what happens, we made my show the way I wanted it made, no
+> interference...as opposed to what happened with Starlost, which just yanked
+> his heart out.  And it's a valid point.
+> 
+>      Thing is, it took five years to get this made, and that it HAS been
+> made...it's almost an act of sheer will.  I decided five years ago that no
+> matter what happens, this pilot WILL be made.  You have to focus in on the
+> goal like a laser beam (tm Bill Clinton).  That's been done.  Now the next
+> step: the series WILL be made...and now I have to focus in on that one with
+> equal conviction.  It's quite literally the only way ANYTHING ever gets made
+> in this town.  Ask George.  He's been down the same road.
+> 
+>      As for the question of the show working with non-SF fans...we've actually
+> shown it to a number of people who don't know from SF, and the result has been
+> that they've liked it enormously.  The reason, basically, is that it's not a
+> hardware-driven story.  It's a character drama with a mystery story element. 
+> The solution doesn't come from cross-wiring the ramaframmit with the
+> zigamakawanna, and computing the resonance factors.   (And I have to confess
+> that those kinds of stories bore me to tears.)   You start and end with
+> character, and drama...and if you're true to those elements, the audience will
+> follow you even into unfamiliar terrain.
+> 
+>                                                               jms
+>  ------------
+> Category 18,  Topic 2
+> Message 379       Sun Jan 31, 1993
+> STRACZYNSKI [Joe]            at 05:21 EST
+>  
+>      (btw...anyone here know of any major conventions between now and February
+> 22nd around the country?)
+> 
+>      What has been said that's *negative* about the show?  Do you actually
+> believe I'll provide *NEGATIVE* information about my own show?
+> 
+>      You do?  Oh.  Then okay.
+> 
+>      Probably the number one comment, when there are any negatives voiced, is
+> that the first half-hour is slow when compared with the rest of the episode. 
+> And I have to agree...there's SO much to establish, so much  ground to cover,
+> that the first half hour is very dense.  Once we've established the
+> foundation, that changes fast, because we now have a common ground of
+> understanding about the universe in which the story is taking place.
+> 
+>      Let's see...one fellow from Starburst Magazine who was at the preview
+> said that if it were his, he would've rearranged the last few shots.  The
+> current sequence is, Action Scene, Transition with Kosh, Confrontation with a
+> Major Character and Sinclair, the Reception, Delenn and Sinclair in the
+> Garden, and the final shot with Laurel in the observation dome.  He would've
+> put the Confrontation with a Major  character as the LAST scene, and cut the
+> shot of Laurel altogether.  His sense is to end on a big scene...my sense is
+> that it's better to end on a note that sets up the series to follow.  Not so
+> much a negative as a difference of opinion.
+> 
+>      Let's see...some didn't like the gun designs (others loved it), some felt
+> we didn't do as much as we could've with the background aliens (some thought
+> we did too much)...mainly they've been matters of taste, rather than someone
+> finding something that Just Doesn't Make Sense, or an EFX shot that looks
+> crummy.  There aren't any Real Big Plot Holes, and insofar as I know, nothing
+> major to pick on which is *objective*, only differences of opinion.  (As we've
+> seen here with the Kennedy stuff; some liked it, others didn't.)
+> 
+>                                                                   jms
+> 
+> 
+> *****************************************
+> 
+> Posted by Lee Whiteside   P14942@email.mot.com
+>                           elw@cup.portal.con
+> 
+> Lots more B5 info can be found at ftp.hyperion.com (192.65.216.1)
+> in the /pub/Babylon-5 files area.  
+> 
+> 
+> 
+
+-- Ray Cromwell      |      PGP Mail Accepted       |   rjc@gnu.ai.mit.edu --
+-- EE/Math Student   |  Key Available Upon Request  |   Eternal Vigilance! --
+
+
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0044
+****************************************
+

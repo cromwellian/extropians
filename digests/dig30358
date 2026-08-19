@@ -1,0 +1,1292 @@
+From extropians-request@gnu.ai.mit.edu Sun Jun 27 15:35:22 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA21203; Sun, 27 Jun 93 15:35:20 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA27235; Sun, 27 Jun 93 15:35:14 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA17596@wookumz.gnu.ai.mit.edu>; Sun, 27 Jun 93 18:20:17 -0400
+Message-Id: <9306272220.AA17596@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Sun, 27 Jun 93 18:19:51 -0400
+X-Original-Message-Id: <9306272219.AA17579@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0358
+X-Extropian-Date: Remailed on June 27, 373 P.N.O. [22:20:15 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Sun, 27 Jun 93            Volume 93 : Issue 0358
+                        
+Today's Topics:
+                         AIT VirtSem: "Information"                   [1 msgs]
+                 AIT VirtSem: The Game of "Go" as an Example          [3 msgs]
+                         BRAIN: obscure speculation                   [1 msgs]
+                      Forward/Poli: EFFector Online 5.1               [1 msgs]
+                            Jurassic Park (again)                     [1 msgs]
+               QM/TOE: Many-Worlds & Dreams of a Final Theory         [1 msgs]
+                                 information                          [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 65168 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 27 Jun 93 10:25:51 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: Jurassic Park (again)
+
+Quoth Stanton McCandlish, verily I cut and paste his words:
+> . . .  But considering that all the predators we know tend to get away
+> from humans as quickly as possible, and are scared shitless of fire and
+> guns and loud noises, its much much more likely, as far as I am
+> concerned, that the veloceraptors would have run like hell.  . . .
+
+Predators in most of the world have been selected for their inclination to run 
+away from humans.  Not true of Mesozoic predators.
+
+> What was the point of the stolen embryo can falling into the river?  What
+> the hell was that guy doing in the park anyway? Wasn't he supposed to be
+> meeting some contact at the boat?
+
+Fatso was trying to get to the boat, but hadn't counted on (among other things) 
+the storm.  The stolen embryos fell out of his car to underscore the tragedy of 
+it all -- all this mess for them, and he doesn't even manage to get them out.
+
+> And the electrocution scene: would the kid have been knocked off the fence
+> like that, or just fried?  I don't know enough about high-voltage wires to
+> know the answer.
+
+>From indirect anecdotal evidence, I would expect his hands to clamp to the wires 
+-- not only would he not be repulsed, he wouldn't be able to let go.
+
+2c
+
+------------------------------
+
+Date: Sun, 27 Jun 93 10:41:39 -0700
+From: hfinney@shell.portal.com
+Subject: AIT VirtSem: "Information"
+
+From: szabo@techbook.com (Nick Szabo)
+> > his reasoning was that
+> > deterministic processes cannot create new information in the AIT sense.
+> > [eg Conway's Life creates no new information]
+> 
+> This sounds controversial if we confuse terms of art.
+> Information theory uses the word "information[1]" as a measure of 
+> data uncertainty.
+
+It would probably be good as part of the foundation of the AIT seminar
+to have a clear definition of conventional information.  I think it is
+more accurate to say that the traditional information concept measures the
+DEGREE OF REDUCTION in data uncertainty.
+
+Unlike AIT, Shannon information does not apply to a string as such.  It
+only can be used to measure the information of a string considered as one
+of a family of possible strings.  Given the relative probabilities of all
+strings in the family, one can attribute an information content to each
+individual string.
+
+> To most layfolk, and in the field of information 
+> systems, "information[2]" is a qualitative estimate of utility (as opposed 
+> to "data", which can be useful or useless, and is measured in bits).
+> These are vastly different meanings.   For example, a random bit string
+> has a maximal info[1] content, but often no info[2] content.  
+
+Supposing that all strings of a particular length are equiprobable, then
+ALL strings of that length have EQUAL info[1] content.  Again, Shannon
+information applies only given a probability distribution for all possible
+strings.
+
+It's true that the probability distribution which maximizes the per-string
+information is the one which gives equal probability to all strings, which
+may be what Nick meant in referring to a "random bit string".
+
+> In AIT "information[3]" is the bit length of the smallest 
+> algorithm to which a string can be compressed (to some standard, 
+> such as Lisp s-expressions or the encoding of a Turing machine).
+> 
+> The vast bulk of traditional mathematics, eg as defined by Russel & 
+> Whitehead in _Principia Mathematica_, also contains very little 
+> info[3].  R&W derive most 1900's-era math knowledge from just a few 
+> axioms, eg the axioms of the predicate calculus.  By the incompleteness 
+> theorem not _all_ of math is so compressible, and by some measures
+> of string-compression only an insignificant fraction of what could
+> be defined as "math" is compressible, but the vast bulk of math
+> as used in the early 20th century (and probably also today) is
+> in principle extremely compressible.   Similary pi, e, and many other
+> infinitely expandable irrationals with H_trad=1 are highly
+> compressible.   
+
+Just because a whole mathematical field of study can be derived from a
+relatively small number of axioms does not strictly mean that the
+AIT content is small.  The question still remains, how short a program
+could print out the whole of Principia?
+
+The point is that even though each individual statement in Principia may
+be deducable from a few axioms, this ignores the process of SELECTION of
+that specific set of deducable propositions that we find interesting.
+
+Writing a program to grind out all propositions which follow from the
+axioms may be trivial, but that program will not produce Principia.  Only
+when the program is joined with software which could identify the kinds
+of things that we find mathematically interesting can it produce what we
+would call mathematics.
+
+As an analogy, a program which outputs random characters will of course
+eventually produce the Encyclopedia.  And this program is very small.  But
+that does not mean that the AIT content of the Encyclopedia is small.
+
+> [...]
+> Measuring info[1] with the function H_trad() and info[3] with
+> the function H_AIT(), H_trad(Life,t+n) > H_trad(Life,t)
+> for almost all n.
+
+I could not follow this discussion.  First, H_trad does not apply to
+individual strings, but rather to strings considered as a subset of a
+total.  H_AIT, on the other hand, does apply to individual strings,
+patterns, and programs. Second, what is the 2nd parameter in these
+expressions?  Some kind of measure of program run time?  Also, does Life
+here mean a Conway Life program, a program+initial pattern, or rather
+ordinary biological life?
+
+I lost Nick's thread for the rest of the message.  If he could supply a
+clearer definition of H_trad of explain what the two parameters are I
+might be able to comment on it.
+
+Hal Finney
+hal@shell.portal.com
+
+------------------------------
+
+Date: Sun, 27 Jun 1993 17:38:00 -0400
+From: kone@COURIER1.SHA.CORNELL.EDU
+Subject: information
+
+I ran accross your address wile on Libernet, and was wondering what Extropians
+was.  I can be reached at  Kone@courier1.sha.cornell.edu
+Thank you
+
+------------------------------
+
+Date: Sun, 27 Jun 93 20:47:24 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: QM/TOE: Many-Worlds & Dreams of a Final Theory
+
+Eric S. Raymond says:
+
+> Interesting article --- but I must protest that this is
+> anti-predictive only if one's notion of "prediction" is fairly narrow
+> (possibly Popper's was).  Retrodiction is simply a form of prediction
+> checked against data that happens already to have been gathered.
+
+Not quite.  The important distinction (and this is important, which is
+why I'm re-emphasizing it) between retrodiction and prediction lies in
+the mind of the experimenter, their theories and hence their own bias
+in eliminating experimental bias.  As long as the results gathered are
+in disagreement with theory the experimenter is motivated to repeat,
+refine or even redesign the apparatus and setup.  When theory and
+experiment agree the experimenter relaxes and publishes without further
+ado.  I'm not criticising this, we're all human and I'd do the same. 
+But the result of human nature being what it is means that we should
+place more reliability on retrodictive successes than predictive
+successes.  Data gathered in the absence of a theory is more likely to
+be error free.
+
+What galvanised Halley (and the rest of the Royal Society) into pushing
+Newton to publish was the retrodictive explanation of elliptical,
+Keplerian planetary orbits and tides.  The prediction of the return of
+Halley's comet (made in 1704, verified in 1758) was incidental to the
+acceptance of Newtonian gravity/mechanics, yet this was an extension of
+the theory of gravity from the planetary to cometary realm (a much
+stronger claim to science by Popperian standards).
+
+With regards to Einstein's prediction of the eclipse data (in 1919)
+general relativity was pretty much accepted by the successful
+explanation of the 'anomalous' perihelion advance of Mercury (and also
+by GR's axiomatic simplicity).  Eddington and others would not have
+organised two expensive trips to distant parts of the world had they not
+been convinced about what they would find.  And the data they did gather
+was not as unambiguous as folklore asserts.  Weinberg reports that some
+plates were in flat contradiction with Einstein - these were attributed
+to a mirror defect (I think, I don't have a copy of _Dreams of a Final
+Theory_ at hand) and never found their way into the published data.
+
+That's not to say that the eclipse experiments didn't have a dramatic
+impact on public consciousness - they did.  Newspapers were inundated
+with reports of people shining torches across fields at night and
+claiming to see the bending of their beams etc.  I think the reason for
+the public impact was post-war weariness and a "let's not be beastly to
+the Germans" attitude.  Here was a theory by an absent-minded German
+Professor, championed by an English astronomer (director of the
+Cambridge observatory).  The public loved it.  That the data didn't
+quite fit was irrelevant.
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+------------------------------
+
+Date: Sat, 26 Jun 93 11:47:45 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: AIT VirtSem: The Game of "Go" as an Example
+
+In this extended reply, I will use "Go" as a touchstone for discussing
+string complexity, fitness functions, and the answer to the question of how
+complexity can emerge from simplicity.
+
+(I picked "Go" because many Extropians play it, it's a simple to describe
+formal system, and yet it exhibits enormous complexity. It's easier to
+think about Go than it is to think about the complexity of e.coli, or
+humans, or whatever.)
+
+Harry Shapiro wrote:
+
+>a conscious being, Timothy C. May wrote:
+>> In GA and GP systems (genetic algorithms, genetic programming), string
+>> complexity does in fact increase. One can visualize some particular
+>> sequence like this:
+>> 
+>> Initial String:                 11111111111111111......1111111
+>...
+>> Later (more mutations, cross.): 01100110101110110......1010001
+>> 
+>
+>> implying that the initiall string is highly regular, such as all 1s or all
+>
+>Certainly in the a-life program, the resulting generations "Seem" more
+>complex. "life: goes from a very simply algorithim to very dense
+>complex bit of code. Does this count a 'complexity'?
+
+Yes, exactly, this is "complexity."
+
+Where this complexity comes from is not surprising: it comes from the
+"landscape" an organism/agent/etc. is wandering around in. The survival of
+a string (a genome for an organism, a set of programs for an AI, a strategy
+in a game) and its "differential reproduction" (whether it survives long
+enough to breed and hence replicate/pass on its string) depends on its
+"fitness function."
+
+Thus, in GA terms, we may start with a "stupid" string, one that barely
+knows how to find its way to the local watering hole. (I apologize for
+shifting gears to specific examples, like watering holes, differential
+reproduction, etc. These arguments could be put in abstract terms, but the
+mental model is important before tackling purely formal representations.)
+
+The "stupid" string (idealized as "11111....1111", though of course it is
+most likely something much more random looking) competes against other
+strings, themselves probably roughly as stupid (for our model here). Those
+who get to the watering hole, or the food sources, or whatever (win more
+games of "Go," put pieces of machinery together better, etc.), get to breed
+and reproduce (mutations and crossovers, in Holland's terms).
+
+Eventually, the theory (and practice) goes, a "more fit" organism/agent
+emerges. The string representing its genome/programming has more
+"structure." (Even if the string looks "about as random" as it did when it
+started, the bits are now in some important sense more "critical"--randomly
+twiddling them makes a bigger difference than at the beginning, for
+example.).
+
+Does Increased Complexity Really Happen?
+
+There seem to be two important cases:
+
+1. An agent (=organism, critter, genome) exploring a fitness function
+landscape, such as biological agents face in the real environment.
+
+2. An agent playing a formal game, like chess or Go. The axioms are set
+(the rules of the game), and one or more agents are proving theorems and
+making conjectures in this situation (though of course they most likely
+don't have our sense of proving theorems! To them it probably looks like
+the situation in #1.)
+
+In the first case, the string complexity packs in knowledge gained about
+the evironment. Not as formal theorems, but as bit twiddlings that
+(somehow) enhance survivability (actually, all that matters is differential
+reproduction...survival beyond breeding and upbringing is unimportant,
+however unExtropian this may sound!).
+
+Complexity thus reflects the "thrown" (given) complexity of the real world,
+with its geometrical laws, ecologies, sources of food and water, other
+critters, and on and on.
+
+In the second case, it may be argued that all of the formal implications
+are contained in the initial axioms. This was the Hilbert/Russell model of
+starting with basic axioms and then "grinding out" all of the formal,
+logical implications. Godel demolished this hope, but we don't even need
+Godel to show the hopelessness of this. (As Chaitin has noted, "Hilbert was
+not a twit." Hilbert had no illusions that such mechanistic proof would
+replace mathematics, nor did he think it would be easy. He just thought it
+was possible, which it is not.)
+
+Consider the game of "Go," played with simple rules governing the placement
+of black and white stones on a grid. Simpler rules are scarcely imaginable,
+and yet the game has been played for several thousand years and generates
+an enormous literature every year. It is likely that alien civilizations,
+if they exist, have games very similar to Go.
+
+So, given that there are only a few rules, where does the "real complexity"
+come from? 
+
+(I'm now touching on Hal Finney's points about where complexity comes from,
+and whether "deterministic" systems can have real complexity. Go is
+certainly deterministic, in the sense of rules and no quantum-mechanical
+uncertainty. But it has an amazing property--that of multiple agents, whose
+internal thoughts and goals are unknown--that is, I think, of profound
+importance.)
+
+Playing the game, and adopting strategies that seem to work, is jsut like
+genetic programming or genetic algorithms. Theorems are proved ("A group
+with two eyes lives.") and conjectures/probabalistic statements are made
+("If you control 3 corners, resign.") Expert players have tens of thousands
+of patterns they have seen, thousands of theorems/strategies/heuristics,
+and vast amounts of tactical (local) knowledge. All from those simple
+rules.
+
+Since it's a formal, deterministic system (modulo the point about different
+agents, made above), why not just "computerize" it?
+
+First, there are about 10^700 legally possible Go games, not counting the
+ones with long cycles of repetitious behavior (capture, recapture,
+continuing). This contrasts with "only" about 10^130 legally possible games
+of chess. If every single particle in the Universe, all 10^70 of them, was
+somehow made into a powerful computer, then each would be responsible for
+10^630 games!!
+
+(These numbers, for a mere 19 x 19 grid, the standard Go game size, are
+enormously large. I urge readers to think about how these numbers--which
+are utterly outside our ability to ever compute directly--relate to the "in
+principle we could calculate the future evolution of the Universe" sorts of
+speculations. To my mind, neither quantum mechanics nor chaos theory is
+needed to prove that determinism is a dead idea.)
+
+Bennett's idea of "logical depth" is applicable here. Two Go agents, each
+starting with some string (who knows how many bits...it's the "Go programs"
+that might be run on some machine) representing its strategy, begin to
+play. They follow the logical rules of Go, but they also have to anticipate
+what is going on in the "mind" of their opponent, which almost certainly
+sees the game differently.
+
+Just as centralized economies fail to take into account the preferences of
+economic agents (how's this for a change of gears?), so too do ideas of
+"automating" a game fail to take into account the differing internal models
+and capabilities of agents. This is, in some important sense, a "bound on
+the rationality of agents," as Herbert Simon has put it.
+
+(To ward off flames, this has _nothing_ to do with mystical ideas that
+Man's rationality is overrated, that Reason must yield to Faith, etc. So,
+please, no Randian arguments. In fact, this view of bounded rationality--so
+evident in the Go game--validates the "distributed computation" models of
+Hayek, Friedman, et. al. This deserves an entire essay, so I won't go into
+it here. I think the directions are clear.)
+
+So, two agents playing Go develop winning strategies, compete with other
+agents who are also learning, figure out tricks and pitfalls, and so on. A
+Platonist might even say there really "is" a "Go landscape" out there, a
+multidimensional surface filled with local hills and valleys, crevasses,
+watering holes, food sources, walls, and all sorts of other "structure." Go
+agents are like biological critters, wandering and reproducing in this
+landscape, and learning where the "upward" paths are(upward means winning,
+a la hill-climbing algorithms such as the Metropolis algorithm, Hopfield
+networks, simualated annealing, and all the recent results out of Holland's
+and Koza's work on GAs and GP).
+
+(For some concreteness, imagine each Go agent starting with a 1000-bit long
+string, a fairly simple string compared to the 4 megabyte genome of e.
+coli. The bits are on-off switches for various possible Go strategies, or
+are values (by using 8 bits, for 256 levels of some parameter, for
+example)...such as how far to look ahead, how to weight the loss of stones,
+how much importance to place on creating "life" (a Go term, meaning
+survival of a group of stones), and so on. 
+
+These strings might start out as initially "random," or as some fixed
+pattern. But, as games are played with various settings of these bits
+(mutations can change them, or breeding with other strings a la GAs), the
+string changes. It's not clear that a 1000-bit string can ever play
+adequate Go, but you get the point. A note for the curious: Bruce Wilcox's
+"Nemesis" program does in fact have a "control panel" that allows many
+parameters to be twiddled by the user, altering the weighting Nemesis uses.
+In a sense, the bit strings are the inputs to a "Go engine" (a kind of
+Turing machine, loosely speaking). Obviously, the "Go engine" is not set in
+concrete, and should be coded as part of the bit string...things get
+confusing, especially when attempting to separate inputs to a machine from
+the machine itself. In truth, they're both part of the overall approach.)
+
+Enormous complexity--or logical depth, in Bennett's terms--emerges out of
+ostensibly very simple rules. ("Emergent behavior" is of course a
+fascinating idea. I sprang this Go example on William Calvin at the first
+A-LIFE conference in 1987 and he thought it was right on.)
+
+Well, this has gone on too long.
+
+The connection with Chaitin and AIT is, I think, fairly clear. By doing a
+lot of "computation," complexity emerges. Bit strings (a representation of
+the actual programming, which is, of course, machine-dependent,
+language-dependent, and all that good stuff) become more complex, _less_
+random in one sense (the bits matter more), and _more_ random in another
+sense (the strings are less compressible, more algorithmically random).
+
+In a sense, a winning Go agent--one that has played a lot of games and does
+well--has *no shorter description of its strategy* than just the strategy
+(bit string) itself!
+
+That is, you can't take the winning Go agent and say, "Yeah, but tell me in
+a few simple rules what your strategy is."
+
+I'm not saying all such agents/strategies/etc. are like this, but evolved
+agents are quite likely to be this way. If so, this has some important
+implications for AI and fits with the failures of the rule-based paradigm
+and the current ascendency of the distributed computation, evolutionary
+model (such as: neural nets, genetic programming, connectionist
+models...mixed in various ways).
+
+Complexity, algorithmic information theory, artificial life, fitness
+functions, genetic algorithms, logical depth, machine learning,neural nets,
+emergent behavior, markets, agents....all are related in exciting ways.
+
+I hope this extended reply helps in some way.
+
+-Tim May
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+Date: Sun, 27 Jun 93 21:46:31 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: BRAIN: obscure speculation
+
+Nearly 2 months ago Paul Cisek said:
+
+> However, there is increasing evidence and opinion that subcortical
+> structures are the actual substrate for much of what we call cognition
+> and that the cerebrum and cerebellum "merely" provide support, or side
+> paths.  In human development (ontogeny follows phylogeny!) it appears
+> that the cerebral cortex takes over in adults some of the
+> functionality implemented in infants by the subcortical structures.
+
+I'd like to hear more about this.  Does this imply that many of our
+infantile experiences are stored at the subcortical level and become
+inaccessible to our consciousness as it shifts to the higher cortical
+location?  Does this explain the difficulty in recalling early childhood
+memories?  Where can I find out more?
+
+What is the dominant brain structure in dinosaurs?  Did they have
+cortexes?
+
+> -Paul
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93) 
+
+------------------------------
+
+Date: Sun, 27 Jun 93 10:57:32 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: AIT VirtSem: The Game of "Go" as an Example
+
+[Sorry for sending this out a second time, if any of you have already
+gotten it. I sent it out 24 hours ago and it has not appeared at my site.
+Nor have I seen any comments on it. Very frustrating! Not knowing if it
+made it out and all. As this has happened several times to me in the last
+few weeks, I wonder if the either the new List software or the new List
+server site--which I heard was being changed--is dropping messages?]
+
+
+In this extended reply, I will use "Go" as a touchstone for discussing
+string complexity, fitness functions, and the answer to the question of how
+complexity can emerge from simplicity.
+
+(I picked "Go" because many Extropians play it, it's a simple to describe
+formal system, and yet it exhibits enormous complexity. It's easier to
+think about Go than it is to think about the complexity of e.coli, or
+humans, or whatever.)
+
+Harry Shapiro wrote:
+
+>a conscious being, Timothy C. May wrote:
+>> In GA and GP systems (genetic algorithms, genetic programming), string
+>> complexity does in fact increase. One can visualize some particular
+>> sequence like this:
+>> 
+>> Initial String:                 11111111111111111......1111111
+>...
+>> Later (more mutations, cross.): 01100110101110110......1010001
+>> 
+>
+>> implying that the initiall string is highly regular, such as all 1s or all
+>
+>Certainly in the a-life program, the resulting generations "Seem" more
+>complex. "life: goes from a very simply algorithim to very dense
+>complex bit of code. Does this count a 'complexity'?
+
+Yes, exactly, this is "complexity."
+
+Where this complexity comes from is not surprising: it comes from the
+"landscape" an organism/agent/etc. is wandering around in. The survival of
+a string (a genome for an organism, a set of programs for an AI, a strategy
+in a game) and its "differential reproduction" (whether it survives long
+enough to breed and hence replicate/pass on its string) depends on its
+"fitness function."
+
+Thus, in GA terms, we may start with a "stupid" string, one that barely
+knows how to find its way to the local watering hole. (I apologize for
+shifting gears to specific examples, like watering holes, differential
+reproduction, etc. These arguments could be put in abstract terms, but the
+mental model is important before tackling purely formal representations.)
+
+The "stupid" string (idealized as "11111....1111", though of course it is
+most likely something much more random looking) competes against other
+strings, themselves probably roughly as stupid (for our model here). Those
+who get to the watering hole, or the food sources, or whatever (win more
+games of "Go," put pieces of machinery together better, etc.), get to breed
+and reproduce (mutations and crossovers, in Holland's terms).
+
+Eventually, the theory (and practice) goes, a "more fit" organism/agent
+emerges. The string representing its genome/programming has more
+"structure." (Even if the string looks "about as random" as it did when it
+started, the bits are now in some important sense more "critical"--randomly
+twiddling them makes a bigger difference than at the beginning, for
+example.).
+
+Does Increased Complexity Really Happen?
+
+There seem to be two important cases:
+
+1. An agent (=organism, critter, genome) exploring a fitness function
+landscape, such as biological agents face in the real environment.
+
+2. An agent playing a formal game, like chess or Go. The axioms are set
+(the rules of the game), and one or more agents are proving theorems and
+making conjectures in this situation (though of course they most likely
+don't have our sense of proving theorems! To them it probably looks like
+the situation in #1.)
+
+In the first case, the string complexity packs in knowledge gained about
+the evironment. Not as formal theorems, but as bit twiddlings that
+(somehow) enhance survivability (actually, all that matters is differential
+reproduction...survival beyond breeding and upbringing is unimportant,
+however unExtropian this may sound!).
+
+Complexity thus reflects the "thrown" (given) complexity of the real world,
+with its geometrical laws, ecologies, sources of food and water, other
+critters, and on and on.
+
+In the second case, it may be argued that all of the formal implications
+are contained in the initial axioms. This was the Hilbert/Russell model of
+starting with basic axioms and then "grinding out" all of the formal,
+logical implications. Godel demolished this hope, but we don't even need
+Godel to show the hopelessness of this. (As Chaitin has noted, "Hilbert was
+not a twit." Hilbert had no illusions that such mechanistic proof would
+replace mathematics, nor did he think it would be easy. He just thought it
+was possible, which it is not.)
+
+Consider the game of "Go," played with simple rules governing the placement
+of black and white stones on a grid. Simpler rules are scarcely imaginable,
+and yet the game has been played for several thousand years and generates
+an enormous literature every year. It is likely that alien civilizations,
+if they exist, have games very similar to Go.
+
+So, given that there are only a few rules, where does the "real complexity"
+come from? 
+
+(I'm now touching on Hal Finney's points about where complexity comes from,
+and whether "deterministic" systems can have real complexity. Go is
+certainly deterministic, in the sense of rules and no quantum-mechanical
+uncertainty. But it has an amazing property--that of multiple agents, whose
+internal thoughts and goals are unknown--that is, I think, of profound
+importance.)
+
+Playing the game, and adopting strategies that seem to work, is jsut like
+genetic programming or genetic algorithms. Theorems are proved ("A group
+with two eyes lives.") and conjectures/probabalistic statements are made
+("If you control 3 corners, resign.") Expert players have tens of thousands
+of patterns they have seen, thousands of theorems/strategies/heuristics,
+and vast amounts of tactical (local) knowledge. All from those simple
+rules.
+
+Since it's a formal, deterministic system (modulo the point about different
+agents, made above), why not just "computerize" it?
+
+First, there are about 10^700 legally possible Go games, not counting the
+ones with long cycles of repetitious behavior (capture, recapture,
+continuing). This contrasts with "only" about 10^130 legally possible games
+of chess. If every single particle in the Universe, all 10^70 of them, was
+somehow made into a powerful computer, then each would be responsible for
+10^630 games!!
+
+(These numbers, for a mere 19 x 19 grid, the standard Go game size, are
+enormously large. I urge readers to think about how these numbers--which
+are utterly outside our ability to ever compute directly--relate to the "in
+principle we could calculate the future evolution of the Universe" sorts of
+speculations. To my mind, neither quantum mechanics nor chaos theory is
+needed to prove that determinism is a dead idea.)
+
+Bennett's idea of "logical depth" is applicable here. Two Go agents, each
+starting with some string (who knows how many bits...it's the "Go programs"
+that might be run on some machine) representing its strategy, begin to
+play. They follow the logical rules of Go, but they also have to anticipate
+what is going on in the "mind" of their opponent, which almost certainly
+sees the game differently.
+
+Just as centralized economies fail to take into account the preferences of
+economic agents (how's this for a change of gears?), so too do ideas of
+"automating" a game fail to take into account the differing internal models
+and capabilities of agents. This is, in some important sense, a "bound on
+the rationality of agents," as Herbert Simon has put it.
+
+(To ward off flames, this has _nothing_ to do with mystical ideas that
+Man's rationality is overrated, that Reason must yield to Faith, etc. So,
+please, no Randian arguments. In fact, this view of bounded rationality--so
+evident in the Go game--validates the "distributed computation" models of
+Hayek, Friedman, et. al. This deserves an entire essay, so I won't go into
+it here. I think the directions are clear.)
+
+So, two agents playing Go develop winning strategies, compete with other
+agents who are also learning, figure out tricks and pitfalls, and so on. A
+Platonist might even say there really "is" a "Go landscape" out there, a
+multidimensional surface filled with local hills and valleys, crevasses,
+watering holes, food sources, walls, and all sorts of other "structure." Go
+agents are like biological critters, wandering and reproducing in this
+landscape, and learning where the "upward" paths are(upward means winning,
+a la hill-climbing algorithms such as the Metropolis algorithm, Hopfield
+networks, simualated annealing, and all the recent results out of Holland's
+and Koza's work on GAs and GP).
+
+(For some concreteness, imagine each Go agent starting with a 1000-bit long
+string, a fairly simple string compared to the 4 megabyte genome of e.
+coli. The bits are on-off switches for various possible Go strategies, or
+are values (by using 8 bits, for 256 levels of some parameter, for
+example)...such as how far to look ahead, how to weight the loss of stones,
+how much importance to place on creating "life" (a Go term, meaning
+survival of a group of stones), and so on. 
+
+These strings might start out as initially "random," or as some fixed
+pattern. But, as games are played with various settings of these bits
+(mutations can change them, or breeding with other strings a la GAs), the
+string changes. It's not clear that a 1000-bit string can ever play
+adequate Go, but you get the point. A note for the curious: Bruce Wilcox's
+"Nemesis" program does in fact have a "control panel" that allows many
+parameters to be twiddled by the user, altering the weighting Nemesis uses.
+In a sense, the bit strings are the inputs to a "Go engine" (a kind of
+Turing machine, loosely speaking). Obviously, the "Go engine" is not set in
+concrete, and should be coded as part of the bit string...things get
+confusing, especially when attempting to separate inputs to a machine from
+the machine itself. In truth, they're both part of the overall approach.)
+
+Enormous complexity--or logical depth, in Bennett's terms--emerges out of
+ostensibly very simple rules. ("Emergent behavior" is of course a
+fascinating idea. I sprang this Go example on William Calvin at the first
+A-LIFE conference in 1987 and he thought it was right on.)
+
+Well, this has gone on too long.
+
+The connection with Chaitin and AIT is, I think, fairly clear. By doing a
+lot of "computation," complexity emerges. Bit strings (a representation of
+the actual programming, which is, of course, machine-dependent,
+language-dependent, and all that good stuff) become more complex, _less_
+random in one sense (the bits matter more), and _more_ random in another
+sense (the strings are less compressible, more algorithmically random).
+
+In a sense, a winning Go agent--one that has played a lot of games and does
+well--has *no shorter description of its strategy* than just the strategy
+(bit string) itself!
+
+That is, you can't take the winning Go agent and say, "Yeah, but tell me in
+a few simple rules what your strategy is."
+
+I'm not saying all such agents/strategies/etc. are like this, but evolved
+agents are quite likely to be this way. If so, this has some important
+implications for AI and fits with the failures of the rule-based paradigm
+and the current ascendency of the distributed computation, evolutionary
+model (such as: neural nets, genetic programming, connectionist
+models...mixed in various ways).
+
+Complexity, algorithmic information theory, artificial life, fitness
+functions, genetic algorithms, logical depth, machine learning,neural nets,
+emergent behavior, markets, agents....all are related in exciting ways.
+
+I hope this extended reply helps in some way.
+
+-Tim May
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+Date: Sun, 27 Jun 93 22:35:26 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: AIT VirtSem: The Game of "Go" as an Example
+
+Tim May writes:
+
+> I urge readers to think about how these numbers [10^630-10^700]
+> --which are utterly outside our ability to ever compute directly
+
+For ever?  With existing technology, yes.  As for the future, you don't
+know and neither do I.
+
+> --relate to the "in principle we could calculate the future 
+> evolution of the Universe" sorts of speculations.
+
+No relation at all, as testified by the words "in principle".
+
+> To my mind, neither quantum mechanics nor chaos theory is
+> needed to prove that determinism is a dead idea.)
+
+Neither quantum mechanics nor chaos theory is in conflict with
+determinism (although QM _is_ in conflict with CT).  You must have some
+alternative insight that topples determinism.
+
+> -Tim May
+
+Mike "Sniper" Price                   price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+------------------------------
+
+Date: Sun, 27 Jun 1993 10:46:42 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Forward/Poli:  EFFector Online 5.1
+
+I normally don't forward this as it is available many other
+places but the two articles seem to resonable importance.
+
+/hawk
+
+> ******************************************************************
+>            //////////////     //////////////     //////////////
+>          ///                ///                ///
+>        ///////            ///////            ///////
+>      ///                ///                ///
+>    //////////////     ///                ///
+> ******************************************************************
+> EFFector Online Volume 5 No. 11       6/25/1993       editors@eff.org
+> A Publication of the Electronic Frontier Foundation   ISSN 1062-9424
+> 
+>                   -==--==--==-<>-==--==--==- 
+>                         In this issue:
+>              EFF Is Moving
+>              NREN Applications Bill Update
+>              Interval Research Conference on Online Communities
+>                     -==--==--==-<>-==--==--==- 
+> 
+> ************************************************************************
+> EFF Is Moving
+> ************************************************************************
+> EFF has outgrown our current office space.  On July 2, we will be taking
+> over an entire floor of an historic building in downtown Washington, DC. 
+> Please note our new address and telephone numbers beginning July 2:
+> 
+>      Electronic Frontier Foundation
+>      1001 G Street, N.W.
+>      Suite 950 East
+>      Washington, DC  20001
+>      202/347-5400 voice
+>      202/393-5509 fax
+> 
+> Our e-mail address will remain the same, eff@eff.org.
+> 
+> ************************************************************************
+> NREN Applications Bill Update
+> ************************************************************************
+> by Andrew Blau
+> 
+> In an earlier issue of EFFector (5.07), we described legislation introduced
+> by Congressman Rick Boucher to stimulate Internet applications in health
+> care, education, libraries, and for access to government information.  On
+> June 17, the bill, H.R. 1757, was marked-up by the Science Subcommittee,
+> which Mr. Boucher chairs.  ("Mark up" is the process by which a committee
+> or subcommittee reviews a bill, adds amendments, and if passed, sends it on
+> to the next stage in the legislative process.)
+> 
+> The bill that emerged reflects a number of important changes to the
+> original H.R. 1757.  Some of these changes reflect the Clinton
+> Administration's input, others come from efforts to accomodate the
+> Republican members of the Subcommittee, while still others reflect concerns
+> of groups that would be affected by the legislation.
+> 
+>                 -------------------------------------
+>                  Major changes to HR 1757 as marked up
+>                  -------------------------------------
+> 
+> New name
+> --------
+> 
+> The bill had originally been called the High Performance Computing and High
+> Speed Networking Applications Act of 1993.  Its new name is the National
+> Information Infrastructure Act of 1993.
+> 
+> Emphasis on accessibility
+> -------------------------
+> 
+> H.R. 1757 had originally specified that applications developed under this
+> program should be accessible by all persons in the United States.  The new
+> version expands on that by specifying throughout the bill's many provisions
+> that applications must be accessible to people with disabilities; that
+> training programs must include training for people with disabilities; and
+> that public access points for networked information should include centers
+> for people with disabilities.
+> 
+> Connections program to support *services,* not facilities
+> ---------------------------------------------------------
+> 
+> The connections program originally called for the creation of local
+> networks connecting schools, libraries, and state and local governments. 
+> Now, the bill calls for the development of network services in local
+> communities.  The language clarifies that the money is to support the
+> purchase of network services, not to build new facilities.  Museums were
+> also added to the list of local institutions under this program.  The
+> length of the Connections Program was cut from 5 years to 3 years (at which
+> time it is likely to be reviewed).
+> 
+> Process for restricting use of test-bed networks modified 
+> ---------------------------------------------------------
+> 
+> One of H.R. 1757's most controversial provisions had required that
+> government supported test-bed networks could not be used for services that
+> could be "provided satisfactorily" by commercial networks 18 months after
+> the bill is enacted.  Educators, the research community, librarians and
+> others were concerned by the rigid timeline and feared that users would be
+> restricted from using the government supported NSFNet without any adequate
+> alternative, or at substantially higher costs.  The new provisions replace
+> the fixed timeline with guidelines for determining when the cutover may
+> happen and a process for determining it.
+> 
+> 1)  The bill outlines conditions by which "satisfactory availability" is to
+> be determined:  the determination "shall include consideration of
+> geographic access to and affordability of service, and timeliness and
+> technical performance standards in providing services."  This responds to
+> the concern that there be well-known standards "available" that take into
+> consideration various conditions faced by users across the country.
+> 
+> 2)  The bill calls for a study to explore the issue and decide when
+> commercial services are satisfactorily available, subject to the results of
+> the study.  The study is to be done by the Director of the Office of
+> Science and Technology Policy (OSTP) in consultation with Federal agencies
+> and departments supporting test bed networks.  The study is due 6 months
+> after the date of enactment of the legislation.  This abandons the fixed,
+> 18-month timeline and asks OSTP to make the determination according to the
+> specified conditions.
+> 
+> 3)  The bill also includes an "escape" clause if conditions change.  If the
+> OSTP report announces a date for the cutover, but "for technical reasons"
+> the cutover cannot be imposed on that date, the OSTP Director has the
+> option of going back to Congress with a new date.
+> 
+> As a related matter, the bill includes renewed emphasis on using
+> commercially available network services whenever possible, "to minimize
+> Federal investment in network hardware and software."
+> 
+> Scope of Education section expanded
+> -----------------------------------
+> 
+> H.R. 1757 originally specified primary, secondary, and higher education as
+> the beneficiaries of the education section.  That has been broadened to
+> include educational institutions at all levels, which adds pre-school or
+> early childhood education and vocational/technical schools.
+> 
+> The new provisions also specify the inclusion of the Department of
+> Education in the program.
+> 
+> Advisory Committee expanded; Public input process specified
+> -----------------------------------------------------------
+> 
+> The original H.R. 1757 modified the High Performance Computing Advisory
+> Committee created by the High Performance Act of 1991 to expand its
+> membership.  The new provisions take additional steps to expand the
+> committee to include library representatives, the computer hardware and
+> computer software industries, and the publishing industry.
+> 
+> The new provisions also require that the Advisory Committee meet at least
+> once a year to take oral and written testimony from the public on progress
+> in implementing the network and applications plan, summarize the public
+> input, and report it to OSTP Director.
+> 
+> Lastly, the bill first specified that Advisory Committee members were to be
+> appointed by the President.  The new provisions specify that the OSTP
+> Director is to appoint them.
+> 
+> New attention to copyright issues
+> ---------------------------------
+> 
+> The bill as amended now includes greater attention to the copyright issues
+> that electronic networks create.  Specifically, the bill calls for general
+> research to facilitate the management and protection of copyrighted
+> information accessed via the Internet, and a means to identify
+> electronically copyrighted works and electronically indicating whether
+> permission to reproduce it has been granted.
+> 
+> Money:  less of it and none of it is "new"
+> -----------------------------------------
+> 
+> In an effort to keep this package within the parameters of the
+> Administration's budget request, and in light of the budget deficit and the
+> struggles to pass a budget package, the amount of money authorized in each
+> section has been cut.  The overall total was reduced from $1.55 billion
+> over five years to $1.005 billion over that period.
+> 
+> A large portion of that total comes from the removal of the National
+> Telecommunications and Information Administration (NTIA) from the program. 
+> NTIA is not under the Science Subcommittee's jurisdiction, and will be
+> reauthorized by the committee that does have jurisdiction, the Energy and
+> Commerce Committee, which is expected to authorize money for similar
+> purposes.
+> 
+> The bill now also clarifies that all money authorized in it is from money
+> already authorized for each agency.  These provisions were added to clarify
+> that the bill was not seeking to add over a billion dollars to the federal
+> budget for these programs, but was authorizing agencies to spend the money
+> they have on these applications.
+> 
+> Miscellaneous
+> -------------
+> 
+> The bill as reported out of the Subcommittee also calls for:
+> 
+>   o  an emphasis on the development of "interconnected and interoperable
+> information systems" rather than proprietary or stand-alone systems;
+> 
+>   o  research into "the long-range social and ethical implications of
+> applications of high-speed networking and high-performance computing"; and
+> 
+>   o  new applications in clinical medicine, including drug development,
+> technologies to monitor, evaluate and treat patients in nonclinical
+> settings, and modeling of sociological populations affected
+> disproportionately by selected diseases or disorders.
+> 
+> Finally, H.R. 1757 no longer includes the section that calls for a
+> coordinator for the networking and applications program nor a section
+> specifying an Associate Director at OSTP to oversee Federal efforts to
+> disseminate scientific and technical information.
+> 
+> The bill is now scheduled to come before the full Science, Space and
+> Technology Committee on June 30 for a vote.  It is not expected that
+> additional major revisions will be made, but changes are always possible. 
+> Following the full Committee markup, the bill will be ready for
+> consideration by the full House of Representatives once the Committee
+> issues its report.  No date for House consideration has been set.
+> 
+> ************************************************************************
+> Interval Research Conference on Online Communities
+> ************************************************************************
+> The Interval Research Mini-Conference on Online Community
+> May 17-18, Palo Alto
+> attended and reported on by Cliff Figallo
+> 
+> This past Monday and Tuesday, I attended the "FIRST EVER INTERVAL GATHERING
+> ON ONLINE COMMUNITIES," hosted by Interval Research in Palo Alto.  It was
+> described as "a small meeting of professionals and advanced students to
+> explore the nature and dynamics of on-line communities -- including
+> informal presentations and panels, show and tell, rants and ravings, and
+> hands-on net surfing orchestrated by the inimitable Jonathan Steuer, host
+> of Stanford's famous net.jams!"  The list of topics covered at the meeting
+> included:
+> 
+>         o MUDs and MOOs
+>         o the world of online gaming
+>         o virtual identity and gender
+>         o "emergent" vs. "planned" communities
+>         o multimedia vs. text
+>         o online services
+>         o professional/work communities
+>         o political and social issues - the net of the future
+> 
+> The list of communities invited included:
+> 
+> America Online, CPSR, EFF, Electronic Cafe, Fidonet, Habitat, Kidsphere,
+> LambdaMOO, MediaMOO, Seniornet, Sierra Network, Smart Valley, and the WELL.
+> 
+> The purpose of the gathering, as expressed to me by Brenda Laurel and Lee
+> Felsenstein, the Interval employees who planned the mini-con, was to
+> demonstrate the existence and meaning of online community to those
+> higher-ups at Interval who didn't yet "get it."
+> 
+> John Coate, Marc Smith and I followed Lee Felsenstein's opening remarks on
+> the importance of networked communities as agents of social change.  John
+> Coate and I had worked together at the WELL and Marc Smith wrote his
+> master's dissertation, "The Logic of the Virtual Commons" about the WELL. 
+> I described the many variables that contributed to the formation of the
+> WELL's online sense of community including, the policy of users being
+> responsible for the words they post, the communal background of its
+> managers, the connection with Whole Earth, the no-anonymity policy, the
+> inclusion of users in developing the system, the distribution of
+> responsibility among the users, and the personal and technical challenges
+> that the population faced and overcame through the WELL's formative years. 
+> The concept of "common goods" was discussed as a centerpiece of community;
+> some value that most participants could agree on that is gained by taking
+> part in the online scene.  This "common good," I think, can also be a
+> commonly perceived threat, as from government or corporations.  Most often,
+> though, it is the knowledge and personal resource of the group present
+> online, providing information and support at the convenience of the users.
+> 
+> Gaming populations are present on the Sierra Network where, rather than
+> through conferencing or messaging software, interactive games are the
+> meeting places, with e-mail filling the need for extended communication. 
+> Although little in the way of "serious" group discussion happens on Sierra,
+> a community of sorts does, in fact, exist.  Sierra Net has over 20,000
+> subscribers.  They have, since the meeting, signed on with Prodigy to
+> collaborate somehow.
+> 
+> Habitat is a semi-animated interactive system where each participant is
+> represented online by a graphic figure of a human body on which a head,
+> chosen from a gallery of heads, can be attached.  Dialog takes place
+> through cartoon-like "balloons" above the characters' heads.  Habitat is
+> popular in Japan, and its two American developers, Chip Morningstar and
+> Randy Farmer, are reviving Habitat in the U.S. (it formerly ran only on
+> Commodore 64 machines), while also developing a
+> pay-or-barter-for-information system called AMIX in California (initially
+> funded by AutoDesk) and working on a conferencing interface for a
+> wide-reaching information structure like the Internet.  They claim to have
+> a "very large corporation" interested in funding their idea.
+> 
+> MUDs (Multi-User Dungeons) and MOOs (MUD-Object-Oriented) are structured
+> and user-modifiable online environments that allow users to not only
+> interact with each other, but to do role-playing, build and furnish living
+> areas and interaction areas, and extend and create the interactive "space"
+> and the rules for using that space.  Some MUDS and MOOs are being used to
+> teach children and, after giving the children the ability to create on
+> their own, to study how children work in an unencumbered environment.  Amy
+> Bruckman of MIT's Media Lab and Pavel Curtis of Xerox PARC described their
+> systems and experiments.
+> 
+> Some examples of specially-designed online communities were described by
+> participants.  Anna Couey, Director of Arts Wire, talked about the
+> reluctance of artists to move from systems of regional or cultural
+> preference to another system where a central Arts Forum was established. 
+> Loyalties run strong online.  Seth Fiery described the Smart Valley project
+> for installing a broadband network throughout Silicon Valley as a prototype
+> for the NII.  Even on this local scale, there are more questions about
+> interoperability than answers.  Fran Middleton talked about SeniorNet and
+> how, even having their system located on America Online, there were many
+> complaints about difficulty using the system and high expense.  Dave Hughes
+> gave his list of ingredients for grassroots networked systems:
+>      1) Rooted in real cultures
+>      2) Universal grassroots access
+>      3) Public technical standards
+>      4) Start farthest from centers of power (rural, remote, foreign)
+>      5) Always evolving (technically, connectively, individual/group/
+>         community skills) to higher orders
+>      6) End users do not just connect, they create
+>      7) Sysop's role is to enable and empower
+> 
+> Patricia Seybold of Seybold Publishing spoke about her efforts to get
+> corporate users to participate in networks using Lotus Notes.  She is
+> having to "be patient," waiting for them to actively use these systems.
+> 
+> Tom Jennings, inventor of Fidonet, described the self-governing nature and
+> evolution of the Fidonet and how node sysops had developed sanctioning
+> norms and techniques.  Tom's original idea took off so fast that the
+> software tables he originally designed to count the nodes overflowed after
+> just one year of distribution.  Fido now generates its own regular
+> "newsletter" that reports on the operation of this anarchic networked
+> community of communities.  It is a poor (non-academic or corporate)
+> person's Internet, operating with none of the national or international
+> regulatory red tape of the Internet.  Mark Graham, president of Pandora
+> Systems, talked about the growth in public access to the Internet, the need
+> for better tools for access and data searching (which his company develops)
+> and the growing interconnectivity with foreign countries.  Pandora was
+> instrumental in installing the first commercial Internet site in the former
+> Soviet Union.  Bob Carlitz is a physicist who has been involved in
+> networking children through the Internet via KidSphere.  He has seen how
+> children can form their own communities online and learn at the same time
+> on a global scale.  Kathy Ryan of America Online gave a description of the
+> service and how they have handled its rapid growth and customer support,
+> specifically how they have created systems for gathering feedback from
+> their users on system design and features.  They are struggling with the
+> question of opening their system into the Internet beyond just having an
+> e-mail gateway.
+> 
+> Finally, Kit Galloway and Sherry Rabinowitz demonstrated some video clips
+> from their almost 20 years of involvement with the Electronic Cafe, which
+> uses low-cost to sophisticated video equipment to encourage creativity and
+> communication between different communities and cultures.  In some cases,
+> they have set up satellite video feeds between geographically-distant
+> groups holding simultaneous events.  In other cases, they have linked local
+> culturally-disparate groups in different neighborhoods in the same town. 
+> No keyboarding necessary; anyone can hold the camera.
+> 
+> The purpose of the meeting was addressed mostly in discussion between and
+> following presentations as the differences and commonalities between many
+> concepts and models of community were explored.  It was evident that
+> sophistication of technology was not the determining factor, but more that
+> freedom and openness and encouragement of creativity seemed to be the
+> critical keys to nurturing community.  Greater access will allow more
+> people to connect, and basing systems around some kind of "commons" may
+> stimulate involvement and loyalty.   The fragility of trust online is
+> something that must be recognized, and privacy concerns are high on the
+> list of values.  Creating and enforcing community standards, even where a
+> minority may claim that free speech is being infringed upon, was also seen
+> as a contributor to community.  Where a group needs to feel secure in
+> giving free rein to their children online, rights to use strong language or
+> provide pornographic files may be, appropriately, abridged in the interest
+> of community.
+> 
+> Discussion of the privacy rights of children were examined in the case of
+> Amy Bruckman's desire to study and document children's behaviors online in
+> MOO environments without the children's knowledge.  Would parental
+> permission be sufficient or should the children know they are being
+> studied?
+> 
+> The presence of children online, in general, presents many difficult
+> ethical dilemmas which may have, at least, partial technical solutions.
+> 
+> The looming spectre of collusion between large cable companies and telcos,
+> leading to domination of electronic media by mostly one-way communications
+> and entertainment at the expense of the interactive and user-created
+> activities necessary to foster community, was recognized as a threat that
+> could best be countered by proactive development of more interactive
+> communities of all types in the near future.  I explained EFF's positions
+> on several issues of concern to the attendees.  EFF's existence as a
+> watchdog over policy and regulation as well as a protector of civil
+> liberties was regarded as a comforting security umbrella and a real
+> necessity if the practice of online community is to expand and thrive.
+> 
+> =============================================================
+> 
+>      EFFector Online is published biweekly by:
+> 
+>      Electronic Frontier Foundation
+>      666 Pennsylvania Ave., S.E., Suite 303
+>      Washington, DC  20003  USA
+>      Phone:  +1 202 544 9237  FAX:  +1 202 547 5481
+>      Internet Address:  eff@eff.org
+> 
+>      Coordination, production and shipping by Shari Steele,
+>      Director of Legal Services & Community Outreach (ssteele@eff.org)
+> 
+> Reproduction of this publication in electronic media is encouraged.  Signed
+> articles do not necessarily represent the view of the EFF.  To reproduce
+> signed articles individually, please contact the authors for their express
+> permission.
+> 
+>      *This newsletter is printed on 100% recycled electrons.*
+> =============================================================
+> 
+> MEMBERSHIP IN THE ELECTRONIC FRONTIER FOUNDATION
+> 
+> In order to continue the work already begun and to expand our efforts and
+> activities into other realms of the electronic frontier, we need the
+> financial support of individuals and organizations.
+> 
+> If you support our goals and our work, you can show that support by
+> becoming a member now. Members receive our bi-weekly electronic newsletter,
+> EFFector Online (if you have an electronic address that can be reached
+> through the Net), and special releases and other notices on our activities.
+>  But because we believe that support should be freely given, you can
+> receive these things even if you do not elect to become a member.
+> 
+> Your membership/donation is fully tax deductible.
+> 
+> Our memberships are $20.00 per year for students and $40.00 per year for
+> regular members.  You may, of course, donate more if you wish.
+> 
+> =============================================================
+> Mail to: 
+>          Membership Coordinator
+>          Electronic Frontier Foundation
+>          666 Pennsylvania Ave., SE
+>          Suite 303
+>          Washington, DC 20003 USA
+> 
+> Membership rates:
+>             $20.00 (student or low income membership)
+>             $40.00 (regular membership)
+> 
+> 
+> [   ]  I wish to become a member of the EFF.  I enclose: $_______
+> [   ]  I wish to renew my membership in the EFF.  I enclose: $_______
+> [   ]  I enclose an additional donation of $_______
+> 
+> Name:
+> 
+> Organization:
+> 
+> Address:
+> 
+> City or Town:
+> 
+> State:            Zip:           Phone: (      )                  (optional)
+> 
+> FAX: (      )                   (optional)
+> 
+> E-mail address:
+> 
+> I enclose a check [  ].
+> Please charge my membership in the amount of $
+> to my Mastercard [  ]  Visa [  ]  American Express [  ]
+> 
+> Number:
+> 
+> Expiration date:
+> 
+> Signature: ______________________________________________
+> 
+> Date:
+> 
+> I hereby grant permission to the EFF to share my name with
+> other nonprofit groups from time to time as it deems
+> appropriate.                       Initials:______________________
+> 
+> 
+> 
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0358
+****************************************
+

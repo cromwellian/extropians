@@ -1,0 +1,776 @@
+Display message
+Message 17/30  From habs@gnu.ai.mit.edu                 Sep 2 '92 at 9:03 am edt
+
+
+Return-Path: <habs@gnu.ai.mit.edu>
+To: ExI-Essay@gnu.ai.mit.edu
+X-Original-Message-Id: <9209021303.AA23381@hal.gnu.ai.mit.edu>
+Subject: Living Systems
+X-Original-To: exi-essay@gnu.ai.mit.edu
+Date: Wed, 2 Sep 92 9:03:43 EDT
+X-Extropian-Date: Remailed on September 2, 372 P.N.O. [13:03:58 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+
+Over the next several days I will post copies of articles that
+didn't win my contest. -- I have not judged these articles in
+any other way other than I thought JoSH's article was the
+ideal one for starting the list.
+
+For those looking for JoSH's email address, he can be reached at
+josh@cs.rutgers.edu - Sorry for the omission.
+
+_______________
+        From: cmcl2!ra.cs.umb.edu!sasha (Alexander Chislenko)
+ There are 717 lines left (4%). Press <space> for more, or 'i' to return.
+
+
+    I wrote the following text some time ago, and not for extropians who 
+I knew nothing about at that time.  Non-extropians didn't have much inte-
+rest in the issues I was trying to address; when I realized it, I stopped
+working on this text.
+    I hope some of the topics (like supersystem stuff) can be of interest
+to this list; whether my opinion on them is of any value, you can judge
+yourself. 
+ 
+                        - Alex Chislenko
+ 
+-------------------------------------------------------------------------
+ 
+ 
+                        L I V I N G    S Y S T E M S
+ 
+ 
+ 
+ 
+ 
+ 
+ There are 695 lines left (6%). Press <space> for more, or 'i' to return.
+ 
+ 
+ 
+ 
+ 
+     The goal of this text is to explore common  system  laws  governing
+ 
+the  development  of  various  complex objects, ranging from animals and
+ 
+plants to  sciences  and  economies,  regardless  of  details  of  their
+ 
+implementation   in  different  contexts,  and  try  to  foresee  future
+ 
+structural transformations of these objects.
+ 
+ 
+ There are 678 lines left (9%). Press <space> for more, or 'i' to return.
+- Living Systems -                                                Page 2
+ 
+ 
+1  FROM THE AUTHOR
+ 
+     This is  an  unfinished  manuscript,  containing  a  collection  of
+thoughts,  serious and speculative, that I am now trying to discuss with
+my friends, while thinking of what of it can go into print, and  whether
+it  should.  I would greatly appreciate any response, including remarks,
+references, reading  and  contact  advice  and  all  possible  notes  on
+structure  and  language  of the current text.  My dream is to have some
+heavily commented copies of it returned.
+ 
+     I would also gladly contact any person  whose  thoughts  wander  in
+related areas.
+ 
+ 
+ 
+ 
+2  INTRODUCTORY NOTE
+ 
+     In full accordance with written here, I believe that no article can
+represent  an  ultimate  value, but is always only a part of the growing
+ There are 656 lines left (12%). Press <space> for more, or 'i' to return.
+organism of scientific knowledge that works partly through  us,  writers
+and  readers;  and it is this entity, not us or articles, that is slowly
+shaping itself towards the Absolute Truth.
+ 
+     So we (I and this article) are trying to unselfishly take  part  in
+this  process,  deliberately  leaving  some gaps in presentation and too
+categorical, questionable or unexplained statements,  with  the  aim  to
+provoke further discussion rather than to try prematurely polish our own
+look.
+ 
+ 
+ 
+3  STARTING POINT
+ 
+             The behavior of any object  depends  solely  on  its
+        structure,  i.e.   the  number  of  its  elements and the
+        character of their links.  This means that if we have two
+        objects   with   equivalent   structures,  and  the  only
+        difference between them is in implementation  and  naming
+        of  their parts and links, then the behavior of these two
+        objects will be exactly the same (except,  possibly,  the
+        means of its expression).
+ There are 634 lines left (15%). Press <space> for more, or 'i' to return.
+ 
+             It is therefore reasonable to speak  of  classes  of
+        objects  with  equivalent  structures;  let  us call them
+        'systems'.
+ 
+ 
+ 
+4  FEATURES OF SYSTEM STRUCTURES
+ 
+     Human minds seem to  be  better  suited  for  spotting  differences
+between  things than for finding commonalities (it is not by chance that
+primitive languages have words like 'pine' and 'birch', but not 'tree').
+This  may  be the main reason of why so little attention is paid to some
+striking similarities between many natural and artificial systems.
+ 
+ 
+ There are 617 lines left (17%). Press <space> for more, or 'i' to return.
+- Living Systems -                                                Page 3
+ 
+ 
+     This table briefly illustrates some common features and  stages  of
+development of systems in the following three spheres:
+=====================================================================
+| Feature\ Sphere |   Biology     |   Society      |Computer systems|
+|===================================================================|
+| Starting point: | unicellular   | primitive      | small single   |
+| simple and      | organism      | tribe          | consecutive    |
+| unstructured(*) |               |                | machine        |
+|-----------------+---------------+----------------+----------------|
+| Mature system:  | multicell,    | interacting    | multitasking,  |
+| interconnected  | multiorgan    | social         | networked      |
+| substructures   | body          | institutions   | computers      |
+|-----------------+---------------+----------------+----------------|
+| Dual            | proteins      | people         | data and       |
+| basic parts     | and genes     | and memes      | instructions   |
+|-----------------+---------------+----------------+----------------|
+| Parasites       | microbes      | crime          |computer viruses|
+|-----------------+---------------+----------------+----------------|
+| Anti-parasites  | antibodies    | police         | anti-viral     |
+|                 |               |                | programs       |
+ There are 595 lines left (20%). Press <space> for more, or 'i' to return.
+|-----------------+---------------+----------------+----------------|
+| Rudimentary     | appendix,     | outdated laws  | obsolete       |
+| parts           | third eye     | & institutions | data and code  |
+|-----------------+---------------+----------------+----------------|
+| Shared          | all tools as  | inter-state    | databases,     |
+| external        | shared limbs  | bodies and     | code libraries,|
+| units           | and sensors   | property       | netware,...    |
+|-----------------+---------------+----------------+----------------|
+| Self-awareness  | consciousness | Social-study   | system & meta- |
+|                 |               | institutions   | data & software|
+|-----------------+---------------+----------------+----------------|
+| Intangible part | body/         | material life/ | hardware/      |
+| develops and    | consciousness | culture        | software       |
+| takes the lead  |               |                |                |
+=====================================================================
+ (*) in the sense of not consisting of parts of the same system level
+ 
+     Some additional features are:  backup subsystems, spare  parts  and
+capacities,  competition  of  subsystems  for resources and attention of
+higher levels, conflicts over control, aging problems etc., etc...; even
+the  [geometrical  average]  number  of  parts in all classes of systems
+appears to be  the  same.   These  commonalities  go  far  beyond  basic
+ There are 573 lines left (23%). Press <space> for more, or 'i' to return.
+cybernetical  observations  of  information processing; in fact, one may
+reasonably  suppose  that  there  exist  common  system  laws  governing
+development  of  morphic  entities  regardless  of  the details of their
+implementation in different contexts.
+ 
+     All of the above listed features appear approximately at  the  same
+levels  of development of each system; it seems that given the first two
+columns of the above table and the [well-known]  speed  of  progress  in
+computer systems, we would have been able as long ago as 1950 to predict
+(and prepare for) the time of arrival of computer networks and viruses -
+instead  of  dreaming  of  big lonely MULTIVACs.  Totalitarianists could
+also keep in mind  that  their  beloved  centrally-regulated  monolithic
+societies,  just  like unicellular organisms and consecutive stand-alone
+computers, are competitive only as long as they (and their environments)
+are  unsophisticated  - and could think (or, rather, could have thought)
+of how to keep them that way.
+ 
+ 
+ There are 554 lines left (25%). Press <space> for more, or 'i' to return.
+- Living Systems -                                                Page 4
+ 
+ 
+     But it is of course easy to predict the past.
+ 
+ 
+ 
+5  CLASSES OF SYSTEMS
+ 
+     It seems possible to divide  systems  into  general  classes,  like
+colony,  organism  and  biocenosis (ecology), judging by their essential
+features,   most   important   of   which   seem   to   be   complexity,
+interconnectedness,  clusterization,  strength  of feedbacks, etc.  If a
+certain system structurally falls into a given class,  say,  'organism',
+then  IT IS AN ORGANISM, since God/Nature perceive(s) and guide(s) it as
+such, while we can  call  it  a  rabbit,  piece  of  software,  national
+economy,  language,  culture  or  science.   The  difference  between  a
+structurally equivalent computer program and a body (or a culture and an
+intelligent  consciousness) is no more than in our perception.  We think
+we 'see' 'real' living organisms and, hence, they 'exist',  while  other
+systems  are  just  'imaginary entities' (though we never see the 'real'
+structures themselves, but only external properties,  like  skin  color,
+spatial  position  etc.,  and  all  important  features have to mentally
+ There are 532 lines left (28%). Press <space> for more, or 'i' to return.
+derive, anyway).
+ 
+     We can look around and see that our planet  is  abundant  with  all
+kinds  of  developing life and intelligence, and for much of it we serve
+as (still, unfortunately, unconscious) carriers or elementary substrata.
+ 
+     All our subsystems and supersystems live their own lives  and  have
+little (though gradually growing) interest and knowledge of each other.
+ 
+     We have little understanding of how our own cells or the  parts  of
+consciousness work, and no single individual is likely to ever have much
+more,  since  the  complexity  of  these  systems  by  far  exceeds  the
+capacities  of  the consciously controlled part of the human brain.  But
+there  are  other  entities,  namely,  the  sciences  of  cytology   and
+psychology,  that,  once brought to life, continue working as our agents
+of communication with our own parts, studying and testing them in  their
+own  planned and orderly manner, and often pursuing goals that represent
+their own logic of development rather than the individual  understanding
+of practical value by any single human researcher.
+ 
+ 
+ 
+ There are 510 lines left (31%). Press <space> for more, or 'i' to return.
+6  OUR PERCEPTION OF OTHER LIVING SYSTEMS
+ 
+6.1  Familiar Entities
+ 
+     We accept other systems as  living  if  they  look  just  like  us,
+especially  if  they  have  the  same appearance, age, language and skin
+color.  (This is why much more attention is paid to unborn  or  mentally
+retarded  representatives  of  Homo  Sapiens than to much more conscious
+healthy adults of other species).
+ 
+ 
+ 
+6.2  Alien Entities
+ 
+     We have special names (just like  'birch'  and  'pine')  for  those
+systems  [we  think] we understand and use special methods for each type
+without trying to generalize or recognizing equal rights for all  living
+entities.   Usually  we  take  it  for  granted  that  cells,  cultures,
+subconscious parts of our minds, etc., work, but do not care whether and
+ 
+ 
+ There are 488 lines left (34%). Press <space> for more, or 'i' to return.
+- Living Systems -                                                Page 5
+ 
+ 
+how  they  feel.  The Green movement is now broadening its ethical view,
+starting to think of the rights of insects, bacteria and  baking  yeast.
+But there are some things they do ignore:  namely, that such entities as
+philosophy or the Green movement itself are more alive than  the  baking
+yeast, in any reasonable sense of the word; that bed-bugs, cock-roaches,
+mafia and urban life-style are also very natural formations,  and  still
+the  first  three of them (or all four, by some opinions) are well worth
+destroying; that life  is  a  permanent  interaction  among  all  living
+beings,  and some of them do, unfortunately, have to lose (I am far from
+saying they may be thoughtlessly destroyed).
+ 
+     It seems that the process we see  unfolding  around  us  is  not  a
+destruction  of  nature  by 'non-nature', but a gigantic leap in natural
+evolution, with an explosive number  of  new  cultural,  scientific  and
+technological species pushing some old species (like, alas, spotted owl,
+and, hopefully, bed-bugs) out of the niches of their original existence,
+and we have the greatest historical opportunity to observe this process,
+take part in guiding it - and reap incredible benefits for ourselves.
+ 
+ 
+ There are 466 lines left (37%). Press <space> for more, or 'i' to return.
+ 
+6.3  Complex Systems
+ 
+     If a thing is complex enough, and  its  analysis  seems  to  be  of
+little practical value, people prefer to perceive/admire/worship it as a
+'whole', often hating  the  very  idea  of  'disassembling'  the  sacred
+object.   Music  and  arts  are good examples of this situation.  Though
+there is no such thing as an undifferentiated whole (with,  possibly,  a
+few  elementary exceptions), and those nice objects would be much better
+off if there were a place in their admirers' minds for both their beauty
+and design.
+ 
+ 
+ 
+6.4  Supersystems
+ 
+     If a system is incredibly complex and its ways cannot be understood
+to  any  reasonable  degree, its influence can be sensed only by certain
+events that tend to occur when we follow some vaguely understood  rules.
+In  this  case,  it  is easier to simply 'obey' those rules, i.e.  to do
+things expected to bring positive feedbacks, or just try to pray to  the
+supersystem  in  one's  own  language and wait until it hears and helps.
+ There are 444 lines left (40%). Press <space> for more, or 'i' to return.
+This is certainly very similar to what we think of  God.   Let  us  also
+look  at  it from another point of view and imagine what our cells might
+think about the systems they are parts of.  All of them could agree that
+a system consisting of themselves (and hence not a material object, but,
+like a society for us, just a structure they  support,  a  way  they  do
+things together) cannot think, feel or plan anything by itself.  "It may
+look structurally like it is alive, but it is us who do  it  all",  they
+might  say  of us - as people say of grander systems.  Most of the cells
+are unable to collect any information  about  their  environment  beyond
+what  is  needed for performing their simple physical duties.  They keep
+doing their jobs, exhausting available resources, assuming  that  before
+the  resources  are  over,  some smarter neighbors or higher powers will
+take care of the problem.  Those with higher abilities (but still in  no
+way  capable  of  comprehending the Great Whole - e.g., a hair root they
+live in) take part  in  'social'  development  and  may  choose  between
+improving  their  environment  themselves and sending complaints to some
+higher 'divine' authority.   The  results  of  the  first  approach  are
+guaranteed  but  limited  by  the  cell's  model  of the environment and
+abilities; the second approach is not always successful, since the  gods
+ 
+ 
+ There are 422 lines left (43%). Press <space> for more, or 'i' to return.
+- Living Systems -                                                Page 6
+ 
+ 
+are not quite almighty and tend to leave the complaints misunderstood or
+unnoticed - but if the complaints are loud enough  and/or  supported  by
+neighbors,  they  may  be gracefully acknowledged.  In our example, some
+substances are sent in by local gods(=organs), or the person whose  head
+carries  the  hair, scratches or washes it, or - an extremely rare case!
+- there can be a direct interference  from  some  super-authority,  like
+killing of this particular rioting cell by a well-focused X-ray beam, to
+stop the trouble.  It is hardly possible to give  a  general  advice  of
+what  can  be  asked  by a part from a whole, but it is possible to note
+how.  By utilizing the part's links with the system; silent prayers  are
+never heard, though they may unintentionally alter the internal state of
+the subsystem and bring desirable - or some other - results.   They  may
+also  employ  some  hidden information channels, like 'talking' to other
+layers of one's own consciousness or transmitting weak radio messages.
+ 
+ 
+ 
+7  EVOLUTION OF A SUPERSYSTEM
+ 
+     At the very beginning, parts voluntary form some  joint  structure,
+ There are 400 lines left (46%). Press <space> for more, or 'i' to return.
+following  their own logic of development.  This is already a birth of a
+supersystem, though it is  still  weak  and  vitally  dependent  on  its
+creators;  its  life  seems  to be in the hands of a few of them.  Then,
+after some time, it grows to become their more or  less  equal  partner,
+with   its  own  needs  and  logic,  but  still  understandable  by  the
+conventional wisdom of the parts - if they choose to study  and  respect
+the  laws of the new formation they found themselves in.  At this stage,
+they may choose to occupy one or another niche in the system.  They  are
+still  more or less free, counting personal balances of participation in
+different kinds of activities -  a  market  phase  of  development.   At
+further  stages,  with  new  strengths  and  runaway complexity, the new
+superorganism develops its own ideas of  progress.   Its  creators  lose
+track  of  its  development, but go on taking part in it, since now they
+are supported by the system for their loyalty - and punished for lack of
+it.  An integrated system can seldom abandon its parts, even if they are
+inefficient; rather it  provides  them  with  additional  resources  and
+attention.   So  the  competition  for  resources  and  records of local
+accounts lose their  leading  roles  to  more  complex  and  distributed
+decision-making  schemes.   Meanwhile, parts see their safety and wealth
+rapidly increase at the expense of their freedom, until none of them  is
+able  to  abandon  the  system  and  live  'in  the wild'.  This is what
+happened to our cells.  This tends to happen in totalitarian  societies,
+ There are 378 lines left (49%). Press <space> for more, or 'i' to return.
+with their overdeveloped social structures (or just well developed, from
+their own point of view), in well-integrated corporations,  in  software
+packages,  in  happy  families  and  is  gradually happening in advanced
+economies.  "The Futurist" once discussed a possibility that  technology
+can  turn  humans  into  cyborgs - creatures, 'consisting by more than a
+half of artificial parts'.  I would define a cyborg nation as  one  with
+more  than  half of its individuals artificially kept alive.  Technology
+has really made us healthier  and  better  off  -  within  the  economic
+system,  but  how  many  of  us  would  survive  if  all  of it suddenly
+disappeared?  Hardly half would be left.  And not only  because  we  are
+unprepared;  there are simply too many of us, and it is likely that more
+than 95% of us would rapidly die out in "natural" (?!) conditions -  and
+this  percentage has been increasing throughout all of the human history
+- with an obvious upper limit.
+ 
+ 
+ There are 361 lines left (51%). Press <space> for more, or 'i' to return.
+- Living Systems -                                                Page 7
+ 
+ 
+8  OUR ATTITUDE TO SUPERSYSTEMS
+ 
+     The prefix 'super' in this context means no more than  a  shorthand
+for  'upper-level'  and  reflects  our  view  on the system from inside,
+rather than from outside.  So, 'super' means just a  metaphenomenon  and
+shouldn't  be  confused  with  'superior'.   In  fact,  the  upper-level
+structure of a system can be much simpler than the  internal  structures
+of  many of its parts.  Hence, we should not be shocked that the systems
+we are in - like a scientific community, United Nations or Gaia  -  are,
+at  the  first  stages of their development, inefficient and often waste
+the precious resources they are  going  to  badly  lack  in  their  near
+future.   We  may learn what it feels to live within a primitive beast -
+or, rather, a child.   Children  are  often  inexperienced,  clumsy  and
+short-sighted - but they grow, especially when properly taught.
+ 
+ 
+ 
+9  NETWORKS AND ECOLOGIES
+ 
+     The now popular word 'network' doesn't describe a special  type  of
+ There are 339 lines left (54%). Press <space> for more, or 'i' to return.
+systems, but just means a multiplicity of relatively stable ties between
+neighbor elements, i.e.  the 'local complexity' of the system, and hints
+at presence of multiple feedbacks - a feature also present in many other
+types of structures.
+ 
+     There were free-trade networks of merchandise flow  between  tribes
+and   city-states   in  ancient  times;  later  they  were  replaced  by
+non-network,  but  much  more   complex   and   efficient   systems   of
+international  trade,  though  we  can  still  find  their  remnants  in
+grey-market structures.
+ 
+     There also are  highly  deterministic  governmental,  computer,  or
+sewage  networks that demonstrate predictable responses for known inputs
+and are different from plain tree-like hierarchies  in  complexity,  but
+not in nature.
+ 
+     And there are flexible ecological networks based on cooperation and
+commitment  (though  quite not free from conflicts), and instinctive, if
+not conscious, feeling of common destiny.  But  networking  is  not  the
+most  important  word here; a scientific community corresponding through
+one central computer is much easier to call  an  ecology  than,  say,  a
+complex early-warning defence network.  The real difference here lies in
+ There are 317 lines left (57%). Press <space> for more, or 'i' to return.
+the nature of the links rather than in their number.
+ 
+     Among different system types, biocenotic (ecological) systems  seem
+superior  in  many respects:  they combine greater freedom of parts with
+overall complexity, flexibility and stable performance within very  wide
+limits  of  tolerance.   But  all planning in an ecology is local and is
+performed by non-ecological participating entities.  And the human  mind
+seems  to  resist  the very idea of creating a [social] system it cannot
+directly control...
+ 
+ 
+ 
+10  A SCENARIO FOR FURTHER SOCIAL DEVELOPMENT
+ 
+     Most existing objects employ a  combination  of  various  structure
+types   for   performing   different  functions.   Therefore,  it  seems
+reasonable to build the classification of structures on the analysis  of
+system functions, rather than objects themselves.
+ 
+ 
+ There are 296 lines left (60%). Press <space> for more, or 'i' to return.
+- Living Systems -                                                Page 8
+ 
+ 
+     Let us consider three  basic  types  of  system  functions  on  the
+examples of social and biological structures:
+ 
+========================================================================
+| Feature \ Function| Life support |  Regulation |    Development      |
+|===================|==============|=============|=====================|
+| Social structures | Market system| Institutions| Community           |
+|-------------------|--------------|-------------|---------------------|
+| Biological systems| Free colony  | Organisms   | Symbiosis to ecology|
+|-------------------|--------------|-------------|---------------------|
+| Control methods   | Facilitation | Direct      | Participation       |
+|                   |              | interference|                     |
+|-------------------|--------------|-------------|---------------------|
+| Oscillation       | Smooth,      | Cubistic,   | Slight intricate    |
+|   patterns        |  wave-like   | very regular| oscillations (within|
+|                   |              | cycles      | limits of tolerance)|
+|-------------------|--------------|-------------|---------------------|
+| Phase portraits   | Periodic     | Quasi-linear| Chaotic attractors  |
+|                   |  attractors  | shapes      |                     |
+========================================================================
+ There are 274 lines left (63%). Press <space> for more, or 'i' to return.
+ 
+     Let us try to assess future social roles of these  three  types  of
+functions:
+ 
+     -- traditional life-support, such as local trade and  services,  is
+likely  to  be  provided by good old market forces well into foreseeable
+future, and institutional and technological influence is not  likely  to
+translate into any drastic structural change in this sphere.
+ 
+     -- regulatory functions will  be  carried  out  by  the  developing
+network  of  institutional  hierarchies  - with some structural changes,
+especially on the global level; here we  should  beware  of  cancer-like
+growth  of  simple  centralized structures, despite of anti-totalitarian
+shots timely made by History into some parts of  the  developing  global
+social  organism  (I  mean painful socialist experiments in the East) to
+make the rest of  it  more  resistant  to  evilly  attractive  ideas  of
+centralization.
+ 
+     -- structural social and technological changes - the essence of the
+coming  age - will be provided by more and more biocenosis-like systems;
+hence, we can expect corresponding changes in phase portraits,  such  as
+economic  cycles.  The innovations have never appeared in the society by
+ There are 252 lines left (66%). Press <space> for more, or 'i' to return.
+means of direct orders or  free  exchange,  that  can  only  take  care,
+respectively,  of  allocation  of  necessary resources and spreading the
+novelty.  With innovations becoming the core of the social life we  will
+see  increasing  role  of  non-market  and  non-governmental groups with
+common interests and knowledge in various special areas.   We  can  also
+expect  that  economic  (=  monocriterial)  considerations will continue
+losing their indicative and guiding roles.
+ 
+     In the evolution of any system, new parts appear to better  reflect
+existing (and planned) functions; ideally, the system's structure should
+reflect its  functions;  we  can  observe  that  functions  are  getting
+incorporated  into  new structural entities:  separation of flowers from
+leaves;  arts,  advertisement  and  money  from   material   production;
+information  from  its  carriers, etc.  This transition becomes possible
+after new features become ripe enough to be  acknowledged,  or  the  old
+ones  grow  complex  enough to require further structurization, or there
+appear breakthroughs in the speed and ease  of  internal  communications
+system.
+ 
+ 
+ There are 231 lines left (69%). Press <space> for more, or 'i' to return.
+- Living Systems -                                                Page 9
+ 
+ 
+     In the socio-economic sphere it means that while the walls  between
+functionally  homogeneous  entities,  until recently represented by high
+costs of material and information interchange, continue to crumble, thus
+altering the effective metrics of the social space, we will see more and
+more institutions based on similarity  of  interests  of  their  members
+rather   then   on  their  spacial  proximity,  with  the  old-fashioned
+organizations based on territorial sovereignty rights (state  and  local
+governments)  rapidly  losing their roles.  Among other things, it means
+that the readers with investments into local media might win from moving
+them into special interest editions.
+ 
+ 
+ 
+11  HABITATS FOR LIFE
+ 
+     Each of us has read  something  about  possibilities  of  non-human
+intelligence  and  'even'  non-carbon  life;  but  I  failed to find any
+interesting ideas about general conditions necessary to support life.  I
+would  brush  away  the  problem of intelligence by saying that it is an
+attribute common to all life-forms, with  differences  in  features  and
+ There are 209 lines left (72%). Press <space> for more, or 'i' to return.
+sophistication.  We can also more or less easily define such things as a
+reflective consciousness (as a feeling of a system of itself, or storage
+of  the  information on the global state of the system on a local level,
+etc.) and other attributes of intelligence in general system terms.
+ 
+     I wouldn't like to argue here about the definition of  life;  there
+is  a  number  of  them,  and  even  a  few general features that almost
+everyone seems to agree on, sound very questionable.  Thus,  growth  and
+self-replication  apply to crystals, rumors, puddles and clouds, but not
+to elderly people...  Instead, I would suggest a view that 'life'  is  a
+certain  stage  of developmental processes, and all processes inevitably
+come to (and pass) this stage provided certain basic conditions are met.
+So  let's try to discuss these conditions, see what kind of environments
+can provide them, and what changes in the conditions  can  lead  to  the
+development  of  really (i.e.  in essence, not implementation) different
+forms of life and intelligence.
+ 
+     Definition  of  terms.   In  mathematics,   a   space   -   whether
+topological, linear or other - is just a set of points with a structure;
+here let's think of a 'space' as the  basic  uniform  structure  of  the
+environment,  and  'objects' or 'entities' as [epi]structures 'immersed'
+in this space.  The readers with some understanding of  mathematics  can
+ There are 187 lines left (74%). Press <space> for more, or 'i' to return.
+derive   stricter   meaning  themselves,  and  those  without  it  won't
+understand it anyway...
+ 
+     Here are the basic 'life conditions'  -  i.e.   attributes  of  the
+environment that ensure that the development will go far enough:
+ 
+     1) Large enough living space - in terms of the number of elementary
+units.
+ 
+     2) Ability of units/elements to interact
+ 
+     3) Relative stability of structures (links between elements)  -  so
+that  new  emerging entities could survive long enough to communicate to
+others and/or give life to new forms.
+ 
+     4) Relative mobility of structures - to ensure that some change can
+occur.
+ 
+ 
+ There are 167 lines left (77%). Press <space> for more, or 'i' to return.
+- Living Systems -                                               Page  10
+ 
+ 
+     5) Long enough life time in terms of relative units of time
+ 
+     I do not claim that  this  is  a  complete  set  of  necessary  and
+sufficient  conditions  for  life  development  (which  doesn't  mean it
+isn't), and they are not even strictly defined here, but this is already
+enough to present one more system table, and draw certain conclusions.
+--------------------------------------------------------------------
+| Space     |   elements  |  size   |stability| mobility  |  time  |
+|-----------+-------------+---------+---------+-----------+--------|
+| planetary | Atoms       | 10*40?  | Good    | fair      | excel. |
+| surface   | (C,O,H,etc.)|         |         |           |        |
+|-----------+-------------+---------+---------+-----------+--------|
+| planetary | Atoms       | 10*60?  | Fair    | fair      | excel. |
+| body      | (Si,O,etc.) |         |         |           |        |
+|-----------+-------------+---------+---------+-----------+--------|
+| Universe  | Galaxies    | 10**11  | Poor    | Good      |  Bad   |
+|-----------+-------------+---------+---------+-----------+--------|
+| Universe  | Vacuum      | Perfect |  ?      |   ?       | Perfect|
+|           |Fluctuations | 10**200 |         |           |        |
+|-----------+-------------+---------+---------+-----------+--------|
+ There are 145 lines left (80%). Press <space> for more, or 'i' to return.
+| science   | bits / memes| Fair    |  Good   | Good      | Good   |
+|           |     /ideas  | 10*20 ? |         |           |        |
+|-----------+-------------+---------+---------+-----------+--------|
+| Star      |  plasma     | Good    |  Fair   | Poor      | Good   |
+|           |  currents   | 10**40? |         |           |        |
+|-----------+-------------+---------+---------+-----------+--------|
+| Sea       | Waves       | Fair    |  No     | ---       | Good   |
+|           |             | 10**20  |         |           |        |
+--------------------------------------------------------------------
+ 
+     The space structure and interaction details have a strong influence
+on  all  structures  living  in the given environment; let's just sketch
+some differences that can arise in other environments:
+ 
+     - if the space allows teleportation, we can expect  to  see  bodies
+consisting  of  physically  unconnected  parts,  more  ethical societies
+(since otherwise they would be simply  killed  by  the  omnipresent  and
+uncatchable  crime), impossibility of totalitarianism (which is strongly
+dependent on the ability of the government to  keep  the  citizens  from
+getting  out  of  its  control  area),  absence  of cities and other big
+clusters of population (all places are equally  close  to  each  other),
+etc.
+ There are 123 lines left (83%). Press <space> for more, or 'i' to return.
+ 
+     We can also note that all our  bodies,  social  organizations,  and
+even  concept  structures reflect the structure of the space we live in;
+research shows that the average number of parts in a whole in all  human
+classifications  is  very close to number pi, which seems to reflect the
+relations of proximity of different parts of the human brain, as well as
+individual neurons, living in the Cartesian space.
+ 
+     Here it is probably time to note that spaces in  which  many  other
+structures  reside,  are  effectively  non-Cartesian.   For example, the
+computer memory space is essentially a discrete set of  points,  and  it
+takes  [approximately]  the same amount of time to get from one [memory]
+location to another.
+ 
+     The success of transportation and communication systems is based on
+their  changing  the  effective  metrics  of  social  space;  originally
+designed to shorten the distances between the [participants], they often
+entirely change the structure of the space they operate in; for example,
+effective structures of telecommunications networks (with time and  ease
+ 
+ 
+ There are 101 lines left (86%). Press <space> for more, or 'i' to return.
+- Living Systems -                                               Page 11
+ 
+ 
+of  access  as  measures  of distance) are essentially discrete, and not
+only our regular notions of distance and dimensionality  are  irrelevant
+here,   but  the  whole  telecommunications  service  industry  operates
+according to new laws:  there are no local monopolies, at least within a
+calling  area,  there  is no need to put the communications equipment on
+the cross-roads (or even keep it visible in  the  physical  world);  the
+market niches are purely functional, without territorial considerations;
+there is no  such  thing  here  as  differential  rent;  the  number  of
+competing  services  is  different  from  one in regular 3-D businesses,
+which  affects  the  degree   of   monopolization   in   the   industry,
+decision-making processes, business cycles, etc.
+ 
+     One of the major reasons of transition from  decision-making  based
+on  participatory  democracy  to  representation  schemes and multilevel
+bureaucracies (I mean for discussing/solving  major  national  problems,
+that  seem  to  be within everybody's scope of interests and competence;
+this transition is  still  necessary  in  other  cases  because  of  the
+structural  reasons)  is  the limitations of Cartesian space that do not
+allow sufficiently large assemblies of citizens - namely,  inability  of
+two  objects to occupy a single space, problems with putting many enough
+ There are 79 lines left (89%). Press <space> for more, or 'i' to return.
+objects within a short distance from each other, and travel  expenses  -
+and  these  limitations  simply  do  not  exist  in  many  other spatial
+structures.
+ 
+     Most of our concept structure  is  based  on  our  3-D  notions  of
+localities,  distances, shapes and appearances (we seem to spend most of
+our time caring about the surface looks of our  bodies,  and  trying  to
+arrange  all  objects in the Universe so that their spacial proximity to
+our bodies is in reverse proportion  to  their  qualities),  and  a  few
+additional  features  of our physical world, such as speeds and weights,
+and there seem to be  few  people  and  concepts  that  ever  leave  the
+limitations  of  the  Cartesian  space, or generalize enough to make any
+sense  outside  our  particular  spacial  implementation  of  functional
+structures.
+ 
+     ....  [TO BE COMPLETED] ...
+ 
+ 
+ 
+12  IMPLICATIONS OF THE LIVING SYSTEMS VIEW
+ 
+     Suppose we can  really  look  at  many  complex  things  as  living
+ There are 57 lines left (92%). Press <space> for more, or 'i' to return.
+entities; but what difference does it make?
+ 
+     First, it attempts to present  a  common  basis  for  holistic  and
+rational paradigms; we might call it 'demystified holism'.
+ 
+     Second, it seems to be a platform for building a kind of transhuman
+ethics, based on feelings and behaviour, but not external appearance.
+ 
+     Third, we can try to formulate some generic methods for  contacting
+other living - and thinking - entities.
+ 
+ 
+ 
+13  CONTACTS OF A DIFFERENT KIND
+ 
+     Let us try to guess what other complex entities could do when  they
+at last develop some real intelligence and attempt to openly contact us,
+humans.  A good idea would  be  to  start  with  a  message  carrying  a
+manifest of their conscious life.  The only way of making such a message
+ 
+ 
+ There are 35 lines left (95%). Press <space> for more, or 'i' to return.
+- Living Systems -                                               Page 12
+ 
+ 
+understandable to us would be to pass it through our regular information
+media,  like  TV  channels  or this article.  And, as always, all of the
+agencies employed in  carrying  this  message  -  philosophy,  language,
+society,  the  human  author,  his neurons, word processor, U.S.  Postal
+Service and others - perceive it as belonging to them.  The question  is
+how  many  of  them  are  [or  will  soon  be] developed enough to do it
+consciously?
+ 
+     While writing this text, I had a queer sensation of someone guiding
+my hand.  Could it be one of them?  Or someone else?..
+ 
+ 
+ 
+14  SEEDS FOR THOUGHT
+ 
+     - How do we teach other systems:  by  training  and  testing  them;
+just  as  we  do  with  children, with our own cells and organs (morning
+exercises), with parts of our minds (lessons and tests), with computers,
+sports  teams,  military  divisions,  etc.   - by giving them relatively
+small but structurally important tasks.  All  these  spheres  can  share
+ There are 13 lines left (98%). Press <space> for more, or 'i' to return.
+their experience.  - Can we teach UN using cognitive psychology?
+ 
+     -  An  analogy  between  social/scientific  development  and  yoga:
+trying to bring consciousness into every cell of the body
+ 
+     - The ultimate goal of evolution:  God - through integration of all
+systems  from  quantum  to  cosmic  scale  and  harmonization  of  their
+relations?  And how do we know when it is (or  whether  is  has  already
+been) achieved?
+ 
+ 
+
+
+ Command ('i' to return to index):

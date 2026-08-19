@@ -1,0 +1,991 @@
+From extropians-request@extropy.org Wed Jul 13 03:02:12 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id DAA21459 for <more@chaph.usc.edu>; Wed, 13 Jul 1994 03:02:11 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA28779; Wed, 13 Jul 94 03:02:02 PDT
+Received: by news.panix.com id AA19648
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 13 Jul 1994 06:01:53 -0400
+Date: Wed, 13 Jul 1994 06:01:53 -0400
+Message-Id: <199407131001.AA19648@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-7-111 - #94-7-111
+X-Extropian-Date: July 13, 374 P.N.O. [06:01:18 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Wed, 13 Jul 94             Volume 94 : Issue 193
+
+Today's Topics:
+                                 FWD: Netbank                         [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 37670 bytes.
+
+----------------------------------------------------------------------
+
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Date: Wed, 13 Jul 1994 02:59:40 -0400
+Subject: [#94-7-111] FWD: Netbank
+
+                          Software Agents, Inc.
+                       NetBank Information System
+                       --------------------------
+
+Thank you for requesting information from the NetBank automated 
+information system.
+
+To receive information on any of the topics below, please send a message
+to "netbank-info@agents.com" with the appropriate keywords included in the 
+message.  When requesting information on more than one topic, please 
+separate the keywords with a space.
+
+
+    Keyword                          Topic
+    -------                          -----
+
+  netbank-intro       Introduction to the NetBank system
+
+  netbank-commands    Description of the NetBank transaction commands
+
+  buying-netcash      Obtaining NetCash by calling a 900-number
+
+  netbank-merchant    Opening a NetBank Merchant account
+
+  shareware-info      Using the NetBank to collect shareware fees
+
+  netbank-encryption  How to encrypt your NetCash transactions
+
+  netbank-faq         Answers to frequently asked questions
+
+
+Thanks again for your interest in the NetBank.
+
+----------------------------------------------------------------------
+
+
+
+
+
+Welcome to the NetBank -- The First National Bank of CyberSpace
+
+Introduction to the NetBank
+
+The NetBank is an electronic payment system for merchants on the 
+information superhighway. It is based on "payment coupons" that may be 
+traded via electronic mail.  Information Providers and other on-line 
+merchants may operate their businesses completely via e-mail. Merchants 
+may receive payments and deliver information services electronically.  
+The payment coupons are called "NetCash coupons" or NetCash for short. A 
+detailed discussion of NetCash appears below.
+
+Business Opportunities
+
+By using the NetBank, it is possible for virtually anyone to start an 
+"E-Mail Order" business; that is, a business that distributes 
+information services to its customers and collects payments from its 
+customers entirely using electronic mail.
+
+Anyone with a personal computer and access to e-mail may operate their 
+own information service.  Millions of people use electronic mail, and 
+many of these people prefer receiving information via e-mail over other 
+forms of distribution.  Electronic magazines and newspapers are easily 
+distributed by e-mail. Personalized financial data or other types of 
+specialized information may be delivered to the customer via e-mail.  
+Customers pay for the information by sending NetCash coupons to the 
+information provider via electronic mail.
+
+NetCash Philosophy
+
+The use of NetCash can be compared to using any foreign currency. For 
+example, when you travel to a foreign country, you obtain the local 
+currency to make your purchases.  When we travel the autobahn in 
+Germany, we carry Deutsche marks; when we travel the Infobahn, we carry 
+NetCash.
+
+When we return home, we usually cash-in our foreign currency.  And, we 
+loose a little money in the process due to the exchange rate spread.  
+With NetCash, we can avoid this problem by not immediately cashing-in 
+the NetCash when we receive it.  Instead, we should keep a few NetCash 
+coupons in our pockets to spend later.
+
+This is similar to what folks who live near a national border might do. 
+If they frequently cross the border, they might always want some local 
+currency in their pocket.
+
+For those of us who frequently cross the border into CyberSpace, keeping 
+a little NetCash in our pockets makes sense.
+
+Obtaining NetCash
+
+NetCash is quickly and easily obtained by using a personal computer and 
+a modem.  NetCash coupons are distributed electronically via a nation-
+wide "pay-per-call" 900-number. This provides a convenient way for 
+customers to charge a variety of information services directly to their 
+monthly telephone bill.
+
+NetCash Details
+
+This is a NetCash coupon that represents a ten dollar bill:
+
+        NetCash $ 10.00 E1234H5678W
+
+The coupon consists of three parts: the NetCash keyword, the dollar 
+amount, and the serial number.  All three parts are required when using 
+the NetCash coupon for payment. 
+
+A NetCash coupon should be protected as you would protect real money.  
+Do not give it away or leave it where someone else could find it. The 
+holder of the NetCash is responsible for its safety. NetCash should be 
+kept private until it is being spent.
+
+Spending NetCash
+
+To make a purchase, simply give the NetCash to a merchant in exchange 
+for goods or services.  The coupons may be giving to a merchant via e-
+mail.  After you give the coupon to a merchant, it is no longer yours.  
+You can only spend a NetCash coupon once.
+
+Accepting NetCash
+
+The merchant will accept the NetCash by sending the following 
+transaction to the NetBank via e-mail:
+
+        NetCash $ 10.00 E1234H5678W /Accept
+
+The NetBank will validate the transaction by confirming that the NetCash 
+is valid. If it is valid, the NetBank will record that this coupon has 
+been spent and disallow its use again.  Next, the NetBank will issue a 
+new NetCash coupon to the merchant and send it back in a NetBank 
+receipt.  The NetBank does not charge for transactions processing; there 
+are no fees incurred by trading NetCash.
+
+The merchant will receive a new coupon which he must keep private until 
+he is ready to spend it:
+
+        NetCash $ 10.00 E2345W6789W
+
+The NetBank receipt contains the transaction status on the subject line 
+of the e-mail message.  This way the merchant knows if the NetCash was 
+valid without displaying the new NetCash in the body of the message.
+
+Cashing-In NetCash
+
+NetCash is easily converted back to real money by the NetBank. Anyone 
+may cash-in NetCash coupons.  To do so, they must open a NetBank 
+Merchant account.  NetBank Merchants request reimbursement by depositing 
+NetCash coupons into their accounts.  By using e-mail, the merchant 
+deposits the NetCash they wish to cash-in.  Monthly checks are mailed to 
+merchants based on the amount of NetCash deposited to their accounts.
+The cost of distributing the NetCash coupons to the customer is deducted 
+when the NetCash is converted back to real money. 
+
+For information on related topics, please send e-mail to "netbank-info@
+agents.com" with the following keyword(s) in the subject:
+
+    Keyword                         Topic
+
+  netbank-commands   Description of the NetBank transaction commands
+
+  buying-netcash     Obtaining NetCash by calling a 900-number
+
+  netbank-merchant   Opening a NetBank Merchant account
+
+  shareware-info     Using the NetBank to collect shareware fees
+
+
+netbank-intro
+Copyright (c) 1994, Software Agents, Inc.
+
+
+----------------------------------------------------------------------
+
+NetBank Transaction Commands
+
+NetBank Transactions are specified by appending a slash (/) and a 
+transaction command to the end of a NetCash coupon.  The NetBank is 
+capable of processing the following transaction commands:  the accept 
+command, the change command, and the deposit command.
+
+
+Accept Command
+
+Whenever NetCash changes hands, a transaction is sent to the NetBank via 
+e-mail.  For example, when a merchant receives payment in NetCash, they 
+send an "accept" transaction to the NetBank to "take" ownership of the 
+NetCash coupon.  The transaction is necessary to confirm the validity of 
+the coupon and to issue a new, private NetCash coupon to the new owner.  
+The old coupon is voided and may not be spent again.
+
+Example transaction:
+
+     NetCash $ 10.00 E1234H5678W /Accept
+
+
+Change Command
+
+This transaction is used to exchange NetCash coupons for coupons of 
+different denominations. NetCash coupons may have the following 
+denominations: quarters, ones, fives, tens, and twenties.
+
+Example transaction:
+
+     NetCash $ 10.00 E1234H5678W /Change 2 fives
+
+would return two new coupons, each worth five dollars.
+
+other examples:
+     NetCash $ 10.00 E1234H5678W /Change 10 ones
+     NetCash $ 10.00 E1234H5678W /Change 1 five 4 ones 4 quarters
+     NetCash $ 10.00 E1234H5678W /Change 9 ones 4 quarters
+
+Change transactions may also be abbreviated. For example:
+
+     NetCash $ 10.00 E1234H5678W /Change 1 one
+
+would indeed return a one dollar NetCash coupon, but it would also return 
+the minimum number of coupons necessary to account for the remaining nine 
+dollars. This transaction returns the same change as:
+
+     NetCash $ 10.00 E1234H5678W /Change 1 five 5 ones
+
+
+Deposit Command
+
+This transaction is only used by NetBank Merchants.  A NetBank Merchant 
+is anyone who is interested in converting NetCash back to real money.  
+Every merchant has a NetBank account they may deposit NetCash into.  
+This transaction performs the same validation as the accept command.  
+Instead of issuing a new NetCash coupon, the NetCash is deposited into 
+the specified account.  In the following example, the account number is 
+123456.
+
+     NetCash $ 10.00 E1234H5678W /Deposit 123456
+
+Using the NetBank
+
+All transactions are sent to the NetBank via e-mail.  All customers and 
+merchants may use the NetBank to manipulate their NetCash.
+
+Customers use the NetBank primarily to make change.  When a customer 
+wants to buy information from a merchant, he should give the merchant 
+"exact change".  Many merchants charge only one or two dollars for their 
+services.  And an electronic daily newspaper might cost only 25 cents.  
+Most customers will need NetCash coupons in the smaller denominations.
+
+Merchants, of course, may also be customers.  In addition to making the 
+same types of transactions as customers, merchants will deposit NetCash 
+into their NetBank accounts.
+
+E-Mail Messages
+
+All NetBank transactions should be addressed to: netbank@agents.com.  The 
+transaction may be placed in the subject of the message or in the body.  
+Multiple transactions may be included in a single message to the NetBank. 
+When specifying multiple transactions, it is recommended that the 
+transactions be placed in the body of the message.  Each line of the 
+message must contain a single transaction.  Transactions begin with the 
+keyword "NetCash."
+
+
+
+netbank-commands
+Copyright (c) 1994, Software Agents, Inc.
+
+----------------------------------------------------------------------
+
+NetCash Distribution Service
+
+NetCash is distributed via a nationwide "pay-per-call" 900-number.  
+Customers must call the NetCash distribution service via a computer and 
+modem.  When a customer makes the call, they will receive a $10.00 NetCash 
+coupon, and a charge of $10.00 will be billed to their monthly telephone 
+bill.  The NetCash coupon is accepted by all NetBank Merchants. 
+
+If a customer wishes to pay a merchant more than $10.00, they must make 
+multiple calls to the 900-number.  Each call to the 900-number distributes 
+a single $10.00 dollar coupon.  If the customer wishes to pay a merchant 
+less than $10.00, they must request change from the NetBank as described in 
+the "NetBank Transaction Commands" document.
+
+Below is the 900-number and the standard usage restrictions:
+
+     NetCash coupons by telephone:
+     900-933-CASH  $10.00 per call.
+     Personal computer and modem required.
+     Must be 18 years or older or have parental permission.
+     Service provided by Software Agents, Inc.
+
+The recommended modem settings are 8-N-1, 1200/2400/9600 bps.
+
+When a customer calls this number, they will be asked to confirm their
+understanding that the cost of the NetCash will be charged to their 
+telephone bill.  The customer will be given 5 seconds to type a "C" to 
+complete the call. If they don't type a "C" within 5 seconds, they will be
+disconnected (without charge).
+
+NetBank Merchants should explain to their customers how to obtain and use 
+NetCash coupons.
+
+If you have any questions regarding buying NetCash, please send your 
+questions to our Help Desk (help@agents.com).
+
+----------------------------------------------------------------------
+
+NetBank Merchant Account
+
+The following information is needed to open a NetBank Merchant Account.  
+Please complete this form and e-mail it to: merchants@agents.com.
+
+                    Merchant Information Form
+
+Merchant Name:________________________________________________
+
+Street Address:_______________________________________________
+
+City/State/Zip:_______________________________________________
+
+SSN or Tax ID:________________________________________________
+
+Phone/FAX:____________________________________________________
+
+E-Mail Address:_______________________________________________
+
+Are you using Privacy Enhanced Mail?____ If so, please specify:
+
+______________________________________________________________
+
+A merchant account will be created within 24 hours of receiving the 
+completed merchant information form.  The account number will be sent to 
+the e-mail address specified on the form.
+
+                          NetBank Payment System
+
+Description of Service
+
+The NetBank Payment System ("NetBank") is a service provided by Software 
+Agents, Inc. ("Software Agents").  The service provides an automated 
+payment collection system for on-line information providers 
+("Merchants"). The Merchant named on this agreement may direct anyone 
+wishing to pay for their services ("Customer") to obtain a payment 
+coupon ("NetCash") by calling the NetBank 900-number. Customers must 
+place the call to the NetBank from their computer and modem.  The 
+Merchant agrees to accept valid NetCash payment coupons from the 
+Customer as payment.
+
+
+Billing and Payment Process
+
+1. The Customer calls the NetBank 900-number from their computer and 
+   modem.  The Customer is issued a $10.00 NetCash coupon and their 
+   telephone bill is charged $10.00.  This NetCash coupon may be 
+   spent immediately, or held by the Customer for future use.  
+
+2. The Customer pays the 900-number "pay-per-call" charges to their local 
+   telephone company.  Software Agents receives payment from the 900-number 
+   service provider via the Customer's telephone company.
+
+3. The Merchant accepts NetCash coupons from the Customer in return for 
+   providing services to the Customer.  The Merchant may hold the NetCash, 
+   spend the NetCash, or request reimbursement of the NetCash from 
+   Software Agents. 
+
+4. The Merchant requests reimbursement by depositing the NetCash coupons 
+   into their NetBank account.  All valid NetCash coupons are immediately 
+   eligible for payment. 
+
+
+Payment
+
+Software Agents will distribute payment to the Merchant on a monthly 
+payment cycle.  All deposits made by the Merchant on or before the 
+last day of the month will be included in the current payment cycle.  
+Software Agents will distribute payment to the Merchant within 3 business 
+days of the last day of the payment cycle.  Payment due the Merchant is 
+equal to the total of all NetCash coupons deposited during the payment 
+cycle, less a service charge equal to 20 percent of the total deposited. 
+
+
+Advertisements
+
+The Merchant agrees to follow all procedures regarding the use of the 
+NetBank's 900-number in their advertisements.  These procedures include 
+but are not limited to the following:
+
+1. When advertising the use of the NetBank, the ad must state the 
+   customer's cost for calling the NetBank.  The customer's cost is 
+   $10.00 per call.
+2. It must mention that any customer under the age of 18 must have 
+   parental permission to call the NetBank.  
+3. The charges and restrictions must be displayed at the same time and 
+   for the same duration as the 900-number.
+
+
+Term of the Agreement
+
+This Merchant Agreement shall remain in force until a cancellation 
+notice is received in writing by either Software Agents or the Merchant.  
+Software Agents reserves the right to terminate this agreement without 
+cause upon notification to the Merchant.
+
+
+
+netbank-merchant
+Copyright (c) 1994, Software Agents, Inc.
+
+----------------------------------------------------------------------
+
+Selling Software as Shareware
+
+The shareware system is among the least expensive channels to distribute 
+computer software.  By encouraging computer users to download shareware 
+from on-line services and distribute copies to their friends, the 
+shareware author can easily reach an enormous audience without incurring 
+large software distribution costs.
+
+Getting the users to pay the shareware fees, however, has proven to be 
+more difficult.  To persuade users to register the shareware, authors are 
+willing to accept very low fees; usually in the $10 to $20 range.  Most 
+active users of a shareware program feel its price is very reasonable.
+
+Still, many user don't pay the shareware fee simply because they don't 
+want to take the time to:
+1. Write a check,
+2. Fill out a registration form,
+3. Address an envelope, and
+4. Mail it.
+
+If this process was simplified, many more users would register the 
+shareware.
+
+One way to simplify the process is to use an electronic payment system 
+that allows users to pay the shareware fees by e-mail.  The system, 
+called the NetBank, uses electronic payment coupons that may be exchanged 
+via e-mail.
+
+If you have not already read the detailed description of the NetBank, 
+it may be requested by sending e-mail to: netbank-info@agents.com, 
+as described at the end of this document.
+
+Summary of the NetBank System:
+
+The NetBank system is an on-line transaction system that provides a 
+global exchange mechanism for electronic payment coupons.  The payment 
+coupons, called NetCash, are initially bought from a nationwide 
+distribution service, then traded electronically using e-mail.  NetCash 
+coupons may be spent by anyone, and anyone with access to e-mail may 
+accept them as payment.
+
+Users buy NetCash coupons by calling a nationwide "pay-per-call" 
+900-number.  The use of a 900-number was chosen because it is fast and 
+convenient, and, unlike credit cards, it is available to all telephone/
+modem users.  This level of convenience encourages people to use 
+NetCash to pay for shareware and other information services.
+
+Once a user has a NetCash coupon, they may spend it by sending it via 
+e-mail.  Anyone may accept NetCash, and anyone may "cash it in". The 
+charges incurred to distribute the NetCash are deducted when the NetCash 
+is converted back to real money.
+
+The simplicity of the system, and the ability to pay for shareware 
+electronically, appeals to many computer users.  Both the shareware user 
+and the shareware author benefit from this system.
+
+For information on related topics, please send e-mail to "netbank-info@
+agents.com" with the following keyword(s) in the subject:
+
+    Keyword                          Topic
+
+  netbank-intro      Introduction to the NetBank system
+
+  netbank-commands   Description of the NetBank transaction commands
+
+  buying-netcash     Obtaining NetCash by calling a 900-number
+
+  netbank-merchant   Opening a NetBank Merchant account
+
+
+shareware-info
+Copyright (c) 1994, Software Agents, Inc.
+
+
+----------------------------------------------------------------------
+
+Encryption
+
+NetBank users may access the NetBank from any e-mail address on the
+Internet. Since most e-mail users are not using encryption, the NetBank is
+designed to respond to un-encrypted (plaintext) messages.  While this
+technique is convenient, it suffers from the same problem as sending cash
+via the U.S. Postal System.  If, during transit, someone comes in contact
+with the cash, they have an opportunity to "steal" it.
+
+Since the ownership of NetCash is based on the knowledge of the unique
+serial number embedded in it, anyone who sees this number may spend the
+NetCash.  To eliminate this problem, it is strongly recommended that all
+NetBank e-mail messages be encrypted.
+
+
+"Privacy Enhanced Mail" and "Pretty Good Privacy"
+
+Support for several encryption technologies will be available at the
+NetBank in the near future.  This will include support for a "public key"
+encryption standard.  Users with a preference of PEM-compliant verses PGP
+style should state their preference.  Please send comments to:
+encryption@agents.com.
+
+We are currently developing tools to allow the NetBank to use PEM and PGP. 
+We will announce support for PEM and/or PGP as soon as it is available.  We
+feel it is vital for the NetBank to support PEM and/or PGP.  And, once
+people start using public key encryption for all of their e-mail
+correspondence, no additional "processing" of NetBank messages will be
+necessary.
+
+
+Simple Encryption
+
+In the mean time, a simple encryption technique may be used to "disguise"
+the NetCash embedded in your mail messages.  This technique should be
+sufficient to deter casual e-mail snooping.
+
+The technique uses a simple (easy to implement) "secret key" algorithm. 
+Each user generates their own secret key and delivers it to the NetBank
+(via U.S. Mail or PGP encrypted e-mail).
+
+The encryption algorithm is based on the "Exclusive-Or" boolean operation. 
+By using the exclusive-or operation, the same processing is used to both
+encrypt and decrypt a message.  Encrypting a message that is already
+encrypted will decrypt the message (if the same key is used both times). 
+Also, this algorithm is very easy to implement, and provides good
+protection when encrypting "random" sequences of digits (as in a NetCash
+serial number).  
+
+The key consists of any sequence of ASCII characters. To provide an
+adequate level of security, the key should be at least as long as a NetCash
+"coupon" (30 or more characters).  Encryption keys consisting of random
+characters are better that words or names.  But, it's your choice. 
+
+Once the NetBank has your "secret key", you may encrypt your e-mail
+messages before you send them to the NetBank.  The NetBank will use the
+same key to encrypt the reply message before sending it to you. 
+
+You should perform the following steps on your mail messages before they
+are sent to the NetBank.
+
+1. Encrypt the message using the exclusive-or algorithm (listed below).
+2. Encode the encrypted message (using UUENCODE) so it may be sent via e-mail.
+
+Example message (plaintext):
+
+   NetCash $ 10.00 B1234H5678W /Accept
+
+Example message (encrypted and uuencoded):
+
+   begin 660 msg
+   D'2`W$20G.V5G<G1D?75S<@=E879W&G!B9'T4<FH5,"8F(C%>
+   `
+   end
+
+In this example the encryption key is the string "SECRET".  The 'begin' and
+'end' lines are used during the uudecoding process.
+
+Utility programs that UUENCODE and UUDECODE are available for most computer
+systems.
+
+The source code for the exclusive-or encryption/decryption program
+(cipher.c) is listed below.  An example UNIX command line to encrypt,
+uuencode, and mail a transaction to the NetBank is:
+
+  echo "NetCash $ 10.00 B1234H5678W /Accept" | cipher SECRETKEY |
+     uuencode msg | mail netbank@agents.com
+
+where:
+  SECRETKEY is the secret key you have sent to NetBank.
+
+
+When you receive the reply from the NetBank, you will perform the following:
+
+1. Extract the reply message from your mail system, if necessary, to allow 
+   further processing.
+2. Decode the reply message (using UUDECODE) so it may be decrypted.
+3. Decrypt the reply message using the exclusive-or algorithm.
+
+
+-------------------- cipher.c --------------------
+
+/*
+ * cipher.c -- a simple data encryption/decryption utility
+ *
+ * This program uses the exclusive-or '^' boolean operator to perform
+ * encryption and decryption.
+ * The encryption key is specified on the command line.
+ * Input is read from stdin, and output is written to stdout.
+ */
+
+#include <stdio.h>
+
+main(argc, argv)
+        int argc;
+        char *argv[];
+{
+        int ch, len;
+        long i = 0;
+
+        if ( argc != 2 ) {
+                printf ( "Usage: %s <key>\n", argv[0] );
+                exit(1);
+        };
+
+        len = strlen( argv[1] );
+
+        while ( (ch = getchar() ) != EOF ) {
+                putchar( ch ^ argv[1][i++ % len] );
+        }
+}
+
+--------------------------------------------------
+
+If you are interested in using this simple encryption technique, please
+generate a "secret key" for the NetBank to use when processing your e-mail
+messages (transactions).  Once the NetBank has your secret key, you will
+receive a confirmation message (encrypted and uuencoded).  Make sure you
+can decode/decrypt this message before you start sending encrypted
+transactions to the NetBank.
+
+Send your secret key to:
+
+   Software Agents, Inc.
+   ATTN: Key Master
+   P.O. Box 541
+   Germantown, MD 20875
+
+Or, if you are using PGP, send to:
+
+   keymaster@agents.com
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: 2.6
+
+mQCPAi4HqBYAAAEEAK31vp5ejJrdf1c8ITyON7JEnN4lf9jJG0BUeSZ4VbPNzmZh
+/lEN8vOq4dccYBWIysCduAjpmIrmoZPZ+Qxgv/6ggLeqeaLcUMCPF/gAWCnkcU91
+mHjUQf31ThNvpdy3aUPuxNTse9gG/NsDTtmwrM4plPopWfhhoIa+l3Ungr3lABEB
+AAG0IUtleSBNYXN0ZXIgPGtleW1hc3RlckBhZ2VudHMuY29tPokAlQIFEC4IO3aG
+vpd1J4K95QEBhsgD/22S8NG32vhtXfC+XXVke0AwsDl3/QsrsWn/hLapk6qaAIWr
+CFaDVBY9neWo6A9lD13YbBQ7xDnrZaS+VE4ZgXGppZGYuf7rwKwDgA68mgjRqXGo
+Sy57v1IeOVdatgJvjAU95XBU+cfCG8pdmHAM9JbKvu9xx5F2J2OlzE1EHO9w
+=qtfu
+-----END PGP PUBLIC KEY BLOCK-----
+
+
+netbank-encryption
+Copyright (c) 1994, Software Agents, Inc.
+
+
+----------------------------------------------------------------------
+
+The NetBank -- Frequently Asked Questions                     (Version 1.0)
+
+This FAQ is maintained by Software Agents, Inc.  If you have any questions
+or comments, please send them to our help desk (help@agents.com).
+
+In addition to this FAQ, there are some intro docs on the NetBank you might
+find helpful.  To have a document mailed to you, please send a message to
+"netbank-info@agents.com" with the appropriate keyword included in the
+message. When requesting information on more than one document, please
+separate the keywords with a space.
+
+    Keyword                          Document
+ 
+  netbank-intro       Introduction to the NetBank system
+  netbank-commands    Description of the NetBank transaction commands
+  buying-netcash      Obtaining NetCash by calling a 900-number
+  netbank-merchant    Opening a NetBank Merchant account
+  shareware-info      Using the NetBank to collect shareware fees
+  netbank-encryption  How to encrypt your NetCash transactions
+  netbank-faq         Frequently Asked Questions (this document)
+
+
+Questions
+
+ 1. What is the NetBank, and what will it do for me?
+ 2. How you I get NetCash?
+ 3. Will my NetCash coupons be accepted by everyone?
+ 4. How do I make a purchase using NetCash?
+ 5. What is the maximum dollar amount that may be traded with NetCash?
+ 6. What NetCash denominations are available, and how do I make "change"?
+ 7. How do I cash-in my NetCash coupons?
+ 8. What is a NetBank Merchant?
+ 9. Do I pay a service charge every time I spend or accept NetCash?
+10. What about someone guessing a NetCash serial number and spending MY cash?
+
+
+Answers
+
+1. What is the NetBank, and what will it do for me?
+
+The NetBank is an electronic payment system that allows you to buy and sell
+"information products" via electronic mail.  The system uses electronic
+payment coupons (NetCash) that are exchanged for goods and services using
+e-mail.  For example, you can easily pay a shareware software author by
+sending him NetCash in an e-mail message.  And the shareware author can
+immediately send you the latest version of his software.  There are, of
+course, many other uses for NetCash.
+
+If this interests you, please read the "netbank-intro" and
+"netbank-commands" documents described above.  They will answer many
+questions that are not in this FAQ.
+
+If you are NOT interested in an electronic payment system, you need not
+read any further.
+
+
+2. How you I get NetCash?
+
+The first step in using the NetBank system is to obtain some NetCash. 
+There are two ways to get NetCash.  The first way applies if you are
+selling a product or service on-line; you simply accept NetCash from your
+customers as payment.  The NetCash you accept from your customers may be
+cashed-in or spent on other products or services.  The second way to get
+NetCash is to buy it.
+  
+You may buy NetCash using the on-line distribution service, or by prepaying
+with a check or money order.
+
+On-line Distribution Service  
+
+NetCash may be bought by calling a "pay-per-call" 900-number.  You must use
+your computer and modem to make the call.  Your modem should be set to
+8-N-1, and at a speed between 1200 and 9600 bps.  Once the connections is
+established, you will be prompted to type a "C" to complete the call.  This
+is how you confirm your understanding that the cost of the NetCash will be
+charged to your telephone bill.  You should do so rather quickly; if you
+don't type a "C" within 5 seconds, you will be disconnected (without
+charge, of course).
+
+If you type a "C", you will be issued a $10 NetCash coupon, and your phone
+bill will be charged $10.
+
+Your NetCash will look something like this:
+
+        NetCash $ 10.00 E1234H5678W
+
+Each call to the NetBank issues a single NetCash coupon.  If you need more
+than $10.00 you will need to make multiple calls to the 900-number.  Below
+is the 900-number and the standard usage restrictions:
+
+        NetCash coupons by telephone:
+        900-933-CASH  $10.00 per call.
+        Personal computer and modem required.
+        Must be 18 years or older or have parental permission.
+        Service provided by Software Agents, Inc.
+
+Prepaid Discount Service
+
+Instead of charging NetCash to your telephone bill, you may prepay for
+NetCash by sending a check in the mail.  You will receive a 10% discount
+off the cost of the NetCash.  To buy NetCash by mail, send a check or money
+order to:
+
+        Software Agents, Inc.
+        NetCash Distribution Center
+        P.O.Box 541
+        Germantown, MD 20875
+
+Any amount of NetCash may be purchased by mail.  Once your order is
+processed, the NetCash coupons will be sent to you via electronic mail.  Be
+sure to include your e-mail address with your order.
+
+Since NetCash is immediately spendable, the distribution center must wait
+for personal checks to clear before distributing the coupons.  To avoid the
+delay, it is recommended to use a certified check or money order.
+
+
+3. Will my NetCash coupons be accepted by everyone?
+
+No, not everyone accepts NetCash.  However, a growing number of on-line
+information services and shareware software publishers are accepting
+NetCash.  Feel free to ask on-line "merchants" if they accept NetCash for
+payment.  It is definitely easier e-mailing them a NetCash coupon, than
+sending them a check in the mail!
+
+
+4. How do I make a purchase using NetCash?
+
+Purchases are made by exchanging NetCash coupons for information products
+or services.  This process usually occurs via electronic mail, or some
+other type of on-line communications.  
+
+Okay, let's assume that you called the 900-number and have a NetCash
+coupon.  What do you do with it?  One thing you can do is spend your
+NetCash at any "merchant" that accepts NetCash.  You simply send your
+NetCash to the merchant in exchange for their services.  Before sending
+your NetCash, you must make sure that you have "exact-change".  That may
+involve requesting change from the NetBank.
+
+For example, suppose you want to buy something for $5 and all you have is
+the $10 coupon you got from the 900-number. The first thing you do is
+"change" your 'ten' for two 'fives'.  This is done by sending a mail
+message (NetCash transaction) to the NetBank.  The message should be
+addressed to: netbank@agents.com, and the following line should appear in
+the message:
+
+        NetCash $ 10.00 E1234H5678W /change 2 fives 
+
+The NetBank will send a "receipt" to you via e-mail.  This receipt will
+contain two $5 coupons. 
+ 
+        NetCash $ 5.00 E2431H7878W
+        NetCash $ 5.00 E4321J8765W
+
+Note:  When the NetBank receives your $10 coupon, it is "consumed" during
+the process of making change.  The original $10 coupon is now void, and may
+not be spent again.
+
+Okay. You now have a $5 coupon that you may use to pay whoever it is that's
+selling whatever it is your buying.  When you give your coupon to this
+person, they will accept it by sending an e-mail message to the NetBank. 
+Once they accept your coupon they have your $5, and your coupon becomes
+void.
+
+
+5. What is the maximum dollar amount that may be traded with NetCash?
+
+The NetBank system was designed mainly to support small, low cost exchanges
+of money.  The NetBank allows you to use e-mail to buy on-line information,
+or pay shareware fees for software.  These types of transactions are
+usually in the $10 to $20 dollar range.  Also, NetCash can be used to send
+25 or 50 cents to merchants who are selling electronic newsletters via
+e-mail.
+
+However, to answer the question, there currently is no maximum limit on the
+size of a NetCash transaction.  But, if you are buying something that's
+expensive, you probably don't want to pay with NetCash (or real cash, for
+that matter).
+
+
+6. What NetCash denominations are available, and how do I make "change"?
+
+NetCash is available in the following standard denominations: quarters
+($0.25), ones ($1), fives ($5), tens ($10), and twenties ($20). Two other
+denomination are available, but are rarely used.  They are fifties ($50)
+and hundreds ($100).
+
+The "change" command is used to make change.  The command is appended to a
+NetCash coupon to form a transaction.  This is explained, in detail, in the
+"netbank-commands" document.  The command consists of the keyword "change"
+followed by one or more change requests.  A change request consists of the
+requested number of coupons and the requested denomination.  The following
+transaction contains two change requests:
+
+        NetCash $ 10.00 E1234H5678W /change 1 five 5 ones
+
+You may also exchange multiple "small" denomination coupons for "larger"
+ones.  This is done by using the "accept" command.  When you accept
+multiple NetCash coupons in a single mail message, the NetBank summarizes
+the transactions and issues the minimum number of new coupons necessary. 
+For example, sending the following two transactions to the NetBank:
+
+        NetCash $ 5.00 E2431H7878W /accept
+        NetCash $ 5.00 E4321J8765W /accept
+
+will return a single coupon:
+
+        NetCash $ 10.00 E4321H5678W
+
+
+7. How do I cash-in my NetCash coupons?
+
+Cashing in a NetCash coupon is easy, but, like cashing in foreign currency
+at a real bank, there is a charge for the conversion.  That said, anyone
+may cash-in NetCash coupons.  To do so, they must open a NetBank Merchant
+account.  Once they have their account, they request reimbursement of their
+NetCash by sending a "deposit" transaction to the NetBank. For example, the
+following transaction will deposit a $5 coupon into account number 12345:
+
+        NetCash $ 5.00 E4321J8765W /deposit 12345
+
+Once a month, the NetBank totals the reimbursement requests for each
+account, and a check is sent to each merchant with a non-zero account
+balance.  The cost of distributing NetCash via the 900-number is deducted
+before each check is written. The 900 service provider deducts their fee
+(about 20 percent) before they distribute funds to the NetBank, so the
+NetBank only collects a about 80 percent of the NetCash "face value".  The
+NetBank must pass these charges to the merchant who cashes-in the NetCash. 
+There is a definite advantage to merchants spending their NetCash on other
+merchants, or selling it to their customers, instead of cashing it in at
+the NetBank.  Remember, NetCash is "traded" at full face value and with no
+transaction fees.
+
+And yes, currently an account with only 25 cents in it would get a check,
+if that's the total balance at the end of the month.  Since postage is 29
+cents, and there are bank charges to process checks, this will have to
+change in the future.  To issue a check, a minimum balance of $5 to $10
+should probably be in the account.  But for now, any non-zero balance gets
+a check.
+
+
+8. What is a NetBank Merchant?
+
+A NetBank Merchant is any person that wishes to cash-in NetCash.  Usually a
+merchant will sell an information product or service and collect NetCash
+from their customers.  If you are running a business using the NetBank, you
+will want to cash-in some of the NetCash you receive.
+
+
+9. Do I pay a service charge every time I spend or accept NetCash?
+
+No, there is no service charge to process NetCash transactions.  The
+NetBank processes transactions that allow users to accept NetCash, make
+change, and request reimbursement (deposit), all without a charge.  Since
+NetCash may be traded in very small amounts (25 cents), it is vital that
+there are no transaction fees.
+
+ 
+10. What about someone guessing a NetCash serial number and spending MY cash?
+
+We expect a few people will try to steal other people's NetCash by guessing
+their serial numbers.  To minimize this, we closely monitor all "rejected"
+NetCash transactions to detect random guessing activity. 
+
+Also, we can increase the length of the NetCash serial number to reduce the
+chance of someone guessing it.
+
+For added security, NetBank users may encrypt their NetCash transactions
+before mailing them to the NetBank.  This is described in the
+"netbank-encryption" document.
+
+
+netbank-faq
+Copyright (c) 1994, Software Agents, Inc.
+
+
+----------------------------------------------------------------------
+
+
+
+
+------------------------------
+
+End of Extropians Digest V94 #193
+*********************************
+

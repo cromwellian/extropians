@@ -1,0 +1,368 @@
+From extropians-request@extropy.org Wed Sep 21 09:02:41 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id JAA28401 for <more@chaph.usc.edu>; Wed, 21 Sep 1994 09:02:38 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA12579; Wed, 21 Sep 94 09:02:19 PDT
+Received: by news.panix.com id AA16004
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 21 Sep 1994 12:02:15 -0400
+Date: Wed, 21 Sep 1994 12:02:15 -0400
+Message-Id: <199409211602.AA16004@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-9-334 - #94-9-340
+X-Extropian-Date: September 21, 374 P.N.O. [12:01:42 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Wed, 21 Sep 94             Volume 94 : Issue 263
+
+Today's Topics:
+                              MailWeir Commands                       [1 msgs]
+                       Penrose's "Shadows of the Mind"                [2 msgs]
+                              Rheingold article                       [1 msgs]
+                      SCI: role for Q.M in neurobiology               [1 msgs]
+          URL/ANNOUNCE: Smart Drugs & Nutrients (Dean/Morgenthaler)   [1 msgs]
+                                 what's next?                         [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 28223 bytes.
+
+----------------------------------------------------------------------
+
+From: rjc@gnu.ai.mit.edu (Ray)
+Date: Tue, 20 Sep 94 23:19:24 WET DST
+Subject: [#94-9-334] SCI: role for Q.M in neurobiology
+
+Doug Cutrell writes:
+> 2) Recent research on "quantum computation" suggests that quantum mechanics
+> may simply be *qualitatively* better at solving the same sorts of problems
+> that can *also* be solved with classical computation... for example, Shor's
+> results on factoring in polynomial time with quantum computers.  This has
+> nothing to do with the issue of non-computability.
+
+   This has been known for a while and is even true of classical
+"physical computers" See A.K. Dewdney's the "Armchair Universe" and
+the chapter on analog gadgets. For instance, one can "compute"
+the complex hull of a set of points (no matter how large) in
+constant time. The way this is visualized is as follows. Draw
+the points on a piece of wood. Place nails in each point. Now,
+put a rubber band around the outside and it will quickly form
+the complex hull. The "universe" can also solve differential
+equations, cubic equations, finding the maximum path in a graph,
+etc in similar times.  (not to mention an O(1) sort of a set
+no matter how large)
+
+   The criticism of these neat tricks is, are they practical?
+Shor's quantum factoring paper is surely a tour de force in
+mathematical manipulation, the question is, can you build one of
+these suckers? The answer, given by many, is "probably not."
+While his result is theoretically interesting, in practice,
+a quantum computer would lose many of its advantages.
+
+  The implication for "quantum biology" is analogous: sure, in theory,
+quantum mechanical computers could provide a great performance
+boost for bit storage and speed, the question is, given
+the environment of cell machinery, an environment with lots of
+thermal noise, radiation, etc, will the quantum effects be
+statistically relevant? My own personal opinion, having lots of
+ignorance on the subject, is that the mechanical and chemical
+processes which go on in the brain and life swamp any potential
+signal the esoteric quantum effects could contribute. If they are
+there, they form the basis of rules of chemistry only, and thus
+they are no more relevant to consciousness than to the combustion
+in your car's engine. That is, they provide no additional benefits
+to living systems. Nature has shown itself to be a bad innovator
+when it comes to harnassing extra physical knowledge. I contend
+that evolution will choose the easiest path first. If non-conscious
+not quantum based neurology were A, and quantum based neurology were
+B, I say A is relatively easy to get to, but B is literally
+so far away that it is improbable that ordinary evolution will
+get a chance to do it before the universe goes away. For similar
+reasons, nature evolved gliders and wing based animals before
+it evolved a creature with a built in RL-10 rocket engine.
+(or, nature uses primitive electrochemical effects much earlier
+than it evolves an intergrated circuit based biology) Thus,
+we don't see many quantum transistors in nature, and I argue
+that they are "hard" for nature to develop.
+
+
+[rest deleted]
+
+  Personally, I see this as nothing more than an attempt to bring
+back vitalism. To prove via quantum hackery that "life" is more
+special and requires "the real thing" and hence can't be simulated.
+I find Penrose's arguments uncompelling and I see it as nothing more
+than an attempt to add mysticism to consciousness. Let's assume
+that quantum computation plays a part in solving difficult
+NP problems needed for life. There's nothing stopping us from
+building our own quantum computers. Upon doing this, I bet
+Penrose would come up for yet another excuse for why machines
+can't be conscious (such as his bogus Godelian arguments)
+ 
+  It's not surprising that you find a lot of crackpots latching onto
+QM computers such as Jack Sarfatti. (or even Brian Josephson)
+We have now reached a point where people are trying to use
+the EPR paradox to explain telepathy in humans, or vacuum
+polarization to explain the "soul"
+
+  BTW, I'm not saying that QM computers couldn't be of use in biology.
+Most plausible to me is the role of "analog computation"
+(either QM or classical) being used to process sensory information
+such as in the inner ear or in the layers of the retina. However,
+I don't think this generalizes, just as I don't think the brain
+is completely connectionist or completely symbol manipulative.
+I think the brain is a hodge podge of several techniques 
+compiled over tens of millions of years of evolution. Connectionism
+in the older brain for our good processing of environmental information,
+but symbol heuristics for language and other high order thought
+processes (goals, beliefs, rational thought, etc. even if this
+is built on top of a connectionist substrate).
+
+   Anyway, even if quantum computation is used by the brain for
+"consciousness", this doesn't help Penrose's thesis. A classical
+computer can still do what a quantum computer can do, albeit, more
+slowly. Thus, if we accept the hypothesis that our brains
+use QM computation, if follows that we may build them classically
+too. (quantum computation hasn't solved any NP complete
+problems yet)
+
+-Ray
+
+
+------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Tue, 20 Sep 1994 06:24:47 -0500
+Subject: [#94-9-335] Rheingold article
+
+At 12:53 AM 9/21/94 +0200, MARSHLU@vms.huji.ac.il wrote:
+>It might interest some to know that Howard co-authored a book
+>with Willis Harman of Noetics back in 1984 called:
+>HIGHER CREATIVITY - Liberating the Unconscious for
+>Breakthrough Insights, published by Tarcher.
+
+Yes, but only so we can take the rest of his
+_oeuvre_ _cum grano salis_.
+
+[drivel deleted]
+
+PPPPPPPP  LL       OOOOOOOO  NN        NN  KK     KK   !!
+PP    PP  LL       OO    OO  NNN       NN  KK    KK    !!
+PP    PP  LL       OO    OO  NNNN      NN  KK   KK     !!
+PP    PP  LL       OO    OO  NN NN     NN  KK  KK      !!
+PPPPPPPP  LL       OO    OO  NN  NN    NN  KK KK       !!
+PP        LL       OO    OO  NN   NN   NN  KKKK        !!
+PP        LL       OO    OO  NN    NN  NN  KK KK       !!
+PP        LL       OO    OO  NN     NN NN  KK  KK      !!
+PP        LL       OO    OO  NN      NNNN  KK   KK     !!
+PP        LL       OO    OO  NN       NNN  KK    KK
+PP        LL       OO    OO  NN        NN  KK     KK   ..
+PP        LLLLLLL  OOOOOOOO  NN        NN  KK      KK  ..
+
+
+
+
+   
+\\ fcp@nuance.com (Craig Presson)   CPresson@aol.com\
+-- WWW: http://www.nuance.com/~fcp/ -----------------\
+-- President & Principal,  T4 Computer Security ------>
+-- P.O. Box 18271, Huntsville, AL 35804 -------------/
+// (205) 880-7692 Voice, -7691 FAX -----------------/
+
+
+------------------------------
+
+From: minsky@media.mit.edu (Marvin Minsky)
+Date: Wed, 21 Sep 94 01:35:05 -0400
+Subject: [#94-9-336] Penrose's "Shadows of the Mind"
+
+>I just spent the last half hour reading Penrose's new book "Shadows of
+>the Mind" in the Caltech bookstore (I'm not willing to shell out $25
+>for it.)
+
+[etc.]
+>
+>So where does he go wrong?  Mainly he keeps piling on unlikely
+>possibilities until his total scenario is quite unlikely, though still
+>possible in principle.  The only reason for entertaining such a
+>scenario he offers is his Godelian proof that math folk "understand"
+>math in a way computers couldn't possibly.  I didn't get to reading
+>his new proof, but I doubt if he can make it fly.  I didn't find
+>anyone familiar with Godelian math who though his last proof flew.
+
+There is absolutely no, repeat, no merit in his old worn-out repetition of
+Lucas wrong argument about mathematicians being able to recognize truth
+when machines cannot.  BECAUSE:
+
+Hidden just under the surface is THE ASSUMPTION THAT WHEN A MATHEMATICIAN
+"INTUITS" THE TRUTH OF A THEOREM, HE/SHE IS NEVER WRONG. Well, a good
+looking argument with a false assumption is precisely as good as no
+argument at all.
+
+All that Penrose and Lucas, and all of them have said is that they can
+sometimes GUESS the truth.  Well, big deal.
+
+------------------------
+
+        "Where there's smoke, there's smoke."    -- me.
+
+
+
+------------------------------
+
+From: Darren Osadchuk <OSADCHUK@UVVM.UVic.CA>
+Date:         Tue, 20 Sep 94 23:07:55 PDT
+Subject: [#94-9-337] Penrose's "Shadows of the Mind"
+
+Two questions concerning the general topic covered by Penrose, who I
+must admit to not having read entirely...
+
+1.  Concerning intuition, doesn't this call up the distinction between
+the context of discovery and the context of justification?  Concerning
+Penrose (and general arguments of this nature), I thought the point was
+not that computers were unable to prove a theorem, but that they were
+unable to make that leap of intuition (since intuition is assumed to be
+something inherently unformalizable and hence incapable of being
+'taught' to a computer) that tells us what the theorem might be, the
+next step being to try to prove the product of that leap in some sort of
+logical manner.
+
+2.  Has there yet been a refutation of Searle's Chinese Room theory?
+
+Concerning both questions, my asking them may be a product of not having
+looked at the literature in a few years, so if this is in any
+repetitious or anything, please forgive.
+
+Darren
+
+P.S. There is at least one skeptic lurking here.  :)
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Wed, 21 Sep 1994 02:17:20 -0400
+Subject: [#94-9-338] what's next?
+
+ minsky@media.mit.edu  (Marvin Minsky) writes in X-Message-Number: #94-9-297:
+>>At 10:05 PM 9/19/94 -0400, Marvin Minsky wrote:
+>>>Economists are interested mainly in annual interest return on investment.
+>>>They can't deal with 40 year intervals.
+>>
+>>Actually, they're interested in present value of total return, as a rule.
+>
+>
+>Yes, I guess so--but in my few conversations with them, they generally lose
+>interest in things that might take 40 years.  Like, in particular
+>nanotechnology, which I think may become the largest industry--but not soon
+>enough for a wealthy individual to profit much from in a present lifetime.
+
+ It is difficult to determine in advance whether something like nanotech
+is being underfinanced. For instance, it may be that the best way to
+help nanotech today is to put a lot of money into the semiconductors
+which are needed to software needed. Or with cryonics, I contend that
+as long as enough info is being saved when people are frozen, further
+research into restoring the damaged body is a waste - uploading the
+frozen brain will be the best solution.
+ Can you come up with an example to support your complaint which should
+have been started 40+ years ago, so we can restrict ourselves to arguing
+over hindsight?
+ I suspect people involved in basic research over-estimate the value
+of investing in it, for the same reason that most people over-estimate
+the value of their line of work - if they didn't think it was important,
+they might well be doing something else.
+ If there is a tendency to underinvest in long-term projects, the biggest
+reasons are:
+ - the difficulty of insuring that the early investors own a piece of the
+   eventual profits (the early research often results mainly in memes which
+   can't be owned).
+ - the difficulty of predicting 40 years in advance what technologies will
+   be feasible.
+---------------------------------------------------------------
+Peter McCluskey    | pcm@rahul.net     | Cardassia delenda est!
+finger for PGP key | pcm@world.std.com | 
+
+------------------------------
+
+From: whitaker@extropia.corp.sgi.com (Russell Whitaker)
+Date: Wed, 21 Sep 1994 00:27:36 -0700
+Subject: [#94-9-339] URL/ANNOUNCE: Smart Drugs & Nutrients (Dean/Morgenthaler)
+
+0020 21 September 1994/374 pno
+
+I have just put the finishing touches on the first, skeleton release - for
+feedback on the Extropians mailing list - of the first WWW (web) version of:
+
+    SMART DRUGS & NUTRIENTS:
+        How To Improve Your Memory and Increase Your
+        Intelligence Using the Latest Discoveries in Neuroscience
+    by Ward Dean, M.D., and John Morgenthaler
+
+    First Edition
+    ISBN: 0-9627418-9-2: (originally $12.95 Softcover)
+
+I am the publisher of the WWW version.  I emphasize that it is a *skeletal*
+release of a home page, table of contents, and a "what's new" (thanks, arkuat,
+for the inspiration) development log.
+
+/Smart Drugs & Nutrients/ can be reached via the World Wide Web as:
+
+	http://www.c2.org/~smart/SmartDrugsAndNutrients/
+
+I welcome links and pointers from all.
+
+Full text will be online within 2 weeks, with continuing development and link
+maintenance thereafter.
+
+--
+Russell Earl Whitaker           	       whitaker@sgi.com
+I.S. Assistance Center                             415-390-3826
+Silicon Graphics, Inc.	 		      Mountain View, CA
+===============================================================
+1.] If you are behind SGI's firewall, here's my WWW home page:
+	http://extropia.corp.sgi.com:8001/people/whitaker.html
+2.] Outside the SGI firewall, try this:
+	http://www.c2.org/~whitaker/whitaker.html
+
+
+
+
+
+
+------------------------------
+
+From: pmfitzge@ingr.com
+Date: Wed, 21 Sep 94 10:02 CDT
+Subject: [#94-9-340] MailWeir Commands
+
+This email message was automatically sent when a user filled out a
+form on my World Wide Web site.  If there are any problems with this
+message, please contact fitz@iquest.com (Patrick Fitzgerald).
+
+Thank you,
+The World Wide Web Server on iquest.com
+
+------------------------------
+
+End of Extropians Digest V94 #263
+*********************************
+

@@ -1,0 +1,999 @@
+From extropians-request@gnu.ai.mit.edu Fri Jun  4 14:26:16 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA02993; Fri, 4 Jun 93 14:25:43 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA23736; Fri, 4 Jun 93 14:24:11 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA18450@wookumz.gnu.ai.mit.edu>; Fri, 4 Jun 93 17:19:37 -0400
+Message-Id: <9306042119.AA18450@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Fri, 4 Jun 93 17:19:16 -0400
+X-Original-Message-Id: <9306042119.AA18436@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0299
+X-Extropian-Date: Remailed on June 4, 373 P.N.O. [21:19:36 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest             Fri, 4 Jun 93             Volume 93 : Issue 0299
+                        
+Today's Topics:
+                           AI: Cyc & the SAT wager                    [1 msgs]
+                     EXTROPRENEUR: Request for Comments               [1 msgs]
+                            FUQ? Some CyC info...                     [1 msgs]
+                      FWD: To destroy an anarchy (fwd)                [1 msgs]
+                 PHYS/COMP: Quantum Computer Feasible Now?!           [1 msgs]
+                         PREFIXES: The 'README' meme                  [1 msgs]
+                              Power Crazed FDA                        [2 msgs]
+                         SPACE: Fermi paradox, etc.                   [3 msgs]
+                              TECH: DAK = trash                       [1 msgs]
+               TECH: Source for shortwave w/ cassette recorder        [1 msgs]
+                               TECH: shortwave                        [2 msgs]
+                            a new seminar series                      [1 msgs]
+                               help Extropians                        [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50384 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 4 Jun 1993 12:11 EDT
+From: Ronald Hale-Evans <EVANS@BINAH.CC.BRANDEIS.EDU>
+Subject: TECH: Source for shortwave w/ cassette recorder
+
+>Catalog item #5769 $79.90 + $6 P&H 800-DAK (325)-0800 Anytime
+>
+>Dual stereo cassettes (1 records, both play)  530-1630kHz (AM)
+>Programmable timer                            3200-7300kHz (Shortwave1)
+>20 presets for tuner                          9500-21750khz (Shortwave2)
+>etc.                                          87.5-107.9MHz (FM/Stereo)
+
+WARNING!!! This equipment is a piece o' shit. DO NOT BUY IT. I made
+that mistake, and within about forty hours of usage, the following
+things went wrong with it:
+
+* The LCD display became impossible to read (this effect was
+temporary, but a real nuisance).
+
+* Both cassette drives failed.
+
+* The unit will no longer run from battery power.
+
+* The unit will no longer take power from the battery that powers the
+memory, so you can't preset stations and you can't keep the clock set.
+You must set both of these every time you turn on the unit.
+
+As it turns out, I am not alone in observing that this unit is crap.
+When I got it, I signed up on a shortwave mailing list, and many
+people told me they had had the same bad experience with DAK shortwave
+equipment. The DAK warranty is a ripoff in my opinion, so you won't
+get any satisfaction from that.
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+"The Sea refuses no river; remember that when a beggar buys a round."
+--Pete Townshend * * * * * Ron Hale-Evans, evans@binah.cc.brandeis.edu
+PGP 2 public key: finger evans@binah.cc.brandeis.edu
+
+------------------------------
+
+Date: Fri, 4 Jun 1993 08:55:34 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: AI: Cyc & the SAT wager
+
+In an earlier AI thread, I argued that AI has not "failed", and
+offered to wager that a reasonable-sized project (one professor,
+one postdoc and a few grad students over four years) combining
+Cyc, genetic programming, and a few standard software packages
+(eg Mathematica) could produce a program that would score better 
+than most humans on standard intelligence tests used by universities, 
+MENSA, etc.: the SAT and GRE. 
+
+I also declared that the AI community is scared to death that 
+university-style intelligence will be the first to be automated, since 
+the traditional "robots throwing blue collar workers out of work" 
+scenario is more likely to be applied to scientists and engineers. Thus, 
+most AI researchers will subconsciously try everything under the
+sun to avoid throwing this bombshell. (This is also why one of the 
+wager conditions is that I run the project).  Here follows a description 
+of Cyc.  Note that the "final test" for Cyc involves no such 
+standardized intelligence test, even though it would be the most natural 
+kind of "final test" for an "artificial intelligence" project.  Note
+also the emphasis on analogies, which might be the most difficult
+part of the SAT and GRE tests for a computer program.
+
+I do have some quarrels with the Cyc project.  I object to the notion 
+that Cyc somehow defines "consensus reality".  I hope to see a wide, 
+diverse variety of competitors for Cyc in the coming years.  Using 
+genetic programming, I think its early knowledge-aquisition phase 
+could be greatly automated.
+
+Nick Szabo					szabo@techbook.com
+
+
+Forwarded message:
+Date: Thu, 3 Jun 1993 20:05:17 -0600 (MDT)
+From: pfly@nyx.cs.du.edu (juxlus.)
+To: Aleph@pyramid.com (Aleph)
+Subject:  FUQ?  Some CyC info...
+Message-Id: <9306040205.AA16024@nyx.cs.du.edu>
+
+_Building_Large_Knowledge_Based_Systems_: Representation and Inference in
+the Cyc Project, Douglas B. Lenat and R.V. Guha, Addison-Wesley, Reading,
+Mass: 1990.
+
+CyC is a project ebing run by Microelectronics and Computer Technology
+Corporation (MCC) since 1984.  It is a ten year project, scheduled to be
+"finished" by 1994.
+
+pg. 3-4
+"Why aren't human beings brittle in the way computer programs are?  How do
+we cope with novelty?  Largely by finding some related case and propagating
+the differences to this new one.  That is, we do one of the following:
+
+o Match some similar situation and adjust it slightly (= remember)
+o Match some apparently far-flung situation (= analogize)
+o Fall back on general knowledge (= use common sense)
+o Try to learn more about this new situation (= recur)
+
+   That fourth case is perhaps a special case of the third.  In any event,
+it is a *recursion*, in which our "problem" changes from "X" to "learn more
+about X", and any of the above four methods can now be tried on that new
+problem...
+   ...The first three cases above (and hence, ultimately, the fourth)
+depend on having a large base of both general and specific knowledge to
+consult...
+   ...So the matress in the road to AI is lack of knowledge, and the
+antimattress is knowledge.  But how much does a program need to know to
+begin with?  The annoying, inelegant, but apparently true answer is: a
+non-trivial fraction of *consensus reality*---the millions of things that
+we all know and that we assume everyone else knows...
+   ...the Cyc group at MCC is attempting to build a single intelligent
+agent whose knowledge base contains these tens of millions of entries.  We
+believe such a system will be a useful, perhaps necessary, platform on
+which to undertake the next generation of work in expert systems, natural
+language understanding, and machine learning."
+
+pg. 10-11
+"The previous subsection argued that analogy is frequently useful and
+discussed speciafically *how* it might be useful.  But *why* is it
+frequently useful?  The answer to that lies inb the nature of the world we
+happen to inhabit and the state of our understanding (and perhaps our
+capability to understand).  Three aspects of our world, and ourselves, make
+analogy frequently useful to us as human beings:
+
+1.  The moderate amount of novelty with which we're confronted
+
+2.  The moderate number of distinct causes in the world
+
+3.  The medicore entology and "knowledge metric" we have
+
+NOVELTY.  If the world were very volatile and chaotic and wildly
+unpredictable, analogizing would avail us little; it would almost always
+fail.  If it were totally staid and static and unchanging, we'd have little
+need for analogy; memory would suffice.
+
+CAUSALITY.  Analogies that have no common root cause are superficial and
+weak and, more often than not, no good for mroe than literary
+divertissement.  If there were a zillion disparate causes in the world,
+analogy would usually be superficial and powerless in this fashion.  On the
+other hand, if there were no variety of causal mechanisms in the world (for
+example, only one emotion, only one method of physical propulsion, only one
+kind of chemical reaction, etc), there wouldn't be much power in
+classifying which of thsoe causes were behind something.  (In fact, tghere
+wouldn't be much point in having those terms either.)
+
+KNOWLEDGE METRIC.  If we had a terribly wrong view of the world, analogy
+would lead us even further into error (for example, thinking that the
+cosmic objects and meteorlogical phenomena are sentient, one might try to
+bribe them with offerings).  If we had a terrific grasp of the world, we'd
+always *know* precisely what knowledge was relevant to our present dilema,
+and exactly how it should be applied.  We wouldn't need analogical leaps
+into the possibly relevant."
+
+pg. 15
+"The careful reader may have noted a possible hole in our discussion of the
+brittleness of current expert systems: First, we criticized them for merely
+containing opaque tokens and pushing them around.  Yte our example of
+"having more general, flexible knowledge" was nothing more than having more
+(and more general) tokens and pushing *them* around!
+   Yes, all we're doing is pushing tokens around, but that's all that
+cognition is.  What makes our tokens "better" is that they aren't tied to
+solving some particular problem.  Naturally, all programs are built on some
+primitives (predicates, frames, slots, rules, functions, scripts).  But if
+you choose task-specific primitives, you'll win in the short run... but
+lose in the long run (you'll find yourself painted into a corner when you
+try to scale the program up)."
+
+pg. 17
+   "In knowledge representation...narrow domains are misleading.  And small
+KBs likely won't scale up easily into huge KBs.  This, then, is the
+representation trap, the trap that has snared (or even *characterized*)
+expert systems to date: choosing a set of long, complex primitives
+(prediacte names) that have a lot of knowledge compiled within them, and
+writing rules that are also tailored to the program's domain (omitting
+premises that needn't be worried about in that particular task).  The bait
+in the trap is the fact that it works---at least within the narrow domain
+for which that particular program was designed.  The catch is that the
+resultant system is isolated and brittle."
+
+pg. 20-21
+   "...Instead of talking more about this, and making forays here and ther
+as needed to gather a few examples, we set out to actually do it.  Well,
+almost.  We figured that if we could get pretty far on setting up the top
+layers, everyone would pitch in and help us relate the rest of human
+knowledge to them.
+   Is it possible?  Who knows?  But let's get started and see!  That was
+our attitude in 1984; we gave Cyc a 10-20 percent chance of succeeding.
+Now it looks like our original guess about the size of the task was about
+right, and we'd give us a full 50-60 percent chance of succeeding.
+   The first task involves on the order of ten million entries (As Marvin
+Minksy observed, that's about the same order of magnitude as the number of
+things a human being acquires---burns into long term memory---during the
+ages 0 to 8, assuming one new entry every ten second's of one's waking
+life).  The second task is unbounded, but probably another ten to fifty
+million entries would suffice for general intelligence (for example, the
+intelligence required for acquiring knowledge in school and in
+extra-curricular conversations).  Quite a bit more may be needed for
+quantatively super-human intelligence.
+   The most easily foreseen mode of failure was---and is---that the
+knowledge enterers might diverge, either by stepping on one another's toes
+(misusing each other's terms) or by passing one another in the night
+(re-entering already existing concepts, giving those units slightly
+different names).
+   If the latter duplication is ever noticed, then it may be fairly easy to
+fix (either by related the units to one another, or, in extreme cases, just
+merging them), so the failure mode would lie in never realizing that this
+duplication occurred in the KB.
+   One interesting tool that helps in identifying such duplication is to
+have Cyc actively search for new analogies.  Some of them are genuine,
+interesting analogies; some of them are mappings between non-analogous
+concepts A and B, which signifies that we haven't yet told Cyc enough about
+A and B to differentiate them properly; and a third class of apparent
+analogies are between concepts that are really just different formulations
+of the same knowledge---that is, passings in the night.
+   Since 1984, we've been building and organizing and reorganzing our
+growing consensus reality KB in Cyc.  We now have about a million entries
+in it. and we expect it to increase by a factor of 4 by mid-1990.  Thanks
+to an array of explicit and implicit methods for stating and enforcing
+semantics, they appear to be converging, not diverging."
+
+pg. 23
+"So we must build a good global ontology of human knowledge (that is, one
+that spans current human consensus reality) if we are to avoid the
+representation trap.  Choosing a set of represenation primitives
+(predicates, objects, functions) has been called *ontological
+engineering*---that is, defining the categories and relationships of the
+domain (This is empirical, experimental engineering, as constrasted with
+*ontological theorizing*, which philosophers have done for millennia).
+   More than just having a good ontology, however, we must also build up a
+large knowledge base organized according to that ontology, a KB of millions
+of (frame-sized) pieces of consensus reality knowledge.  How many millions?
+We hope and expect it's about 5 million frames, each with several dozen
+"fact-seized" slot entries; but we'll find out!  This project is mankind's
+first foray into large-scale ontological engineering."
+
+pg. 26-27
+"... We are building the needed KB manually, one piece at a time, at least
+up to the crossover point where natural language understanding begins to be
+a more effective way of further enlarging it.
+   This task tlooked---and still looks---just barely possible.  We
+estimated that it would take about two person centuries to build up that
+KB, assuming that we don't get stuck too badly on represenation thorns
+along the way.  In real time, our schedule was---and still is---to complete
+the project (reach that crossover point) in the ten-year peroid that ends
+in late 1994."
+
+pg. 28
+"Cyc comprises three "pieces":
+
+1. The knowldge base itself (Cyc KB)
+
+2. The environment: the interface editing/browsing tools (UE and MUE), the
+multi-user knowledge server, the binary KB dumper, and so on.
+
+3. The represenation language (CycL)"
+
+pg. 35
+"Superficially, CycL is a frame-based language; that is, it's based around
+triplets like "the *capital* of *Texas* is *Austin*".  All the assertions
+about Texas are gathered into one data structure called the Texas *frame*
+or the Texas *unit*:
+
+Texas
+  capital: (Austin)
+  residents: (Doug Guha Mary)
+  stateOf: (UnitedStatesOfAmerica)
+
+   The unit representing Texas is depicted here as having three *slots*,
+each of which has a corresponding *value*.  The value of a slot of a unit
+is always a list of individual *entries*..."
+
+pg. 37
+   "Four basic kinds of frames exist in the system: "normal" ones,
+SlotUnits, SeeUnits, and SlotEntryDetails.
+
+pg. 45-46
+   "The language [CycL] can be conceptualized as being formed by four
+important modules (of vastly varying size):
+
+o *The inferencing module* that is responsible for interpreting the rules
+available in Cyc (both monotonic and default "rules").  In other words,
+given that a "rule" *might possibly* be relevent, this module sees if it is
+indeed relevant in the current state of the KB.  If it is relevant, this
+module "runs" it to produce some conclusion, some new assertations.
+
+o *The stripped-down truth maintenance system (TMS) conceptual module*.
+Suppose a rule ran, and concluded u.s.v1.  Since then, we've learned some
+more things, the KB has changed, and now it turns out that that rule would
+no longer have run.  If u.s.v1 is till around, it has become 'stale'; all
+its support has gone away.  This TMS module ensures that u.s.v1 is
+retracted if there is no other support for it.  This module is referred to
+as a *conceptual* module because as we shall see later, this module has
+been partially unified with the inference module.  However, for purposes of
+understanding the design of the language, it is convienent to regard this
+as a seperate module.
+
+o *The contention resolution module* that compares the conclusions of
+different rules and, in case of conflict, attempts to resovle the conflict.
+
+o *The contradiction detection and resolution module* that detects
+situations when the conclusions of monotonic (absolutely certain) rules
+have been overridden by those of other monotonic rules.  The only way to
+resolve this kind of contradiction, short of retracting or weakening one of
+the rules, is to change the KB so that the antecedent of one of the
+contradictory rules is not satisfied.  This module detects such
+contradictions, and, when it is possible and reasonably safe to do so,
+automatically modifies the KB to preserve consistency."
+
+pg. 135
+"A *task* is a script that can be performed by the system.  Each kind of
+task must be an instance not just of Script (= EventType), but of a much
+more restrictive collection: ProblemSolvingType.  Moreoever, it must be a
+spec of SolvingAProblem.  Given the system's current lack of robotic
+sensors/effectors, it is pretty much restricted to tasks that (try to)
+carry out some sort of computational procedure.  So, for example,
+FindingPrimeNumbers is something it might be able to do, or
+PlanningACircumnavigationRoute, but not CircumnavigatingTheGlobe (at least,
+not until it gets lots of additional peripherals!)."
+
+pg. 150
+   "Syntactically speaking, a *thing* is anything *about which* you can
+state a fact, and *to which* you can ascibe a name.  Any *thing* can be
+represented by a unit in Cyc, and each Cyc unit (that is, frame) represents
+one *thing*.  So extensionally, *unit* and *thing* are synonymous."
+
+pg. 356-358
+"Cyc's Final Exam---Where We Hope To Be in Late 1994.  In brief, the goal
+of our project is to break the brittleness bottleneck once and for all.
+Less briefly, we could state some "final exam" questions for Cyc in late
+1994.  No, we don't expect Cyc to be all-wise then, but we do hope to have
+moved by then from the manual 'brain-surgery' mode of knowledge entry, to a
+more 'Socratic dialogue' knowledge acquisition metaphor.  These 'final
+exam' questions would be:
+
+1a. Build an expert system in Cyc and show how it is *better* than building
+it from scratch (that is, in a conventional expert system building shell).
+...
+1b. Build two expert systems in Cyc, on related topics, neither projects
+knowing much about the other.  Show that they can *share* each other's
+knowledge productively.  'Sharing' means that the whole is more than the
+sum of the parts---that the combined system does *better* than just the
+union of what the two individual systems could do.  'Better' includes such
+dimensions as: a wider range  of problems can be handled, more correct
+answer are generated, fewer mistakes are made, the system is more easily
+understood by the user and/or it is faster.
+...
+2a. Communicate with Cyc in English, by dint of a natural language
+understanding program built largely by ACA's Human Interface project, which
+is deeply, recursively intertwined with Cyc.  The understanding process
+includes disambiguation, resolving anaphora and ellipsis, as well as more
+sophisticated tasks such as recognizing and handling hyperbole, metaphor,
+and humor.  After being understood, the new communication will then be
+added to Cyc's KB.  If it was a question, then Cyc's answer will help guage
+its understanding of both the query and of its existing KB.
+...
+2b. Demonstrate that, based on 2a, the Cyc project is no longer needed.
+The massive hand-coding knowledge representation effort can be wound down
+and eliminated by the end of 1994.  In its stead, Cyc will grow by
+assimilating textbooks, literature, newspapers, etc.  It will also have
+access to, and models of, numerous large data bases to call on as needed.
+In place of the knowledge enterers will be a cadre of teachers, to
+elucidate confusing passages, to discuss and educate rather than to
+continue to practice brain surgery upon Cyc's KB.
+
+3. Demonstrate that Cyc can learn by discovery.  This goes beyond the sort
+of 'learning by being programmed' of 1a and 1b, and beyond the sort of
+'learning by reading' of 2a and 2b.  It includes deciding what data to
+gather, noticing patterns and regularities in the data, and drawing from
+those patterns useful new analogies, dependencies, and generalizations.
+This sort of learning may go on either *proactively* ('at night' or on idle
+machines) or *dynamically* as needed in the course of solving some tough
+problem.
+
+4. Have Cyc be the major 'consensus reality KB' for the world.  Dozens of
+projects, throughout academia and industry, make use of Cyc, build new
+knowledge into it, and send and receive constant updates to keep the KBs
+consistent.  Cyc becomes thought of as *the knowledge utility*, much like
+an electric or telephone utility today: something everyone plugs into and
+is happy to pay for,  Just as, today, no one would even *think* of buying a
+computer that didn't have an operating system and that couldn't run a
+spreadsheet and a word processing program, we hope that by 1999 no one
+would even *think* about having a computer that doesn't have Cyc running on
+it."
+
+
+
+
+
+
+------------------------------
+
+Date: Fri, 4 Jun 93 10:53:08 MDT
+From: ingres@cs.unm.edu
+Subject: TECH: DAK = trash
+
+Ronald Hale-Evans <EVANS@BINAH.CC.BRANDEIS.EDU> wrote:
+>As it turns out, I am not alone in observing that this unit is crap.
+>When I got it, I signed up on a shortwave mailing list, and many
+>people told me they had had the same bad experience with DAK shortwave
+>equipment. The DAK warranty is a ripoff in my opinion, so you won't
+>get any satisfaction from that.
+
+    I don't know about this particular piece of equipment, but I long
+ago began throwing the DAK catalog away unread, because everything I bought 
+from them was crap. (Statistics: 100% of three items + a very unhelpful
+phone complaint staff + 0 replies to 5 letters I sent them. They do have a 
+very efficient billing and dunning staff.)
+
+    Everyone I've talked to about them has had similar problems. I'm
+curious, is there anyone on this list who has bought something from
+DAK and been satisfied with the deal?
+
+Neil Hammar
+hammar@unmvax.cs.unm.edu
+
+------------------------------
+
+Date: Fri, 04 Jun 1993 13:08:39 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Power Crazed FDA 
+X-Reposting-Policy: redistribute only with permission
+
+KMOSTA01@ulkyvx.louisville.edu says:
+> 
+> Heath Goebel just does not understand -- you see, FDA really needs to
+> ban all life-protecting drugs, because they do not work, every person 
+> on record who took them eventually died, except for some limited
+> number or survivors, and for those death seems likely! FDA must act now!
+
+Indeed, virtually every person who has ever breathed oxygen has died.
+Its time for immediate EPA action to ban this horribly reactive
+oxidizer that is polluting our atmosphere.
+
+.pm
+
+
+------------------------------
+
+Date: Fri, 04 Jun 1993 12:58:17 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: FWD: To destroy an anarchy (fwd) 
+X-Reposting-Policy: redistribute only with permission
+
+Nick Szabo says:
+> 
+> There must be a government, or government will be imposed.  So says
+> the net.wisdom on aleph & FutureC.  Since few people in the world have 
+> ever seen a culture without government in the 20th century, this could
+> become a very popular meme... any ideas for a counter-petition to
+> keep "The Net" an anarchy?
+
+None are needed. It is not possible to impose governance on the net.
+There is no longer any organization on earth that is in practice
+capable of altering its form. Its transnational, rapidly expanding,
+and has no central organization of any sort. Short of a treaty that
+all the major western powers agreed to to impose heavy regulation on
+every computer, it would be hard to do anything to it.
+
+.pm
+
+
+------------------------------
+
+Date: Fri, 04 Jun 1993 13:00:42 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: Power Crazed FDA
+
+Heath Goebel just does not understand -- you see, FDA really needs to
+ban all life-protecting drugs, because they do not work, every person 
+on record who took them eventually died, except for some limited
+number or survivors, and for those death seems likely! FDA must act now!
+Krzys'
+
+------------------------------
+
+Date: Fri, 04 Jun 1993 13:05:47 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: TECH: shortwave
+X-Reposting-Policy: redistribute only with permission
+
+Ronald Hale-Evans says:
+> >Catalog item #5769 $79.90 + $6 P&H 800-DAK (325)-0800 Anytime
+> >
+> >Dual stereo cassettes (1 records, both play)  530-1630kHz (AM)
+> >Programmable timer                            3200-7300kHz (Shortwave1)
+> >20 presets for tuner                          9500-21750khz (Shortwave2)
+> >etc.                                          87.5-107.9MHz (FM/Stereo)
+> 
+> WARNING!!! This equipment is a piece o' shit. DO NOT BUY IT. I made
+> that mistake, and within about forty hours of usage, the following
+> things went wrong with it:
+
+This brings up an interesting question for the list. I've been a fan
+of the BBC World Service's news program for some time, but
+unfortunately I can't get it anymore by rebroadcast on a local
+station. For a while, I've contemplated doing something neat like
+getting a shortwave, recording an overnight broadcast, and listening
+to the BBC in the morning while showering instead of National
+Socialist Radio. (The BBC World Service is one of the few government
+instititions on earth I legitimately like -- when all the governments
+on earth collapse some way must be found of privatizing it and making
+it turn a profit).
+
+Can anyone recommend a good and not too expensive shortwave system? I
+need something that would be capable of picking up the Beeb from the
+inside of a Manhattan apartment building. I can likely handle the time
+based recording myself -- at worst, I'll hook up the output to my home
+sparcstation and record digitally to disk.
+
+Perry
+
+------------------------------
+
+Date: Fri, 4 Jun 93 19:12:51 +0100
+From: flumiani@udmi5400.cineca.it (Federico Flumiani)
+Subject: help Extropians
+
+Hello,                                          Udine, 6-4-93 
+
+i am an italian student in computer science, interested in all new kind of      things like VR, nanotechnology,the new frontiers of mankind, so i feel very
+excited when i saw your announce in the last number (2nd) of WIRED the mag.
+ So why not to send a mail for getting infomation about this great movement?
+I will be very happy, if you will send me more news about EXTROPHY.
+
+                     Ciao , Federico
+
+
+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#
+
+For Virtual replay my e-mail address is: flumiani@udmi5400.cineca.it
+
+
+ 
+
+------------------------------
+
+Date: Fri, 4 Jun 93 11:35:59 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: PHYS/COMP: Quantum Computer Feasible Now?!
+
+Amazing if true.  I realize this is tantilizingly short, but it's all
+I have.  Robin
+
+------- Start of forwarded message -------
+From: poc@im.lcs.mit.edu (Physics of Computation Seminar)
+To: physics.computation@hc.ti.com
+Message-Id: <9306032126.AA04685@im.lcs.mit.edu>
+Date: Thu, 3 Jun 93 17:26:36 EDT
+Subject: a new seminar series
+Return-Path: <poc@im.lcs.mit.edu>
+
+
+Note: Although this seminar series will of course be of most interest
+to people in the Boston area, others may wish to subscribe to receive
+seminar postings just to see the abstracts of the talks.
+
+
+****************************************************************************
+**** NEW SEMINAR SERIES **** NEW SEMINAR SERIES **** NEW SEMINAR SERIES ****
+****************************************************************************
+
+
+		PHYSICS OF COMPUTATION SEMINAR
+
+		Date:   Monday, June 7
+		Time:   2PM
+		Place:	Massachusetts Institute of Technology
+		Room: 	6-120
+
+
+    A Technologically Feasible Quantum Computer
+
+    Seth Lloyd
+    Complex Systems Group & Center for Nonlinear Studies
+    Los Alamos National Laboratory
+
+    Abstract:
+
+    Arrays of weakly-coupled quantum systems can be made to compute
+    by subjecting them to a sequence of electromagnetic pulses of
+    well-defined frequency and length.  Such pulsed arrays are true
+    quantum computers: bits can be placed in superpositions of 0
+    and 1, logical operations take place coherently, and dissipation
+    is required only for error correction.  When operated at optical
+    frequencies, the array could provide massively parallel computation
+    at clock cycles of pico- to nano- seconds.  None of the steps
+    involved in constructing or operating such a computer lie out of
+    the reach of current technology.
+
+
+    Host:  Norm Margolus, MIT Lab for Computer Science
+
+
+
+This is the first talk in what will be an occasional series of seminars on
+"The Physics of Computation."  Our goal in initiating this series is to
+provide a forum for a community of researchers that otherwise wouldn't have
+a natural venue.  The stress will be on fundamental physical issues that
+govern efficient "engines" that transform information, and on the role of
+information and computation in understanding natural systems.  For example,
+can we characterize the most energy-efficient class of information engines?
+Can atomic-scale devices compute?  Can "quantum computers" do anything that
+ordinary computers can't?  Can an arbitrary quantum state be broken up into
+fixed-sized quantum signals and transmitted?
+
+We will also include discussions on the usefulness of novel architectures
+that are recommended by fundamental physical constraints.  For example, the
+finite speed of light is a constraint that favors machines with only short
+wires: What kinds of computations are well adapted to such machines?  How
+much is known about particular classes of computations, such as Lattice
+Gases, that answer this question?  What are the outstanding questions about
+the capabilities of such models?
+
+Please forward this notice to anyone who you think might be interested.
+This initial mailing will be sent to several mailing lists; if you wish to
+receive subsequent notices please reply to "poc@im.lcs.mit.edu".
+Suggestions for speakers (particularly if an interesting visitor is going
+to be passing through the Boston area) should also be sent to this address.
+
+This series is being sponsored by the MIT Information Mechanics Group (Lab
+for Computer Science), in conjunction with the MIT Physics and Media Group
+(Media Lab), the MIT Porous Flow Project (Earth, Atmospheric and Planetary
+Sciences), and the Mathematical Sciences Research Group at Thinking
+Machines Corporation.
+
+
+------- End of forwarded message -------
+
+------------------------------
+
+Date: Fri, 4 Jun 93 12:44:53 PST
+From: "Mark W. McFadden" <mwm@wwtc.timeplex.com>
+Subject: SPACE: Fermi paradox, etc.
+
+>>  Why do all these nanotechnology/wormhole using races all seem 
+>>  to breed like bunnies? 
+>
+>Why to bunnies breed?  Bugs?  Flies?  Why does every species breed?
+>Darwin.  Some. of course, may go the way of the dodo, but then we don't
+>care about them.  It the ones that don't that nuke us.
+>
+
+ Why do you always assume I don't _understand_ when I don't agree with your 
+simplistic conclusions?
+ Okay, Darwin time as per Metzger et al. The fittest organism will 
+outreproduce less fit (suitable) organisms. This is because they are better
+adapted for their environment, so with all those survival advantages they 
+will reproduce more often through their longer lives, and more of their 
+offspring will survive because they eat better, and the ones carrying the 
+fitter genes will over time and through generations come to dominate and 
+they will (cuz of Darwin) just keep multiplying because that's the goal of 
+evolution, lots and lots of whatever's successful.
+  So, all we have to do to see what the best, fittest survival tactic is 
+for the human species, is look around and see who's out-reproducing 
+everyone else.
+  I guess we can expect some great things coming out of Calcutta, and 
+mainland China and Rio real soon now.
+
+  Or does Darwin become superfluous when discussing an intelligent species?
+_____________________________________________________________________
+                                  |
+Mark W. McFadden                  |  Been there....done that.
+mwm@wwtc.timeplex.com             |
+__________________________________|__________________________________
+
+------------------------------
+
+Date: Fri, 04 Jun 1993 15:39:44 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: SPACE: Fermi paradox, etc. 
+X-Reposting-Policy: redistribute only with permission
+
+"Mark W. McFadden" says:
+> 
+> >>  Why do all these nanotechnology/wormhole using races all seem 
+> >>  to breed like bunnies? 
+> >
+> >Why to bunnies breed?  Bugs?  Flies?  Why does every species breed?
+> >Darwin.  Some. of course, may go the way of the dodo, but then we don't
+> >care about them.  It the ones that don't that nuke us.
+> >
+> 
+>  Why do you always assume I don't _understand_ when I don't agree with your 
+> simplistic conclusions?
+
+Maybe because you don't show signs of understanding. We can't operate
+on psychic powers -- we are limited to judging you based on what you
+say. I don't think that its unreasonable to conclude from what you've
+said that you don't understand the arguments.
+
+>   So, all we have to do to see what the best, fittest survival tactic is 
+> for the human species, is look around and see who's out-reproducing 
+> everyone else.
+>   I guess we can expect some great things coming out of Calcutta, and 
+> mainland China and Rio real soon now.
+
+Well, actually, I do expect that were the human race qua human race to
+continue on current trends for millenia to come, the vast bulk of the
+world would have Indian and African features, yes. (China has reversed
+its population trend of late by force.) In that sense, one can indeed
+assume that what they are doing makes a degree of sense,
+evolutionarily speaking. Whether you think that India is a great place
+to live is irrelevant.
+
+Of course, the reason for the rapid reproduction in these countries is
+that humans have a tendancy to switch survival strategies from quality
+of children to quantity when they are under environmental stresses --
+better to have several mediocre children survive a brood of ten than
+have the the three you put lots of effort into die. As a long run
+strategy, the one "we" (not meaning caucasians but meaning folks in
+developed countries) are following will lead to more offspring --
+because ours have a far smaller chance of starving to death or dying
+of plague and have tremendous resources available. Having lots of
+children is an emergency tactic.
+
+>   Or does Darwin become superfluous when discussing an intelligent species?
+
+No, Darwin is still relevant, but you don't understand the issues.
+
+Perry
+
+------------------------------
+
+Date: Fri, 04 Jun 93 20:32:12 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: TECH: shortwave
+
+Perry Metzger:
+
+> The BBC World Service is one of the few government
+> institutions on earth I legitimately like 
+
+I second that.  I often wake up early in the morning/late night and lie 
+tucked up in bed listening to it.  It's great!  So incredibly twee and 
+informative.
+
+> -- when all the governments
+> on earth collapse some way must be found of privatizing it and making
+> it turn a profit).
+
+Okay, when we're all unspeakably nanotech-rich we'll form a (slave-run)
+charity just to broadcast World Service style.
+
+> Perry
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+------------------------------
+
+Date: Fri, 4 Jun 1993 15:37:56 -0400 (EDT)
+From: Carol Moore <cmoore@cap.gwu.edu>
+Subject: PREFIXES: The 'README' meme
+
+Then use READ ME as a Prefix with Description like:
+  READ ME: Send Me the Unsubscribe Address
+  READ ME: Please Use Descriptive Subject Lines
+  READ ME: Stop Flaming People
+
+or whatever....
+
+On Thu, 3 Jun 1993, FutureNerd Steve Witham wrote:
+
+> Has anyone noticed that the name "README" is actually a very successful meme?
+> 
+> Obviously there are practical reasons to have readme files, and reasons to
+> settle on a conventional name for such files.  But the thing about the
+> name "README" is that it's imperative, and actually insists that you
+> pay attention to it.
+>. . . . . . 
+
+(-: Like My Short Sig-Line?? -- cmoore@cap.gwu.edu  :-)
+
+
+
+
+------------------------------
+
+Date: Fri, 4 Jun 93 14:31:58 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: SPACE: Fermi paradox, etc.
+
+Mark McFadden writes:
+
+>   So, all we have to do to see what the best, fittest survival tactic is 
+> for the human species, is look around and see who's out-reproducing 
+> everyone else.
+>   I guess we can expect some great things coming out of Calcutta, and 
+> mainland China and Rio real soon now.
+> 
+>   Or does Darwin become superfluous when discussing an intelligent species?
+
+Only to the extent that intelligence reduces competition for
+resources, which it may do to a little but so far not much.
+
+I'm afraid I still don't understand your point about overpopulated
+areas.  I suppose you want to say that the propensity for a population
+to breed itself to starvation is bad, but so what?  Even if it's
+granted that rationality might tend to reduce the breeding rate
+in the face of scarce resources, I thought the discussion was about
+species behavior when expansion to new resources is possible.  In
+this case, whatever minority has the propensity to so expand will
+do so, producing offspring which will also tend to do so.
+
+derek
+
+
+------------------------------
+
+Date: Fri, 4 Jun 1993 13:27:25 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: EXTROPRENEUR: Request for Comments
+
+I find both  the speech recognition (SR) & scanned-document processing
+(SDP) markets promising, so I can't help Derek decide on which, but I'll 
+throw in some comments.
+
+These technology areas seem ideal for the "product wave" 
+strategy of marketing.  This has been one of the unsung strategies of 
+Japanese consumer electronics: introduce dozens of slightly varying products,
+market them slightly differently (targeting different niches), and 
+quickly withdraw the failures, leaving behind a still substantial 
+number of products highly fit for the market.  Don't try to fully 
+anticipate consumer needs; instead anticipate a variety of reasonable 
+needs and let the market pick the winner.  Cypress Semiconductor also 
+seems to do this; CEO T.J. Rodger's article in this months' _Reason_ 
+claims they have only 150 "product designers" and 70 "technologists", 
+but sell more than 1,500 products!  Intel did this with CMOS in
+the early  70's; I'd love to hear Tim May's comments about early
+Intel marketing and how they made so many successful products with
+such a small effort in those days.  For a startup, the product
+wave starts with a few narrowly targeted products, then when those
+start bringing in revenue use that money to open up the floodgates,
+letting loose a barrage of closely related products.  The
+same small code library and marketing material can be mutated, 
+crossed-over, and otherwise edited into dozens of forms until
+the market finds the best one.  It's amazing how many companies
+become satisfied with the first flush of victory, and religiously
+stick to the initial, quite sub-optimal great idea.  Witness Visi-Calc,
+DBase, Osborne, etc.  Then too, many large companies throw vast 
+sums into single products instead of produce waves.  Startups cannot 
+afford either mistake.
+
+The product wave should work even better for software or sofware-heavy
+electronics in SR & SDP.  Given a debugged, good performance, and
+modular design library, making slight variations on design and releasing 
+several products is relatively cheap.  Unless the allegedly terrifying
+giant competitors like Apple use the product-wave strategy, they
+are bound to leave open hundreds of market niches, and probably the best 
+ones at that.  They can't pick the winners any better than you can, and
+they're used to selling all-purposes MacIntoshes, not niche-targeted
+products.  In particular, I don't think they'll put the "I can't
+program my VCR" guy out of business unless they focus on that narrow
+niche at the expense of the thousands of other uses for SR.
+
+Derek has some great ideas for market niches; I especially find
+the scanning of addresses from business letters a promising
+area.  Here are some more SDP niches, each one of which might
+support dozens of slightly different products:
+
+* scan in business forms, convert them to on-line forms
+* scan in legal contracts (for style checking, archiving, etc.)
+* scan in old blueprints -> CAD files
+* scan in prescription, patient status, etc. forms (including doctor's 
+				signatures :-)
+
+One targeted SDP product has already made millions for a startup:
+the Resumix (sp?) system which specializes in scanning in resumes
+for harried "Human Resource" departments.
+
+Here's a more general device I'd be interested in: a hand-held copy 
+machine, basically a scanner hooked to a small portable computer.
+Take it into the library, use it to scan in the pages of 
+a scientific article, which can then be taken home, uploaded to 
+computer and printed out on laser printer or posted on the net.
+This wouldn't make publishers too happy, but if it fits in a 
+briefcase tough luck for them. :-)
+
+In SR, consider what kinds of software would profit from
+voice input.  Can we talk in C software code and editing commands, 
+instead of typing? We all know how to pronounce "!" :-), but how does 
+one pronounce "{", "(", etc.?  It seems that most computer languages
+were designed with the keyboard, not the human voice in
+mind.  On the other hand, we have the Q&A database query language,
+which was designed to be user-friendly by giving it a large,
+redundant vocabulary of English words.  I've only looked through
+the manual, but its vocabulary looks awkward to type, and a 
+large number of keystroke-shortcuts would be confusing.  Q&A
+query language looks ideal for hooking up to special-purpose
+speech recognition.  Even better might be a Q&A "clone" plus
+voice input to go over the top of more popular database packages like 
+DBase or Oracle.  Also consider the following:
+
+* Providing software access for people with two hands occupied at 
+a machine, eg a car, sewing machine, lathe, etc. or handicapped.
+Voice-operated maps on CD-ROM is one of a vast number of possibilities
+here.
+* Computer games that respond to screams, groans, etc.
+* Music composition by humming or whistling
+* Special-purpose telephone applications (replace those
+	dratted "punch 1 now" menus!)
+* Voice-input cash registers. ("Big Mac with Fries!" sufficient
+	to both inform the cook & ring up the sale)
+
+In general, SR market research should look at:
+* under what conditions it's socially acceptable to use voice input 
+(telephone companies have a head-start here)
+* what products are most suitable to being converted to voice
+(eg computer programs like Q&A with large command vocabularies)
+* what new things are made possible by voice input, eg people with two
+hands occupied at a machine can now simultaneously use use a computer
+
+But don't go with any of these ideas just because they sound good.
+Buy a list of small businesses in the market niche(s) of interest
+who've bought OCR scanners or general-purpose SR in the last couple 
+years and call them up, asking what they've used them for, or what 
+they tried to use them for but couldn't make to work.  Talk to these 
+people, don't pretend you more than they do about what they want.  
+Then hire some of these people to help you design & sell the product.
+
+Nick Szabo					szabo@techbook.com
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0299
+****************************************
+
+

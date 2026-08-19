@@ -1,0 +1,484 @@
+From extropians-request@extropy.org Wed Aug  3 15:02:30 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id PAA05272 for <more@chaph.usc.edu>; Wed, 3 Aug 1994 15:02:24 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA05403; Wed, 3 Aug 94 15:02:11 PDT
+Received: by news.panix.com id AA04128
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 3 Aug 1994 18:02:06 -0400
+Date: Wed, 3 Aug 1994 18:02:06 -0400
+Message-Id: <199408032202.AA04128@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-8-20 - #94-8-31
+X-Extropian-Date: August 3, 374 P.N.O. [18:01:14 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Wed, 3 Aug 94             Volume 94 : Issue 214
+
+Today's Topics:
+                            arkuat's Extropian FAQ                    [1 msgs]
+                               Belize was GUNZ                        [1 msgs]
+                   Clobbered my mail. Anyone have archives?           [1 msgs]
+                         continuos prisoners dilemma                  [1 msgs]
+                         Information-theoretic death                  [5 msgs]
+                     NEWS: Huntsville L-5 balloon launch              [1 msgs]
+                        Spinal and Somatic ReAnimation                [1 msgs]
+                              Your Extropian FAQ                      [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 27162 bytes.
+
+----------------------------------------------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Wed, 3 Aug 1994 01:37:44 -0700 (PDT)
+Subject: [#94-8-20] Your Extropian FAQ
+
+Steve Witham:
+> I think you should say right at the beginning that there are small-e
+> extropians, a circle of people, and there is capital-E Extropianism, a
+> philosophy articulated by one of us, 
+
+Extropianism is the work of several people, and evolving, so
+I'm not sure we can define any single person as "the" Extropian.
+Presumably it's reasonable to refer to those of us who are members
+of the Extropy Institute, even if we don't share all of the
+philosophical views of the president or directors, as
+"capital-E" Extropians.  However, even as a member I prefer
+the small-e, to indicate that my beliefs are more like a field 
+of intellectual endeavor (like "objectivism", "science", or
+"engineering") than a religion (like "Objectivism" or "Islam").
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+From: Felix Ungman <felix@hu.se>
+Date: 03 Aug 94 11:02:07 +0000
+Subject: [#94-8-21] continuos prisoners dilemma
+
+Anton Sherwood writes:
+>Has there ever been a fuzzy version of Axelrod's Iterated Prisoner's
+>Dilemma tournament?  By "fuzzy", I mean with choices and scores
+>not restricted to defect (0) and cooperate (1), but including all
+>real numbers between.  The scoring function could be=20
+>	a - bx + cy + dxy
+>For Axelrod's PD, a=3Db=3D1, c=3D4, d=3D-1.
+
+We can rewrite this payoff function (without loss of generality) as:
+  J1 =3D c1u1 + c2u2 + c3u1u2
+
+Another (more beautiful?) possibility might be:
+  J1 =3D c1u1^2 + c2u2^2 + c3u1u2
+
+If we instead of discrete iterations allow continuos time steps, we
+only have to solve the problem
+     /T
+max (| J1 dt)
+     /0
+which I leave as an exersize.
+
+
+(Pardon the ascii-kludge. Where's that PostScript mailer when I need it.)=
+
+
+------------------------------
+
+From: mlshew@netcom.com (Mark Shewmaker)
+Date: Wed, 3 Aug 1994 04:03:50 -0700 (PDT)
+Subject: [#94-8-22] Clobbered my mail. Anyone have archives?
+
+Apologes for the bandwidth, but I just destroyed 2 weeks worth of
+cypherpunks, extropians, and general semantics mail.  (Everything from
+July 20 to August 3.)  Would someone with archives please contact me?
+
+Thanks.
+
+Mark Shewmaker
+mlshew@netcom.com
+
+Helpful household tip for the day:  When adding files to archives,
+                                    it is wise to use "lha a ...",
+                                    instead of "lha m ..."
+
+------------------------------
+
+From: Karl Waldman <kwaldman@bbn.com>
+Date: Wed, 3 Aug 1994 07:23:46 -0500
+Subject: [#94-8-23] Belize was GUNZ
+
+	Belize is a very nice place to go for vacation (check out Ambergris
+Cay on the NorthEast Coast, and over the border is Tikal, worth seeing!) However, last I heard their "Extropian InFOstructure" :-)leaves something to be 
+desired,  that is little or no connections to the net, poor phone system, 
+Guatamala thinks Belize is a state in Guatamala, Belize disagree's, high crime
+in Belize City, poverty everywhere else. Some of this probably has improved
+since I was there (1986 Belize, 1987 Guatamala), but I would definitely visit
+first before deciding to live there.
+
+			Karl
+
+------------------------------
+
+From: minsky@media.mit.edu (Marvin Minsky)
+Date: Wed, 3 Aug 94 11:07:08 -0400
+Subject: [#94-8-24] Spinal and Somatic ReAnimation
+
+>X-Message-Reference: #94-8-16
+>
+>Tim's assertion that memory of physical skills lies outside the
+>brain brings up a very important issue for cryonicists.   Is storing
+>the brain sufficient for avoiding information-theoretic death?  Most
+>cryonicists argue yes (even many that go for full-body for other
+>reasons).  Some don't mind so much if they forget typing, athletic
+>skills, etc. as long as they retain their intellectual memories
+>Emotional memories, which are a big part of one's "identity"
+>and may be partially stored in the hormonal system outside the
+>brain, are a major unresolved issue.
+
+Tim has interesting ideas (and so has Nick, as always!).  I don't think
+there's much reason to suppose that the most important "higher levels" of
+memory of physical skills lies outside the brain; most of it is in the huge
+memory banks of the cerebellum -- which appears to have more synapses than
+the cerebral cortex itself.
+
+However, there may be a good deal of significant learned behavior in the
+spinal cord, concerning the final stages of bridging between command
+signals to the muscles and the servo loops that actually control the
+contractions. These may not be indispensible though, I have the impression
+(anyone know about this?) that paraplegics, for example, can remember how
+to do motor activities that they can no longer actually perform.  I suspect
+that a ReAn ought to be able to reconstruct those parameters -- but it
+would be an arduous experience, and we'll have to develop methods for
+facilitating this.
+
+There is surely also a good deal of learned spinal sensory machinery. As
+for emotional memory, there's no reason to suppose that the hormonal system
+has much memory, but I suppose that there could be some memory capacity in
+the distributions of receptors.
+
+
+
+------------------------------
+
+From: pavel@PARK.BU.EDU (Paul Cisek)
+Date: Wed, 3 Aug 1994 11:11:39 -0400
+Subject: [#94-8-25] Information-theoretic death
+
+>From: szabo@netcom.com (Nick Szabo)
+>X-Message-Number: #94-8-18
+>
+>Tim's assertion that memory of physical skills lies outside the
+>brain brings up a very important issue for cryonicists.   Is storing 
+>the brain sufficient for avoiding information-theoretic death?
+
+It's very likely that a person revived into a new body will be quite
+unable to use it.  The nervous system learns to use the body through a
+long process involving circular reactions, trial and error, etc.  Also,
+there's a great deal of self-calibration going on all the time while the
+body grows and changes.  Thus, a sudden change of the body's mechanical
+properties is likely to be a shock.  The newly revived person will not
+be able to control his or her limbs or interpret sensory information.
+
+Fortunately, the very same mechanisms of self-calibration that occur
+during childhood may be used after revival to retune the system to the
+new body.  This may be invoked as an automatic attempt to interpret
+inconsistent input, or may require pharmacological intervention, perhaps
+involving acetylcholine injections.  The brain is incredibly good at this
+kind of self-tuning, as shown by cases of stroke recovery.  The system
+may even be able to tune itself to accept a radically different body, with
+extra limbs or sensors, for example.  This has been shown in developing
+frogs which spontaneously reorganized their visual system to make use of
+an implanted third eye (frogs are, of course, very plastic...).
+
+>Emotional memories, which are a big part of one's "identity"
+>and may be partially stored in the hormonal system outside the
+>brain, are a major unresolved issue.
+>
+>In general, how much distortion (information loss, including
+>loss of all redundancy for that piece of information) in which
+>"subsystems" can we accept before we are "information theoretically
+>dead"?
+
+This will be a tough judgement to make.  If we insist on drawing a
+discrete line between "successful revival" and "death" then any criterion we
+choose is likely to be misleading.  We can be reasonably sure that if
+the person wakes up and is able to do anything then something has been
+revived.  We can also be sure that this person will never be the same as
+before.  The question of degrees will be difficult, and the person making
+the decision to enter cryogenics will have to make the judgement of how
+successful the endeavor is.
+
+>Can we so easily define separate "subsystems" such as 
+>intellectual, physical, and emotional, or are these irrevocably 
+>intertwined?
+
+I'd say they're irrevocably intertwined.  Divisions along functional
+lines can't be taken too deeply into neural function...
+
+Paul Cisek
+pavel@cns.bu.edu
+
+
+------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Wed, 3 Aug 94 15:26:59 GMT
+Subject: [#94-8-26] Information-theoretic death
+
+In re whether physical skills are stored in the body: It certainly
+*feels* that way, but they might be stored in the brain, but in
+some other way or place than, say, verbal memories are. (Actually,
+verbal memories may be partly physical skill--there's some evidence
+that they involve subvocalization.)
+
+How could you find out whether kinesthetic skills are partly
+stored outside the brain?
+
+Nancy Lebovitz
+nancy@genie.slhs.udel.edu
+
+
+------------------------------
+
+From: minsky@media.mit.edu (Marvin Minsky)
+Date: Wed, 3 Aug 94 11:53:13 -0400
+Subject: [#94-8-27] Information-theoretic death
+
+>In re whether physical skills are stored in the body: It certainly
+>*feels* that way, but they might be stored in the brain, but in
+>some other way or place than, say, verbal memories are. (Actually,
+>verbal memories may be partly physical skill--there's some evidence
+>that they involve subvocalization.)
+>
+>How could you find out whether kinesthetic skills are partly
+>stored outside the brain?
+>
+>Nancy Lebovitz
+>nancy@genie.slhs.udel.edu
+
+Well, people with laryngectomies don't complain that they can't think of
+the words -- and when they get their artificial larynx they have no trouble
+using them.
+
+But do any of you know any paraplegics?  How clearly can they imagine their
+old favorite motor skills?
+
+
+
+------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Wed, 3 Aug 94 11:34 CDT
+Subject: [#94-8-28] Information-theoretic death
+
+In <9408031553.AA08107@media.mit.edu>, Marvin Minsky writes:
+Nancy:
+> >In re whether physical skills are stored in the body: It certainly
+> >*feels* that way, but they might be stored in the brain, but in
+[...]
+> >How could you find out whether kinesthetic skills are partly
+> >stored outside the brain?
+
+Probably by looking for evidence of selective dendrite growth in
+peripheral nerve bundles during learning. Probably been done. Or you
+could remove the brain and measure how much skill is retained
+... hell, knowing neurophysiologists, that's probably been done, too!
+
+> Well, people with laryngectomies don't complain that they can't think of
+> the words -- and when they get their artificial larynx they have no trouble
+> using them.
+> 
+> But do any of you know any paraplegics?  How clearly can they imagine their
+> old favorite motor skills?
+
+Two apposite and opposite anecdotals: people who train for a physical
+skill, say tennis, often speak of "muscle memory" and I *guess* that
+this refers to the neuromuscular "grooving" of particular motions. The
+part of this that is just muscular development, including whatever
+tuning the peripheral nerves do, would get lost in a rehosting. The
+other is the mental training regimens that some athletes do: intensely
+visualising the activity, and then doing it. Many swear that practice
+time is much better used this way. I used to do this for chess :-)
+
+Everything is so throroughly connected, though, that it's hard to
+imagine any of this "muscle memory" stuff not being reflected in the
+brain. (I need a good Jerry Lettvin story here, but I can't recall the
+right one).
+
+\\ fcp@nuance.com (Craig Presson)   CPresson@aol.com\
+
+
+
+
+
+------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Wed, 3 Aug 94 12:01 CDT
+Subject: [#94-8-29] NEWS: Huntsville L-5 balloon launch
+
+On 7/31/94, the Huntsville Alabama L-5 Society (a chapter of NSS), and
+the Alabama Space and Rocket Center co-sponsored a balloon launch. The
+payload, launch, and recovery were supervised by Bill Brown, for whom
+this was the 45th launch. Tracking and recovery assistance was
+provided by many enthusiastic local hams.
+
+The balloon carried two major payload modules: a VHF HAM repeater
+(144.34 MHz), and an amateur TV module. Additionally, a packet of new
+membership cards for HAL-5 was flown, duct taped to the top of the VHF
+module. 
+
+A picture-perfect launch was achieved at 9:55 am Central time. The
+balloon reached an estimated 123,000 feet, at which point the limb of
+the Earth was visible through more than half of the camera's field (I
+forgot to ask what lens he was using) with space above it. The balloon
+burst at 11:58 AM, and continued to transmit video essentially all the
+way down. TV reception was reported from Rolla, MO, Springfield, IL,
+Melbourne, FL, and many points nearer. The whole adventure was
+recorded by WHNT-TV reporter Dick Curtis, himself a Ham and a bit of a
+space nut. He went to Tennessee with the chase team and filmed the
+payload recovery from a cow pasture belonging to a rather surprised
+farmer.
+
+We're all ready to do it again anytime Bill has a payload ready.
+Usually, he flies a GPS circuit and adds telemetry from that to the
+video, but this time the GPS box would just not talk to the TV
+transmitter, despite all-night hacking. Also, the VHF repeater froze
+up between 40,000 and 80,000 feet, but worked again from 80,000 on up.
+
+\\ fcp@nuance.com (Craig Presson)   CPresson@aol.com\
+-- WWW: http://www.nuance.com/~fcp/ -----------------\
+-- President & Principal,  T4 Computer Security ------>
+-- P.O. Box 18271, Huntsville, AL 35804 -------------/
+// (205) 880-7692 Voice, -7691 FAX -----------------/
+
+------------------------------
+
+From: dkrieger@netcom.com (Dave Krieger)
+Date: Wed, 3 Aug 1994 10:14:50 -0800
+Subject: [#94-8-30] Information-theoretic death
+
+>From: pavel@PARK.BU.EDU (Paul Cisek)
+>Date: Wed, 3 Aug 1994 11:11:39 -0400
+>Subject: [#94-8-25] Information-theoretic death
+>
+>>From: szabo@netcom.com (Nick Szabo)
+>>X-Message-Number: #94-8-18
+>>
+>>Tim's assertion that memory of physical skills lies outside the
+>>brain brings up a very important issue for cryonicists.   Is storing 
+>>the brain sufficient for avoiding information-theoretic death?
+>
+>It's very likely that a person revived into a new body will be quite
+>unable to use it.  The nervous system learns to use the body through a
+>long process involving circular reactions, trial and error, etc.  Also,
+>there's a great deal of self-calibration going on all the time while the
+>body grows and changes.  Thus, a sudden change of the body's mechanical
+>properties is likely to be a shock.  The newly revived person will not
+>be able to control his or her limbs or interpret sensory information.
+>
+>Fortunately, the very same mechanisms of self-calibration that occur
+>during childhood may be used after revival to retune the system to the
+>new body.
+
+This sounds as if Paul expects "off-the-shelf" bodies that the new owners
+(brains) will need to adapt to.  (This may be due to a mental image on
+Paul's part of a purely biological body rather than a cyborg.)
+
+The skills embodied by our biohardware today must logically fit into three
+categories: (1) those skills that are stored 100% in the brain; (2) those
+skills that are 100% somatic (in the spinal cord and other parts of the
+nervous system); and (3) those that are shared between the brain and
+peripherals.  This latter case would seem to involve complementary
+components in the two (arbitrary) divisions of the nervous system that have
+co-evolved or co-adapted to mesh well with each other.
+
+For category (1), neurosuspension presents no problem (other than the basic
+problems of cryonics, of course!).
+
+For category (2), we would surely want our new, improved bodies pre-loaded
+with those skills, hopefully updated and greatly augmented (How useful is
+typing going to be in a post-nanotech world, anyway?).
+
+For category (3), if we have the capability to build new bodies in the
+first place (which most cryonicists assume is a simpler problem than repair
+of the brain), it seems likely to me that we should be able to include in
+them the necessary "hooks" (soft- or hardware) to make them do all the
+adaptation, adjusting themselves to the brain's expectations about shared
+capabilities such as hand-eye coordination -- expectations about limb
+length, response time, etc.  "Whoops, he reached too low for that one,
+Jerry.  Bump the value of _coeffDeltoidStrength_ by .02 and let's try it
+again."
+
+Just my 2 mgAu.
+                                        dV/dt
+
+
+
+------------------------------
+
+From: dkrieger@netcom.com (Dave Krieger)
+Date: Wed, 3 Aug 1994 10:26:19 -0800
+Subject: [#94-8-31] arkuat's Extropian FAQ
+
+>From: fnerd@smds.com (FutureNerd Steve Witham)
+>Date: Tue, 2 Aug 94 19:05:31 EDT
+>Subject: [#94-8-13] Your Extropian FAQ
+>
+>> Q1: What's an extropian?
+>
+>I think you should say right at the beginning that there are small-e
+>extropians, a circle of people, and there is capital-E Extropianism, a
+>philosophy articulated by one of us, an ideal that fits none of us
+>exactly, and--and this is the important point--we are always confusing the
+>two.  You would think this distinction, between a group of actual people
+>and a philosophy written down by one guy, would be clear to people who
+>consider themselves individualists and non-dogmatic.  But aparently it's
+>not, and that just goes to demonstrate the distinction.  Anyway, this 
+>confusion is the first thing newcomers should be told about.  I think it's
+>a phenomenon that people can identify with and once you've confessed it,
+>you can proceed to engage in it with gusto, which you do:
+
+I apologize for not having looked at arkuat's FAQ yet (to use Mosaic, I
+have to drive over to our Sun offices), but, if I might be allowed to get
+on my General Semantics hobby-horse, I think recasting your definition in
+E-prime might remove a lot of what fnerd is objecting to.  Rather than
+saying "an Extropian is X" or "an extropian is Y" (or implicitly invoking
+"isness" by circumlocutions), you could qualify your definition in several
+ways by making operational statements rather than listing characteristics
+of a notional Platonic ideal of an Extropian:  "Max More, President of
+Extropy Institute, has written...", followed by, "Many people who consider
+themselves Extropians believe...", and "There is a larger extropian
+community of those who share some Extropian views but..."  (Note conscious
+use of big and small E's.)
+                                        dV/dt
+                                        a big fan of individual initiative
+
+
+
+------------------------------
+
+End of Extropians Digest V94 #214
+*********************************
+

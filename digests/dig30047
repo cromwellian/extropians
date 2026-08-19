@@ -1,0 +1,1007 @@
+From extropians-request@gnu.ai.mit.edu Wed Feb  3 20:40:16 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA06060; Wed, 3 Feb 93 20:40:14 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from albert.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA18221; Wed, 3 Feb 93 20:40:09 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by albert.gnu.ai.mit.edu (5.65/4.0)
+	id <AA29108@albert.gnu.ai.mit.edu>; Wed, 3 Feb 93 23:27:31 -0500
+Message-Id: <9302040427.AA29108@albert.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Wed, 3 Feb 93 23:26:57 -0500
+X-Original-Message-Id: <9302040426.AA29102@albert.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0047
+X-Extropian-Date: Remailed on February 4, 373 P.N.O. [04:27:30 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest             Thu, 4 Feb 93             Volume 93 : Issue 0047
+                        
+Today's Topics:
+     ****: Firearms Ban Sought in Internet-Distributed Petition 01/25/93 [1 msgs]
+                             CFP '93 roommates?                       [1 msgs]
+                               DEF: Revolution                        [1 msgs]
+                    ECON/NANO: Nanotech and Unemployment              [4 msgs]
+                            ECON: Zero-Sum Games                      [1 msgs]
+                            ECON: Zero-sum games                      [2 msgs]
+                       I&A: Help Bust Entropic Patent                 [2 msgs]
+           IdEAL ORDER Psychic TV Resumes Normal Jamming Schedule     [1 msgs]
+                               Insurance fraud                        [1 msgs]
+                                  Outlawry                            [6 msgs]
+                      POLI: State vs. Market Socialism                [1 msgs]
+                                PPL: Iceland                          [1 msgs]
+                             PPL: Land Ownership                      [1 msgs]
+         PPL: Many Types of Intellectual Property Are Not Protected   [2 msgs]
+                         REQ:extropian related stuff                  [1 msgs]
+                    REVIEW: Time article on Cyberpuncture             [1 msgs]
+                               RIGHTS:Patents                         [1 msgs]
+                         The rights of the infected                   [4 msgs]
+        [markets!uunet!starr.com!alta: How to e-mail the White House] [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50280 bytes.
+
+----------------------------------------------------------------------
+
+Date: Wed, 3 Feb 93 15:28:40 EST
+From: pmetzger@shearson.com (Perry E. Metzger)
+Subject: I&A: Help Bust Entropic Patent
+
+> From: dplatt@cellar.org
+> 
+> The company that holds this patent is Productivity Software International. 
+> They market a product called PRD+ which allows fast typing by automatically 
+> expanding abbreviations which are followed by a space, comma, exclamation 
+> point, question mark, etc. For example, typing a space after typing the 
+> letter "t" signals the program to create "the". Typing a comma after typing 
+> "ifdo" produces, "If there is anything I can do, ". The advantage over 
+> traditional macros that require the use of meta keys such as the CTRL ALT and 
+> function keys, is that your hands stay on the home row, your flow is not 
+> interrupted, and a mnemonic relationship makes it easy to memorize 
+> significant numbers of short forms. It is not uncommon for people to double 
+> their typing speeds using this technique, especially if they memorize a large 
+> number of short forms, and/or use a limited vocabulary with many stock 
+> sentences and phrases.
+[...]
+> Here's why I think it can be won, and how maybe some of you can help. I have 
+> heard and read that different unix word processors have supported this 
+> feature for years - notably EMACS. Is this true? Do any of you have examples 
+> of prior art?
+
+Emacs started as an editor on operating systems other than Unix. However,
+Emacs dates back to before 1980, and Emacs' "Abbrev mode", which does more
+or less what you are describing, down to expanding on delimiters, certainly
+dates back to 1982 at latest and probably back to 1980 or even before.
+Contact Richard Stallman, the original author of Emacs and an anti-patent
+zealot, if you want ammo -- he's accessable as rms@gnu.ai.mit.edu.
+
+Perry
+
+------------------------------
+
+Date: Wed, 3 Feb 93 11:51:08 PST
+From: xanadu!tribble@uunet.UU.NET (E. Dean Tribble)
+Subject: ECON: Zero-sum games
+
+All the descriptions of why teh futures market is zero-sum have
+neglected a major component of why people get into the futures market:
+risk management.  
+
+The contract:
+
+	One year from now, Hal will deliver one ounce of gold to Robin in
+	exchange for $450.
+
+In Hal's example futures contract, one of them pays off the other if
+the future value of gold is different.  That may be zero-sum.  But....
+
+What if Robin knows he needs gold in the future, and he has to be able
+budget for a maximum price.  He's not trying to make money based on
+his expectations of the price of gold (the zero-sum game), he's trying
+to control his uncertainty so that some long-term plan makes sense.
+That might have a lot of value to him; far more than the transaction
+cost and opportunity cost if gold takes an advantageous price plunge
+in a year.
+
+Likewise, Hal might not have a clue about the price of gold, but might
+know that some will become available to him in a year.  He'd like to
+lock in a price now so that he knows that gold will pay his mortgage.
+Without futures, the gold that he will acquire is a wild card.  With
+futures, he can lock in the value now, and so plan much more
+effectively.
+
+This obviously scales to things like supermarkets and orange juice.
+Much of the value in futures markets is for hedging and controlling
+(and trading) uncertainty.  That's where the game stops being merely
+zero-sum.  
+
+Note that Robin's idea-futures can serve the same purpose for ideas.
+
+dean
+
+------------------------------
+
+Date: Wed, 3 Feb 93 15:52:55 EST
+From: pmetzger@shearson.com (Perry E. Metzger)
+Subject: Outlawry
+
+> From: drw@bourbaki.mit.edu
+> 
+>    From: pmetzger@shearson.com (Perry E. Metzger)
+> 
+>    Being itself outlawed, its likely that a smart guy with an F15 could collect
+>    millions in bounties with a single bombing run on their headquarters, and
+>    no one will notice.
+> 
+> Well, obviously, they're not going to publicise where they are
+> located, no more than the Medellin Cartel does.
+
+With sufficient financial incentive, that would not be a deterrent.
+
+> On the other hand, it would probably be wrong to bomb them, since they
+> have not, themselves, committed any crime, but only protected the
+> lives and property of criminals who have hired them to do so.
+
+In Iceland, those who defended outlaws themselves became outlaws.
+
+Perry
+
+------------------------------
+
+Date: Wed, 3 Feb 1993 15:57:03 -0600
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: REVIEW: Time article on Cyberpuncture
+
+In <9302032014.AA21482@albert.gnu.ai.mit.edu>, Timothy C. May writes:
+[...]
+|> So, things are really hopping.
+I hear the hum of a huge flywheel ...
+
+|> >There was homage to _Mondo 2000_ but I don't think _Wired_ got
+|> >mentioned.
+|> 
+|> Finally, Jude Milhon, the woman who coined the term "cypherpunks" (when she
+|> said to us, "You guys are just a bunch of cypherpunks!"), is active in our
+|> cypherpunks meetings and is an editor at "Mondo." She's also known as "St.
+|> Jude," but don't ask me why.
+
+She was mentioned in the _Time_ article, too. Guess I will buy a
+souvenir copy.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Craig Presson)
+     /
+    /
+
+
+------------------------------
+
+Date: Wed, 3 Feb 93 11:54:58 PST
+From: xanadu!tribble@uunet.UU.NET (E. Dean Tribble)
+Subject: PPL: Many Types of Intellectual Property Are Not Protected
+
+	 At present, the various countries of the world are engaging is a sort
+	 of market competition between their various systems of production,
+	 distribution, and property, competing for investment and clever
+	 people.  (The Soviet system went out of business.)  Over the last
+	 hundred years, more and more countries have enlarged the zone of
+	 intellectual property.  My guess is that in the market, intellectual
+	 property protection wins.
+
+Countries are not competing freely.  US uses serious strong-arm
+tactics (economic pressure, political pressure backed by coercive
+force, etc.) to get other countries to buy into the US implementation
+of intellectual property.
+
+dean
+
+------------------------------
+
+Date: Wed, 3 Feb 93 22:05:55 GMT
+From: Michael Howard <michh@castle.edinburgh.ac.uk>
+Subject: REQ:extropian related stuff
+
+ Can anyone mail me any info about ftp sites/bb/other lists relating to
+branches of extropian topics? (eg. what's cypherpunk about?)
+
+ I've not read much on the details/intrecasies (sp!) of a lot of the
+stuff. (btw, is the neo-tech movement on the net?)
+
+ ta in advance,
+
+ Mike.
+
+michh@uk.ac.ed.castle.
+'Since when did sex become a bad thing? Did I miss a meeting?' - Bill Hicks.
+
+------------------------------
+
+Date: Wed, 3 Feb 93 14:09:36 PST
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: Outlawry
+
+Perry E. Metzger writes: 
+>Insurance fraud, for instance, is suprisingly rare -- this because
+>insurance companies are good at combatting it and fraudsters have
+>little public support.
+
+I hear ~1/4 of fires at insured properties are the result of arson.
+This figure from an insurance company CEO who gave a talk at Stanford
+last year.  Not rare, but not so large as to threaten the market. 
+
+Robin
+
+------------------------------
+
+Date: Wed, 3 Feb 93 17:21:31 EST
+From: drw@BOURBAKI.MIT.EDU
+Subject: Outlawry
+
+   From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+
+   I imagine that to be allowed into most locations, from a condo complex
+   to a city to a geographic region, one would be required to declare
+   one's PPL.  The location would then have a policy about whether to let
+   you in, and what new contracts you must sign at the door to get in.  
+
+That's what we have now, it's just that outlaws are forbidden to
+enter almost all real estate, except for certain very small pieces of
+land, commonly called "jails".
+
+Dale
+
+Dale Worley		Dept. of Math., MIT		drw@math.mit.edu
+--
+SunOSish /suhnasish/ adj. requiring 32-bit bug numbers
+
+------------------------------
+
+Date: Wed, 3 Feb 93 16:12:34 EST
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: CFP '93 roommates?
+
+Fellow Extropians, Cypherpunks, and Computer Freedom and Privacy seekers--
+
+Is anyone else hoping to share a room at the SF Airport Marriot for CFP '93?
+The rates are $99 per room, single or multiple occupancy, for
+conference attendees, with a limited block of rooms available, offer
+expires Feb 9.
+
+Please respond to
+
+	sw@smds.com
+
+NOT to fnerd.  Thanks.  (My fnerd mail goes through a two-day-long pipeline.)
+
+--Steve Witham
+sw@smds.com
+
+------------------------------
+
+Date: Thu, 4 Feb 93 0:21:22 SAT
+From: pvanheus@frodo.cs.uct.ac.za (P A van Heusden)
+Subject: Outlawry
+
+Hello
+
+Unsubscribe
+
+Thank you
+
+
+------------------------------
+
+Date: Wed, 3 Feb 1993 16:30:33 -0600
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: PPL: Land Ownership
+
+In <9302032152.AA23031@albert.gnu.ai.mit.edu>, Perry E. Metzger writes:
+|> > From: drw@bourbaki.mit.edu
+[...]
+|> > This may not be "natural", since none of the existing nations are
+|> > PPLs.  But then, land ownership hasn't arisen in any PPLs for the same
+|> > reason, as far as I know.
+|> 
+|> Iceland had land ownership.[Snide "old-Perry style" comment deleted]
+True, but --
+
+If the question revolves around how to do something within a
+simply-connected voluntarist community, then the Icelandic experience
+may be a good guide; but they never had more than one legal code at a
+time, so any question of what institutions might evolve in a world
+with a non-trivial free market in law can't be solved by appeal to
+Iceland.
+
+One could make a gedanken experiment of Joe's Protection Racket, which
+covers land claims, vs. Chief Seattle's Ecotopia, which doesn't, and
+show that Joe's clients come out ahead if land has value in excess of
+the cost of protecting it ...
+
+Hmm, that's what Perry said, up there in the ellipsis.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Craig Presson)
+     /
+    /  Addenda to comparative religions:
+Taoism: Shit happens.
+Rastafari: Let's smoke some shit. [...]
+Atheism: No shit.
+
+------------------------------
+
+Date: Wed, 3 Feb 93 17:33:24 EST
+From: lubkin@apollo.hp.com
+Subject: The rights of the infected
+
+In a libertarian society, what restrictions/rights should
+people with infectious diseases have?  When does their
+presence in a location or activity in some profession
+constitute an infringement of the legitimate rights of
+someone else?
+
+At one end, you have a fatal disease that is passed by
+casual contact.  On the other end, you have colds, which
+people don't hesitate to transmit to other people, and
+don't mind (much) if they get from someone else.
+
+Is it a crime for someone to knowingly give you a cold?
+VD?  AIDS?  Bubonic plague?  Is it a crime if they didn't
+know you were being exposed to it?  If they didn't know
+they had the disease?  What about being a third party
+who knowingly lets you be exposed to some infectious
+disease?  Does it matter if there's an employer/employee
+relationship, or is it ok to punish the host of a party?
+Where is the cut-line, if any, on admission to the US?
+
+This gets around to gays in the military, health care
+professions, the martial arts, etc.  Should people who
+are HIV+ be barred from locations/professions where
+there is a regular risk of blood contact, e.g., health 
+care, or where blood contact is above average, e.g., the 
+military?
+
+What about people who are high-risk for AIDS, who may
+already have AIDS but do not yet have detectable levels
+of the HIV antibody?  Such as Haitians and homosexuals.
+
+What if they're homosexual but swear that they have been
+monogamous for 10 years?  Is such a statement sufficient?
+
+... I have no answers.  My guess is that there is a
+threshold of 
+
+   (severity of disease * infectiousness * exposure *
+    foreknowledge)
+
+above which a crime has been committed.
+
+For rampant diseases like colds and flu, there is a sort
+of tragedy of the commons.  It is generally not possible
+to prove that you caught the flu from a particular
+individual, making it impossible to hold them responsible
+for their actions.
+
+But maybe there's room for class action against someone
+whose profession brings them within infectional range
+of lots of people, like a dentist or prostitute.
+
+
+-- David Lubkin.
+
+=========== lubkin@apollo.hp.com
+-------
+
+------------------------------
+
+Date: Wed, 3 Feb 93 22:43:17 GMT
+From: Richard Kennaway <jrk@information-systems.east-anglia.ac.uk>
+Subject: Outlawry
+
+Robin Hanson writes:
+> I imagine that to be allowed into most locations, from a condo complex
+> to a city to a geographic region, one would be required to declare
+> one's PPL.  The location would then have a policy about whether to let
+> you in, and what new contracts you must sign at the door to get in.  
+
+What "door" does, say, the Pacific Ocean have?  Who will enforce border
+controls over borders tens of thousands of miles long and some
+indefinite number of miles high?
+
+Where are the "doors" to New York City?  How are you going to check
+everyone who tries to enter or leave?  Mandatory identity cards,
+automatic card readers at every authorised entry point, and mines, armed
+watchtowers, and barbed wire everywhere else on the boundary?
+
+This begins to sound more and more like nation states, and particularly
+nasty ones at that.
+
+--                                ____
+Richard Kennaway                  \ _/__    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk       \X  /    University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk      \/     Norwich NR4 7TJ, U.K.
+
+------------------------------
+
+Date: Wed, 3 Feb 93 18:04:30 -0500
+From: Jim C <collins@socrates.umd.edu>
+
+help
+
+
+------------------------------
+
+Date: Wed, 3 Feb 1993 18:10 EST
+From: KMOSTA01@ulkyvx02.louisville.edu
+Subject: ECON: Zero-sum games
+
+I communicated with Robin privately until I understood what he meant
+and now will support him, but would like to ask you all to consider the
+fact that Robin, in my opinion, more or less wants you all to realize
+the economic (not just accounting) side of futures -- the speculators
+add value by assuming the risk. I just can't figure out why Robin
+insists on calling it "betting" bundling it with Las Vegas casinos,
+where risk is artificially created, while the commodities futures
+(and stocks market) risk will exist whether those markets exist or not.
+Krzys'
+
+------------------------------
+
+Date: Wed, 3 Feb 1993 18:06 EST
+From: KMOSTA01@ulkyvx02.louisville.edu
+Subject: ECON/NANO: Nanotech and Unemployment
+
+Merely counting numbers of jobs is a meaningless statistic,  and a favorite
+trick of politicians and the news media.  What is the distribution of wages
+for these jobs?  How does this relate to the concentration of wealth that
+is happening in the U.S.?
+
+Andy
+
+I think that counting the way Andy proposes is meaningless. It is definitely
+true that under Reagan (not Bush) economic freedom expanded, and jobs
+expanded as a results of that (under Bush jobs did not expand, private
+sector jobs shrunk). Concentration of wealth? The fact is that under Reagan
+the mobility from poverty upward increased. And Sam Walton and 
+Bill Gates made megamegamegabucks -- which they well earned and deserved.
+Krzys'
+
+------------------------------
+
+Date: Wed, 3 Feb 1993 18:01 EST
+From: KMOSTA01@ulkyvx02.louisville.edu
+Subject: POLI: State vs. Market Socialism
+
+Dale has a nice comment about the crime that Japanese committed against
+us, Americans, did you read it? But ... it is a good thing we taught
+the Japanese most of what they know -- before we forgot it.
+
+Actually it is not possible and not desirable for the government, and
+anyone else at that, to forbid giving values away. But, and that's a big
+BUT, I think giving money or property to someone who does not give
+anything at all in return (e.g., willing property to children who
+are unloving to us, or giving to a bum who just wants to be a bum
+and hates everybody who works, etc.) is wrong. Morally. It can't be
+made illegal, though.
+
+Krzys'
+
+------------------------------
+
+Date: Wed, 3 Feb 93 15:15:21 PST
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: Outlawry
+
+Richard Kennaway writes:
+>What "door" does, say, the Pacific Ocean have? ...
+>Where are the "doors" to New York City?  How are you going to check
+>everyone who tries to enter or leave? 
+
+Richard is right.  New York City or the Pacific Ocean may be too large
+for entrance restrictions.  Housing complexes, shopping malls, and
+private roads are not two large, however.  You should be able to limit
+your ordinary travels to within areas known to restict entry to
+certain folks.  If you travel farther abroad, however, you take on
+more risk.  Outlaws (those who have reneged on a law they signed up
+for) should have trouble getting into ritzy food joints, at the very
+least.
+
+Robin Hanson
+
+------------------------------
+
+Date: Wed, 3 Feb 1993 12:07:31 -0500 (EST)
+From: idealord <idealord@dorsai.com>
+Subject: IdEAL ORDER Psychic TV Resumes Normal Jamming Schedule
+
+I'm back from my residency at the Atlantic Center for the Arts and have 
+resumed my regularly scheduled illuminative "jamming" of the network news 
+broadcasts.  
+ 
+Specifically ->  Monday, Tuesday, Wednesday, and Friday - ABC Evening News
+             ->  Thursday - CBS Evening News
+ 
+Again - The Thursday CBS Evening News is being zapped so that skeptical 
+viewers may discern the difference between zapped and non-zapped 
+broadcasts.  
+ 
+Anyone interested in a text file about this process can email me at:
+ 
+idealord@dorsai.com
+ 
+See you on TV!  
+
+Jeff Harrington      
+IdEAL ORDER               
+idealord@dorsai.com
+
+------------------------------
+
+Date: Wed, 3 Feb 93 16:05:38 PST
+From: Robert Brooks <rb@hprrb.rose.hp.com>
+Subject: RIGHTS:Patents
+
+> elevation of the Dead Sea (-13,000 feet).  Ignoring losses, one part 
+
+                             ^^^^^^^
+My bogosity detector prompted a look into the ol' American Heritage,
+which says the Dead Sea is 1,302 feet below sea level.  So one of you
+is off by an order of magnitude.  :-)
+
+Robert
+
+------------------------------
+
+Date: Wed, 3 Feb 93 19:05:42 EST
+From: Andy Wilson <ajw@Think.COM>
+Subject: ECON/NANO: Nanotech and Unemployment
+
+   Date: Wed, 3 Feb 1993 18:06 EST
+   From: KMOSTA01@ulkyvx02.louisville.edu
+
+   Merely counting numbers of jobs is a meaningless statistic,  and a favorite
+   trick of politicians and the news media.  What is the distribution of wages
+   for these jobs?  How does this relate to the concentration of wealth that
+   is happening in the U.S.?
+
+   Andy
+
+   I think that counting the way Andy proposes is meaningless. It is definitely
+
+You did not address the point that more jobs does not translate into more 
+wealth.  What if,  in a micro-economy, you start with five jobs,  each
+paying $40,000 a year,  and then the next year you have ten jobs,  each 
+paying $20,000 a year.  Alternatively,  you have ten jobs, each paying
+$80,000 a year.  A job at McDonald's is not equivalent to a job as a 
+plastic surgeon.
+
+I'm just arguing that you need more complex measures of an economy if you
+are going to do anything more than hand-waving.  I am not arguing for or
+against the idea that wealth increased under Reagan and Bush.  I am
+arguing against supporting whatever ideological interpretations people
+have of the state of the economy with simple-minded and meaningless
+statistics.
+
+   true that under Reagan (not Bush) economic freedom expanded, and jobs
+   expanded as a results of that (under Bush jobs did not expand, private
+   sector jobs shrunk). Concentration of wealth? The fact is that under Reagan
+   the mobility from poverty upward increased. And Sam Walton and 
+
+What about the decline of the middle class?
+
+   Bill Gates made megamegamegabucks -- which they well earned and deserved.
+   Krzys'
+
+Sam Walton was a shrewd businessman,  but he did a lot to destroy the
+culture of small-town America.  In Michigan,  where I'm originally from,
+many suburbs are banning strip-mall construction in order to fight the
+creeping homogeneity that is consuming the country.  Small-town life
+is disintegrating,  and with this collapse will come the problems
+with violence and degradation that have been associated with urban
+life.
+
+Bill Gates was in the right place at the right time,  and was able to
+keep control of the situation.  But no amount of money will buy him
+the basic interpersonal skills that he sorely lacks.
+
+Neither of these guys particularly "deserve" the fortunes that they made.
+It's like saying that someone who wins at a game of poker somehow has
+some special quality that entitles them to the pot that the other players 
+didn't have.  It's a matter of social contract.  With a different set of 
+hands,  someone else probably would have won.
+
+What about Leona Helmsley,  Michael Milken or the scumbags who pulled 
+off the biggest heist in history in the savings and loan shell game?
+Did they all deserve their megamegamegabucks too?
+
+Andy
+
+------------------------------
+
+Date: Wed, 3 Feb 93 19:17 EST
+From: kqb@whscad1.att.com
+Subject: ****: Firearms Ban Sought in Internet-Distributed Petition 01/25/93
+
+>The indicated article on clarinet was about a petition drive
+>aimed at the tighter control of firearms being circulated through
+>the internet.  ...
+
+Excuse me, but I must have missed an important technological development!
+How do you circulate firearms throughout the Internet?  Doesn't the
+Internet ship only bits, not bullets?  Or perhaps, since the NSA considers
+high-powered encryption systems such as PGP to be munitions, which are
+not-to-be-exported-back-outside-the-USA-where-they-came-from-under-
+penalty-of-law, is this a drive for stopping the spread of encryption
+systems via the Internet?  8-)
+                              Kevin Q. Brown
+                              INTERNET    kqb@whscad1.att.com
+                                 or       kevin_q_brown@att.com
+"Stand back with your hands up or I'll blast you with my email!"
+
+------------------------------
+
+Date: Wed, 3 Feb 93 19:41:50 -0500
+From: pcm@cs.brown.edu (Peter C. McCluskey)
+Subject: The rights of the infected
+X-Reposting-Policy: redistribute freely
+
+ lubkin@apollo.hp.com (lubkin@apollo.hp.com) writes:
+>In a libertarian society, what restrictions/rights should
+>people with infectious diseases have?  When does their
+>presence in a location or activity in some profession
+>constitute an infringement of the legitimate rights of
+>someone else?
+
+>... I have no answers.  My guess is that there is a
+>threshold of 
+>
+>   (severity of disease * infectiousness * exposure *
+>    foreknowledge)
+>
+>above which a crime has been committed.
+
+ I suggest abandoning the boolean choice between crime and not-crime and
+replacing it with the real-valued choice of the appropriate compensation
+owed to the person who is put at risk. Then the answer is less arbitrary,
+because it reduces to the question of whether the compensation would be
+greater than the transaction costs needed to provide the compensation.
+-----------------------------------------------------------------------------
+ Peter McCluskey >> pcm@cs.brown.edu >> Eradicate global namespace pollution!
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Wed, 3 Feb 1993 19:34 EST
+From: KMOSTA01@ulkyvx02.louisville.edu
+Subject: ECON/NANO: Nanotech and Unemployment
+
+What about Leona Helmsley,  Michael Milken or the scumbags who pulled
+off the biggest heist in history in the savings and loan shell game?
+Did they all deserve their megamegamegabucks too?
+
+says Andy
+
+and adds comments about decline of middle class and how bad Sam Walton 
+was and how insignificant Bill Gates is.
+
+Clearly the entire Andy's message screams "This is how it is, do not
+give me any facts, and especially do not give me your theories".
+This kind of discussion does not make sense.
+I will just answer that nearly  e v e r y t h i n g  that Andy said in
+that message is false or misleading. I do not know if this is ill will
+or misinformation. The faults of the Reagan era are not the ones that
+Andy presented -- in fact the faults are simply that Reagan allowed 
+the tragic trends of the past to continue and let them grow their
+consequences with the growth of the economy.
+As for the wealth creation -- during those eight years an amount
+of wealth equivalent to the entire West German economy in 1980 was
+added to the U.S. economy. And Bill Gates and Sam Walton got a very small
+piece of it.
+It is in fact a miracle that we pulled it off, given the state of the 
+Social Security System, legislation that we regularly get, and the fact
+that so many Republicans had religious, not economic agenda.
+Krzys'
+
+------------------------------
+
+Date: Wed, 3 Feb 93 17:25:43 PST
+From: ald@clipper.clipper.ingr.com (Al Date)
+Subject: The rights of the infected
+
+> In a libertarian society, what restrictions/rights should
+
+> people with infectious diseases have?  When does their
+> presence in a location or activity in some profession
+> constitute an infringement of the legitimate rights of
+> someone else?
+> 
+
+Good question!  How do we apply the principle of the
+non-initiation of coercion to germs and to those who carry 
+them; that is, to matters which seem to be almost totally unrelated?
+Perhaps we dont.
+
+I think society has a right and perhaps even an
+obligation to quarantine those individuals
+who have highly-contagious fatal or debilitating diseases.  
+Drug-resistant TB comes to mind.
+
+Does this constitute a violation of the rights of the infected?
+Perhaps it does.  But there may be no reasonable alternative.   
+This is one of those emergency situations where adherence to the NIOCP 
+may not yield an acceptable outcome for the masses of people.
+
+
+--Al Date
+
+
+
+
+
+
+------------------------------
+
+Date: Wed, 3 Feb 93 18:16:41 EST
+From: drw@BOURBAKI.MIT.EDU
+Subject: Insurance fraud
+
+   Perry E. Metzger writes: 
+   >Insurance fraud, for instance, is suprisingly rare -- this because
+   >insurance companies are good at combatting it and fraudsters have
+   >little public support.
+
+In some places in Massachusetts, auto insurance fraud is a real
+problem.  For instance, in one city in Mass., the average two-car
+accident involves 5 passengers.
+
+The reason for this is a classic case of the absence of market
+feedback: A large fraction of the autos in Mass. are in the "assigned
+risk pool", which here means that an insurance company is assigned to
+handle the paperwork, claims adjusting, etc., but that the actual risk
+is borne by an insurance pool run by the state.  Since the
+investigating insurance company has no incentive to detect fraud,
+fraud proliferates.
+
+Dale
+
+Dale Worley		Dept. of Math., MIT		drw@math.mit.edu
+--
+Disclaimer: As always, I speak only for myself, and, usually, only to
+myself.
+
+------------------------------
+
+Date: Wed, 3 Feb 93 15:41:47 PST
+From: xanadu!tribble@uunet.UU.NET (E. Dean Tribble)
+Subject: DEF: Revolution
+
+	 One small problem with that.  The change from the Ptolomaic system of
+	 astronomy to the Copernican system of astronomy is often called the
+	 Copernican revolution.  This was not a governmental change...
+
+It did have a lot to do with revolutions, however....
+
+:-) :-)
+dean
+
+------------------------------
+
+Date: Wed, 3 Feb 93 18:19:21 EST
+From: drw@BOURBAKI.MIT.EDU
+Subject: PPL: Many Types of Intellectual Property Are Not Protected
+
+   From: xanadu!tribble@uunet.uu.net (E. Dean Tribble)
+
+   Countries are not competing freely.  US uses serious strong-arm
+   tactics (economic pressure, political pressure backed by coercive
+   force, etc.) to get other countries to buy into the US implementation
+   of intellectual property.
+
+Unless I missed something, the US isn't using military threats against
+any of the trading partners that matter for intellectual property
+protection.  (Mostly Europe, Japan, and China.)  The remaining tactics
+(economic pressure, tariffs, and political pressure) seem to me to be
+strong-arm, yes, but no more coercive than what one company would do
+to another in an ideal market economy.  "Do business this way or I
+won't do business with you" is perfectly acceptable...
+
+Dale
+
+Dale Worley		Dept. of Math., MIT		drw@math.mit.edu
+--
+The most common given name in the world is Mohammad;
+the most common family name in the world is Chang.
+Can you imagine the enormous number of people in the
+world named Mohammad Chang?		-- Derek Wills
+
+------------------------------
+
+Date: Wed, 3 Feb 93 16:48:10 PST
+From: tribble@xanadu.com (E. Dean Tribble)
+Subject: ECON: Zero-Sum Games
+
+	 O.K., I've read up a bit on game theory and want to modify my previous
+	 position.  A zero-sum game is defined as one where there is some way
+	 to rescale and rezero each player's utilities, such that for every
+	 possible combination of strategies that the different players could
+	 choose, the expected utilities of the players after the game sum to
+	 zero.  
+
+Bummer.  I really prefer my intutions about zero/positive/negative sum
+games.  On considering the Prisoner's Dilemna, it's clear that it's
+not zero-sum, so that set is still in place.  What would be a good
+definition of positive/negative-sum in this context?
+
+The above generalization seems adaptable to handle expected values of
+probablistic payoofs, but I can't phrase it.
+
+dean
+
+------------------------------
+
+Date: Wed, 3 Feb 93 15:45:49 PST
+From: xanadu!tribble@uunet.UU.NET (E. Dean Tribble)
+Subject: I&A: Help Bust Entropic Patent
+
+Just to show that there's already better stuff....
+
+There's also a really cool DOS extension (I believe) for sale on AMIX
+that does pattern recognition on what you're typing and tries to guess
+what the next phrase you're going to type is.  It puts it under your
+cursor, and if you notice it and it's right, you just hit tab or some
+such.  I understand it is pretty astonishing.
+
+dean
+
+------------------------------
+
+Date: Wed, 3 Feb 93 15:58:56 PST
+From: tribble@xanadu.com (E. Dean Tribble)
+Subject: [markets!uunet!starr.com!alta: How to e-mail the White House]
+
+Hi Folks,
+
+	The following is NOT a joke.  It is a real service being
+provided by President Clinton.  If you feel you have something to  
+say,
+send them a letter.  I heard they will reply to most messages.
+
+ From: The White House <75300.3115@compuserve.com>
+
+          As you know, this is the first time in history that the
+White House has been connected to the public through electronic mail.
+We welcome your comments and suggestions for ways to improve your
+Public Access E-mail program.
+
+      Jock Gill
+      Electronic Publishing
+      Public Access E-mail
+      The White House
+      Washington, D.C.
+
+      75300.3115@Compuserve.com
+      CLINTON PZ on America Online
+
+------- End of Forwarded Message
+
+
+
+
+
+
+------------------------------
+
+Date: Wed, 3 Feb 93 17:00:04 PST
+From: xanadu!tribble@uunet.UU.NET (E. Dean Tribble)
+Subject: ECON/NANO: Nanotech and Unemployment
+
+	 Neither of these guys particularly "deserve" the fortunes that they made.
+	 It's like saying that someone who wins at a game of poker somehow has
+	 some special quality that entitles them to the pot that the other players 
+
+This suggests to me that you haven't participated in the herculean
+efforts that it takes to ship products, to keep up with a market, to
+run a publicly traded company, etc.  All luck gets you is the
+opportunity to walk the hairy edge of completely draining yourself on
+a vision.
+
+	 Bill Gates was in the right place at the right time, and was able to
+	 keep control of the situation.  But no amount of money will buy him
+	 the basic interpersonal skills that he sorely lacks.
+
+I don't have any particular opinion of him except that I wouldn't
+trust him in a business deal, but frankly, why should be bother?  It
+would be wonderful if he was also cool, but he certainly doesn't need
+to be.  Imagine if everyone you meet just wanted your money, and
+didn't really care about you.  What would your attitude towards people
+tend to be?
+
+BTW I do know people that have interacted with him as a person, and
+didn't have a problem with him at all.  Also, I'm by no means a fan of
+either microsoft or bill gates.  I just like people to keep such
+things in perspective.
+
+dean
+
+
+------------------------------
+
+Date: Wed, 3 Feb 93 15:49:21 PST
+From: xanadu!tribble@uunet.UU.NET (E. Dean Tribble)
+Subject: The rights of the infected
+
+At a couple of places where telecommuting was common, people pretty
+quickly evolved the convention that coming into the office when you're
+sick is just extremely rude (as opposed to heroic).
+
+dean
+
+------------------------------
+
+Date: Wed, 3 Feb 93 22:54:30 EST
+From: drw@BOURBAKI.MIT.EDU
+Subject: PPL: Iceland
+
+   From: extr@jido.b30.ingr.com (Craig Presson)
+
+   If the question revolves around how to do something within a
+   simply-connected voluntarist community, then the Icelandic experience
+   may be a good guide; but they never had more than one legal code at a
+   time, so any question of what institutions might evolve in a world
+   with a non-trivial free market in law can't be solved by appeal to
+   Iceland.
+
+Iceland is an interesting example...  People seem to be holding it up
+as an example of "private law", a PPL, but for some reason, it leaves
+me cold.  I can't exactly explain why, but it seems much more like the
+"customary law" of pre-state-level societies than a voluntary, binding
+contractual obligation undertaken by a bunch of otherwise autonomous
+individuals.  I'm sure that this can be argued both ways, but I think
+the following bears scruitiny: to the extent that the decisions of the
+Althing were practically binding on anyone, they were binding on
+everyone.  (There was no special class of people who were recognized
+to have "opted out" of the Althing, and who had a greater practical
+ability to defy the Althing than anyone else did.)
+
+Dale
+
+Dale Worley		Dept. of Math., MIT		drw@math.mit.edu
+--
+It is easier to get forgiveness than permission.
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0047
+****************************************
+

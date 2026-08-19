@@ -1,0 +1,1011 @@
+From extropians-request@gnu.ai.mit.edu Mon Jun 28 12:20:08 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA25078; Mon, 28 Jun 93 12:20:04 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA04132; Mon, 28 Jun 93 12:19:59 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA26959@wookumz.gnu.ai.mit.edu>; Mon, 28 Jun 93 15:02:42 -0400
+Message-Id: <9306281902.AA26959@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Mon, 28 Jun 93 15:02:09 -0400
+X-Original-Message-Id: <9306281902.AA26942@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0361
+X-Extropian-Date: Remailed on June 28, 373 P.N.O. [19:02:41 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Mon, 28 Jun 93            Volume 93 : Issue 0361
+                        
+Today's Topics:
+                         AIT VirtSem: "Information"                   [2 msgs]
+                       AIT VirtSem: Interesting Tidbit                [1 msgs]
+                 AIT VirtSem: The Game of "Go" as an Example          [3 msgs]
+                                  DIET: CoQ                           [1 msgs]
+                         DIET: Metabolic stimulators                  [1 msgs]
+                   EVOLUTION/DIET: What proto-hominids ate            [1 msgs]
+                                   Fermat                             [1 msgs]
+                                Flying snakes                         [3 msgs]
+                       Jurassic Park (Electric fences)                [1 msgs]
+                            Jurassic Park (again)                     [1 msgs]
+                              Linguistics in SF                       [2 msgs]
+                          MEDIA: B: _Jurassic_Park_                   [2 msgs]
+               Most compute intensive problem solved so far ?         [2 msgs]
+                          NANO:Critiques of Drexler                   [2 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50248 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 28 Jun 93 01:28:29 -0700
+From: davisd@pierce.ee.washington.edu
+Subject: Jurassic Park (Electric fences) 
+
+Tim May takes issue with my claim that the boy should not have been
+shocked.
+
+> If this is always so, then people could easily get over electrified fences
+> by simply leaping onto them (very carefully), by placing wooden or
+> insulating steps near the fence, or by wearing rubber-soled shoes, and then
+> by leaping off on the other side. (I don't believe such is the case.)
+
+I thought of this too. I assumed the fences contained lines with
+different voltages.
+
+> I confess to not knowing the exact way electrified fences work, but I don't
+> think they can be circumvented just by preventing a good ground. 
+
+I don't know either. I suppose it could be that a charge builds up on
+anything that touches the line, so that there is a transient current
+net flow into the offending object. Or that the object acts as a
+transmission line through which a voltage pulse travels. This would
+explain the eagles, at least.
+
+If anybody knows for sure, don't be shy. (Everyone here is so reticent
+about sharing their opinions.)
+
+> It may be that different wires of the fence carry different voltages, or
+> a.c. out of phase, in which case the Jurassic Park kid was standing on one
+> wire and holding another wire with his hands...plausible then, for all
+> these reasons, that he'd be zapped.
+
+Except that there were wires between all the lines, which would have
+shorted if the lines were at different voltages. Without all those
+wires, they could have just crawled between the main lines, instead of
+climbing over the whole thing.
+
+Buy Buy -- Dan Davis
+
+
+
+
+------------------------------
+
+Date: Mon, 28 Jun 93 5:08:44 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: AIT VirtSem: Interesting Tidbit
+
+   Could elementary physics really be this logically deep? And will it
+get deeper the further we probe?
+
+[heh. They could have computed the 8 masses faster by generating random
+numbers]
+
+   Read on:
+
+Newsgroups: comp.sys.super,comp.parallel,comp.theory
+From: richard.muise@acadiau.ca (Richard Muise)
+Subject: Re: Most compute intensive problem solved so far ?
+Message-ID: <1993Jun24.124013.26067@hubcap.clemson.edu>
+Apparently-To: uunet!comp-parallel
+Sender: fpst@hubcap.clemson.edu (Steve Stevenson)
+Organization: Acadia University
+Follow-Up: comp.parallel
+
+hai@hpfcla.fc.hp.com (Hai Vo-Ba) writes:
+
+>Eugene N. Miya (eugene@nas.nasa.gov) wrote:
+>: In article <1993Jun21.030739.7046@julian.uwo.ca> perwaiz@gfx.engga.uwo.ca
+>: (Jim Perwaiz) writes:
+>: >What is the MOST COMPUTER INTENSIVE problem
+>: >that has been numerically solve on a computer so far?
+
+>	Saw this on page 23 of the July '93 Scientific American:
+[deleted S.A. article, which was correct]
+
+>From Hpcwire newsletter, May 21, 1993:
+
+	IBM's GF-11 Completes Largest Computer Calculation Ever
+
+A year-long calculation on an experimental IBM supercomputer has provided
+the strongest evidence yet that quantum chromodynamics is the correct des-
+cription of the properties and behavior of nautre's most fundamental subnuclear
+particles.
+	Researchers at the IBM Thomas J. Watson Research Center performed the
+calculation on GF-11, a massively parallel computer that was designed and built
+by IBM specifically for the task. The calculation was so enormous --
+more than One Hundred Million Billion arithmetic operations -- that it
+required a full year of continuous operating time on as many as 480 of GF-11's
+566 processors.
+
+{to paraphrase the rest, the calc. was to find the masses of eight elementary
+particles, which, when the calc was done, matched the values found in 
+experiments. A technical description of the work appeared in the May 10th
+issue of "Physical Review Letters". The GF-11 has a peak of 11 GFLOPS, and
+sustained at 5-7 GFLOPS.}
+
+Hope that helps..
+richard
+
+-- 
+Friends : Don't Let Friends Do DOS !	
+	881045m @ dragon.acadiau.ca
+       	881045m @ ace.acadiau.ca
+
+Newsgroups: comp.sys.super,comp.parallel,comp.theory
+From: hai@hpfcla.fc.hp.com (Hai Vo-Ba)
+Subject: Re: Most compute intensive problem solved so far ?
+Message-ID: <1993Jun22.202158.8230@hubcap.clemson.edu>
+Apparently-To: comp-parallel@ncar.ucar.edu
+Sender: news@hpfcla.fc.hp.com (news daemon)
+Nntp-Posting-Host: hpeshai.fc.hp.com
+Organization: Hewlett-Packard Fort Collins Site
+Follow-Up: comp.parallel
+
+Eugene N. Miya (eugene@nas.nasa.gov) wrote:
+: In article <1993Jun21.030739.7046@julian.uwo.ca> perwaiz@gfx.engga.uwo.ca
+: (Jim Perwaiz) writes:
+: >What is the MOST COMPUTER INTENSIVE problem
+: >that has been numerically solve on a computer so far?
+: 
+: >From what I know of classified sites, and I do not have a clearance,
+: I suspect that if you have to ask, you have no "need-to-know."
+: I have heard some pretty amazing figures.  Just look for the sites with
+: dedicated machines.  You will need to amend your
+: Subject: Re: Most compute intensive unclassified problem solved so far ?
+
+	Saw this on page 23 of the July '93 Scientific American:
+
+  "...
+    Weingarten and his IBM colleagues Frank Butler, Hong Chen, Jim Sexton
+  and Alessandro Vaccarino turned to GF-11, a massively parallel computer
+  they helped to develop for QCD [quantum chromodynamics] calculations. The
+  nomenclature refers to the maximum speed of the calculations: 11 gigaflops,
+  where a flop is a floating decimal point operation per second. To obtain
+  hadron masses, the researchers ran the GF-11 for more than a year at a
+  sustained rate between five and seven gigaflops.
+  ..."
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Mon, 28 Jun 93 11:43:38 BST
+From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+Subject: DIET: Metabolic stimulators
+
+Someone wrote:
+>I've seen a couple of articles recently praising the efficiency of a metabolic
+>stimulant/thermogenesis stimulant. This is apparently an herbal combiation tha
+>is available in Britain but not in the US. One reference gives the contents
+>as 44 mg ephedrine, 60 mg caffine, 100 mg theophylline, but nothing I have
+>gives the daily dosage....
+>Anyone here have any more information on this comtination?
+
+As someone in Britain who habitually shivers in temperatures others seem
+to consider warm, I'd be most interested in further details.  Is there a
+brand name, or is this something you have to mix up yourself?
+
+--                                  ____
+Richard Kennaway                  __\_ /    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk      \  X/     University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk    \/       Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Mon, 28 Jun 1993 06:04:56 -0600 (MDT)
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: Jurassic Park (again)
+
+Quoth Timothy C. May, verily I saith unto thee:
+> 
+> Dan Davis writes about the boy getting zapped on the electrified fence:
+> 
+
+[and had a good concise rant about the movie too, I'd say! Add to the PC list:
+  Lonerism bad, loving kids (having the breeder attitude) good] 
+
+> >The boy should not have been shocked at all. He was not grounded.
+> >Didn't you ever see a pidgeon on a high voltage line? Do they get
+> >shocked?
+
+> If this is always so, then people could easily get over electrified fences
+> by simply leaping onto them (very carefully), by placing wooden or
+> insulating steps near the fence, or by wearing rubber-soled shoes, and then
+> by leaping off on the other side. (I don't believe such is the case.)
+
+I think you are correct. I was going to point this out before, but I'm
+overposting lately.
+
+> Also, while some birds may roost safely on high-tension lines, others are
+> killed on _contact_....the eagle and condor population is dwindling partly
+> due to them landing on such high-tension wires. (And I don't think it's
+> because their wingspread was such as to short out two wires....)
+
+Actually that's EXACTLY why.  You your self could go hang on a power line
+if you wanted to.  Just don't touch ANOTHER one while doing so!
+I saw a docu on eagles that went into this in some detail, and called for
+some sort of insulation, so they don't all fry themselves.
+ 
+> It may be that different wires of the fence carry different voltages, or
+> a.c. out of phase, in which case the Jurassic Park kid was standing on one
+> wire and holding another wire with his hands...plausible then, for all
+> these reasons, that he'd be zapped.
+
+That's what I thought, and Dan too.  Seems to me the ONLY way he could've
+been ejected from the fence like that is if he HAD let go just right that
+that very moment, then the arc might have had the force to do that (not
+QUITE that grandly of course), and that would still allow for the burns
+(his hands were bandaged later in the film).  ANYWAY... 
+
+-- 
+Stanton  McCandlish   * Space Migration * Networking * ChaOrder * NO GOV'T. *
+anton@hydra.unm.edu   * Intelligence Increase * Nano * Crypto * NO RELIGION *
+FidoNet:    1:301/2   * Life Extension * Ethics * VR * Now! * NO MORE LIES! *
+Noise in the Void BBS * +1-505-246-8515   (24hr, 1200-14400, v32bis, N-8-1) *
+
+------------------------------
+
+Date: Mon, 28 Jun 93 10:04:39 EST
+From: Harvey Newstrom <hnewstrom@hnewstrom.ess.harris.com>
+Subject: DIET: CoQ
+
+>From my book _Nutrients Catalog_, to be published by MacFarland this summer...
+
+Names
+vitamin Q10, coenzyme Q10, CoQ10, CoQ, ubiquinone(50), ubichromenol(50),
+mitoquinone, SA, Q-275, 272-substance, coenzyme Q199, ubidecarenone, NSC 
+I40865,
+Adelir, Heartcin, Inokiton, Neuquinone, Taidecanone, Udekinon
+
+Classification
+lipid-soluble vitamin, coenzyme, antioxidant
+
+Forms
+ubiquinone(50), ubichromenol(50)
+
+Deficiency
+(No nutritional requirement in rats, mice, or walleyed pike, yeasts or
+microorganisms.)
+deterioration of heart function, cardiac deterioration, heart disease, angina
+pectoris, decreased cell energy from mitochondria, fatigue, decreased serum
+levels of coenzyme Q10, high blood pressure, gum disease, gingivitus, bleeding
+gums, decreased immunity, decreased levels of immunoglobulin/antibody G,
+nervousness, digestion deterioration, stomach ulcers, bruises
+
+Side-effects
+none known
+
+Toxicity
+none known up to 1000mg
+
+Inhibitors
+laxatives, mineral oil
+
+Helpers
+vitamin A, vitamin E, vitamin K, selenium
+
+Sources (mg per 100 grams of food)
+soybean oil(9.2+/-0.05), rapeseed oil(7.3+/-0.05), butter(7.1+/-0.05),
+sardine(6.4+/-0.05), mackerel(4.3+/-0.05), egg(3.7+/-0.05), sesame
+oil(3.2+/-0.05), beef(3.1+/-0.05), peanuts(2.7+/-0.05), pork(2.4+/-0.05), 
+sesame
+seeds(2.3+/-0.05), cattlefish(2.3+/-0.05), chicken(2.1+/-0.05),
+cheese(2.1+/-0.05), horse mackerel(2.0+/-0.05), yellowtail(2.0+/-0.05),
+pistachios(2.0+/-0.05), walnuts(1.9+/-0.05), hazelnuts(1.7+/-0.05), cottonseed
+oil(1.7+/-0.05), chestnuts(1.4+/-0.05), almonds(1.4+/-0.05), corn
+oil(1.3+/-0.05), eel(1.1+/-0.05), spinach(1.0+/-0.05), perilla 
+leaf(1.0+/-0.05),
+broccoli(0.86+/-0.005), rapeflower(0.74+/-0.005), green raw
+soybeans(0.58+/-0.005), flatfish(0.55+/-0.005), rice bran(0.54+/-0.005),
+sunflower oil(0.42+/-0.005), olive oil(0.41+/-0.005), safflower
+oil(0.40+/-0.005), sweet potato(0.36+/-0.005), wheat germ(0.35+/-0.005), sweet
+pepper(0.33+/-0.005), kinako(0.31+/-0.005), boiled soybeans(0.29+/-0.005), 
+azuki
+beans(0.22+/-0.005), carrot(0.22+/-0.005), dry soybeans(0.21+/-0.005),
+natto(0.21+/-0.005), eggplant(0.21+/-0.005), cabbage(0.16+/-0.005),
+millet(0.15+/-0.005), cauliflower(0.14+/-0.005), buckwheat(0.13+/-0.005),
+chinese cabbage(0.10+/-0.005), potatoe(0.10+/-0.005), lard(0.10+/-0.005), Job's
+tears(0.07+/-0.005), milk(0.04+/-0.005), lard, internal conversion of
+vitamins/coenzymes Q7, Q8, Q9, and possibly others), internal synthesis from
+vitamin E
+
+Applications
+heart disease, heart attack, angina pectoris, increased blood pressure,
+decreased oxygen, blood clotting, stroke, antioxidant therapy, free radical
+oxidation, life span extension, radiation, decreased radiation resistance,
+aging, leukemia, some forms of cancer, chemotherapy, Adriamycin treatments for
+cancer, gum diseases, bleeding gums, gingivitus, weight increased, immune 
+system
+deficiencies, AIDS, muscular dystrophy, multiple sclerosis, Alzheimer's 
+disease,
+schizophrenia, skin lesions, stomach ulcers, allergies, asthma
+
+Daily Dosage
+1989 SADDI:  none
+1989 RDA:  none
+1989 USRDA:  none
+Nutritional:  10-50mg
+Therapeutic:  100-200mg
+Experimental:  500-1000mg
+Toxic:  none known up to 1000mg
+
+__
+Harvey Newstrom   (hnewstrom@hnewstrom.ess.harris.com)   Voice: (407)727-5176
+Harris Corp., Box 37, MS 15-8874, Melbourne, FL  32902     FAX: (407)727-6611
+
+
+------------------------------
+
+Date: Mon, 28 Jun 1993 11:02:18 -0400
+From: tburns@gmuvax.gmu.edu (T. David Burns)
+Subject: Fermat
+
+At  8:46 PM 6/27/93 -0700, D. Anton Sherwood wrote:
+> "cannot be disproven" would be equivalent to "true"; 
+
+Godel showed 'undecidable' represents a third possibility. It seems
+unlikely to me that Fermat's last theorem would be undecidable, but I felt
+like picking nits. :-)
+tburns@gmuvax.gmu.edu (T. David Burns)
+
+
+------------------------------
+
+Date: Mon, 28 Jun 1993 09:01:51 -0400
+From: Rens Troost <rens@stimpys.IMSI.COM>
+Subject: Linguistics in SF
+
+A recent book "Snow Crash" could be described as being about memetic
+bombs, although not quite. It's really good, anyway; standard
+"cyberpunk" trappings, good execution.  Does anyone know the author's
+name? 
+
+-Rens
+
+------------------------------
+
+Date: Mon, 28 Jun 93 9:57:37 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: AIT VirtSem: The Game of "Go" as an Example
+
+Yikes!  Busy weekend for the seminar!
+
+This talk of Go, evolution, and complexity is very interesting.
+I'd like to try to add a couple of thoughts.
+
+First, the mention of opponent strategy is quite important.  In
+chess, a widely-believed conjecture (not universally believed,
+but widely) is that were the entire game tree to be searched with
+minimax, it would turn out that the game is a draw under optimal
+strategy.  If this is true, then how are we to define the fitness
+"landscape" of chess programs?  One way would be to compare its
+performance to that of (any) optimal strategy.  But to me this
+seems unreasonable because the program will never be asked to play
+against the optimal strategy.  A better measure is probably how well
+it does against its opponents -- human beings and machines with
+limited computational resources.  In this case, good strategy depends
+on the strategy of opponents and is a collection of empirically-discovered
+strategy and tactical "rules" (Tim's shelf of Go books).  Go is a
+better example of this than chess, because chess machines have overtaken
+all but the best handful of humans by being brute force tree searchers.
+This approach hasn't (yet) proven best for Go.
+
+The Options for playing good chess/Go:
+  * short program, long running time
+  * long program, shorter running time
+
+On Tim's program size/running time graph, the set of "good" go players
+form a curve that asymptotes to each axis in the limit -- simple tree
+search given humongous computing resources, and simple table lookup
+given humongous program size.
+
+The important points about this:
+  * All "complex" "functionalities" will exhibit this property
+  * Physical complexity or program complexity are required for high
+    performance given computational constraints.  Since the physical
+    world has such constraints, it's not surprising to see evolutionary
+    processes generate complex physical structure, chasing the low-compute-
+    time branch of the curve.
+  * The structure of the curve in the tradeoff region is quite important.
+  * Evolution is limited in what parts of the space it will search.
+    It may be that a nanotech frog will be a superior sort of frog
+    and have less "complexity" -- but natural processes of evolution
+    (biological or perhaps even industrial) won't find it.
+  * The nature of that curve is exactly what Bennett begins to
+    characterize with his Logical Depth definition, though the fit
+    is only partial.  Consider the logical depth of a "good" strategy
+    for playing Go or doing what a Frog does (including its "trivial"
+    reproduction skills).  Our "strings" are some encoding of the
+    good strategies.  If we were to graph Bennett's logical depth as
+    running time vs his parameter 's' (roughly, program size) of all
+    the elements of the set, we should get a graph similar to the one
+    described above.
+
+A further note on complexity, implied by the above.  I'm starting
+to believe that maybe the "classical" AIT view of complexity may
+be the appropriate one for living things after all.  In the past
+I've argued that the incompressibility version of complexity doesn't
+work because it would imply a the post-blender frog is more complex
+that the pre-blender frog -- in conflict with intuition.  However,
+if we can somehow attach the stipulation that the object under study
+exists on a complex fitness landscape (synonymous with the above
+"complex" "functionality") with high fitness, the post-blender frog
+has high complexity as fertilizer, but isn't much of a frog!
+
+derek
+then again, neither am I...
+
+
+------------------------------
+
+Date: Mon, 28 Jun 93 10:06:56 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: AIT VirtSem: "Information"
+
+Hal Finney:
+
+> No doubt the optimal Go strategy is very complex, probably beyond human
+> comprehension.
+
+Two optimal strategies:  exhaustive search and table lookup.  Simple as pi.
+
+Achievable strategies: no such thing as optimal.  Good ones will be
+complex, though!  If playing against humans, it should exploit human
+computational limits (STM, etc), analyze the opponent's apparent search
+patterns to see what will be unexpected... a good Go player (vs humans)
+will be among other things a decent cognitive psychologist, which is
+sure complex!
+
+derek
+
+------------------------------
+
+Date: Mon, 28 Jun 93 10:23:59 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: AIT VirtSem: "Information"
+
+Tim May:
+
+> I share Hal's hopes--and those of Nick Szabo and Derek Zahn, I think--that
+> this stuff may give us a handle on the complexity of life and
+> self-reproducing systems.
+
+Yes.  In this vein, I'd like to refine a bit the problems involved in
+deciding how big the "program" for my pre-blender frog would actually
+be.  That is, despite its having more structure than the post-blender
+frog, it's still made up of lots of "random" pieces at the micro-scale.
+
+There are two takes on this that I can think of.  First, we can
+look at phase space volumes.  That is, instead of the exact positions
+of individual particles being requred for a "specification", we
+could think of volumes of phase space that are "equivalent" to
+the current configuration in terms of the position of the frog on
+the frog's fitness landscape and reduce the complexity by factoring
+out such equivalence.
+
+Alternatively, we can use the frog's genome, but that route seems
+to be fraught with difficulty -- but very interesting difficulty!
+The problem is that physics isn't a turing machine -- it's not
+even close.  The clean notion of logical depth depends to a large
+extent on the finite (simple!) control of the machine.  I'd like
+to define the parameters of a general "Darwin Machine" that would
+be laid out with the analytical clarity of the TM; this would allow
+us to pin down the idea of evolutionary computation and tie it
+formally to Logical Depth.  Unfortunately, a DM has a fantastically
+complex control structure which makes it much more difficult to
+treat with the same analytical style as the TM.  Frown.
+
+derek
+
+------------------------------
+
+Date: Sunday, 27 June 1993 22:48:43 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: AIT VirtSem: The Game of "Go" as an Example
+
+In <9306280042.AA18344@wookumz.gnu.ai.mit.edu>, hfinney@shell.portal.com wrote:
+
+> You then run this program for 10^12 cycles, or whatever, and you
+> print the program of the most fit agent.  The result will be a very good
+> Go program, one which presumably encodes most of the complexity of the
+> game.
+> 
+> So, I have just described, in two sentences, a program which will derive
+> a near-optimal Go strategy.  This could be coded up in probably a few
+> hundred thousand bits at most.  
+
+This seems unlikely, in that no one has managed to produce a truly good go 
+program, and if someone does then it seems likely that they have made a 
+significant contribution towards true AI.
+
+> Intuitively it seems unlikely that the GA would fail to produce a good
+> Go program.  If a very good Go player could in fact be produced in this
+> way, it would challenge the applicability of the AIT measure of complexity
+> to evolutionary processes.
+
+Your intuition is remarkably different from mine.  I think that to evolve
+a go program in this way we would need to start from agents that had some
+unobvious secret magic ingredient, and that we have no idea what that secret
+magic ingredient is, or we would have to start them in a special environment
+that would enable them to evolve that secret magic ingredient, before we
+applied them to evolving the capacity to play go.
+
+The method you describe of evolving programs - start of from random stuff 
+and then throw them in at the deep end - will always evolve them 
+to a local optimum.  I would expect that in the case of a hard problem 
+like go, the local optimum is trivial.
+
+It is likely that to obtain AI capabilities by evolving them it would
+be necessary to evolve them against an enormous variety of problems 
+for a very long time and to evolve both the hardware and the software.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Fri, 25 Jun 93 08:46:22 PDT
+From: "Mark W. McFadden" <mwm@wwtc.timeplex.com>
+Subject: MEDIA: B: _Jurassic_Park_
+
+On Sun, 27 Jun 93 01:59:15 -0700, Jay R. Freeman wrote:
+ (in answer to Stanton McCandlish)
+>> Why frog DNA?  At least lizard DNA would've matched a little better.
+>
+>Yes.
+
+ If I remember correctly, frog DNA was used only because it's been exhaustively
+mapped, but lizard DNA has not. And white lab rats and fruit flies (the other
+big contenders in the mapping competition) are even farther from dinos than
+frogs. Besides, froggy predilictions for gender-bending and parthenogenesis
+provide built-in plot complications.  
+
+ I'm picking up on a decidedly icky-poo tone vis-a-vis Michael Crichton from
+this and other lists. The guy *understands* the science, he just ignores it
+when it would make a plot complication go away. This much is obvious from a 
+brief perusal of his books. The end result will be even more interest in
+dinosaurs and cloning. Now that the public has "seen" successful cloning, the
+meme is out, expect research to be viewed positively ("we could make dinos!")
+rather than the usual "there are some things Man was not meant to..." blah
+blah blah.
+ 
+>> there was no reason in hell to clone carnivorous dinosaurs.
+>
+>I'd pay more to see _T._rex_ than to see _J._random_veggiesaurus_.
+>
+>                                          -- Jay Freeman
+
+ Second that.
+______________________________________________________________________
+                                   |
+   Mark W. McFadden                |     Been there.....done that.
+   mwm@wwtc.timeplex.com           |
+                                   |     
+___________________________________|__________________________________
+I wasted time and company money writing this. I hope your list software
+doesn't discard it.
+
+------------------------------
+
+Date: Fri, 25 Jun 93 09:03:50 PDT
+From: "Mark W. McFadden" <mwm@wwtc.timeplex.com>
+Subject: MEDIA: B: _Jurassic_Park_
+
+On Sun, 27 Jun 1993 18:02:38 -0600 (MD, Stanton McCandlish wrote:
+
+>
+>Anyway, this is part of the "Alien syndrome".  No matter how dangerous
+>those snacks are, the repitilian horrors go after them incessantly, and
+>show NO intelligence whatsoever, EXCEPT where it helps them get to the
+>noisy primate twinkies. This was especially silly in the Alien movies,
+>since the aliens were supposed to be MORE intelligent than us, and had a
+>hell of a spacecraft. 
+>
+ Hi, me again. The Aliens were not the beings that built the original 
+spacecraft. Remember when the crewmen find an ancient dessicated "pilot" 
+with it's chest burst open? Hard to see and interpret what with all the 
+Giger design and Scott lighting, but it was there. The Aliens were stowaway 
+parasites , hibernating and waiting.......
+______________________________________________________________________
+                                   |
+   Mark W. McFadden                |     Been there.....done that.
+   mwm@wwtc.timeplex.com           |
+                                   |     
+___________________________________|__________________________________
+I wasted time and company money writing this. I hope your list software
+doesn't discard it.
+
+------------------------------
+
+Date: Mon, 28 Jun 93 10:56:49 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: AIT VirtSem: The Game of "Go" as an Example
+
+James A. Donald, replying to Hal Finney:
+
+> > Intuitively it seems unlikely that the GA would fail to produce a good
+> > Go program.  If a very good Go player could in fact be produced in this
+> > way, it would challenge the applicability of the AIT measure of complexity
+> > to evolutionary processes.
+> 
+> The method you describe of evolving programs - start of from random stuff 
+> and then throw them in at the deep end - will always evolve them 
+> to a local optimum.  I would expect that in the case of a hard problem 
+> like go, the local optimum is trivial.
+
+I largely agree with this, and think that it is an issue of tremendous
+importance for the development of Genetic Programming beyond its
+current state.  Despite all the enthusiasm for it, GP still hasn't
+solved more than the usual toy AI problems.
+
+Here's what I think the difficulty is:  the genetic algorithm works
+for the following reason:  through the process of fitness-proportional
+reproduction, gene combinations called "schemata" are reproduced
+in such a way that the better schemata get exponentially-increasing
+representation in the population of individuals.  This happens without
+the unreasonably burdensome explicit bookkeeping of schemata fitness.
+John Holland proved this.  He also proved that this is exactly what
+we'd want to do to maximize the expected return, given that the
+schemata are independent.
+
+This independence assumption is referred to as the "Building Block
+Hypothesis" (BBH).  When it holds, GA is a very efficient at climbing to
+really good solutions.  When it doesn't, it bombs.  Problems where
+the Building Block Hypothesis doesn't hold are called "deceptive".
+
+It seems to me that the "schemata" of genetic programming flagrantly
+violate the BBH.  The relationship between program fragments is much
+more complex than an independence assumption can be comfortable with.
+Look at the problems to which GP has been applied -- symbolic
+regression, truck backing-up, etc.  Most of these have small solutions
+that are constructed as combinations of partially-successful complete
+solutions.  That's not the way to build a complex program.
+
+Possible solutions:
+
+ 1) (as James implies): Guided evolution, through intermediate stages
+    of increasing difficulty.  Our explorations into complexity may
+    shed some light on how to do this, by giving us a handle on
+    problem difficulty.  We evolved in a similar way, though there
+    was no guiding hand as far as we know -- just a naturally increase
+    in the complexity of fitness landscapes caused by environmental
+    diversity.
+
+ 2) Despite the independence problems, there still is a (weak)
+    correlation between useful schemata and the fitness of the
+    organisms that incorporate them.  If we merely increase the
+    size of the population and run it longer, these correlations
+    should win out eventually.  The key questions are how big and
+    how fast.
+  
+ 3) We can redefine the schemata, either by changing the semantics
+    of the "language" being interpreted, or changing the genetic
+    operators and reproduction mechanisms that alter schema
+    concentrations in the population.
+  
+ 4) We can change the fitness functions to encourage interesting
+    behavior even if the organism itself doesn't perform well.
+    This could most effictively be done (IMO) with multidimensional
+    fitness measures.  Hill climbing has no real difficulty if the
+    fitness surface is multi-dimensional.
+
+derek
+nah, it's hopeless
+
+------------------------------
+
+Date: Mon, 28 Jun 1993 09:12:10 -0700 (PDT)
+From: Scott C DeLancey <delancey@darkwing.uoregon.edu>
+Subject: EVOLUTION/DIET: What proto-hominids ate
+
+> > Stanton McCandlish says:
+> > > Counter-challenge.  Find me any truly "pure vegan" culture.  Period.
+> > 
+> > The Jains.
+> 
+> Yup.  Same example I'd have picked.
+
+OK, but is this a useful example?  Why is this an interesting question
+in the first place?*  To show that people can survive and live healthy
+and active lives without eating meat?  We know that already.  The point
+of looking for vegetarian "cultures" is to show that not eating meat is
+to some extent a natural human behavior.  IMO the Jains won't do for
+that, since their vegetarianism is religiously motivated.  We could as
+well bring up the Shakers (or those 19th century upstate NY communalists
+whose name I forget) as "cultures" that did without sex.
+
+Does anybody have another candidate?
+
+Scott DeLancey			delancey@darkwing.uoregon.edu
+
+*If your answer is, "It isn't", I could easily be persuaded to agree.
+
+
+
+------------------------------
+
+Date: Mon, 28 Jun 1993 11:37:47 -0500 (CDT)
+From: Mike McClaskey <mmcclask@bigcat.missouri.edu>
+Subject: Linguistics in SF
+
+"Snow Crash" was written by Neal Stephenson.  IMHO, it's the 90's take on
+"Neuromancer".  Whether it has as much impact on our collective
+(un)consciousnesses remains to be seen.  Or debated by this fine assembly!
+ Whatcha say, extropes?
+
+I'll throw my hat in the ring with the suggestion that Stephenson is a
+superior prose stylist to W. Gibson, but his (Stephenson's) ideas and
+visions take on a slambang _anima_ cartoon quality, while Gibson's seem
+more plausible...  Stephenson does achieve great comic effect in "SC" with
+his exploration of privitization taken to its logical extremes. 
+
+Anyway, I'd have to say "Snow Crash" is a must-read, even for those who
+rarely read SF, for folks on this list.
+
+  +---------------------------------------+------------------------------+
+  |Mike McClaskey                         |   Columbia Public Schools    |
+  |Coordinator of Technology              |   310 North Providence Road  |
+  |Internet: mmcclask@bigcat.missouri.edu |   Columbia, MO USA 65201     |
+  |Voice: 314-886-2251                    |   FAX:  314-886-2254         |
+  +---------------------------------------+------------------------------+
+
+
+On Mon, 28 Jun 1993, Rens Troost wrote:
+
+> 
+> A recent book "Snow Crash" could be described as being about memetic
+> bombs, although not quite. It's really good, anyway; standard
+> "cyberpunk" trappings, good execution.  Does anyone know the author's
+> name? 
+> 
+> -Rens
+
+
+
+
+------------------------------
+
+Date: Mon, 28 Jun 93 09:40:48 PDT
+From: Eric.Marsh@Eng.Sun.COM (Eric Marsh)
+Subject: Flying snakes
+
+Jay Freeman writes:
+
+>(And did you know that there is a much smaller monitor lizard that does
+>the flying squirrel trick and glides from tree to tree?  A flying dragon!
+>There's also a snake that does the same thing...)
+
+I saw a sequence of this flying snake on TV a while back and have to
+wonder how such a creature could have evolved. For those who are 
+unfamilier with the flying snake, it leaps from a high limb and 
+flattens its body for aerodynaic resistance; it then "swims" through the
+air until it lands on a limb of another tree.
+
+If a species of squirrel or lizard finds that jumping increases its
+chances of survival, then adaptations to allow it to jump further such
+as the ability to glide are logical. However I am unaware of any tree
+dwelling species of snake that jumps in any way. Thus, it seems to
+me that the evolution of a flying snake is quite a "leap."
+
+Thoughts?
+
+eric
+
+
+------------------------------
+
+Date: Mon, 28 Jun 93 12:37:23 EDT
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: NANO:Critiques of Drexler
+
+James A. Donald <jamesdon@infoserv.com> writes some criticisms of
+Drexler's nanotech ideas, from a perspective that seems tilted toward
+biological molecules floating in solution:
+
+> The fundamental problem in constructing nanostructures is that it is 
+> extremely difficult to predict how the nano structure will behave, 
+> for example the unsolved, and perhaps insoluble, protein folding problem.
+> 
+> Drexler is aware of this problem and rightly proposes to deal with this 
+> by creating nanostructures out of components whose consequences and 
+> effects are extremely isolated...
+
+While the second paragraph is correct, the first gives the impression that
+the folding behavior of large free-floating proteins has something ("the 
+fundamental problem") to do with nanotech, which it doesn't much.
+
+> Unfortunately the resulting designs are violently chemically unstable.  
+> A random molecule banging about inside them will have the same effect 
+> as monkey wrench in your car gearbox, causing everything to randomly 
+> rearrange in a violently exothermic fashion.
+
+This is "molecules in solution" thinking.  You don't design a machine
+so that random monkeywrenches can get into it.  What you do is put a
+box around it.  Also, can someone give a second opinion about the 
+designs being unstable in the sense of heavy use of bonds and
+arrangements with high potential energy?
+ 
+> Drexler ignores the problem of friction.  Friction becomes more and more 
+> severe as structures with moving parts get smaller and smaller.  The 
+> only way to deal with this problem is the way that cells deal with it.  
+
+I have looked at Drexler's designs for bearings.  I don't know what he
+does with sliding friction, but nanomachines are in *vacuum* (i.e., what
+you get when you make a box with nothing in it), not solution.  In my
+experience with mechanical design, one designs enough space around the 
+moving parts that they aren't bumping into things.  Also I assume there 
+are rack-and-pinion designs for really big sliders.
+
+Mr. Donald suggests molecules in solution as a way to reduce friction.
+He points out that this is difficult to design, but I think the main
+problem is that it's difficult to mix the two styles of molecules-
+-moving-randomly-in-solution with hard-deterministic-machines-in-
+vacuum-boxes.
+
+-fnerd
+quote me
+
+------------------------------
+
+Date: Mon, 28 Jun 93 13:20:42 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: NANO:Critiques of Drexler
+
+   When you've got mass production of assemblers, why should you worry
+about some of them being destroyed by radiation or dangerous radicals?
+To be somewhat usable, you're going to need atleast billions 
+of these little buggers. With billions of assemblers building your dream 
+spaceship/beanstalk, a few hundred thousand of them going buggy won't be much 
+of a problem -- especially if you have some rudimentary error correction.
+
+  As I see it, the main problem is in getting a critical mass of these
+things built. Most of the macroscopic structures we will have them create
+won't need perfect atom-resolution accuracy, but building the assemblers
+themselves requires very high resolution positioning of atoms.
+
+ The first generation nanites may require a super-mega-expensive
+"cleanroom". Great vacuum, little vibration/contamination, and precise
+atomic control.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Mon, 28 Jun 93 13:51:10 EDT
+From: nobody@Kodak.COM (Todd Perlmutter)
+Subject: Flying snakes
+
+Eric.Marsh@Eng.Sun.COM (Eric Marsh) says:
+> Jay Freeman writes:
+> 
+> >(And did you know that there is a much smaller monitor lizard that does
+> >the flying squirrel trick and glides from tree to tree?  A flying dragon!
+> >There's also a snake that does the same thing...)
+> 
+> I saw a sequence of this flying snake on TV a while back and have to
+> wonder how such a creature could have evolved. For those who are 
+> unfamilier with the flying snake, it leaps from a high limb and 
+> flattens its body for aerodynaic resistance; it then "swims" through the
+> air until it lands on a limb of another tree.
+> 
+> If a species of squirrel or lizard finds that jumping increases its
+> chances of survival, then adaptations to allow it to jump further such
+> as the ability to glide are logical. However I am unaware of any tree
+> dwelling species of snake that jumps in any way. Thus, it seems to
+> me that the evolution of a flying snake is quite a "leap."
+> 
+> Thoughts?
+
+	Well, it could simple be an adaptation for convenience.  It
+may exist simply to save the snake the trouble of haveing to climb
+down one tree in order to go up another.  Now he can simply leap across
+the treetops.  I'm not saying it's a great adaptation, or that it even
+makes a whole lot of sense, but its probably more useful than the ability 
+of a hoopsnake.
+
+					---> Todd <---
+
+Todd D. Perlmutter			"Quis custodiet ipsos custodes."
+Ektron Applied Imaging			"Who watches the watchmen?"
+Bedford Massachusetts			--Juvenal, Satires, VI, 347
+(perl@ektron.kodak.com)			Quoted as the epigraph of the
+					Tower Commission Report, 1987
+
+------------------------------
+
+Date: Mon, 28 Jun 1993 11:12:14 -0700 (PDT)
+From: Scott C DeLancey <delancey@darkwing.uoregon.edu>
+Subject: Flying snakes
+
+Eric.Marsh:
+
+> > If a species of squirrel or lizard finds that jumping increases its
+> > chances of survival, then adaptations to allow it to jump further such
+> > as the ability to glide are logical. However I am unaware of any tree
+> > dwelling species of snake that jumps in any way. Thus, it seems to
+> > me that the evolution of a flying snake is quite a "leap."
+> > 
+> > Thoughts?
+
+Right, snakes don't jump.  (There's a half-a-dozen jokes lurking in that
+one waiting to get out, but let it pass ...)  But they're not particularly 
+well adapted for climbing around in trees (even the arboreal species)--I
+believe that when a snake climbs up a tree it is grabbing the bark with its 
+scutes, which is pretty precarious.  So I expect they fall a lot.  Being
+flexible and mostly small they should be able to handle moderate falls OK, but
+still you could imagine that a gliding adaptation might have some value.
+
+Todd Perlmutter:
+
+> 	Well, it could simple be an adaptation for convenience.  It
+> may exist simply to save the snake the trouble of haveing to climb
+> down one tree in order to go up another.  Now he can simply leap across
+> the treetops.  I'm not saying it's a great adaptation, or that it even
+> makes a whole lot of sense, but its probably more useful than the ability 
+> of a hoopsnake.
+
+Phantom smiley here, I hope? 
+
+Scott DeLancey
+
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0361
+****************************************
+

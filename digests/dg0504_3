@@ -1,0 +1,645 @@
+From extropians-request@extropy.org Wed May  4 15:02:37 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id PAA26652 for <more@chaph.usc.edu>; Wed, 4 May 1994 15:02:25 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA06998; Wed, 4 May 94 15:02:04 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA21112
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 4 May 1994 18:01:43 -0400
+Date: Wed, 4 May 1994 18:01:43 -0400
+Message-Id: <199405042201.AA21112@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-5-40 - #94-5-47
+X-Extropian-Date: May 4, 374 P.N.O. [18:01:19 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Wed, 4 May 94             Volume 94 : Issue 123
+
+Today's Topics:
+              (Fwd) local talk by Nelson Bolyard on cryptography      [1 msgs]
+                  ECON: The limits to comparative advantage           [3 msgs]
+                                  filtering                           [1 msgs]
+                        Forward/Tech:  Varian Synopsis                [1 msgs]
+                                 immortality                          [1 msgs]
+                              Social Engineering                      [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 34727 bytes.
+
+----------------------------------------------------------------------
+
+From: whitaker@dpair.csd.sgi.com (Russell Whitaker)
+Date: Wed, 4 May 1994 05:25:05 -0700
+Subject: [#94-5-40] (Fwd) local talk by Nelson Bolyard on cryptography
+
+--- Forwarded mail
+
+
+
+
+             You're Invited to the Next General Meeting
+                               of
+           Computer Professionals for Social Responsibility
+
+                Admission Free/Open to the Public
+
+                Wednesday, May 4, 1994, 7:30 P.M.
+
+                    First Presbyterian Church
+                  1140 Cowper Street, Palo Alto
+                 (3 Blocks North of Embarcadero)
+
+
+            Wire Taps and Cryptography in Your Future
+                              with
+                         Nelson Bolyard
+
+
+Everyone is talking about the Clipper Chip, and lots of people are
+wondering about the FBI's digital telephony initiative.  This talk
+will discuss both of those things and provide some historical
+perspective on the battle between Congress and the Administration
+over control of standards for civilian cryptography, and CPSR's
+role in that debate.
+
+Nelson Bolyard is an engineer for a major computer manufacturer in
+the Silicon Valley.  He has background in cryptography and highly
+secure systems, and is presently working in high-speed networking.
+
+                          Sponsored By:
+        Computer Professionals for Social Responsibility
+        CPSR\Palo Alto: P.O. Box 717, Palo Alto, CA 94302
+
+
+
+--
+------
+
+Steve Dever          Steve.Dever@Eng.Sun.Com
+SunPro
+
+
+
+Donna Derby Yobs  	CSD - Silicon Graphics      yobs@csd.sgi.com
+			Customer Support Engineering
+
+
+--- End of forwarded mail from yobs@eol (Donna Derby Yobs)
+
+--
+Russell Earl Whitaker				whitaker@sgi.com
+Silicon Graphics Inc.
+Technical Assistance Center / Centre D'Assistance Technique
+Mountain View CA     				(415) 390-2250
+================================================================
+#include <std_disclaimer.h>
+
+
+
+
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Wed, 4 May 1994 08:54:50 -0400
+Subject: [#94-5-41] ECON: The limits to comparative advantage
+
+ Hans Moravec was criticized at Extro 1 for ignoring the principle
+of comparative advantage in his science fiction story of a time when
+robotic slaves would eliminate all human jobs.
+ There were many problems with his story (such as his hope that robots
+would remain slaves to inferior beings for a non-trivial amount of time
+(debated at length here last summer) and his advice to use the social
+security system with the retirement age declining to zero to handle
+the distribution of wealth, as opposed to just giving away anything
+produced by robots as in James Hogan's _Voyage from Yesteryear_).
+But his belief that the value of most human labor would go to zero
+seems very reasonable to me.
+ Comparative advantage is a good argument against protectionist barriers
+between regions whose productivity differs by a few orders of magnitude
+at most, but fails when applied to really different regions.
+ Suppose that in the era of high robot productivity, interest rates have
+risen to 10%/hour (hardly an unusual assumption if most economic processes
+have been speeded up by a few orders of magnitude). Now imagine that a
+robotic factory can transform $1.00 worth of rock into $1.10 worth of
+widgets in 0.99999 hours (eeking out a tiny profit), but that replacing
+any part of the manufacturing process with human labor would slow down
+the process so that it took more than 1 hour produce the $1.10 in widgets.
+If this phenomenon is sufficiently widespread, then nobody in his right mind
+would invest in anything that uses a human to do anything that a robot could.
+There would still be room for trade of services between humans, but this
+would not enable trade between the human part of the economy and the robotic
+part.
+
+
+ I would like to thank the organizers of Extro 1 for an excellent weekend.
+My initial reaction to reading that a conference was being planned was
+to doubt that the movement was big enough or organized enough to support
+a good one, but it was definitely worth traveling a great distance to
+attend.
+----------------------------------------------------------------------------
+Peter McCluskey >> pcm@world.std.com >> Linux cures DOS!
+----------------------------------------------------------------------------
+
+------------------------------
+
+From: whitaker@dpair.csd.sgi.com (Russell Whitaker)
+Date: Wed, 4 May 1994 06:30:02 -0700
+Subject: [#94-5-42] ECON: The limits to comparative advantage
+
+On May 4,  8:54am, Peter C. McCluskey wrote:
+>
+>  I would like to thank the organizers of Extro 1 for an excellent weekend.
+> My initial reaction to reading that a conference was being planned was
+> to doubt that the movement was big enough or organized enough to support
+> a good one, but it was definitely worth traveling a great distance to
+> attend.
+
+Indeed, Max and those who helped him did a wonderful job.  I too was impressed,
+and look forward to next year's event.
+
+I was very pleased to have been surprised by hearing some ideas which were
+entirely new to me.  I like that.
+
+Those who didn't attend will still be able to purchase Proceedings of Extro-1
+from the Extropy Institute via Max More at more@usc.edu.
+
+Russell
+
+> ----------------------------------------------------------------------------
+> Peter McCluskey >> pcm@world.std.com >> Linux cures DOS!
+> ----------------------------------------------------------------------------
+>-- End of excerpt from Peter C. McCluskey
+
+
+
+--
+Russell Earl Whitaker				whitaker@sgi.com
+Silicon Graphics Inc.
+Technical Assistance Center / Centre D'Assistance Technique
+Mountain View CA     				(415) 390-2250
+================================================================
+#include <std_disclaimer.h>
+
+
+
+
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Wed, 4 May 1994 10:03:32 -0700
+Subject: [#94-5-43] Social Engineering
+
+rjc@gnu.ai.mit.edu writes:
+>The problem I see with most social engineering is that it ultimately
+>relies on the human agent, and since any model trivializes the
+>complexity of that agent, there is bound to be a lag in the system.
+>(and if that system is imposed by law, the human ends up being
+>hurt when his personality and lifestyle doesn't fit the model)
+
+Models in material science, computer science, biology, geology, you
+name it, also leave out much of the complexity of what they model.
+That's just the nature of modeling complex things.
+
+>There are useful concepts to be learned, but I find it abhorrent
+>to try to impose an engineered system on people (which is the way
+>many social engineers *test* their system) Macroeconomics being
+>a good example of a bad science wihch is used in bad ways and often
+>ends up hurting a lot of people.
+>   I'm not accusing Robin of wanting to do any of this, but let's
+>remember where many "social engineers" end up -- government.
+
+I would find it abhorrent if auto engineers forced me to drive their
+new prototype cars, or some particular final design (as they did in
+East Germany, I think).  But I have no problem with them hiring folks
+to test their cars, nor with them trying to sell me cars they have
+designed, and advertizing how well their tests went.
+
+Similarly, the problem with state social engineers is the use of
+force, not the concept of engineering.  For example, trying to force
+everyone in the country to have the same health care arrangement,
+because some central power has decided it is good for
+them, is a really bad idea.  But there is nothing wrong with a private
+group trying to work out a better institution for buying health care,
+running some trial experiments to see how it works, and then trying to
+persuade folks to volentarily sign up for their new plan.  
+
+If there really isn't enough known about such social systems to allow
+them to add much value, such attempts will fail in the marketplace.
+There is no need to reject them a priori (I'm not accusing Ray of
+doing this btw).  But I personally think we know enough for such
+attempts to be profitable, on average, and will bet my career on that.
+
+Robin Hanson
+
+
+
+------------------------------
+
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Date: Wed, 4 May 94 13:46:52 EDT
+Subject: [#94-5-44] filtering
+
+> fnerd writes:
+> 
+> > Might also be useful to have a weight/focus/compactness
+> > number in each dimension.
+
+> Since the dimensions have no meaning a priori, this ought
+> to be a general ellipsoid, to identify the compact axis
+> if it doesn't happen to coincide with a coordinate axis.
+> 
+> Anton Sherwood   *\\*   +1 415 267 0685   *\\*   DASher@netcom.com
+
+An eight-dimensional elipsoid, though, with eight different
+compactnesses, right?  Might also have rotation in about 
+seven axes...  There's probably some least squares method for
+fitting to examples.
+
+By the way, I recently saw a talk by Pattie Maes about the
+work of her group at the MIT Media Lab.  They're building
+adaptive filters (they call them agents) for meeting
+scheduling, mail sorting and netnews article picking.
+The things try to learn from your own choices but also
+different people's "agents" can trade hints with each
+other.
+
+These things work on either preselected characteristics of
+situations (in the meeting and mail agents) or keywords
+(in the news agent).  The meeting and mail agents are cool
+in that they use "example-based reasoning", which means they
+store your 500 or so most recent choices, find the five
+that are "closest" to the current situation, and try to
+decide from them.  The news agent uses some "genetic algorithm"
+stuff (I hate how they call a certain algorithm "the" 
+genetic algorithm).
+
+-fnerd
+quote me
+
+
+
+- - - - - - - - - - - - - - -
+and i dreamed i was flying
+high up above my eyes could clearly see
+the statue of liberty
+sailing away to sea        --Paul Simon
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+aKxB8nktcBAeQHabQP/d7yhWgpGZBIoIqII8cY9nG55HYHgvt3niQCVAgUBLMs3K
+ui6XaCZmKH68fOWYYySKAzPkXyfYKnOlzsIjp2tPEot1Q5A3/n54PBKrUDN9tHVz
+3Ch466q9EKUuDulTU6OLsilzmRvQJn0EJhzd4pht6hSnC1R3seYNhUYhoJViCcCG
+sRjLQs4iVVM=
+=9wqs
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Wed, 4 May 94 18:39:15 GMT
+Subject: [#94-5-45] immortality
+
+ Michael Clive Price <price@price.demon.co.uk> writes: 
+
+>James Baker:
+>
+>Long, long ago I read about an effect called cytoplasmic inheritance.
+>It claims that the children born to older mothers do die younger. 
+>Whether this effect is just a statistical product of what Nancy
+>mentions:
+>
+>> Actually, the risk of birth defects does go up as the mother gets
+>> older.
+>
+>I am not sure, but it was presented in terms of aging, rather than
+>infant mortality/defects.  Anyone heard of it?  
+
+I've heard about this, too--in particular, I've heard of an 
+experiment in which long-lived and short-lived fish were produced
+simply by respectively breeding them from younger or older
+parents. In not very many generations, the the fish from younger
+parents were living twice as long as those from older parents.
+
+On the other hand, I haven't seen a citation--has anyone
+else heard of this? Care to try it for yourself in your home
+aquarium?
+
+If human longevity is affected by the age of one's parents, then
+there's a nasty paradox. There's a corelation between wealth and
+longevity (thought not, I think, for the higher levels of wealth)
+and a correlation between poverty and early childbearing--this
+would seem to even out longevity somewhat.
+
+Nancy Lebovitz 
+
+------------------------------
+
+From: Brian Rauchfuss - PCD <brauchfu@pcocd2.intel.com>
+Date: Wed, 4 May 94 11:49:11 PDT
+Subject: [#94-5-46] ECON: The limits to comparative advantage
+
+>  Suppose that in the era of high robot productivity, interest rates have
+> risen to 10%/hour (hardly an unusual assumption if most economic processes
+> have been speeded up by a few orders of magnitude). Now imagine that a
+
+This seems like an unusual assumption to me, since interest rates did nothing
+of the sort during the industrial revolution, the last time economic processes
+increased by a few orders of magnitude.  Interest rates increased, but only
+by a factor of 2 to 3.  Real interest rates moved by even less, since inflation
+accounts for part of the apparent move.  (See the _Wall Street Waltz_ by Fisher
+for a variety of interesting historical data).
+
+Interest rates of 10%/hour (885%/day, or 10^365/year) implies that people are
+willing to borrow at these rates, implying that most people are making profits
+to make this worthwhile, implying that the economy is growing at about this
+magnitude.  As long as entities such as humans and robots dominate the economy,
+I don't think it will grow by a factor of 10^365 per year!  The growth of the
+economy is based on increases in productivity (not the absolute value) and the
+number of producers/consumers.  The number of producers/consumers is limited
+by physical space (and CPU resources) and the productivity gains are one-time.
+
+Brian Rauchfuss
+brauchfu@pcocd2.intel.com
+
+------------------------------
+
+From: habs@warwick.com (Harry S. Hawk)
+Date: Wed, 4 May 1994 14:15:12 -0800 (PDT)
+Subject: [#94-5-47] Forward/Tech:  Varian Synopsis
+
+Forwarded message:
+ To: cypher <cypherpunks%toad.com@warwick.com>
+ From: Jeff Davis <warwick.com!panix!deeptht.armory.com!eagle>
+
+
+
+---------- Forwarded message ----------
+Distributed to TAP-INFO, a free Internet Distribution List
+(subscription requests to listserver@essential.org) 
+
+TAXPAYER ASSETS PROJECT - INFORMATION POLICY NOTE
+May 3, 1994
+
+This is a note about an important issue:  the future pricing of Internet 
+services.  Please repost freely.
+
+     -    University of Michigan Economist Hal Varian says the
+          Internet is likely to face some type of usage based
+          pricing in the future.
+
+     -    Varian says increasing demands on Internet by
+          multimedia applications and commercial bypass of
+          telephone networks will lead to significant increases
+          in demands on Internet resources, and create pressures
+          for usage based pricing models.
+
+     -    Varian proposes a system of congestion based pricing,
+          that will allow free off-peak usage, but speculates
+          that other outcomes are possible, and
+
+     -    Predicts eventual demise of CIX model of flat rate (no
+          settlements) pricing for Network Service Providers.
+
+
+              NOTES ON PROFESSOR HAL VARIAN'S APRIL 21 TALK 
+                          ON INTERNET ECONOMICS
+
+                    by James Love (love@essential.org)
+                               May 3, 1994
+
+     On April 21, the Telecommunications Policy Roundtable (TPR)
+held its first workshop on the future of democratic discourse on
+the Internet.  Hal Varian, a professor of economics and finance
+from the University of Michigan, presented "Economic FAQs about
+the Internet," a paper co-authored with Jeffery K. Mackie-Mason. 
+The Workshop was held at the Carnegie Institution in Washington,
+DC, and attended by about 60 persons.
+
+     There was considerable interest in the topic.  TAP had
+received more than 400 requests for copies of the paper
+(including about 350 requests by electronic mail).  The paper is
+available for anonymous ftp, gopher, or World Wide Web at
+gopher.econ.lsa.umich.edu, or by sending an email message to
+ndaly@essential.org.  
+
+     Professor Varian's prepared talk followed the paper fairly
+closely, with a number of facts and antidotes thrown in to
+illustrate his main points.  Among economists Varian is known as
+a superb expositor, and his presentation was as clear and
+accessible as the paper.  Varian spent the first part of his talk
+describing such topics as who "owns" various components of the
+Internet (backbones, midlevel networks, etc), technical aspects
+of Internet routing, and the growth of traffic on the Internet. 
+I won't bother to go over all the points which are explained in
+the paper, but a few items are worth mentioning.
+
+     Varian disclosed that Internet data packets contain an
+unused "priority bit," that was originally designed to allow
+Military brass to assign priorities in data routing.
+
+     The costs of routers (workstations) had fallen much faster
+than the long distance transport costs, and the long distance
+backbone facilities were often the bottleneck.
+
+     Varian also spent a good amount of time explaining how
+Internet usage is changing, and that while electronic mail is the
+service most widely used, it constitutes only about 8 percent of
+the bits sent over the network.  New applications, such as the
+multimedia Mosaic, Internet Fax, and Internet radio are rapidly
+becoming large users of Internet resources, and these new uses of
+the Internet are creating huge pressures to change the way
+Internet services are priced.  To illustrate his point, Varian
+talked about the new Power PCs, which will allow a single user (a
+college student talking to his parents) to hook up a video
+camera, and send about 1 megabyte of data per second to the
+Internet, nearly tying up an entire T-1 line.  Varian indicated
+that the power of workstations connected to the Internet is
+increasing much faster than the capacity of the Internet to carry
+traffic.  Moveover, a number of commercial users of the Internet
+are rapidly finding ways to bypass the higher priced telephone
+networks, both domestically and internationally.
+
+     Varian was focused largely on the increased congestion cause
+by the new demands on the Internet.  Interestingly, his own
+research indicated that peak demands shifted from day to day, and
+peak and off-peak usage could not be easily predicted by the
+time-of-day, as it is for telephone service.
+
+     In the United States the Internet is unregulated, and there
+are no internal prices for Internet usage.  Network service
+providers typically buy bandwidth, or capacity, and face zero
+marginal costs for usage.  End users face a variety of  charges,
+depending upon how their service providers resell access to the
+network.  Some foreign countries, such as New Zealand and Chile,
+charge Internet users for traffic, as measured by bits.
+
+     Different uses for Internet services have different
+requirements in terms of routing priorities.  Electronic mail
+generally does not require an immediate claim on network
+bandwidth, and can be managed to travel "off peak."  On the other
+hand, some services, such as video conferencing, Internet "talk,"
+or running Mosaic, generally allow the user to command bandwidth
+at a particular time.
+
+     Varian was quite clear that he believes that the problem of
+congestion on the Internet will become a much larger problem as
+the Internet becomes used for a more diverse set of applications
+(and the growing power of desktop computers to generate data).
+
+     Varian said that he believes there will eventually be prices
+for Internet usage, and the only real uncertainty will be which
+pricing system is used.  A very difficult problem will be the
+development of accounting systems and other mechanisms to
+facilitate billing for Internet usage.  Generally speaking, it is
+not simple to determine if data packets contain electronic mail,
+fax transmissions, video, or other data, making content based
+pricing problematic.  There are also a number of complex issues
+relating to when or where traffic would be "charged" for internet
+usage, since users gain access to the Internet from a highly
+decentralized network of workstations and networks.  Varian also
+talked about problems in determining if senders or receivers
+would pay for data transmissions, which he illustrated by talking
+about ftp or gopher servers  (who was the "sender" of the data, 
+the person sending the query, or the file server which returns
+data?).
+
+     According to Varian, a number of persons are working on
+these problems, and many important decisions will be determined
+by engineers working on technical issues.  He singled out the
+Internet Society's Internet Engineering Task Force as the most
+important forum for groups sorting these issues out.
+
+     Varian said that any scheme to charge for internet usage
+would also involved non-trivial costs in terms of metering or
+accounting, and possibly significant changes in the culture of
+the Internet (the question on many persons minds is the future of
+the Internet Listserves), although on a more optimistic note, he
+said the costs of routing and backbone services should be low, if
+calculated on a per user basis.
+
+     Varian said little about the Commercial Internet Exchange
+(CIX) in his prepared remarks, but in response to questions, he
+said that he did not believe the CIX pricing model (a flat fee
+for connectivity) was sustainable, and he thought that the new
+Network Access Point (NAP) providers (Ameritech, Pac Bell,
+Sprint, and MFS) would employ a usage based pricing approach.
+
+     Varian also talked at some length about work underway to
+create mechanisms for charging for other types of transactions,
+using a variety of schemes to create "virtual cash" for use on
+the Internet, such as the services recently announced by Commerce
+Net using technology developed under NSF funded R&D.  Varian said
+that government R&D in this area was welcomed, because it
+provided neutral non-proprietary systems that couldn't be
+controlled or manipulated by a single firm.
+
+     Varian described the new Internet architecture, which is
+based upon four NAPs, each controlled by a telephone company,
+which Varian described as the new "cloverleaves" for the Internet
+(connecting various backbones and networks), and the new vBNS
+high speed backbone.  Varian said the high interest in the vBNS
+contract was due largely to its strategic role in the development
+of new Internet technologies, including accounting and payment
+mechanisms, which may eventually be deployed to the entire
+Internet.  (MCI "won" the recent NSF contract for the vBNS, but
+the award is being contested by Sprint.  AT&T was also rumored to
+have been an unsuccesful bidder on the vBNS).
+
+     Varian's own preference for Internet pricing is a system
+that only charges for priority routing.  As described in several
+papers (written with MacKie-Mason), Varian would employ a system
+whereby users would "bid" for access when congestion was a
+problem, and routers would give priority to packets that had the
+highest willingness to pay.  Users would pay the lowest price
+that was accepted in this routing "auction," so everyone would
+have an incentive to reveal their true willingness to pay.  Under
+Varian's scheme, all Internet traffic which did not claim
+priority status would travel for free.  Thus, for example, a
+large Internet mailing list such as Humanist, PACS-L  or CPSR-
+Announce could mail for "free," with an off peak priority.
+
+     For Varian's scheme to work, it would be necessary to have
+routers compare "bids" by packets, priority bidders would have to
+"pay" for access to someone, and there would have to be a high
+degree of consensus, so the priority packets would not face
+bottlenecks or delays anywhere on the Internet.  Varian
+acknowledged that it was possible that the Varian (and MacKie-
+Mason) system of pricing might not be adopted, and some less
+elegant system, such as pricing by the bit, may be coming.
+
+     A number of persons wanted to know who would decide these
+issues, and Varian was not too specific.  The message (the
+"guess") seemed to be that the companies which controlled the
+NAPs and a critical mass of the backbones would have a lot to say
+about what was eventually adopted.  Varian was asked to speculate
+about future telco investments in Internet providers, such as
+purchases of companies like PSI or UUNET, but he was reluctant to
+predict much, other than to emphasize the importance of
+competitive free entry into the market for Internet services,
+which would undermine monopolist practices.  Varian was asked if
+it was possible that a coalition of Internet providers would have
+the power to implement a pricing scheme that would have an
+adverse impact on the future of Internet listserves (many of
+which "send" more than 100,000 messages per day), but he was
+reluctant to be very specific in his predictions, other than to
+say that many outcomes were possible.
+
+     Note:  On April 29, a follow-up workshop was held with
+     Dr. Steve Wolff of NSF, Professor David Farber, and PSI
+     CEO William Schrader.  Notes from that workshop and
+     other information regarding Internet pricing will be
+     posted to tap-info.
+
+---------------------------------------------------------------------
+TAP-INFO is an Internet Distribution List provided by the Taxpayer
+Assets Project (TAP).  TAP was founded by Ralph Nader to monitor the
+management of government property, including information systems and
+data, government funded R&D, spectrum allocation and other government
+assets.  TAP-INFO reports on TAP activities relating to federal
+information policy.  tap-info is archived at ftp.cpsr.org;
+gopher.cpsr.org and wais.cpsr.org
+
+Subscription requests to tap-info to listserver@essential.org with
+the message:  subscribe tap-info your name
+---------------------------------------------------------------------
+Taxpayer Assets Project; P.O. Box 19367, Washington, DC  20036
+v. 202/387-8030; f. 202/234-5176; internet:  tap@essential.org
+---------------------------------------------------------------------
+-- 
+PGP PUBLIC KEY via finger!  JAFEFFM  Speaking & Thinking For Myself!
+ 
+* eagle@deeptht.armory.com			email info@eff.org *
+*** O U T L A W S  On The  E L E C T R O N I C  F R O N T I E R ****
+***** Committed to Free Public Internet Access for World Peace *****
+
+
+
+
+------------------------------
+
+End of Extropians Digest V94 #123
+*********************************
+

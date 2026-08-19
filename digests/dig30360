@@ -1,0 +1,1083 @@
+From extropians-request@gnu.ai.mit.edu Mon Jun 28 01:53:53 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA06796; Mon, 28 Jun 93 01:53:51 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA14466; Mon, 28 Jun 93 01:53:45 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA22236@wookumz.gnu.ai.mit.edu>; Mon, 28 Jun 93 04:39:16 -0400
+Message-Id: <9306280839.AA22236@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Mon, 28 Jun 93 04:38:54 -0400
+X-Original-Message-Id: <9306280838.AA22229@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0360
+X-Extropian-Date: Remailed on June 28, 373 P.N.O. [08:39:15 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Mon, 28 Jun 93            Volume 93 : Issue 0360
+                        
+Today's Topics:
+                         AIT VirtSem: "Information"                   [2 msgs]
+             AIT VirtSem: Logical Depth and Physical Complexity       [2 msgs]
+                                   Fermat                             [1 msgs]
+                                Jurassic Park                         [1 msgs]
+                            Jurassic Park (again)                     [2 msgs]
+                          MEDIA: C: _Jurassic_Park_                   [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 61822 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 27 Jun 93 23:10:18 -0700
+From: hfinney@shell.portal.com
+Subject: AIT VirtSem: "Information"
+
+One of the motivations for my interest in AIT is the possible light
+it may shed on the question of what is and is not alive.  Traditional
+definitions of life (that it eats, excretes, reproduces, metabolizes,
+etc.) are a joke, IMO.  We need something more information-based.
+
+As we move out into the universe, we may encounter strange new forms
+of life.  Is it possible that sunspots are alive?  Perhaps other
+metastable structures?  How about computer viruses?  Someone here
+suggested some time back that "psychology" (the science itself) was alive. 
+It would be nice to have a way, at least in principle, of deciding these
+questions.   
+
+One thing we observe is that life is complex - in some ways it is the 
+most complex phenomenon we can find.  Yet we lack a good, objective
+measure of complexity which is maximal for living creatures.
+
+AIT, as Chaitin says in the article Tim posted, has the same failure that
+entropy does as a measure.  Crystalline solids are minimally complex, and dis-
+ordered gases are maximal.  Life falls somewhere in the middle.
+
+But we can see that life is not simply partway between crystals and
+gases in its complexity.  In an important sense, life is far more complex
+than either of these.
+
+The Physics of Computation book Tim recommended has an article comparing
+various proposed complexity measures.  I forget what their results were
+but I think this is still an important open issue.
+
+This same question arises for Tim's example of an evolving Go strategy.
+"Pure" AIT sees the end result of millions of games of Go evolution as
+having no more information than a program based on a randomly chosen
+string which plays senselessly.  Logical depth is perhaps a more appro-
+priate measure of program complexity in this case.
+
+Here is an interesting question.  Would there be expected to be a "natural"
+and general complexity measure which is MAXIMAL for an OPTIMAL Go strategy?
+No doubt the optimal Go strategy is very complex, probably beyond human
+comprehension.  But perhaps to a transhuman, subtle and abstract symmetry
+arguments will make it clear what the one best move is for any board
+position.  This would be the optimal strategy.  Now, you could conceive of
+a different strategy, one which is even more complex, but which is (by
+definition) not as good.   
+
+Or could you?  Is it possible that this not-as-good strategy, although 
+having more SUPERFICIAL complexity, is actually not as complex in the
+ways that matter (just as a gas is superficially more complex than a
+cell composed of the same molecules)?  By "ways that matter" I mean not
+just that the program wins the game, but rather that there is some
+fundamental measure of complexity which naturally comes out maximal for
+this optimal strategy.  This question is analogous to the one of whether
+there is a natural complexity measure which is maximal for living things.
+
+Hal
+
+------------------------------
+
+Date: Sun, 27 Jun 93 23:32:18 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Fermat
+
+>Tim May:
+>> I think most mathematicians felt that Fermat's Last Theorem was either
+>> true or false (very probably true), and that one day we would know.
+>
+>Well, "cannot be disproven" would be equivalent to "true"; 
+>what would "cannot be proven" mean for Fermat's LT?
+>
+>*\\* Anton
+
+There are many propositions which are undecideable, meaning we will never
+know if they are true or false, thus, they "cannot be proven."
+
+-Tim
+
+
+
+------------------------------
+
+Date: Sun, 27 Jun 93 23:41:29 -0700
+From: freeman@MasPar.COM (Jay R. Freeman)
+Subject: MEDIA: C: _Jurassic_Park_
+
+I agree with Tim May's observation that it is hard to explain how the
+dinos got so big so fast, unless perhaps the big ones we saw were really
+only juveniles and had only attained partial growth.  I do not know
+whether there is any data on growth rates that can be inferred from the
+fossil record.
+
+It might be possible to make an educated hand-wave (that's somewhat below
+an educated guess in reliability) from knowledge of how present large
+reptiles grow -- I have in mind crocodiles, alligators, humungeous snakes
+and possibly the Komodo dragon.  Is there an herpetologist in the house?
+
+(Incidentally, I have read that one of the many reasons why Komodo is not
+a more popular tourist spot is that every few years somebody makes an
+irretrievable error in judgement and gets eaten.  It is most satisfying
+to my sense of romance and wonder that even in the consensus reality of
+the late 20th century, a truly talented and dedicated adventurer can still
+manage to get eaten by a dragon without intending to.)
+
+(And did you know that there is a much smaller monitor lizard that does
+the flying squirrel trick and glides from tree to tree?  A flying dragon!
+There's also a snake that does the same thing...)
+
+Hmn, tending back toward the _Jurassic_Park_ thread, I have also read
+that although the Komodo dragon can in principle outrun a human being,
+most of its kills of humans are based on stealth and ambush, and this
+from a creature much dumber than _Velociraptor_ was presented as being.
+The scene in David Attenborough's nature videos of him describing and
+confronting a bunch of Komodo dragons feeding was the only instance
+in the series, that I recall, in which he actually looked scared.  In
+contrast, he merely looked inconvenienced when being sat upon by a
+gorilla.  And -- an arboreal primate at heart -- he looked positively
+delighted to be 50 meters up in rain-forest canopy ...
+
+                                         -- Jay Freeman
+
+------------------------------
+
+Date: Sun, 27 Jun 93 23:41:43 -0700
+From: davisd@pierce.ee.washington.edu
+Subject: Jurassic Park (again) 
+
+> From: dasher@netcom.com (D. Anton Sherwood)
+> 
+> Quoth Stanton McCandlish, verily I cut and paste his words:
+> > And the electrocution scene: would the kid have been knocked off the fence
+> > like that, or just fried?  I don't know enough about high-voltage wires to
+> > know the answer.
+> 
+> >From indirect anecdotal evidence, I would expect his hands to clamp to the wires 
+> -- not only would he not be repulsed, he wouldn't be able to let go.
+
+Actually, I believe this is the biggest blooper of many in the movie.
+Where was the technical staff on this one?
+
+The boy should not have been shocked at all. He was not grounded.
+Didn't you ever see a pidgeon on a high voltage line? Do they get
+shocked?
+
+Buy Buy -- Dan Davis
+
+
+------------------------------
+
+Date: Mon, 28 Jun 93 00:15:43 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: AIT VirtSem: "Information"
+
+Hal Finney has some more good ideas, including some relating to applying
+AIT to studying life (and presumably A-LIFE). My posting of the Charles
+Bennett paper on "Logical Depth and Physical Complexity" crossed with Hal's
+message.
+
+Hal writes:
+
+>One of the motivations for my interest in AIT is the possible light
+>it may shed on the question of what is and is not alive.  Traditional
+>definitions of life (that it eats, excretes, reproduces, metabolizes,
+>etc.) are a joke, IMO.  We need something more information-based.
+
+I agree. The other definitions are too mechanistic, too "legalistic," and
+end up missing the essence of what life is.
+
+>
+>As we move out into the universe, we may encounter strange new forms
+>of life.  Is it possible that sunspots are alive?  Perhaps other
+>metastable structures?  How about computer viruses?  Someone here
+>suggested some time back that "psychology" (the science itself) was alive. 
+>It would be nice to have a way, at least in principle, of deciding these
+>questions.   
+
+Recall Fred Hoyle's "The Black Cloud"? I was uneasy when I read it, some 25
+years ago, because I couldn't see how a single such cloud could have had a
+rich enough, an interesting engough, environment. Now, having gotten
+familiar with complexity theory, the nature of evolution, the Anthropic
+Principle (in its various forms), the results of Hayek and others on market
+economies, and so on, I am fairly certain that we can place some bounds on
+how complex an ecology/economy/"repro-ology" (my neologism again) needs to
+be before life of some complexity emerges.
+
+Living sunspots seems unlikely, if only because of the low information
+transfer rates (I'm being vague here, so don't waste time on a flame).
+
+>
+>One thing we observe is that life is complex - in some ways it is the 
+>most complex phenomenon we can find.  Yet we lack a good, objective
+>measure of complexity which is maximal for living creatures.
+>
+>AIT, as Chaitin says in the article Tim posted, has the same failure that
+>entropy does as a measure.  Crystalline solids are minimally complex, and dis-
+>ordered gases are maximal.  Life falls somewhere in the middle.
+
+As I always seem to be saying, be careful here. I some sense, a gas has
+maximum complexity (maximum entropy, in another way of viewing it), but in
+another sense it has nearly zero complexity, in that it is _so_ random, so
+disordered, that it is best described only by a few scalar
+qauntities...pressure, volume, temperature. (It is in this sense that we
+think of a gas as having low complexity....what we mean is that the
+organization of a gas, the structure, is of no meaning to us.)
+
+
+>
+>But we can see that life is not simply partway between crystals and
+>gases in its complexity.  In an important sense, life is far more complex
+>than either of these.
+>
+>The Physics of Computation book Tim recommended has an article comparing
+>various proposed complexity measures.  I forget what their results were
+>but I think this is still an important open issue.
+
+I agree these remain open issues. And to me, of much more interest than the
+"dreams of a final theory" that may or may not come from the Pork Collider.
+
+(Anybody see the Economist cartoon? A picture of the huge tunnel being dug
+for the SSC, with the caption: "Here's the hole, now pour in the money.")
+
+But I digress.
+
+>
+>This same question arises for Tim's example of an evolving Go strategy.
+>"Pure" AIT sees the end result of millions of games of Go evolution as
+>having no more information than a program based on a randomly chosen
+>string which plays senselessly.  Logical depth is perhaps a more appro-
+>priate measure of program complexity in this case.
+
+Well, Chaitin would agree. He thought about what Bennett later dubbed
+"logical depth" some years back. And Wolfram called a similar idea
+"computation irreducibility." This in the sense that a cellular automata.
+to pick an example Wolfram has worked on a lot, has fairly low algorithmic
+information content but very high "irreducibility" or logical
+depth...meaning, you can't predict what's coming except by running the
+computation. (BTW, this AIT-logical depth stuff has some important
+implications for cryptography....simple shift registers may "look" random,
+but are not, and one-time pads carry the maximum amount of
+information--they are Chaitin's "results of random coin flips" strings--and
+hence are not breakable.)
+
+I share Hal's hopes--and those of Nick Szabo and Derek Zahn, I think--that
+this stuff may give us a handle on the complexity of life and
+self-reproducing systems.
+
+(Like I said, I went to the 1987 first A-LIFE conference partly to hear
+Chaitin speak on this very subject, but he cancelled out at the last
+minute.)
+
+And let me reiterate that I am not monomaniacal on this subject, not like
+when I used to be on this list under my earlier Net name of Ken Tolman.
+
+---pause-----
+
+(This Sunday night joke brought to you via Klaus!)
+
+I expect algorithmic information theory is just a small piece of things. As
+I said earlier, there are all kinds of exciting things to study. Chaos,
+space refining, pure math, health stuff, Prigogine, cellular automata,
+nanotech shape compilers, mechanosynthesis, colloids and gels (as James
+Donald just noted), and on and on.
+
+After we exhaust AIT for the time being, in several weeks perhaps, we can
+pick other topics. Or, clearly, anyone can propose their own seminar topics
+at any time.
+
+Best wishes, 
+
+-Tim May
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+Date: Mon, 28 Jun 93 00:21:19 -0700
+From: davisd@pierce.ee.washington.edu
+Subject: Jurassic Park 
+
+Saw the movie last night. Can't say I was too impressed. The graphics
+were neat. I suppose you have to be a pro in ths area to appreciate
+their level of skill.
+
+The rest of the movie was pretty poor. Extremely contrived plot all
+the way through. Spielberg (sp?) should have also hired a few guys
+with experience in action films. Fights with semi-intelligent
+dinosaurs should have a little excitement to them. (Although it was
+most amusing to watch Dern and Neal hold a door closed against a
+dinosaur.  Nautilus must work wonders these days.)
+
+Finally, I'm getting pretty sick of the preachy PC twaddle padding 
+films these days. This even topped Linda Hamilton's tirade in T2,
+where she ranted about the arrogance of men of science who think they
+create things, when they can't even create a life inside them like the
+superior sex. Can womb envy be far behind?
+
+To sum up the preachy crap
+  Women good, men bad.
+  Nature good, humans bad.
+  Vegetarians good, carnivores bad. (Has Perry been moonlighting? ;-> )
+  
+The stage was set by the very first utterance of Neal, "I hate
+computers."  Then we are treated to cheap digs against reason,
+science, capitalism, and that nasty human tendency to *act*. Don't we
+all know that Chaos Theory has proven that we can never possibly know
+what the outcome of our actions will be? How can we be so arrogant?
+(Of course, they don't consider that sitting at home on our butts
+might have consequences as well.)
+
+I found that the T Rex made the perfect metaphor for the Luddite world
+view. You see, if you just remain perfectly still, the T Rex can't see
+you, and you might be safe. And if we all remain perfectly still in
+our mud huts, praying to the Sun and Rain Gods, Nature might not
+notice us enough to squash us like the presumptuous insects we are.
+
+Ranting Off -- Dan Davis
+
+------------------------------
+
+Date: Mon, 28 Jun 93 00:32:56 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Jurassic Park (again)
+
+Dan Davis writes about the boy getting zapped on the electrified fence:
+
+
+>Actually, I believe this is the biggest blooper of many in the movie.
+>Where was the technical staff on this one?
+>
+>The boy should not have been shocked at all. He was not grounded.
+>Didn't you ever see a pidgeon on a high voltage line? Do they get
+>shocked?
+
+If this is always so, then people could easily get over electrified fences
+by simply leaping onto them (very carefully), by placing wooden or
+insulating steps near the fence, or by wearing rubber-soled shoes, and then
+by leaping off on the other side. (I don't believe such is the case.)
+
+Also, while some birds may roost safely on high-tension lines, others are
+killed on _contact_....the eagle and condor population is dwindling partly
+due to them landing on such high-tension wires. (And I don't think it's
+because their wingspread was such as to short out two wires....)
+
+I confess to not knowing the exact way electrified fences work, but I don't
+think they can be circumvented just by preventing a good ground. Even when
+wearing rubber boots, accidentally placing your finger in an empty light
+bulb socket is not something you'll soon forget!
+
+It may be that different wires of the fence carry different voltages, or
+a.c. out of phase, in which case the Jurassic Park kid was standing on one
+wire and holding another wire with his hands...plausible then, for all
+these reasons, that he'd be zapped.
+
+-Tim May
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+Date: Sun, 27 Jun 93 23:29:37 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: AIT VirtSem: Logical Depth and Physical Complexity
+
+Here are the first seven pages of Charles Bennett's paper on "Logical Depth
+and Physical Complexity," taken from Herken's book. I didn't include the
+more technical pages, which are interesting and which are certainly worth
+reading, as they are just too technical and too hard to scan-in and OCR
+(lots of equations with subscripts, etc.).
+
+This stuff fits in with the "space-time" diagram of "program size-program
+run time" diagram I posted a short while ago.(It also relates to logical
+reversibility in some interesting ways.) Logical depth is closely related
+to AIT--integrally related, in fact. And closely tied to issues of
+"entropy" and "extropy" (the phrases "She's deep," and the cyberpunk
+question, "Are you dense yet?" have resonances here).
+
+Bennett also wrote a guest column on logical depth and Chaitin's Omega for
+Martin Gardner's column, some years back. This article is very accessible
+and is reprinted in Gardner's "Fractal Music, Hypercards and More...,"
+Freeman, 1992. I don't have a copy of this book handy, else I'd've scanned
+the article in. (Last night at a party, I was talking to "Forrest,"
+formerly of our List, and telling him about the virtual seminar. He
+surprised me by saying, "You know, there's another guy at IBM who had
+similar ideas...really neat stuff." It turned out Forrest was thinking of
+Bennett's article in "Sci. Am., which he remembered these many years later.
+I urged Forrest to rejoin the list, as he had many good ideas (last night)
+about evolution, genome complexity, and AIT.)
+
+Anyway, here's the Bennett article. Be careful not to take everything too
+literally--OCR errors may still remain, though I proofed it fairly
+carefully and ran it through a spelling checker (which is more than I do
+for my own posts!). Still, errors may remain.
+
+
+
+[Source of this paper: Herken, Rolf, "The Universal Turing Machine: A
+Half-Century Survey," Oxford University Press, 1988.]
+
+
+Logical Depth and Physical Complexity
+
+Charles H. Bennett
+
+Abstract. Some mathematical and natural objects (a random sequence. a
+sequence of zeros, a perfect crystal, a gas) are intuitively trivial, while
+others (e.g., the human body, the digits of pi) contain internal evidence
+of a nontrivial causal history.
+    We formalize this distinction by defining an object's "logical depth"
+as the time required by a standard universal Turing machine to generate it
+from an input that is algorithmically random (i.e., Martin-Lof random).
+This definition of depth is shown to be reasonably machine-independent, as
+well as obeying a slow-growth law: deep objects cannot be quickly produced
+from shallow ones by any deterministic process, nor with much probability
+by a probabilistic process, but can be produced slowly.
+    Next we apply depth to the physical problem of "self-organization",
+inquiring in particular under what conditions (e.g., noise,
+irreversibility, spatial and other symmetries of the initial conditions and
+equations of motion) statistical-mechanical model systems can imitate
+computers well enough to undergo unbounded increase of depth in the limit
+of infinite space and time.
+
+1. Introduction
+
+Persons of Turing's genius do not shy away from asking big questions, and
+hoping to see, in advance of the eventual slow progress of science, the
+essential outlines of the answers. "What is intelligence?" is one such
+question that clearly fascinated Turing. "How do complicated structures
+arise in nature?" is another. On this latter question, seeds planted by
+Turing have begun to mature to an extent that ! think would please him.
+    Two outgrowths of computability theory, viz. algorithmic information
+theory and computational complexity theory, have made it possible to
+formalize satisfactorily the seemingly vague intuitive notion of
+complexity. Meanwhile, advances in equilibrium and nonequilibrium
+statistical mechanics have shed considerable light on the conditions,
+hinted at in Turing's work on morphogenesis (Turing 1952), required for a
+simple, initially homogeneous medium to organize itself into structures
+capable of holding and processing information in the manner of a computer.
+We begin by showing how universal Turing machines can be used to formalize
+intuitive notions of complexity, returning in Section 5 to the question of
+self-organization in physics.
+    The ability of the universal Turing machine to simulate any known
+algorithmic process, and the belief (commonly called Church's thesis but
+independently proposed by Turing) that all algorithmic processes can be so
+simulated, has prompted and justified the use of universal Turing machines
+to define absolute properties of mathematical objects, beginning with the
+distinction drawn by Turing (1936-7, 1937) between computable and
+uncomputable real numbers.
+    Church's thesis has been found to hold to a considerable extent for the
+efficiency, as well as the possibility, of computation. A large variety of
+computational models (roughly, those with at most polynomially growing
+parallelism) can be simulated by a universal Turing machine in polynomial
+time, linear space. and with an additive constant increase in program size.
+This stronger Church's thesis has prompted the definition, on the one hand,
+of robust dynamic complexity classes such as P and PSPACE, and on the other
+hand of a nearly machine-independent algorithmic theory of information and
+randomness.
+    The dynamic complexity class P, for example, consists of those
+O/l-valued functions of a binary string argument computable in time (i.e.,
+number of machine cycles) bounded by a polynomial in the length of the
+argument, and includes the same functions regardless of whether the
+computations are performed by single-tape Turing machines, multi-tape
+Turing machines, cellular automata, or a wide variety of other models. The
+class PSPACE is defined analogously, but with the bound on space (i.e.,
+number of squares of tape) instead of time. Diagonal constructions similar
+to that used to prove the existence of uncomputable functions can be used
+to define provably hard-to-compute functions, requiring for example
+exponential time and space to compute. A major open question of dynamic
+complexity theory is the P = PSPACE question: it is widely conjectured, but
+not known, that P is a proper subset of PSPACE, i.e., that there exist
+functions computable in polynomial space but requiring more than polynomial
+time.
+    Algorithmic information theory (cf. Kolmogorov 1963, 1965; Solomonoff
+1964; Zvonkin and Levin 1970) uses a standard universal Turing machine to
+define the Kolmogorov complexity or information content of a string x as
+the length of its minimal program x*, the shortest binary input which
+causes the standard machine to produce exactly x as output, and the
+information content of a string is identified with the number of bits in
+its minimal program. A string is said to be compressible by k bits if its
+minimal program is > k bits shorter than the string itself. A simple
+counting argument shows that at most a fraction 2 ^ (-k) of strings of
+length <= n bits can have this property. This fact justifies calling
+strings that are incompressible, or nearly so, algorithmically random. Like
+the majority of strings one might generate by coin tossing, such strings
+lack internal redundancy that could be exploited to encode them concisely,
+using the given universal Turing machine as decoding apparatus. Because of
+the ability of universal Turing machines to simulate one another, the
+property of algorithmic randomness is approximately machine-independent: a
+string that is incompressible on one machine cannot be compressed, on
+another machine, by more than the fixed number of bits required to program
+the first machine to simulate the second.
+    The relation between universal computer programs and their outputs has
+long been regarded (Solomonoff 1964) as a formal analog of the relation
+between theory and observation in science, with the minimal-sized program
+representing the most economical, and therefore a priori most plausible.
+explanation of its output. In view of this analogy, it would be natural to
+associate with each finite object the cost in dynamic resources of
+reconstructing it from its minimal program. A "deep" or dynamically complex
+object would then be one whose most plausible origin, via an effective
+process, entails a lengthy computation. Just as the plausibility of a
+scientific theory depends on the economy of its assumptions, not on the
+length of the deductive path connecting them with observed phenomena, so a
+slow execution time is not evident against the plausibility of a program;
+rather, if there are no comparably concise programs to compute the same
+output quickly, it is evidence of the nontriviality of that output.
+    A more careful definition of depth should not depend only on the
+minimal program, but should take fair account of all programs that compute
+the given output, for example giving two k + l-bit programs the same weight
+as one k-bit program. This is analogous in science to the exploration of a
+phenomenon by appeal to an ensemble of possible causes, individually
+unlikely but collectively plausible, as in the kinetic theory of gases.
+Several nearly-equivalent definitions of depth are considered in Section 3;
+the one finally advocated defines an object's "8-significant depth" as the
+least time required to compute it by a program that is itself compressible
+by no more than s bits. This formalizes the notion that any hypothesis of
+the object's more rapid origin suffers from s bits of redundancy. Such
+redundancy fairly measures the "ad-hocness" of a hypothesis, the extent to
+which it contains unexplained, a-priori-unlikely internal correlations that
+could be explained by deriving the original hypothesis from a more concise,
+nonredundant hypothesis.
+    The notion of logical depth developed in the present paper was first
+described in Chaitin 1977, and at greater length in Bennett 1982 and
+Bennett 1985: similar notions have been independently introduced by Adleman
+1979 ("potential"), Levin and V'jugin 1977 ("incomplete sequence"), Levin
+1984 ("hitting time"), and Koppel, this volume ("sophistication"). See also
+Wolfram's work on "computational irreducibility" (Wolfram 1985) and
+Hartmanis' work on time- and space-bounded algorithmic information
+(Hartmanis 1983).
+    We propose depth as a formal measure of value. From the earliest days
+of information theory it has been appreciated that information per se is
+not a good measure of message value. For example, a typical sequence of
+coin tosses has high information content but little value; an ephemeris,
+giving the positions of the moon and planets every day for a hundred years,
+has no more information than the equations of motion and initial conditions
+from which it was calculated, but saves its owner the effort of
+recalculating these positions. The value of a message thus appears to
+reside not in its information (its absolutely unpredictable parts), nor in
+its obvious redundancy (verbatim repetitions, unequal digit frequencies),
+but rather in what might be called its buried redundancy--parts predictable
+only with difficulty, things the receiver could in principle have figured
+out without being told, but only at considerable cost in money, time, or
+computation. In other words, the value of a message is the amount of
+mathematical or other work plausibly done by its originator, which its
+receiver is saved from having to repeat.
+    Of course, the receiver of a message does not know exactly how it
+originated: it might even have been produced by coin tossing. However, the
+receiver of an obviously nonrandom message, such as the first million bits
+of pi, would reject this "null" hypothesis, on the grounds that it entails
+nearly a million bits worth of ad-hoc assumptions, and would favor an
+alternative hypothesis that the message originated from some mechanism for
+computing pi. The plausible work involved in creating a message, then, is
+the amount of work required to derive it from a hypothetical cause
+involving no unnecessary, ad-hoc assumptions. It is this notion of the
+message value that depth attempts to formalize.
+    Depth may be contrasted with other ways of attributing dynamic
+complexity to finite objects, for example by regarding them as inputs of a
+universal computer rather than as outputs. An object would be complex in
+this sense if it caused the computer to embark on a long (but terminating)
+computation. Such objects might be called "ambitious" because they describe
+a lengthy computation that may never have been done. A deep object, on the
+other hand, contains internal evidence that a lengthy computation has
+already been done. When considering moderate levels of ambition, e.g.,
+exponential rather than busy-beaver in the size of the objects being
+considered, it is best to define ambition strictly as the actual run time
+of a string when executed as a program. In this case, of course, ambition
+is not very robust, since a slight change can convert a slow-running
+program into a fast-running one, or vice versa. In particular, a deep
+object need not be ambitious. At high levels of ambition, the notion can be
+given more robustness and interest (cf. Gacs 1983), by defining an
+ambitious string more broadly as one which is very slow-running itself or
+from which a very slow-running program can easily be computed. In this
+case, a string's ambition measures the amount of information it contains
+about the halting problem, i.e., about how to compute very large numbers;
+and, as will be seen later, deep objects are necessarily ambitious but not
+conversely.
+    Another kind of complexity associated with an object would be the
+difficulty, given the object, of finding a plausible hypothesis to explain
+it. Objects having this kind of complexity might be called "cryptic": to
+find a plausible origin for the object is like solving a cryptogram. A
+desirable (but mathematically unproven) property for small-key
+cryptosystems is that encryption should be easy, but breaking the system
+(e.g., inferring the key from a sufficient quantity of intercepted
+ciphertext) should be hard. If satisfactory small-key cryptosystems indeed
+exist, then typical cryptograms generated from shallow plaintexts are
+shallow (because they can be generated quickly from shallow input
+information) but cryptic (because even when the cryptogram contains
+sufficient information to uniquely determine the plaintext and key, the job
+of doing so is computationally infeasible).
+    One might argue that a message's usefulness is a better measure of
+value than its mathematical replacement cost, but usefulness is probably
+too anthropocentric a concept to formalize mathematically.
+    Related ideas appear in the fiction of Borges 1964, e.g., in the story
+"Pierre Menard, Author of the Quixote" about a man who with great effort
+reconstructs several chapters of Don Quixote without errors and without
+consulting the original, from an intimate knowledge of the book's
+historical and literary context. Another story, "The Library of Babel"
+describes a library whose shelves contain, in seemingly random order, all
+possible 410-page books on a 25-letter alphabet, and the librarians'
+attempts to discern which of the books were meaningful.
+    The tradeoff between conciseness of representation and ease of decoding
+is illustrated in an extreme form by the information required to solve the
+halting problem. One standard representation of this information is as an
+infinite binary sequence K-sub-0 (the characteristic sequence of the
+halting set) whose i'th bit is 0 or 1 according to whether the i'th program
+halts. This sequence is clearly redundant, because many instances of the
+halting problem are easily solvable or reducible to other instances.
+Indeed, K-sub-0 is far more redundant than this superficial evidence might
+indicate. Barzdin 1968 showed that this information can be compressed to
+the logarithm of its original bulk, but no concisely encoded representation
+of it can be decoded in recursively bounded time.
+    The most elegantly concise representation of the halting problem is
+Chaitin's irrational number Omega (Chaitin 1975), defined as the halting
+probability of a universal computer programmed by coin tossing (the
+computer starts in a standard state, and whenever it tries to read a bit of
+its program, a coin is tossed to supply that bit). Such a randomly
+programmed computation is like the old notion of a monkey accidentally
+typing the works of Shakespeare, but now the monkey sits at a computer
+keyboard instead of a typewriter. The result is still trivial with high
+probability, but any nontrivial computation also has a finite probability
+of being performed, inversely proportional to the exponential of the length
+of its program. The essential features of Omega (Chaitin 1975, Bennett
+1979) are
+    i) The first n bits of Omega suffice to decide approximately the first
+2^n cases of the halting problem (more precisely, to decide the fate of all
+computations using < n coin tosses), but there is no faster way of
+extracting this information than to recursively enumerate halting programs
+until enough have been found to account for all but 2^ (-n) of the total
+halting probability Omega, a job which requires at least as much time as
+running the slowest n bit program.
+    ii) I} is algorithmically random: like a typical coin toss sequence,
+its first n bits cannot be encoded in less than n - O(1) bits. (This
+algorithmic randomness may seem contradictory to, but in fact is a
+consequence of, Omega's compact encoding of the halting problem. Knowledge
+of Omega-sub-n (i.e., the first n bits of Omega) is sufficient to decide
+the halting of all programs shorter than n bits, and therefore to determine
+which n-bit strings are compressible and which are not, and therefore to
+find and print out the lexicographically first incompressible n-bit string
+x. If Omega-sub-n itself were significantly compressible, then the
+algorithm just described could be combined with the compressed
+representation of Omega-sub-n to yield a < n bit program to produce z, a
+supposedly incompressible n-bit string. This contradiction proves the
+O(1)-incompressibility of Omega.)
+    iii) although it solves unsolvable problems, Omega does not speed up
+the solution of solvable problems any more than a random coin-toss sequence
+would. (This uselessness follows from its algorithmic randomness. Any
+special ability of Omega to speed up the computation of a computable
+function would set it apart from random sequences in general, and this
+atypicality could be exploited to encode Omega more concisely,
+contradicting its randomness.)
+    In summary, we may say that the Omega contains the same information as
+K-sub-0, but in such a compressed form that as to be random and useless.
+Omega is a shallow representation of the deep object K-sub-0.
+
+    Descending from the realm of the halting problem to more mundane levels
+of complexity (e.g., polynomial versus exponential), one is tempted to
+invoke depth as a measure of complexity for physical objects, but one must
+proceed cautiously. The applicability of any idea from computational
+complexity to physics depends on what has been called a "physical Church's
+thesis", the belief that physical processes can be simulated with
+acceptable accuracy and efficiency by digital computations. Turing was
+quite aware of this question, and based his informal justification of his
+model of computation largely on physical considerations. Granting some form
+of physical Church's. thesis, a nontrivial application of depth to physical
+systems appears to depend on unproven conjectures at the low end of
+complexity theory, such as P !=!  PSPACE. These questions are considered in
+the last section of the paper.
+
+[rest of paper not included...it gets pretty detailes, with lots of
+hard-to-OCR equations. Interested readers should locate the Herken book, as
+it has many papers of interest.]
+
+
+
+------------------------------
+
+Date: Mon, 28 Jun 93 0:58:42 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: AIT VirtSem: Logical Depth and Physical Complexity
+
+Here are the first seven pages of Charles Bennett's paper on "Logical Depth
+and Physical Complexity," taken from Herken's book. I didn't include the
+more technical pages, which are interesting and which are certainly worth
+reading, as they are just too technical and too hard to scan-in and OCR
+(lots of equations with subscripts, etc.).
+
+This stuff fits in with the "space-time" diagram of "program size-program
+run time" diagram I posted a short while ago.(It also relates to logical
+reversibility in some interesting ways.) Logical depth is closely related
+to AIT--integrally related, in fact. And closely tied to issues of
+"entropy" and "extropy" (the phrases "She's deep," and the cyberpunk
+question, "Are you dense yet?" have resonances here).
+
+Bennett also wrote a guest column on logical depth and Chaitin's Omega for
+Martin Gardner's column, some years back. This article is very accessible
+and is reprinted in Gardner's "Fractal Music, Hypercards and More...,"
+Freeman, 1992. I don't have a copy of this book handy, else I'd've scanned
+the article in. (Last night at a party, I was talking to "Forrest,"
+formerly of our List, and telling him about the virtual seminar. He
+surprised me by saying, "You know, there's another guy at IBM who had
+similar ideas...really neat stuff." It turned out Forrest was thinking of
+Bennett's article in "Sci. Am., which he remembered these many years later.
+I urged Forrest to rejoin the list, as he had many good ideas (last night)
+about evolution, genome complexity, and AIT.)
+
+Anyway, here's the Bennett article. Be careful not to take everything too
+literally--OCR errors may still remain, though I proofed it fairly
+carefully and ran it through a spelling checker (which is more than I do
+for my own posts!). Still, errors may remain.
+
+
+
+[Source of this paper: Herken, Rolf, "The Universal Turing Machine: A
+Half-Century Survey," Oxford University Press, 1988.]
+
+
+Logical Depth and Physical Complexity
+
+Charles H. Bennett
+
+Abstract. Some mathematical and natural objects (a random sequence. a
+sequence of zeros, a perfect crystal, a gas) are intuitively trivial, while
+others (e.g., the human body, the digits of pi) contain internal evidence
+of a nontrivial causal history.
+    We formalize this distinction by defining an object's "logical depth"
+as the time required by a standard universal Turing machine to generate it
+from an input that is algorithmically random (i.e., Martin-Lof random).
+This definition of depth is shown to be reasonably machine-independent, as
+well as obeying a slow-growth law: deep objects cannot be quickly produced
+from shallow ones by any deterministic process, nor with much probability
+by a probabilistic process, but can be produced slowly.
+    Next we apply depth to the physical problem of "self-organization",
+inquiring in particular under what conditions (e.g., noise,
+irreversibility, spatial and other symmetries of the initial conditions and
+equations of motion) statistical-mechanical model systems can imitate
+computers well enough to undergo unbounded increase of depth in the limit
+of infinite space and time.
+
+1. Introduction
+
+Persons of Turing's genius do not shy away from asking big questions, and
+hoping to see, in advance of the eventual slow progress of science, the
+essential outlines of the answers. "What is intelligence?" is one such
+question that clearly fascinated Turing. "How do complicated structures
+arise in nature?" is another. On this latter question, seeds planted by
+Turing have begun to mature to an extent that ! think would please him.
+    Two outgrowths of computability theory, viz. algorithmic information
+theory and computational complexity theory, have made it possible to
+formalize satisfactorily the seemingly vague intuitive notion of
+complexity. Meanwhile, advances in equilibrium and nonequilibrium
+statistical mechanics have shed considerable light on the conditions,
+hinted at in Turing's work on morphogenesis (Turing 1952), required for a
+simple, initially homogeneous medium to organize itself into structures
+capable of holding and processing information in the manner of a computer.
+We begin by showing how universal Turing machines can be used to formalize
+intuitive notions of complexity, returning in Section 5 to the question of
+self-organization in physics.
+    The ability of the universal Turing machine to simulate any known
+algorithmic process, and the belief (commonly called Church's thesis but
+independently proposed by Turing) that all algorithmic processes can be so
+simulated, has prompted and justified the use of universal Turing machines
+to define absolute properties of mathematical objects, beginning with the
+distinction drawn by Turing (1936-7, 1937) between computable and
+uncomputable real numbers.
+    Church's thesis has been found to hold to a considerable extent for the
+efficiency, as well as the possibility, of computation. A large variety of
+computational models (roughly, those with at most polynomially growing
+parallelism) can be simulated by a universal Turing machine in polynomial
+time, linear space. and with an additive constant increase in program size.
+This stronger Church's thesis has prompted the definition, on the one hand,
+of robust dynamic complexity classes such as P and PSPACE, and on the other
+hand of a nearly machine-independent algorithmic theory of information and
+randomness.
+    The dynamic complexity class P, for example, consists of those
+O/l-valued functions of a binary string argument computable in time (i.e.,
+number of machine cycles) bounded by a polynomial in the length of the
+argument, and includes the same functions regardless of whether the
+computations are performed by single-tape Turing machines, multi-tape
+Turing machines, cellular automata, or a wide variety of other models. The
+class PSPACE is defined analogously, but with the bound on space (i.e.,
+number of squares of tape) instead of time. Diagonal constructions similar
+to that used to prove the existence of uncomputable functions can be used
+to define provably hard-to-compute functions, requiring for example
+exponential time and space to compute. A major open question of dynamic
+complexity theory is the P = PSPACE question: it is widely conjectured, but
+not known, that P is a proper subset of PSPACE, i.e., that there exist
+functions computable in polynomial space but requiring more than polynomial
+time.
+    Algorithmic information theory (cf. Kolmogorov 1963, 1965; Solomonoff
+1964; Zvonkin and Levin 1970) uses a standard universal Turing machine to
+define the Kolmogorov complexity or information content of a string x as
+the length of its minimal program x*, the shortest binary input which
+causes the standard machine to produce exactly x as output, and the
+information content of a string is identified with the number of bits in
+its minimal program. A string is said to be compressible by k bits if its
+minimal program is > k bits shorter than the string itself. A simple
+counting argument shows that at most a fraction 2 ^ (-k) of strings of
+length <= n bits can have this property. This fact justifies calling
+strings that are incompressible, or nearly so, algorithmically random. Like
+the majority of strings one might generate by coin tossing, such strings
+lack internal redundancy that could be exploited to encode them concisely,
+using the given universal Turing machine as decoding apparatus. Because of
+the ability of universal Turing machines to simulate one another, the
+property of algorithmic randomness is approximately machine-independent: a
+string that is incompressible on one machine cannot be compressed, on
+another machine, by more than the fixed number of bits required to program
+the first machine to simulate the second.
+    The relation between universal computer programs and their outputs has
+long been regarded (Solomonoff 1964) as a formal analog of the relation
+between theory and observation in science, with the minimal-sized program
+representing the most economical, and therefore a priori most plausible.
+explanation of its output. In view of this analogy, it would be natural to
+associate with each finite object the cost in dynamic resources of
+reconstructing it from its minimal program. A "deep" or dynamically complex
+object would then be one whose most plausible origin, via an effective
+process, entails a lengthy computation. Just as the plausibility of a
+scientific theory depends on the economy of its assumptions, not on the
+length of the deductive path connecting them with observed phenomena, so a
+slow execution time is not evident against the plausibility of a program;
+rather, if there are no comparably concise programs to compute the same
+output quickly, it is evidence of the nontriviality of that output.
+    A more careful definition of depth should not depend only on the
+minimal program, but should take fair account of all programs that compute
+the given output, for example giving two k + l-bit programs the same weight
+as one k-bit program. This is analogous in science to the exploration of a
+phenomenon by appeal to an ensemble of possible causes, individually
+unlikely but collectively plausible, as in the kinetic theory of gases.
+Several nearly-equivalent definitions of depth are considered in Section 3;
+the one finally advocated defines an object's "8-significant depth" as the
+least time required to compute it by a program that is itself compressible
+by no more than s bits. This formalizes the notion that any hypothesis of
+the object's more rapid origin suffers from s bits of redundancy. Such
+redundancy fairly measures the "ad-hocness" of a hypothesis, the extent to
+which it contains unexplained, a-priori-unlikely internal correlations that
+could be explained by deriving the original hypothesis from a more concise,
+nonredundant hypothesis.
+    The notion of logical depth developed in the present paper was first
+described in Chaitin 1977, and at greater length in Bennett 1982 and
+Bennett 1985: similar notions have been independently introduced by Adleman
+1979 ("potential"), Levin and V'jugin 1977 ("incomplete sequence"), Levin
+1984 ("hitting time"), and Koppel, this volume ("sophistication"). See also
+Wolfram's work on "computational irreducibility" (Wolfram 1985) and
+Hartmanis' work on time- and space-bounded algorithmic information
+(Hartmanis 1983).
+    We propose depth as a formal measure of value. From the earliest days
+of information theory it has been appreciated that information per se is
+not a good measure of message value. For example, a typical sequence of
+coin tosses has high information content but little value; an ephemeris,
+giving the positions of the moon and planets every day for a hundred years,
+has no more information than the equations of motion and initial conditions
+from which it was calculated, but saves its owner the effort of
+recalculating these positions. The value of a message thus appears to
+reside not in its information (its absolutely unpredictable parts), nor in
+its obvious redundancy (verbatim repetitions, unequal digit frequencies),
+but rather in what might be called its buried redundancy--parts predictable
+only with difficulty, things the receiver could in principle have figured
+out without being told, but only at considerable cost in money, time, or
+computation. In other words, the value of a message is the amount of
+mathematical or other work plausibly done by its originator, which its
+receiver is saved from having to repeat.
+    Of course, the receiver of a message does not know exactly how it
+originated: it might even have been produced by coin tossing. However, the
+receiver of an obviously nonrandom message, such as the first million bits
+of pi, would reject this "null" hypothesis, on the grounds that it entails
+nearly a million bits worth of ad-hoc assumptions, and would favor an
+alternative hypothesis that the message originated from some mechanism for
+computing pi. The plausible work involved in creating a message, then, is
+the amount of work required to derive it from a hypothetical cause
+involving no unnecessary, ad-hoc assumptions. It is this notion of the
+message value that depth attempts to formalize.
+    Depth may be contrasted with other ways of attributing dynamic
+complexity to finite objects, for example by regarding them as inputs of a
+universal computer rather than as outputs. An object would be complex in
+this sense if it caused the computer to embark on a long (but terminating)
+computation. Such objects might be called "ambitious" because they describe
+a lengthy computation that may never have been done. A deep object, on the
+other hand, contains internal evidence that a lengthy computation has
+already been done. When considering moderate levels of ambition, e.g.,
+exponential rather than busy-beaver in the size of the objects being
+considered, it is best to define ambition strictly as the actual run time
+of a string when executed as a program. In this case, of course, ambition
+is not very robust, since a slight change can convert a slow-running
+program into a fast-running one, or vice versa. In particular, a deep
+object need not be ambitious. At high levels of ambition, the notion can be
+given more robustness and interest (cf. Gacs 1983), by defining an
+ambitious string more broadly as one which is very slow-running itself or
+from which a very slow-running program can easily be computed. In this
+case, a string's ambition measures the amount of information it contains
+about the halting problem, i.e., about how to compute very large numbers;
+and, as will be seen later, deep objects are necessarily ambitious but not
+conversely.
+    Another kind of complexity associated with an object would be the
+difficulty, given the object, of finding a plausible hypothesis to explain
+it. Objects having this kind of complexity might be called "cryptic": to
+find a plausible origin for the object is like solving a cryptogram. A
+desirable (but mathematically unproven) property for small-key
+cryptosystems is that encryption should be easy, but breaking the system
+(e.g., inferring the key from a sufficient quantity of intercepted
+ciphertext) should be hard. If satisfactory small-key cryptosystems indeed
+exist, then typical cryptograms generated from shallow plaintexts are
+shallow (because they can be generated quickly from shallow input
+information) but cryptic (because even when the cryptogram contains
+sufficient information to uniquely determine the plaintext and key, the job
+of doing so is computationally infeasible).
+    One might argue that a message's usefulness is a better measure of
+value than its mathematical replacement cost, but usefulness is probably
+too anthropocentric a concept to formalize mathematically.
+    Related ideas appear in the fiction of Borges 1964, e.g., in the story
+"Pierre Menard, Author of the Quixote" about a man who with great effort
+reconstructs several chapters of Don Quixote without errors and without
+consulting the original, from an intimate knowledge of the book's
+historical and literary context. Another story, "The Library of Babel"
+describes a library whose shelves contain, in seemingly random order, all
+possible 410-page books on a 25-letter alphabet, and the librarians'
+attempts to discern which of the books were meaningful.
+    The tradeoff between conciseness of representation and ease of decoding
+is illustrated in an extreme form by the information required to solve the
+halting problem. One standard representation of this information is as an
+infinite binary sequence K-sub-0 (the characteristic sequence of the
+halting set) whose i'th bit is 0 or 1 according to whether the i'th program
+halts. This sequence is clearly redundant, because many instances of the
+halting problem are easily solvable or reducible to other instances.
+Indeed, K-sub-0 is far more redundant than this superficial evidence might
+indicate. Barzdin 1968 showed that this information can be compressed to
+the logarithm of its original bulk, but no concisely encoded representation
+of it can be decoded in recursively bounded time.
+    The most elegantly concise representation of the halting problem is
+Chaitin's irrational number Omega (Chaitin 1975), defined as the halting
+probability of a universal computer programmed by coin tossing (the
+computer starts in a standard state, and whenever it tries to read a bit of
+its program, a coin is tossed to supply that bit). Such a randomly
+programmed computation is like the old notion of a monkey accidentally
+typing the works of Shakespeare, but now the monkey sits at a computer
+keyboard instead of a typewriter. The result is still trivial with high
+probability, but any nontrivial computation also has a finite probability
+of being performed, inversely proportional to the exponential of the length
+of its program. The essential features of Omega (Chaitin 1975, Bennett
+1979) are
+    i) The first n bits of Omega suffice to decide approximately the first
+2^n cases of the halting problem (more precisely, to decide the fate of all
+computations using < n coin tosses), but there is no faster way of
+extracting this information than to recursively enumerate halting programs
+until enough have been found to account for all but 2^ (-n) of the total
+halting probability Omega, a job which requires at least as much time as
+running the slowest n bit program.
+    ii) I} is algorithmically random: like a typical coin toss sequence,
+its first n bits cannot be encoded in less than n - O(1) bits. (This
+algorithmic randomness may seem contradictory to, but in fact is a
+consequence of, Omega's compact encoding of the halting problem. Knowledge
+of Omega-sub-n (i.e., the first n bits of Omega) is sufficient to decide
+the halting of all programs shorter than n bits, and therefore to determine
+which n-bit strings are compressible and which are not, and therefore to
+find and print out the lexicographically first incompressible n-bit string
+x. If Omega-sub-n itself were significantly compressible, then the
+algorithm just described could be combined with the compressed
+representation of Omega-sub-n to yield a < n bit program to produce z, a
+supposedly incompressible n-bit string. This contradiction proves the
+O(1)-incompressibility of Omega.)
+    iii) although it solves unsolvable problems, Omega does not speed up
+the solution of solvable problems any more than a random coin-toss sequence
+would. (This uselessness follows from its algorithmic randomness. Any
+special ability of Omega to speed up the computation of a computable
+function would set it apart from random sequences in general, and this
+atypicality could be exploited to encode Omega more concisely,
+contradicting its randomness.)
+    In summary, we may say that the Omega contains the same information as
+K-sub-0, but in such a compressed form that as to be random and useless.
+Omega is a shallow representation of the deep object K-sub-0.
+
+    Descending from the realm of the halting problem to more mundane levels
+of complexity (e.g., polynomial versus exponential), one is tempted to
+invoke depth as a measure of complexity for physical objects, but one must
+proceed cautiously. The applicability of any idea from computational
+complexity to physics depends on what has been called a "physical Church's
+thesis", the belief that physical processes can be simulated with
+acceptable accuracy and efficiency by digital computations. Turing was
+quite aware of this question, and based his informal justification of his
+model of computation largely on physical considerations. Granting some form
+of physical Church's. thesis, a nontrivial application of depth to physical
+systems appears to depend on unproven conjectures at the low end of
+complexity theory, such as P !=!  PSPACE. These questions are considered in
+the last section of the paper.
+
+[rest of paper not included...it gets pretty detailes, with lots of
+hard-to-OCR equations. Interested readers should locate the Herken book, as
+it has many papers of interest.]
+
+
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0360
+****************************************
+

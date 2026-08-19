@@ -1,0 +1,1014 @@
+From extropians-request@gnu.ai.mit.edu Thu May 20 12:31:09 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA14539; Thu, 20 May 93 12:31:07 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA23460; Thu, 20 May 93 12:31:01 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA07561@wookumz.gnu.ai.mit.edu>; Thu, 20 May 93 12:18:37 -0400
+Message-Id: <9305201618.AA07561@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Thu, 20 May 93 12:18:14 -0400
+X-Original-Message-Id: <9305201618.AA07553@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0271
+X-Extropian-Date: Remailed on May 20, 373 P.N.O. [16:18:36 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Thu, 20 May 93            Volume 93 : Issue 0271
+                        
+Today's Topics:
+                              AI: Detecting it                        [1 msgs]
+                         CHALLENGE: Chaitin and RTFM                  [1 msgs]
+                    CLIPPER: Published version of my rant             [1 msgs]
+                 CRYPTO: Pointer to _The Whole Earth Review_          [1 msgs]
+                              Chaitin and RTFM                        [1 msgs]
+             Chaitin, Randomness, and Explanations on this List       [2 msgs]
+                                   Chomsky                            [1 msgs]
+                      Clipper (Rotenberg, RISKS-14.62)                [1 msgs]
+                              Cold Fusion: Not!                       [1 msgs]
+                                 Cool quotes                          [1 msgs]
+                            Currency Competition                      [1 msgs]
+                            Currency competition                      [2 msgs]
+                      FTL: Traversable Wormholes 1 of 1               [3 msgs]
+                      Gold -- Clinton as crypto-Randian               [2 msgs]
+                        Meta: Solomonic Wisdom Needed                 [1 msgs]
+                             More About the FDA                       [1 msgs]
+                            POLY - HSG 100 part 1                     [2 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50423 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 20 May 1993 01:51:34 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: FTL: Traversable Wormholes 1 of 1
+
+Michael Clive Price writes:
+[BTW, a great paper. It makes an excellent background for a sci-fi
+empire story]
+
+> The exotic nature of the edge material requires negative energy density
+> and tension/pressure.  But the laws of physics do not forbid such
+> materials.  The energy density of the vacuum may be negative, as is the
+> Casimir field between two narrow conductors.  Negative pressure fields,
+
+  I need some help with this concept. How can energy density be
+negative? That would imply negative mass and anti-gravity would it not?
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 20 May 1993 01:18:30 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: CLIPPER: Published version of my rant
+
+This is the version of my post that went to RISKS 14.64.  It was edited by me to
+remove assertions which might expose the RISKS digest to libel action.
+
+Permission to redistribute this version as you see fit is explicitly granted.
+Please do *not* redistribute the old version.
+ 
+------------------------------- CUT HERE -------------------------------------
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+To: risks@csl.sri.com
+Subject: Re: Clipper (Rotenberg, RISKS-14.62)
+
+In <CMM.0.90.1.737688970.risks@chiron.csl.sri.com> Marc Rotenberg wrote:
+> Denning has to be kidding.  The comments on the proposed DSS were uniformly
+> critical.  Both Marty Hellman and Ron Rivest questioned the desirability of
+> the proposed standard.
+
+Mr. Rotenberg, as a public figure operating in the political arena, has to
+exercise a certain diplomatic restraint in responding to Ms. Denning's claims.
+I am, thankfully, under no such requirement.
+
+As a long-time RISKS reader and contributor, I observe that that this is not
+the first time that Ms. Denning has apparently operated as a mouthpiece for
+the NSA's anti-privacy party line on DES and related issues.
+
+I believe Ms. Denning's remarks must be understood as part of a continuing
+propaganda campaign to marginalize and demonize advocates of electronic
+privacy rights.  Other facets of this campaign have attempted to link privacy
+advocates to terrorists and drug dealers by suggesting that only criminals
+need fear wiretapping.
+
+These are serious charges.  I make them because, in the wake of the Clipper
+proposal, I do not believe civil libertarians can afford any longer to assume
+that their opponents are persons of good will with whom they can simply debate
+minor differences of institutional means in a collegial way.
+
+It's time for someone to say, in public and on this list, what I know many
+of us have been thinking.  The future is *now*.  Electronic privacy issues
+are no longer a parlor game for futurologists; they are the focus of a
+critical political struggle, *and the opponents of privacy are fighting their
+war with all the tools of force, deception, and propaganda they can command*.
+
+The histories of the DES, the FBI wiretap proposal, and now the Clipper
+proposal must be considered against a wider background of abuses including
+the Steve Jackson case, "Operation Longarm", and the routine tapping of U.S.
+domestic telecommunications by NSA interception stations located outside the 
+geographic borders of the United States.
+
+These form a continuing pattern of attempts by agencies of the U.S. government
+to pre-empt efforts to extend First and Fourth Amendment privacy protections
+to the new electronic media.  In each case, the attempt was made to present
+civil libertarians with a fait accompli, invoking "national security" (or the
+nastiness of "kiddie porn") to justify legislative, judicial and practical
+precedents prejudicial against electronic privacy rights.
+
+While I would not go so far as to claim that these efforts are masterminded by
+a unitary conspiracy, I believe that the interlocking groups of spies,
+bureaucrats and lawmen who have originated them recognize each other as
+cooperating fellow-travellers in much the same way as opposing groups like the
+EFF, CPSR and the Cypherpunks do.  Their implicit agenda is to make the new
+electronic communications media transparent to government surveillance and
+(eventually) pliant to government control.
+
+One of the traits of this culture of control is the belief that manipulative
+lying and dissemblage can be justified for a `higher good'.  
+
+I believe that Ms. Denning's disingenuous claim that the DSS "is now
+considered to be just as strong as RSA" is no mere technical misapprehension.
+I believe it is propaganda aimed at making objectors non-persons in the
+debate.  I cannot know whether Ms. Denning actually believes this claim, but
+it reminds me all too strongly of the classic "Big Lie" technique.
+
+It is important for us to recognize that the propaganda lie is not an
+aberration, but a routine tool of the authoritarian mindset.  And the
+authoritarian mindset is, ultimately, what we are confronting here --- the
+mindset that regards the fighting of elastically-defined `crime' as more
+important than privacy, that presumes guilt until innocence is proven, that
+demands for government a license to override any individual's natural rights
+at political whim.
+
+We cannot trust representatives of an institutional culture that was
+*constructed* to deal in information control, lies, secrecy, paranoia and
+deception to tell us the truth.
+
+We cannot accept the authoritarians' unverified assurances that the sealed
+interior of the Clipper chip contains no `trapdoor' enabling the NSA to
+eavesdrop at will.
+
+We cannot trust the authoritarians' assertions that they have no intention of
+outlawing cryptographic technologies potentially more secure than the Clipper
+chip.
+
+We cannot believe the authoritarians' claims that `independent' key registries
+will prevent abuse of decryption keys by government and/or corrupt individuals.
+
+We cannot --- we *must not* --- cede control of encryption technology to
+the authoritarians.  To do so would betray our children and their descendants,
+who will work and *live* in cyberspace to an extent we can barely imagine.
+
+We cannot any longer afford the luxury of treating the authoritarians as honest
+dealers with whom compromise is morally advisable, or even possible.  Whatever
+their own valuation of themselves, the thinly-veiled power grab represented by
+the Clipper proposal reveals a desire to institutionalize means which a free
+society, wishing to remain free, *cannot tolerate*.  
+
+Big Brother must be stopped *here*.  *Now.*  While it is still possible.
+--
+				Eric S. Raymond <esr@snark.thyrsus.com>
+------------------------------- CUT HERE -------------------------------------
+-- 
+							>>eric>>
+
+------------------------------
+
+Date:     Thu, 20 May 93 7:32:09 GMT
+From: starr@genie.slhs.udel.edu
+Subject: More About the FDA
+
+In support of Phil Fraering: when Mary Ruwart spoke at an ISIL reception at
+Lehr's Greenhouse here in San Francisco, she made two claims that undercut
+the case for the FDA strongly.
+
+1) Before the FDA, there were two private testing agencies for medications:
+the AMA did its own testing, as did a consumer group.
+
+2) The FDA doesn't do most of the testing it's involved with.  It mandates
+that the testing be done by the industries within the scope of its powers.
+
+In other words, instead of having two competing disinterested parties to
+the testing of medications, we now have most of the testing being done by
+parties with an interest in findings that support the safety of their product
+- all under the gun of the FDA, which files the studies, but does little else
+with them, such as check to see if they can be replicated.
+
+As if that wasn't enough, neither aspirin nor penicillin could pass FDA
+requirements today.  The mandated tests have little to do with the safety
+of the medications in humans, and a lot to do with covering bureaucratic
+behinds.
+
+ISIL, of course, sells an issue paper on the FDA titled "Death By Regulation"
+that was written by Dr. Ruwart (former surgery professor and currently
+research scientist at Upjohn Pharmeceutical).  She also holds a patent on
+a product that would prevent much liver disease if it could be put into
+alcoholic beverages, but the FDA won't permit her to do that - at the cost
+of about 10,000 lives per year (Gross Domestic Body Count - GDBC) as well
+as profit to her and her firm.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Thu, 20 May 1993 03:33:18
+From: tim.hruby@his.com (Tim Hruby)
+Subject: CRYPTO: Pointer to _The Whole Earth Review_
+
+Well, after four months of lurking on the list, I'm gonna post.
+
+I don't have a whole lot of substance to impart right now, but I just got my
+_Whole Earth Review_ (Summer 1993), and there is what appears to be a good
+article about electronic privacy for those Extropians(tm) looking for an
+introductory FAQ-type article.  It is written by Kevin Kelly, of _Wired_, and
+prominently features a number of people on this list (in their role as
+Cypherpunks -- we know who you are :->).  I'm only working my way through it,
+but it looks pretty good so far.
+
+I'm kind of surprised that I didn't hear this article talked up ahead of time,
+the way I heard of the _Wired_ article long before press time, but, oh well, I
+can't be cronically informed about everything.  For those of you who think
+that the Whole Earth people are leftists still caught in the Sixties, you
+should give them a try; in a lot of ways, they are solid fellow-travellers
+with us Extropians:  for example, they actively welcome technological
+empowerment, and are generally anti-statist (though they would probably call
+their attitude "anti-Establishment"), you just have to watch out for the
+Green, etc., stuff.  As their subtitle says, they are about "access to tools
+and ideas"; as intelligent Extropians(tm), it is up to us to discriminate
+between the value and the dreck, and I find the Signal-to-Noise ratio to be
+pretty good in general.  Anyway, I don't know why I'm writing a tribute to
+WER, it's not like they pay me or anything, but I thought I'd share this
+pointer with those of you interested in Crypto issues.
+
+BTW, bravo, Eric!  I couldn't agree more with you about Dr. Denning.  I used
+to give her the benefit of the doubt of being a misguided statist do-gooder,
+but that has become increasing hard to do with every "pronouncement" she
+makes.  Well, maybe she can't be blamed.  They could be holding her kids at
+Ft. Meade.... :-|
+
+Tim.Hruby@his.com
+
+------------------------------
+
+Date: Wed, 19 May 1993 23:50:03 -0700
+From: D Anton Sherwood <dasher@well.sf.ca.us>
+Subject: Chomsky
+
+A long time ago, in fact on March 19, Sneal wrote:
+> . . . what I know about Chomsky suggests that he decided
+> that being a shining star in linguistics made him an [extremely vocal
+> leftist crank] expert on EVERYTHING, following the "celebrity
+> political commentator" that's in vogue these days.  . . .
+
+Would you believe preceding?
+According to Geoffrey Sampson ("Language and Liberty", 1979), Chomsky got
+the idea that his results in syntax support syndicalism.  Since he's a
+shining star in linguistics, his conclusions *from* linguistics must be the
+goods.
+
+Sampson is a linguist who agrees with Chomsky about language, but finds his
+argument from language to politics to be caca, mainly because there's more
+to language than syntax.  I may say more when I finish re-reading.
+
+*\\* Anton                                                     Ubi scriptum?
+
+------------------------------
+
+Date: Wed, 19 May 93 23:43:02 +0100
+From: Eric Watt Forste <arkuat@joes.garage.com>
+Subject: Gold -- Clinton as crypto-Randian 
+
+Dan Davis wrote:
+ 
+  Second, with all due respect, government decisions to buy or sell
+  effect market demand and supply, and so effect price.
+
+Harry Browne has made the observation that, with gold, changes in
+demand have a much stronger effect on the price than changes in
+supply. Increases in demand generally come from individuals throughout
+the world who hold a reserve stock of dollars to protect against
+inflation in their local currencies. When these people fear inflation
+in the dollar, they move part of their reserve savings from dollars
+into gold. Personally, I think if all the small dollar-holders all
+over the world become convinced that the Clinton administration will
+bring dollar inflation back, and if May's inflation numbers look
+anything like April's, the world governments can sell all they want
+and they won't keep the price of gold from being set primarily by the
+demand of individuals.
+
+Eric Watt Forste                             arkuat@joes.garage.com
+1800 Market St #243                          San Francisco CA 94102
+      "Expectation foils perception."   -- Pamela C. Dean
+
+
+------------------------------
+
+Date: Thu, 20 May 93 07:57:57 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: Chaitin and RTFM
+
+I intend to keep this short.
+
+Yesterday I checked out the Sci American ref Tim gave and have
+deliberately waited awhile before posting to review all the postings on
+the thread a couple of times, sleep on it etc. 
+
+I had already read the article and it settled none of my concerns about
+the way Chaitin's work is presented.  I learned that Chaitin himself is
+responsible for the overblown rhetoric in this area and suffers from
+physics-envy, drawing quite specious analogies with radioactive decay
+etc, clouding the distinction between undecidable and computationally
+difficult.  Exactly the concerns I raised in my two postings on the
+subject.  Not a coincidence because I was going from my memory of
+reading about the stuff in 1988 [although I had forgotten the source].
+
+I resent Tim's patronising and arrogant approach to debate in this area,
+dismissing anyone who asks questions, disagreeing etc as expressing
+"ignorant skepticism" and oh-so-sadly wishing people would think before
+they post.  Very good advice.  Thank you Tim.  Take your own medicine.
+
+Tim's comments about wormholes and crankiness are equally ill-informed. 
+I shall respond later to those.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Thu, 20 May 93 07:26:43 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: FTL: Traversable Wormholes 1 of 1
+
+Ray says:
+>> The exotic nature of the edge material requires negative energy
+>> density and tension/pressure.  But the laws of physics do not 
+>> forbid such materials.  The energy density of the vacuum may be
+>> negative, as is the Casimir field between two narrow conductors. 
+>> Negative pressure fields,
+> 
+>   I need some help with this concept. How can energy density be
+> negative? 
+
+I don't know, but it exists.
+
+> That would imply negative mass and anti-gravity would it not?
+
+It does indeed.  And anti-gravity implies self propelling space ships. 
+Wormhole at back and black hole at front.  Wormhole repels black hole,
+black hole attracts wormhole.  If they are positionally stabilised by
+the ship's hull they all fly off together into the sunset with no net
+expenditure of energy.  A moving wormhole acquire negative energy of
+motion that cancels the energy gain of the black hole.
+
+Apparently Forward has written about this, which I must look up.
+
+> -- Ray Cromwell
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Thu, 20 May 93 01:33:46 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Chaitin, Randomness, and Explanations on this List
+
+Ray Cromwell writes:
+.....
+>   Ah, it's clear now. Still, I wonder if there are theorems that can't be
+>coded by a UTM? I recall a discussion in sci.math a long time ago about
+>formalizing randomness. It was postulated that to write down theorems about
+>"true randomness" would require an infinity of axioms.
+>
+>  Now suppose that we could invent theorems which couldn't be encoded
+>on a UTM, and furthermore we could prove such theorems. Wouldn't
+>that constitute a violation of the Church-Turing Hypothesis?
+>
+>  Since I believe the Church-Turing hypothesis (which is essential
+>for uploading arguments lest you assume that the mind is uncomputable
+>by mere machines), I doubt the existence of provable infinitely long
+>theorems. It was just a thought.
+
+A very timely speculation, that there may exist models of computation which
+go beyond the Church-Turing model. So far, none have been found.
+
+It currently represents what we understand to be "effectively computable."
+
+The likeliest area to look for "Trans-UTM" computations (a term I just made
+up) is undoubtedly in quantum mechanics, and both David Deutsch and Roger
+Penrose have speculations along these lines. (I just saw a Charles Bennett
+summary of Deutch's latest work in a recent issue of either "Nature" or
+"Science")
+
+-Tim May
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+Date: Thu, 20 May 1993 02:48:32 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: Currency Competition
+
+Craig Presson:
+>>[cash sorting/counting machine]
+> Hard to do without more standardizaton of paper bills, or even
+> barcoding or electronic tagging -- not what we want to see happen.
+
+Perhaps we'd just need more robust versions of the scanners in vending 
+machines that accept/reject $1 bills.  Still costly, I'll admit.
+
+>>[multi-currency credit cards]
+
+According to _Mark Skousen's Complete Guide to Financial Privacy_,
+there are several offshore credit card companies that will bill in
+the currency of your choice.   Does anybody have more specifics on
+this, and if such cards are accepted in the U.S.?
+
+> Here's a boundary condition to think about -- suppose there's a steady
+> downward trend in one currency, e.g., steady inflation in the US makes
+> FRNs fall almost daily against other currencies.
+
+At first thought I'd say such steady erosion is hard to predict --
+except for the sad fact that the U.S. dollar has done just that since
+WWII, is doing so now, and from every trend I see will continue its
+long slide over the next few years.  Still, over a one-month billing 
+period I suspect the movements of most currencies are near random.
+
+> If I can contrive,
+> through my handy dandy multicultural Amex card, to pay my bills in
+> FRNs while I'm being paid in AnarchoBank Digital Gold Notes, I always
+> make out on the float, and Amex's feverish putting of FRNs just makes
+> the bleeding worse.
+
+If folks know the currency is going down, this is already reflected in the
+price of the puts, which Amex must pay and pass on to its customers. 
+If the premium is small it might spread it around; but if the put
+price is high (ie currency known to be highly unstable) they will
+probably tack on interest from the date of transaction instead of
+giving you 30 days interest free.  Sorry, no 30-day-interest-free
+ruble charge cards... :-)
+
+> the prospective suspendees, must hate the thought of hyperinflation of
+> their local currency! ("What year is this? What are my trust funds
+> worth?...
+
+A good strategy here might be to (a) pick planet-GNP-representative
+mutual funds, as suggested by Dani Eder, and either (b) eliminate
+inflation-induced capital gains tax liability by choice of political 
+venue for the trust, or (c) hedge such liability by shorting the
+currency in which the capital gains would take place.
+
+BTW, does anybody keep a patient trust fund offshore for suspendees,
+ie away from the greedy hands of the U.S. tort system?  The Alcor
+balance sheet in this month's "Cryonics" almost cries out "sue me",
+especially considering the controversial nature of the business.
+I do notice Alcor has lined up liability insurance, though, which is
+a big step forward.  But it only covers claims up to $1 million;
+after that patients may get a little warm. :-(
+
+Nick Szabo					szabo@techbook.com 
+PGP key available on request
+
+------------------------------
+
+Date: Thu, 20 May 1993 06:46:06 -0400 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: FTL: Traversable Wormholes 1 of 1
+
+Michael Clive Price writes:
+> > That would imply negative mass and anti-gravity would it not?
+> 
+> It does indeed.  And anti-gravity implies self propelling space ships. 
+> Wormhole at back and black hole at front.  Wormhole repels black hole,
+> black hole attracts wormhole.  If they are positionally stabilised by
+> the ship's hull they all fly off together into the sunset with no net
+> expenditure of energy.  A moving wormhole acquire negative energy of
+> motion that cancels the energy gain of the black hole.
+
+   In other words, a perpetual motion machine -- which makes me sort of
+suspicous as to its viability. A charged tachyon exibits a similar
+sort of trick by accelerating faster and faster as it Cherenkov
+radiates (tachyons travel faster as they lose energy).
+
+   I just had a thought. Wouldn't exotic matter allow us to
+open up a closed contracting universe by "sending matter off into the
+sunset" ;-)
+
+> Apparently Forward has written about this, which I must look up.
+> 
+> > -- Ray Cromwell
+> 
+> Mike Price                         price@price.demon.co.uk
+> 
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Thu, 20 May 93 06:55:45 EST
+From: kwaldman <kwaldman@BBN.COM>
+Subject: Cold Fusion: Not!
+
+//////////////FOR EXTROPIAN LIST USE ONLY///////////////////////////////
+
+FYI
+
+	For the last 18 months or so I've be hearing whispers that
+perhaps the cold fusion fiasco had some truth to it. [But it wasn't cold
+fusion!]  As most of you know I don't hold any degrees in physics nor am
+I involved in the research in any way, but here goes anyway.
+
+	Two scientists, Dr Farrell and Mills, have come up a process
+that produces high levels of excess heat.  It has to do with the energy
+released when the electrons in an atom are coerced below the ground
+state. [Admittedly I don't know what the previous statement means, and
+wouldn't it take energy to hold them there etc etc.]  However, my
+source* says that they are about to release there experimental data. 
+They have an energy cell that has be producing excess heat for over a
+year  ( and are convinced Pons and Fliecshman (sp?)   are also getting
+excess heat and just mislabeled it)
+
+Quote from Dr. Mill's testimony to Congress
+	"Hydrocatalysis Power Corporation (HPC) has an extensive
+theoritical and experimental research program of producing energy from
+light-water electrolytic cells. .......(discussions of HPC and
+Thermacore's work together)............... Some cells can produce 10x
+more heat power than the total electric power input to the cell.  A
+steam-producing prototype cell has been successfully tested.  The source
+of excess energy is NOT from fusion or other nuclear reactions.  Energy
+is released in a catalytic process whereby the electron of the hydrogen
+atom is induced to undergo a transitions to a lower electronic energy
+level than the "ground state" as defined by the usual mode of the atom.  
+
+....................
+(Goes on to talk about how this theory explains the spectral
+observations of dark matter in the universe.  This is how I think they
+found this).....................
+
+
+	For more info or to watch a raging debate (which is actually
+calming down with people on the other side giving up) see
+sci.physics.fusion.  
+
+		Karl
+
+*I work with Dr. Farrell's son, who is himself extremely intelligent,
+not that it reflects on his father, just that he isn't some bozo making
+this up.  That is I have a high opinion of his opinion...never mind
+--------
+Karl M. Waldman              business: kwaldman@bbn.com  
+BBN Systems and Technologies personal:kwaldman@tanstaafl.extropy1.sai.com
+
+------------------------------
+
+Date: Thu, 20 May 1993 08:15:07 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Meta: Solomonic Wisdom Needed
+
+a conscious being, E. Dean Tribble wrote:
+> This reduction is the strength of the PPL is appropriate:  no matter
+> how complicated the list is, it reflects very little of the complexity
+> of real life, and if we need this much law for such a simple task....
+> 
+> BTW: no reflection on Habs.  I learned a lot from the current experiment.
+
+I too  have learned a lot. Tom, myself and others are working on
+the list code version 2.0. Do you have specific statues of either
+code or for administrative "powers" we should consider?
+
+There is also a question of how to tell if the list "memmbership is
+happy with a decision/ruling.
+
+Note, also, not everyone will be happy with every decision. We have
+300 list members. so if 1 or 2 % of the list is unhappy with a decision/
+ruling etc, it can be hard to extrapolate the general feeling of the
+list from a sample of 1 or 2 percent of list members.)
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Thu, 20 May 93 14:52:19 +0100
+From: Rich Walker <grlw1@cus.cam.ac.uk>
+Subject: POLY - HSG 100 part 1 
+
+One line in particular jumped out at me:
+`Stumbled across a book...'
+
+I've noticed this phenomenon from time to time: when pursuing a subject,
+things start to appear in your path. Useful information, usually. Now,
+despite the fact that this is usually associated with magic(k)al research,
+it's happened to me in other fields as well. Of course, it's one of those
+things that's really hard to measure in any experimental sense (like
+Wilson's coin-finding exercise, which it strongly reminds me of) and it
+might just be that it's merely `I am looking at this subject deeply, so
+whenever I find anything on it, that seems to me most profound...' but
+still...
+
+Anyone got any ideas? 
+
+Rich! Walker (grlw1@cus.cam.ac.uk)
+
+
+------------------------------
+
+Date: Thu, 20 May 93 14:58:36 +0100
+From: Rich Walker <grlw1@cus.cam.ac.uk>
+Subject: Currency competition
+
+With regard to multi-currency credit cards &c, if memory serves me
+rightly, in various European countries they will accept more than one
+currency in shops. The particular example that springs to mind is
+Luxembourg, where I think you can pay in 3 or 4 in most places...  I
+think this is a purely pragmatic approach: since Lux. is so small, it
+doesn't bother issuing enough of it's own money, just recycles everyone
+else's...
+
+And, of course, with the introduction of the ecu (which this keyboard
+doesn't even have the symbol for :->) everyone in Europe will eventually
+be able to pay in two currencies, which should make till-manufacturers
+_very_ happy...
+
+Rich! Walker (grlw1@cus.cam.ac.uk)
+
+------------------------------
+
+Date: Thu, 20 May 93 9:04:05 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: CHALLENGE: Chaitin and RTFM
+
+The Accountability Society has existed for just over two months.
+This is its first CHALLENGE, issued by me to Mike Price on his
+contribution to the Chaitin thread.  I do this both because I'm
+displeased with the unfriendliness of this whole thread, and
+because I want Mike to explain a specific part of his post.  Note
+that I'm not at all interested in speculations about Chaitin's
+psychological problems, or who's being patronizing and arrogant.
+
+> Yesterday I checked out the Sci American ref Tim gave
+
+   "Randomness in Arithmetic", July 1988 (which I've just fetched
+   and read)
+  
+My specific CHALLENGE involves the claim that Chaitin is
+
+> clouding the distinction between undecidable and computationally
+> difficult.
+
+Mike, please explain where he clouds this distinction.  The only
+thing I can imagine is one brief passage where he writes "No matter
+how bright one is or how long the proofs and how complicated the
+mathematical axioms are, the infinite series of propositions
+stating whther the number of solutions of the diophantine equations
+is finite or infinite will quickly defeat one as 'k' increases."
+I admit that the wording is unfortunate, but he's not trying to
+say that it's really hard so oh well, but rather that it is impossible
+(not just hard) to characterize the (infinite) series of results with
+finite axiom systems.  Maybe this isn't where you mean that he
+confuses difficult with undecidable.  If not, where?
+
+Mike now has a week to answer this question with a 400-word reply,
+after which I have a week to compose a 400-word response.
+
+derek
+(still waiting for a PS member to be shot!  With all the acrimony
+around lately, I was expecting it!)
+
+
+
+> subject.  Not a coincidence because I was going from my memory of
+> reading about the stuff in 1988 [although I had forgotten the source].
+> 
+> I resent Tim's patronising and arrogant approach to debate in this area,
+> dismissing anyone who asks questions, disagreeing etc as expressing
+> "ignorant skepticism" and oh-so-sadly wishing people would think before
+> they post.  Very good advice.  Thank you Tim.  Take your own medicine.
+> 
+> Tim's comments about wormholes and crankiness are equally ill-informed. 
+> I shall respond later to those.
+> 
+> Mike Price                         price@price.demon.co.uk
+> 
+
+
+------------------------------
+
+Date: Thu, 20 May 93 15:25:42 +0100
+From: Rich Walker <grlw1@cus.cam.ac.uk>
+Subject: AI: Detecting it 
+
+On some points on the Lasagne Test:
+
+derek: How does this help?  Turing's test is at least clear-cut.  In order
+   to make this work, we need to define desire -- is this lots simpler
+   than defining intelligence?
+
+Weeeeelllllll, Turing's is fairly clear-cut, but doesn't measure anything
+that seems _useful_ (to me). This one _is_ more fuzzy, but if you can get
+a consensus of `yeah, it seems to pass', you've got a _useful_ machine. 
+Very useful, in fact: a machine that general-purpose should be able to
+eliminate 90% of known work [1] which will be a Good Thing[2]. Could we
+make it more precise? Then it becomes more like a standard computer
+benchmark: you produce a machine that does _that one_ very well, and
+everyone claims it's the best... I suspect the Lasagne Test _is_ probably
+more useful as a subjective rule-of-thumb, and anyway, tightening up the
+notion of desire could result in some undesireable side-effects[3].
+
+
+As to the formal description, yeah, it's a bit crap. Reads thus (to me):
+for a given person, and a desire of theirs, the machine is intelligent if
+it's possible to deduce the desire from knowing about the person, and the
+machine does so, on average, more often than the Average Man [4]
+
+freeman craig: 
+  So, sort of like my android sex partners, I'd say that you don't want
+  to let the superficial silliness of "andropsychotropic" robots get in
+  the way of appreciating the value of the concept to a broad view of
+  advanced robotics ("I've taken the liberty of running you a hot bath
+  and laying out a choice of massage implements for afterward, Ma'am").
+
+The bunch of roboticists I'm with (the Shadow Project) managed somehow to
+get itself affiliated with the Department of Trade and Industries
+Advanced Robotics Initiative, probably because we're the only people
+doing work on domestic robots here, that we know of. On their committee
+(I think this bit comes under the heading of "don't redistribute") is a
+senior person who is convinced that sex robots are what should be
+produced first. His argument is quite a good one:
+  video recorders really took off because it meant that porn movies were,
+  for the first time, practically available in the home; thus broadening
+  the market for said films immensely. (Apparently, a figure to do with
+  women renting/purchasing said films as a share of total market went from
+  1% to 40%...) So we should do the same with robots
+
+>From past experience, I'd say that people are a lot more willing to
+_admit_ that they just want it to help with the house-work, but the sex
+option should be provided as standard, because that's the way to sell
+'em. After all, how many people are going to go and order a robot and
+then say, with their bare face hanging out `oh, and put the sex
+accessories in, please'.
+
+Indeed, a disabled friend of ours regards the sex option as an essential:
+being wheelchair-bound apparently imposes certain constraints, and it'd
+be much nicer to only have to tell the partner _once_...
+
+Thanks
+
+Rich! Walker (grlw1@cus.cam.ac.uk) 
+
+
+[1] Work: that which the person doing it finds tedious, boring,
+repetitive, or would just plain prefer someone else to do... 
+
+[2] Good Thing: that which is not a Bad Thing (q.v.)
+    Bad Thing: the Clipper Chip, the FDA, wasting a mind, the Magna Carta
+(from the King's point of view...)
+
+[3] consider `desire' defined as `that which wil improve the measure of
+happiness', and a poorly-chosen happiness. So you're depressed, and the
+robot `puts you out of your misery'. Or, for that matter, robot notices
+that whenever you watch TV, you hurl abuse at it (for humour value),
+extrapolates that TV makes you unhappy, and smashes your brand-new tv...
+Yes, we could get round all these, but still...
+
+[4] With Average Man given a strict statistical definition. Perhaps it
+should have been restricted to a given culture...
+
+------------------------------
+
+Date: Thu, 20 May 1993 10:42:38 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Currency competition
+
+a conscious being, Rich Walker wrote:
+> With regard to multi-currency credit cards &c, if memory serves me
+> rightly, in various European countries they will accept more than one
+> currency in shops.
+
+When I was in Holland they seeem to accept US Dollars (and probally
+others). Hatti also accepted dollars, although I had trouble spending
+a couple of $2 bills.
+
+In New Hampshire Canadian coins .01, .05, and .1 are readily accepted
+at (if you will) US face value. (Not a bag full of them, but if you
+have a can. nickel in your pocket you can use it (along with real
+US coins,) to buy something.)
+
+------------------------------
+
+Date: Thu, 20 May 1993 10:50:45 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: POLY - HSG 100 part 1
+
+a conscious being, Rich Walker wrote:
+> 
+> One line in particular jumped out at me:
+> `Stumbled across a book...'
+> 
+> I've noticed this phenomenon from time to time: when pursuing a subject,
+> things start to appear in your path. Useful information, usually. Now,
+> despite the fact that this is usually associated with magic(k)al research,
+
+I feel you are describing part of spontanous order. Like minded people
+think a like. If I go to Perry house (sometimes I have never done) I
+would probally "stumble" across all sorts of books I would find
+interesting. Likewise, when Perry has been in the Extropian Reading
+Room (TM), he has found many books of interest.
+
+Now you may think that the previous example (Perry and I finding books
+of interest at each others homes) is to contrived. I have an other
+more complex example.
+
+This example meets the "stumbled accross" test and I feel actually
+represents spontanous order.
+
+I have described how this list was started. I can trace it's actually
+start to my getting divorced. When I seperated from my wife, I had
+more time and money to spend on books that interested me. I stumbled
+across a book, and following (by purchasing) other books, zines, etc.
+mentioned in them came across Extropy.
+
+This is all a SO. Each like minded publication lead me to an other.
+
+/harry
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Thu, 20 May 93 9:54:31 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Chaitin, Randomness, and Explanations on this List
+
+Dan Davis asks:
+
+> What is the random process generating the turing machines?
+
+Coin flips, whatever.
+
+> What distribution of turing machines are we sampling from?
+
+This is a good question -- after all, a turing machine
+could have an arbitrarily long specification.  The answer
+is that to get around this, Omega is actually the halting
+probability if n-bit programs have measure 2^{-n} -- so
+apparently the distribution is exponentially weighted toward
+shorter turing machines.  This fact is crucial in the technique
+to show that omega could be used to "solve" the halting problem
+if we knew its value.
+
+derek
+
+
+------------------------------
+
+Date: Thu, 20 May 1993 09:59:33 -0600
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: Cool quotes
+
+The first time you study thermodynamics you don't understand it at all, but
+if you study it again, you may start to understand it.  If you then study
+it even more, you will realize that you actually didn't understand it at
+all, but by then you're not worried by this anymore.
+
+--attributed to Arnold Sommerfeld.
+
+
+Once you can accept the universe as being something expanding into an
+infinite nothing which is something, wearing stripes and plaid is easy.
+
+--attributed to Albert Einstein.
+
+
+No nation was ever ruined by trade.
+
+--Ben Franklin.
+
+
+There is only one cure for the evils which newly acquired freedom produces;
+and that is more freedom.
+
+The business of everbody is the business of nobody.
+
+--Lord Macaulay
+
+
+In would rather be right than be President.
+
+--Henry Clay
+
+
+Power is so apt to be insolent and Liberty to be saucy, that they are very
+seldom upon good Terms.
+
+--George Saville, Marquis of Halifax.
+
+
+T.O. Morrow                     --  twb3@midway.uchicago.edu
+Vice President: ExI             --  The Extropy Institute
+Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+
+
+------------------------------
+
+Date: Thu, 20 May 1993 11:38:04 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Gold -- Clinton as crypto-Randian 
+X-Reposting-Policy: redistribute only with permission
+
+Eric Watt Forste says:
+> 
+> Dan Davis wrote:
+>  
+>   Second, with all due respect, government decisions to buy or sell
+>   effect market demand and supply, and so effect price.
+> 
+> Harry Browne has made the observation that, with gold, changes in
+> demand have a much stronger effect on the price than changes in
+> supply.
+
+I suppose he wasn't anticipating the sort of dumping the Arabs and
+Russians did in the last few years. Supply had a huge effect.
+
+The current gold rush was sparked by a combination of reports that
+Soros and Goldsmith were buying gold in a big way, and single month's
+report of a big inflation rise in the U.S.  Now, historically
+speaking, gold *is* underpriced right now, but as I've said, I'm yet
+to be convinced that this is a real move. Things like this have
+happened several times before -- see the 1991 move, for example -- and
+I'm not the sort who likes trading commodities because unlike, say,
+stocks, the underlying thing isn't going to have better earnings next
+quarter because of smart management. Myself, I'm staying out for now.
+Remember, of course, that I'm hardly a godlike investment guru -- I'm
+just a smart person among dozens of smart people on this list who
+disagree with me. We will find out if I am right or if I am wrong very
+soon.
+
+Perry
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0271
+****************************************
+

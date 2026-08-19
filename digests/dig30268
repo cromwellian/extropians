@@ -1,0 +1,1157 @@
+From extropians-request@gnu.ai.mit.edu Tue May 18 17:31:53 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA29922; Tue, 18 May 93 17:31:52 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA27057; Tue, 18 May 93 17:30:53 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA12065@wookumz.gnu.ai.mit.edu>; Tue, 18 May 93 20:24:50 -0400
+Message-Id: <9305190024.AA12065@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Tue, 18 May 93 20:24:18 -0400
+X-Original-Message-Id: <9305190024.AA12056@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0268
+X-Extropian-Date: Remailed on May 19, 373 P.N.O. [00:24:49 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Wed, 19 May 93            Volume 93 : Issue 0268
+                        
+Today's Topics:
+                                   Chaitin                            [1 msgs]
+                     Chaitin is not Extropianly Correct               [3 msgs]
+             Chaitin, Randomness, and Explanations on this List       [1 msgs]
+                      FDA RAIDS RAIDS 37 VITAMIN STORES               [1 msgs]
+                      FTL: Traversable Wormholes 1 of 1               [2 msgs]
+                    Final Words on Chaitin and Randomness             [2 msgs]
+                        Meta: Solomonic Wisdom Needed                 [1 msgs]
+                  PHIL/MATH: Stronger results than Godel's            [1 msgs]
+              [Vince Miller: FDA RAIDS RAIDS 37 VITAMIN STORES]       [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 58734 bytes.
+
+----------------------------------------------------------------------
+
+Date: Tue, 18 May 93 18:20:26 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: FTL: Traversable Wormholes 1 of 1
+
+My thanks to Robin Hanson (and others) for the feedback to my daft 
+(er, I mean draft) wormholes article.  Very useful .... I can see 
+myself missing the extropy#11 deadline :-(  I take your point about 
+the origins of empire-time.
+
+On the subject of acknowledgements, can anyone tell me who posted the
+original statistical analysis about aliens to the list?  The crucial
+concept introduced was to treat the time-occurence of civilisations as
+lying on a normal curve and to guess a standard deviation.  Or can
+anyone give me a ref?
+
+Eric Raymond asked for a copy of the draft I sent to the essay list. 
+To subscribe to exi-essay send a request to 
+    "exi-essay-requests@gnu.ai.mit.edu",
+I believe.  For those who missed it, here it is again (apologies 
+to those who get both lists!), the original draft, warts and all.
+
+Mike Price                         price@price.demon.co.uk
+
+My mailer has problems sending over 40K so I've split into two
+chunks.  Part 1 follows.
+=====================================================================
+
+First draft only.  I'm trying to get this ready for EXTROPY#11, so I
+would welcome all feedback on style, content etc before May 20.  Please
+don't redistribute.  Anyone who feels they, or someone else, deserve a
+cite I missed please tell me.
+
+              TRAVERSABLE WORMHOLES: SOME IMPLICATIONS
+                             by 
+                    Michael Clive Price
+                  price@price.demon.co.uk
+
+Summary:
+     Since 1985 there has been much theoretical progress on
+     traversable wormholes.  At first they were thought to enable
+     time travel, so not taken seriously.  More recent work rules
+     out time travel and associated paradoxes, but still permits
+     faster-than-light travel.  This article explores some of the
+     implications traversable wormholes have on the expansion of
+     civilisations through the universe.  In particular it is found
+     each civilisation would impose a local region of simultaneity,
+     or empire-time, which differs from the more natural, co-moving
+     timeframe which astrophysicists usually use.  Distant regions
+     of the universe and alien civilisations can be reached in
+     short periods of empire-time, whereupon their respective
+     empire-time zones fuse together.  Shortly after first contact
+     is made all expanding civilisations connect together to form
+     a universal time.  Finally some limitations of euclidean space
+     are contrasted with wormhole connected non-euclidean space.
+
+0.                       INTRODUCTION
+
+To establish an interstellar trading civilisation we need a mechanism
+for travel or communication at faster-than-light (FTL) velocities.  This
+article considers how we may achieve this and consists of this
+introduction followed by the following sections:
+     1.   SUBLIGHT FUTURE, in which the problems and frustration of
+          living in universe without faster than light travel are
+          outlined.  These problems are expected to be magnified by the
+          adoption of nanotechnology.
+     2.   FAILED FTL, examines other proposals for breaking the light
+          barrier and rejects them all.
+     3.   TRAVERSABLE WORMHOLES, introduces the latest candidate for FTL
+     4.   TIME TRAVEL, examines whether or not traversable wormholes
+          imply time travel.  The latest work indicates they do not.
+     5.   EXPLORING THE UNIVERSE, examines how,long it might take to
+          reach various places in the universe with a 1-gee drive.
+     6.   EMPIRE-TIME vs CO-MOVING TIME, explores the differences
+          between the local time frame an expanding civilisation imposes
+          on its surrounding and the more conventional conception of
+          time.
+     7.   ALIENS, considers some of the problems of contacting aliens. 
+          In particular it examines how local empire time zones fuse
+          together, forming...
+     8.   UNIVERSAL TIME, the return of a universal simultaneity, which
+          has some of the characteristics of Newtonian time.
+     9.   BEYOND THE OBSERVABLE UNIVERSE, looks at the implications of
+          exploring beyond the edge of the observable universe.
+     10.  OTHER USES, looks at other uses of wormholes, eg in superior
+          computer architectures and basement universes.
+     11.  LIMITS, contrasts the pros and cons of euclidean space with
+          some of the alternatives
+     12.  CONCLUSION
+
+1.                       SUBLIGHT FUTURE
+
+Without FTL travel we can still colonise the universe at sub-light
+velocities, but the resulting colonies are separated from each other by
+the vastness of interstellar space.  In the past trading empires have
+coped with time delays on commerce routes of the order of a few years
+at most.  This suggests that economic zones would find it difficult to
+encompass more than one star system.  Travelling beyond this would
+require significant re-orientation upon return, catching up with
+cultural changes etc.  It's unlikely people would routinely travel much
+beyond this and return.
+
+Nanotechnology [12] only exacerbates the situation.  We expect full-
+nanotech, uploading, AIs etc to arrive before interstellar travel
+becomes practical.  Assume we keep the same dimensions for our bodies
+and brains as at the moment.  Once we are uploaded onto a decent
+nanotech platform our mental speeds can be expected to exceed our
+present rates by the same factor as electrical impulses exceed the speed
+of our neurochemical impulses - about a million.  Subjective time would
+speed up by this factor.  Taking a couple of subjective-years as the
+limit beyond which people would be reluctant to routinely travel this
+defines the size of a typical trade zone / culture as not exceeding a
+couple of light minutes.  Even single stellar systems would be unable
+to form a single culture/trade zone.  The closet planet then would seem
+further away than the nearest star today.
+
+With full nanotech there will be little need to transfer matter.  Trade
+in the distant future is likely to consist of mostly information. 
+Design plans for new products, assembled on receipt.  Patterns of
+uploaded consciousness of intrepid travellers.  Gossip and news.  But
+with communication delays to Alpha Centauri of the order of millions of
+subjective years two-way exchanges are difficult to imagine - even when
+we are enjoying unlimited life spans.
+
+Communication and exploration would be, essentially, a one-way process. 
+If you had a yen to travel to the Alpha Centauri you could.  Squirt your
+encoded engrams down an interstellar modem and arrive decode at Alpha. 
+Assuming the receiving station hasn't shut in the intervening millions
+of years of subjective cultural change.  You could leave a copy behind
+as redundancy or if you wanted to explore both regions, but I suspect
+many of us will not find this completely satisfactory.  The speed of
+light barrier would limit us and cramp our style us much more than it
+does at present.
+
+2.                        FAILED FTL
+
+What stops faster than light travel?  According to relativity as an
+objects accelerates towards the light-speed barrier its mass increases
+asymptotically, slowing its acceleration with constant thrust.  Ship
+time slows down, which also reduces thrust (eg for a photon driven ship
+the frequency of the beam red-shifts).  Both make effects make light
+speed an insurmountable barrier.
+
+Since the advent of relativity there have been a number of approaches
+to travelling faster than light:
+
+1)   Tachyons:  Faster than light particles compatible with relativity. 
+     They never have to cross the lightspeed barrier because they are
+     posited to be created already travelling at over the speed of
+     light.  No general consensus on whether they would permit the
+     transmission of information.  However none have been detected, so
+     things look bleak either way.
+
+2)   Superluminal quantum effects:  EPR, quantum teleportation and all
+     that.  Relies on transmitting information via the posited collapse
+     of the wavefunction.  Often relies on an accompanying classical
+     sublight signal as well.  People argue passionately above the
+     reality of the wavefunction and whether it collapses.  Until this
+     is settled we can't expect too much here.  No quantum superluminal
+     laboratory effect been demonstrated either.
+
+3)   Spinning black holes:  Things looked hopeful for a while that
+     spinning or charged black holes might permit travel into other
+     regions of somewhere.  More recently people have become doubtful. 
+     It seems the passage of anything through a black hole sets off a
+     feedback process that crushes the traveller to death.  Also
+     infalling radiation blueshifts to infinity [10] and fries the
+     traveller, if tidal forces don't shred her first.
+
+4)   Non-traversable Wormholes:  First developed in the form of
+     Einstein-Rosen bridges.  An Einstein-Rosen bridge connects two
+     otherwise widely separated regions of space.  Unfortunately they
+     are very short-lived and pinch off so quickly that only tachyons
+     (if they existed) could travel through them and get out the other
+     end without getting caught in the singularity needed to create
+     them.  But if you could travel faster than light you wouldn't need
+     a wormhole- Catch-22!
+
+For all the above reasons the conventional wisdom is that faster than
+light travel is the 20th century's analog of the alchemist's dream of
+transmuting lead into gold or flying to the moon.  Or living for ever. 
+They seemed impossible dreams at the time....
+
+3.                    TRAVERSABLE WORMHOLES
+
+The prospects for FTL travel looked bleak in the mid 1980s.  Then Carl
+Sagan asked some theoretical physicists for plausible methods for FTL
+to include in his forthcoming book, Contact.  Amongst the team that
+worked on this problem was Kip Thorne and his graduate students at
+Caltech.  They turned the problem around and asked what forms of matter
+are required to hold a wormhole open permanently, so no pinch off
+occurs?  The answer is 'exotic' matter, a highly stressed matter, with
+enormous tensile strengths.  The tension or pressure of exotic matter
+exceeds the energy density.  We have no familiarity with such matter
+today, but it existed under conditions of extraordinary pressure in the
+early universe.  Carl Sagan published Contact in 1985 [13],
+incorporating the early results from Thorne's team in the novel.  Thorne
+et al published their conclusions in 1988 [3], and included a
+recommendation for students to read Contact as a light introduction to
+traversable wormholes and exotic matter!.
+
+Later, in 1989, Matt Visser published an article [1] showing how more
+general traversable wormholes could be constructed.  A wormhole could
+be constructed, according to Visser, by confining exotic matter to
+narrow regions to form the edges of three-dimensional volume, for
+example the edges of a cube.  The faces of the cube would resemble
+mirrors, except that the image is of the view from the other end of the
+wormhole.  Although there is only one cube of material, it appears at
+two locations to the external observer.  The cube links two 'ends' of
+a wormhole together.  A traveller, avoiding the edges and crossing
+through a face of one of the cubes, experiences no stresses and emerges
+from the corresponding face of the other cube.  The cube has no interior
+but merely facilitates passage from 'one' cube to the 'other'.
+
+The exotic nature of the edge material requires negative energy density
+and tension/pressure.  But the laws of physics do not forbid such
+materials.  The energy density of the vacuum may be negative, as is the
+Casimir field between two narrow conductors.  Negative pressure fields,
+according to standard astrophysics, drove the expansion of the universe
+during its 'inflationary' phase.  Cosmic string (another astrophysical
+speculation) has negative tension.  The mass of negative energy the
+wormhole needs is just the amount to form a black hole if it were
+positive, normal energy.  A traversable wormhole can be thought of as
+the negative energy counterpart to a black hole, and so justifies the
+appellation 'white' hole.  The amount of negative energy required for
+a traversable wormhole scales with the linear dimensions of the wormhole
+mouth.  A one meter cube entrance requires a negative mass of roughly
+10^27 kg.
+
+Wormholes can be regarded as communication channels with enormous
+bandwidth.  The wormhole will collapse when the amount of mass passing
+through it approaches the same order as the amount of negative mass
+confined to its edges.  According to Shannon [16] and others [14]
+information has a minimum energy of kTlog2 associated with it.  For 1-
+meter radius cube this implies a potential bandwidth of over 10^60
+bits/sec [15].  Even very small nano-scale wormholes have bandwidths of
+the order > 10^50 bits/sec.  This suggests it will usually be more
+economic to squirt the design of an object down a channel rather than
+the object itself.
+
+Construction of such cubes is, of course, far, far beyond our present
+day abilities.  With AIs and nanotech combined we expect the limits on
+intelligences to be governed by physics, not biology [12].  Our brains'
+processing capacity lies somewhere between 10^15 - 10^18 bit/sec.  A
+comparably sized nanoelectronic brain would have power of 10^32 - 10^36
+bit/sec [15].  Assuming a factor of million is lost for the speedup
+still leaves 8 - 12 orders of magnitude expansion in the complexity, or
+depth of thought, of our brains as we switch from biology to
+nanotechnology.  So we should not assume construction and manipulation
+of the materials required will long remain beyond the grasp of future
+civilisations, populated by such super-intelligences.  The remainder of
+the article will assume the mass production of wormholes is economically
+achievable.
+
+Wormholes enable travel from one mouth to the other.  To travel to
+distant parts of the universe one wormhole end stays at home and the
+other is carted away, at sublight velocities, to the destination. 
+Before we examine this first we consider some other properties of
+wormholes.
+
+4.                     TIME TRAVEL
+
+Wormholes are constrained by relativity to travel at sublight speeds and
+are time-dilated as per normal.  Clocks placed at the mouths of a
+wormhole always remain in synchronisation with each other.  If I look
+through one end of a wormhole and compare the near clock with the far
+clock they always agree.  Even if one end of the wormhole is travelling
+at relativistic speeds many light years away.  Einstein says moving
+clocks run slow.  There would appear to be a paradox here.  We observe
+the two clocks keeping time with each other, yet relativity says the
+'distant', travelling clock is running slowly.  How do we reconcile
+this?  Only by concluding that the distant clock has been displaced in
+space *and* time.  If a wormhole enables someone travel from Alpha
+Centauri 2000 to Sol 1993 and vice versa, then no paradox because they
+can't travel back to Alpha Centauri (through conventional space) and
+arrive before they left (to cause a paradox).
+
+Problems begin when the distant wormhole end turns about and returns
+home.  According to the twin paradox the traveller returns aged less
+than the stay-at-home twin (their clocks are no longer in step). 
+Travelling through the wormhole from the stay-at-home end to the go-
+away-and-come-back end transports you forward in time.  Travelling in
+the reverse direction transports you back in time.  Wormholes allow time
+travel.  This conclusion was realised soon after the first articles on
+traversable wormholes were published.  Depending on your view of the
+plausibility of time travel this is either, if you believe time travel
+possible, very exciting or, if you scoff at time travel, proof that
+traversable wormhole can't exist.  No general consensus emerged in the
+pages of various physics journals as the subject was batted back and
+forth.  Elaborate and very interesting papers (by Thorne's group [7] and
+others) reconciled time travel with quantum theory, whilst others (like
+Hawking [5]) proposed a Chronological Protection Conjecture, CPC, which
+says the Universe Shalt Not Allow Time Travel.
+
+One of the time travel sceptics was Matt Visser.  Early in 1993 he
+showed that wormholes do *not* enable time travel [2], by proposing
+physical mechanisms that enforce CPC.  Visser showed, in a peer reviewed
+article, the mouths of a wormhole with an induced clock difference could
+not be brought close enough together to enable a traveller to attempt
+violation of causality.  Quantum field and gravitational effects build
+up as the two ends of a wormhole approach the critical point and either
+collapse the wormhole or induce a mutual repulsion.  Visser's work is
+not complete but it seems swarms of virtual particles disrupt the region
+around a time machine just before it would otherwise become operational.
+
+The virtual particles around a nearly chronologically violating region
+are able form closed spacelike (superluminal) loops and, via Heisenberg,
+to borrow energy off themselves, becoming more virulent than usual. 
+Traversable wormholes are closed, or pinched off, by the energy of the
+virtual particles that flow through them as they approach being time
+machines which prevents the more dangerous closed timelike loops (which
+may cause paradoxes).  For the purposes of this article I'll adopt
+Visser's conclusion that the CPC mechanism is generic and blocks all
+forms of time travel via wormholes, but permits the operation of
+wormholes for the purpose of FTL travel.
+
+========  Part 2 to follow ==========
+
+------------------------------
+
+Date: Tue, 18 May 93 13:04:21 CDT
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: FTL: Traversable Wormholes 1 of 1
+
+I think I was the first to bring up the issue of intelligence
+being normally distributed in time on this list, but the idea
+is not original with me.  It may have come from Casti or Dyson
+in one of their books.  What I remember of the discussions
+goes like this:
+]
+
+You can break down our position in history into two classes:
+"We're Number One" and "We're Number Two".  In the first case,
+you assume that we are the first intelligent civilization.  If
+you make an assumption about the variability of how fast intelligence
+evolves, and how many places life is evolving, you can estimate
+how long it should be between the first and second intelligent
+species in a normal distribution.  
+
+I then guessed what I consider reasonable values, and you typically
+get millions of years between #1 and #2.  Thus either there is
+no other civilization close to intelligence (if we are #1), or
+there is a civilization millions of years ahead of us, by which time
+they should be here or have left obvious signs of their presence.
+
+(end of discussion)
+
+Dani Eder
+
+------------------------------
+
+Date: Tue, 18 May 1993 11:21:30 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: Final Words on Chaitin and Randomness
+
+> I seem to be outnumbered, though most (have any?) of the nay-sayers have
+> not read Chaitin's papers and seem to be focusing on semantic
+> hair-splitting about the meaning of the phrase "math is random."
+
+Nope, you don't get off that easy.  I haven't even *started* on "math is
+random" yet.  *My* contention is the result fails to be interesting because
+(as stated) the omega set doesn't cover more than a vanishingly tiny subset
+of the space of all WFFs. It is certainly possible that I have misunderstood
+Costi's explanation, but you haven't even claimed that yet, much less argued
+it.
+
+If you really understand Chaitin's result, you ought to be able to defend it.
+My suspicion that you do *not* actually understand it is fuelled by the fact
+that your reply mostly quotes more authorities.
+
+In fact, you're beginning to sound rather like Pandit Singh...
+ 
+>                                                          (Not to argue from
+> "authority," but Chaitin's work is very well-regarded and has not been
+> disproved so far.)
+
+I'm even beginning to wonder about that.  I hadn't heard of the omega theorem
+before this, and as an ex-metamathematician I keep my ear to the ground on
+these things.
+
+You should consider the possibility that you've been taken in by either
+Chaitin's over-selling of his own result, or Costi's misinterpretation of
+it, or both.  I don't dispute that the omega theorem asserts something
+nontrivial (the existence of a countable infinity of undecideables is
+interesting) nor that the proof method is clever (it is, very).  But none
+of your excerpts have justified Chaitin's claims for its significance.
+
+I am also rather disappointed in *you*.
+
+You yourself have observed that "extraordinary claims call for extraordinary
+evidence".  *You* have made the extraordinary claim in this debate.  It's
+*your* responsibility to back it up or withdraw it.
+
+Telling the rest of us to go off and read Chaitin before you'll discuss the
+matter further would be fine if you had ever actually addressed the
+counterarguments and we were disagreeing on a technical point of the
+proof or interpretation.  But you haven't --- and that smells bad.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Tue, 18 May 1993 11:44:44 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: PHIL/MATH: Stronger results than Godel's
+
+> If I understand correctly Chaitin's result as presented by Eric,
+> a desirable result would be to place some natural topology on the
+> set of all theorems, and then somehow show that decidable theorems
+> form a set of first category, while the space itself is of the second
+> category. Or -- find a probability measure on the space and show
+> that probability measure of the set of decidable theorems is less
+> than one. But ... is the collection of decidable theorems a set?
+> Is the collection of all theorems a set? Anyways, Eric, if you do
+> something like that, you will get the Fields Prize and tenure at
+> Princeton.
+> 
+> It sure like a nice thing to work on. I would give it at least three, four
+> years. I have no idea yet how to even start on it.
+
+Costi, quoted by Tim, did the presenting of Chaitin's result.  I've been
+criticizing the interpretation of that result.
+
+What you're intepreting is *my* concept of what a stronger result than Godel's
+would look like, which I presented during the argument.  And you're quite
+right; if I had a natural topology on the space of WFFs, the next thing
+I'd try would be to find a measure (though I delibarately didn't use that term
+in previous discussion).
+
+The strongest possible result would be that the set of decideables is of
+measure zero.  I don't think I believe that, but I wouldn't be at all
+surprised if the set of decideables turned out to be sparse.
+
+Yes, it would be nice to work on, and I agree that it would probably earn
+somebody a Fields Prize.  Unfortunately, my math chops have nearly fifteen
+years of rust on them.  Tenure at Princeton seems unlikely. :-)
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Tue, 18 May 93 11:34:07 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Chaitin is not Extropianly Correct
+
+Derek Zahn writes:
+
+> Criminy!*  The first post on this topic was 32 hours ago, and already
+> we're to the point of "final words?!"  Have you folks uploaded already
+> or what?  I take one evening off to play with my SO and I'm left in
+> the dust!
+> 
+> I'll post when I have some opinion about what it's all about, even
+> if by then you've all moved on to twistor theory or something...
+
+What is "twistor theory"? I haven't heard of it, but it sounds like
+something bogus. Probably just turban legend!
+
+
+-Klaus!
+
+..................
+
+Seriously, all I was saying was that the discussion had moved very
+quickly to an "is so!--is not!" level, with a wrong-headed focus on
+the "math is random" point. (I suspect Krzys' was right: the tenor of
+this list is such that any statement about the underlying chaos in
+math would receive an intitial negative reaction...sort of like Rand
+denouncing the Uncertainty Principle as counter to "A is A" logic.)
+
+My reaction to the whole "wormhole traversal" thread, for example, is
+incredibly negative...I skimmed the book I cited a while back ("Cosmic
+Wormholes: The Search for Interstellar Shortcuts", which has been my
+total contribution to this thread, until now) and was *unconvinced*.
+The matter density of the exotic matter needed to hold the gate open
+is beyond anything seen outside the cores of neutron stars. The mere
+existence of exotic matter is pure conjecture, too. The causality
+implications are massive. Speculation piled on speculation! 
+
+
+(I didn't raise my objections because I haven't had the time or the
+interest to read Matt Visser's articles or the Hanson/Price threads in
+enough detail to seriously critique them. Saying "I disagree" without
+such research is comparable to saying Chaitin is wrong without doing
+any solid background reading. I suppose I'll read the "Extropy"
+article, but "Extropy" _does_ run the risk of being perceived as a
+crank mag if it runs lots of articles on time-reversed computing,
+"empire time" wormholes, and the like. A while back, Hal Finney and I
+were able to persuade Max *not* to commission an article on the
+"zero-point energy" stuff, but I fear more such crankishness is
+inevitably coming. Maybe it sells newstand issues, maybe folks find
+such stuff entertaining. Sadly, Robin's speculations about "empire
+time"--with aliens charging throught the time portals and all--will
+probably gain more readers (through Mike Price's article) than did his
+very solid piece on betting markets as an epistemological tool a while
+back.)
+
+I mention this because there seems to be some real credulity about
+certain extremely bizarre ideas (for example, time-reversed computing)
+that, for whatever reason, have become "extropianly correct." On the
+other hand, ideas like Chaitin's, which are more mundane (but more
+exciting to me because they seem to be "really" about the world), are
+dismissed because the "math is random" connotation is unacceptable, is
+not EC enough.
+
+(Ironically, someone--whose post I mercifully deleted and so can't
+reference--cited "time-reversed computing" in connnection with
+disproving Chaitin! Bizarre!)
+
+I welcome any reasoned discussion of these topics.
+
+Sorry for any "loss of collegiality" in my recent posts on this.
+
+-Tim
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+
+
+------------------------------
+
+Date: Tue, 18 May 93 12:03:48 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Final Words on Chaitin and Randomness
+
+Eric Raymond writes:
+
+
+> If you really understand Chaitin's result, you ought to be able to defend it.
+> My suspicion that you do *not* actually understand it is fuelled by the fact
+> that your reply mostly quotes more authorities.
+
+> In fact, you're beginning to sound rather like Pandit Singh...
+
+Tell me, how does his ad hominem attack help the debate?
+
+
+> >                                                          (Not to argue from
+> > "authority," but Chaitin's work is very well-regarded and has not been
+> > disproved so far.)
+> 
+> I'm even beginning to wonder about that.  I hadn't heard of the omega theorem
+> before this, and as an ex-metamathematician I keep my ear to the ground on
+> these things.
+
+I encourage Eric and others to look more deeply, then, as these
+results have been reported in "Nature" and elsewhere. The "Scientific
+American" article (here come those pesky references again!) is
+"Randomness in Arithmetic," July 1988. And in "New Scientist" there's
+"A Random Walk in Arithmetic," March 24, 1990, pp. 44-46. Other
+references abound.
+
+> You should consider the possibility that you've been taken in by either
+> Chaitin's over-selling of his own result, or Costi's misinterpretation of
+> it, or both.  I don't dispute that the omega theorem asserts something
+> nontrivial (the existence of a countable infinity of undecideables is
+> interesting) nor that the proof method is clever (it is, very).  But none
+> of your excerpts have justified Chaitin's claims for its significance.
+> 
+> I am also rather disappointed in *you*.
+
+Sounds like a personal charge. Again, how does this sort rhetoric
+further the debate?
+
+> You yourself have observed that "extraordinary claims call for extraordinary
+> evidence".  *You* have made the extraordinary claim in this debate.  It's
+> *your* responsibility to back it up or withdraw it.
+
+Actually, I don't believe this is a quote from me, as your quote above
+clearly suggests. In fact, a grep of my mailbox show this quote came
+from your own message on 11 March 1993, in the "Extropianism as a
+Cargo Cult" thread, which I'll include below:
+
+"I'm with you on this one.  Extraordinary claims call for extraordinary
+evidence, and I'd sure like to see a few list members put up or shut
+up."
+
+
+> Telling the rest of us to go off and read Chaitin before you'll discuss the
+> matter further would be fine if you had ever actually addressed the
+> counterarguments and we were disagreeing on a technical point of the
+> proof or interpretation.  But you haven't --- and that smells bad.
+
+Reading at least some of the references is needed before meaningful
+questions and doubts can be raised.
+
+
+-Tim May
+
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+
+
+------------------------------
+
+Date: Tue, 18 May 93 14:13:28 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Chaitin is not Extropianly Correct
+
+Responding to Klaus! and Tim, who have taken to sharing messages:
+
+> What is "twistor theory"? I haven't heard of it, but it sounds like
+> something bogus. Probably just turban legend!
+
+twistor theory is an alternative to superstring theory in the search
+for more basic physical theories.  Roger Penrose has been working
+on it for a long time; I read about it in some popularized account
+in a book titled _Superstrings:  er, mumble-dee-mumble_.  I have
+no idea whether mainstream physics considers Penrose to be soothsayer
+or a fakir.
+
+I have no problem with the disparity between (bickering over math
+theorems) and (far-flung wormhole speculation) -- they are in different
+classes.  Wormholes are pure speculation, thought games.  That
+discussion is intellectual play.  As long as Extropy doesn't get
+bogged down in too much such extropian play (and not take 10^27 kg
+of negative energy density [or whatever] too serously, for a few
+years anyway), I think it's great fun.
+
+derek
+comments coming soon on Chaitin
+
+
+------------------------------
+
+Date: Tue, 18 May 93 13:08:49 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: Chaitin is not Extropianly Correct
+
+Tim seems to feel strongly on this issue, so let me clarify my
+position.  I do not disagree with Chaitin's technical conclusions,
+just reluctant to approve of using the word "random" to describe the
+results.  Not having reviewed the literature as carefully as Tim, I
+will back off and just comment on what I think it would take for the
+"random" to be appropriate here.
+
+I would say some set of values are "random" if the distribution of
+values are predicted well by some simple statistical model, but any
+attempt to predict better with a more complex model seems destined to
+failure.  So microscopic parameters are "random" at thermodynamic
+equilibrium, as are the outcomes of a quantum measurement.  On the
+other hand, even though the distribution of human heights seems to fit
+a simple distribution, one can predict heights better and better by
+conditioning on more and more context information.
+
+So, my question for this context would be, is "whether particular
+exponential diophantine equations have finitely or infinitely many
+solutions" predicted well by some simple statistical model?  Are 1/3
+of them finite, or what?  
+
+Robin Hanson
+
+------------------------------
+
+Date: Tue, 18 May 1993 15:59:55 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: [Vince Miller: FDA RAIDS RAIDS 37 VITAMIN STORES]
+
+Thought I'd forward this. Fun for the whole family!
+
+------- Forwarded Message
+
+Date: 17 May 93 17:39:13 EDT
+From: Vince Miller <71034.2711@compuserve.com>
+To: LIBERNET <libernet@dartmouth.edu>
+Subject: FDA RAIDS RAIDS 37 VITAMIN STORES
+Message-Id: <930517213912_71034.2711_CHJ74-1@CompuServe.COM>
+Errors-To: owner-libernet@dartmouth.edu
+Sender: owner-libernet@dartmouth.edu
+Precedence: bulk
+X-Mailing-List: libernet@Dartmouth.EDU
+
+As if our sensibilities haven't been bludgeoned into a state of abject 
+numbness by the obscene excesses of BATF, FBI and sundry other statist 
+agencies lately, here are more nazi police-state actions by the FDA -- this 
+time against the deadly menace of health food/vitamin stores. (data from a 
+fax from Citizens for Health).
+
+The FDA in coordination with the IRS, DEA, U.S. Customs, and local police 
+conducted 37 raids in the U.S. (May 12th).  More than 100 so-called "drugs" 
+were the subject of 23 armed commando-style assaults.  Among the vitamin 
+supplements seized were laetrile, coenzyme-Q10 tablets, an adrenal cortex 
+spray, etc.
+	
+The first raid occurred in Lavonia, Michigan. Between 6 and 8 FDA agents 
+burst into Zerbo's Health Food store at 11:00 am seizing projects not 
+approved by the FDA.  Agents were quoted as saying "If you do not cooperate 
+we will confiscate all your store's products."  Customers were told to 
+leave the store.  U.S. Customs agents were on hand claiming that Zerbos was 
+smuggling "illegal" Mexican products.
+
+A second raid occurred in Chula Vista, CA when FDA, DEA, IRS and San Diego 
+Police, unexpectedly entered the home of Lance and Jane Griffin, owners of 
+Omniopathy, Inc. a supplement and pharmaceutical manufacturer and 
+distributor. (San Diego was the site of 23 raids of homes and businesses).  
+Also raided was the home of Lance and Jane Griffin and Dr. & Mrs. Marvin 
+Hutchinson, Ph.D, biochemists.  One eyewitness report report of the raid on 
+Dr. Hutcheson's house in Chula Vista, was particularly disturbing: "They 
+broke his door down with a battering ram, accosted his wife who was nursing 
+her baby, handcuffed her, grabbed Marvin, handcuffed him, and would not let 
+either one come outside to talk with me during the course of the 11 hour 
+raid."  Similarly, in another eye witness account, "Jane Griffin answered 
+[the door] and was grabbed by the shoulders by a uniformed San Diego 
+policeman who manhandled her several feet backwards [and] while a dozen 
+other agents with guns drawn demanded that everyone freeze."
+
+Welcome to the 4th Reich
+
+
+
+
+
+------- End of Forwarded Message
+
+
+------------------------------
+
+Date: Tue, 18 May 93 16:21:37 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Chaitin
+
+Well, I've read some Chaitin (easier than I thought, but then I've
+been interested in similar things for some time).  This note is
+one big response to the whole thread, making points on diverse topics
+(though I'm saving logical tilings and other explorations of formal
+systems for another time [and think it a bit more interesting than the
+rather specific technical point being discussed here]).  This note
+presents my views, not anybody else's.
+
+Also, I did not have the inclination or ability to check Chatin's
+proofs line by line.  Sue me.
+
+Points:
+
+First, Tim did not do a very good job responding to the other
+posts requesting clarification.  Obviously, he is not obligated
+to do so; however, I hope he wasn't surprised that people were
+a bit put off, when relatively brief answers to rather specific
+points were probably sometimes possible.  Still, on the Platonic
+extropians(TM) list the thread would have been more collegial in
+tone.
+
+Don't talk to me about "fundamental importance" in number theory.
+I don't know what it means; I think it's quite possible that even
+when different people DO come to common understanding about what
+a result in NT means, one could say "cool!" and another say "yawn!"
+Why was Godel's Theorem fundamentally important?  Because it trashed
+Hilbert's program?
+
+I will try to present my interpretation of Chaitin's stuff, and
+my interpretation of the resulting conclusion that "math is random".
+Chaitin's result is not earth-shattering in the sense that some
+complainers have wanted, *from the perspective of traditional number
+theory*.  It's perfectly possible and reasonable to shrug it all off
+with a "so what"?  However, even from that perspective, the work is of
+some (large?) importance:
+ * It provides an economical encoding of flexible formulations of
+   godel's theorem (as have others), that has the neat ability
+   to generate infinite numbers of uncomputable propositions with
+   definite answers, one-upping godel in a minor but interesting way.
+ * The method for computing the number Omega, which is the probability
+   that a random turing machine will halt, is quite important and
+   interesting (I hope somebody hacks on its efficiency and gives it
+   some healthy CPU time; I'm curious!  note: lower bound of 127/128...).
+ * Even more strange and wonderful:  a binary expansion of Omega contains
+   as many 1's as 0's (!) and that expansion is INCOMPRESSIBLE; that is,
+   it is its own shortest description.  No shorter computer program can
+   be devised to compute it.  That's really weird.
+
+In fact, that's really really weird and is the source of the claim that
+"math is random".  As far as I know, there was no previous example of
+such a thing.  The digits of Omega are perfectly well-defined, meaningful,
+logical, expressible, etc and there is NO PATTERN TO THEM.  NONE.  No
+axiom system that describes them or can derive them (succinctly),
+nothing.  "Pure" math like number theory isn't "supposed" to be like
+that!  This is what he means by "limitations of the axiomatic method".
+
+Some people misinterpreted the material presented to say that just
+the generation of lots of undecidable propositions was the basis
+for the "math is random" conclusion.  Not so:  it's the random
+nature of the expansion of Omega that's the kicker.
+
+I see some rather less clear implications, which Chaitin seems to
+be aiming at.  First, how do we study entities like Omega if the
+axiomatic method offers no help at all (despite Omega's "platonic"
+existence)?  Chaitin says that tools need to be developed for
+studying such areas of forumula-space (or whatever) statistically.
+Note that this is very different than the usual modus operandi of
+the number theorist.  I understand why Tim gets excited by this;
+in k-space as well as theorem-space any helpful tools for charting
+the territory are extremely welcome.
+
+However, this is speculation of nearly wormhole-order.  Before any
+of that is clear at all, two things have to happen:
+  * 1) larger regions need to be shown to have interesting statistical
+    structure; before Chaitin, it's unclear that anybody would have had
+    any inclination to _look_, but that by itself doesn't mean such
+    structure (where statistics is the tool of choice) is widespread.
+  * 2) appropriate statistical tools need to be developed and applied
+    in useful ways.  The most powerful, Chaitin's own algorithmic
+    information theory, goes partway, but only part.  And it needs
+    to be more broadly applied.  [this isn't criticism of Chaitin,
+    after all he just started...]
+
+The second, more radical, implication is that Chaitin is explicitly
+trying to make math an experimental science, in a way that is both
+intriguing and dangerous.  If there's this randomness all through
+math anyway, and seemingly unprovable statements coming out of our
+ears, such as Fermat's Last Theorem (and if standard axiomitizations
+may be inconsistent anyway -- a point that I didn't see Chaitin make
+but I believe to be the case), let's get a little bit looser and
+start just accepting new axioms and seeing what happens, like the
+physicists do.
+
+I'm unsure exactly how I feel about this swashbuckling attitude toward
+math -- but it sure seems extropian to me!  
+
+One final point:  Eric pointed out that the "omega set" does not
+deal with all WFFs.  I believe this to be correct.  I understand
+his disappointment; a similar-style result for all WFFs would be
+completely astonishing!  Chaitin's current work aims a little
+lower than that.
+
+Comments?  Have I become worthy to participate in further discussion? :-)
+
+derek
+join the axiom-of-the-month club!  peano's five free when you sign up,
+along with an axiom of choice!
+
+------------------------------
+
+Date: 18 May 93 19:35:07 EDT
+From: Sandy <72114.1712@CompuServe.COM>
+Subject: Meta: Solomonic Wisdom Needed
+
+_________________________________________________________________
+  SANDY SANDFORT                          ssandfort@attmail.com
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tim May wrote:
+
+    "Over on the Cypherpunks list, a list much like this one
+    in some ways (many of the same people) and different in
+    some ways (no formal rules, no equivalent of the ExI,
+    more of an anarchy), some interesting contrasts may be
+    found:
+
+    "* There are no rules about flames, etc. And yet flames
+    are pretty rare. . . .
+
+He then gave an example of an ad hoc moratorium on debate,
+unilaterally imposed by Eric Hughes.
+
+Tim's post brought to mind the description of Jubil's household
+in STRANGER IN A STRANGE LAND.  It was said to be an anarchy AND
+a benign dictatorship.  Folks could do whatever they wanted,
+there were no formal rules, but Jubil always had the final word.
+
+I fully support Tim's suggestion that someone be given the
+"authority to simply step in occasionally and stop or table
+pointless debates."  I would go even a bit further.  Why not
+periodically change "benign dictators"?  For two months Tim May
+could be the designated "list czar."  Then maybe Perry Metzger
+could run things.  If we elected our list czar, a "reputation
+market" for our various Solomons would quickly develop.
+
+Like Tim, I have grown weary of sterile list formalism.  Let's
+put somebody in charge and let them sort things out.  If we don't
+like the job they're doing, we replace them with someone else.  I
+think the list would quickly achieve a dynamic equilibrium.
+
+ S a n d y  (arbitration volunteer)
+
+>>>>>>>> Please address e-mail to: ssandfort@attmail.com <<<<<<<<
+_________________________________________________________________
+
+
+
+------------------------------
+
+Date: Tue, 18 May 93 16:44:49 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Chaitin, Randomness, and Explanations on this List
+
+Derek Zahn writes (stuff elided to save space in your mailbox):
+
+>Well, I've read some Chaitin (easier than I thought, but then I've
+>been interested in similar things for some time).  This note is
+>one big response to the whole thread, making points on diverse topics
+>(though I'm saving logical tilings and other explorations of formal
+>systems for another time [and think it a bit more interesting than the
+>rather specific technical point being discussed here]).  This note
+>presents my views, not anybody else's.
+
+>First, Tim did not do a very good job responding to the other
+>posts requesting clarification.  Obviously, he is not obligated
+>to do so; however, I hope he wasn't surprised that people were
+>a bit put off, when relatively brief answers to rather specific
+>points were probably sometimes possible.  Still, on the Platonic
+>extropians(TM) list the thread would have been more collegial in
+>tone.
+
+I was asked by Eric Raymond to provide a pointer, which I did (the Casti
+book...and note that Casti is a well-regarded scientist, now at the Santa
+Fe Institute). I later cited Pagels (a researcher in this area before his
+untimely death...he coauthored one of the major papers on logical depth and
+algorithmic compressibility) and Davies. Between the very long section from
+Casti and the shorter sections from Pagels, Davies, and Chaitin himself, I
+felt this provided enough pointers for anyone seriously interested in
+pursuing this thread to do so. Derek Zahn, to his credit, did the same
+thing on this on did on the reversibility of computation thread a while
+back: he "used the Force and read the Source."
+
+I have been accused of *not understanding the material* because I chose not
+to write a long essay explaining in my own choice of words what Casti,
+Davies, Pagels, and Chaitin had to say. (Though surely my critics recall my
+comments, in my own words, about the links to logical tiling, Rabin's space
+of true theorems, and the structure of k-space? What more is wanted, that I
+write personal chapter-length essays? Especially when some of the points
+made by my critics went off into areas that Chaitin said nothing about.)
+
+>Don't talk to me about "fundamental importance" in number theory.
+>I don't know what it means; I think it's quite possible that even
+>when different people DO come to common understanding about what
+>a result in NT means, one could say "cool!" and another say "yawn!"
+>Why was Godel's Theorem fundamentally important?  Because it trashed
+>Hilbert's program?
+
+This is a very astute comment. I mentioned Chaitin's work because to me it
+is profoundly important, touching deeply on issues of complexity, why the
+universe is apparently knowable (compressible into succinct laws),
+reversibility of computation, evolution and life, and the nature of
+certainty. What I got from my critics was a misleading detour into semantic
+hair-splitting about the meaning of "math is random" and claims that I was
+citing *too many sources*. Jeesh!
+
+
+>I will try to present my interpretation of Chaitin's stuff, and
+>my interpretation of the resulting conclusion that "math is random".
+>Chaitin's result is not earth-shattering in the sense that some
+>complainers have wanted, *from the perspective of traditional number
+>theory*.  It's perfectly possible and reasonable to shrug it all off
+>with a "so what"?  However, even from that perspective, the work is of
+>some (large?) importance:
+...stuff elided....
+
+> * Even more strange and wonderful:  a binary expansion of Omega contains
+>   as many 1's as 0's (!) and that expansion is INCOMPRESSIBLE; that is,
+>   it is its own shortest description.  No shorter computer program can
+>   be devised to compute it.  That's really weird.
+>
+>In fact, that's really really weird and is the source of the claim that
+>"math is random".  As far as I know, there was no previous example of
+>such a thing.  The digits of Omega are perfectly well-defined, meaningful,
+>logical, expressible, etc and there is NO PATTERN TO THEM.  NONE.  No
+>axiom system that describes them or can derive them (succinctly),
+>nothing.  "Pure" math like number theory isn't "supposed" to be like
+>that!  This is what he means by "limitations of the axiomatic method".
+
+Chaitin's Omega is even more interesting: it encodes all of the answers to
+the Halting Problem...it is the ultimate oracle. Pose an input to a
+Univeral Turing Machine and the digits of Omega will tell you whether that
+input will be accepted. (Computing Omega is equivalent to deciding all
+propositions).
+
+>Some people misinterpreted the material presented to say that just
+>the generation of lots of undecidable propositions was the basis
+>for the "math is random" conclusion.  Not so:  it's the random
+>nature of the expansion of Omega that's the kicker.
+>
+>I see some rather less clear implications, which Chaitin seems to
+>be aiming at.  First, how do we study entities like Omega if the
+>axiomatic method offers no help at all (despite Omega's "platonic"
+>existence)?  Chaitin says that tools need to be developed for
+>studying such areas of forumula-space (or whatever) statistically.
+>Note that this is very different than the usual modus operandi of
+>the number theorist.  I understand why Tim gets excited by this;
+>in k-space as well as theorem-space any helpful tools for charting
+>the territory are extremely welcome.
+
+Exactly! Though even I don't claim Omega gives us the tools to see the
+future. Rather, just as with Godel's work, it casts new light on issues of
+predictability and randomness. (My original remark about Chaitin was to
+add--in a spirit of helpfulness!!!--to the points Eric Raymond was making
+about the problems Godel revealed in the Russellian
+formalization/mechanization of theorem-proving.)
+
+.....
+>The second, more radical, implication is that Chaitin is explicitly
+>trying to make math an experimental science, in a way that is both
+>intriguing and dangerous.  If there's this randomness all through
+>math anyway, and seemingly unprovable statements coming out of our
+>ears, such as Fermat's Last Theorem (and if standard axiomitizations
+>may be inconsistent anyway -- a point that I didn't see Chaitin make
+>but I believe to be the case), let's get a little bit looser and
+>start just accepting new axioms and seeing what happens, like the
+>physicists do.
+
+Yes! This is why it goes beyond Godel in such an interesting way. Results
+in many areas of math are being increasingly driven by experiments on
+computers, the "telescopes of math."
+
+>
+>I'm unsure exactly how I feel about this swashbuckling attitude toward
+>math -- but it sure seems extropian to me!  
+
+My point exactly in beaming it out to the List.
+
+
+>Comments?  Have I become worthy to participate in further discussion? :-)
+>
+>derek
+
+I presume my response answers this question!
+
+The constellation of related ideas swirling around is of prime interest in
+how the Extropians outlook evolves:
+
+* physics of information
+* complexity and compressibility
+* algorithmic information theory
+* evolutionary systems and complexity
+* artificial life
+* dissipative systems and complexity
+
+cf. the books I've cited before (all are recent, circa 1988-1993): 
+
+- Zurek's "Compexity, Entropy and the Physics of Information"
+- Leff and Rex's "Maxwell's Demon: Entropy, Information, Computing" 
+- Herken's "The Universal Turing Machine: A Half Century Survey
+- "Workshop on Physics and Computation," PhysComp '92, Oct. 1992
+- Chaitin's books and articles
+- the various "popularizations" cited (which is something of a misnomer, as
+both Pagels and Casti are/were active researchers)
+
+I'd urge people on this list to be more careful about immediately
+dismissing what they don't understand, or haven't taken the time to think
+about. Intuition is a dangerous thing...to many, the whole idea of
+"reversible computations" is self-evidently wrong ("it doesn't smell
+right"), just as theories of quantum mechanics, continental drift,
+relativity, and even evolution struck some as intuitively wrong. I get the
+very same "ignorant skepticism" (and by this I mean absolutely no criticsm
+of Eric, Robin, Ray, or Mike....this just describes the phenomenon
+succinctly) routinely on the Cypherpunks list--and occasionally on this
+list--when someone claims that "zero knowledge," for example, is
+intuitively suspicious. Rather than writing a customized essay for them,
+explaining the origins of zero knowledge and straightening them out on
+their misapprehensions, I usually refer them to any of the several good
+popularizations (as a starting point, these can't be beat) and "Scientific
+American"-style articles.
+
+When someone says something I don't understand, but they have provided
+sufficient references for me to pursue (or have included a long excerp from
+someone else's explanation), I first try to find the references and read
+them. I don't first ask them spend a few hours writing a customized essay
+addressing my specific areas of off-the-cuff doubt!
+
+Derek's approach is admirable. Whether he agrees or disagrees with my
+assessment of Chaitin's work is beside the point (though we do seem to
+agree). The real point is that only through some education and background
+reading can people speak the same language and thus communicate.
+
+-Tim May, wearily
+
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0268
+****************************************
+

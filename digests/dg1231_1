@@ -1,0 +1,979 @@
+From extropians-request@extropy.org Fri Dec 31 02:50:10 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA12277; Fri, 31 Dec 93 02:50:08 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA27219; Fri, 31 Dec 93 02:50:04 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA09875
+  (5.65c/IDA-1.4.4 for more@usc.edu); Fri, 31 Dec 1993 05:29:54 -0500
+Date: Fri, 31 Dec 1993 05:29:54 -0500
+Message-Id: <199312311029.AA09875@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: December 31, 373 P.N.O. [10:29:42 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Fri, 31 Dec 93             Volume 93 : Issue 364
+
+Today's Topics:
+                               Replies to Duncan                      [1 msgs]
+                         Book: Harvey Newstrom's Book                 [2 msgs]
+                          FOUNDATIONS: Technology/P                   [1 msgs]
+                       FOUNDATIONS: Technology/Politics               [2 msgs]
+                             Feasibility of g.e.?                     [1 msgs]
+                      Flow - the psychology of happiness              [1 msgs]
+                             GLOCKS FOR "LADIES"                      [1 msgs]
+                               IQ TESTS & MENSA                       [1 msgs]
+                              Le Khmer Squirrel                       [2 msgs]
+                          MEDIA: RAPE IN CYBERSPACE                   [1 msgs]
+                              MMGE: Tanstaafls!                       [1 msgs]
+                      Meta: Announcing Wolf's Head PPL                [1 msgs]
+                            Nightly Market Report                     [1 msgs]
+                             PPL: hnewstrom-ppl                       [1 msgs]
+                              PPLs without power                      [1 msgs]
+                         Tech:  Price of Macs vs. PCs                 [1 msgs]
+                              Why have children?                      [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 54529 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 30 Dec 93 20:39:45 WET
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Tech:  Price of Macs vs. PCs
+
+Phil G. Fraering writes:
+> 
+> Harvey was writing about the list of things Macs come with
+> that PC's don't and you have to pay extra for...
+> 
+> Do I remember wrong, but do Mac's have built-in SCSI still?
+
+   Yeah, but I don't think it's DMA driven which means it will
+impact the CPU during I/O. Compare the Amiga3000 where a transfer of 1mb/s
+from the HD uses only 5% CPU but 50% on the Amiga4000's polled I/O
+interface. The result is that the 4000's 68040 is slower running animation
+from the HD than the 68030 driven 3000. DMA buys you performance.
+Maybe the AV macs have higher performance SCSI. (ok, so I'm a
+perforance freak)
+
+  If you did add an autoconfiguring 32-bit bus, SCSI, 24-bit video with
+vram, and the cost of the OS, the PC would probably be a little more
+expensive but not much. The Mac won't be price competitive until
+Apple allows third party manufacturers to produce clone systems.
+
+
+> Phil
+> 
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Thu, 30 Dec 1993 20:56:37 -0500
+From: Duncan Frissell <frissell@panix.com>
+Subject: FOUNDATIONS: Technology/P
+
+C >I will not express these sentiments again.  With each
+C >passing day, the likelihood grows that words like these
+C >will be taken seriously by one of the more intelligent
+C >agents of the looters.  I don't want my file any thicker
+C >than it already is.  Call me paranoid, I don't care.
+
+We are not threatening direct action, however.  It is rare for 
+theoreticians to be targets in an OECD country.  We are just making 
+predictions.  I would like to think we were honored by such official 
+notice but it seems unlikely.  The ratio of federal enforcement agents to 
+population means that they have to focus a bit more.
+
+In the last 20 years, I can only name one or two libertarians who have 
+been arrested for libertarian-oriented activities.  (Karl Bray and Alex 
+Laurins) And Alex might well have been prosecuted even under some PPL 
+regime or other.  I don't think we are taken seriously.  More were 
+arrested during WWII.  A lot more right-wing tax protesters have been 
+busted.
+
+What would you consider a likely scenario for an "extropian bust" and on 
+what criminal grounds?
+
+DCF
+--- WinQwk 2.0b#1165                                          
+
+------------------------------
+
+Date: Fri, 31 Dec 93 02:19:14 GMT
+From: LI10000@phx.cam.ac.uk
+Subject: Flow - the psychology of happiness
+
+I'd like to suggest a  recent (1992) book by Mihaly
+Csiskszentmihalyi [a Chicago psychologist]: "Flow: the
+Psychology of Happiness" [Harper & Row].  Its organising theme
+is that happiness requires not so much that our environment is
+pleasant but that we succeed in imposing order on the naturally
+chaotic state of consciousness.  Flow experiences (often achieved
+through activities such as chess, rock climbing and athletics) are
+enjoyable because they stretch you to the limit of your ability in
+achieving self-chosen goals.  They are extropian because they are
+the result of a temporary success in our continuous struggle to
+vest our life with meaning - we emerge from them as more
+complex, updating our ambitions in line with our newly improved
+skills
+
+Although he is not explicitly libertarian he explores many threads
+that should appeal.  The discussion of how people in acutely
+entropian situations - concentration camps etc - maintain sanity
+and inner peace is a bit reminiscent of the Heinlein novel (I forget
+the plot and title - something to do with Job) where the hero
+manages to cope despite being continually flung between parallel
+universes at the whim of a playful god.  Many of the lessons that I
+drew allowed me to profitably read Browne's Freedom in an
+Unfree World once again - right now I find it difficult to pin down
+exactly what the common ground is, but this may become clearer
+later.  [Incidentally, how have people found the experience of
+putting some of the techniques he (Harry Browne) suggests into
+practice (I'd be interested to hear here or by email) - what
+problems, needed modifications etc?]
+
+Modern Austrian economists marvel at the manner in which the
+market process encourages complexity by rewarding coordinating
+arbitrage as well as socially useful innovation; there is at least a
+superficial parallel between these Hayekian themes of
+coordination and discovery and Csikszentmihalyi's of integration
+and differentiation.  He calls for an evolutionary faith (value
+system) that is not only enlightened by an appreciation of the
+"origins of instinctual drives, social controls, cultural expressions
+- all the elements that contribute to the formation of
+consciousness" but affirms complexification as an ought.  This
+seems startlingly similar to the suggestion of a similar yardstick
+by Tyler Cowen (once an Austrian fellow-traveller)  in "Towards
+a non-Paretian Welfare Standard" published in Don Lavoie's
+"Economics and Hermeneutics".
+
+
+
+------------------------------
+
+Date: Thu, 30 Dec 1993 18:21:08 -0800 (PST)
+From: kelly@netcom.com (Kelly Goen)
+Subject: GLOCKS FOR "LADIES"
+
+> 
+> So, Sandy, you're basically saying my idea for a "Lady-BAR"
+> wouldn't fly?
+> 
+> Phil
+> 
+> P.S. : BAR: Browning Automatic Rifle. A .50 caliber machine gun.
+> Does this really need a smiley?
+> 
+ BAR's or Browning Automatic Rifles were ONLY isssued in .30 caliber .30 06
+to be exact. Nor was a .50 BAR ever designed or prototyped by John Browning
+....
+      cheers
+      kelly
+
+------------------------------
+
+Date: Fri, 31 Dec 93 02:22:11 GMT
+From: LI10000@phx.cam.ac.uk
+Subject: Feasibility of g.e.?
+
+Brief challenge for those who would reengineer their genetic
+software without hesitation.  Viktor Vanberg (paraphrasing
+Hayek) might have been talking about biological evolution
+rather than the market when he said that "It is a process that
+facilitates adaptation in a world in which our knowledge and the
+problems we face change in ways that can never be fully
+anticipated, a process that, for these very reasons, by necessity
+always leads into the unknown".  Obviously, the attributes we
+admire and would like future generations to exhibit are not
+identical with those that lead to evolutionary success but there is
+enough of an overlap for many of us to consider that the results
+are not likely to be a disaster.  Given our genuine ignorance
+both of the future, and perhaps of all the non-obvious
+consequences of making a particular change, would it be
+dangerously close to Hayek's fatal conceit to leapfrog evolution
+and take a long jump approach to engineering?
+
+I've drawn quite a lot on a paper by Vanberg that might itself be
+of interest.  He discusses competitive political orders and the
+implications for European federalism in the light of their
+advantages.  The title is "Constiutionally Constrained and
+Safeguarded Competition in Markets and Politics With
+Reference to a European Constitution" - I've only got a draft so
+it was probably published last year or will come out fairly soon.
+
+
+
+------------------------------
+
+Date: Thu, 30 Dec 93 18:28:17 -0800
+From: freeman@maspar.com (Jay R. Freeman)
+Subject: Le Khmer Squirrel
+
+John Oh asks:
+
+> Jay Freeman says he is not a libertarian.
+>
+> I'm curious, what is he?
+
+  Freeman is loath to answer, for his presence here is based on his
+scientific and technological interests, rather than his political
+ones, and his politics are embarrassingly confused.  Nonetheless, he
+will admit to being moderately a green, moderately a statist and
+perhaps moderately a socialist, and all the while a technophile.
+
+                                   -- Jay Freeman
+
+
+  And in case you were wondering about his puppet...
+
+  The First Extropian Squirrel would approach human political economy
+via wildlife management.  Appropriate distribution of persistant
+poisons, controlled release of human-specific disease vectors, and a
+regulated hunting season (whose license fees will subsidize the rest
+of the project) should successfully incorporate small, sustainable
+populations of _Homo_sapiens_ into a rich, healthy terrestrial
+ecosystem, at least in designated parks and wilderness areas, subject
+only to the proviso that humans who harm other creatures be trapped
+and painlessly euthanized.  The Squirrel welcomes other suggestions
+for ways to profit from rational harvesting of that widespread,
+abundant and seemingly inexhaustible resource, humanity.
+  The Squirrel is presently a statist, since he deems an organized
+government the easiest way of getting entities who disagree with him
+to go along with what he wants them to believe is right.  However, he
+is not dogmatic -- not even squirrelmatic; if someone showed him a
+non-statist way to do so that was even easier, he would happily change
+politics.  Nor would the Squirrel be totalitarian -- he supports and
+defends rights too numerous to list for other entities, except for
+humans, who have used theirs up.
+
+                     -- Jay Freeman, First Extropian Squirrel    8:)
+
+------------------------------
+
+Date: Thu, 30 Dec 93 21:45:23 WET
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Le Khmer Squirrel
+
+Jay R. Freeman writes:
+>   The Squirrel is presently a statist, since he deems an organized
+> government the easiest way of getting entities who disagree with him
+> to go along with what he wants them to believe is right.  However, he
+
+  A perfect description of the statist mentality and religious fanatics.
+One wonders what you'll do when the populace becomes too well armed to be 
+bullied by your big brother.
+
+
+-EcoDeath, Nuke jungles and swamps. Replace them with shopping malls
+containing virtual simulations.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Thu, 30 Dec 1993 18:51:23 -0800 (PST)
+From: joh@netcom.com (John Oh)
+Subject: Book: Harvey Newstrom's Book
+
+Harvey Newstrom says:
+
+>  you think people would prefer a software package, or would they want an
+> Excel, Lotus, D-Base, or Hypercard version?  Should I produce my own
+> software package, or use an existing database system and just plug in my
+> data?  Entrepreneurial minds want to know...
+> (Jupiter-sized brains want to know...)
+
+I think that storing the data in FoxPro databases (which are very close to
+dBase format, but the indexes are much faster) and then distributing them along
+with an FoxPro program (in .EXE form along with a run-time library, which you
+distribute as much as you want for a one-time fee) that will allow viewing/
+printing the data in any form you might want.  I don't see what the point of
+writing your own database would be (is that what you mean by your own software
+package?) unless there is something very unusual about the data (which I 
+doubt).
+
+What do you think?  As I said, I think that a software version would be much
+more useful than the book.  I hope that selling the rights to the book won't 
+mean that you are restricted in any way from releasing the database/software
+version.  Wouldn't the latter effectively be a superset of the book?
+
+J oh N
+
+
+------------------------------
+
+Date: Thu, 30 Dec 93 22:09:16 WET
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: IQ TESTS & MENSA
+
+Duncan Frissell writes:
+> 
+> R >-Ray, who thinks Mac's are ok, except that they don't have a 
+> R >Unix-like shell built in.
+> 
+> Unless you actually have to *pay* for one.  The PC line has a better 
+> command line interface as well.
+
+  I've been using 4dos which has filename completion and command
+line history. It makes DOS tolerable but it's no unix shell and is
+missing a major component, multitasking. While downloading megabytes
+of mail, I would like to do something else, but DOS can only
+swap-task and Window's comm driver won't handle 38.4kbps for me.
+(i don't have a buffered UART).  I'm considering OS/2. If I had
+HD space, NeXTStep would be ideal.
+
+  It's amazing that a $100 computer can do something that PC's still
+don't do well. (the Amiga500)
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Thu, 30 Dec 1993 22:11:44 -0500 (EST)
+From: usr1593a@tso.uc.EDU (Bruce Zimov)
+Subject: FOUNDATIONS: Technology/Politics
+
+Tim, perhaps there are 3 strategies. I can't predict where real progress
+will lie, so it would appear that a thrust in all directions will show
+a winner. What does everyone think of the OMNI magazine recent contest that
+gave away a cryonic suspension at ALCOR? It was won on the basis of an
+essay indicating why you wanted the prize. The winning essay was from
+a teenager that had been in a car accident and was really messed up.
+Now, did OMNI magazine's contest shorten the day that the technology
+we seek will get here?  They give ALCOR's 800 number, and cite the
+cost at under $1000/year.  Well, that is a very good example of method
+#2 that seeks to popularize the topic. I know almost everyone I've
+talked to wants to live forever if technology can provide it. This meme
+has power!! So, if the word gets out, the money pours in, and the ball
+starts rolling.
+ 
+Digression 1:
+ 
+There was a post on the list a while back about better methods other than
+ALCOR, medically supervised etc.  Has ALCOR ever made progress on the
+cracking problem mentioned in the MAMBO CHICKEN book? ALCOR freezing 
+methods tend to crack the individual in many places, so in addition to
+having the thawing problem, you are basically a jigsaw puzzle as well!!
+ 
+Digression 2: (more interesting)
+ 
+Tim, your "heaven" reference reminded me that one common expectation is
+a religious backlash to transhuman immortality. I have tried to poke
+holes in this myth for years. I've discussed the issue with religious
+types on Delphi and other online forums. Since they are immortality
+oriented to begin with, they seem to understand the concept and in
+almost all cases respect the view.  Aside from immortality predisposition,
+there are two other reasons for the lack of a significant backlash
+among religious types. First, TBN embraces technology, their evangelical
+mission is fueled by high tech communications. Their mobile transmitter
+is called the "HOLY BEAMER".  They think that high tech is God-given.
+Secondly, I tend to approach them from within their own framework, viz.
+showing them the scripture that justifies transhuman transcendence. 
+It's I Corinthians 15:38 where Paul says "God clothes it with the body
+of his choice". The reference is to the form of the resurrected body.
+I argue that if its his choice then a transhuman form is not ruled out.
+They appear to accept that, in light of the source.  This is nothing
+less than a memetic coup!!!  Instead of preaching to the choir, I
+endorse venturing out into the world views of other audiences to show
+them that within THEIR OWN frameworks that there is nothing wrong with
+humanity developing techniques for transhuman transcendence through
+high technology.  
+ 
+Bruce Zimov        usr1593a@tso.uc.edu
+
+------------------------------
+
+Date: Thu, 30 Dec 1993 19:30:16 -0800
+From: dkrieger@netcom.com (Dave Krieger)
+Subject: FOUNDATIONS: Technology/Politics
+
+At  9:57 AM 12/30/93 -0500, cards@top.cis.syr.edu wrote:
+>Sometimes in moments of black humor I think of this list
+>in terms of a spy comedy movie.  Tim May, NSA stooge.
+>Tim Starr, CIA plant.  Harvey, State Department tool.
+>Reilly Jones, Moral Majority soldier.  The First Extropian
+>Squirrel, Fish & Wildlife Service :-).  None of them
+>knowing for sure about the others.  Lurkers listening
+>on behalf of foreign intelligence services the world over.
+>I'm probably the only fool here who isn't somebody's
+>agent :-)
+
+You might enjoy the Illuminatus! trilogy of Shea and Wilson, in which
+situations of this type occur quite frequently.
+
+I agree with you that some of us on this list (perhaps most of us) are
+going to be put up against the wall and shot by the Black Hats before it's
+all over -- I wish my Optimism was as Dynamic as Duncan's, for example; he
+comes up with much of the most interesting and reassuring stuff I see on
+the list nowadays; but I think it's going to get worse before it gets
+better.
+                                        dV/dt
+
+
+
+------------------------------
+
+Date: Thu, 30 Dec 1993 19:30:09 -0800
+From: dkrieger@netcom.com (Dave Krieger)
+Subject: Why have children?
+
+At  1:38 PM 12/28/93 +0000, nancy@genie.slhs.udel.edu wrote:
+>it's just 
+>aesthetics, but I believe that if a sane society has treadmills,
+>they're reserved for slaves, criminals, and animals. 
+                                             ^^^^^^^
+
+Ooh, the bunny-huggers are gonna getcha for that!
+                                        dV/dt
+
+
+
+------------------------------
+
+Date: Thu, 30 Dec 93 19:34:44 -0800
+From: davisd@auburn.ee.washington.edu
+Subject: PPL: hnewstrom-ppl 
+
+> My PPL was never sanctioned.  I must write multiple essays to demostrate my 
+> worthiness to operate a PPL.  If I can prove myself worthy I may be 
+> approved to start a PPL.  As far as I know, I am still in Tim's PPL, and 
+> Harry does not want me back in PPL-1.
+> __
+> Harvey Newstrom  (hnewstrom@hnewstrom.ess.harris.com)
+
+Phooey. This PPL dance has gotten pretty silly. The List Gods can and
+will enforce whatever punishments they want. They are the only ones
+with the *power* to do so. 
+
+Any other PPLs will have to rely on voluntary sanctions from their
+members. In light of this, I would be quite surprised if Harry took
+any sanctions against Harvey for operating an "unapproved" PPL. Will
+Harry bar Harvey from forming a completely voluntary association? Ha!
+I'd love to see it. An act of such vast hypocrisy would be quite a
+sight. Harvey, please go ahead and form your voluntary association
+without writing on the blackboard 100 times "I will not coerce". Civil
+Disobedience, to the end! The ensuing scenes may be quite a hoot.
+
+Buy Buy -- Dan Davis      
+
+
+
+------------------------------
+
+Date: Thu, 30 Dec 1993 19:55:53 -0800 (PST)
+From: tcmay@netcom.com (Timothy C. May)
+Subject: MMGE: Tanstaafls!
+
+TANSTAAFLS!
+
+Mr. May's Greater Extropia wishes you a Happy New Year and reminds you
+about "TANSTAAFLS." There Ain't No Such Thing As A Free Legal System.
+
+Yes, although Harry Shapiro effectively volunteered his time to chase
+down wrongdoers, to collect the proper evidence on suspects, and to
+read the mountains of verbiage litigants often generated, yours truly
+has no plans for similar charity.
+
+Here are my legal fees and hourly rates for considering any legal
+charges or any mediation. Other PPLs are of course free to continue to
+offer free legal servies, or perhaps to collect taxes from members and
+_then_ offer a "public good" to members. Whatever.
+
+Rates for MMGE Legal Services:
+
+* Minimum charge: $25, payable in cash (Federal Reserve Notes) or
+check, drawn on a U.S. bank. I must receive the money prior to
+providing the minimum service. (Those who need urgent service can of
+course put me on retainer with, say, a deposit of $100.)
+
+(Thornes may also be acceptable, by negotiation and calculation of
+exchange rates. Right now, I will consider 1000 Thornes to the dollar
+to be a fair rate, meaning that my minimum fee is 25,000 Thornes.)
+
+* Hourly rate: $100, with a quarter-hour minimum (as above).
+
+* Expected fees for some typical legal situations:
+
+- Filing charges: $25 (and you'll have to supply the necessary
+paperwork, recapitulation of the charges, etc.)
+
+- "Quick Verdict" (where I quickly read the charges and the statements
+of both parties and issue a quick ruling): $50
+
+- Trial: at least $100 and possibly $200 or more if many postings
+have to be read, precedents examined, etc.
+
+- Filing suit against another PPL: $200
+
+Mr. May's Greater Extropia collects no taxes to pay for things like
+legal services, and my time is not free. If you don't like this
+system, leave my PPL.
+
+(I should explain that, contrary to my last posting on this matter,
+Harvey Newstrom remains in my PPL until he can get his own PPL
+approved. And Christopher Weeks asked if he could join, so I let him.
+I'm not recruiting, being as how I gain nothing by having more
+members, but I won't turn away reasonable folks. Just bear in mind
+that I won't be keeping track of who's in and who's not, once more
+than my Miller limit has been exceeded....I'm not a secretary, but
+I'll agree to write your name down in my roster if you send me $20 for
+my troubles.)
+
+I hope this clarifies things.
+
+--Mr. May, owner of MMGE
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Thu, 30 Dec 93 20:00:59 -0800
+From: davisd@auburn.ee.washington.edu
+Subject: Meta: Announcing Wolf's Head PPL 
+
+> a conscious being, Nick Szabo wrote:
+> 
+> > I hereby announce "Wolf's Head PPL".  To join you must have been
+> > kicked out of another PPL, and cannot be a member of any other
+> > PPL.  Those are the only requirements.  There are
+> > absolutely no rules for Wolf's Head members.  Members will be able to  
+> ...
+> Unless there is some great reason I am over looking I will not authorize
+> this PPL.
+> 
+> /hawk
+
+What fun! Our first PPL war. Would have been a little better if it was
+not Wolf's Head versus the List Government, especially since Nick so
+foolishly announced Wolf's Head under his own name. (Perhaps he is
+just flushing out the malcontents for the guvvies. Watch
+alt.conspiracy for details.) The federales are going to come down hard
+on you Nick, if you don't back down. Best to sign whatever confession
+they might want and go underground. Long live the revolution!
+
+Buy Buy -- Dan Davis      
+
+
+
+
+------------------------------
+
+Date: Thu, 30 Dec 1993 22:29:55 -0600 (CST)
+From: Craig Presson <fcp@moontarz.nuance.com>
+Subject: MEDIA: RAPE IN CYBERSPACE
+
+> Ray writes: 
+> >The males who had it happen to them thought it was funny.
+> 
+> This might suggest that that sort of treatment can be handed out
+> lightly to males, but should not be done to females, or perhaps
+> only for serious revenge. 
+> 
+> Nancy Lebovitz:
+
+I thought it was highly interesting that the net result was the
+institution of a volunteer PPL, after much discussion among people of
+various political persuasions.
+
+It looks like they may settle on "arm everyone and train some
+arbitrators" as an optimum, which would set fairly well in this crowd;
+or would if they weren't making the whole bloody row about words on
+screens. However, you could think of it as a case study for Life.
+
+-- fcp@nuance.com (Freeman Craig Presson)
+72430.1422@compuserve.com (Freeman P. Craig)
+LP of AL, LP US, NRA, ExI, ISGS, Clan Gordon
+
+------------------------------
+
+Date: Thu, 30 Dec 93 23:46:02 WET
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: PPLs without power
+
+   The current PPLs I see being proposed are nothing more than "playing
+house" They have no real power and there is little consequence to NOT
+joining one (being an outlaw has no consequence)
+
+
+   Here is my proposal to remedy this situation:
+
+1) PPL owners will be able to remove the posting ability of their clients
+2) PPL owners will have a "super exclude" which overrides any of their
+client's settings. (e.g. they can ban Pandit Singh from being seen
+by _any_ of their clients. Sorta like kicking him off the list. also,
+one PPL can exclude another PPL meaning any posters from a rogue PPL
+will not be seen by yours)
+3) if you are an outlaw (not a member of a PPL), then you will be
+subject to a "1 warning rule"  Simply put, if you are not a member of
+a PPL (no protection), then any PPL on the list can "hunt you down" and
+"shoot you" That is, any PPL owner can remove your posting
+ability but they can not reinstate it (because you're dead)
+
+   If you have been shot, your only recourse is to join a PPL and be
+resurrected (the PPL owner can turn on your posting ability if you're
+a client)
+
+
+  Inter-PPL threats could take the form of releasing "criminals"
+(previously banned posters) on the other PPL.
+
+4) when the list goes to a "for pay" system, part of the subscription
+free will go into your list account as list currency which is tradable
+like thornes. Only if your list credits go to zero will you be required
+to renew your subscription (posting/receiving mail deducts credits
+as does list services like AGREPing the database and resending)
+
+5) to prevent outlaws from simply forming PPLs themselves to prevent
+being shot, a minimal membership requirement will need to be met before
+the anti-shooting protection kicks in.
+
+
+  If these proposals were enacted, we could eliminate Harry's fiat
+regulation and have PPL's spontaneously self regulate because of market
+conditions and internalized costs. PPL's would have real "guns" and
+powr instead of relying on members to shut their mouths or begging
+Harry to remove them from the list.
+
+-Ray
+p.s. this is only my proposal and has nothin to do to with Harry or official
+ExI plans
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Fri, 31 Dec 1993 00:00:02 +0500
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+News Summary as of: Fri Dec 31 00:00:01 EST 1993
+
+
+Newly Registered Reputations:
+(None)
+
+New Share Issues:
+(None)
+
+Share Splits:
+(None)
+
+
+Market Summary as of: Thu Dec 30 23:58:02 EST 1993
+
+Reputations of members of the Extropians mailing list:
+[ Note: Contact hex-request to have a reputation placed on this list. ]
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding       Traded
+AMARA         .10      .50      .50        10000         2000            0
+ANTON         .61      .68     1.24        10000         2386          250
+ARKU          .18      .31      .30        10000         5301            0
+BLAIR         .01     1.20      .01        10000           26            0
+BROOX         .01      .10      .01        10000            1            0
+DEREK         .15      .19      .19       100000        18930            0
+DROSE           -      .15      .10        10000         3000            0
+DRS             -      .15      .15        10000         2600            0
+DVDT          .75     1.75     1.70        10000        10000            0
+E             .80     1.00      .90        10000         8011            0
+ESR             -        -        -            -            -            0
+FCP           .06     1.30     1.50        80000        15345            0
+GHG           .02      .30      .20        10000         8180            0
+GODII         .01     1.00        -        10000            -            0
+GOEBEL        .20      .25      .25        10000          767            0
+H             .53      .76      .76        30000        10290            0
+HAM           .60      .90      .90        20000        15918            0
+HANNO         .15      .24        -        10000          500            0
+HFINN        1.50     6.00      .01        10000         1005            0
+IMMFR         .30      .70      .80        10000         1838            0
+JFREE         .02     1.25      .99        10000         3200            0
+JOHN          .30      .40      .35        10000          600            0
+JPP           .26      .29      .26        10000         3500            0
+KARL          .50     1.00     1.00        10000         1100            0
+KLAUS         .01      .45      .45       100000        37104            0
+KNNTA         .12      .26      .60       100000        13600            0
+LEFTY         .31      .42      .40        10000         4751            0
+MARCR           -        -        -            -            -            0
+MEEKS           -        -        -            -            -            0
+MLINK           -      .01      .01      1000000       112602            0
+MWM             -     1.50      .01        10000         1260            0
+N            1.50     9.00     5.00        10000         4749            0
+P           22.50    24.00    24.00      1000000           94            0
+PETER           -      .01      .01     10000000          601            0
+PRICE           -      .01      .01     10000000         1410            0
+R             .40      .80      .70        10000         6100            0
+RJC           .65   999.00     2.00        10000         7100            0
+ROMA            -        -        -            -            -            0
+RWHIT           -        -        -            -            -            0
+SAMEER        .30      .75      .61        10000         9810            0
+SHAWN         .55      .55      .55        10000         2025            0
+SWANK           -     1.00        -        10000            -            0
+TIM           .60      .75      .60        10000         2104            0
+WILKEN       1.00    10.00     1.00        10000          102            0
+-----------------------------------------------------------------------------
+Total                                                                  250
+
+Other reputations:
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding       Traded
+1000          .05      .40      .20        10000         5000            0
+110           .02      .10      .10        10000         1750            0
+150           .01      .10      .10        10000         1750            0
+1E6           .20        -      .20        10000         8825            0
+1E9           .01      .09      .20        10000         7000            0
+200           .02      .20      .10        10000         5075            0
+80            .01        -        -        10000            -            0
+90            .01        -      .10        10000         2000            0
+ACS           .10      .15      .12        10000         3223            0
+AI            .01      .09      .10        10000         2400            0
+ALCOR         .25      .85      .60        10000      3675.00            0
+ALTINST         -      .25      .05        10000         4000            0
+ANARCHY       .20      .90     1.00        10000         1100            0
+BETSY         .01        -        -        10000            -            0
+BIOPR         .01      .09      .05        10000         3000            0
+BITD          .01     1.00        -        10000            -            0
+BLACK           -      .10      .12       100000         7000            0
+CHUCK           -        -        -            -            -            0
+CORWIN          -        -        -            -            -            0
+CYPHP         .32      .40      .30        10000        10000            0
+D&M             -        -        -        10000            -            0
+DC1000          -      .10        -        10000            -            0
+DC200           -      .15      .10        10000         1500            0
+DC7000          -      .10        -        10000            -            0
+DCFLOP        .15        -      .15        10000         6000            0
+DRXLR         .75      .90      .80        10000         4545            0
+EXI           .10      .55      .25        10000         3025            0
+FAB             -        -        -            -            -            0
+FELIX           -        -        -            -            -            0
+FROG            -      .05        -        10000            -            0
+GOD             -      .10      .10        10000         3000            0
+GUNS            -      .90     1.00        10000         3900            0
+HART            -     1.99     2.00        10000         9000            0
+HEINLN        .28      .30      .30        10000         6600            0
+HEX        100.00   101.00   100.00        10000         4648            0
+JBM             -        -        -            -            -            0
+KPJ             -        -        -            -            -            0
+LEARY         .01      .50      .20        10000         1000            0
+LEF           .10      .35      .10        10000         5214            0
+LIST          .40    10.00    10.00        10000         5010            0
+LP            .25      .30      .50        10000         5625            0
+LSOFT         .50     1.00      .50        10000         9550            0
+LURKR           -      .01        -       100000            -            0
+MED21         .01      .30      .30        10000         5399            0
+MMORE           -     1.25      .10        10000         3000            0
+MNSKY           -      .40        -        10000            -            0
+MORE          .38     1.25      .75        10000         2660            0
+MRLOT           -        -        -            -            -            0
+NEWTON          -      .50      .20        10000         1000            0
+NLAW            -      .50        -        10000            -            0
+NNLAW           -      .50        -        10000            -            0
+NSS           .02      .03      .01        10000           25            0
+OCEAN         .15      .18      .20        10000         6600            0
+OOMPH           -    15.53    22.00        20000            -            0
+PENNY           -      .08     1.50        10000         2500            0
+PGP             -     1.00     1.00       100000         2100            0
+PLANET        .01      .02      .02        10000         4000            0
+PPL           .15      .40      .30        10000         4900            0
+RAND          .18      .20      .20        10000         3900            0
+RAW             -      .05        -        10000            -            0
+RCLARK          -      .09        -        10000            -            0
+SHECKY          -        -        -            -            -            0
+SQRL            -     1.00      .02        10000          100          100
+SSI           .15      .20      .20        10000         5200            0
+TCMAY         .38     1.00      .38        10000         4900            0
+TRANS         .01      .90      .60        10000         3211            0
+VINGE         .01     1.00      .75        10000         3449            0
+-----------------------------------------------------------------------------
+Total                                                                  100
+
+------------------------------
+
+Date: Fri, 31 Dec 93 00:05:55 EST
+From: Harvey Newstrom <hnewstrom@hnewstrom.ess.harris.com>
+Subject: Book: Harvey Newstrom's Book
+
+J oh N writes:
+>I hope that selling the rights to the book won't mean that you are
+>restricted in any way from releasing the database/software
+>version.  Wouldn't the latter effectively be a superset of the book?
+
+I'm not a lawyer, but I watch one on TV...
+The facts are not copyrighted, only the specific book.  Although the 
+database will agree on scientific points with the book, it will not 
+duplicate any specific text in the book.  Only the ideas are the same.  I 
+also have documentation that the database existed before the book, and can 
+show that all the data was gathered without using the book.  The book 
+merely draws on the same public domain sources of data as the database.
+
+I also made clear to the publishers that I was not selling them any rights 
+to my research, except for the book.  I also made it clear that I might 
+want to sell nutritional software or databases.
+__
+Harvey Newstrom  (hnewstrom@hnewstrom.ess.harris.com)
+
+
+------------------------------
+
+Date:     Fri, 31 Dec 93 5:48:24 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Replies to Duncan
+
+>From: Duncan Frissell <frissell@panix.com>
+>Subject: Misc. Replies            
+>
+>S.>Perhaps, but that's where Detweiler's accusations about the
+>S.>crypto-anarchist conspiracy come in.  I don't buy them, but there
+>S.>are many people who can't tell the difference.  The nonexpert have 
+>S.>nothing better to go on than outward signs of benevolence.
+>
+>Which is why they are so much food for the *real* carnivores out there.  
+
+No, that's why we are.  Detweiler's either a cannibal or a supporter of
+cannibalism, and the way contemporary cannibals work is by persuading
+many who don't know any better than some people need to be eaten -
+especially us anti-cannibals.
+
+>We can't help them except by disabusing them of the incorrect notions they 
+>have and to do so we need an example like Tim of a nonthreatening person 
+>who lacks empathy to contrast with empathetic as hell mass murders like 
+>Janet Las Vegas.  Show and Tell. 
+
+Tim May's style isn't "nonthreatening," its horrifying.  It makes people
+afraid and alienated from him, and thus more likely to approve him as
+a candidate meal for the real cannibals out there.
+
+Further, this stuff about him selecting his associates is nonsense.  He
+isn't attracting the sort of people he likes, he's alienating those he
+doesn't like.  If he'd stick to the former, he'd be better off.
+
+>From: Duncan Frissell <frissell@panix.com>
+>Subject: Tecno-Historicism        
+>
+>S.>I renew my challenge: has there ever been any social change of the 
+>S.>kind and on the scale we're contemplating with technological change
+>S.>alone? That is, without memetic change that wasn't caused by the 
+>S.>technological change?
+>
+>I don't know.  As Bastiat might have said, "I'm a popularizer not a 
+>scientist."  
+
+In other words, you can't come up with any.  And that's historian, not
+scientist.
+
+Every revolutionary social change in history has depended at least in
+part on memetic factors, and you propose to get similar results without
+them.  What makes you think you can do it?
+
+>S.>The simple truth is that history is full of cases in which the 
+>S.>technology for revolutionary social change existed and wasn't
+>S.>implemented. 
+>
+>I don't think you could call computers and networks an experimental 
+>technology that may not be implemented.  They seem rather well developed 
+>for that.
+
+They may not be used the way you want them to.  The current trends you
+count on may stop or even reverse.  People may find this crypto-anarchy
+stuff too frightening.
+
+><Downsizing is idea driven not technology driven>
+
+Inaccurate.  I said it was caused by both kinds of factors, not just one
+of them.
+
+>The Economist
+
+Is written by a bunch of Keynesian positivists.
+
+>(in The Incredible Shrinking Company) disagrees:
+>...
+>Mr Brynjolfsson's study, due to be unveiled at a conference in
+>Copenhagen on December 15th, looks at a large sample of American
+>firms from 1975 to 1985. During this period the average number of
+>employees at each firm declined by 20%, while the real stock of
+>information-technology investment tripled. Statistical
+>comparisons between groups of firms in different industries
+>showed a clear link between more computers and smaller firms."
+
+Proving nothing except that technology was a necessary condition, not
+that it was a sufficient one.
+
+>Also Coase's 1930's study (The Theory of the Firm)
+
+I read that.
+
+>for which he finally 
+>won the Nobel a couple of years ago
+
+I thought he got it for that and for his other work on transaction costs,
+but I'm confident David will correct me if I'm wrong about this.
+
+>suggests that one-man firms buying 
+>each other's services on the spot market is the most efficient arrangement 
+>when you have near zero transaction costs.  This is because one-man firms 
+>have superior internal organization compared to large firms.
+
+I knew that.
+
+>Computers 
+>and networks are busily lowering transaction costs.  
+
+Down and down they go, where they stop, nobody knows.  But they may stop,
+or even go back up.
+
+And yet most people still talk about "the data highway" as if it isn't here
+yet, it will be singular, it will belong to the Feds, and they still don't
+know how to use a keyboard.  If the masses are as contemptible as Tim May
+says, and as you defend him for claiming, then how do you expect them to
+use digital cash?
+
+To answer entails contradiction.  I'm optimistic, too, but think you'll
+have to drop that Platonic elitism.  Healthy elitism doesn't entail
+contempt for the masses, but admiration that they do so well with so little.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+End of Extropians Digest V93 #364
+*********************************
+

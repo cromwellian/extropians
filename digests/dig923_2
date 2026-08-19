@@ -1,0 +1,921 @@
+From extropians-request@extropy.org Thu Sep 23 15:00:28 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA17772; Thu, 23 Sep 93 15:00:23 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA08096; Thu, 23 Sep 93 15:00:16 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA10218; Thu, 23 Sep 93 17:55:50 EDT
+Received: from news.panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+	id AA10213; Thu, 23 Sep 93 17:55:23 EDT
+Received: by news.panix.com id AA18283
+  (5.65c/IDA-1.4.4 for exi-maillist@ung.gnu.ai.mit.edu); Thu, 23 Sep 1993 17:55:23 -0400
+Date: Thu, 23 Sep 1993 17:55:23 -0400
+Message-Id: <199309232155.AA18283@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: September 23, 373 P.N.O. [21:55:12 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: O
+
+
+Extropians Digest             Thu, 23 Sep 93             Volume 93 : Issue 265
+
+Today's Topics:
+                                                                      [3 msgs]
+        "Experiment of interest to AI and quantum computer designers" [1 msgs]
+                          AIT: socialist computation                  [1 msgs]
+                         BELL: Bogodynamics of R.A.W.                 [1 msgs]
+                   Crypto-Anarchy & Libertarian RealPolitik           [1 msgs]
+                            Experimental FTP site                     [1 msgs]
+                  GUNS: Buy Chinese (was: Don't buy Chinese)          [1 msgs]
+                                GUNS: Buy now                         [1 msgs]
+                       META: Last-word agent available                [1 msgs]
+                       META: alt.extropians... perhaps?               [5 msgs]
+                   Neo-Calvinism--Getting in the Last Word            [2 msgs]
+                Recovering Objectivist Seeks Source Material          [1 msgs]
+                       SPACE: Beanstalks and Bridges...               [1 msgs]
+                        SPACE: limits on launch costs                 [1 msgs]
+                          TERSE:  One price fits all                  [1 msgs]
+                          media:NAFTA                                 [1 msgs]
+                           talk.extropians... NOT!                    [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51498 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 23 Sep 93 2:00:38 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: "Experiment of interest to AI and quantum computer designers"
+
+> From: "James A. Donald" <jamesdon@infoserv.com>
+> The interesting thing about a quantum computer is that in
+> principle it can compute some things that require non
+> polynomial time (effectively infinite time for interesting
+> problems) for a classical computer.
+>
+> This has lead a small number of rational people, including
+> myself and Roger Penrose, to argue that living things may
+> process information at a quantum level.
+
+I don't understand the logical step being made here.  If people
+were observed to solve the TSP in polynomial time, this hypothesis
+would make sense.  If people instead take exponential time to solve
+exponential-time problems, does that not suggest instead that
+"quantum thought" is not going on?  At the least, this would not
+seem to be an argument *for* it.
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Thu, 23 Sep 93 2:38:10 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Crypto-Anarchy & Libertarian RealPolitik
+
+Tim May encourages Extropian comments on social aspects of
+crypto-anarchy, so I'll stir the pot a bit.  (I've also
+added a postscript on Libertarian RealPolitik).
+
+> On a Galt's Gulch sort of scenario, I think the "crypto anarchy"
+> scenario I have been promoting is actually fairly likely to happen (it
+> can be said to already be happening).
+
+I'm a vocal supporter of crypto-anarchy, but must point out
+there are severe problems with the disappear-into-cyberspace
+scenario, including:
+
+* Despite the hype about "information economy", the vast majority
+of our world economy, and the most nonexpendable parts of it (eg
+agriculture, goods distribution and housing) are still strongly bound 
+to the physical world and vulnerable to coercion.   At some
+expense one can make oneself or (more difficult) one's family somewhat 
+"judgement proof", but this can be quite difficult for many people.
+
+* There are many subtle problems with the "web of trust": the
+need to trust central banks not to track digicash transactions,
+the need to trust remailer operators not to log their traffic,
+etc.  If we can't even motivate people to avoid using the POS-ATM
+cards with which stores build a dossier of your every purchase, I 
+fail to see how we can motivate trust in obscure mathematics,
+which will be pure trust in authority for 99.9% of the users
+and the vast majority of people owning or managing banks and
+other financial enterprises.  A major gap in the crypto-anarchy
+movement is lack of interest by the banking industry; cypherpunks
+are almost entirely directed at political activism not commerce.
+Banks would much rather build marketing dossiers for vendors
+than protect the privacy of their customers, unless the customers
+demand it, which they hardly ever do.
+
+* The "competent people taking over the world" scenario is
+silly.  Most of the people in control of the world are already
+highly competent in the techniques needed to get to those
+positions.  Many people highly competent in specific skills are
+correspondingly incompetent other areas, especially political
+awareness.  Allocating brain for one takes away brain for the 
+other.  That's why people like Albert Einstein can be so brilliant 
+in some spheres (physics) and ignorant babbling twits in others
+(politics).  Furthermore, there is no rational self-interest
+in having valuable political knowledge or opinions.  There
+is no advantage, in terms of either money or personal satisfaction,
+in being a libertarian instead of a socialist.  There are many
+rich capitalists who are politically hard-core socialists.
+
+Thus, since most "competent people" are either already in control,
+not sympathetic to using control for libertarian purposes, or
+both, most competent people won't participate in a "Galt strike".  
+
+A more likely scenario is an emergent Galt strike: tax evasion 
+on a massive scale motivated not by political ideals but by personal 
+self-interest and change of habit as dodging the Information Highway 
+Robbers becomes easy.  But such a phenomenon might also might be
+self-limiting,  since after a point personal utility functions 
+tend to favor the wide variety of human endevours that don't involve
+making money (Tim May and perhaps even myself at this point are good 
+examples).
+
+Finally, the bureaucrats with Clipper, harassment of Phil
+Zimmerman, etc. give every sign of being "on to us" and
+aware of what crypto-anarchy would do to their power, and
+they have massive power to institute things like Clipper
+and Capstone, perhaps with an EC/NAFTA or even UN/Interpol
+key escrow facility that eliminates the offshore escape
+hatch.  The bureaucrats might well have the 
+power to architect cyberspace to suit their needs.
+In response there is layered encryption, steganography, etc.
+but these are even more subtle and even more liable to being
+pigeonholed as the tools only drug dealers and terrorists
+would use.
+
+postscript: Libertarian RealPolitik
+-----------------------------------
+The Libertarian Party vs. crypto-anarchy is
+not an either/or issue.  We need many
+talented hackers working on PGP interfaces, remailers,
+digicash, on-line markets, etc.  We also need many bankers
+and commercial lawyers setting up privacy-enhanced businesses.  
+We also need a Libertarian Party and other efforts at education 
+and political activism.  But I suggest these should be coordinated: 
+the business practices can be done with libertarian politics in mind,
+and the LP should put more emphasis on business practice
+and technology as a potent sphere of political activism,
+and less emphasis on electoral politics.  Furthermore
+LP's lobbying can be more focused on those areas
+that enable politically independent business: eliminate
+crypto export restrictions and governmental key escrow schemes,
+RKBA, school vouchers to allow independent education, etc.
+
+Instead of an Oceania in need of defense let's put first things 
+first and develop a voluntary libertarian militia and legal defense 
+fund to defend our political supporters' property rights across 
+jurisdictions.
+
+What I'm suggesting here is a Libertarian RealPolitik
+that combines the traditional LP with business interests and
+economic privacy, led by a Libertarian Party that gets things done for 
+its supporters in the real world instead of wasting so many 
+contributions on futile attempts to win in the religious rituals of 
+the ballot box.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 08:20:30 -0400
+From: pcm@world.std.com (Peter C McCluskey)
+Subject: META: alt.extropians... perhaps?
+
+Freeman Craig Presson writes:
+ > I may have missed something, but I don't see why a
+ > (gag) Usenet newsgroup is needed if you have this list.
+
+ Some of us would like to spread extropian memes as widely as
+possible. The privacy of this list seems designed to discourage
+the spread of extropianism.
+
+----------------------------------------------------------------------------
+Peter McCluskey >>> pcm@world.std.com >> pcm@macgreg.com >> pcm@cs.brown.edu
+----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Thu, 23 Sep 93 13:50:42 BST
+From: jrk@sys.uea.ac.uk (Richard Kennaway)
+Subject: META: alt.extropians... perhaps?
+
+Peter McCluskey writes:
+> Some of us would like to spread extropian memes as widely as
+>possible. The privacy of this list seems designed to discourage
+>the spread of extropianism.
+
+The privacy of this list is designed to provide a space where those of
+extropian bent can congregate without having to continually explain and
+justify themselves to newbies and hostiles.  I fail to see how it in any
+way discourages the spread of extropianism.  If you want the memes spread,
+go ahead and spread them.
+
+--                                  ____
+Richard Kennaway                  __\_ /    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk      \  X/     University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk    \/       Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Thu, 23 Sep 93 13:57:38 BST
+From: jrk@sys.uea.ac.uk (Richard Kennaway)
+Subject: SPACE: limits on launch costs
+
+Dani Eder writes:
+>A 300 km tall tower built on the Earth's surface.
+
+At first I took this to be a misprint for 300m, but the remark about not
+much drag at 100km altitude shows that 300km must be intended.  How do you
+build such a gigantic tower?
+
+--                                  ____
+Richard Kennaway                  __\_ /    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk      \  X/     University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk    \/       Norwich NR4 7TJ, U.K
+
+
+------------------------------
+
+Date: Thu, 23 Sep 93 13:57:12 BST
+From: jrk@sys.uea.ac.uk (Richard Kennaway)
+Subject: GUNS: Buy now
+
+Perry Metzger writes:
+>I've yet to be able to figure out how to handle milling the inside of
+>the barrel properly. The tools to do this are normally quite
+>specialized. I'm sure that you could build tools to do this without
+>any trouble, but I have no idea how.
+
+See "The Modern Riflebarrel: A complete manual for the making of rifle,
+shotgun, and pistol barrels", by Harold Hoffman, 1988.  It gives
+instructions for the whole process of barrel-making.  Disclaimer: I'm just
+saying what the book says, I have no expertise in metalworking.
+
+It describes a rifling method much faster and simpler than milling, called
+button rifling.  This is done by pulling through the barrel a piece of
+metal shaped so as to swage the rifling grooves.  The machine to do this
+can be constructed from easily-obtainable hydraulic rams and thrust
+bearings.  The most difficult part is making the rifling button, for which
+a milling machine will be required, but I doubt if it would need one of the
+5-axis multi-$k wonders mentioned here.  Once the rifling machine is made,
+it takes about three minutes to rifle a barrel.
+
+--                                  ____
+Richard Kennaway                  __\_ /    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk      \  X/     University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk    \/       Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Thu, 23 Sep 93 08:44:34 CDT
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: SPACE: Beanstalks and Bridges...
+
+pgf asks about 'coilgun in orbit':
+
+A good place to look is the entire series of conference reports
+from the Princeton Conference on Space Manufacturing.  The individual
+volumes are entitled "Space Manufacturing N", where N=1..8.  
+Also do a search on Dr. Henry Kolm, who did a lot of the early
+work.  He was a professor at MIT (he may still be).  There was
+also, I believe, a periodic conference on electromagnetic accelerators,
+which is reported in 'IEEE Transactions on Magnetics', one of their many
+technical journals.  I may be a bit off in the last reference, but
+it should be close.  You should be able to find all this stuff in
+a good engineering library.
+
+pgf asks 'why worry about project mass/payload mass?:
+
+I use this ratio in two ways.  One is to show the scaling of various
+structural systems.  The mass ratio is very sensitive to the velocity
+you try to get out of a space bridge, but the mass ratio is independant
+of the payload size.  Then I go and mutliply by typical structures
+cost to get total project cost.  The second way to use this ratio is
+to get an idea of how long it will take to build the system.  If what
+you are building is the lowest cost transportation system, then you
+should use yourself to deliver your components.  For example, use
+a partially built space bridge to help lift cable to expand the
+space bridge.  The mass ratio of the space bridge:payload (and the time
+to handle a payload) govern how fast you can 'bootstrap'.
+
+Dani Eder
+eder@hsvaic.boeing.com
+
+------------------------------
+
+Date: Thu, 23 Sep 93 6:56:21 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: META: alt.extropians... perhaps?
+
+Peter McCluskey writes:
+>The privacy of this list seems designed to discourage
+>the spread of extropianism.
+
+Richard Kenneway: 
+> The privacy of this list is designed to provide a space where those of
+> extropian bent can congregate without having to continually explain and
+> justify themselves to newbies and hostiles.  I fail to see how it in any
+> way discourages the spread of extropianism.  
+
+Even if it was unintended, this list has been quite effective in 
+spreading the meme to at least one person, me.  I read an ad for it
+posted to alt.cyberpunks last year and have been hooked every since.  
+This list has made me aware of cryonics and uploading as more than 
+fringe science-fiction curiosities -- there are actually some
+very well-clued-in, smart people exploring the workings and
+the incredible consequences of these technologies, and in the
+case of cryonics making them happen.  If uploading and cryonics had 
+ever crossed my mind before, I had surely dismissed them as fringe 
+whackoisms, out there somewhere in the same region as UFOs and and 
+oiji boards.  
+
+But I consider myself lucky.  I would never have obtained a
+credible view of extropian pursuits from print media, or from 
+current Usenet postings.  Despite being a bookstore junkie I have 
+never yet seen a copy of Extropy or Cryonics in a bookstore.  Until 
+now none of my freinds or co-workers were clued in about extropianism 
+either, or if they were never mentioned it to me.
+
+The word "extropian" rarely shows up on Usenet and when it does, 
+it's usually in some brief prejorative, eg "it's an elitist
+philosophy, I think my extropian housemates are rather egotistical" 
+(the only response to a recent query, "what's an extropian?" on 
+alt.extropians).  There are many people on Usenet sympathetic with the 
+values of advancing technology and freedom, but not realizing the depth 
+of thinking that has gone into it, the talent that has assembled 
+around it, or the difference that can be made in their own prospects.
+
+That's why I strongly support getting a presence on alt.extropy.
+If there's no major objection I'll start posting some of my
+old essays and other articles there, and taking on some "clueless
+newbie" questions and comments, though I can't promise to rigorously 
+address them all in the way Dave Krieger suggested.  (For example
+haven't thought up a good response to the "egotistical and
+elitist" bit, except for "sure, so what?" which satisfies me 
+but probably not many casual Usenet readers and certainly not the 
+flamers).
+
+I suggest we _not_ give out the extropian list address to
+alt.extropians unless we become satisfied that its readership
+is largely sympathetic.  We can invite people that show great
+interest in extropian stuff.  For example, I took the liberty of 
+inviting a student who recently posted an excellent technical 
+article on uploading, complete with references, on rec.arts.sf.science.
+
+Nick Szabo					szabo@netcom.com
+
+------------------------------
+
+Date: Thu, 23 Sep 93 07:35:44 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: AIT: socialist computation
+
+David Burns scripsit:
+> . . .  Market socialist proposals were quite explicit about how they
+> would replace existing enterprises, but not about how innovation would
+> be fostered (or in the case of mistakes, weeded).
+
+Reminds me of Henry Hazlett's novel TIME WILL RUN BACK (1966),
+which gave me a deeper appreciation of the subtlety of the market.
+
+*\\* Anton 						Ubi scriptum?
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 10:45:11 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: talk.extropians... NOT! 
+
+Lefty says:
+> >Lefty says:
+> >> Again, I think the very existence of alt.extropians and the fact that it i
+s
+> >> traffic free will be seen as arguments _against_ any other
+> >> <<mumble_frotz>>.extropians newsgroup.
+> >
+> >Oh, thats not a problem. We have enough votes to ram it through right
+> >now.
+> 
+> Not if 300 system administrators vote against it, you don't.
+
+Unless you are planning on organizing them to vote against it, I doubt
+that this will happen. Sci.cryonics went through in spite of
+opposition largely because there were over 150 people right off the
+bat willing to vote for it.
+
+Perry
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 09:48:51 -0500 (CDT)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: META: alt.extropians... perhaps?
+
+Nick Szabo:
+
+> That's why I strongly support getting a presence on alt.extropy.
+
+While turning Pandit Singh's [sic] entropic creation into a thriving
+spontaneous order is an attractive prospect, I agree with those
+who have suggested that if a public forum is to be opened it should
+be in a more "legitimate" part of the news hierarchy -- for one
+thing, most people who can get alt.extropians have already unsubsubscribed,
+not to mention alt.extropians.forbidden.topics and alt.sex.extropians.
+
+I might participate in such a venture, but who knows how much
+time and inclination will be available in the future.
+
+> haven't thought up a good response to the "egotistical and
+> elitist" bit, except for "sure, so what?" which satisfies me 
+> but probably not many casual Usenet readers and certainly not the 
+> flamers).
+
+How about:
+
+  For "egotistical" read "respectful of the value of the individual and
+  accepting of responsibility for one's own actions and destiny" and for
+  "elitist" read "active in pursuit of one's goals"
+ 
+derek
+not elitist -- i wish *everybody* was as cool as me...
+
+------------------------------
+
+Date: Thu, 23 Sep 93 10:00:42 CDT
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: SPACE: limits on launch costs
+
+Building Large Towers
+
+The first step in building a large tower is realizing it is possible.
+Consider an off-the-shelf carbon fiber/epoxy composite (AMOCO Performance
+Products T40 fiber and ERL-1906 epoxy to be specific).  It has a compressive
+strength of 280,000 psi.  Assume we work at 60% of full strength.  This is
+168,000 psi.  The density of this stuff is 0.058 lb/in^3.  Therefore, a
+column 168,000/0.058 = 2,896,500 inches tall of this composite would be
+at the maximum working stress at the bottom of the column.  In SI units,
+this is 73.57 km tall.  If we have a 300 km tall tower with a payload
+at the top, each km we go down from the top we must increase the structural
+cross section to account for the additional weight of that km of structure.
+
+In this case, the increase must be 1/73.57 per km, or 1.36% per km.  Over
+300 km, the cross sectional area must increase (1.0136)^300 = 57 times.
+If the payload at the top is 100 tons, then the tower structure will
+have a cross section of 1.3 square inches at the top, and 75 square inches
+at the bottom.  Given the density above, we can calculate the total
+structural mass as 5740 tons, which can also be found by taking the
+payload times the ratio of cross section at bottom and top.
+
+Such a structure will not be a solid building.  Like power line
+towers or radio masts, it will mostly be empty space with truss elements
+spaced out to give it stability against buckling.  For stability, a
+typical figure is a base 1/20 of the height across, so the base of
+the tower will span 15 km.  It would be a triangular base, so there
+would be 3 corners.  Each corner column itself would be a truss.  A rule
+for designing not to buckle is a width of 1/20 the column height.  
+So if the height to the first cross beam is 15 km, then the column
+sub-columns need to be 750 meters apart.  There would be 9 of these.
+In continuing subdivision of the tower trusses, the third order
+columns would be 37.5 m apart, and the 4th order columns would
+be 1.875 m apart.  There would be 81 of these, and each one would
+have a cross sectional area of 0.925 square inches, which is a
+manageable size to manufacture.  Each fourth order column supports a 
+load of 72 tons, which is met by a concrete footing.  The entire
+tower does not provide much shade, so the ground in between the
+footings could be used for,say, agriculture.
+
+For the first 20 km in height, wind loads are the dominant design
+load.  To reduce wind loads dramatically, airfoil shaped fairings
+are mounted on each strut on bearings so they can turn into
+the wind.  THis reduces the drag coefficient from that of a round
+rod (Cd=1) to below 0.05.  Still, to resist the remaining wind
+forces, either guy wires or spreading the base of the tower for
+the bottom 20 km is required, such as by adding diagonal bracing
+struts on the bottom 20 km.
+
+To actually build such a structure without a lot of space-suited
+construction workers, you buy a set of hydraulic jacks and jack
+up the tower in convenient increments, install some structure,
+then repeat.  You acutally build the tower from the top down, so to
+speak.  It might even be possible to continuously extrude the
+columns by methods similar to those being used in the aerospace
+industry to make large composite spars for aircraft, but makinjg
+the struts in a factory and assembling them on-site like any
+other building would work just as well.  
+
+Dani Eder
+
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 11:03:18 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Recovering Objectivist Seeks Source Material 
+
+Timothy C. May says:
+> In my extropian opinion (IMEO), a better book is Harry Browne's "How
+> I Found Freedom in an Unfree World."
+
+I heartily agree -- a really really good book, and one that is well
+worth reading.
+
+Perry
+
+------------------------------
+
+Date: Thu, 23 Sep 93 08:37:47 -0700
+From: freeman@maspar.com (Jay R. Freeman)
+Subject: Neo-Calvinism--Getting in the Last Word
+
+Derek Zahn:
+> Jay Freeman:
+> > Tim May:
+> > > Inside Klein bottle prisons, prisoners are Moebius strip-searched.
+> >
+> >   I would have thought that a person inside a Klein bottle might be
+> > said to be on a Moebius trip.
+>
+> A one-sided argument that holds no water!
+
+But Klein bottles are excellent for serving cocktails with a twist!
+(The selection of choice is a "screwdriver".)
+
+                                                 -- Jay Freeman
+
+------------------------------
+
+Date: 23 Sep 1993 12:00:21 -0400 (EDT)
+From: Derek Rose <DEROSE@vaxsar.vassar.edu>
+Subject: Experimental FTP site
+
+Are you confused by think.com? Do you wish that there was an FTP server that
+carried libertarian and objectivist files with slightly more meaningful
+filenames? Well, now there is (sort-of). I'm run a (pretty-much) dedicated
+underground file server on the Vassar College Appletalk network, (using
+a Macintosh SE/30) and I've decided to try my hand at setting it up as an
+FTP site.
+
+It's called OOOMPH, and one of its two volumes is chock-full of libertarian
+and objectivist files. You can connect to it at "143.229.160.19" (I hope).
+Once connected, you will have to use "?" to replace any blanks in filenames,
+or alternately, you can just use * as a wildcard.
+
+The other volume, Excelsior, contains a collection of Macintosh software.
+
+I stress an emphasis on "experimental".  But you can contact me at
+derose@vassar.edu if you have questions or comments.
+
+Derek.
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 09:38:08 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: TERSE:  One price fits all
+
+>From: extr@jido.b30.ingr.com (Freeman Craig Presson)
+>Subject: POST:  One price fits all
+>X-Extropian-Date: Remailed on September 23, 373 P.N.O. [02:40:56 UTC]
+>X-Message-Number: #93-9-1253
+>
+>In <199309201628.AA14805@lachesis.synopsys.com>, Dave Krieger writes:
+>|> >From: extr@jido.b30.ingr.com (Freeman Craig Presson)
+>|> >Subject: POST:  One price fits all
+>|> >
+>|> >Smart stamps. Just a thought.
+>|> >-- Freeman Craig "Shorthand" Presson
+>|> 
+>|> _Cheap_ smart stamps?  I don't think so...
+>|>                                         dV/dt
+>
+>Yes indeed. Back to the Renaissance -- the stamps are all the same,
+>the smarts are in your signet ring. Stamps cheap. Ring <1/2 today's
+>cost of a postage meter.
+
+Ah so desu ka!  Rings smart, not stamps.  Bandwidth not _that_ scarce, fcp!
+                                        dV/dt
+
+
+------------------------------
+
+Date: Thu, 23 Sep 93 17:45:00 BST
+From: jrk@sys.uea.ac.uk (Richard Kennaway)
+Subject: GUNS: Buy Chinese (was: Don't buy Chinese)
+
+Michael Clive Price writes:
+>Simon Levy:
+>>  As we remember from the student uprisings in Beijing, China has one
+>> of the most repressive governments on earth.
+>
+>That's not how I remember it.
+>
+>The students created the denouement through their own political naivete.
+
+"Denouement".  A vile euphemism for the shooting down by the arny of
+unarmed civilians.
+
+>When Premier Li visited T-square to talk to the students about their
+>concerns they spat on him.  Spittle not words.  Constructive attitude,
+>eh?  The students, IMO, backed the authorities into a situation where
+>they felt they had to respond in force or lose face.
+
+"Naivete".  "Folly of the students".  Pah!  No-one is "forced" to shoot
+down students armed only with spittle, words, and an "unconstructive
+attitude".
+
+>The hysterical
+>reaction by Western governments and public showed an amazing lack of
+>insight that surprised even me - on par with the folly of the students,
+>I guess.
+
+That the Chinese government reaction was entirely in keeping with their
+past record does not mean that it must be shrugged aside without even a
+murmur of protest.
+
+>(note: I'm not condoning what the authorities did, but their 
+>reaction was to a large extent forced by the insulting behaviour of the
+>students and should have come as no surprise.)
+
+Quite frankly, I am shocked to see here such a piece of hand-wringing
+apologetics for a thuggish dictatorship.  Your claim not to be condoning
+their actions is flatly contradicted by your other words, which attempt to
+place responsibility entirely on the students, as if the regime were some
+impersonal force of nature, and blandly euphemise about a "denouement".
+
+>To encourage economic reform (a necessary prerequisite for political 
+>reform - see S.Korea) we should by _more_ mainland Chinese goods, not 
+>less.
+
+Why will trading with the Chinese encourage economic reform?
+(I am not claiming that not trading with the Chinese will encourage
+economic reform any better.)
+
+As for economic reform being necessary for political reform, the events in
+Eastern Europe and the former Soviet Union over the last 70 years suggest
+the reverse.
+
+--                                  ____
+Richard Kennaway                  __\_ /    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk      \  X/     University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk    \/       Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 09:47:14 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: META: alt.extropians... perhaps?
+
+>From: extr@jido.b30.ingr.com (Freeman Craig Presson)
+>Subject: META: alt.extropians... perhaps?
+>X-Extropian-Date: Remailed on September 23, 373 P.N.O. [02:57:00 UTC]
+>X-Message-Number: #93-9-1256
+>
+>I may have missed something, but I don't see why a
+>(gag) Usenet newsgroup is needed if you have this list.
+
+The list and the newsgroup would fulfill two different purposes.  Those of
+a more "activist" bent could use the newsgroup to pound truth into the
+heads of the unwashed, to the extent possible, and to generate publicity
+for ExI, Extropy, and the list.  Those of us who prefer to operate at
+advanced levels and not have to debate the basics, will have the list to
+exchange news, ideas, opinions, and party invitations :-) in a
+non-basics-debating atmosphere.
+
+I will wager $15 or p15,000 that, no matter what the newsgroup is called,
+it is up in the top 100 most active newsgroups within a year of our
+decision to start using it (I don't say "within a year of its creation"
+because a.e has been around for months now already).  I just have a feeling
+that Extropianism is a lightning rod that the net will not be able to
+resist... I expect LOTS of people to have strong feelings about
+Extropianism, both pro and con.
+                                        dV/dt
+
+
+------------------------------
+
+Date: Thu, 23 Sep 93 09:45:04 -0700
+From: cappello@cs.ucsb.edu (Peter Cappello)
+Subject: Neo-Calvinism--Getting in the Last Word
+
+>Expression and tone of voice are an important part
+>of dialog that is entirely missing on the net.  Smileys and other
+>typographical devices, like <grin> and *ahem*, restore part of their
+>function.
+
+There are those of us who like our humor dry.  Instead of ;-) should  
+we use :-| ?   
+
+
+
+\begin{dead serious proposal}
+For people who actually need explicit keywords delimiting the jokes  
+that they receive, I say that smileys are far inferior to a law  
+mandating that all such people be sterilized. 
+
+\end{dead serious proposal}
+
+-Pete                              
+
+------------------------------
+
+Date: Thu, 23 Sep 93 18:04:50 GMT
+From: lowton@typhon.dra.hmg.gb (Andy Lowton)
+Subject: META: alt.extropians... perhaps?
+
+Hi All
+
+Nick Szabo writes:
+
+ > Even if it was unintended, this list has been quite effective in 
+ > spreading the meme to at least one person, me.  I read an ad for it
+ > posted to alt.cyberpunks last year and have been hooked every since.  
+ > This list has made me aware of cryonics and uploading as more than 
+ > fringe science-fiction curiosities -- there are actually some
+ > very well-clued-in, smart people exploring the workings and
+ > the incredible consequences of these technologies, and in the
+ > case of cryonics making them happen.  If uploading and cryonics had 
+ > ever crossed my mind before, I had surely dismissed them as fringe 
+ > whackoisms, out there somewhere in the same region as UFOs and and 
+ > oiji boards.  
+ > 
+
+I learned of the existence of this list from the cypherpunks mailing list,
+whose membership is very similar to this one (perhaps larger).  I have been
+'lurking' for a few weeks and have found the debates and information
+extremely interesting.  I have also noticed (difficult to miss really) that
+answering newbie's questions is not the purpose of the list.  Personally I
+would find a newsgroup that answered newbie questions very useful as I
+wouldn't have to hassle you lot with the basics and could get my head round 
+the ideas.
+
+I don't know if it is possible, but could alt.extropians be removed as it
+is hardly ever used, and a new group set up in a more widespread hirearchy?
+
+mr lotion
+
+lurkin' and a learnin'
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 13:07:19 -0400
+From: Duncan Frissell <frissell@panix.com>
+Subject: media:NAFTA              
+
+E >I heard it was 2400 pages, as in "it doesn't take 2400 pages to 
+E >define
+E >'free trade'".
+E >
+E >-- F_cP
+
+But it may take that much verbiage to reduce trade barriers over time.  
+Not free trade but probably better than existing law.  Anything the 
+AFLCIO, the Sierra Club, Ralph Nader, and the little "hand grenade with a 
+bad haircut" are against can't be all bad.
+
+At least it lets "unelected international bodies repeal US laws."
+
+For FTP, try archie instead of asking a list:
+
+$ archie nafta
+
+Host ariel.unm.edu
+
+    Location: /pub
+      DIRECTORY drwxr-xr-x       1536  Oct 13 1992  nafta
+
+
+Duncan Frissell
+
+If they won't free trade, you may just have to do it yourself.
+
+--- WinQwk 2.0b#0
+                                                                   
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 10:13:21 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: META: Last-word agent available
+
+I am offering the use of an agent I have created that automatically
+generates, in your name, a "last-word" post on whatever threads you assign
+it.  Once my agent is installed, merely send the command
+
+  ::lastword thread foo
+
+where "foo" is either a message ID or a search expression.  Thereafter,
+whenever a message goes out to the list that continues that thread, the
+agent automatically quotes a section of that message (using heuristics that
+clear out signatures, Reply-To headers, and the like), generates a response
+by running the entire previous text of that thread through "Disassociated
+Press" and a "Word Perfect" spell checker (to generate _truly_
+incomprehensible prose... "Metzger" transforms to "meshuga" and so forth),
+appends your .signature to the whole thing, and sends it out to the list. 
+The length of the new text generated is determined by a formula
+
+        L(n+1) = L(n)^2 / L(n-1)
+
+where L(n) is the length of message n of the thread.  This formula
+continues the current trend in the size of messages in that particular
+thread.
+
+The "lastword" command is compatible with the "exclude" command, in that
+"lastword" can reply to threads you have "excluded", permitting you to
+participate in debates without ever knowing you are doing so.
+
+"lastword" works with users as well; the command
+
+  ::lastword user bar
+
+causes the agent to reply automatically to any post by a particular user. 
+Again, this is compatible with "exclude" -- your opponent need never know
+that you are ignoring him or her completely, while it appears that you are
+dogging his heels indefatigably.
+
+Finally, this agent can accept a lexicon file of additional words and
+phrases you want it to mix in with previous text from the thread -- giving
+it your distinctive voice and style, or the voice and style you aspire to. 
+Provide your agent with the "Penguin Dictionary of Economics" or a
+philosophical encyclopedia, for example, and you can dazzle opponents with
+your erudition on that subject without ever cracking a book.  Feed it "The
+Way Things Ought To Be," and you can adopt the persona of Rush Limbaugh. 
+And so forth.
+
+Beta testing of the agent is now complete.  I have been asked by my beta
+testers not to reveal their identities, but eleven list members have been
+using my agent for the past month.  In fact, only one participant in the
+"cheating the post office" thread was a real person (I am honor-bound not
+to reveal who).
+
+Contact me by private e-mail if you wish to secure the use of this
+wonderful new product of the field of A.D. (Artificial Disputatiousness).
+
+                                        R.A.F.
+                                        Robot Antic Freewilson
+
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 10:17:41 -0800
+From: lefty@apple.com (Lefty)
+Subject: Neo-Calvinism--Getting in the Last Word
+
+Pete Cappello says:
+>
+>For people who actually need explicit keywords delimiting the jokes  
+>that they receive, I say that smileys are far inferior to a law  
+>mandating that all such people be sterilized. 
+
+I strongly second this motion.
+
+Smileys are a disease.
+
+And God is an iron.
+
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: Thu, 23 Sep 1993 10:18:14 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: BELL: Bogodynamics of R.A.W.
+
+>From: derek@cs.wisc.edu (Derek Zahn)
+>Subject: "Experiment of interest to AI and quantum computer designers"
+>X-Extropian-Date: Remailed on September 23, 373 P.N.O. [05:18:33 UTC]
+>X-Message-Number: #93-9-1268
+>
+>One specific:  Wilson's _Prometheus Rising_ (on the reading list)
+>is quite complementary to Sarfatti.  I quote from page 246:
+
+Please don't let this predispose you against _PR_, folks.  Wilson is an
+excellent psychologist (although a weak physicist).
+                                        dV/dt
+
+
+------------------------------
+
+End of Extropians Digest V93 #265
+*********************************
+

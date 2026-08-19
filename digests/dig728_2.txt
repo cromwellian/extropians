@@ -1,0 +1,979 @@
+3
+Message  3:
+From exi@panix.com Wed Jul 28 08:43:17 1993
+Return-Path: <exi@panix.com>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+        id AA21530; Wed, 28 Jul 93 08:43:09 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+        id AA27462; Wed, 28 Jul 93 08:42:51 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by panix.com id AA24059
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 28 Jul 1993 11:37:04 -0400
+Date: Wed, 28 Jul 1993 11:37:04 -0400
+Message-Id: <199307281537.AA24059@panix.com>
+To: Exi@panix.com
+From: Exi@panix.com
+Subject: Extropians Digest
+X-Extropian-Date: July 28, 373 P.N.O. [15:36:52 UTC]
+Reply-To: extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Wed, 28 Jul 93             Volume 93 : Issue 208
+
+Today's Topics:
+                                                                      [2 msgs]
+      CONF: Nanotech & Computers, Palo Alto, California, Oct 14-16, 1993[1 msgs]
+                FSF: Some Useful Software, No Useful Politics         [1 msgs]
+                       Intellectual Property, ppl, etc.               [1 msgs]
+           MEDIA: Slamming of FSF; more on software & video rental    [2 msgs]
+           MEDIA: Slamming of FSF; more on software & video rental    [1 msgs]
+                    POLI: William Gibson - a statist!  :-(            [1 msgs]
+                        Who is signed up for cryonics                 [1 msgs]
+               techno-unemployment (yet again and forevermore)        [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52371 bytes.
+
+----------------------------------------------------------------------
+
+Date: Wed, 28 Jul 93 1:29:40 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: FSF: Some Useful Software, No Useful Politics
+
+Tony Hamilton - FES ERG~ () writes:
+> 
+> >   Summing it up: Information markets will not disappear and they will protect
+> > themselves by blacklisting those who violate their rules. This same
+> > kind of technique can be used to stop insider trading or con-artistry without
+> > requiring government intervention.  Parasite techniques of leaving one
+> > community you are blacklisted from and preying on another won't work so
+> > well in a supernetworked world.  Sure, once in a while, you'll find
+> > a sucker, but you won't be able to secure a lasting relationship
+> > with anyone nor will you be able to get timely updates or support.
+> 
+> But again, (and thank you for the summary, it makes it easier to respond),
+> you seem to be assuming many things. First, the big assumption seems to be
+> that everyone is motivitated to participate in this ostracization. If they
+  
+   No, I do not assume everyone must participate. If the only people who 
+participate in the plan are those who wish to protect their software
+then it will work.  Programmers will be motivated in the same way
+some people are motivated to buy a gun to protect their homes.
+
+> classes". If they are not capable of surviving by contributing, they would
+> resort to thievery, whether its theft of CPU cycles, information, or whatever.
+> Today, this group of individuals is no small group. When you are talking
+> software alone, most of the international market seems to be comprised
+> primarily of illegal transactions.
+
+  Of course there will be people like this, there always will be. But this
+group of people will not have the average access and freedom of those
+who pay for software. Even within the pirate world, there are classes
+of haves and have nots. There are "elite" pirate bbses which only deal
+with software that has been cracked the same day it was released.
+"Luzers" (the pirate culture word for them) often wait _months_ for
+cracked software to trickle down to their local pirate bbses because
+snooty egotistic "elites" won't upload the software there.
+
+ Whether it's the newest gossip, cracked software, or prerelease book,
+many people are always willing to withhold information just for the sake
+of saying "I've got it, and you don't. I'm priveleged."
+
+  What's my point? Having access to the newest information is power,
+stealing it will tend to choke off your access. 
+
+> Also, there is an assumptions that criminals (using the term for lack of a
+> better one) would be caught. Today's criminals seem quite adept at avoiding
+> detection (ones of any talent, anyway). Why would that trend change?
+
+   Because selling software leaves behind traces. A bit of applied
+stegnography and you can identify who was the source of the leak. 
+(consider hiding 32-bits of information on a 500mb CD-ROM which has
+lots of random information on each disk. Very low probability that someone
+could find it.)  Offer rewards for turning in pirate bbses, etc.
+
+
+> And what about organized crime? You seem to keep dancing around the possbility
+> of networks devoted entirely to the covert distribution of information. So
+> what if a single person gets caught? It only takes one to cause a great deal
+> of damage. 
+
+  By identifying uniquely who the original leak was (with stegnography)
+you could limit the amount of pirating. I'm not saying you can stop it,
+but I doubt piracy will grow bigger than it is now. Networking,
+the size of software (it's growing), new distribution mediums like CD-ROM,
+all of these will add checks on piracy.
+
+> Like I say, too many assumptions. Take also the example you gave of FTPing
+> (and I understand this particular example was designed to put things in a
+> perspective we can all understand) and being locked out. This implies a
+> global method of "black-listing". How is this maintained? And again, what
+> if you are not caught? And if you are, what if someone else with a clean 
+> record takes your place?
+
+   It doesn't have to be global, but I guess it would work just like the
+independent credit info companies work. Some companies might even refuse to
+hire people with a bad "pirate record"
+
+> Explain the logic behind the assumptions, please.
+
+  Actually, the credit rating agencies are a good model of what it might
+be like. There is no coercion involved in the blacklisting that goes
+on when you apply for a loan.
+ 
+> One final concern: I am always concerned when I hear of such things as
+> "black-listing" and so forth. Justice as dealt by the hand of many is no
+> less arbitrary than justice dealt by a single individual. That's why the
+> concept of Democracy is a faled one, and why "Majority Rule" is invalid.
+> What happens when someone is black-listed unjustly? What keeps someone from
+> unjustly accusing another? Network logs? Who maintains these logs? Who
+> set them up? It almost sounds like Big Brother to me, except it isn't your
+> brother, its your species which is watching. What happens to privacy? Where
+> does the automated tracking end and the privacy begin? Who decides? Where is
+> the appeal, and how is it managed? None of this sounds very anarchist to me.
+
+   There are two opposing forces here. The definate need of companies
+and individuals to gather information (to protect themselves) and
+the need of individuals and companies for privacy. For the longest time,
+there was no real way to fight privacy violations. Now we have 
+computers powerful enough to run cryptography individually. This battle
+will go on, but the playing field will be more level. Don't expect
+absolute privacy. Even under cryptographic security, people will tend to
+trade based on digital reputation.
+ 
+> In a truly anarchist, or Extropian, (or whatever other similar concept)
+> society, wherever one concept is questioned, competition will spring up. If
+> people don't like the black lists of one network, networks without black
+> lists will be formed. Hell, if Extropians really _are_ posessing of this
+
+   And these competiting nets won't have any software companies located 
+on them. If they do, those companies will soon go bankrupt or they will
+look like FSFs. (the FSF is near financial trouble too)
+
+> In summary, Ray (I owe you a summary, you gave me one): I see your views as
+> being highly idealistic. And I know it isn't just you. If I seem overly
+> pessimistic, than I will accept that characterization. It's just my nature
+> to question rather than accept. We both have our place, I suppose. I just
+> happen to believe that by questioning these ideas, I'll be better prepared
+> no matter which is more correct.
+
+  I simply believe that it is possible to enforce effective copyright
+without physical force. I believe there are utilitarian reasons for creating
+intellectual property. If America wants to maintain its status as the #1
+software producer, it had better keep intellectual copyright.
+
+ You don't need to be an idealist, just look at reality. The vast majority
+of individual piracy goes unpunished. The software industry does fine because
+the big players, retailers and corporations, are punished for piracy.
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Tue, 27 Jul 1993 23:32:48 -0600 (MDT)
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: Who is signed up for cryonics
+
+Quoth Perry E. Metzger, verily I say unto thee:
+
+-=>As long as we are asking, Stanton, are *YOU* signed up for cryonics?
+-=>
+-=>Cryonics is cheap. Even a student can easily afford it. There is
+-=>little or no excuse for anyone who feels that it can work and who
+-=>desires the service not to try to sign up.
+
+Not yet, but will be before the year is out.  I know it doesn't cost that
+much, but almost ALL of my $ is going into hardware at this point.  After
+I have the 2 tape drives, the LAN, the CD-ROM, the 4th 600+MB HD, and the
+read-write 1GB removable media optical drive, all of which I should have
+by winter, THEN I'll sign up for cryonics (part of the reason I am waiting
+is I'm doing some research on the organizations involved.  If you [that's
+the rhetorical you, meaning anyone reading this] don't have Alcor's latest
+journal, you might wish to get it; it has a full financial analysis,
+performed by an independent firm, of Alcor's operation.  Wish the other
+one would do the same.)  By then I should have firmly decided which of
+them I trust more (I'm leaning very much toward Alcor currently, anyway.)
+
+-=>Alcor's phone number is 1-800-367-2228. Reach for that phone right now
+-=>and ask for an information packet, or, better yet, just start the
+-=>signup process. They take credit cards.
+
+I don't USE credit cards, for reasons I stated pretty plainly my first
+week on the list, so I won't go into it again.  But I'll give them a call
+anyway.  Last info I got from them was quite some time ago.
+
+-- 
+Stanton  McCandlish   * Space Migration * Networking * ChaOrder * NO GOV'T. *
+anton@hydra.unm.edu   * Intelligence Increase * Nano * Crypto * NO RELIGION *
+FidoNet:    1:301/2   * Life Extension * Ethics * VR * Now! * NO MORE LIES! *
+Noise in the Void BBS * +1-505-246-8515   (24hr, 1200-14400, v32bis, N-8-1) *
+
+------------------------------
+
+Date: Tue, 27 Jul 1993 23:47:23 -0600 (MDT)
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: MEDIA: Slamming of FSF; more on software & video rental
+
+Quoth Elias Israel - SunSelect Engineering, verily I say unto thee:
+
+-=>value-maximizing for society. If it were profit maximizing to establish
+-=>a rental market, and to incur the costs of lost license fees caused by
+-=>increased expsosure to software piracy that the rental market entails,
+-=>the big software vendors would rush to do it. I don't think it ought to
+
+The flaw I see in this argument, which is likely one cherished like a holy
+relic by the SPA, is that since they lobbied to get software rental
+illegalized in the "early days" (e.g. a few years ago), they'd look like
+buffoons to ask for that law to be eliminated now.  It's basically a
+matter of corporate 'face'.  That, and to do it, they'll have to have
+conferences and agreements, and many of these companies are not in the
+mood for that right now.  Hell most of the time they can't even hammer out
+simple technical standars without legal fights and 'boycotting' of sorts.
+Things will have to get a LOT more organized it they wish to pull this
+off, but it did not have to be this way.  The software companies did this
+to themselves, and to us, no one else did.  There's a definate trend going
+on: hardware is getting cheaper, and software prices are skyrocketting,
+when BOTH should be falling, especially condsidering how much competition
+there is in the software market.  It's just a mess.
+
+-=>be against the law, but even if it weren't I'd not expect to see it
+-=>happen. Video games can be rented (even over initial vendor objections)
+-=>specifically because copying the games is expensive and rarely done.
+-=>(Video rentals probably suffer from little copying because so few movies
+-=>are worth their initial viewings, let alone repeat viewings. ;-)
+
+Even noting the smiley I must comment that that argument does not hold
+water.  People pirate videos like mad, even though they generally have to
+buy 2 VCRs to do it, or rent a second one every time they want to copy
+something.  One of my friends has over TWO HUNDRED videotapes, averaging 2
+or 3 movies per tape, and most of it is pirated (some of it is taped off
+of TV, which is probably legally piracy anyway, though I am not sure of
+that point.)  Granted this is heavily excessive, but it happens, and as
+the tech gets cheaper will happen MORE not less.  That intelligent people
+find most movies being made these days to be garbage is largely
+irrelevant.  We're talking about J. Random Viewer.
+
+-- 
+Stanton  McCandlish   * Space Migration * Networking * ChaOrder * NO GOV'T. *
+anton@hydra.unm.edu   * Intelligence Increase * Nano * Crypto * NO RELIGION *
+FidoNet:    1:301/2   * Life Extension * Ethics * VR * Now! * NO MORE LIES! *
+Noise in the Void BBS * +1-505-246-8515   (24hr, 1200-14400, v32bis, N-8-1) *
+
+------------------------------
+
+Date: Tue, 27 Jul 1993 23:58:21 -0600 (MDT)
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: MEDIA: Slamming of FSF; more on software & video rental
+
+Quoth Elias Israel - SunSelect Engineering, verily I say unto thee:
+
+-=>Stanton McCandlish writes:
+-=>> [...] I find this to be
+-=>> almost incredibly obvious.  Like I say, shift the focus to rental, selling
+-=>> techsupport/texts/tutorials/upgrades, and it would be whole new picture. 
+-=>> Probably 500+ times more people could afford any given software
+-=>> application, and if it cost 10% of what it used to, guess what?  Insert
+-=>> Software Company Here just made 50 times more money, and 500 times more
+-=>> people are empowered to do stuff with this new software.
+-=>
+-=>If you can write a convincing business plan to this effect, you can make
+-=>youself a very wealthy man. In the mean time, it's an unsupported assertion.
+-=>Pardon me for being so blunt, by I have difficulty believing that the
+-=>entire software industry has so completely misjudged their own business.
+
+As I think I already explained, if they COULD do it easily they would. 
+But the US corporate world is notoriously short sighted.  No one's willing
+to take the risk of trying to reverse the laws and be the first, even
+though I'd bet my bottom dollar that every CEO and boardmember of every
+one of these corporations is well aware of the mistake they made in
+illegalizing software rental.  It's a bit like the cold war.  Everyone
+knows its stupid, but barring something really major, nothing will change
+it; they've painted themselves into a corner.  All I'm saying is that it IS
+possible to fix the situation, just like it WAS possible for the cold war
+to end.
+
+I do not mean to seem to be bringing some revelation that no one has
+thought of before.  Like I said, to me at least, all of this is so
+incredibly obvious it almost hurts.  I know a lot of people who agree
+with me, too.  Doesn't PROVE anything, but until someone shows me some
+sort of believable evidence that I am incorrect, I stand by my position
+firmly.  I think the economic principles are clear, and I've SEEN it work,
+in the video industry (and video is in fact software, just of another
+variety.)  I don't consider "Well them corporation guys know what they are
+doing" to be "believable evidence".  There's a lot more going on.
+
+-- 
+Stanton  McCandlish   * Space Migration * Networking * ChaOrder * NO GOV'T. *
+anton@hydra.unm.edu   * Intelligence Increase * Nano * Crypto * NO RELIGION *
+FidoNet:    1:301/2   * Life Extension * Ethics * VR * Now! * NO MORE LIES! *
+Noise in the Void BBS * +1-505-246-8515   (24hr, 1200-14400, v32bis, N-8-1) *
+
+------------------------------
+
+Date: Wed, 28 Jul 93 2:51:10 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Intellectual Property, ppl, etc.
+
+Inigo Montoya () writes:
+> Second, copyrights etc.  I am amused to note that Dean Tribble intends
+> to go for an even looser version of copyright that copylefting.
+> *applause*  The fact that GNU exists, and that people like Dean
+> are looking to go them one better leads me to believe that while
+> the future may contain AMEX like markets, and mechanisms for
+> catching people distributing software they were only supposed to
+> use, it will also contain groups of people willing to let their
+> work be used freely, so long as acknowledgment is made of who
+> produced it.  An anarchocapitalist society would almost certainly
+> see groups of both, and they would very likely subscribe to
+> different ppl agencies.  Or at the least, have different policies.
+> Why should I pay to have someone monitor use of my software and
+> track down thiefs, when I'm giving it away free?
+
+  Ok, let's see if you will grant me a few datapoints, and I will argue
+what conclusions can be made:
+
+1) Software development tools and new techniques will continually push
+the amount of bugs in software towards zero 
+2) Software will contually get more user friendly (like the Mac) so 
+anyone can use it
+3) Updates to software can be pirated and there are diminishing returns
+to successive updates. Only major rewrites will be interesting and they
+take quite an amount of capitalization and labor.
+4) Points 1,2,3 continually lessen the need for SOFTWARE SUPPORT, and
+SUPPORT will soon become largely automated (expert systems) which decreases
+the need for standing armies of support staff. (see IBM and their
+downfall)
+5) With points 1,2,3,4 there will be little to no money to be made in software.
+Large companies like Microsoft able to finance decade long projects will
+disappear, only small hobbiests will remain.
+6) People need to work to survive and prosper
+7) Moravec's "retire at birth" robot worker industry won't be here for
+ a while.
+8) Big software projects are good, but they take millions of many hours
+to develop. Apple, AT&T, IBM, and Microsoft are able to develop extremely
+large and complex OSes fast because they can afford to pay highly skilled
+people many tens thousands of dollars a year to spend all of their time
+working.  On the other hand, GNU has been working for 10 years on their
+software and they still haven't produced the level of quality and complexity
+manu commercial projects have. Furthermore, GNU workers are poor
+(payed minimum wage or nothing) Even Unix has taken 20 years to evolve
+because it has largely been used by academia and hackers. (also,
+X11 isn't as good as commericial GUI's either)
+9) People are not altruistic, programmers will be reduced to net.panhandlers
+(see CollegeWare, BegWare, and other frequent "please send money!" readme
+file)
+
+Conclusions: 
+ 
+1) Since large amounts of capital will not be available via software sales,
+large complex pieces of software will not be developed -- or they will be
+developed but since the average programmer will also have to work a second
+job, the state of software development will bog down just as if socialism
+were in place. The only hope for big software development will come from
+academia which is financed by TAXES, the nemesis of anarchocapitalism.
+
+2) Programmer's second jobs will consist of McDonalds or blue collar factory
+jobs. (until the robots come along to lift that burden. Unfortunately,
+the robots will be quite slow in developing since AI tools can not be
+sold!)
+
+3) The great advances we've been making in software will be curtailed because
+only hackers will have time for solo-part-time development.
+
+4) You will become poor because the next generation of compilers will be
+easy to use and bug-free. No more income via bug support.
+
+Alternative:
+For utilitarian reasons, we intellecual property rights in place to make sure 
+software is well financed and competitive.
+
+gedanken experiment:
+
+PPL #1: Intellectual property rights exist. Lots of people lead cushy
+programming jobs, trade software on the market, and software evolves
+very quickly thanks to high capitalization.
+
+PPL #2: Intellectual property rights don't exist. Lots of people work
+blue collar jobs or service sector jobs because programming is a poor man's
+job. Software doesn't get capitalized well. Development is slow because people
+can only afford to devote part time work towards it.
+ 
+PPL #1 quickly develops complex software, modern conveinences are taken
+care of. AI software is competitive and diverse. It rapidly develops to help
+people in their lives (and also to develop more software and new chips)
+
+PPL #2 bogs down in a quagmire of socialist freebie software
+
+PPL #2 members get jealous and steal software from PPL #1
+
+PPL #1 declares war on PPL #2 refusing to arbitrate or do business. 
+
+PPL #1 quickly evolves faster than PPL #2 leaving them in the dust like the
+non-property rights neanderthals they are.
+
+PPL #1 folks reach the singularity first
+
+[your strawman deleted, mine added]
+
+ How's that?
+
+-Ray
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Wed, 28 Jul 93 00:51:38 GMT
+From: whitaker@eternity.demon.co.uk (Russell Earl Whitaker)
+Subject: CONF: Nanotech & Computers, Palo Alto, California, Oct 14-16, 1993
+
+This article was forwarded to you by whitaker@eternity.demon.co.uk
+(Russell Earl Whitaker):
+
+--------------------------------- cut here -----------------------------
+
+Path: eternity.demon.co.uk!demon!news!uunet!ogicse!netnews.nwnet.net!
+news.u.washington.edu!stein.u.washington.edu!scivw
+From: merkle@parc.xerox.com (Ralph Merkle)
+Newsgroups: sci.virtual-worlds
+Subject: CONF: Nanotech & Computers, Palo Alto, California, Oct 14-16, 1993
+Message-ID: <232hge$ci@news.u.washington.edu>
+Date: 26 Jul 93 21:09:05 GMT
+Article-I.D.: news.232hge$ci
+Organization: Xerox PARC
+Lines: 268
+Approved: scivw@u.washington.edu
+NNTP-Posting-Host: stein.u.washington.edu
+Originator: scivw@stein.u.washington.edu
+
+
+
+SUMMARY: The first nanotechnology conference specifically for the
+computer community will be held in Palo Alto on October 14-16.  It is
+designed for those interested in what nanotechnology will do for the
+computer field and in how to steer their careers toward nanotechnology
+today.  The meeting is also of interest to those in other fields who
+want to learn more about molecular nanotechnology, that is, about
+thorough three-dimensional structural control of materials and devices
+at the molecular level.  For further information, contact
+foresight@cup.portal.com.
+
+ANNOUNCEMENT:
+
+Third Foresight Conference on
+Molecular Nanotechnology:
+Computer-Aided Design of Molecular Systems
+
+October 14-16, 1993
+Palo Alto, California
+
+Sponsor: Foresight Institute
+Cosponsors: Stanford University Department of Materials Science and
+Engineering, Molecular Graphics Society (USA), Institute for Molecular
+Manufacturing
+
+Support for nanotechnology has always been strong -- perhaps strongest
+-- within the computer community.  The first nanotechnology course was
+taught in a computer science department, the first conference was
+sponsored by the same (along with Foresight Institute), the first
+Ph.D. was granted by a computer-oriented department (MIT's Media Lab),
+and the first text won the publishing industry's "best computer
+science book" award.
+
+A high proportion of those interested in nanotechnology are computer
+professionals of one flavor or another, and for years they have asked
+with increasing vigor "What can I do to further nanotechnology?"  In
+response to these demands, Foresight's third research conference is
+especially designed to enable members of the computer community --
+programmers, software engineers, hardware designers, and computer
+scientists in general -- to move their knowledge base and, ideally,
+their careers toward nanotechnology.  All those with a computer
+background are urged to attend.
+
+The Third Foresight Conference on Molecular Nanotechnology: Computer-Aided
+Design of Molecular Systems will be held in Palo Alto on October 14-16,
+1993.  The meeting includes speakers who have made or are making the
+transition from computer science to nanotechnology. 
+
+According to conference co-chair Ralph Merkle, "The main emphasis of this
+conference will be on computational approaches to the development of
+molecular manufacturing, in particular the use of molecular modeling and
+the development of molecular computer-aided design (CAD) tools.  The
+conference will be valuable both for people who work professionally in
+computational chemistry and also for people who have a background in
+computer science and are interested in finding out what they can do to
+contribute to the development of molecular manufacturing.
+
+"There will also be a tutorial the day before the conference, so that
+people who have a background in computer science and wish to come up to
+speed in computational chemistry can get an introduction to the
+methodologies and techniques that are commonly used."
+
+The conference will feature fifteen or more speakers giving presentations
+on topics relevant to the pursuit of molecular control.  We can only sketch
+a few of these here:
+
+Joel Orr, Autodesk Fellow, past president of the National Computer Graphics
+Association, and president of the Virtual Worlds Society, will address CAD
+industry professionals, potential nanotech designers, and others interested
+in hearing about the special needs of nanotechnology with respect to CAD. 
+In the macro and micro worlds, computer-aided design is optional: design
+can be done by hand.  But in the nano world, CAD is essential.  He will
+discuss:
+
+* Is standard CAD good enough for nanotech?
+* What are the characteristics of the ideal system?
+* Who is working on such systems?
+* When will results be available?
+* Nano a mano: What can be done by hand, without CAD?
+
+Virtual Reality for Nanotechnology
+
+Russell Taylor, a researcher at the University of North Carolina at Chapel
+Hill, will be speaking on a subject of particular interest to two groups of
+people: (1) surface scientists who are interested in better interfaces to
+their instruments, and (2) builders of virtual worlds, since the system is
+an example of a virtual world applied to a scientific problem.
+
+The system under discussion, the Nanomanipulator, is an immersive
+virtual-environment interface to a Scanning Tunneling Microscope (STM).  A
+head-mounted display presents a scaled image of the surface being scanned
+by the STM in front of the user while a force-feedback Argone-III Remote
+Manipulator (ARM) allows the user to feel contours on the surface. 
+Computer-controlled instrumentation allows the user to make bias pulses at
+specified locations, thus modifying the surface.
+
+Ted Kaehler, a computer scientist at Apple Computer, points out that we do
+not know how the first assembler will be built or what exact research is
+needed to get there.  A person who is not a professional chemist or
+materials scientist, and yet wants to be involved in this effort, has to
+think about how his/her skills match the problem.  In this talk, entitled
+"What Can a Programmer Do to Help Create Nanotechnology?", he discusses
+three efforts he has been involved in.  
+
+The first is a program to discover voids inside large molecules.  Programs
+that search for the proper design of a large molecule need to know where
+the empty spaces are.  The second is a project to build the "relaxation
+server" on the Internet.  This server accepts proposed molecules (via email
+messages) and computes the coordinates of the atoms.  The results are sent
+back by email.  The third project is a "program" of a different sort -- a
+meeting group.  The "Assembler Multitude," a subgroup of the local Computer
+Professionals for Social Responsibility chapter -- meets every other Monday
+night in Palo Alto and covers a wide variety of nanotechnology-related
+topics.
+
+Charles Musgrave, a doctoral candidate at the California Institute of
+Technology, will talk about ab initio calculations for mechanosynthetic
+construction of diamondoid structures.  Accurate transition state barriers
+for a positionally controlled reaction are necessary to both the design of
+the tool and the design of the synthetic process.  If either of these
+designs is not practical, then an alternate structure is required.  High
+level ab initio calculations are required to obtain accurate transition
+state structures and thus reliable mechanochemical modeling.
+
+J. Storrs Hall, Rutgers University, will be speaking on nanocomputing;
+particularly the expected developments in computer architecture that make
+use of reversibility to reduce heat dissipation.  The techniques will be
+critical for nanocomputers, but are on the verge of becoming useful in
+VLSI, so the talk will be of interest to anyone in computer architecture as
+well as those studying molecular computers per se.
+
+Markus Krummenacker, an Institute for Molecular Manufacturing researcher, 
+will be presenting a "cavity stuffer" program which should enable the
+design of macromolecules the size of proteins.  These macromolecules should
+then be easily synthesizable and should also have specifiable interface
+surfaces so that they can self assemble.
+
+Additional talks include:
+*  Introduction to the Design of Molecular Systems, by Eric Drexler, IMM
+*  Computational Nanotechnology, by Ralph Merkle, Xerox PARC
+*  Design of Macromolecular Objects, by Manfred Mutter, Institut de Chimie
+    Organique
+*  Molecular Modeling, by William Goddard, Caltech
+*  Crystal-Based Molecular CAD, by Geoff Leach, Royal Melbourne Institute
+    of Technology
+*  Visualization with Molecular Graphics, by Michael Pique, Scripps
+    Research Institute
+*  Modeling Diamond CVD with Density Functional Theory, by Warren Pickett, NRL
+*  Ab Initio Methods and Software, by Charles Bauschlicher, NASA Ames
+*  Atom Manipulation by Proximal Probes: Experiment and Theory, by Makoto
+    Sawamura, Aono Atomcraft Project
+
+The first Nanotechnology Award (and accompanying cash prize) will be
+presented at the meeting.  Nomination information will be available from
+Foresight Institute.
+
+DEMONSTRATIONS
+Leading vendors will demonstrate products useful in the pursuit of
+molecular control, including molecular modeling software and hardware, and
+proximal probe systems (e.g. STM).
+
+CALL FOR PAPERS
+Contributions on relevant topics are solicited for presentation in lecture
+or poster format. Potential contributors are asked to submit an abstract
+(200-400 words), including names, addresses, telephone and fax numbers of
+the author(s), and an indication of whether oral or poster presentation is
+preferred. Papers of both kinds will be reviewed for publication. In
+choosing papers, priority will be given to (1) cogent descriptions of the
+state of the art in techniques relevant to the construction of complex
+molecular systems, (2) well-grounded proposals for interdisciplinary
+efforts which, if funded and pursued, could substantially advance the state
+of the art, and (3) reports of recent relevant research.
+
+JOURNAL & BOOK PUBLICATION OF PROCEEDINGS
+Proceedings of the conference will be refereed and published in a special
+issue of the international journal Nanotechnology, and later in book form.
+Abstracts due                 August   15, 1993
+Notification of acceptance    September 1, 1993
+Manuscripts due               October  14, 1993
+
+Abstracts should be directed to the Foresight Institute,  Box 61058, Palo
+Alto, CA 94306, USA.
+
+PRE-CONFERENCE TUTORIAL
+A full-day tutorial on molecular modeling and computational chemistry will
+be held on October 13.  This tutorial is designed for computer scientists
+and programmers interested in using their computer skills to become active
+in the field of nanotechnology. The workshop will be taught by Bill Goddard,
+Ralph Merkle, Eric Drexler and others.  More detailed information, including
+registration materials, will be sent to all conference registrants.
+
+SITE AND ACCOMMODATIONS
+Conference sessions will be held at the Hyatt Rickeys Hotel in Palo Alto. 
+Accommodation arrangements should be made directly with the hotel. 
+Reservations should be made by September 29; when making reservations,
+mention that you are attending the "Foresight Nanotechnology Conference" to
+obtain the lower conference room rate.  Deposits in the amount of the first
+night's stay plus tax are required to guarantee reservations; these are
+refundable up to 6 PM on the date of arrival.  Room rate: $89, single or
+double occupancy, plus 10% local tax.
+
+Hyatt Rickeys
+4219 El Camino Real
+Palo Alto, CA 94306
+(415) 493-8000 tel
+(415) 424-0836 fax
+
+TRANSPORTATION
+The conference site is easily reached from San Francisco International
+Airport and San Jose International Airport. Information on ground
+transportation services will be mailed to registrants.
+
+REGISTRATION FORM        (please print and mail or fax)
+
+Name:
+
+Title:  Dr.  Prof.  Ms.  Mr.
+
+Address:
+
+Tel.:
+
+Fax:
+
+Email:
+
+Position (programmer, professor, director, etc.):
+
+Organizational affiliation (for your badge):
+
+The registration fee includes the scientific program, Wednesday evening
+reception, Thursday and Friday luncheons, and a copy of the proceedings
+journal issue. (Student and one-day rates do not include proceedings.)
+
+postmarked:           by Sept. 1     after Sept. 1
+Regular                  $350           $400
+Academic, nonprofit,
+    governmental         $275           $325
+Student                  $100           $125
+One day (specify day)    $135           $160
+Add $200 for Pre-conference Tutorial registration.
+
+Total amount:   $
+
+Payment may be made by VISA, MasterCard, check, or international money
+order valid in the U.S.  Make checks payable to "Foresight Conferences";
+checks and bank drafts must be in U.S. dollars drawn on a U.S. bank. 
+Refunds of registration fees can only be made on receipt of a written
+request which must be postmarked no later than September 15, and are
+subject to a $50 administrative fee.  Credit card registrations may be
+faxed; please do not send credit card information over the Internet.
+
+Card #:
+
+Exp. date:
+
+Signature (required for credit card registrations):
+
+
+Mail or fax registration to:
+
+Foresight Institute
+Box 61058, Palo Alto CA 94306 USA
+Tel. 415-324-2490       Fax 415-324-2497
+Internet: foresight@cup.portal.com
+
+PLEASE FORWARD TO APPROPRIATE NEWSGROUPS AND ELECTRONIC MAILING LISTS
+
+--------------------------------- cut here -----------------------------
+
+
+------------------------------
+
+Date: Wed, 28 Jul 93 3:40:06 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: MEDIA: Slamming of FSF; more on software & video rental 
+
+Stanton McCandlish () writes:
+> 
+> I do not mean to seem to be bringing some revelation that no one has
+> thought of before.  Like I said, to me at least, all of this is so
+> incredibly obvious it almost hurts.  I know a lot of people who agree
+> with me, too.  Doesn't PROVE anything, but until someone shows me some
+> sort of believable evidence that I am incorrect, I stand by my position
+> firmly.  I think the economic principles are clear, and I've SEEN it work,
+> in the video industry (and video is in fact software, just of another
+> variety.)  I don't consider "Well them corporation guys know what they are
+> doing" to be "believable evidence".  There's a lot more going on.
+  
+  Ok, I'll bite. The reason video rental works is because VCRs
+are analog and each successive recording gets worse. Thus, there is value
+in purchasing an original. Secondly, there is no easy distribution
+method for video tapes. There are no bbses to upload and download
+video tapes from. Thirdly, because VCR's are not random access and because
+they are slow, there are no "copy parties" like software pirates have and
+copying actually takes a large investment of time.
+
+ The reason Laserdisc rental, Nitendo Cartridge rental, and Compact Discs
+are purchased is because there is no easy way to copy them.
+(although there are now 'backup systems' out there to copy and play disk
+images of, nitendo/sega games.  however, these systems can not reproduce
+cartridges which have special blitters or graphis vector processors
+on them)
+
+  I submit to you that if VCR's were digital, high quality, and recording
+was fast and easy (no need for two VCRs) that the video rental industry
+would be in trouble. The same thing would happen to Nintendo if games
+were easy to copy. In fact, I cite the opposition to DAT as evidence for
+my point. If there were a video DAT, the same principles would apply.
+
+ -Ray
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Tuesday, 27 July 1993 23:34:43 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: POLI: William Gibson - a statist!  :-(
+
+In <9307260641.AA34441@frc060>, thamilto@pcocd2.intel.com (Tony Hamilton - FES ERG~)  wrote:
+
+>                                                        All we _need_ is
+> for software companies to recognize the great commercial potential in the
+> education market, as well as the immense buying power our children will have
+> in the future. It's a _BIG_ potential market!
+
+I used to be in the software developement business (I still am, but now I work for other people.)
+
+Schools refuse to pay real money for software, so we do not write software for schools.  It is that simple.
+
+The only way to make money from educational software is to market it directly to parents,
+as for example "Where in the world is Carmen Sandiego."
+
+> As a software company, why _not_ give away a lot of free software to the
+> schools, especially high schools, where kids are about to become consumers?
+> If you're a kid, and all you've been working with at school is Microsoft
+> software (donated by Microsoft) and you go buy your first computer, won't
+> your decision on computer and software be influenced by your experience in
+> school? You'll probably by Microsoft software, assuming your experience with
+> it in school was positive.
+> 
+> Hell, look at Apple - they've been doing this for years with their mega
+> educational discounts, and it works! They've been fighting the PC-clones
+> for years, and yet they've been steadily building and maintaining a market
+> for their own computers, because they are smart enough to invest in the
+> students who will be the corporate buyers in decades to come.
+> 
+> The company I work for, Intel, donates a large amount of products to schools,
+> and you can't tell me its out of altruistic motivations they do this! No,
+> they give stuff away, give money in the form of scholarships and so forth,
+> not to be nice, but in hopes that it will seed the future market, or that
+> these people may even work here someday. And from what I see, it works.
+> 
+> In an capitalist, anarchist society, education will thrive because such
+> a society will recognize the great market potential in both education and
+> children who will grow to become adults.
+> 
+> That's my point. Now, here's something else to think about. In the future,
+> when we're all living forever, what happens if we don't procreate quite as
+> much as before? I don't know that we wouldn't, but what happens if having
+> children becomes a low priority? In that case, the adults, living forever,
+> may eventually grow in such numbers that children might become a rarity.
+> What then of them? Does being a child then become an anti-survival trait
+> in itself? As a business, what would be the incentive to supply services
+> (such as early education) catered to a relatively small market?
+> 
+> Surely not a worry if in fact procreation is still popular, or even 
+> automated in some way. Whatd'ya think?
+> 
+> Tony Hamilton
+> thamilto@pcocd2.intel.com
+> (HAM on HeX - get it while its cheap! :-)
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Tuesday, 27 July 1993 23:46:52 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: Is there a Nanotech mailing list?
+
+In <199307202133.AA03401@jido.b30.ingr.com>, extr@jido.b30.ingr.com (Craig Presson)  wrote:
+> 
+> In <01H0RTI0U21E94DO74@delphi.com>, "Allen Carson - Chicago, IL" writes:
+> |> Is ther a mailing list specifically for nanotechnology issues?  If
+> |> so what is it?
+> 
+> You can get the moderated USENET newsgroup sci.nanotech via email as
+> well. Try nanotech-request@cs.rutgers.edu, or josh@cs.rutgers.edu.
+
+Correction:
+
+The correct address is simply nanotech@cs.rutgers.edu
+
+Send a "subscribe" message to nanotech@cs.rutgers.edu
+
+Most of the stuff on the nanotech is about what is actually being 
+done, rather than what might be done in the future.
+
+Plans are afoot for interfacing large scale molecular stuff to small 
+scale lithography stuff, but so far a large gap remains.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Tuesday, 27 July 1993 23:59:16 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: techno-unemployment (yet again and forevermore)
+
+In <9307261840.AA00546@snark.shearson.com>, pmetzger@lehman.com (Perry E. Metzger)  wrote:
+> 
+> >Hal Finney asks:
+> >> . . .  Will each person always
+> >> be able to find a job he can do better than a machine?  It seems obvious
+> >> that as the range of things that machines can do increases, this will
+> >> eventually stop being true.  . . .
+
+In <9307261840.AA00546@snark.shearson.com>, pmetzger@lehman.com (Perry E. Metzger)  wrote:
+
+> I've mentioned about three times now that all that matters is
+> comparative advantage and not actual productivity -- it makes no
+> difference if the machine can out pace you provided you and the
+> machine have different relative rates of production. Is no one
+> listening?
+
+About 40000 years ago the dingo - kind of like a small wolf, entered 
+Australia.  At that time the chief predators were the marsupial "wolf" 
+and the marsupial "tiger"
+
+Within a very short time the marsupial wolf was extinct on the mainland.  
+The dingo was a better predator, probably because dingos cooperate 
+more effectively and are very good at anticipating the actions of 
+their prey.
+
+The dingo had a comparative advantage over the marsupial wolf.  Soon 
+there were no more marsupial wolves.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date:     Wed, 28 Jul 93 9:41:20 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  AI: Searle's Chinese Torture Chamber
+
+Searle's critics still don't seem to be getting his point.  Maybe it has
+something to do with the fact that most of them seem to have learned all
+they know about it from a secondary source, Douglas Hofstadter, rather
+than from reading Searle himself.  I'm not arguing from authority, but
+trying to point out that the description of Searle's argument I've read
+from those who've gotten it secondhand from Hofstadter is barely similar
+at all to what Searle says in his book "Minds, Brains, and Science," which
+I have read - except for part of the end chapter.
+
+All this stuff about billions of people simulating chinese women as gotten
+me all confused, as it has nothing to do with the Chinese Room argument as
+I read it.  Let's try a different example:
+
+Imagine you're an intelligence agent that has been given instructions on how
+to communicate with a field operative.  All you know is that if he tells you
+X, you're to tell him A; if he tells you Y, you're to tell him B.
+
+You get a message from the operative: Y.  You reply: B.  What did you just
+say?  What did you tell him?  What do A, B, X, and Y mean?  He knows this,
+but you didn't need to know, so you weren't told.
+
+>From your field operative's perspective, you seem to know what you're
+communicating.  But you don't.
+
+Searle's argument is that computers can seem like they know what they're
+communicating in the same way, but they don't.  His argument is designed so
+that people trained to approach subjects from one point of view only, the
+third-person, external point of view, have to approach it from another
+point of view, the first-person, internal one.
+
+It may be objected that this first-person perspective is unverifiable.  On
+the contrary, it is - in principle, at least.  If you were hooked up to my
+sensory and nervous system so that you got the same sensory input I did,
+presumably you'd "sense" the same things, and share this part of my point
+of view.  If you were hooked up to me at a higher level, a sort of mechanical
+telepathy, then you'd be able to observe my point of view at the level of
+what I think, intend, mean, and understand.
+
+Then, if I were the intelligence agent in the above scenario, you'd be able
+to observe that I'd have no awareness whatsoever of what A, B, X, and Y
+mean.  You'd be able to observe for yourself that I had no understanding of
+what I was communicating, even though the field operative wouldn't be able
+to tell this about me.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+End of Extropians Digest V93 #208
+*********************************
+
+& 

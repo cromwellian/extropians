@@ -1,0 +1,1083 @@
+From extropians-request@extropy.org Wed Jan 19 07:05:39 1994
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA02000; Wed, 19 Jan 94 07:05:38 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA00752; Wed, 19 Jan 94 07:05:34 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA09988
+  (5.65c/IDA-1.4.4); Wed, 19 Jan 1994 06:23:40 -0500
+Date: Wed, 19 Jan 1994 06:23:40 -0500
+Message-Id: <199401191123.AA09988@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: January 19, 374 P.N.O. [06:20:50 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Wed, 19 Jan 94             Volume 94 : Issue 18
+
+Today's Topics:
+             Claim: Extropians *Is* Becoming a Religion, of Sorts     [2 msgs]
+                            Emotional involvement                     [1 msgs]
+               Extropian Love: A Partner's Self-Transformation        [1 msgs]
+                                Extropian love                        [3 msgs]
+                             HST fixed (we hope)                      [2 msgs]
+                            If Uploads Come First                     [1 msgs]
+                           META: Nonlinear Digests                    [2 msgs]
+                         SOC: Extropian Relationships                 [1 msgs]
+                            Self Awareness is Bunk                    [1 msgs]
+                                  TV Alert!                           [1 msgs]
+                               Tech:  Net Tech                        [1 msgs]
+                            net tech; FTP via NFS                     [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 54462 bytes.
+
+----------------------------------------------------------------------
+
+Date: Tue, 18 Jan 94 22:04:27 EST
+From: Tim Freeman <tsf@cs.cmu.edu>
+Subject: net tech; FTP via NFS
+
+If you can mount NFS volumes on your Mac (or other machine), then you
+can make the world's anonymous FTP servers look like an
+NFS file system.  Just set up or find an Alex server, and mount the
+NFS volume it exports.  The server caches, so it's faster after the first
+time you access a file.  
+
+For more information about Alex, use anonymous FTP to fetch the file
+alex/README from alex.sp.cs.cmu.edu.  For instance, the file I just
+mentioned is available to me as
+
+    /alex/edu/cmu/cs/sp/alex/alex/README
+
+which I can visit from Emacs like any other file.  I can also use
+commands that manipulate directories.  On a unix machine, this
+happens:
+
+% ls /alex/edu/cmu/cs/sp/alex/alex
+README		demo		ls-lR		tools
+alex		doc		readmes		www
+cs-techreports	links		src
+% 
+
+I can use find, tar, unzip, zcat, and so forth on the Alex volume like
+any other.
+
+My friend Vince who made Alex actually subscribes to this list, but I
+doubt he takes the time to read much of it.
+
+Tim
+
+------------------------------
+
+Date: Tue, 18 Jan 94 22:28:48 WET
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Self Awareness is Bunk
+
+John K Clark writes:
+> 
+> As virtues go, self awareness is greatly overrated. In the first
+> place we have very little of it and in the second place it's a 
+> good thing we don't have more.
+
+  You still haven't explained why it is bunk. Other animals have intelligence,
+limited self-awareness, good coordination, pattern identification, depth
+perception, etc and in fact, quite of a number of them have superior
+vision and coordination. However, other animals haven't built computers,
+rockets, nuclear bombs, etc.
+
+  Our self awareness allows up to set up long term goals, and our communication
+skills allows us up network with others in accomplishing them. Without
+self awareness: creativity, perception, language, coordination would be
+worthless because they would not be directed towards any ends, only in the
+short term task of living day to day.
+ 	      
+> If we understood how our mind worked nobody would study computer
+> science in school because it would be too trivial, we'd all know
+> instinctually how to make an AI. For  the  things the mind does
+> best ,creativity, language recognition, depth perception ,
+> pattern identification ,muscle coordination ,we have no self
+> awareness at all. It's only in things that were lousy at ,like
+
+   Of course. A C program can't deduce the layout of a computer's
+circuitry. We can't be aware of low-level i/o for good reason for if we
+did, we'd be hopelessly slow. Imagine having to consciously execute
+complex perception algorithms. ("ok, now that my eyes have captured
+the frame. I must perform the first-order edge detection. Now I must
+access my perceptual database....")
+
+> were confused. People always asked creative men like Feynman
+> (the elder) how he came up with such brilliant ideas ,but he
+> didn't know ,all he could say was things like "the idea just
+> popped into my head". If he could really answer that question
+> then we'd all be as smart as he was. 
+
+   Most scientists spend years to decades to come up with a theory.
+These theories just don't pop into people's heads. The seed of such
+ideas do but my bet is, if you are prepared at the moment of inspiration
+to record your thoughts, you'd be able to describe how you thought of it.
+Likewise, if you are ready to record your dreams upon waking, you can
+remember them, but afterwards you usually can't.
+
+   When I think up an idea, I am fully aware of how I arrived at it.
+Either by permutation and combination of existing ideas, application
+of other fields to a new field, association with recent events in my life,
+or by coincidence. That is, I happened to be doing two different things
+close together in time and notice a similarity. Like playing with
+tiling blocks -- then reading a message about factoring on sci.crypt,
+I then figured out a way to factor numbers by plane tiling.
+(the idea works, but hasn't paid off, but it was still something
+creative I came up with. It took a hard months worth of effort to take
+the seed of the idea into a c++ program -- thanks to my self awareness.)
+   
+    	      
+> If deep self awareness  had a survival value evolution would
+> have provided it , but it didn't because it's dangerous and
+> addictive. We could change our emotions to anything we wanted,
+
+  Non-sequitur. "If nature hasn't done it yet, then obviously
+there's something dangerous and bad about it..."
+
+> alter modes of thought, radically change our personalities, swap
+> our goals as well as our philosophy of life all at the drop of a
+> hat. Even a Jupiter brain could not have much self knowledge, at
+> least not a sane one.
+
+   Unsupported assertion. Unless you know something about Jupiter brain
+engineering and how the mind works (by your own admission, we don't), I would
+retract that statement.
+
+> Perhaps that's the reason that when a friend of mine started to
+> whine pompously about needing "to find myself" I had a terrible
+> impulse to smack him in the face with a banana cream pie.
+
+   Why, because someone hasn't decided what they want to do with their
+life yet? I guess self-awareness is bunk. Without it, we wouldn't
+have to choose careers, they would be chosen for us by genetics.
+No worrying about what you want cause you wouldn't know anyway.
+
+
+   It is self-awareness which makes Self-transformation and Dynamic Optimism
+possible.
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Tue, 18 Jan 1994 23:04:46 -0500 (EST)
+From: "Harry S. Hawk" <habs@panix.com>
+Subject: Tech:  Net Tech
+
+a conscious being, Harvey Newstrom wrote:
+> 
+> I use a Mac, and love it for its operating system.  If I want a command 
+> line script, I write Hypercard scripts.  For networking, however, I use IP.  
+
+Try MacTech for the Mac. It puts a BSD Unix along side the Mac OS. You
+can use your favorite shell to your hearts desire...
+/hawk
+
+------------------------------
+
+Date: Tue, 18 Jan 1994 23:17:36 -0100
+From: carlf@media.mit.edu (Carl Feynman)
+Subject: HST fixed (we hope)
+
+Amara Graps says:
+>Steve Witham asked about observing the whole sky with the Hubble
+>Telescope (how long would it take and how much data would be generated).
+
+I didn't see the message that started this thread, so I'm not sure that I'm
+answering the right question.  But starting from the data contained in
+Amara's message, I can make some back-of-the-envelope estimates.
+
+The resolution of the telescope is 2.5e-7 radians.  If we wanted to take a
+picture of the whole sky with pixels this big, it would take 4 pi
+(2.5e-7)^2 = 8e15 pixels.  If we used a paltry sixteen bits per pixel, this
+would be 16,000 terabytes, and would take 22,000 years to transmit to the
+ground at 2 gbytes/day.  Note that the Hubble is probably capable of
+getting a lot more than 16 bits per pixel, given its spectrometers and
+suchlike.
+
+There's a lot of sky out there.
+
+
+--carlf
+
+Internet: carlf@media.mit.edu                Home phone: (508)635-9238
+Office phone: (617)253-9833        Mail: 1 Gregory Ln., Acton MA 01720
+Missile: 42d28'38"N 71d28'49"W +90m        Holler: "Yo! Carl Feynman!"
+
+
+
+------------------------------
+
+Date: Tue, 18 Jan 1994 23:07:50 -0600 (CST)
+From: Craig Presson <fcp@moontarz.nuance.com>
+Subject: TV Alert!
+
+> 
+>   PBS Is airing NOVA tonight. The subject? Code breaking and Cryptography!
+> 
+Yup. I is done taped it. There's a lot of narration by David Kahn and by
+several of the WWII cryptanalysts, and some small amount of never-before-
+revealed material. I'm going to watch the whole thing after I log off.
+
+-- fcp@nuance.com (Freeman Craig Presson)
+72430.1422@compuserve.com (Freeman P. Craig)
+LP of AL, LP US, NRA, ExI, ISGS, Clan Gordon
+
+------------------------------
+
+Date:     Wed, 19 Jan 94 5:24:22 GMT
+From: nancy@genie.slhs.udel.edu
+Subject: If Uploads Come First
+
+If I understand Robin's argument correctly, he proposes that reproduction
+by making uploads will be so much cheaper and more profitable than
+biological reproduction that people (whether flesh or silicon) will
+live at the Malthusian limit. I wonder if this is likely--the rewards
+for finding methods to use resources more efficiently will be so great
+that the majority may never be in the situation of working constantly
+just to stay alive.
+
+Nancy Lebovitz
+
+------------------------------
+
+Date:     Wed, 19 Jan 94 5:38:42 GMT
+From: nancy@genie.slhs.udel.edu
+Subject: Extropian love
+
+I wrote: 
+>
+>Nick makes an interesting point about traditions possibly being the
+>best source of information on how to handle emotional interactions--
+>the problem I see there is that the traditions don't agree--there's
+>at least a range from showing strong emotions being obligatory to
+> showing them being forbidden.
+
+And then it occurred to me that these approaches do have one
+thing in common--a cultural norm of how much emotion is to
+be expressed, and probably rules on what the "proper" emotions
+are.
+
+This has the advantage of harmonizing relations within the 
+group (there may be constant arguments or physical violence,
+but at least people know what to expect from each other), but
+the disadvantage of making people less flexible in dealing with
+anyone from a different tradition.
+
+Nancy Lebovitz
+
+------------------------------
+
+Date: Tue, 18 Jan 94 21:11:28 EST
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: Emotional involvement
+
+Tim May says on another thread-
+
+> As to some comments Kennita made last night about the neat things we
+> do--software, crypto, etc.--needing to have a human face, that we not
+> just thinkers but also feelers (apologies if I have altered her
+> intended meaning with this summar....), I strongly disagree that these
+> things are being done or worked on in an unemotional way. Anyone who
+> has seen me talk excitedly about cryto (and the Cypherpunks may not be
+> the best venue for seeing this, for schedule reasons), or about
+> nanotech, knows this.
+> 
+> My emotional attachment, what motivates me, is clearly visible. In
+> fact, I wrote up some posts on exactly this topic, the adrenalin rush
+> of discovering something nobody in the know universe knows except
+> oneself (or one's self). I described this incredible rush in some
+> posts responding to Amara's points about women in science and noted
+> that this rush is what drives me forward.
+
+Let me make an example of myself.  I would love to work on AI and 
+artificial evolution.  I think up ideas in these fields all the time.  
+I'm proud of my ideas; I get excited; I get absorbed.
+
+But I don't want to hasten the obsolescence of biology, the
+retrofitting of culture, and the scan-capture of nature.
+
+On the other hand, I think the simplification and clarification of
+software, the whole software creation and use process, is an
+essential step towards a world where people are more in charge of 
+their lives and aware and skeptical about the designs of others. 
+I have a couple of good ideas about it.  But not very often.
+
+If anything, putting a human face on technology isn't a radical enough
+goal.  For instance, simplicity (as Ted Nelson says) can't be added.
+
+I feel that something should be done about it.  But somehow I'm not
+quite excited enough to do it.
+
+I know that in Tim's case the goals and the technical excitement
+line up pretty much.  But for some of us there is a problem.
+
+There is no implication here that we don't feel.  The problem is that
+feelings lead to actions that have effects that lead to feelings that
+don't necessarily match the originals.  I don't find it a simple 
+problem.
+
+-fnerd
+quote me
+
+- -
+cryptocosmology- sufficiently advanced communication is indistinguishable
+                 from noise - god is in the least significant bits
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+aKxB8nktcBAeQHabQP/d7yhWgpGZBIoIqII8cY9nG55HYHgvt3niQCVAgUBLMs3K
+ui6XaCZmKH68fOWYYySKAzPkXyfYKnOlzsIjp2tPEot1Q5A3/n54PBKrUDN9tHVz
+3Ch466q9EKUuDulTU6OLsilzmRvQJn0EJhzd4pht6hSnC1R3seYNhUYhoJViCcCG
+sRjLQs4iVVM=
+=9wqs
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+Date: Tue, 18 Jan 94 20:16:23 EST
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: SOC: Extropian Relationships
+
+Romana writes-
+
+> Redefining a network of intimate friendships as a "chosen
+> family" is an amusing, quaint, and poetic concept...
+
+Or just pragmatic.  Don't tell me how you get along with your
+real family and I won't tell you about mine.  Also, imagine
+100 years from now.
+
+> "Chosen family" is merely a florid figure of speech; I 
+> understand that it could offend some sensibilities.
+
+Yes, I admit, especially thinking of some more sloppy
+versions of "You know I think of us as a family, Steve..."
+
+> I leave others to find happiness in their own way. What use 
+> is puzzling over them? 
+
+!  What is life like for other people!?  Why do they act the
+way they do!?  If I'm different, does that mean I'm missing 
+something!?  Sometimes I think I have a clue and sometimes I 
+am knocked for a loop.
+
+> Such puzzling sounds overly invasive,
+> even busybodyish to me.
+
+Do you mind my private puzzling?  Kennita's was slightly
+public; almost, but not quite, as if she were inviting
+speculation on the person she was puzzling over.  You never 
+wonder about other people's motivations?  Never compare 
+emotional experiences with a friend?  Just very curious, 
+I don't insist on an answer or invite speculation by others.
+
+> Kennita writes: "It's possible that the nun/God relationship
+>      can be viewed as a subset of such relationships, since
+>      the God she (or he, but then it's a monk) has the
+>      relationship with exists for her only as her own mind
+>      conceives Him/Her/It."
+> 
+> ...the nun/God relationship is not Extropian,
+> because it is founded on an arational absurdity, though it
+> may have a temporary extropic effect for the nun.
+
+1) Kennita's point (although a little too tolerant for my
+   taste) was that the nun's irrationality is just an
+   extreme example of an irrational/imaginary aspect of
+   real relationships, and what good is that, if any?
+   Or is it illustrative?
+
+2) Sure, unextropian, but so what.  If it's in me, 
+   especially in my motivations, what do I do?  
+   "Have a care," for starters.
+
+-fnerd
+quote me
+- -
+cryptocosmology- sufficiently advanced communication is indistinguishable
+                 from noise - god is in the least significant bits
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+aKxB8nktcBAeQHabQP/d7yhWgpGZBIoIqII8cY9nG55HYHgvt3niQCVAgUBLMs3K
+ui6XaCZmKH68fOWYYySKAzPkXyfYKnOlzsIjp2tPEot1Q5A3/n54PBKrUDN9tHVz
+3Ch466q9EKUuDulTU6OLsilzmRvQJn0EJhzd4pht6hSnC1R3seYNhUYhoJViCcCG
+sRjLQs4iVVM=
+=9wqs
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+Date: Tue, 18 Jan 94 20:37:46 EST
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: Extropian love
+
+Nick Szabo writes-
+ 
+> Vince Kerchner makes some interesting comments towards a theory
+> of relationships, including:
+> 
+> > ...how can fundamentally non-rational
+> > constructs such as emotions, and the emotion of love (or, for some of
+> > you, the emotion of hate) in particular, be integrated/accomodated in
+> > such a system?"
+> 
+> This gets to the heart of the matter, so to speak.
+...
+> It's possible that good theories of relationships 
+> are so logically deep that:
+
+> [Various infeasibilities of working from first principles and
+> personal experience.]
+
+I think it's not quite that bad.  Most situations yield in a fractal
+sort of way to principled exploration and summary.  Still, the point
+remains,
+
+> If so, the very compressed theories of previous generations provide
+> vastly more sophisticated and useful guide for relationships than
+> any we could generate ourselves, from scratch. 
+
+And most memes are tacit, not explicit theories.
+Or the explicit ones are rationalizations.
+Also, it's sort of a one-sided arms race--the more people learn, the 
+more interesting kinds of trouble we can get ourselves into.
+
+> Given such subtly valuable traditions, there is still a need improving 
+> these theories with our own experiences, and adapting them to modern
+> technology.   This might require "memetic archaeology"...
+
+But also, the tacit memes give you a sort of database to query about 
+the plausibility of various theories.  So tacit experience is one of
+those things you can examine and summarize in a principled way, as long 
+as you, to steal Romana's phrase again, "have a care."
+
+-fnerd
+quote me
+
+- -
+cryptocosmology- sufficiently advanced communication is indistinguishable
+                 from noise - god is in the least significant bits
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+aKxB8nktcBAeQHabQP/d7yhWgpGZBIoIqII8cY9nG55HYHgvt3niQCVAgUBLMs3K
+ui6XaCZmKH68fOWYYySKAzPkXyfYKnOlzsIjp2tPEot1Q5A3/n54PBKrUDN9tHVz
+3Ch466q9EKUuDulTU6OLsilzmRvQJn0EJhzd4pht6hSnC1R3seYNhUYhoJViCcCG
+sRjLQs4iVVM=
+=9wqs
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+Date: Tue, 18 Jan 94 18:29:40 EST
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: Claim: Extropians *Is* Becoming a Religion, of Sorts
+
+Tim May relates-
+
+> The joke "Thank you for sharing that with us" is common not only
+> amongst laypersons like ourselves, but also amongst therapists I know.
+> Because they realize that much of modern group therapy is dealing with
+> people who can't recognize proper ego boundaries and who insist,
+> destructively, on "sharing" their deepest emotional demons and fears.
+> It's become a cliche in the therapy business.
+
+Only it was the therapists who started the whole get-it-off-your-chest,
+pointless "sharing" business in the first place.  They (and the whole
+population of California, it seems) have now set up this wonderful
+share/don't-share double bind.  Funny joke.  Some *kinds* of
+personal revelations work and are appropriate in some circumstances,
+some not.  Tim May's stories about working at Intel, for instance,
+worked for me.  Just sharing for it's own sake isn't necessarily
+good.  Nor is shutting up.  This is true in families and relationships 
+as well. 
+
+> I think there's a very real danger that this list is evolving into a
+> kind of support group/"Lifespring"-type movement that is, in many
+> ways, equivalent to a religion.
+
+I think this is far overstatement.  My impression is that most of the
+members, including new ones, are nearly as practical-, dry-, not-too-
+much-nonsense-minded as Tim.  Certainly (listen closely, Norman) 
+those (the Nearly Tim series) are the ones *I* have the most family-
+feeling for.*  
+
+> I've said it several times before and I'll say it again: some list
+> members apparently see this list as a new kind social group therapy
+> session, to do a "show and tell" in their progress toward "Recovery"
+> (from whatever haunts them...drugs, Objectivism [...])
+
+Objectivism is interesting, though.  If people could make good, to-
+the-point material out of recovering from Objectivism, it would apply
+to just this religion issue.
+
+-fnerd
+quote me
+*"but i am identical in every way to alice 253!"
+"precisely.  that is why i love *you* and i hate *you*."
+
+- -
+cryptocosmology- sufficiently advanced communication is indistinguishable
+                 from noise - god is in the least significant bits
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+aKxB8nktcBAeQHabQP/d7yhWgpGZBIoIqII8cY9nG55HYHgvt3niQCVAgUBLMs3K
+ui6XaCZmKH68fOWYYySKAzPkXyfYKnOlzsIjp2tPEot1Q5A3/n54PBKrUDN9tHVz
+3Ch466q9EKUuDulTU6OLsilzmRvQJn0EJhzd4pht6hSnC1R3seYNhUYhoJViCcCG
+sRjLQs4iVVM=
+=9wqs
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+Date: Tue, 18 Jan 94 19:19:32 EST
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: HST fixed (we hope)
+
+> Steve Witham asked about observing the whole sky with the Hubble
+> Telescope (how long would it take and how much data would be generated).
+
+and Amara Graps replies-
+
+> I can't even give a ballpark answer because the question
+> wasn't specific enough.
+> 
+> 	- Which instrument on Hubble? (and at what wavelength?)
+
+When I said RGB, I meant just look at the ordinary visual band broken
+into three channels.  Which instrument I don't know.  See next question.
+
+> 	- At what resolution? (corollary: How big of a field-of-view?)
+
+As fine as you can get.  Scan longer.  Of course the opposite would be
+nice to know: how *fast* could you get a whole-sky picture, at the
+minimum resolution.
+
+> I can offer some information that may help, but I can't answer
+> his question specifically.
+> 
+> * The EOS satellite will generate ~1 TerraByte of data per day.
+
+EOS?
+
+> * The Palomar 48" Schmidt telecope that has performed two large
+>   all-sky surveys took a few years to do it the last time (in the mid-80's
+>   I think), and it was just the sky that they could see (not the
+>   Southern Hemisphere). They used glass photographic plates (which I hope 
+>   are digitized now) with a wide-field aperture. A typical 48" Schmidt
+>   wide-field photo is a few minutes to ~ 10 minutes of arc on each side.
+> 
+> * The sky is 4pi steradians.
+
+10 minutes "square" =~ (2pi/(6*360))^2 steradian?  I get .0000085.
+  2pi/that gives me about 1.5 million plates of that size
+  for the whole sky.  
+
+> * The diffraction limit (blurring of point sources) is ...
+>   ==> for Hubble (2.4 m) in the visible (5000 angstrom) = ...
+>       Which is (*by 3600) about 9*10^{-4} minutes of arc. 
+
+So about (10/10^-3)^2 pixels for the area of the sky corresponding to
+one of those Schmidt plates?  100 million--ouch.  So, 1.5 million times
+100 million = 150 Terabytes at a byte per pixel.  3 million CDs?  
+
+> * Hubble's maximum daily transmittal rate is 2 Gigabytes.
+
+185,000 bits per second isn't bad, I guess.  It's just that my
+project will take, what, 200 years?  *Sniff*.
+
+-fnerd
+quote me
+
+
+
+- -
+cryptocosmology- sufficiently advanced communication is indistinguishable
+                 from noise - god is in the least significant bits
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+aKxB8nktcBAeQHabQP/d7yhWgpGZBIoIqII8cY9nG55HYHgvt3niQCVAgUBLMs3K
+ui6XaCZmKH68fOWYYySKAzPkXyfYKnOlzsIjp2tPEot1Q5A3/n54PBKrUDN9tHVz
+3Ch466q9EKUuDulTU6OLsilzmRvQJn0EJhzd4pht6hSnC1R3seYNhUYhoJViCcCG
+sRjLQs4iVVM=
+=9wqs
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+Date: Tue, 18 Jan 94 22:56:46 PST
+From: GRAPS@galileo.arc.nasa.gov
+Subject: META: Nonlinear Digests
+
+I ask that Ray, if he is the guardian of the digest list software, look
+at how the digest is working.
+
+I'm missing more and more of the posts. I haven't received anything since
+Monday morn, my digest size is set low (20kb), and surely 20k of messages
+have been received in the last 1 1/2 days?
+
+In the past couple of weeks, I get digests, not one at a time, but in
+groups- 2 or 3- with missing pieces, and out of chronological order. It's
+impossible to follow any thread.  I need the digest mode so that the
+constant incoming mail doesn't interfere with my work during the day,
+so it is not an option now for me to receive the mail one-at-a-time.
+
+I find this frustrating and prevents me from posting to any of
+the threads. The only ones I've posted to in the last couple of
+weeks are ones that I happened to see when I was looking over Vince's
+shoulder.
+
+Thanks for listening.  Now back to your favorite transformation...
+
+Amara Graps
+graps@gal.arc.nasa.gov
+
+
+------------------------------
+
+Date: Tue, 18 Jan 1994 23:07:57 -0800 (PST)
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Claim: Extropians *Is* Becoming a Religion, of Sorts
+
+I'll respond to a bunch of points here. It may get confusing, as Geoff
+is responding to my points, which included quotes from Romana. Oh well.
+
+Geoff Dale writes:
+
+> Minor Note: Classifying Vince as a newcomer, is not entirely a correct
+> characterization. Vince is a recent list member, but is not new to
+> extropianism at all. (I suspect that he probably has had exposure to the
+> list over Amara's shoulder as well.)
+
+I think we all know what this means: that Vince K. was not signed up,
+was only getting a few of the forwarded messages (so said Amara
+herself, even though this was technically a violation of list rules as
+I understand them....not that this was a problem), and only started
+participating in the list two weeks ago. So, I mean precisely what I
+said--a theme that will crop up again in this response.
+
+> >I'm equally unconvinced that ohter "Extropian Principles" can
+> >reasonably be extended into the domain of interpersonal relationships,
+...
+
+> Tim, somehow I'm taking your "I'm unconvinced" comment as discouragement of
+> further discussion on this vein. Is that how you meant it?
+
+"I'm equally unconvinced" means "I'm equally unconvinced." 
+
+....
+> Grr, your interpretation of what the Extropian Principles are for seems to
+> be misguided. The extropian principles are a framework in which Max and the
+> other contributors can communicate thier thoughts and discoveries to
+> others, namely us. Max goes to great pains to try to convey the are not
+> chapter and verse, and still people get this idea. (He recently expressed
+> his frustation about this to me.)
+
+"Grr" yourself! :-}
+
+The whole phraselogy of "by which Max and the other contributors can
+communicate their thoughts and discoveries to others, namely us" is
+very telling. I've seen nothing in the "Extropian Principles" that is
+especially profound (sorry Max, if you ever read this, but I call 'em
+as I see 'em...I hope you wouldn't want it any ohter way). To suggest
+that these "discoveries" are to be communicated to us sounds like High
+Priests and Talmudic scholars passing on sacred revelations.
+
+There are 300 subscribers on this list, and perhaps 30 or so active
+posters. As far as I'm concerned, this list is where the real action
+is. Max publishes a fine little magazine, but to suggest that he makes
+discoveries and then communicates them to us through newer versions of
+the Extropian Principles is comical.
+
+> >From the Extropian Principles 2.5 (it is permissible to quote the
+> principles when discussing them, isn't it?):
+> "The Extropian Principles are a new operating system for our selves; always
+> seeking to improve upon them, we will avoid dogmatizing them. The
+> Principles derive their value by guiding us to our true goal: the
+> maximization in our lives of extropy."
+
+The Principles are already creating a dogma. People attempt to win
+their arguments by quoting from the Sacred Principles. (I'm not
+referring to Geoff's quote here, ironic as that might be.) Just the
+lingo, "a new operating system for our selves" sounds like some
+strange mix of Timothy Leary, L. Ron Hubbard, and F.M. Estawhatever. I
+don't recall seeing this particular gem in the Principles, but perhaps
+I've fallen behind in my study of them. :-}
+
+> Perhaps the word "principals" is to charged with connotations of
+> inflexibility and some kind of sacrosanct holyness. Damn religions keep
+> co-opting perfectly good terms, is it bleeding into this one, too?
+
+Yep. I think, Geoff, that in your arguments here you are actually
+reaching the same conclusions I did, that there's a serious danger
+Extropianism is taking itself a bit too seriously, and is adopting its
+own dogmas and rituals. I don't expect too many people like myself
+will be attracted to this, but I could be wrong (and of course
+there's no reason that people like me are the sought after recruits).
+
+
+> >Again, I agree. I know Geoff has, in a later message, asked that
+> >discussions of "Is Extropianism becoming a religion?" be taken to
+> >private mail, but this issue will not go away so easily.
+> >
+> >Especially given that some of the folks putting together a FAQ on
+> >Extropianism are also centrally involved in this discussion of
+> >relationships, epistemology, etc.
+> 
+> I haven't planned for any of the "extropians in love" material to get into
+> the FAQ. I am concerned, however, about how the principles keep getting
+> mis-construed. I think I'll bring that up in the BATF meeting this weekend.
+
+No, I wasn't implying that the "Extropians in Love" stuff was the
+issue...that seems like a perfectly fine thread for the list, with
+much to be debated, thrashed over, and (probably not) resolved. I
+meant the connections of this stuff to the Principles, to the issues
+of epistemology, etc.
+
+Frankly, I think, IMHO, that adding "Epistemology" to the FAQ is a
+dangerous idea, and I regret that Dave Krieger has dropped off this
+list just as he proposed the idea for the first time. The FAQ needs to
+answer some basic vocabulary questions (PPL, uploads, etc.)  and lay
+out some common viewpoints and reading materials, to help
+newcomers. Adding epistemology (whose? Stirner's? Rand's? Bartley's?),
+beyond just the basic "Some Extropians endorse....others support..."
+sort of summary, runs the risk of becoming the Extropian Catechism.
+
+But the FAQ is not such a big deal, unless the writing of it causs the
+BATF (Bay Area Task Force, the local group doing the writing) to split
+off from the Mother Church in Riverside! The schismatics could nail
+their "Ninety-Five Theses" to the door of the church the Assembler
+Multitudes meets in, declaring that Max is no longer needed as an
+intermediary to communicate the Truths of Extropianism to the masses,
+that every Upload is Capable of Interpreting the Extropian Word
+itself.---This was an interruption by Klaus!
+
+> >I am happy that _some_ group is
+> >addressing the longstanding FAQ problem, but Geoff cannot raise the
+> >issue of "Extropian Relationships" in a long (and welcome, despite my
+> >disagreements with his conclusions) essay 
+> 
+> Thank you, I'm glad to hear that the discusion is welcome. I'm not seeking
+> universal validation here. ("Validation? We don't need no steenkin'
+> validation!") Criticisms (preferably constructive) are certainly desired.
+
+I think Nick Szabo was mostly right when he pointed to the centuries
+of history of relationships, to the millions of relationships, for a
+better source of clues, of the rules and heuristics which usually
+govern how relationships work.. I just can't see Extropians as having
+much of a track record, much of a base of experiments to test the
+"Romantic Principles" with....the ideas, the new ones at least, are
+too new for experience to have developed.
+
+And, frankly, I know of no real relationships between list members,
+except the ones cited earlier, and these are apparently not yet
+long-term relationships. Amara joined the list 15 or so months ago,
+Vince less than a month ago. Romana I've seen on the list for about a
+year, and Geoff I've seen postings from since last April. (I
+understand that first, this says nothing about their commitment to the
+ideas, and second, that my Eudora records of postings may be
+incomplete or misleading.) And I have no idea what the relationship
+entail, how long they've already lasted, and, importantly for Nick's
+point, how long in the future they'll last.
+
+With all due respect to these happy couples, both of them, I'm not so
+sure they have the experience base to be writing the "Extropian
+Marriage Manual," so to speak. Not to sound flippant, but it just
+seems presumptuous. Maybe in 20 years we'll have had more "Extropian
+relationships" and more years of exerience. Until then, why bother
+theorizing so much? Why not just enjoy it while it lasts and not
+_intellectualize_ it so much? Especially with such a sparse data set!
+
+
+> Note: I never said that it was inappropriate, just not of great interest to
+> the list membership (I did mean to imply that it might be annoying for
+> some).
+
+Well, the usual advice always applies: if people want to respond, they
+will, and if they don't, they won't. Control is neither necessary nor
+desirable. 
+
+> As you apparently do have a strong urge to discuss this topic in public,
+> I've replied on the list.
+
+See above. This thread is every bit as valid as any others I've seen
+recently, and is certainly of interest. Control is not needed.
+
+> I think of extropianism as a practical philosophy. A word that has been
+> suggested for extropianism is "eupraxophy", essentially "a way to run one's
+> life" although I haven't found it any of the dictionaries I have. I suspect
+> this, too, may be a little strong for what we are about.
+
+Indeed. I haven't found a single one of the Principles to have
+affected how I live my life....though the _list_ has had a major
+effect, through exposure to new ideas and bright people. I'll take a
+megabyte a week of sometimes interesting conversation on this list
+over some platitudes about Boundless Expansion written on some index
+cards. 
+
+(Really, I don't mean to insult the Extropian Principles...I just
+don't consider statements like Boundless Expansion and Unlimited
+Abundance, or whatever they are, to be all that useful.)
+....
+> 
+> Well at least your post is cogent and without reference to an inquisition.
+> I think I can live with kind of discussion, although I doubt if I'll post
+> in *much* longer.
+
+No, I would not go that far, from anything I've seen. Nobody's been
+kicked off the list, or even brought up on charges, for espousing
+Paganism or astrology or any other idea far afield from the "common
+interests" of the list, so I have no fears of an Inquisition.
+
+My biggest fear is that unwarranted amounts of effort (not on my part,
+except for posts like this) will go into attempts to expand the
+philosophy and ideology of the "Extropian" movement.
+
+And as I've said before, this topic is certainly worthy of more
+discussion.
+
+--Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power:2**859433 | Public Key: PGP and MailSafe available.
+
+------------------------------
+
+Date: Tue, 18 Jan 1994 23:19:43 -0800 (PST)
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Extropian Love: A Partner's Self-Transformation
+
+Geoff Dale writes:
+
+> Tim May says:
+> >I don't recall the specifics, but there was something in Geoff Dale's
+> >piece about accepting the transformations of one's partner(s). This
+> >struck me as empty of content. If the transformations leave the person
+> >even more sexually and emotionally attractive to one, this is
+> >fine. But if not, what's "self-transformation" got to do with it? To
+> >me, it's all personal taste, mutually of course, and "Extropian
+> >Principles" seem pretty superfluous
+> 
+> This is important! More after this next paragraph.
+> 
+> >If a partner of mine decided to pierce her nose or any other body
+> >part, it'd be "Sayonara!" for her. It has to do with personal taste,
+> >my taste. And ditto for her.
+> 
+> You'd blow off an otherwise good partner just because of a body/nose
+> piercing? Well, you'd definitely be within your rights, but it sounds like
+> your loss.
+
+If *I* found it distasteful, of course. My example (which actually
+does match my personal tastes, as I find self-mutilation disgusting)
+was picked because I simply don't buy the notion of "Extropian
+Principles" applying to such pesonal decisions as what is attractive
+to one, etc. Rather clear, I would think. Now not all folks would
+agree with me, but I suspect many will (not in the specific example,
+but in the rejection of running relationships by abstract priniciples
+such as Geoff was theorizing about).
+
+
+> A) People change, whether or not you want them to. Trying to keep people
+> from changing will just stifle them.
+
+I won't "stifle" them, I'll just move on. Happens all the time.
+
+...stuff about transforming Romana into something elided....
+
+> and make such efforts easier for her. (Tim, you actually helped as well.
+> Providing the inspiration for the program, etc. Your contributions are not
+> unaknowledged or unappreciated.) By working on projects with her, I can use
+
+And don't forget I suggested the "Wired" piece! Glad to do my part on
+the communal remaking of Romana. Is it true the PGP key ring will be
+part of a piercing of her....NAW, even you folks wouldn't do _that_!
+
+
+--Tim May
+
+P.S. The rest of Geoff's points I won't comment on. To each their own.
+I just think it's dangerous--not that it's happened yet--for Geoff's
+particular slant on things, which is definitely not a majority view
+from what I can tell, to become written into the Extropian FAQ. Let's
+hope it doesn't.
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power:2**859433 | Public Key: PGP and MailSafe available.
+
+------------------------------
+
+Date: Wed, 19 Jan 94 2:23:19 WET
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: META: Nonlinear Digests
+
+GRAPS@galileo.arc.nasa.gov writes:
+> 
+> I ask that Ray, if he is the guardian of the digest list software, look
+> at how the digest is working.
+> 
+> I'm missing more and more of the posts. I haven't received anything since
+> Monday morn, my digest size is set low (20kb), and surely 20k of messages
+> have been received in the last 1 1/2 days?
+
+  Losing posts is a bug. I'll have to look into this. Can you forward me
+some of your digests with missing messages?
+ 
+> In the past couple of weeks, I get digests, not one at a time, but in
+> groups- 2 or 3- with missing pieces, and out of chronological order. It's
+> impossible to follow any thread.  I need the digest mode so that the
+> constant incoming mail doesn't interfere with my work during the day,
+> so it is not an option now for me to receive the mail one-at-a-time.
+
+   The "groups of 2 or 3" bundle is intentional. The software
+queued up messages for digestification, when it reaches your personal
+limit(20k), it starts a new bundle. Then, when the next list "tick"
+occurs, everyone's digests are sent out. If you have 2 or more 
+queued up, you will get more than 1. I am contemplating adding
+a message range to the subject line, such as
+
+"Subject: Extropians Digest Messages #207-354"
+"Subject: Extropians Digest Messages #355-381"
+
+etc. Perhaps this will help you sort the digests.
+
+> I find this frustrating and prevents me from posting to any of
+> the threads. The only ones I've posted to in the last couple of
+> weeks are ones that I happened to see when I was looking over Vince's
+> shoulder.
+> 
+> Thanks for listening.  Now back to your favorite transformation...
+
+
+  I'll look into it. Try to forward me some of these digests with
+missing posts. It's easier for me to find the bug.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Tue, 18 Jan 1994 23:27:54 -0800
+From: vincek@netcom.com (Vince Kerchner)
+Subject: Extropian love
+
+Nick Szabo makes some really excellent points in his recent post on
+this thread:
+
+>Rational theories of human relationships need to be falsified in terms
+>of human emotions, aesthetics, instincts, etc. just as rational
+>theories of other aspects of nature need to be falsified against the
+>concrete reality observed in those phenomenon.
+
+I agree completely.  But what are the axioms and productions of such a
+rational system of human relationships from which propositions may be
+formed and by which they may be tested?  I think that if we could
+answer this question constructively, we could revolutionize cognitive
+psychology and therapy.  I don't mean to simply be "touchy-feely"
+here, I mean to suggest that the successful codification of human
+emotions, behaviors, and dysfunctions could significantly affect the
+lives of everyone on the planet.  This sounds like serious
+"self-transformation" to me.
+
+>It's possible that good theories of relationships are so logically
+>deep that:
+>* They cannot be expressed or understand by our human brains without
+>very lossy compression, which probably takes the form of metaphorical
+>reference to similarly complex phenomenon;
+
+I think this is true as well, but why?  Furthermore, I don't think
+this is substantially different from what takes place in other areas
+of human experience, including science.  Many theories are logically
+deep, so much so that typically only their conclusions or paradigms
+(in the form of metaphorical systems) are presented to an audience,
+especially during initial contact.  Basic, primary sources of
+information are often presented only as part of advanced, evolved
+transactions once the tokens of the representation have been
+assimilated, if ever.
+
+>* It's computationally infeasible to create such a theory over a
+>single (unaugmented) human lifetime;
+
+However, what about an ensemble of unaugmented lifetimes, with serial
+communication and information storage being provided between
+individuals?   Perhaps this is ultimately the source of kin or clan
+behavioral dynamics, or even of the family unit itself: the need to
+artificially augment the information storage and processing power of a
+single individual, and to distribute the risk of information loss due
+to the finite lifespan of a single individual.
+
+>If so, the very compressed theories of previous generations provide
+>vastly more sophisticated and useful guide for relationships than
+>any we could generate ourselves, from scratch.  Theories compressed
+> [etc]
+>This might require "memetic archaeology"
+
+Excellent!  "Memetic archaeology" exists, and is called mythology.
+This might be the very reason why for all of conscious human
+existence, and far pre-dating "literate" civilization, we have been so
+interested in myths, legends, songs, and storytelling.  Not for
+entertainment, but as a vast database of compiled human experience
+which transcends death, which is used to guide new generations, and
+which provides comparative filters for assessing new behaviors,
+relationships, and boundaries.  Many authors, including Joseph
+Campbell and Clarissa Estes, speak of archetypal myths and stories
+which are common to almost all cultures, and which are used to
+represent and test rites of passage and other dynamic psychological
+processes. 
+
+>On the other hand it might be extremely entropic to use theories
+>created from scratch with our current very limited brains instead of
+>using the vast, logically deep storehouse of lessons that billions of
+>humans have already learned.
+
+Unfortunately, no human "racial memory" exists, and it is a sad fact
+of evolution and genetics that experiences of an individual are not
+passed on to new generations without explicit training.  However, if
+we were to develop an appropriate retrovirus, perhaps there is enough
+redundancy in the human genotype to encode this kind of information.
+
+
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+Vince Kerchner                                        "We want information."
+Intergalactic Reality                                    "You won't get it."
+vincek@netcom.com                           "By hook, or by crook, we will."
+Plan on file: "finger -lm vincek@netcom.com"            (C) V. Kerchner 1994
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
+
+
+------------------------------
+
+End of Extropians Digest V94 #18
+********************************
+

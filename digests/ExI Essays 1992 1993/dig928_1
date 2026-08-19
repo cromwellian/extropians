@@ -1,0 +1,937 @@
+From extropians-request@extropy.org Mon Sep 27 23:55:48 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA05270; Mon, 27 Sep 93 23:55:36 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA16836; Mon, 27 Sep 93 23:55:29 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA15463; Tue, 28 Sep 93 02:50:46 EDT
+Received: from news.panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+	id AA15458; Tue, 28 Sep 93 02:50:13 EDT
+Received: by news.panix.com id AA18807
+  (5.65c/IDA-1.4.4 for exi-maillist@ung.gnu.ai.mit.edu); Tue, 28 Sep 1993 02:50:13 -0400
+Date: Tue, 28 Sep 1993 02:50:13 -0400
+Message-Id: <199309280650.AA18807@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: September 28, 373 P.N.O. [06:49:39 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Tue, 28 Sep 93             Volume 93 : Issue 270
+
+Today's Topics:
+                                                                      [1 msgs]
+                     AGITPROP: Robin Hood (was: Lloyd's)              [1 msgs]
+                                BASICS: Death                         [3 msgs]
+                              BOOKS: by Stonier                       [1 msgs]
+                               Come buy books?                        [1 msgs]
+                               Congratulations!                       [1 msgs]
+                 DisappointNet and the PostModern world order         [1 msgs]
+                DisappointNet and the PostModern world order          [2 msgs]
+                        HUMOR: Drugs Don't Work in NJ                 [1 msgs]
+                 PPL: Lloyds and crypto-anarchical insurance          [1 msgs]
+                         Reading cure for Objectivism                 [1 msgs]
+                             etymology of anarchy                     [2 msgs]
+                               extropian vices                        [1 msgs]
+                                philosophitis                         [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51420 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 27 Sep 1993 13:13:15 -0800
+From: lefty@apple.com (Lefty)
+Subject: HUMOR: Drugs Don't Work in NJ
+
+>On my way to work I passed a billboard sign with the following notice
+>in large green letters:
+>      DRUGS DON'T WORK IN NJ
+>Of course, I was heartbroken to receive this sad news.
+
+It's clearly a hoax.  Drugs _do_ work in New Jersey.
+
+Trust me on this.
+
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: Mon, 27 Sep 1993 22:36:17 +0100 (BST)
+From: Charlie Stross <charless@sco.com>
+Subject: DisappointNet and the PostModern world order
+
+jfitz@techbook.com (John Fitzpatrick) writes:
+
+>Subject: DisappointNet
+
+>CS> Where do _you_ think we're going? What is the net going to
+>CS> look like when it finally erupts into public view, and how
+>CS> will it compare with its present form?
+>	
+>Something like a cross between cable television and
+>video poker, I'm afraid.  But at least your up-to-the-second
+>horoscope will be available, from a wide variety of experts.
+
+while szabo@netcom.com (Nick Szabo) writes:
+
+>* Use of increasing bandwidth for video.  This is being 
+>promoted not due to user demand, but because turning 
+>the NSFNet into an Information Highway pork barrel requires the need 
+>for very high bandwidth "backbones".  Centralization is not 
+>justfied by widespread decentralized use of text, graphics or voice 
+>mail.
+
+Hmm.
+
+Use of video: yes. But use of video over NSFnet? I'll take issue there, 
+because I _think_ video will come for different reasons. In the UK, 
+cable TV is finally being installed -- and they're putting in fibre
+optic links to the street corners, using co-ax only for the last few
+yards to the TV set. 
+
+In the US, I read that the third largest cable-TV company on the Eastern
+seaboard is going to provide a subscriber netnews feed to all its
+subscribers -- presumably over the curren copper core network.
+
+Back in the US again, a friendly hardware hacker at the BBC (who do a
+fair bit of digital imaging work, for obvious reasons) mentioned
+that he knows of people who are trying to get a full newsfeed 
+broadcast over one of their unused satellite channels when the next 
+Astra satellite goes up. It hasn't happened yet, but there was some
+sympathetic interest. The UK is a special case -- a single satellite
+can saturate an area with c. 60 million residents -- but cerainly
+a similar situation can be envisaged in the US if a major broadcaster
+with spare capacity could be convinced to fill it with data rather
+than video.
+
+Here's a hypothesis; even in the age of interactive media, 99.9% of 
+net bandwidth is soaked up by _incoming_ information. Broadcasting
+is a natural model for disseminating a usenet feed. After all, while
+a 2400 baud modem would be swamped by the demands of the near-future's
+100Mb/day newsfeed, a satellite channel could comfortably dump the entire 
+feed in under a minute, and the modem will _certainly_ not be swamped
+by the demands of an outgoing load of, say, 10-20K/day of posts (even
+by an active participant).
+
+So I suspect we are a lot closer to seeing usenet being generally
+available than previous experience may suggest. (Note that I do _not_
+mean the term "available" to be confused with "utilized".)
+
+Then there's World Wide Web. This shows signs of delivering -- albeit
+in embryonic form -- what Ted Nelson has been promising for years with
+Xanadu. We now _have_ a global hypertext system that spans hosts and
+can deliver text and graphics. Future directions involve multimedia;
+given the SGML-derived ancestry of HTML I'd expect to see HyTime adopted
+as the standard (especially when a PD HyTime parser becomes available), 
+but even now the beta-test version of Mosaic for the Macintosh can 
+handle QuickTime movies. I run a World Wide Web client on the net from my
+Mac, over a modem. Want to find out the Library of Congress catalog entry
+for a book? Read the recently published literature on the Bassen-Kornzweig
+Syndrome? Retrieve a piece of shareware? Read netnews? It's all available
+through a single connection-rich interface.
+
+Then there's the cost of getting a net feed. This appears to be dropping,
+and it's not far off an exponential curve.
+
+I live in the UK. Two years ago I decided I wanted a home net connection.
+I investigated, and discovered to my horror that the hardware would cost
+on the order of 1000 UK pounds, and a net feed would cost >2000 pounds
+($3000) per year, plus phone bills.
+
+Six months ago I got my feed. The host was a Mac Classic with a V22bis modem;
+both second hand, costing a grand total of 300 pounds (under $500). The
+feed cost me 15 pounds to sign up, plus a tenner a month: less than a 
+daily newspaper. In return, I got a ppp/slip dial-up link to the internet.
+I've upgraded since then, but the point is the same; if you're a member
+of the anorak brigade a limited usenet feet costs less today than a new 
+TV and VCR in hardware terms, and a daily newspaper in running costs.
+I now have a fast modem and a machine as powerful as a Sun 3/80; I'll
+soon have [I hope] a floptical drive for offline storage. With this kit,
+I should be able to pull in 20-30 newsgroups as easily as today I pull in
+three newsgroups plus email.
+
+My conclusion, which prompted my post: usenet is coming, and it won't
+be NSFnet that's important -- it'll be the small, private hosts that
+matter. 
+
+But how will it look?
+
+Nick predicted, among other attractive propositions:
+
+>* "Talk" and "IRC" bloom into a mind-numbing variety of net-shared 
+>interactive apps with text, voice, still and animated graphics.  Virtual 
+>whiteboard plus voice and muti-user CAD software will spread.  The
+>simple net-sharable interfaces of relational databases, source-code 
+>control systems, etc. get extended to the graphical world of engineering 
+>and artistic design.  MUDs with spreadsheets, on-line markets, etc. etc. 
+>etc.
+
+I'm not sure. 
+
+I think this depends on who the carrier is, and whether the net follows
+the one-to-many or many-to-many broadcast radio/telephone paradigm. (There's
+also a more subtle issue, of client/server versus peer/peer communications,
+which I'll get to later.) The issue for me looks like the balance of
+chanrges for incoming v.s. outgoing messages. If we see stiff charges 
+for outgoing but low charges for incoming, then interactivity will fade; 
+we'll see something like John's pessimistic prediction:
+
+>	I sometimes think that some members of this list (and other
+>	"free-(as-long-as-you-have-money)-market" or "capitalist"
+>	flagweavers) will be the ultimate death of this great
+>	social achievement.  All the good stuff will cost money, the
+>	crap will be free, with commercial interuptions.
+
+MUDs and IRC soak up outgoing bandwidth as much as incoming, when you 
+add interactivity and graphics. It's an essentially real-time occupation,
+and if your IP provider charges by the byte or the minute it will cost
+you dearly. Offline stuff -- batched netnews, WWW searches conducted by 
+knowbot worms using something like DCE to execute on foreign hosts -- costs 
+less in connect time (albeit more in computing resources).
+
+It's worth noting that today business oriented operating systems are driven 
+by connectivity and the open systems shtick. Even Bill Gates has been
+heard to declare that "Windows NT is a kind of UNIX" (!) in an attempt
+to prove MicroSoft's devotion to open systems standards.
+
+I'll stick my neck out and make a prediction. We've seen Nintendo signing
+a strategic alliance with Silicon Graphics, and other weird signs of the
+apocalypse; the hardware market is rapidly homogenizing as consumer demand
+for virtual reality converges with high-end demand for multimedia ready
+scientific visualization systems. Some PC games software actually demands
+more processor resources, and takes up more disk space, than a medium-
+sized UNIX server installation. (Not to mention costing more than the average
+business spreadsheet.) So the hardware barrier between the home and business
+hardware markets is dissolving.
+
+The distinction between systems is moving from hardware into operating systems, 
+as demonstrated when Apple CEO John Sculley (okay, this was early this year :) 
+declared that "within two years Apple will be an operating systems
+corporation with a hardware subsidiary". This showed a rare perception
+that then 386's cost $25 a shot, it's not what you've got but what you
+do with it that counts.
+
+The main battle for the future shape of PC's is moving from the 
+Intel/ACE/Alpha controversy to Windows NT/UNIX/Pink. I suspect that we 
+will shortly see the OS market fission into "home" and "enterprise" 
+operating systems. Ostensibly they will be the same, but in practice their
+functionality will be determined by the clients and subsystems they
+come with; and the differences will be substantial. Windows for 
+Workgroups was the first sign that Windows was fissioning; I think that
+it's possible that Cairo (Windows 4) will appear in Personal and Business
+(Win32 API) versions. The former will have lots of connectivity clients and 
+backward compatability boxes, so that the users can run old stuff like DOS
+on them and connect to commercial services; the enterprise systems
+will focus on high performance and high security, with C2 being seen as
+a lower permissable standard. (Most TCP/IP based systems automatically
+violate the C2 standard, but Kerberos and other network authentication/-
+encryption systems redress the balance.) 
+
+Gradually, the decade of the LAN will give way to the decade of the 
+WAN. Home hardware will be made by Nintendo, 3DO, or whoever wins in 
+the high performance home virtual reality arena, running an operating 
+system that provides network clients with a visualization platform.
+Commercial system will be built by Apple, IBM and the big guys, 
+running high performance object-oriented server systems like Pink, 
+Windows NT Release 2.?, or whatever the next USL release of UNIX (SVR5?) 
+is. Copy protection based on node-licensing systems (that use DCE
+to execute an RPC on a license server host, without which the client
+cannot run) will gradually creep in as standard, gutting the software
+piracy business. Home PC developments will gradually drop back to 
+built-in obsolescence and styling exercises while performance remains
+static at a level just high enough to support real-time photorealistic
+rendering. Business systems, in contrast, will go massively parallel
+and performance will continue to follow the curve of decreasing chip
+fabrication sizes, decreasing power consumption, and increasing speed.
+
+The reason for this is that home systems don't need security, or servers,
+or [much] real-time responsiveness, but corporate information providers
+do. Those who have security have a position of strategic informational
+superiority from which to leverage their profit-making enterprises at 
+the expense of others. (Note: I see this kind of commercial enterprise
+not as a positive-sum game, creating wealth, but as a zero-sum gain,
+sequestrating other people's money through a process of monopolizing
+information.) If we're not lucky, if the net grows as slowly as Nick suggests,
+I think we'll see a future in which 99% of the population have internet 
+access -- and 99% of them use it to load the license modules of their 
+Nintendo games or spreadsheets, paying by direct debit over the net. The
+telcos may contribute by charging for telephone calls by the byte, thus
+discouraging private citizens from making use of the new broadcast media.
+And so, a one-to-many broadcast paradigm mediated by large scale IP's may
+evolve.
+
+On the other hand, if access to the net becomes generally available in <5 
+years, many users will become habituated to the current anarchic freedom 
+_before_ the corporate client/server model is sufficiently generalized 
+throughout the home computer market to suppress the "spirit of usenet".
+Group hobbyist projects like Linux will provide home users with commercial
+-grade software, free of charge. (Clue: I know some of the guys who wrote
+bits of Linux. They say it looks great on their CV's when they go for job 
+interviews ...) Hardware for the next generation could be as much an
+off-the-shelf item as it is today; there are encouraging signs, like Apple
+licensing the Newton architecture, Sun proposing the SPARC as an IEEE
+standard, and proposals to turn PCMCIA into a general-purpose bus 
+architecture to add small peripherals to PC's. If Nintendo can't move
+upmarket from their current near-monopoly on the games industry, or if
+they can only do it at the expense of adopting open systems, or if 
+MicroSoft goes the way of IBM, then the field's wide open for a global
+internet based on peer-to-peer networking rather than a commercial
+client/server model.
+
+Prophetic sign of the times: watch what happens when the dreaded TCP/IP
+address space dragon finally forces itself upon the net. Some way will
+have to be found to extend the 2^32 possible internet nodes; or it will
+be necessary to drop TCP/IP and switch to an OSI-based protocol instead.
+I predict that if the TCP/IP replacement relies on some kind of central
+or distributed node-registration authority, rather than the current domain-
+registration system, things may begin to look a little oppressive.
+
+Of course, this may not be in our hands. Because, as Nick says:
+
+>* Spread of Internet to Third World countries.  Look for 100,000's
+>of sites and millions of users in India and China in 2000. 
+>
+>* Many engineers and most programmers will be working for an overseas 
+>employer by 2010, albeit describing an employer as "overseas" will have
+>become less meaningful.  
+
+Yourdon observed in a recent book (wasn't it, The Decline and Fall of the
+American Programmer?) that it's far cheaper to hire sweated third world
+labor -- and if they speak english they can be very useful as programmers.
+I will go further and state that I believe a lot of the reason the net
+has grown to its present state is because it is the product of a wealthy
+community of nations, whose citizens have sufficient money and free time
+to indulge in troublemaking, hacking, and the creation of brilliant,
+publicly available utilities: moreover, a net shaped by citizens with a
+general cultural comittment to freedom of speech and action. A net shaped 
+by corporations employing impoverished, overworked labor from third-world 
+nations with oppressive governments (like the UK :) would be a very 
+different net.
+
+What are the geopolitical corollaries of internetworking? When, and how,
+will governments interfere? And is there any chance of preserving and 
+expanding what has got to be, already, the largest, oldest, self-
+sustaining anarchist system in the world?
+
+
+-- Charlie
+Charlie Stross is charless@scol.sco.com, charlie@antipope.demon.co.uk
+
+------------------------------
+
+Date: Mon, 27 Sep 1993 18:37:47 -0400
+From: tburns@gmuvax.gmu.edu (T. David Burns)
+Subject: PPL: Lloyds and crypto-anarchical insurance
+
+At  1:18 AM 9/27/93 -0700, Nick Szabo wrote:
+>Tax insurance would serve both to hedge risk and 
+>to dissiminate information on offshore banking, judgement proofing,
+>etc. to the $trillions worth of potential customers worldwide.
+>This information channel would have much higher bandwidth than
+>the current system of whispered trade secrets and high-fee 1-on-1 
+>consulting by a wide variety of uncoordinated agents.  Tax insurance 
+>would provide one-stop, risk-hedged access to tax freedom.
+
+Is there a problem in making this information more easily available? That
+makes it easier for congress and IRS to take countermeasures. Or are we
+assuming they know how their enemies operate? I should go look up what
+Harry Browne wrote on this, he had some nice insights as I recall. 
+
+Dave Burns
+tburns@gmuvax.gmu.edu (T. David Burns)
+
+
+------------------------------
+
+Date: Mon, 27 Sep 93 15:43:05 PDT
+From: mlinksva@netcom.com (Michael R Linksvayer)
+Subject: BASICS: Death
+
+Elias Israel writes:
+> Daniel Green writes:
+> > Then you would consider me dead even if a complete map of my
+> > neural state had been saved onto a CDROM sitting in a safe
+> > after my body had had broken down and then been cremated?
+> 
+> I would.
+
+I would say he's dead, with the possibility of reanimation.
+
+> A creature created from that CDROM, no matter how stridently they
+> claimed it, wouldn't really be *you*, in my opinion. Maybe it's a
+> conceit, but I think that the *me* that I am today is not separable
+> from this body, because mind and body are not separate. At best, the
+
+I think I agree that mind and body, at this point, are not separate.
+This does not mean that they are inseparable.
+
+> creature would be someone very much like me, but the person typing this
+> message today would still be just as dead, just as incapable of
+> experience. For this reason, I have serious doubts about uploading as a
+> path to immortality. I think of it as a way of leaving behind my memes,
+> perhaps as a way of having the ultimate child: one you *know* will
+> follow in your footsteps, but I don't think that it really thwarts the
+> grim reaper.
+
+This really has nothing to do with the points made by Elias in the text
+quoted above, but I must object to the use of the word 'immortality' by
+any extropian. It just makes us sound silly. What is forever? What we
+really want is indefinite life, where we decide when we cease to exist
+(suicide, radical transformation that 'destroys' the previous self,
+death as the result of taking a calculated risk) rather than allowing a
+disease, old age, or some other entity decide for us.
+
+Now, on to Elias' point, what is death? To a primitive, a suspendee or
+uploadee is dead, end of story. To one who sees life as information, it
+is not the end of the story. It just depends on one's perspective.  Is
+a once dead, suspended, then uploaded entity *really* dead? Who cares?
+If I find myself in that position, I won't worry about it. I'll go on
+living.
+
+> Some will offer a "softer" version of uploading by proposing something
+> like the Star Trek scenario we saw this weekend: gradually substitute
+> neurons with nanocomputers until you're more of the latter than the
+> former. I have two objections to this idea: first, if you have a
+> bicycle and you replace all of the parts, is it still the same bicycle?
+> My answer: no. Second, this seems a relatively expensive way to
+> transition from humans to post-humans. Nature has a more efficient
+> means: kill off the obsolete. I expect that post-humans will be our
+> descendants, not ourselves.
+
+Oh come on. Am I 'the same' Mike Linksvayer I was twenty years ago,
+even though all of the atoms are different? Depends on what one means
+by 'the same.' No, I'm not the same Mike Linksvayer. I'm a very
+different Mike Linksvayer. However, I'm still Mike Linksvayer.
+
+I have no idea if gradual replacement is relatively expensive, but it
+may not matter. Humans may prefer gradual replacement, and when
+uploading becomes viable, humans, not as yet uncreated entities, will
+control most of the wealth.
+ 
+> Does this make me a deathist? Some might say so, but I disagree. I know
+> I might be wrong. For example, in the future we might not choose to
+> define identity the way we do today. Or, other possibilities may
+> present themselves. (As an aside, I find it a little amusing for people
+> convinced they'll never die to deride people who disagree as
+> "deathists." Surely, being convinced of your own immortality is
+> evidence of at least as much preoccupation with death as anyone else.)
+> Still, with today's understanding, I can't see much hope for beating
+> Thanatos at a game he's had a long time to perfect.
+
+I do not deride those who wish to die or who do not think I'll manage
+to survive beyond my 'natural' lifespan as deathists. I reserve that
+term for those who try to make the means of life extension illegal, or
+who claim that I must die, for the good of the planet, society, or
+whatever.
+
+--
+Mike Linksvayer   mlinksva@netcom.com   MLINK on HEx
+
+------------------------------
+
+Date: Tue, 28 Sep 93 00:11:22 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: philosophitis
+
+Since James Donald hasn't posted his non-operational definition of
+electron spin let me point people at the excellent discussion of the
+Stern-Gerlach experiment in the Feynman Lectures.  Spin is observed as
+the quantisation of angular momentum.  An electron's spin, which is
+quantised into two states (up or down, relative to the applied magnetic
+field direction), determines the angular deflection of an electron as
+it passes through an inhomogeneous magnetic field.  In flipping from one
+spin state to the other the electron absorbs or releases a quantum of
+conventional orbital angular momentum.  This transference of angular
+momentum between orbital and spin states is necessary to conserve total
+angular momentum.
+
+Don't let all this talk of science obscure the reason why James is so
+hostile to the economy of concept and precision of language that
+operationalism engenders.  He knows that under its probing beam that
+natural law and the divine right of kings will be exposed for what it
+is.  James thinks that rights are derived from the "kind of animals that
+we are", the interpretations of which are endless.  He would be better
+advised to examine how to derive rights from the way people interact
+with eachother, which is more amenable to scrutiny and measurement via
+market forces, protection agencies, insurance, PPLs etc.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Mon, 27 Sep 1993 19:14:31 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: DisappointNet and the PostModern world order 
+
+Charlie Stross says:
+> Use of video: yes. But use of video over NSFnet? I'll take issue there, 
+> because I _think_ video will come for different reasons.
+
+Video is already being sent over NSFnet. Has no one been paying
+attention?
+
+The Information Superhighway is a real need, folks. It is a need
+already being filled by the private sector. I can, and likely will
+soon, get a 10Mbit/second link for my company directly into the net.
+Its real cheap, too, if you happen to be at a metrofiber site here in
+NYC.
+
+> In the UK, cable TV is finally being installed -- and they're
+> putting in fibre optic links to the street corners, using co-ax only
+> for the last few yards to the TV set.
+> 
+> In the US, I read that the third largest cable-TV company on the Eastern
+> seaboard is going to provide a subscriber netnews feed to all its
+> subscribers -- presumably over the curren copper core network.
+
+Copper is not what the network looks like. Here in NYC, Time-Warner's
+local cable division, Manhattan Cable, has fiber to every block.
+
+> Back in the US again, a friendly hardware hacker at the BBC (who do a
+> fair bit of digital imaging work, for obvious reasons) mentioned
+> that he knows of people who are trying to get a full newsfeed 
+> broadcast over one of their unused satellite channels when the next 
+> Astra satellite goes up. It hasn't happened yet, but there was some
+> sympathetic interest.
+
+This has already been tried -- see the failed "Stargate" system. No
+one wanted it, or at least not enough people to make it work. The
+market said no.
+
+> Here's a hypothesis; even in the age of interactive media, 99.9% of 
+> net bandwidth is soaked up by _incoming_ information. Broadcasting
+> is a natural model for disseminating a usenet feed. After all, while
+> a 2400 baud modem would be swamped by the demands of the near-future's
+> 100Mb/day newsfeed, a satellite channel could comfortably dump the entire 
+> feed in under a minute, and the modem will _certainly_ not be swamped
+> by the demands of an outgoing load of, say, 10-20K/day of posts (even
+> by an active participant).
+
+Why should I use a 2400 baud modem when I can now get my hands on
+ISDN? Soon, ISDN will be obsolete, since some carriers are now talking
+about offering 10Mbit service to ordinary subscribers over a
+metropolitan network set up over their existing fiber systems.
+
+Look for this development soon: the destruction of conventional cable
+TV, and the return of the "bookstore" paradigm for entertainment. Why
+should I buy a 24 hour package of programming in a silly container
+like a "channel" when I can just download any program I like at any
+time? I can download the morning news from "The Economist on Video",
+get a movie any time I like, see idiotic sitcoms or intelligent
+theater when I feel like it, etc. The studios, networks, and other
+organizations who base their power on the capacity to distribute
+entertainment to a limited number of outlets will be destroyed as a
+guy in a basement somewhere gets the same power of distribution that a
+major network does....
+
+Perry
+
+
+------------------------------
+
+Date: Mon, 27 Sep 93 18:15:50 CST
+From: "Daniel S Goodman-1" <dsg@maroon.tc.umn.edu>
+Subject: Reading cure for Objectivism
+
+I would suggest reading:  John Stuart Mill, _On Liberty_; easily 
+available.  Josiah Warren, _Equitable Commerce_ -- you'll almost certainly 
+have to look in a library for this one.  Warren is the only person I know 
+of who actually set up an individualist anarchist community (in the 19th 
+century, which is why you haven't read about it in recent newspapers).
+
+In fiction, one possibility is _Escape to Witch Mountain_ by Alexander Key 
+(I think I've got the name right.)  I don't think much of the anti-statism 
+came through in the Disney version....
+
+It might also be useful to go to a very well-stocked library and read the 
+political magazines -- all of them.  Or at least glance through them.  
+
+Dan Goodman dsg@maroon.tc.umn.edu
+
+------------------------------
+
+Date: Mon, 27 Sep 93 18:21:51 CST
+From: "Daniel S Goodman-1" <dsg@maroon.tc.umn.edu>
+Subject: Come buy books?
+
+On Fri, 24 Sep 93 00:53:49 -0700, Kennita Watson wrote:
+
+>Armed with a list of nearly 40 books/authors to consider (I'll post a
+>consolidated list sometime soon), and blessed with a blank calendar
+>for the weekend, I plan to divest myself of some time and money in
+>Palo Alto used bookstores this Saturday.  Anybody care to join me?
+>
+>Kennita
+>
+If none of them appeal to you, you can always declare yourself a chapter of 
+the John Lilburne Society.  (Lilburne lived around the time of the English 
+Civil War; before, after, and during, he managed to offend every government 
+of England at the time.  He wrote pamphlets denouncing all the politicians 
+he had ever heard of, and one denouncing his wife.)
+
+Dan Goodman dsg@maroon.tc.umn.edu
+
+------------------------------
+
+Date: Tue, 28 Sep 1993 1:30:54 +0100 (BST)
+From: Charlie Stross <charless@sco.com>
+Subject: DisappointNet and the PostModern world order 
+
+A being alleged to be "Perry E. Metzger" <pmetzger@lehman.com> writes:
+>	
+>	Charlie Stross says:
+>	> Use of video: yes. But use of video over NSFnet? I'll take issue there, 
+>	> because I _think_ video will come for different reasons.
+>	
+>	Video is already being sent over NSFnet. Has no one been paying
+>	attention?
+
+Uh, I think I truncated the earlier post too early. I was talking about
+the growth of the net, and what would be its shape over the next few
+years. That video is sent over NSFnet and is a major justification for the
+expansion of same is not an issue. That video will be the main cause of
+growth in the net is another species of fish. NSFnet <> Internet!
+
+>	The Information Superhighway is a real need, folks. It is a need
+>	already being filled by the private sector. I can, and likely will
+>	soon, get a 10Mbit/second link for my company directly into the net.
+>	Its real cheap, too, if you happen to be at a metrofiber site here in
+>	NYC.
+	:	
+>	Why should I use a 2400 baud modem when I can now get my hands on
+>	ISDN? Soon, ISDN will be obsolete, since some carriers are now talking
+>	about offering 10Mbit service to ordinary subscribers over a
+>	metropolitan network set up over their existing fiber systems.
+
+Well yeah, but I think you're missing a critical point. I'm talking about the 
+internet's impact on the general public, and Joe Schmoe <> Perry Metzger. 
+It is estimated that something like 70% of the _installed_ base of UNIX boxes
+are still communicating by UUCP at 1200 baud. Why? Well, the owners -- 
+mom'n'pop businesses running Xenix, for the most part -- don't need, or don't
+see the need for, anything better. The online services -- like
+Compu$erve -- are still pretty much limited to V32 or V32 bis. I know
+there're these real neat protocols for pumping 1.2 Mbits/sec over twisted
+pair from the telephone exchange, and when the fibre optic cable TV 
+companies are allowed to convey phone services the bandwidth will go
+through the roof -- but do you really believe that in the short term
+(3-5 years, which was what my initial post was talking about!) J. Random
+Consumer is going to shell out for a 10 mbit/sec _data_ service, as
+opposed to fifty more channels of cable TV? Sure they'll want fibre
+for the eye candy -- but the people crying out for high-res video over
+WAN today are the people who fund NSFnet, for whom NSFnet is provided. Until
+Nintendo turn VR into a commercial entertainment medium that is mature enough
+to go multiuser, the general public may have difficulty seeing the need for
+high bandwidth datacomms that go out of the house, as well as in.
+
+(BTW, I just noticed that I made a critical typo in my last post, when I 
+mentioned that some guys were thinking about bunging out usenet via satellite; 
+I spelled "UK" as "US". Call it subliminal confusion, as I'm posting this
+from Santa Cruz rather than London. Hope it didn't confuse you -- what's 
+being proposed is nothing like Stargate.)
+>	
+>	Look for this development soon: the destruction of conventional cable
+>	TV, and the return of the "bookstore" paradigm for entertainment. Why
+>	should I buy a 24 hour package of programming in a silly container
+>	like a "channel" when I can just download any program I like at any
+>	time? I can download the morning news from "The Economist on Video",
+>	get a movie any time I like, see idiotic sitcoms or intelligent
+>	theater when I feel like it, etc. The studios, networks, and other
+>	organizations who base their power on the capacity to distribute
+>	entertainment to a limited number of outlets will be destroyed as a
+>	guy in a basement somewhere gets the same power of distribution that a
+>	major network does....
+
+Yes, definitely!
+
+By the way, here's another proposition. Take the current state of the art
+in realtime photorealistic rendering and animation. Extrapolate the curve
+of decreasing prices. How long will it be before you and I can go forth and
+spend $5000 for a system capable of scripting, rendering, and cutting on
+videotape a TV-quality animation equivalent to the dino-sequences from
+"Jurassic Park", but including human animation?
+
+I did this calculation three years ago and came out with a target in the
+range 1998-2003. But looking at the ads for the SG Indy, I'm beginning to
+think I was pessimistic.
+
+Extrapolating from current developments (MIME, HyTime) we may be a matter of
+months away from seeing newsgroups devoted to multimedia postings, and
+little further away from seeing groups where instead of flat text postings
+consist of MPEG-compressed home videos, both camera-captured and scripted.
+Maybe usenet will turn into the public access TV of the 21st century? Now
+_there's_ a horrible thought ...
+
+
+-- Charlie
+	
+>	Perry
+>	
+Charlie Stross is charless@scol.sco.com, charlie@antipope.demon.co.uk
+
+------------------------------
+
+Date: Mon, 27 Sep 93 17:45:44 -0700
+From: cappello@cs.ucsb.edu (Peter Cappello)
+Subject: Congratulations!
+
+Our own Sandy Sandfort has an article in Wired: "The Intelligent  
+Island?" 1(4), September/October 1993):52-55).  
+
+
+Its citation and summary are included in Current Cites (4(9), Sep.  
+1993).  Current Cites, in turn, is distributed through PACS-P  
+(Public-Access Computer Systems Publications), an email list sent to  
+a wide variety of information systems professionals (e.g.,  
+professional librarians).  This means that many people, even those  
+who do not get Wired, now are aware of Sandy's article.  
+
+
+Congrats Sandy!
+
+-Pete
+
+
+------------------------------
+
+Date: Tue, 28 Sep 93 01:37:32 GMT
+From: sjw@liberty.demon.co.uk (Stephen J. Whitrow)
+Subject: extropian vices
+
+>> Small flattened *HEAVY* furry animals...  anyone know how to calculate the
+>> surface gravity of a Jupiter-sized sphere with density approximately that of
+>> diamond?
+
+>  Lessee, gravitational force goes as M/(R**2), but mass scales as R**3, so
+>overall the scaling is linear in R.  Jupiter's R is about 10 times Earth's,
+>and I *think* I remember that diamond's density is low compared to Earth's
+>average density.  So my off-the-cuff estimate is that Perry's brain will
+>have surface gravity of 5 to 10 gees.
+
+>  I will tempt fate by posting this without checking it...
+
+>                                     -- Jay Freeman
+
+My calculations seem to agree rather nicely with the above.
+
+Density of water @ 4C (specific gravity = 1) = 1000 kg / m^3
+
+Density of diamond (specific gravity = 3.5) = 3500 kg / m^3
+
+Radius of Jupiter (Rough av. of equatorial & polar) = 7E7 m
+ .
+. . Volume of Jupiter = (4/3)pi(7E7^3) = 1.44E24 m^3
+ .
+. . Mass of Jovian diamond = 5E27 kg
+
+ag = Mc^2/(2R^2b) where b is the universal mass/space ratio of
+                                           6.8E26 kg / m
+(Well, we use c, so why not something a bit more natural than 'G'?)
+ .
+. . For Jovian diamond, acceleration due to gravity = 67.44 m / s^2
+                                                      ----- 
+                                                    = 6.87g   
+                                                      -----
+
+If the furry animals want to escape:-
+
+Ve = sqrt(Mc^2/Rb) = 97,200 m / s
+
+Steve Whitrow                           sjw@liberty.demon.co.uk
+
+------------------------------
+
+Date: Mon, 27 Sep 93 21:09:28 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: BASICS: Death
+
+ Elias sez that even if you "soft uploaded" by adding implants which gradually
+take over the function of biological cells it still wouldn't be _you_ I assume
+this can be extended to the molecule-at-a-time slow-replacement scenario. If
+this is so, what is the physical reason? Are you claiming that the matter
+in your brain has a unique quantum state apart from generic elements? This
+isn't consistent with physical theory. (e.g. one electron/proton/atom is
+just as good as any other)
+
+  If I secretly replaced a single carbon atom in your brain with another,
+would you no longer be the same person? What if I replaced 1 atom per year?
+per second? per nanosecond? What rate of transformation is required for
+the operation to produce a "non-you?"
+
+  What happens when your natural chemistry starts replacing materials
+in your brain?
+
+  Your viewpoint would also negate cryonics. The revived person
+wouldn't be you since the repair process will probably exchange lots of
+matter.
+
+  I think the arguments against pattern-identity on this list are dangerously
+close to dualism.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Mon, 27 Sep 1993 20:10:24 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: etymology of anarchy
+
+Paul Whitmore mentions Marc Shell's question: Why did philosophy,
+tyranny, and coined money begin in the same time and place?
+
+Are you sure it did? Tyrrany only began near philosophy if you
+use the narrow greek meaning of the word (a revolutionary, sometimes
+democratic, despot). Coined money began, apparently in Asia Minorm
+, I thought... (close to Greece, but also close to the Hittites,
+etc...)
+
+
+So Philosophy and Tyranny started in Greece mainly due to the definition
+of tyranny; I'm sure by modern standards many pre-greek societies were
+tyrannical. Whether Ionia or Lydia owe more to Greece or Asia is a 
+good question... (rather two separate questions...)
+
+Anyway, could you rephrase the question, maybe?
+
+pgf
+
+------------------------------
+
+Date: Mon, 27 Sep 1993 18:33:28 -0700 (PDT)
+From: jfitz@techbook.com (John Fitzpatrick)
+Subject: BOOKS: by Stonier
+
+Information and the Internal Structure of the Universe
+Tom Stonier
+Springer-Verlag, 1990, 0-387-19599-8
+ 
+"...all forms of energy other than heat exhibit, or are dependent
+upon some sort of organization or pattern in respect to space or
+time."
+ 
+"Potential energy is a term which describes a process in which the
+expenditure of energy has brought about a change in the
+organizational state of a system such that its information content
+has increased."
+ 
+"One entropy unit equals approximately 10^23 bits/mole."
+ 
+"Living systems are energy transducers which use information
+1. to perform work more efficiently,
+2. to convert one form of energy into another, and
+3. to convert energy into information."
+ 
+"Is it possible for entropy to exist in a negative state, and
+if so, what is negative entropy?"
+ 
+Stimulating thoughts.  Does anyone on the list care to comment?
+
+-- 
+John K. Fitzpatrick                        (not affiliated with techbook.com)
+jfitz@techbook.com
+Your part in the dance is to disapprove of my part in the dance. - Bela Bartok
+
+------------------------------
+
+Date: Mon, 27 Sep 1993 20:37:55 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: etymology of anarchy
+
+>How probable is this? I find it more likely that the
+>permanent recording of philosophy and the history of
+>tyranny began around the same time money was first coined.
+
+Perhaps there's a Hofferian train of Coinage -> Widespread
+Trade -> Widespread Traders -> Widespread literacy and recording
+of history?
+
+pgf
+
+------------------------------
+
+Date: Mon, 27 Sep 93 18:42:19 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: extropian vices
+
+> Density of diamond (specific gravity = 3.5) = 3500 kg / m^3
+
+Ah, anybody know the bulk modulus of diamond?  (Would you believe
+my CRC doesn't?)  Actually, diamond may not be the stable phase
+at the center of this thing.  I don't have a phase diagram for
+carbon that goes to very high pressures, but extrapolation suggests
+liquid carbon at moderate temperatures once we reach the megabar
+range.  What's the pressure in the center of Jupiter anyway?
+
+> Steve Whitrow                           sjw@liberty.demon.co.uk
+
+   Eli
+
+------------------------------
+
+Date: Mon, 27 Sep 1993 20:42:57 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: AGITPROP: Robin Hood (was: Lloyd's)
+
+Just thought I'd mention on a side note to Tim Hruby's message
+where he talks about democracies and their "Robin Hood" ethics:
+
+Didn't Robin Hood steal from Tax Collectors and give to the taxed?
+
+Doesn't have anything whatsoever to do with the faults of modern
+democratic socialism, does it?
+
+Isn't it about time we reclaimed this proto-anarchist as one of our
+own?
+
+Phil
+
+------------------------------
+
+Date: Tue, 28 Sep 93 00:56:32 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: BASICS: Death
+
+Elias Israel:
+> 
+> A creature created from that CDROM [backup] ... wouldn't really
+> be *you*, in my opinion.
+
+Some questions.  Is this true no matter how good the fidelity?  What
+about if the backup is made, down to atomic precision, *after* you've
+passed into unconsciousness (ie copied whilst in coma, but before
+information death) and the revivee, built from the data, is returned
+to awareness by some trivial biochemical interference (say, a 
+stimulant)?
+
+If your answer is that the copy still isn't you, how could you test this
+idea?  What test could reveal the identity of the revivee?  If the
+answer is no test can reveal this (ie you need to know the history of
+the individual's constituents to determine identity) then aren't you
+arguing that there's a difference where there's no difference, if you
+see what I mean?
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+End of Extropians Digest V93 #270
+*********************************
+

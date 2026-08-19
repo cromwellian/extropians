@@ -1,0 +1,945 @@
+From extropians-request@extropy.org Thu Sep  9 16:26:05 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA02148; Thu, 9 Sep 93 16:25:32 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA19325; Thu, 9 Sep 93 16:25:00 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA04105
+  (5.65c/IDA-1.4.4 for more@usc.edu); Thu, 9 Sep 1993 19:18:14 -0400
+Date: Thu, 9 Sep 1993 19:18:14 -0400
+Message-Id: <199309092318.AA04105@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: September 9, 373 P.N.O. [23:18:06 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Thu, 9 Sep 93             Volume 93 : Issue 251
+
+Today's Topics:
+                                Crypto Visions                        [1 msgs]
+                       Cypherpunks: political or what?                [1 msgs]
+                               ECON: digicash?                        [2 msgs]
+                        Even MORE for the horror file                 [1 msgs]
+                           HUMOR: "Elvis Shrugged"                    [1 msgs]
+                              Horror file again                       [1 msgs]
+                           More for the horror file                   [1 msgs]
+              Offense vs. defense: fundamental politcal insight       [1 msgs]
+                              PHIL: Ethics etc.                       [2 msgs]
+                              PHIL: Ethics etc.                       [1 msgs]
+                            POLI:gossip & privacy                     [1 msgs]
+                           POLL: Singularity speed                    [1 msgs]
+                   The Idea of Free Speech is Slipping Away           [1 msgs]
+                                    The LP                            [1 msgs]
+                               human population                       [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52700 bytes.
+
+----------------------------------------------------------------------
+
+Date: Wed, 8 Sep 93 23:32:07 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Offense vs. defense: fundamental politcal insight
+
+Paul BaClace: 
+> The relative cost-effectiveness of defensive and offensive technology is
+> important...
+> 	dD/dO   { delta Defensive weapon cost / delta Offensive weapon cost }
+
+This key insight should be used as a central tenent of political action,
+hopefully in most cases substituting peaceful "munitions" like
+cryptography, contracts, and free markets for weapons.  This
+insight has some very critical near-term applications; it need
+not be confined to the fun but speculative discussions of "nanarchy".
+For example, encryption and traffic-analysis-defeating remailers 
+make violation of information privacy orders of magnitude more 
+difficult than current methods (wiretapping, searching physical mail,
+grepping cleartext e-mail spool files, etc.).  Much political
+power is based, in one way or another, on the ability to snoop.
+
+Nick Szabo					szabo@netcom.com
+
+------------------------------
+
+Date: Thu, 9 Sep 93 03:36:14 -0400
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: More for the horror file
+
+Article 477 of clari.nb.trends:
+Path: ai-lab!bloom-beacon.mit.edu!news.kei.com!ub!decwrl!looking!newsbytes
+From: newsbytes@clarinet.com
+Newsgroups: clari.nb.trends
+Subject: Smart Cards Under Consideration For UK 09/08/93
+Keywords: Bureau-LON
+Date: 8 Sep 93 19:51:42 GMT
+Message-ID: <NB930908.11@clarinet.com>
+Approved: cn@clarinet.com
+Lines: 41
+
+ST PAUL DE VENCE, FRANCE, 1993 SEP 8 (NB) -- Colin Coxall, the City
+of London's Assistant Commissioner, has revealed that smart card
+technology is being considered as the basis of a national ID card
+system for use in the UK.
+
+Coxall, who is also the chairman of the Association of Chief Police
+Officers' technical and research computer group committee, speaking
+at a Unisys conference in St Paul de Vence in the south of France,
+said that suspects could be much better identified if a smart card
+ID system were in place. He added, however, that it will be up to
+each individual country to decide whether to accept the cards.
+
+Civil liberties groups are against the introduction of the cards.
+John Wadham of Liberty's legal office, said that anyone who does not
+conform to the norms of society is at risk from this type of
+technology. "Vagrants, travellers or racial minorities would be
+harassed to produce their cards and would be the first to be
+detained if they could not,' he said.
+
+Wadham noted that tests of "smart card" ID cards have already
+started in France and the US. In the Netherlands, regular travellers
+passing through Amsterdam's Schipol Airport can apply for a similar
+card for rapid clearance through security. The card contains an
+electronic image of the traveller's palm print, which can be checked
+using a portable reader by security staff.
+
+Coxall is in favour of this type of technology, since every person's
+palm print is different. Short of hacking off someone's hand at the
+wrist, the chances of the palm print ID card being forged are very
+small. "A palm print card could be easily scanned and a person's
+identity quickly verified,' he said, stressing that such a card
+system may not be made compulsory.
+
+Coxall's comments come just as Leicester University has published
+the results of a survey into the viability of ID cards. According to
+the University's findings, 78 percent of the British public would
+accept ID cards as an aid towards preventing terrorism.
+
+(Steve Gold/19930908)
+
+
+
+
+
+------------------------------
+
+Date: Thu, 9 Sep 93 03:36:53 -0400
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Even MORE for the horror file
+
+Article 1082 of clari.nb.telecom:
+Path: ai-lab!bloom-beacon.mit.edu!news.kei.com!ub!decwrl!looking!newsbytes
+From: newsbytes@clarinet.com
+Newsgroups: clari.nb.telecom
+Subject: UK Police Raid Adult BBS Service 09/07/93
+Keywords: Bureau-LON
+Date: 7 Sep 93 19:51:45 GMT
+Message-ID: <NB930907.26@clarinet.com>
+Approved: cn@clarinet.com
+Lines: 46
+
+ATTLEBOROUGH, NORWICH, ENGLAND, 1993 SEP 7 (NB) -- Police have
+raided the home of an unknown man in Attleborough, a small village
+near Norwich, confiscating his computer, software, modem and compact
+disc read only memory (CD-ROM) drive, as well as several CD-ROM
+discs.
+
+Newsbytes understands that the man, who has not been named, was
+running a CD-ROM-based BBS with adult pictures on a BT premium rate
+(0891) phone line. No charges have been made.
+
+Local police, apparently acting on an anonymous tip-off from a
+concerned parent, were joined by detectives with Manchester's
+obscene publications squad, raided the house in Attleborough,
+confiscating 12 CD-ROM discs.
+
+Although no charges have been made against the unnamed operator of
+the BBS in question, police say that they are concerned about the
+number of similar incidents. They claim that the problem has been
+discovered in the US, but is now starting to appear on this side of
+the Atlantic.
+
+Because of the nature of the case, Newsbytes understands that the
+file on the matter will be passed to the Crown Prosecution Service
+once all the data has been assessed, in order that a decision on
+whether to prosecute can be made.
+
+The Commons Home Affairs Select Commute will investigate the problem
+of computer pornography, at the suggestion of Emma Nicholson, MP,
+when it returns this autumn after the summer recess.
+
+Newsbytes sources have discovered that the 12 discs in the police's
+possession were almost certainly sourced through the US. Inspector
+Robert George of Thetford Police in Norfolk said that his officers
+were sorting through the material gathered during the raid, but
+added that it could take up to six weeks before all the material had
+been viewed and a decision on how to proceed is taken.
+
+Press reports on the incident suggest that no child pornography or
+bestiality is on the discs, but the material is still not suitable
+for public consultation. Police say that details of the BBS were
+advertised through other BBSs, rather than on a direct to public
+basis.
+
+(Steve Gold/19930907)
+
+
+
+
+
+------------------------------
+
+Date: Thu, 9 Sep 93 3:40:58 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Horror file again
+
+   I just heard a quote from a government official at the justice department
+(anti-trust division) who said "the problem with Microsoft is that they are
+too successful." (BTW, The Europeans are now looking to punish 
+Microsoft because of their so-called "competitiveness" laws. Looks like
+it's time for Rand's "Equalization of Opportunity" bill to be passed
+into law.)
+
+   What was that Clinton said about not punishing success?
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Wed, 8 Sep 93 23:03:00 -0500
+From: michael.morgan@ehbbs.com (Michael Morgan)
+Subject: human population
+
+On 09-08-93  16:17, Smo@gnu.ai.mit.edu wrote to Michael Morgan
+regarding: "human population"... 
+
+Sm> As I am sure you're aware, the words to cause concern in the quotes
+Sm> above are "our" and "control."
+
+I used 'our' to indicated a planet-wide species. That is what we are
+aren't we?
+
+Sm> The point is there is not a lack of real space, nor is there a lack of
+Sm> resources.  If there were a lack of space or resources then the costs 
+Sm> of bringing new children into the world would be the only disincentive
+Sm> needed to reduce population growth.
+
+I disagree. It seems apparent that our bilogical programming will
+cause us to procreate more when stressed. Overpopulation is a
+stress.
+
+Sm> As has been mentioned, real cost of resources are at an all-time low,
+Sm> if there were a shortage this would not be the case.
+
+I agree with that. If/when a nanotechnological event occurs almost
+everything will have a different value (as if it didn't have a new
+value everyday). I don't think it matters that prices fall if I
+can't purchase what I need/want because I don't get paid enough.
+
+You see, I'm experiencing that right now. I was laid off a $40k per
+year job and was damn luck to find anything close to 2/3rds that in
+the first year. I know a great deal of people who get a lot less.
+None of them can afford a new car, a vacation or even a better
+computer system.
+
+Sm> And what happens when some bright extropian soul sells those
+Sm> starving peasants weapons suitable to take your resources? 
+
+Sm> Why would they buy weapons when they could buy food?  
+
+Seems like that's the choices some 'warlords' in Somolia have
+chosen. It doesn't take a bright extropian soul to figure out that
+he who has the guns gets the gold and food. I'm sure someone with an
+agenda, extropian or not, will make money off the effort.
+
+First Extropian Gunrunner
+
+... Schmidt's Law: If you mess with a thing long enough, it will break.    
+--- Blue Wave/QWK v2.10
+
+----
++---------------------------------------------------------------------------+
+| Ed Hopper's BBS - Home of uuPCB - Usenet for PC Board                     |
+| Node 1 - USR HST - 404-446-9462    Node 2 - V.32bis - 404-446-9465        |
++---------------------------------------------------------------------------+
+
+------------------------------
+
+Date: Thu, 09 Sep 93 11:51:55 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: POLL: Singularity speed
+
+In the Nanarchy debate some well reasoned posts have argued that the
+onset of the nanotech singularity may be gradual process, similar to
+other technological revolutions and obeying the usual laws of economic. 
+Other excellent posts have argued that the nanotech Breakthrough (Nick's
+phrase) comes as a big bang, without precedent in history.
+
+So come everybody, speak up!  What do you think?  Send in your votes and
+I'll publish the anonymous totals in a week or two.  To keep things
+simple send it to me (for the purposes of the vote at
+"poll@price.demon.co.uk") with the above subject and a quick/slow/other
+indicator (either in subject or body).
+
+I will collate the totals into:
+
+A)   QUICK: I expect a rapid transition into full-blown nanotech
+     replicators/general assemblers/AIs in which local centres acquire
+     a large advantage over less advantaged areas.  The traditional
+     picture of the Singularity.  The non-uploaded population is
+     essentially disenfranchised "overnight" by the relative
+     slowness/simplicity of their mental processes compared with the AIs
+     or uploadees.
+
+B)   SLOW:  I expect nanotech to be adopted gradually and to more fit
+     the pattern of previous technological/industrial/economic changes
+     (eg industrial revolution, silicon chip) than scenario A)
+
+C)   OTHER:  Well, there are bound to be some.  :-)
+
+Mike Price                         poll@price.demon.co.uk
+
+------------------------------
+
+Date: Thu, 9 Sep 93 7:04:32 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Crypto Visions
+
+In the spirit of the Second Annual Cypherpunks Conference in the
+Bay Area this Saturday, here are a variety of visions for future 
+crypto-anarchy:
+
+* GUIs for X, Mac, & Windows that make PGP mail encryption & key handling,
+anon remailer envelope-stuffing, etc. seamless
+* mobile.com: pirate crypto ham and shortwave on the Internet
+* How much computing power and radio gear can be crammed into a
+van?  An RV?  A yacht?
+* Fiber or hi-bandwidth satellite hookup for RV parks and yacht berths
+* Itinerant hackers, indigent anarchists, and perpetual
+tourists.  Physical crypto-raves for cyberspace biz & social partners
+* Discovering, debugging, and implementing true software digicash
+(upon which the following visions depend!)
+* Distributed digicash banking, offshore, virtually & physically mobile
+* International digicash telecommuter contracting: programming,
+publishing, typing pools, etc.  Crypto-anarchy for the middle
+class; pirate CD-ROM libraries for the 3rd World masses.
+* Internet Casino: why travel to Las Vegas or Monte Carlo when 
+you can play the finest games in the privacy of your own home?
+* Integration of BBS businesses (already >$1 billion per
+year) into the digicash economy
+* Effective law enforcement approaches terrorism: random hits
+against fixed, centralized physical targets to generate intimidating 
+publicity
+* Millions of jobs for college grads and military-industrial complex 
+workers: future digicash-related markets in the $trillions per year
+
+Nick Szabo					szabo@netcom.com
+
+------------------------------
+
+Date: Thu, 9 Sep 93 7:40:02 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Cypherpunks: political or what?
+
+Tim May as usual makes excellent comments on the cypherpunks agenda,
+from which I will pick a couple nits:
+
+> (In other words, the once secret ideas of six months ago,
+> now revealed, are not leading to any real businesses...so the secrecy
+> was not a critical delaying factor.)
+
+The secrecy might be causing major delays because the "fail quickly"
+principle.  The business planners could have spent the
+six months debugging their proposals after having been
+critiqued by other cypherpunks, or coming up with different,
+more promising proposals and getting those critiqued in turn.
+Instead, six months (actually small pieces of time within a
+six month period) mostly wasted pursuing bad ideas.
+
+> Except I can't think of many cases (any cases?) when we did this kind
+> of cryptanalysis or traffic analysis,
+
+Sombody wrote a Word Perfect encryption cracker and put it on
+the soda.berkeley.edu ftp site.  Perhaps we should post a public
+demonstration of its capabilities on comp.editors?
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Wednesday, 8 September 1993 16:00:00 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: PHIL: Ethics etc.
+
+It is often argued that rights derive from a social
+contract:  I agree not to use violence on you, if you will
+agree not to use violence on me.
+
+The social contract theory is probably valid for systems
+of justice and judgment, and details of property rights
+and the like, but rights cannot be derived solely from
+contract, or solely from custom, because contract assumes a
+pre-existing principle that contracts should be honored,
+that they should be for value, and so on and so forth.  A
+similar problem exists for customs.
+
+These pre-existing principles are called natural law. 
+They are rules that we intuitively and rationally recognize
+as necessary and right, for reasons that I discuss
+extensively in ftp.netcom.com:/pub/jamesd/rights.
+
+If you argue rights from contract, then the nihilists at
+Loompanics will correctly argue that there is no contract
+to honor contract, therefore anything is permitted,
+including rape and torture, and the democratic
+totalitarians such as Rousseau will correctly argue that any
+and all social contracts are equally permissible, including
+those that are not for value and are changed capriciously,
+therefore the majority should exercise limitless and
+absolute power, and the totalitarian absolutists, Hobbes
+and the Fascists, will correctly argue that there is no
+social contract because no one consented to it, therefore
+the only way people can live in peace together is for a
+single man to define good and evil according to his
+arbitrary and absolute will.
+
+To argue that the social contract rests on the social
+contract, as Perry does, is to build on sand.  The nature
+of man provides a more solid foundation.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Thu, 9 Sep 93 9:11:09 PDT
+From: thamilto@pcocd2.intel.com (Tony Hamilton - FES ERG~)
+Subject: The Idea of Free Speech is Slipping Away
+
+> At  3:27 PM 9/8/93 -0700, Tony Hamilton - FES ERG~ wrote:
+> >Let
+> >the masses _discover_ that, without crypto, they're suddenly less competitive
+> >in all things. I think it'll work better.
+> 
+> This assumes that good ideas always win in the end (unless someone promotes
+> them). I don't buy it. By the time Joe Sixpack figures this out, it'll
+> likely be too late.
+> 
+> Maybe instead of political activism, we could try the get rich quick angle.
+> *How YOU can make MEGAbucks using cryptography in your home!*
+> 
+> tburns@gmuvax.gmu.edu (T. David Burns)
+
+This is one of those cases where there simply isn't any basis for argument,
+since it cannot be proven one way or the other, but interestingly, yes, this
+is basically the assumption I am making. Of course, to a degree, it is
+certainly a generalization. Any idea/concept/meme which never travels farther
+than the confines of one mind for one reason or another is dependent upon
+the dynamics of the single organism.
+
+So where someone might start citing case after case of good ideas that 
+never came to anything, I'd probably offer the _safe_ reply that either the
+idea _wasn't_ good, or that it simply isn't being presented at the right
+time, in the right manner, or whatever. Should something be done about it?
+I would say no, because I feel that the _reason_ good ideas get burried is
+due to the dynamics of this idea/meme market out there. So, take any allegedly
+good idea which never made it far. I would propose that had it actually
+propogated at that time, instead of being stifled, it might have been more
+destructive than good. See, an idea in itself is nothing without context.
+Both the content and the context of an idea are key to its success.
+
+I know I'm belabouring the point, but I felt an example might be necessary.
+Take one of the extropian principles, "boundless expansion", and more
+specifically, the subset of that which addresses specifically the endless
+expansion into space. One might claim that, at any cost, expanding into
+space is simply a necessity, and should have received every bit of effort
+mankind was capable of giving it since the dawn of time. In other words,
+expanding into space is just a "good idea". But I would claim that this
+absolute claim is nothing without being put in the proper context. Forgetting
+for the moment that mankind perhaps might have been capable of space travel
+100's of years ago were it not for certain political and religious
+influences, let us focus instead on the latter half of this century. Let us
+"pretend" for a moment that our space programs were just a few years ahead
+of the schedule we now know as fact. Maybe WWII could have lasted a bit
+longer, and might have prompted an even faster-paced technology ramp in a
+number of areas, including space. Let us then assume that by now, we might
+have, with the proper attention and focus, put a base on the moon, and today
+might be mining it already. Would we be better off today? Before you answer,
+think of what the implications of that might have been during the Cold War.
+
+Maybe we could take a much less significant piece of space history, and ponder
+what might have happened had the US not dropped all its heavy-lift programs
+in favor of the shuttle program. Might any of these things have had major
+effects on the course of recent history? I think so. WOuld it have been
+positive? Maybe not. Perhaps by _pushing_ these seemingly good ideas at the
+time, the world political climate might have taken a turn for the worse, and
+the space program today might be a barely-flickering afterthought. _WAIT_,
+what am I saying? I don't need to use silly, hypothetical examples, what
+about the shuttle program? A good many, intelligent people pushed _that_
+idea _very_ hard, in the name of progress, and look what _it_ has done to
+the US space program. I get the willies just thinking about all the neet
+things we might have been doing in the late 70's, and the 80's, had we not
+put all our eggs in _that_ basket.
+
+Does that mean the shuttle was then a bad idea? I don't think so. I just
+think it was pushed too hard and for the wrong reasons. Could the same
+kind of thing happen with the technologies and ideas we discuss here? I think
+it definitely could, and probably would. Push crypto too fast, and you might
+set it back by 50 years by provoking major Statist action worldwide. WHo
+knows. Same with nanotech. I can see it now, a UN ban on all nanotech research
+for fear of creating, what is it, grey goo?
+
+Likewise, I would disagree with whoever it was (sorry, I read some 500-1000
+messages in email today) that claimed the LP at least propogated the liberty
+meme, or some such thing. I would argue that this was a _very_ short term
+benefit, and that instead, in the long run, the LP has made liberty more
+unpopular if anything. What, instead, is more popular today? Ross Perot, of
+course. Does Ross stand for liberty? Heck no. I voted for him because I think
+he was far the lesser of many evils, and might actually quicken the big setup
+for government to wither. But in fact, Ross has everyone I know ready and
+willing to _sacrifice_ individual liberties and freedom in the name of the
+State. So you see, it only took _one man_ to undo the allegedly good, solid
+work of the LP, and make liberty and freedom an _unpopular_ concept.
+
+Well, I've said enough. Didn't write any other mail after reading that large
+mass of it in my box this morning, so I guess my word-quota for the morning
+spilled out all over this one list. Sorry.
+
+Tony Hamilton
+thamilto@pcocd2.intel.com
+HAM on HEx
+
+------------------------------
+
+Date: Thu, 9 Sep 1993 09:41:09 -0800
+From: romana@apple.com (Romana Machado)
+Subject: POLI:gossip & privacy
+
+"Phil G. Fraering" <pgf@srl01.cacs.usl.edu> asks:
+
+>Is there any convienent way for me to see what would have been the
+>equivalent of a Lotus Marketplace entry on me? I'm curious.
+
+Check your local yellow pages under the heading "Credit Reporting Agencies",
+and look for the 800 number for TRW. Phone them and request a credit report on
+yourself. It costs only a few bucks, and the first report used to be free.
+If you are poor, you can get a free credit report by applying for credit -
+if you are denied credit, TRW is legally obligated to give you a free
+report.
+
+You will be given the opportunity to mend your credit file by sending them
+correct, up-to-date information.
+
+While we're on the subject of credit, those of you who tend to carry
+balances from month to month should be aware that although the national
+average credit card rate is 18.04%, many institutions offer lower interest
+rates. The best rate that I've found lately is 7.92%, with an annual fee of
+$33 and a 25 day grace period, applications available from:
+
+Federal Savings Bank
+Rogers, Ark.
+(800) 374-5600
+
+Don't worry, they accept out-of-state clients.
+
+Cheers, 
+ 
+
+Romana Machado(romana@apple.com) Official Poll Taker of the Extropians List
+---------------------------------------------------------------------------
+"Look at the grain of pepper, and at the size of the sneeze." - Sufi proverb
+
+
+
+
+------------------------------
+
+Date: Thu, 9 Sep 1993 09:43:11 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: HUMOR: "Elvis Shrugged"
+
+>To: Extropians@extropy.org
+>From: tcmay@netcom.com (Timothy C. May)
+>Subject: "Elvis Shrugged"
+>X-Original-To: extropians@extropy.org
+>Date: Sun, 5 Sep 93 22:59:45 PDT
+>X-Extropian-Date: Remailed on September 6, 373 P.N.O. [05:59:39 UTC]
+>X-Message-Number: #93-9-129
+>Reply-To: extropians@extropy.org
+>Errors-To: Extropians-Request@gnu.ai.mit.edu
+
+>Either Laissez Faire Books or Loompanics described a real comic book
+>called "Elvis Shrugged."
+>
+>>From what I recall of the description, a satire of Rand, but one which
+>I'm sure Extropians could appreciate for its barbed accuracy.
+
+I've got this comic, and it's hilarious.  The plot is essentially the same
+as _Atlas Shrugged_, except all the major roles are played by rock stars. 
+Madonna is Dagny Taggart, trying to discover why all the great musicians
+are disappearing.  Instead of "Who is John Galt?" the world is pondering
+the question "Is Elvis dead?"  Frank Zappa is Francisco D'Anconia and Frank
+Sinatra is Hank Reardon.  The "looters" are played by Michael Jackson,
+Sinead O'Connor, Colonel Tom Parker, Guber/Peters (portrayed as Siamese
+twins), Andrew Lloyd Webber, and (if memory serves) the Bee Gees.  It's
+pretty bizarre.  If you can locate the third and final issue, I'd pay money
+for it.
+                                        dV/dt
+
+
+------------------------------
+
+Date: Thu,  9 Sep 1993 13:00:18 -0400 (EDT)
+From: Christina M Grimes <cg39+@andrew.cmu.edu>
+Subject: ECON: digicash?
+
+I know close to nothing about the ways of cypherpunks, and since reading
+many of these posts have had my curiosity sparked in a big way. I've
+been searching for a back issue of Wired which I think had an article on
+crypto-anarchy, but with no luck. Can anyone point me to some
+enlightening literature, preferably online?
+
+I'll spare you all my questions on PGP, etc., but one thing that I'd
+like to discuss is the theory behind digicash. It sounds like a
+fantastic idea, but I can't imagine how it would work. If I understand
+basic economics correctly, money must be scarce in order to be used as a
+valuable medium of exchange. So with the ease with which information can
+be copied & spread in mind, how exactly would digicash work? How would
+exchanges take place? How easy would it be to hack $50 (or $5000000?)
+Would it be subject to inflation, etc. like our present system? How
+would banking fit in? Is the whole idea worked out, or still in debate
+mode?
+
+--Ratha, who is somewhat ignorant but working on it...
+
+------------------------------
+
+Date: Thu, 09 Sep 1993 13:41:02 -0400 (EDT)
+From: Mark Sulkowski <SULKOM@ubvmsb.cc.buffalo.edu>
+Subject: The LP
+
+ From: szabo@netcom.com (Nick Szabo)
+>Many libertarians have limited resources to devote to the idealistic,
+>altruistic efforts of political activism.
+
+	(Hint: it's called thinking in the long term and having vision.)
+
+	About having limited resources -- no kidding.  I'm not suggesting
+that people should give their life's savings to the LP.  Or even that
+people participate in the LP at all.  I didn't ask for donations.  I merely
+said that you shouldn't count the LP out as a player in the game of getting
+more individual liberty.
+
+	You may focus on whatever you think will be most productive of it.
+
+
+>These legions should note that that crypto-anarchy if successful opens up
+>not only political freedoms but also huge business opportunities.
+
+	That's all well and good.  I hope it works.  If that's your
+passion, well, go for it!  But I personally am not willing to put all
+my eggs in one basket.  If individual liberty will grace the Earth
+after all, I'll bet it will be the result of many forces.
+
+	To repeat: my point is simply that the LP should not be counted out.
+It's not over till its over.  You may focus your efforts however you want.
+
+
+        *    .
+====\\.    ~  //====
+||   \\ ~ . *//   ||
+||    \\ *  //    || 
+||     \\.~//     || 
+||      \\//      || 
+|| Mark  \/enture ||
+====================
+
+------------------------------
+
+Date: Thu,  9 Sep 1993 13:40:06 -0400 (EDT)
+From: Christina M Grimes <cg39+@andrew.cmu.edu>
+Subject: PHIL: Ethics etc.
+
+Excerpts from mail: 9-Sep-93 PHIL: Ethics etc. by "James A. Donald"@infose 
+> The social contract theory is probably valid for systems
+> of justice and judgment, and details of property rights
+> and the like, but rights cannot be derived solely from
+> contract, or solely from custom, because contract assumes a
+> pre-existing principle that contracts should be honored,
+> that they should be for value, and so on and so forth.
+
+I'm not sure what this line of reasoning is or implies; perhaps I should
+ask for a clarification. The argument seems to be that if rights came
+simply from contract, there would be no reason necessarily to honor that
+contract, and then anything goes: rape, torture, etc. Therefore, we need
+a solid, objective set of rights.
+
+I share the desire for objectivity, but am still not sure if rights
+themselves are objective, even if _which_ rights intelligent beings
+deserve can be determined objectively. I'll use a scenario to illustrate
+why I think this:
+
+A person is alone in the middle of the Pacific on a rather large island
+with plenty of food, fresh water, etc. This person, having lived alone
+for upwards of 10 years, has no need for rights, since the animals that
+live on the island are either companions, food, or ignored. He may or
+may not *have* rights, but the question is irrelevant. (With apologies
+to F.E.S., I'm going to assume that only humans hold rights.)
+
+That year, a shipwreck victim is washed ashore. He meets the original
+islander later that day. The two of them have a mutual choice: 1) to
+coexist, cooperate, and otherwise get along, in order to have a better
+chance of surviving and getting off the island. 2) They have a severe
+distaste for each other, and decide to live on separate sides of the
+island and not bother each other. 3) They may beome bitter enemies
+(though I can't imagine why), and be at each others' throats,
+constructing elaborate defenses and traps on their own sides of the
+island. In the first case, the two recognize each other's rights in the
+process of deciding to get along and work to mutual benefit. In the
+second case, they recognize each others' rights, but only as a way to
+avoid destructive conflict. In the third
+
+------------------------------
+
+Date: Thu, 09 Sep 1993 14:08:36 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: PHIL: Ethics etc. 
+
+> Excerpts from mail: 9-Sep-93 PHIL: Ethics etc. by "James A. Donald"@infose 
+> > The social contract theory is probably valid for systems
+> > of justice and judgment, and details of property rights
+> > and the like, but rights cannot be derived solely from
+> > contract, or solely from custom, because contract assumes a
+> > pre-existing principle that contracts should be honored,
+> > that they should be for value, and so on and so forth.
+
+Normally, I don't see James Donald's stuff, but this was quoted in
+someone else's message.
+
+Its also nonsense.
+
+There needn't be a "pre-existing principle" for contracts. The clear
+and simple understanding of what it is that two individuals are
+agreeing to is sufficient. If one breaks the agreement, the other has
+a range of options, from beating the crap out of the other guy to
+simply failing to ever cooperate with him again.
+
+Rights are easy to derive solely from custom and contract -- indeed,
+contracts are derived solely from custom. Claiming that you need to
+have contract law arrive out of the sky fully formed, springing from
+the head of Zeus, is as silly as claiming that life couldn't have
+evolved because DNA is expressed via rules and without having
+ribosomes pre-existing to interpret those rules you couldn't have
+created life. Geesh.
+
+People agree to the notion of "rights" based on a simple mutual
+agreement -- respect mine and I'll respect yours, and once you cease
+to abide by these rules I won't abide by them either and we'll have
+warfare on our hands. There is no need for a "principle" that the
+agreement needs to be honored -- its self executing. Break it and you
+lose all the benefits (peace and having your rights honored) that you
+made it for -- keep it and you get all the benefits. You needn't have
+an absolute notion of contract law to decide which way to go -- you
+need merely be a creature that evolution has designed to go for the
+path that assures survival.
+
+Perry
+
+------------------------------
+
+Date: Thu, 9 Sep 93 11:18:40 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: ECON: digicash?
+
+Ratha asks about digital cash:
+
+> I know close to nothing about the ways of cypherpunks, and since reading
+> many of these posts have had my curiosity sparked in a big way. I've
+> been searching for a back issue of Wired which I think had an article on
+> crypto-anarchy, but with no luck. Can anyone point me to some
+> enlightening literature, preferably online?
+
+The issue of "Wired" you are looking for is #2, or 1.2 in their
+numbering scheme. It came out in the spring and is now out of print,
+with back issues going for some huge amount ("Wired" is now a major
+publishing success, so back issues are priced for collectors,
+apparently).
+
+I'm one of the "Crypto Rebels" on the cover, the one on the left in
+fact. They had us wear theatrical (white) masks, for an artistic
+point, but our normal faces are shown inside. Steven Levy, who wrote
+the book "Hackers" (1984), and also "Artificial Life" (1992),
+interviewed several of the Cypherpunks and wrote the article. A very
+fine job, but I may be biased. (Other good pieces include Kevin
+Kelly's article on crypto in "Whole Earth Review," Summer 1993, and
+Julian Dibbell's cover story on Cypherpunks in the August 3, 1993
+issue of "The Village Voice.")
+
+Crypto anarchy is a term I invented, in my 1988 "Crypto Anarchist
+Manifesto," to describe the set of ideas associated with anonyomous
+markets and communications, reputations, strong encryption, digital
+money, digital escrow services, and the whole "colonization of
+cyberspace" idea. Vernor Vinge's "True Names" was the greatest
+influence, with the then-nascent "American Information Exchange"
+(AMIX) leading me to speculate (to Phil Salin, Eric Drexler, others)
+that the likely markets for AMIX-type systems would be the buying and
+selling of corporate information (this is where 90% of knowledge
+chunks now reside....will Lockheed or Apple encourage their employees
+to log on to an AMIX-like system and sell corporate knowledge for
+their own profit?). 
+
+This analysis of AMIX led to "BlackNet," a hypothetical network
+using crypto anarchy to facilitate the buying and selling of nearly
+_anything_, including Stealth bomber blueprints, launch codes for
+black market Russian nukes, stolen credit card numbers, contract
+killings, and other fun stuff. Drexler called my ideas "profoundly
+immoral" and Marc Stiegler averred, in 1988, that "some things are
+best left unsaid." Being unpersuaded by this, and seeing crypto
+anarchy as largely inevetable over the next few decades, I pushed on.
+
+Eric Hughes and I called the first meeting of a bunch of Bay Area
+software hackers to discuss these ideas. The first meeting was a year
+ago, and we played "the crypto anarchy game," a paper-based
+role-playing game in which anonymous remailers ("mixes") were
+simulated with sealed envelopes, digital cash was simulated with play
+money, and black market knowledge (formula for RU-486, production
+plans for 486 chip, radar crossection of Tomahawk cruise missiles,
+etc.) was similarly handled. The idea was to give a graphic immersion
+in the ideas of Chaum and others, to really show these folks how it
+could all work.
+
+The meeting lasted all day and into the night, and even the next day.
+A regular group was born. A mailing list was started, running on John
+Gilmore's machine. Jude Milhon ("St. Jude"), an editor for "Mondo
+2000," attended and, by the second meeting, had jokingly dubbed us "a
+bunch of cypherpunks." The name stuck. (I've gotten used to it, and
+even think the bizarreness of it helps get some attention. Names like
+"Personal Privacy Club" just don't have the panache.)
+
+Subscriptions to the mailing list: cypherpunks-request@toad.com
+
+Onward to Ratha's specific questions:
+
+> I'll spare you all my questions on PGP, etc., but one thing that I'd
+> like to discuss is the theory behind digicash. It sounds like a
+> fantastic idea, but I can't imagine how it would work. If I understand
+> basic economics correctly, money must be scarce in order to be used as a
+> valuable medium of exchange. So with the ease with which information can
+> be copied & spread in mind, how exactly would digicash work? How would
+> exchanges take place? How easy would it be to hack $50 (or $5000000?)
+> Would it be subject to inflation, etc. like our present system? How
+> would banking fit in? Is the whole idea worked out, or still in debate
+> mode?
+
+Money is already in several forms besides "gold" or "silver" (the
+canonical things of value due to scarcity):
+
+-Federal Reserve Notes....a promise to exchange for....for *other*
+Federal Reserve Notes!! (convertibility to gold and/or silver, as
+spelled out in the Constitution, was abandoned many years ago)
+
+-coupons of various sorts are a form of money, freely exchangeable
+
+-chits and scrip issued by local businesses, by communitites, etc.
+Sometimes to support the local economy, to bypass the IRS (which takes
+a dim view of untaxed barter transactions---wait 'til they see
+cyberspace!), etc. (A recent issue of leftist "Mother Jones" had a
+great article on these "alternative currencies")
+
+-"bearer bonds" and other such financial instruments (Perry M., Duncan
+F., and others can elaborate)
+
+-others
+
+The key is that people have the expectation that the thing they are
+accepting as money will continue to have roughly the same value (a
+vague term) until they can convert it to something else. Thus, issues
+involving forgery, counterfeiting, and inflation are key. (Gold is
+considered "true money"--sounds like the sequel to "True
+Names"--because it is conveniently dense in value, is scarce, is easy
+to detect forgeries of, and is accepted in nearly all cultures.)
+
+A "consensual hallucination," to borrow Bill Gibson's term for
+cyberspace.
+
+Digital money can come in many flavors, of varying degrees of
+sophistication:
+
+1. Alice walks into Credit Suisse in Geneva and hands the teller
+$10,000 in U.S. currency. She is given a 20-digit number, which she
+can write down, load into her Newton, tattoo on her arm, remember
+(!!), whatever. She flies back to Boston and transfers this number,
+under whatever circumstances one might imagine, to Bob. Bob goes to
+the same bank in Geneva, presents the number and is paid $10,000 in
+U.S. currency.
+
+This simplistic protocol is of course doable today, but has several
+flaws. I'll list them briefly, and cite some workarounds or solutions
+(some of which will point to follow-on forms):
+
+* The number is readily duplicatable. Solution: the bank pays the
+_first_ presenter. Thus, the number is like a combination to a train
+locker...whoever reaches it first gets the contents. Holders of
+numbers are thus likely to be very careful with the number.
+
+* Can't Alice race to the bank and cash the number immediately after giving
+it to Bob? Solution: escrow firms, which act as agents (local branch
+banks) for the cashing. Thus, Bob waits for the cash to "clear"--and
+he need not travel all the way to Geneva of course--and then the
+number cannot be spent by Alice.
+
+* Loss of the number. Tough shit.
+
+2. More sophisticated forms of "digital cash" have been devised by
+cryptology researchers, notably David Chaum and his students at CWI in
+Amsterdam. These protocols are very hard to describe in simple words,
+but involve the "transaction clearinhouses" as in the above example.
+
+There appears to be no simple "digital coin" that is unforgeable,
+can't be double-spent (without online transaction clearing), etc. How
+could there be, as numbers are readily duplicated?
+
+3. Tamper-resistant chips in smart cards are another approach, though
+not ideal. (Can't use the hardware technology in cyberspace, for
+example.)
+
+In summary, no _simple_ techniques seem to exist. The protocols for
+digital money are complicated, and may need to involve clearinghouses,
+tangible objects (chips, certificates), etc..
+
+The Cypherpunks group is hoping to explore these possibilities and
+find the breakthoughs that may exist. Some form of "Pretty Good
+Digicash," "PGD," may be coming.
+
+-Tim May
+
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+End of Extropians Digest V93 #251
+*********************************
+

@@ -1,0 +1,508 @@
+From extropians-request@extropy.org Mon May 16 21:01:50 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id VAA00173 for <more@chaph.usc.edu>; Mon, 16 May 1994 21:01:49 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA10947; Mon, 16 May 94 21:01:46 PDT
+Received: by news.panix.com id AA29500
+  (5.65c/IDA-1.4.4 for more@usc.edu); Tue, 17 May 1994 00:01:36 -0400
+Date: Tue, 17 May 1994 00:01:36 -0400
+Message-Id: <199405170401.AA29500@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-5-196 - #94-5-203
+X-Extropian-Date: May 17, 374 P.N.O. [00:01:16 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Tue, 17 May 94             Volume 94 : Issue 136
+
+Today's Topics:
+                  ECON: The limits to comparative advantage           [1 msgs]
+                                  filtering                           [1 msgs]
+           Forward: caller ID outrage from the FCC -- time to act     [1 msgs]
+                               Is AI possible?                        [2 msgs]
+                               Is AI possible?                        [3 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 26177 bytes.
+
+----------------------------------------------------------------------
+
+From: dasher@netcom.com (Anton Sherwood)
+Date: Sun, 15 May 1994 17:27:54 -0700
+Subject: [#94-5-196] filtering
+
+Andy Lowton writes, in more than 80 columns:
+> One step in preventing censorship would be to restrict the
+> ability to vote to the paid up members of the list.  This would
+> mean that trouble-makers who were just 'passing through' could
+> not adversely effect the system.  Beyond this, there is not a
+> lot you can do.  Am I saying that your posts are not worth
+> reading because I hate you, or because I genuinely believe
+> it to be true?
+
+In my vector-product scheme, it doesn't matter.  If you lie
+you just create a virtual persona whose ratings others may or may 
+not find useful-- and you make the filter less useful to yourself.
+
+Anton Sherwood   *\\*   +1 415 267 0685   *\\*   DASher@netcom.com
+
+------------------------------
+
+From: Mr John M Casey <jmcasey@HK.Super.NET>
+Date: Mon, 16 May 1994 12:27:26 +0800 (HKT)
+Subject: [#94-5-197] Is AI possible? 
+
+On Wed, 11 May 1994, Erich Stefan Boleyn wrote:
+
+> Penrose gave some arguments that I think it is possible to show are
+> fundamentally flawed.  The only real "proof" he does is comparing a
+> human to a Turing machine, and arguing that a human is not a turing
+> machine by using a diagonalization method.  I pretty clearly
+> remember finding some crucial flaws in that "proof".  Details can
+> be provided to those interested.  The rest of the book wasn't
+
+I'm interested. Thanks. I'm highly suspect of proofs anyway, even if
+they're airtight. I think Godel has pretty well opened the can on proofs,
+made them subject to other issues, such as rather than proving why
+something can't be done, devising ways that it can be. In my original
+post, I mentioned genetic programming, which seems to be a way around
+Penrose's proof.
+
+In principle, the only thing Turing machines lack that humans have is the
+ability to define classes (sets) and to operate on sets and make sets of
+sets. Add this piece of ability (thru genprog?) and you're there.
+
+'course, most of the HUMANS I know with this ability aren't that
+intelligent anyway; isn't the real question how to make robots think BETTER?
+
+
+
+
+------------------------------
+
+From: Mr John M Casey <jmcasey@HK.Super.NET>
+Date: Mon, 16 May 1994 12:41:25 +0800 (HKT)
+Subject: [#94-5-198] ECON: The limits to comparative advantage
+
+On Thu, 12 May 1994, Ray wrote:
+
+> What happens
+> if GP_1 holds stock A and GP_2 wants to buy stock A, and both
+> GP_1 and GP_2 predict a nice rise in the price of A? Well, if I
+> was GP_1, my decision would be to hold stock A, and thus the
+> value of the stock would jump to the predicted price. Thus, GP_2's
+> predictive ability doesn't help at all because as soon as
+> GP_2 processes the information neccessary to predict the price rise,
+> the market has already pushed the price up and the opportunity is
+> lost (assuming near equitable distribution of information)
+> The market may not be that efficient now, but imagine what will
+> happen when everyone has genetic programming brokers. The bounty will
+> go to those with the most computing resources and the fastest and
+> most complete information. (e.g. the elite)
+
+Okay, sure, except that I'd bet that emergent properties would give people
+a way of profiting on this that the GP's can't forecast. Actually, it's
+probably a meta-learning process that stays a step ahead of the programs.
+I know this sounds like a self-contradiction, since the faster the GPs can
+process the more efficient the pricing mechanism SHOULD become, but isn't
+the goal of GP (at least in this case) to think like people only faster?
+Suppose you have a million GPs working the market, all targetting stock A,
+currently at price X and headed for fundamental reasons to price Y. Since
+feedback isn't in fact instantaneous (it's faster, probably faster than we
+humans can process, but NOT instantaneous), machines just like humans
+probably would overbid the market price to, say price Z, at which price
+the stock becomes a sell.
+
+Actually, I'm a quant. And actually, I'm not so sure there really is a
+single price above which a stock or a market is overvalued. The ultimate
+uncertainty is a function of that ultimately unquantifiable and ultimately
+emergent process known as sentiment. And I believe that GPs will be no
+better than people at quantifying and acting on changes in sentiment. What
+SHOULD happen is that the process will massively speed up, so that at
+higher resolution you end up with the same chart, but at "human
+resolution" the chart takes on similar, fractal characteristics. Which
+would mean no essential improvement in trading capability.
+
+
+
+
+------------------------------
+
+From: goodwin@snug.demon.co.uk (Tim Goodwin)
+Date: Mon, 16 May 94 18:33:53 GMT
+Subject: [#94-5-199] Is AI possible? 
+
+In message <Pine.3.07.9405161223.A17575-b100000@hk.super.net>
+Mr John M Casey writes:
+
+> In principle, the only thing Turing machines lack that humans have is the
+> ability to define classes (sets) and to operate on sets and make sets of
+> sets. Add this piece of ability (thru genprog?) and you're there.
+> 
+> 'course, most of the HUMANS I know with this ability aren't that
+> intelligent anyway; isn't the real question how to make robots think BETTER?
+> 
+
+I'll never believe a machine is intelligent until it does the equivalent 
+of watching another machine slipping on a banana skin and laughing at the
+resulting pain and loss of dignity.......
+
+Seriously though, how does one begin to model something like a sense of 
+humour?  Or is that one of the tests of self awareness?
+
+-- 
+Tim Goodwin             :  PGP key available on request
+goodwin@snug.demon.co.uk:  Life without dead time!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Mon, 16 May 1994 16:15:50 -0400 (EDT)
+Subject: [#94-5-200] Forward: caller ID outrage from the FCC -- time to act 
+
+a conscious being, Stanton McCandlish wrote:
+Looks like the 2-pronged assault on privacy from Clipper and Digital
+Telephony just grew another prong...
+
+
+Forwarded message:
+Date: Sun, 15 May 1994 21:15:06 -0700
+From: Phil Agre <pagre@weber.ucsd.edu>
+To: rre@weber.ucsd.edu
+Subject: caller ID outrage from the FCC -- time to act
+
+I've enclosed two messages from the Privacy digest about an outrageous 
+FCC plan to undermine crucial privacy protections on caller-ID systems 
+for telephones.  Caller-ID exists so that marketing companies can collect
+information on unwitting consumers, and those same companies have lobbied
+long and hard to eliminate simple, ordinary schemes to give people control
+over whether this information is made available from their telephones.
+Having lost this battle in many states, they have evidently moved to the
+federal level.  But time remains for your comments to make a difference.
+Please read the enclosed messages, judge for yourself, and act.
+
+Phil
+
+Encl:
+
+Date: Sun, 15 May 94 13:23 PDT
+From: privacy@vortex.com (PRIVACY Forum)
+To: PRIVACY-Forum-List@vortex.com
+Subject: PRIVACY Forum Digest V03 #10
+
+PRIVACY Forum Digest      Sunday, 15 May 1994       Volume 03 : Issue 10
+
+          Moderated by Lauren Weinstein (lauren@vortex.com)
+            Vortex Technology, Woodland Hills, CA, U.S.A.
+	
+                     ===== PRIVACY FORUM =====
+
+   	  The PRIVACY Forum digest is supported in part by the 
+	      ACM Committee on Computers and Public Policy.
+
+
+-----------------------------------------------------------------------------
+
+Date: Fri, 6 May 94 12:10:59 PDT
+From: carl_page@rainbow.mentorg.com (Carl Page @ DAD)
+Subject: FCC attacks
+
+Private Unlisted Phone Numbers Banned Nationwide.
+Law Enforcement Explicitly Compromised.
+Women's Shelters Security Threatened.
+Telephone Rules of 30 States Overturned.
+Direct Marketing Association Anticipates Profit.
+
+The FCC released its Report and Order And Notice of Proposed Rulemaking of
+March 29th, 1994 (CC Docket No. 91-281)
+
+With the arrogance that only federal bureaucrats can muster, the Federal
+Communications Commission has turned the clock back on Calling Number ID
+and privacy protection rules nationwide.
+
+Have you ever had any trouble giving a direct marketer your phone number?
+You won't any more.  Your Per Line Caller ID blocking will be banned,
+thanks to the FCC Order which preempts the privacy protections provided by
+30 states.
+
+The order carefully enumerates the concerns of law-enforcement agencies
+which need per-line blocking to do their jobs.  It mentions the need
+Women's shelters have for per-line blocking.  (A matter of life and death
+on a day-to-day basis)  It mentions that the customers who attempt to keep
+unlisted numbers confidential will be certainly be thwarted.  (Can one
+train all kids and house-guests to dial *67 before every call?  Can you
+remember to do it yourself?)
+
+But the Order dismisses all of these problems, and determines that the
+greatest good for the greater number will be accomplished if RBOC's can
+profit a bit more by selling our numbers and if the direct marketers have
+less trouble gathering them.
+
+The FCC doesn't seem to trust consumers to be able to decide whether they
+want per-line blocking.  It praises the $40 cost of an automatic *67 dialer
+as an appropriate disincentive that will benefit the nation by discouraging
+people's choice of per-line blocking.
+
+There was one part of the order I was pretty happy about, until I read it.
+The FCC has also banned the sale of numbers gathered by 800-900 number
+subscribers using the ANI system, unless they obtain verbal consent.  (Note
+that no rules prevent sale of numbers from the presumably blockable CNID
+system.)  The problem is that the only enforcement of the rule seems to be
+that the requirement must be included in the fine print of the ANI sale
+contract between the common-carrier and the ANI subscriber.  So it seems to
+be up to the common-carrier to enforce a rule which is contrary to their
+financial interest.  How can a person who suffers from publication or sale
+of their number recover compensation?
+
+The FCC is soliciting comments, due May 18th
+in their Further Notice Of Proposed Rulemaking on two issues:
+
+o       Whether the Commission should prescribe more precise educational
+	requirements.
+o	Whether and how the policies adopted on caller ID should be extended to
+	other identification services, such as caller party name or CPNI.
+
+I can think of some suggestions...
+
+------------------------------
+
+Date: Wed, 11 May 94 02:39:45 EDT
+From: johnl@iecc.com (John R Levine)
+Subject: FCC order on interstate Caller ID
+
+	[ From TELECOM Digest V14 #208 -- MODERATOR ]
+
+I picked up a copy of the FCC's Caller ID order, which is available by
+FTP as /pub/Orders/Common_Carrier/orcc4001.txt or orcc4001.wp.  (Kudos
+to the FCC for making this info available so easily and quickly, by
+the way.)
+
+Much of the order is straightforward and not contentious, e.g.
+delivering CNID between local and long distance carriers is so cheap
+to implement that neither may charge the other for the data.  They
+also note that per-call blocking is a good idea, and that *67 should
+be the universal code to block CNID delivery.
+
+But the arguments they list against per-line CNID seem, to me, to be
+astonishingly specious.
+
+There are three blocking options 1) per call for anyone, 2) per line
+for anyone, and 3) per line for special groups.  The FCC thinks, not
+unreasonably, that it's a mare's nest to ask the telco to implement 3,
+since they have to determine who's in the special groups and who
+isn't.  Then they say:
+
+	 43.  In the NPRM, we tentatively concluded that per line
+    blocking unduly burdens calling party number based services
+    overall by failing to limit its applicability to those calls for
+    which  privacy is of concern to the caller.  The Commission noted
+    that even in the case of law enforcement personnel, there may be
+    a need to maintain calling number privacy on some calls, but that
+    the same number may be used to telephone other law enforcement
+    personnel, victims of crimes, cooperative witnesses, and family
+    or friends.  The Commission asserted that in these types of
+    calls, calling number privacy is not needed and calling number
+    identification can actually be a valuable piece of information
+    for both the caller and called parties.  The record reflects the
+    useful nature of CPN based services, and the comments of
+    Rochester illustrate that callers are likely to be interested in
+    blocking only a small percentage of their calls.  The comments of
+    USCG illustrate the usefulness of caller ID to emergency
+    services.  In contrast, Missouri Counsel's analogy to unlisted
+    numbers is inapposite because caller ID only permits parties
+    called by the calling party to capture the calling party number,
+    and then only if the calling party has not activated a per call
+    blocking mechanism.  We find that the availability of per call
+    unblocking does not cure the ill effects of per line blocking. 
+
+    Moreover, in an emergency, a caller is not likely to remember to
+    dial or even to know to dial an unblocking code.  For the
+    foregoing reasons, we find that a federal per line blocking
+    requirement for interstate CPN based services, including caller
+    ID, is not the best policy choice of those available to recognize
+    the privacy interests of callers.  Thus, carriers may not offer
+    per line blocking as a privacy protection mechanism on interstate
+    calls.  We agree that certain uses of captured calling numbers
+    need to be controlled, and address that issue infra.  
+
+
+In other words, per-line blocking is a bad idea because subscribers
+are too dumb to unblock calls when they want to unblock them, although
+they're not to dumb to block calls when they want to block them.
+
+In paragraph 47 they note that where per-line blocking is offered,
+telcos use *67 as a blocking toggle, so users can't really tell what
+*67 does, but it doesn't seem to occur to them that the problem is
+easily solved by requiring a different code for unblock than for
+block.  In paragraph 48 they wave their hands and say that people who
+care about privacy can just buy a box for "as little as $40.00 per
+unit" that will stuff *67 in front of each call.  Thanks, guys.
+
+The docket number is 91-281, with comments due by May 18th.  Comments
+must reference the docket number.  Send ten copies (yes, 10) to:
+
+Office of the Secretary
+Federal Communications Commission
+Washington DC 20554
+
+Before you fire off a comment, please get a copy of the order, since
+there's a lot of material beyond what I've summarized.  For people
+without FTP access, I've put them on my mail server.  Send:
+
+send fcc-cnid.txt	(for the text version)
+
+send fcc-cnid.wp.uu	(for uuencoded compressed WP version)
+
+to compilers-server@iecc.com.
+
+
+Regards,
+
+John Levine, johnl@iecc.com, jlevine@delphi.com, 1037498@mcimail.com
+
+------------------------------
+
+End of PRIVACY Forum Digest 03.10
+************************
+
+
+
+-- 
+Stanton McCandlish * mech@eff.org * Electronic Frontier Found. OnlineActivist
+"In a Time/CNN poll of 1,000 Americans conducted last week by Yankelovich
+Partners, two-thirds said it was more important to protect the privacy of
+phone calls than to preserve the ability of police to conduct wiretaps.
+When informed about the Clipper Chip, 80% said they opposed it."
+- Philip Elmer-Dewitt, "Who Should Keep the Keys", TIME, Mar. 14 1994
+
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+From: minsky@media.mit.edu (Marvin Minsky)
+Date: Mon, 16 May 94 16:14:12 -0400
+Subject: [#94-5-201] Is AI possible?
+
+I have a good paper about humor.  You can get it by anonymous ftp at
+
+                     ftp.ai.mit.edu:/pub/minsky/MusicMindMeaning
+
+
+----------------------------------------------------------------------------
+-------------------------
+
+>In message <Pine.3.07.9405161223.A17575-b100000@hk.super.net>
+
+>I'll never believe a machine is intelligent until it does the equivalent
+>of watching another machine slipping on a banana skin and laughing at the
+>resulting pain and loss of dignity.......
+>
+>Seriously though, how does one begin to model something like a sense of
+>humour?  Or is that one of the tests of self awareness?
+
+>Tim Goodwin             :  PGP key available on request
+>goodwin@snug.demon.co.uk:  Life without dead time!
+>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----------------------------------------------------------------------
+ Words should be our servants, not our masters.
+
+
+
+------------------------------
+
+From: Mr John M Casey <jmcasey@HK.Super.NET>
+Date: Tue, 17 May 1994 08:52:41 +0800 (HKT)
+Subject: [#94-5-202] Is AI possible? 
+
+On Mon, 16 May 1994, Tim Goodwin wrote:
+
+> Seriously though, how does one begin to model something like a sense of 
+> humour?  Or is that one of the tests of self awareness?
+
+Ah dunno... I guess the place to start is with what "skills" are involved
+in having one. If you think of ideas as being members of classes of ideas
+(I like this reference point and probably use it too much already, but
+there you go), then is humour the juxtaposition of ideas from unrelated
+classes? or, perhaps, typing errors, as in confusing a set with a member
+of a set? If it were, then humour would be the realization of a
+practically impossible meta-set that includes the two ideas or classes.
+
+God, what a pompous paragraph! Do you have kids? My 1-year-old daughter
+finds just about anything funny. She started laughing, though, when we
+would tickle her, especially when we made it a mock threat -- you know,
+sneaking up on her, etc. In her case the laughter was clearly a release
+from the perceived fear that never materialized. Could this be a clue?
+
+
+
+
+------------------------------
+
+From: minsky@media.mit.edu (Marvin Minsky)
+Date: Mon, 16 May 94 21:06:02 -0400
+Subject: [#94-5-203] Is AI possible?
+
+I have a good paper about humor.  You can get it by anonymous ftp at
+
+                     ftp.ai.mit.edu:/pub/minsky/MusicMindMeaning
+
+
+----------------------------------------------------------------------------
+-------------------------
+
+>In message <Pine.3.07.9405161223.A17575-b100000@hk.super.net>
+
+>I'll never believe a machine is intelligent until it does the equivalent
+>of watching another machine slipping on a banana skin and laughing at the
+>resulting pain and loss of dignity.......
+>
+>Seriously though, how does one begin to model something like a sense of
+>humour?  Or is that one of the tests of self awareness?
+
+>Tim Goodwin             :  PGP key available on request
+>goodwin@snug.demon.co.uk:  Life without dead time!
+>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+----------------------------------------------------------------------
+ Words should be our servants, not our masters.
+
+
+
+
+----------------------------------------------------------------------
+ Words should be our servants, not our masters.
+
+
+
+------------------------------
+
+End of Extropians Digest V94 #136
+*********************************
+

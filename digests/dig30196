@@ -1,0 +1,979 @@
+From extropians-request@gnu.ai.mit.edu Fri Apr 16 07:47:33 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA19151; Fri, 16 Apr 93 07:47:30 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from churchy.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA16588; Fri, 16 Apr 93 07:46:48 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by churchy.gnu.ai.mit.edu (5.65/4.0)
+	id <AA14607@churchy.gnu.ai.mit.edu>; Fri, 16 Apr 93 10:35:54 -0400
+Message-Id: <9304161435.AA14607@churchy.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Fri, 16 Apr 93 10:35:25 -0400
+X-Original-Message-Id: <9304161435.AA14601@churchy.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0196
+X-Extropian-Date: Remailed on April 16, 373 P.N.O. [14:35:54 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Fri, 16 Apr 93            Volume 93 : Issue 0196
+                        
+Today's Topics:
+                         Amsterdam as privacy mecca                   [1 msgs]
+                     BOOKS: Wilson's LaNague Chronicles               [1 msgs]
+                         COMP: Complexity of sorting                  [1 msgs]
+                        ECON\UPLOAD: The Singularity                  [1 msgs]
+                            Extropian Priorities                      [3 msgs]
+                          Extropians Digest V93 #0                    [1 msgs]
+                               GUN LAWS: Help!                        [4 msgs]
+                       HUMOR: Libertarian Party doomed                [2 msgs]
+                          HUMOR:Singularity Studies                   [1 msgs]
+                       Korzybski's "E-Prime", also NLP                [1 msgs]
+                  SMART: Hydergine & piracetam potentiation           [1 msgs]
+                      TECH: Genetic algorithms question               [8 msgs]
+            WARNING: Pointer article to soc.whistleblowers debate     [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50896 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 15 Apr 93 15:09:57 -0700
+From: cappello%cs@hub.ucsb.edu (Peter Cappello)
+Subject: Extropian Priorities
+
+>Sorting n numbers on a array of n processors has been proven to  
+>require O(sqrt(n)) time, due to the time required to move the data  
+>from one end of the array to the other. (I am ignoring the better  
+>than O(log^2 n) time achievable on hypercube-like networks ...).  I  
+>think this is sufficient to demonstrate that the limits on single  
+>processor  speeds won't be a major deterent to the singularity.
+
+You have referred to a lower bound argument on sorting in a  
+2-dimensional array.  (Perhaps I am thick) Why is a _lower_ bound  
+argument on the time complexity for sorting in a 2-dimensional array  
+sufficient to demonstrate that single processor speeds won't be a  
+major deterrent to the singularity?
+
+(I suspect that your conclusion may be correct.  I don't understand  
+the logic of your argument.)
+
+-Pete
+cappello@cs.ucsb.edu
+
+------------------------------
+
+Date: Thu, 15 Apr 1993 18:20:12 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Extropian Priorities 
+X-Reposting-Policy: redistribute only with permission
+
+Peter C. McCluskey says:
+>  esr@snark.thyrsus.com  (Eric S. Raymond) writes:
+> >>  Once programming languages and styles adapt to parallelism, the limits
+> >> to CPU-speed growth will be economics, not physics.
+> >
+> >This is by no means clear.  There are many important problems that are
+> >intrinsically serial.  No matter how hard you try, for example, you won't
+> >get factor K speedup out of splitting a sort between K processors.  The
+> >merge of sorted sublists isn't quite O(n**2) but it's not O(n) either.
+> >
+> >Massive parallelism is a big win for numerical computing, for pattern
+> >recognition, and for a number of AI problems that are hard to attack
+> >serially.  However, the belief that it's a panacea that will end-run us
+> >around quantum speed restrictions is confined to people who haven't done
+> >any serious algorithmic analysis.
+> 
+>  My assertion implicitly included the claim that typical problems which will
+> require faster processors can benefit significantly from parallelization.
+> I stand by this claim, although I don't claim that the speedup will be
+> linear in the number of processors, nor do I mean to trivialize the paradigm
+> shift that will be needed.
+
+I must agree with Peter.
+
+Human beings run on the slowest processors around -- a neuron is a
+very slowly switching device with a very slow set of I/O channels. Put
+enough of them together, and astonishing things can be done.
+
+I can think of dozens of problems in every day computing that
+parallelism will do well for.
+
+Mundane things like spreadsheet calculation, running monthly billing
+reports, and the like are easily parallelized conceptually. Important
+things like routing, which is a nasty problem the solution to which is
+needed if the internet is to survive, have been shown to be
+parallelizable very effectively. Computer vision, one of the few areas
+of AI for which I retain respect, is a subject that has made great
+strides thanks to massively parallel computers. Fast parallel graphics
+rendering systems are quite easily conceived of and in fact are used
+in certain high end applications. 
+
+Most people who say "parallel computers won't be able to do X for me"
+are people who barely ever get the CPU on their Sparcstation-2 above
+5% utilization. Even I barely ever see my CPU tick over -- all my
+every day computing tasks are for practical purposes instantaneous --
+running the Perl script that did my income taxes (yes, I have such a
+thing!) was so fast that I could barely measure the time it took. On
+the other hand, down the hall there are some guys who do REAL
+computing -- Collateralized Mortgate Obligation calculations. They eat
+CPU like its going out of style -- and they do it by stringing
+together a dozen sparcstations and running a fancy parallel calculator
+on them all night. Most of the "real" cpu-intensive problems, like
+weather prediction or airflow modeling, easily parallelize. Even a
+compiler can easily be broken into about four parallel segments if you
+do it right -- admittedly not more, but compiling is no longer a
+compute intensive task by modern standards (the Plan 9 compilers
+recompile the operating system in seconds.)
+
+Anyway, enough on this from me.
+
+Perry
+
+
+------------------------------
+
+Date: 15 Apr 1993 14:48:44 U
+From: "John Battelle" <johnb@wired.com>
+Subject: Extropians Digest V93 #0
+
+        Reply to:   RE>Extropians Digest V93 #0195
+Hi there. I must, to my dismay, ask to be taken off the list. I jsut can't find
+the time to read this. I would like to get the paper summary journal. How do I
+get it?
+
+
+
+
+------------------------------
+
+Date: Thu, 15 Apr 93 16:24:17 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: TECH: Genetic algorithms question
+
+> From: pavel@PARK.BU.EDU (Paul Cisek)
+
+> My first question is: What determines the dominance of one gene
+> over another?  Is it a part of the code in the cistron itself or is
+> it a property of the chromosome that it happens to be carried by?
+> The simple example I always hear is that blue eye color is
+> recessive and brown is dominant.
+
+In GA terms, it's a property of the genotype's expression.  Perhaps
+the brown-eye allele codes for an enzyme involved in the production
+of brown pigment, whereas the blue-eye allele codes for a broken
+version of that protein.  (I'm just postulating this, as an
+illustration of a mechanism for recessivity.)  Somebody with one
+copy of each allele will have brown eyes.  Even if less "brown
+synthase" enzyme is present (which will depend on other factors
+which we don't need to discuss), it will be sufficient to produce
+the pigment to be deposited.  Perhaps the gray-blue eyes of infancy
+will remain a bit longer.
+
+If instead of (hypothetically) coding for a broken enzyme, the
+blue-eyes allele coded for some unpleasant protein that caused you
+to drop dead at age 50, it would be dominant instead.  Both of these
+endpoint situations, as well as the variety of intermediates, could
+be implemented in a GA.  You'd need a polyploid genotype,
+obviously.  Then you could do your translation to phenotype in such
+a way as to produce recessive and dominant behavior, by dealing
+differently with differences in the alleles at parallel genes.
+
+(Are there any other examples of a word pair, like "iris" the flower
+and "iris" the thing in your eye, in which the words are identical
+in the singular but have different plurals?)
+
+> Thus, we can expect a pool of recessive genes to show more variety
+> in mutations than the dominant ones do.  When a population
+> decreases in size, the likelihood that an organism winds up with
+> two recessive genes increases, and thus we expect more mutations
+> (as seen in cases of inbreeding).
+
+Recessive alleles will be less subject to evolutionary pressure,
+yes.  But the place where this effect really comes into play is in
+the introns.  These are not (presently) expressed at all.  They
+consist partly of old genetic material, of copies of things that
+have been quietly mutating for a few million years.  Occasionally
+something in there will get turned on -- and the resulting organism
+probably never is born.  But occasionally something useful will turn
+up.  This sort of thing could happen with recessive alleles too, I
+guess.
+
+I'm not sure what you're saying about population decrease, though.
+The likelihood of being a homozygous recessive is a function of the
+allele's prevalence, not of population size.  Are you saying that
+the population is being selectively culled of carriers of the
+dominant allele?  This sort of selective pressure will certainly
+cause a shift in frequency.
+
+> My next question is:  Has this kind of mechanism been attempted in
+> genetic algorithms?  What kind of results were observed?
+
+Good question.  Anybody?
+
+> -Paul
+ 
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Thu, 15 Apr 93 19:35:17 -0400
+From: pcm@cs.brown.edu (Peter C. McCluskey)
+Subject: Extropian Priorities
+
+ cappello%cs@hub.ucsb.edu  (Peter Cappello) writes:
+>>Sorting n numbers on a array of n processors has been proven to  
+>>require O(sqrt(n)) time, due to the time required to move the data  
+>>from one end of the array to the other. (I am ignoring the better  
+>>than O(log^2 n) time achievable on hypercube-like networks ...).  I  
+>>think this is sufficient to demonstrate that the limits on single  
+>>processor  speeds won't be a major deterent to the singularity.
+
+>You have referred to a lower bound argument on sorting in a  
+>2-dimensional array.  (Perhaps I am thick) Why is a _lower_ bound  
+>argument on the time complexity for sorting in a 2-dimensional array  
+>sufficient to demonstrate that single processor speeds won't be a  
+>major deterrent to the singularity?
+
+ I was citing the lower bound only because there was some confusion about
+what the best time was. I guess I should have made it clearer that O(sqrt(n))
+algorithms exist. Assuming that single processor speeds can only be improved
+by another 2 orders of magnitude and that we need 4 more orders of magnitude
+speedup for intelligence, O(sqrt(n)) speedups imply a need for 10^8 processors
+per intelligence, which presents no major engineering problems that I can see.
+And I think most algorithms important to intelligence (such as pattern
+recognition) paralellize better than sorting.
+
+ I hope you don't expect a rigorous proof. We don't even have a rigorous
+definition of singularity, much less the ability to examine all possible
+obstacles to it. 
+
+-----------------------------------------------------------------------------
+ Peter McCluskey >> pcm@cs.brown.edu >> Eradicate global namespace pollution!
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Thu, 15 Apr 93 17:04:09 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: ECON\UPLOAD: The Singularity 
+
+I criticized what I percieved as hyperbole by Perry Metzger, to which
+he responded:
+
+>I think you don't understand the point I am making -- its oblique to
+>yours.  ... Never mind all that. The point is this -- no matter how 
+>it happens, its going to end up happening extremely fast on a
+>reasonable time scale. ... The point of my off-the-cuff speedup
+>scenario was not to imply that uploading would happen in one day. 
+
+The problem with writing, as opposed to talking to yourself, is that
+you have to deal with a wide range of possible readers, with different
+goals and perspectives.  The claims I objected to may not have been
+central from your perspective, but they might be central to me.  Wise
+folk avoid writing claims they don't believe and which aren't central
+to their concerns.  
+
+A similar problem happens when people say "A libertarian government
+would eliminate poverty, discrimination, war, ...", and then when
+questioned back off to "well, my main point is just that things would
+be better".  If that's their main point, best to just start with that.
+
+Perry summarizes:
+
+>Many scenarios are possible. I don't care to speculate what precisely
+>will happen. All I know is that at some point within at lowest twenty
+>five years and at most about one hundred years, we are going to have
+>intelligent entities spawned by our race operating at 10^8 times the
+>speed of humans by some reasonable benchmark. When that happens the
+>world will become completely incomprehensible to humans. Whether that
+>happens slowly or quickly, over a decade or in one day, etc, does not
+>matter. What does matter is the predictive brick wall, and that it is
+>showing up SOON.
+
+Well axiomatically, there's no point in speculating beyond the horizon
+point where we can't predict at all.  And if the pace of social change
+and subjective experience for the dominant entities in the economy
+speeds up dramatically, then this horizon in time will be fewer
+rotations of the earth about the sun away.  These aren't interesting
+observations to me.
+
+To me, the interesting thing to note is that we can forsee an upcoming
+dramatic transition period, that of uploading.  While we may not be
+able to forsee the upload world a million subjective years after it
+has begun, so what?  I claim we can forsee into the first one hundred
+subjective upload years, and that it is well worth our effort to do
+so.  I've posted on this subject many times here, specifically
+regarding the economic and social consequences of easy copying.
+
+Robin Hanson
+
+------------------------------
+
+Date: Thu, 15 Apr 1993 19:05:39 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: TECH: Genetic algorithms question
+
+About the eye color example: you seem to be forgetting about hazel eyes.
+
+In short, brown isn't so dominant that Bx where x is some non-brown
+eye gene and B is the brown eye gene isn't always brown.
+
+L9
+oops,
+
+L8r,
+
+Phil
+
+------------------------------
+
+Date:        Thu, 15 Apr 93 19:13:30 CST
+From: I151000 <I151%NEMOMUS.BITNET@mitvma.mit.edu>
+Subject: GUN LAWS: Help!
+
+   A discussion class that I am in is going to be discussion gun laws,
+the NRA, etc. this coming Monday.  I anticipate that I will be the only
+one arguing for LESS (or none) laws on the ownership of a weapon.
+   Any suggestions, books to read, statistics, or anything else would be
+most helpful at this point.  I have not read up on this topic, and so do
+not have hard facts to back up a position that I feel to be
+intellectually correct.  Help!
+
+
+                          Joshua McMichael
+
+------------------------------
+
+Date: Thu, 15 Apr 93 20:31:38 -0400
+From: pavel@PARK.BU.EDU (Paul Cisek)
+Subject: TECH: Genetic algorithms question
+
+Eli Brandt writes:
+
+>
+>I'm not sure what you're saying about population decrease, though.
+>The likelihood of being a homozygous recessive is a function of the
+>allele's prevalence, not of population size.  Are you saying that
+>the population is being selectively culled of carriers of the
+>dominant allele?  This sort of selective pressure will certainly
+>cause a shift in frequency.
+>
+
+I'd expect that as a population decreases then you get more inbreeding.  A
+mating between related creatures makes it more likely for two hybrids to meet
+and produce a homozygous recessive.  Also, presumably the drop in
+population IS caused by a selection against the dominant allele, ie the
+population is not dealing well with new changes in the environment.
+
+BTW- thanks for the explanation of dominance&recessiveness - makes sense.  I
+had thought it was an issue at the chromosome level rather than at the
+protein level...
+
+As for use in Genetic Algorithms, I'm trying to convince a friend of mine who's
+into them to try it.  If he does I'll post any interesting findings.  I'd
+actually be quite surprised if diploid chromosomes haven't been attempted
+already - they probably introduce a slew of interesting issues...
+
+-Paul
+
+
+------------------------------
+
+Date:         Thu, 15 Apr 93 19:58:20 CDT
+From: "Christopher L. Weeks" <C576653@MIZZOU1.missouri.edu>
+Subject: GUN LAWS: Help!
+
+Is the NRA reachable throught the internet?  They would probably be willing
+and able to give you a virtual deluge of information with the apropriate bias.
+Does anyone know if they're on the net?  I know many of us are probably long-
+term members.  If they're not, someone should suggest it to them, it would be a
+good tool for the distribution of information and soliciting memberships.  Look
+for a gun control discussion group and read their faqs and ask questions.
+
+
+Christopher L. Weeks
+c576653@mizzou1.missouri.edu
+
+------------------------------
+
+Date: Wed, 14 Apr 93 20:26 EDT
+From: kwaldman@tanstaafl.extropy1.sai.com (Karl M Waldman)
+Subject: HUMOR:Singularity Studies
+
+> Help this infant academic discipline!  Add more scenarios!  For
+> the more methodical researchers out there, flesh out the various
+> scenarios -- of particular use would be a Drake-type equation
+> for each scenario, to help judge its likelihood and timetable.
+
+	You forgot one Derek,
+
+	The Bill Clinton Scenario:  Taxes are raised exponentially
+    Does he know what's on the other side?
+
+		:-(
+
+		Karl
+
+
+B.C. just waffled on his V.A.T. today, he now wants one to pay 
+for healthcare.
+
+------------------------------
+
+Date: Thu, 15 Apr 93 18:26:57 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: TECH: Genetic algorithms question
+
+Somebody also mentioned hazel eyes.  Well, I said I was
+oversimplifying.  In fact, the blue-eyes allele probably doesn't
+code for a broken brown synthase.  Maybe it codes for blue synthase.
+Somebody probably knows the details, but all of the eyes *my* bio
+classes talked about were attached to fruit flies.
+
+> From: pavel@PARK.BU.EDU (Paul Cisek)
+> I'd expect that as a population decreases then you get more inbreeding.  A
+> mating between related creatures makes it more likely for two hybrids to meet
+> and produce a homozygous recessive.  Also, presumably the drop in
+> population IS caused by a selection against the dominant allele, ie the
+> population is not dealing well with new changes in the environment.
+
+If you just remove half of the population randomly with respect to
+the gene in question, the removed half and the remaining half will
+have the same expected allele frequencies, just by symmetry.  You
+might expect more inbreeding, but really, those related to you are
+as likely to be removed as those not.
+
+Let's say alleles "A" and "a" are equally frequent.  Then a
+population of 100 will be 25 aa, 50 Aa, and 25 AA -- 75%
+phenotypically A.  Randomly removing half will just make this 12,
+25, and 12 -- still 75% A.  And this population is stable under
+random mating.
+
+> BTW- thanks for the explanation of dominance&recessiveness - makes sense.  I
+> had thought it was an issue at the chromosome level rather than at the
+> protein level...
+
+There may also be a mechanism by which one allele inhibits the
+transcription of another.  I'm sure this happens (it's like physics:
+it could happen, so it must); I just don't know whether it happens
+as a cause of recessiveness.
+
+> As for use in Genetic Algorithms, I'm trying to convince a friend
+> of mine who's into them to try it.  If he does I'll post any
+> interesting findings. 
+
+Please do.
+
+> -Paul
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Fri, 16 Apr 93 9:34:02 WST
+From: davidc@cs.uwa.edu.au (David Cake)
+Subject: COMP: Complexity of sorting
+
+	The reason that  radix sort is able to work in linear time is
+that it depends on the number of digits in the number being sorted. So while
+it is not (n*lg n), it is (d * lg n), where d is the logarithm of n or larger.
+So its not that amazing really. It is however theoretically very very fast,
+however some of the niceties make it difficult to implement properly. As I 
+recall if you had the special comparison operation required (which most
+processors don't) then it can be done in about 3 or 4 lines of assembly for
+each comparison, not using multiplies or divides por anything else expensive.
+Look into it if you are writing an assembly language sorting routine.
+	If anyone cares further, I'll be forced to actually read my textbook 
+on algorithms.
+							Dave Cake
+
+
+------------------------------
+
+Date: Thu, 15 Apr 93 21:23:53 MDT
+From: rclark@nyx.cs.du.edu (Robert W. F. Clark)
+Subject: WARNING: Pointer article to soc.whistleblowers debate
+
+The news software has been activated.
+
+David Tale has accepted the article, sans a paragraph specifying
+a procedural point (which I didn't think would fly, anyway) and
+bagging alt.sex and alt.drugs from the discussion, but keeping
+many others; I think if I hadn't put those two in, he might have
+knocked out a few I was serious about.
+
+So, in any case, the article, in a modified form, partially by
+me and partially by Tale, is now posted to news.announce.newgroups,
+and the debate shall begin shortly.
+
+Those of you who consider this newsgroup a beneficial and good
+thing, and who wish to discuss its implementation and name
+and other germane issues, should immediately go to news.groups
+and begin posting like lunatics.
+
+Those of you who consider this newsgroup a menace to society
+should go to news.groups and post scathing articles about my
+sexual preferences.  (Humor, of course.)
+
+In any case, I have not identified myself as a cypherpunk or,
+for that matter, as an Extropian, not having the boundless arrogance
+to presume that cypherpunks all share my opinion of the methods of
+implementing this; so those of you who do agree with me, or 
+disagree only on procedural points, should post your opinion;
+people have a larger tendency to vote YES when they think others
+agree with them.  Also try to avoid excessively inflammatory
+postings (on the order of "You fucking moron, how DARE you
+disagree with me."), as these will tend to garner a bunch of NOs.
+
+I don't mean be a total schmuck and bend over backwards for
+a flaming, but flame back in a constructive spirit and without
+senseless _ad hominem_ attacks.  
+
+I hope that this group can be created with as little
+sturm and drang as possible, but if it _does_ require
+sturm OR drang OR both, heat may need to be applied.
+
+Again, post whether or not you agree.  And don't send votes
+yet, of course.  I'll just junk them, according to net.law.
+
+If the cypherpunks wish to present this as a cypherpunk issue,
+or if individuals wish to support it as individuals, feel free.
+I'm not going to attach the name 'cypherpunk' to it myself
+because, not to be rude, it would further politicize an already
+highly-politicized issue.  However, if we'd be more effective
+as THE DREADED Extropians/Cypherpunks bloc, which I don't think
+is necessarily the case, feel free.  It's not my net.  
+
+Apologies are extended for the lengthy crosspost, but it shall
+be the last crosspost; further discussion ought to occur in
+news.groups.  And battle plans in cypherpunks, if we even need
+battle plans.  With any luck, there won't be a battle.
+
+If we sneak this in by acclamation without a flamewar or
+controversy, we're ENTRENCHED.  NOBODY can stop us, or any
+other people who could utilize this most valuable resource.
+
+But I'm not holding my breath on that one. 
+
+Although I cross-posted mainly to groups with a large population
+of potential YES voters, and ignored, say, news admin hangouts,
+those who would oppose this are sure to find out about it; but
+I think we can muster sufficient political clout to pass this.
+
+Me?  I'm currently going to enlist some old friends from talk.bizarre. . .
+
+Don't worry, they're not the current crop but the same crowd that
+passed comp.protocols.tcp-ip.eniac.  I'll ask for as little
+inflammatory material as possible, like I did here, but I
+don't want this to become any more of a flamewar than necessary,
+and, again and for the last time, would prefer it didn't end
+up that way at all.
+
+End of crosspost.  We now return you to your regular round
+of discussing radix sorts and monozygotic recessives.
+
+Thank you. 
+----
+Robert W. Clark
+rclark@nyx.cs.du.edu   PGP signature available by mail or finger
+
+------------------------------
+
+Date: Thu, 15 Apr 1993 21:52:12 -0700 (PDT)
+From: Scott C DeLancey <delancey@darkwing.uoregon.edu>
+Subject: GUN LAWS: Help!
+
+If you have Usenet access, look in on talk.politics.guns -- the basics
+typically get rehashed on an almost weekly basis.
+
+Scott DeLancey
+
+
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 01:17:55 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: GUN LAWS: Help!
+
+  Make sure you discredit their 'statistics' very early on. Most gun grabbers
+spew bogus statistics put out by the media. For instance, 
+'a gun in the house is 43 times more likely to be used on a family
+member than a criminal'.
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 00:34:26 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: TECH: Genetic algorithms question
+
+>                   In fact, the blue-eyes allele probably doesn't
+> code for a broken brown synthase.  Maybe it codes for blue synthase.
+> Somebody probably knows the details, but all of the eyes *my* bio
+> classes talked about were attached to fruit flies.
+
+I used to know this.  Lemme se if I can remember the details...
+
+Basic fact: blue human eyes are blue for the same basic reason the sky is
+blue; that's the color you get when approximately-white light scatters off
+aerosols in a certain size range.
+
+The sky has no diffused blue pigment in it.  What it's got instead is water
+vapor, which sunlight scatters off of to produce blue.  (BTW, red skies are
+due to dust-sized aerosols; that's why air pollution makes pretty sunsets.)
+
+Blue human eyes have no diffused pigment either (or, very little; there are
+lighter and darker shades).  The blue is produced by scattering of light
+reflected off the iris.  The scattering is due to pigment granules in the
+cornea that are the same size range as water vapor droplets in the sky.
+
+You can check out the no-diffused-pigment part by looking through the cornea
+of a blue-eyed person sideways.  It's transparent!   (My girlfriend and I
+just checked this.  She has sort of blue/gray eyes with a hazel outer ring;
+the cornea is hazel-tinged.  I have your classic clear blue eyes and my cornea
+is, in fact, transparent.)
+
+Other eye colors have diffuse pigment in the cornea.  This is easiest to see
+in brown-eyed people.
+
+Incidentally, blue eyes are adaptive in a way that explains their correlation
+with Northern European ancestry.  Blue-eyed people have slightly better seeing
+in foggy and misty conditions.  It's not known for sure what the *presence*
+of eye pigment is good for, though I've seen suggestions that it may help
+protect the eyes from UV damage.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Thu, 15 Apr 93 23:57:50 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: TECH: Genetic algorithms question
+
+> From: esr@snark.thyrsus.com (Eric S. Raymond)
+> just checked this.  She has sort of blue/gray eyes with a hazel outer ring;
+
+(this, btw, is a good example of how my allele spiel was oversimplified.)
+
+> the cornea is hazel-tinged.  I have your classic clear blue eyes and my cornea
+> is, in fact, transparent.)
+
+Now waitaminit.  The pigment is in the iris, not the cornea -- if it
+were in the cornea, everything you see would be tinted (well, maybe
+not, given adaptation. But it would screw corneal transplants to
+hell.)  I have hazel eyes and have just been assured that I do not
+have tinted corneas.
+
+As to the blue color of blue eyes being produced by scattering, that
+sounds reasonable.  It supports the implicit assumption I made in
+explaining eye-color dominance, that the "default" color is blue.
+
+If I were designing an eye, I'd make the iris black, as opaque as
+possible.  Who'd make a camera with a translucent diaphragm?  I
+guess there are other considerations than light scattered through
+the iris, because nobody's got black eyes...
+
+> 					Eric S. Raymond <esr@snark.thyrsus.com>
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Fri, 16 Apr 93 02:12:12 MDT
+From: sneal@muskwa.ucs.ualberta.ca (Sneal)
+Subject: Amsterdam as privacy mecca
+
+zz@garnet.berkeley.edu (Zachary Zaidman) writes:
+>
+>Hello hello wherever you are,
+>
+>I will be in Amsterdam in about a week and though I have no recollection of
+>any Dutch Extropians I thought I'd ask.
+ 
+     Ooo... here's something that proves synchronicity exists beyond
+a shadow of a doubt (or provides a preponderance of evidence in the
+case of civil synchronicity).  Just after seeing Zachary's post, I
+read the following in the January issue of "Expatriate World":
+ 
+     "A company called Digi Cash in Amsterdam will begin application
+      of an anonymous money transfer system conceived by mathematician
+      David Chaum..."
+ 
+     I vaguely remember another list member mentioning something
+about this company a long time ago... does anyone have any current
+info on this?  In the meantime, I'll see if Zachary can be talked
+into getting some firsthand info.
+ 
+  -- Steve
+---------------------------------------------------------------------------
+Amsterdam Express: Don't         
+ 
+2KXti75zeAxnQ7AAUTtClFcmljIFdhdHQgRm9yc3j8fLgmq9I65J3bJ2PYuyJuZd
+AAEEAKYc1bfmosxEItofDhLtQ541rM01IhNWxsKjB1W1+Owwc2CdmQCNAismjMwA
+ERlofDo6L1inRlIDxhcmt1YXRAam9lcy5nYXJhZ2UuY29tPokARQIFijAK0nV6Ru
+Kmcin4ipg===gX+Q8oobSePTr4EuSYHguSIfG3ez/23fFCJTguEQyjTmujCugUvl
+pw+ZAhlNtyPquHOWn+yVHyNgPpD1atvpPPRGEOKfrgXKMWUJmIGMFxz8MYLdU5S0
+ECu0RyymvG7s5zvY2QEBLVABf2kI15+ym
+ 
+without it.
+ 
+ 
+ 
+
+------------------------------
+
+Date: Fri, 16 Apr 93 02:13:18 MDT
+From: sneal@muskwa.ucs.ualberta.ca (Sneal)
+Subject: BOOKS: Wilson's LaNague Chronicles
+
+     Has anyone out there read any of F. Paul Wilson's science
+fiction?  The new issue of Liberty describes Wilson's
+The_LaNague_Chronicles as "explicitly libertarian science fiction". 
+The book is an omnibus edition incorporating three novels "Healer",
+"Wheels Within Wheels", and "An Enemy of the State" (you gotta love
+that last title).  
+ 
+     Anyone care to cough up a review?
+ 
+     -- Steve, Yet Another Enemy of the State
+
+------------------------------
+
+Date: Fri, 16 Apr 93 09:37:19 BST
+From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+Subject: Korzybski's "E-Prime", also NLP
+
+Here are some General Semantics references.
+
+Korzybski "Science and Sanity" (preferably the latest (4th) edition, as
+later editions include extensive extra prefaces and supplements)
+
+S.I. Hayakawa "Language in Thought and Action" (I read this a long time
+ago; I recall that it was written on a very elementary level.)
+
+Stuart Chase "The Tyranny of Words" and "The Power of Words"
+
+D.D. Bourland and P.D. Johnston (eds.) "To Be Or Not" (a collection of
+articles on E-Prime)
+
+The Korzybski and Bourland books are available from the International
+Society for General Semantics, P.O. Box 2469, San Francisco, CA 94126, tel.
+(415) 543-1747.  The ISGS also publishes a quarterly journal on GS called
+"Etc", and have published various other books on GS.
+
+E-Prime has received a great deal of criticism, much of which I feel is
+misplaced.  Certainly, it is possible to write E-Prime following the letter
+of the rules but missing the point of the exercise or wilfully ignoring it;
+well, anything can be caricatured, regardless of its merits.  Caricature is
+a way of presenting a point of view, not an argument that the point of view
+has any support.
+
+I personally treat writing in E-Prime in the same spirit as creative
+writing exercises.  A typical such exercise consists of choosing half a
+dozen words at random and writing a sensible paragraph using all of them. 
+Someone who responds to such an exercise by writing a paragraph of the form
+"I opened a dictionary at random and the first six words I found were..."
+has missed the point and will learn nothing from it.  Similarly, writing
+E-Prime by means of fractured English in which all uses of "to be" simply
+omitted also missing the point.
+
+I do find that since learning of E-Prime and of GS in general, that a
+warning flag goes up in my mind whenever I encounter excessively izzy
+statements or questions such as "what *is* X, *really*?".  Words like
+"really", "essentially", "only", etc. have the same effect.  They usually
+disguise muddled thinking.  I even regard the word "the" with suspicion on
+occasion.
+
+--                                ____
+Richard Kennaway                  \ _/__    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk       \X  /    University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk      \/     Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 05:00:17 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: HUMOR: Libertarian Party doomed
+
+  CBS late nite news showed a clip of a naked woman riding through a city
+on horseback wearing only the sign "Libertarians oppose income taxes!"
+
+I thought such a stunt was humorous, but it is damaging to the image
+of libertarians. It is unprofessional and tends to project a 
+"crackpot" image. For this reason, the L-party will probably never
+enter the mainstream (unless it can deal with it's image problem).
+
+  I've met quite a few people who think libertarians are nothing more
+than drug using homosexual republicans.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Fri, 16 Apr 93 12:47:32 BST
+From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+Subject: TECH: Genetic algorithms question
+
+Eli Brandt writes:
+>Recessive alleles will be less subject to evolutionary pressure,
+>yes.  But the place where this effect really comes into play is in
+>the introns.  These are not (presently) expressed at all.  They
+>consist partly of old genetic material, of copies of things that
+>have been quietly mutating for a few million years.  Occasionally
+>something in there will get turned on -- and the resulting organism
+>probably never is born.  But occasionally something useful will turn
+>up.
+
+Is this actually known to be the case, or speculation based only on current
+ignorance of any known function for the apparently functionless material? 
+Appendices and tonsils were recently mentioned here as things popularly
+thought of as vestigial remnants, but which are now known to have a
+function.
+
+--                                ____
+Richard Kennaway                  \ _/__    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk       \X  /    University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk      \/     Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Fri, 16 Apr 93 7:12:54 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: SMART: Hydergine & piracetam potentiation
+
+Dean & Morgenthaler report that one researcher remarked that he BELIEVED
+that Hydergine (DHT) and piracetam (nootropil) potentiate eachother by
+as much as FIVE times.  As I am taking both (roughly 1/4 recommended cogni-
+tive enhancement dosage), I find this to be of some import.  I cannot tell
+what the effects will be for a few months due to the lag between when one
+first takes Hydergine and when it begins to have noticeable effects.
+
+Has any further research been done on this? Even anecdotal evidence based
+on personal experience would be of value to me.  Thanks in advance!
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 00:34:26 -0400 (EDT)
+From: cbmvax!snark.thyrsus.com!esr@uunet.UU.NET (Eric S. Raymond)
+Subject: TECH: Genetic algorithms question
+
+>                   In fact, the blue-eyes allele probably doesn't
+> code for a broken brown synthase.  Maybe it codes for blue synthase.
+> Somebody probably knows the details, but all of the eyes *my* bio
+> classes talked about were attached to fruit flies.
+
+I used to know this.  Lemme se if I can remember the details...
+
+Basic fact: blue human eyes are blue for the same basic reason the sky is
+blue; that's the color you get when approximately-white light scatters off
+aerosols in a certain size range.
+
+The sky has no diffused blue pigment in it.  What it's got instead is water
+vapor, which sunlight scatters off of to produce blue.  (BTW, red skies are
+due to dust-sized aerosols; that's why air pollution makes pretty sunsets.)
+
+Blue human eyes have no diffused pigment either (or, very little; there are
+lighter and darker shades).  The blue is produced by scattering of light
+reflected off the iris.  The scattering is due to pigment granules in the
+cornea that are the same size range as water vapor droplets in the sky.
+
+You can check out the no-diffused-pigment part by looking through the cornea
+of a blue-eyed person sideways.  It's transparent!   (My girlfriend and I
+just checked this.  She has sort of blue/gray eyes with a hazel outer ring;
+the cornea is hazel-tinged.  I have your classic clear blue eyes and my cornea
+is, in fact, transparent.)
+
+Other eye colors have diffuse pigment in the cornea.  This is easiest to see
+in brown-eyed people.
+
+Incidentally, blue eyes are adaptive in a way that explains their correlation
+with Northern European ancestry.  Blue-eyed people have slightly better seeing
+in foggy and misty conditions.  It's not known for sure what the *presence*
+of eye pigment is good for, though I've seen suggestions that it may help
+protect the eyes from UV damage.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Fri, 16 Apr 93 09:50:28 EDT
+From: eisrael@suneast.East.Sun.COM (Elias Israel - SunSelect Engineering)
+Subject: HUMOR: Libertarian Party doomed
+
+Ray Cromwell writes:
+>   I've met quite a few people who think libertarians are nothing more
+> than drug using homosexual republicans.
+
+Hey! You got a problem with drug-using, homosexual, (don't forget
+gun-toting) republicans?
+
+Seriously, though, I think that Ray is correct. The libertarian party is
+coming apart at the seams. It's eating its young. Any serious improvement
+in the sorry state of US politics can only come from a general change
+of attitudes and not from the desparate attention-grabbing of an ever more
+marginalized libertarian party.
+
+Of course, it might help if they started picking their candidates based on
+ability to win instead of ability to pay. (Or, worse yet, by some foolish
+democratic notion that the majority of party-members know what a winning
+candidate looks like.)
+
+Me? Sour on the LP? Nah, couldn't be.
+
+Elias Israel
+eisrael@east.sun.com
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0196
+****************************************
+

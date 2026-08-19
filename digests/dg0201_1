@@ -1,0 +1,922 @@
+From extropians-request@extropy.org Tue Feb  1 22:27:29 1994
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA07277; Tue, 1 Feb 94 22:27:09 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA15383; Tue, 1 Feb 94 22:26:53 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA05415
+  (5.65c/IDA-1.4.4); Tue, 1 Feb 1994 22:19:47 -0500
+Date: Tue, 1 Feb 1994 22:19:47 -0500
+Message-Id: <199402020319.AA05415@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-1-722 - #94-1-738
+X-Extropian-Date: February 1, 374 P.N.O. [22:18:01 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest              Tue, 1 Feb 94              Volume 94 : Issue 31
+
+Today's Topics:
+                    Ambient music for the advanced upload             [1 msgs]
+                              Babylon 5 premises                      [1 msgs]
+                              ECON: Solar Panels                      [2 msgs]
+                HUMOR (?): Neo-Tech man extracts money at will        [1 msgs]
+               LEGAL:  Proposal to encourage PPL participation        [2 msgs]
+                   PATENT: Software Patents Public Hearing            [1 msgs]
+                         PCR: Pancritical Rationalism                 [1 msgs]
+                    PSYCH: some stuff I found on a gopher             [1 msgs]
+                             SCI:  Lasers/Fusion                      [4 msgs]
+                              SEMANTICS: Faith                        [1 msgs]
+                       Significance of "::exclude all"?               [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 51383 bytes.
+
+----------------------------------------------------------------------
+
+From: rjc@gnu.ai.mit.edu (Ray)
+Date: Sun, 30 Jan 94 17:25:18 WET
+Subject: [#94-1-722] SCI:  Lasers/Fusion
+
+   Kennita, you're not nuts. You just invented inertial confinement fusion.
+The problem is, to cool down atoms, only very small lasers are needed, but
+to fuse atoms you need large lasers. How large? LLNL is using lasers
+capable of delivering 200kJ in a nanosecond - ~ 10^14 W! Small hydrogen
+pellets are exploded by being zapped by this laser from all sides.
+Right now, I don't think they are anywhere near break even.
+
+-Ray
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+From: rjc@gnu.ai.mit.edu (Ray)
+Date: Sun, 30 Jan 94 18:13:36 WET
+Subject: [#94-1-723] ECON: Solar Panels
+
+Dani Eder writes:
+> 
+> X-Message-Reference: #94-1-699
+> OK.  The panel they are selling is 51 Watt peak output.  Surface
+> area is 0.44 square meters.  12 year warranty.  Price $380.
+>  
+> Ray sez:
+> >   Solar power currently doesn't work for other reasons.
+> > 
+> >   1) inefficient. both solar dynamic and photovoltaics don't have the
+> >      efficiency or energy density needed for commercial success at the
+> >      moment
+> > Land around here, in suburban Houston, runs about $5000 per acre.
+> There is in fact a fossil fuel power plant about 2 miles from here, so
+> I will use this as an example.  There are 4047 square meters in an
+> acre.  So land cost is $1.24 per square meter locally.  Let us assume
+> that 50% of your land area is effectively covered with array area.
+> Using the panel above, we get 116 W/sq meter of panel, or 58 W/sq
+> meter.  So land cost would be $0.02 per watt.  Since commercial power
+> plants are built for $1-2 per watt, I would say that efficiency per se
+> is not a determinant for success.
+
+   Efficiency and energy density come in when you want to put one on
+a car or your roof. For a power plant, look at the cost to build a
+1GW plant. 1e9W/51W*$380=$7.5 billion for the panels, 1e9/51*0.44*$1.24=
+$10.6million for the land. Not to mention finding 2 sq. mi. of contiguous
+land to locate this plant and getting past regulations. This analysis
+doesn't even factor in the costs of constructing and maintaining 
+a network of 2sq.mi. of panels.
+
+> > >   2) lifetime. Most solar panels produce less power over their
+> > >      lifetime than the energy put into their construction.
+> makes back it's energy input in 2.5 years.  Since they put a 12 year
+> warranty on it, I assume they expect it to last longer than this.
+
+  I don't recall where I remember this figure from, but it's old (1988)
+and probably took into account more than just the melting costs.
+ 
+> > >   3) pollution. From what I've heard, the production of solar panels
+> > >      produces chemical waste. Sorry, no free lunch.
+> 
+> You'll have to give us a citation - hearsay is not admissible evidence.
+> You would have to show that PV produces more waste than other power
+> generation sources do.
+
+  No, only that it is not ``clean'' If the construction of a solar plant
+were to produce as much, or even half as much waste as other sources,
+environmentalists would question it. This doesn't even take into
+account the land fill space needed for the 12 year lifetime of the 
+panels. I have actually seen environmentalists taking an anti-solar
+pro-wind power stance because of this.
+
+> > >   4) subject to variations in weather
+> 
+> If you put the array on top of one of my 10 km towers, you win on several
+> counts.  First of all, the solar flux is about 30% higher up there.  You
+
+   If we had one of your 10km towers, we'd be doing a lot more interesting
+things than putting solar panels on them. ;-)
+
+   I'll concede that for immobile power generation purposes, the efficiency
+doesn't really matter much (because of the cheapness of land, I wonder
+how this analysis would play in Japan?) but the cost of the panel is still
+too high and the variation in its power output means either supplemental
+power sources are needed, or lots of batteries plus efficient homes.
+
+-Ray
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+From: pgf@srl05.cacs.usl.edu (Phil G. Fraering)
+Date: Sun, 30 Jan 1994 17:10:35 -0600
+Subject: [#94-1-724] SCI:  Lasers/Fusion
+
+Speaking of which, what's the status of Inertial Confinement Fission?
+
+Phil
+
+------------------------------
+
+From: rjc@gnu.ai.mit.edu (Ray)
+Date: Sun, 30 Jan 94 18:21:38 WET
+Subject: [#94-1-725] Babylon 5 premises
+
+   So far I love B5. The fact that its universe practices capitalism
+("shipping companies buy access to the jump gates in bulk and sell it on
+the open market") and the computer graphics are awesome (allow a level of 
+complexity of space scenes unparalleledd by models.) is enough to keep
+me watching. The first season of shows are usually mediocre, I expect them to
+get better.
+
+   Of course, it's not Vernor Vinge, but it's better than all the other
+SF on TV. I made the mistake of watching a Viper episode -- once.
+
+   I also like the fact that they are trying obey Newton's laws in space.
+The toaster software doesn't automatically do particle system animation
+so it's a tough job.
+
+-Ray
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+From: Dani Eder <eder@blkbox.COM>
+Date: Sun, 30 Jan 1994 17:17:45 -0600 (CST)
+Subject: [#94-1-726] SCI:  Lasers/Fusion
+
+> 
+> Feel free to explain to me why this won't work, or even why it shows an
+> utter lack of understanding of the principles involved.  Pardon my layman's
+> terms -- most of the physics I remember, I got from Discover magazine.
+> 
+> I read recently about how we can "cool" (lower the energy of) an atom down
+> to very near absolute zero (a fractional degree Kelvin, I think) by holding
+> it still using opposing lasers -- whenever it tries to move in a direction,
+> the appropriate one of the lasers nudges it the other way.  I seem to
+> recall they could do it with two lasers, but it seemed to me that they
+> would need six (not the main topic, but if you can explain why two would
+> work, I'd appreciate that, too).
+
+Ok, here goes: Laser trapping and cooling uses lasers tuned just below
+a frequency that a particular atom absorbs.  If the atom is moving 
+towards one of the laser, that beam appears blueshifted from the point
+of view of the atom, which moves the frquency of the laser up to the
+absorbtion frequency.  Now the atom absorbs the laser photon and re-emits
+it in arandom direction.  Since all the absorbed photons come from one
+side and the emitted ones are evenly directed, the net effect is
+a momentum transfer (push) away from the beam direction.  Having two
+beams means the atoms get pushed back if they go either left or right.
+Eventually the atoms come to a stop, and they no longer absorb the
+laser light.  Since lack of atomic motion = very cold by defintion, you
+get cold gas.  
+
+You are dealing with absorbtion frequencies that involve moving an electron
+from one state to another in an atom, typically one electron volt or
+thereabouts in energy.  With small atoms, a few tens of electron volts
+is sufficient to strip the electrons off the nucleus, giving you ions.
+
+In order to get fusion, you have to get the nucleii close enough together
+for the nuclear forces to act.  This requires energies of tens of thousands
+of electron volts (the nucleii have to be approaching very fast to get
+close together before the positive charges bring them to a stop and then
+push them apart again).  So, long before you get to fusion energies, you
+lose all the electrons, and laser trapping no longer works.
+
+Your question is not at all dumb, because tokamak approach being used
+in the big fusion experiments does something similar to what you suggest,
+but using different techniques.  In a tokamak the magnetic fields are
+used to hold the particles in place, and microwaves or particle beams
+are used to heat them to the point they start to fuse.
+
+Dani Eder
+
+
+------------------------------
+
+From: Da Mystic Homeboy <praveen@carina.unm.edu>
+Date: Sun, 30 Jan 1994 16:36:06 -0700 (MST)
+Subject: [#94-1-727] SCI:  Lasers/Fusion
+
+According to Kennita Watson:
+
+	Hrmm... what youve just described is essentially like something
+called Inertial Confinement Fusion (or ICF/ICE).  Im not sure, really
+what the problem is (I think youve hit it on the mark with the "targetting"
+problem), but I do know that for some reasons, Tokamak reactors (fusion thru
+huge magnetic fields) had a much higher success rate as far as it all goes...
+
+>
+>I read recently about how we can "cool" (lower the energy of) an atom down
+>to very near absolute zero (a fractional degree Kelvin, I think) by holding
+>it still using opposing lasers -- whenever it tries to move in a direction,
+>the appropriate one of the lasers nudges it the other way.  I seem to
+	This is completely off the subject, but you inspired me... Could you
+use this principle for nanocooling?  Say you have a nanosystem, in which
+have of the nanites are "cooling" 'bots.  They have little lasers built in
+em thatll hit the "werker" 'bots right adjacent to them...  Whaddayu guys
+think?  Better than any form of chemical/compression/etc. cooling?
+
+>
+>Anyhow, I was wondering if we could use the same laser arrangement to "heat
+>up" (raise the energy of) the same atom to an arbitrary fixed level
+>(bounded, I would imagine, by the energy of the lasers -- or maybe of each
+>laser independently) (maybe there's a resonant frequency?).  Beyond that, I
+	Hmm... Just really quickly, the definition of a  laser is when
+you have all yer atoms in aligned in resonant frequency, producing a
+very intense beam of light...
+
+>was wondering if two ever-so-slightly offset sets of lasers could be used
+>to heat up two atoms to the same level, but 180 degrees out of phase, and
+>at some point let them go so they slam into each other and fuse.  I also
+>wonder if I've missed the boat and somebody has already tried this and
+>either done it or proven it won't work.
+	Again, this is pretty much ICF.... (but fusion isnt my field,
+so someone please tell me if I am wrong in this)...  But the phase thing
+intriuges me...  Traditional fusion goes on you get enough energy that
+you overcome the electromagnetic force of the nucleii until you hit
+a "potential energy well"... But Ive seen glimpses along in sci.physics
+(even though Ive never seen any mention of it in any textbook/teacher/
+whutthaveyou, but it still might exist) that people have conjured up
+ways to very unpractically control rates of decay.  Alpha decay (correct
+me if Im wrong someone!!!) is caused by the lack of the strong force
+which binds the nucleus.  If instead of pushing nucleii together, you
+could increase the nuclear PE well by some weird gluon increase (dont
+ask how), you would have instant, cheap fusion, maybe even for more than
+break-even...  Maybe... blagh...
+ 
+>
+>Thanks,
+>Kennita
+>
+>
+>Kennita Watson      | To keep an ever-open door is wisdom's true advancer;
+>kwatson@netcom.com  | So they are fools who don't ask more
+>HEx KNNTA           | Than ten wise men can answer. -- Piet Hein, _Grooks 2_
+
+Da Mystik Homeboy, Sysop Fred's (xtra) Crispy French Fries (505)266-7533...
+"....Bringing the world one step closer to Apocalypse...!"
+
+
+------------------------------
+
+From: Tim Freeman <tsf@cs.cmu.edu>
+Date: Sun, 30 Jan 94 19:43:30 EST
+Subject: [#94-1-728] Significance of "::exclude all"?
+
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+>I did an ::exclude all a while back. Someday I might return.
+
+Several people have implied that doing a "::exclude all" is synonymous
+to ceasing to read the list.  I don't see the connection.  I did a
+::exclude all long ago; now I read the list by requesting the messages
+with interesting-looking subjects.  It's kind of like reading a
+newspaper and picking stories by looking at the headlines.  It feels
+comfortable to me.
+
+Tim Freeman
+
+------------------------------
+
+From: Dani Eder <eder@blkbox.COM>
+Date: Sun, 30 Jan 1994 18:38:54 -0600 (CST)
+Subject: [#94-1-729] ECON: Solar Panels
+
+> 
+> Dani Eder writes:
+> > 
+> > Ray sez:
+> > >   Solar power currently doesn't work for other reasons.
+> > > 
+> > >   1) inefficient. both solar dynamic and photovoltaics don't have the
+> > >      efficiency or energy density needed for commercial success at the
+> > >      moment
+> 
+>    Efficiency and energy density come in when you want to put one on
+> a car or your roof. For a power plant, look at the cost to build a
+> 1GW plant. 1e9W/51W*$380=$7.5 billion for the panels, 1e9/51*0.44*$1.24=
+> $10.6million for the land. Not to mention finding 2 sq. mi. of contiguous
+> land to locate this plant and getting past regulations. This analysis
+> doesn't even factor in the costs of constructing and maintaining 
+> a network of 2sq.mi. of panels.
+
+If you look at your first message, you said 'commercial success' I thought
+we were talking about power generation for electricity, which the PV
+industry has always had as it's holy grail - substituting for coal or
+nuclear plants.  Second, the price I quoted is a catalog price for a
+single panel at retail.  If you call the manufacturer and tell them
+you want a megawatt or larger installation, you get the wholesale price,
+which is about $4/watt.  Third, the Houston Power & Light property is
+0.75 square miles (I went and measured it on the map).  It's not 2 square
+miles, but the plant is probably more like 500 MW anyway.  Coal fired
+plants need the elbow room to stockpile hills of coal, and you need the
+distance for safety in the case of a boiler explosion (which don't happen
+too often nowadays, but they did in the past, and plants are governed
+by the ASME Boiler Code in their current design). Fourth, there is no
+need to have big centralized plants with PV, because there isn't the
+economies of scale like you have with fossil fuel or nuclear plants.
+
+What you would like to do, if you were a utility, is put the PV arrays
+on the roofs of your big industrial customer's plants - the land cost
+is saved, and you spend less for power lines, and take less transmission
+and conversion losses over the power lines.
+
+Fifth, a typical suburban house consumes about 3 kW of energy of all
+types, of which about 2 kW is water and space heating, and the balance
+is electrical.  Solar water and space heating requires about 32 square
+meters and PV requires 70 square meters for an average climate, which
+is a total of 102 square meters, or 1100 square feet.  If the house
+is one story, there is enough area on the roof to fit in the panels.
+
+Sixth, nobody I know of seriously considers PV for cars except to keep
+the battery charged or a ventilation fan running.  the PV car races
+show how far we are from a practical system of automotive transport.
+On the other hand, I've done calculations that show solar powered trains
+are moderately reasonable, technically.
+
+>   No, only that it is not ``clean'' If the construction of a solar plant
+> were to produce as much, or even half as much waste as other sources,
+> environmentalists would question it. This doesn't even take into
+> account the land fill space needed for the 12 year lifetime of the 
+> panels. I have actually seen environmentalists taking an anti-solar
+> pro-wind power stance because of this.
+
+Seventh - you seem to have forgotten what was discussed just above the
+paragraph quoted here - they offer a 12 year warranty, which means they
+expect the panels to last a lot longer than 12 years on average (the
+average life to warranty period ratio for most consumer items is in the
+range of 3-5:1.  ) (It could mean the company expects to go out of
+business before the panels fail - but I assume this is not the case)
+
+>    If we had one of your 10km towers, we'd be doing a lot more interesting
+> things than putting solar panels on them. ;-)
+
+Of course we would - my market analysis shows that there is enough to
+do for hundreds of tall towers - as launch platforms, telescope platforms,
+tourist attractions, satellite substitutes, skydiver jump platforms, etc.
+I wanted to just point out that there is a third alternative to ground
+and Space solar power.
+
+> doesn't really matter much (because of the cheapness of land, I wonder
+> how this analysis would play in Japan?) but the cost of the panel is still
+> too high and the variation in its power output means either supplemental
+> power sources are needed, or lots of batteries plus efficient homes.
+> 
+Are you aware that the average duty cycle for all types of power plants -
+nuclear, coal, oil, etc is around 60-70%?  Sometimes it's scheduled
+maintenance, sometimes something breaks.  Utilities deal with it by having
+a number of plants, and by being able to buy and sell power over long
+distance lines from other utilities.  With PV, what you would want is
+plants spread over more than the coherence scale of weather patterns
+(which is a couple of hundred miles), so it is not likely to be cloudy
+at all the plants at once.  Power is shipped over this distance scale
+all the time.
+
+Dani Eder
+
+------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Sun, 30 Jan 1994 20:26:14 -0500 (EST)
+Subject: [#94-1-730] LEGAL:  Proposal to encourage PPL participation
+
+Harvey wrote:
+> > therefore superfluous and unnecessary.  Second, even if my charter was
+> > approved, I was not approved to be a PPL head.
+
+a conscious being, Michael Clive Price wrote:
+> If you were not acceptable as PPL head then neither should your charter
+> be, since it specified you as head.  Sounds like the sort of thing that
+
+As a point of information, Harvey was never "not approved to be a PPL
+head." The post I made on "How to start a PPL" listed specific steps
+and requirements for forming a PPL. Harvey never completed the
+process; Geoff and Tim did. I am not repeating that post here as I
+have posted it at several times.
+
+/hawk
+
+------------------------------
+
+From: Anthony Garcia <agarcia@sugar.NeoSoft.COM>
+Date: Sun, 30 Jan 1994 19:37:14 -0600
+Subject: [#94-1-731] HUMOR (?): Neo-Tech man extracts money at will
+
+	   WHO IS THE NEO-TECH MAN?  He is a man of quiet power -- a 
+   man who cannot lose.  He can extract money at will.  He can control 
+   anyone unknowledgeable about Neo-Tech -- man or woman. 
+   [ ... rest of Neo-Tech Man description elided... ]
+
+Perhaps Dr. Wallace's been hitting the 'frop pipe a little too
+heavily.  The "Neo-Tech Man" sounds like a dead ringer for J. R.
+"Bob" Dobbs.
+
+-Anthony
+--And He Walked with a GLIDE in His STRIDE!
+
+------------------------------
+
+From: more@chaph.usc.edu (Max More)
+Date: Sun, 30 Jan 1994 17:43:44 -0800 (PST)
+Subject: [#94-1-732] PCR: Pancritical Rationalism
+
+Some comments on various postings on Pancritical Rationalism (PCR):
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+>This "Pancritical Rationalism" has been getting a lot of press here
+>lately.  Could anyone consisely yet precisely summarize this point of
+>view, in say 500 words or less?  Or is this yet another "philosophy"
+>which can only be understood by reading three volumes of the great
+>master, ten volumes of commentary by learned students, and only then
+>with a full appreciation of the historical context of other views this
+>master was reacting to.  (If the latter, I had enough of that in
+>academic philosophy, thank you.)
+
+Some complex ideas can only be well considered within their historical 
+context.  To some extent this is true of PCR since it is intended as a 
+response to problems in other versions of rationalism.  However, rather 
+little writing exists strictly on PCR.  The works of Karl Popper -- such as 
+The Logic of Scientific Discovery (which can be referred to as "Popper's 
+LSD"); Conjectures and Refutations; and Objective Knowledge --which I 
+suspect Robin is familiar with, are the closest precursors to PCR.  The only 
+book on the topic by a single author known to me (and the major source) 
+is William Warren Bartley III's The Retreat to Commitment.  (Good luck 
+finding a copy; it's out of print and the USC library didn't have it.  I had 
+to borrow MarkM's copy.)  There's also a collection of essays by Gerard 
+Radnitsky & W.W. Bartley, III, eds.  (1987).  Evolutionary Epistemology, 
+Theory of Rationality, and the Sociology of Knowledge.  (Open Court.)
+
+Robin Hanson:
+> Folks have told me it comes down to "leave everything open to
+> question, except of course for things you're absolutely sure of (like
+> math proofs)".  But surely there must be more than this tautology.
+
+Leave out the second clause "except..." and that's a reasonable way to 
+begin a characterization of PCR.  Being absolutely sure of something does 
+_not_ exempt a belief, practice, or procedure from PCR's strictures.  _All_ 
+beliefs are to be left open to criticism, although Bartley holds that the law 
+of noncontradiction has to be retained if any coherent argument is to take 
+place (otherwise no argument could ever constitute a criticism of any 
+proposition).  Fuzzy logic proponents would even modify that view, 
+though maintain its essentials.
+
+I've been unable to find Steve Witham's fine posting explaining PCR, but 
+I think he already clarified the important points of PCR.  I will just stress 
+here that crucial to PCR is the separation of criticism from justification.  
+Previous rationalist views fused criticism and justification in that criticism 
+of a position proceeded by showing (immediately or ultimately) that the 
+position could not be justified in terms of the rationalist's favorite 
+criterion of justification.  For Descartes, this criterion was "clear and 
+distinct ideas" (themselves guaranteed by God, whose existence was 
+certain because we can perceive the idea of God clearly and distinctly....), 
+for Hume every idea had to be traceable back to sense impressions, and 
+for logical positivists they had to be traceable to sense-data.  For Rand's 
+Objectivists, ideas must be justified in terms of (necessarily valid) senses 
+using logic, and ultimately backed by certain axiomatic concepts (more on 
+this below).  PCR was the first to state that no belief needs to be justified 
+in this way.  Instead, rationality consists in being open to criticism.
+
+From: tribble@netcom.com (E. Dean Tribble)
+>2) beliefs are never true or false, just more or less credible (this
+>is the generalization on Popper).  Thus, "falsifying" observations
+>reduce the credibility of a belief (presumably by a lot).  In
+>addition, heuristics can reduce the credibility of ideas by a lot
+>("Rifkin said it, so it's probably bogus.")  This makes for a much
+>richer toolset than mere falsification, better models how we actually
+>manage beliefs, and allows rationalis to apply to non-objective things
+>like ethics (there are more and less effective sets of ethics, for
+>example, even though falsification in that domain is tough).  When
+>doing things in the world, act on the basis of the beliefs with the
+>most credibility.
+
+I agree with what Dean says in the latter part of the above paragraph, but 
+I'm uncomfortable with the statement that "beliefs are never true nor 
+false".  I don't remember Bartley putting it that way, and it doesn't seem 
+to me to be something that PCR need say.  PCR tells us to hold every 
+belief open to criticism and possible revision, but it says nothing about 
+whether any beliefs _are_ true or false.  Belief A may, in fact, be true. It's
+just that we can never know for certain whether A is true (here is a 
+contrast with Objectivism).  PCR can happily coexist with realism (or 
+"objectivism" with a small "o") since it's a view about when our beliefs 
+are rational, not about whether they are in fact true or false.  PCR says 
+"you can never be absolutely certain that a belief is true (since we cannot 
+be certain about our means of knowledge)"; it does not say "all beliefs are 
+only partly true, if at all".
+
+A caveat in regard to Dean's use of "falsification" in the above quote.  
+Bartley explains (plausibly it seems to me) that the falsification of a theory 
+is always _relative_ to the conflicting data.  Nothing is _ever_ falsified in 
+an absolute sense.  If data D conflicts with theory T, we can either reject T, 
+reject D, or keep testing both.  PCR is a general epistemology, saying 
+nothing about the specifics of how to test theories, leaving this up to 
+other, more specific, theories to work out.
+
+Dean again:
+>4) Hold all beliefs tentatively--nothing is true, only very credible.
+
+As above, PCR does not claim that nothing is true; it holds only that we 
+cannot know for certain that any particular belief is true.
+
+
+Tim Starr:
+>> 1) ...It seems to fail to address the question of why
+>> it should be considered "credible," on its own terms.
+
+Steve responds:
+>It says, don't expect justification for *anything*, only hold things open 
+>to criticism.  Nothing *should* be considered credible on PCR's terms.
+>So the way PCR doesn't offer justification for itself isn't contradictory, 
+>it's a good example!
+
+I agree with Steve's comment.  I'd add that rationalists can be motivated 
+to adopt PCR in place of Panrationalism or Critical Rationalism by coming 
+to understand how PCR, unlike other rationalist views, can avoid making 
+special exceptions.  Other forms of rationalism merely replace one 
+authority (the Bible, mystical insight, the Pope, the Blood, the Fuehrer) 
+with others (sense experience, induction, scientific method).  PCR does 
+away with _all_ epistemological authorities, holding _every_ belief -- 
+including those about the means of acquiring knowledge -- open to 
+genuine challenge and revision.
+
+Bartley makes a stimulating analogy that I'd like to extend.  He makes a 
+comparison with the democrats attack on traditional political authorities.  
+They attacked the legitimacy of the King or religious leader or other 
+autark by appealing to the will of the people.  This had salutary effects 
+(just as the appeal to the authority of science helped to disembowel 
+religious authorities) but also set up yet another authority.  The new 
+democratic system might lead to rotten results.  Thus the PCR-like 
+question for political authority is not "With what authority shall we 
+replace the current political authority", but rather "How can we arrange 
+our political institutions so as to be able to get rid of bad rulers once they 
+appear?"  Our (Extropian) answer to this involves the use of polycentric 
+legal systems.  Polycentric law might be compared to PCR in this way.
+
+
+Tim Starr:
+>>> 1) ...It seems to fail to address the question of why
+>>> it should be considered "credible," on its own terms.
+>>
+Steve Witham:
+>>It says, don't expect justification for *anything*, only hold things open 
+>>to criticism.
+
+>So what?  Why not?  Consider my position: I have a "justificationist" 
+>philosophy which seems to escape the criticisms PCR makes of what 
+>Kelley calls "Cartesian Empiricism."  It does present reasons for me to 
+>adopt it.  What reason do I have to prefer PCR?
+
+I don't think the position you hold (Rand as revised by Kelley, right?) 
+does escape PCR's criticisms.  I'd prefer to hold off on this area, to 
+maintain the freshness of my Extro 1 paper, but I'll just say that the view 
+you maintain holds some concepts to be axiomatic, i.e, undeniable, 
+unrevisable and irrefutable.  Supposed examples are "identity", 
+"existence", and "consciousness".  Objectivist epistemology also relies on 
+the validity of the senses, using sense data as a foundation for knowledge.  
+PCR is motivated by the failure of every attempt to find foundations for 
+knowledge.  This doesn't mean that PCR _rejects_ sense experience as 
+_one_ means of acquiring knowledge, just that it doesn't ultimately 
+privilege any particular epistemic means.
+
+>PCR doesn't talk much about idea generation, only the importance
+>of testing.
+
+>Precisely my point.  PCR seems to only address half the problem.  As 
+>Rand pointed out, this is one of the classic mistakes of empiricism:  
+>"How did the concepts get here?  Somehow."
+
+How is this a "mistake'?  PCR doesn't purport to be a theory of 
+everything relevant to knowledge.  PCR says nothing, for instance, about 
+neuroscience, even though this is likely to be relevant to understanding 
+how we learn and evolve our understanding of the world.  PCR leaves 
+room for other co-existing theories to tackle these questions.  Bartley 
+recommends thinking of PCR as a non-justificationist _metacontext_ for 
+rationality (the two other metacontexts being justificationism and non-
+attachment).  A more particular theory about how we come to acquire 
+beliefs, generate ideas, and so on, is a context that can exist within the 
+metacontext of non-justificationism (PCR).
+
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Fri, 28 Jan 94 15:18:57 PST
+Subject: [#94-1-656] [#94-1-498] Pancritical Rationalism
+
+Dean says:
+>>things don't need to be justified (in terms of axioms) to be believed.  
+
+>Now how do I translate "justified"?  Sounds like he means "implied by
+>axioms".  But since folks believe contradictory things, which cannot be
+>axiomitized, then of course they can believe things which can't be
+>axiomitized.  And any non-contradictory set of beliefs can be
+>axiomitized (axioms found which imply them all), so this doesn't
+>distinguish much.  I guess I'll translate Dean as saying that he
+>doesn't see much value in axiomitizing beliefs.
+
+I think that Robin and Dean are using "axioms" in different senses, both 
+perfectly good.  Dean means axioms in the sense of propositions (or 
+epistemic procedures) that are not open to challenge.  For instance, Rand's 
+axiomatic concepts, or a religious authority.  Robin uses axiom to mean 
+any proposition that is used to imply other propositions.  The kind of 
+axioms that I take Robin to be referring to can still be held open to 
+challenge, and so are not axioms in the offensive (to PCR) sense.  Robin's 
+axioms are only axiomatic within a certain domain, but can still be 
+criticized from a more inclusive perspective.
+
+Upward and Outward!
+
+Max More		more@usc.edu
+President		Extropy Institute (ExI)
+
+
+
+------------------------------
+
+From: brianh@suneast.east.sun.com (Brian Hawthorne - SunSelect Strategic Marketing)
+Date: Mon, 31 Jan 1994 12:57:32 +0500
+Subject: [#94-1-734] Ambient music for the advanced upload
+
+You have just left the vicinity of Terra/Luna after picking up
+a few more personalities for your vast uploaded mind. You decide to take
+a little tour of the Sol system before heading out interstellar. You've
+got a little bit of integration to do with all these new persona's, but
+what do you listen to for mood music?
+
+Well, you've already upgraded your senses to include a couple of 
+magnetometers, plasma detectors, low-energy charged particle detectors,
+cosmic ray (i.e. atomic nuclei/proton) detectors, plasma wave detectors,
+etc. So, you just power them all up, and listen to the music of
+the spheres. Electromagnetic field noise, charged particle emissions 
+from the rings of Saturn, the charged ionic particles from the solar
+wind interacting with planets' magnetospheres, and all sorts of other
+source provide a ready source of vibrations that your mostly-human psyche
+interprets as "sound". 
+
+-----------
+
+Okay, so you haven't even uploaded yet, and can only sense vibrations
+in the air between 20 and 20,000 Hz, but still want to hear this music.
+
+Check out any of the 5 CDs in the "Symphonies of the Planets" series,
+from LaserLight Digital. These are from the original NASA Voyager recordings,
+processed into signals that us mere humans can hear. They are aimed at 
+the New Age crowd as "relaxation" or "meditation" music, but seem even
+more appropriate to those of us with goals of Jupiter-sized brains.
+
+Sitting back and listening to this stuff in my car, it was very easy to 
+imagine what it would be like to be cruising the solar system. Forget about
+a brain the size of Jupiter, this is real mobility.
+
+The recordings are licensed from/copyright Brain/Mind Research,
+204 N. El Camino Real, Suite E116, Encinitas, CA 92024 (619) 944-0741 
+and distributed by Delta Music, Inc. UPC: 18111 21272
+
+Still ::excluding all,
+
+Rowan
+
+------------------------------
+
+From: lists@alan.b30.ingr.com (Alan Barksdale (lists))
+Date: Mon, 31 Jan 94 12:26:25 CST
+Subject: [#94-1-735] PATENT: Software Patents Public Hearing
+
+To: agorics@netcom.com
+Subject: [chip (Chip Morningstar --): Patent hearings]
+Date: Fri, 28 Jan 1994 00:50:58 -0800
+From: chip (Chip Morningstar -- "Software Without Moving Parts")
+
+Doug spent the past two days attending the hearings that the Patent and
+Trademark Office has been holding in San Jose on the issue of software
+patents.  I thought you night find his reports interesting.  Feel free to share
+with anyone you think might find this relevent.
+
+From: muchomedia@aol.com
+To: chip@netcom.com
+Date: Wed, 26 Jan 94 23:00:48 EST
+Subject: Trip Report: PTO
+
+Today in San Jose, Assistant Secretary of Commerce and Commissioner of
+Patents and Trademarks Bruce Lehman chaired the first of two days of public
+hearings on patent protection for software-related inventions. In his opening
+remarks, he said "These concerns range from claims that the patent system is
+incompatible with software development to skepticism over the ability of the
+Patent and Trademark Office to accurately gauge innovation in this field of
+technology." He mentioned PTO's role in directing some of the electronic
+superhighway development. He also said "We will be changing the patent term
+to run 20 years from the date of filing, rather than 17 years from the date
+of grant."
+
+At issue of course is the fact that the PTO has been granting patents for
+methods in the public domain. The PTO acknowledges that this is a problem,
+and is taking steps to improve the patent examination process. These hearings
+are a part of that reform.
+
+Attendance was much lighter than I expected. There were overwhelmingly more
+power ties and tasseled loafers than t-shirts and jeans.
+
+The witnesses could be divided into 5 classes:
+
+1) Attorneys who were grandstanding. Typically, they couldn't understand why
+the software industry was having a problem with the patent system. It works
+for them.
+
+2) Top of their growth curve, not strictly software companies (Exxon, Apple,
+AT&T, Intel), who are looking for a haven of protectionism. Basically, you
+don't throw the baby out with the bathwater, even if the baby is dead.
+
+3) Software companies, who are the victims (or expect to soon be victims) of
+lousy patents (Borland, VideoDiscovery, Adobe, Mammoth, Oracle). Given a
+choice between the current patent system and no system, they would eagerly
+like there to be no system. They want to be judged in the marketplace, not in
+the courts.
+
+4) Nerds. A programmer got up but was completely unprepared. He called for no
+patents, but his arguments were bizarre. The representative from the League
+for Programming Freedom was so nervous he sounded like a goat. Or maybe he
+always talks like a goat. It's hard to tell with some of these computer
+types.
+
+5) Paul Heckel. He is one of these guys who was given a patent for a
+metaphor. He has been busy trying to establish its nuisance value, shaking
+down Apple, IBM, Oracle, etc. He formed the Abraham Lincoln Patent Holders
+Association, which compares the League for Programming Freedom to slaveholders:
+
+ ...in trying to abolish slavery, Lincoln found himself
+ countering arguments that outlawing slavery abridged
+ one's /freedom/ to own slaves. The League for 
+ Programming /Freedom/ by its very name similarly tries
+ to justify appropriating the work of others by
+ claiming a freedom.
+
+The hearing continues tomorrow at 9:00 at the San Jose Convention Center. It's
+free! See you there.
+
+
+From: muchomedia@aol.com
+To: chip@netcom.com
+Date: Thu, 27 Jan 94 23:58:57 EST
+Subject: PTO, part ii
+
+Today was the close of the hearings in San Jose. They followed the same
+pattern as yesterday.
+
+All of the lawyers who testified spoke in favor of the patent system. Not one
+admitted to asking himself if the current system was in the best interest of
+his clients. It is clearly in the best interest of the attorneys, a fact
+which escaped no one.
+
+Folks on the software side were more open. Most, but not all of the
+programmers who testified were against software patents. Most applied their
+problem solving skill to the issue.
+
+The companies were pretty evenly split between defensive companies that want
+protection (IBM) and offensive companies that don't (Sun). Commissioner
+Lehman was surprised to hear Microsoft's representative line up on the
+defensive side. He was acting under the mistaken understanding that Microsoft
+was a company that values innovation. If he had been a regular member of the
+Muchomedia Conference, he would have been better informed.
+
+Commissioner Lehman described the current system as a protection racket, and
+himself as an incorruptible prosecutor who was going to fix things. He said
+that as Commissioner of Patents and Trademarks, he has the power to call any
+patent into review. He said that he might do so if he receives enough mail
+indicating a problem. This would become a new channel for challenging a lousy
+patent which would use the Internet to identify problems at significantly
+lower cost than existing remedies.
+
+While he stopped short of promising to ask Congress to abolish the PTO, he
+did promise that there 
+would be real and substantive changes. We can talk to this guy.
+
+------
+
+------------------------------
+
+From: Stanton McCandlish <mech@eff.org>
+Date: Mon, 31 Jan 1994 13:46:01 -0500 (EST)
+Subject: [#94-1-736] PSYCH: some stuff I found on a gopher
+
+Here's a pointer to some interesting articles I dredged up while gopher
+shopping:
+
+gopher.well.com, Publications/Authors/William Calvin,
+
+1.  About William Calvin
+2.  The Cerebral Symphony, Reflections on the Structure of Conciousness
+3.  Ascent of Mind, Ice Age Climates and the Evolution of Intelligence 
+
+Thought this might be of interest to many.
+
+-- 
+Stanton McCandlish * mech@eff.org * Electronic Frontier Found. OnlineActivist
+F O R   M O R E   I N F O,    E - M A I L    T O:     I N F O @ E F F . O R G 
+O  P  E  N    P  L  A  T  F  O  R  M     O  N  L  I  N  E    R  I  G  H  T  S
+V  I   R   T   U   A   L   C  U   L   T   U   R   E      C  R   Y   P   T   O
+
+------------------------------
+
+From: davisd@auburn.ee.washington.edu
+Date: Mon, 31 Jan 94 11:55:31 -0800
+Subject: [#94-1-737] SEMANTICS: Faith 
+
+> From: rjc@gnu.ai.mit.edu (Ray)
+>
+> ... Now imagine you were looking at an area [ of neurons ]
+> being trained to recognize crows. The neurons in this area might
+> bounce around wildly, but each time the person sees a black crow, the
+> the value will be pushed towards a stable equilibrium forcing the person
+> to believe with high confidence that the next crow he will see is black.
+
+This kind of analysis leads one into conceptual errors pretty quickly.
+Neurons are not "being trained to recognize crows". They are part of a
+self organizing system without predetermined structural relationship
+to the rest of the world.
+
+Further, what meaning can we attach to "believe with high confidence
+the next crow he will see is black"? By whose category of crow are we
+going to make this judgment?  Lets take it from the viewpoint of our
+crow watcher. He has abstracted from specific birds he has seen to a
+concept, and has labelled that concept crow. He now sees a white bird
+that has a lot of the characteristics that his crow abstraction has.
+If his crow abstraction included color as a characteristic, he will
+probably be surprised at this white bird, and may revise his crow
+abstraction. If not, he will just see another crow.
+
+In short, our bird watcher is not attempting to match his concept of
+crow to a crow Ideal, he is grouping his experience. Depending on how
+he has grouped his experience, a bird with a lot of the
+characteristics of what we call crows, except that it is white, may or
+may not surprise him.
+
+Buy Buy -- Dan Davis      
+
+
+------------------------------
+
+From: Harvey Newstrom <hnewstrom@hnewstrom.ess.harris.com>
+Date: Mon, 31 Jan 94 14:58:42 EST
+Subject: [#94-1-738] LEGAL:  Proposal to encourage PPL participation
+
+In #94-1-730 /harry wrote:
+> Harvey wrote:
+> > >therefore superfluous and unnecessary.  Second, even if my charter was
+> > > approved, I was not approved to be a PPL head.
+> As a point of information, Harvey was never "not approved to be a PPL
+> head." The post I made on "How to start a PPL" listed specific steps
+> and requirements for forming a PPL. Harvey never completed the
+> process; Geoff and Tim did.
+
+This shows the dangers of using someone else's quote of a quote.  My 
+original post did allude to the information Harry points out here, adding 
+that "Instead of seeking approval, I joined PPL-A."
+__
+Harvey Newstrom   (hnewstrom@hnewstrom.ess.harris.com)
+
+
+------------------------------
+
+End of Extropians Digest V94 #31
+********************************
+

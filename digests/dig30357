@@ -1,0 +1,1003 @@
+From extropians-request@gnu.ai.mit.edu Sun Jun 27 10:38:41 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA13074; Sun, 27 Jun 93 10:38:38 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA20324; Sun, 27 Jun 93 10:38:35 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA15628@wookumz.gnu.ai.mit.edu>; Sun, 27 Jun 93 13:26:44 -0400
+Message-Id: <9306271726.AA15628@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Sun, 27 Jun 93 13:26:12 -0400
+X-Original-Message-Id: <9306271726.AA15619@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0357
+X-Extropian-Date: Remailed on June 27, 373 P.N.O. [17:26:43 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Sun, 27 Jun 93            Volume 93 : Issue 0357
+                        
+Today's Topics:
+                                "ART":No Is E                         [1 msgs]
+            AIT VirtSem: "Algorithmic Information and Evolution"      [1 msgs]
+    AIT VirtSem: "Algorithmic Information and Evolution" and Defined only [1 msgs]
+                         AIT VirtSem: "Information"                   [1 msgs]
+                     AIT VirtSem: (fwd) Random numbers?               [1 msgs]
+                              B: "Extropian X"                        [1 msgs]
+                   EVOLUTION/DIET: What proto-hominids ate            [2 msgs]
+                     KLINGON: Anybody have a provenance?              [2 msgs]
+                              Linguistics in SF                       [1 msgs]
+                          MEDIA: B: _Jurassic_Park_                   [1 msgs]
+                            MEDIA: Jurassic Park                      [2 msgs]
+                  META: Grading and "FRIV:" or "BLAH/BLAH"            [1 msgs]
+                               New subscriber                         [1 msgs]
+               QM/TOE: Many-Worlds & Dreams of a Final Theory         [2 msgs]
+                               Random numbers?                        [1 msgs]
+              Self-replication is easy (but not _that_ easy :-)       [1 msgs]
+                                  my adress                           [1 msgs]
+                           sf based on linguistics                    [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50837 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 25 Jun 1993 23:42:00 -0600 (MDT)
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: "ART":No Is E
+
+Quoth Craig Presson, verily I saith unto thee:
+
+re: your "ART", not bad, but this sort of horse's been beat to death for
+decades...
+
+> She beg, she whore. Bloody fingerments.
+
+Interesting mangling of "Si/ bheag Si/ mho/r" though.  Did you come up
+with that, or is it from elsewhere?  And what has Carolan to do with this? 
+
+-- 
+Stanton  McCandlish   * Space Migration * Networking * ChaOrder * NO GOV'T. *
+anton@hydra.unm.edu   * Intelligence Increase * Nano * Crypto * NO RELIGION *
+FidoNet:    1:301/2   * Life Extension * Ethics * VR * Now! * NO MORE LIES! *
+Noise in the Void BBS * +1-505-246-8515   (24hr, 1200-14400, v32bis, N-8-1) *
+
+------------------------------
+
+Date: Sat, 26 Jun 1993 01:24:33 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: KLINGON: Anybody have a provenance?
+
+I saw one of Okrand's books on Klingon a while back.  It was quite interesting,
+but utterly failed to answer my biggest question --- which is, what human
+languages did Okrand model it on?
+
+Ideally, I'd like to have seen an authors afterword including something
+like "Well, the grammar resembles Foobian and Barian and the phonology a lot
+like Quuxian, except for the "rover" feature which is a lot like something in
+Old Church Slobbovian".  But Okrand kept mum.
+-- 
+							>>eric>>
+
+------------------------------
+
+Date: Sat, 26 Jun 1993 08:43:12 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: AIT VirtSem: "Algorithmic Information and Evolution"
+
+a conscious being, Timothy C. May wrote:
+> In GA and GP systems (genetic algorithms, genetic programming), string
+> complexity does in fact increase. One can visualize some particular
+> sequence like this:
+> 
+> Initial String:                 11111111111111111......1111111
+...
+> Later (more mutations, cross.): 01100110101110110......1010001
+> 
+
+> implying that the initiall string is highly regular, such as all 1s or all
+
+Certainly in the a-life program, the resulting generations "Seem" more
+complex. "life: goes from a very simply algorithim to very dense
+complex bit of code. Does this count a 'complexity'?
+
+/harry
+
+------------------------------
+
+Date: 26 Jun 93 16:39:19 MEZ-1
+From: MANFRED PIRCK <MPI@gem.univie.ac.at>
+Subject: my adress
+
+Thanks for your answer,
+here is my physical adress:
+
+Manfred Pirck
+Schoenburgstr.33/14
+A-1040 Wien
+AUSTRIA
+
+bye
+
+------------------------------
+
+Date: Sat, 26 Jun 1993 09:13:35 -0700 (PDT)
+From: Scott C DeLancey <delancey@darkwing.uoregon.edu>
+Subject: KLINGON: Anybody have a provenance?
+
+> I saw one of Okrand's books on Klingon a while back.  It was quite interesting,
+> but utterly failed to answer my biggest question --- which is, what human
+> languages did Okrand model it on?
+
+I don't know, but my impression is that he didn't actually model it
+on anything.  To some extent he made an effort to make it conspicuously
+unlike real human languages--for example, making the word order
+Object-Verb-Subject, which is so rare that until a few years ago
+it was thought to not occur, and maybe to not be possible, in real
+languages.  (Turns out there are one or two Indian languages in
+Brazil that seem to have it).
+
+But Okrand's background is in native languges of California; he
+did his dissertation on Mutsun, an extinct language originally
+spoken around Monterey Bay.  How much Mutsun or California Indian
+in general might have percolated through into Klingon I don't
+know.
+
+
+Scott DeLancey			delancey@darkwing.uoregon.edu
+Department of Linguistics
+University of Oregon
+Eugene, OR 97403, USA
+
+
+
+
+
+
+------------------------------
+
+Date: Sat, 26 Jun 93 10:06:39 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: AIT VirtSem: (fwd) Random numbers?
+
+This may be the article Hal Finney mentioned, the one in sci.crypt
+that mentioned Kolmogorov-Chaitin complexity of strings. In any case,
+here it is:
+
+
+From: ramsay@unixg.ubc.ca (Keith Ramsay)
+Newsgroups: alt.privacy.clipper,sci.crypt,sci.skeptic
+Subject: Re: Random numbers?
+Date: 26 Jun 93 08:22:02 GMT
+
+In <C940GE.7Gz@blaze.cs.jhu.edu> arromdee@jyusenkyou.cs.jhu.edu 
+(Ken Arromdee) writes: 
+|In article <1993Jun24.002009.25209@husc3.harvard.edu>
+ kubo@zariski.harvard.edu (Tal Kubo) writes: 
+|>arbitrary but fixed computing environment: a binary sequence is random if
+|>the length of the shortest algorithm to generate the first  N bits is at
+|>least N+c, for some constant c depending on the sequence.
+|
+|How can you tell whether or not a particular algorithm generates a particular
+|series of N bits?  Isn't this undecideable?
+
+You don't always tell. It's not Turing-computable, no.
+
+Being random by this definition isn't, in general, decidable. One can
+prove that a bit string is "random" by this definition only in a
+formal system which is nearly as complex as the bit string is long, in
+fact. So while relatively few strings are non-random, one can only
+prove randomness for specific strings of limited length, in any
+standard axiom system.
+
+You can demonstrate this by using a diagonal argument. Write a program
+which hunts exaustively for a proof in your formal axiom system
+(Zermelo-Frankel set theory, what have you) that some string s is
+random, where the length of s is >= some given N, and outputs the
+first s which it finds, if any. If N is chosen large enough (>=the
+length of the description of the formal system + some constant
+overhead + log N bits to represent N), it is impossible that the
+program will find such a proof and such an s. If it did, it would
+itself be a program which generated s, and too short a one, implying s
+is not in fact a random string. (Okay, it can happen. It would just
+show that the original axiom system had to have been *incorrect*,
+because there is a proof of a falsehood.)
+
+This definition (by Kolmogoroff, wasn't it?) is considered pretty
+"stern". Don't expect to base your cryptography on one-time pads using
+provably Kolmogoroff-random strings. :-)
+
+There's a cute result which says that there is an upper bound on how
+many programs of minimal size there can be, which all generate the
+same string!
+
+Chaitin has some other cute stuff related to this.
+
+Keith Ramsay
+ramsay@unixg.ubc.ca
+
+--
+
+
+
+
+
+------------------------------
+
+Date: Sat, 26 Jun 93 14:02:26 CST
+From: "" <dsg@staff.tc.umn.edu>
+Subject: sf based on linguistics
+
+On Wed, 23 Jun 1993 07:07:08 -0600 (MD, Stanton McCandlish wrote:
+
+>>   Has there ever been any kind of science fiction based on linguistics?
+>> (Evil politically correct empire uses memetic language bombs to subvert
+>> rival civilization?)  I know that Vinge has written a short story that has
+>> weird phonetics as a background device. Anything else?
+>
+>Well at the opposite end of the fantastical fiction spectrum, Tolkien
+>stands out pretty glaringly.  The Horse Clans series (middle ground I
+>guess, being science-fantasy) plays at this, having the characters' names
+>all spelled "phonetically" <snort>: Maree, Jonuthun, etc.  Supposed to
+>indicate how it'd be if civilization was toasted, and eveyone was
+>illiterate, etc blah.  Personally I think that one fails dismally.  The
+>misspellings are just really annoying, not interesting in any way. I
+>honestly can't think of any heavily-linguistics-based sci-fi right off
+>hand besides some cheezy shortstories, but both R. A. Wilson and Wm.
+>Gibson make pretty heavy use of it here and there.  And of course there
+>was the "We the People" ST:TOS episode, plus lots of sci-fi that centers
+>on a specific culture that has a lot of language in it if not linguistics
+>per se. 
+>
+Jack Vance, The Languages of Pao.  Samuel R. Delaney, Babel-17.  Robert A. 
+Heinlein, Stranger in a Strange Land.
+
+Dan Goodman dsg@staff.tc.umn.edu
+
+------------------------------
+
+Date: Sat, 26 Jun 1993 16:02:27 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: EVOLUTION/DIET: What proto-hominids ate 
+X-Reposting-Policy: redistribute only with permission
+
+Stanton McCandlish says:
+> Counter-challenge.  Find me any truly "pure vegan" culture.  Period.
+
+The Jains.
+
+Perry
+
+------------------------------
+
+Date: Sat, 26 Jun 93 16:07:04 CST
+From: "" <dsg@staff.tc.umn.edu>
+Subject: Linguistics in SF
+
+On Fri, 25 Jun 93 12:55:14 EDT, Todd Perlmutter wrote:
+
+>Harry Shapiro <habs@Panix.Com> said:
+>
+>> I read a story once were the alien race "spoken" in heat gradients.
+>> 
+>> It took them "pages" of description to describe something that
+>> was a single word for us.
+>> 
+>> They were able to spend several days crawling though some power
+>> plant and then describe it (blue print wise) in 7 words.
+>> 
+>> Sounds more like fiction that science fiction, but still an interesing
+>> idea.
+>
+> I read a similar story where the aliens communicated using
+>the IR Spectrum, however mine doesn't sound like yours.  The science 
+>was a little odd in mine.  Basically an expedition of humans bump into
+>a similar expedition of aliens while exploring a nebula.  The two ships
+>use their respective communication beacons to communicate (the author
+>was real vague on how this actually worked).  Anyway it was a pretty
+>good story, especially the part where they exchange "dirty" jokes.
+>
+Harry Shapiro's remembered story sounds like something mentioned briefly in 
+Samuel R. Delaney's _Babel-17_.
+
+The story you remember is almost certainly "First Contact" by Murray 
+Leinster.
+
+Dan Goodman dsg@staff.tc.umn.edu
+
+------------------------------
+
+Date: Sat, 26 Jun 1993 16:21:15 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: MEDIA: Jurassic Park
+
+Stanton McClandish:
+> (_Wired_ #2 maybe?) that in 1999, people will look back at the LA riots
+> and wonder how just a video tape could have caused such a mess.
+
+An even worse, and more probable, scenario is that this won't happen.
+We humans are quite vulnerable to realistic pictures.  We now believe
+that dinosaurs can be cloned from DNA, because we've seen them cloned!
+In 1980 we all knew about the China Syndrome, because we'd seen it almost
+happen! (Or heard about it, from folks who saw that movie).
+
+It doesn't matter what a few geeky scientists and their abstract
+formulas say.   Similarly, a few compromising pictures of the next
+Supreme Court Justice nominee, and the typical large population of political
+opponents who very much want to believe the pictures and/or promote that 
+belief, and the highly arcane statements of a few "visual
+morphology engineers" won't matter in the least.
+
+Tune up those morphing engines boys & girls.  It's a memetic war out
+there, and the gloves have already been off for quite some time.
+The faster our computers get, the more level the playing field with 
+Hollywood is.
+
+> It is never explained how they created extinct plants (remember the leaf,
+> right before the protagonists saw their 1st dino?). 
+
+Scientists have actually extracted old (c. 40 million years?) DNA from a tar
+pit (old plant bog); that's well ahead of the capability to recover animal 
+DNA from the guts of blood-sucking insects trapped in amber. 
+
+BTW, what museum-pieces are left of the old Tasmanian Wolf?  I've
+always wanted to see one of those, a marsupial predator.
+
+> Would a veloceraptor
+> attack a T.rex?  
+
+I think the idea here was that the velociraptor was acting like a human
+would (in drama, anyway), taking revenge for the murder of its partner 
+(mate?) by T. Rex.  
+
+A bunch of the other stuff you mention was also necessary to create a
+dramatic plot.  Chills, kills, & thrills to pay the bills, and
+all that.  What do you think this was, a science movie? :-)
+
+> Why frog DNA?  At least lizard DNA would've matched a little better.
+
+This seemed rather silly.  Both lizards and birds are more closely
+related.  Perhaps Crichton couldn't find a hermaphroditic bird or 
+reptile?
+
+
+Nick Szabo					szabo@techbook.com
+
+------------------------------
+
+Date: Sat, 26 Jun 93 21:05:04 -0500
+From: nobody@rosebud.ee.uh.edu
+Subject: AIT VirtSem: "Algorithmic Information and Evolution" and Defined only
+
+Hal writes:
+> his reasoning was that
+>deterministic processes cannot create new information in the AIT sense.
+>He gave the example of Conway's "Life" game, the best known cellular
+>automata simulation.
+>
+>Conway's Life uses deterministic rules.  That means that, given a starting
+>pattern with a certain information content using AIT, any resulting pattern
+>has basically the same AIT information.  That's because you can get the
+>final pattern from the initial pattern + a Life program, and Life programs
+>aren't very big.
+>
+Doesn't the program have to halt after it produces the  pattern? 
+
+>We should only restrict
+>ourselves to Turing machines that are about the size needed to be
+>universal. 
+
+Should there be some kind of canonical Turing machine? Or is that like
+saying, should there be a canonical frame of reference?
+
+
+------------------------------
+
+Date: Sat, 26 Jun 1993 20:00:25 -0600 (MDT)
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: META: Grading and "FRIV:" or "BLAH/BLAH"
+
+Just to chime in:
+
+I do NOT like the A, B, C grading scheme.  It's bad enough in schools, and
+most of us would be reluctant to give ourselves bad grades.  As was
+pointed out, if the basis of the grades is to be how far down the thread
+it is, the whole thing is pointless.  If you pay any attention at all,
+you KNOW how far down the thread any given post is.  If you DON'T pay
+that much attention, why are you here?
+
+Regarding the "FRIV:" header, you will note that the rules/welcome
+message specifically encourage people to make up new headers (only about
+3 or 4 were even specified at all as I recall), so if you want it use it.
+I'd point out that the HUMO[U]R: header is already in use, and serves
+this purpose well.  I use it often, and so do others.
+
+Re: the "BLAH/BLAH" header...it's redundant, and really unnecessary,
+since, again, if you are even bothering to really READ this stuff, you
+already know which threads are good and which are devolving to garbage. 
+And the problem of list-rep-suicide comes up again. Who will use a header
+like that?  And lastly, one person's genius post is another's boring
+drivel.  Just read.  If you like it save, reply whatever.  If you don't
+like it, delete.  Real simple.  :)
+
+-- 
+Stanton  McCandlish   * Space Migration * Networking * ChaOrder * NO GOV'T. *
+anton@hydra.unm.edu   * Intelligence Increase * Nano * Crypto * NO RELIGION *
+FidoNet:    1:301/2   * Life Extension * Ethics * VR * Now! * NO MORE LIES! *
+Noise in the Void BBS * +1-505-246-8515   (24hr, 1200-14400, v32bis, N-8-1) *
+
+------------------------------
+
+Date: Sat, 26 Jun 93 22:16:55 EDT
+From: sulko-m@acsu.buffalo.edu (Mark A. Sulkowski)
+Subject: MEDIA: Jurassic Park
+
+ From: szabo@techbook.com (Nick Szabo)
+>> Would a veloceraptor attack a T.rex?  
+>
+>I think the idea here was that the velociraptor was acting like a human
+>would (in drama, anyway), taking revenge for the murder of its partner 
+>(mate?) by T. Rex.  
+
+	I recall a dinosaur special that came out perhaps a year ago
+that suggested (if I remember correctly) that Veloceraptors might be
+able to take out larger dinosaurs (like T. Rex) if they attacked in
+packs.  It may just have been a speculation.  Even so, this speculation
+was probably the inspiration for the attack in the movie.  In other
+words, it was more likely instinct than revenge.
+
+
+===============================================================================
+|   |\    /|    | "But we must not follow those who advise us, being men, to  |
+|    \\  //     | think of human things, and, being mortal, of mortal things, |
+|     \\//      | but must, so far as we can, make ourselves immortal..."     |
+| Mark \/enture |                 - Aristotle, _The Nicomachean Ethics_       |
+===============================================================================
+
+
+------------------------------
+
+Date: Sat, 26 Jun 93 23:41:55 -0400
+From: "Tom Rumland" <p00529@psilink.com>
+Subject: New subscriber
+
+Hi,
+I would like to subscribe...could I please be added to the list?
+
+Thank You,
+
+
+Tom Rumland Strange Brew, Inc. Abscande! Obiscerae Elegitimo!
+p00529@psilink.com  KegThor@aol.com  tom@sms.com
+
+
+------------------------------
+
+Date: Sun, 27 Jun 1993 01:54:13 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: EVOLUTION/DIET: What proto-hominids ate
+
+> 
+> 
+> Stanton McCandlish says:
+> > Counter-challenge.  Find me any truly "pure vegan" culture.  Period.
+> 
+> The Jains.
+
+Yup.  Same example I'd have picked.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Sun, 27 Jun 93 01:59:15 -0700
+From: freeman@MasPar.COM (Jay R. Freeman)
+Subject: MEDIA: B: _Jurassic_Park_
+
+Stanton McCandlish made a number of interesting criticisms of the
+animal behavior and other biology portrayed in _Jurassic_Park_; I
+agree with most of what he says, but since I am interested in animal
+behavior I thought it might be fun to play devil's advocate (voice of
+_Velociraptor_?)  for the story, and see if I could come up with
+justifications for what was shown.
+
+> It is never explained how they created extinct plants (remember the leaf,
+> right before the protagonists saw their 1st dino?). [...]
+> ...I guess the idea is that they used preserved plant material and
+> directly cloned it.  Is this believable, from what we now know
+> about cloning?
+
+I suspect it is no more unbelievable than the idea of cloning
+dinosaurs from preserved blood.  We don't know much about cloning from
+DNA samples, but it is amusing to note that cloning higher lifeforms
+is a very old human technology, and probably most of you have done it
+at one time or another, perhaps with a geranium (which I would call a
+higher lifeform because it is a multicelled eukaryote).
+
+> It suffers from what I call the "Alien Syndrome":
+
+Yes.  But just for fun, let's see how fast I can talk ...
+
+> Would a veloceraptor attack a T.rex?
+
+That might depend on how strong the bonds were within the _Velociraptor_
+pack.  Naturalist Adolph Murie, in _The_Wolves_of_Mount_McKinley_ (1944,
+recently reprinted) has documented several instances of wolf packs 
+attacking grizzly bears when the latter came too close to the wolf dens.
+The _Velociraptor_ in question also looked as if it were undertaking a
+rather effective attack; it looked to me as if it was trying to slash
+at throat blood vessels.  Considering that _T._rex_'s short "arms"
+didn't reach the area where the _Velociraptor_ was, that might have
+worked.
+
+> Would a veloceraptor go after humans despite being caged by them, shot
+> at, etc etc, in a totally foreign environment (the inside of a
+> building?)
+
+I think the biggest problem here is that the _Velociraptors_ had been
+fed an enormous meal less than 24 hours before, and would not likely
+have been hungry.  We know that one _Velociraptor_ was shot and likely
+killed, at the start of the movie, but it seems unlikely that any of
+the others had any reason to know what a gun was, or to think that
+humans were dangerous.  Furthermore, they had only just escaped from
+captivity into the "human paddock" of the park, which likely contained
+no other edible creatures much larger than an appetizer.  If the
+_Velociraptors_ had been hungry, it would make great sense for them
+to go after the obvious large instances of dinner in residence.
+It is also not clear that the insides of buildings were foreign to
+them; they had to be raised somewhere before being put into the
+paddock, what do you bet they were in inside enclosures.  They might
+even associate the interiors of buildings with security.
+
+> I can see the dinos going after humans if they were hungry AND
+> reasonably assured of success.
+
+I agree about hunger, but as for success, they were doing pretty well!
+Did everybody notice that during all of _Jurassic_Park_, no human
+manages to kill a dinosaur?
+
+> the predators we know tend to get away from humans [...]
+> and are scared of fire and guns and loud noises [...]
+
+Fear of noise may be instinctive.  Fear of guns _per_se_ -- not merely
+as noisemakers -- surely must be cultural (I mean the predators'
+cultures), for firearms have not been around for timespans likely
+required for evolution to occur.  I don't have any data for predators
+at hand, but S. Eltringham, in _The_Ecology_and_Conservation_of_Large_
+_African_Mammals_ (1979) cites a result suggesting that rhinoceroses
+have a cultural adaptation to hunting techniques: In areas where they
+have most commonly been hunted with short-range weapons (not
+firearms), they charge when humans appear, so that hunters scatter
+before they can bring their weapons to bear.  In areas where firearms
+have been long used, they run away from humans.  And in those few
+areas where rhinos have not been hunted (possibly none at present,
+but the data were from 1963), they are neither fearful nor hostile
+toward humans.
+
+Fear of humans is evidently at least partly cultural, because it is
+often not seen in animal populations with little contact with humans.
+L. David Mech and Jim Brandenburg studied arctic wolves on Ellesmere
+Island a few years ago, and found the wolves curious and not fearful;
+after a few weeks they would approach within meters.  This is *not*
+typical of mainland wolf populations!  Mark and Delia Owens, in
+_Cry_of_the_Kalihari_ (1984 -- a *wonderful* book) , had similar
+experiences with African lions, brown hyenas and African wild dogs,
+and also reported that one of the first brown hyenas they saw
+initiated physical contact with them of its own free will on the
+second occasion that they saw it.  (Delia( Owens squatted down and the
+animal -- a 100-pound carnivore -- came up and put its nose in her
+hair.)
+
+As for fear of fire, Owens and Owens (_op._cit._) report that some of
+the local lions occasionally would come and curl up on the opposite
+side of the campfire from them, a few meters away from it, outside
+their tent at their research site.
+
+> I won't even bring up the cage attack sequence at the start, that was
+> just silly.
+
+There was a frightened animal in a small, strange place, being moved
+around, with strange motions, noises and smells.  It was indeed silly
+that the cage was that poorly handled, but I find it plausible that
+the critter within would be frantic and dangerous. 
+
+> And besides, the dinos didn't seem the least interested in EATING
+> people just hunting them down and killing them.
+
+I had the impression that the _T._rex_ ate the lawyer (albeit leaving
+scraps), I thought the "spitter" was last seen completing its
+traditional predatory pattern on the nerdly crook, and I noticed that
+only one piece of the hapless fellow who first went to turn the power
+on was found ...
+
+> Another thing is the wires. [...]
+
+I agree that this is a problem.  However, it depends on the past
+history of the specific animals.  If they had ever been confined by
+conventional fencing, they would have some experience with non-shocking
+walls.  And if they had learned the association of (for example) 
+transformer hum with electrified fencing, they might have been
+quick to investigate.  And it's not clear that what the _Velociraptors_
+cut through was intended as physical security via strength; perhaps it
+was just aluminum wire to carry the high voltage.
+
+> Another really dumb thing is the lack of [back-up systems].
+
+Yes!
+
+> Why frog DNA?  At least lizard DNA would've matched a little better.
+
+Yes.
+
+> Would a T.rex really make THAT much noise and shaking-around as it walked?
+> Could it really move that fast?
+
+There was an article in _Scientific_American_ on the last subject
+within the last few years; the author suggested that a human running
+at top speed might have been able to outrun a _T._rex_.  You can try
+it first ...
+
+> there was no reason in hell to clone carnivorous dinosaurs.
+
+I'd pay more to see _T._rex_ than to see _J._random_veggiesaurus_.
+
+                                          -- Jay Freeman
+
+------------------------------
+
+Date: Sun, 27 Jun 93 10:05:33 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: QM/TOE: Many-Worlds & Dreams of a Final Theory
+
+I said:
+
+> Copenhagen is false because it postulates a dichotomy between
+> conscious observers and the rest of the universe, a distinction not
+> reflected in the standard laws of physics, and a return to primitive
+> vitalism.
+
+Eric Raymond said:
+
+> You mean there are physicists that *realize* this?  [...]
+> I've never met a working physicist who was willing to commit one way 
+> or the other.
+
+Steven Weinberg says this in his _Dreams of a Final Theory_, where he
+comes down in favour of many-worlds.  Most serious theoretical
+physicists are very unhappy with Copenhagen.  In quantum gravity,
+according to one poll I saw, most workers favour many-worlds, Hawking
+and Weinberg being the two most famous.
+
+As a final plug for DoaFT, let me recommend it to anyone interested in
+the relation between science and philosophy (or physics and metaphysics,
+if you prefer).  It goes into detail, amongst other things [*], on the
+relation between retrodiction and prediction their use in deriving and
+judging new theories.  In contrast with the simplistic and increasingly
+out-moded Popperian view that a new theory must make a falsifiable
+_prediction_.  Weinberg argues that logically and historically this is
+not and has not been the case.  Theories are judged by their simplicity
+and fitness with _pre-existing_ data.  Only later, usually after partial
+or nearly-full acceptance, are predictions searched for to bash in the
+final nails in the lid of acceptance.  No-one builds a supercollider
+unless they have a pretty good idea of what they're looking for (eg a
+Higgs particle).
+
+General relativity, the theory par excellence, was not accepted on the
+basis of the 1919 eclipse (the evidence from which was highly
+questionable, Weinberg reports), contrary to popular mythology.  General
+relativity was (and is) accepted because of its logical structure and
+_re-interpretation_ of existing data on the orbit of Mercury.  Evidence
+that may have contradicted Einstein was ignored by the eclipse
+experimenters.  This is always the danger, Weinberg explains, with
+predictions borne out by experiment.  The experimenter knows what she's
+testing for and systematically routes about eliminating experimental
+error and bias until data fits the theory.  With the re-interpretation
+of existing data by a theory (a _retrodiction_) no such blinkering takes
+place.
+
+Looking further back, Newton's theory of universal gravitation was re-
+interpreting planetary data that Kepler had already theorised about in
+his orbital laws.  The successful Newtonian prediction of Halley's comet
+return (ie laws derived from planetary behaviour, applied to comets) was
+not verified until Newton and Halley's death and well after the
+acceptance of the theory (in England, at least).
+
+In quantum mechanics the retrodiction of many-worlds is the collapse of
+the wavefunction relative to the observer.  In Copenhagen this effect
+has to be introduced at the level of a postulate (eechh!), adding
+greatly to the complexity of the theory (and also making it vitalistic).
+
+By contrast many-worlds is _much_ more compact and simpler theory,
+wherein the peculiar behaviour is derived from a basic set of elegant
+postulates/axioms.  On complexity grounds alone many-worlds is the
+winner.  Dr David Deutsch's proposed experiments with reversible memory
+units coupled with intelligence are hardly necessary to vindicate many-
+worlds.  I will make a prediction here.  By the time we become capable
+conducting the Deutsch experiments many-worlds will be standard.
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+[*] PS one of the other things Weinberg mentions, inter alia, is the
+non-chaotic nature of the universe.  Only classical systems, with their
+non-linear feedback loops, exhibit chaotic behaviour.  Quantum systems
+are always linear and theorefore non-chaotic.  Small perturbations of
+initial conditions only lead to small divergences to final conditions. 
+It is more correct, Weinberg continues, to speak of _quasi-chaotic_
+systems: that is systems that would exhibit behaviour _if_ they were
+classical.  Changes below a certain threshold do not cause exponential
+diverge.  The beat of butterfly wing in Brazil may cause a tornado in
+Texas, but the pandemonium down at the planck level doesn't perturb the
+universe in the same manner.  Interesting stuff.
+
+------------------------------
+
+Date: Sun, 27 Jun 1993 11:50:11 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: QM/TOE: Many-Worlds & Dreams of a Final Theory
+
+>                  It goes into detail, amongst other things [*], on the
+> relation between retrodiction and prediction their use in deriving and
+> judging new theories.  In contrast with the simplistic and increasingly
+> out-moded Popperian view that a new theory must make a falsifiable
+> _prediction_.  Weinberg argues that logically and historically this is
+> not and has not been the case.  Theories are judged by their simplicity
+> and fitness with _pre-existing_ data.  Only later, usually after partial
+> or nearly-full acceptance, are predictions searched for to bash in the
+> final nails in the lid of acceptance.  No-one builds a supercollider
+> unless they have a pretty good idea of what they're looking for (eg a
+> Higgs particle).
+
+Interesting article --- but I must protest that this is anti-predictive only
+if one's notion of "prediction" is fairly narrow (possibly Popper's was).
+Retrodiction is simply a form of prediction checked against data that happens
+already to have been gathered.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Sun, 27 Jun 1993 02:55:29 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: AIT VirtSem: "Information"
+
+Hal Finney writes:
+> his reasoning was that
+> deterministic processes cannot create new information in the AIT sense.
+> [eg Conway's Life creates no new information]
+
+This sounds controversial if we confuse terms of art.
+Information theory uses the word "information[1]" as a measure of 
+data uncertainty.  To most layfolk, and in the field of information 
+systems, "information[2]" is a qualitative estimate of utility (as opposed 
+to "data", which can be useful or useless, and is measured in bits).
+These are vastly different meanings.   For example, a random bit string
+has a maximal info[1] content, but often no info[2] content.  
+In AIT "information[3]" is the bit length of the smallest 
+algorithm to which a string can be compressed (to some standard, 
+such as Lisp s-expressions or the encoding of a Turing machine).
+
+The vast bulk of traditional mathematics, eg as defined by Russel & 
+Whitehead in _Principia Mathematica_, also contains very little 
+info[3].  R&W derive most 1900's-era math knowledge from just a few 
+axioms, eg the axioms of the predicate calculus.  By the incompleteness 
+theorem not _all_ of math is so compressible, and by some measures
+of string-compression only an insignificant fraction of what could
+be defined as "math" is compressible, but the vast bulk of math
+as used in the early 20th century (and probably also today) is
+in principle extremely compressible.   Similary pi, e, and many other
+infinitely expandable irrationals with H_trad=1 are highly
+compressible.   
+
+We should quickly realize that there is a 
+tradeoff between the degree to which an algorithm (such as
+a mathematical system) has been compressed, and its efficiency
+at solving practical problems.  We usually can't predict the emergent
+patterns in Life, other than by running the algorithm.  
+If we had to rederive math from the predicate calculus every time
+we wanted to make change at the grocery store, we would be
+in sad straights indeed -- but in principle, given very large
+amounts of very cheap computing power, we could do this.
+In fact modern computers do something reminiscent of this,
+computing arithmetic vastly faster than a human via circuits
+that implement Boole's Laws of Thought (a simplified form
+of the predicate calculus).
+
+In turn, much of our scientific and engineering knowledge
+can be compressed into mathematics, the remainder being 
+observational data to fit to the mathematics.  Thus, most
+of the vast scientific knowledge and engineering skill can
+be compressed into (a) observations, containing a vast amount
+of info[3], and (b) a tiny number of axioms,
+containing a small amount of info[3], but expandable into
+a rich array of models that can in turn be used to stochastically
+(imprecisely) compress observational data into useful forms.
+The utility of math comes from expanding the axioms to a point
+where they become efficient models of our observations that
+help us achieve our goals.  Good math is neither too simple
+nor too complex, but just right for the job.  "Just right"
+often translates to orders of magnitude difference in computing
+speed.
+
+Furthermore as we have seen, the halting problem itself can be 
+compressed to a small algorithm that generates and samples
+Turing Machines, if we allow infinite computing time.
+We can achieve a performance of eliminating O(n^3) TMs per n trials 
+with GA and presumably GP.  In finite time a vast number of
+halting problems can be solved (and indeed are daily solved
+by both software engineers and their compilers).
+
+Measuring info[1] with the function H_trad() and info[3] with
+the function H_AIT(), H_trad(Life,t+n) > H_trad(Life,t)
+for almost all n.  In AIT terms
+	H_trad (Life,n) >> H_AIT (Life) = H_trad (Life, 0)
+for large n.  I define the "expansion coefficient" of an algorithm as
+X(a) = H_trad(a)/H_AIT(a).  The algorithm with highest X(a)
+is probably a high-entropy psuedorandom number generator created 
+by Koza's genetic program (_Genetic Programming_, pg. 404).
+
+The uncertainty principle in physics might be restated to say that
+quantum mechanical processes have an X(a) of infinity,
+and could (if tapped perfectly "fairly", as in fair coins)
+generate a number stream with H_trad(a)=1, something a Turing machine
+can only approach. 
+
+On the ohter hand, there may exist an algorithm that compresses quantum 
+uncertainty, just like there exist an iterative expression that 
+compresses the H_trad=1 digits of pi.   If so, we haven't discovered 
+it yet.  If not, we have infinite supply of info[3] that is
+practically free (merely the cost of setting up a fair quantum 
+process and observing it fairly).  However, as we have seen
+info[3] is not the same thing as info[2], useful
+data.   Information[2] comes about when the axioms of mathematics
+are expanded "just right", so that they optimally model our
+observations and thereby help us achieve our goals.  
+
+Let us define "information[4]" as info[2] without the subjective
+aspects of values and goals, but including the notion of balancing
+model complexity with observational complexity.  I hypothesize
+that info[4] is maximized when info[3]+info[1] is minimzed.
+Or perhaps, some other f(info[3],info[1] with a positive slope.
+
+Nick Szabo				szabo@techbook.com
+
+------------------------------
+
+Date: Sun, 27 Jun 1993 04:29:02 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: Self-replication is easy (but not _that_ easy :-)
+
+Dani Eder's design is getting more interesting as he adds detail.
+Besides the photovoltaics, motor parts, and electronics, I see several 
+other loops to close, many of them having to do with assembly 
+automation in a broad sense, some having to do with gritty
+details that become important for self-rep:
+
+Power distribution (esp. insulating wires & power conditioning
+	for motors, computers, CCDs, etc.)
+Designing flexible, many-DOF robots outs of hexrod parts
+	(flexible mills and robots usually contain control wires, 
+	bearings and other very precise lubricated joints, and motors
+	or hydraulics which must be assembled in an
+	intricate geometry) that can carry out all necessary
+	operations (eg transporting dirt without spilling,
+	mirror line-of-sight, wire routing, cleaning, etc.)
+Wire drawing machine
+Manufacture insulating wire coating (can this be done without plastic?)
+Drill bits (these must be much harder than aluminum, 
+	eg diamond, boron nitride)
+Positioning & aligning hex parts to drill or place mounting points
+Design of mounting points, considering the wide variety of assembly 
+  configurations for robots, mills, wire drawer, solar concentrator,
+  etc.
+Valves, pumps, & seals for vacuum chamber (to keep reactants in or air out)
+Heat transfer wall for reactor (light -> ?? -> refractory -> reactants)
+loading, unloading, & cleaning reactor: access ports to enable,
+	robots to perform (including scrubbing muck off refractory)
+making sure motors, CCDs, reflector surfaces, and other sensitive 
+	equipment stays clean operating near reactor
+coating refractory on walls, define process, what machine(s)
+	needed, what if any material(s) needed to make coating stick
+claw & shovel attachments: forming, cutting, mounting, etc.
+CCDs & CPUs (cheat & bring these from Earth :-)
+Coolant to dissipate heat at drill/part interface (for many
+	mills, mass of coolant used exceeds mass of parts produced)
+Cleaning & disposing of mill chips
+Lubrication (for motors, pumps, valves, gears, bearings, etc.)
+Lubrication (for drill/part interface if operating in vacuum)
+making all the new machines needed to do this stuff, making
+	all the machines needed to make _those_, etc.
+[more details I've probably missed]
+
+I strongly suspect that the assembly design problems, while complex, 
+can be solved by breeding 3D shape grammars with genetic programming,
+using fitness functions that measure allosteric (mutual shape fit)
+relationships, Von Mises stress and heat flow (using large-grain 
+finite elements and wide engineering margins since these are not
+important in most assembly cases), and Newtonian physics to
+simulate specific tasks (eg robot DOF, reach, and center of
+gravity, solar concentrator alignment, DOF, and line-of-sight,
+etc.)  I enthusiastically welcome suggestions for software that
+might perform mechanical engineering/physics modelling of 3D
+parts (and related material & surface information),
+or strategies/designs for creating such software.
+
+Designing a self-rep factory is kind of like one of those stereotypical
+comedy routines; everytime we close one loop a bunch more spring open.  The 
+details are very important, or at least what is considered a "detail" for
+this task is very different than traditional systems analysis, where 
+we assume a vast array of parts available "off the shelf".  It's
+a complex problem, but I think its lack of solution (so far)
+is more due to being off the beaten path of traditional factory
+design than due to unprecedented complexity.  Dani's giving it a 
+good crack!  Keep us posted.
+
+Nick Szabo					szabo@techbook.com	
+
+------------------------------
+
+Date: Saturday, 26 June 1993 23:19:49 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: B: "Extropian X"
+
+In <9306231612.AA05860@wookumz.gnu.ai.mit.edu>, schirado@lab.cc.wmich.edu (Schirado)  wrote:
+
+>                                                       This smacks
+> particularly strongly of Objectivism's claim that there can be such
+> a thing as "bad art" and "good art". I consider myself to be an
+> Objectivist (even with a big O!), but this is the one thing that I
+> absolutely cannot agree with Rand, or any other Objectivists I've
+> heard, on.
+
+Lower case o objectivist here, and plain to see there is good art and bad 
+art.  Obviously much art cannot be easily categorized as good or bad, but 
+some can.  For example if someone plays "Mary had a little lamb" seriously 
+out of tune, that is bad art.
+
+However, if someone is color blind and has a tin ear, this does not make him
+a wicked person, nor is it evidence of poor judgment in moral issues.
+(I like heavy metal myself.)
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0357
+****************************************
+

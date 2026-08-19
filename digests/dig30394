@@ -1,0 +1,1362 @@
+From extropians-request@gnu.ai.mit.edu Fri Jul 16 17:24:48 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA26066; Fri, 16 Jul 93 17:24:45 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA19851; Fri, 16 Jul 93 17:24:35 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA15971; Fri, 16 Jul 93 20:04:11 EDT
+Message-Id: <9307170004.AA15971@ude.tim.ia.ung.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Fri, 16 Jul 93 20:01:47 EDT
+X-Original-Message-Id: <9307170001.AA15963@ude.tim.ia.ung.gnu.ai.mit.edu>
+X-Original-To: Extropians@ude.tim.ia.ung.gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0394
+X-Extropian-Date: Remailed on July 17, 373 P.N.O. [00:04:00 UTC]
+Reply-To: Extropians@ude.tim.ia.ung.gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Sat, 17 Jul 93            Volume 93 : Issue 0394
+                        
+Today's Topics:
+                             ADA Position Paper                       [1 msgs]
+                              Books by G. Smith                       [1 msgs]
+                             Dave Ross is hiring                      [1 msgs]
+                              Extropian Symbols                       [1 msgs]
+                      Forward/Vegan: ADA Position Paper               [1 msgs]
+                        HEx: New Exchange Regulations                 [7 msgs]
+                         Metaprogramming experiments                  [1 msgs]
+ Metaprogramming experiments: I was conditioned to respond in this manner... [1 msgs]
+                 NANO: A TM-5 the size of a red blood cell?           [1 msgs]
+                              PHIL: Free will?                        [1 msgs]
+             Scientific validity in metaprogramming experiments       [1 msgs]
+                       What are big upcoming problems?                [3 msgs]
+                         hand waving on nanobearings                  [1 msgs]
+                                    help                              [1 msgs]
+                               sell mwm 100 20                        [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 70026 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 15 Jul 93 20:38:36 -0700
+From: moulton@netcom.com (Fred C. Moulton)
+Subject: Books by G. Smith
+
+>From: price@price.demon.co.uk (Michael Clive Price)
+
+>The rationality of faith was examined by Smith (?) in a book called
+>something like : _Atheism - the case against God_   Can someone help me
+>with the author and title?  In fact, I think Max lent it to me, some
+>years ago.  Perhaps it should be added to the reading list.
+
+_Atheism: The Case Against God_ by George H. Smith was first published by
+Nash Publishing Co. in 1974.  Nash is no longer in business.  The book
+has been republished by Prometheus Books, 700 E. Amherst St. 
+Buffalo, New York  14215  716-837-2475.  Prometheus Books also publishes
+Smith's other book _Atheism, Ayn Rand, and Other Heresies_ as well as
+_Reclaiming the Mainstream: Individualist Feminism Rediscovered_ by
+Joan Kennedy Taylor.  
+
+HTH
+
+Fred
+
+------------------------------
+
+Date: Thu, 15 Jul 1993 23:33:52 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: NANO: A TM-5 the size of a red blood cell?
+
+Elias Israel:
+> (I say that it "processes the same number of instructions" rather than
+> "does the same amount of work" because the former is more precise than
+> the latter,
+
+Good for you!  I'm tired of bogus pseudo-physics like "computing
+power", "powerful theories", "social forces", etc.  (Not that
+phrases like "information" don't get abused as well...)  These
+are channel markers indicating the writer/speaker has reached either
+his limit of understanding or ability to communicate.
+
+> In addition, the idea of machines this powerful floating through living
+> tissue is reason to give any software engineer pause: though much work
+> has been done, how can we ever raise the art of software development to
+> the point where we'd trust the code to control machines with such
+> immense destructive power?
+
+What destructive power?  Any single machine is likely to have
+limited capability, any error is likely to be fairly innocuous,
+and cell biochemistry is quite robust against attacks.  Cell
+repair machines can also be thoroughly tested in other mammals
+and any dangerous aspects (eg injection of poison into cells,
+creation of viruses, etc.) fail-safed.  Compare to contemporary
+genetic therapy, where viruses are created and spread throughout
+human tissue without an software self-diagnostic or fail-safe
+capability.  (Remind me to talk about Genopunks, DNAnarchists,
+my friend Juanita Poppyseed, etc. in future posts).
+
+> What other doors does this technology open? Neural interfaces to global
+> information search-and-retrieval systems? 
+
+Current neurons are designed for, and probably work best with, our
+fingers and voice and senses.  Direct neural connection probably
+won't help much unless we redesign the neurons themselves.  One
+possibility is a huge neural transplant, with the new neurons
+trained to translate vague English queries into regular expression 
+and relational database query language (eg grep and SQL).
+
+> are we going to adapt to computers too powerful to comprehend and too
+> numerous to count?
+
+We already have such computers, libraries of idiot-savant alien software 
+far beyond the comprehension of any single human, all over the
+planet, and we're not anywhere close to having adapted to them.
+
+Nick Szabo					szabo@techbook.com
+
+------------------------------
+
+Date: Fri, 16 Jul 1993 10:00:43 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: HEx: New Exchange Regulations 
+X-Reposting-Policy: redistribute only with permission
+
+Nick Szabo says:
+
+You are probably refering to my price. I assure you that I have not
+manipulated it given the normal understanding of the word.
+
+> If Thorne supply is allowed to grow, it should be done in
+> some formulaic, not arbitrary manner.  For example, Thorne
+> supply might be increased every time there is a share split
+> or IPO, by the increase in total shares in the market
+> times average price per share.
+
+What is the point here?
+
+I think we need a lesson in free banking. The money supply does NOT
+need to grow. What is needed is more of an incentive for people to
+spend their money and a way for people to loan it out. 
+
+> As it stands now, the current prices reflect almost entirely
+> price-fixing skill, and have practically nothing to do with
+> reputation.
+
+I assure you that I haven't been fixing *my* price.
+
+The real problem with the pricing is that most shares are held by
+their owners and that there isn't a real two way market in progress.
+Much of the time, no real bid or ask exist in a security. This is very
+common in real markets where over 90% of shares are owned by the
+primary owner, which is one reason why most markets require that a
+substantial portion of the company actually be in public hands to
+list the security. 
+
+Perry
+
+------------------------------
+
+Date: Fri, 16 Jul 93 9:24:57 CDT
+From: capntaz@dudemar.b24a.ingr.com (Heath G. Goebel)
+Subject: HEx: New Exchange Regulations
+
+> From: szabo@techbook.com (Nick Szabo)
+> Subject: HEx: New Exchange Regulations
+> 
+> Right now, several issues are selling for over
+> 1,000 times what they're worth.  I won't name names, but
+> obviously people are manipulating their own or each other's
+> reputation prices, oustanding value, or whatever else is perceived
+> as the "reputation rating" to bizarre extremes.
+
+I hope this is not the beginning of a slam the brothers Goebel
+climate because of their HExchange price manipulations.
+Remeber that M. Milken is an extropians-list hero.
+
+I have a strong feeling that members of this list support a
+defacto motto that "Talk is cheap." If I had simply posted
+that I perceived a problem with HEX acurately representing
+free market reputations because I control the number of shares
+of my outstanding stock, the topic would probably have been
+dropped just like Derek Zahn's comments. Not until we had
+abused the HExchange to boost our "market reputations", did
+Rowan issue new HEX rules. [No slam on Rowan intended, just
+general comments. I think HEX is great, and I own HEx shares
+in R.]
+
+-- 
+Heath G. Goebel, <capntaz@dudemar.b24a.ingr.com>
+
+
+------------------------------
+
+Date: Fri, 16 Jul 1993 10:06:51 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: hand waving on nanobearings 
+X-Reposting-Policy: redistribute only with permission
+
+"James A. Donald" says:
+> Summary:
+> 1.  Drexler misrepresents my claims and arguments, and
+>     attacks a straw man of his own creation, and calls me an
+>     ignorant bluffer for making nonsense arguments.
+
+I think he was 100% on target. He understands his discipline (having
+devoted years of his life to the subject), and you do not show signs
+of understanding his discipline.
+
+Perry
+
+------------------------------
+
+Date: Fri, 16 Jul 1993 09:25:03 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: HEx: New Exchange Regulations
+
+In <9307160233.AA14424@ude.tim.ia.ung.gnu.ai.mit.edu>, Nick Szabo writes:
+[good stuff on HEx]
+|> Very strange and interesting and fun, but don't take it too seriously, 
+|> folks.
+|> 
+
+I think the problem was the opposite ... we should take it for
+what it is, an experiment in abstract market-making, and see how
+well we can make it work without strappping it down with arbitrary
+regulations until we evolve our own SEC :-(
+
+I agree that share auctions will be a very useful feature. I was just
+figuring out how to start to do share pricing/selling "in a vacuum", but it
+isn't working too well. The indivisible Thorne is a pain in my side.
+
+I have half a mind to make a tender offer for my outstanding shares,
+split, and start over in a lower bracket. If my major shareholders
+don't like this idea, they should let me know privately (or just not
+ask when I bid 11 or 12 or whatever). 
+
+Note that the exchange does not stop me from doing this unilaterally,
+thus screwing the people who paid 11 in good faith; but since it's a
+*reputation* market, that would be shooting both big toes off.
+
+Of course stock markets are partly reputation markets too.
+
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO
+    /ExI 4/373 PNO ** E' and E-choice spoken here
+
+
+------------------------------
+
+Date: Fri, 16 Jul 1993 09:39:27 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: Extropian Symbols
+
+In <9307160013.AA13991@ude.tim.ia.ung.gnu.ai.mit.edu>, Mike Wiik writes:
+|> > In a few weeks I'll post some notes from an interesting
+|> > book I'm finishing by Amit Goswami, PH.D [...]
+|> > However, no bird in the sun on the cover of book--just
+|> > a big eye swimming in the milky way.
+|> 
+|> Hmmm. Sounds sorta like *GoD*, don't it??? :(
+
+Or Leviathan.
+
+-- cP
+
+
+------------------------------
+
+Date: Fri, 16 Jul 93 10:39:47 EDT
+From: Brian.Hawthorne@east.sun.com (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: HEx: New Exchange Regulations
+
+A quick clarification.
+
+The new exchange regulations were NOT prompted by the machinations of the
+Brueder Goebel, although their experiments did provide a reasonable 
+example of the kind of problem we were likely to see. The regulations
+were drafted previous to those transactions, with the help of a consultant
+(Do you have to pay taxes on income in Thornes?).
+
+Also, the Goebel's were quite open about what they were doing, and informed
+the Exchange via email. They also had some suggestions about how this could
+be prevented. I believe the problem will be adequately resolved by the new
+regulations, however.
+
+Now, back to hacking...
+
+Rowan
+
+------------------------------
+
+Date: Fri, 16 Jul 93 10:41:45 EDT
+From: Brian.Hawthorne@east.sun.com (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: HEx: New Exchange Regulations
+
+> I agree that share auctions will be a very useful feature. I was just
+> figuring out how to start to do share pricing/selling "in a vacuum", but it
+> isn't working too well. The indivisible Thorne is a pain in my side.
+
+That will probably change in the near term as well.
+
+------------------------------
+
+Date: Fri, 16 Jul 1993 09:54:25 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: HEx: New Exchange Regulations
+
+In <9307161440.AA15177@ude.tim.ia.ung.gnu.ai.mit.edu>, Brian Holt Hawthorne - SunSelect Engineering writes:
+[...]
+|> (Do you have to pay taxes on income in Thornes?).
+[...]
+
+BITE YOUR FINGERS, ROWAN!
+
+What a thing to say. Almost lost my breakfast.  Now, paying the IRS in
+Thornes instead of dollars, though, that has some appeal!
+
+-- cP
+
+------------------------------
+
+Date: Tue, 15 Jun 93 17:23:02 PDT
+From: "Mark W. McFadden" <mwm@wwtc.timeplex.com>
+Subject: Scientific validity in metaprogramming experiments
+
+On Thu, 15 Jul 1993 15:55:59 -0700, Dave Krieger wrote:
+
+> A failed experiment is one which ends up saying nothing
+>either way about your hypothesis, which is what would happen if you carried
+>out this experiment as described by Mark.
+>
+>Ray's confusion comes from the fact that there are two implicit hypotheses
+>which the experiment is trying (and failing) to test simultaneously.  They
+>are:
+>
+> A. Rituals are useless for enhancing normal human capabilities
+> B. Any ritual or object of concentration is as good as any another
+
+ Whoa! Hold it! Slow down. 
+ There, that's better.
+ 1) We've been asked to shelve this until next week or so.
+ 2) I proposed that _we_ design an experiment, I hope no one thinks that the
+    silly remarks I made are my proposal for how it should be conducted. 
+    I'm hoping that the two (or more) "camps" out there will suggest
+    refinements. 
+ 3) I tend to disagree with both Hypotheses A and B. But I have nothing 
+    other than a gut feeling, a few anomalous experiences and some 
+    references in the library (surrounded by other authorities saying it's 
+    all "mass hallucination" and fraud). Don't look at me, I'm agnostic.  
+
+>
+>to prove them, but I think Mark's experiment is useful except for a fatal
+>flaw:  no control group!  The right way to design this experiment is to
+>have three experimental groups:
+
+ And then Dave launches into just the sort of speculation and planning I was
+ hoping to see. 
+
+>Group 2 would practice pop-culture rituals such as the ones Mark describes,
+>made up out of whole cloth especially for the occasion.  As Mark made clear
+>in his post, they should be as slipshod and corny as possible, because we
+>want to test the assertion that _any_ ritual will do, right?
+>
+ 
+ Well, except for that. Actually, I was thinking along the lines of having
+ the Pagan/Shamanistic group designing the ritual, but all references to 
+ deities in prayers/chants/invocations would be replaced with modern analogs
+ from popular culture. The idea being to test if it's the mindset that is
+ useful,  not belief in a deity per se. 
+
+ Later Dave points out that we need to have some result to measure. That's 
+ where I got hung up. Outside of brick-breaking and fire-walking I can't
+ think of any objective behavior we can measure. Which is not to say that
+ no one else can. 
+ 
+ How would you like to be in the control group for a fire-walking test?
+ "We find the fact that 100% of the control group received third degree 
+ burns up to their knees significant. When combined with their average of 3 
+ shattered knuckles per participant........"
+
+>
+>If nobody has any serious quibbles with the foregoing, I'll go on to "what
+>is a ritual and what do we expect it to do for us"?
+>                                        dV/dt
+>                                        HEx Trading Symbol: DVDT
+
+ You betchum Red Rider. But don't post it until late next week.
+______________________________________________________________________
+   Mark W. McFadden                |     Been there.....done that.
+   mwm@wwtc.timeplex.com           |
+___________________________________|__________________________________
+
+------------------------------
+
+Date: Fri, 16 Jul 1993 11:07:46 -0700
+From: "Thomas M. J. Fruchterman" <maverick@halcyon.halcyon.com>
+Subject: Dave Ross is hiring
+
+Hi folks.  RAF Technology, Inc., my pattern recognition software company,
+is hiring a couple of senior engineers.  If you know anyone who might be
+interested, please pass the following on to them.  Thanks!
+
+-dave ross
+davros@erg.sri.com
+
+p.s. don't reply to me.  Reply to maverick@halcyon.com
+
+============================================================
+
+   RAF Technology, a Redmond-based Optical Character Recognition (OCR)
+company, is interviewing for a full-time senior software engineer; the
+position starts immediately.
+
+THE JOB
+   You will develop X-Windows/Motif tools for OCR development.  You
+will take part in developing pattern recognition algorithms and
+products.
+
+EXPERIENCE REQUIRED
+   BS/BA degree in Engineering, Mathematics, or Physics
+   4-10 years experience as a Software Engineer
+   C
+   Unix
+
+EXPERIENCE DESIRED
+   advanced degree in Engineering, Mathematics, or Physics
+   X-Windows (Xt and Motif)
+   OCR or pattern recognition
+		
+ABOUT RAF
+   Two of the founders of Calera Recognition Systems -- the company
+that invented omni-font OCR -- created RAF to consult on custom OCR
+and pattern recognition applications.
+
+GETTING IN TOUCH
+
+   Send e-mail to this account:
+
+maverick@halcyon.com
+
+   or fax:
+
+(206) 882-7370
+
+   or mail to:
+
+RAF Technology
+16700 NE 79th Street, Suite 100
+Redmond WA 98052
+
+------------------------------------------------------------------------
+
+Tom Fruchterman
+RAF Technology
+
+------------------------------
+
+Date: Fri, 16 Jul 93 12:04:33 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: What are big upcoming problems?
+
+People here seem to (somewhat) share a vision of future technical and
+social possibilities, including nanotech, AI, cryonics, uploading,
+space colonization, private law, etc.  This shared vision should give
+us a comparative advantage in thinking about the consequences of these
+technologies.  
+
+When considering the "policy" implications of something (i.e. what you
+can infer about what you should *do* in response), it is usually best
+for risk-adverse folks to first focus on the down-side, to imagine
+what could go wrong.  Sure, it's also important to imagine what could
+go right, so one can tradeoff upsides and downsides, but a few big
+downsides can outweight lots of upsides.
+
+So I am led to ask: What are the biggest upcoming "problems" posed by
+the technologies that we have a comparative advantage in
+understanding?  "Problems" are possible negative consequences, at
+least if we don't prepare well, and "bigness" includes the severity of
+loss, the number of people affected, the probability of this scenario,
+and its proximity in time.  And our comparative advantage is affected
+by our degree of consensus and understanding of the driving
+technologies, our uniqueness in taking some possibility seriously, and
+how soon action would need to be taken in response.  
+
+(For example, while the end of the universe might certainly be
+devastating, and is a likely scenario, it is so removed in time that
+we now have little leverage in thinking about it.)
+
+Some possible problems: Grey Goo, nano-breakthrough shocks to power
+balances, insolent AI, eco-collapse, world government, nuclear war,
+destabilizing weapons, heavy state monitoring, bioweapon genocide,
+cluttered orbits, loss of "soul" upon uploading, upload copy
+overpopulation, upload wage competition, virtual reality navel-gazing,
+torturing copies, invasions of one's mind, wars with aliens,
+evolutionary pressures toward love of power, igniting the sun, large
+inequalities in wealth or cognitive abilities, ...
+
+I'm less interested in hearing what you don't think are problems than
+what you do worry about.  Once we've indentified the biggest problems,
+I suggest devoting a separate threat to brainstorming on how to deal
+with each one.
+
+Robin Hanson
+
+------------------------------
+
+Date: Fri, 16 Jul 1993 12:35:28 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: HEx: New Exchange Regulations
+
+Heath Goebel:
+> I hope this is not the beginning of a slam the brothers Goebel
+> climate because of their HExchange price manipulations.
+
+Not at all! I specifically refrained from naming names (you
+have to pay me for that!) and the Goebel shares are nowhere close to 
+being the most wildly mispriced.  You are to be commended for making 
+the issue public. 
+
+I note that HEX has started paying fees for services in Thornes.
+(And, in general, unlimited transfer of Thornes between various
+accounts, without digital signature security or public reporting,
+is possible).  What kinds of services are worth how much?  How large are 
+the fees?  I don't care so much who the fees were payed to (and they may 
+want their privacy protected), but it would boost my confidence in 
+HEX and Thornes to have an accounting of the HEX budget -- expenses, 
+receipts, Thorne supply, etc.  
+
+I'd like to take this opportunity to announce my Private Alert[TM]
+newsletter, which will provide the inside scoop and analysis on the 
+HEX reputation market.  I have extensive experience with real-world
+markets and have made a significant profit in this market, despite 
+the thin trading.    Private Alert[TM] will include special reports
+not available from the HEX exhange, and information on
+specific shares that are overpriced, and why.  The cost will be 
+p100 per issue.  E-mail me to sign up for the first issue.
+
+Nick Szabo				szabo@techbook.com
+
+------------------------------
+
+Date: Fri, 16 Jul 93 20:21:20 +0100
+From: Rich Walker <grlw1@cus.cam.ac.uk>
+Subject: What are big upcoming problems? 
+
+My current `big problem' I like to think about is the first 15 years of
+_real_ robotics.
+
+I suspect the scenario involves something like 90% of the current
+workforce in most countries being replaced by machines. Governments, being
+stupid, will not forsee this, and so
+
+1. The people won't have any money, because the dividends from
+automatisation will be ploughed back into the profits of the owners...
+
+2. Most people wouldn't have any idea of what to do if they were made
+redundant tomorrow.  
+
+This is, needless to say, something I get to think about a lot; in fact,
+it's the reason I'm working in robotics. In the long term, it will clearly
+be rather pleasant, but it has the potential for short-term ugliness.
+
+Three ways to cope with it?
+
+1. Buy a private security firm. You'll make a fortune from all those
+paranoid rich people neding to defend themselves against crazed bored
+unemployed. (and it's one of the last things that'll be automated)
+
+2. If you're on this list, you can already think of 500 things you'd
+rather do than working.
+
+3. Enter a non-automatable job. Anything creative. (Well, almost anything
+:->)
+
+Rich!
+
+
+
+------------------------------
+
+Date: Fri, 16 Jul 93 16:03:37 EDT
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: help
+
+Dean--
+
+This request is going through to extropians:
+
+--Steve
+
+> From extropians-request@gnu.ai.mit.edu Fri Jul 16 10:11:57 1993
+> Return-Path: <extropians-request@gnu.ai.mit.edu>
+> Received: by smds.com (4.1/SMI-4.1)
+> 	id AA00539; Fri, 16 Jul 93 10:11:56 EDT
+> Errors-To: extropians-request@gnu.ai.mit.edu
+> Received: from ude.tim.ia.ung.gnu.ai.mit.ed (via ude.tim.ia.ung.gnu.ai.mit.edu) by relay1.UU.NET with SMTP 
+> 	(5.61/UUNET-internet-primary) id AA02388; Thu, 15 Jul 93 21:03:34 -0400
+> Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+> 	id AA14215; Thu, 15 Jul 93 20:51:08 EDT
+> Message-Id: <9307160051.AA14215@ude.tim.ia.ung.gnu.ai.mit.edu>
+> To: Extropians@gnu.ai.mit.edu
+> Date: Thu, 15 Jul 93 17:51:17 -0700
+> From: tribble@netcom.com (E. Dean Tribble)
+> X-Original-Message-Id: <9307160051.AA03525@netcom3.netcom.com>
+> X-Original-To: extropians@gnu.ai.mit.edu
+> Subject: help
+> X-Extropian-Date: Remailed on July 16, 373 P.N.O. [00:51:01 UTC]
+> X-Message-Number: #0219
+> Reply-To: Extropians@gnu.ai.mit.edu
+> Errors-To: extropians-request@gnu.ai.mit.edu
+> Status: O
+> 
+> ::help index
+> ::help stat
+> ::help reset
+> ::help notify
+> ::help quiet
+> ::help verbose
+> ::help resend
+> ::help list
+> 
+
+------------------------------
+
+Date: Fri, 16 Jul 1993 13:59:47 -0700
+From: dkrieger@synopsys.com (Dave Krieger)
+Subject: Metaprogramming experiments
+
+Ray, Mark -- 
+
+Thanks for your replies to my message; I want to address the points both of
+you raise, but I had a migraine this morning and my neural net is still
+somewhat randomized.  Rather than pollute the list with posts of less than
+sterling quality, I'm going to wait and reply tomorrow.
+
+I didn't mean to undermine Harry's authority with regard to
+relvant/irrelevant topics; I sent off my reply to Mark's post before I saw
+the post announcing the moratorium.  I do, however, think that this is a
+very important topic, not only in its own right but also due to the recent
+meta-flap regarding you-know-what and its relevance to Extropian
+discussion.  We have to clearly delineate what aspects of metaprogramming
+_are_ extropically relevant, or we'll end up shutting off discussion of
+technologies that (in my experience, at least) have real
+self-transformational benefit.
+
+I am working on an article for EXTROPY (with the notion of turning it into
+a mass-market book later on) on a completely different body of
+self-metaprogramming techniques (one might call them rituals, I guess) that
+I have been developing recently which require no belief in anything except
+Minsky's "Society of Mind" hypothesis and Skinnerian conditioning.  I will
+probably bounce a preliminary draft off of this list (or maybe Exi-Essay).
+
+Peace and long life.
+                                        dV/dt
+
+
+------------------------------
+
+Date: Fri, 16 Jul 1993 17:01:59 -0400 (EDT)
+From: Edward J OConnell <ejo@world.std.com>
+Subject: What are big upcoming problems? 
+
+I worry a lot, about almost everything mentioned on the list; but I'm
+only barely Extropian.  I want to live forever, basically, and I'm
+pretty smart, and I like technology. Should I mention my SATs?;-) But I
+feel that many of the things on the list will challenge the structure
+of the free market, and possibly, in some scenarios, render it quite
+different in character. I've posted my thoughts on this in a series of
+essays about 'post scarcity' that most people thought were Marxist
+crap, exposing as they did my lack of economic sophistication.
+
+So be it.
+
+Since reading a lot of Dawkins, trying to read MOF, and a few other EC
+texts, my beliefs have mellowed somewhat.  (Anarchocapitalism now has a
+place in my utopia; as well as a kind of consenting
+socialism--ultimately, I'd like to see competition in living styles and
+voting with ones feet...and yes, I'd like to move to Denmark, and give
+50% taxation a try...) As an aside, I find it amusing that I spend most
+of my time struggling to break into the SF market, writing like a
+demon, to be cast down and filtered by the marketplace; while most
+Extropians write for the simple joy of expression in this digital
+commons.  I send my stories only to places that pay. I shun the pay in
+copies markets, and the APAs.
+
+Maybe this is the reason I've got the bug up my ass about the market.
+;-)
+
+(I've got another sale to Aboriginal SF in the works, if anyone cares.
+Ryan, the editor, describes himself as a Libertarian in a recent
+editorial...)
+
+Extropianism's belief in spontaneous order means that there will be no
+problems, ultimately, when each local crisis is viewed from the proper
+perspective. This includes our own personal deaths, once replaced by
+superior AIs, the complete destruction, er, recycling let us say, of
+the entire biosphere by grey goo manipulators, etc. From the proper
+perspective, all is evolutionary. There is no wrong, as there are no
+'rights.'
+
+However, let us descend to the ugly short term reality. This is where
+the good stories are. We don't really care about immortal, diamond
+superbrained robots, because we *aren't* them, yet. Fiction is about
+the knowable. This is the reason no transcendence is allowed in the
+Star Trek universe...
+
+I worry tremendously about the robot/jobs thing. I've been told on this
+list that this isn't a problem; that we're seeing local effects here;
+that the manufacturing class getting roboted out of jobs is an
+illusion--that more jobs are always created. The EC/Conservative
+position is simply that people expect too much money/too high a
+lifestyle, have a government/union to back up their pig headed belief,
+and we're all made poorer by their unskilled greedy willingness,
+supported by the welfare state, to not work. Get rid of unions and the
+minimum wage, and we'll get that manufacturing back. Robots create jobs
+building and maintaining robots. Machine culture creates endless
+information/service/entertainment opportunities, and with The Gov. Off
+Our Backs, everything will be fine. People are protean; they work to
+live; they figure out what to do in an environment and survive. The
+minority that can't aren't worth worrying about... (is this what you
+guys think? Its the best I  can paraphrase, anyway...)
+
+I on the other hand, think that there will be massive problems with an
+unemployed/unemployable underclass that swamps the abilities of even
+the most dedicated prison building programs. SF sees, in these futures,
+policed zones, areas in which those with wealth live, and work, and
+lawless expanses in between. Private law, for those who can afford it.
+
+I have a story in which private factory prisons become popular, that
+use some sort of control system on humans, (a chip in the brain) which
+transforms them into industrial robots. Flesh is better than the robots
+we have now right? Self repairing. Good visual/perceptual systems, all
+that stuff Moravec learned the hard way... The only problems with human
+as robot is the human tendency to get bored and demand more money and
+time off. These chipped workers don't have this problem.
+
+So, the problem is solved! The underclass as *uncomplaining* industrial
+robot. Middle and upper class jailers/info techs/managers. AIs/expert
+systems gradually replace them too, and those less talented souls find
+themselves chipped up in prison, doing time on loitering charges...
+ahh, a ghastly polemic. It embarrasses even I! I was pissed off when I
+wrote it.
+
+Uploading and autotorture I've written stories on this too.  Lets say
+you can write pretty good code, or whatever, something valuable done
+intellectually in private, but you don't *like* doing it very much.
+Lets say uploading is cheap and easy. So, zerox up a whole dungeon of
+yourself, put them in digital chains, and set them cracking. If your
+consciousness is your property, this autoslavery will create no
+problem. But...
+
+One can imagine a few such dedicated souls pretty much becoming single
+person corporations, and dominating the market. These upload slaves
+work for the electrons it takes to tickle their pain and pleasure
+centers. (The torture could simply be tasping--the slaves may *like*
+being enslaved.) Basically they work for free. How could free, (read
+people with corporeal wants and needs) individuals hope to compete?
+Talk about cheap immigrant labor!
+
+One way around this would be to deny that consciousness is property,
+and evolve cultural memes that stamp this out whenever it happens. Is
+this not EC? Probably. Slavery is a difficult issue here. Coercion is
+wrong; but what about coercing oneself? Don't we HATE people trying to
+save other people from themselves?  I usually do.
+
+Here I'll make an exception.
+
+Liberators/bounty hunters find and stamp out these
+auto-slavery-plantations; all uploads are embodied, or freed into the
+net, and given their fair share of the profits...but what if there are
+TOO DAMN MANY? How about a process that squeezes a lot of parallel
+identities into a single organism with a longer internal memory. (all
+life experiences are stacked side by side; instead of being a thousand
+copies of me, I'm one copy, with the memory of a thousand lifetimes...)
+Hmmmm. Interesting idea. I've never had this thought.
+
+So this post is worthwhile! For me anyway.  Hope it amused some others.
+
+Jay
+
+PS Now working on a rationality agent story set in a more or less
+anarchocapitalist future; take off on the Philip Marlow thing.  Hope it
+sells. Then I'll know its good!
+
+
+
+
+------------------------------
+
+Date: Fri, 16 Jul 1993 19:11:25 -0400 (EDT)
+From: Carol Moore <cmoore@cap.gwu.edu>
+Subject: PHIL: Free will?
+
+On Thu, 15 Jul 1993, Mike Wiik wrote:
+
+> > FYI-- In philosophy the view that free will
+> > is inherent in all reality is called..."libertarianism".
+>  
+> Ok, but a philosophy is still a belief. I want cold hard facts.
+> And I'm working on it :)
+> 
+
+But even all those "cold hard facts" of quantum physics
+are subject to a variety of interpretations: realism, idealism,
+many worlds, holographic universe, etc etc.  In there end
+we may have to rely on philosophy.
+
+
+
+
+
+(-:  cmoore@cap.gwu.edu  :-)
+
+
+
+
+------------------------------
+
+Date: Fri, 16 Jul 93 19:27:34 EDT
+From: eisrael@suneast.east.sun.com (Elias Israel - SunSelect Engineering)
+Subject: Metaprogramming experiments: I was conditioned to respond in this manner...
+
+Dave Krieger writes:
+> I am working on an article for EXTROPY (with the notion of turning it into
+> a mass-market book later on) on a completely different body of
+> self-metaprogramming techniques (one might call them rituals, I guess) that
+> I have been developing recently which require no belief in anything except
+> Minsky's "Society of Mind" hypothesis and Skinnerian conditioning.  I will
+> probably bounce a preliminary draft off of this list (or maybe Exi-Essay).
+
+Yuck!
+
+I'm sure your article will be great, but frankly, I'd much rather imagine
+I'm chanelling just about any mystic figure you could name than pollute my
+brain with anything from The Flenser.
+
+Elias Israel
+eisrael@east.sun.com
+HEx Symbol: E
+
+------------------------------
+
+Date: Wed, 16 Jun 93 15:38:41 PDT
+From: "Mark W. McFadden" <mwm@wwtc.timeplex.com>
+Subject: sell mwm 100 20
+
+______________________________________________________________________
+   Mark W. McFadden                |     Been there.....done that.
+   mwm@wwtc.timeplex.com           |
+___________________________________|__________________________________
+
+------------------------------
+
+Date: Fri, 16 Jul 1993 18:35:52 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: Forward/Vegan: ADA Position Paper
+
+a conscious being, Ferrell S. Wheeler wrote:
+>From veggie@gibbs.oit.unc.edu Fri Jul 16 14:29:21 1993
+Date: Fri, 16 Jul 93 18:29:21 -0400
+Message-Id: <9307162228.AA09023@super.super.org>
+Errors-To: crunchy@gibbs.oit.unc.edu
+Reply-To: wheeler@super.org
+Originator: veggie@gibbs.oit.unc.edu
+Sender: veggie@gibbs.oit.unc.edu
+Precedence: bulk
+From: wheeler@super.org (Ferrell S. Wheeler)
+To: Multiple recipients of list <veggie@gibbs.oit.unc.edu>
+Subject: ADA Position Paper
+X-Listserver-Version: 6.0 -- UNIX ListServer by Anastasios Kotsikonas
+
+
+
+Position of the American Dietetic Association:
+Vegetarian Diets -- technical support paper
+ 
+Authors:  Suzanne Havala, R.D. and Johanna Dwyer, D.SC., R.D.
+Reviewers:  Phyllis Acosta, Dr. P.H., R.D.;  George Eisman, R.D.;
+            Alice Marsh, R.D.;  Connie Metcalf, R.D.;
+            Patricia Mutch, Ph.D., R.D.;  U. D. Register, Ph.D., R.D.
+            Kathleen Zolber, Ph.D., R.D.
+From:  Journal of the American Dietetic Association, March, 1988,
+       Volume 88, Number 3, pp. 352-355.
+ 
+ 
+    The attention focused today on personal health habits is unprecedented,
+as more and more Americans adopt health-promoting life-styles that include
+alterations in diet and exercise patterns.  Simultaneously, there has
+been a marked rise in interest in vegetarian diets.  A considerable body
+of scientific data suggests positive relationships between vegetarian
+life-styles and risk reduction for several chronic degenerative diseases
+and conditions, such as obesity, coronary artery disease, hypertension,
+diabetes mellitus, colon cancer, and others.  The high incidence of such
+diseases in industrialized nations, as compared with other cultures,
+warrants special attention to diet and other factors in life-styles that
+may vary between vegetarians and nonvegetarians.
+ 
+   It is the position of The American Dietetic Association that
+   vegetarian diets are healthful and nutritionally adequate
+   when appropriately planned.
+ 
+    Both vegetarian and nonvegetarian diets have the potential to be either
+beneficial or detrimental to health.  Sound nutrition planning may result
+in risk reduction and control of some diseases and conditions by dietary
+measures, whereas poorly planned or haphazard diets increase the likelihood
+of diet-related disorders of deficiency or excess.  However, in addition
+to the possible health benefits of some vegetarian diets, consideration
+may also be given to ecological, economical, and philosophical or ethical
+reasons for adopting such a diet.  It may be easier, as well as more
+acceptable, for some individuals to meet the Dietary Guidelines for
+Americans by following a vegetarian diet rather than a nonvegetarian diet
+(1).
+ 
+VEGETARIANISM IN PERSPECTIVE
+    There is no single vegetarian eating pattern.  From the standpoint of
+nutritional health, vegetarian diets are distinguished from one another by
+(a) the extent to which the foods included vary, (b) the degree to which
+the diets are planned to correspond to the findings of nutritional sciences,
+and (c) the health attitudes and practices that are associated with the
+diets.
+ 
+    Vegetarian diets differ in the extent to which they avoid animal products.
+Veganism, or total vegetarianism, completely excludes meat, fish, fowl,
+eggs, and dairy products.  Lacto-vegetarianism is the avoidance of meat,
+fish, fowl and eggs, whereas ovo-lacto-vegetarianism involves avoidance of
+only meat, fish, or fowl.  Semi-vegetarian patterns allow limited amounts
+of most animal foods.
+ 
+    In addition to proscriptions on animal foods, some vegetarian diets
+also incorporate restrictions on other foods and beverages, such as honey,
+alcohol, caffeinated beverages, highly processed foods, and foods that
+are grown or processed nonorganically or with certain additives and
+preservatives.	Finally, some patterns include the addition of special
+foods or practices that are thought to have unique health promotive or
+curative properties.  Included are vitamin-mineral supplements, dietary
+fiber and essential fatty acid supplements, health foods, herbal teas,
+and practices such as periodic fasting.
+ 
+    Since vegetarianism is a term that encompasses such a wide variety
+of eating patterns, nutrition assessment of such diets is difficult
+without information about specific food avoidances and health-related
+attitudes and practices.  The differences may have a significant impact
+on nutritional status (2).
+ 
+    Studies of vegetarians indicate that this population generally has lower
+mortality rates from several chronic degenerative diseases than do non-
+vegetarians.  It is likely that the effects are due not to diet alone but
+also to a healthy life-style, including desirable weight, regular physical
+activity, and abstinence from smoking, alcohol, and illicit drugs, with
+adequate health monitoring (3-6).
+ 
+    Even though the health benefits of a vegetarian diet make it attractive
+from a nutrition standpoint, this does not preclude the possibility of
+obtaining similar health benefits from a prudent nonvegetarian diet if
+it can be planned in accordance with the Dietary Guidelines for Americans.
+However, in addition to health aspects, considerations that may lead to
+the adoption of a vegetarian diet include:  ecological implications of
+eating low on the food chain with regard to preservation of the environ-
+ment or for the perceived solution to world hunger problems by decreasing
+the demand on the world's food resources; economic reasons, since diets
+low in animal proteins are typically less expensive than meat-based
+diets; and philosophical or ethical reasons, which include animal rights
+issues and attitudes toward violence.  Still other individuals
+are motivated by religious beliefs.
+ 
+IMPLICATIONS FOR HEALTH PROMOTION
+    Mortality from coronary artery disease is lower in vegetarians than in
+nonvegetarians (7,8).  Total serum cholesterol and LDL cholesterol levels
+are usually lower, while HDL cholesterol and triglyceride levels vary
+depending on the type of vegetarian diet that is followed (9-12).
+Vegetarian diets that are typically very low in fat and cholesterol may
+decrease levels of apoproteins A, B, and E (12).  Platelet composition
+and possible platelet functions may very, and plasma viscosity may be
+decreased (13).  Such effects may be attributed to the vegetarian's
+lower intake of total fat, saturated fat, and cholesterol, along with
+lower weight, increased physical activity, and abstinence from smoking (10,
+14,15).  Vegetarians generally have lower blood pressures and lower rates
+of Type II diabetes than do nonvegetarians, which may decrease the risk
+of coronary artery disease in the vegetarian population.
+ 
+    Vegetarians of the Seventh-Day Adventist faith have lower rates of
+mortality from colon cancer than does the general population (4).  That
+may be due to dietary differences which include increased fiber intake,
+decreased intake of total fat, cholesterol, and caffeine, increased
+intakes of fruits and vegetables, and, in lacto-vegetarians, increased
+intake of calcium (16).  Although it is still speculative, the dietary
+differences, especially in vegans, may produce physiological changes
+that may inhibit the causal chain for colon cancer (16,17).  Lung cancer
+rates are lower in many types of vegetarians because they typically do
+not smoke or, possibly, because of their increased intake of beta carotene
+or other constituents of fruits and vegetables that may also lower lung
+cancer risk (18).  Preliminary evidence suggests that vegetarians may be
+at lower risk for breast cancer, but further study is indicated (19).
+ 
+    Obesity is a complicating condition exacerbating many diseases.
+Vegetarians, especially vegans, have weights that are closer to desirable
+weights than do nonvegetarians (20).  Several factors may be involved,
+including moderation in energy intakes, increased physical activity, and
+better regulation of food intake.  The high-carbohydrate, low-fat vegetarian
+diet, in combination with exercise, may decrease the risk of obesity (21).
+ 
+    Vegetarians are at lower risk for noninsulin-dependent diabetes, partly
+because they are leaner than nonvegetarians (22,23).  The vegetarians'
+high intake of complex carbohydrates, with its relatively high fiber content,
+improves carbohydrate metabolism, lowering basal glucose levels (24,25).
+ 
+    Finally, vegetarians have lower rates of osteoporosis, kidney stones,
+gallstones, and diverticular disease (29-31).  Studies documenting these
+benefits, however, are inconclusive at this time, and reasons may be
+related to aspects of life-style other than diet.
+ 
+    Vegetarians have lower rates of hypertension than do nonvegetarians,
+which may be due to vegetarians' relative leanness (26,27).  Other aspects
+of life-style may also be involved (28), such as dietary habits, increased
+physical activity, and abstinence from smoking.
+ 
+NUTRITION CONSIDERATIONS
+    The body's need for essential amino acids can be met by consumption
+of animal or plant sources of protein since, after absorption, amino
+acids from exogenous and endogenous sources combine in the body's
+protein pool (32).  Plant foods contain less of the essential amino
+acids than do equivalent quantities of animal food, but a plant-based
+diet provides adequate amounts of amino acids when a varied diet is
+consumed on a daily basis.  A mixture of proteins from unrefined grains,
+legumes, seeds, nuts, and vegetables will complement one another in
+their amino acid profiles so that deficits in one are made up by another.
+ 
+    Intakes of different types of protein that complement one another should
+be eaten over the course of the day.  However, since endogenous sources of
+amino acids are also available, it is not necessary that complementation of
+amino acid profiles be precise and at exactly the same meal, as the
+recently popular "combined protein theory" suggested.  This theory urged
+conscious combining of proteins at every meal with the caveat that
+malnutrition would ensue if this was not done within a strict time
+interval (33).
+ 
+    Although vegetarian diets usually meet or exceed requirements for
+protein, they typically provide less protein than nonvegetarian diets.
+This lower protein intake may be beneficial, however, and may be
+associated with a lower risk of osteoporosis in vegetarians and improved
+kidney function in individuals with prior kidney damage (34,35).  Further,
+a lower protein intake generally translates into a lower fat diet with its
+inherent advantages, since foods high in protein are frequently also high
+in fat.
+ 
+    Plant carbohydrates are accompanied by liberal amounts of dietary fiber,
+which has been shown to be important in the prevention and treatment of
+disease.  Foods derived from animal sources contain no fiber.  Complex
+carbohydrates from plants also improve glucose tolerance, as previously
+noted.
+ 
+    Vegetarian diets that are low in animal foods are typically lower
+than nonvegetarian diets in total fat, saturated fat, and cholesterol, an
+important factor in risk reduction for heart disease and some forms of
+cancer.  The ratio of polyunsaturated and monounsaturated fats to
+saturated fats is also more favorable in a largely plant-based diet.
+ 
+    Vegetarians and nonvegetarians alike may have difficulty meeting
+recommendations for iron.  Absorption of dietary iron is enhanced by
+concurrent consumption of ascorbic acid or animal foods; it is inhibited
+by the intake of tea, fiber, and phytates (36).  Western vegetarians
+generally have better iron status than those in developing countries.
+The former have a relatively high intake of iron from plant foods,
+such as dark green leafy vegetables, iron-fortified cereals, and whole
+grains.  They may take supplements of ascorbic acid or iron and have
+a greater intake of ascorbic acid from plant foods.  In contrast,
+vegetarians in developing countries consume less ascorbic acid and
+animal protein, rely on low-iron food staples, and consume more fiber
+and tea than do Westerners (37).
+ 
+    The requirement for vitamin B-12 is minute, but there is no vitamin
+B-12 in anything that grows from the soil.  It is, however, contained
+in all animal foods; hence, a diet that includes animal foods, such as
+dairy products, is unlikely to be deficient in vitamin B-12.  Bacteria
+produce vitamin B-12 in the human gut, but it appears to be produced
+beyond the ileum, the site of absorption in the intestine.  Ninety-five
+percent of what is produced is actually inactive vitamin B-12 analogs.
+The need for vitamin B-12 is very small, and lack of intrinsic factor
+is a more common cause of vitamin B-12 deficiency than lack of vitamin
+B-12 in the diet.
+ 
+    Nevertheless, adequate vitamin B-12 intake is a legitimate concern
+for Western vegans.  In countries where sanitary conditions are poor,
+contamination of foods with microbes and organisms that produce the
+vitamin may contribute all that is needed.  In Western countries,
+however, where sanitary practices are better, the risk of vitamin
+B-12 deficiency is greater.  Vegans must include a reliable source of
+vitamin B-12 in their diets or be at risk of eventually developing a
+deficiency.
+ 
+    However, food labeling of vitamin B-12 can be misleading.  The vitamin
+B-12 content of most foods in the United States has been determined by
+use of a microbiological assay which measures not only physiologically
+active forms of vitamin B-12 for human subjects but also inactive vitamin
+B-12 analogs.  By microbiological assay, as much as 80% to 94% of the so-
+called vitamin B-12 in fermented plant foods, such as tempeh, and in other
+plant foods may be inactive vitamin B-12 analogs.
+ 
+    Some of the of vitamin B-12 analogs also compete with active
+forms of vitamin B-12 for absorption.  Thus, vegans should supplement
+their diets with a source of vitamin B-12 such as a cobalamin supplement
+or select appropriately fortified foods that meet the Recommended Dietary
+Allowances to ensure an adequate intake of the active form of the nutrient.
+Further research on vitamin B-12 is needed, as there is a great deal that
+is not clearly understood regarding available sources of vitamin B-12 for
+vegans.
+ 
+    Calcium absorption appears to be inhibited by such plant consti-
+tuents as phytic acid, oxalic acid, and fiber, but this effect may not be
+significant.  Calcium deficiency in vegetarians is rare, and there is
+little evidence to show that low intakes of calcium give rise to major
+health problems among the vegetarian population.  One recent study has
+shown that vegetarians absorb and retain more calcium from foods than do
+nonvegetarians (38).  Other studies cite lower rates of osteoporosis in
+vegetarians than in nonvegetarians (29).
+ 
+    Reliance on sunshine alone, particularly in northern climates or in
+cultures where most of the body is concealed in clothing, may not
+provide all the vitamin D needed to protect children against rickets
+(39).  For those who do not use vitamin D-fortified milk products, a
+vitamin D supplement may be necessary, especially for dark-skinned
+individuals and for infants whose only source of vitamin D is breast
+milk after 4 to 6 months of age.
+ 
+GROUPS WITH SPECIAL NEEDS
+    Those whose nutrient needs are especially high because of growth,
+lactation, or recovery from illness will find it especially helpful to consult
+a registered dietitian or other qualified nutrition professional for expert
+help in diet planning.	Infants and children who consume well-planned
+vegetarian diets including milk products or eggs can generally meet all
+of their nutritional requirements for growth.  Those who follow vegan or
+vegan-like diets which include no animal products can be healthy, but more
+care must be taken to ensure adequacy.	Vitamin D and iron supplements, in
+addition to vitamin B-12 at levels sufficient to meet the Recommended
+Dietary Allowances, may need to be provided (40).
+ 
+     ================================================================
+     Vegetarians are at lower risk for noninsulin-dependent diabetes
+     and have lower rates of hypertension, osteoporosis, kidney
+     stones, gallstones, and diverticular disease than nonvegetarians
+     ----------------------------------------------------------------
+ 
+    Vegan diets tend to be high in bulk, which makes it more challenging to
+meet energy needs, especially for infants, children and adolescents (41).
+Further, care must be taken to obtain enough vitamins D and B-12.  A
+properly fortified soy product may be helpful.	Both vegetarians and
+nonvegetarians whose infants are premature or are breast fed exclusively
+beyond 4 to 6 months of age should provide supplements of vitamin D and
+iron from birth or at least by 4 to 6 months, as medical guidance suggests.
+The guidelines of the American Academy of Pediatrics for supplementation
+of infants are helpful (42).
+ 
+    Well-planned vegetarian diets are adequate for pregnant and lactating
+women.	With both vegetarian and nonvegetarian diets, iron and folate
+supplements are usually necessary during pregnancy, although vegetarians
+frequently have greater intakes of those nutrients than do nonvegetarians.
+ 
+MEAL PLANNING
+    In planning vegetarian diets of any type, one should choose a wide variety
+of foods, which may include fruits, vegetables, whole grain food products,
+nuts, seeds, legumes, low-fat dairy products or fortified soy substitutes,
+and a limited number of eggs.  Additionally, the following recommendations
+are made (43,44):
+ 
+* Keep the intake of low nutrient-dense foods, such as sweets and fatty
+  foods, to a minimum
+* Choose whole or unrefined grain products whenever possible, instead of
+  refined products.
+* Use a variety of fruits and vegetables, including a good food source
+  of vitamin C to enhance iron absorption.
+* If milk products are consumed, use low-fat varieties.
+* Limit intake of eggs to two to three yolks per week to ensure
+  that cholesterol intakes are not excessive.
+* For vegans, use a properly fortified food source of vitamin B-12, such
+  as fortified soy milks or breakfast cereals, or take a cobalamin
+  supplement.
+* For infants and children, ensure adequate intakes of iron, vitamin D,
+  and energy.
+* Consult a registered dietitian or other qualified nutrition professional.
+ 
+    The Dietary Guidelines for Americans recommend a reduction in fat intake
+and an increased consumption of fruits and vegetables, and whole grains.
+Well-planned vegetarian diets effectively meet these guidelines and the
+Recommended Dietary Allowances and can be confidently embraced as a healthy
+dietary alternative.  However, vegetarians, particularly total vegetarians,
+living in a nonvegetarian society such as the United States, must be
+aware that foods most readily available in this culture may not be those
+which are most appropriate for their eating patterns; thus, vegetarians
+must pay special attention to ensuring nutrient adequacy.  Additionally,
+both vegetarians and nonvegetarians must obtain adequate health monitoring
+throughout the life cycle.
+ 
+REFERENCES
+ 
+ (1) Calson, E., Kipps, M., Lockie, a., and Thomson, J.:  A comparative eval-
+     uation of vegan, vegetarian and omnivore diets.  J Plant Foods 6:89, 1985.
+ (2) Dwyer, J. T.:  1983 Nutrition status and alternative lifestyle diets
+     with special reference to vegetarianism in the USA. In Reichaig, M., ed.:
+     CRC Handbook of Nutritional Supplements. Vol. 1. Human Use. Boca Raton,
+     FL: CRC Press, 1983, pp. 343-410.
+ (3) Kahn, R. H., Phillips, R. L., Snowdon, D. A., and Choi, W.:  Association
+     between reported diet and all cause mortality: Twenty-one year follow
+     up on 27,530 adult Seventh Day Adventists.  Am J Epidemiol  119:775, 1984.
+ (4) Phillips, R.L., Garfinkel, L., Kuzma, J.W., Beeson, W.L., Lotz, T.,
+     and Brian,B.: Mortality among California Seventh Day Adventists for
+     selected cancer sites.  J Nat Cancer Inst 65:1097, 1980.
+ (5) The diet and all causes death rate in the Seven Countries study.
+     Lancet 2:58, 1981.
+ (6) Kromhout, D., Bosschieter, E.B., and de Lezenne Coulander, C.:  Dietary
+     fiber and 10 year mortality from coronary heart disease, cancer, and
+     all causes.  Lancet 2:518, 1982.
+ (7) Burr, M.L., and Sweetnam, P.M.:  Vegetarianism, dietary fiber, and
+     mortality.  Am J Clin Nutr 36:873, 1982.
+ (8) Phillips, R.L., Kuzma, J.W., Beeson, W.L., and Lotz, T.:  Influence of
+     selection versus lifestyle on risk of fatal cancer and cardiovascular
+     disease among Seventh Day Adventists.  Am j Epidemiol  112:296, 1980.
+ (9) Sacks, F.M., Ornish, D., Rosner, B., McLanahan, S., Castelli, W.P.,
+     and Kass, E.H.: Plasma lipoproteins in vegetarians:  The effect of
+     intake of dietary fat.  JAMA 254:1337, 1985.
+(10) Knuiman, J.T., and West, C.E.:  The concentration of cholesterol in
+     serum and in various serum lipoproteins in macrobiotic, vegetarian,
+     and nonvegetarian men and boys.  Atherosclerosis 43:71, 1982.
+(11) Masarei, J.R.L., Rouse, I.L., Lynch, W.J., Robertson, K., Vandongen, R.,
+     and Beilin, L.J.:  Effects of a lactoovovegetarian diet on serum
+     concentrations of cholesterol, triglyceride, HDL-C, HDL-2-C,
+     HDL-3-C, apoprotein B, and Lp(a). Am J Clin Nutr 40:468, 1984.
+(12) Cooper, R.S., Goldberge, R.B., Trevisan, M., Tsong, Y., Liu, K.,
+     Stamler, J., Rubenstein, A., and Scanu, A.M.:  The selective lipid
+     lowering effect of vegetarianism on low density lipoproteins in
+     a crossover experiment. Atherosclerosis 44:293, 1982.
+(13) Fisher, M., Levine, P.H., Weiner, B., Ockens, I.S., Johnson, B.,
+     Johnson, M.H., Natale, A.M., Vaudreuil, C.H., and Hoogasian, J.:  The
+     effect of vegetarian diets on plasma lipid and platelet levels.
+     Arch Intern Med 146:1193, 1986.
+(14) Sacks, F.M., Miller, L., Sutherland, M., Albers, J.J., Salazar, J., Foster,
+     J.M., Samonds, K.W., and Kass, E.H.: Ingestion of egg raises plasma
+     low density lipoproteins in free living subjects. Lancet 1:647, 1984.
+(15) Renoud, S., Godsey, F., Dumont, E., Thevonen, C., Ortchanian, E., and
+     Martin, J.L.: Influence on longterm diet modification on platelet function
+     and composition on Moselle farmers. Am J Clin Nutr 43:136, 1986.
+(16) Turjiman, N., Goodman, G.T., Jaeger, B., and Nair, P.P.: Diet, nutrition
+     intake and metabolism in populations at high and low risk for colon
+     cancer: Metabolism of bile acids.  Am J Clin Nutr 4:937, 1984.
+(17) Adlercreutz, H.: Does fiber rich food containing animal lignan
+     precursors protect against both colon and breast cancer?  An
+     extension of the fiber hypothesis. Gastroenterology 86:761, 1984.
+(18) Golditz, G.Z., Stampfer, M.J., and Willett, W.C.: Diet and lung cancer:
+     A review of the epidemiological evidence in humans.
+     Arch Intern Med 147:157, 1987.
+(19) Goldin, B.R.: The metabolism of the intestinal microflora and its
+     relationship to dietary fat, colon and breast cancer. In Ip, C., Birt, D.,
+     Rogers, A., and Mettlin, C., eds.: Dietary Fat and Cancer.
+     New York: Alan R. Liss, 1986.
+(20) Bergan, J.G., and Brown, P.T.: Nutritional status of "new" vegetarians.
+     J Am Diet Assoc 76:151, 1980.
+(21) Bray, G.A.: Obesity: A disease of nutrient or energy balance?
+     Nutr Rev 45:33, 1987.
+(22) West, K.M., and Kalbfleisch, J.M.: Glucose tolerance, nutrition,
+     and diabetes in Uruguay, Venezuela, Malaya, and East Pakistan.
+     Diabetes 15:9, 1966.
+(23) West, K.M., and Kalbfleisch, J.M.: Influence of nutritional factors on
+     prevalence of diabetes. Diabetes 20:99, 1971.
+(24) Stevens, J., Burgess, M.B., Kaiser, D.L., and Sheppa, C.M.: Outpatient
+     management of diabetes mellitus with patient education to increase
+     dietary carbohydrate and fiber. Diabetes Care 8:359, 1985.
+(25) Munoz, J.M.: Fiber and diabetes. Diabetes Care 7:297, 1984.
+(26) Page, L.B.: Hypertension and atherosclerosis in primitive and
+     acculturating societies.  In Hunt, J.C., ed.: Hypertension Update.
+     Bloomfield, NH: Health Learning Systems, 1980.
+(27) Reisin, E., Abel, R., Modan, M., Silverber, D., Eliahou, H., and Modan, B.:
+     Effect of weight loss without salt restriction on the reduction of blood
+     pressure in overweight hypertensive patients. N Engl J Med 298:1, 1978.
+(28) Rouse, I.L., Beilin, L.J., Armstrong, B.K., and Vandongen, R.: Vegetarian
+     diet, blood pressure, and cardiovascular risk.  Aust NZ J Med 14:439, 1984.
+(29) Marsh, A.G., Sanchez, T.V., Mickelsen, O., Keiser, J., and Mayor, G.:
+     Cortical bone density of adult lactoovovegetarians and omnivorous
+     women. J Am Diet Assoc 76:148, 1980.
+(30) Pixley, F., Wilson, D., McPherson, K., and Mann, J.: Effect of veget-
+     arianism on development of gallstones in women. Br Med J 291:11, 1985.
+(31) Gear, J.S., Ware, A., Fursdon, P., Mann, J.I., Nolan, D.J., Brodribb, A.J.,
+     and Vessey, M.P.: Symptomless diverticular disease and intake of
+     dietary fiber.  Lancet 1:511, 1979.
+(32) Scrimshaw, N.S.: Nature of protein requirements.
+     J Am Diet Assoc 54:94, 1969.
+(33) Hardinge, M.G., Crooks, H., and Stare, F.J.: Nutritional studies of
+     vegetarians: 5. Proteins and essential amino acids.
+     J Am Diet Assoc 48:25, 1966.
+(34) Osteoporosis Consensus Conference. National Institutes of Health,
+     Bethesda, MD, 1984.
+(35) El Nahas, A.M., and Coles, G.A.: Dietary treatment of chronic renal
+     failure: Ten unanswered questions. Lancet 1:597, 1986.
+(36) International Nutritional Anemia Consultative Group.  The Effects
+     of Cereals and Legumes on Iron Availability. Washington, DC:
+     Nutrition Foundation, 1982.
+(37) Sanders, T.A.B.: Vegetarianism: Dietetic and medical aspects.
+     J Plant Foods 5:3, 1983.
+(38) Nnakwe, N., and Kies, C.: Calcium and phosphorus utilization by
+     omnivores and lactoovovegetarians fed laboratory controlled
+     lactovegetarian diets.  Nutr Rep Int 31:1009, 1985.
+(39) Curtis, J.A., Kooh, S.W., Fraser, D., and Greenberg, M.L.: Nutritional
+     rickets in vegetarian children. Can Med Assoc J 128:150, 1983.
+(40) Vyhmeister, I.B., Register, U.D., and Sonnenberg, L.M.: Safe vegetarian
+     diets for children. Pediatr Clin North Am 24:203, 1977.
+(41) Truesdell, D.D., and Acosta, P.B.: Feeding the vegan infant and child.
+     J Am Diet Assoc 85:837, 1985.
+(42) Committee on Nutrition, American Academy of Pediatrics: Vitamin
+     and mineral supplement needs in normal children in the United States.
+     Pediatrics 66:1015, 1980.
+(43) American Dietetic Association: Position paper on the vegetarian
+     approach to eating. J Am Diet Assoc 77:61, 1980.
+(44) Register, U.D., and Crooks, H.: Nutritionally adequate vegetarian diets.
+     In Reichaig, M., ed.: CRC Handbook of Nutritional Supplements, Vol 1.
+     Human Use. Boca Raton, FL: CRC Press, 1980.
+
+
+
+
+-- 
+Harry S. Hawk  				      habs@panix.com
+Electronic Communications Officer, Extropy Institute Inc.
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0394
+****************************************
+

@@ -1,0 +1,896 @@
+From extropians-request@extropy.org Tue Oct 26 06:15:15 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA10000; Tue, 26 Oct 93 06:15:13 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA11859; Tue, 26 Oct 93 06:15:08 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA29753
+  (5.65c/IDA-1.4.4 for more@usc.edu); Tue, 26 Oct 1993 09:06:33 -0400
+Date: Tue, 26 Oct 1993 09:06:33 -0400
+Message-Id: <199310261306.AA29753@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: October 26, 373 P.N.O. [13:06:20 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Tue, 26 Oct 93             Volume 93 : Issue 298
+
+Today's Topics:
+                               "Alien" message                        [1 msgs]
+                                Alien Message                         [1 msgs]
+                 BIO: Researcher clone human embryos article          [3 msgs]
+                                   Beating                            [1 msgs]
+                           Beating the Stock Market                   [1 msgs]
+                          Beating the Stock Market?                   [3 msgs]
+                            EXTROPIAN CORRECTNESS                     [1 msgs]
+                   KIDS/POLI: "Emancipated Minor" status ?            [1 msgs]
+                            Nightly Market Report                     [1 msgs]
+                              OFFSHORE ACCOUNTS                       [1 msgs]
+                                 PPL: Custody                         [1 msgs]
+                   PPL:judgement proof considered harmful?            [1 msgs]
+                    Party: I'm having a party (Jan 8 1994)            [1 msgs]
+                             Recent OS discussion                     [1 msgs]
+       just when you thought you were the strangest guy on the block...[1 msgs]
+                         the omniscient logician, not                 [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51216 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 24 Oct 93 08:50:01 PDT
+From: edgar@spectrx.saigon.com (Edgar W. Swank)
+Subject: "Alien" message
+
+Dave Krieger posted (#93-10-561):
+
+  >From: cpresson@jido.b30.ingr.com (Craig Presson)
+  >Subject: Question: Seasonal Affective Disorder
+  >X-Extropian-Date: Remailed on October 13, 373 P.N.O. [14:39:10 UTC]
+  >X-Message-Number: #93-10-540
+  >
+  >In <01H42ZN9X4W2003SFA@pitvax.xx.rmit.edu.au>, PATRICK WILKEN writes:
+  >|> V2hhdCBmb2xsb3dzIGlzIGZyb20gbWVtb3J5IHNvIHlvdSBzaG91bGQgdGFrZSBp
+  >|> dCB3aXRoIGEgcGluY2ggb2Ygc2FsdCB1bnRpbCANCml0IGlzIGNvbmZpcm1lZCBm
+  >
+  >Oh yeah? Well, WKNKNQ WEEYYWV@gv2hv2h27 7gYGW&G&@2uyvb3e! yomama.
+  >
+  >Assuming that was "binhex", I'd like to inform you of an *amazing*
+  >fact (sit down for this one): Mac users are a (vocal) minority here.
+
+  It wasn't BinHex, either (at least, Eudora choked on it).  Methinks we have
+  our first alien intelligence on the list...
+                                          dV/dt
+
+Oh, ye of little imagination.  What the "Alien" code was was
+PGP armored form. It can be read by surrounding it with
+
+-----BEGIN PGP MESSAGE-----
+-----END PGP MESSAGE-----
+
+and then issuing PGP -m  <file>.  I had no trouble reading the entire
+post when it first appeared, but I threw it away after reading. The
+excerpt quoted above can still be decoded to
+
+What follows is from memory so you should take it with a pinch of salt until
+it is confirmed f
+
+Note that neither one of you has an excuse since PGP is available
+for both MAC and PC (MSDOS) platforms.
+
+Except that PGP currently has a bug that it won't compress text when
+it converts it to armored form without either signing or encryption,
+this would be an efficient way to post messages to save bandwidth.
+
+HEX users sell Krieger & Presson & buy SWANK
+
+--
+edgar@spectrx.saigon.com (Edgar W. Swank)
+SPECTROX SYSTEMS +1.408.252.1005  Cupertino, Ca
+
+
+------------------------------
+
+Date: Sun, 24 Oct 93 08:50:13 PDT
+From: edgar@spectrx.saigon.com (Edgar W. Swank)
+Subject: EXTROPIAN CORRECTNESS
+
+John Clark in #93-10-508 posted:
+
+    I'm a little worried.  I hope the recent criticism of Phillip
+    Zimmermann is not the start of a McCarthy style witch-hint to
+    ferret out those who engage in un-Extropian activities.
+    Mr.Zimmermann, while not ideologically pure and whatever his
+    personal beliefs has nevertheless done more to advance the ideas
+    we value than most of us on this list.  Those who protest
+    Mr.Zimmermann's actions should demand that he return all the money
+    you paid him for PGP.  Perhaps I'm overreacting but I never want
+    to read a post that starts "I am holding in my hand a paper with
+    the names of 14 members of the Extropy Institute who are card
+    carrying members of pro-state organizations".
+
+As one of those who started this thread, I feel I should respond.
+
+First, it's incorrect to compare the abuse of Congressional
+(government) power typified by the McCarthy hearings to the
+dissimination of public information and personal experience, which is
+what I did.  The latter is completely EC and LC, IMHO, and protected
+by the 1st amendment.
+
+As Tim May made clear with his "BlackNet Dossier Service", if you
+don't want your public utterances and postings coming back to haunt
+you, better protect yourself with the tools of strong cryptography and
+remailers.  Welcome to the information age; get used to it.
+
+Second, I stated in my first message on this subject that despite his
+personal flaws, I regard PRZ as an Extropian hero for his
+contributions to and sacrifices for PGP. I would not discourage anyone
+with spare cash from contributing to his defense fund.  I will
+continue, if allowed, to contribute my modest programming efforts to
+the PGP development group without any expectation of direct
+remuneration.
+
+    PS:  Does anyone understand why the nuclear freeze movement and
+    Carl Sagan are supposed to be our enemies, because I don't.
+
+The "nuclear freeze" movement (now deservedly defunct) was our enemy
+for the same reason advocates of gun control are our enemies. Both
+seek/sought to limit our legitimate needs for self-defense.
+
+Until the day "limited government" withers away to anarcho-capitalism,
+one of the only legitimate functions of government, specified in the
+Constitution, is to "provide for the common defense."
+
+In hindsight, at least, it should be OTTMI (obvious to the meanest
+intelligence) that the "arms race" and MAD was a successful policy.
+The cold war is over; we won!  Without firing a shot!  (I don't call
+Korea & Vietnam part of the cold war).
+
+As for Carl Sagan; although he's not as extreme as some, he's
+definitely part of the Apocalyptic Environmentalist movement, which
+seeks to use speculative "science" (like "nuclear winter" and
+"greenhouse gas" and "ozone hole") hysteria to limit the application
+of technology.  The same camp as Jeremy Rifkin, who never saw a new
+technology he liked.  Surely everyone on this list can see that this
+conflicts with the core Extropian beliefs of Boundless Expansion and
+Dynamic Optimism.
+
+--
+edgar@spectrx.saigon.com (Edgar W. Swank)
+SPECTROX SYSTEMS +1.408.252.1005  Cupertino, Ca
+
+
+------------------------------
+
+Date: Mon, 25 Oct 93 14:48:48 EDT
+From: Brian.Hawthorne@east.sun.com (Brian Hawthorne - SunSelect Strategic Marketing)
+Subject: Beating the Stock Market
+
+If anyone cares, I could bring Wabi and PWI into this picture as well.
+Of course, is this really an Extropian topic?
+
+------------------------------
+
+Date: Mon, 25 Oct 93 14:54:31 EDT
+From: Brian.Hawthorne@east.sun.com (Brian Hawthorne - SunSelect Strategic Marketing)
+Subject: just when you thought you were the strangest guy on the block...
+
+> If Britain breaks into a hardcore monarchist Duchy of Argyll and thirty
+> Democratic Republics, I reckon that's an advance for monarchy in Britain.
+> 
+> [I picked Argyll because, acto the long article recently ::nosent by
+> Russell, the Duke of Argyll has Britain's only legal private army]
+
+I missed Russell's article, but when I was in Scotland 3 years ago, I 
+was assured by the residents of Blair Athol that the Duke of Athol had
+the only legal private army left in the U.K. He does have an army too,
+along with a castle, but is running a bit short on cash. (Extropian
+investment opportunity?) Just how many of these private armies are there?
+So far we have Athol and Argyll (which are actually quite close, 
+geographically). Or has Athol become Duke of Athol and Argyll in the last
+three years?
+
+------------------------------
+
+Date: Mon, 25 Oct 1993 13:12:54 -0600 (MDT)
+From: rcarter@nyx.cs.du.edu (Ron Carter)
+Subject: BIO: Researcher clone human embryos article
+
+>From an AP release as printed in the Sunday 24 OCT 93 Rocky Mountain
+News (Denver, Colorado, USA) for use by the Extropian mail list only.
+
+Researcher clones human embryos
+
+  NEW YORK - In an experiment believed to be the first of its kind, a
+researcher in Washington has cloned human embryos into identical twins
+or triplets, according to a published report.
+  Dr. Jerry Hall of the George Washington University Medical Center was
+trying to devise a method to create more embryos to implant when couples
+do not produce a sufficient number for in vitro fertilization, according
+to today's editions of The New York Times.
+  Hall is in the university's in vitro fertilization program, in which
+doctors help women have babies by mixing sperm and eggs in a laboratory
+and implanting them in the women.
+  Hall declined to be interviewed by the paper, which based its report of
+a summary of a scientific paper he presented at an Oct. 13 meeting of the
+American Fertility Society in Montreal.
+  In the summary, the Times said, Hall wrote that by splitting the embryos
+into twins or triplets or quadruplets, doctors could try to implant more
+embryos, making it more probable that a woman could become pregnant.
+  A description of the findings is scheduled to appear next week in Science
+magazine, the Times said.
+  The results suggest that one day it will be possible for parents to have
+a child and then, years later, use a cloned, frozen embryo to give birth to
+an identical twin, possibly as an organ donor for the older child.  Human
+embryos can be frozen and used at a later date.
+  The embryos used in Hall's experiment were at the stage of just a few
+cells, the Time Said.  They were not usable for technical reasons and were
+discarded.
+
+- End of article -
+
+-- 
+Regards, Ron | rcarter@nyx.cs.du.edu | Denver, Colorado, USA | 25 OCT 93
+
+------------------------------
+
+Date: Mon, 25 Oct 93 15:29:32 EDT
+From: rjc@gnu.ai.mit.edu
+Subject: BIO: Researcher clone human embryos article
+
+  What disgusts me the most is the so-called "medical ethicist" experts all
+over the news media commenting on this. This morning on one of the early
+news shows, one of these guys (in response to the vision that one day
+this can be used for perfect organ transplants and that infertile parents
+could simply choose what their child looks like from a mail-order embyro bank)
+said: "as a soceity, we should have enough common sense and decency to prevent
+this."
+
+  Could anti-biotech memes simply be a leftover survival mechanism (selfish
+genes)? It seems most people are universually opposed to designer humans.
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Mon, 25 Oct 1993 15:44:21 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: Party: I'm having a party (Jan 8 1994)
+
+It's never to early to plan a party. Please let me know if you plan to
+attend. More details to follow in Dec. 1993.
+
+I just got approval for a Jan trip to MacWorld San Franciso, so in
+keeping with tradition, I am having a party.
+
+It will be in my room at the Shearton Palace Hotel (2 New Montgomery
+St.)  Room number TBA.
+
+It will be on Sat. Jan 8, 1994. It will start about 8 PM. Hopefully a
+group will also go out to dinner before hand. (The last Sat. Conf.
+gets over at 3:50).
+
+I am available that week should anyone wish to get together; let me
+know.
+
+Also, FYI, if you order in advance, Exibits only $25 ($40 cash only at
+the door).
+
+
+/hawk
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+EXTROPY -- A measure of intelligence, information, energy, vitality,
+experience, diversity, opportunity, and growth.  EXTROPIANISM -- The
+philosophy that seeks to increase extropy.          
+
+------------------------------
+
+Date: 25 Oct 93 13:47:32 EDT
+From: Sandy <72114.1712@compuserve.com>
+Subject: OFFSHORE ACCOUNTS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  SANDY SANDFORT               Reply to:  ssandfort@attmail.com
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+Extropians,
+
+I'm sure Duncan will speak for himself, but a few comments about
+the post by James A. Donald are in order.  He wrote:
+
+    The US government and the US courts have been ignoring
+    the law on many matters for some considerable time.
+
+Yes, but this is irrelevant to the question of offshore bank
+accounts.  The government cannot abuse the law regarding your
+rights if they don't know you have an offshore account.
+
+James also wrote:
+
+    If you report a foreign bank account you get an
+    automatic hostile audit . . . They do not take
+    everything you own, they just create enough aggravation
+    that //even the very rich and entirely legal, the sort
+    of people who have a permanent team of accountants and
+    lawyers//, are reluctant to report a foreign bank
+    account.  [Emphasis added.]
+
+This is a variation of the baseball player/movie star fallacy.
+Every year, the IRS audits some high-profile individuals (Leona
+Helmsley comes to mind).  This is done to cow the general public.
+("Gee, if they can get a fat cat like her, think what they could
+do to a little guy like me.")
+
+The truth is quite the opposite.  Baseball players, movie stars
+and captains of industry are sitting ducks.  They are owned by
+their property and their success.  It is precisely the "little
+guys"--in part because there are so many of them--who are the
+hard ones to get.
+
+The IRS is not in the "law enforcement" business; it is not in
+the "fairness" business; it is in the "revenue collecting"
+business.  Some little plumber who skims cash payments is not
+nearly as likely to be an IRS target as is a Donald Trump who
+makes a slight technical error in his return.
+
+ S a n d y
+
+>>>>>>    Please send e-mail to:  ssandfort@attmail.com    <<<<<<
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+------------------------------
+
+Date: Mon, 25 Oct 1993 18:13:02 -0400
+From: ddf2@postoffice.mail.cornell.edu (David Friedman)
+Subject: Beating the Stock Market?
+
+>I designed a system for day trading silver futures on the COMEX
+>Exchange, using a very simple strategy.  Over a period of 47 days
+>the system _had_ made average gross profits of $218 per day with only
+>ten losing days, and a minimum profit of $475 every week.  (This was
+>the optimised 'with hindsight' version, with carefully chosen targets
+>and stops, but this choice wasn't too critical.)  Naturally, it failed
+>later when there was a sudden slide in the precious metals.  It shows
+>how easy it is to design simple mechanical systems which fail to live
+>up to initial promise.  With the more sophisticated methods, I'd expect
+>any falling off in performance to be a more gradual process as others
+>discover them. 
+
+It is worth remembering that price movements need not be normally
+distributed. Consider future prices for a currency that has a small
+probability each month of being devalued, or a firm that has a small
+probability each month of losing a big product liability suit. The present
+price is equal to (say) .99 x price if bad event does not happen + .01 x
+price if it does. So if you buy the asset, you will almost always make
+money. The problem is that you will almost always make a little money, and
+occasionally lose a lot. You test a system that tells you to buy such an
+asset for forty periods and conclude that it is a good system--it gave you
+the right answer 40 times in a row, which sounds like very strong evidence.
+
+Or in other words, your "falling off in performance" might mean that you
+had a system that really worked until others discovered it, or it might
+mean that you had a system that worked in terms of making predictions that
+were usually correct but did not work in terms of producing an expected
+profit.
+
+David Friedman
+Cornell Law School
+DDF2@Cornell.Edu
+
+
+------------------------------
+
+Date: Mon, 25 Oct 1993 18:54:47 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Recent OS discussion
+
+Rowan (I think) writes:
+
+>If anyone cares, I could bring Wabi and PWI into this picture as
+>well. Of course, is this really an extropian topic?
+
+It's a topic of interest to some extropians, or it wouldn't be going on.
+I've found it interesting, for instance.
+
+But it would be a lot better for those not interested if those who were
+posting on the subject would use appropriate subject lines;
+then this marvellous list software could be used by the disinterested
+parties to ignore the discussion.
+
+Phil
+
+------------------------------
+
+Date: Mon, 25 Oct 1993 18:58:18 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: BIO: Researcher clone human embryos article
+
+>What disgusts me the most is the so-called "medical ethicist" experts...
+
+Same here, Ray; it seems to me that a technique a lot similar to this
+could be used to "solve" the abortion debate to the liking of both sides...
+and the medical ethicists don't like it.
+
+Let's face facts, if flushing it should be legal, freezing it for later
+should be too.
+
+PHil
+
+------------------------------
+
+Date: Mon, 25 Oct 1993 23:20:28 -0400 (EDT)
+From: Duncan Frissell <frissell@panix.com>
+Subject: Beating the Stock Market?
+
+If my manipulation of the List command structure worked, I just did a
+"::nosend" of the Economist's October 9th Survey of Finance on computers
+beating the market.
+
+It runs about 84K.
+
+Duncan Frissell  
+
+
+
+------------------------------
+
+Date: Tue, 26 Oct 1993 13:49:01 -0500 (EST)
+From: PATRICK WILKEN <X91007@pitvax.xx.rmit.edu.au>
+Subject: Alien Message
+
+Edgar W. Swank says:
+
+>Oh, ye of little imagination.  What the "Alien" code was was
+>PGP armored form. 
+
+Can anybody tell me why a plain text message I sent to the list
+appeared in PGP armored form?
+
+Patrick
+
+------------------------------
+
+Date: Mon, 25 Oct 93 20:56:47 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Beating the Stock Market?
+
+> 
+> If my manipulation of the List command structure worked, I just did a
+> "::nosend" of the Economist's October 9th Survey of Finance on computers
+> beating the market.
+> 
+> It runs about 84K.
+> 
+> Duncan Frissell  
+
+I couldn't wait for the on-line version, and I wanted the figures and
+charts of the original, so I ran up to UC Santa Cruz today and Xeroxed
+the thing. Very interesting! Many thanks, Duncan! (I let my
+"Economist" subscription lapse...time to renew it.)
+
+The article covers exactly the "algorithmic investing" schemes which
+may or may not give a useful edge...the concensus of the series of
+articles seems favorable. To wit: "The idea that a financial market
+can be predicted is no longer confined to cranks."
+
+The outfits that my friends are knwoledgeable about, such as D. E.
+Shaw ("a secretive New York firm founded by two computer scientists in
+1988 with capital from a group of wealthy New York families") and The
+Prediction Company, are treated in some intriguing detail.
+
+Ironically for Derek Zahn (read this, Derek!), two of the main gurus
+mentioned are Blake LeBaron and William Brock of the University of
+Wisconsin, Madison! Maybe those of us out here in the Silicon Valley
+will soon be envying Derek for being where the action is! Turnabout is
+fair play.
+
+I also looked up some of the articles in "Journal of Finance" and
+such, but decided to stick with reading several books on this first.
+And I'll be riding up to the Hackers Conference at Lake Tahoe with
+this friend of mine, so I want to pick his brain to the best of my
+ability....hence the reading.
+
+Somebody commented that this "beating the stock market" thread has
+little to do with Extropians themes. I disagree. But the great thing
+about the new list software is that anybody who doesn't want to see
+this stuff can simply ::exclude the thread and/or the authors.
+
+--Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Tue, 26 Oct 93 00:10:03 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+News Summary as of: Tue Oct 26 00:10:03 EDT 1993
+
+
+Newly Registered Reputations:
+(None)
+
+New Share Issues:
+(None)
+
+Share Splits:
+(None)
+
+
+Market Summary as of: Tue Oct 26 00:00:03 EDT 1993
+
+Reputations of members of the Extropians mailing list:
+[ Note: Contact hex-request to have a reputation placed on this list. ]
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding
+AMARA         .10      .50        -        10000            -
+ANTON         .61      .63      .63        10000         1943
+ARKU          .18      .31      .30        10000         5301
+BLAIR         .01     1.20      .01        10000           26
+BROOX         .01     1.00        -        10000            -
+DEREK         .06      .19      .19       100000        18430
+DROSE           -      .15      .10        10000         3000
+DRS             -      .15      .15        10000         2600
+DVDT          .75     1.75     1.70        10000        10000
+E             .80     1.00      .90        10000         8011
+ESR             -        -        -            -            -
+FCP           .06     1.30     1.50        80000        15345
+GHG           .02      .30      .20        10000         8180
+GODII         .01     1.00        -        10000            -
+GOEBEL        .01      .25     1.00        10000          767
+H             .40      .76      .76        30000        10290
+HAM           .60      .90      .90        20000        15918
+HANNO         .15      .24        -        10000          500
+HFINN        1.50     6.00      .01        10000         1005
+IMMFR         .25      .70      .80        10000         1838
+JFREE         .02      .50      .50        10000         3200
+JOHN          .30      .40      .35        10000          600
+JPP           .26      .29      .26        10000         3500
+KARL         1.00     1.50     2.00        10000         1000
+KNNTA         .12      .19      .26       100000        10100
+LEFTY         .31      .40      .40        10000         4751
+MARCR           -        -        -            -            -
+MEEKS           -        -        -            -            -
+MLINK           -      .01      .01      1000000       102602
+MWM             -     1.50      .01        10000         1260
+N            5.00     9.00     9.00        10000         4750
+P           22.50    25.00     1.50      1000000           94
+PETER           -      .01     1.00     10000000          600
+PRICE           -      .01      .01     10000000         1410
+R             .40      .80      .70        10000         6100
+RJC           .65     2.00     1.00        10000         5200
+ROMA            -        -        -            -            -
+RWHIT           -        -        -            -            -
+SAMEER        .30      .75      .61        10000         9810
+SHAWN         .55      .55      .01        10000           25
+SWANK           -     1.00        -        10000            -
+TIM           .10      .60      .50        10000         2104
+WILKEN       1.00    10.00     1.00        10000          102
+-----------------------------------------------------------------------------
+
+Other reputations:
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding
+1000          .05      .40      .20        10000         5000
+110           .01      .10      .10        10000         1750
+150           .01      .10      .10        10000         1750
+1E6           .20        -      .20        10000         8825
+1E9           .01      .09      .20        10000         7000
+200           .02      .20      .10        10000         5075
+80            .01        -        -        10000            -
+90            .01        -      .10        10000         2000
+ACS           .10      .15      .12        10000         3223
+AI            .01      .09      .10        10000         2400
+ALCOR         .25      .85      .60        10000      3675.00
+ALTINST         -      .25      .05        10000         4000
+ANARCHY       .20      .90     1.00        10000         1100
+BIOPR         .01      .09      .05        10000         3000
+BITD          .01     1.00        -        10000            -
+BLACK           -      .10      .10       100000         6000
+CHUCK           -        -        -            -            -
+CYPHP         .20      .40      .30        10000        10000
+D&M             -        -        -        10000            -
+DC1000          -      .10        -        10000            -
+DC200           -      .15      .10        10000         1500
+DC7000          -      .10        -        10000            -
+DCFLOP        .15        -      .15        10000         6000
+DRXLR         .75      .90      .80        10000         4545
+EXI           .10      .25     1.54        10000         3025
+FAB             -        -        -            -            -
+GOD             -      .10      .10        10000         3000
+GUNS            -      .90     1.00        10000         3900
+HART            -     1.99     2.00        10000         9000
+HEINLN        .28      .30      .30        10000         6600
+HEX        100.00   101.00   100.00        10000         4088
+KLAUS           -      .45      .45       100000        36004
+KPJ             -        -        -            -            -
+LEARY         .01      .50      .20        10000         1000
+LEF           .10      .35      .10        10000         5214
+LIST          .40    10.00      .75        10000         5000
+LP            .25      .30      .50        10000         5625
+LSOFT         .50     1.00      .50        10000         9550
+LURKR           -      .01        -       100000            -
+MED21         .01      .30      .30        10000         5399
+MMORE           -     1.25      .10        10000         3000
+MNSKY           -     1.80        -        10000            -
+MORE          .38     1.25      .75        10000         2660
+NEWTON          -      .50      .20        10000         1000
+NLAW            -      .50        -        10000            -
+NNLAW           -      .50        -        10000            -
+NSS           .02      .03      .01        10000           25
+OCEAN         .15      .18      .20        10000         6600
+OOMPH           -    15.53    22.00        20000            -
+PENNY           -      .08     1.50        10000         2500
+PGP             -     1.00     1.00       100000         2100
+PLANET        .01      .02      .02        10000         4000
+PPL           .30      .45      .30        10000         4600
+RAND          .18      .20      .20        10000         3900
+RAW             -      .05        -        10000            -
+SHECKY          -        -        -            -            -
+SSI           .15      .20      .20        10000         5200
+TCMAY         .38      .40      .38        10000         6200
+TRANS         .01      .90      .60        10000         3211
+VINGE         .01     1.00      .75        10000         3449
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Mon, 25 Oct 93 21:15:08 PDT
+From: nobody@alumni.cco.caltech.edu
+Subject: PPL:judgement proof considered harmful?
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+Since threat of asset forfeiture (I had assumed) was a major element in the enforcement of PPL, what does judgement proofing do to PPL's viability? Are reputations and escrow services sufficient to take up the slack? (Not as if we have any alternative. Crypto-@ and all that.@^) Immunity against the IRS is immunity against everyone else too (except the mafia, I guess). I suppose the tortfeasor can always be faced with the choice of fines or jail - then no one needs to know where his assets are. (Same goes for IRS, no?) Am I missing something obvious?
+
+I posted an utterly brilliant bit of analysis on this during the great panix proto-singularity, which apparently went in the bit bucket. Perhaps brevity is the soul of wit.
+
+Eternal!Optimist@anon.penet.fi   (copyright 1993, Eternal Optimist [Ha Ha Ha])
+ 0) 0) =:()]-<                                    <na26522@anon.penet.fi>
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3
+
+iQCVAgUBLMsCWojvfLxJbYYtAQGhGgP8CRfCNnb+kHByjtUF3POuLzPdjUUuOkj8
+hSgQzY/UdAuV3zu3MPAntze7RWJpANtt7GZGFxuW7gko2ASZXOtVkqScle2rrfg9
+1xMzH9Br+FQnDYYRtUimZA8Ppui7uTT6kWwa9OB+cz00XjpgMmcGbZbXTxU1wW4+
+mg3GuBnwEAA=
+=nx7h
+-----END PGP SIGNATURE-----
+
+
+
+------------------------------
+
+Date: Mon, 25 Oct 93 21:38:14 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: the omniscient logician, not
+
+James (10/1):
+> I made an argument that seems to me unanswerable.  Your
+> premises lead to a conclusion that you know is false.
+
+_That_ is what I meant by begging the question: thanks for reminding
+me.  By misunderstanding what I mean by `exist', or (to put it less
+charitably) by refusing to recognize that others may not divide
+concept-space exactly as you do, you derive from premises that you cannot
+understand, through a chain of reasoning that you and I have both implicitly
+denied by not being Leninists, conclusions with which I may or may not
+agree, depending on how the terms are defined; and then presume that I
+agree with your definitions *and* your reconstruction of Lenin's reasoning.
+
+It's less vital to understand your allies than to understaand your enemies,
+so I guess it's too much to expect equal effort.
+
+Anton Sherwood                                             DASher@netcom.com
++1 415 267 0685         1800 Market St #207, San Francisco, California 94102
+
+------------------------------
+
+Date: Tue, 26 Oct 1993 02:53:10 -0400
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Subject: KIDS/POLI: "Emancipated Minor" status ?
+
+Tim Starr writes:
+ 
+>The procedure I sketchily have in mind would be somewhat similar to
+>provisions
+>we have now for "emancipated minors," which enable young people to get
+>adult status prior to the standard age.  As I understand them, though,
+>a young person trying to become an emancipated minor now has to bear
+>the burden of proving their competence.  I would reverse this.
+ 
+  I never heard about this status!
+  Could you please give me some reference about this 'emancipated minor'
+status, what rights does it give, and how does one get it?
+Is there a minimal age for this status? (this sounds like a joke, but
+I bet there is an age limit).
+ 
+  I have more than theoretical interest in this issue, as these
+age restrictions do not allow my 10yo son to do lots of things he is
+ready for, and impose numerous stupid requirements.
+>From one hand, he takes calculus and has his own ideas on consciousness
+uploads, child porn, message rating schemes, etc., from the other - people
+who will never be able to do any of this, tell him that he is too young
+to be a cashier at MacDonalds, and, as any child under 11, when at home,
+should be accompanied by a *babysitter* at all times (he handles most of
+our home finances, and would write a check to his own babysitter - isn't
+it funny?  I'm afraid he has deleted the 'Child care' category from Quicken
+awhile ago...)
+  Neither of us has any interest in proving anything to the 'society'.
+Except for the cases when it is necessary for personal growth and freedom.
+>From this point of view, the 'emancipated minor' status might be useful
+to have.  Maybe, something else too?
+  
+ 
+ 
+------------------------------------------------------------------------------
+|  Alexander Chislenko | sasha@cs.umb.edu | Cambridge, MA  |  (617) 864-3382 |
+------------------------------------------------------------------------------
+
+------------------------------
+
+Date: Tue, 26 Oct 1993 03:02:12 -0400
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Subject: PPL: Custody
+
+Me>> Could anybody explain me how the idea of custody would work under PPL?
+ 
+  I don't mean to sound too critical, but I still don't understand how
+it can work...
+ 
+ 
+Tim Starr:
+ 
+>You would contract into the system you think best for your child, and she
+>would contract into one she thought best for herself as soon as she could.
+ 
+Hmm... Suppose my child is smart enough to earn a lot of money and contract
+the best agency to protect her 'right' to eat more than 10 chocolate bars a
+day that I allow her - she just loves chocolate, and can't control herself;
+for a good price she will sure find 'better' custodians who will let he do
+it.  Or an uncontrollable craving for chocolate is by itself a sign of
+incompetence? - than what do we do with adults who have it?
+ 
+>I like to think of it in terms of presumption of competence.  
+ 
+  Usually, though, they suggest presumption of incompetence until the age
+of 18, and presumption of competence after 18.  This has lots of flaws.
+First, competence in *what*?   I would presume everybody after the age
+of 5 competent enough to handle a fork, and still I'd presume everybody
+incompetent to handle a nuclear reactor, until proven otherwise.
+I can hardly believe that the competence to drive, drink, smoke, work at
+MacDonalds, work at Microsoft, read alt.sex.bestiality, live independently,
+bear arms, rear children, etc., etc., comes at about the same age.
+18 ?   Who is going to choose this age?  Parents?  How come people who
+just biologically produced a child's body (which they may deeply regret)
+get to determine the child's future for so many years?  Can I declare
+that I presume my children incompetent until they are 60yo?
+What about orphans?
+ 
+ 
+>I presume every-one competent to direct themselves until proven otherwise.  
+ 
+ In general, I agree with this suggestion. But still, I have lots of
+questions here:
+   Would you give a driving licence to everybody who hasn't proven unable
+to drive?
+ What about having babies? Are 13-year-olds allowed to try?
+If they can't handle the baby, when can they try next time? at 14 ?
+Who determines that?
+Who takes care of abandoned babies/orphans?
+Some of them nobody may be interested in adopting. Will they die?
+Otherwise, whose money will be used to bring them up?
+ 
+  Also, who will enforce the restrictions?
+(Bear in mind that different agencies may have different views on
+the person's competence).
+ 
+ 
+------------------------------------------------------------------------------
+|  Alexander Chislenko | sasha@cs.umb.edu | Cambridge, MA  |  (617) 864-3382 |
+------------------------------------------------------------------------------
+
+------------------------------
+
+Date: Tue, 26 Oct 93 0:05:52 PDT
+From: mlinksva@netcom.com (Michael R Linksvayer)
+Subject: Beating
+
+Important information is below!!!
+
+Tony Hamilton:
+> Win #1 for OS/2 v2.1: Runs Win3.1 software faster than win3.1!
+
+Maybe, I doubt it. But does it save me time? No. The added time fiddling
+with the system easily chews up any savings I might get from Win3.1 software
+running 2.0438% faster under two winos. Anyway that 2.0438% is not noticeable
+to me. Being forced to screw around to get things to work is very noticeable.
+
+> Also runs and multitasks DOS applications much better than Windows 3.1. 
+
+I don't care.
+
+> But yes, the ONLY advantage Windows 3.1 currently has is a much larger 
+> installed base. 
+
+Huge advantage.
+
+> The point is, however, that 32-bit OS's are the new battleground.
+
+Not. The battleground is where the battleground is. Users don't care if
+their OS is 32-bit, 16-bit or fifty cents, as long as it serves their
+purposes.
+
+> The assumption has always been that the 32-bit follow-on to Windows, because
+> of installed base, will by default be the winner. The tricky part, however,
+> is that OS/2 _is_ a valid Windows 3.1 follow-on. Let us not forget that IBM
+> is fully licensed to use any Windows 3.1 _OR_ Windows NT technology. That
+> agreement came to end, of course, in September. But it means that the
+> validity of anything IBM makes to follow on to 3.1 or NT is just as sound
+> as anything Microsoft makes.
+
+Valid schmalad. Who cares? My (imaginary) invalid sibling _is_ just as much
+of a follow-on of my parents as I am. Doesn't say anything about our equality
+or lack thereof in any other respect.
+
+> Truly, the best OS will win, not just the one with the name "Microsoft" on 
+> it.
+
+Oh, yes, always. The Objective "best" always comes out on top of the
+spontaneous order. Winners are all transient anyway.
+
+> Actually, not at all NT for the masses. Chicago is actually far more
+> sophisticated than NT, just not as powerful as all.
+
+More sophisticated in what respect?
+
+> A couple of key points: It is rumored (I think rumor, perhaps an actual
+> announcement or statement was made) that there are some problems with
+> Chicago (Win4.0). 
+
+My vengeful thunder-god, problems with pre-release software!
+
+I apologize to the list for posting this tripe and will at some indeterminite
+point in the future not post to the list for a period of 7 days or the time
+it takes Perry's Juptier-sized brain to break the crypto-implementation of
+Slobbergrok the Inguinal's choice, whichever is shorter, in some universe.
+
+Mike Linksvayer   mlinksva@netcom.com
+
+------------------------------
+
+End of Extropians Digest V93 #298
+*********************************
+

@@ -1,0 +1,490 @@
+From extropians-request@extropy.org Tue May 10 03:02:14 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id DAA14528 for <more@chaph.usc.edu>; Tue, 10 May 1994 03:02:12 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA12630; Tue, 10 May 94 03:01:55 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA11082
+  (5.65c/IDA-1.4.4 for more@usc.edu); Tue, 10 May 1994 06:01:38 -0400
+Date: Tue, 10 May 1994 06:01:38 -0400
+Message-Id: <199405101001.AA11082@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-5-127 - #94-5-137
+X-Extropian-Date: May 10, 374 P.N.O. [06:00:54 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Tue, 10 May 94             Volume 94 : Issue 129
+
+Today's Topics:
+                         ECON: Cyphercurrency backing                 [1 msgs]
+                          ECON: Interest rates, etc.                  [1 msgs]
+                    ECON: Limits to comparative advantage             [1 msgs]
+                  ECON: The limits to comparative advantage           [1 msgs]
+                                  filtering                           [5 msgs]
+                                Romana's Talk                         [1 msgs]
+                                 taxes as ESS                         [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 26214 bytes.
+
+----------------------------------------------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Mon, 9 May 1994 21:21:47 -0400 (EDT)
+Subject: [#94-5-127] filtering
+
+> On Tue, 10 May 1994, Mark Grant wrote:
+> > I thought the real issue was the potential for faking votes to censor
+> > people. In that case, digital signatures or some similar secure system 
+> > would seem to be required.
+
+a conscious being, R Bryner wrote:
+> Only a verifiable identity, which could be an md5 hash of a public key
+> signature of a vote code and the message id, or even less to save space. 
+
+I would think it is useful to think of "voting" in two contexts...
+
+SYSTEM 1: One is for providing feedback to a system in which the
+information resulting from the feedback is processed algorithmically
+and is used to find other posts you might like.
+
+SYSTEM 2: The other is for voting in which the votes are to be made
+public and can be used in several ways.
+
+1) a user can see how he/she is "doing"; peer review...
+
+2) users can enter commands to get posts specifically highly rated by
+   specific users (::include posts ranked +4 <minsky@mit.edu> )
+
+In terms of the filtering Ray will be building for the new software we
+are looking at building the first system rather than the second, but
+the data could be used by both....
+
+If we just used it for system 1 or if we used it for both, which would
+lead to a system were fewer people defected by voting (we call it
+ranking) incorrectly.
+
+My feeling is system 1 should be used alone... people using the system
+will get results from it based 100% of how good they rank messages...
+using the results in other ways might cause them to defect...
+
+
+------------------------------
+
+From: tburns@mason1.gmu.edu (T. David Burns)
+Date: Mon, 9 May 1994 22:29:45 -0500
+Subject: [#94-5-128] taxes as ESS
+
+At 12:01 PM 5/9/94 -0400, Harry S. Hawk wrote:
+>taxes have been arround for a long time, not exactly
+>evolutionary time but meme-wise, they are probally ESS -- why?
+
+Why do bears have teeth?
+
+On the other hand, why are many of them so recent compared to rape, murder
+for hire, armed robbery, and burglary? Specific taxes, particularly the
+income tax and "vat", seem fairly recent, while the government moneymakers
+of old (tarriffs, etc.) don't collect significant revenue any more. (Or are
+meme years like dog years, so the income tax is venerable?) The government
+moved into a niche openned up by modern banking and wage-paying techniques.
+If our old buddy Tim May is right, technology (encryption, etc.) will soon
+close or greatly narrow that niche. Others, of course, may open up.
+
+-- Dave                       tburns@mason1.gmu.edu (T. David Burns)
+--                                (609) 921-2499 (fax or voice message)
+
+
+
+------------------------------
+
+From: tburns@mason1.gmu.edu (T. David Burns)
+Date: Mon, 9 May 1994 22:30:00 -0500
+Subject: [#94-5-129] ECON: The limits to comparative advantage
+
+At 12:00 PM 5/9/94 -0600, R Bryner wrote:
+>
+>Could this not be abstracted to include any comodity, including money,
+>gold, corn, single crystals of Si, Drugs, Guns, MIP-years, or labor?  Each
+>pair of comodities would then have a relative intrest rate, with competative
+>markets in each.  For those of you who have not figured out what
+>denominating contracts in goods would do, think about taxation and
+>inflation:-)
+
+According to an economist named Jeffrey Williams, this already exists (more
+or less). It's called the Chicago Commodities Exchange.
+
+-- Dave                       tburns@mason1.gmu.edu (T. David Burns)
+--                                (609) 921-2499 (fax or voice message)
+
+
+
+------------------------------
+
+From: R Bryner <R.Bryner@m.cc.utah.edu>
+Date: Mon, 9 May 1994 22:24:39 -0600 (MDT)
+Subject: [#94-5-130] filtering
+
+On Tue, 10 May 1994 nancy@genie.slhs.udel.edu wrote:
+> Anyway, what I was asking about was something like someone covertly
+> adjusting the weights given to the votes so that people who voted
+> against a given person's posts have more effect.
+But as the votes are public, and you control your own software(which would
+have the weights there), and you may verify your own anonymous and public
+vote, what is the problem?  I would note that the other method would not
+do this, you would have to trust the list provider(or am I missing somthing?)
+
+Roger.
+
+
+
+------------------------------
+
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Date: Tue, 10 May 1994 01:51:59 -0400
+Subject: [#94-5-131] ECON: Interest rates, etc.
+
+X-Message-Reference: #94-5-122
+ 
+Mr John M Casey <jmcasey@HK.Super.NET> writes:
+ 
+>Actually, in theory real rates are a function of people's fears for
+>preserving their capital. 
+ 
+  In another theory, the rates are a premium one gets for delayed
+consumption - even without any fear, one would prefer to buy whatever
+they want now, rather than to wait for another year. You have to pay
+people to make them wait and let you use the money.
+ 
+  In still another theory, the real rates reflect the productive ability
+of capital - even if everybody is scared to death, they can't expect any
+real interest, unless somebody is able to invest their money and actually
+make use of it.
+ 
+  In practice, the rate is determined on the market by the amount of
+available capital (which depends on the rate itself), productivity of
+investments (depends on amounts invested and lots of other things),
+and a variety of other economic, legal and psychological factors and
+expectations of their future development by every single economic agent.
+  
+  One could use a large system of differential equations as a generic model
+here, but I doubt that any description consisting of a small combination
+of words can have more than educational value.
+ 
+  The 'fear' theory may reflect the dawn of macroeconomic ideas but not
+much else.
+ 
+  However, the modern theories don't seem to be much more advanced.
+ 
+  I was just reading an article in the last issue of Business Week on
+theories of economic growth, which I guess should be considered very
+progressive for reviewing 'radical' suggestions of Schumpeter and a small
+group of his followers that technological innovations have something
+to do with it...   
+  Amazing!   Wasn't it evident for the last 30,000 years?
+  
+  Economists have no idea how to calculate inflation and productivity in
+the new areas/products - the heart of modern economic development -... 
+so they just ignore all of them, and calculate their factors looking
+at conventional industries.   And then they regulate the system they
+don't understand: when the real growth rate exceeds their expectations,
+the Federal Reserve tries to cool/choke off the 'overheated' economy by
+raising interest rates...
+  [ I am not saying that the economy can never overheat, just that
+having some general idea of what is going on  may be of some use ]
+ 
+ 
+  Also, speaking of interest rates:
+ 
+since future [supposedly skyroketing] *real* interest rates will be
+determined by the growth of the productive value of capital, while
+the *nominal* rates will depend on monetary factors, we may see
+a 100% real rate turn into %50 deflation with the nominal interest
+(taxed by the government) close to 0.  Also, union workers who fought
+to have their salaries adjustable to the cost of living, will see
+them halve every year...
+ 
+sasha@cs.umb.edu
+
+------------------------------
+
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Date: Tue, 10 May 1994 02:38:28 -0400
+Subject: [#94-5-132] ECON: Cyphercurrency backing
+
+X-Message-Reference: #94-5-118
+ 
+ Nancy Lebovitz  <nancy@genie.slhs.udel.edu> writes:
+ 
+>                                               ... I like the 
+> idea of cyphercurrency, but I'm not sure how it can be backed
+> with anything. (And if the governments fall, we won't be using
+> their currencies.) Is there some way to connect the money to
+> a physical object (like a gram of gold) without losing anonymity?
+> How well can an economy work if there's a chance that anything
+> you use to back the currency might suddenly become a great deal
+> more common? (For instance, a gold-backed currency becomes
+> relatively worthless if someone discovers a cheap way to refine
+> gold from sea water.)
+ 
+ 
+  I see two major advantages of backing currency by a commodity: 
+  
+  - stability of the currency thru emission control (the amount of monetary
+    mass is/depends_on the amount of the underlying 'currency commodity'.
+ 
+  - stability thru the general agreement to use it, based on perceived
+    safety of always being able to exchange the currency back to the
+    underlying commodity (or, in case of the direct involvement of the
+    commodity in the transactions, return to its primary use).
+ 
+  The problem with it is that the price of the underlying commodity 
+immediately increases because it acquires a new artificially assigned value,
+and lots of resources start being wasted on production, transportation and
+safeguarding of this commodity, while it is being pushed from the original
+areas of its application by the prohibitively high costs.
+ 
+  Now, cyphercurrency allows perfect emission control,  which cannot be
+achieved with any commodity, with tiny costs of emission, storage and cir-
+culation, little danger of theft or loss and no disruption for the economy
+(unless somebody is cheating with emission in which case [declaration of]
+backing is of no help anyway).
+  As for the perceived safety, cyphercurrencies will be backed by existing
+currencies, at least for a while, until everybody feels confident; during
+that period, 'backing'/connection with other markets will be performed by
+some exchange transactions between the currencies; they will be performed
+only occasionally are hardly different from buying tangible goods with
+cyphercash. The purely cypher-transactions will be completely anonymous...
+ 
+  Also, one should not expect that there will be just one cyphercurrency
+issued by one agency and backed by one commodity.
+Digitized stocks, bonds, personal promissory notes and other bit strings
+of any legal status and backing scheme may circulate freely in the market
+and exchange into each other at variable rates.
+  
+  The only really serious problem here will be taxation :-)
+
+------------------------------------------------------------------------------
+|  Alexander Chislenko | sasha@cs.umb.edu | Cambridge, MA  |  (617) 864-3382 |
+------------------------------------------------------------------------------
+  
+
+------------------------------
+
+From: timstarr@netcom.com (Tim Starr)
+Date: Mon, 9 May 1994 23:42:25 -0700
+Subject: [#94-5-133] ECON: Limits to comparative advantage
+
+>From: tburns@mason1.gmu.edu (T. David Burns)
+>Date: Sat, 7 May 1994 17:47:40 -0400
+>Subject: [#94-5-88] ECON: The limits to comparative advantage
+>
+>At  3:36 AM 5/7/94 -0700, Tim Starr wrote:
+>>The law of comparative advantage still holds
+>>here.  I'm better off doing something the roboslave's infinitely better
+>>at in conjunction with it doing something else it's infinitely more
+>>productive at than I than with me doing nothing while the roboslave
+>>engages in its production.
+>
+>Not if you cause a bottleneck that reduces the robot's productivity
+>sufficiently.
+
+Not if I cause enough of a productivity decrease in the roboslave in any
+way.  What do you mean by "bottleneck"?
+
+>From: nancy@genie.slhs.udel.edu
+>Date:     Mon, 9 May 94 2:00:41 GMT
+>Subject: [#94-5-101] ECON: The limits to comparative advantage
+>
+>...This is a priori, but I would think that low interest rates would
+>indicate a low time preference, and allow longer (and hopefully
+>more valuable) processes of production.
+>
+>I'm not saying that long processes are necessarily more valuable,
+>but that an economy that includes both them and the shorter
+>processes that would be all that exists at the higher interest
+>rates should be able to accomplish more.
+
+This is true for the natural rate of interest, as opposed to an
+interest rate that is unnaturally low due to intervention by a
+central bank.  There is a natural tendency for interest rates to
+go down as capital formation occurs, and, thus, for borrowers to
+engage in longer production processes to produce higher-order goods.
+But if the interest rate is lowered by fiat credit expansion, then
+the borrowers engage in the production of goods which there isn't
+any real demand for, so when this is realized, the malinvestment
+has to be liquidated.  And that, kiddies, is how we get business
+cycles.
+
+>From: minsky@media.mit.edu (Marvin Minsky)
+>Date: Mon, 9 May 94 00:12:45 -0400
+>Subject: [#94-5-103] ECON: The limits to comparative advantage
+>
+>Perhaps this fiddling with a single 'prime rate' is just so constrained
+>that it has mischievous consequences.  How about fiddling, instead, with
+>the capital gain tax curves.   You can encourage N-year investments by
+>holding the gain tax high for the first N years, etc.
+
+They both have perverse effects.  Capital gains taxes discourage the
+investment of venture capital into startups - it's no accident that soon
+after the Kemp-Roth(?) capital gains tax cuts in 1978 we had a whole lot
+of startups like Sun, Apple, etc., and that there have been less since
+they were raised again in 1987(?).
+
+Luckily, you don't need to have capital gains taxes or bonds issued by a
+central bank in order to have the low interest rates conducive to high,
+sustainable, long-term growth.  All you need is free banking.  ("All" he
+says!  As if that was easy!)
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - timstarr@netcom.com
+
+------------------------------
+
+From: timstarr@netcom.com (Tim Starr)
+Date: Mon, 9 May 1994 23:46:17 -0700
+Subject: [#94-5-134] Romana's Talk
+
+I liked reading Romana's talk very much.  Unfortunately, my enjoyment
+of it was marred by a bad example in illustration of the point that many
+people are unwilling to change their own behavior to minimize the risks
+they face: sun-worshippers.
+
+I presume she was referring to the risk of contracting skin cancer from
+exposure to UV rays.  The thing is, most of the skin cancer contracted
+this way is mostly cosmetic, and 99% curable if diagnosed in time.  The
+risk of contracting truly dangerous cancer from UV exposure is very small.
+
+I don't have any convenient references for this, but I might be able to
+find some if any were called for.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - timstarr@netcom.com
+
+------------------------------
+
+From: Andy Lowton <lowton@typhon.dra.hmg.gb>
+Date: Tue, 10 May 1994 08:33:45 -0100
+Subject: [#94-5-135] filtering
+
+Phil G. Fraering writes:
+ > But Andy, aren't we all paid members here now anyway?
+ > 
+
+No, as I understand it, new members of the list get a certain amount of time
+to decide whether they wish to pay the fee and stay around.  I'm sure
+Harry will correct me, but I thought it was about 40 days. 
+
+Cheers
+
+Andy
+
+lowton@typhon.dra.hmg.gb                
+PGP Key via finger                    
+http://daedalus.dra.hmg.gb/lowton/andy.html 
+
+
+------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Tue, 10 May 94 8:40:20 GMT
+Subject: [#94-5-136] filtering
+
+ R Bryner <R.Bryner@m.cc.utah.edu>:
+>
+>On Tue, 10 May 1994 nancy@genie.slhs.udel.edu wrote:
+>> Anyway, what I was asking about was something like someone covertly
+>> adjusting the weights given to the votes so that people who voted
+>> against a given person's posts have more effect.
+>But as the votes are public, and you control your own software(which would
+>have the weights there), and you may verify your own anonymous and public
+>vote, what is the problem?  I would note that the other method would not
+>do this, you would have to trust the list provider(or am I missing somthing?)
+
+Either I have a sneakier temperment than you do, or else I don't 
+understand how the review system would work. My assumption was
+that people would vote and the votes would be collected centrally
+and tabulated so that only the wanted part of the list would be
+sent to each person. Are you saying that, instead, each person
+is sent the whole list, but has software which bounces the
+messages they don't want?
+
+If my initial premise is correct, then the fact that you have
+a record of your own weights wouldn't necessarily matter--the
+weights get "adjusted" by a censor during the centralized
+tabulation--and it isn't only a question of trusting the
+list provider. My original question was whether it was worth
+making much of an effort to protect the list software from
+people other than the list provider who might want to tamper
+with it.
+
+Convolutedly yours,
+Nancy Lebovitz
+
+
+
+------------------------------
+
+From: Andy Lowton <lowton@typhon.dra.hmg.gb>
+Date: Tue, 10 May 1994 09:05:08 -0100
+Subject: [#94-5-137] filtering
+
+Mark Grant writes:
+ > 
+ > I thought the real issue was the potential for faking votes to censor
+ > people. In that case, digital signatures or some similar secure system 
+ > would seem to be required.
+ > 
+
+I seem to remember this coming up when James Donald (?) forged posts after he
+had been removed from the list.  The general opinion at that time was that
+digital signatures are not sufficiently easy to use for the majority of
+people to bother. Personally I don't have a problem with signing posts, but then
+again, I use emacs to read my mail :)
+
+Cheers
+
+Andy
+
+lowton@typhon.dra.hmg.gb                
+PGP Key via finger                    
+http://daedalus.dra.hmg.gb/lowton/andy.html 
+
+
+------------------------------
+
+End of Extropians Digest V94 #129
+*********************************
+

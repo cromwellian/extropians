@@ -1,0 +1,930 @@
+69
+Message 69:
+From exi@panix.com Thu Jul 22 18:24:27 1993
+Return-Path: <exi@panix.com>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+        id AA25618; Thu, 22 Jul 93 18:24:24 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+        id AA16800; Thu, 22 Jul 93 18:23:35 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by panix.com id AA18851
+  (5.65c/IDA-1.4.4 for more@usc.edu); Thu, 22 Jul 1993 21:19:19 -0400
+Date: Thu, 22 Jul 1993 21:19:19 -0400
+Message-Id: <199307230119.AA18851@panix.com>
+To: Exi@panix.com
+From: Exi@panix.com
+Subject: Extropians Digest
+X-Extropian-Date: July 23, 373 P.N.O. [01:18:27 UTC]
+Reply-To: extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: R
+
+Extropians Digest             Fri, 23 Jul 93             Volume 93 : Issue 203
+
+Today's Topics:
+                                                                      [7 msgs]
+                                133 years old                         [1 msgs]
+                     DIET: L-tryptophan, _Smart Drugs II_             [1 msgs]
+                              HEX: useful script                      [2 msgs]
+                             List Software: test                      [1 msgs]
+                          MEETING: Boston gathering.                  [1 msgs]
+                      Meta: Who is on the new software?               [2 msgs]
+                            Nightly Market Report                     [1 msgs]
+                            POLI: School vouchers                     [2 msgs]
+                       Pets (was Re: Wage Competition)                [1 msgs]
+              TECH: Some information about the Prospero system.       [1 msgs]
+                               Wage Competition                       [1 msgs]
+                              Wage Competition                        [3 msgs]
+                      Your on the New List, Please read               [1 msgs]
+                               future problems                        [2 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51248 bytes.
+
+----------------------------------------------------------------------
+
+Date: Wed, 21 Jul 93 23:07:51 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: HEX: useful script
+
+  I've hacked up the following Perl script to send MULTI commands easily.
+
+-------CUT HERE-------
+#!/usr/local/bin/perl
+$mailpath = "Mail"; $"="\n";
+@commands = split(/\s*,\s*/, join(' ', @ARGV));
+open(MAIL, "|$mailpath -s MULTI") || die "Can't open $mailpath";
+print MAIL "@commands\n";
+close(MAIL);
+------END HERE---------
+
+    You may have to edit the first line if your perl is installed somewhere
+else. Also, edit $mailpath if you want to use an alternative program.
+
+  To use, save this program out as "hexm" and set its executable bit.
+Then just type hexm with your HEX commands seperated by commas.
+
+Example:
+
+<your shell prompt$> hexm report,account, book lsoft, quote exi
+
+
+Enjoy!, and buy LSOFT! ;-)
+
+-Ray
+ 
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Wed, 21 Jul 93 23:31:54 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: HEX: useful script
+
+ Opps, I sent the wrong version (I was debugging with this using a fake
+mail program.)
+
+Ray () writes:
+> 
+> -------CUT HERE-------
+> #!/usr/local/bin/perl
+> $mailpath = "Mail"; $"="\n";
+> @commands = split(/\s*,\s*/, join(' ', @ARGV));
+> open(MAIL, "|$mailpath -s MULTI") || die "Can't open $mailpath";
+                         ^^^^^^^^
+
+  Notice anything missing? Such as a email address? Change that line to
+  open(MAIL, "|$mailpath -s MULTI hex@sea.east.sun.com") || die "BUGGED!";
+
+> print MAIL "@commands\n";
+> close(MAIL);
+> ------END HERE---------
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+
+
+------------------------------
+
+Date: Wed, 21 Jul 93 23:59:57 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx                 Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+---------------------------------------------------------------
+News Summary as of: Wed Jul 21 23:59:06 EDT 1993
+
+
+Newly Registered Reputations:
+(None)
+
+New Share Issues:
+Symbol  Shares Issued
+RJC     10000
+
+Share Splits:
+(None)
+
+---------------------------------------------------------------
+Market Summary as of: Wed Jul 21 23:59:07 EDT 1993
+
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+ACS           .50      .70     8.00        10000          126         1008.00
+ALCOR        3.80     7.50     3.00        10000         2421         7263.00
+ANTO            -        -        -            -            -               -
+BLAIR        5.00    30.00    50.00        10000           25         1250.00
+CHAITN          -        -        -            -            -               -
+DEREK        2.65     2.70     3.00       100000         6120        18360.00
+DRXLR        4.00     4.20     7.00        10000         1146         8022.00
+DVDT         1.20     5.00    15.00        10000           90         1350.00
+E             .30     3.90     2.90        10000         2437         7067.30
+ESR             -        -        -            -            -               -
+EXI          1.25    10.00     1.75        10000         3000         5250.00
+FCP         11.50        -    11.50        10000          540         6210.00
+GHG           .30      .50      .30        10000         1455          436.50
+GOBEL         .30     1.50     1.00        10000          767          767.00
+H            2.10     3.90     2.00        10000         6250        12500.00
+HEX        100.00   150.00   100.00        10000         3218       321800.00
+HFINN        2.00    10.00    10.00        10000         1005        10050.00
+IMMFR           -      .80      .80        10000          501          400.80
+JFREE         .25      .90     1.00        10000         1650         1650.00
+JPP           .50      .50      .50        10000         2410         1205.00
+LEF           .25      .50      .50        10000         1026          513.00
+LEFTY        1.00     4.00     4.00        10000           51          204.00
+LIST          .20      .50      .50        10000         1000          500.00
+LSOFT         .55      .60      .75        10000         3600         2700.00
+LURKR           -     3.00        -       100000            -               -
+MARCR           -        -        -            -            -               -
+MLINK           -      .05     1.00      1000000         2601         2601.00
+MWM             -     1.50     1.50        10000         1260         1890.00
+N           20.00    25.00    25.00        10000           98         2450.00
+P           20.00    22.00    20.00      1000000          265         5300.00
+PETER        1.00        -     1.00     10000000          600          600.00
+PRICE           -     4.00     2.00     10000000         1410         2820.00
+R             .25     2.80      .25        10000         5000         1250.00
+RJC             -    50.00        -        10000            -               -
+ROMA            -        -        -            -            -               -
+SGP             -        -        -            -            -               -
+TIM          2.00        -        -        10000            -               -
+TRADE        8.00     9.00        -      1000000            -               -
+TRANS         .50      .60     1.00        10000          511          511.00
+WILKEN       1.00    10.00    10.00        10000          101         1010.00
+-----------------------------------------------------------------------------
+Total                                                               426938.60
+
+------------------------------
+
+Date: Thu, 22 Jul 1993 01:21:14 -0400
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Subject: MEETING: Boston gathering.
+
+  There's a Brasilian place called Pampas near Cambridge Central Sq.;
+they have an excellent vegetarian buffet and for one price keep bringing
+you about 16 different kinds of meat until you can eat no more.
+Although I'd agree with Harry that proximity to Copley Sq. is most
+important.
+   Also, if somebody needs a place to stay, I can host 1 or 2 people;
+RSVP if interested!
+------------------------------------------------------------------------------
+|  Alexander Chislenko | sasha@cs.umb.edu | Cambridge, MA  |  (617) 864-3382 |
+------------------------------------------------------------------------------
+
+------------------------------
+
+Date: Wed, 21 Jul 93 22:27:10 PDT
+From: hfinney@shell.portal.com
+Subject: Wage Competition
+
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+> In the long run, the entities who own the future are those self-owned
+> entities whose can resist the temptation to consume their wealth now,
+> and invest for the long-term.  Whether their wealth is in the form of
+> capital or wage earning power is largely irrelevant.
+
+I think Robin is right about this.  If robots or other machines start
+producing more of the wealth, then people who own the robots or the factories
+that make the robots and other machines are going to have wealth diverted
+to them from the displaced laborers.
+
+Unless most workers start saving instead of spending most of what they
+earn, they are not going to have enough money to invest like this.  It's
+not easy to save money and at least in the U.S. most people aren't very good
+at it.  In Japan, on the other hand, it's more plausible that workers would
+have enough capital saved up that they can actually invest in the companies
+that make the machines which replace them.
+
+I'm not sure how Robin's suggestion about human capital markets really
+solves this problem, motivating people to save more.  If people could sell
+off their future income, I'd be afraid that most people would just view it
+as a fancy credit card and spend the new money.  Many people spend all
+their time with their credit totally maxed out.  In some ways it seems to
+me that credit works similarly to the proposed capital markets: you get
+money now and have to pay it back later, and the creditor in some sense
+makes an estimate of your future income stream to decide how much credit to
+offer you.   
+
+Also, if someone is in a dead-end job, his future income stream isn't going
+to look nearly as good as the owner of a robot factor.  The future-income
+markets may just add to the wealth of the wealthy capitalists because they
+are the ones who are going to have large future incomes.
+
+One thing that I could see happening is that if someone is in a business
+which appears to be vulnerable to future obsolescence, his future-income
+market value may be low.  But if he gets retraining, as Nick suggests, that
+may drastically increase his market value.  This might provide a more direct
+incentive for people to get out of dead-end jobs.
+
+I'll be gone until Saturday but I think Robin has produced a very interesting
+thread!
+
+Hal
+
+------------------------------
+
+Date: Thu, 22 Jul 1993 01:39:42 -0400
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Subject: POLI: School vouchers
+
+  I just heard it from a colleague of mine, who read a short article in
+Boston Globe (if you have more info, please share it!).
+  California just enacted the voucher program which allows parents to
+take the state money for the child's education to a private school, 
+including religious.  Paying tax money for subsidizing religious
+"education" is a somewhat thorny issue, but with a strong influence
+of [conventional] religious organizations it might have made the whole
+thing easier...
+   Now, the Witches' Coven [sp.?] decided to run a school too...
+And *this* Christians are not that happy about...
+Tax money for withcraft?  What about Satanic cult?  Or neo-pagans?
+They seem to have some pretty interesting discussions ahead...
+
+-----------------------------------------------------------------------------
+| Alexander Chislenko | sasha@cs.umb.edu | Cambridge, MA  |  (617) 864-3382 |
+|---------------------------------------------------------------------------|
+| Member: ExI, BCS, WFS, EFF, IONS, U/D Council, Foresight Inst., MENSA,... |
+|---------------------------------------------------------------------------|
+| This sig space is for rent - if you have any idea worth distributing,     |
+| I would consider including it here.                                       |
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Thu, 22 Jul 93 0:41:58 MDT
+From: bangell@cs.utah.edu (bob angell)
+Subject: Meta: Who is on the new software?
+
+>The following addresses/users are on the new
+>list software, FYI.
+>
+>bangell@cc.utah.edu
+
+could you change this to be:  bangell@cs.utah.edu.
+
+thanks.
+
+-Bob-
+-- 
+Bob Angell                               | Data Integration (multi-platform)
+Principal                                | AWK, C/C++, RDBMS langs, Paradox
+Management Systems Engineering           | Health Systems Engineering
+Applied Information & Management Systems | Database design/development
+1238 Fenway Avenue - SLC, UT 84102-3212  | Simulation/Modeling/Neural Nets
+bangell@cs.utah.edu; Voice: 801-583-8544 | Freelance writer, major publications
+IBMLINK:DEV4534, TEAMOS/2                | OS/2 2.x Application Developer 
+
+      [Disclaimer:  I don't speak for IBM or the University of Utah!]
+
+
+
+
+
+------------------------------
+
+Date:     Thu, 22 Jul 93 8:58:35 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Correct Interpretation of Tomorrow's World
+
+>From: edgar@spectrx.saigon.com (Edgar W. Swank)
+>Subject: Extropian Song Lyrics
+>
+>Thanks to Tim Starr for posting his candidate for "extropian" song
+>lyrics, "Tomorrow's World," by Joe Jackson.  While it starts out well,
+>I have real problems with the LC (Libertarian Correctness),
+>the EC (Extropian Correctness), and I'm personally offended
+>by:
+>
+>   We're gonna give in Tomorrow's World
+>
+>Who's "We", Lone Ranger?  I'm gonna live in Tomorrow's World and I'm
+>not gonna give anybody a goddam thing!!  Since I'll be free to keep
+>and bear arms in tomorrow's world, if anyone tries to -take- anything
+>from me, I'll blow his fucking head off!!
+
+You've just given us your opinion.  You could give yourself a break from
+oversensitivity...
+
+I think that some of the lyrics can be interpreted in bad ways, but I don't
+think that any of them can't be interpreted in good ways.
+
+>The next line is easy to fix, change
+>
+>   And there'll be food for everyone
+>
+>to
+>
+>  there'll be cheap food for everyone.
+>
+>This better reflects the inevitable productivity improvements provided
+>by the capitalist system, whereas the original line smacks of food
+>stamps and the morally bankrupt welfare system.
+
+And here I thought we'd all presume that after the nanotech rapture nourishment
+would become a general condition of human welfare, not a scarce good...
+
+>Going back, the following line is not EC.
+>
+>   We'll live on power from the sun
+>
+>Actually, solar power is completely inadequate even for today's
+>demands.  It might as well have read
+>
+>   We'll live in caves with no lights in Tomorrow's World.
+
+Even if it's from solar energy collection panels based in space, where a lot
+more surface area is to be had?
+
+>Until fusion is perfected, we'll live on power from fast breeder
+>atomic reactors.  While the sun is powered by fusion, fusion power on
+>earth will actually come from the oceans.  We need to fix this line;
+>perhaps
+>
+>   We'll live on power like the sun's
+
+Even though I disagree, I think this alteration is poetically acceptable.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Thu, 22 Jul 93 9:21:39 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  My Worry, Guns, and Social Security
+
+>From: Carol Moore <cmoore@cap.gwu.edu>
+>Subject: Potlach/Tithing/Jubillee --was/Re: Another Worry
+>
+>Tim Starr worries, in effect, that those who receive the
+>least money in a free market, will be dissatisfied and,
+>I assume, seek statist redress.
+
+Actually, that wasn't my worry at all.  My worry was that many advocates of
+laissez-faire make a mistaken argument, and that they will fail as a result.
+
+I have little objection to "spread the wealth" schemes, although they don't
+appeal to me very much.  I prefer "spread freedom of opportunity" schemes.
+
+In another message, Carol forwarded an editorial of Schulman's which included
+a statistic that gave her pause about the desirability of peacefully getting
+rid of guns:
+
+>According to a study by Professor
+>Gary Kleck, Criminologist at Florida State University, Americans
+>use their privately owned firearms -- handguns, rifles, and
+>shotguns -- 1.4 million times every year to \save\ innocent
+>lives.  Let me say that another way.  Three thousand, eight
+>hundred times a day, an American firearm owner uses her or his
+>firearm to prevent a rape, a robbery, or a burglary.  In 99% of
+>those thirty-eight hundred daily firearm defenses, no one is shot
+>at all -- and because non-violence is non-news, \you\ never hear
+>about it.
+>
+>     Let me put this statistic in perspective.  During the
+>fifteen-minute period in which a psycho murdered nine people at a
+>San Francisco law office, forty \ordinary\ Americans used their
+>privately owned firearms to \stop\ a crime, without shooting
+>anyone.
+
+This is only the tip of the iceberg when it comes to the protective power of
+guns.  ISIL's preparing a pamphlet by David Kopel on gun policy that has a
+whole lot more, e.g.: trying to defend yourself from a robber with a gun
+reduces the robber's success rate from 88% to 30%.  We'll be publishing it
+after we finish editing it.
+
+We're also about to publish a pamphlet on Social Security, which is where
+I was getting some of my info about it.
+
+I agree with Nick that retirement is evil; Perry, your father's disabled, not
+retired.  May he live long and prosper!  I don't think any Social Security
+reform is politically feasible in the sense that any majority of Congress
+will vote for it right now, so I see no reason not to advocate an extreme
+position: transfer money equivalent to the amount people have put in into
+pension fund accounts from which they may purchase disability insurance.
+Works like a dream in Chile!  Then voluntarize the saving.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Thu, 22 Jul 93 9:43:35 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Nature of Homosexuality
+
+According to Frances Kendall in "The Sex-Y Factor," the best explanation for
+homosexuality isn't genetic, but it is "nature," rather than nurture.  She
+says that at some stage of pre-natal development, exposure to certain hormones
+seems to determine sexual orientation, withour regard to the sex of the fetus.
+Thus, if X is the hormone that causes attraction to males, exposing either
+males or females to X would make them horny for males.  If Y is the one
+that makes one horny for females, exposing either to it would make them horny
+for females.  She also says that if a pregnant woman is emotionally stressed,
+that can make them involuntarily release the "wrong" hormone to the fetus.
+
+That is, if a man beats his pregant wife, he may cause her male fetus to be
+exposed to the hormone that makes him horny for men, rather than the one that
+makes him horny for women.  And vice versa.
+
+This presents a different sort of problem for anti-homos:  "Dear Lord, what
+have we done to deserve this?"
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Thu, 22 Jul 93 9:48:18 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Why Worry About My Worry
+
+I suppose my worry that advocates of laissez-faire use a bad argument is an
+instance of a broader worry that this represents the general case, rather
+than the exception which proves the rule.
+
+So, now, my worry is that we (present non-libertarian company excepted) tend
+to use the wrong arguments to support our position, ones that aren't sound
+or ones that are sound but unpersuasive.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Thu, 22 Jul 1993 07:38:16 -0400 (EDT)
+From: Harry Shapiro <habs>
+Subject: Meta: Who is on the new software?
+
+I can delete you and add you back with the new address
+but that would wipe out your current settings (if you
+have any) or wait for Ray to create the appriopriate
+dbm editting tool.
+
+/hawk
+
+
+
+
+
+a conscious being, bob angell wrote:
+> 
+> >The following addresses/users are on the new
+> >list software, FYI.
+> >
+> >bangell@cc.utah.edu
+> 
+> could you change this to be:  bangell@cs.utah.edu.
+> 
+> thanks.
+> 
+> -Bob-
+> -- 
+> Bob Angell                               | Data Integration (multi-platform)
+> Principal                                | AWK, C/C++, RDBMS langs, Paradox
+> Management Systems Engineering           | Health Systems Engineering
+> Applied Information & Management Systems | Database design/development
+> 1238 Fenway Avenue - SLC, UT 84102-3212  | Simulation/Modeling/Neural Nets
+> bangell@cs.utah.edu; Voice: 801-583-8544 | Freelance writer, major publications
+> IBMLINK:DEV4534, TEAMOS/2                | OS/2 2.x Application Developer 
+> 
+>       [Disclaimer:  I don't speak for IBM or the University of Utah!]
+> 
+> 
+> 
+> 
+> 
+
+
+-- 
+Harry S. Hawk                                 habs@panix.com
+Electronic Communications Officer, Extropy Institute Inc.
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Thu, 22 Jul 93 09:02:06 -0400
+From: hhuang@Athena.MIT.EDU
+Subject: DIET: L-tryptophan, _Smart Drugs II_
+
+Stanton McCandlish writes,
+
+>Quoth hhuang@athena.mit.edu, verily I say unto thee:
+[...]
+>I don't think [L-tryptophan.'s] banned anymore.  I've seen it in shops 3
+>or 4 times.
+
+!
+
+I'm going out to look around local stores today.  I just sent away a
+letter to the England address selling it.
+
+>-=>By the way, _Smart Drugs II_ by Dean and Morgenthaler is out and can
+>-=>be ordered from CERI.
+>
+>!!  'Bout damn time!  I will have to raid the bookstore tomorrow!
+
+Sorry about my misinformation: CERI will only start receiving the book
+on August 1 and will mail out two-day priority mail to pre-orders as
+soon as they receive it.  Hence, retail bookstore availability will
+probably be later than that date.
+
+-Han Y. Huang                                    hhuang@athena.mit.edu
+
+------------------------------
+
+Date: Thu, 22 Jul 1993 11:21:35 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Wage Competition 
+
+hfinney@shell.portal.com says:
+> This may be true of farmers, because they were pretty self-sufficient.
+> But what if you were a 19th century buggy-whip manufacturer?  Or blacksmith?
+> A 19th-century tanner?  A by-hand pin manufacturer?  A canvas sailmaker?
+
+And yet, we don't see out of work buggy-whip or sail makers around in
+the streets begging for work today.
+
+Over the years, many professions have arisen, come into their own, and
+disappeared without a trace. Somehow, the economy has survived it.
+
+Perry
+
+------------------------------
+
+Date: Thu, 22 Jul 93 08:48:33 -0700
+From: cappello@engineering.ucsb.edu (Peter Cappello)
+Subject: Your on the New List, Please read
+
+
+------------------------------
+
+Date: Thu, 22 Jul 1993 11:56:28 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Wage Competition 
+
+Nick Szabo says:
+> Assuming some foresight (eg a buggy
+> whip futures market in 1900 predicting that many of them would
+> be out of business by 1920) there is plenty of time to retrain, 
+> and/or save up money from the last years of the business and steer the 
+> next generation into more lucrative areas.  
+
+Its even better than that. Few businesses go away over night. The
+buggy manufacturing business sunsetted over many years.
+
+Woe, however, to those businesses in which the government via
+protection has prevented needed downsizing, such as shoe manufacture.
+When the day of reconing comes, lots of companies that would have
+vanished over thirty years will vanish in a year or two.
+
+Perry
+
+------------------------------
+
+Date: Thu, 22 Jul 1993 11:56:28 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Wage Competition 
+
+Nick Szabo says:
+> Assuming some foresight (eg a buggy
+> whip futures market in 1900 predicting that many of them would
+> be out of business by 1920) there is plenty of time to retrain, 
+> and/or save up money from the last years of the business and steer the 
+> next generation into more lucrative areas.  
+
+Its even better than that. Few businesses go away over night. The
+buggy manufacturing business sunsetted over many years.
+
+Woe, however, to those businesses in which the government via
+protection has prevented needed downsizing, such as shoe manufacture.
+When the day of reconing comes, lots of companies that would have
+vanished over thirty years will vanish in a year or two.
+
+Perry
+
+------------------------------
+
+Date: Thu, 22 Jul 93 09:14:09 -0700
+From: cappello@engineering.ucsb.edu (Peter Cappello)
+Subject: POLI: School vouchers
+
+>I just heard it from a colleague of mine, who read a short article  
+>in Boston Globe (if you have more info, please share it!).
+>  California just enacted the voucher program ...
+
+I don't think that this is accurate.  A Voucher proposal is slated to  
+be on the CA ballot as an initiative in the near future.  It will be  
+BIG BIG news, if it passes.
+
+-Pete
+
+------------------------------
+
+Date: Thu, 22 Jul 1993 12:31:21 -0400
+From: "J. Laurens Troost" <rens@cs.columbia.edu>
+Subject: 
+
+
+------------------------------
+
+Date: Thu, 22 Jul 1993 09:52:17 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: Pets (was Re: Wage Competition)
+
+At  5:50 PM 7/21/93 -0700, Robin Hanson wrote:
+>Nick Szabo writes:
+>>Growing numbers of people may
+>>come to rely on statist welfare or private charity, and may become the
+>>ancestors of those creatures the posthumans will keep as pets. ...
+>First, being a pet is a job with a wage, so those who can be pets are
+>not post-wage.
+
+I'm glad Robin brought this up, because I'm presently hiring in this area. 
+Applicants should be cute, ingratiating, and possess all the other
+qualities we associate with pets.  Must also be young enough to Learn New
+Tricks.  Wages:  room and board; library, media, and computer privileges; a
+negotiable allowance; lots of affection; full veterinary care; hardware
+upgrades as they become available.  Prior housebreaking desirable but not
+necessary; will train.
+
+[:-)] / 2.
+                                        dV/dt
+
+
+------------------------------
+
+Date: Thu, 22 Jul 1993 14:11:51 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Wage Competition 
+
+hfinney@shell.portal.com says:
+> From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+> > In the long run, the entities who own the future are those self-owned
+> > entities whose can resist the temptation to consume their wealth now,
+> > and invest for the long-term.  Whether their wealth is in the form of
+> > capital or wage earning power is largely irrelevant.
+> 
+> I think Robin is right about this.  If robots or other machines start
+> producing more of the wealth, then people who own the robots or the factories
+> that make the robots and other machines are going to have wealth diverted
+> to them from the displaced laborers.
+
+Hal and Robin, you've so disappointed me. Does not anyone here
+understand the notion of comparative advantage?
+
+Here is a clue to solving this whole connundrum for you: imagine that
+all the humans who work themselves live in one country, and all the
+humans with robots live in another, and imagine the trade patterns
+that would arise using the standard logic from Ricardo's proof that
+free trade is good because of comparative advantages. Then, of course,
+do the gedanken experiment again, this time without the silly
+transformation -- the result is, of course, identical.
+
+Perry
+
+------------------------------
+
+Date: Thu, 22 Jul 93 14:35:09 -0400
+From: merritt@macro.bu.edu (Sean Merritt)
+Subject: 133 years old 
+
+SYRIAN MAN DIES AT AGE OF 133 
+
+    DAMASCUS, Syria (Reuter) - A Syrian man who fathered nine
+children with a wife he married when he was 80 has died at the
+age of 133, the official news agency SANA said Thursday.
+    Hamoudi al-Abdullah, whose age if authenticated would have
+made him the oldest human ever, died from a stroke Wednesday.
+SANA said Abdullah, from the northern town of Qamishli, had
+married for a fourth time at the age of 80, after which he
+fathered four boys and five girls.
+    Abdullah, whose three previous marriages were childless, had
+35 grandchildren.
+    The Guinness Book of Records lists the world's oldest living
+person as Jeanne Calment of France who celebrated her 118th
+birthday last February. It says the greatest authenticated age
+to which a human has lived was 120 years 237 days in the case of
+Shigechiyo Izumi of Japan who died in 1986.
+
+
+-------------------------------------------------------------------
+Sean J. Merritt                  |     
+Dept of Physics Boston University| "You leave me dry."
+merritt@macro.bu.edu             |                      P.J. Harvey
+
+
+------------------------------
+
+Date: Thu, 22 Jul 1993 15:04:38 -0400 (EDT)
+From: Edward J OConnell <ejo@world.std.com>
+Subject: future problems
+
+Not really.
+
+I saw Falwell explaining that "God doesn't make people homosexual; that
+would be wrong."
+
+So all scientific proof to the contrary is merely the liberal squeeking of
+annoying pointyheaded geeks.
+
+I imagine they'll hold to this line.
+
+Isolating the gene for homosexuality raises some interesting issues for
+seperatists (with brains, not the MM) though.
+
+Jay
+
+
+
+------------------------------
+
+Date: Thu, 22 Jul 93 13:26:06 -0700
+From: cappello@engineering.ucsb.edu (Peter Cappello)
+Subject: List Software: test
+
+
+------------------------------
+
+Date: Thu, 22 Jul 93 18:07:15 GMT
+From: al007@cleveland.freenet.edu (Nombrist Beor)
+Subject: future problems
+
+> 
+> lem in the future.  Namely, suppose a person or
+> couple is anti-abortion, and also anti-homosexual...
+> So do they abort and save the world from yet
+> another homosexual, or not abort and afflict the
+> world with said homosexual?  Or do they allow the
+
+Worse yet, what if a person *is* homosexual and trying to promote their
+way of life over hetersexuals, as the "gay community" is trying to do now?
+If it is possible to test for homsexual predisposition and the majority of
+the "gay community" keeps their pro-choice stance, they are in essence
+committing suicide because only the heterosexuals are able to reproduce and
+will most likely eliminate "homosexual" babies as if they are genetic defects.
+
+
+------------------------------
+
+Date: Thu, 22 Jul 93 17:09:19 CDT
+From: UC482529@MIZZOU1.missouri.edu
+Subject: TECH: Some information about the Prospero system.
+
+Is anyone else here familiar with a software system called Prospero?
+I've recently stumbled across it.  It's an implementation of a
+theoretical model for file organization that the author, Clifford
+Neuman, calls the "Virtual System Model."  It's quite interesting.
+
+Basically, the VSM supports the following (If this is already familiar
+to you, my apologies.)
+
+1.) A global (potentially Internet-wide) polyhierarchical name space.
+All the objects in the system are nodes in a (potentially discontigous)
+directed graph.  Any directory node in the graph can be
+used as the root of a hierarchical name space.
+
+2.) Objects in this global namespace can have multiple pathnames.
+Like hard links in Unix, each name is fully equivalent to the others.
+If one name is changed or deleted, all other names still remain valid
+and still point at the same object.
+
+3.) Individual users can create multiple personalized views of the
+global name space.  These personalized name spaces are constructed out
+of objects and name spaces created by the users themselves, and/or
+objects and name spaces created by other users.  Resource discovery is
+performed by browsing or searching names spaces constructed by other
+users.
+
+4.) User-definable meta-information ("attributes") can be attached to
+directories and files.
+
+5.) "Union links" can be used to dynamically merge (at access time)
+the contents of one directory into another.
+
+6.) Programs ("filters") can be attached to directories to dynamically
+alter them upon access.  A filter receives as its input a list of the
+objects in the directory it's attached to.  It outputs a list of
+objects; this list is then passed to the process which requested the
+directory listing.  This happens any time the directory is accessed
+(especially when resolving pathnames).
+A filter's output need not have any relation to its input.  Multiple
+filters can be attached, and combined in sequence like Unix pipelines.
+For example, a directory of research papers could be dynamically split
+up into virtual subdirectories by file type or author (by looking at
+an "author=" attribute).  Or, files older than a certain date could be
+withheld from a directory listing.
+
+IMHO, if Prospero gets widely deployed, it will greatly reshape how
+people perceive and use the Internet.
+
+Prospero could possibly be used as a foundation for a global shared
+hypertext system, with each document represented by a directory
+containing links to the objects (blocks of text, diagrams, digitized
+video sequences, etc.) which make up the document.
+
+A directory of papers (in PostScript format) discussing Prospero
+is at prospero.isi.edu:pub/papers/prospero/.  My summary above does
+not really do justice to the niftyness of this system; you really
+should read about it for yourself.
+
+-Anthony Garcia
+uc482529@mizzou1.missouri.edu
+
+------------------------------
+
+Date: Thu, 22 Jul 93 18:58:11 EDT
+From: Brian.Hawthorne@east.sun.com (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: future problems
+
+> If it is possible to test for homsexual predisposition and the majority of
+> the "gay community" keeps their pro-choice stance, they are in essence
+> committing suicide because only the heterosexuals are able to reproduce and
+> will most likely eliminate "homosexual" babies as if they are genetic defects.
+
+0. None of my friends in the "gay community" are trying to promote their way
+   of life OVER heterosexuals. Do you have some evidence for your claim?
+
+1. This isn't suicide. Suicide is killing oneself. At best, your scenario
+   claims to depict a situation where homosexuality would become less
+   prevalent. Even that conclusion I find suspect.
+
+2. Many homosexuals reproduce, whether through artificial insemination, or
+   one of many other methods. You seem to be claiming that sexual preference 
+   is somehow related to whether one wants to be a parent.
+
+3. Given that many heterosexual couples currently choose to carry to term
+   even fetuses known to be likely to have Down's syndrome, I really can't
+   see this being a serious consideration.
+
+Did your hyperbole have some intent other than political rhetoric?
+
+Rowan (HEx symbol: R)
+
+
+
+
+------------------------------
+
+End of Extropians Digest V93 #203
+*********************************
+
+& 

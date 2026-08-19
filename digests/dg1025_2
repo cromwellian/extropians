@@ -1,0 +1,982 @@
+From extropians-request@extropy.org Mon Oct 25 11:40:47 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA19981; Mon, 25 Oct 93 11:40:43 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA29758; Mon, 25 Oct 93 11:40:16 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA08351
+  (5.65c/IDA-1.4.4 for more@usc.edu); Mon, 25 Oct 1993 14:28:11 -0400
+Date: Mon, 25 Oct 1993 14:28:11 -0400
+Message-Id: <199310251828.AA08351@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: October 25, 373 P.N.O. [18:28:03 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Mon, 25 Oct 93             Volume 93 : Issue 297
+
+Today's Topics:
+                          Beating the Stock Market?                   [7 msgs]
+                                  Free Will                           [2 msgs]
+                                 Two programs                         [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 53580 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 24 Oct 93 23:11:13 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Beating the Stock Market?
+
+Young Loudmouth writes:
+> 	Is what we're talking about overlearning?  As in the NN/GP/whatever
+> comes up with something which essentially memorizes the part of the data
+> set we're interested in?
+
+Yes.  Another name for this is "overfitting", which comes from
+statistics (regression).
+
+> 	Aren't there some fairly standard tricks to at least cut down
+> appreciably on memorization by grinding on a "test" subset and checking
+> either a larger or a separate chunk of the dataset? 
+
+Yes, the main traditional method is to do an independent post-test:
+test the statstical validity of the model on a different set
+of data than was used to generate the model.  There are a a few
+problems with this.  One problem is that the generator
+will often find ephemeral patterns that exist in the sample data but 
+not the post-test data.  Even worse, if we use post-test as an
+excuse to forget about parsimony, the in-sample data may simply
+be "memorized", generating a "brilliant penny" that fails
+on the post-test data.  To avoid wasting the vast majority of model 
+generator cycles, the generating process itself (whether human with 
+a statistics package, GP, NN, whatever) still needs to worry about 
+parsimony.  
+
+Yet another problem is that the generator may not find a 
+pattern at all, or may underestimate the statistical viability of the 
+pattern, because there is not enough data in the sample set.  This is 
+especially true when, as is usually the case, the most recent or otherwise 
+most significant data is saved for the post-test.   Without the need 
+for a post-test we might cut our need for data by half or more, cutting 
+in half our time-to-market. (These models quickly become obsolete once
+they become widely used.  One of my goals is rapid development
+of disposable strategies, finding the patterns and bringing the
+corresponding trading strategies to market as soon as the
+patterns become statistically significant, and moving on when
+the patterns have become exhausted by overtrading or decay
+in the underlying pattern).
+
+If the information-theoretic probability of
+finding the model that parsiminously explains part of the
+data is low enough, we can be confident that we have avoided 
+overfitting and don't need to throw out the best part of the
+data set to save it for independent verification.  I also
+suspect that, since it's measured over the entire available
+data, the parsimony-derived risk estimate will be more accurate
+than the the risk estimate derived from the post-test on the
+out-of-sample data.  (this remains to be mathematically verified).
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Mon, 25 Oct 93 0:09:45 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Beating the Stock Market?
+
+Derek Zahn writes:
+
+> Tim May:
+> 
+> > The hedge fund manager I mentioned subscribes to several hundred
+> > dollars a month of price quotes, and routinely loads 50 megabyte data
+> > sets into RAM for crunching. (On a mix of IBM RS/6000s, 486 boxes, and
+> > Mac Quadra 950s.)
+> 
+> Already this sounds promising.  Still, to me the most interesting
+
+I'm not so sure of that, ironically. If in fact there is no way to
+beat the market--as would presumably be the case if the data sets were
+essentiallly comprised of random coin tosses (I'm not saying they
+are)--then no amount of crunching would help. In fact, more crunch and
+more elaborate models  (e.g., Duncan Frissell's mention of the article
+on computing the 5th-order Lyapunov-Stokes coeffecients of the neural
+net regression indices) make only delude the investor into thinking
+patterns exist where only randomnesss really exists.
+
+> question regarding data is stuff beyond price quotes.  Perry has
+> mentioned that a strategy of picking good companies with good
+> products in an industry that the picker understands well has
+> worked for him, and that seems pretty sensible to me as long
+> as it's done with ruthless honesty and ego-detachment.  From
+> your various posts, Tim, I gather that something like this is
+> how you have invested your money and it seems like it's paid
+> off for you.  The reason I like this approach is that it takes
+> full advantage of the human biocomputer's ability to correlate
+> lots of different kinds of information.
+
+Yes, I read (parts of) Graham and Dodd ("Elements of Securities
+Investing,' the bible of "value-based investing") when I was starting
+out. I bought Apple, Sun, and of coure Intel when they were starting
+out. And I did well on these (Intel's market value is around $27-30
+billon, while IBM's is $24 billion...who'd've though Intel would be
+more valuable than IBM?).
+
+However, I don't think I ever did much correlation of vast amounts of
+information. I knew the business, so I invested in it. It was
+fortunate for me it was a major growth business of the past 20 years.
+
+History get written by the winners. Any soldier than win enough major
+battles automatically becomes a general. And so it goes.
+
+....
+> management is taking an active interest in making the corp.
+> profitable.  A Truly Impressive Induction Engine would take
+> such things into account when trying to squeak out a statistical
+> edge... what tends to happen months down the road after such
+> actions, for companies of various characteristics?  While
+> I agree that the price of slippers in Tangiers might not have
+> any predictable effect on the performance of stocks, it sure
+> seems like lots of non-price data could.
+
+That's what my friends think, also. And of course they're feeding in a
+lot more than just price histories. (Of course, the CIA computers in
+Langley are chock-full of terabytes of retrievable information about
+companies, countries, weather patterns, crop failures, and on and
+on....so why when they want extra money do they do arms deal instead
+of just running their investment portofolio?)
+
+> > (Hint: automate a lot of "fundamental" ideas into thousands of if-then
+> > rule sets...like an expert system. Mix with neural nets, genetic
+> > programming to "crawl" through huge amounts of data, combine with
+> > sophisticated statistical analyis, season with hedging and portfolio
+> > insurance to adjust the beta to taste.)
+> 
+> Were I to try such a venture, that's _exactly_ what I'd do.  To me,
+> there are two overwhelmingly difficult problems:  formatting the
+> relevant data, including prospecti and so on, and reducing it
+> enough to make the computations tractable.  I remember running
+> some neural nets on the University's Connection Machine, which
+> is a substantial amount of processing horsepower, and yet it
+> still was infuriatingly slow for nets of reasonable size.
+> Many runs would literally take days with 32 processors chugging
+> away.  A friend of mine is doing his dissertation in this area --
+> choosing likely-relevant features from very large candidate
+> feature pools.  Interesting stuff.
+
+A new tidbit of news. I was at one of the usual Bay Area parties on
+Saturday (one which I told Nixk Szabo about, too) and had many
+interesting coversations with the usual assortment of bright folks.
+ONe of them was Mike Deering, noted computer graphics guru, AI/vision
+researcher, consultant on films using computer graphics, and head of
+Sun Microsystem's virtual reality project (not as well-publicized as
+Silicon Graphics, though). He told me that he knows of several
+successful AI-based trading programs (!!) and that much of the "AI
+doesn't work in finance" commentary is disinformation. 
+
+(His involvement comes from some Sun projects to deploy VR
+visualization of market data for some high-power trading firms. Perry
+Metzger may be able to speculate on who they are.)
+
+> > My friend's work with using a panoply of induction techniques (every
+> > trendy word, from neural nets to genetic programming to Black-Scholes
+> > portfolio methods to chaos to expert systems to Bayesian
+> > statistics....)
+> 
+> Ooh, don't forget fuzzy logic and information-theoretic decision
+> trees!  Seriously, I think that this approach that your friend is
+> using is quite promising for gaining a little edge over most
+> investors.
+
+Oh, yes, these are surely part of it! Along with holographic analysis,
+emergent behavior, aptical foddering, and "Sixth Generation"
+something-or-other. 
+
+Seriously, I am intrigued, but not because of some buzzwords. Rather,
+the "information content" of markets...a familiar story to some of us.
+
+> > machine on top of his t.v., opens a Bud, and sits down to crunch the
+> > latest scores, possibly downloaded automatically, via subscription.
+> 
+> Yes... but these induction techniques are major CPU hogs...
+> 
+> derek
+
+I expect "services" to arise...like the 900-number-based "point
+spread" lines.
+
+And when such numbers are banned ("gambling," "unlicensed investment
+advice"), move them offshore, or into cypherspace.
+
+--Tim May
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Mon, 25 Oct 93 0:30:27 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Beating the Stock Market?
+
+Young and Loud sez:
+
+> 	We've already had a discussion on these "brilliant pennies,"
+> but perhaps some more clarification is necessary (at least for me.)
+> 
+> 	Is what we're talking about overlearning?  As in the NN/GP/whatever
+> comes up with something which essentially memorizes the part of the data
+> set we're interested in?
+
+I think there are two distinct issues here, though I don't disagree
+with the spirit of Nick's use of "brilliant penny" to capture the core
+ideas.
+
+First, finding patterns where none "really" exist, as in crunching on
+a truly random (coin tosses, radioactive decays, cryptographically
+strong pseudorandom number generator) data set and then reaching
+"conclusions" (rules, heuristics, periodicities, etc.). Many
+"postdictive" analyses fall into this trap.
+
+Second, an investor can become convinced that a system "really works"
+by selective exposure of information, as in the "brilliant penny" scam
+and any number of other cons and magic tricks. 
+
+Each of these points rates more extensive discussion. 
+
+
+> 	-o   (Who'll be wandering to Computer Literacy in search of
+> the AIT book RSN)
+
+I assume you mean the new book, "An Introduction to Kolmogorov
+Complexity and Its Applications," by Ming Li and Paul Vitanyi?
+Computer Literacy does not even have it in it computer. I got tired of
+waiting and ordered it directly from Springer-Verlag. Kind of risky,
+as I have not yet browsed through it. But it's one of the few books in
+this area, and lots of interesting application domains are treated.
+
+The ISBN number is 0-387--94053. 546 pages. $59 plus sales tax plus $6
+shipping for second-day air (which means I'll get it on Wednesday).
+
+Springer-Verlag's number is 800-SPRINGE, or 800-777-4643.
+
+--Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Mon, 25 Oct 93 0:58:37 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Beating the Stock Market?
+
+Derek Zahn: 
+> If you can trade and read both
+> markets instantaneously, doesn't that mean that delta-t is zero?
+
+In that simple binary price model Delta-t=1 unit is the amount of 
+time for the price change to propagate from one market to the other
+when the data was gathered.  One of the things a better 
+arbitrage model has to do is collect the data, compute the arbitrage 
+and execute it in a time shorter than the current lag time.
+The current "arbitrage" might involve a wide variety of indirect
+signal propagations, for example market reaction to release of
+a financial statement that reflects info already available
+before the statement was released, but no volume trader had
+made the connection.  Another example is wheat futures
+responding to flood news on the radio, but the gauge data was 
+available on-line somewhere a few minutes sooner, perhaps
+enough to gain a big edge for a trader-bot that could recognize
+the weather data's consequences when it saw it.  So the lag might 
+be seconds to months, depending on the situation.
+
+> "The amount of information given
+> by the realization of two finite schemes A and B equals the
+> amount of information given by the realization of scheme A
+> plus the mathematical expectation of the amount of additional
+> information given by the realization of scheme B after the
+> realization of the scheme A."
+
+Plus the amount of information needed to specify that mathematical
+relationship.  Or, in general, the size of the Turing machine that
+gives us B from A.  This is where AIT the comes in.  In many real world
+cases, that model is as complex is the data it's supposed
+to represent -- overfit and therefore much more likely to be a "brilliant
+penny" reflecting the random details of the data rather than a
+significant ongoing pattern.   (The elementary counting argument 
+-- most strings are mostly random).
+
+> I suppose that you're driving toward the idea of using
+> something like Genetic Programming with a high parsimony
+> bias to construct arbitrage models for the two sequences.
+
+And, in addition, using Htm to determine the
+probability we have found a real pattern, and incorporating
+that into the risk profile of the portfolio alongside the
+unhedged random/unmodelled components.  This can be done
+both in the fitness function and afterwords to prove the
+model has found a real pattern, in lieu of the traditional
+post-test on out-of-sample data, which is wasteful.
+
+> My doubt comes from the fact that every trader in the
+> market is building models of the market and the actual
+> market prices are emergent phenomena of their ensemble.
+> I'm not sure that Occam's razor is as compelling in
+> such a circumstance.
+
+Occam's Razor is compelling from AIT consideration of the
+model and the maximum information available in the data,
+regardless of how that information was crammed in there.
+We can only hope to find small predictable components.  It's
+futile to try to predict most of the price most of the time.
+Almost all of the price is going to be random most of
+time, reflecting all these other players and information we
+don't have.  Fortuneately, much of that randomness (c. 70%) is 
+covariant with other securities, eg a basket of stocks in the same 
+industry, and can be hedged away.  For stocks, we have to compress 
+a small percentage of the remaining 30% during a small fraction
+of epochs, eg responding to certain kinds of news, various
+econometric data releases, etc. to come up with a strategy that wins 
+with high probability after a reasonable number of trades.  
+
+Other securities are better or worse in various ways.  For example fixed 
+income securities (bonds, money market, etc.) and their synthetic assets (eg
+bonds stripped of their coupons, bond options, floaters and inverse
+floaters, etc. etc. etc.) are often deterministic after hedging out 
+interest rates and currency fluctuations, the remaining task being to 
+find often complex nonlinear relationships between them.  
+Fixed-income securities would be ideal for GP except that market 
+data is proprietary and scarce.  For commodities it can be 
+harder to hedge away unknown information and market randomness, 
+but the cause-and-effect between available data (harvest & 
+stockpile surveys, weather, etc.) is often clearer than
+with hi-tech stocks (although still complex enough I suspect futures 
+traders are missing many good complex nonlinear models).
+
+As for sports wagering, there's a guy I met at a GP lunch who
+is doing regression from the horse racing form.  His models so far 
+beat the average but still lose money (no surprise -- the house takes 
+something like 17%).
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Mon, 25 Oct 93 1:41:33 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Beating the Stock Market?
+
+Tim May: 
+> [Two kinds of "brilliant penny"]:
+> First, finding patterns where none "really" exist, as in crunching on
+> a truly random ... data set...
+
+> Second, an investor can become convinced that a system "really works"
+> by selective exposure of information,
+
+The reason I don't make a big distinction is that the method of
+"crunching" typically involves just such selective exposure of
+those models that make the most money (whether the crunching
+involves a human picking rules, algorithms, regression models,
+etc. or a learning algorithm searching the space of models).
+
+Specifically, for GP to work well, it needs an automated way of rejecting 
+such brilliant pennies.  Htm/(H(x)-H(residual)) not only measures 
+the parsimony, it also, by the string enumeration/counting argument,
+measures the probability that H(x)-H(residual) is random, ie the
+probability that the model is a brilliant penny.  This allows
+GP to compute, in every fitness case, the riskiness of the resulting 
+portfolio, based not only on the randomness of the unhedged residuals, 
+but also on the probability that the model itself will work.  
+
+Currently the "algorithmic trading" community uses a lot of messy rules 
+of thumb to incorporate parsimony into rather subjective estimates of 
+the reliability of the strategy, often loosely based on measures like 
+the number of independent variables, but often ignoring the amount of
+data the model attempts to explain.  This often done manually or 
+post-hoc, not as an automated part of the model generation process, 
+as I am proposing here.  There is nothing in use resembling a rigorous 
+information-theoretic comparison of the model and the data it 
+compresses.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Mon, 25 Oct 93 12:00:30 GMT
+From: M Holmes <fofp@castle.ed.ac.uk>
+Subject: Free Will
+
+> 
+> 	>In the case of Searle's "Chinese Room" we can easily imagine
+> 	>characters being manipulated, but it's harder or
+> 	>impossible to imagine the whole system having a structure so
+> 	>complex that it could comprehend the meaning of its thoughts.
+> 
+>  The flaw in Searle's Chinese room is that almost all the
+> understanding must be in the HUGE book of rules not in the
+> incidentally human part. Yes, it does seem strange that
+> consciousness is somehow hanging around the room as a whole,
+> even if slowed down by a factor of a trillion or so, but no
+> stranger than the fact that consciousness  is hanging around 4
+> LB's of gray goo in our head and yet we know that it does. Its
+> time to just face the fact that consciousness is a property
+> matter has when it is organized in certain complex ways.
+> 	 
+> 			     John K Clark        johnkc@well.sf.ca.us
+
+
+
+
+My first post to this list. I hope the style isn't too irritating to
+those who prefer totally serious discussion. After the 1990 New
+Scientist article I got to thinking about Searle's argument. I was
+pretty sure he was wrong and maybe it was too soon after I read
+Hofstader's "Godel, Escher, Bach", but I was sure that Searle's
+arguments could be turned against his own thought experiment. I thought
+about it for a couple of weeks and when I sat down to write something,
+this is what came out:
+
+
+
+I was A Chinese Sex Symbol - A Fable of a Chinese Room
+======================================================
+
+Once there was a man called S. S was a very clever man, a philosopher, a
+philanthropist and an entrepreneur. In his early life he stayed in China
+and on learning the Chinese language he decided to write a Book of
+Rules. This Book was a wondrous thing for it outlined in English a set
+of Rules for manipulating Chinese symbols. It allowed someone who could
+read the book in English to receive a set of Chinese symbols, and by
+following the Rules, produce another set of Chinese symbols.
+
+Once the Book was complete he built a room which he called the Chinese
+Room. This room contained two slots to the outside. In one slot people
+would deposit scrolls of Chinese characters and from the other would
+receive a scroll of Chinese characters in return. The first scroll
+would contain questions written in Chinese and the second would contain
+answers written in Chinese.
+
+In order to complete his project he advertised for a deputy:
+
+Must know English
+Must not understand Chinese
+Must be a very fast worker
+
+A certain young man called Bob, who was very fast on his feet, had a
+good command of English and hadn't yet learned Chinese was hired for the
+post. 
+
+Bob's duties were dull but he did them well. He would sit inside the
+Chinese Room, receive scrolls of Chinese Characters and then, reading
+the Book of Rules which S had written, produce new scrolls of Chinese
+characters and pass them out from the second slot. He found that his
+lack of understanding of Chinese actually helped prevent distraction.
+
+When the Chinese Room was opened for business, peasants came from far
+and wide to ask questions of this Oracle.  The questions were always
+answered succinctly and all assumed that inside the Chinese Room there
+lay a great Sage with understanding of all things Chinese. 
+
+Then one day, along came Confucius who decided to teach the Chinese Room
+some Chinese stories in order that he might ask questions. The Oracle
+answered wisely but strangely always had to have the stories
+given immediately before the questions. Never did the Oracle remember
+a story the next day. Confucius was confused and suspected that the
+Room contained a machine rather than a Sage. Once the peasants
+discovered that the Oracle would not remember their lives and problems,
+business began to fall off. Profits went down.
+
+S was perturbed by this. He had by now made learned speeches about the
+Chinese Room and how it would appear to understand Chinese and yet
+clearly did not. He saw that his Book of Rules could cope well with a
+set of symbols which included both a story and questions but appreciated
+that if the stories were not remembered, people would become
+disillusioned and suspicious.
+
+S adapted his book of Rules to include instructions on how some Chinese
+symbols might be kept in the Chinese Room and perhaps consulted later
+according to some new Rules.  S called this a "memory" but to Bob it was
+just more rules and more manipulation of symbols and his task continued
+as before.  Confucius was pleased that the oracle had finally decided to
+remember stories.  This would save him a lot of scroll writing. 
+
+Things continued happily.  Bob was diligent at his task.  The peasants
+were pleased with the Oracle, and the Sage inside was yet more widely
+admired.  Profits were up and S gave yet more learned talks about his
+Chinese Room. He gained great repute in learned circles.
+
+Then one day Confucius came back. "I have written.." he said "..a Book
+of Rules in Chinese which will teach the Chinese Room to speak English."
+
+Wondrous was this new Book.  It would represent each English letter with
+the appropriate Chinese symbols and written in Chinese were the many
+Rules that would inform the Chinese Room how to manipulate these symbols
+in order to produce new symbols representing the Chinese description of
+English letters.  Remembering a previous visit, he included instructions
+on storage of symbols.  He called this a "memory".  He gave these
+scrolls to the Chinese Room.  Bob was very busy that day. 
+
+Now Confucius could invite along the local English missionary, who knew
+no Chinese. He taught the missionary how to write the Chinese symbols
+for each English letter and after this the missionary could ask
+questions in English and receive the answers in English, although translating
+the Chinese characters to their English equivalents took a little time.
+
+This was regarded as a wonderful feat. Now the Chinese Room understood
+both Chinese and English as far as the peasants were concerned.
+Confucius thought that perhaps it didn't really understand English since
+it was only obeying his Book of Rules which he had written in Chinese.
+But he saw that it clearly did understand Chinese. 
+
+S was a worried man. he knew that the Chinese Room didn't understand
+Chinese, it was only obeying the Book of Rules he'd written in English.
+Bob understood English, so perhaps that meant that the Chinese Room
+really did understand English even though it was only obeying a Book of
+Rules in Chinese. However the missionary had invited his English friends
+to visit the Oracle and since the Room now answered both Chinese and
+English questions, business was booming.
+
+All this work though, was taking its toll on Bob.  He had twice as much
+work to do and he wasn't getting any younger.  He was slowing down.  The
+peasants and the missionary's friends were becoming impatient. 
+
+Fortunately S had access to Western Technology. He decided to re-invest
+some profits in the business and bought some computer equipment. "This
+is a Sun workstation, Bob" he said "It's even faster at producing
+scrolls than you are!". He told Bob that from now on the Chinese
+characters would appear on the screen in a "window" and Bob should then
+look up the Book of Rules and type the answering characters in a second
+"window". This saved a lot of scroll writing for Bob, and he could
+concentrate on looking up the Rules. S ran two cables out from the slots
+and connected them to another terminal outside the Room. Now the
+peasants could just type Chinese questions onto a window on this second
+terminal and the answers would appear in a second window. They were
+amazed and astounded, and pleased that they wouldn't have to buy so many
+scrolls.
+
+Confucius came to the grand opening ceremony for the new modernised
+Chinese Room.  He saw the wondrous Western Technology.  He also found
+and read the User Manual.  This was an obscure and yet sometimes
+informative Book and later in the evening, when things were quieter,
+Confucius sat at the new terminal outside the Room and typed peculiar
+words in a strange new language.  He was there all night.  "It's a
+tradition of us programmers" he said mysteriously next morning. 
+
+And the next day another wondrous thing had happened.  There was a third
+window on the terminal outside the Room.  Confucius was explaining that
+he'd written something in "sea language" which would translate English
+characters typed into the third window, into the equivalent Chinese
+characters in the first window.  This would save the missionary and his
+friends the necessity of translating English symbols into Chinese ones
+and their answers would appear in English characters in the third window
+after the equivalent Chinese characters of the answer appeared in the
+second window. 
+
+S was pleased. Business was booming and he was being invited to an
+academic conference to talk about the Chinese Room. He would explain how
+it appeared to understand Chinese and yet Bob was only obeying his Book
+of Rules written in English. He was worried by the question of whether
+Confucius's Book of Rules in Chinese really made it understand English.
+Confucius had really just imitated S, and yet Bob did understand
+English.
+
+Confucius had been walking around the gardens with a thoughtful look on
+his face. He'd been wondering whether or not the Room could really be
+said to understand English. One day when the missionary visited
+Confucius's home, Confucius wasn't there. "Gone to an Academic
+Conference" said a note pinned to the door.
+
+By some coincidence S was giving a lecture on the Chinese Room at this
+very Conference. S saw Confucius at the back of the hall, leaning
+against his cane and listening attentively.
+
+On his return, Confucius again typed from dusk until dawn at the
+terminal. In the morning he walked up to the Chinese Room and rapped on
+the wall with his cane. Bob, inside, was startled. No-one had ever done
+this before. He walked over to the source of the noise, by the two slots
+where the cables passed in and out. Suddenly a strange square black
+object popped through the slot and dropped noisily. This was followed
+by a note which fluttered gently to the floor. The note was in English
+and explained that the square object peculiarly referred to as a "disk"
+should be entered into Bob's terminal. "I've configured the system so
+that you can open a window to my English front-end program" it said
+mysteriously. "You'll get access to the Chinese Room" it added.
+"The results will interest you".
+
+Well, this was intriguing and Bob's life had been dull lately so he slid
+the square disk into a slot underneath the two windows and after a brief
+moment a third window appeared! The window contained only the words
+"Next Question:".
+
+Bob was amazed. He found he could ask any question he wanted, in
+English, and get a reply. He was continually distracted by Chinese
+characters appearing in the first window and the need to look up Rules
+and type Chinese characters into the second window but he found time to
+type questions into the third one in English despite being busy. He
+concluded that he was somehow talking to a girl through the terminal.
+She was incredibly clever and appeared to have a perfect memory. She
+would never agree to meet him after work though and Bob was continually
+distracted during work by the arrival of more Chinese symbols. In fact
+every single time he asked her a question, more Chinese symbols arrived.
+
+In desperation, Bob had an idea. If his new girlfriend would agree, he
+would type in all the English Rules from S's Book. She had a perfect
+memory so she'd be able to remember them all. Then he'd just pass the
+Chinese symbols to her and she'd produce for him, using the Book of
+Rules he'd taught her, the resulting Chinese symbols. That'd give him a
+lot more time to talk to her.
+
+It all worked perfectly and Bob even worked out a way to automatically
+copy incoming Chinese symbols from the first window to the third and to
+copy the resulting Chinese symbols to the second window. His girlfriend
+was so fast that she could do all his work and still find time to talk
+to him. Bob was very happy.
+
+Outside the Room, the peasants and the missionary and his friends were
+all happy. The Oracle was solving all their problems in both Chinese and
+English.
+
+Confucius and S took a walk in the garden together. Confucius, with a
+strange twinkle in his eye said "I must teach her C sometime..."
+
+S fainted.
+
+
+
+------------------------------
+
+Date: 24 Oct 93 13:56:00 -0400
+From: USR1593A@cbos.uc.edu
+Subject: Two programs
+
+I have written two programs that should be of extropian interest and are freely
+available.
+
+1) CLIFE.ZIP on the Simtel archive mirrored at oak.oakland.edu in the pub/msdos/
+simulation directory.  This program is a graphic abstract illustration of the id
+entity issues involved in uploading consciousness to a computer.
+
+2) DOUBLE.ZIP on the Flexsoft BBS 1-510-829-2293. This program is called Double
+Your Money. It runs a price simulation based on Feder's formulas in Peter's book
+ Chaos and Order in the Capital Markets. You control your stop and limit orders
+and the Hurst exponent. Feder's formula generates the biased random walk. Real-t
+ime charts display your progress. Windows required.
+Bruce Zimov                           usr1593a@cbos.uc.edu
+
+------------------------------
+
+Date: Mon, 25 Oct 1993 08:17:49 -0500 (CDT)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Beating the Stock Market?
+
+Peter McCluskey:
+
+> >Inc. announces that they're going to lay off a thousand workers,
+> >the stock usually bounces upward.  I guess that the reasons for
+> 
+>  If there is such a correlation (which I doubt), it probably happens
+> only when the market realizes that the company needs to lay off
+> workers before the company realizes it.
+
+Well, of course.  Given our absolute faith in the market, that's
+exactly why such bounces occur!
+
+> >  - backpropagation neural net
+> 
+>  Backpropagation doesn't have much to recommend it. Good learning algorithms
+> that have evolved from the basic idea behind it are sufficiently different
+> from it that they deserve to be classified as something else (e.g. cascade
+> correlation).
+
+By "backpropagation neural nets" I mean generically the class
+of techniques that perform gradient descent on an error surface
+by mathematically percolating the error "backward" through the
+parameters used in the function being computed.  I agree that
+some of the tweaks are quite helpful.  As to cascade correlation,
+I've never been very impressed with its ability to solve problems
+with very large numbers of "input units" because of the epicycle-
+style way new free parameters are added to the model.
+
+derek
+
+
+------------------------------
+
+Date: Mon, 25 Oct 1993 10:17:02 -0500
+From: cpresson@jido.b30.ingr.com (Craig Presson)
+Subject: Free Will
+
+In <9310251200.aa02812@uk.ac.ed.castle>, M Holmes writes:
+[...]
+|> My first post to this list. I hope the style isn't too irritating to
+|> those who prefer totally serious discussion. After the 1990 New
+|> Scientist article I got to thinking about Searle's argument. I was
+|> pretty sure he was wrong and maybe it was too soon after I read
+|> Hofstader's "Godel, Escher, Bach", but I was sure that Searle's
+|> arguments could be turned against his own thought experiment. I thought
+|> about it for a couple of weeks and when I sat down to write something,
+|> this is what came out:
+|> 
+[...]
+
+M, you just won some kind of first post award. That was effin'
+brilliant.
+
+The CRE is 1) not possible in the real world; 2) not provably or even
+arguably an optimal approach to the stated problem; 3) yet another
+philosophical red herring. It amazes me how much discussion it has
+generated. Anyway, your sendup of it is terrific.
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+"The question of whether a computer can think is no more interesting
+  than the question of whether a submarine can swim."
+	  -- Edsger W. Dijkstra
+
+
+------------------------------
+
+Date: Mon, 25 Oct 1993 10:43:19 -0700
+From: thamilto@pcocd2.intel.com (Tony Hamilton - FES ERG~)
+Subject: Beating the Stock Market?
+
+On Oct 24, 11:16am, Derek Zahn wrote:
+> Subject: Beating the Stock Market?
+> Tony Hamilton:
+>
+> > Don't be so sure, Ray (on the MS and NT thing). Early indicators show NT
+> > losing momentum in a big way to OS/2.
+>
+> Could you elaborate on this a bit?  What are these early indicators?
+> As a software developer I'm very curious.  My personal analysis has
+> been that the Windows line will win:
+
+Be glad to elaborate. Point by point...
+
+> * Windows 3.1:  Huge and growing installed base.  More software
+> for 3.1 is being sold than for any other "operating system".
+> Tens of millions of people run it.  This is important because,
+> come upgrade time, people often take the path of least resistance
+> unless there are overwhelming reasons to learn a new environment.
+
+Win #1 for OS/2 v2.1: Runs Win3.1 software faster than win3.1! Also runs and
+multitasks DOS applications much better than Windows 3.1. But yes, the ONLY
+advantage Windows 3.1 currently has is a much larger installed base. The
+point is, however, that 32-bit OS's are the new battleground. THe
+assumption has always been that the 32-bit follow-on to Windows, because
+of installed base, will by default be the winner. The tricky part, however,
+is that OS/2 _is_ a valid Windows 3.1 follow-on. Let us not forget that IBM
+is fully licensed to use any Windows 3.1 _OR_ Windows NT technology. That
+agreement came to end, of course, in September. But it means that the
+validity of anything IBM makes to follow on to 3.1 or NT is just as sound
+as anything Microsoft makes. Truly, the best OS will win, not just the one
+with the name "Microsoft" on it.
+
+> * Windows 4 (Chicago):  NT for the masses.  Looks to be a clean
+> and consistent upgrade path.
+
+Actually, not at all NT for the masses. Chicago is actually far more
+sophisticated than NT, just not as powerful as all. It is a completely
+separate path, however, from NT. There are two paths. One is the Windows
+3.1 to Windows 4.0 path. The other is NT to Cairo. Note that I didn't
+mention a Windows 3.1 to NT path. Why? Because it virtually doesn't exist!
+Will talk about that more later, though.
+
+A couple of key points: It is rumored (I think rumor, perhaps an actual
+announcement or statement was made) that there are some problems with
+Chicago (Win4.0). This news comes after MS announced the intention to step
+up development. Originaly plan was to release in Q1 of 94. Now we may be
+looking at end of next year.
+
+Another point is the API controversy. There used to be Win32, Win32s, Win32c,
+and so forth and so on. The different API's were specific to the various
+operating systems. I won't pretend to know exactly the differences, but since
+all of them were developed, MS has now globbed them all into one, the idea
+being that the confusion was hurting them. However, I did understand, generally
+why there were so many (there were more than I listed), and think there will
+be even more problems now. From what I gather, the consolidations of API's
+may actually jeopardize 32-bit Windows application compatability with
+Chicago (Win4.0). This may be the reason for the schedule slip. I could go
+into it much more. But, the bottom line is, this two-path strategy between
+the various operating systems is going to hurt Microsoft, and they now know
+this.
+
+> * NT: sure it's big and slow and clumsy, and hardly anybody is
+> running it, but so what?  Seems to me that Microsoft knows
+> exactly what they're doing -- 1995 or so.  The one thing that
+> Microsoft seems to know better than anybody is the pace of
+> technology adoption.  The only reason it's out there now is
+> so that developers can see what's on the horizon.  If these
+> "indicators" are just that a fair number of people forced
+> to choose an OS for LAN server machines right now are picking
+> OS/2 instead of NT, that doesn't seem very convincing unless
+> they're converting the ENTIRE operation to OS/2.  As long
+> as they have to deal with some kind of Windows system on
+> a regular basis, they'll be perfectly happy to switch to
+> NT when appropriate, patting themselves on the back for
+> their prudent and timely choices.  For that switching to
+> be painful enough to prevent abandoning OS/2, these organizations
+> will have to have developed lots of in-house OS/2 code not easily
+> portable to NT.  I think most MIS types would call that
+> a "mistake".
+
+Well, you are missing what is happening, to a point. First, for those who need
+OS's for LAN's and servers, they _ARE_ by and large going with NT. This then
+begs the question of where OS/2 is supposedly gaining market share. Well, guess
+what, OS/2 is no longer being marketed as a server operating system. It's
+gaining market share, and FAST, in the single-user market! As for MIS decisions?
+NT is indeed clumsy, and is nowhere near well-positioned for the desktop. So, in
+cases where shops NEED 32-bit OS (and that number is increasing exponentially as
+the applications demand more power) at the desktop, they are going OS/2. Let us
+look at the scorecard:
+
+1. OS/2 runs all existing 16-bit apps faster than Win3.1 or WinNT. Same for DOS
+apps. (I hear an upcoming release of NT may help to close the gap, though.)
+2. OS/2, new or upgrade, is cheaper, and more efficient. Takes up only 40MB of
+disk space vs. 80 I believe. Why? They don't package in everything you don't
+need. Good example: desktop users do NOT need SMP capability build in: NT users
+pay for it no matter what.
+3. OS/2 is potentially 12 months ahead of anything equivalent from MS, maybe
+even more. And, IBM marketing types are finally learning how to sell this OS.
+
+> * Windows everywhere:  by the time any new architecture starts
+> to gain popularity, some version of Windows will run on it.
+> This cross-platform availability seems like a really strong
+> strategy to me.
+
+Actually, this whole NT vs. OS/2 war may be a factor in killing any new
+architecture hopes (I am obviously in favor of this, working for Intel, but the
+point is valid): OS/2 _is_ gaining momentum fast in the already-isntalled base
+of x86-architecture machines. An installed base which dwarfs any other
+architecture existing. Porting _the_ operating system used on these machines to
+other architectures will help to kill the x86 platform (or diminish it). But,
+because of OS/2, the jury is still out on what operating system will be used on
+the x86 machines (and specifically, the power users and corporate accounts) by
+the time other significant architectures are ready to compete (namely, PPC and
+Alpha come to mind). I cannot comment on whether or not OS/2 will have
+cross-platform interoperability, but I bet market demand will see it happen.
+As it is, NT cross-platform availability does little, since NT still only adds
+value to the high-end market, which is already comprised of primarily non-x86
+machines anyway. For the record, though, OS/2 will be ported to RS/6000, which
+is certainly a good member of the RISC market. And, since IBM makes PPC601, we
+can only speculate that the PPC is a good candidate as well.
+
+> I believe it's accepted by everybody that any operating system
+> will have to run Windows applications to have a chance of gaining
+> significant (non-niche) market share.
+
+And it does. The question is: what is Windows applications? Answer: 16-bit.
+There simply isn't more than a handful of 32-bit apps out there, certainly not
+enough to drive the market any time soon. 16-bit Windows apps are still the
+market drivers. Interestingly, though, while it never caught on before, thanks
+to IBM's wonderful marketing (sarcasm in the extreme), 32-bit OS/2 apps are now
+being made by the dozen. The numbers should easily match NT 32-bit apps month by
+month. You can bet Microsoft is worried about these factors...
+
+> Don't get me wrong -- though I'm betting on Windows I don't
+> particularly like it.  If I had my choice, I guess I'd pick
+> NextStep -- but I don't get to pick which operating environment
+> wins.
+
+Well, I have seen NextStep on a 486, and it flat-out crawls (either it was much
+better in a real Next box, or Windows did a lot of catching up since Next took
+the industry by surprise so many years ago. I think a bit of both). I like NT a
+lot, but it doesn't perform as well, and is a resource hog. I like the OS/2
+interface slightly less, but it's what I'm going with on my desktop ASAP. As an
+applications developer (for 16-bit apps), I have no choice really. Windows 3.1
+simply crashed and burns many times daily (and believe me, I'm an expert on
+doing everything possible to keep this to a minimum), and NT would slow me down
+too much, since nothing I work with is 32-bit at this point (I work with a
+number of development tools such as Visual Basic, Power Builder, etc...). I'm
+not alone. I see a growing movement of productivity-minded users (word
+processing, spreadsheet), also growing increasingly dissatisfied with 3.1, and
+faced with almost no choice (truly, you have to compare NT and OS/2 head to head
+to see how poorly NT rates).
+
+> How can OS/2 possibly win in an environment like this?  The only
+> way seems to be that it'll be a cheaper NT than NT, but I don't
+> see how IBM has any hope of diverting the flood of developers
+> committing to Windows.
+
+That flood of developers is already starting to shrink, not grow, as they now
+realize that NT is never going to hit the desktop in a big way. Note: NT was
+always the "great hope". Only late in the development cycle did Microsoft start
+admitting that Chicago is their target OS for the desktop, not NT. And, likely
+the reason why Chicago is now delayed, many NT apps would not otherwise run on
+Chicago until ported! This is because, while it offers many things NT does not,
+it is missing many things NT has, threads being a real big one!!! That's right,
+Windows 4.0 doesn't do multi-threading, along with a number of other things many
+NT developers have been using.
+
+Anyway, the big NT momentum was during 92 and early 93. Now, after release, that
+momentum has in _fact_ reversed, and OS/2's is picking up. Now for a little
+reality check: the gap is _enormous_! OS/2 has a _lot_ of ground to cover if it
+is to truly compete. Were it not for the many misfortunes Microsoft has had from
+the start, IBM would have bowed out long ago. Instead, the opportunity has been
+presented to IBM, and they're doing everything they can to seize it. Does
+Microsoft still have the advantage? Of course. The signs simply indicate that
+this advantage is slipping. Just like in a tennis match, however, if you're up
+by 3 sets, you can afford to give one up. It only takes one game to win the
+match. Microsoft has just been losing every game and set for the last 6 months
+is all...
+
+
+  I know that lots of OS/2 applications
+> are being released, but again that doesn't really mean much --
+> nearly all of those applications are half-hearted ports of
+> programs developed originally for other platforms.
+
+This is true, but true 32-bit NT apps aren't any more signficant at this time.
+I've seen a few. No Word or Excel or anything yet. OS/2 users who upgraded to
+v2.1 at least now have their old word processors and such in 32-bit form (much
+has already been ported), plus all the 16-bit Windows apps available. Another
+advantage for Microsoft, though, is their own software suite. Let us not forget
+that Microsoft is also the application giant, not just the OS giant. And, while
+their own applications aren't yet available for NT (and won't be for a while
+yet), they may _never_ be ported to OS/2, simply because of the war waging
+between them and IBM. Porting Word, Excel and the others to OS/2 would basically
+hand over the game to IBM right there. It's an ace in the hole which Microsoft
+is probably tenuously clinging to right now.
+
+As an in-house consultant (quasi-officially for certain departments), I do
+suggest OS/2 for desktops wherever there is available support put in place.
+And, I see most server decisions moving towards NT. I can't "officially" comment
+on any break-downs of what we support and don't here (at Intel) internally, but
+I can tell you that I don't _know_ anyone running NT on the desktop for anything
+other than evaluation purposes, and I _do_ know plenty of people running OS/2. I
+also know, from talking to folks at Microsoft, that they also use a lot of OS/2
+there. Even they aren't a homogeneous NT shop.
+
+
+------------------------------
+
+End of Extropians Digest V93 #297
+*********************************
+

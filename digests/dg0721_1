@@ -1,0 +1,466 @@
+From extropians-request@extropy.org Thu Jul 21 21:01:21 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id VAA10112 for <more@chaph.usc.edu>; Thu, 21 Jul 1994 21:01:15 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA20794; Thu, 21 Jul 94 21:01:12 PDT
+Received: by news.panix.com id AA09476
+  (5.65c/IDA-1.4.4 for more@usc.edu); Fri, 22 Jul 1994 00:01:02 -0400
+Date: Fri, 22 Jul 1994 00:01:02 -0400
+Message-Id: <199407220401.AA09476@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-7-176 - #94-7-182
+X-Extropian-Date: July 22, 374 P.N.O. [00:00:47 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Fri, 22 Jul 94             Volume 94 : Issue 202
+
+Today's Topics:
+                   Forward: White House retreats on Clipper           [1 msgs]
+                         If Knowledge Limits Learning                 [3 msgs]
+                        If Knowledge Limits Learning                  [2 msgs]
+                          Tech/Forward: Paral. chip                   [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 26382 bytes.
+
+----------------------------------------------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Thu, 21 Jul 94 01:50:59 GMT
+Subject: [#94-7-176] If Knowledge Limits Learning
+
+fnerd:
+> I can think of a couple examples (extra cortex layer, more 
+> vision-processing maps) where humans have more hard wiring
+> than other animals, but not the reverse.  I would agree humans 
+> are somehow more plastic and less independent at birth, but not 
+> necessarily that that's due to less hard wiring.
+
+There is indirect evidence (from other animals!) that some of the wiring
+at birth is not hard-wiring but has evolved, neural net style in the
+womb.  That's not to say that there isn't hard wiring in some sense,
+just that the way this is expressed or emerges is not clear.  I suspect
+that our genetic "hard wiring" is expressed in our basic drives like
+hunger, thirst, sex, curiosity.  How we break these primal goals into
+sub-goals is what we learn, although I accept Robin's point that there
+is probably some hard wiring relating to grammars.
+
+If you have an ASCII file version of:
+>    "Innate Biases and Critical Periods: Combining Evolution and
+>     Learning in the Acquisition of Syntax"
+>     by John Batali <batali@cogsci.ucsd.edu>
+
+I'd be interested in reading it.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: Michael Clive Price <price@price.demon.co.uk>
+Date: Thu, 21 Jul 94 11:12:11 GMT
+Subject: [#94-7-177] If Knowledge Limits Learning
+
+Both Robin Hanson and fnerd have raised the issue of innate grammar
+structures in our brains (the existence of which I accept) as a problem
+for neural nets.  Would we have to load in similar predispositions to
+grammar syntaxes into our artificial networks?  I don't think we would
+and here's why.
+
+Chimps have been taught to interpret symbols and, in a film clip I saw,
+spoken instructions relayed though earphones to remove trainer body
+cues.  Whilst the instructions were reasonably simple (like take the bin
+outside the room) it seems that chimps indeed *can* pick up the
+rudiments of written and oral language - although their larynxes
+preclude vocalisation.  Chimps and humans diverged about 7 million years
+ago, a long time before spoken or written language appeared in our
+ancestors, so far as we know.  If so then we may reasonably conclude
+that chimps have no innate grammar structures.
+
+It is true that the chimps have problems with the syntax, but they also
+have very limited vocabularies, so I think that the problem lies with
+their inferior cranial capacity rather than the syntax per se.  I
+speculate that with larger brains chimps could be taught to read and
+write as well as humans, and similarly that artificial networks can
+acquire language with out any "pre-natal" hard-wiring.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: Michael Clive Price <price@price.demon.co.uk>
+Date: Thu, 21 Jul 94 08:07:54 GMT
+Subject: [#94-7-178] If Knowledge Limits Learning 
+
+Peter McCluskey raises lots of points which I don't have answers to:
+> there is also a need to prevent unrelated concepts from interfering
+> with each other. If you try to train one big backprop net, it will
+> often spread the information it uses to solve a task over much of the
+> hidden layer, when we need to focus training on a small number of new
+> connections to handle each new idea.
+
+I am only using backpropagation as a metaphor and I'm guessing that some
+of its generic features will copy over.  Aren't there other algorithms
+that localise concepts more?  If the final algorithm includes something
+that forms connections between nodes with correlated firing and, at the
+same time, merges neurons will similar external connections then this
+desired concept clustering might happen emergently.  (As an ignorant
+aside, what are the disadvantages with the network having delocalised
+representations?)
+
+>  This probably bears some resemblence to a good solution, but I don't
+> think instability in weights is a good criterion [for adding new
+> nodes]. With properly scaled inputs and a sophisticated training
+> algorithm (better than plain backprop), my experience indicates that
+> weights usually settle down.
+
+If the hidden layer has too few neurons, will the weights settle down? 
+If the network can't form adequate internal representations due to lack
+of complexity then it seems to me that it will continue change, although
+not in an immediately productive fashion.  An algorithm which inserts
+neurons/nodes into dynamic regions might be just what the doctor
+ordered, allowing more complex representations.
+
+> I am more concerned about the network learning noise
+
+There may be no easy answer to this, since this is a problem we suffer
+from as well.  Look at the synchronicity believers, for example.  Or is
+this a reference to over/rotelearning?
+
+> or settling into an overly simplistic solution.
+
+A overly simplistic solution should generate error signals and lead to
+network growth, allowing more routes out of a minimum by increasing the
+dimension of the weight space.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Thu, 21 Jul 1994 10:26:19 -0400 (EDT)
+Subject: [#94-7-179] Tech/Forward: Paral. chip
+
+>> ROBOMATIX TECHNOLOGIES LTD. announced yesterday that A.S.P. Solutions
+   Ltd., a subsidiary, has successfully completed the testing and
+   development of the Xium chip, a massively parallel associative
+   semiconductor chip for high speed computing.
+
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Thu, 21 Jul 1994 14:09:59 -0400 (EDT)
+Subject: [#94-7-180] Forward: White House retreats on Clipper
+
+a conscious being, Stanton McCandlish wrote:
+
+> From mech@eff.org Thu Jul 21 14:08:14 1994
+
+> Yesterday, the Clinton Administration announced that it is taking several
+> large, quick steps back in its efforts to push EES or Clipper
+> encryption technology.  Vice-President Gore stated in a letter to
+> Rep. Maria Cantwell, whose encryption export legislation is today being
+> debated on the House floor, that EES is being limited to voice
+> communications only.
+
+> The EES (Escrowed Encryption Standard using the Skipjack algorithm, and
+> including the Clipper and Capstone microchips) is a Federal Information
+> Processing Standard (FIPS) designed by the National Security Agency, and
+> approved, despite a stunningly high percentage anti-EES public comments on
+> the proposal) by the National Institute of Standards and Technology.  Since
+> the very day of the announcement of Clipper in 1993, public outcry against
+> the key "escrow" system has been strong, unwavering and growing rapidly.
+
+> What's changed?  The most immediate alteration in the White House's
+> previously hardline path is an expressed willingness to abandon the EES
+> for computer applications (the Capstone chip and Tessera card), and push
+> for its deployment only in telephone technology (Clipper).  The most
+> immediate effect this will have is a reduction in the threat to the
+> encryption software market that Skipjack/EES plans posed.  
+
+> Additionally, Gore's letter indicates that deployment for even the telephone
+> application of Clipper has been put off for months of studies, perhaps
+> partly in response to a draft bill from Sens. Patrick Leahy and Ernest
+> Hollings that would block appropriation for EES development until many
+> detailed conditions had been met.
+
+> And according to observers such as Brock Meeks (Cyberwire Dispatch) and
+> Mark Voorhees (Voorhees Reports/Information Law Alert), even Clipper is
+> headed for a fall, due to a variety of factors including failure in
+> attempts to get other countries to adopt the scheme, at least one state
+> bill banning use of EES for medical records, loss of NSA credibility after
+> a flaw in the "escrowed" key system was discovered by Dr. Matt Blaze of
+> Bell Labs, a patent infringement lawsuit threat (dealt with by buying off
+> the claimant), condemnation of the scheme by a former Canadian Defense
+> Minister, world wide opposition to Clipper and the presumptions behind it,
+> skeptical back-to-back House and Senate hearings on the details of the
+> Administration's plan, and pointed questions from lawmakers regarding
+> monopolism and accountability.
+
+> One of the most signigicant concessions in the letter is that upcoming
+> encryption standards will be "voluntary," unclassified, and exportable,
+> according to Gore, who also says there will be no moves to tighten export
+> controls.
+
+> Though Gore hints at private, rather than governmental, key "escrow," the
+> Administration does still maintain that key "escrow" is an important part of
+> its future cryptography policy.
+
+> EFF would like to extend thanks to all who've participated in our online
+> campaigns to sink Clipper.  This retreat on the part of the Executive
+> Branch is due not just to discussions with Congresspersons, or letters
+> from industry leaders, but in large measure to the overwhelming response from
+> users of computer-mediated communication - members of virtual communities
+> who stand a lot to gain or lose by the outcome of the interrelated
+> cryptography debates.  Your participation and activism has played a key
+> role, if not the key role, in the outcome thus far, and will be vitally
+> important to the end game!
+
+> Below is the public letter sent from VP Gore to Rep. Cantwell.
+
+> ******
+
+> July 20, 1994
+
+> The Honorable Maria Cantwell
+> House of Representatives
+> Washington, D.C.,  20515
+
+> Dear Representative Cantwell:
+
+>         I write to express my sincere appreciation for your efforts to move
+> the national debate forward on the issue of information security and export
+> controls.  I share your strong conviction for the need to develop a
+> comprehensive policy regarding encryption, incorporating an export policy
+> that does not disadvantage American software companies in world markets
+> while preserving our law enforcement and national security goals.
+
+>         As you know, the Administration disagrees with you on the extent to
+> which existing controls are harming U.S. industry in the short run and the
+> extent to which their immediate relaxation would affect national security. 
+> For that reason we have supported a five-month Presidential study.  In
+> conducting this study, I want to assure you that the Administration will
+> use the best available resources of the federal government.  This will
+> include the active participation of the National Economic Council and the
+> Department of Commerce.  In addition, consistent with the Senate-passed
+> language, the first study will be completed within 150 days of passage of
+> the Export Administration Act reauthorization bill, with the second study
+> to be completed within one year after the completion of the first.  I want
+> to personally assure you that we will reassess our existing export controls
+> based on the results of these studies.  Moreover, all programs with
+> encryption that can be exported today will continue to be exportable.
+
+>         On the other hand, we agree that we need to take action this year
+> to assure that over time American companies are able to include information
+> security features in their programs in order to maintain their admirable
+> international competitiveness.  We can achieve this by entering into an new
+> phase of cooperation among government, industry representatives and privacy
+> advocates with a goal of trying to develop a key escrow encryption system
+> that will provide strong encryption, be acceptable to computer users
+> worldwide, and address our national needs as well.
+
+>         Key escrow encryption offers a very effective way to accomplish our
+> national goals,  That is why the Administration adopted key escrow
+> encryption in the "Clipper Chip" to provide very secure encryption for
+> telephone communications while preserving the ability for law enforcement
+> and national security.  But the Clipper Chip is an approved federal
+> standard for telephone communications and not for computer networks and
+> video networks.  For that reason, we are working with industry to
+> investigate other technologies for those applications.
+
+>         The Administration understands the concerns that industry has
+> regarding the Clipper Chip.  We welcome the opportunity to work with
+> industry to design a more versatile, less expensive system.  Such a key
+> escrow system would be implementable in software, firmware, hardware, or
+> any combination thereof, would not rely upon a classified algorithm, would
+> be voluntary, and would be exportable.  While there are many severe
+> challenges to developing such a system, we are committed to a diligent
+> effort with industry and academia to create such a system.  We welcome your
+> offer to assist us in furthering this effort.
+
+>         We also want to assure users of key escrow encryption products that
+> they will not be subject to unauthorized electronic surveillance.  As we
+> have done with the Clipper Chip, future key escrow systems must contain
+> safeguards to provide for key disclosure only under legal authorization and
+> should have audit procedures to ensure the integrity of the system.  Escrow
+> holders should be strictly liable for releasing keys without legal
+> authorization.
+
+>         We also recognize that a new key escrow encryption system must
+> permit the use of private-sector key escrow agents as one option.  It is
+> also possible that as key escrow encryption technology spreads, companies
+> may established layered escrowing services for their own products.  Having
+> a number of escrow agents would give individuals and businesses more
+> choices and flexibility in meeting their needs for secure communications.
+
+>         I assure you the President and I are acutely aware of the need to
+> balance economic an privacy needs with law enforcement and national
+> security.  This is not an easy task, but I think that our approach offers
+> the best opportunity to strike an appropriate balance.  I am looking
+> forward to working with you and others who share our interest in developing
+> a comprehensive national policy on encryption.  I am convinced that our
+> cooperative endeavors will open new creative solutions to this critical
+> problem.
+
+> Sincerely,
+
+> Al Gore
+
+> AG/gcs
+
+> ******
+
+> -- 
+> Stanton McCandlish * mech@eff.org * Electronic Frontier Found. OnlineActivist
+> F O R   M O R E   I N F O,    E - M A I L    T O:     I N F O @ E F F . O R G 
+> O  P  E  N    P  L  A  T  F  O  R  M     O  N  L  I  N  E    R  I  G  H  T  S
+> V  I   R   T   U   A   L    C  U   L   T   U   R   E     C  R   Y   P   T   O
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Thu, 21 Jul 1994 14:51:44 -0400
+Subject: [#94-7-181] If Knowledge Limits Learning 
+
+ price@price.demon.co.uk (Michael Clive Price) writes in X-Message-Number: #94-7-178:
+>I am only using backpropagation as a metaphor and I'm guessing that some
+>of its generic features will copy over.  Aren't there other algorithms
+>that localise concepts more?  If the final algorithm includes something
+>that forms connections between nodes with correlated firing and, at the
+>same time, merges neurons will similar external connections then this
+>desired concept clustering might happen emergently.  (As an ignorant
+>aside, what are the disadvantages with the network having delocalised
+>representations?)
+
+ Cascade correlation improves on backprop by adding hidden nodes one at
+a time. It still suffers from problems associated with connecting new
+nodes to all inputs, outputs and existing hidden nodes.
+ There are no real disadvantages to delocalised representations unless
+representations for different ideas overlap, in which case learning the
+second idea introduces some noise into the first idea. Humans probably
+experience a small amount of this as evidenced by the deterioration of
+memory with time.
+ 
+>If the hidden layer has too few neurons, will the weights settle down? 
+
+ Changes in existing weights will normally diminish with training even
+if there are too few neurons. Cascade correlation will keep adding nodes
+until some externally specified criterion is met.
+
+>> I am more concerned about the network learning noise
+>
+>There may be no easy answer to this, since this is a problem we suffer
+>from as well.  Look at the synchronicity believers, for example.  Or is
+>this a reference to over/rotelearning?
+
+ I think over/rotelearning is the same problem. If there were an easy
+answer then I wouldn't be concerned.
+ To quote something you said last year:
+>out-moded Popperian view that a new theory must make a falsifiable
+>_prediction_.  Weinberg argues that logically and historically this is
+>not and has not been the case.  Theories are judged by their simplicity
+>and fitness with _pre-existing_ data.  Only later, usually after partial
+                  ^^^^^^^^^^^^^^^^^^^
+  I think that this pre-existing data is part of what Lenat and Robin
+think is missing from your tabula rasa model. I think humans have a way of
+balancing simplicity and consistency with existing concepts that has not
+yet been captured in a learning algorithm.
+
+>> or settling into an overly simplistic solution.
+>
+>A overly simplistic solution should generate error signals and lead to
+>network growth, allowing more routes out of a minimum by increasing the
+>dimension of the weight space.
+
+ Solutions to most real-world problems generate some error signals. Deciding
+which errors deserve to be tolerated and which should be solved by adding
+nodes is handled more arbitrarily by current artificial learning rules than
+it is by humans.
+
+ [I will be offline for several days and won't continue this thread for a
+while.]
+-----------------------------------------------------------
+Peter McCluskey | pcm@world.std.com | Repeal Gresham's Law!
+-----------------------------------------------------------
+
+------------------------------
+
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Date: Thu, 21 Jul 94 11:22:11 EDT
+Subject: [#94-7-182] If Knowledge Limits Learning
+
+someone suggests i expand on-
+
+> >Someone must have mentioned the limited capacity 
+> >of the human genome (I haven't been following closely).
+
+I mean if there is hard coded knowledge required to get to the
+learning ability of a human baby, it can be coded in less than
+a gigabyte.  We could speculate on whether that's just chock
+full of rare, compact, encrypted gems (and therefore hard to 
+rediscover), or more like the average interestingness of human-
+written books and software, or even less dense.
+
+> >Seems like if you can get an AI to the level of a human baby,
+> >then spend 20 years, you've got a good chance at an AI that can
+> >learn pretty well.  Is that too far off to worry about?
+
+Here I mean (assuming knowledge is the limiting factor) the level 
+of built in knowledge that allows a baby to learn as well as it 
+does.  If we could get to that point, we would know about how 
+far it was to human adult learnability.
+
+I'm trying to tread lightly as I just joined this thread.
+
+-fnerd
+
+- - - - - - - - - - - - - - -
+nutritional information per serving:
+   less than one (1) bit
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+aKxB8nktcBAeQHabQP/d7yhWgpGZBIoIqII8cY9nG55HYHgvt3niQCVAgUBLMs3K
+ui6XaCZmKH68fOWYYySKAzPkXyfYKnOlzsIjp2tPEot1Q5A3/n54PBKrUDN9tHVz
+3Ch466q9EKUuDulTU6OLsilzmRvQJn0EJhzd4pht6hSnC1R3seYNhUYhoJViCcCG
+sRjLQs4iVVM=
+=9wqs
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+End of Extropians Digest V94 #202
+*********************************
+

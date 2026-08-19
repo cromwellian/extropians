@@ -1,0 +1,1013 @@
+From extropians-request@gnu.ai.mit.edu Mon Apr 19 15:18:04 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA10649; Mon, 19 Apr 93 15:17:59 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from churchy.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA04127; Mon, 19 Apr 93 15:17:48 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by churchy.gnu.ai.mit.edu (5.65/4.0)
+	id <AA12145@churchy.gnu.ai.mit.edu>; Mon, 19 Apr 93 17:59:22 -0400
+Message-Id: <9304192159.AA12145@churchy.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Mon, 19 Apr 93 17:58:56 -0400
+X-Original-Message-Id: <9304192158.AA12137@churchy.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0206
+X-Extropian-Date: Remailed on April 19, 373 P.N.O. [21:59:21 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Mon, 19 Apr 93            Volume 93 : Issue 0206
+                        
+Today's Topics:
+                            CLIP: name that chip                      [1 msgs]
+                        CRYPTO: The right to encrypt                  [3 msgs]
+                         FTL: traversable wormholes                   [1 msgs]
+                                 IMPORTANT!                           [2 msgs]
+                       Korzybski's "E-Prime", also NLP                [6 msgs]
+  META/HUMOR: Bring back Klaus! (was Apologies and Begging for Forgiveness) [1 msgs]
+                               META: !Fido...                         [4 msgs]
+                      POLI: Other Third Parties/Indep.                [1 msgs]
+                    PPL/BOOK: Men Are Not Cost Effective              [2 msgs]
+                      TECH: Genetic algorithms question               [1 msgs]
+                               Waco- flattened                        [2 msgs]
+                                subscription                          [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 51762 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 18 Apr 1993 21:10:57 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: TECH: Genetic algorithms question
+
+> > By `cornea' I meant the transparent (or almost transparent) tissue over
+> > the iris.
+> 
+> Yeah, the cornea is the clear `window' in the anterior surface.  But
+> I've never heard of a tinted one (though this might be an EC
+> self-alteration: rose-tinted corneae?).  Are you sure you're not
+> seeing light that's come off the iris and been internally reflected?
+
+No, actually.  That is possible.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 12:41:07 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: POLI: Other Third Parties/Indep.
+
+In <9304191529.AA02637@albert.gnu.ai.mit.edu>, Stanton McCandlish writes:
+[...]
+|> ing myself with ANYTHING.  And what "activist-government folks" do you re-
+|> fer to?  If I am to be categorized and stigmatized, might as well know as
+|> what, specifically.
+
+Took this to private mail, in case anyone was getting marshmallows
+ready.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    / ** FIDONET DISTRIBUTION FORBIDDEN **
+
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 13:26:41 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: IMPORTANT!
+
+Stanton McCandlish writes:
+> 
+> >   The scheme is based on Public-key encryption technology. Public Key
+> > encryption allows one to publish a key so other people can send secret
+> 
+> Yes, yes, I know all that.  I already agreed with you that secure electron-
+> ic money would be nice.  My point was that it is not going to go unopposed.
+> The corps., the banks, and the govt. have a vested interest in keeping track
+> of people by monitoring financial transactions.  Incidentally they also have
+> more money than anyone else, and consequently more power, to do away with
+> things they don't like, i.e. secure e-money.  Am I being to much of a realist?
+> Even a pessimist?
+
+  You must be a pessimist, because reality proves you wrong. Secure banking
+already exists in the Bahamas. Swiss Banks used to be secure. I believe
+the banks in Brazil are secure too. There are lots of small islands
+thoughout the world which have good (i.e. anonymous, protected) banking
+laws.
+
+  Digicash really isn't that much different than normal cash.
+ In the US, if you pay for everything with cash, you are already untracable.
+Why hasn't the corps, govt, banks attempted to eliminate normal cash and
+replace it with a tracable form if they have such a thirst for
+tracking financial activies? Businesses and banks could care less
+about tracking financial transactions of adverage citizens unless they
+are involed with advertising and marketing.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 12:59:07 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: Korzybski's "E-Prime", also NLP
+
+The 510-798-0311 number is correct for ISGS, and they offered
+to send me a free catalog. Thank you for the correction.
+
+-- Craig
+"Ensign, open a 1-terabyte channel on my mark."
+"Standing by, sir."
+
+------------------------------
+
+Date: Mon, 19 Apr 93 13:50:25 EDT
+From: eisrael@suneast.East.Sun.COM (Elias Israel - SunSelect Engineering)
+Subject: Korzybski's "E-Prime", also NLP
+
+Eric S. Raymond writes:
+> By the way, since you've said that you "respect me quite a bit", let me
+> remind you that I attribute a substantial part of my intelligence advantage
+> to the fact that I've internalized GS principles.  Thus, you must conclude
+> either that (a) I am lying, (b) GS principles really *do* increase one's
+> effective intelligence, or (c) that I am *so* freakin' brilliant that
+> I can impress *you* as "frightfully clever" even though I've internalized
+> a bunch of stupidifying hooey.
+
+Actually, I'd pick (d) GS principles may have something to do with
+Eric's intelligence, but I don't necessarily understand the
+relationship fully.  Please don't take my original response as a
+rejection of your position, it just seemed to me to be incomplete. (As
+it turns out, I was right. The description was incomplete as you said
+below.) An old mental habit of mine, which I learned from talmudic
+studies and I try to apply when I can, is that when you encounter
+something you don't understand, you should say, "I don't understand,"
+not "that's stupid."
+
+BTW, I do recall that we discussed GS when we met at WorldCon.
+
+> This bad habit is endemic in the non-GS-trained.  Also, I happen to know
+> that you are an Objectivist.  Objectivism's epistemology reinforces this
+> bad habit --- in fact, Rand's version is is actually *founded* on this
+> particular map-territory error (though David Kelley's version may not be;
+> I haven't read his stuff yet).  I have explained this in detail in
+> previous postings.
+
+I used to be an Objectivist, now I'm not sure I'm even an objectivist.
+I've departed from Rand on several key concepts. In particular, I've
+come to the conclusion that her formulation of Natural Rights -- such
+as it is -- is unsupportable. I don't think humans have rights qua
+humans. Instead, I think we've had a "fairness" ESS for so long that
+we've started to think it's part of the basic package, so to speak.
+
+I'm not sure how much of the Objectivist metaphysics I'd agree with. I
+certainly do agree that it is pointless, at least, to wonder about
+unfalsifiable metaphysical conditions (e.g. "what if I'm really a brain
+in a vat somewhere with all of my experience piped in?") But I find it
+extremely doubtful that anyone could create a formulation that would
+tell you whether a particular symphony were "good" or "evil."
+
+In fact, my support for Capitalism has reverted to a selfish (and
+perhaps disturbingly Socially-Darwinian) premise. Capitalism supports
+and enhances me and people like me. In general, it punishes people and
+behaviour I don't like. Therefore, because I want the world to be
+populated with me and mine to the exclusion of those who would wrong me
+and mine, I support Capitalism.
+
+> The lesson of GS is that, in any domain of discourse outside of a formal
+> mathematical system, *you have always missed some of the facts*.  That
+> is not a contingent, avoidable problem; it is inherent in the process of
+> observation and abstraction from reality into language, *and it is why
+> Aristotelian logic is insufficient*!
+
+THIS is the key concept. Now all of the things you said fall into
+place.  If I understand you correctly, then, outside the world of
+mathematics, when a person says "Proposition P is true," they really
+mean (or should really mean) "To the best of our ability, and
+considering all of the data to which we have access at this time and
+place, the proposition P seems to have the greatest predictive power
+with regard to the system in question." That's an awful lot of
+caveats. Still, it makes sense, given what we know from QM, Chaos, etc.
+You can't know the physical state of a process, thus any statements
+about it are inherently approximate.
+
+Is that more what you had in mind? If so, I would agree entirely (and add
+the GS texts mentioned to my ever-growing list of reading material).
+
+The next question, and one that I know we discussed at WorldCon, is
+why, then, do formal systems so often come up with models that have
+such amazing predictive power?
+
+Elias Israel
+eisrael@east.sun.com
+
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 13:32:48 -0400
+From: Rens Troost <rens@stimpys.IMSI.COM>
+Subject: IMPORTANT!
+
+Hal Finney Writes:
+> If the standard does become established, it could be tough to defeat it.
+> How easy is it going to be to sell a phone which is incompatible with
+> everybody else's for secure communication?  You'd have to buy one for
+
+Trivially easy, to people who are interested in secure communications.
+Not too easy, if your customer is the government.
+
+Fear the cops.
+
+-Rens
+--
+Disclaimer: I am speaking solely for myself.
+
+------------------------------
+
+Date: Mon, 19 Apr 93 10:59:13 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: FTL: traversable wormholes
+
+Michael Clive Price writes:
+>But you'd have this disadvantage at a quasar as well.  Empire time for
+>a stationary hole, at the quasar, is the same as co-moving time.  First
+>hole to get to the quasar has to kill time until the second one shows
+>up, which since you don't know the trip time of the second hole to the
+>quasar, could be *millions* of years in empire time.....  
+
+Yes, I thought of that last week; kills the whole suggestion as far as
+I'm concerned.  Forget I ever proposed it!
+
+>Searching for each other by firing test holes at each other and binary
+>chopping the resultant search volume going is going to be a lot quicker,
+>in empire time, than hanging about waiting for contact.  You would trade
+>off dropping off of slower marker holes with the time-dilated probing
+>of the relativistic test holes.
+
+I agree something like this is the fastest route.  But I still think
+this process could take substantially longer that it took to detect
+them in the first place. 
+
+If each side sends off their probes at about the same time,
+accelerating at the same rate, toward a wide range of angles, then the
+smash zone would be about a plane of points equadistant from each
+center.  The more smashes, the more accurately the plane is known, as
+is the location of the other guy's center.  Natural meeting spot is
+the point in plane closest to each of us.
+
+>I agree that it would be best to postpone contact until we'd plateaued
+>out.  By definition this would not be until some time after we're
+>capable of sending out hole to explore the universe.  Sounds like one
+>of those hard problems.  Without central control how could such
+>restraint be exercised?  ... The meek shall inherit the universe?
+
+Does indeed sound like a hard problem.
+
+Robin Hanson
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 21:39:35 -0400 (EDT)
+From: cbmvax!snark.thyrsus.com!esr@uunet.UU.NET (Eric S. Raymond)
+Subject: Korzybski's "E-Prime", also NLP
+
+>> Part of "conscious of abstracting" is the awareness that natural language
+>> tends to impose on our thinking a two-valuedness which is unsane.  GS teaches
+>> this insight not just as an intellectual bagatelle but as an active, constant
+>> corrective towards sanity.
+> 
+> I'd hardly call it "unsane".  It is quite sane.  It is the natural process of
+> the human mind.  This is not to say it is good, only sane.  By calling it 
+> unsane are you not making a value judgement?  Would it not be better to 
+> suggest instead that it is not the best mode of thinking?  Personally I 
+> dislike the sound of "corrective towards sanity".  Who gets to define "sanity"?
+> You? Me? The govt? Korzybsky?
+
+Sanity is what works in adapting to and manipulating the real world.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Mon, 19 Apr 93 14:16:34 EST
+From: kwaldman <kwaldman@BBN.COM>
+Subject: Waco- flattened
+
+Well, those Nazi's er I mean ATF (as controlled by the people's party
+The DEMs) went in and flattened Waco with tanks.  [It looks as though
+Perry was right when talked about gov't and deadly force against it's
+citizens.]  Supposedly after the tanks went it the place went up in
+flames.
+
+		Karl
+
+Hopefully we will get more info from "extropians/libertarians" in the
+area.
+--------
+Karl M. Waldman              internet: kwaldman@bbn.com   AMIX: kwaldman
+BBN Systems and Technologies 
+
+------------------------------
+
+Date: Mon, 19 Apr 93 11:26:26 -0700
+From: cappello%cs@hub.ucsb.edu (Peter Cappello)
+Subject: CRYPTO: The right to encrypt
+
+I forwarded Tom Morrow's post to my wife, among other people.  Her  
+reply follows.
+
+-Pete
+cappello@cs.ucsb.edu
+
+Begin forwarded message:
+
+Date: Mon, 19 Apr 93 09:39:20 -0700
+From: mhv@ares.dsc.com (Marina Vogel)
+Subject: Re:  CRYPTO: The right to encrypt
+
+Pete
+I would like to see T.O. Morrow show why people haven't successfully  
+used these same arguments in court against the current spate of civil  
+forfeitures taking place under the auspices of the "War on Drugs".  I  
+don't see any difference here, and certainly many of those arguments  
+he made speak DIRECTLY toward that issue and only tangentially toward  
+the encryption issue.
+
+Marina Vogel
+mhv@dsc.com
+
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 14:11:32 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: META/HUMOR: Bring back Klaus! (was Apologies and Begging for Forgiveness)
+
+Stanton McCandlish writes:
+> 1) the "Extropianly Correct" silliness that was just lambasted, which mani-
+> fests not just in hostility to newbies, but in a lot of general flammage.
+> Those with this viewpoint would do well to take into consideration that 
+> simply because a person is new to this list does NOT mean they are new
+> to Extropy, and further more not all extropians are Extropians, just as
+> not all libertarians are members of the Libertarian party.  Many of us are
+> interested in specific issues, that incidentally are much discussed on this
+> list, and are not interested in others.  We may become interested in an issue,
+> say time travel, by encountering it's mention here.  Condescending to such 
+
+  Extropianly Correctness is a construct required to reduce the noise
+on this list and keep people from debating the basics and subjects which 
+are not under the list charter. That is, discussions of abortion, yoga
+teleportation, life after death, socialized medicine, etc are simply
+inappropriate.
+
+  Frankly, I don't know what an Extropian/extropian is. It is a term
+you seem to be defining to wage your own little war against the list
+rules and social atmosphere.
+
+> people because they are genuinely curious about an issue, and telling them
+> "RTFM" is not only generally dishelpful, but counterproductive.  Elitism
+> may have its uses, but swelling the ranks of the extropians is not one of 
+> them.  And lastly on this subject, many of us have an extreme aversion to 
+> "-isms" of any sort, including this one.  I have often felt somewhat put-upon
+> to "be Extropian", when I literally cannot.  I am an individual, period.
+
+  I'm getting so tired of repeating this that I might put it in my .sig.
+Quote: "Debate of the basics is not allowed."  Everytime a new user subscribes
+to this list they start debating stuff like anarchocapitalism or immortality
+which spawns a thread which lasts atleast a month. The Extropians list
+is not here to teach anarchocapitalism, cryptography, physics, or philosophy.
+We just got finished teaching Dale Worley who came to the list wanting to
+learn about libertarianism. That lasted month and soaked up 80% of the
+bandwidth. If users don't want to RTFM, then they shouldn't engage in
+debates. Elitism on this list is simply a spontaneous order/social
+construct that evolved in response to rising noise levels. 
+
+  BTW, When someone says that a subject is "not extropian" they mean that it is
+not part of the list charter, not that there is something wrong with 
+their philosophy.
+
+  BTW, You were told to read the manual when you appeared to be clueless about
+digicash (by claiming that it was very traceable). Now you have
+changed your position to "govmint! big business! big banks! they won't
+allow it." This is like saying the govt won't allow smart drugs.
+Most people here don't give a hoot about govumint and know that these things
+will eventually work their way into the society over the long time. 
+Every once in a while a newbie appears and starts claiming "This stuff is
+all science fiction. Anarchocapitalism, Cryonics, Nanotechnology, AI,
+don't exist! You are not being realistic."  It's pretty obvious that
+this this is not about contemporary issues.
+
+> 2) I have also noted a certain haughty disdain for things that one does not
+> choose to put any faith in.  Rather than serious discussion, the reaction 
+> tends to be "oh you are just a clueless clod who does not possess the 
+> Extropian Nature", etc.  Certainly everyone has pet theories, but that is
+> no reason to be illogical about it.  Granted I exaggerate, and no one really
+> puts it quite that bluntly, but it is oozing out from between the lines in
+> several messages I have seen on the list so far.  Certainly no one here wants
+> their mail box full of "I think Velikovsky was right!", much less "what does
+> 'public key' mean?"  But reasonable debates, and short simple answers to ba-
+> sic questions, are not so hard to muster are they?  As for an example of 
+> haughtiness, I point you to the post that, in essence, told the recipient "Ah,
+> now you have learned to think.  Go read some Aristotle."  I don't think I have
+> ever heard such conceit in all my life, unless that was meant jokingly.
+
+   Basic questions do not have short simple answers. These are ideas
+that have been debated for a long time. You cannot summarize anarchocapitalism
+in a few paragraphs without causing another thousand questions to be posted.
+You can not get a grasp of spontaneous order unless you read a lot on the
+subject and at least ran some trial models in your head. 
+   I really don't understand this aversion to reading that a lot of people 
+seem to have. I have almost no free time, yet I remain a book-o-holic
+especially about extropian topics.  I have asked many questions on this
+list before (a lot of them mathematically and physicially oriented) and
+I find "short simple" answers very unsatisifying. They always cause
+followup questions which degenerate into a noisy thread. I usually
+try to ask questions in private if I think they require a lot of bandwidth
+and I know that most people already know the answer.
+
+> 3) A smaller gripe, and one I have with a lot of intellectual-oriented con-
+> ferences: Why be so quick to correct every typo and questionable statement?
+
+  I have _never_ seen a grammar/spelling flame on this list
+so I have no idea what you are talking about. 
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 11:36:47 -0700 (PDT)
+From: tomj@fido.wps.com (Tom Jennings)
+Subject: META: !Fido...
+
+(Lurker unlurks)
+
+I know your post said 'take it to email' but your message relased
+incorrect information to the Digest. So...
+
+You assign a centrality to FidoNet that it simply doesn't have. The
+FidoNet "policy" you refer to banning encryption exists per se, but it
+is hardly universally subscribved to. FidoNet is utterly decentralized.
+It truly is an implemented anarchism (and done so explicitly) with of
+ourse many mistakes. Your description of trouble with an echo
+coordinator/moderator implied this trouble is universal there. It's not.
+
+
+There is at least one conference (last I looked) analogous to
+cypherpunks on FidoNet. They are pushing to change that policy, amongst
+other things. 
+
+FidoNet contains 20,000 hosts, and about 2,000,000 users. It's
+membership is wide open, as opposed to this medium, which is restricted
+to people with access -- universities, hi-tech jobs, etc. And before
+anyone equates that to the trivial classist formula of intelligence, you
+should really JOIN FidoNet and sample some of it's 500 - 1000
+conferences. Just like I had to learn about Usenet. My first experiences
+"here" (general uucp/usenet/etc) were ones of snootiness, arrogant
+expectations of prior knowledge, etc. 
+
+Think of it this way: for under $1000 retail, you can put up a FidoNet
+host that can run full conferencing software, run PGP-secured email, and
+even get your usenet newsgroups on it. Amazing. You don't have to talk
+to idiots if you don't want to! 
+
+-- 
+  Tom Jennings / tomj@fido.wps.com / World Power Systems / San Francisco CA 
+
+
+------------------------------
+
+Date: Mon, 19 Apr 93 13:42:45 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Korzybski's "E-Prime", also NLP
+
+Elias Israel asks (asks Eric, but I assume I can play too):
+
+> The next question, and one that I know we discussed at WorldCon, is
+> why, then, do formal systems so often come up with models that have
+> such amazing predictive power?
+
+Ah yes, "the unreasonable utility of mathematics".
+
+There's the Platonic view: The universe is constructed (somehow)
+from mathematical principles.  We then discover these.
+
+Another view (explained in _The Mathematical Experience_ by Davis
+and Hersh, and doubtless lots of other places) is the "mathematics
+by fiat" view -- the few things that actually are modelled well
+with mathematics (physics or direct descendents of physics -- and
+even here, they are often approximate at best) have made us so
+delighted with mathematics that we deliberately force things into
+the mathematical mold.  If it works (more or less), cool.  If not,
+try again.  Given the expressiveness of mathematics, is it really
+surprising that "more or less" accurate descriptions can be found
+for lots of things?
+
+They give some "word problems" about addition to exemplify the
+problems -- many people know how to add  but do not know when
+to add.  I provide some of these here because they're interesting.
+
+Problem 1:
+  One can of tuna fish costs $1.05.  How much does two cans of
+  tuna fish cost?
+
+Problem 2:
+  A billion barrels of oil costs x dollars.  How much does a
+  trillion barrels of oil cost?
+
+Problem 3:
+  A bank in computing a credit rating allows two points if you
+  own a house, adds one point if your salary is over $20,000,
+  adds one point if you have not moved in the last five years,
+  subtracts one point if you have a criminal record, subtracts
+  one point if you are under 25, etc.  What does the sum mean?
+  [point: similar schemes are used all the time]
+
+Problem 5:
+  A cup of milk is added to a cup of popcorn.  How many cups of
+  the mixture will result?
+
+I haven't yet had time to read Korzybski (though it's been on
+the pile for a couple of weeks), but I mention this issue
+because it seems similar to what Eric was talking about:
+
+  Many people know how to add but not when to add
+  ###
+  Many people know how to apply the law of the excluded middle
+  but not when to apply it.
+
+[no wise cracks like:  many people know how to use parallel
+ constructions but not when to use them]
+
+derek
+still trying to formalize "X is a good song" in predicate
+calculus so that folks in rec.music.misc will finally shut up.
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 13:45:55 -0400 (EDT)
+From: cbmvax!snark.thyrsus.com!esr@uunet.UU.NET (Eric S. Raymond)
+Subject: Korzybski's "E-Prime", also NLP
+
+> I know a good mathematician and programmer who is, nevertheless, a young earth
+> creationist; i.e., he believes that God created the Earth approximately six
+> thousand years ago.  Many people for some reason or other believe in "a bunch
+> of stupidifying hooey" in some areas but not in others.
+
+Case isn't quite parallel, I think.  Being a young-earth creationist doesn't
+decrease your ability to think analytically, merely blocks you from applying
+it in areas that have been defined as the subjects of religious revelation.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 11:40:26 -0700 (PDT)
+From: tomj@fido.wps.com (Tom Jennings)
+Subject: CLIP: name that chip
+
+re: The Clipper chip and press soundbite ID for it:
+
+The "Wiretap Chip" seems far superior to "Big Brother"; it is very
+specific, and "Big Brother" is a bit hackneyed at this point...
+People believe they know what a "wiretap" is. "A wiretap-chip for
+cellular phones" suffices as an opener... having to explain just which
+Big Brother scheme are you referring to? won't help...
+
+
+-- 
+  Tom Jennings / tomj@fido.wps.com / World Power Systems / San Francisco CA 
+
+
+------------------------------
+
+Date: Mon, 19 Apr 93 11:48:25 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: PPL/BOOK: Men Are Not Cost Effective
+
+"Men Are Not Cost Effective" is the title of a recent book by June
+Sephenson which argues that, because men far more crime (burglary 91%,
+robbery 91%, murder 90%, drunk driving 87%, arson 87%, etc.), men
+should be taxed ~$100/yr more as a criminal justice system usage fee.  
+
+This is just the sort of proposal to make many folks blood boil.  But
+if you want to have some fun, or get on the good side of a politically
+correct thinker, trying talking about how this all makes sense to you.
+
+You see, a private law system should do something similar.  If a
+protection agency suffers extra costs to enforce law, costs not fully
+obtained via restitution/compensation from criminals, then the
+protection agencies should price their services to reflect the chance
+they estimate that a customer will induce such costs.  Groups of
+people inducing lower average extra costs should be offered lower
+rates, just like with insurance.
+
+Washington Times had an article on it 5/31/92, and the San Jose
+Mercury News just did 4/17/93 (in front section).  
+
+Robin Hanson
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 13:54:40 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: Waco- flattened
+
+In <9304191822.AA12420@churchy.gnu.ai.mit.edu>, kwaldman writes:
+|> Well, those Nazi's er I mean ATF (as controlled by the people's party
+|> The DEMs) went in and flattened Waco with tanks.  [It looks as though
+|> Perry was right when talked about gov't and deadly force against it's
+|> citizens.]  Supposedly after the tanks went it the place went up in
+|> flames.
+Wire service material privately provided under Fair Use doctrine:
+   CULT STANDOFF  
+   WACO, Texas (AP) -- The compound where cult leader David Koresh and
+95 followers holed up for 51 days burned to the ground Monday after
+FBI agents in an armored vehicle smashed the buildings and pumped in
+tear gas. The Justice Department said cult members set the fire.
+[...]
+
+   WASHINGTON (AP) -- Attorney General Janet Reno and the FBI informed
+President Clinton about plans to assault David Koresh's compound
+Monday. [...]
+
+   U.S.-BOSNIA  
+   WASHINGTON (AP) -- The Clinton administration is weighing options to end the
+war in Bosnia with "a very high degree of urgency," Secretary of State Warren
+Christopher said Monday. [...]
+
+As in, "Now that we've got Texas pacified, we can go after Serbia"
+:-(     ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    / ** FIDONET DISTRIBUTION FORBIDDEN **
+
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 14:47:21 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: META: !Fido... 
+X-Reposting-Policy: redistribute only with permission
+
+Tom Jennings says:
+> FidoNet contains 20,000 hosts, and about 2,000,000 users. It's
+> membership is wide open, as opposed to this medium, which is restricted
+> to people with access -- universities, hi-tech jobs, etc.
+
+For $10 a month, anyone can get on the internet for Email and UseNet
+purposes. Its hardly exclusive. Look at all our subscribers on public
+access nodes. Tim May is on Netcom. Harry Shapiro, our list manager,
+uses Panix.
+
+Just wanted to disabuse that notion...
+
+Perry
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 14:12:27 -0600
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: CRYPTO: The right to encrypt
+
+>I would like to see T.O. Morrow show why people haven't successfully  
+>used these same arguments in court against the current spate of civil  
+>forfeitures taking place under the auspices of the "War on Drugs".  I  
+>don't see any difference here, and certainly many of those arguments  
+>he made speak DIRECTLY toward that issue and only tangentially toward  
+>the encryption issue.
+>
+>Marina Vogel
+
+By "these same arguments" I assume you are referring to my quick run
+through the Bill of Rights.  None of the arguments relating to freedom of
+speech, assembly, or privacy apply very directly to the WoD seizure cases. 
+Nor do those cases help us to figure out whether or not intellecual
+property can qualify for protection under the 5th Amendment's taking
+clause.
+
+I would say that asset seizure policies only tell us about how little
+regard feds have for property rights delineated in the 4th and 5th
+Amendments.  I agree that the precedents are not encouraging.  But note
+that the Supreme Court has very recently held that those who are subjected
+to asset seizures have a constitutional right to contest such takings in a
+court of law.  As regards takings, the Court has also recently decided that
+private property taken via regulation may require that compensation be
+offered.  Perhaps, then, the pendulum has started to swing towards respect
+for property rights.
+
+But no matter which way the WoD asset seizure cases run, I don't thing they
+will have much of an impact on our rights to cryptography.  I included
+property-based rights arguments only as a fall-back.  I think that we'll
+have to make privacy rights and 1st Amendment rights to speech and assembly
+carry most of the legal weight.
+
+T.O. Morrow                     --  twb3@midway.uchicago.edu
+Vice President: ExI             --  The Extropy Institute
+Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 14:40:02 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: META: !Fido...
+
+In <9304191839.AA12556@churchy.gnu.ai.mit.edu>, Tom Jennings writes:
+|> (Lurker unlurks)
+|> 
+|> I know your post said 'take it to email' but your message relased
+|> incorrect information to the Digest. So...
+
+Ditto. If you want to post an advertisement for FidoNet or anything
+else here, do it, with the appropriate Prefix:, but don't take my
+message for an excuse. I reviewed what I wrote to be sure, and sure
+enough, your statement above is false on its face, and your Fidonet
+promo does not refute what I said. 
+
+|> You assign a centrality to FidoNet that it simply doesn't have. The
+|> FidoNet "policy" you refer to banning encryption exists per se, but it
+|> is hardly universally subscribved to. FidoNet is utterly decentralized.
+|> It truly is an implemented anarchism (and done so explicitly) with of
+
+It is in fact an interesting case study in what you can do without
+central control; but so is Usenet, and for the same reason.
+
+|> ourse many mistakes. Your description of trouble with an echo
+|> coordinator/moderator implied this trouble is universal there. It's not.
+
+I wrote:
+"As owner of the words I post, I request that they not be forwarded to
+Fidonet, because of their stupid policy against encrypted mail.  The
+"moderator" of a local Usenet-newsgroup-to-Fido-echo [gateway] jumped
+on me for sending out a message in ROT-13, ..."
+
+What was the falsehood? You admit that the policy exists. Therefore
+the rest of your rationalization is wide of the mark. The sysop acted
+as if he had a contract with me based on a policy document that I
+didn't know existed. There can be no contract on these terms. The fact
+that other sysops would not have bothered with this particular
+violation doesn't change any essential fact. "Gee, I know a whole lot
+of cops who wouldn't have arrested you for that." is no consolation to
+the new occupant of a jail cell.
+
+|> There is at least one conference (last I looked) analogous to
+|> cypherpunks on FidoNet. They are pushing to change that policy, amongst
+|> other things. 
+
+Good for them. None of my local sysops carry this.
+
+|> FidoNet contains 20,000 hosts, and about 2,000,000 users. 
+
+The "thirty trillion flies can't be wrong" argument.
+
+It's
+|> membership is wide open, as opposed to this medium, which is restricted
+|> to people with access -- universities, hi-tech jobs, etc.
+
+Or an $8.95/mo. Compuserve membership or an account on a Freenet, The
+Well, or other public access system for the same ballpark price.
+
+ And before
+|> anyone equates that to the trivial classist formula of intelligence, you
+|> should really JOIN FidoNet and sample some of it's 500 - 1000
+|> conferences.
+[_Classist_? Did you mean that pejoratively?]
+
+I for one have tried this and found it wanting.
+
+Maybe I haven't had a broad enough sample. Maybe there are really
+high-quality echoes out there. I'll never find them because the only
+way I can get on Fidonet is to call some local BBS with one or two
+lines, download the messages in huge clumps when I finally do get on,
+pick through them with an offline reader, and so on.
+
+I suppose I could arrange a fuller feed from somewhere, but my
+experience so far indicates it's not worth the effort. I'd rather
+pay a few more bucks for an available, high-bandwidth service.
+
+|> Just like I had to learn about Usenet. My first experiences
+|> "here" (general uucp/usenet/etc) were ones of snootiness, arrogant
+|> expectations of prior knowledge, etc. 
+
+This is the wrong forum on which to complain about that ;-)
+
+
+|> Think of it this way: for under $1000 retail, you can put up a FidoNet
+|> host that can run full conferencing software, run PGP-secured email, and
+|> even get your usenet newsgroups on it. Amazing. You don't have to talk
+|> to idiots if you don't want to! 
+
+For around $2200 total, I have a fairly powerful system on which I can
+do all sorts of exploration, a small part of which is
+telecommunicating with some of the best minds in known space. Even so,
+the risk of contacting idiots is still high. In some of the seedier
+quarters of Usenet, it amounts to local color.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    / ** FIDONET DISTRIBUTION FORBIDDEN **
+
+
+------------------------------
+
+Date: Mon, 19 Apr 93 15:08:43 EDT
+From: chaos02@tmn.com (Tom Abeles)
+Subject: subscription
+
+ i am interested in a subscription to extropy, can you send and issue and
+subscription forms to Tom Abeles, 3704 11th Ave South, Minneapolis, MN
+55407-- questions via e-mail or phn 612 823 3154. Also is there and
+organization behind this mag which has further activities.
+
+------------------------------
+
+Date: Mon, 19 Apr 93 16:04:50 -0400
+From: roland@gnu.ai.mit.edu (Roland McGrath)
+
+I have commented out the address rjones@agora.rain.com from
+/com/mailer/exi.extropians.list because it was causing constant bounce
+messages to appear in my mailbox.
+
+------------------------------
+
+Date: Mon, 19 Apr 93 15:47:23 EDT
+From: eisrael@suneast.East.Sun.COM (Elias Israel - SunSelect Engineering)
+Subject: PPL/BOOK: Men Are Not Cost Effective
+
+Robin Hanson writes:
+> "Men Are Not Cost Effective" is the title of a recent book by June
+> Sephenson which argues that, because men far more crime (burglary 91%,
+> robbery 91%, murder 90%, drunk driving 87%, arson 87%, etc.), men
+> should be taxed ~$100/yr more as a criminal justice system usage fee.
+> 
+> This is just the sort of proposal to make many folks blood boil.  But
+> if you want to have some fun, or get on the good side of a politically
+> correct thinker, trying talking about how this all makes sense to you.
+
+While I don't doubt that a truly effective PPL would have to distribute
+the costs of law enforcement in the manner than Robin suggests, I think
+that that's not the reason that this book will probably make someone's
+blood boil. Rather, I think it's the assumption (evident in the title)
+that males are worthless half-a-lumps who need to be punished for their
+evil, awful excesses.
+
+I have not read the book, so my comments should be taken with a grain
+of salt. But when I read more about it, I expect to find that "cost-benefit
+analysis" of men is sadly and obviously biased to fit in with the pious
+dogma of misandry so common in modern feminism.
+
+The idea that some people may have to pay more than others for PPL in
+the future is merely a subject of debate; the idea that men as a class
+are more "criminal" than women is entropian class-hatred politics.
+
+Elias Israel
+eisrael@east.sun.com
+
+------------------------------
+
+Date: Mon, 19 Apr 1993 14:51:53 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: META: !Fido... 
+
+In <9304191848.AA12663@churchy.gnu.ai.mit.edu>, "Perry E. Metzger" writes:
+|> 
+|> Tom Jennings says:
+|> > FidoNet contains 20,000 hosts, and about 2,000,000 users. It's
+|> > membership is wide open, as opposed to this medium, which is restricted
+|> > to people with access -- universities, hi-tech jobs, etc.
+|> 
+|> For $10 a month, anyone can get on the internet for Email and UseNet
+|> purposes. Its hardly exclusive. Look at all our subscribers on public
+|> access nodes. Tim May is on Netcom. Harry Shapiro, our list manager,
+|> uses Panix.
+|> 
+|> Just wanted to disabuse that notion...
+
+Exactly. To be scrupulously fair to Tom, though, it wasn't that easy
+back when he and the other Fido Pioneers set off into the wilderness
+with their 300-baud modems. Nowadays, BBS magazines like Boardwatch
+have at least one Internet or Usenet article per issue, so the time of
+Nets in Collision is definitely at hand.
+
+-- FCP
+   'ai
+   ip g
+    ni   i
+     gt l s
+       a   t
+
+------------------------------
+
+Date: Mon, 19 Apr 93 15:43:44 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Korzybski's "E-Prime", also NLP
+
+Elias Israel asks (asks Eric, but I assume I can play too):
+
+> The next question, and one that I know we discussed at WorldCon, is
+> why, then, do formal systems so often come up with models that have
+> such amazing predictive power?
+
+Ah yes, "the unreasonable utility of mathematics".
+
+There's the Platonic view: The universe is constructed (somehow)
+from mathematical principles.  We then discover these.
+
+Another view (explained in _The Mathematical Experience_ by Davis
+and Hersh, and doubtless lots of other places) is the "mathematics
+by fiat" view -- the few things that actually are modelled well
+with mathematics (physics or direct descendents of physics -- and
+even here, they are often approximate at best) have made us so
+delighted with mathematics that we deliberately force things into
+the mathematical mold.  If it works (more or less), cool.  If not,
+try again.  Given the expressiveness of mathematics, is it really
+surprising that "more or less" accurate descriptions can be found
+for lots of things?
+
+They give some "word problems" about addition to exemplify the
+problems -- many people know how to add  but do not know when
+to add.  I provide some of these here because they're interesting.
+
+Problem 1:
+  One can of tuna fish costs $1.05.  How much does two cans of
+  tuna fish cost?
+
+Problem 2:
+  A billion barrels of oil costs x dollars.  How much does a
+  trillion barrels of oil cost?
+
+Problem 3:
+  A bank in computing a credit rating allows two points if you
+  own a house, adds one point if your salary is over $20,000,
+  adds one point if you have not moved in the last five years,
+  subtracts one point if you have a criminal record, subtracts
+  one point if you are under 25, etc.  What does the sum mean?
+  [point: similar schemes are used all the time]
+
+Problem 5:
+  A cup of milk is added to a cup of popcorn.  How many cups of
+  the mixture will result?
+
+I haven't yet had time to read Korzybski (though it's been on
+the pile for a couple of weeks), but I mention this issue
+because it seems similar to what Eric was talking about:
+
+  Many people know how to add but not when to add
+  ###
+  Many people know how to apply the law of the excluded middle
+  but not when to apply it.
+
+[no wise cracks like:  many people know how to use parallel
+ constructions but not when to use them]
+
+derek
+still trying to formalize "X is a good song" in predicate
+calculus so that folks in rec.music.misc will finally shut up.
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0206
+****************************************
+

@@ -1,0 +1,981 @@
+From extropians-request@gnu.ai.mit.edu Wed May 26 12:01:02 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA14930; Wed, 26 May 93 12:00:58 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA22958; Wed, 26 May 93 12:00:52 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA13375@wookumz.gnu.ai.mit.edu>; Wed, 26 May 93 14:53:31 -0400
+Message-Id: <9305261853.AA13375@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Wed, 26 May 93 14:53:09 -0400
+X-Original-Message-Id: <9305261853.AA13368@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0284
+X-Extropian-Date: Remailed on May 26, 373 P.N.O. [18:53:31 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Wed, 26 May 93            Volume 93 : Issue 0284
+                        
+Today's Topics:
+                             BRAIN: Emulation of                      [2 msgs]
+                        Chaitin & stochastic automata                 [1 msgs]
+                  Drexler Assemblers and the Origin of Life           [1 msgs]
+                     ECON/SPACE: Sell the Universe Whole              [4 msgs]
+              ECON/SPACE: The Walrasian Universe Auction Contd        [1 msgs]
+                      Gore and environmental cataclysm                [1 msgs]
+                Is AI evidence for the existence of the soul?         [2 msgs]
+                   MEDIA: video games rev., + a META: note            [1 msgs]
+                 META: "extropy" vs "extropy-d" list split ?          [1 msgs]
+              New Brain Test: "Einstein einstein.... Penrose!"        [2 msgs]
+                      Tech: Babbage (was AI evidence..)               [1 msgs]
+                                    hello                             [2 msgs]
+                                hello (sorry)                         [1 msgs]
+                                want extropy                          [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 51613 bytes.
+
+----------------------------------------------------------------------
+
+Date: Wed, 26 May 93 1:17:30 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: MEDIA: video games rev., + a META: note
+
+> They had several of the virtual reality machines that have been around for
+> some time now.  The name escapes me, but most of you have no doubt seen
+> photos of the set-up: you stand on a platform surrounded by a waist-high
+> ring, wear a helmet, and hold a gun.  You battle fellow players and green
+> pterodactyls.  The graphics are pretty jaggy, as the game is run on an
+> Amiga platform.  There are a few of these machines in UC Berkeley's student
+> union.
+
+That's Dactyl Nightmare; it's made in the UK (or was, last I read, which was
+last year some time.)  Just an FYI.  Oooo I wonder if this counts as "setting
+the record straight"?  Will I be charged?  Indeed, while we're all here, I'd 
+like to see a MUCH clearer definition of that in the next version (if any)
+of the list rules.  Almost every post I see on this list is in one way or an-
+other trying to "set the record straight".  Hell, one could argue that that
+is what a thread solely consists of, with the execption of occasional
+questions.  
+
+> In a more conventional vein, I saw a video game first: side-by-side screens
+> for panoramic scenes.  The game "X-Men" offered this format.  Although the
+
+This is pretty old actually.  There was some vapid ninja game put out about
+5 or 6 years ago that did this.
+
+> several copycats, some of which have grown quite sophisticated.  Others are
+> gruesomely funny.  I saw one where a chainsaw-bearing character lost and
+> arm and continued swinging while his useless limb lay at his feet. 
+> Overtones of M. Python's "It's just a scratch!"
+
+Sounds like the one where, if you are playing a particular badass, he rips 
+the head, dangling spinal column and all, off the vanquished victim! Gory,
+but amusing.
+ 
+> Lastly, I highly recommend "Virtual Racer" as the best auto-racing
+> simulation I have seen to date.  Unfortunately, this Chicago arcade didn't
+> have "VR."  I just gotta' find one, somewhere, fast!  
+
+Reminds me: there is an old (~8 years) laser-disc game, I THINK it was called
+"Star Racer".  It is shaped like a motorcycle, you sit on it and all.  If you
+get a chance to play it (very few were made), it is a BLAST.  Fantastic
+graphics, back then, and pretty damn good for the present I dare say.
+
+-- 
+        When marriage is outlawed only outlaws will be inlaws!
+Stanton McCandlish,  SysOp:  Noise in the Void DataCenter Library BBS
+Internet anton@hydra.unm.edu     IndraNet: 369:1/1      FidoNet: 1:301/2     
+Snail: 1811-B Coal Pl. SE, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Wed, 26 May 93 00:19:58 PDT
+From: janik@sunrise.stanford.edu
+Subject: want extropy
+
+hey,
+
+how can i get a copy of extropy?
+
+Craig
+_____________________________________
+Craig Janik................janik@sunrise.stanford.edu
+Curriculum Engineer, Lecturer..........Terman 501       	   
+Stanford ME Design Division.........415/723-0234
+_____________________________________
+
+
+------------------------------
+
+Date: Tue, 25 May 93 18:13:38 PDT
+From: tribble@memex.com (E. Dean Tribble)
+Subject: Is AI evidence for the existence of the soul?
+
+It's been a long time since I've heard anyone claim that there was a
+direct mechanistic implementation of consciousness.  The claims I find
+most credible are that it is an emergent phenomenon of the complex
+system that is our brain.  It's hardly surprising that it took a while
+for this to sink in:  in any field that digs into complex systems,
+the majority typically thinks the emergent phenomenon of the system is
+*the real thing* and the pieces that make it up are irrelevant (does
+macroeconomics spring to mind?).
+
+If indeed consciousness is such an emergent phenomenon (as genetic
+algorithm, neural nets, Dennett, etc. all suppose), then it's no
+surprise we haven't built it yet:  we're working on hardware that is
+many orders of magnitude slower than the hardware that convincingly
+demonstrates consciousness.  If we're only 9 orders of magnitude
+slower than human brains (a laughable underestimation), then an
+algorithm that could speak intelligently wouldn't say a seconds worth
+of stuff till it had run continuously for *31 years*.  We could
+completely understand the process and it might not do us *any* good.
+
+As such realizations sink in, people have scaled back their ambitions
+and now strive to make competent bugs.  In the process of course,
+we've explored many interesting and profitable areas of computing, but
+the fact that we haven't succeeded yet doesn't say anything about our
+abiity to.
+
+dean
+
+------------------------------
+
+Date: Tue, 25 May 93 17:28:05 PDT
+From: tribble@memex.com (E. Dean Tribble)
+Subject: ECON/SPACE: Sell the Universe Whole
+
+	 >* Mark Miller has proposed that, to forestall this problem I just
+	 >mentioned, people be *forbidden* from selling their Heritage Day
+	 >birthrights for, say, 10 years, or ...
+
+	 Only serious argument in favor of this I've heard is that it would be
+	 required to get political support fot the plan.
+
+Not quite.  The more important argument is that 20 years (or whenever)
+down the line, enough people who had sold there shares early (been
+"swindled" out of their shares) would object to the system, and so the
+system would be junked, and the property rights would go out the
+window.  MarkM's scheme lets us divide it up soon, but not start the
+trading till there was enough potential value there that people could
+see that there actually is value.
+
+I'm being sloppy in the analysis, but trying to balance future
+political pressure against such a system is hard.
+
+dean
+
+------------------------------
+
+Date:     Wed, 26 May 93 8:34:35 GMT
+From: starr@genie.slhs.udel.edu
+Subject: ECON/SPACE: The Walrasian Universe Auction Contd
+
+Robin posted:
+
+>The question is, what processes can create such interlocking
+>expectations about who will defend what rights how much?  And given a
+>choice of several such processes, which should we prefer?
+>"Naturalness", whatever that means, should only be given so much
+>weight.  No one needs to own something now for an auction to be able
+>to create rights.  What is needed is shared expectations that people
+>will defend these newly created rights.
+
+The principle that ownership can be initiated by first possession is one that
+has almost universal acceptance, at least at the macro-level.  Who would deny
+that if you dig up a diamond from the ground that you own it?  Few.  This is
+a process that yields such expectations.
+
+There aren't any alternatives.  Consider a micro-level example: you and two
+others wash up on a deserted island after a shipwreck.  How are you going to
+establish ownership of things on the island?  Assume that you have stable
+currency: you announce to your companions that you'll proceed to auction off
+the whole island.  How do you expect them to react?
+
+The only way you'll be able to make it work is if you take possession of the
+whole island immediately before the others.  Imagine the difficulty of this!
+This is supposed to be easier than homesteading?
+
+Walrasian auctions entail State-enforcement in practice, and are thus subject to
+the same objections.
+
+Perry posted:
+
+>I suspect that something analogous to riparian rights to waterways
+>would arise for the atmosphere. As for species, well, you don't need
+>to buy the whole thing -- just some individual members -- and we have
+>mechanisms to cope with that right now.
+
+Riparian rights operate on the "reasonable use" standard.  Out here in the
+West, spontaneous order came up with the "first in use, first in right"
+standard.  The latter is preferable.  "Reasonableness" is too vague, arbitrary,
+and admitting of moral imperialism.  Under the Western standard, it wouldn't
+matter what anyone evaluated your use, but that you were first in use.
+
+Endangered species have already been privatized.  At least, many particular
+members representative of entire species have.  The Wall St. Journal had an
+Op-Ed about this that claimed that a Texan game rancher has preserved all 27
+bloodlines of one kind of endangered African antelope species.
+
+Along similar lines, a PBS documentary on the Siberian forest, the Taiga
+(How do you start an investigation of Siberian forest fires?  "Taiga, Taiga,
+burning bright...", claimed that its indigenous musk deer's glands are used in
+cosmetics and worth more than their weight in gold.  Then the SF Chronicle
+recently had an article about the growth industry of deer ranching.  I wanna
+start a musk deer ranch!  Where can I find out about what habitats they can
+live in?  I'd like to have the ranch in the Lower 48, but may have to put it in
+Alaska to get the right climate...
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Wed, 26 May 1993 03:41:44 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: Drexler Assemblers and the Origin of Life
+
+Drexler Assemblers & The Origin of Life
+---------------------------------------
+Copyright 1993 by Nick Szabo
+permission to archive & forward granted
+
+The question "how difficult will it be to make a Drexler assember"[0]
+often gets translated to "how hard is self-reproduction?"  Its difficulty 
+has sometimes been compared to the 3.5 billion years of "computing time" 
+in which life has been searching the space of fit DNA replicators, but
+this is the wrong timeframe.  Genetic evolution presupposes the
+capability for reproduction.  A better timeframe is how long 
+it took to get from the first simple autocatalytic sets to
+the first replictor.  An autocatalytic set is a network of catalyzed 
+chemical reactions with nonlinear feedback: pre-replicator metabolisms.
+
+Using DNA editing-distance analysis, the first organisms are believed
+to have been non-photosynthetic bacteria[1].  By 3.5 billion years ago, 
+life had already progressed to the level of complex colonies of 
+photosynthetic microorganisms[2,3].  The oldest known terrestrial
+rocks date back c. 3.8 billion years, near the end of the late
+heavy bombardment.  This gives a relatively small upper bound of
+300 million years for reproducing DNA to have emerged from autocatalytic 
+sets of simple amino and nucleic acids, sugars, lipids, etc.
+
+An interesting question arises: what is the computational capability of 
+an autocatalytic set?  Does an autocatalytic set do a random or cumulative 
+search?  Bagley & Farmer [4] have developed a computational model of 
+poly-symbols with catalyzed cleavage and condensation reactions, studying 
+the properties of a well-stirred reactor driven away from equilibrium
+by the flow of mass.  Their Platonic metabolisms can repair themselves 
+and propagate through time.
+
+Catalysts work by reducing the energy hump chemicals need to climb
+in order to react.  Even the simplest bacteria contain thousands
+of such catalysts, called enzymes, constructed from a 20-odd
+amino acid alphabet by ribosomes from instructions encoded 
+in nucleic acids.  The probability that both enzymes and templates 
+could be created through a statistical fluxuation is effectively nil.
+Bagley & Farmer have found that their catalytic reaction networks
+can focus most of the primitive materials into a few chemical
+species give:
+
+* system driven appropriate distance from equilibrium
+* condensation favored over cleavage
+* diverse kinetic paramaters
+
+Bagely & Farmer's method may be comparable to a parallel simulated
+annealing.  Simulating annealing in turn is equivalent to a 1-gene
+genetic algorithm.  How do autocatalytic sets compare computationally
+to genetic algorithms?
+
+For one thing, they can generate a lineage of related autocatalytic
+metabolisms.   They propagate specific information through time,
+namely their their unique polymer sequence. This suggests we should 
+compare "metabolic operators" involved in such transitions to genetic 
+operators like crossover and mutation.   Indeed, via cleavage and
+condensation, something very much like genetic crossover is performed,
+most often end-to-end:
+	abcbabb + bcddaaa --> abcbabbbcddaaa
+This metabolic "reproduction" occurs more continuously and with less 
+fidelity than genetic reproduction.  A complex polymer can be
+easily extinguished if cleavage outraces condensation, but it
+can also be weighted down if it is condensed with junk.  
+Combinations that can catalyze their own condensation from
+more primitive elements are more likely to perpetuate themselves.
+Fit "genomes" are linked not physically but by their capability to 
+reduce the energy levels of each other's condensations.
+
+So it seems that replication per se is not hard at all.  Crystals
+can be considered as tiny genetic codes, and indeed simulated
+annealing is computationally equivalent to a single-point genetic
+algorithm.  Simple autocatalytic sets can also propagate their
+own patterns. The complexity of life lies in its generality: DNA 
+replicators can produce far more varied forms and accomplish far many 
+more tasks than crystals or simple autocatalytic sets.  First via their 
+generality, and then via their stability, life has gobbled up all the 
+amino and nucleic acids that once were found in autocatalytic sets.  
+Even better, these replicators may have extended the scope of those 
+autocatalytic sets from incestuous cannibals to the ability to
+manufacture new nucleic and amino acids out of even simpler building
+blocks. 
+
+The main task of a Drexler assembler is not just to 
+reproduce, but to produce a variety of interesting things for us in the
+bargain.  The computational complexity of manufacturing variety
+should be the main goal of our efforts, not the computational complexity
+of reproduction, which can be simplified as much as we like until
+we're left with trivially replicating crystals.
+
+[0] Drexler, _Nanosystems_, 1992
+[1] Woese, paper in Microbiological Reviews, June 1987
+[2] Morrison & Owen, _The Planetary System_, 1987
+[3] A paper in the April 30th issue of _Science_ describes microfossils
+found dating back to 3.48 billion years BP.
+[4] Bagley & Farmer, "Spontaneous Emergence of a Metabolism",
+_Artifical Life II_, Langton ed. 1992
+
+Nick Szabo				szabo@techbook.com
+
+------------------------------
+
+Date:  Wed, 26 May 1993 09:54:00 +0000 
+From: "James (J.E.) Falconer" <falconer@bnr.ca>
+Subject: hello 
+
+Good folk,
+
+Please let me know how I can become involved with both the printed and
+electronic versions of _Extropy_.
+
+Apologies if I have emailed to an open forum; this was the address I was given.
+
+Cheers!
+Jim Falconer
+
+------------------------------
+
+Date: Wed, 26 May 1993 10:23:02 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: Tech: Babbage (was AI evidence..)
+
+Paul Johnson has a very interesting discussion of Babbage's work
+in "The Birth of the Modern" (I love this book!).
+Krzys'
+
+------------------------------
+
+Date: Wed, 26 May 1993 10:33:20 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: ECON/SPACE: Sell the Universe Whole
+
+A very interesting post by Robin. Let me add a comment. "Who will be the
+seller if the atmosphere is auctioned?" -- someone asks. Please note that
+in this case, as in any other, if no proper owner is established, the
+government is the owner, by default -- and in the case of the atmosphere
+it enforces its property rights under the cover of "environmental policies".
+This is similar to any other case of government taking over ownership of
+resources -- lots of talk of how the citizens should respect that property
+(without identifying the concept), and complete mismanagement of the
+resource. The government manages the air the same way the Soviet government
+managed the steel industry, and the same way post office is run (by the way,
+in Lenin's opinion, post office was the model of how everything should be
+run).
+Krzys'
+P.S. And this, as always, reminds me of how the German authorities
+complained to the Jews in Lodz ghetto that their productivity was falling.
+
+------------------------------
+
+Date: Wed, 26 May 1993 17:17:08 +0200 (MET DST)
+From: ggoebel@sun1.ruf.uni-freiburg.de (Garrett Goebel)
+Subject: hello
+
+Jim,
+
+Welcome!  Mail to extropians-request@gnu.ai.mit.edu  and ask to 
+subscribe... they should send you out some info on how to get the
+printed version.
+
+} Apologies if I have emailed to an open forum; this was the address I was given.
+
+no problem,
+
+Garrett
+
+-- 
+C. Garrett Goebel
+<ggoebel@sun1.ruf.uni-freiburg.de>
+
+------------------------------
+
+Date: Wed, 26 May 93 10:30:56 CDT
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: Is AI evidence for the existence of the soul?
+
+Sub-Subject: Possibility of success after repeated trials.
+
+I would like to make an analogy to other types of engineering
+on the question of attempts at human-equivalent AI.  I will
+use a 'beanstalk', or geosynchronous tower as my example.
+
+Clearly, this is a very difficult engineering challenge, just as
+human-level AI seems to be.  There have been a number of
+failures in structural engineering (collapse of gothic 
+cathedrals, the Tacoma Narrows Bridge, the failure of the
+Tethered Satellite mission).  These failures have not
+reduced the chance of ever building a beanstalk.  In fact,
+in each case we have learned more about building things.
+
+The principal obstacle in building a beanstalk is we don't
+have a sufficiently strong material to build it with.  I claim
+the principal obstacle to human-equivalent AI is we don't
+have a sufficiently fast and capacious computer to run
+the program.
+
+In the mean time, we continue to learn both from the successes,
+and the failures, and we gradually get closer to the goals
+in both areas.  Meanwhile, we should withhold judgement on
+the ultimate probability of success until the strength of
+materials or the speed and capacity of computers stabilize
+by hitting a physical limit.
+
+Dani Eder
+
+------------------------------
+
+Date: Wed, 26 May 1993 17:46:55 +0200 (MET DST)
+From: ggoebel@sun1.ruf.uni-freiburg.de (Garrett Goebel)
+Subject: hello (sorry)
+
+Oops... sorry about that.
+
+-- 
+C. Garrett Goebel
+<ggoebel@sun1.ruf.uni-freiburg.de>
+
+------------------------------
+
+Date: Wed, 26 May 1993 11:56:25 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: META: "extropy" vs "extropy-d" list split ? 
+X-Reposting-Policy: redistribute only with permission
+
+rjc@gnu.ai.mit.edu says:
+> 
+>   S/N getting worse?
+> 
+>   The discussions on Chaitin, AI, and physics have been the most polite
+> and informative discussions on this list that we have had in a long
+> time. Or do people prefer "Earth Day is Lenin Day", "Pagan vs Atheist", 
+> "Dale Worley vs Everyone" threads?
+
+Things have been better of late -- but the long term trend is pretty
+bad. When I compare the list of a couple of years ago to the list now,
+things are not nearly as good.
+
+.pm
+
+------------------------------
+
+Date: Tuesday, 25 May 1993 21:07:57 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: BRAIN:  Emulation of
+
+In <9305241944.AA19920@wookumz.gnu.ai.mit.edu>, rb@hprrb.rose.hp.com (Robert Brooks)  wrote:
+
+> And neurons are certainly more "foreign" to a Von Neumann computer than
+> gates!  Thus, it seems appropriate to apply a derating factor of a 
+> million to a billion to any analysis of simulating a brain on a 
+> conventional computer, unless and until there is enough understanding 
+> of the brain to allow emulation on a much higher level than individual 
+> neurons.
+
+Emulation of simple brains fails because we do not have sufficient
+understanding of neurons, not because of insufficient computing power.
+Emulation of simple reflexes and simple Pavlovian conditioned reflexes has
+been successful. Emulations have generated accurate and unobvious predictions
+of how a creature would react to specific and unusual forms of conditioning.
+
+Simple animals often have fixed brain wiring - every healthy member of the
+species has identical circuits, making it relatively easy to map their
+brains. Such animals have very limited capacity to learn, but often have
+complex and fluid innate behavior.  Neuron emulations successfully emulate
+what those animals do poorly, and computers do well, such as learning simple
+associations, but fail to emulate what animals do well and computers do
+poorly, such as competent conduct in a fluid, irregular, and variable
+environment.
+
+Existing emulations have had limited success, but this does not show that
+existing models of neurons are fundamentally wrong, merely that they are
+wrong.  Existing results for emulations are not so bad as to constitute
+evidence that a totally new approach to our understanding of individual
+neurons is needed.  On the other hand the results from AI, or rather the lack
+of results, *do* suggest that a totally new approach is needed.
+
+Existing algorithms for perception are not capable of being executed in a
+reasonable time on any possible hardware.   A decade or so ago people were
+arguing that the trick was a large number of clever, domain specific, special
+purpose algorithms.  But perception does not seem to be that domain specific.
+If the trick is a clever algorithm or clever algorithms, then those
+algorithms have very wide applicability.  If we are using algorithms with
+universal or of wide applicability, then we should be able to figure out what
+those algorithms are by looking at illusions, visual paradoxes, etcetera, but such
+studies have not turned up anything unusual.
+
+The fact that computers are very good at the things that animals are bad at,
+and animals are very good at the things that computers are bad at, suggests
+to me that there is something very odd about the hardware rather than
+something very clever about the algorithms.
+
+But it seems to me that the structure of the brain indicates that such a
+hardware difference would have to exist at the neuron level, rather than the
+whole brain level, because neurons mostly communicate with perfectly
+straightforward signals.
+
+A "soul" would mean that there was something very peculiar about the brain
+as a whole.  But we understand quite well how one small part of the brain
+signals another small part of the brain, so we should rather conclude that
+there is something very peculiar about individual neurons, rather than
+something very peculiar about the way they work together.
+
+Continued attempts at emulating simple brains may eventually put this
+question in clearer focus.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Wednesday, 26 May 1993 01:07:50 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: New Brain Test: "Einstein einstein.... Penrose!"
+
+Dani Eder describes a simple model of the neuron that is widely used.
+
+It is however not widely believed.  The question is: are neurons a little
+more subtle than this description, as most neuro scientists believe, or are
+they vastly different to this description, as I am inclined to believe
+because of the failure of AI.
+
+It is clear that in general a neuron does a lot more than merely sum 
+products of inputs.
+
+How much more, and what the hell it is doing, is not a trivial question.
+
+In <9305251409.AA28395@wookumz.gnu.ai.mit.edu>, eder@hsvaic.boeing.com (Dani Eder)  wrote:
+
+> model than the brain hardware itself.  Second, given about a million-
+> fold improvement in computers, we will have machines that can
+> model the brain at full fidelity.  The caveat is that there is
+> not any hidden processing going on in neurons at a level below
+> the synapses/pulses we see now.
+
+Many neurons collect data from radically discrepant sources, and output
+sensible results, which would indicate that some hidden processing is going
+on at level below that which we can detect.
+ 
+> So, to sum up, I believe that AI has failed so far for the
+> same reason that reaching orbit by manually throwing sticks in the
+> air fails: grossly inadequate power for the job at hand.
+
+The problem is not that we cannot emulate a humans brain.  The problem is
+that we cannot emulate a bees brain.
+
+The problem is not that we do not reach orbit.  The problem is that we do
+not leave the ground.
+
+
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Tuesday, 25 May 1993 23:34:11 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: ECON/SPACE: Sell the Universe Whole
+
+In <9305250117.AA23142@wookumz.gnu.ai.mit.edu>, hanson@ptolemy.arc.nasa.gov (Robin Hanson)  wrote:
+> 
+> accepted route to ownership, people won't invest in using these
+> resources.
+> 
+> SOLUTION:  Homestead stuff.  Whoever gets there first and "uses" it
+> becomes accepted owner.
+> 
+> PROBLEM:  This creates a commons in getting there first.  So too much
+> is wasted getting there too fast.  We'd all be better off waiting.
+> 
+> SOLUTION: Auction off stuff.  Give the proceeds out on a per-person
+> basis, or whatever is politically feasible.  The important thing is
+> that things get *owned*.
+> 
+> PROBLEM: It matters how stuff is divied up.  Divide it up wrong, and
+
+etcetera
+
+> 
+> Comments?
+
+All this assumes there is an entity, a government, capable of deciding on
+what to do.  But if there was an entity with enough power to implement such
+solutions it would very likely use that power to prevent freedom rather than
+facilitate it.
+
+Because an entity with sufficient power to implement optimal solutions is
+extremely dangerous, we should ask what solutions are socially feasible,
+rather than what solutions are optimal.
+
+For example when we colonize the solar system with space platforms, assuming
+there is enough matter to completely surround the sun, platforms will
+necessarily interfere with each others sunlight and cooling.  Even if they
+were optimally arranged orbital mechanics would still result in some
+interference.  Tough.  We will just have to live with it.  Some commons
+cannot be defended.  An entity with such vast power that it could defend such
+a commons is too damn dangerous.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Tuesday, 25 May 1993 22:01:59 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: Chaitin & stochastic automata
+
+In <9305250349.AA24181@wookumz.gnu.ai.mit.edu>, derek@cs.wisc.edu (Derek Zahn)  wrote:
+
+> > To model stochastic computation, I propose a "stochastic automata",
+> 
+> This is a cool idea (and note that it's a *generalization* of the normal
+> TM, so shares all of its positive capabilities).  The question is whether
+> it has any fewer limitations.  Does anybody know if it's been proposed
+> before? I'd bet it has, but you never know... for now I'll call it an
+> S-machine (for Szabo).
+
+It has been done - not a new idea.  I do not recall what came of this idea.
+
+If you could prove some interesting results with such a machine, I think
+I would have remembered it.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Wed, 26 May 93 10:43:01 CDT
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: ECON/SPACE: Sell the Universe Whole
+
+First of all, any attempt to 'sell off' anthing beyond the 
+Solar System is as presumpuous as the UN was in authoring the
+'Moon Treaty'.  You and they assume that the rest of the Universe
+is not occupied by others, and thus a subject for division by
+humans.
+
+Second, here is an alternative approach:
+
+Take the Moon, for example.  A set of individuals establish
+a lunar development company.  Each contributes capital to the
+company, and gets some region of the Moon as 'his' in return.
+
+The company and the individuals contract to recognize and 
+protect each other's claims to the respective portions of the
+Moon.  Non-participants in the company are ignored.
+
+In reality, the Moon is probably too big and too close for
+a non-government project to effectively defend, so the
+same idea applied to a more manageably sized area (a 10 kilometer
+square on the lunar surface, or a small asteroid) would
+be more reasonable.
+
+Dani Eder
+
+------------------------------
+
+Date: Wed, 26 May 93 13:36:02 EDT
+From: chrism@ksr.com
+Subject: Gore and environmental cataclysm
+
+The Wall Street Journal's editorial page has gotten to be a lot more fun since
+"Spending" Bill was elected.  Here is an editorial from yesterday's edition that
+I thought people here might enjoy.
+
+Copied without permission.  For the personal use of members of the Extropians
+mailing list only.
+
+				  ------------
+Al Gore Leads a Purge
+
+By Holman Jenkins Jr.
+
+As the Department of Energy's top scientist, William Happer Jr.  was popular on
+Capitol Hill and well regarded among his peers.  Senate Democrats even urged the
+Clinton folks to keep him on, but the Bush appointee got the ax anyway.  In the
+words of a top Democratic staffer, Mr.  Happer is "philosophically out of tune"
+with the new administration.
+
+Translation: He doesn't share Vice President Al Gore's belief in an impending
+environmental cataclysm.
+
+Nobody in politics has a bigger investment in ecological pessimism than Mr.
+Gore.  It was the avowed basis of his presidential bid, the theme of his
+best-selling manifesto, "Earth in the Balance."  He may come across as a sodden
+lump on television, but you don't get to the big leagues without playing
+hardball.
+
+Every administration has the right to pick its own appointments, and Mr.  Gore
+has gone to town.  Carol Browner at the Environmental Protection Agency helped
+write his book.  The "green" spot on the National Security Council has gone to
+Eileen Claussen, EPA's former top air-quality guru.  Bob Watson was NASA's chief
+of ozone hysterics; now he's been plucked out for a job in the White House.  The
+policy results are already showing up.  Mr. Gore and his crowd are crusading for
+limits on greenhouse gases over the objections of grown-ups at Treasury and DOE.
+
+Attack on Heterodoxy
+
+You can't make sound environmental policy without sound science, which makes Mr.
+Gore's intolerance of scientific heterodoxy troubling.  Mr.  Happer is agnostic
+on the inner workings of his dismissal as DOE's director of research, but he's
+been impolitic about Mr.  Gore's pet causes, especially global warming and the
+dreaded ozone hole.
+
+He says that while global warming makes an interesting hypothesis, "I don't see
+the data that say it's the end of the world."  Lately he's been sticking studies
+under congressional noses that show a slight decline in the ultraviolet
+radiation hitting the Earth's surface, the opposite of what the ozone alarmists
+predict.  And he may have annoyed Gore staffers in a recent meeting by
+questioning whether spy satellites really have a useful role to play in
+ecological monitoring.
+
+While the Clinton administration is swinging one way, scientific opinion is
+swinging the other.  There has been a great sobering up since the climate
+hysteria of the late 1980s.  Many scientists now realize that they were taken in
+by media hype and computer simulations whose deficiencies they didn't really
+understand.  "We can lose our objectivity as easily as anybody else," says
+NASA's John Christy.
+
+The now-fading outbreak of climatic doomsterism just shows that not even
+scientists are immune to the suggestive power of the media drumbeat.  And Mr.
+Gore has been an adept drummer.  Four years ago, he declared that there is "no
+longer any dispute worthy of recognition" about the planet's imminent
+destruction, and called on the country to assume mind-boggling costs to ward off
+the apocalypse.  In a series of "roundtables" ending last-year, he used his
+chairmanship of a key Senate subcommittee to intimidate skeptical researchers
+and promote a phony image of scientific unanimity behind his scary talk.
+
+The research community still buzzes over his flaying of Sherwood Idso, an
+Agriculture Department research physicist who argues that rising levels of
+carbon dioxide (the main greenhouse gas) would spur Earth's vegetation to
+greater feats of growth and reproduction; the planet would become greener and
+reabsorb the carbon dioxide that might otherwise cause global warming.  Mr.
+Idso is regarded as a bit of a zealot by some fellow scientists, but he has
+written hundreds of peer-reviewed papers and nobody questions his methodology.
+
+Two years ago, he was dragged before Mr.  Gore's subcommittee and accused, in
+effect, of being a scientific shill for earth-raping coal companies.  "A Gore
+staffer told me that the hearing was going to be an `exploration of views,' "
+says another scientist who testified that day.  "But actually the whole purpose
+of the hearing as far as I could see was to hammer Idso."  Adds a career
+scientist from DOE who was also present: "It was a setup."
+
+Mr. Idso got the message, says his fellow researcher, Robert Balling of the
+Office of Climatology at Arizona State University.  "He came back and said, `I'm
+going to cool it' " on pursuing controversial research.  Others took home the
+same lesson.  "It sure as hell had a chilling effect on me," says one scientist.
+"I would be very reluctant to cross Gore."
+
+Richard Lindzen, an MIT meteorologist and a scathing critic of the computer
+models that predict climatic disaster, was another target.  In one hearing, Mr.
+Lindzen withdrew one of several technical objections to the models.  Mr.  Gore
+insisted on the record that Mr.  Lindzen had recanted his opposition to global
+warming, then fired off the unpublished transcript to columnist Tom Wicker, who
+repeated the canard in the New York Times.
+
+Mr. Gore has had an easy time recruiting playmates for these agitprop games from
+the scientific community, notably at NASA, an agency forever in search of
+funding and a mission.
+
+It was NASA's James Hansen who showed up before Mr. Gore's subcommittee with a
+trumped-up story about how the Bush White House had tried to "censor" scientific
+testimony.  It was Mr.  Hansen who declared, in the hot summer of 1988, that Mr.
+Gore's greenhouse had arrived.  And just last year, NASA produced a dire new
+ozone warning, prompting Mr. Gore to make his famous grandstand play about an
+"ozone hole over Kennebunkport."  The study had been rushed out without proper
+vetting, and the predicted hole never appeared.
+
+Mr. Gore may genuinely believe the world is coming to an end, but his resort to
+show trials and other propaganda stunts reflects a long pattern of tactical
+cynicism.  When the Reagan folks were proposing to charge market prices for
+Tennessee Valley Authority electricity, Mr.  Gore invited White House economist
+Bill Niskanen up for a "private" chat that turned out to be an impromptu hearing
+in front of TV crews from communities around the country.  Later Mr.  Gore
+helped pass a law making it illegal for federal employees even to discuss market
+pricing.
+
+Besotted With Metaphors
+
+When it comes to environmental matters, shutting out contending voices is raised
+to high principle.  Mr.  Gore, who is besotted with metaphors, sees an
+ecological "holocaust" coming and implies that the media ought to play down the
+scientific "uncertainties" lest they "undermine the effort to build a solid base
+of support for the difficult actions we must soon take."  He told the Atlanta
+Constitution last year that "only a few odd scientists" doubt that an
+environmental crisis is at hand.
+
+In fact, pretty nearly the opposite is true.  Even Michael Oppenheimer of the
+frequently alarmist Environmental Defense Fund concedes that there's no ozone
+catastrophe in the offing.  And as climatologists begin gazing up from their
+computer models at the real world, global warming looks like a flash in the pan
+too.
+
+It's worth remembering that Al Gore wasn't interested in letting us even get to
+this more reasoned assessment, that he had already moved on and was shrilly
+demanding that society be turned upside-down over hypothetical disaster
+scenarios.  Now this same Al Gore is a heartbeat from the Oval Office.
+
+				  ------------
+Mr. Jenkins is a writer on the Journal's editorial page.
+
+
+------------------------------
+
+Date: Wed, 26 May 1993 14:04:06 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: New Brain Test: "Einstein einstein.... Penrose!" 
+X-Reposting-Policy: redistribute only with permission
+
+"James A. Donald" says:
+> Dani Eder describes a simple model of the neuron that is widely used.
+> 
+> It is however not widely believed.  The question is: are neurons a little
+> more subtle than this description, as most neuro scientists believe, or are
+> they vastly different to this description, as I am inclined to believe
+> because of the failure of AI.
+
+1) AI researchers don't for the most part do neural net work. The few
+   that do neural net work don't use neural models that even pretend
+   to be realistic.
+
+2) Neurons are certainly more complicated than the common computer
+   models -- no one even pretends otherwise.
+
+3) Neurons are well understood, relatively speaking.
+
+4) The fact that you are inclined to believe anything about neurons,
+   let alone that hundreds of neurobiologists are prfoundly mistaken,
+   based simply on your hearsay about AI demonstrates an ignorance of
+   both neurobiology AI research and a failure of logic.
+
+> Many neurons collect data from radically discrepant sources, and output
+> sensible results, which would indicate that some hidden processing is going
+> on at level below that which we can detect.
+
+Huh? This is just plain wrong. Natural neural networks can indeed
+take data from lots of sources and do interesting things with them,
+but individual neurons are very simple beasts, and I've never heard
+anyone observe one do anything terribly inexplicable under the current
+models of how neurons work. As for "hidden processing", to my
+knowledge the functioning of neurons is fairly well understood as
+cells go. (Many general features of cell function are still poorly
+understood, but we are getting better at it every day -- and few
+radical suprises are showing up.)
+
+Perry Metzger
+
+------------------------------
+
+Date: Wed, 26 May 1993 14:14:54 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: BRAIN: Emulation of 
+X-Reposting-Policy: redistribute only with permission
+
+"Perry E. Metzger" says:
+> 
+> "James A. Donald" says:
+> > In <9305241944.AA19920@wookumz.gnu.ai.mit.edu>, rb@hprrb.rose.hp.com (Rober
+t 
+> Brooks)  wrote:
+> > 
+> > > And neurons are certainly more "foreign" to a Von Neumann computer than
+> > > gates!  Thus, it seems appropriate to apply a derating factor of a 
+> > > million to a billion to any analysis of simulating a brain on a 
+> > > conventional computer, unless and until there is enough understanding 
+> > > of the brain to allow emulation on a much higher level than individual 
+> > > neurons.
+> > 
+> > Emulation of simple brains fails because we do not have sufficient
+> > understanding of neurons, not because of insufficient computing
+> > power.
+> 
+> I originally was going to use very strong language here, but I've
+> relented, and will say only "I do not believe your information to be
+> accurate" rather than the phrase I was going to use.
+
+Let me go even further than I just did.
+
+Current computer systems have the compute power of simple insects at
+best. Now, thanks to exponential growth, we will have computer systems
+with the power of human brains within a few decades, but anyone who
+believes that we have the compute power to do real AI right now
+(assuming that we were going the neural emulation route) as Mr.
+Donald apparently does is talking out his hat.
+
+.pm
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0284
+****************************************
+

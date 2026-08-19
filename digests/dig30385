@@ -1,0 +1,1448 @@
+From rjc@ude.tim.ia.ung.gnu.ai.mit.edu Sun Jul 11 15:31:28 1993
+Return-Path: <rjc@ude.tim.ia.ung.gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA13915; Sun, 11 Jul 93 15:31:25 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA16618; Sun, 11 Jul 93 15:31:15 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA07431; Sun, 11 Jul 93 18:18:32 EDT
+Message-Id: <9307112218.AA07431@ude.tim.ia.ung.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Sun, 11 Jul 93 18:17:51 EDT
+From: rjc@ude.tim.ia.ung.gnu.ai.mit.edu (Ray)
+X-Original-Message-Id: <9307112217.AA07426@ude.tim.ia.ung.gnu.ai.mit.edu>
+X-Extropian-Date: Remailed on July 11, 373 P.N.O. [22:18:22 UTC]
+Reply-To: Extropians@ude.tim.ia.ung.gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+Extropians Digest            Sun, 11 Jul 93            Volume 93 : Issue 0385
+                        
+Today's Topics:
+              AIT VirtSem: Determinism, Chaos, and These Ideas        [2 msgs]
+                               Anything wrong?                        [1 msgs]
+               Discussion? Ritual -- yes. Paganism -- no more.        [1 msgs]
+                   Forward: Bonobos, Articles and Sources             [1 msgs]
+                             General Assemblers                       [1 msgs]
+                          Henry Hazlitt dies at 98                    [4 msgs]
+                            Nightly Market Report                     [1 msgs]
+               PHILOSOPHY: `Rationality' as a religious dogma         [1 msgs]
+                      Technical Nanosystems criticisms                [2 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 72788 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sat, 10 Jul 93 10:29:06 PDT
+From: hfinney@shell.portal.com
+Subject: Technical Nanosystems criticisms
+
+My impression of James Donald's arguments about static friction can
+be shown by a simple diagram.  Consider two concentric rings of objects
+which attract each other:
+
+                                      N
+                            N         S          N
+
+                           S                      S
+                       N                               N
+                        
+                        
+                       N  S                         S  N
+
+                                              
+                            N   S            S   N
+                                      N
+
+This is supposed to represent an outer ring of ten N's and an inner ring
+of seven S's which is designed to rotate freely.  The S's and N's attract
+each other.  In James' discussion, this could be through Van der Waals
+forces, but I was thinking of south and north poles of magnets, which
+would allow a simple mechanical model of this device to be built.
+
+If the two rings are rigid, then the inner ring should rotate fairly freely.
+As it turns, some S's are moving away from N's, but others are moving toward
+N's.  These forces should average out and produce a fairly smooth potential
+energy curve as a function of rotational position.  There will be little
+static friction.
+
+However, if the rings are flexible, a very different situation will occur.
+The S's will pull over towards the N's, something like this:
+
+                                      N
+                            N         S          N
+                             S                  S  
+
+                       N                               N
+                        
+                        S                            S
+                       N                               N
+
+                             S                  S
+                            N                    N
+                                      N
+
+Now, any attempt to rotate the ring, even by a fairly small amount, will
+have to overcome a considerable energy barrier.  The S's will have to "snap"
+away from the N's they are straining towards, into a new strained position
+at the next N.  The whole process of rotation, even very slow rotation,
+will be a constant tug-and-snap, dissipating energy as vibrations of the
+rings.  There will be large amounts of static friction, even in the limit
+of slow rotation.
+
+I may be misunderstanding James' arguments, but this does seem to be
+a mechanism in which large amounts of static friction could arise even
+in bearings like those Drexler describes, which if rigid would have smooth
+potential energy curves.
+
+Hal Finney
+hfinney@shell.portal.com
+
+------------------------------
+
+Date: Sat, 10 Jul 93 10:29:07 PDT
+From: hfinney@shell.portal.com
+Subject: AIT VirtSem: Determinism, Chaos, and These Ideas
+
+Tim writes:
+
+> My contention is that most "logically deep" things appear to have
+> high algorithmic information content BECAUSE WE CANNOT DISCOVER THE
+> SIMPLE BITS that when run through our "machine" produce the object.
+> 
+> For example, a screenshot of some unindentified part of the Mandelbrot
+> set, or some generation and region of a game of Life, may have a
+> simple description, but we have almost no hope of finding it (the
+> simple description would be the initial starting pattern, the rules of
+> the game (as in Life), the number of generations, and the region).
+> Thus, we can do no better than simply describing the object by
+> enumerating its precise properties, that is, by listing the 10,000-bit
+> string, or the 640 x 480 Mandelbrot set image, or the Life screen.
+> 
+> Thus, these "purely deterministic" objects are nevertheless
+> incompressible.
+
+This is an interesting point.  I imagine that if a scientist or mathematician
+of the 1960's were shown an image of a piece of the Mandelbrot set, he
+would not have guessed how simple the equation was to produce that picture.
+He might instead have expected it to inevitably be the result of some very
+complex equation.
+
+Still, though, I think it is useful and important to distinguish between
+objects which are logically deep but algorithmically small, and those which
+are truly algorithmically large.  There are really two subclasses of the
+first group: objects which we don't know are algorithmically small, which
+we think are random but which actually have a simple explanation; and those
+which we are pretty sure are algorithmically small but for which we can't
+easily find the compressed form.
+
+The Mandelbrot set in the 1960's might fall into the first category, and
+perhaps turbulence could be said to fall into the second category.
+
+I do think that the distinction between apparently-random and truly-random
+phenomena is very important.  It basically separates those things which we
+can hope for good theories about from those for which we just have to say,
+well, that's just the way it is, there's no good explanation.
+
+So while Tim is right that we may not be able to come up with a good
+algorithmic compression of something, we shouldn't blur the distinction
+between those things which truly have large algorithmic randomness
+("complexity"; as I said before, I think randomness is a better word) and
+those for which it is only apparent.
+
+Hal
+hfinney@shell.portal.com
+(The reason your mail reader replies to Extropians is that the Reply-To:
+field is set that way in the header.  This is on purpose so that mail bounces
+will go to Hawk rather than to the poster.)
+
+------------------------------
+
+Date: Sat, 10 Jul 93 11:02:10 EDT
+From: boojum!esr@gvls1.vfl.paramax.com (Eric S. Raymond)
+Subject: Discussion? Ritual -- yes.  Paganism -- no more.
+
+> However to 1) put religious overtones on this (e.g., we summon the 
+> spirit of the night woods) or 2) to claim that one needs the CORRECT
+> pagan "slant" to get the full benefit is NON-Extropian.
+
+I think you've mis-interpreted my claims slightly.  The mis-interpretation
+is quite an understandable one, but it needs a serious refutation.  (Yes,
+Max, this is going to be about ritual.)
+
+What I do, mentally, when I put "religious" overtones on an experience like
+dancing around a bonfire, is not the surrender to irrationalism that you seem
+to assume.  Rather, it's a way of tuning or programming my brain to get
+maximum benefits from the experience.
+
+On the objective level, I don't believe in gods any more than I believe in the
+tooth fairy or benign government.  On the *intersubjective* level, I and
+co-ritualists may experience them as powerful transformative forces.
+
+The question a true extropian needs to ask isn't the naive-rationalist "Which
+reality-tunnel is *true*?" but the operational *what are they useful for?*.
+
+We all know what the objective/scientific/operationalist head is good for.
+But the intersubjective level has its uses, too. 
+
+As for claiming that one needs the "CORRECT pagan slant", that's true, but
+not in the way you obviously think.  It is not necessary to adopt any
+particular theology to get maximum benefits from a bonfire dance.  It *is*
+necessary to step out of normal waking consciousness to do so.
+
+Bly's crowd isn't getting the full benefit because their mode-change technology
+is timid and spotty.  Neopagan ritual inductions simply *work* better.  We've
+had a lot more practice and we're not constrained to imagery that's
+unthreatening to forty-year-old-white corporate executives.
+
+Bly's people will probably evolve towards better methods over time.  As they do,
+their ritual technology (though not necessarily their theology) will come to
+resemble ours more, for the same reason all suspension bridges look basically
+alike.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Sat, 10 Jul 93 12:09:14 EDT
+From: boojum!esr@gvls1.vfl.paramax.com (Eric S. Raymond)
+Subject: PHILOSOPHY: `Rationality' as a religious dogma
+
+MAIL DELETED BECAUSE OF LACK OF DISK SPACE
+
+
+------------------------------
+
+Date: Sat, 10 Jul 93 16:26:20 EDT
+From: pmetzger@lehman.com (Perry E. Metzger)
+Subject: Henry Hazlitt dies at 98
+X-Reposting-Policy: redistribute only with permission
+
+I am sad to report that, according to The New York Times, 
+Henry Hazlitt died yesterday. He was 98 years old.
+
+
+Perry
+
+------------------------------
+
+Date: Sat, 10 Jul 93 16:35:19 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Henry Hazlitt dies at 98
+
+Perry E. Metzger () writes:
+> 
+> 
+> I am sad to report that, according to The New York Times, 
+> Henry Hazlitt died yesterday. He was 98 years old.
+
+  A great loss for the extropian/libertarian community.  He isn't signed
+up for cryonics by any chance? :-(
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Sat, 10 Jul 93 16:35:19 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Henry Hazlitt dies at 98
+
+Perry E. Metzger () writes:
+> 
+> 
+> I am sad to report that, according to The New York Times, 
+> Henry Hazlitt died yesterday. He was 98 years old.
+
+  A great loss for the extropian/libertarian community.  He isn't signed
+up for cryonics by any chance? :-(
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Sat, 10 Jul 1993 17:05:40 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Henry Hazlitt dies at 98 
+X-Reposting-Policy: redistribute only with permission
+
+Ray says:
+> Perry E. Metzger () writes:
+> > I am sad to report that, according to The New York Times, 
+> > Henry Hazlitt died yesterday. He was 98 years old.
+> 
+>   A great loss for the extropian/libertarian community.  He isn't signed
+> up for cryonics by any chance? :-(
+
+Not to my knowledge. Yet another fine mind lost.
+
+.pm
+
+------------------------------
+
+Date: Sat, 10 Jul 93 14:11:12 PDT
+From: hfinney@shell.portal.com
+Subject: AIT VirtSem: Determinism, Chaos, and These Ideas
+
+Another interesting point raised by Tim is the idea of "found objects".
+The Mandelbrot set is conceptually simple, but to actually describe a
+very tiny piece of it may take a lot of information just to specify its
+coordinates.  Simple equations do not necessarily imply that a resulting
+object is simple.  This is related to the point someone made earlier
+(quoting Gell-Mann?) that initial conditions may carry the bulk of the
+information in most objects (as compared to the physics).
+
+In AIT terms, one could trivially write a program which did "print all
+strings".  If we wait long enough, every possible string will be output by
+that program.  Does this imply that all strings have low AIT complexity,
+since such a small program will output them?  No, because the question is
+then WHERE in the huge output stream the particular string is found.  At
+least as much information will be needed to specify this location than
+would be needed just to output the string by an optimal AIT program.
+
+This relates to a point made last year here in a post by Hans Moravec.
+I didn't understand it very well, but he was arguing that the whole
+universe could be created from nothingness.  The idea is that you could
+create all possible universes more easily, in some sense, than to create
+a particular universe.  It takes virtually no information.  Then each
+universe evolves (with its own natural laws) and only those universes
+where life develops are interesting.  By having this selection process
+happen naturally rather than trying to carefully create one of the few
+universes which can evolve life, God has an easier time of it.  (Well,
+that wasn't quite what he said, but it's one way of looking at it, maybe...)
+
+Another aspect of this point, which I touched on earlier, is the difference
+between the Many-Worlds and standard Copenhagen interpretations of QM.
+In MW, all possible events happen, which means that the total information
+content is perhaps constant.  In Copenhagen, to describe the state of the
+universe today you need to specify which particular quantum events have
+occured in the past, so the information needed to describe the universe
+constantly increases.  In MW terms, a single "Copenhagen" universe is just
+part of the total universe state function, and focusing in one one of them
+requires you to specify a lot of information just as focusing in on a tiny
+part of the Mandelbrot set does.
+
+It's kind of paradoxical that it takes less information to specify a
+whole set than to specify just part of the set.  Well, maybe it makes
+sense with the Mandelbrot set but it seems strange to imagine that a
+Many-Worlds universe has less information than a Copenhagen universe.
+
+Hal Finney              hfinney@shell.portal.com              HFINN on Hex
+
+------------------------------
+
+Date: Sat, 10 Jul 93 17:41:55 -0700
+From: drexler@netcom.com (K. Eric Drexler)
+Subject: Technical Nanosystems criticisms
+
+At 10:29 AM 7/10/93 -0700, hfinney@shell.portal.com wrote:
+>My impression of James Donald's arguments about static friction...
+>If the two rings are rigid, then the inner ring should rotate fairly freely...
+>However, if the rings are flexible....The whole process of rotation, even very
+>>slow rotation, will be a constant tug-and-snap, dissipating energy as
+>vibrations of the rings.  There will be large amounts of static friction,
+>even in the limit of slow rotation.
+
+This is essentially correct, hence structures that resemble badly designed
+bearings can be used as dampers and detents (Nanosystems p.314). Note,
+however, that tug-and-snap isn't the issue in typical bearings, because the
+interatomic forces are repulsive at close approach. Push-and-pop is a
+better description Good bearings have been designed and analyzed using
+standard molecular mechanics methods, and, of course, they don't do this.
+
+>I may be misunderstanding James' arguments....
+
+James' arguments indicated, without analysis, that (small) three-body
+corrections to the attractive potential would change the qualitative
+behavior of (all?) bearings. The class of dissipation mechanism you
+identify is real, but arises from pairwise potentials. (The dominant role
+of repulsive forces in determining friction further illustrates why small
+corrections the attractive, long-range force component are of little
+significance.)
+
+-----------------------
+
+>From the Preface to Nanosystems (p.xviii):
+
+"_Criticism of criticism_"
+
+"Research in molecular nanotechnology requires a design perspective because
+it aims to describe workable systems. It is easy to describe unworkable
+systems, and criticisms of a critic's own bad design have on occasion been
+presented as if they were criticisms of molecular nanotechnology as a
+whole."
+
+-----------------------
+
+Eric Drexler
+
+
+------------------------------
+
+Date: Sat, 10 Jul 93 23:59:25 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+---------------------------------------------------------------
+News Summary as of: Sat Jul 10 23:59:01 EDT 1993
+
+
+Newly Registered Reputations:
+LURKR	LIST LURKER
+
+New Share Issues:
+(None)
+
+Share Splits:
+(None)
+
+---------------------------------------------------------------
+Market Summary as of: Sat Jul 10 23:59:01 EDT 1993
+
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+ACS            28       29       29        10000          106            3074
+ALCOR          15       17       17        10000          210            3570
+ANTO            -        -        -            -            -               -
+BLAIR          15       30       50        10000           25            1250
+CHAITN          -        -        -            -            -               -
+DEREK          10       30       30        10000           52            1560
+DRXLR          10       15        9        10000          819            7371
+E              15       25      100        10000           36            3600
+ESR             -        -        -            -            -               -
+EXI             -        -        -            -            -               -
+FCP            10       11       11        10000          700            7700
+GHG            15        -       50        10000          895           44750
+GOBEL           -       15       22        10000          756           16632
+H               -        -        -            -            -               -
+HEX           100      105      100        10000         2908          290800
+HFINN           -        5        -        10000            0               -
+IMMFR          15        -        -        10000            0               -
+JFREE           -       50       50        10000           50            2500
+LEF            80      100      100        10000            1             100
+LEFTY          25       30        -        10000            0               -
+LIST            -        -        -            -            -               -
+LL              -        -        -            -            -               -
+LURKR           -        -        -            -            -               -
+MARCR           -        -        -            -            -               -
+MLINK           -        -        1      1000000         1101            1101
+MWM             1       20       20        10000           10             200
+N              50      125       50        10000           33            1650
+P              15       24       20      1000000          420            8400
+PETER           1        2        1     10000000         1000            1000
+PRICE           1       10        1     10000000         1400            1400
+R               1       20       20        10000          151            3020
+ROMA            -        -        -            -            -               -
+SGP             -        -        -            -            -               -
+TIM             -        -        -            -            -               -
+TRADE          15       20        -      1000000            0               -
+TRANS          20       25        -        10000            0               -
+WILKEN          9       10       10        10000          101            1010
+
+------------------------------
+
+Date: Sun, 11 Jul 93 09:35:19 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: General Assemblers
+
+I'm glad Derek Zahn is now able (as we all are again) to expand on his
+earlier compressed post.  The concept of the general assembler goes to
+the heart of my discomfort of the presentation of nanotechnology (along
+with the overly mechanistic approach).
+
+> I kind of hope that Mike is right -- the primary intuition behind
+> self-rep as advancement is elegance.  A more complex, extended,
+> system might be more pleasing.
+
+Simple systems are more elegant and attractive, I agree.  But the
+economy thrivse on complexity.  That's not to say that the simple,
+elegant solutions are impossible, just that they tend to be out-competed
+in the drive for lower costs, higher profits that the market requires.
+
+>> Specialisation of function/division of labour strongly implies that
+>> the reproductive and manufacturing functions should be separated.
+>> Consider the ant.
+> 
+> Why?  Consider the polyp colonies that make up coral reefs.  Why is
+> the ant a better metaphor than the vast majority of biological forms?
+
+Because ant family (within the hymenoptera order of social insects) is
+a very successful adaptation, having changed little over millions of
+years, yet has filled many niches.  Also because they fascinate me :-)
+
+> [..] if GAs are possible, they offer a potential for increased
+> efficiency because the effort needed to effect a localized increase
+> in production capacity involves only short-range transportation of
+> matter.  The larger the production infrastructure, the further
+> semi-assembled material has to be moved around, at great cost in
+> failure modes and energy use.
+
+That's not true in today's economy, why should it be true in tomorrow's? 
+I note that the trend during the 20 century (except for the inter-war
+years when growth was slow or negative) has been for the ratio of trade
+/ output to rise with output and productivity levels.  This was probably
+also true during the 19 century (but the data is fragmentary).  Trade
+enable regions to exploit their comparative advantages.  I suggest that
+the development of transportation infrastructures will continue to
+reduce the cost of trade (relative to the final product), leading to
+more and more products assembled from components manufactured across the
+world.
+
+The type of economy (in manufactures, at least) you envisage seems to
+be a return to the locally sufficient communities that existed centuries
+ago.  The local blacksmith working at his forge, local farms supplying
+food.  And (almost) everybody living in grinding poverty.  One of the
+reasons for the start of the industrial revolution (in the UK) was the
+laying down of the canal transport infrastructure (for coal barges). 
+Then came rail....
+
+> Now, self-rep GAs [...] have their own efficiency penalties -- all
+> based on whether they can be effective at both assembling product and
+> other GAs effectively.  Because the structure of the devices they will
+> construct will likely be very similar to themselves (little computers,
+> diamondoid stuff, etc), my intuition tells me that if these kind of
+> GAs can work, they would be a very effective (and even better -- very
+> flexible!) production technology.
+
+My intuition says the reverse.  Product complexity in manufacturing is
+added a stage at a time, by assembly processes that are _more_ complex
+than the complexity (value) they're adding.  The finished product may
+still be more complex than any individual piece of machinery in the
+assembly process.
+
+I'm sure there will be a market for some type of GA, but I doubt they
+will be zillions of wee little beasties all crawling over each other in
+a vat.  More likely a GA will be a single integrated molecular machine
+capable of constructing all objects below a certain complexity (and
+probably not including itself).  Shovel in dirt and trace elements and
+plans.  If you want more complex objects then either you _buy_ them or
+upgrade your GA (just as we upgrade PCs today).
+
+> Though note that Ralph Merkle and lately Drexler agrees with you,
+> for the most part.  See _Unbounding the Future_, pp 140-141.
+
+Yes, I noticed that.  Mentioned only in passing, as far as I could see. 
+(Took Tim May's advice and skimmed it without purchase.  Couldn't see
+much advance beyond EOC.).
+
+> It might be possible to have the "wee little beasties" behave
+> similar to coral; that is, always be in contact with one another.
+
+How does that help?  Coral is hardly a very complex structure (that is
+compared to the polyps).  As someone else said, if we're relying on some
+type of diffusion process to localise the GAs it's difficult to see how
+sharp precision manufacture is effected.
+
+> If we can have equipment around the vat, it might be possible to
+> communicate position and command electromagnetically from outside
+> with phased-array antennas, but I don't know if the resolution
+> would be good enough [...]
+
+Sounds to me like you'd need a complexity of supporting command and
+control structure greater than the finished product arrayed outside the
+vat.  Why not go the whole hog and just construct the product outside?
+
+> derek
+
+Mike Price          price@price.demon.co.uk           AS member
+
+------------------------------
+
+Date: Sun, 11 Jul 1993 11:00:26 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Anything wrong?
+
+I heard we were having net problems, but something strange
+really seems to be going on.
+
+Friday I sent something in, and someone on reflected mode wrote
+back to me about it. But I am on the digest, and I haven't gotten
+anything since Thursday. What gives?
+
+I'm clearing a lot of the dead wood out of my mailbox, although I doubt
+that was the problem... if I've missed some digests, could some good
+soul out there (ack! non-extropian imagery!) please forward them to
+me?
+
+If the digest itself is down, could you guys put me on reflected-format
+
+Oops. Slight term problem... Anyway, I'm forwarding this to
+exi-daily-request@gnu.ai.mit.edu as well as the normal list and
+the admin location in case the problems are extensive.
+
+Phil Fraering
+pgf@srl03.cacs.usl.edu
+
+------------------------------
+
+Date: Sun, 11 Jul 1993 12:36:42 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: Forward: Bonobos, Articles and Sources
+
+The following text is presented for personal educational use only. It
+is not to be copied or otherwise used in a manner which violates
+rights of its copyright holders. This letter serves only as private
+communication to readers of the Extropian Mailing List.
+_________________________________________________________________
+
+
+Here is stuff on the Bonobos.
+
+First some citations, then some articles.
+
+1.   Time, March 22, 1993, U.S. Edition, COVER STORY; Pg. 54, 4691 
+words, Can Animals Think?; After years of debate, ingenious new 
+studies of dolphins, apes and other brainy beasts are convincing many 
+scientists that the answer is yes, By EUGENE LINDEN
+
+2.   Time, August 17, 1992, U.S. Edition, BEHAVIOR; Pg. 50, 391 
+words, APES THAT SWING MANY WAYS, By Eugene Linden
+
+3. Scientific American, July, 1992, Vol. 267 ; No. 1 ; Pg. 88, 3824 words, 
+The last stone ax makers; Langda village natives in New Guinea, Toth, 
+Nicholas ; Clark, Desmond ; Ligabue, Giancarlo
+
+4. Travel Weekly Copyright (c) 1992 Information Access Company 
+Copyright News America Publishing Inc. 1992, March 30, 1992, Vol. 
+51 ; No. 26 ; Pg. S35, 4003 words, Destination: Ohio: AmeriFlora 
+blossoms into a world-class event, and the entire state plays host; 
+Includes related articles on tourist attractions Focus on: North 
+American Group Tours, Chipkin, Harvey
+
+5. Scientific American Copyright (c) 1989 Information Access 
+Company; Copyright (c) Scientific American, Inc. 1989, August, 1989, 
+Vol. 261; No. 2; Pg. 109, 872 words, Peacemaking Among Primates; 
+Book reviews, Morrison, Philip
+
+6.   People, July 17, 1989, PICKS & PANS; PAGES; Pg. 26, 1442 words, 
+PAGES, Garry Clifford, Ralph Novak, Joanne Kaufman
+
+7.   Newsweek, May 23, 1988, UNITED STATES EDITION, SOCIETY; 
+Science; Pg. 52, 4641 words, The Wisdom of Animals, BY GEOFFREY 
+COWLEY
+
+Scientific American Copyright (c) 1989 Information Access Company;                   
+Copyright (c) Scientific American, Inc. 1989
+
+August, 1989
+
+SECTION: Vol. 261; No. 2; Pg. 109
+
+LENGTH: 872 words
+
+HEADLINE: Peacemaking Among Primates; Book reviews
+
+BYLINE: Morrison, Philip
+
+BODY:    PEACEMAKING AMONG PRIMATES
+
+A primatologies at ape and monkey colonies from Arnhem to 
+Madison and San Diego and a much praised animal photographer, 
+the author has produced this fivid and original account at firsthand.  
+His title has a hidden barb, for there is little doubt that he has wider 
+goals, seeking to make some peace among human primates too--
+between observers in the field, who may come back with sparse data 
+taken under pristine conditions, and zoo workers, whose data are 
+copious but refer to animal societies under serious constraint; between 
+strict geneticists of human behavior and subtle cultural 
+anthropologists; even between NATO and the Warsaw Pact.
+
+Nobody should claim that the truth is all on one side of what is often 
+a "false dichotomy." Genes appear to hold most of destiny for the four 
+simian species he pictures and describes.  Yet de Waal, himself a 
+Netherlander, reminds us that genes are not all.  In Europe the people 
+of that Crowded nation bold "tolerance" as a key to their national 
+character, whereas in South Africa their closest kin adhere tightly to a 
+quite contrasting attitude.  For de Waal, aggression is neither absent 
+nor dominant; it is one fundamental trait in animals, along with 
+which "powerful checks and balances . . . evolved to mitigate its 
+effects."
+
+Chimps, pygmy chimps (now called  bonobos) , rhesus and stump-
+tailed moneys all look out at us here from fine portraits and scenes of 
+intimate action, often X-ratable.  The tightest arguments are based on 
+depth of observation--six thousand hours watching those two dozen 
+Arnhem chimps alone--but he spares the reader long tables of counts 
+and probabilities, citing specific case of what his data show, anecdote 
+tempered by statistics.
+
+Crowded rats kill each other.  Monkeys show less dramatic effects.  
+The Arnhem chimps, used to acres of free range, are crowded into one 
+heated hall for the winter at 20 times their summer density.  They 
+groom and greet each other much more frequently than in the 
+summer, actively trying to reduce social tensions.  Yet they can kill 
+too: he describes what seems to have been a joint fatal attack by two 
+males on a third one who had newly challenged their long-shifting 
+status as top-ranking male.  But chimps also know how to make up: 
+no flowers, but plenty of hugging, kissing and fondling, seen between 
+males statistically twice as often as between females.
+
+De Waal has seen a lot among rhesus monkeys, even a version of 
+social class. A dozen animals divided themselves into two groups; 
+within each group, the order of drinking during an experimentally 
+contrived water shortage was "flexible and easygoing," and yet all 
+members of the upper class took precedence over those of the lower.  
+For other purposes the groups were not distinct.  In the rhesus 
+physical violence is not exceptional, as it is among most primates. 
+Still, reconciliation after attack took place frequently, except that a 
+friendly reunion was very unlikely after an attack by an upper-class 
+female on a lower-class one.
+
+The author's observations on the  bonobo  are unexpected.  That 
+species, neither pygmy nor chimpanzee (although at a glance most 
+chimplike), has been distinguished from, and classified in one genus 
+with, the more familiar chimpanzee only since 1929.  Found only 
+south of the big river in central Zaire, they mostly knucklewalk along 
+the forest floor.  The zoo in San Diego has nurtured a real colony, their 
+first  bonobo  mother having borne 10 children within 14 years.  In 
+captivity they are tool users, show self-recognition in a mirror and are 
+clearly of high social intelligence and good humor.
+
+Bonobos  are the sexiest of known primates.  They couple face to face 
+in short encounters--as juveniles, adult males with males and adult 
+females with females, both in the wild and in the zoo.  (Full acts of 
+copulation with ejaculation are confined to adult male-female 
+pairings.) This frequent sexual activity is not just for fun and not 
+directed toward conception but is "an alternative" to hostility: making 
+love not war.  Most mounts and mating occur in tense conflice 
+situations between partners.  "Sexual conflict resolution is the key to  
+bonobo  social organization."
+
+It is worse than fruitless to ask which primate species we most 
+resemble.  We share with all, and they with us.  Our culture has 
+plainly transcended theirs; warfare has gone past emotion, however 
+dependent on it.  Linnaues said in later life that he had regretted 
+forming the genus Homo just for us; today we might make a third 
+species within the genus of chimps and  bonobos,  as Pan sapiens.
+
+Yet it seems to a reader that the newly seen species-by-species 
+diversity of primate behavior only strengthens Linnaeus' first 
+decision: we are far too different, billionfold, with fire, language, 
+domesticates, artifacts . . . , although by no means alien to our poor 
+country cousins.  Forgiveness is not a new Judeo-Christian idea, the 
+triumph of reason and revelation, but rather a primate stratagem 30 
+million years old.  It is time to call on it again, to call on all the 
+mechanisms for turning from confrontation to negotiation, once more 
+"adapting," as de Waal ends his book, "to new circumstances in our 
+own self-interest."
+
+TYPE: Review
+
+SUBJECT: Books, reviews, etc.
+
+Copyright 1992 The Time Inc. Magazine Company                                         
+Time
+
+August 17, 1992, U.S. Edition
+
+SECTION: BEHAVIOR; Pg. 50
+
+LENGTH: 391 words
+
+HEADLINE: APES THAT SWING MANY WAYS
+
+BYLINE: By Eugene Linden
+
+BODY:    In a forest clearing near Wamba in equatorial Zaire, a group 
+of  bonobos,  or pygmy chimpanzees, approaches a juicy stash of 
+sugarcane laid out by Japanese researchers. As the animals draw near 
+the sweets, they begin an astonishing series of sexual interactions. 
+Some females embrace, rubbing their genitals against each other; 
+males rub rumps, and sometimes briefly enter into what looks like 
+mating. There is plenty of heterosexual sex too, as well as adult-infant 
+encounters and enough mixing and matching to offend every 
+puritanical sensibility. Scientists have observed similar orgies when  
+bonobos  converge on fig trees ripe with the sticky fruit.
+
+This is not typical ape behavior. In similar situations, the  bonobo's  
+cousin, the common chimpanzee, might engage in greetings and 
+dominance interactions with far less libido in evidence. Why then do 
+the  bonobos  launch into extended orgies of polymorphous 
+perversity?
+
+One feature of the  bonobo's  forest environment offers a possible clue: 
+fruit trees that produce an unusual abundance of food in a small area. 
+This brings large numbers of  bonobos  into closer social contact than 
+is typical for common chimpanzees. The presence of food can 
+stimulate competition among the apes, and the larger the group the 
+greater the danger of conflict. Frances White of Duke University 
+argues that at these crucial times, sexual encounters reinforce bonds, 
+particularly among females, helping individual apes to maintain 
+access to food. Frans de Waal, the author of Chimpanzee Politics: 
+Power and Sex Among Apes, believes the varied sex reduces tensions 
+and fosters conciliation among these intensely social animals.
+
+Bisexual behavior may serve a similar function for another highly 
+intelligent mammal: the dolphin. "Sometimes male dolphins use 
+homosexual sex to assert dominance over other males, and other 
+times they use it in a friendly way, but always they are negotiating 
+relationships," says Richard Connor, a biologist at Woods Hole 
+Oceanographic Institution.
+
+With both dolphins and  bonobos,  however, bisexual behavior 
+appears to be more ritualistic than erotic (quite often, male-male 
+encounters do not lead to ejaculation). Thus such behavior may have 
+little to do with sexual orientation. Instead it may be viewed as a 
+counterpart of the ceremonial sex seen in some human cultures.
+
+GRAPHIC: Picture 1, In the presence of food, pygmy chimps can go 
+wild, practicing sex in every conceivable combination: from left, adult 
+female with an infant male; two adult females; adult male and female 
+with two youngsters; two young females descColor:  Bonobo  pygmy 
+chimpanzees., F. LANTING -- MINDEN PICTURES; Picture 2, See 
+above. descColor: Three photographs:  Bonobo  pygmy chimpanzees., 
+RON GORDON GARRISON (3)
+
+Copyright 1992 American Broadcasting Companies, Inc., All                                
+rights reserved.                                       ABC NEWS
+
+SHOW: NIGHTLINE
+
+August 3, 1992
+
+LENGTH: 3886 words
+
+HEADLINE: Looking at What Monkeys Do
+
+BODY: FORREST SAWYER: [voice-over] For years, scientists have 
+argued whether it's human nature to be violently aggressive. Now 
+meet what may be the human's closest relative, the  bonobo,  a 
+primate society where the female leads, the male follows, and 
+everyone has sex almost all the time.
+
+FRANS de WAAL, Yerkes Primate Center: This is two juveniles who 
+are doing oral sex.
+
+SAWYER: [voice-over] And violence? It's virtually non-existent.  
+Tonight, what might be learned when humans see what monkeys do.
+
+ANNOUNCER: This is ABC News Nightline. Substituting for Ted 
+Koppel and reporting from Washington, Forrest Sawyer.
+
+SAWYER: Most of us picture ourselves, human beings, as special, 
+unique in all the world. There are humans, and then, off in the 
+distance somewhere, there's the rest of the animal kingdom. And, in 
+many critical ways, that's true. No other animal has such 
+extraordinary intelligence. No other animal can communicate so 
+subtly, no other animal can shape its environment so completely. 
+We're also filled with another trait, vast curiosity, which makes us 
+think again, are we closer than we realize to our cousins, the apes? For 
+years, scientists have studied our nearest relatives, the chimpanzees, 
+an often violent, even murderous bunch, and speculated on what their 
+behavior says about us. But now comes the  bonobo,  what some 
+people call a pygmy chimpanzee, and a group of scientists whose new 
+studies of this animal, known for decades, have convinced them there 
+may be an entirely different message for us. So tonight, a mystery 
+story, a search for a kind of holy grail, what it is that makes us 
+uniquely human, and what it is that makes us part of some greater 
+family. First, you should meet the  bonobos.  Here's Michael Guillen.
+
+MICHAEL GUILLEN, ABC News: We don't tend to think of ourselves 
+as being merely animals, but science does. According to zoologists, 
+humans are primates, animals that typically have 3-D vision, hands 
+and large brains. Now, for the longest time, scientists were willing to 
+concede that, as primates go, humans were a breed apart. But now 
+they're discovering some family resemblances that give a whole new 
+meaning to the phrase "human animal."
+
+FRANS de WAAL, Yerkes Primate Center: We are as close to the 
+chimpanzee as a dog is to a fox, or a horse is to a zebra. I mean, that's 
+fairly close.
+
+GUILLEN: [voice- over] Genetically speaking, the DNA of humans 
+and chimps are 98 percent identical. They're practically 
+indistinguishable. That's why scientists have been studying 
+chimpanzees for decades, looking for clues to our own behavior, 
+especially in the areas of relationships, sexuality and conflict. Like 
+humans, chimps can be extremely affectionate, but also extremely 
+violent.
+
+RICHARD WRANGHAM, Harvard University Anthropologist: Of 
+the 100 or so primates that have been studied, only one shows the 
+pattern of lethal raiding, in which male coalitions defend turf, and 
+defend it very aggressively, even to the point of making attacks into 
+the neighboring areas, and that one species of non-human primate 
+that does that is the chimpanzee, that is to say, our closest relative.
+
+GUILLEN: [voice-over] For years, chimpanzees have represented our 
+best animal model 20for human behavior, but now that's changed 
+dramatically, with the discovery of the  bonobos,  a primate that's 
+genetically similar to chimps and humans, but whose behavior is 
+radically different.
+
+Mr. WRANGHAM: Chimpanzees and  bonobos  are so closely related 
+to each other that it's arguable which is more closely related to 
+humans. And yet you've got one species which shows this pattern of 
+violence, and another, the  bonobo,  which shows extraordinary peace.
+
+GUILLEN: [voice-over]  Bonobos  show none of the violent tendencies 
+scientists have observed in chimps, thus sending into a tailspin the 
+theory that violence is in our genes.  Bonobos  are also demolishing 
+old theories about sexuality. Chimps have sex infrequently, and only 
+for reproduction. By contrast,  bonobos  have sex several times a day, 
+and furthermore, they are neither heterosexual nor homosexual.  They 
+are pansexual, which means that males and females of all ages mate 
+indiscriminately.
+
+Dr. de WAAL: This is two juveniles who are doing oral sex, where 
+one of them is between the legs of the other.
+
+GUILLEN: How early in life do they start having sex?
+
+Dr. de WAAL: Oh, at least, I would say, the age of one.
+
+GUILLEN: [voice-over] Among primates in general, not just 
+chimpanzees and  bonobos,  much of what we consider grossly illegal 
+human behavior is not only legal, but natural. For example, under 
+certain circumstances, gibbon families practice incest.
+
+Mr. WRANGHAM: If one of the males or female dies, then if the 
+offspring is the appropriate sex, they may stay in that group and mate 
+with their parent.
+
+GUILLEN: [voice- over] Among orangutans, males are much larger 
+than females, and rape is the rule, not the exception, during sexual 
+encounters. Among vervet monkeys, the problem is sexual 
+harassment. About half the time, a female will rebuff a male's 
+advances with a slap. But if there are primate counterparts to the Mr.  
+Hyde in us, then there are counterparts to the Dr. Jekyll in us, as well.
+
+ALISON RICHARD, Yale University Peabody Museum Director: I 
+think that we can say that we all, as members of the order primates, 
+have the capacity to form close social bonds.
+
+GUILLEN: [voice-over] Chimpanzees nurse their young for four 
+years. So do the  bonobos,  except there's an interesting twist. After 
+the nurturing period, females leave to join another group, but males 
+stay with their mothers for life. Mothers help their sons during fights, 
+and in return, mothers, females in general, have a very high standing 
+in  bonobo  society. [on camera] The similarities between us and other 
+primates are important clues about our past, glimpses of how our 
+ancestors might have lived millions of years ago. That's why scientists 
+study them. But what do these animals tell us about our behavior 
+today and, more importantly, what do they tell us about the 
+possibility of changing that behavior for the better? [voice-over] 
+Chimps teach us, or at least affirm, that to err is primate, to forgive 
+divine. After fighting with one another, hostile chimps will often kiss 
+and hug to make up.  Bonobos,  too, teach us a lesson, a rather 
+surprising one. Their X-rated behavior, it turns out, is their way of 
+maintaining their G-rated serenity. We saw a dramatic illustration of 
+this at the San Diego Zoo, home to the largest captive population of  
+bonobos  in the United States. Zoology student Amy Parrish 
+explained why the  bonobos  suddenly started having sex, as soon as 
+they saw food.
+
+AMY PARRISH: In the wild, when animals encounter food, there's a 
+lot of aggression and competition over the food, and instead, in  
+bonobos,  what you see is, they engage in sex first, and that appears to 
+be a tension-reduction function.
+
+GUILLEN: [voice- over] Here, for example, a fight between two 
+females immediately turns into a sexual encounter. To scientists, the 
+lesson from all this is not that promiscuity leads to peacefulness. The 
+lesson, they say, is that if  bonobos  have found a way to overcome 
+their aggressions, then maybe there's hope for their more 
+sophisticated relative, Homo sapiens sapien.
+
+Mr. WRANGHAM: Clearly, people have the capacity to be nasty to 
+each other with extraordinary regularity over time and space. But the 
+fact that it's in our nature doesn't mean that it has to inevitably 
+emerge.
+
+Dr. de WAAL: So if you don't teach your children to act in a particular 
+way, just because you think it's all right that they act like "animals," as 
+we call it, that's your responsibility.
+
+GUILLEN: [voice-over] Our society, de Waal says, can push us in 
+different directions. Some societies are violent; others are peaceful. 
+We have options, and the responsibility to select those options that 
+bring out the animal, the good animal, in us all. For Nightline, I'm 
+Michael Guillen in San Diego.
+
+SAWYER: And, when we come back, we'll be joined by our  bonobo  
+expert, Dr. de Waal, and by an expert in the behavior of another 
+primate, humans.
+
+[Commercial break]
+
+SAWYER: Frans de Waal is a research professor at the Yerkes Primate 
+Research Center at Emory University.  He is a  bonobo  expert and the 
+author of Peacemaking Among Primates, which traces his 15 years of 
+primate study. He joins us from our Atlanta bureau.  Lionel Tiger is 
+the Charles Darwin professor of anthropology at Rutgers University. 
+He wrote The Imperial Animal, and a lot of other books, about how 
+human drive and emotion vary among cultures. Dr. Tiger joins us in 
+our New York studios. Dr. de Waal, these are fascinating studies you 
+have done of the  bonobos,  or the pygmy chimpanzees, as some 
+people call them, but I guess a lot of people would feel it's a bit of a 
+stretch to go from those critters to say that there's a lot you can learn 
+about human beings from them. Can you help us understand why 
+you can make that conclusion?
+
+FRANS de WAAL, Emory University: No, you wouldn't consider it a 
+stretch if we were to compare rhesus monkeys with chimpanzees, and 
+rhesus monkeys are much more different from chimpanzees than we 
+are from them. So we are very close to chimpanzees, and in that 
+regard, it's not a stretch at all.
+
+SAWYER: We're very close, not only in terms of our genetic base, but 
+we're very close behaviorly?
+
+Dr. de WAAL: Yeah, yeah. There's more and more indications.  
+Almost every behavior that you could mention, except maybe 
+language, that's maybe a problem area for comparison, but almost all 
+social behavior, you can draw parallels.
+
+SAWYER: But you see, right away we want to say, "Hold on a second, 
+we're really lots more complicated than them. They are fairly 
+primitive creatures. They can't have all those sets of behaviors.
+
+Dr. de WAAL: Well, primitive is maybe not the word you would use.
+
+SAWYER: But you see, there are a lot of folks who are going to say 
+that, they're going to say they're much more simple than we are, they 
+can't have all the sets of complicated social behaviors and ways of 
+interacting that we do.
+
+Dr. de WAAL: No, I think it is simpler, their societies are simpler than 
+ours, there's no denying that. But, for example, in chimpanzees you 
+find simple political structures. Chimpanzees form coalitions and the 
+power of a male chimpanzee is based on who supports him, not on 
+physical strength. So as soon as you get a system like that, you get 
+strategies that are very different than strategies that are based on 
+physical strength. For example, male chimpanzees, just like our 
+politicians nowadays, they go around and play with female's babies in 
+order to be popular among females, because they need the support of 
+females in their power struggles. So you get a political system that 
+starts looking like a human system.
+
+SAWYER: Well, Dr. Tiger, you come at this from another direction. 
+You start by studying the human animal. Do these studies provide 
+some insight to you?
+
+LIONEL TIGER, Rutgers University: Well, they're exciting and novel 
+and certainly they stimulate the imagination.  It's a question whether 
+you can look at one species of primate, say the large chimps, and then 
+look at another, the small chimps, and say one or another is a better 
+model of who we are. But we are who we are, we are a species, we 
+don't breed with those other animals, that's how you define a species, 
+and I think that, notwithstanding the fact that we get a tremendous 
+amount of emotional and intellectual and even aesthetic appreciation 
+of life from the other primates, I think we also have to keep a very 
+firm focus, a humble focus, on our own species. And to do that means 
+to appreciate that we are evolved, we separated from those other 
+chimps at certain points, and we developed our own way of life and, 
+while again, it's exciting to look at these other animals, and I think it's 
+one of the most worthwhile things scientists can do, nevertheless, we 
+have to keep a still, clear eye on ourselves.
+
+SAWYER: But is there something that we can learn about the very 
+basis, the foundation of the way that we organize ourselves, by 
+looking at these, what Dr. de Waal says are simpler societies, but are, 
+in fact, societies?
+
+Dr. TIGER: Well, let's take this whole question of male coalitions. I 
+was very interested, for example, in the success - and this is not a 
+political statement - but in the success of the bus tour, that now famed 
+bus tour that Clinton and Gore took. I think one of the reasons that 
+people found this interesting was that here you had two relatively 
+aggressive, assertive males cooperating in a very attractive way. And 
+that sense of effective coalitions, or an effective coalition, has a lot of 
+resonance for any primate, I think, and certainly it appears to have 
+had some resonance in that situation. So I think, without saying that 
+we're as simple as those other animals, it's rather like a language. 
+They have vowels and consonants; the end up being simpler in their 
+usage than our language, but it's still vowels and consonants we're 
+talking about, it's still coalitions, it's still affection, it's still being 
+irascible or irritated, it's still being maternal or paternal. So we can 
+see, in the language of behavior, if you will, the constituents of those 
+other animals' behavior are very much like our behavior. But again, as 
+Frans said, we're more complex, but we're more complex, I think, 
+using many of the same simple features.
+
+SAWYER: Dr. de Waal, I know that you have a fascination with the 
+behavior of primates and monkeys, for that matter, of itself. Don't you 
+find it interesting that the rest of us want to look over at your studies 
+and say, "Well, golly, what does that say about us?"
+
+Dr. de WAAL: Yes. I started as a zoologist, and zoologists study 
+animals, basically, because of an interest in animals. But if you study 
+animals that are so close with you, you automatically start comparing 
+them with ourselves. And so I don't see that as a negative point. If I 
+would be studying ants, maybe, the comparisons would be less 
+obvious than when you study chimpanzees.
+
+SAWYER: Go ahead.
+
+Dr. de WAAL: The thing that I agree with Lionel Tiger about, the 
+human species being a unique species, and I feel that if you want to 
+understand humans, you study humans. That's the first thing you will 
+do. But it is true that if you want to understand where certain 
+behaviors or certain structures in our society come from in the past, 
+you can go back to our relatives, and the more relatives share certain 
+characteristics with us, the older the characteristic usually is.
+
+SAWYER: And one of those traits that you're saying is the way we 
+organize ourselves, the kinds of complicated power relationships that 
+we see in our offices every day, or at the factory every day or, for that 
+matter, at home, with the families every day, starts way back there?
+
+Dr. de WAAL: Yeah. For example, if you look at peacemaking 
+strategies, what animals do after fights, chimpanzees kiss and 
+embrace after fights,  bonobos  usually have sex after fights. So you 
+have a process that we call reconciliation, and I've talked quite a few 
+times with family therapists about the process of reconciliation, and 
+obviously, in humans there are many other things possible, for 
+example, there are verbal reconciliations possible which are not 
+common in the primates, obviously. But there are strong parallels 
+there.
+
+SAWYER: Well, this business about sex seems a pretty good place to 
+take a pause. We'll come back and talk about that in just one 
+moment.[Family Tree: 7 million years ago, one primate ancestry; 
+today: gorilla, chimp,  bonobo,  human]
+
+[Commercial break]
+
+SAWYER: We're talking with Frans de Waal and with Lionel Tiger, 
+and the subject is what we can learn from our nearest relatives, the 
+primates and apes. Dr. Tiger, sex is an intriguing subject when we 
+look over at the  bonobos.  Seems like they've figured out a way to 
+keep peace, and I suppose most marriages would say sex is pretty 
+good at keeping peace, too.
+
+Dr. TIGER: Well, yes, except that I think if we look again at the human 
+species, as Frans de Waal agreed we should earlier, we find that, in 
+general, in most human societies, particularly in the large ones, sex is 
+never something that's used solely for reconciliation. It may be in a 
+pre-existing group, say, in a married pair or a pair of lovers. But it 
+appears that humans have a much surlier approach to the whole 
+question of who can have sex, when they can have it, with whom they 
+can have it, and what the consequences are. We have only to look, for 
+example, at the extraordinary power of organized religion to 
+recognize that one of the things that these organizations really 
+specialize in is controlling sexual behavior. And I think it's as 
+interesting to ask why do they want to control our sexual behavior as 
+to ask why do we want to have sexual behavior, and I think that's one 
+of the kind of interesting puzzles that allows us to make intriguing 
+comparisons between ourselves and the other primates.
+
+SAWYER: Well, you can't open that door without walking through it. 
+Why is there such a powerful urge to control sexual behavior among 
+humans?
+
+Dr. TIGER: Well, I published in January a book called The Pursuit of 
+Pleasure, in which I try to address the whole question of why is it that 
+we're so concerned about other people's pleasure. Why does 
+somebody tell me I can't watch a particular movie, or read a particular 
+book, or see a particular painting or photograph? And I suspect it's 
+because in the kind of human systems we have created since the 
+agricultural revolution, where we have thousands and thousands of 
+people living together - and remember, most of the organized 
+religions came at the time of the agricultural revolution, about 8,000 
+years ago - at that time, suddenly sex became not a reconciliation 
+possibility, but an explosive possibility. And if we look at what those 
+early religions started to say, it was essentially "Thou shalt not." And I 
+think that there's a clue there to the kind of historical or prehistorical 
+imbalance that we have as a species between where we evolved, 
+which is where the chimps still live and the  bonobos  still live, and 
+where we now live, which is in cities, in large-scale communities. And 
+I think that we have to acknowledge that we're not like those other 
+animals now, because we're far, far removed from the environment in 
+which we evolved and to which we specialized.
+
+SAWYER: Dr. de Waal, when we talk about sex among the  bonobos,  
+they don't seem to have too many limits, am I right?
+
+Dr. de WAAL: No, sex in  bonobos  is awfully casual. They have sex in 
+all combinations, in all positions that you can imagine, and even in 
+many positions that are very hard to imagine, and they use sex to 
+relax themselves and they also use sex to avoid problems among 
+themselves. And I sometimes have this impression, and I would 
+agree, I think, with what Lionel Tiger is saying, that maybe our 
+ancestors were like that, maybe they did use sex as a sort of "make-
+love-not-war" type of strategy, and that in the course of time, as a 
+development of the nuclear family, sex became more and more 
+limited and restricted and controlled in our societies, and the things 
+that we still have today, such as pedophilia and homosexuality and a 
+lot of other sexual orientations, that they are sort of leftovers of that 
+earlier period in which sex was much more widely and much more 
+publicly used in the society.
+
+SAWYER: Dr. de Waal, let's talk for a moment about violence. I 
+remember back when I was in college, there was all this talk about the 
+idea that humans somehow became humans because they were killer 
+apes, they were violent, they were murderous, and they went around 
+wiping out other folks and thus became more intelligent somehow. 
+That seems not to be so.
+
+Dr. de WAAL: Yeah. I think that's a very one-sided picture of the 
+human species, as it is also a very one-sided picture of the 
+chimpanzee, to say it's a very violent species. Because the human 
+species and the chimpanzee, and the  bonobo,  they have very strong 
+checks and balances on aggression, and so aggressive behavior 
+evolved together with those checks and balances. And I sometimes 
+have discussions with child psychologists who argue that it would be 
+good to educate children to reduce aggression levels. I think the main 
+problem is not to reduce aggression levels. The main problem is to 
+enhance the mechanisms that we have to control aggression, and-
+
+Dr. TIGER: Let- yeah, I just want to jump in here, simply because 
+again, you know, we all agree on the flexibility of human behavior, 
+but it seems to me that we've had enough examples of, say, in 
+Yugoslavia, three generations, three and a half generations of people 
+who are- who have been trained to live together under the Marxist 
+system, and suddenly that cap is removed and we begin to find some 
+extraordinarily deep antipathies, violences which are heartbreaking to 
+watch on television, for example, and for the people who are there. 
+And so I think that there's a need to be as willing to accept that we 
+have peaceful strategies as we have to be wary of and attentive to the 
+possibility that we have aggressive strategy, because Lord knows, 
+whenever we pick up the newspaper or turn on the tube, somebody's 
+killing somebody.
+
+Dr. de WAAL: Oh, yeah, I know.  Yeah.
+
+Dr. TIGER: And usually it's for reasons which, to the outsider, seem 
+peculiar.
+
+Dr. de WAAL: Yeah. No, it's for sure that maybe for a long time 
+people have been naive about themselves, but for the last 25 years, 
+biology books have emphasized the aggressive nature of humans, and 
+I think it is about time we also started looking at the other side of 
+human nature. And obviously, there's plenty of evidence for violence 
+in humans, there's no doubt about it. It's a very violent species.
+
+SAWYER: Dr. Tiger, I hate to do this to you, but I've got about 15 
+seconds. Is there something special we learn about humans by 
+engaging in these primate studies?
+
+Dr. TIGER: One of the main things we learn is a kind of deep humility 
+about our role in nature. If we understood monkeys and apes and 
+other animals better, I think we'd have been attentive more explicitly 
+and quickly to the environment and to the other issues of our 
+relationship to nature. Not only that, we'd become more attentive to 
+our own relationship to our own nature, and I think that's absolutely 
+critical.
+
+SAWYER: Thank you for a fascinating conversation. We could talk for 
+hours, but time has caught us. We'll be back in just one moment.
+
+[Commercial break]
+
+SAWYER: That is our report for tonight.  I'm Forrest Sawyer in 
+Washington. For all of us here at ABC News, good night.
+
+Copyright 1992 Gannett Company, Inc.                                 GANNETT 
+NEWS SERVICE
+
+September 28, 1992, Monday
+
+LENGTH: 308 words
+
+HEADLINE: EXCERPT FROM SAGAN'S BOOK COMPARING 
+HUMANS, CHIMPS
+
+BYLINE: Gannett News Service
+
+KEYWORD: GENEEXCEPRT
+
+BODY:    Here is an an excerpt from ''Shadows of Forgotten Ancestors: 
+A Search for Who We Are,'' by Carl Sagan and Ann Druyan:
+
+''How thoroughly the chimps and  bonobos  have erased the list of 
+purported human distinctions!  - self-awareness, language, ideas and 
+their association, reason, play, trade, choice, courage, love and 
+altruism, laughter, concealed ovulation, kissing, face-to-face sex, 
+female orgasm, division of labor, cannibalism, art, music, politics and 
+featherless bipedalism, besides tool using, tool making and much else. 
+Philosophers and scientists confidently offer up traits said to be 
+uniquely human, and the apes confidently knock them down - 
+toppling the pretension that humans constitute some sort of biological 
+aristocracy among the beings of Earth. Instead, we are more like the 
+nouveau riche, incompletely accommodated to our recent exalted 
+state, insecure about who we are, and trying to put as much distance 
+between us and our humble origins. So as counterweights to human 
+arrogance and pride, it is good for us that there are still apes on Earth. 
+...
+
+''If we insist on absolute rather than relative differences, we do not, so 
+far at least, discover any distinguishing characteristics of our species, 
+Shouldn't we expect, especially with our close relatives, that the 
+differences will be of degree and not of kind? Isn't this the lesson of 
+evolution? If we require that we uniquely possess tools, culture, 
+language, trade, art, dance, music, religion, or conceptual intelligence, 
+we will not understand who we are. If, on the other hand, we are 
+willing to admit that what distinguishes us from the other animals is 
+more of one propensity and less of another, then we may make some 
+progress. Then, if we wish, we can take pride in the fuller flowering of 
+primate aptitudes that has taken place in our species.''
+
+SUBJECT: BOOK; EXCERPT; ANIMAL; ANIMAL 
+BEHAVIOR:HUMAN BEHAVIOR
+
+The Associated Press
+
+The materials in the AP file were compiled by The Associated Press. 
+These materials may not be republished without the express written 
+consent of The Associated Press.
+
+July 7, 1991, Sunday, AM cycle
+
+SECTION: Domestic News
+
+LENGTH: 349 words
+
+HEADLINE: Chimp Who Understands English Also Recalls the Past
+
+DATELINE: ATLANTA
+
+KEYWORD: Smart Chimp
+
+BODY:     The chimpanzee who caused a stir when researchers said he 
+understood and responded to the English language now is changing 
+tenses.
+
+Kanzi, a 10-year-old chimp at the Georgia State University Language 
+Research Center, has made references to past events three times 
+recently, said research director Sue Savage-Rumbaugh.
+
+Scientists generally thought subhuman species deal only in the 
+present.
+
+But Ms. Savage-Rumbaugh said she and her husband, Duane 
+Rumbaugh, have proved that Kanzi can "recall events and wonder 
+about things that they cannot understand."
+
+When Kanzi's mother, Matata, was moved from the research center, 
+Kanzi, working with a keyboard on which symbols represent words, 
+asked his handlers, "Matata hide?"
+
+He searched several places, including a spot where he once found her 
+hiding, and at each location repeated the question.
+
+To allay Kanzi's anxiety, Ms. Savage-Rumbaugh made a videotape of 
+Matata and showed it to him. He jumped and yelled, and demanded 
+to see it again and again.
+
+Finally, he seemed satisfied that his mother was OK and he calmed 
+down.
+
+In April, the Rumbaughs concluded a nine-month study in which 
+they found that Kanzi, a  bonobo  chimp, understood and responded 
+to the English language at the level of a 2-year-old child.
+
+Duane Rumbaugh said the study was the "first time in science that 
+there has been really strong data collected under controlled 
+conditions" that indicates any animal can understand human 
+language.
+
+In the study, Kanzi correctly responded to specific requests on 79 
+percent of 660 test sentences that he had never heard before.
+
+Some scientists lauded the work, while others said the chimp was 
+merely responding to nonverbal signals from his handlers.
+
+The Rumbaughs founded the Language Research Center in 1981. At 
+the center, chimpanzees provided by Yerkes Center for Primate 
+Research are studied with a view to defining processes that are basic 
+to first-language skills.
+
+The research results are being used to teach children with severe 
+mental retardation to communicate symbolically with their 
+classmates, teachers and parents.
+
+Scientific American Copyright (c) 1989 Information Access Company; 
+Copyright (c) Scientific American, Inc. 1989, August, 1989, Vol. 261; 
+No. 2; Pg. 109, 872 words, Peacemaking Among Primates; Book 
+reviews, Morrison, Philip
+
+There Susan Savage-Rumbaugh, Duane Rumbaugh and Rose A. 
+Sevcik collaborated with one of us (Toth) and Toth's co-worker, Kathy 
+Schick, in teaching stonecraft to a  bonobo,  or pygmy chimpanzee.  
+The  bonobo,  named Kanzi, has demonstrated the ability to grasp the 
+most basic skills required to detach flakes from stones and to use the 
+flakes as cutting tools [see illustration above] and has even taught 
+himself new skills-such as breaking up big stones by throwing them 
+on a tiled floor.  Ongoing research also seeks to discover whether 
+Kanzi can impart toolmaking knowledge to other  bonobos.   Such 
+studies may help workers estimate the limits bounding toolmaking 
+among modern humans, nonhuman primates and protohuman 
+populations.
+
+1988 Newsweek
+
+SECTION: SOCIETY; Science; Pg. 52
+
+LENGTH: 4641 words
+
+HEADLINE: The Wisdom of Animals
+
+In a separate project, Savage-Rumbaugh and her colleagues have 
+introduced the lexigram board to several  bonobos,  commonly known 
+as pygmy chimps and uncovered yet another aspect of human 
+language ability: the power to pick up words by observation rather 
+than plodding formal training.  Rose Sevcik, a Georgia State graduate 
+student who has worked on the  bonobo  project since its inception in 
+1979, recalls that Matata, a wild-born female who started training at 
+the age of 14, was slow to pick up on the system.  But there was a 
+surprise when the researchers took her out of the language lab and 
+started working with her son Kanzi, who'd spent his first two years 
+playing at her side.  "Much to our amazement," says Sevcik, "we 
+discovered that Kanzi had learned everything we'd been trying to 
+teach Matata." Within a few weeks, Kanzi was using the board not 
+just to request foods, drinks and games but to show off his virtuosity. 
+Having asked for an apple, he might take a bite, throw it on the floor 
+and later touch the "apple" key again before gleefully stomping the 
+remains into mush. 
+
+-- 
+Harry S. Hawk  				      habs@panix.com
+Electronic Communications Officer, Extropy Institute Inc.
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0385
+****************************************
+

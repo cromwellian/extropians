@@ -1,0 +1,1593 @@
+From extropians-request@gnu.ai.mit.edu Sun Jun 13 18:19:05 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA06122; Sun, 13 Jun 93 18:19:03 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA08215; Sun, 13 Jun 93 18:18:58 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA29158@wookumz.gnu.ai.mit.edu>; Sun, 13 Jun 93 21:05:24 -0400
+Message-Id: <9306140105.AA29158@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Sun, 13 Jun 93 21:04:52 -0400
+X-Original-Message-Id: <9306140104.AA29151@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0323
+X-Extropian-Date: Remailed on June 14, 373 P.N.O. [01:05:23 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Mon, 14 Jun 93            Volume 93 : Issue 0323
+                        
+Today's Topics:
+                       BOOK:CONSCIOUSNESS AND POLITICS                [1 msgs]
+                           DIET: The May Equation                     [1 msgs]
+                              DIET: Vegan, etc                        [1 msgs]
+                    DIET: Veggies, threat or menace? :-)              [2 msgs]
+                           Forward: clipper stuff                     [1 msgs]
+                                 INFO: AmIX?                          [2 msgs]
+                            MEDIA: Jurassic Park                      [1 msgs]
+                         QUERY: foreskin mutilation                   [1 msgs]
+                      SPACE/FREE: Governments in Space                [1 msgs]
+                           Tech: Microsoft "wins"                     [1 msgs]
+                             calendar numerology                      [1 msgs]
+                                  nano-food                           [1 msgs]
+                           the "Lungfish" strategy                    [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 72877 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 13 Jun 93 0:39:53 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: DIET: Veggies, threat or menace? :-)
+
+Stanton McCandlish writes:
+
+> The title of the "blood pressure so low I'm technically dead" thread
+> reminds me: In _Islands_in_the_Net_, one of Bruce Sterling's characters
+> prefers "scop" (vat-grown artificial food made by bacteria) to "real"
+> food, particularly citing all the dangers of toxins in plants. 
+> Considering that plants DO have all sorts of alkaloids in them designed
+> to get rid of pests, I find the idea rather disturbing...Is my parsley
+> mildly toxic?  Am I being slowly poisoned by my salads?  Sure, that's
+> overreatcing, but the core idea could have some validity.  Perhaps plants
+> aren't so perfectly healthy.  Anyone seen any studies on this?  Or heard
+> of attempts to engineer toxinless plants?
+> 
+> I'd hate to think that carrots and celery were undoing all the
+> anti-oxidation and the like that my supplements do for me.
+
+Actually, I've heard of something precisely along these lines:
+"natural" plants have more chemical defenses (many of the carcinogenic
+in humans) than "supermarket" plants. (I think it was studied by the
+UC Berekeley prof who specializes in plant carcinogens, the one who
+has shown plants we eat every day have hundred of times the
+carcinogens of "bad" things like overcooked bacon, etc.)
+
+Understand of course that plant carcinogens may not matter much to
+folks in good health (in the sense of cancers being scavenged
+constantly).
+
+Sorry I don't have the references handy...I read it in passing.
+Where's a real hypertext system?
+
+
+-Tim
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Sun, 13 Jun 1993 02:49:51 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: BOOK:CONSCIOUSNESS AND POLITICS
+
+> Actually this is an outline of the book I'm
+> writing Consciousness and Politics.
+
+An attempt at constructive criticism follows...
+
+> EPISTEMOLOGY: (the nature of and means of seeking truth) 
+> Today science and philosophy suggest that there is no
+> ultimate, unchanging truth.  Physicists note that merely
+> observing reality changes it.  Some suggest that "natural
+> laws" are not static and unchanging but ever-evolving. 
+> Logicians point out the impossibility of constructing
+> logically consistent arguments.  It seems neither God nor
+> natural law has created some objective, knowable reality.  
+
+This paragraph implies numerous technical errors and a dangerous rhetorical one.
+
+"no ultimate, unchanging truth": There is a technical sense in which this
+is certainly true.  The trouble with putting it as you have here, though,
+is that you make it sound as though we are bereft not only of truths in
+the Aristotelian classical sense but also of truths in the predictive/
+pragmatic sense.  And the latter is certainly false.
+
+"Physicists note that merely observing reality changes it."  Again, this
+is misleading.  It is not "observation" that collapses the wave function,
+but *interaction*.  All present modes of observation *depend* on interaction,
+but that may change soon of the Deutsch experiment and reversible computing
+are actually implemented.  That is, it may soon become possible to observe in
+the quantum sense without irreversable change in the observed system.
+
+The reason this distinction is important is that "observation" implies an
+observer, whereas "interaction" avoids talking about anything but the
+actual mathematics of scattering, etc.  The Copenhagen interpretation has
+done a great deal of mischief by confusing these two concepts; you should
+avoid perpetuating its errors.
+
+"Some suggest that natural laws are not static and unchanging but ever-
+evolving"  Nope.  All those theories with changing gravitational constants
+and the like are pretty much in the dumper at this point.  Human
+*understanding* of natural law evolves, but it's wrong to imply that the
+universe is routinely changing the rules on us.
+
+>      Even if there was an objective reality, humans would be
+> incapable of knowing it objectively.  Humans more "construct"
+> reality and truth than "discover" them.  Each one of us views
+> reality through a unique "psychic grid" influenced by
+> society's teachings and our personal experience.  
+
+"Even if there was an objective reality" ... But there is one.  If you doubt
+it, walk off a cliff and wish yourself out of falling.  If you succeed, bravo.
+If you go splat...well, the world didn't really need yet another failed
+philosopher, did it?
+
+You've made a common error.  You've assumed that the refutation of classical,
+objectivist metaphysics implies subjectivism.  It doesn't.  For a clear
+exposition of this in accessible terms, read George Lakoff's "Women, Fire and
+Dangerous Things".
+
+Besides being wrong, subjectivism is dangerous.  If thought is ontologically
+(rather than just epistemically) prior to reality, then will is prior to
+reality and *everything is politics*.  Believe me, you don't want to live
+in such a world!
+
+>      Despite the seeming relativism of truth, humans must
+> endeavor to discover the most accurate knowledge of the nature
+> of reality and human purpose.
+
+Good...
+
+>                               And we must learn how to best
+> combine the three means to knowledge--intuition, reason and
+> empirical methods--to do so.
+
+You have the proper order reversed.   Intuition only works in situations
+where neurology and evolution has pre-equipped us with a good set of
+basic-level categories.  That works for dealing with other humans, and
+for throwing things, and for a bunch of other things that do not,
+unfortunately, include constructing viable philosophies.
+
+>                              Moreover, knowing that we create
+> our own "psychic grids", each of us must learn to create our
+> own reality instead of just going along with what the social,
+> economic and political "powers-that-be" call reality.    
+
+Good.  
+
+> METAPHYSICS:  (the nature and purpose of reality)   New
+> paradigm science describes principles of self-organizing which
+> operate all through reality--from the sub-atomic, chemical,
+> astronomical, and planetary levels, up into the cellular,
+> plant, animal and human levels.
+
+Yes.  Have you been reading Prigogine?
+
+>                                Scientists describe differing
+> but complimentary dynamic and integrative principles which
+> resemble the "yang" and "yin" described in Taoist philosophy. 
+
+This looks like it's haring off into an unhelpful sort of mysticism.
+Taoism is wonderful for reprogramming your mind --- not very good for
+understanding nature, though.  For a good laugh, read up on Taoist
+alchemy sometime.
+
+> And they see evidence of an inherent drive to evolve more
+> organized systems and more fully conscious beings.  
+
+More organized systems, yes.  That's what Prigogine's analysis of
+dissipative systems teaches us.   But the second half sounds like
+unhelpful mysticism again.
+
+>      Many scientists believe these principles of self-
+> organization and evolution are much like consciousness.  They
+> notice that dynamic and integrative principles act like
+> imagination, memory and will.  Moreover, there is evidence of
+> fields of awareness and memory called "morphogenetic" fields
+> linking similar entities--atoms, chemicals, species of plants
+> and animals.  These fields communicate knowledge among, and
+> aid in the physical and social evolution of, each type or
+> species.  
+
+Ummm...you are wandering off into very fringey, unverified stuff here.
+Lovelock doesn't buy the Gaia-is-conscious riff, and I don't know of
+any reputable scientists who thinks Sheldrake is anything but a nut.
+When the "morphogenetic field" hypothesis makes predictions that are
+experimentally verified at a high confidence level, then scientists
+will take it seriously.
+
+Until then, best start this paragraph not with "Many scientists believe"
+but with "A few scientists speculate".
+
+>      Because these principles are like consciousness, and
+> because their purpose seems to be greater consciousness, I
+> personally choose to call the very nature and purpose of
+> reality "consciousness."
+
+It is not established that they are "like consciousness" at all --- there's no
+teleology in Prigoginian thermodynamics at all, and that's the only global
+self-organizing principle that's stood an experimental test as yet.
+
+>                                   Further, I emphasize that the
+> concept of consciousness must replace the concept of god.  For
+> if humans recognize we are the product of our own conscious
+> evolution, not the creation of a transcendent god, we will
+> recognize ourselves as the creators of human destiny and
+> reject authoritarians who claim to speak and act in the name
+> of some superior being.   
+
+While I agree with your ethical aims here, I think you're going to
+play into the hands of theists and other obnoxious sorts of irrationalist
+if you try to make "consciousness" the center of your universe-picture.
+There's no good evidence that the universe works that way, and the
+claim leaves you vulnerable to co-option by people who want to
+resurrect the Nobodaddy-god.
+
+The rest moves away from philosophy into realms I'm less competent to
+critique.  I hope this was some help.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Sun, 13 Jun 1993 03:14:03 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: DIET: Vegan, etc
+
+> Quoth Eric S. Raymond, verily I saith unto thee:
+> 
+>>It's not even universal in Europeans --- not even in the Celto-Teuton blue-eye
+>>types like me you'd expect the adaptation to be best-established in.  (I presume
+>>everybody here knows that the whole blue eyes/blond hair/pale skin thing is
+>>a set of recent adaptations for foggy/cloudy/misty climates with low sunlight
+>>levels?)
+> 
+> Anything to cite in support of that?
+
+Just my college physical anthro textbook.  And Marvin Harris.  I'd have to
+grub through some boxes to give you exact cites.
+
+>                                        I have heard such arguments before,
+> and I have seen them roundly trashed.
+
+Where?
+
+> Well if eating diary stuff is a result of lack of vit. D due to lack of
+> sunlight up im der fjords, how does one explain that dairy farming starts
+> in the middle east, with cows, goats, even horses?  Seems to me more like
+> a nasty environment with little to eat, resulting in people eating
+> ANYTHING they can get their hands on.
+
+Well...it's a well-established fact that sunlight on (white) skin boosts
+vitamin D levels (I don't know that anyone has tested this on blacks or
+Asiatics; possibly not).  
+
+Either (a) white people got paler skin to take advantage of this, or (b)
+it's pure coincidence that they diverged from the human norm in that useful
+way.  I don't believe in such coincidences, not on evolutionary timescales.
+
+About dairy-farming I dunno.  It's certainly possible that both explanations
+are correct --- that is, dairying originally evolved as a scarcity response,
+but developed a more specific nutritional role for early Europeans.
+
+Your account of the origins of dairying has a testable consequence; lactose-
+intolerance ought to be rarer in Middle-Eastern populations than in
+European ones.  Don't be surprised if it isn't; Europeans may well have been
+dairying longer than the historical Middle Eastern cultures (Stonehenge is
+older than the Pyramids, you know).
+ 
+> > people are having chronic health problems brought on by the dairy products
+> > they eat and drink.  On the evidence known to me, this is a *far* more
+> > serious problem than meat-eating.
+> 
+> What sort of symptoms?
+
+Allergic reactions.  Digestive problems.  Migraines.  Insomnia.  And that's
+just for starters.  Apparently, the nasty thing about lactose intolerance
+is that it synergizes with allergies something fierce --- makes any other
+allergic reactions you're having much worse.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Sun, 13 Jun 1993 02:46:32 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: SPACE/FREE: Governments in Space
+
+>> near sun orbits
+
+Tim May:
+> 1. The equilibrium temperature is high
+
+How about a shade configured to radiate waste heat mostly sideways?
+Very crudely, like this:
+
+			  ^ IR
+	*		|----	* 
+	sun		|----	colony
+			  v IR
+
+With this structure it looks like we can go below sub-LN temperatures 
+if needed, even in sub-Mercury orbits.  This may not address
+the stealth issue (look for suspiciously moving sunspots :-),
+but the big temperature drop between the sunlight and shade may be 
+industrially interesting.
+
+The shade also must be built to reflect at a slight angle ahead of 
+its orbit instead of straight back at the sun, so it doesn't "solar 
+sail" back into the colony. :-)
+
+> 3. By the way, the solar system by then (2100?) will be completely
+> observable...
+
+Planting bugs, little space probes to monitor the colony,
+will be cheap.  But sophisticated sensors and
+electronics may also be easy to zap (using some crude by
+very high energy descendant of the proposed electronics-frying
+SDI weapons).
+
+Space colonies will also have their own constellation
+of sensors, a defensive perimeter which can find and
+zap incoming bugs.  Cargo ships are recieved and inspected for bugs 
+at a separate port facility.  A big issue is whether Earth
+can build bugs tiny enough to get past the space colony's bugs.
+Earth's bugs will be higher tech, but they have a longer
+voyage to get out there.  Another issue is how easy it is
+to find and track down bugs once they've hidden themselves
+in the noisy bowels of the habitat/industrial park constellations.
+Operating behind the stealth curtains, bugs either must use 
+wide-beam radio or rocket their way back out to transmit info.  
+Either might reveal their presence.
+
+A variant on Tim's randomizing idea is to give all the decoys
+and habitats long tethers.  As they pass each other, they reel 
+themselves in by some random amount.  The objects continually swap 
+momentum and ping-pong around a (100,000 km)^3 space in a fairly random
+fashion, but little propellant need be expended.
+
+Nick Szabo				szabo@techbook.com
+
+------------------------------
+
+Date: Sun, 13 Jun 1993 09:46:05 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Tech: Microsoft "wins"
+
+Recent reports have indicated that both TCI and Time-Warner have
+selected Microsoft to provide the software for the next generation
+of cable converter boxes.
+
+This boxes will have powerful CPU's, like those from Intel.
+
+The only major competitor is Silcon Graphics who is also developing a
+competitive product. Apple and others may also develop such a
+technology but if TCI and TW standardize on Microsoft than "the war is
+over." You will have at least 15 to 20 million homes running a variant
+of MS-Windows, if not all 65 million cable homes. (Their are 90
+million homes with TV in the USA)
+
+Time-Warner and TCI have agreed to set defacto standards for high bandwidth
+data into the home. It will include analog and digital TV, digital data
+services, and phone services. Time-Warner has already selected ATM as the
+phyical layer for bringing data, video, etc into the neighborhood.
+
+Both companies have selected "fiber to the curb" technologies. This
+means using fiber optics to bring data close enough to a home so that
+coax, persumably without amplification, can be used "into the home."
+Time-Warner already has systems with 1 gigahertz going into the home.
+Most cable systems have at least 200/350 megahertz into the home. I
+have been told one can, as a rule of thumb, encode 1 or 2 bits of data
+per hertz.
+
+With microsoft into 20/30 million business, and then being in
+an additional 20 to 60 million homes - they win.
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sun, 13 Jun 1993 12:04:24 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: DIET: Veggies, threat or menace? :-)
+
+> Actually, I've heard of something precisely along these lines:
+> "natural" plants have more chemical defenses (many of the carcinogenic
+> in humans) than "supermarket" plants. (I think it was studied by the
+> UC Berekeley prof who specializes in plant carcinogens, the one who
+> has shown plants we eat every day have hundred of times the
+> carcinogens of "bad" things like overcooked bacon, etc.)
+
+That's right.  The man's name is Bruce Ames, and he devised the now-standard
+Ames test for carcinogenicity.  His work is one of my major reasons for
+believing that nearly everything the vegetarian/environmentalist/self-panicker
+axis thinks it knows about nutrition and environmental toxins is wrong.
+
+You hit two of his major points above.  A third implication is that humans,
+like other animals, have evolved mechanisms for dealing with levels of
+environmental toxins that swamp the EPA's "safety" levels --- otherwise
+we'd all be dead.
+
+This in turn cuts right to the heart of the most serious technical dispute
+in toxicology --- how you extrapolate the mortality/morbidity effects of
+small doses of a toxin from the huge overdoses they feed the lab rats.
+
+U.S. law and self-panicker mythology mandates a linear extrapolation; this
+has the effect that *anything* can be defined as a toxin, providing you ram
+enough of it down a test animal's throat or into its bloodstream.
+
+Ames is willing to say in public (and has backed up with his work) what a lot
+of toxicologists think in private --- that this is superstitious bullshit.  The
+right model, for anything besides instant-kills like fast neurotoxins, is
+exponential fall-off cropped by a threshold at the low end (the threshold
+represents the capacity of the body's evolved metabolic scrubbers, whatever
+they are).
+
+In other words, the contemporary folk model of the human body as a fragile
+system with no defenses against lethal and carcinogenic assault by all manner of
+unknown substances is completely wrong.  And the corollary that our health is
+best protected by zealous toxin-inquisitors empowered to trash any industry
+with putatively harmful emissions is also wrong --- the human contribution to
+the environmental-toxin inventory is, comparatively, so tiny it's lost in the
+noise.
+
+For more on this, look up Ames's published works.  As one of the founders
+of modern toxicology, he can't be ignored --- though the mainstream media
+has certainly tried.  The environmentally-correct hate him with a passion.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Sun, 13 Jun 1993 12:52:08 -0400
+From: tburns@gmuvax.gmu.edu (T. David Burns)
+Subject: INFO: AmIX?
+
+What's the latest word on AmIX? Did they ever get their Macintosh version
+going? Do they still exist?
+
+
+------------------------------
+
+Date: Sun, 13 Jun 93 10:17:22 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: INFO: AmIX?
+
+> 
+> What's the latest word on AmIX? Did they ever get their Macintosh version
+> going? Do they still exist?
+> 
+
+Happens I talked to Chip Morningstar last night at a party.
+
+They're still sputtering along, and seeking funding for a specific
+product niche which sounds promising (but about which I'd better not
+say more).
+
+I've heard nothing about the Mac interface version.
+
+(In my long-held opinion, relayed to Jamie D, Gayle P., and Chip M., a
+"VT100 interface," such as I am using write now on my Mac to read News
+and Mail, is enough. Not as whizzy as a windowing system, but a whole
+lot easier to write for multiple systems. And that's more important
+right now.)
+
+
+-Tim
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Sun, 13 Jun 93 15:23:09 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: MEDIA: Jurassic Park
+
+   All I can say it, WOW! It blew me away. This movie takes special
+effects to a whole new level -- a quantum leap over any other stop-
+motion/computer effects in any movie. The live action-special effects
+integration was virtually seamless. I really believed these were
+real dinosaurs. The new DTS CD-ROM sound system is great -- the T-rex roar
+could chill the bones of anybody. The suspense and direction of this
+movie are superb, no other horror/thriller flick is worth watching.
+This movie deserves to break all the box office records like it most
+surely will.  I'm going to see this movie atleast 3 more times.
+
+  Favorite line of the whole movie:
+   Teenage Girl Hacker: "This is a Unix system, I KNOW UNIX!"
+
+  Sorry to say Arnold, but I don't even feel like going to see your movie
+after this. 
+
+  Just a hint, go for an early matinee, get there early before the
+box office opens. I only stood in line for 10 minutes, however when I
+exited the movie, the line was huge.
+
+
+
+   -Ray
+
+   Boy to sister: "You stay in your room allday on that computer. Your a
+nerd."
+   Sister: "I am not a computer nerd. I prefer to be called a hacker."
+
+p.s. Did I say this movie was AWE-some?
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Sun, 13 Jun 93 12:52:30 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: the "Lungfish" strategy
+
+[I wrote the following in '87, I think, after reading David Brin's story 
+collection THE RIVER OF TIME.]
+
+"Lungfish" is especially mind-expanding.  It got me thinking about strategies 
+for exploring the Galaxy by proxy.
+
+The fundamental concept is several decades old.  You send a `Von Neumann' probe 
+to a nearby star.  When it gets there, it beams home a preliminary survey of the 
+system, builds copies of itself to send to the next few stars, and then beams 
+back more detailed survey data for as long as it lives.  Von Neumann figured 
+this process could explore the galaxy in a few million years.
+
+"Lungfish" postulates that many civilizations have done this, with variations.  
+Two alliances of probes are mentioned, called Loyalists (including Seekers, 
+Seeders and Greeters) and Rejectors (Gobblers, Berserkers, Anti-Makers -- their 
+makers must have had override codes).
+
+There's more to the story than this, but the Rejectors got me thinking.  If 
+Anti-Makers (which attack intelligence by hunting modulated radio waves) may be 
+loose, we don't want our probes beaming spotlights at us.  [Was it Keith Henson 
+who warned of "information overload"?]  Backtracking is a little harder, but 
+still possible, if the probes beam to their neighbors and act as relays (I'll 
+call this `netcasting').  Broadcasting makes backtracking impossible, but lights 
+up a sphere of unusual activity; killers would aim at its center.
+
+There's also the danger that a killer could raid a probe's memory (Niven, "A 
+Teardrop Falls").  So each child probe is made ignorant : it `knows' only what 
+neighbors it has, and its `Radius' = how far it and its ancestors have traveled 
+on the zigzag path from Sol.  Astronomy is done in coordinates based on the 
+nearest star and/or the Core.  For netcasting, each relay translates into its 
+own coordinates (Solar coords are dangerous for obvious reasons; Leinster, 
+"First Contact").
+
+If probes relay and store all information, the boundary of the Explored Sphere 
+can be inferred; so they ignore messages originating outside a small sphere, so 
+that for each the `known universe' is symmetrical.  (A netcaster relays to each 
+star within half the radius of its own small sphere.)  Each message gives its 
+sender's Radius; each probe remembers the highest Radius it has heard of, and 
+subtracts its own to determine its small radius.  Thus each small sphere is 
+tangent to the Explored Sphere -- as big as it can safely be.
+
+But as killers penetrate the Explored Sphere, they can find Sol from the ratios 
+(rationes?) between the Radii or small radii of four or more probes.  Now what?
+
+As Heisenberg said, you can't learn much without revealing your presence.
+
+I wonder whether it might be a good idea to design into the probes some capacity 
+to mutate.  An occasional fatal mutation is only a slight setback, because of 
+the inherent redundancy of probe propagation: each probe tries to make sure that 
+each nearby star has a resident probe.  If the probes reach relativistic speeds, 
+each star can expect to be visited by about three, within a few years of each 
+other; they might engage in `sex' before the redunds move on.
+
+If a probe loses the ability to recognize its cousins as such, it's likely to 
+try to eat them, as a source of refined metals for its own children.  Such a 
+cancer might be the source of Brin's Gobblers.
+
+Anton Sherwood                                               dasher@netcom.com
++1 415 267 0685                   1800 Market St #207, San Francisco 94102 USA
+
+------------------------------
+
+Date: Sun, 13 Jun 93 14:25:24 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: calendar numerology
+
+>  As we approach the millennium it is clear to many of us
+> that the old religious and political systems only contribute
+> to bigotry, oppression and war . . .
+
+As we drive deeper into the Nineties, at least one reader is
+heartily sick of sentences that begin this way.
+
+*\\* Anton (top Tetris score: 10531)
+
+------------------------------
+
+Date: Sun, 13 Jun 93 23:52:59 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: DIET: The May Equation
+
+Tim May writes:
+
+[truly impressive diet, exercise regime etc deleted]
+
+> I suspect that for people who already don't smoke, don't 
+> drink too much, get at least some exercise, and aren't 
+> obese, the "extra years" obtainable with the best diets and 
+> exercise (not clear what that is, of course) for someone now 
+> 30 years old is, very roughly, about 1-3 years.
+
+This seems unduly pessimistic to me, but of course I can't prove
+anything.
+
+> That is , I don't expect any miracle diet will make a 30-year
+> old, with a life expectancy of 80 to instead have an expectancy
+> of much beyond 83 or so.
+
+I'm not sure if 83 is a serious figure, or just an example.  But I
+remember reading (in CRYONICS magazine, again) about epidemiological
+studies of mormons (who don't smoke, drink or eat meat(?)) which 
+claimed average life-extension over the average life-span of 7 - 11 
+years (bringing the sex difference down to about a year - the 11 year
+extension was for men).  From memory I think average life span was 85
+(and that is presumably without vitamins and other supplements - just
+good, plain, wholesome living and praise the Lord!).
+
+> I would be very happy if evidence appears that diet + exercise can
+> increase the life expectancy to, say, 90.
+
+Me too!  I'll try to hunt up the references.  Perhaps Perry's found 
+them already?
+
+> -Tim May
+
+Mike Price                         price@price.demon.co.uk
+
+33, 6'8", 102 lb, teetotal, non-smoker, mostly veg - but no exercise
+grandparents' average of death (includes 2 smokers) = 80 (still rising)
+
+------------------------------
+
+Date: Sun, 13 Jun 1993 18:10:30 -0600 (MDT)
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: QUERY: foreskin mutilation
+
+> Also -- there are certain circumstances under which it's forbidden for a 
+> Jewish male to be circumcized.  What it boils down to is a family history 
+> of hemophilia.
+
+Anyone happen to know how, why and when circumcision came to be a "normal"
+practice in this country?  Personally, it really torques me that my
+genitals were mutilated when I couldn't speak to object, but oh
+well...still, how on earth did a cult practice like that get to be
+mainstream, particularly in a predominantly Xian country?  Very strange,
+very strange.
+
+-- 
+        When marriage is outlawed only outlaws will be inlaws!
+Stanton McCandlish,  SysOp:  Noise in the Void DataCenter Library BBS
+Internet anton@hydra.unm.edu     IndraNet: 369:1/1      FidoNet: 1:301/2     
+Snail: 1811-B Coal Pl. SE, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Sun, 13 Jun 1993 18:26:09 -0600 (MDT)
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: nano-food
+
+> How about you have a spacesuit like that described in EOC, and have it convert
+> shit &c back into nutrients and diffuse them through your skin?
+
+Sounds good to me!  Herbertian stillsuits!  As long as it's like a 2nd
+skin, and includes things to get rid of sweat and bacteria on the skin so
+I don't smell like a sewer.
+
+BTW, interesting to see someone use "&c" haven't seen that in years...
+ -- 
+        When marriage is outlawed only outlaws will be inlaws!
+Stanton McCandlish,  SysOp:  Noise in the Void DataCenter Library BBS
+Internet anton@hydra.unm.edu     IndraNet: 369:1/1      FidoNet: 1:301/2     
+Snail: 1811-B Coal Pl. SE, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Sun, 13 Jun 1993 19:23:50 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Forward: clipper stuff
+
+The following text is presented for personal educational use only. It
+is not to be copied or otherwise used in a manner which violates
+rights of its copyright holders. This letter serves only as private
+communication to readers of the Extropian Mailing List.
+_________________________________________________________________
+
+
+                    Copyright 1993 Warren Publishing, Inc.
+
+                          Communications Daily
+
+                        June 10, 1993, Thursday
+
+SECTION: Vol. 13, No. 111; Pg. 8
+
+LENGTH: 1017 words
+
+HEADLINE: 'Built-In Vulnerability'; SUPPORT CONTINUES TO ERODE FOR
+GOVT. ENCRYPTION STANDARD, HOUSE PANEL TOLD
+
+BODY:
+
+Panel of telecommunications security experts told House Telecom
+Subcommittee hearing Wed. that proposed Clipper Chip encryption
+standard (CD April 17 p1) could have adverse effect on nation's
+computer and telecommunications industry because agencies would have
+to regulate manufacturers heavily to ensure compliance. That could put
+U.S. industry at competitive disadvantage, they said. Other panel on
+network security said how phone fraud is being taken over by organized
+crime, with some moving out of drugs because there's less chance of
+being caught and prosecuted.
+
+Panel of experts criticized Clipper program on several fronts: (1)
+Lack of public debate before program was put forward by govt. (2)
+Adverse effects on exports. (3) Concerns on privacy safeguards. As
+proposed, 3 unique Clipper encryption keys would be issued for each
+chip made.  Once chip would be installed in device and 2 others --
+called "escrow keys" -- would go to govt. agencies that would hold
+them for safekeeping. Upon receiving court approval for wiretap, law
+enforcement agencies would retrieve escrow keys, which in tandem would
+make it possible to listen to encrypted conversations.
+
+Of all security experts testifying, only Georgetown U. Prof. Dorothy
+Denning supported Clipper program as it stands. But when asked for
+recommendations on which govt. agencies should be considered escrow
+key holders, she said had none. When asked if National Security Agency
+(NSA) would be good choice, she said: "I don't think the public has
+enough confidence in them." How about FBI? "I think that [choice]
+could be viewed as a potential conflict of interest," Denning said,
+her answer drawing laughter from audience.
+
+Sun Microsystems engineer Whitfield Diffle (who invented concept of
+public keys for encryption software) told Subcommittee Chmn.  Markey
+(D-Mass.) that his company's products were likely to be met with
+skepticism in foreign markets because of Clipper's "built-in
+guaranteed vulnerability for law enforcement agencies." He said no one
+was going to want to buy from Sun, even if they thought there might be
+some sort of Clipper device inside -- whether or not that was case --
+because "no company wants a device the U.S. government might be
+listening in on." Diffle said Clipper chip's housing, which is
+tamper-proof, would add appreciable cost to secure products, placing
+another burden on industry. When selling to govt. agencies that
+mandated use of Clipper chips, he said such products would be subject
+to NSA design approval. If this happened, "the nation's computer
+manufacturers would be trapped in a regulatory web more confining than
+any we have seen so far."
+
+Clipper program also might lead to "perverse" reaction, said Stephen
+Bryen, pres., Secured Communications and State Dept. under secy. for
+export control in Reagan Administration. He said criminals who are
+targets of wiretapping using new standard actually would be encouraged
+to import foreign made encryption devices that U.S. govt.  couldn't
+break. Such scenario isn't far-fetched, he said: "The U.S. has no
+import controls on encryption technology." In his work in Reagan
+Administration, Bryen said greatest amount of encryption products
+imported to U.S. were from Switzerland.
+
+Administration has failed to "count the costs" of program, said Marc
+Rotenberg, Washington dir. of Computers Professionals for Social
+Responsibility (CPSR). "We should reassess the costs on privacy,
+business and society," he said. "We have to ask ourselves if those
+balance the needs put forth by the Clipper proposal, and we don't
+think they do." Rotenberg also pointed out that under Computer
+Security Act of 1987, National Institute of Standards & Technology
+(NIST) -- not NSA -- was to be responsible for development of
+technical standards, but NSA took leading role. In 1989, NIST set out
+to develop public key cryptography standard that would be "public,
+unclassified . . . usable by federal agencies and U.S.-based
+multinationals," Rotenberg said, but Clipper proposal is 180 degrees
+from that, according to documents CPSR obtained under Freedom of
+Information Act.
+
+Hearing's 2nd panel said organized crime is now running nation's most
+lucrative telecommunications fraud rings. N.Y. State Police Senior
+Investigator Donald Delaney said: "We've interviewed criminals from
+organized crime operations that say they've moved from drugs to
+telephone fraud because there's more money in it and less chance of
+being caught." Michael Guidry, pres. of Guidry Group, private security
+firm that works with Cellular Telecommunications antifraud task force,
+told Committee that he had received calls from foreign law enforcement
+officials asking for help on telephone fraud because organized crime
+is moving in.
+
+Telephone fraud has gone beyond "minuscule" efforts of teenage
+computer hackers, said John Haugh, chmn. of Telecommunications
+Advisers consulting firm that tracks phone fraud. He said FCC has
+"done essentially nothing to jawbone major segments" of industry into
+becoming more protective. "While the agency's attitude has been
+apathetic and must change, the FCC is understaffed and underfunded,"
+he said. Markey, taking up Haugh's comments, criticized Commission for
+"doing nothing" after holding high-profile "all-day" hearing on phone
+fraud problem. "They've just put all that information on the shelf,"
+he said. FCC will be asked to give accounting of why it hasn't acted
+in some way to help stem problem, Markey said, when it's called to
+testify in near future.
+
+Haugh presented dramatic statistic on losses from fraud -- up to $5
+billion annually. But when pressed, he admitted figure was merely
+estimate, saying there's no accurate accounting of fraud losses
+because companies are hesitant to admit problem and carriers aren't
+required by any law to publish such numbers, so loss data continue to
+be inflated artificially. Computer search by Communications Daily
+showed that in more than 50 articles published in 1992, industry
+itself often quoted "experts" as saying phone fraud losses were
+costing U.S.  "up to $2 billion annually."
+
+               Copyright 1993 IDG Communications, Inc.
+
+                               InfoWorld
+
+                              June 7, 1993
+
+SECTION: Pg. 1
+
+LENGTH: 486 words
+
+HEADLINE: IS managers assail data encryption rule; ' Clipper' chip
+would allow snooping
+
+BYLINE: BY SCOTT MACE AND SHAWN WILLETT
+
+DATELINE: GAITHERSBURG, Md.
+
+BODY:
+
+IS managers and computer vendors last week blasted the Clinton
+administration's plans to mandate use of the "Clipper" data encryption
+chip.
+
+During hearings hosted by the U.S. Commerce Department here last week
+and in interviews, many IS managers and vendors said they fear the
+encryption standard could make their operations vulnerable not only to
+snooping by the government, but by criminals as well.
+
+IS managers and consultants from Bankers Trust Co. of New York and
+Deloitte & Touche voiced these concerns at the hearing and chided the
+government for shrouding the process in secrecy.
+
+"The secret process up until now has been destructive topublic trust,"
+said William Murray, IS consultant at Deloitte & Touche, in Wilton,
+Conn.
+
+"It is only a matter of time before hackers figure out a back door to
+de- encrypt it," said Sheldon Laube, national director of information
+and technology at Price Waterhouse, in Menlo Park, Calif.
+
+Laube echoed the concerns of other corporate data managers.
+
+"If the government can de-encrypt it, we have to assume competitors
+can as well," said Bob Holmes, computer technology research analyst at
+Southern California Gas, in Los Angeles.
+
+The chip, which would be installed in data communications devices,
+including computers, modems, fax machines, and phones, encrypts data
+so outsiders cannot listen in or steal sensitive data.  But government
+agencies, such as the FBI, could ask for a court order to obtain the
+"keys" to decode the data.
+
+No one would be forced to implement the chip, but the administration
+proposal could mandate government agencies to buy it, effectively
+forcing its widespread adoption.
+
+The Clipper clip, jointly developed by the National Security Agency
+and the National Institute of Standards and Technology (NIST) was also
+assailed by computer vendors.
+
+Oliver Smoot, vice president of the Computer and Business Equipment
+Manufacturers Association (CBEMA), testified that its members would
+have to develop separate product lines for the United States and
+overseas because few foreign governments would want to give the U.S.
+government the capability to decode their data transmissions.  This,
+along with the inclusion of the chip in every computer, would mean
+higher prices, Smoot said.
+
+CBEMA members include Apple Computer Inc., Compaq Computer Corp., IBM,
+and Hewlett-Packard Co.
+
+The plan has also been hotly contested by computer industry civil
+libertarians, such as the Electronic Frontier Foundation, which urged
+that the constitution's prohibition of illegal search and seizure be
+applied.
+
+NIST and other government agencies countered that the chip is very
+resistant to tampering.  It uses a key escrow system, where two or
+more government agencies will hold parts of a decryption key, for use
+by law enforcement with a valid court order.
+
+The FBI expects organized crime and terrorists to begin encoding
+information.
+
+GRAPHIC: Picture, no caption, GREG BOREN/INFOWORLD
+
+                  Copyright 1993 Network World, Inc.
+
+                             Network World
+
+                              June 7, 1993
+
+SECTION: TOP NEWS; Pg. 2
+
+LENGTH: 662 words
+
+HEADLINE: Clipper Chip foes denounce scheme over cost issues; Vendors
+and users rail against encryption plan.
+
+BYLINE: By Ellen Messmer, Senior Correspondent
+
+DATELINE: GAITHERSBURG, Md.
+
+BODY:
+
+Users and vendors last week blasted the federal government's Clipper
+Chip encryption scheme, saying it will be expensive to implement
+because it does not abide by international encryption standards.
+
+Clipper Chip, the chip-based private-key encryption system developed
+by the National Security Agency (NSA), came under fire from users like
+Citibank, N.A. and industry trade groups during the Computer System
+Security and Privacy Advisory Board meeting here at the National
+Institute of Standards and Technology (NIST).
+
+Clipper Chip is designed with a key escrow system that will allow the
+U.S. government to decrypt messages during surveillance actions.
+President Clinton, citing the need to balance individual privacy
+rights with law enforcement and security concerns, last April ordered
+NIST to make Clipper Chip a federal purchasing standard in six months.
+
+The decision will have a big impact on the banking community, which
+leans toward the government's choice of encryption standards. Many
+banks have to communicate electronically with the Federal Reserve
+System and will likely have to use Clipper Chip once the Fed adopts
+it.
+
+"The cost of the chip is a minute part of the [overall] cost," said
+Sandra Lambert, Citibank vice president and director of information
+security, and a member of the advisory board. Having to support the
+Clipper Chip on its global net as well as international encryption
+standards will require added personnel and hardware investment.
+
+The Computer Business Manufacturers Association, Software Publishers
+Association and Open Software Foundation, Inc. said the government's
+proposed standard would force vendors to create new security products
+incompatible with existing standards. Few vendors see a big market for
+Clipper Chip.
+
+Motorola, Inc. Chief Executive Officer George Fisher stated, "The
+technology will not be cost-effective, will not be usable for computer
+communications over packet-switched nets, nor will it solve the
+problems the law enforcement agencies expect it to solve."
+
+
+
+NIST Deputy Director Ray Kammer said the government is considering
+banning all other encryption and making Clipper Chip mandatory.
+
+Although the public knew nothing of Clipper Chip before Clinton's
+April announcement, AT&T knew about the upcoming new standard at least
+a year and a half ago, government officials admitted last week.  Board
+member Cris Castro, director of consultancy ManTech Strategic
+Associates, Inc., accused AT&T of making a "secret deal" with the NSA
+over Clipper Chip.  Castro said AT&T agreed to substitute Clipper Chip
+for the Data Encryption Standard (DES) algorithm planned for a
+telephone security device in exchange for a sole-source contract with
+the Department of Justice.
+
+Clint Brooks, NSA special assistant to the director for the Clipper
+Chip key escrow project, acknowledged that AT&T came to the NSA saying
+it had developed a better version of the DES that it would implement
+in its new encryption device. The agency informed AT&T that Clipper
+Chip would be proposed as a federal standard. AT&T switched its
+support to Clipper Chip.
+
+The Department of the Treasury's FBI awarded AT&T a sole-source
+contract for several thousand of the telephone security devices
+without competitive bidding. But the NSA, AT&T and the FBI deny that
+AT&T won in exchange for dropping the DES in its encryption device.
+
+"AT&T is the only one making these," said Barry Smith, congressional
+supervisory special agent at the FBI, explaining the FBI's decision.
+
+AT&T told Network World it already had the Treasury contract when the
+
+Clipper Chip was announced in early April, but the FBI insisted last
+week that the contract was signed on June 1. NIST officials
+acknowledged that since the FBI has ordered AT&T Clipper Chip devices
+in advance of the standard being officially published, multivendor
+interoperability will be problematic because AT&T has implemented
+proprietary signaling and voice-coding schemes.
+
+ 
+
+               Copyright 1993 IDG Communications, Inc.
+
+                             Computerworld
+
+                              May 31, 1993
+
+SECTION: VIEWPOINT; Pg. 33
+
+LENGTH: 525 words
+
+HEADLINE: Clipper gives Big Brother far too much power
+
+BYLINE: By Bruce Schneier; Schneier is president of Counterpane
+Systems, a cryptography consulting firm in Oak Park, Ill. His book,
+Applied Cryptography, will be published by John Wiley & Sons in
+November.
+
+BODY:
+
+In April, the Clinton administration, cleaning up business left over
+from the Bush administration, introduced a cryptography initiative
+that gives government the ability to conduct electronic surveillance.
+The first fruit of this initiative is Clipper, a National Security
+Agency (NSA)-designed, tamper-resistant VLSI chip. The stated purpose
+of this chip is to secure telecommunications.
+
+Clipper uses a classified encryption algorithm. Each Clipper chip has
+a special key, not needed for messages, that is used only to encrypt a
+copy of each user's message key. Anyone who knows the key can decrypt
+wiretapped communications protected with this chip. The claim is that
+only the government will know this key and will use it only when
+authorized to do so by a court.
+
+There are numerous problems with Clipper: cryptographic problems,
+design problems, policy problems and philosophy problems.
+
+Classifying the encryption algorithm is wrong. The NSA's refusal to
+allow public scrutiny of the algorithm gives ammunition to those who
+believe there is a secret "back door" that will permit the NSA to
+decrypt messages at will. The only way to assuage these fears is to
+allow academic cryptographers to examine the algorithm and publish
+their findings.
+
+Clipper is also based on the Orwellian assumption that the government
+has a right to listen to private communications. It promotes the power
+of government over the power of the individual. It assumes that the
+government is the good guy and private citizens are bad guys.
+
+Why is the government now claiming there is something wrong with a
+private citizen trying to keep a secret from the government? This is
+not simply a little proposal of the government in some obscure area;
+it is a preemptive and unilateral attempt to usurp powers that
+previously belonged to the people. It also represents a fundamental
+shift in government policy, from a passive role of listening to an
+active role of regulating new technologies.
+
+Clipper forces individuals to unconditionally trust that the
+government will respect our privacy. But consider this: The same law
+enforcement authorities that illegally tapped Martin Luther King Jr.'s
+phones can easily tap a phone protected with Clipper. During the past
+five years, local police authorities have been charged criminally or
+sued civilly in numerous jurisdictions for conducting illegal
+wiretaps.
+
+As long as Clipper is optional, people who desire real privacy (both
+honest citizens and criminals) will use other encryption methods.
+However, because these methods will be secure from wiretapping, I
+expect the federal government to introduce legislation banning
+nonescrowed encryption and to reintroduce legislation forcing
+telephone-switch manufacturers to add circuitry to allow wiretapping.
+
+By mandating a solution before allowing public discussion, the
+administration is overlooking some very important questions: How
+effective are wiretaps in law enforcement? Why would any intelligent
+criminal use flawed encryption such as Clipper?
+
+And, most importantly, is the ability to conduct wiretaps more
+important than the right to personal privacy?
+
+GRAPHIC: Illustration: James Endicott; Photo Bruce Schneier
+
+
+
+              5TH STORY of Level 1 printed in FULL format.
+
+               Copyright 1993 IDG Communications, Inc.
+
+                             Computerworld
+
+                              May 31, 1993
+
+SECTION: VIEWPOINT; Letters to the Editor; Pg. 32
+
+LENGTH: 137 words
+
+HEADLINE: Skip the Clipper
+
+BYLINE: By Gary D. McGath
+
+BODY:
+
+The article on the Clipper encryption chip ["Fed encryption plan gets
+mixed reaction," CW, May 10] was a good summary of the current debate.
+However, the government should not be in the business of marketing
+chips. This goes double when the chip is vital to privacy of
+information and triple when the government is seeking a monopoly
+position in the market.
+
+Also, at least one aspect of the Clipper's security is very weak: A
+single code is used to extract the serial number from any Clipper
+chip.  If this code is leaked or cracked, the first layer of security
+is permanently gone for Clippers.
+
+The Clipper is simply the latest in a long series of governmental
+assaults on our privacy and liberties. We should not be taken in.
+
+ Gary D. McGath
+
+ Penacook, N.H.
+
+ For more on Clipper, see next page.
+
+                  Copyright 1993 Network World, Inc.
+
+                             Network World
+
+                              May 31, 1993
+
+SECTION: OPINIONS; Security Perspectives; Pg. 43
+
+LENGTH: 698 words
+
+HEADLINE: Vigilance is needed to keep Clipper Chip in check
+
+BYLINE: By Michel Kabay; Kabay is director of education with the
+National Computer Security Association in Carlisle, Pa. He can be
+reached at (717) 258-1816 or on the Internet at 75300.
+3232@compuserve.com.
+
+BODY:
+
+Last month, the federal government endorsed a new encryption
+technology based on the Clipper Chip. The Clipper Chip will give
+federal agencies a key to unlock users' encrypted voice and data
+communications. Network users can live with this situation, but only
+if they're vigilant about preventing any attempt to make the Clipper
+Chip the only legal encryption mechanism available in the U.S.
+
+The Clipper Chip will serve some legitimate needs. As the U.S. builds
+its National Information Infrastructure, increasing amounts of data
+will flow electronically throughout the nation. Users will need
+encryption to protect their sensitive data. In a multivendor world,
+having a common encryption standard, such as the Clipper Chip, will
+simplify protection so users won't even notice their communications
+being encrypted.
+
+However, users have many questions and concerns about the Clipper
+Chip, as well.
+
+Internet users are curious about how the chip was developed:
+specifically, what companies and individuals were consulted and how
+the initial manufacturer, Mykotronx, Inc.  of Torrance, Calif., was
+selected. This information might cast light on the quality of the chip
+and the price to be charged.
+
+Internet users also wonder why the algorithm is being kept secret.
+Without free access to the algorithm, many argue, the scientific
+community will not be sure that the algorithm actually functions as
+claimed.
+
+Defenders of the plan point to a proposed examination by selected
+experts, but any closed process leaves open the question of whether
+there is a back door to decryption.
+
+A major user concern involves key escrow, which is at the heart of the
+administration's proposal. Government agencies would hold pairs of
+incomplete decryption keys for every Clipper Chip installed in the
+U.S. To decrypt private communications, a government agency would need
+to get a warrant to obtain the two parts of the decryption key.
+
+Anyone who discovers the key pairs for a specific Clipper Chip could
+decode all encrypted communications initiated by that device, even
+after the warrant expires. Therefore, the trustworthiness of the key
+escrow agencies is crucial to avoid abuses of the decryption keys.
+
+The partial keys might be stored in databases or generated by black-
+box decryption devices.  Any party involved in creating these
+databases or devices would be a vulnerable point in the control over
+decryption.
+
+It would be valuable to know whether the federal government has
+studied the risks and estimated the costs of providing adequate
+protection. If so, many users would want to evaluate such studies
+independently.
+
+Key escrow for foreign purchasers of the Clipper Chip and for foreign
+manufacturers will also cause problems.  If other countries use the
+technology and have all the keys in escrow, U.S. users may find their
+own security compromised by legal systems beyond their control.
+
+But the biggest concern regarding this technology is that it could
+lead to a ban on all unauthorized encryption technology in the U.S. A
+few years from now, anyone using a non- Clipper Chip encryption method
+could be assumed to be engaging in crime. Political pressure to ban
+all non- Clipper Chip encryption could become intense.
+
+Making non- Clipper Chip encryption illegal would lead to enforcement
+problems. Applying the technology only to voice transmissions would
+raise the popularity of data transmission -- that is, digitally
+encoded voice file transfers. So it would have to be applied to data,
+too.
+
+But failure to produce clear text using the Clipper Chip decryption
+could be construed as evidence of illegal encryption, even if the
+original data stream was not, in fact, interpretable.
+
+The prospect of astronomers being arrested because law enforcement
+officials couldn't make sense of their data on elemental composition
+of supernovas is pretty funny -- if you like that kind of joke.
+
+I urge all users to fight any attempt to make the Clipper Chip the
+only legal encryption mechanism in the U.S. For further developments
+in the ongoing debate, users should follow the dialogues on the
+Internet in the Risks forum, the Privacy forum and the new
+alt.privacy.clipper news group.
+
+    CLIENT: ECLIPSE-CLIPPER MPAP-DAILY
+
+   LIBRARY: NEXIS
+
+      FILE: MAJPAP
+
+ YOUR SEARCH REQUEST IS:
+
+CLIPPER CHIP AND DATE > FEB 28 1993
+
+NUMBER OF STORIES FOUND WITH YOUR REQUEST THROUGH:
+
+  LEVEL 1...  3
+
+                  Copyright 1993 The Washington Post
+
+                          The Washington Post
+
+                  June 8, 1993, Tuesday, Final Edition
+
+SECTION: FIRST SECTION; PAGE A12
+
+LENGTH: 562 words
+
+HEADLINE: U.S. Data Decoding Plan Delayed; Business and Legal
+Objections Reviewed
+
+SERIES: Occasional
+
+BYLINE: John Schwartz, Washington Post Staff Writer
+
+BODY:
+
+The federal initiative to establish a new standard for scrambling
+electronic communications will be slowed until its ramifications can
+be more fully studied, the official in charge of implementing the
+program said yesterday.
+
+The government's proposed " Clipper Chip" plan, announced on April 16,
+would create a new national standard for data encryption that would
+make possible decoding and wiretaps by law enforcement and national
+security agencies.
+
+The plan has met with criticism from high-technology industries that
+argue the new requirements would be expensive and hurt the
+competitiveness of their products. Civil liberties advocates see it as
+a threat to privacy.
+
+Raymond Kammer, acting director of the National Institute of Standards
+and Technology (NIST) -- which developed the Clipper proposal with the
+National Security Agency and is charged with implementing it within
+the government -- delivered the news to a Washington conference
+attended largely by critics of Clipper plan.
+
+In an interview afterward, Kammer said that the entire Clipper plan
+was still being discussed, and if the review revealed unresolvable
+problems, "maybe we won't continue in the direction we started out."
+
+Criticism was sharp at the cryptography and privacy conference
+sponsored by the Washington office of Computer Professionals for
+Social Responsibility, a public interest group concerned with
+high-tech issues.
+
+One panelist compared Kammer's appearance at the conference to "having
+a target painted on your chest." Kammer said: "We're not going to
+close off the process while there's still productive conversation. And
+it's obvious from the meeting today that there's still plenty of
+productive conversation."
+
+Pressure has been building on NIST since the White House announcement
+in April. Critics of the plan have flooded the administration with
+lengthy lists of questions about the new plan, voicing concerns that
+the proposals might make American products more expensive, less secure
+and less competitive overseas while not hindering criminals.
+
+Last Friday, NIST's advisory panel on privacy issues concluded two
+days of heated hearings concerning the Clipper proposal with a
+resolution expressing "serious concerns" sparked by the
+administration's proposal. "Things are going too fast," said Willis
+Ware, chairman of the Computer System Security and Privacy Advisory
+Board, a body created under the Computer Security Act of 1987. The
+NIST panel reported that the government had not convincingly explained
+the nature of law enforcement problems that would be solved by the
+Clipper plan, and cited damage the proposal was likely to do to the
+American software industry.
+
+Later that day, White House officials overseeing the Clipper plan met
+with representatives of industry and civil liberties groups, including
+the high-tech policy group Electronic Frontier Foundation as well as
+the American Civil Liberties Union. Administration officials said that
+the Clipper review would be extended into the fall and that the
+government would not move beyond its initial plans to buy about 10,000
+Clipper-equipped telephones until the review was completed.
+
+John Podesta, assistant to the president, said the meeting was part of
+a continuing dialogue with the private sector. "It's time to start to
+get to answers instead of the endless quest for questions," Podesta
+said.
+
+TYPE: NATIONAL NEWS
+
+SUBJECT: TELECOMMUNICATIONS; WIRETAPPING; COMPUTERS; CIVIL RIGHTS;
+PRIVACY; COMPUTER COMMUNICATIONS; NATIONAL SECURITY
+
+ORGANIZATION: NATIONAL SECURITY AGENCY; COMPUTER SECURITY AGENCY
+
+NAMED-PERSONS: RAYMOND KAMMER; WILLIS WARE
+
+ENHANCEMENT: CRITICISM
+
+
+
+                       Times Publishing Company
+
+                          St. Petersburg Times
+
+                   June 7, 1993, Monday, City Edition
+
+SECTION: EDITORIAL; EDITORIALS; Pg. 10A
+
+LENGTH: 441 words
+
+HEADLINE: The FBI's computer chip
+
+BODY:
+
+ 
+
+Not content with the advancing technology or established
+constitutional law,
+
+the FBI and National Security Agency are pushing for encrypted control
+over people's private lives. Call it technological eavesdropping, and
+wonder why President Clinton, who has trumpeted the dawn of new global
+superinformation highways and technological superiority, would want
+any part of it. Leaving privacy aside for a moment, what the security
+agencies want is to put limits on the growth of new technology. They
+fret that new computer data lines and high-tech communications systems
+will make the world of surveillance more difficult. They may be right,
+but that would also have been an argument for banning the telegraph or
+the telephone. Not only is the attempt to limit technology naive, but
+it also runs counter to the president's own stated national goals. As
+Vice President Al Gore said recently: "The existence of a
+
+premier information marketplace in the United States will give our
+companies
+
+and our citizens an advantage in worldwide competition."
+
+The footnote, apparently, is that the marketplace and the technology
+will be controlled by the FBI.
+
+This emerging security strategy is also frightening in a
+constitutional
+
+sense. It goes beyond technological eavesdropping. The White House
+already has
+
+released the government's own telephone scrambling device, the so-
+called
+
+" Clipper chip, " and is hinting that it may ask for laws that require
+
+companies to use it and ban the use of other encryption codes. What
+would that
+
+mean? Whitfield Diffie, cryptographer at Sun Microsystems Inc., told
+the
+
+Washington Post that the Clipper is akin "to the little keyhole in the
+back of the combination locks used on the lockers of schoolchildren.
+The children open the locks with the combinations, which is supposed
+to keep the other children out, but the teachers can always look in
+the lockers by using the key."
+
+The teacher, in Diffie's analogy, is the FBI, an organization whose
+history is not characterized by benevolent restraint.
+
+Though law enforcement agencies deserve the tools to compete with the 
+technology being used by criminals, they cannot be allowed to control
+the communications links. The NSA may characterize the issue as one of
+national security, but the civilian president, Bill Clinton, ought to
+recognize the more compelling constitutional concerns. Law-abiding
+citizens are entitled to a right to privacy, and allowing the FBI to
+hold the encrypted key to their phone conversations and computer
+transmissions is but a technological assault on their basic liberty.
+
+TYPE: EDITORIAL
+
+              Copyright 1993 The New York Times Company
+
+                           The New York Times
+
+              June 5, 1993, Saturday, Late Edition - Final
+
+SECTION: Section 1; Page 37; Column 3; Financial Desk
+
+LENGTH: 567 words
+
+HEADLINE: Panel Sees Flaws in Plan For Encoding
+
+BYLINE: By JOHN MARKOFF, Special to The New York Times
+
+DATELINE: SAN FRANCISCO, June 4
+
+BODY:
+
+A Commerce Department advisory committee issued two draft resolutions
+today raising "serious concerns" about a Clinton Administration plan
+to standardize a high-technology coding system that would permit
+law-enforcement officials to tap telephone calls and computer data
+transmissions.
+
+The resolutions call on the Administration to hold extensive public
+hearings on the new technology, known as the Clipper chip, and they
+urge that the technology not be deployed beyond the executive branch
+of the Government until the public review is completed.
+
+The Computer System Security and Privacy Advisory Board, which was
+established by Congress under the Computer Security Act of 1987, held
+two days of public hearings this week to solicit industry and public
+reaction to the plan, which would create a national standard for
+telephone and data coding.
+
+ A 'Master Key'
+
+The system would permit law-enforcement officials to create a numeric
+"master key" to be held in "escrow." It could be obtained only by
+presenting a warrant to two separate agencies that would be charged
+with protecting pieces of the key. The idea is that splitting the key
+would make it more difficult for Government officials to abuse its
+powers.
+
+But the proposal has generated widespread criticism from technology
+experts, industry officials and privacy advocates who argue that it is
+technically flawed and that it may be abused by Government officials
+and others. A number of industry executives and opponents of the plan
+said that today's resolution was a setback for the Government.
+
+"This is a victory for the private sector and the privacy community,"
+said Marc Rotenberg, Washington director of the Computer Professionals
+for Social Responsibility, a computer industry public interest group.
+"The board heard a strong set of witnesses this week saying, 'Don't do
+it.' "
+
+A White House official, who spoke on the condition of anonymity, said
+today that the Administration was comfortable with the resolution and
+that the Government was not rushing to put its plan into effect.
+
+The plan calls for the use of several chips, known as Clipper and
+Capstone, designed by the National Security Agency to encode voice and
+data conversations, but it will not outlaw the use of other coding
+systems. This has led critics of the plan to argue that the proposed
+technology will not be useful in listening to people suspected of
+criminal activities who wish to protect their conversations. The
+advisory board says that it sees these shortcomings in the plan:
+
+*The Administration has not made a persuasive argument that a
+significant problem exists.
+
+*Because it is a hardware-based solution, the Clipper/Capstone
+proposal does not address the needs of the software industry.
+
+*The economic implications of the proposal have not been examined.
+
+*Congress, as well as the Administration, should play a role in the
+conduct and approval of the review. Some industry officials have
+suggested that the Clipper proposal may backfire on the chip's
+designer, the National Security Agency, a secretive intelligence arm
+of the Pentagon.
+
+"This could be a huge mistake for the National Security Agency," said
+Stephen D. Bryen, president of Delta Tech, which makes data coding
+gear. "Clipper will make it more difficult for the U.S. to do what it
+has to do on an international level, to deal with bad guys using
+coding gear."
+
+SUBJECT: TELEPHONES AND TELECOMMUNICATIONS; DATA PROCESSING
+(COMPUTERS); WIRETAPPING AND OTHER EAVESDROPPING DEVICES AND METHODS;
+PRIVACY, RIGHT OF
+
+ORGANIZATION: COMMERCE DEPARTMENT
+
+NAME: MARKOFF, JOHN; CLINTON, BILL (PRES)
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0323
+****************************************
+

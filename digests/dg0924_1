@@ -1,0 +1,607 @@
+From extropians-request@extropy.org Fri Sep 23 21:02:12 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id VAA10697 for <more@chaph.usc.edu>; Fri, 23 Sep 1994 21:02:09 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA23874; Fri, 23 Sep 94 21:02:05 PDT
+Received: by news.panix.com id AA02220
+  (5.65c/IDA-1.4.4 for more@usc.edu); Sat, 24 Sep 1994 00:01:55 -0400
+Date: Sat, 24 Sep 1994 00:01:55 -0400
+Message-Id: <199409240401.AA02220@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-9-428 - #94-9-436
+X-Extropian-Date: September 24, 374 P.N.O. [00:00:48 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Sat, 24 Sep 94             Volume 94 : Issue 266
+
+Today's Topics:
+                           copyright of the future                    [1 msgs]
+                             Economic Revolution                      [1 msgs]
+                               Extro 1, Extro 2                       [1 msgs]
+                                   Nanotech                           [1 msgs]
+                      SCI: role for Q.M in neurobiology               [1 msgs]
+                         SCI:Nanotech nucleosynthesis                 [1 msgs]
+              What ever happened to Thinking Machines Corporate?      [1 msgs]
+                             What Happens First?                      [1 msgs]
+                           Who asked you, Charlie?                    [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 30845 bytes.
+
+----------------------------------------------------------------------
+
+From: sdw@lig.net (Stephen D. Williams)
+Date: Fri, 23 Sep 1994 15:37:43 +0000 (GMT)
+Subject: [#94-9-428] What ever happened to Thinking Machines Corporate?
+
+> 
+> > We had a MasPar running something like X in 1984
+> 
+>   Not us, we were founded in March 1988.
+
+hmmm.. I wondered if I should trust such a dusty memory
+Mass?? something.  Masscomp?  That sounds better.
+
+> > What do you now?
+> 
+>   MasPar makes a highly parallel supercomputer.  Your favorite First
+> Extropian Squirrel has written lots of microcode for it.  Commercial omitted.
+> 
+>                                                --  Jay Freeman
+> 
+
+
+-- 
+Stephen D. Williams  Local Internet Gateway Co.; SDW Systems 510 503-9227APager
+LIG dev./sales       Internet: sdw@lig.net  In Bay Area Aug94-Feb95!!!
+OO R&D Source Dist.  By Horse: 2464 Rosina Dr., Miamisburg, OH 45342-6430
+Internet Consulting  ICBM: 39 38 34N 84 17 12W home, 37 58 41N 122 01 48W work
+Newbie Notice:       
+     I speak for LIGCo., CCI, myself, and no one else, regardless of
+     where it is convenient to post from or thru.
+
+------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Fri, 23 Sep 1994 12:25:11 -0700 (PDT)
+Subject: [#94-9-429] What Happens First?
+
+Robin Hanson writes:
+> Nick clearly sees long meat lifespans and reproducing comet eaters 
+> and AI as much easier than I do, relative [to] uploading for
+> example.  Care to explain why those look easy?
+
+Sufficient simulation of a human personality probably has to include pre- 
+and post-synaptic chemical reactions, including those in the peripherary 
+nervous system.  It also must simulate the hormonal system, and may 
+have to include simulation of structures like microtubules.  Given 
+the current state of the art in molecular modeling software this would 
+likely be computationally infeasible, even two centuries from now
+at current rates of computational improvement.  Thus uploading 
+relies on either some fundamental advances in molecular modelling, 
+or on creating a sufficiently accurate high-level abstraction of 
+neural and hormonal function, or perhaps just several centuries of 
+improvement in computational performance at the current rate.  
+Furthermore, the accurate transcription of molecules from the 
+human anatomy must occur (eg via destructive STM of a frozen 
+brain, which means solving the protein folding problem as frozen 
+proteins have lost their natural folds).  Finally, there is 
+the problem of testing an upload system to determine whether the 
+upload has been sufficiently accurate.  All of these are unsolved 
+problems, in my guestimation tougher than advances in our understanding 
+of and ability to manipulate metabolsims, sufficient for life extension 
+and a self-reproducing, comet-eating greenhouse; also tougher than
+diamondoid nanotech.
+
+A concrete point of comparison: the task of designing proteins 
+to fold a specific way, the "reverse protein folding problem", 
+is deemed by Drexler and many protein scientists to be easier 
+than simulating the folding of naturally occuring proteins.
+Designing specific proteins (and metabolisms based around their 
+enzymatic activity), using easier simulations that, furthermore, 
+need to be peformed only a few times offline, will be far easier 
+than real time simulation of natural proteins and their relationship 
+to biological functions in the nervous system and elsewhere.
+
+> How do comet eaters come so far before reproducing assemblers?
+
+I judged comet eaters to come at about the same time as nanotech
+factories, and a bit (3 points) before fully reproducing assemblers.  
+(3 points might be 9-90 years, depending on how you judge rates of 
+change).
+
+I will probably be feasible to make self-reproducing vacuum greenhouses
+with advanced biotech.  Organisms can survive in a wide variety of 
+hostile environments -- spiders have survived substantial periods 
+in vacuum, Dead Sea critters maintain water/ion concentrations 
+substantially higher than their environment, lichens grow
+on sun-warmed Antartic rocks in weather otherwise well below
+freezing, etc.  The building blocks for vacuum resistance appear
+to be available.  The general idea of the comet eater is 
+a shield of dead fiber, with vacuum-hardy critters as
+gatekeepers; the more fragile but productive critters grow
+inside in a low pressue CO2-rich atmosphere.  This is easier
+if the creatures can chemosynthesize free radicals frozen
+in the comet.  Photosynthesis on an insulated sun warmed surface, 
+underneath a thin protective film, may also be sufficient.
+
+Also, it might be much easer to build an assembler that starts 
+with high-level building blocks produced by biotech, rather than 
+with primitive molecules.  Such "half assemblers" could be part 
+of the self-reproducing greenhouse system, performing tasks
+like processing fiber, moving it from the interior to the exterior, 
+coating it with resin, etc.   Assuming I would need half assemblers, 
+I make comet eaters contemporaneous with nanotech factories,
+which in turn come before assemblers because they are both
+easier and (due to comparative advantage of specialization)
+more lucrative than assemblers.
+
+Finally, advanced biotech is on a direct tooling path from 
+today's technology, while nanotechnology (and even moreso, uploading) 
+require a very different industrial ecology.  Even if nanotech and 
+uploading were slightly more feasible in theory, in practice we'd get
+the biotech stuff first because that's where industry and
+academia is starting from today.  Orders of magnitude more
+students are being trained in biotech than in nanotech; 
+few if any are being trained to do anything sufficiently
+close to uploading.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Fri, 23 Sep 94 19:50:02 GMT
+Subject: [#94-9-430] copyright of the future
+
+ Charles000@aol.com wrote: 
+>
+>Have you had a look at Romana Machado's excellent encrypting
+>technique (as per her Stego software) for embedding numerical
+>data into the pixel data sets of a bit map image???  Maybe this is
+>a bit far fetched, but I like her ideas about being able to "mask"
+>hidden information "inside" a bit map file, to the extent that this
+>could be a stealth signature embedded directly into the image.
+
+Couldn't this be defeated by the forger randomizing all the
+least significant bits and then putting his or her own signature
+into them? Or possibly (since the randomizing might be detectable)
+not signing it and claiming that he or she thought it was public
+domain?
+
+Nancy Lebovitz
+
+------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Fri, 23 Sep 1994 13:01:20 -0700 (PDT)
+Subject: [#94-9-431] Nanotech
+
+Mike Price: 
+> Will reproducing assemblers come at all?  Wee reproductive beasties may,
+> but I've never seen a convincing argument for how they will assemble
+> anything.
+
+Drexler's argument is that his diamondoid robots are "universal
+constructors".  They can construct any structure that can be 
+feasibly constructed from diamondoid, in particular
+copies of themselves.  By using such a standard building block
+he greatly reduces the number of operations that needs to be 
+performed: just a few reactions like hydrogen extraction to build 
+up a wide variety of diamondoid structures.  However, there are enough 
+details left out (eg, the specific reactions needed to assemble the 
+reactive tips themselves, the specific reactions needed to assemble some 
+of the small bearings and Kaehler brackets, etc.) that I agree that 
+Drexler hasn't proved closure.  He has come a lot closer than anybody 
+else, certainly much closer than that abominable 1980 NASA study.
+
+Also, some of the theoretical assumptions behind the bearing
+movements have been questioned, especially in regards to what
+happens when the parts start and stop moving.  This regime
+deserves more in depth theoretical and experimental investigation.
+This is not in any way to slight the work done so far by Drexler,
+Merkle, et. al. which is nothing short of spectacular.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+From: dkrieger@netcom.com (Dave Krieger)
+Date: Fri, 23 Sep 1994 14:07:53 -0700
+Subject: [#94-9-432] Who asked you, Charlie?
+
+At 7:58 AM 9/23/94, Charles000@aol.com wrote:
+>This entire diatribe/debate session of flared nostrils and throbbing temples
+>over
+>this now "infamous" article is a wonderful psycological excersize in
+>observing
+>a group of folks excessively consumed by "self induced importance" syndrome
+>tells me the following:
+
+Who asked you?  Furthermore, who used the word "infamous"?  Is this perhaps
+a case of sour grapes, since ExI was written up in both Wired and the
+Examiner in the same week, and the best you could manage was "Mondo 2000"?
+
+There's a difference between objecting to people saying true but
+unflattering things about you (which Rheingold did), and objecting to
+saying inaccurate, unflattering things (which Rheingold also did).  The
+first kind of objection is vanity; the second is righteous indignation.
+Let's look at some of the inaccuracies Rheingold included in his "neutral"
+article:
+
+>EXTROPIANS AND THE WILD BLUE YONDER
+>
+>Extropians are like other humans, except the word "impossible"
+>means "possible at some time in the future" in their vocabulary.
+
+This is a gratuitous insult.  Extropians are more aware of real physical
+limits (the inability of nanotech to implement nucleosynthesis, for
+example) than most readers of the Examiner, I'll bet.  (And I'll undertake
+a close reading of glaring inaccuracies in Charles' "Mondo" profile if
+anyone's interested.)  Rheingold is unable to distinguish between those
+more optimistic than he is, and those who've got what Tim May calls
+"boundless optimism".  Extropians are among the former.
+
+>To other humans, physical death is the end of all possibilities.
+>To Extropians, many of whom have arranged to have their brains
+>preserved in liquid nitrogen after death, it's just a matter of
+>time before a technology for recovering life from dead tissue comes
+>along.
+
+This is a monstrous oversimplification that ignores the problems of proper
+preparation and suspension techniques for preserving structural
+information.  Stated this stupidly, it makes it sound as though cryonicists
+expect a straight freeze to be sufficient.  And calling a suspendee "dead
+tissue" is begging the question.
+
+>The term "Luddite" is used pejoratively to describe people who
+>question technological progress.  I propose using the name
+>"hubrists" to describe people such as the Extropians, who believe
+>there ought to be no limits to the application of human creativity
+>to technology.  Technological hubris was the cause of Chernobyl.
+>It was also the cause of the polio vaccine.  For the Greeks,
+>"hubris" was the crime of aspiring to powers reserved for the gods.
+
+As has already been pointed out, political, not technological, hubris
+caused the Chernobyl disaster (and the 10^8 other ecological crises
+afflicting the XSSR).  The unparalleled safety records of the U.S. Navy's
+nuclear submarines demonstrates that one need not aspire to godhead to
+operate a nuke safely.
+
+>Extropians [...] argue that since human
+>minds have harnessed the force that fuels the stars, who is to say
+>that we will never crack the immortality barrier, build microscopic
+>machines or migrate into space?
+
+Baldly stated, Rheingold is imputing to us the syllogism, "Somebody once
+said X is impossible; X later happened; therefore anything that anyone says
+is impossible will someday happen."  Shouldn't we be a little upset at this
+accusation?
+
+>Other articles
+>cover the possibility of uploading minds to computers and the
+>prospects for teleportation technology.
+
+Teleportation?  I've got a lovely MST3K "Satellite of Love" pin for anyone
+who can find an article about physical teleportation in Issue #14.  (What
+_is_ Rheingold referring to here, anyway?  The inertialess motion of
+uploaded minds in a Utility Fog?  That's the only teleportation-like topic
+I can find anywhere in Extropy.)
+
+>It's a big universe, and we know very little about it.  Are we sure
+>it's wise to download our minds into self-reproducing robots and
+>blast off into outer space, just because we might have the
+>technical capability?
+
+How the hell are we going to find out more about this "big universe" unless
+we do exactly that?  It's not going to come to us, folks.
+
+Charles, I suggest you lurk a while longer (and keep your sour grapes to
+yourself), before making an idiot of yourself again in this fashion.
+
+P.S. "Plonk!!"
+
+                                        dV/dt
+                                        "Enough is never enough, and even
+                                         more is usually inadequate."
+                                         -- Dr. Hunter S. Thompson
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Extropy is $18/four issues, USA; $32, Canada and Mexico; $44 (air)
+elsewhere.  Checks payable to Extropy Institute, 13428 Maxella
+Ave., No. 273, Marina Del Rey, CA 90292.  e-mail more@extropy.org.
+
+
+
+------------------------------
+
+From: pavel@PARK.BU.EDU (Paul Cisek)
+Date: Fri, 23 Sep 1994 17:40:04 -0400
+Subject: [#94-9-433] SCI: role for Q.M in neurobiology
+
+>From: doug@OpenMind.com (Doug Cutrell)
+>X-Message-Number: #94-9-418
+>
+>...
+>Summarizing Lockwood's discussion, Frolich argues for the existence of
+>long-range coherent phenomena in biological tissues based on the occurrence
+>of widespread loosely coupled dipole oscillators (such as transmembrane
+>proteins in neural tissue).  Systems of phonons associated with the
+>longitudinal frequency modes of these coupled oscillators vibrate at
+>microwave frequencies.  The dipole oscillators themselves are continuously
+>pumped by active cellular processes, and prevented from falling into
+>equilibrium.  If the rate at which energy is supplied is high enough,
+>energy is stored in the lowest collective frequency mode of the phonon
+>system rather than being dispersed into the surrounding "heat bath".  New
+>phonons are created in this lowest collective frequency mode, the result
+>being a coherent state which is analogous to Bose-Einstein condensation.
+>
+>Lockwood goes on to cite more recent authors as confirming Frolich's ideas
+>via several theoretical approaches (molecular Hamiltonian, etc.).  In
+>addition, there are currently unexplained phenomena that could be explained
+>by Frolich's ideas.  Lockwood cites two: the rate of growth of yeast cells
+>can be influenced by exposure to microwave radiation at sharply defined
+>resonance frequencies, and the "Raman effect", which is a peculiar kind of
+>laser light scattering by living cells.
+>...
+
+Now this is interesting.  I don't know anything about Bose-Einstein
+condensation - what role might such a coherent state play in the cell?
+The above hints at some energy-storage role, though I'm only guessing.
+What do Frolich and his recent supporters suggest?  Might there be a
+coordinating role so that the cell can affect many transmembrance proteins
+at once?  The experimental evidence is suggestive, but does it uncover
+fundamental functionality or side effects produced by unusual laboratory
+conditions?
+
+Another important question: are these effects observed in cells taken from
+diverse taxonomic branches?
+
+Paul
+
+
+------------------------------
+
+From: DEREK@alcor.org
+Date:  Fri, 23 Sep 94 15:21:34 
+Subject: [#94-9-434] Extro 1, Extro 2
+
+I wrote:
+
+>I speculate that, at some point in the not too far future, having 
+>been at Extro 1 will be a very cool boast to be able to make.  (I 
+>was there!)  Beyond that, I think that those who can say that they 
+>have been at *all* of the Extros will eventually be deified.
+
+Phil G. Faering wrote:
+
+>No extropian will ever be deified. They *may* deify themselves...
+
+Well, probably both will happen.  Of course, I meant "be deified" 
+(passive form) in the more light-hearted sense, the same way many 
+people now view anyone who attended Woodstock.  Or maybe the 
+way Wayne and Garth view Aerosmith.
+
+"Whoa.  You were actually *there*?  We're not worthy!  We're not 
+worthy!"  :-)
+
+And by the way, what do you mean "*may* deify themselves...?"  
+Haven't we already done this?  I would contend that having declared 
+oneself to be god (i.e., having realized that the final arbiter in 
+deciding what is right and good and valuable is *you*, not God, 
+church, state, family, society, or otherwise) is one of the primary 
+defining characteristics of an Extropian.
+
+Thou art god.  More than just pretty words.
+
+Derek Ryan
+derek@alcor.org
+
+------------------------------
+
+From: pgf@srl02.cacs.usl.edu (Phil G. Fraering)
+Date: Fri, 23 Sep 1994 17:59:45 -0500
+Subject: [#94-9-435] SCI:Nanotech nucleosynthesis
+
+David Krieger wrote:
+
+   This is a gratuitous insult.  Extropians are more aware of real physical
+   limits (the inability of nanotech to implement nucleosynthesis, for
+   example) than most readers of the Examiner, I'll bet. 
+
+How is nanotechnology unable to implement nucleosynthesis? Couldn't
+nanotech be used to make some really small particle accelerators to
+perform nucleosynthesis with?
+
+Are we thinking of the same nucleosynthesis? Synthesis of heavy
+nuclei from lighter ones, or something biological, perhaps?
+
+(I assume you're talking of future nanotech capabilities).
+
+Phil
+
+------------------------------
+
+From: James Daugherty <jhdaugh@a-albionic.com>
+Date: Fri, 23 Sep 1994 17:41:12 -0400 (EDT)
+Subject: [#94-9-436] Economic Revolution
+
+Have you heard of Sam Konkin's (Editor of the New Libertarian) "agorist" 
+philosophy?  Though similar to anarcho-capitalism in that he does favors
+private property and inequality of wealth and income as long as it is
+based on real differentials in work and productivity and voluntarism, he
+also advocates ignoring the state:  he called it living in the "counter
+economy", ie. underground economy, not paying taxes or paying attention to
+regulation.  Of course, he includes underground work communues as well as
+regular boss-employee relationships. 
+
+Your concept of Economic Revolution has some similarities.  I will 
+look-up his address if you are interested to contact him.
+
+Torrey Wrote:
+
+>From LES_TWH@flo.org Fri Sep 23 17:37:06 1994
+Date: Fri, 23 Sep 1994 9:46:10 -0400 (EDT)
+From: TORREY <LES_TWH@flo.org>
+To: anarchy-list@cwi.nl
+Subject: Economic Revolution
+
+
+	I'm re-posting something I sent to another list some
+weeks ago. It's fairly relevant to what has been discussed
+lately on Anarchy-list. Although my focus below is on the
+concept of Worker's Militia, please substitute the concept of
+armed political or social revolution of any kind.
+	I wish to strongly state that ANY atempt at a
+political revolution will fail: it will be corrupted and
+become a totalitarian dictatorship by a vanguard, or it will be
+bought off by the capitalists, or it will be crushed by force of
+arms. My fondest wish is that the Left would completely
+reject the idea of a political/social revolution. It just
+won't work in the modern world. Economic revolution is
+a realistic alternative -- and computer technology (data
+encryption, digital cash) make a powerful economic revolution
+(one that ignores the existence of the state) a real alternative.
+I think the road to freedom lies before us -- but many are
+walking down the path that led to Mexico in 1914, Ukraine 1917,
+Spain 1936, etc. Get a clue! Try something else!
+	Social revolution occurs _with_ an economic revolution.
+Social revolution does _not_ occur with a political revolution,
+because the political revolution will not survive the efforts
+of the State.
+
+		*************************
+
+        Someone once said that the fascists would have dealt
+with Gandhi by simply shooting him before he had a chance
+to have an impact on his society. Probably. But I still would 
+have to say that civil disobedience and non-violence can go a 
+long way to short-circuit the power of the state.
+        China isn't free: never has been. Tiannamen (sp?) Square
+can occur in a society like that. But in America? If the National
+Guard had simply massacred 100's of people in the post-Rodney 
+King riot?? I don't think the government could survive such a
+travesty. My point is that the US government is not likely
+to act in a terribly violent manner UNLESS they are faced with
+an armed insurrection (a Worker's Militia). In such an event,
+the government will be willing to kill a lot of people.
+Remember Waco, Texas?? The mere presence of arms at the Branch 
+Dravidian compound gave the US the pretext for a long siege 
+and eventual destruction of some 80 men, women and children.
+
+        Non-violence is likely to succeed in any society that
+is used to a moderate amount of civility, liberty, and justice.
+An armed insurrection cannot succeed against a large, powerful
+army with sophisiticated weapons. By arming yourself you
+give your opponent "permission" to use lethal force.
+
+        I should also say that I favor Economic Revolution, not
+political revolution. The people who line the barriciades are
+usually just as bad as the bureaucrats they oppose. Often worse.
+
+        In an economic revolution, the power would slowly bleed
+from the state. No confrontation would be necessary. If people
+ignore the state as much as possible and exist without it's
+"assistance" and consciously disobey it, it probably will die
+fairly quietly. 
+	The establishment of any sort of Worker's Militia is 
+apt to result in a Warsaw Ghetto holocaust. At _best_, the 
+state might "shoot itself in the foot" by revealing its 
+barbaric nature and killing a lot of citizens. This _might_ 
+convince more people to resist the authority of the state, or
+it might convince everyone to very quietly do what the
+government says. For the most part, the militia would be a 
+bold (and hopeless) gesture. Why provide a target?
+
+        If a political "experiment" were attempted in a
+particular section of the US, then the State might sweep in
+and try to crush it. (Like the Paris Commune.) But, if a
+decentralized economic "experiment" were attempted 
+throughout the territory of the US, the State would not know 
+where to strike. Have you seen statisitics on the number 
+of self-employed people in the US? The number of people 
+working out of their homes? These people already have one 
+foot outside the system. If they choose to, they can bring 
+government to it's knees simply by pretending that the 
+government doesn't exist. I see the general strike as a 
+last ditch weapon, but I think it would have a remarkable 
+effect. If 80 million Americans stopped paying taxes in 1995,
+what on earth would the government do? If the government had
+no access to the underground economy, it could not garnish 
+people's paychecks, and it would be quite helpless.
+
+        I favor emphasis on economic self-dependence: digital
+cash, data encryption and civil disobedience. The state _will_
+wither away. Political revolution simply plays into the
+strength of the State. Sap their strength by ignoring them!
+        Create systems and organizations that exist without
+"assistance" from the State. Then ignore the old systems
+and just use the new systems.
+        How can the US government (which claims to be free
+and democratic) try to stop such activity without giving the
+game away and revealing itself as a totalitarian monster?
+I bet that would "raise the consciousness" of a whole lot
+of the "unconverted" citizens! I think government would lose
+more than it gained by trying to crush such new,
+decentralized, grass-roots systems. Government suppression
+would have to be as widespread and decentralized as the
+worker's movement itself. Such a decentralized effort does NOT
+serve the needs of the aggressor, but only helps the defense
+of the seccessionists. 
+	Organize worker's militias and you give the Central
+State a chance to smash the center of your strength. But, 
+move toward a decentralized non-governmental system and you 
+force the Central State to pull itself apart trying to 
+attack the enemies all around it. Centralized rebels CANNOT 
+win against a strong centralized state. And a centralized
+State CANNOT win against decentralized economic rebels.
+
+                                        Torrey W. Holmes
+                                        LES_TWH@flo.org
+                                        Cambridge, MA
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/////////////////////////////////////
+James Daugherty, volunteer Postmaster for A-albionic Research (POB 20273,
+Ferndale, MI 48220), a ruling class/conspiracy research resource for the
+entire political-ideological spectrum.  Quarterly Journal, book sales,
+rare/out-of-print searches, & networking since 1984.  New Paradigms Gopher
+and FTP Site loaded with unique files and book catalogs.
+
+For introductory info on Weekly Up-date, Discussion List, free articles, &
+& free book catalogs e-mail to: majordomo@mail.msen.com
+           message in body: info prj     (subject doesn't matter)
+           
+           New Paradigms Project Gopher:  gopher.a-albionic.com 9006
+           New Paradigms Project Ftp Site:  ftp.a-albionic.com
+
+
+
+
+
+------------------------------
+
+End of Extropians Digest V94 #266
+*********************************
+

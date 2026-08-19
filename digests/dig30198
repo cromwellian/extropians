@@ -1,0 +1,1069 @@
+From extropians-request@gnu.ai.mit.edu Fri Apr 16 16:34:27 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA12252; Fri, 16 Apr 93 16:34:22 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from albert.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA11252; Fri, 16 Apr 93 16:34:14 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by albert.gnu.ai.mit.edu (5.65/4.0)
+	id <AA27399@albert.gnu.ai.mit.edu>; Fri, 16 Apr 93 19:25:34 -0400
+Message-Id: <9304162325.AA27399@albert.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Fri, 16 Apr 93 19:24:54 -0400
+X-Original-Message-Id: <9304162324.AA27350@albert.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0198
+X-Extropian-Date: Remailed on April 16, 373 P.N.O. [23:25:31 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Fri, 16 Apr 93            Volume 93 : Issue 0198
+                        
+Today's Topics:
+                     BOOKS: Wilson's LaNague Chronicles               [1 msgs]
+                  CRYPT/LAW: Can We Estimate Wiretap Value?           [1 msgs]
+                      Dorothy Denning's friends strike                [4 msgs]
+                FORWARD: EFF analysis of crypto chip proposal         [1 msgs]
+                       HUMOR: Libertarian Party doomed                [1 msgs]
+                                 IMPORTANT!                           [8 msgs]
+              Key Registration and Big Brother--Time to Fight!        [1 msgs]
+                       Korzybski's "E-Prime", also NLP                [2 msgs]
+        LAW: Employment contracts (was Murder and slavery contracts)  [1 msgs]
+                        LP poll results from Georgia                  [1 msgs]
+[tcmay@netcom.com (Timothy C. May): White House announcement on encryption--FORWARDED] [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 53477 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 16 Apr 1993 16:18:05 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: IMPORTANT! 
+X-Reposting-Policy: redistribute only with permission
+
+Derek Zahn says:
+> > > Why?  I agree that government should just butt out, but I'm not
+> > > sure why this particular piece of rubbish is more devastating
+> > > than other government "initiatives".  I thought that the perceived
+> > > danger was from regulations prohibiting encryption devices.
+> > 
+> > Thats what it is all about! Read it again!
+> 
+> I did.  Four times so far.  Here's part of it:
+> 
+> Q:   If the Administration were unable to find a technological
+>      solution like the one proposed, would the Administration be
+>      willing to use legal remedies to restrict access to more
+>      powerful encryption devices?
+> 
+> A:   This is a fundamental policy question which will be
+>      considered during the broad policy review.  The key escrow
+>      mechanism will provide Americans with an encryption product
+>      that is more secure, more convenient, and less expensive
+>      than others readily available today,
+
+This part is BULLSHIT by the way. Complete and unadulterated.
+
+>      but it is just one
+>      piece of what must be the comprehensive approach to
+>      encryption technology, which the Administration is
+>      developing.
+> 
+>      The Administration is not saying, "since encryption
+>      threatens the public safety and effective law enforcement,
+>      we will prohibit it outright" (as some countries have
+>      effectively done);
+
+In other words, they are saying they won't prohibit encryption, they
+will let you use THEIR encryption. "We won't prohibit it outright --
+we will just prohibit bad guys encryption systems."
+
+>       nor is the U.S. saying that "every
+>      American, as a matter of right, is entitled to an
+>      unbreakable commercial encryption product."
+
+
+Very significant line!
+
+>      There is a
+>      false "tension" created in the assessment that this issue is
+>      an "either-or" proposition.  Rather, both concerns can be,
+>      and in fact are, harmoniously balanced through a reasoned,
+>      balanced approach such as is proposed with the "Clipper
+>      Chip" and similar encryption techniques.
+
+In other words, once again, they are saying they won't prohibit
+encryption, they will let you use THEIR encryption. It "balances"
+public and private interests (and I am Marie of Roumania.)
+
+Note that they waffle on the question of what would happen if this
+technology proved insufficient -- they don't say outright that they
+will let us use encryption, they say "this is a fundamental policy
+question which will be considered during the broad policy review".
+
+Its not just my opinion that this is an attempt to start a ban on
+non-approved encryption systems.
+
+This is a "read between the lines" document. Take it as you will.
+
+Perry
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 16:24:17 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Dorothy Denning's friends strike 
+X-Reposting-Policy: redistribute only with permission
+
+Dani Eder says:
+> On a technical work-around level, won't it be possible to have
+> voice to encrypted data stream and back using personal computers?
+> My Macintosh at home has a microphone and a modem port, and
+> sounds can already be converted to data files and back.  I don't
+> think the Mac is fast enough to do this in real time right now,
+> but I could Imagine holding a conversation slowly by recording
+> onto a data file, encrypting it, sending it via modem, then
+> reversing the process and listening to the speech via a speaker.
+> How much more computer power would it take to do this real time?
+
+You would have to compress the data stream to modem speeds, meaning
+under 20kbps. You can do this today with algorithms like CELP -- but
+CELP will barely run on a loaded sparcstation in real time. However,
+chips are available that do this, and cheaply -- for instance,
+Qualcomm makes a real time voice compression chip that interfaces
+directly to standard codec and similar equipment.
+
+People are looking at this very very seriously right now.
+
+Perry
+
+------------------------------
+
+Date: Fri, 16 Apr 93 15:36:47 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: IMPORTANT!
+
+> Note that they waffle on the question of what would happen if this
+> technology proved insufficient -- they don't say outright that they
+> will let us use encryption, they say "this is a fundamental policy
+> question which will be considered during the broad policy review".
+> 
+> Its not just my opinion that this is an attempt to start a ban on
+> non-approved encryption systems.
+> 
+> This is a "read between the lines" document. Take it as you will.
+> 
+> Perry
+
+Fair enough.  I take it quite seriously, but believe that the
+document's status as "the most important threat to freedom of
+the last twenty years, possibly the biggest since the end of
+world war II" is unclear.  In Tim's intro the the original
+forwarded post, he wrote:
+
+> 4. It is not clear if the government scheme will legally preclude
+> other encryption schemes.
+
+All I'm advocating is that we look rationally at what's being
+proposed so that counter-arguments are properly aimed.  Politicians
+are good at using semantic details to wiggle out of arguments.
+
+At any rate, it's definitely time to gather the arguments against
+regulation of encryption.  I made one such suggestion to cypherpunks
+but for some reason it hasn't been distributed yet... I wonder if
+the govt has shut it down as a pre-emptive strike ??????
+
+derek
+
+------------------------------
+
+Date: 16 Apr 1993 16:42:15 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: IMPORTANT!
+
+"This is a "read between the lines" document. Take it as you will.
+
+Perry"
+
+No, Perry, I must disagree. You need not read between the lines. The
+document openly states that Americans do not have the right to
+private encryption. As always, economic enslavement is followed by
+the physical one.
+Krzys'
+
+------------------------------
+
+Date: 16 Apr 1993 16:37:53 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: IMPORTANT!
+
+"All I'm saying is that I'd like to see one further question answered
+by somebody in the administration:
+
+Q: Is it part of your proposal to make private encryption of data
+   (by any means) illegal?
+
+derek"
+
+This was answered in the release. The answer was "No". The same kind of 
+no as in: "No, I will not raise taxes on the middle class to pay for
+these programs."
+
+Krzys'
+
+------------------------------
+
+Date: Fri, 16 Apr 93 13:57:57 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: Dorothy Denning's friends strike
+
+As I read and re-read the document, it occurs to me that it may not be
+necessary (for their purposes) to ban strong encryption immediately.
+
+Their emphasis is on voice communication, and AT&T has already
+announced (according to an AP story) that they are looking forward to
+designing in the Clipper so that they will have a standard encryption
+method across their whole range of products.
+
+The government's aims could perhaps be met by having Clipper encryption
+become the standard for voice communication.  One fact about any form of
+encrypted communication is that the parties at each end need compatible
+encryption systems.  If you want routine voice communication then you
+must be sure that the people you call have encrypting telephones which
+will work with yours.  This points to the need for a standard; otherwise
+users of AT&T phones won't be able to talk to users of Motorola phones,
+etc.
+
+The government may want to get Clipper into place as a de facto standard
+(or possibly even an official one).  Once this happens, anyone wanting
+to sell a non-Clipper phone would have a very difficult time because so
+few other phones would be usable with it.  This might explain, too, why
+they are keeping the encryption standard secret.  Otherwise it would be
+easy to make a Clipper-compatible phone which did not have the back
+door keys.
+
+If this is in fact their approach, it gives us more time to think about
+getting alternative systems into place.  For years, it seems, I've been
+reading proposals for systems which would digitize voice, compress it to
+a small bit rate like 9600 bps, encrypt it, and transmit via modem.  If
+someone already had a PC with a modem and a sound card they'd have pretty
+much all the hardware needed.  The problem has always been getting enough
+computing power to do the compression in real time.  Perhaps in the next
+couple of years as 486 and Pentium PC's become popular we will finally
+have enough power that freeware secure voice communication software will
+be possible.
+
+Hal
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 15:55:58 GMT+13:52
+From: Glen Aduana <orestes@uhuru.uchicago.edu>
+Subject: LAW: Employment contracts (was Murder and slavery contracts) 
+
+
+------------------------------
+
+Date: Fri, 16 Apr 93 16:08:16 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: IMPORTANT!
+
+Krzys' writes:
+
+>> Q: Is it part of your proposal to make private encryption of data
+>>    (by any means) illegal?
+> 
+> This was answered in the release. The answer was "No". The same kind of 
+> no as in: "No, I will not raise taxes on the middle class to pay for
+> these programs."
+
+Is this what passes for rational analysis on this
+issue?  Or is rationality only for arguing EC
+positions?
+
+Don't get me wrong, I don't like this.  But when a respected
+community member says, maybe biggest threat to freedom of
+my lifetime, I drop what I'm doing.
+
+Vaguely-worded releases (though this does have 'voluntary' in
+the very first sentence) are designed so that their "meaning"
+can be explained in whatever way is convenient when the political
+fallout is assessed.  [for this view I am labeled 'naive'].
+
+In this case, my feeling is that the political reaction will be
+negative, and enforcement problems will be clearly pointed out,
+and we'll end up with restrictions like those I mentioned
+previously.
+
+I hope that the biggest threat to freedom in the NEXT twenty
+years will be as manageable.
+
+derek
+BTW, thanks Perry for bringing this to our attention.  It is
+an important problem that needs reasonably quick action.
+
+------------------------------
+
+Date: Fri, 16 Apr 93 14:06:15 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: FORWARD: EFF analysis of crypto chip proposal
+X-Reposting-Policy: Redistribute freely
+
+This is from EFFector Online 5.06:
+
+
+                       April 16, 1993
+
+      INITIAL EFF ANALYSIS OF CLINTON PRIVACY AND SECURITY  
+                           PROPOSAL
+
+       The Clinton Administration today made a major announcement 
+on cryptography policy which will effect the privacy and security of 
+millions of Americans.  The first part of the plan is to begin a 
+comprehensive inquiry into major communications privacy issues 
+such as export controls which have effectively denied most people 
+easy access to robust encryption as well as law enforcement issues 
+posed by new technology.
+
+       However, EFF is very concerned that the Administration has 
+already reached a conclusion on one critical part of the inquiry, before 
+any public comment or discussion has been allowed.  Apparently, the 
+Administration is going to use its leverage to get all telephone 
+equipment vendors to adopt a voice encryption standard developed 
+by the National Security Agency. The so-called "Clipper Chip" is an 
+80-bit, split key escrowed encryption scheme which will be built into 
+chips manufactured by a military contractor.  Two separate escrow 
+agents would store users' keys, and be required to turn them over 
+law enforcement upon presentation of a valid warrant.  The 
+encryption scheme used is to be classified, but they chips will be 
+available to any manufacturer for incorporation into their 
+communications products.
+
+       This proposal raises a number of serious concerns .
+
+       First, the Administration appears to be adopting a solution 
+before conducting an inquiry.  The NSA-developed Clipper chip may 
+not be the most secure product. Other vendors or developers may 
+have better schemes. Furthermore, we should not rely on the 
+government as the sole source for Clipper or any other chips.  Rather,
+independent chip manufacturers should be able to produce chipsets 
+based on open standards.
+
+       Second, an algorithm can not be trusted unless it can be tested. 
+Yet the Administration proposes to keep the chip algorithm 
+classified.  EFF believes that any standard adopted ought to be public 
+and open.  The public will only have confidence in the security of a 
+standard that is open to independent, expert scrutiny.  
+
+       Third, while the use of the split-key, dual-escrowed 
+system may prove to be a reasonable balance between privacy and 
+law enforcement needs, the details of this scheme must be explored 
+publicly before it is adopted.  What will give people confidence in the 
+safety of their keys?  Does disclosure of keys to a third party waive 
+individual's fifth amendment rights in subsequent criminal 
+inquiries?  
+
+       In sum, the Administration has shown great sensitivity to the 
+importance of these issues by planning a comprehensive inquiry into 
+digital privacy and security.  However, the "Clipper chip" solution 
+ought to be considered as part of the inquiry, not be adopted before 
+the discussion even begins.
+
+DETAILS OF THE PROPOSAL:
+
+ESCROW
+
+The 80-bit key will be divided between two escrow agents, each of 
+whom hold 40 bits of each key.  Upon presentation of a valid 
+warrant, the two escrow agents would have to turn the key parts 
+over to law enforcement agents.  Most likely the Attorney General 
+will be asked to identify appropriate escrow agents.  Some in the 
+Administration have suggested one non-law enforcement federal 
+agency, perhaps the Federal Reserve, and one non-governmental 
+organization.  But, there is no agreement on the identity of the agents 
+yet.
+
+Key registration would be done by the manufacturer of the 
+communications device.  A key is tied to the device, not to the person 
+using it.
+
+CLASSIFIED ALGORITHM AND THE POSSIBILITY OF BACK DOORS
+
+The Administration claims that there are no back door means by 
+which the government or others could break the code without 
+securing keys from the escrow agents and that the President will 
+be told there are no back doors to this classified algorithm.  In order 
+to prove this, Administration sources are interested in arranging for 
+an all-star crypto cracker team to come in, under a security 
+arrangement, and examine the algorithm for trap doors.  The results 
+of the investigation would then be made public.
+
+GOVERNMENT AS MARKET DRIVER
+
+In order to get a market moving, and to show that the government 
+believes in the security of this system, the feds will be the first big 
+customers for this product.  Users will include the FBI, Secret Service, 
+VP Al Gore, and maybe even the President. 
+
+FROM MORE INFORMATION CONTACT:
+
+Jerry Berman, Executive Director
+Daniel J. Weitzner, Senior Staff Counsel
+
+------------------------------
+
+Date: Fri, 16 Apr 93 15:08:26 CDT
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: Dorothy Denning's friends strike
+
+I suggest that we attach a suitably descriptive title to this
+proposal - like the "Big Brother Plan", when discussing it in
+other places.
+
+Dani Eder
+
+------------------------------
+
+Date: Fri, 16 Apr 93 14:17:53 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Key Registration and Big Brother--Time to Fight!
+
+(Perry Metzger forwarded my message this morning to the Cypherpunks list on
+the latest White House proposal....I should've also sent it to the
+Extropians list myself, my vacation from the list notwithstanding. Some
+things are just too important!)
+
+The latest White House proposal to authorize a certain form of encryption,
+called "Clipper Chip," (a bizarre name, which also conflicts with the
+"Clipper" processor made by Intergraph), represents the reification of all
+the "key registration" themes discussed for many months on sci.crypt and
+elsewhere.
+
+I urge those on the Extropians list who are interested in preserving their
+dwindling freedoms in these Beknighted States of America to:
+
+1. Follow the debate on sci.crypt and elsewhere. Hal Finney just mentioned
+the various places the White House announcement was posted.
+
+2. Subscribe to the Cypherpunks list by sending a message to
+"cypherpunks-request@toad.com".  The latest "Wired," which I have not yet
+seen myself, apparently has some good stuff on our group. (I reviewed
+Levy's article for him, but haven't seen the mag on the newsstands yet.)
+
+3. Get your PGP and MacPGP before "the other shoe drops." The "other shoe"
+may be legal moves by RSA Data Security and others (Commerce? Justice?) to
+crack down on PGP...rumblings of this have been heard for months now, and
+were discussed at the last physical Cypherpunks meeting. (And the
+steganographic aspects--the hiding of the mere _existence_ of an encrypted
+message--will probably assume a greater importance than before.)
+
+4. The Boston area just had its first physical Cypherpunks meeting, with
+Julf intending to attend (J. Helsingius, operator of the Finnish anonymous
+remailer)....I haven't heard the outcome. The U.K has had one for several
+months, and of course the Bay Area has had one since before there was even
+a mailing list. The Southern California area has several leading
+Cypherpunks (Hal Finney, Phil Karn, Eli Brandt, others) and wants to host a
+meeting of "the Cypherpunks." Instead, and in light of the serious danger
+that encryption will soon have limits placed on it, I would urge them to
+*just begin their own meeting* ASAP! (Sorry to sound so urgent, but they
+need to start meeting long before we can arrange a meeting in San Diego or
+LA.)
+
+(One thing we talked about at the 4-10-93 meeting in Mountain View, CA, was
+a conference call linking up some of the "satellite Cypherpunks." Not
+secure, of course, but then neither is this list nor our physical
+meetings...anybody can attend, can get added to the list, etc.)
+
+5. Prof. Denning has more to say about key escrow and registration in the
+latest (or very recent) "Communications of the ACM," which should be
+available in large university libraries. Now that the proposal has become
+real, it takes on more meaning.
+
+6. It is clear that the "trial balloon" I cited in my message many months
+back to sci.crypt is nauseatingly real. Under the guise of stopping "drug
+dealers, terrorists, and child pornographers," we will see limits placed on
+our ability to communicate privately. I have few hopes that this proposal
+will be overturned by the courts, including the Supreme Court. A "garrison
+state" like the U.S. is turning itself into, what with the War on (Some)
+Drugs, the no-knock raids on suspects, the civil forfeiture laws, and the
+attacks on "whacko Waco religious cults," has need of Nazi-like police
+powers.
+
+It seems ironic, and appropriate, that this White House announcement came
+on the 50th anniversary of the discovery of LSD...April 16th, 1943.
+
+As I said six months ago, "Be afraid, be very afraid."
+
+As Phil Karn put it, the battle is joined.
+
+
+-Tim May
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+Date: Fri, 16 Apr 93 14:19:32 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: CRYPT/LAW: Can We Estimate Wiretap Value?
+
+Perry sounds the alarm:
+>Seriously folks, quit what you are doing and start researching this ..
+
+OK, I'll bite.  
+
+So the US Government is serious about ensuring it can "wiretap"
+private communication, eh?  I don't know if anyone else has done this,
+but I think a great piece of rhetorical ammunition would be to create
+a quotable study estimating the monetary benefit of having state
+wiretap abilities.  Imagine the headline: "CATO study says wiretaps
+worth only $10M/yr to police.  Will we sell our privacy for trinkets?"
+
+Here's the idea: A wiretap law is handy in that it reduces the
+resources that must be spend by police to raise the probability of
+catching any given criminal to any given level.  Wiretaps make law
+enforcement cheaper.  But the question is: how much cheaper?
+
+Higher probabilities of catching criminals can also come by having
+more detectives spend longer investigating cases.  And even when
+probabilities can't be raised, equivalent deterrence can come by
+raising the fine/punishment required of criminals who are caught.
+(This raises social costs because of the risk aversion of criminals,
+and of innocents who are falsely convicted.)
+
+Even if a lack of wiretaps doubled the cost to reach a given
+probability of conviction level, the value of wiretaps would seem to
+be bounded by about total amount spent investigating crimes where
+wiretaps were used.  I'd be surprised if this were > $100M/yr.  
+
+This benefit could be compared to estimates of the cost of everyone
+using government standard encryption chips, etc., vs. the no doubt
+more efficient and cheaper chips they would have otherwise used.  Any
+remaining benefit would then be what we should ask citizens to compare
+to their personal value of being secure against the risks of illegal
+government spying against them.  (Headline: "Is freedom from state
+snooping worth more than five cents a year to you?")
+
+So what we want is to ASAP get someone who knows the literature on the
+economics of law enforcement to do a study estimating the value of
+wiretaps.  Maybe Tom Bell or David Friedman would know who to suggest,
+or perhaps be interested themselves.  I'm just an amateur in the econ
+of law enforcement, but might be talked into giving it a try (and
+remember: money talks :-).  Of course to be credible, I'd have to
+commit to publicizing my results regardless of the number they
+estimate.  If the value turns out to be $10B/yr., I'd have to say so.
+
+On a more idealistic level, I'll note that with the private law
+enforcement scheme I've proposed (paper available), where criminals
+are indirectly placed in charge of hiring enforcers, people would
+internalize these tradeoffs.  Each person would choose whether or not
+to use communication media with trapdoors to allow wiretaps, and
+enforcers would set fines contingent on whether the convicted criminal
+allowed wiretaps.  By choosing no wiretaps, you would know that you
+would be fined more, should you ever be convicted of a crime where
+wiretaps might have been useful in finding you.
+
+Robin Hanson  hanson@ptolemy.arc.nasa.gov 
+415-604-3361  MS-269-2, NASA Ames Research Center, Moffett Field, CA 94035
+510-651-7483  47164 Male Terrace, Fremont, CA  94539-7921 
+
+[This message (minus Perry's quote) may be forwarded at will.]
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 16:20:30 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: Korzybski's "E-Prime", also NLP
+
+In <9304160848.AA05666@geech.gnu.ai.mit.edu>, Richard Kennaway writes:
+|> Here are some General Semantics references.
+|> 
+|> Korzybski "Science and Sanity" (preferably the latest (4th) edition, as
+|> later editions include extensive extra prefaces and supplements)
+|> 
+|> S.I. Hayakawa "Language in Thought and Action" (I read this a long time
+|> ago; I recall that it was written on a very elementary level.)
+|> 
+|> Stuart Chase "The Tyranny of Words" and "The Power of Words"
+|> 
+|> D.D. Bourland and P.D. Johnston (eds.) "To Be Or Not" (a collection of
+|> articles on E-Prime)
+|> 
+|> The Korzybski and Bourland books are available from the International
+|> Society for General Semantics, P.O. Box 2469, San Francisco, CA 94126, tel.
+|> (415) 543-1747.  The ISGS also publishes a quarterly journal on GS called
+|> "Etc", and have published various other books on GS.
+
+*** THIS TELEPHONE NUMBER IS OLD. It has been reassigned to a travel
+agency. Neither the 415 nor 800 information operators could find the
+ISGS for me. I suppose, if they haven't closed up shop totally, that
+one could send 1st class mail to the address above and have it be
+forwarded. ***
+
+I would argue that not all uses of "to be" represent the false
+identification that E-prime tries to avoid (compare the above
+paragraph to the next two). One could also say that any similar
+exercise that involves re-writing or re-thinking a statement may lead
+to making a clearer statement.
+
+You might make the case that this criticism addresses the strawman
+form and not the real E-prime. I have noticed that I use the verbs
+"to do" and "to make" more often when I try to speak E-prime; or in
+French one would use "faire" instead of "etre" (but then one would
+have F-prime, n'est-ce pas? ;-), leading to a more active way of speaking.
+
+Besides, you'd need a bunch of new idioms. I couldn't say "Well, I'll
+be damned" and the Frenchman would have to use "hein?" all the time
+instead of "n'est-ce pas".
+
+How about Lojban? Can you speak that without "be-ing"?
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    / ** FIDONET DISTRIBUTION FORBIDDEN **
+"Are smileys allowed in E-prime?"
+
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 17:35:49 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: Korzybski's "E-Prime", also NLP
+
+Eric S. Raymond writes:
+> 
+> >>Next step; learn the same suspicion about claims that rely on excluded middle.
+> > 
+> > Can you elaborate on that?
+> 
+> Sure.  In the real world, Aristotelian logic is in general false.  Neither the
+> "Law of the Excluded Middle" (A | ~A), nor noncontradiction ~(A & ~A) holds.
+
+   Can you define by what you mean by "real world"? The only world
+that I know of in which the non-contradiction principle doesn't hold is
+the world of politics. ;-)
+
+   In every day language, terms are not specific enough to apply
+rigorous logic to, so it's kind of meaningless to evaluate them in
+the context of Aristotelian logic. The world of mathematics is a completely
+different picture. There is only a very small group of mathematicians 
+in academia who believe in what you have stated (the intuitionists, no
+law of excluded middle).  In particular, they don't believe in proof
+by contradiction. However, they have never demonstrated a single
+indirect proof to be false (by providing a counter example). I am
+suspicous of anyone who claims that mathematics/logic has invisible
+flaws since it has withstood the test of time against much greater geniuses
+than those making the claims. I'd much rather see evidence.
+
+  I'll buy the claim that !excluded_middle holds in the world of 
+multivalued and fuzzy predicates (e.g. terms like hot/cold, left wing/right
+wing, black/white, gay/straight, etc) but I don't by the
+non-non-contradiction claim. A couple of issues ago in Extropy, someone
+called 'A' tried to prove some really radical claims by assuming
+that A & ~A was true. As was pointed out to him, if you assume
+that then you can prove anything.
+
+> -- 
+> 					Eric S. Raymond <esr@snark.thyrsus.com>
+> 
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 16:48:25 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: HUMOR: Libertarian Party doomed
+
+In <9304160900.AA16102@albert.gnu.ai.mit.edu>, rjc@gnu.ai.mit.edu writes:
+[...]
+|>   I've met quite a few people who think libertarians are nothing more
+|> than drug using homosexual republicans.
+
+Make that "pansexual" and then show me where to sign up ;-0
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    / ** FIDONET DISTRIBUTION FORBIDDEN **
+
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 16:45:35 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: BOOKS: Wilson's LaNague Chronicles
+
+In <9304160813.AA13035@churchy.gnu.ai.mit.edu>, Sneal writes:
+|>      Has anyone out there read any of F. Paul Wilson's science
+|> fiction?  The new issue of Liberty describes Wilson's
+|> The_LaNague_Chronicles as "explicitly libertarian science fiction". 
+|> The book is an omnibus edition incorporating three novels "Healer",
+|> "Wheels Within Wheels", and "An Enemy of the State" (you gotta love
+|> that last title).  
+|>  
+|>      Anyone care to cough up a review?
+|>  
+|>      -- Steve, Yet Another Enemy of the State
+
+I have read _An Enemy of the State_ (someone, possibly Karl Sackett,
+had put a WSPQ card in the library's copy, which I dutifully left in).
+
+The book pits a dictator and his ministers of state against a
+Robin-hoodish outlaw, letting us see what goes on in both camps. The
+outlaw wages a propaganda and terrorist war against the federation,
+and shows in considerable detail how the economy grinds itself into
+filings and overheats under the dictator's heavy-handed attempts to
+control it while continuing to debase the currency and increase the
+government's budget. The outlaw conspiracy works to set up a free
+hard-money economy.
+
+The economics parallel and parody the dynamics of wage and price
+controls under Nixon and Ford in particular, but generalize OK.
+
+It's a very entertaining and very subversive read.
+
+BTW, Neal Stephenson's _Snow Crash_ is now out in paperback for
+$5.99. It's not Libfic, but most people of Extropian bent will
+enjoy the VR and the playful use of semantics. ESR will like it
+because it weaves magic and computer science together ;-).
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    / ** FIDONET DISTRIBUTION FORBIDDEN **
+
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 17:01:07 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: [tcmay@netcom.com (Timothy C. May): White House announcement on encryption--FORWARDED]
+
+In <9304161738.AA16346@churchy.gnu.ai.mit.edu>, "Perry E. Metzger" writes:
+|> 
+|> Forwarded message from Tim May:
+|> A state-of-the-art microcircuit called the "Clipper Chip" has
+|> been developed by government engineers.
+
+Well, I've got one objection right here -- that's a registered
+trademark of Intergraph Corporation for its line of RISC
+microprocessors.
+
+I'll get started on letters to the editor, my Congresscritters, and
+Bill (or should I write to Hillary?) as soon as I've digested this.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    / ** FIDONET DISTRIBUTION FORBIDDEN **
+
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 18:03:37 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Dorothy Denning's friends strike 
+X-Reposting-Policy: redistribute only with permission
+
+Hal Finney says:
+> If this is in fact their approach, it gives us more time to think about
+> getting alternative systems into place.  For years, it seems, I've been
+> reading proposals for systems which would digitize voice, compress it to
+> a small bit rate like 9600 bps, encrypt it, and transmit via modem.  If
+> someone already had a PC with a modem and a sound card they'd have pretty
+> much all the hardware needed.  The problem has always been getting enough
+> computing power to do the compression in real time.  Perhaps in the next
+> couple of years as 486 and Pentium PC's become popular we will finally
+> have enough power that freeware secure voice communication software will
+> be possible.
+
+Van Jacobson reportedly has a CELP implementation that works in real
+time on a Sparcstation II -- so hopefully, a well written
+implementation should operate in real time on a Pentium.
+
+Perry
+
+------------------------------
+
+Date: Fri, 16 Apr 93 23:13:15 BST
+From: Richard Kennaway <jrk@information-systems.east-anglia.ac.uk>
+Subject: IMPORTANT!
+
+Derek Zahn writes:
+> In this case, my feeling is that the political reaction will be
+> negative, and enforcement problems will be clearly pointed out,
+> and we'll end up with restrictions like those I mentioned
+> previously.
+
+Whose political reaction?  Who will clearly point out the problems?
+These things won't happen by themselves, they must be made to happen
+by people with enough initiative not to leave it to everyone else.
+That is surely the point of raising the alarm.
+
+--                                ____
+Richard Kennaway                  \ _/__    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk       \X  /    University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk      \/     Norwich NR4 7TJ, U.K.
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 18:17:11 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: IMPORTANT! 
+X-Reposting-Policy: redistribute only with permission
+
+Derek Zahn says:
+
+> Don't get me wrong, I don't like this.  But when a respected
+> community member says, maybe biggest threat to freedom of
+> my lifetime, I drop what I'm doing.
+
+They have explicitly said that they believe that the notion that there
+is a constitutional right to cryptographic security is an "extreme"
+position in their news release. Read it. They have also proposed a
+plan which they intend to push very heavily that seems to be an
+extreme threat, and it would appear that in order to get this plan
+implemented they would have to ban civilian use of cryptography if it
+does not conform to the administration approved system.
+
+Why do I consider this the biggest threat since the second world war?
+
+Because the biggest hope for freedom has been cryptography and
+computer systems. Technology is eroding the capacity of the state to
+govern. The wide scale deployment of uncrackable cryptosystems could
+cripple the state. This counteroffensive would eliminate that bit of
+hope, and would replace it with the possibility of using the new
+computer technology in a sinister manner -- to control the lives of
+citizens as never before rather than to liberate them as never before.
+In combination with other seriously floated proposals like the FBI
+initiative, this would ultimately permit national security types to
+spy on everyone with convenience never before achieved.
+
+> Vaguely-worded releases (though this does have 'voluntary' in
+> the very first sentence) are designed so that their "meaning"
+> can be explained in whatever way is convenient when the political
+> fallout is assessed.  [for this view I am labeled 'naive'].
+
+Well, their intent is obvious. I am not saying that they have won --
+they certainly might later backpeddal and claim that they didn't mean
+what they said. However, they certainly do mean it no matter how much
+they might deny it later.
+
+I refered to you as naive for beliving that the release does not
+propose to stop use of uncrackable civilian cryptography -- the intent
+is obviously there, even if they have worded it to permit plausible
+denyability.
+
+I will repeat that this is not simply my opinion that they mean to ban
+non-approved cryptosystems -- feel free to ask folks like Phil Karn or
+Phil Zimmermann what they think. I haven't asked John Gilmore what his
+opinion is yet, but I have a hunch its similar.
+
+> I hope that the biggest threat to freedom in the NEXT twenty
+> years will be as manageable.
+
+They will only get worse, Derek. The mere fact that the current
+erosion of the constitution is severe enough that this could be
+floated at all demonstrates that. I'm expecting that a bigger
+threat will occur within a year at most. Things are getting worse
+every day.
+
+Example, just for your amusement: if you offer individual health
+insurance in New York State, after April 1 of this year you are
+obligated to offer it to all people, regardless of age or health or
+sex, at the same price. The terminal patient and the 20 year old in
+robust health get to pay the same. This is refered to as a way to
+improve the health insurance situation in the state. Its improved it
+dramatically -- five companies withdrew from the business completely.
+Soon, they will all be gone, and the state can take over.
+
+Perry
+
+------------------------------
+
+Date: Fri, 16 Apr 93 18:25:33 EDT
+From: sulko-m@acsu.buffalo.edu (Mark A. Sulkowski)
+Subject: LP poll results from Georgia
+
+[From _CLM News_, April 1993]
+
+POLLING IN GEORGIA: WHAT THE PUBLIC THINKS ABOUT THE LP
+
+	Tired of guessing about what the public thinks about the
+Libertarian Party, the Georgia LP contracted with a professional
+polling firm to sample public opinion.  The poll was conducted
+in December by the highly respected Washington, DC polling firm
+of Fabrizio, McLaughlin & Associates as part of a joint project
+with the Georgia Public Policy Foundation, and had a margin of
+error of plus or minus 4.9% with a 95% confidence level.
+
+	The Georgia LP was startled to find an extraordinarily
+high level of recognition of the Libertarian Party.  Of course
+the Georgia LP had a very high profile during the Coverdell-
+Fowler Senate run-off election.  But, the traditional Libertarian
+attitude was that our lack of success was because the public had
+never heard about us.  Yet, the poll showed that a phenomenal 77%
+of Georgians knew enough about the LP to form an opinion about us.
+This was a higher recognition rate than for the current Lt.
+Governor or Attorney General.
+
+
+HIGH UNFAVORABLES.
+
+	Unfortunately, the opinion that they had formed about the
+LP is a negative one.  According to the poll results, only 24.3%
+of Georgians had a favorable opinion of Libertarians, while 53%
+had an unfavorable opinion.  Interestingly, the LP was more
+popular among self-described liberals (36.8%F, 45.6%U) than among
+conservatives (19.4%F, 63.6%U).  In general, the LP did better
+among younger voters and lower-income voters.  Perot voters were
+also a relatively strong group (33.3%F, 39.4%U).  Very weak groups
+included: regular churchgoers (27.3%F, 63.6%U); Bush voters
+(18.9%F, 62.3%U); the elderly (19.6%F, 51%U); "Reagan Democrats"
+(28%F, 68%U); and middle-income earners (13.8%F, 67.7%U).  In
+general, the LP seems to be missing the middle class. [...in Georgia.]
+
+
+NO ISSUE IDENTIFICATION.
+
+	One particularly disappointing finding of the poll was that
+the LP was not strongly identified with any issue except drugs/crime.
+For example, while we think of ourselves as the anti-tax party, those
+Georgians who thought cutting taxes was the most important issue to
+them were no more likely to have a favorable opinion of the LP.  The
+same was true of other issues such as school choice, opposition to
+socialized medicine, privatization, etc.  Apparently the LP has not
+been able to focus its message sufficiently to become identified
+with these issues in the minds of the voters.
+
+
+A LIBERTARIAN CONSTITUENCY.
+
+	The poll did contain evidence of hope for the LP's future.
+There was strong public support for the LP's position on most basic
+issues.  For example, 56% of Georgians supported greater privatization
+of state services; 88.5% of Georgians favored a requirement of a 2/3
+super-majority before taxes could be raised; 54% opposed a government-
+run national health care system; and 57% supported school choice.
+These are issues that should be natural for the LP.  At the same time,
+most voters pro-choice and rejected "conservative" positions on social
+issues.  By building on public support for the issues where the public
+agrees with us, the Libertarian Party should be able to change public
+opinion and become a major player in Georgian (and American) politics.
+
+
+_Complete poll results are available upon request._ [from CLM]
+
+
+------------------------------
+
+Date: Fri, 16 Apr 1993 18:37:26 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: IMPORTANT!
+
+   While this announcement is very scary, I wouldn't worry about it too
+much. First of all, it's unlikely that we could gather enough
+political support to stop this unless we could ally ourselves with
+another big lobbying group like the NRA. Remember, the War On Drugs
+is popular, and any measures that are touted as a cure for crime will
+most likely be accepted. Secondly, I am willing to bet that this
+proposal will be attacked by academia (possibly pressuring them to
+release the algorithm). Thirdly, *fuck the government!*
+PGP is already illegal but I don't give a damn. They can crack
+down on it all they want. Anybody with 3 weeks of number theory
+can understand how RSA works, and DES/IDEA are publically available so
+I expect to see freeware cryptography software expand beyond the
+limits of government control. The government simply cannot stop the spread of
+cryptography unless they start mass murdering citizens.
+
+   The proposal just goes to show how scared the government is. We knew
+this was coming as soon as politicians started finding out about
+crypto-privacy.  The government is losing power and this is their
+attempt to hold onto it. From this point on, it's downhill for them.
+Copier/printer technology will make their fiat money worthless ushering
+in the age of digicash(too bad for the irs and drug warriors). CB/Ham
+radio + cryptography makes their hold on communications unenforcable.
+Anonymous networks, blackmarkets, I could go on. The govt will
+murder more citizens trying to prevent this, but I think it is
+inevitable.
+
+----
+   On a side note, a friend of mine and I have been designing
+v32bis voice encryption software. It's crude, but it should work.
+I'm designing my end for an Amiga + cheap sampler, he is designing his
+end on a 486 + Sound Blaster pro.
+
+  Here's how we kludged it.
+ 
+  Take 8khz 8bit samples and decimate them to 4khz 4/6-bit using
+interpolation. This requires 2000/3000 cps. Using fibonacci delta compression,
+another 50% can be compressed yielding a required 1000/1500 cps. The
+resulting sound quality is very bad (hard to understand) but it still
+works (a typical conversation would probably have lots of
+"hey, could you repeat that?")  
+  With ADCMP + v.terbo/codex, a lot more is possible.
+
+  Right now, the design is half duplex (walkie-talkie like), and
+only uses a multiple substitution cypher because most of the CPU
+power is soaked up sampling/compressing/serial transfer. I don't plan
+on finishing it till summer, however I have tested serial port/sampling
+code and it works. I have also experimented with different 
+decimation rates, 6bit @ 4khz seems to work ok, 4bit @ 4khz is a little
+hard to understand.
+
+  You can do some tests yourself even if you don't have a sampler
+by downloading the publically available SOX (soundtools) software and
+then applying it to internet talk radio samples.
+
+
+  
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0198
+****************************************
+

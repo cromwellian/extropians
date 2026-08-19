@@ -1,0 +1,1003 @@
+From extropians-request@gnu.ai.mit.edu Mon Mar  1 17:18:17 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA29338; Mon, 1 Mar 93 17:18:10 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from albert.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA28348; Mon, 1 Mar 93 17:18:01 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by albert.gnu.ai.mit.edu (5.65/4.0)
+	id <AA13078@albert.gnu.ai.mit.edu>; Mon, 1 Mar 93 20:05:36 -0500
+Message-Id: <9303020105.AA13078@albert.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Mon, 1 Mar 93 20:05:12 -0500
+X-Original-Message-Id: <9303020105.AA13062@albert.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0090
+X-Extropian-Date: Remailed on March 2, 373 P.N.O. [01:05:35 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest             Tue, 2 Mar 93             Volume 93 : Issue 0090
+                        
+Today's Topics:
+                          BET: Announcing a New Bet                   [2 msgs]
+                       BOMB: Who could have done this?                [4 msgs]
+             BOMB: Will WTC Bombing Encourage Decentralization?       [4 msgs]
+                             ECON: Cover's ideas                      [5 msgs]
+                     INFO: Found on alt.society.futures               [1 msgs]
+               LIFESPAN: Add 13 years to your life expectancy.        [2 msgs]
+                                My Home Town                          [3 msgs]
+                  POLI: In Praise of Martial Arts Training            [1 msgs]
+                             Wanted: Humaneers!                       [1 msgs]
+                            ba folk: spring break                     [1 msgs]
+                           more ideas on anonymity                    [2 msgs]
+                                  sunspots                            [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 51059 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 28 Feb 1993 18:33:24 -0800
+From: D Anton Sherwood <dasher@well.sf.ca.us>
+Subject: sunspots
+
+  "I'm gonna party like it's 1991...  How come?  Well, if you've been down
+in the dumps lately because it looks like the libertarian movement is flat
+on its back, don't despair.  Right now we're at the bottom of the 11.5-year
+sunspot cycle.  In case you haven't heard, sunspot cycles seem to affect
+levels of ionization in the atmosphere.  Since negative ions have energizing
+effects (on) people, and positive ions have depressing effects, it's not
+surprising to hear that when the sunspots are most evident at the height of
+the sunspot cycle, and they are generating lots of negative ions here on
+earth, people do wild and crazy things like initiate world-wide student
+strikes and invade Czechoslovakia (1968) or take over American embassies and
+invade Afghanistan (1979).  Maybe by 1991 we'll have world-wide secessionist
+actions and the Soviets will have to invade Moscow to keep it from
+seceding!!!  1991 is only six years (from now) and we _can_ influence the
+way those zesty negative ions are used."
+ -- author/philosopher Carol Moore, The Connection 125, 1/13/85
+
+quoted by "Brick" Pillow in RSVP 1, 11/26/91
+
+Anton Sherwood           1800 Market St #207, San Francisco 94102 USA
++1 415 267 0685                                  dasher@well.sf.ca.us
+"Don't forget, your mind only *simulates* logic."  -- Glen C. Perkins
+
+------------------------------
+
+Date: Sun, 28 Feb 1993 21:38-EST
+From: Marc.Ringuette@GS80.SP.CS.CMU.EDU
+Subject: ECON: Cover's ideas
+
+Steve Whitrow runs some simulations, but as far as I can tell he's still
+fairly confused.  His problem is that he's trying to make simulations 
+take the place of theoretical understanding.
+
+First off, he verifies that the "60% half, 40% double" game is a win for
+the bettor, unless he succumbs to a Martingale with no upper limit.
+This is true and completely trivial.  Please let's not get into Martingales
+here; they generate too much noise on sci.math and rec.gambling already.
+
+Steve then concludes that he doesn't like the "log return" strategy, without
+making any particular connection between it and his simulations.  In fact,
+his simulations argue for the bettor to choose small bet sizes, just as
+the log-growth strategy would tell him to do!  Tim May later calls a
+Martingale a "log return betting scheme".   This couldn't be more wrong, and
+I'm hard pressed to see how Tim made that connection at all!
+
+I guess Tim was thinking that the log-growth metric would be overly willing
+to accept a large low-probability loss.  But that's not correct; since
+it's the log of your BANKROLL that is considered, the log-growth strategy
+is extremely wary of losses which are a large fraction of your bankroll.
+
+---
+
+Let's go over what the log-growth strategy is about.  It's primarily a way of
+choosing the optimum amount to wager on a positive-expectation bet, given a
+limited bankroll.  The idea is to make a balance between expected gain and
+the variance of the bet, by being less willing to lose your whole bankroll
+and less interested in huge low-probability gains.  For each possible outcome
+of the bet, you compute the logarithm of your new bankroll at that point and
+multiply it by the probability of that outcome.  Adding these up gives you
+the "expected log bankroll", from which you can subtract the log of your
+current bankroll to get the "log growth of bankroll".   You then try to
+maximize this quantity rather than your expected gain.
+
+It should be noted that for any positive expectation bet, log growth of
+bankroll is greater than zero if you bet a sufficiently small fraction
+of your bankroll; and there will be one particular bet size, strictly
+between 0 and the bankroll size, which has the maximum expected log growth.
+
+In my last message on this topic, I computed the bet size which gives the
+maximum log growth of the bankroll for the bettor in the "60% half, 40% 
+double" game with bankroll B:  the answer was 0.2*B .
+
+---
+
+My own objections to the log-growth metric still stand; it's too conservative
+in most practical circumstances.  But this recent criticism of the method 
+is unfounded.
+
+
+-- Marc Ringuette (mnr@cs.cmu.edu)
+
+------------------------------
+
+Date: Sun, 28 Feb 93 21:58:21 PST
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: BET: Announcing a New Bet
+
+> Any takers?
+
+Sure.  For the set of numbers, let's take the populations of the thousand
+U.S. cities with strictly fewer than 100K people.
+(And don't go talking about "fair bets", either! :-)
+
+> -Tim
+
+	 PGP 2 key by finger or e-mail
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Mon, 1 Mar 1993 00:50:38 -0500
+From: Alexander Chislenko <sasha@ra.cs.umb.edu>
+Subject: BET: Announcing a New Bet
+
+   Who said that out of two friends betting for something, one is a bad
+friend, and the other - just stupid?
+   With my love to fellow extropians, I wouldn't feel comfortable to
+get their money for myself...
+   From the other hand, redistribution of wealth in favor of smarter
+people seems to be a good thing, even among our group - and we'll learn
+something in the process...  Hmm...
+ 
+  I might take part in the game depending on what the stakes are;
+I understand the underlying statistics well enough, and seem to have
+enough knowledge (but not time - unless the stakes are high enough ;-) )
+to figure out the balanced bets with some degree of precision (but not
+perfectly - many distributions are not normal, etc.).
+  I'm not posting explanations here to not spoil Tim's game.
+I might promise not to take part in betting, if I get a good quantitave
+analysis of these distributions.  ;-)
+                          - - -
+  There is another distribution phenomenon that doesn't seem to have
+any purely statistical explanation, and it is of much greater interest
+to me:
+      A [geometrical average] number of parts in a whole for any class
+of systems appears to be close to number pi.
+- Check number of subchapters in a chapter of your Unix manual, or average
+number of subdirectories in a directory, or number of species in any genus,
+etc.
+  I bet that the answer to this question is more valuable than the first one.
+ 
+------------------------------------------------------------------------------
+|  Alexander Chislenko | sasha@cs.umb.edu | Cambridge, MA  |  (617) 864-3382 |
+------------------------------------------------------------------------------
+
+------------------------------
+
+Date: Sun, 28 Feb 93 21:09:41 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: ECON: Cover's ideas
+
+Hal writes:
+> Mike offers the bet where the bettor's money halves 60% of the time
+> and doubles 40% of the time.
+> 
+> As Dale Worley basically showed, this is a positive-return bet.  The
+> more money you bet, and the more times you bet it, the more money you
+> will have at the end, on the average.  So I would certainly take up
+> Mike's offer.
+
+Who now shamelessly withdraws his offer :-( & :-)  I neglected to
+consider the low-probability high-loss element.  Aw shucks, another get-
+rich-scheme down the tubes......  As Steve Whitrow suggests I was only
+going to consider schemes where the gambler was locked in for a certain
+number of rounds, ie the stake is left to ride.  Then increasing the
+number of rounds reduces the probability of the house's loss to
+infinitesimal levels :-)  Trouble is that the associated loss is
+astronomical and the house goes out of business :-(
+
+> Log analysis underestimates the impact of a low-probability but
+> high-return outcome, relative to linear analysis.
+
+Both log returns and linear returns seem flawed.  Is there any way out
+of this mess?  Can the two measures be combined to produce a better 
+combined measure?
+> 
+> Hal
+
+Mike Price (price@price.demon.co.uk)
+
+------------------------------
+
+Date: Sun, 28 Feb 93 20:49:36 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: ECON: Cover's ideas
+
+Marc Ringuette is angry (apparently) that I brought up the subject of
+martingales:
+
+>First off, he verifies that the "60% half, 40% double" game is a win for
+>the bettor, unless he succumbs to a Martingale with no upper limit.
+>This is true and completely trivial.  Please let's not get into Martingales
+>here; they generate too much noise on sci.math and rec.gambling already.
+
+I don't read rec.gambling, so I can't be held responsible for repeating
+points already made there (or in sci.math). The debate about payoffs has
+been raging in _this_ group, so this is where I commented.
+
+>the log-growth strategy would tell him to do!  Tim May later calls a
+>Martingale a "log return betting scheme".   This couldn't be more wrong, and
+>I'm hard pressed to see how Tim made that connection at all!
+
+My posting was on martingale betting schemes and was making what I thought
+would be an interesting insight into the "gambler's mentality." 
+
+-Tim May
+--
+Timothy C. May               | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com        | anonymous networks, digital pseudonyms, zero
+408-688-5409               | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA       | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+Date: Sun, 28 Feb 93 23:36:59 PST
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: ba folk: spring break
+
+Sorry to blast this to the list; could someone point me to the
+ba-extropians sublist?  (I thought that was the name, but couldn't
+VRFY it or anything like it at any likely site...)
+
+I'll be in the Bay area, generally speaking, from 3/12 to 3/19 or
+so, neatly missing the Cypherpunks meeting.  Are there any
+gatherings, happenings, or shindigs -- even hoe-downs -- planned for
+then?  This is a three-people-with-one-car sort of affair, but I can
+probably mutate the itinerary.  The only immutable at this point is
+that we'll be in Santa Cruz at one time or another.
+
+Is bus transportation in the area even worth thinking about?
+
+	 PGP 2 key by finger or e-mail
+   Eli   ebrandt@jarthur.claremont.edu
+
+
+------------------------------
+
+Date: Mon, 01 Mar 93 07:39:00 GMT
+From: sjw@liberty.demon.co.uk (Stephen J. Whitrow)
+Subject: ECON: Cover's ideas
+
+I think I see what Hal meant by the 'simulations being inadequate'. Say
+the layer runs the computations on a machine that either crashes out to
+zero after 10 ^ -38 or hits an overflow at 10 ^ 38. The bettor starts with
+$1, and the arrangement is that if the balance goes below 10 ^ -38 he's lost
+the $1. If it hits the 10 ^ 38 overflow he wins $10 ^ 38.
+
+We know that the return is 10% of the total balance per round. But when
+the log return is negative the random numbers are generated so that zero
+is almost certain to be hit, and overflow _very_ rarely. I suspect that
+the overflow would be hit on just enough occasions for the bettor to get
+his 10% return. But it would only be in approximately 9.09 ee 37 of cases,
+in other words the layer could be operating so that one series per second
+had been completed for the age of the universe, and his chance of having to
+make the devastating payout would still be about 1 ee 20 to 1 against. 
+
+Unfortunately this method could not be applied to real life betting, as
+you either need $10 ^ 38 of capital or credit from the bookie.
+
+Steve Whitrow                   sjw@liberty.demon.co.uk
+
+------------------------------
+
+Date: Mon, 1 Mar 93 09:02:31 CST
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: LIFESPAN: Add 13 years to your life expectancy.
+
+Not necessarily.  If the control group was a group of uncastrated
+inmates, they may have a shorter average lifespan than the general
+population.  In this case the castrated group might only have had
+the lifespan of the average population, which is of no use to us
+extropians.  So, can we get the reference to the study to see if
+the unmodified prisoners simply died young from gunshot wounds?
+
+Dani Eder
+
+------------------------------
+
+Date: Mon, 1 Mar 1993 09:13:19 -0600
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: LIFESPAN: Add 13 years to your life expectancy.
+
+In <9302282211.AA08004@churchy.gnu.ai.mit.edu>, Michael Howard writes:
+|>  From a durex suppliment booklet:
+|>  
+|>  'Man would live longer without balls. A study of imprisoned castrates in a
+|> state penitentiary in America (castration has been a penalty for rape in the
+|> USA) proved that castrates lived an average 13 years longer than their intact
+|> counterparts.'
+
+*Castration*? I've heard of that as a Feminazi fantasy, but I don't
+think it would pass even a lackadaisical 8th-amendment challenge in
+These Decadent Excessively-United States. Prove me wrong. Or kill
+me. But don't cut me ;-)
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Craig Presson)
+     /
+    /
+
+
+------------------------------
+
+Date: Mon, 1 Mar 93 11:28:41 EST
+From: pmetzger@shearson.com (Perry E. Metzger)
+Subject: BOMB: Will WTC Bombing Encourage Decentralization?
+
+> From: tcmay@netcom.com (Timothy C. May)
+
+> I know there
+> are arguments about the NYSE-style of having floor traders, specialists,
+> etc., being more efficient in some sense than distributed, NASDAQ-style
+> markets.
+
+Actually, most of the people I know think that an open book electronic
+matching system would be far better economically speaking than specialists.
+
+Perry
+
+------------------------------
+
+Date: Mon, 1 Mar 93 12:12:08 CST
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: BOMB: Will WTC Bombing Encourage Decentralization?
+
+I spent the summer of '81 working in the financial district in NYC
+(while waiting for a  real engineering job to start).  At that time
+it was obvious why such a concentration of financial institutions
+existed.  I worked in the check clearinghouse of MAnufacturer's
+Hanover Trust, one of the big money-center banks.  I was working
+in the Latin American department (totalling daily deposits by
+country).  Banks from all over Latin America had checking accounts
+at MHT, which functioned as their clearing-house to pay checks.
+
+For example, when a cocaine grower in Colombia deposited his
+million in cash with his local bank (the amounts of deposits
+from tiny cities in these countries was otherwise unexplainable),
+and then wrote a check to a Venezuelan aircraft dealer for a
+new plane, the check went through the Venezuelan bank, MHT, and
+the Colobian bank on it's way to clearing.  In the process the
+MHT accounts for the two banks are adjusted to reflect the
+transaction.
+
+In an era when physical transport of checks was required for them
+to clear, large buildings devoted solely to this function were
+required.  There were similar buildings for the other money-center
+banks, and for the Federal Reserve Bank of NY, which handled
+domestic transactions among banks.
+
+Similarly, when stocks are traded on the NY stock exchange,
+Several days later Merril Lynch had to settle with the other
+stock brokerages with physical stock certificates.  The certificates
+were only a small fraction of the Exchange trading, since most
+customer transactions by Merril Lynch customers could be handled
+by re-registering shares ML already had in hand, but there was
+some daily slop back and forth from mismatches of buys and sells
+of a particular stock.  
+
+In both the case of check clearing and stock certificate settlement,
+there was a clear advantage to physical proximity, hence the
+financial district.
+
+Today, when many transactions are electronic, the justification
+for proximity is less important.
+
+Dani Eder
+
+------------------------------
+
+Date: Mon, 1 Mar 93 10:12:05 PST
+From: desilets@sj.ate.slb.com  (Mark Desilets)
+Subject: BOMB: Will WTC Bombing Encourage Decentralization?
+
+Tim May contributes:
+
+> 1. Possibilities for new crackdowns on personal liberties, on dissemination
+> of information (on explosives, on Loompanics-style information services,
+> etc.), and on the various underground or marginal mailing lists.
+
+  This is already underway.  I heard William Sessions (FBI Dir) stating
+that while no citizen relishes increased security measures, and the
+inconvenience associated, they will understand the need and cooperate.
+I have absolutely no doubt that this will buy another notch in the
+authoritarian ratchet.
+
+> 
+> 2. The bombing of the World Trade Center may spur moves to further
+> decentralize markets and hubs of activity.
+
+  Anytime you concentrate assets to the point where the cost of destroying
+is much less than the cost of the assets, you are asking for it.  
+Decentralization is the answer.
+
+> 
+> Personally, I find the whole idea of working in a 105-story antheap to be
+> pretty strange. 
+
+
+  That whole area of Lower Manhattan is basically an extended hive.  Yecch.
+
+
+								Mark
+
+------------------------------
+
+Date: Mon, 1 Mar 93 10:12:05 PST
+From: desilets@sj.ate.slb.com  (Mark Desilets)
+Subject: BOMB: Will WTC Bombing Encourage Decentralization?
+
+Tim May contributes:
+
+> 1. Possibilities for new crackdowns on personal liberties, on dissemination
+> of information (on explosives, on Loompanics-style information services,
+> etc.), and on the various underground or marginal mailing lists.
+
+  This is already underway.  I heard William Sessions (FBI Dir) stating
+that while no citizen relishes increased security measures, and the
+inconvenience associated, they will understand the need and cooperate.
+I have absolutely no doubt that this will buy another notch in the
+authoritarian ratchet.
+
+> 
+> 2. The bombing of the World Trade Center may spur moves to further
+> decentralize markets and hubs of activity.
+
+  Anytime you concentrate assets to the point where the cost of destroying
+is much less than the cost of the assets, you are asking for it.  
+Decentralization is the answer.
+
+> 
+> Personally, I find the whole idea of working in a 105-story antheap to be
+> pretty strange. 
+
+
+  That whole area of Lower Manhattan is basically an extended hive.  Yecch.
+
+
+								Mark
+
+------------------------------
+
+Date: Mon, 1 Mar 93 14:31:15 EST
+From: eisrael@suneast.East.Sun.COM (Elias Israel - SunSelect Engineering)
+Subject: BOMB: Who could have done this?
+
+One question, touched upon by one person but not since explored, is who
+might have bombed the WTC, how they might have done it, and for what
+purpose.
+
+Apparently, the FBI now claims to know for certain that it was a bomb
+blast and not an accident. What I'd like to know is:
+
+	(1) Whether that claim seems credible,
+	(2) How much explosive would be required to cause the damage
+	    that been reported,
+	(3) Who could obtain access to the required materials,
+	(4) Who could deliver the (reported) bomb to the garage,
+	(5) What could  they hope to gain by the blast?
+
+The answers to these questions that the news media have bandied about
+don't seem to fit very well, unless you assume that the bomb was
+planted by insane people.
+
+That it was a bomb and not an accident seems plain to me, so I am
+willing to accept that part of the claim.
+
+How much explosive material would be required and who could obtain and
+deliver it are questions that I cannot answer. However, it seems to me
+that both activities require quite a bit of cash. Not the sort of thing
+that ill-equipped foreign terrorists, fighting a grueling war of
+attrition would be able to do easily, one imagines.
+
+Finally, I find it hard to imagine how any military group, no matter
+how crazed, could imagine that they would advance their cause by
+attacking the US. History is quite clear on that lesson: attacking a
+superpower, especially one that wants to remain uninvolved in your
+personal conflicts, is a serious mistake.
+
+So, the allegations presented so far don't seem to hang together for me
+into a convincing story. Anyone got a better idea?
+
+Elias Israel
+eisrael@east.sun.com
+
+------------------------------
+
+Date: 1 Mar 93 18:44:41 GMT
+From: ssandfort@attmail.com
+Subject: more ideas on anonymity
+
+_________________________________________________________________
+             FROM THE VIRTUAL DESK OF SANDY SANDFORT
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+I got some nice responses from the following post I made to the
+Cypherpunks list.  Tim May suggested I also post it here to the
+Extropians.  This thread has been concerned with the question of
+"censorship" and anonymous remailers.  My post was in answer to a
+previous post by Ted Ts'o.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Today, Theodore Ts'o raised the specter of libel and slander to
+justify some forms of censorship for anonymous remailers.  He
+assumed, rhetorically, that if you believe in total freedom of
+speech, than you must not believe in libel or slander.
+
+He is correct, of course.  Nevertheless, his implied conclusion
+is in error.  He would have us give up free speech to uphold
+libel and slander.  I say, let's give up the artificial concepts
+of libel and slander and uphold our freedom of speech.
+
+Can people be harmed by speech?  Maybe yes, maybe no.  But if so,
+that is the price that must be paid to avoid a far greater harm.
+Damnum absque injuria--there are some loses for which there is no
+remedy at law.
+
+If your girlfriend impugns your manhood, there may be harm.  But
+should her speech be ILLEGAL?  I think not.
+
+I'm sure that what NBC did was NOT libel or slander.  It may have
+been fraud, though.  In any event, if a free society chose not to
+make what NBC did illegal, that in no way implies that NBC was
+"perfectly justified" in faking an explosion.  It just says
+society takes any remedy out of the hands of the state.  Of
+course, NBC's acts have already damaged its own reputation karma.
+Serves 'em right, too.
+
+One last note about practicality.  We live in a world with pay
+telephones, which anyone may use to threaten anyone else,
+anonymously.  Shall we eliminate pay phones?  Today in the United
+States, a uniformed agent of the government will deliver your
+anonymous threat to your victims door for only US$0.29.  Shall we
+eliminate the Postal Service?  (The answer is "yes," but for
+other reasons.)  So what's the point?  Why should we be any
+harsher on the networks than we are on all the other anonymous
+channels?
+
+There is only one realistic and moral solution to threats of
+violence.  Punish the perpetrators, not the messenger.  Even in
+today's world, crimes are rarely solved by wiretaps, forensic
+science or any of that.  Perps gets fingered by someone they
+know; perps confess; perps screw up and accidentally give
+themselves away; or the intended victim blows the perp's head off
+during an attempt to carry out the threat.  Again, punish the
+perpetrators, not the messengers.
+
+     S a n d y                         ssandfort@attmail.com
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+------------------------------
+
+Date: Mon, 1 Mar 93 12:55:17 EST
+From: pmetzger@shearson.com (Perry E. Metzger)
+Subject: POLI: In Praise of Martial Arts Training
+
+> From: memexis!tribble@uunet.uu.net (E. Dean Tribble)
+
+Says lots of good stuff, but one thing I'd like to comment on.
+
+> Unfortunately I think you can't know in your gut except in retrospect:
+> when you have fought someone, then you know you won't freeze up.
+
+I think a lot of the point of the repeated ritual practice in the Dojo is
+to train you so that you don't think consciously in a fight but act
+on reflex. The more times you've gone through a Kata, the more likely
+it is that you will simply go through your "programming" in the situation
+and not freeze up.
+
+I know from my own experience that back when I was taking classes that
+I had some programmed impulses built up. During that period, a buddy of
+mine came up to me from behind on the street and (in his mind playfully)
+grabbed me from behind. I had him in a lock pretty fast before I realized
+who it was. I operated as I recall purely by trained reaction -- I don't
+think I could ever have thought about what I was doing consciously as well
+as I acted things out "by reflex".
+
+(BTW, wish I could still do that -- doubt I can. Its probably
+time to start taking classes again...)
+
+Perry
+
+------------------------------
+
+Date: Mon, 1 Mar 93 15:32:55 EST
+From: Brian.Hawthorne@East.Sun.COM (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: BOMB: Who could have done this?
+
+The bomb did not actually require that much explosive power. Remember, 
+it was planted at the bottom of a six story parking garage. All it had
+to do was destroy enough of the structural members to knock out the 
+floor above it. Gravity would do most of the rest. The "crater" may
+have looked huge, but it was mostly empty space to begin with.
+
+The FBI is currently saying it was "dynamite". This is readily available
+to anyone in the construction industry, and isn't really tracked that
+closely. It is also quite inexpensive.
+
+I suspect nearly anyone could have parked a car in the garage, since 
+garage security is often on the way out (although I don't know this
+for a fact in the case of the WTC). Load up a car with dynamite, 
+drive it to the bottom floor, set the timer and leave by the elevator. 
+
+I have no idea why anyone would want to do it, or what they would hope
+to gain (although you could make a profit on the havoc it wrought on the
+commodities exchange, it would probably be noticed). Of course, I haven't
+heard even the names of the (how many now?) 7 groups claiming responsibility.
+
+Just imagine, if that had been a car loaded with fissionable material and
+associated gadgetry instead of dynamite, though...
+
+------------------------------
+
+Date: Mon, 1 Mar 1993 15:13:02 -0600
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: INFO: Found on alt.society.futures
+
+"What's a Humaneer?"
+Looks to me like a sort of smarmy do-gooding proto-Extropian.  (They
+probably wear little hats with plastic human ears on them, and collect
+Mickey Human paraphernalia?)
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Craig Presson)
+     /
+    /
+------- Start of forwarded message -------
+Newsgroups: alt.society.futures
+X-Xxmessage-Id: <A7B2A3141C05CD8F@libmac7.lib.utk.edu>
+X-Xxdate: Thu, 25 Feb 93 16: 23:48 GMT
+Organization: UTK Libraries
+X-Useragent: Nuntius v1.1.1d12
+From: Earl C. Smith <smithec@utklib.lib.utk.edu>
+Subject: Wanted: Humaneers!
+Date: Thu, 25 Feb 1993 21:20:54 GMT
+
+What's a Humaneer?
+
+ Good Question!  I define a Humaneer as anyone who believes that they can
+make the world a better place for humanity as a whole and who is doing
+something active and positive due to that belief.  If you are such a
+person, then I'd like to hear about your experiences.  Humaneers are also
+persons (in my definition) who are interested in alternative/progressive
+issues and who are to some extent "early adopters" of technology because
+they see its potential for increasing their creativity or furthuring
+their goals in life.  Humaneers also believe deeply (hope for :)) in: 
+racial/class equality,renewable energy, space exploration, global peace,
+increasing human potential, computers as a means of communication and
+bringing together persons from all over the world,and other issues
+(Humaneers come from a variety of disciplines :)).  Humaneers don't just
+sit around and wait for change, they take action! Humaneers are
+innovative and creative. They are able to think for themselves and not be
+part of the herd.  They may also be called entreprenurial.  But humaneers
+aren't just in it for the money, they are persons who sincerely love what
+they do and are engaged totally in their work as well as their play. 
+
+I would like to create a directory or resource book for Humaneers, so
+please let me know if you would like to be added to the list.
+
+Thanks for taking the time to read this message.  I hope to hear from
+some fellow humaneers!
+
+Earl Smith
+smithec@aol.com
+smithec@utklib.lib.utk.edu------- End of forwarded message -------
+
+
+------------------------------
+
+Date: Mon, 1 Mar 93 17:25:06 EST
+From: pmetzger@shearson.com (Perry E. Metzger)
+Subject: My Home Town
+
+> From: desilets@sj.ate.slb.com  (Mark Desilets)
+> 
+>   That whole area of Lower Manhattan is basically an extended hive.  Yecch.
+> 
+
+Hey, some of us like the hive. It provides lots of services places with
+low population density can't provide. Manhattan as a whole is an amazing
+place -- where else can you get a fine french meal at four in the morning
+or find five opticians within walking distance of where you are now for
+practically any value of "where you are now".
+
+As for security, we would imagine that the capacity to patrol densely populated
+areas with small number of men would mean that per-capita security costs
+could actually be lower and cities could actually be safer were government
+not interfering in the market for security and engendering crime via
+things like drug laws. (I have no proof of this, but its a hypothesis
+I hope to see tested someday.)
+
+Perry
+
+------------------------------
+
+Date: Mon, 1 Mar 1993 17:00:28 -0600
+From: pgf@srl01.cacs.usl.edu (Phil G. Fraering)
+Subject: BOMB: Who could have done this?
+
+As for someone attacking us to drag us in on _their_ side, I
+think the best revenge would be to do so. That way we could
+do to them what we did to the anti-Castro resistance at the
+Bay of Pigs, the South Vietnamese during the Vietnam War,
+the Kurds and Shi-ites during the Gulf War...
+
+Perhaps the best argument against the US entering a foreign war
+is what the State Department types who end up advising the
+president on said war eventually do to our allies.
+
+Phil
+
+------------------------------
+
+Date: Mon, 1 Mar 93 17:46:22 EST
+From: drw@BOURBAKI.MIT.EDU
+Subject: ECON: Cover's ideas
+
+   From: price@price.demon.co.uk (Michael Clive Price)
+
+   Both log returns and linear returns seem flawed.  Is there any way out
+   of this mess?  Can the two measures be combined to produce a better 
+   combined measure?
+
+Ultimately, there is no perfect measure, because your utility can be a
+nearly arbitrary function of the amount of money you have.
+
+The linear measure is "ideal" in certain senses, especially in that
+the linear measure of a portfolio of many bets (or investments) can be
+calculated straightforwardly from the linear measures of the component
+bets.  (The proper way to deal with the bets under discussion here is
+to wager $1 and leave it in play for 10 rounds.  Repeat 1,000 times.)
+
+Dale
+
+Dale Worley		Dept. of Math., MIT		drw@math.mit.edu
+--
+We will encourage you to develop the three great virtues of a
+programmer:  laziness, impatience, and hubris.
+-- Larry Wall in "Programming Perl"
+
+------------------------------
+
+Date: Mon, 1 Mar 93 17:35:30 EST
+From: drw@BOURBAKI.MIT.EDU
+Subject: more ideas on anonymity
+
+   From: ssandfort@attmail.com
+
+   Can people be harmed by speech?  Maybe yes, maybe no.  But if so,
+   that is the price that must be paid to avoid a far greater harm.
+   Damnum absque injuria--there are some loses for which there is no
+   remedy at law.
+
+It seems to me that the interesting case is incorrect credit reports
+-- the harm done to the subject can be quite large, but the subject is
+not the buyer of the service (so there is no fraud involved).  Of
+course, the merchant who buys the report is harmed also, but they may
+be willing to put up with a higher error rate in reports in return for
+a lower cost per-report.
+
+(There may be alternative ways to organize the distribution of credit
+reports which avoid this problem.  But this is the way it's done these
+days, and it seems to show the common problems with distributing false
+information about people.)
+
+Dale
+
+Dale Worley		Dept. of Math., MIT		drw@math.mit.edu
+--
+A question-and-answer period followed.
+I asked myself the question, "What am I doing here?" and left.
+-- P.J. O'Rourke
+
+------------------------------
+
+Date: Mon, 1 Mar 93 15:10:45 PST
+From: desilets@sj.ate.slb.com  (Mark Desilets)
+Subject: My Home Town
+
+Perry, responding to what I rurocentrically scribbled wrote:
+> 
+> > From: desilets@sj.ate.slb.com  (Mark Desilets)
+> > 
+> >   That whole area of Lower Manhattan is basically an extended hive.  Yecch.
+> > 
+> 
+> Hey, some of us like the hive. It provides lots of services places with
+> low population density can't provide. Manhattan as a whole is an amazing
+> place -- where else can you get a fine french meal at four in the morning
+> or find five opticians within walking distance of where you are now for
+> practically any value of "where you are now".
+
+Yes, well, my utility for those things, along with easy access to 
+purveyors of nipple clamps and homoerotic films is actually quite low.
+Each to his own, I suppose.  Still, I would think that living in such
+hives (our fellow humans being what they are) would probably tend to
+lower life expectancy.  Why, one would probably have to be vegan just
+to break even :-}
+
+> 
+> As for security, we would imagine that the capacity to patrol densely populated
+> areas with small number of men would mean that per-capita security costs
+> could actually be lower and cities could actually be safer were government
+> not interfering in the market for security and engendering crime via
+> things like drug laws. (I have no proof of this, but its a hypothesis
+> I hope to see tested someday.)
+> 
+
+I would doubt it.  For security, I like the idea of a private enclave with
+a large buffer zone and a sufficiently critical mass of people that
+those what "don't belong" are easily spotted, and appropriately questioned
+by those with property to protect.  This is essentially free. Of course, 
+the best defense is still what one keeps locked and loaded.
+
+> Perry
+> 
+
+
+								Mark
+
+
+P.S.  Sorry to hear about your bomb-induced communications tragedy!
+
+------------------------------
+
+Date: Mon, 1 Mar 93 17:34:13 EST
+From: pmetzger@shearson.com (Perry E. Metzger)
+Subject: BOMB: Who could have done this?
+
+> From: Brian.Hawthorne@east.sun.com (Brian Holt Hawthorne - SunSelect Engineering)
+> 
+> The bomb did not actually require that much explosive power. Remember, 
+> it was planted at the bottom of a six story parking garage. All it had
+> to do was destroy enough of the structural members to knock out the 
+> floor above it. Gravity would do most of the rest. The "crater" may
+> have looked huge, but it was mostly empty space to begin with.
+
+The structural members were largely intact -- it was the floors that
+were largely damaged, and what was on them. The parking garage is not
+six stories, by the way, although there are lots and lots of sublevels.
+
+> The FBI is currently saying it was "dynamite". This is readily available
+> to anyone in the construction industry, and isn't really tracked that
+> closely. It is also quite inexpensive.
+
+Even were it not available, fertilizer mixed with motor oil does nicely
+in a pinch. I had to laugh when Governor Jim "Ban Everything" Florio
+was on the radio saying how this is evidence that we have to be more
+careful in controlling explosives. I'd like to see them watch every
+sack of fertilizer in the country...
+
+> I suspect nearly anyone could have parked a car in the garage, since 
+> garage security is often on the way out (although I don't know this
+> for a fact in the case of the WTC). Load up a car with dynamite, 
+> drive it to the bottom floor, set the timer and leave by the elevator. 
+
+It was 1500 pounds of dynamite, or so they now say. Too heavy for an ordinary
+car.
+
+In any case, there are records kept of
+plates and the like, but who cares -- the point is, in practical terms,
+there is no way to stop this sort of thing short of searching every
+car entering every parking lot. Hell, if I wanted to just kill people, I
+could leave a car bomb at lots of places in the city where I'd be sure
+to manage to get several hundred folks at once.
+
+> Just imagine, if that had been a car loaded with fissionable material and
+> associated gadgetry instead of dynamite, though...
+
+Thats nothing. In 100 years, it will be a car full of nanomachines...
+
+.pm
+
+
+------------------------------
+
+Date: Mon, 1 Mar 93 16:18:06 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: My Home Town
+
+Mark Desilets, commenting on hive communities (and responding to comments
+by hive dweller Perry "Bee" Metzger"--just kidding, Perry!...glad to see
+Shearson wasn't too severely affected):
+
+>I would doubt it.  For security, I like the idea of a private enclave with
+>a large buffer zone and a sufficiently critical mass of people that
+>those what "don't belong" are easily spotted, and appropriately questioned
+>by those with property to protect.  This is essentially free. Of course, 
+>the best defense is still what one keeps locked and loaded.
+
+The events in Waco, Texas seem to bear on this. Here we have a household
+which has what Mark wanted: isolated, critical mass of defenders, easily
+defended approach path, and well-armed.
+
+But the Feds decide they have to raid this household, putatively because of
+"illegal arms" (never mind that nearly any arms, short of fully automatic
+weapons, are quite legal in Texas...and fully automatic weapons, which I've
+not heard were present, can also be legal if the right permits are held)
+and because of "cult" activities.
+
+Mark's household could just as easily be the target. He's advertised his
+liking for guns and he belongs to this strange mind-altering cult called
+"the Extropians." Some of these cult followers preach anarchy, and others
+talk about giving their children nootropic drugs. I'd say a midnight raid
+is in order!
+
+This may bother some readers of this list, but here goes: When I hear the
+details of why the raid was conducted, and then heard the final (up to now)
+death toll of 5 Feds, 1 cult member, I actually cheered!
+
+True, I feel sorry for their families, their friends, and even them (I
+suppose), but viewing it more abstractly as a war between people who are
+minding their own business on their own land and "the Feds," I'm glad the
+Feds were killed.
+
+(Sorry if this bothers some. I'll sit on this post for enough time to
+reconsider my comments. If you are reading this, you can assume I coolly
+considered it and decided to let it go out.)
+
+Unless some substantive evidence of real criminal activity is produced,
+I'll take the side of the so-called cultists.
+
+-Tim, worrying that between the WTC bombing and the Waco shootout, new
+crackdowns will be launched
+
+
+--
+Timothy C. May               | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com        | anonymous networks, digital pseudonyms, zero
+408-688-5409               | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA       | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0090
+****************************************
+

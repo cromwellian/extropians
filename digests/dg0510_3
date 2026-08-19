@@ -1,0 +1,564 @@
+From extropians-request@extropy.org Tue May 10 15:01:59 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id PAA18332 for <more@chaph.usc.edu>; Tue, 10 May 1994 15:01:53 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA05077; Tue, 10 May 94 15:01:42 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA20872
+  (5.65c/IDA-1.4.4 for more@usc.edu); Tue, 10 May 1994 18:00:57 -0400
+Date: Tue, 10 May 1994 18:00:57 -0400
+Message-Id: <199405102200.AA20872@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-5-138 - #94-5-147
+X-Extropian-Date: May 10, 374 P.N.O. [18:00:39 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Tue, 10 May 94             Volume 94 : Issue 129
+
+Today's Topics:
+                         ECON: Cyphercurrency backing                 [3 msgs]
+                          ECON: Interest rates, etc.                  [1 msgs]
+                  ECON: The limits to comparative advantage           [2 msgs]
+                                  filtering                           [3 msgs]
+                                Romana's Talk                         [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 30342 bytes.
+
+----------------------------------------------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Tue, 10 May 94 9:07:14 GMT
+Subject: [#94-5-138] ECON: Cyphercurrency backing
+
+ Alexander Chislenko <sasha@cs.umb.edu> writes: 
+> 
+>  I see two major advantages of backing currency by a commodity: 
+>  
+>  - stability of the currency thru emission control (the amount of monetary
+>    mass is/depends_on the amount of the underlying 'currency commodity'.
+> 
+>  - stability thru the general agreement to use it, based on perceived
+>    safety of always being able to exchange the currency back to the
+>    underlying commodity (or, in case of the direct involvement of the
+>    commodity in the transactions, return to its primary use).
+> 
+>  The problem with it is that the price of the underlying commodity 
+>immediately increases because it acquires a new artificially assigned value,
+>and lots of resources start being wasted on production, transportation and
+>safeguarding of this commodity, while it is being pushed from the original
+>areas of its application by the prohibitively high costs.
+
+All true, though as far as I can tell, the commidities which are used
+to back currencies are always luxuries (gold, tobacco, big stone disks
+with holes in them, trust in governments.....). Can anyone think of
+a necessity-backed currency?
+> 
+>  Now, cyphercurrency allows perfect emission control,  which cannot be
+>achieved with any commodity, with tiny costs of emission, storage and cir-
+>culation, little danger of theft or loss and no disruption for the economy
+>(unless somebody is cheating with emission in which case [declaration of]
+>backing is of no help anyway).
+
+For what it's worth, I assume that there will be some forged cypher-
+currency--the rewards of finding a way to counterfeit it are *very*
+high. I don't think it matters much for the health of the economy
+so long as the proportion of forged cyphercurrency is low. 
+
+>  As for the perceived safety, cyphercurrencies will be backed by existing
+>currencies, at least for a while, until everybody feels confident; during
+>that period, 'backing'/connection with other markets will be performed by
+>some exchange transactions between the currencies; they will be performed
+>only occasionally are hardly different from buying tangible goods with
+>cyphercash. The purely cypher-transactions will be completely anonymous...
+
+What I was wondering about was if, for example, a cyphercurrency is
+based on gold, how you could be relatively certain that your 1-gram
+credit is backed by a gram of gold somewhere. One answer is that
+the gold-storing company has to be non-anonymous. 
+
+Once desk-top manufacturing is common (and assuming that it implies
+easy extraction of minerals), perhaps only unique things will be
+valuable. This could have interesting implications for a currency,
+since they're usually based on easily divisible stuff.
+
+Nancy Lebovitz 
+
+
+------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Tue, 10 May 94 9:09:33 GMT
+Subject: [#94-5-139] ECON: Interest rates, etc.
+
+I'd always assumed that longevity would make interest rates much lower
+because people would be in less of a hurry to get their money back.
+
+I'm not sure how rapidly expanding productivity would affect interest
+rates--would it drive interest rates high because there's a chance
+of a big win with the right investments, or would it drive them
+low because whatever you can denominate a loan in is likely to become
+less valuable?
+
+Nancy Lebovitz
+
+------------------------------
+
+From: Andy Lowton <lowton@typhon.dra.hmg.gb>
+Date: Tue, 10 May 1994 09:29:25 -0100
+Subject: [#94-5-140] filtering
+
+nancy@genie.slhs.udel.edu writes:
+
+ > Or maybe, like Dominique, you're censoring my posts in an effort to
+ > protect them and me from a world that doesn't understand. :-)
+ >
+
+That's right, in my position as self-elected elctronic social worker, I have decided
+that it is not good for you to have your posts read :)
+ 
+ > Anyway, what I was asking about was something like someone covertly
+ > adjusting the weights given to the votes so that people who voted
+ > against a given person's posts have more effect.
+ 
+I am not sure how you  envisage this being done.  Wouldn't someone have to hack the machine
+where the data is stored, or am I missing the point (again).
+
+
+In a later post, R.Bryner wrote:
+ > 
+ > > Am I saying that your posts are not worth reading because I hate you, or
+ > > because I genuinely believe it to be true?
+ > If you are, someone could vote on your vote, saying that your vote is not
+ > valid for this person.  You use your mind to decide which entities you trust,
+ > just like now.  If one entity shows you good judgement, and offers to sell
+ > you more judgement for a small fee, you might be inclined to do so.
+
+Point taken and I think that in most cases there would not be a problem.  However,
+in some circumstances I can see the voting equivalent of a flame war going on.
+
+Cheers
+
+Andy
+
+lowton@typhon.dra.hmg.gb                
+PGP Key via finger                    
+http://daedalus.dra.hmg.gb/lowton/andy.html 
+
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Tue, 10 May 1994 07:49:46 -0400
+Subject: [#94-5-141] ECON: The limits to comparative advantage
+
+ nancy@genie.slhs.udel.edu (nancy@genie.slhs.udel.edu) writes in X-Message-Number: #94-5-118:
+>>From: R Bryner <R.Bryner@m.cc.utah.edu>
+>>Could this not be abstracted to include any comodity, including money,
+>>gold, corn, single crystals of Si, Drugs, Guns, MIP-years, or labor?  Each
+>>pair of comodities would then have a relative intrest rate, with competative
+>>markets in each.  For those of you who have not figured out what
+>>denominating contracts in goods would do, think about taxation and
+>>inflation:-)
+>>
+>As I understand it, all the interest rates would tend to be equal
+>because lending would tend to flow from the lower interest combinations
+>to the higher interest ones.
+
+ There is nothing unusual about having different interest rates for
+loans whose value is denominated in different goods. For instance, long
+term US dollar interest rates are about 7.5%, whereas long term yen interest
+rates are about 4%, implying that the dollar is likely to be debased
+3.5% faster than the yen over the next 20-30 years. However, the claim
+that each pair of commodities has its own rate is bogus. It is only the
+good in which the future repayment occurrs that affects the rate.
+
+>This reminds me of something I also wonder about....I like the
+>idea of cyphercurrency, but I'm not sure how it can be backed
+>with anything. (And if the governments fall, we won't be using
+>their currencies.) Is there some way to connect the money to
+>a physical object (like a gram of gold) without losing anonymity?
+>How well can an economy work if there's a chance that anything
+>you use to back the currency might suddenly become a great deal
+>more common? (For instance, a gold-backed currency becomes
+>relatively worthless if someone discovers a cheap way to refine
+>gold from sea water.)
+
+ I think most digicash proposals have a bank that would issue
+and redeem the currency, and that could provide a means of tying
+the digicash to something physical. However, such backing is not
+essential. As long as the entity which issues that currency controls
+the supply in such a way as to minimize fluctuations in prices, the
+currency will be sound. As long as it is practical for people to switch
+from poorly managed currencies to well managed ones, the issuers will
+be motivated to keep their currencies sound. It has only been the
+legal and accounting cost barriers to switching currencies that have
+prevented this kind of competition from working in the past.
+
+>with holes in them, trust in governments.....). Can anyone think of
+>a necessity-backed currency?
+
+ Salt was a currency around 2000 years ago.
+
+ habs@panix.com ("Harry S. Hawk") writes in X-Message-Number: #94-5-113:
+>Of course taxes have been arround for a long time, not exactly
+>evolutionary time but meme-wise, they are probally ESS -- why?
+
+ Standard special interest group politics - each individual beneficiary
+(including the government employees running the welfare programs) has more
+incentive to promote the tax and spend system than any individual taxpayer
+has to stop it, and the costs of adequately informing oneself about the
+subject are more likely to exceed the benefits of that information for the
+taxpayer than for someone whose primary source of income involves welfare.
+For a thorough discussion of this analysis of interest group politics,
+I recommend _The Rise and Decline of Nations_ by Mancur Olson, Yale
+University Press, 1982.
+ -----------------------------------------------------------
+Peter McCluskey | pcm@world.std.com | Repeal Gresham's Law!
+-----------------------------------------------------------
+
+------------------------------
+
+From: Ian Douglas <iandoug@cybernet.za>
+Date: Tue, 10 May 1994 15:01:58 +0200 (GMT+0200)
+Subject: [#94-5-142] Romana's Talk
+
+> I presume she was referring to the risk of contracting skin cancer from
+> exposure to UV rays.  The thing is, most of the skin cancer contracted
+> this way is mostly cosmetic, and 99% curable if diagnosed in time.  The
+> risk of contracting truly dangerous cancer from UV exposure is very small.
+
+While not wishing to dispute your facts, magazine articles I have read about
+the Australian experience indicate that their rate of skin cancer has
+dropped since they launched the slip-slop-slap (slip on a shirt, slop on
+sunscreen, slap on a hat) campaign. The whole issue is of course intertwined
+with the Ozone Hole Theory :-)
+
+Cheers, Ian
+
+One day I will work out how to add a signature file...
+
+------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Tue, 10 May 1994 10:10:48 -0400 (EDT)
+Subject: [#94-5-143] filtering
+
+Hi,
+
+I wanted to clarify something...
+
+Folks are talking about filtering, voting, ranking and censorship.
+
+I think many of you are confusing collaborative filtering vs.
+"VOTING;" voting implies a reputation scheme...
+
+I am not sure if they are talking in a general sense or reacting
+to what is proposed for this list.
+
+In terms of this list/MailWeir:
+
+1) no one is taking a way the full feed; you can still read every
+message if you want.
+
+2) we will add a filtering service based on collaborative filtering
+which will allow you to limit the number of messages per week/day you
+get (the major reason people leave the list). (Ray explained how this
+worked in a previous message.) This is where ranking not voting, comes
+in to play... each list member can choose to use this system or not and
+those not using will not be effected by it. 
+
+3) we will provide feedback to users who have been included/excluded
+(this was requested at the Extro 1 conf.; we will not tell who
+excluded or included you but we will tell you that it happened..)
+
+4) we are not planning on allowing people to vote on the merits of
+each other.. we may allow people to get messages highly rated (for
+example) by an other list member... (e.g., send me every message that
+Sasha rates highly).
+
+/hawk
+
+
+------------------------------
+
+From: R Bryner <R.Bryner@m.cc.utah.edu>
+Date: Tue, 10 May 1994 09:13:14 -0600 (MDT)
+Subject: [#94-5-144] ECON: Cyphercurrency backing
+
+On Tue, 10 May 1994, Alexander Chislenko wrote:
+>   I see two major advantages of backing currency by a commodity: 
+>   
+>   - stability of the currency thru emission control (the amount of monetary
+>     mass is/depends_on the amount of the underlying 'currency commodity'.
+Yes, but it does not reflect the growth of availablility of other
+commodities or the scarcity of a comodity relative to it.  You can't have
+n relative interest rates.
+
+>   The problem with it is that the price of the underlying commodity 
+> immediately increases because it acquires a new artificially assigned value,
+> and lots of resources start being wasted on production, transportation and
+> safeguarding of this commodity, while it is being pushed from the original
+> areas of its application by the prohibitively high costs.
+Which is why you would want to make ANY comodity available for this.
+
+<del>
+>   Also, one should not expect that there will be just one cyphercurrency
+> issued by one agency and backed by one commodity.
+> Digitized stocks, bonds, personal promissory notes and other bit strings
+> of any legal status and backing scheme may circulate freely in the market
+> and exchange into each other at variable rates.
+I would envision the ability to sign contracts digitaly, coupled with the
+ability to seek out and find people who would like to make trades, could
+lead to a replacement of money by the comodities contract.  I would hope
+this would lead us back to the barter system, where choice was individual
+and no collective money existed.  Lets face it, you conservative
+economists are a bunch of collectivists:-)
+
+Roger.
+
+
+
+------------------------------
+
+From: R Bryner <R.Bryner@m.cc.utah.edu>
+Date: Tue, 10 May 1994 09:22:44 -0600 (MDT)
+Subject: [#94-5-145] filtering
+
+On Tue, 10 May 1994 nancy@genie.slhs.udel.edu wrote:
+> Either I have a sneakier temperment than you do, or else I don't 
+> understand how the review system would work. My assumption was
+> that people would vote and the votes would be collected centrally
+> and tabulated so that only the wanted part of the list would be
+> sent to each person. Are you saying that, instead, each person
+Yet if the total list was available on an FTP server, a service that did
+not wish to loose its good reputation would not risk being caught even
+though most people did not check up.
+
+Roger
+
+
+
+
+------------------------------
+
+From: Reilly Jones <70544.1227@CompuServe.COM>
+Date: 10 May 94 12:12:57 EDT
+Subject: [#94-5-146] ECON: The limits to comparative advantage
+
+Peter McCluskey wrote 5/10/94: <Standard special interest group politics - each
+individual beneficiary (including the government employees running the welfare
+programs) has more incentive to promote the tax and spend system than any
+individual taxpayer has to stop it, and the costs of adequately informing
+oneself about the subject are more likely to exceed the benefits of that
+information for the taxpayer than for someone whose primary source of income
+involves welfare.  For a thorough discussion of this analysis of interest group
+politics, I recommend _The Rise and Decline of Nations_ by Mancur Olson, Yale
+University Press, 1982.>
+
+Unfortunately, this cost/benefit analysis seems to be all too true.  Thank you
+for the reference and BTW, it was a pleasure to meet you at the Extro 1 banquet.
+I am including a very topical quote on special interest group politics from
+Thucydides _The History of the Peloponnesian War_.  The parallels to today's
+class envy/group rights fixation in social welfare democracies is eerie.
+
+     "It was a competition of ingenuity in the elaboration of intrigue and in
+the refinement of reprisals.  The customary meaning of words was arbitrarily
+distorted to cover the conduct of those who employed them.  Reckless
+irresponsibility was treated as courageous loyalty, cautious reserve as
+cowardice masked under a high-sounding name, restraint as a cloak for
+poor-spiritedness, and the policy of reason as a policy of laissez faire.  A
+frenzied fanaticism was the popular ideal of conduct, while intrigue that took
+no risks was regarded as a legitimate method of self-defence.  Violence of
+feeling was a warrant of honesty, deprecation of violence a signal for
+suspicion.  Success in intrigue was the test of intelligence and the detection
+of intrigue a testimonial to superior cleverness, while anyone who so shaped his
+policy as to dispense with such methods was pilloried as a nihilist towards his
+own group and a weakling in face of their opponents.  In short, approbation was
+reserved for those who forestalled their enemies in striking a blow or who
+implanted that suggestion in minds which had not previously conceived of it.
+The ties of party actually became closer than those of kinship, because
+partisans were readier than kinsmen to throw themselves into an adventure at a
+moment's notice, and the associations in question were formed, not to secure the
+benefits of established institutions, but to gain illegitimate advantages by
+violating them.  Complicity in crime was a more effective sanction for loyalty
+to engagements than a solemn oath.  A fair offer from opponents was received as
+a signal for practical precautions by the dominant party of the moment, instead
+of evoking any generous response.  The exaction of reprisals was valued more
+highly than an immunity from wrongs demanding them.  The rare covenants of
+reconciliation were only entered into on either side as a momentary last resort
+and only observed so long as no alternative resource presented itself.  Any one
+who spied a weak spot in his adversary's armor and had the nerve to seize his
+opportunity took more satisfaction in obtaining his revenge by treachery than in
+obtaining it in a fair fight, the dominating considerations being the
+elimination of risk and the added halo of intellectual brilliance investing the
+triumphs of perfidy...."
+
+     "The cause of this whole phenomenon was the thirst for power arising from
+the predatory and competitive impulses-impulses which engender conflict, from
+which passion is engendered in its turn.  In all the countries of Hellas the
+party leaders invented high-sounding catchwords and posed as the champions of
+political equality for the masses or of moderate conservatism, in order to make
+spoils out of the public interest which they served with their lips.  In their
+unscrupulous struggle to gain the upper hand over one another they hesitated at
+nothing and surpassed themselves in the prosecution of their vendettas.  So far
+from attempting to act within the bounds of moral right and national interest,
+they recognized no limitations on either side except the caprice of the moment.
+They did not shrink from bringing themselves into power by verdicts immorally
+obtained against their opponents, if not by naked force, in order to satiate
+their momentary rancor.  In fact, religion had lost its hold upon either party,
+and they relied upon their powers of misrepresentation to retrieve their good
+name whenever they had occasion to perpetrate an invidious action.  Meanwhile,
+the moderate elements in every country were preyed upon by the extremists of
+both camps, partly for their refusal to take sides and partly out of resentment
+at the prospect of their survival."
+
+     "Thus the class war plunged the Hellenic Society into every kind of moral
+evil." - Thucydides
+
+------------------------------------------------------------------
+Reilly Jones               |        Philosophy of Technology:
+70544.1227@CompuServe.COM  |   The rational and moral foundations
+                           |         of our creative drive
+
+
+------------------------------
+
+From: tburns@mason1.gmu.edu (T. David Burns)
+Date: Tue, 10 May 1994 12:15:22 -0400
+Subject: [#94-5-147] ECON: Cyphercurrency backing
+
+At  2:38 AM 5/10/94 -0400, Alexander Chislenko wrote:
+>  I see two major advantages of backing currency by a commodity:
+>
+>  - stability of the currency thru emission control (the amount of monetary
+>    mass is/depends_on the amount of the underlying 'currency commodity'.
+
+(What! My money is emitting?! 8^@)
+
+I'm not too sure what Sasha meant by emission control. Amount of currency
+in circulation? Value of currency?
+
+Rather than stability I'd say the advantage is currency issuers can't
+manipulate the value. And the amount is only subsidiarily relevant, since
+it influences but does not determine the value of the commodity.
+
+>  - stability thru the general agreement to use it, based on perceived
+>    safety of always being able to exchange the currency back to the
+>    underlying commodity (or, in case of the direct involvement of the
+>    commodity in the transactions, return to its primary use).
+
+Experience has shown backing is pretty irrelevant here. What people are
+really counting on is that they can go to the grocery store tomorrow and
+buy bread with it, something that demonstrably has nothing to do with the
+backing or lack thereof. It's easier (maybe) to achieve this with backing,
+but backing is neither necessary nor sufficient.
+
+>  The problem with it is that the price of the underlying commodity
+>immediately increases because it acquires a new artificially assigned value,
+>and lots of resources start being wasted on production, transportation and
+>safeguarding of this commodity, while it is being pushed from the original
+>areas of its application by the prohibitively high costs.
+
+Why is this a problem, artificial, or wasteful? All these labels imply that
+there is a trivial alternative that keeps more resources out of money
+production - even information resources - money for nothin'! Backed
+currencies have certain properties, unbacked currencies have other
+properties. Backed currencies may use more resources, but so do luxury
+cars. Assuming people can choose freely between them, if they choose backed
+currencies, then it's silly to call it wasteful. Just think of a way to
+satisfy people using fewer resources & make a fortune. But don't ask me to
+drive a model-T when I want a Cadillac.
+
+>  Now, cyphercurrency allows perfect emission control,  which cannot be
+>achieved with any commodity,
+
+I'm still confused by this terminology. Also, did I miss something? Why is
+it assumed cyphercurrency is unbacked?
+
+>with tiny costs of emission, storage and cir-
+>culation, little danger of theft or loss and no disruption for the economy
+>(unless somebody is cheating with emission in which case [declaration of]
+>backing is of no help anyway).
+
+Maybe yes, maybe no. Declaring a backing and setting up a system to fulfill
+it might serve as a mechanism for self-commitment and/or reputation. If the
+amount invested in the backing system exceeds the return to cheating, the
+commitment becomes credible. Of course, the money issuer can achieve this
+without backing, by getting bonded or something.
+
+>  Also, one should not expect that there will be just one cyphercurrency
+>issued by one agency and backed by one commodity.
+>Digitized stocks, bonds, personal promissory notes and other bit strings
+>of any legal status and backing scheme may circulate freely in the market
+>and exchange into each other at variable rates.
+
+How about separating the unit of account from the medium of transactions?
+What's the difference between issuing money and issuing credit? (This is
+not intended as a rhetorical question implying they are the same -  rather,
+how can they be made the same?) These and other related ideas are discussed
+in:
+   TITLE:  Explorations in the new monetary economics / Tyler Cowen and
+                   Randall Kroszner.
+   PUBLICATION:  Oxford, UK ; Cambridge, Mass., USA : Blackwell, 1994.
+   DESCRIPTION:  vii, 200 p. ; 24 cm.
+
+
+in another post:
+At  9:07 AM 5/10/94 +0000, nancy@genie.slhs.udel.edu wrote:
+
+>For what it's worth, I assume that there will be some forged cypher-
+>currency--the rewards of finding a way to counterfeit it are *very*
+>high. I don't think it matters much for the health of the economy
+>so long as the proportion of forged cyphercurrency is low.
+
+Will this tend to keep cyphertransactions in relatively small amounts?
+Counterfeiters love big transactions. The crypto guys seem to assume the
+system has to be unbreakable or it won't work at all. At first glance, this
+is quite plausible - the transactions costs of passing bad money would seem
+much lower on the net. Given that reality, however, something could still
+evolve where the payoff of counterfeiting was lower - small transactions or
+some such. Or would that mean they'd have to be ridiculously, impractically
+small? There's a non-zero risk to using any system of payments (cash =
+theft, checks = forgery or bank failure, credit cards, etc.). Can
+cyphercash lower the individual risk sufficiently? Does it involve more or
+less systemic risk (risk that not just my money but everyone's will be
+lost, that the system will crash)?
+
+>Once desk-top manufacturing is common (and assuming that it implies
+>easy extraction of minerals), perhaps only unique things will be
+>valuable. This could have interesting implications for a currency,
+>since they're usually based on easily divisible stuff.
+
+Will stocks and bonds still be valuable? Ownership of desktops? Information?
+
+Dave            tburns@mason1.gmu.edu (T. David Burns)
+
+
+
+------------------------------
+
+End of Extropians Digest V94 #129
+*********************************
+

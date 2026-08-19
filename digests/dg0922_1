@@ -1,0 +1,535 @@
+From extropians-request@extropy.org Wed Sep 21 21:02:09 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id VAA02436 for <more@chaph.usc.edu>; Wed, 21 Sep 1994 21:02:05 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA11742; Wed, 21 Sep 94 21:01:47 PDT
+Received: by news.panix.com id AA15570
+  (5.65c/IDA-1.4.4 for more@usc.edu); Thu, 22 Sep 1994 00:01:38 -0400
+Date: Thu, 22 Sep 1994 00:01:38 -0400
+Message-Id: <199409220401.AA15570@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-9-341 - #94-9-350
+X-Extropian-Date: September 22, 374 P.N.O. [00:01:11 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Thu, 22 Sep 94             Volume 94 : Issue 264
+
+Today's Topics:
+                   Extropians Digest #94-9-333 - #94-9-338            [1 msgs]
+      Forward/PATNEWS: Another bad software patent, OO browser from  ...[1 msgs]
+                 FWD: Howard Rheingold's column inSF Examiner         [1 msgs]
+                            Quantum Erasers (fwd)                     [1 msgs]
+                      SCI: role for Q.M in neurobiology               [2 msgs]
+                  SILLY: Let's see, how many hands is that?           [1 msgs]
+                         Subjectivity informs debate?                 [1 msgs]
+                      TERM: "acracy", "acrat", "acratic"              [1 msgs]
+                            TERM: acracy / anarchy                    [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 26351 bytes.
+
+----------------------------------------------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Wed, 21 Sep 1994 11:03:17 -0400 (EDT)
+Subject: [#94-9-341] Forward/PATNEWS: Another bad software patent, OO browser from Borland
+
+a conscious being, Gregory Aharonian wrote:
+
+> From srctran@world.std.com Wed Sep 21 09:33:54 1994
+> Message-Id: <199409211330.AA24056@world.std.com>
+
+> Subject: PATNEWS: Another bad software patent, OO browser from Borland
+
+     Here's another obviously non-novel software patent.  Any CASE tool
+written about in the mid- to late-1980's completely anticipates at least
+the first claim of this patent.  Once again the cited literature references
+are completely unrepresentative of what had been done to date (for example,
+any number of articles from IEEE Transactions on Software Engineering,
+Sofware Practice & Experience, IEEE Computer, and any OOPSLA conference
+proceeding before 1992).
+     If your company is sued by Borland, please give me a call, as I can
+prepare a great prior art invalidation package for you :-)   Maybe Borland
+plans to use it to harass Microsoft :-)
+
+Greg Aharonian
+Internet Patent News Service
+(for subscription info, send 'help' to   patents@world.std.com)
+(for prior art search services info, send 'prior' to patents@world.std.com)
+
+                              ====================
+
+US PAT NO:     5,339,433
+DATE ISSUED:   Aug. 16, 1994
+TITLE:         Symbol browsing in an object-oriented development system
+ASSIGNEE:      Borland International
+
+ What is claimed is:
+
+ 1. In a development system in object-oriented programming environment a
+method for compiling source listings into application and system programs,
+each of the source listings comprising a plurality of symbols for instructing
+operation of a program, a method for browsing symbols comprising:
+ (a) compiling a source listing containing the symbols into an object file,
+  said object file storing a reference for each symbol in said source
+  listing;
+ (b) selecting a symbol of interest with an input device coupled to a device
+  displaying said source listing;
+ (c) receiving a request from a user for browsing a symbol of interest;
+ (d) retrieving said reference stored in said object file and using said
+  reference to determine program information specific for the symbol of
+  interest; and
+ (e) displaying said information to the user.
+
+ABSTRACT: 
+A system of the present invention includes a development system having a
+language compiler for generating application and system software from source
+listings. The system includes an Integrated Development Environment having a
+browser. Methods of the present invention include inspecting symbols (e.g.,
+classes, objects, methods, variables, and the like) dynamically, i.e., while
+retaining active scope of the symbol. More particularly, the browser of the
+present invention directly references symbol information stored in object
+code or executable modules, which are generated during compilation of the
+source listings. In this manner, the system provides symbol information
+directly relevant to the context (location in source listing) the
+user/programmer is currently working.
+
+APPL-NO:       07/979,575
+DATE FILED:    Nov. 19, 1992
+ART-UNIT:      236
+PRIM-EXMR:     Gareth D. Shaw
+ASST-EXMR:     A. Katbab
+LEGAL-REP:     John A. Smart
+
+INT-CL:        [5] G06F 9/46
+US-CL-ISSUED:  395/700; 364/DIG.1, 280.4, 286, 286.3
+US-CL-CURRENT: 395/700; 364/280.4, 286, 286.3, DIG.1
+SEARCH-FLD:    395/700; 364/DIG.1, 280.4, 286.0, 286.3
+REF-CITED: 
+                            U.S. PATENT DOCUMENTS
+     5,095,423    3/1992   Gramlich et al.                395/600
+     5,117,349    5/1992   Tirfing et al.                 395/600
+     5,129,082    7/1992   Tirfing et al.                 395/600
+
+                             OTHER PUBLICATIONS
+Schmidt, D. et al, "Borland Int. Inc., Turbo Pascal 5.5 . . . " PC Week, vol.
+  V7, No. 15, Apr. 1990, p. 126.
+Nance, B., "Speaking OS/2's Native language Rev." Byte, vol. 15, No. 9, pp.
+  206-210, Sep. 1990.
+Sometinger, J. "A Tool for the maintenance of a C++ . . . " Proc. 1990 IEEE
+  Conf. M software Maintenance, pp. 54-59, 1990.
+
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Wed, 21 Sep 1994 08:40:25 -0700
+Subject: [#94-9-342] SCI: role for Q.M in neurobiology
+
+Ray writes:
+>one can "compute" the complex hull of a set of points (no matter how
+>large) in constant time. ... Draw the points on a piece of wood. Place
+>nails in each point. Now, put a rubber band around the outside and it
+>will quickly form the complex hull.
+
+Er, don't most of us take linear, not constant, time to draw points
+and nail them?  And doesn't the size of the board needed, and perhaps
+therfore the time to stretch the rubber band around it, scale with the
+smallest separation between the points (so you can fit both nails in
+the board?)  It seems you must mean you can compute an appoximate
+convex hull in constant time, once you already have a nail-board
+representation of a 2D set of points.  Seems I could do the same thing
+with a finite connection-machine.  If I had a nanocomputer, I might be
+able to beat *any* physical nail-board-rubber-band computer with the
+same mass.
+
+Robin Hanson
+
+------------------------------
+
+From: Naval A Deshbandhu <ndeshban@mason1.gmu.edu>
+Date: Wed, 21 Sep 1994 12:13:34 -0400 (EDT)
+Subject: [#94-9-343] Quantum Erasers (fwd)
+
+On Tue, 20 Sep 1994, Ray wrote:
+
+> Naval A Deshbandhu writes:
+> > Quantum theory and experimental observations (eg., Alain Aspects
+> > experiments in 1964 to test out Bell's Inequality theorem) have given us
+> > indications about the unifying connectedness of the universe. 
+> > 
+> > Suppose if one were to construct an isolated system (say a 
+mini-universe),............
+
+> 
+>   Actually, Bohm's hidden variables Pilot Wave theory is isomorphic
+> to Quantum Mechanics in that it gives the same predictions. The
+> Pilot Wave theory uses a superluminal *physical* wave function .
+> Many Worlds can provide yet another explanation -- when you measure
+> the photon, you end up in one of two possible universes where
+> either it was one direction, or the other. Mike Price is the resident
+> expert on Many Worlds (since he argues it constantly in sci.physics)
+>  
+>    I'm still not convinced that QM is the "right theory" I'm hoping
+> something better comes along to explain some of the results
+> of QM.
+> 
+> > Any change in the entire universe, occurs one by one. There are no
+> > concurrent events, however smooth events appear to us.  The universe, on
+> > examination on smaller and smaller scales of time, would appear to a
+> > hypothetical observer outside it, as a jerky old movie or a human miming a
+> > robot carrying out its actions sequentially, going from one state to
+> > another. One event is conveyed to the rest of the universe instantaneously
+> > (or, in fractal time) before the next step in evolution of the chaotic
+> > universe is carried out by the universe. 
+> 
+>   It's a fine theory (having been invented plenty of times before),
+> the question is, does it lead us to anything new? If a new interpretation
+> of quantum mechanics doesn't lead to any new measurable predictions,
+> it's useless as physics. It becomes theology. One of the neat things
+> about the Many Worlds hypothesis is that it actually does make
+> a testable prediction that would fail under the Copenhagen interpretation.
+> Find a way to transmit information faster than light in QM, and you'll
+> be famous.
+> 
+>   So the question is, if the universe simulator distributes the
+> result of a measurement all over the universe before processing
+> the next one, can we manipulate or predict the outcome of the
+> experiment deterministically? How does your interpretation
+> explain the randomness in QM?
+> 
+
+Naval replies...
+
+Consider the many world interpretation of Quantum Mechanics. Also, lets 
+accept QM as being 'correct theory' for the time being. Then, the fact 
+that I have created an interpretation means that what my brain has 
+conjured up, is a complete possibility! 
+
+I and others who might agree with me on the completeness of my ideas and 
+arguments have together created a universe where my theory (or perception 
+of the universe) holds true. You and others by an opposition to my 
+proposition have created an other equally valid universe which can 
+coexist with mine and those of many others. 
+
+Now regarding the wonderful question of being able to made predictions 
+about QM that are measurable, hasn't one measurement about the universe 
+already been made by my brain in such a formulation of perception of 
+reality ? 
+
+what's a measurement in QM ? it is the collapse of a wave function. if we 
+have agreed on the universe being a Quantum system, then every thought 
+that occurs to any one in its completeness is a measurement of the 
+universe and the possible following a collapse of the wave function of 
+the universe. 
+
+Every thought occurs because it is a possibility. (Even the thought that 
+the brain cannot think of the impossible).
+
+There are phenomenon we cannot account for yet, but in time we may come to
+explain it in mathematical (deterministic) terms which is but just one
+such language in which to picture something, just one mode of inquiry.
+
+Maybe, we will even explain randomness in QM (though, I agree, my
+interpretation doesn't yet). 
+
+          ___
+	_|||||_
+	 (0_0)
+________(__~__)________
+|__|__|__|__|__|__|__|_
+_|__|__|__|__|__|__|__|
+
+------------------------------
+
+From: Bo <beau@bohemia.metronet.org>
+Date: Wed, 21 Sep 1994 10:21:07 -0600 (MDT)
+Subject: [#94-9-344] Extropians Digest #94-9-333 - #94-9-338
+
+resend #94-9-317
+
+
+Bo the Bohemian.....
+                    *****************************[
+   ****************%%%%Bo@bohemia.metronet.org%%%%********************** 
+
+
+
+
+------------------------------
+
+From: dkrieger@netcom.com (Dave Krieger)
+Date: Wed, 21 Sep 1994 10:04:13 -0700
+Subject: [#94-9-345] SILLY: Let's see, how many hands is that?
+
+At 10:08 AM 9/20/94, Craig Presson wrote:
+>OTOH, I like the assonance with "accuracy" and "accurate". And Sasha's
+>dismissal of linguistics is premature, because a term needs to "echo"
+>correctly, and it's not just scholars who can hear dissonances.
+>
+>OTOOH, scholars who are too picky, who deride terms that mix Latin and
+ ^^^^^  Don't you mean "OTGH"? :-)
+
+"OTGH" == "on the gripping hand"; a reference to Niven and Pournelle's
+"Mote in God's Eye" and its lame sequel, "The Gripping Hand."  The use of
+this phrase for the third of three alternatives figures prominently (but
+irrelevantly) in the early part of the sequel.
+
+                                        dV/dt
+                                        "Enough is never enough, and even
+                                         more is usually inadequate."
+                                         -- Dr. Hunter S. Thompson
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Extropy is $18/four issues, USA; $32, Canada and Mexico; $44 (air)
+elsewhere.  Checks payable to Extropy Institute, 13428 Maxella
+Ave., No. 273, Marina Del Rey, CA 90292.  e-mail more@extropy.org.
+
+
+
+------------------------------
+
+From: machado@newton.apple.com (Romana Machado)
+Date: Wed, 21 Sep 94 12:39:05 PDT
+Subject: [#94-9-346] Subjectivity informs debate?
+
+>> Beware arguments
+>>from nothingness, from subjectivity, from superstition, from emotionality,
+>>from symbolism, from fantasy, from tradition...
+>
+> But all of them can inform debate.
+
+ALL of them? No such thing as a useless opinion?
+>
+  Most important, any time you talk about what you're going to do
+>in the future, your desires do more than inform the debate, they're the
+>whole point.  (Spirituality and desire are angles on the same issues.)
+>
+
+You seem to have developed yet another definition of spirituality. I admit
+that even after serious investigation I don't have a clear idea of what
+people are talking about when they are talking about spirituality, and I
+doubt that they do, either. It seems to label a personal experience of the
+ineffable; something that is quite individual, variable, and difficult to
+gather truth from. (By truth, I mean "information that has predictable
+consequences.").  But I don't disdain the numinous in its proper realm of
+story, fantasy, art, and song.
+
+Desire, by contrast, can usually be traced to a reason, or at least a
+motivation, that can be communicated.
+
+............................................................................
+Romana Machado
+romana@apple.com
+http://www.mps.ohio-state.edu/cgi-bin/hpp?romanaHQ.html
+............................................................................
+The longer I live the more I see that I am never wrong about anything,
+and that all the pains I have so humbly taken to verify my notions
+have only wasted my time.  - George Bernard Shaw
+
+
+
+------------------------------
+
+From: pavel@PARK.bu.edu (Paul Cisek)
+Date: Wed, 21 Sep 1994 16:26:15 -0400
+Subject: [#94-9-347] SCI: role for Q.M in neurobiology
+
+>From: doug@OpenMind.com (Doug Cutrell)
+>X-Message-Number: #94-9-329
+>
+>I'd like to emphasize the point that there are advantages to be afforded by
+>quantum mechanics-based neurobiological mechanisms that do *not* have to do
+>with non-computability.  I would ephasize these two:
+>
+(out of order)
+>2) Recent research on "quantum computation" suggests that quantum mechanics
+>may simply be *qualitatively* better at solving the same sorts of problems
+>that can *also* be solved with classical computation... for example, Shor's
+>results on factoring in polynomial time with quantum computers.  This has
+>nothing to do with the issue of non-computability.
+
+But again, one is never presented with a convincing argument suggesting a
+relationship between these conclusions from quantum computation theory and
+behaviors, especially simple ones.  In brain science it is simple to suggest
+that "something" might be happening and then searching out neural
+justifications that might support this "something".  The brain is sufficiently
+complex that if your theory required pink elephants then you'd probably be able
+to find them ;-) .  What the quantum-biology supporters fail to provide is any
+functional justification for the mechanisms they are proposing.  At least I
+haven't heard anything not of the form "but it could happen, and might
+be useful!".  (Well, the following is a reasonable attempt...)
+
+>1) All of the proposals that I have heard about suggest information storage
+>densities and processing rates many orders of magnitude higher than what
+>would be estimated from a simple neural network model of neurobiological
+>function.
+
+>...evolution takes advantage of
+>whatever is possible and accessible through the fitness landscape.  The
+
+Ok, but what did the primitive creatures need to store or compute that
+required such scales?  When they needed more storage they added more
+neurons and synaptic mechanisms.  That was much easier to do.  And evolution
+is not only guided by the fitness landscape, it is also guided by the
+availability of a potential mechanism .  If a simple creature did not
+require massive amounts of storage than a descendant that required more would
+not be able to redesign the substrate of memory, but would rather expand
+on the existing substrate.  So once again we are back to the choice:
+either all organisms since the birth of life required quantum computation,
+or something very improbably happened since then.
+
+(One might be tempted to suggest: Wait!  The single celled creatures didn't
+have neurons so they must have operated using quantum coherent microtubules!
+But in fact, a cell appears to have sufficiently complex machinery to
+implement the behaviors that are observed.  Do cell biologists feel
+the need to invoke quantum theory to account for their experimental
+results?)
+
+To raise again the issue of non-computability (which I realize is not
+what Doug is arguing for), the only examples I have heard involve closed
+form solutions.  Organisms are happy with less.  And it is questionable
+if humans perform non-computable feats.  Consider the possibility that
+the so-impressive mathematical insight is merely a good guess.
+
+> Marvin Minsky:
+>
+>Hidden just under the surface is THE ASSUMPTION THAT WHEN A MATHEMATICIAN
+>"INTUITS" THE TRUTH OF A THEOREM, HE/SHE IS NEVER WRONG.
+
+>Doug Cutrell:
+>
+>Perhaps, then, we may discover that a scientific definition
+>of consciouness extends continuously to even unicellular life forms!
+
+Now why should that be surprising?  "Consciousness" is after all a label we
+have made up.  We may be labeling a region of a continuum, naively thinking we
+have delineated a meaningful ontological distinction.  Nature has not promised
+us that when an answer is found it will fit our preconceptions.
+
+Paul
+
+
+------------------------------
+
+From: levy@cs.utk.edu
+Date: Wed, 21 Sep 1994 16:54:20 -0400
+Subject: [#94-9-348] TERM: acracy / anarchy
+
+> 
+> From: fcp@nuance.com (Craig Presson)
+> Date: Tue, 20 Sep 1994 05:08:57 -0500
+> Subject: [#94-9-332] TERM: "acracy", "acrat", "acratic"
+> 
+> OTOOH, scholars who are too picky, who deride terms that mix Latin and
+> Greek roots (I can't remember an example offhand) would do well to look
+> at the accepted name of a genus of dinosaurs discovered in N. Africa --
+> _Oranosaurus_, where Ourano- is from a *Tuareg* root.
+
+An example is "sexologist" (Latin + Greek) or (even worse) "garbologist"
+(English + Greek), someone who studies garbage (not someone who studies Greta 
+Garbo).  The word "ouranos" means "sky" or "heavens" in Greek; but if the
+root is indeed Tuareg, one could still justify it on the grounds that the
+Tuareg root was Hellenicized before its prefixation to "saurus", perhaps
+because of the difficulty of finding a suitable corresponding word in 
+Greek.  One would have a harder time justifying the other two coinages,
+since Greek has perfectly good words for garbage and sex (as does, I suspect,
+every other human language).
+
+> 
+> Since we don't learn Latin and Greek in school anymore -- and too damned 
+> bad, too, since languages, mathematics, logic and rhetoric are still a fine
+> curriculum -- we'd do well to coin chauvinistic Anglo terms like
+> "self-government" instead.
+> 
+
+I second your feelings about Latin and Greek.  We would do well to remember
+that Nietzsche got his start in classical philology, which informed his
+entire career.
+
+> Conclusion? I dunno. I like "acracy" but I don't fancy having to explain
+> it without reference to "anarchy".
+
+When people ask me what form of government I like, I say "no government at 
+all".  When people ask me what I "am" politically, I reply "anarchist" (if
+I'm too tired to drag out an explanation of how E-prime teaches us to
+avoid such formulations).  Anarchy does connote chaos to most people, but
+the term "anarchist" has proud historical (and even romantic) associations, 
+like the Spanish anarchists who fought against Franco in the 1930's.  "Viva
+la quince brigada" always raises a lump in my throat.
+
+Arriba! Afuera! Adelante!
+Simon
+
+------------------------------
+
+From: pgf@srl02.cacs.usl.edu (Phil G. Fraering)
+Date: Wed, 21 Sep 1994 17:24:03 -0500
+Subject: [#94-9-349] FWD: Howard Rheingold's column inSF Examiner
+
+   Dan Davis:
+   > Maybe I'm wrong. Maybe he hates our guts. Maybe thats what he 
+   > meant in the article. Thats not the meaning I read in it, however.
+
+   Me neither.  I thought it an excellent review.
+
+   Mike Price                         price@price.demon.co.uk
+
+Believe me, if the writer didn't like us, he wouldn't be
+bothering to criticize us. How many times have you seen
+the political opinion manufacturers in your local newspaper
+criticize libertarians?
+
+
+
+------------------------------
+
+From: pgf@srl02.cacs.usl.edu (Phil G. Fraering)
+Date: Wed, 21 Sep 1994 17:29:33 -0500
+Subject: [#94-9-350] TERM: "acracy", "acrat", "acratic"
+
+   From: dkrieger@netcom.com (Dave Krieger)
+   X-Message-Number: #94-9-319
+
+   Since "anarchy" has so much negative baggage (as you know, the dictionary
+   gives it as a synonym for "chaos"), for a while now I've been using the
+   terms "acracy" (AY-kruh-see), "acrat" (AY-krat), and "acratic" (ay-KRAT-ik)
+   to indicate the condition of the absence of a coercive State, without the
+   negative connotations of "anarchy".  Comments?
+
+					   dV/dt
+
+Bah, humbug! The reason people think anarchy has a negative
+connotation is because they in general appear to belive the
+state has a positive connotation. Please remember that we
+anarcho-capitalists are the minority.
+
+(Besides, acratic-capitalism sounds lousy; so does crypto-acracy).
+
+
+------------------------------
+
+End of Extropians Digest V94 #264
+*********************************
+

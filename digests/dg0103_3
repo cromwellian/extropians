@@ -1,0 +1,1002 @@
+From extropians-request@extropy.org Mon Jan  3 18:49:16 1994
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA23611; Mon, 3 Jan 94 18:49:08 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA06618; Mon, 3 Jan 94 18:48:57 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA07440
+  (5.65c/IDA-1.4.4 for more@usc.edu); Mon, 3 Jan 1994 21:41:24 -0500
+Date: Mon, 3 Jan 1994 21:41:24 -0500
+Message-Id: <199401040241.AA07440@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: January 4, 374 P.N.O. [02:41:04 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest              Tue, 4 Jan 94              Volume 94 : Issue 3
+
+Today's Topics:
+                                                                      [1 msgs]
+                                 CRYOMSG 0023                         [1 msgs]
+                          FDA hammer came down yet?                   [1 msgs]
+                       FOUNDATIONS: Technology/Politics               [2 msgs]
+                       Green: Ecosystem Genome Project                [1 msgs]
+                              Gun Death Counter                       [1 msgs]
+                          Inner Cities and "Jurisdi                   [1 msgs]
+        Intelligence boosting for the Masses (was: Why have children?)[1 msgs]
+             Internet Billing Servers; Digital Signature Standard     [3 msgs]
+                          Khmer Vert - Seal Rant                      [2 msgs]
+             META: Slurring Dykes and Fags on the Extropians List     [1 msgs]
+                      Metapolitics, Metamath, Crypto...               [1 msgs]
+              NRA:  Members' Opinions on Organization's Red Ink       [1 msgs]
+                               No More Prisons                        [1 msgs]
+                         TIM'S MENTAL HEALTH PROBLEM                  [1 msgs]
+                          Tech:  Price of Macs vs.                    [1 msgs]
+                         The (Libertarian) Connection                 [1 msgs]
+                         Virt-Sem: Extropians in Love                 [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51308 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 3 Jan 94 15:01:31 EST
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: Metapolitics, Metamath, Crypto...
+
+Tim May sez-
+
+> Can one tell set of axioms make a
+> robust system and what set make a weak system? This is
+> system-building, and the Federalist Papers are the usual place to
+> start looking. And some metamathematics, presumably unknown to the
+> Founders and most lawyers, may figure in (yes, Godel's Theorem,
+> especially as interpreted by Chaitin and Kolmogorov).
+> ...
+> A fascinating topic. I suspect there are deep--and not yet explored,
+> that I know of--connections between formal systems, open vs. closed
+> systems, evolution, market processes, and information theory.
+
+Certainly stuff's been done in agorics having to do with robustness
+of hardware systems and OS's that try to support evolving systems.
+
+The thing Tim made me think of mentioning the Constitution was
+crypto--the way it's almost a definition of robustness there to base
+one's security on public reviews and public attempts to crack.
+Compare to the division of powers and amendment process in the
+Constitution.  Or Goedel's demo of the need to add axioms.
+
+I mean, if you look at how crypto is criticized, the standards of
+safety are way to strict to allow the kinds of parasitic loops people 
+accept in government, but on the other hand, more empirical and 
+social (e.g., if enough people fail to crack factoring...) than in
+pure math.  Maybe "government" or whatever's to replace it could
+be more like that strict and math made more like that explicitly
+social?
+
+-fnerd@smds.com
+sufficiently advanced communication is indistinguishable from noise
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+aKxB8nktcBAeQHabQP/d7yhWgpGZBIoIqII8cY9nG55HYHgvtoxiQCVAgUBLMs3K
+ui6XaCZmKH68fOWYYySKAzPkXyfYKnOlzsIjp2toust1Q5A3/n54PBKrUDN9tHVz
+3Ch466q9EKUuDulTU6OLsilzmRvQJn0EJhzd4pht6hanC0R3seYNhUYhoJViCcCG
+sRjLQs4iVVM=
+=9wqs
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+Date: Mon, 03 Jan 94 15:33:41 EST
+From: Tim Freeman <tsf@cs.cmu.edu>
+Subject: Internet Billing Servers; Digital Signature Standard
+
+I've heard several times of people setting up an Internet Billing
+Server (IBS) that would make it easy to pay for information services
+provided over the net, but I don't know of any implementations.  Are
+there any implementations?  Are there any serious barriers that
+prevent implementations?
+
+An obvious obstacle is secure interactions with the IBS.  Given the
+present environment, I don't expect a high-profile IBS operating in
+the US using public key cryptography to provide secret transactions to
+work.  However, for all I know, digital signatures might be legal.
+Are there implementations of the Digital Signature Standard (DSS)
+available?  Would such an implementation be usable to provide
+non-private but non-forgeable interaction with the IBS?  Are there
+obstacles to exporting a DSS implementation out of the US, or sending
+digitally signed documents into or out of any country?
+
+(I'm assuming we use paper mail for key distribution, since I'm
+assuming that cryptographic privacy is unavailable.)
+
+Is this the proper forum for these questions?
+
+------------------------------
+
+Date: Mon, 3 Jan 94 15:42:10 WET
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Internet Billing Servers; Digital Signature Standard
+
+Tim Freeman writes:
+> 
+> I've heard several times of people setting up an Internet Billing
+> Server (IBS) that would make it easy to pay for information services
+> provided over the net, but I don't know of any implementations.  Are
+> there any implementations?  Are there any serious barriers that
+> prevent implementations?
+
+    I believe people at CMU have written such a system. For more
+information I suggest you join the internet mercantile protocols list:
+
+       imp-interest-request@thumper.bellcore.com
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Mon, 3 Jan 1994 15:49:07 -0500
+From: Duncan Frissell <frissell@panix.com>
+Subject: Inner Cities and "Jurisdi
+
+T >Telecommuting advances and new workgroup management tools may fairly
+T >soon allow many more people to live and work from regions with less
+T >statism.
+
+What people have to realize is that international forum shopping has been 
+going on for a long time.  Since it has been expensive, only rich people 
+and institutions have been able to afford it.
+
+Take what used to be called the Eurodollar then the Eurocurrency and is 
+now the International Currency market.
+
+Starting in the 1960s, banks opened subsidiaries in tax haven countries.  
+These subsidiaries made loans, accumulated interest tax free, and *never* 
+repatriated the earnings to their parents.  If a parent needed money, it 
+could borrow the money from its subsidiary and thus expatriate more funds 
+in the form of interest payments to its subsidiary.
+
+The rich did similar things with corporations and trusts.  
+
+Dramatically lowered transaction costs and network-based financial 
+services will bring these traditional planning tools in the reach of 
+everyone.  It will be quite cheap to use an automated process to create 
+corporations and trusts offshore.  Additionally, bearer investments are 
+still legal offshore and should prove popular because of the lowered 
+effective tax liability.  
+
+There should also be a bidding war among various jurisdictions for the 
+right to become the "tax home" of mobile highly compensated individuals.  
+Note that if these mobile permanent tourists of the future are not US 
+citizens, they eliminate all income tax liability by residing "offshore." 
+ In practice of course they can remain temporarily anywhere they want.
+
+DCF
+
+Who, were he in Tim's situation, would be in Switzerland so fast he'd melt 
+a few glaciers.
+
+
+--- WinQwk 2.0b#1165
+                                               
+
+------------------------------
+
+Date: Mon, 3 Jan 1994 15:49:26 -0500
+From: Duncan Frissell <frissell@panix.com>
+Subject: Khmer Vert - Seal Rant   
+
+N.>I'm in substantial agreement with Tim May about environmental issues
+N.>not being well covered in libertarian theory--I'm going to throw in
+N.>a few more thoughts and questions.
+
+There's tons of libertarian and conservative environmental writings.
+
+N.>I don't see that libertarian theory makes any provision for people
+N.>who want to preserve wilderness, since the only way to claim land
+N.>is to change it, and at that point it isn't wilderness. I asked
+N.>Murray Rothbard about this, and he couldn't understand why anyone
+N.>would want wilderness.
+
+You mean "mix your labor with the soil" a la John Locke.  Actually the 
+amount claimable changes as the technology of control changes.  Once we 
+get good enough, we should be able to claim whole planets by merely 
+"fencing" them.  Securing our claims to them.  This can be done now with 
+large sections of semi-wilderness on Earth today.  Likewise the seas.
+
+It all depends on what you're willing to pay for.
+
+Eventually, the problem can be solved by leaving Earth and 
+building/colonizing other planets/structures.
+
+DCF
+
+Who's taste for wildlife is satisfied by visits to the nearby nature 
+preserve called Manhattan.
+
+
+
+
+--- WinQwk 2.0b#1165
+                                                                                 
+
+------------------------------
+
+Date: Mon, 3 Jan 1994 15:49:25 -0500
+From: Duncan Frissell <frissell@panix.com>
+Subject: Khmer Vert - Seal Rant   
+
+B >Did you hear the news tonight that the gun-control lobby are going
+B >to put up a counter on Times Square showing the number of people
+B >killed by guns in the US - about one per 14 seconds. Thirty foot
+B >high digits.
+
+That would be one death every 14 *minutes* for about 37,000/year of which 
+about 12,000 are murder and the balance are suicides (should be a favored 
+use for commie liberals), justifiable homicides (cops and civilians), and 
+accidents.  Accidental deaths involving firearms BTW have declined 
+steadily over the years in absolute numbers (to say nothing of per capita 
+or per gun numbers) as fewer people go hunting which was always the major 
+source of accidental firearms deaths.
+
+DCF
+
+--- WinQwk 2.0b#1165
+                                     
+
+------------------------------
+
+Date: Mon, 3 Jan 1994 13:22:10 -0800 (PST)
+From: szabo@netcom.com (Nick Szabo)
+Subject: Internet Billing Servers; Digital Signature Standard
+
+Tim Freeman:
+> Are there any implementations [of IBS]?
+
+No. There are a wide variety of proposals floating around: Phil 
+Trubey's IBS, digital checks, digital postage, NetCash, and various 
+flavors of offline and online digital cash.  The closest to
+implementation may be the heavyweight EDI (Electronic Document
+Interchange), which is being ported to the Internet from X.* by
+LLNL.  EDI handles contracts billing, among other things, between major 
+corporations and their suppliers, between the U.S. government and its 
+contractors, etc.  EDI is probably not suitable for small business 
+in its native form, and it's not clear whether one could write software 
+to make it sufficiently freindly.
+
+Doug Barnes and Jim McCoy are considering implemenenting digital
+cash as "MOO-money" for metaverse.io.com as a testbed to get
+out the most obvious bugs in a harmless enviroment.  Plans are also 
+afoot for serious Internet-based banking.
+
+> Are there any serious barriers that
+> prevent implementations?
+
+A major sales job is needed to bring various BBS's on to the Internet,
+and to get small Internet services to farm out their billing operations.
+An anonymous billing service using digital cash requires a fairly complex, 
+difficult to test protocol.  Net reliability is a major
+barrier for online billing.  None of these are insurmountable.
+
+> Given the
+> present environment, I don't expect a high-profile IBS operating in
+> the US using public key cryptography to provide secret transactions to
+> work.  
+
+RSAREF is perfectly legal, as is ViaCrypt PGP; PGP itself
+may run afoul of patent laws.  There would be problems distributing 
+crypto code outside the U.S & Canada, though.  Query talk.politics.crypto
+or the cypherpunks list for details and the status of DSS.
+
+> Is this the proper forum for these questions?
+
+imp-interest-request@thumper.bellcore.com is dedicated to discussing the
+business aspects of IBS and digital cash; cypherpunks-request@toad.com 
+discusses cryptographic issues including the technical details and
+legal status of public key crypto, digital cash, and the like.
+See sci.crypt for general crypto technical issues.
+
+Nick Szabo				szabo@entcom.com
+
+------------------------------
+
+Date: Mon, 3 Jan 94 16:34:29 EST
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: The (Libertarian) Connection
+
+Mike Price says:
+
+> The Libertarian Connection became The Connection under Filthy, sometime
+> in the mid to late 70s.  The issues I've seen under Filthy seemed to
+> have lost some of their early lustre and radicalism (although this could
+> be just that I had accepted and become desensitised to the AC mindset
+> by then) 
+
+I got bored and let my sub lapse mid last year.  But I'd been on
+Extropians for 18 months.
+
+> with stronger editorial control. 
+
+Actually, Filthy has never exercised editorial control as far as I know
+(I was on for 12 years).  At one point someone reprinted some tiffs
+from the original LC where Durk and Sandy did little nasty things
+like throw some people off for not being libertarian.
+
+However, Filthy as publisher did things like raise rates and reduce
+the number of pages that can be contributed free per issue.  As
+far as I know he takes a small-percentage money loss on it.
+
+TCers talk about all sorts of anarcho setups, but the one they have an
+acronym for is PC, Proprietary Community.  Filthy is sometimes called
+things like Lord Proprietor.
+
+Filthy's utter lack of rules produces a pleasant yet flame-tempered
+environment that has lasted for at least 15 years.  But maybe the
+lack of selectiveness has lead to a loss of edge or focus?
+
+-fnerd@smds.com
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+aKxB8nktcBAeQHabQP/d7yhWgpGZBIoIqII8cY9nG55HYHgvtoxiQCVAgUBLMs3K
+ui6XaCZmKH68fOWYYySKAzPkXyfYKnOlzsIjp2toust1Q5A3/n54PBKrUDN9tHVz
+3Ch466q9EKUuDulTU6OLsilzmRvQJn0EJhzd4pht6hanC0R3seYNhUYhoJViCcCG
+sRjLQs4iVVM=
+=9wqs
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+Date: Mon, 3 Jan 94 16:55:36 EST
+From: cfrye@ciis.mitre.org (Curtis D. Frye)
+Subject: NRA:  Members' Opinions on Organization's Red Ink
+
+I came across this blip in the _National Journal_, which I receive
+electronically through my company's library.  Any members with comments on
+the NRA's priorities or a splinter group forming?
+
+              Inside Washington - Lock and Load . . . and Leave?
+                              "National Journal"
+                          Saturday, January 1, 1994
+                                    Page 3
+ 
+     There's even louder grumbling among the National Rifle Association's 3.3
+million rank-and-file members about the group's priorities and continuing flow
+of red ink. David Edmondson, who retired last April as head of the NRA's Texas
+affiliate, has been trying to organize a union of state affiliates that would
+give them more leverage on policy differences with the NRA's national office
+in Washington. Edmondson says the new union will start up if 25 state units
+commit. A key worry is that the NRA posted deficits in 1991 and 1992 of about
+$9 million and $30 million, respectively. As of last Sept. 1, the association
+was nearly $16 million in the red for 1993. 
+
+
+--
+Best regards,
+
+Curtis D. Frye
+cfrye@ciis.mitre.org
+"If you think I speak for MITRE, I'll tell you how much they
+ pay me and make you feel foolish."
+
+
+
+------------------------------
+
+Date: Mon, 3 Jan 94 16:33 EST
+From: kqb@whscad1.att.com
+Subject: Green: Ecosystem Genome Project
+
+In Message-Number: #94-1-1402 Jamie Dinkelacker (jamie@netcom.com) said:
+
+> The Foresight Institute in Palo Alto has been talking about a "bioarchive"
+> project for several years, and its been written about in their _Foresight
+> Update_. 
+
+Greg Benford also has promoted the idea of harvesting the genome of
+endangered species/ecosystems.  To retrieve a 25K byte article by him
+titled 'Saving The Library Of Life', send email to me with the Subject
+line "CRYOMSG 0023".  (The capital letters are important.) 
+Also, for a brief (2K byte) description of the BioArchive project that
+I wrote in 1988, send email to me with the Subject line "CRYOMSG 40".
+                              Kevin Q. Brown
+                              INTERNET    kqb@whscad1.att.com
+                                 or       kevin_q_brown@att.com
+PS: Concerning frozen fish & reptiles, the Dec. 1990 Scientific American
+    article "Frozen and Alive" by Kenneth & Janet Storey has some good info.
+
+------------------------------
+
+Date: Mon, 03 Jan 94 16:29:26 -0600
+From: "Patrick M. Fitzgerald" <pmfitzge@fitz.b30.ingr.com>
+Subject: Gun Death Counter
+
+In message #94-1-1449 
+Duncan Frissell <frissell@panix.com> writes:
+> 
+> B >Did you hear the news tonight that the gun-control lobby are going
+> B >to put up a counter on Times Square showing the number of people
+> B >killed by guns in the US - about one per 14 seconds. Thirty foot
+> B >high digits.
+> 
+> That would be one death every 14 *minutes* for about 37,000/year of which 
+> about 12,000 are murder and the balance are suicides [etc., ...]
+
+Also, the guy who is financing this operation says he's doing this
+because his brother was killed with a gun... but he fails to mention
+that his brother was a fleeing criminal shot down by police (not that
+police should have free reign to shoot fleeing suspects, but you get
+the idea...)
+
+This is much like the touted statistic that says you're 43 times more
+likely to be shot with your own gun.  Over 80% of the deaths studied
+were suicides.
+
+-Fitz
+
+------------------------------
+
+Date:     Mon, 3 Jan 94 23:24:48 GMT
+From: nancy@genie.slhs.udel.edu
+Subject: FOUNDATIONS: Technology/Politics
+
+Posted from email by request, Simon! says: 
+
+Nancy L. writes:
+
+>I'm just as glad to be living in a place and time when most forms of
+>overt bigotry are considered very bad manners, but it does make it harder
+>to know what's going on.
+
+Yes, it does -- which is why I consider most of this sensitivity stuff to
+be either misdirected guilt or meaningless obfuscation.
+
+Note that the Jews never went through something equivalent to the
+"NIGGER/COLORED/NEGRO/BLACK/AFRO-AMERICAN/AFRICAN-AMERICAN" naming
+continuum.  A Jew has always been a Jew.  All that name changes do is 
+give a false sense of progress.  Tim May correctly pointed out the common
+usage of "nigger" by blacks to refer to other blacks in rap music, but he
+misunderstood its significance.  Members of groups have always used a special 
+name to refer to each other, a name that is considered an insult if used
+by people outside the group.  "Yid" is the Yiddish word for a Jew (which is
+why my grandmother used to say that she was "talking Jewish") but is an
+insult if used by a gentile.  In fact, I wouldn't be surprised to lean that
+"nigger" was originally used by blacks, and then co-opted by whites as
+a slur.  I'll go even further out on a limb and hypothesize that the name
+changes began when left-liberal whites began their campaign of welfarizing
+the ghettoes.
+
+------------------------------
+
+Date: Mon, 3 Jan 1994 15:57:44 -0800
+From: plaz@netcom.com (Geoff Dale)
+Subject: Virt-Sem: Extropians in Love
+
+I was going to post this as simply an essay, but then I realized I wanted
+to get input from other extropians, in spite of the fact that I am arrogant
+enough to consider myself an expert on these matters. Many extropians have
+expressed interest in discussing this topic on the list, and so here it is
+as a virtual seminar. (Many other extropians will have no interest at all
+in this topic and will undoubtedly accuse me of being a wimp-simp and
+kvetch about the increase in the list-noise, but that's life.)
+
+I'll collect the replies and write the essay later.
+
+I will only quote anyone if they have specifically allowed for me to do so.
+Everyone else will remain anonymous for the purposes of the essay. If you
+really want anonymity try sending me private e-mail using a cypherpunk
+remailer or some other anonymity service. Does anyone know if there is a
+cypherpunk remailer faq around somewhere?
+
+The essay will be copylefted.
+
+__________________________________________
+A few thoughts on extropian relationships:
+
+To me, any relationship is an extropian relationship if it is based on
+rational self-determination. As individualists, it is neccesary to reject
+the limitations and expectations of the usual cultural definition. In my
+opinion, this redefinition towards self-oriented values is path to
+Transhumanism, and what extropianism is all about. A relationship, by
+definition, is defined by the people involved. To attempt to twist it to
+conform to some preconceived notion is often disastrous.
+
+When I use the term "reject the limitations and expectations of the usual
+cultural definition" here, I mean simply a rejection of the restriction
+that the relationship MUST follow the traditional pattern. For some
+relationships the traditional happens to be the best.
+
+As a note, even tho' my conversion to extropianism has been fairly recent,
+my handling of love relationships has followed this pattern for more than a
+decade. Go figure.
+
+It is still a constant battle to defy the cultural condition that we have
+received over our lives. I do not doubt that I, and other extropians,
+occasionally succumb to these unconscious desires to conform. This is one
+of the reasons I feel it is important to discuss these matters.
+
+Rejecting predefined conceptions becomes a particular problem when in a
+relationship with a non-extropian, who expects a relationship to follow a
+certain pattern. My own attempts at this have not been particularily
+successful (at least not in the long run). Usually, I succeed in
+intellectually convincing them that the relationship is defined by the
+people involved, but later, during the definition phase, they are shocked
+to hear that I would even consider a non-monagamous situation. Many never
+get past this revulsion of "difference" and refuse to believe I could ever
+be happy in a so-called "normal" relationship. There are times when candor
+is not a comfortable thing.
+
+There are others on this list who are having more success at this
+(relationships with non-extropians) and I invite them to share their
+thoughts.
+
+Since the two-person monogomous relationships are the cultural norm, I'm
+mostly interested in talking about larger, less monogomous relationships.
+This is what I some times refer to as the "Free Market of Love".
+Competetive pressures certainly keep you from taking the relationship for
+granted.
+
+Some of the non-traditional options and topics to consider:
+
+1> Free "Love" - Love usually meaning sex in this context.
+
+2> Discriminating free love - Promiscuity is definite health risk these days.
+
+3> Open relationships - Primary Relationships with no restrictions on
+creating secondary relationships. 
+
+4> Polyfidelity & Group Marriages - If you can manage to find this many
+mutually compatable people, more power to ya. I'm happy to just find one,
+but she thinks a 4 person marriage is optimal. Having experience in a
+couple of triads, I've found this type of relationship to be fairly
+unstable (but then again, so were the people involved). Recent discussions
+have pointed out the advantages of this arrangement for child rearing.
+Unfortunately many countries outlaw this practice.
+
+5> Marriages & Other Social contracts (Extropians-in-law): Should the state
+be involved in marriage contracts? (All together now: NO!) How do others
+avoid this? Also, other types of social contracts in love relationships,
+like cohabitation contracts.
+
+6> Dealing with emotional scars (both yours and those of your mate(s)) from
+previous relationships (and from cultural damage).
+
+7> Conflict resolution - I'm personally really big on communication (mostly
+preventative) and "working it out".
+
+8> Gender (and other sexual) preferences and how they affect the above. As
+Le Marquis Plaz d'Ominibus (my nym d'amour & guerre) would paraphrase
+Fermat, "I have a really good sexual preference, but it's description is
+too large to fit in this space."
+
+More later...
+
+_______________________________________________________________________
+Geoff Dale         -- Cypherpunk/Extropian --         Plastic Beethoven
+AnarchyPPL - Anarch (Adjudicator)      ExI-Freegate Virtual Branch Head
+plaz@netcom.com                                        66 Pyramid Plaza
+plaz@io.com                             Freegate, Metaverse@io.com 7777
+                "Subvert the domination paradigm!"
+
+
+
+------------------------------
+
+Date: Mon, 3 Jan 1994 15:57:54 -0800
+From: plaz@netcom.com (Geoff Dale)
+Subject: Intelligence boosting for the Masses (was: Why have children?)
+
+nancy@genie.slhs.udel.edu replies to my post from a while back:
+>>Maybe the smart folks could start gene labs that would refuse to make the
+>>kids stronger/better-looking unless they could also make them smarter.
+>
+>Hey--I thought you guys wanted to make money. This means giving customers
+>what they want.
+
+Money isn't everything, even for extropians. Ask members of Alcor if they
+are in it for the money. Personal happiness, which includes accumulation of
+wealth, is the prime directive, for me anyway.
+
+If it cost me a percentage of my earnings to improve the world, I very well
+may deem it a worthwhile enterprise. All profit is not measured in dollars.
+
+>>In one of my proposals for the CD-ROM project I'm doing with RU Sirius of
+>>Mondo 2000 (in)fame(y) "How to Mutate and Take Over the World", I had a
+>>transhuman introduce a nanotech general assembler, programmed to make the
+>>populous smarter and more headstrong, into the water supply.
+>>
+>I may be taking a just-for-fun proposal much too seriously, but I'd
+>consider doing anything like that a massive violation of rights. 
+
+True, but the alternative was to allow people to be dominated by
+dictatorial transhumans, also a massive violation of their rights. Somes
+times the species must evolve, or be livestock.
+
+>>I hope that someday there will be a way to increase the IQ of the average
+>>Joe, I'm tired of dealing with stupid people.
+>>
+>I'm fortunate in that I mostly deal with bright people--I make my living
+>by mail order and selling at science fiction conventions. However, I
+>still think I'd like it if the bell curve would pick itself up and
+>plonk its center right over where I am.
+>
+>On the other hand, if the average Joe became smarter, would you really
+>refuse to become smarter yourself just so that you wouldn't have
+>to deal with (relatively) stupid people?
+
+I wouldn't refuse to get smarter no. Where I would end up on the bell curve
+depends on how the increase was accomplished, I suppose. 
+
+If the lower sigmas could be augmented to a level so that they could
+quickly learn how to work a McDonald's cash register, I'd be quite pleased.
+
+
+_______________________________________________________________________
+Geoff Dale         -- Cypherpunk/Extropian --         Plastic Beethoven
+AnarchyPPL - Anarch (Adjudicator)      ExI-Freegate Virtual Branch Head
+plaz@netcom.com                                        66 Pyramid Plaza
+plaz@io.com                             Freegate, Metaverse@io.com 7777
+                "Subvert the domination paradigm!"
+
+
+
+------------------------------
+
+Date: Mon, 3 Jan 1994 19:17:53 CST  
+From: "Kathleen Cadmus" <kcadmus@magnus.acs.ohio-state.edu>
+Subject: No More Prisons
+
+Several recent posters about imprisonment have strayed far from what I
+conclude to be the only view consistent with Extropian principles.
+Imprisonment should be totally abolished!
+
+There seem to be four justifications for imprisonment:
+
+    1) Isolation
+    2) Rehabilitation
+    3) Restitution
+    4) Retribution
+
+I now proceed (IMHO :-)) to shoot them all down.
+
+1) Isolation -
+
+I will not address the gross impropriety of our existing legal codes. Let's
+keep this discussion theoretically sound by assuming a minimal set of legal
+proscriptions against the usual crimes against self and property including
+breach of contract. From my own perspective, everyone has some non-zero
+probability of future crimes against me. Should I imprison you all to keep
+myself safe from you? Maybe only those with such a probability beyond a
+given threshold level? (Is this the justification for locking up a drunk
+driver despite the lack of demonstrable harm done?) We are on the
+slipperiest of slopes here. Is the crime rate higher than average in the
+Black community? Lock them all up?
+
+Sorry but we all need to accept the responsibility of protecting our selves
+and our possessions *without* resorting to the coercive acts which we claim
+to deplore. What is more anti-extropian than placing another human being in
+a cage? Protection from possible future criminal acts is a feeble excuse for
+this scaredy-cat statist behavior.
+
+2) Rehabilitation -
+
+Rehab services are available in the marketplace. I have heard no reasonable
+arguments for forcing anyone into unwanted rehabilitation. Why not just go
+all the way and lobotomize the sons-of-bitches? Sounds like rehab to me. To
+entertain such concepts is, again, to flirt with becoming a statist goon.
+
+Note that I have no argument with a market for rehab centers. The enrollment
+would be voluntary and paid for by the enrollee or sponsor. I would hope
+that they would be One-Step centers rather then Twelve-Step centers. The one
+step? --> "Cut it the fuck out or prepare to die." Simple enough, huh?
+
+3) Restitution -
+
+Great concept, of course, but what does it have to do with imprisonment?? If
+some dude steals my chicken or kills my child, he owes me restitution. How's
+he gonna do that in prison? But I hear you objecting that how else do we
+ensure that the restitution is paid? Weel, why not the same way we ensure
+payment of any other debts. Extropians are well aware of many
+anarcho-capitalist schemes for solving this problem so I won't expand on it
+here. Protection against failed extraction of restitution is simply a
+variation on justification number 1 which was demolished above.
+
+4) Retribution -
+
+Aha! This is what you all really want! You're pissed off and want sanction
+to commit your own criminal acts. And I say -- "grow up and learn to control
+your emotions!" The concept of retributive justice is trashed elegantly in
+the book "Without Guilt and Justice" by Walter Kaufmann. This highly
+recommended book includes also includes a sparkling explication of morality
+which I find to be very attuned to extropianism. The highest morality
+consists of autonomy and the escape from Decidophobia. I can summarize on
+the list if there is any interest. (Other fascinating books by Kaufmann
+include "Critique of Religion and Philosophy" and "Nietzsche: Philosopher,
+Psychologist, Antichrist".)
+
+Asides aside, I believe imprisonment is a barbaric institution which has no
+place in an extropian future.
+
+Fire (flame) away!
+-----
+Kathy Cadmus
+(614)-846-3055
+kcadmus@magnus.acs.ohio-state.edu
+-----
+
+------------------------------
+
+Date:     Tue, 4 Jan 94 0:52:13 GMT
+From: nancy@genie.slhs.udel.edu
+Subject: FOUNDATIONS: Technology/Politics
+
+>
+>Posted from email by request, Simon! says: 
+>
+>Nancy L. writes:
+>
+>>I'm just as glad to be living in a place and time when most forms of
+>>overt bigotry are considered very bad manners, but it does make it harder
+>>to know what's going on.
+>
+>Yes, it does -- which is why I consider most of this sensitivity stuff to
+>be either misdirected guilt or meaningless obfuscation.
+
+I'd be interested to see what part of it you think *isn't* misdirected
+guilt or meaningless obsfuscation. 
+>
+>Note that the Jews never went through something equivalent to the
+>"NIGGER/COLORED/NEGRO/BLACK/AFRO-AMERICAN/AFRICAN-AMERICAN" naming
+>continuum.  A Jew has always been a Jew.  All that name changes do is 
+
+This is true for English--I gather that, in Russian, there's a
+polite form (I think it's "Israelite") and a rude one.
+
+>give a false sense of progress.  Tim May correctly pointed out the common
+
+Probably, though I can sympathize with the shift from Oriental to
+East Asian--I can see that spending years being exotic would get
+tiresome.
+
+>usage of "nigger" by blacks to refer to other blacks in rap music, but he
+>misunderstood its significance.  Members of groups have always used a special 
+>name to refer to each other, a name that is considered an insult if used
+>by people outside the group.  "Yid" is the Yiddish word for a Jew (which is
+
+This may only be true of ethnic groups--science fiction fans have some
+sense of group identity, but there's no "affectionate insult" term.
+
+>why my grandmother used to say that she was "talking Jewish") but is an
+>insult if used by a gentile.  In fact, I wouldn't be surprised to lean that
+>"nigger" was originally used by blacks, and then co-opted by whites as
+>a slur.  I'll go even further out on a limb and hypothesize that the name
+>changes began when left-liberal whites began their campaign of welfarizing
+>the ghettoes.
+
+There's been a similar pattern of shifting euphemisms for insane
+people, though I can't remember the sequence at the moment.
+
+On the other hand, there's been several major changes in the American
+idea of the Japanese this century without any change in what they were
+called.
+
+On the third hand, it's possible that this matter of public courtesy
+at least conveys the idea that people in various non-respected groups
+are human enough to dislike being insulted.
+
+Nancy Lebovitz
+
+
+
+
+------------------------------
+
+Date: 03 Jan 94 13:09:10 EST
+From: Sandy <72114.1712@compuserve.com>
+Subject: TIM'S MENTAL HEALTH PROBLEM
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  SANDY SANDFORT               Reply to:  ssandfort@attmail.com
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+X-Folks,
+
+Tim Starr wrote, first quoting me:
+
+    >The term, "sociopath" is no longer used.  It has been
+    >replaced by the more descriptive, "anti-social
+    >personality disorder."
+
+    Sounds like regress to me.
+
+Sounds like sour grapes to me.
+
+    >Could we cool the /ad hominem/, or at least get it
+    >right?
+
+    Are we to take it that you contest my claim that he
+    holds most of humanity in contempt, which was my only
+    positive claim about him? Somehow, I doubt that, since
+    he's made it so obvious by his own admissions.
+
+Though the claim was intemperate in tone, I don't particularly
+see it as an insult.  Such a claim could be reasonably made about
+most everyone on this list--including Tim Starr.
+
+    Perhaps you speak of my innuendoes, in which case I
+    don't care.
+
+Bingo!  Whether you care or not, though, it is still an ad
+hominem flame.
+
+    As for getting ad hominems right, I don't see why I
+    should be the one remonstrated for this since he's the
+    one who keeps confusing ad hominems with reductio ad
+    absurdum.
+
+Can you say, "non sequitur"?
+
+I don't have a copy of the current DSM-III.  When I go to the
+library on Tuesday, I'll look up "antisocial personality
+disorder" and report back to the list soon thereafter.
+
+
+ S a n d y
+
+>>>>>>    Please send e-mail to:  ssandfort@attmail.com    <<<<<<
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+------------------------------
+
+Date: Mon, 3 Jan 1994 21:18:35 -0500 (EST)
+From: Stanton McCandlish <mech@eff.org>
+Subject: META: Slurring Dykes and Fags on the Extropians List
+
+Actually Doc Marten's art quite comfy when broken in, like any other good
+leather boot.  They don't look very nazoid (to me) - the style is very
+different, closer to UK combat boots (and in fact, certain types of Docs
+are within US military specs, and worn by a lot of Navy types.)
+
+Besides that, I agree with your post entirely (the old one, about
+minority x "reclaiming" slur y from oppressor z.)  No new tale though -
+c.f. the history of "yankee", and note also that McDonald's has taken to
+calling themselves "Mickey-D", thereby co-opting the insult.  Pretty
+common semantic warfare tactic, I'd say. 
+
+-- 
+Stanton McCandlish * mech@eff.org * Electronic Frontier Found. OnlineActivist
+F O R   M O R E   I N F O,    E - M A I L    T O:     I N F O @ E F F . O R G 
+O  P  E  N    P  L  A  T  F  O  R  M     O  N  L  I  N  E    R  I  G  H  T  S
+V  I   R   T   U   A   L   C  U   L   T   U   R   E      C  R   Y   P   T   O
+
+------------------------------
+
+Date: Mon, 3 Jan 1994 19:20:55 -0700 (MST)
+From: Da Mystic Homeboy <praveen@carina.unm.edu>
+Subject: CRYOMSG 0023
+
+According to kqb@whscad1.att.com:
+>
+>In Message-Number: #94-1-1402 Jamie Dinkelacker (jamie@netcom.com) said:
+>
+>> The Foresight Institute in Palo Alto has been talking about a "bioarchive"
+>> project for several years, and its been written about in their _Foresight
+>> Update_. 
+>
+>Greg Benford also has promoted the idea of harvesting the genome of
+>endangered species/ecosystems.  To retrieve a 25K byte article by him
+>titled 'Saving The Library Of Life', send email to me with the Subject
+>line "CRYOMSG 0023".  (The capital letters are important.) 
+>Also, for a brief (2K byte) description of the BioArchive project that
+>I wrote in 1988, send email to me with the Subject line "CRYOMSG 40".
+>                              Kevin Q. Brown
+>                              INTERNET    kqb@whscad1.att.com
+>                                 or       kevin_q_brown@att.com
+>PS: Concerning frozen fish & reptiles, the Dec. 1990 Scientific American
+>    article "Frozen and Alive" by Kenneth & Janet Storey has some good info.
+>
+
+
+------------------------------
+
+Date: Mon, 3 Jan 1994 21:22:29 -0500
+From: Duncan Frissell <frissell@panix.com>
+Subject: Tech:  Price of Macs vs. 
+
+H.>I wonder what the cheapest PC would really cost if you bought all the
+H.>i/o ports, interfaces and software support that is already built into
+H.>the Mac.  Anyone with PC-type catalog care to estimate?
+
+At a New Jersey computer show on 01 January 1994:
+
+486/66
+VESA Local Bus 
+1 Meg VESA Video Card
+8 Megs of Ram
+424 Meg IDE HD
+32 Bit Multi I/O IDE Controller Card
+2S, 1P, 1G Ports
+1.2 and 1.4 MEG floppy drives
+14 in. 1024x768 non-interlaced SVGA Color Monitor
+DOS 6.2 & Windows 3.1
+Mouse
+
+circa $1620.00 was the quoted price by 3 different dealers.
+
+If you got a SCSI drive instead of the IDE drive, the price would be about 
+the same but you would then have a SCSI card.
+
+If you wanted the above with a Soundblaster Pro, a CD-ROM, two speakers, 4 
+CD's, and an upgraded monitor, cost would be $2115.
+
+DCF 
+
+
+--- WinQwk 2.0b#1165
+                                                             
+
+------------------------------
+
+Date: Mon, 3 Jan 1994 21:33:54 -0500 (EST)
+From: Stanton McCandlish <mech@eff.org>
+Subject: FDA hammer came down yet?
+
+[aside: extropy.org?  Shouldn't that be .com?  What are you folks a
+buncha non-profit weenies? ;] 
+
+Anyone heard any news on the status of the Health Freedom bills vs. the
+FDA's attempts to destroy or ruin the vites industry?  Any new smart
+drugs been approved yet?  
+
+If it's anything important please reply privately, I only read the list
+once every few weeks (mostly holding down the delete key, but there are
+some good stuff, despite all this kvetching about the list going down
+hill - that VirtSem thread was good, for a while anyway.) 
+
+Thanks for any useful info.
+-- 
+Stanton McCandlish * mech@eff.org * Electronic Frontier Found. OnlineActivist
+F O R   M O R E   I N F O,    E - M A I L    T O:     I N F O @ E F F . O R G 
+O  P  E  N    P  L  A  T  F  O  R  M     O  N  L  I  N  E    R  I  G  H  T  S
+V  I   R   T   U   A   L   C  U   L   T   U   R   E      C  R   Y   P   T   O
+
+------------------------------
+
+Date: Mon, 3 Jan 1994 21:38:11 -0500 (EST)
+From: Stanton McCandlish <mech@eff.org>
+Subject: META: "Trans"humanism?
+
+Something I meant to ask a long time ago, and forgot:
+
+Is there any particular reason we [meaning the extropianly-minded] chose
+"transhuman" to describe what we are aiming for?  Certainly "trans-"
+*can* mean "beyond", but in most contructions is means "across", and if
+interpreted like that, is meaningless in a construction like
+"transhumanism", unless one takes it to imply something akin to
+"one-worldism".  I'd meant to suggest replacing this shaky meme with
+something more apt, like posthumanism.  Just a morsel for thought. 
+
+-- 
+Stanton McCandlish * mech@eff.org * Electronic Frontier Found. OnlineActivist
+F O R   M O R E   I N F O,    E - M A I L    T O:     I N F O @ E F F . O R G 
+O  P  E  N    P  L  A  T  F  O  R  M     O  N  L  I  N  E    R  I  G  H  T  S
+V  I   R   T   U   A   L   C  U   L   T   U   R   E      C  R   Y   P   T   O
+
+------------------------------
+
+End of Extropians Digest V94 #3
+*******************************
+

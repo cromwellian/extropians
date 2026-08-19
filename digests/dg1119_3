@@ -1,0 +1,973 @@
+From extropians-request@extropy.org Fri Nov 19 09:35:37 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA12708; Fri, 19 Nov 93 09:35:35 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA12682; Fri, 19 Nov 93 09:35:29 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA26053
+  (5.65c/IDA-1.4.4 for more@usc.edu); Fri, 19 Nov 1993 12:24:22 -0500
+Date: Fri, 19 Nov 1993 12:24:22 -0500
+Message-Id: <199311191724.AA26053@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: November 19, 373 P.N.O. [17:22:44 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Fri, 19 Nov 93             Volume 93 : Issue 322
+
+Today's Topics:
+             Re:  How Voluntary Socialism is Disproven Rationally     [1 msgs]
+                          Deja vu: Drugs and E-prime                  [1 msgs]
+                                    Drugs                             [1 msgs]
+                          ECON: EMH and Tulip Bulbs                   [1 msgs]
+                         Getting paid for Net surfing                 [2 msgs]
+                 How Voluntary Socialism is Disproven Ration          [1 msgs]
+                    Introducing a New Language, "C-prime"             [1 msgs]
+                   LANG: E-prime and General Semantic Swamp           [1 msgs]
+                        META: Charging $ for the List                 [1 msgs]
+                             Net surfing for $$$                      [1 msgs]
+                                  Nyms (fwd)                          [1 msgs]
+                        PHYSICS: Theory and experiment                [2 msgs]
+                                 PRIV: Stego                          [1 msgs]
+                          Size of integrated circuit                  [1 msgs]
+                                   Still...                           [1 msgs]
+                                   Uploads                            [1 msgs]
+                             get me outta here...                     [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52039 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 19 Nov 93 02:43:29 PST
+From: pierre@shell.portal.com (Pierre Uszynski)
+Subject: Size of integrated circuit
+
+> From: kaspars@gvasun1.sps.mot.com (Kaspar Suter)
+> 
+> Tim May answers Michael Kelly's "Size of intergrated circuit" question:
+> 
+> >Usually measured in mm or in mils (.001 inch), more natural units.
+> >Modern microprocessors are about 500 mils on a side (.5 inch). Or
+> >about 10-15 mm.
+> 
+> In integrated circuit design you use microns (micron= um = micrometer)
+> Design rules are specified in microns. Companies sell you circuits
+> talking about X micrometer technology.
+>
+> [mils are old fashioned]
+
+Yeah, but lots of old fashioned US designers and managers still can't
+quote you a chip size or a "die cost" in anything other than mils square
+(as in 500 mils square), not even square mils (250000 square mils). So
+they keep juggling micron line dimensions, and mil die dimension :-)
+
+It can be really funny in design reviews when one engineer ;-) gives
+a chip area in square millimeters and refuses to convert while some
+colleagues look wide-eyed waiting for a translation to mils <chuckle>.
+
+Go metric,
+Pierre.
+pierre@shell.portal.com
+
+------------------------------
+
+Date: Fri, 19 Nov 93 6:20:14 EST
+From: rjc@gnu.ai.mit.edu
+Subject: META: Charging $ for the List
+
+Pierre Uszynski writes:
+> > [...] and I'll make sure you get a feed
+> > (minus those whose messages contain a X-Reposting-Policy header and those
+> > who quote such such messages) if Exi ok's it.
+> 
+> Well, that's a problem. What is ExI's position on forwarding? What is the
+> meaning of these non-sensical X-Reposting-Policy headers? (The forwarded
+> lists are comprised of extropians subscribers... they can post, they just
+> would not be receiving their feed from extropians-owner.)
+
+  Some people like Perry consider this list to be similar to private
+mail and wish posted messages to not be retransmitted without
+permission. It's not my place to judge whether or not he is being
+overly cautious -- I respect his right to copyright his messages.
+
+> >   Even if all of the delivery were offloaded from panix, cpu would still
+> > cost us $4-6/yr per user. Every posted message consumes 10-20 seconds
+> > of CPU time.
+> 
+> Arggghhhhh, what for Kibo's sake are you doing to these poor messages to
+> spend 10-20 CPU-seconds on each (not counting delivery)? Even a full
+> indexing of them for the benefit of list feature weenies would not take
+> that long! :-)
+
+   Checking each user's set of excludes against the message, setting
+various variables, running sendmail, plus the fact that the list is written
+in perl, not C. 2-3 seconds of that time is probably used up just
+loading perl and soft compiling the perl code. Undumping the list into an
+executable file could shave off a few seconds, but it won't do much. A C port 
+is planned, but don't expect it till summer. Also, I am running a development
+agent off the main list which is eating up another 5 seconds. A lot could
+be optimized, but I don't have the time for it and the list code isn't even
+finished. I have layed out what the _current_ costs are, and those are what
+ExI is pricing on. Cost reduction will come later just like it does in the
+market.
+
+> The Management presented the list charges as inevitable to
+> keep the list running, and not as a turn to a commercial enterprise. I
+> joined a list that was under the standard internet model (apart from
+> the legalistic administration :-), not a commercial provider. The claimed
+> technical reasons for charges seem bogus to me. A claim to switch
+> to for-profit status would have been fine by me.
+
+   The technical reasons are not bogus, I've told you what they are, but you
+don't have to believe me since what I say is irrelevent. ExI's bills are
+reality. The costs could be reduced by various other methods, but
+the "distribution tree" you outline is an administrative nightmare.
+If you don't want to pay the costs, cooperate with some other people
+and set up a redistribution network pooling cash together to purchase
+one $12 feed - there's no much we could do to stop you anyway. That's what the 
+market is. ExI is providing one service; if you think there is a 
+demand for free service, set it up but don't expect us to do it. Take
+action on your own. In fact, you could start up an alternative list if you want
+with your own software.
+
+    This is the last message I am writing on this subject. It's not even my
+place to defend these policies. If you have gripes with the list
+charges, send them to more@extropy.org.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.      --
+
+------------------------------
+
+Date: Fri, 19 Nov 1993 03:12:33 -0800 (PST)
+From: Sameer <sameer@uclink.berkeley.edu>
+Subject: Deja vu: Drugs and E-prime
+
+> I had first stated something about the positive uses of psychoactive
+> chemicals...
+> 
+> Elizabeth Schwartz had replied: "LSD *is* dangerous...."
+> 
+> I argued that her statement was far too strong, and I thought it was
+> more accurate to say: "LSD *can be* dangerous..."
+> 
+> And somebody else replied (don't remember his name.. JK?  CP?) "Sounds
+> like a job for E-prime to me!"
+> 
+> See how neatly I can tie these threads together??  :) :)
+> 
+	Wow, this is interesting, for it was about 11 months ago that
+I joined this list after visiting Scotto's place, in Iowa, a gathering
+for the leri-list which is all about psychedelics and E-prime. Hurm.
+
+> would put Lester Grinspoon in the same category. His texts in the field
+> (I believe he is a chemist like Shulgin) are supposed to be classics.
+	I *think* he's more of a psychologist/psychiatrist than a
+chemist. I could be mistaken, but I think he has an MD. (Grinspoon,
+that is.)
+
+> about the effects of KETAMINE.  Like Charlie's experience with opium
+	Ketamine. I have never had the pleasure/torture of a Ketamine
+experience, but some friends of mine tell me that the seperation from
+reality is so strong that it would be essentially useless.
+	Some have said it is useful for OOBE's. (Yes, that means
+"out-of-body-experience")
+
+> Ketamine.  Maybe all of those hours in the sensory deprivation tank
+> altered his mind so much, that Ketamine was a walk in the park!  I
+> wouldn't recommend this drug for *any* kind of transformation
+> experience.
+	Maybe. Even those of my friends who think Ketamine is a
+productive substance are amazed by Lilly's work.
+
+------------------------------
+
+Date: Fri, 19 Nov 1993 11:51:45 +0000 (GMT)
+From: Charlie Stross <charless@sco.com>
+Subject: PRIV: Stego
+
+[Forwarding to the list because mail to Romana bounced]
+
+Romana Machado <romana@apple.com> writes:
+
+>Ding! give the man a gold star...
+>Stego is the first steganography tool for the Macintosh, released this
+>Saturday at the cypherpunks meeting, and soon to appear in a public
+>directory near you. Watch for it.
+
+>Romana
+
+Sounds good. How/what does Stego do? (I know what steganography is,
+but I'd be interested to know how you handle it in software ...)
+
+Come to think of it, is there anything in the way of steganography
+tools for DOS/Windows? Or an ftp site for same?
+
+
+-- Charlie
+--------------------------------------------------------------------------------
+Charlie Stross is charless@sco.com, charlie@antipope.demon.co.uk  
+ 
+ 
+ 
+
+
+------------------------------
+
+Date: Fri, 19 Nov 93 4:41:58 PST
+From: szabo@netcom.com (Nick Szabo)
+Subject: Getting paid for Net surfing
+
+R. David Murray:
+> The other absolutely necessary things would be reputation data bases and
+> an arbitration mechanism.  The structure of both of these are non-trivial
+> (but definitely solvable) problems....
+
+> So, anyone interested in discussing how to implement this?  
+
+Sure, a bunch of us have been interested in this stuff for quite a
+while.  We already have HEx and AMIX.  The best place to start might be
+to figure out why these two projects haven't taken off, as the same 
+fate likely awaits the next such project that does not learn the 
+lessons from these.
+
+The main criticisms of HEx have been (a) lack of market volume
+(it's only available to Extropian list subscribers, only a small fraction
+of whom are interested enough to participate), lack of anything 
+"real" underlying reputation ratings, (c) lack of security, auditing,
+etc. (which can perhaps be forgiven a startup operation).
+
+> it ought to be possible to do it with very little capital outlay, 
+> as a cooperative Net project.  
+
+Many such projects are possible.  Some of the most successful direct
+software projects (eg PGP and emacs) are based on idealistic, inspirational 
+motivations of talented programmers with free time, rather than on a 
+desire to make money.  The main reason for this is that you don't make 
+much money by writing software and letting folks copy it; you can make 
+money by hanging revenue generating operations off existing software 
+(packaging, consulting, bundling, burning into ROMs, copyright and 
+patent enforcement, on-line services, etc.) The vast majority of programmers 
+make our living off such bundled or in-house applications, not by 
+writing software for direct standalone sale.  Other pure-information 
+forms, like music, suffer from a similar fate.  Most music is written 
+and performed for mostly idealistic reasons, and the vast majority of 
+money made off music is when the pure-info music is bundled with 
+something else -- ad jingles, live performance (the music world's analog 
+of online services like Dialog), and copyright enforcement via ASCAP.
+
+> The best thing is, this would be the perfect test bed for positive
+> reputations and competition in reputation/arbitration services. 
+
+This is what HEx is supposed to be.  (Of course, there's no such
+thing as a perfect test bed).  So we've already started testing
+reputation services (and arbitration services with Harry's judgements);
+the question now is how can we improve upon these?  
+
+I agree that decentralization and starting small is a great way
+to go.  Our little toys, the list  PPL and HEx, have contributed 
+more to our understanding of these issues than, for example, AMIX, despite
+the latter burning up far more time and money.  (Well, far more money
+anyway :-)  Much like the comparison between SSC and a wider
+diversity of physics experiments on a more reasonable scale.
+
+One general observation: there are many very talented
+people thinking abstractly about "how the net should look", what
+software tools "should be used", etc., and relatively few people 
+figuring out how we can solve practical business problems and meet 
+large common demands via the net.  It's the people who
+figure out how to meet practical demand via online net services
+that will rake in the big $$$, not the people with the idealistic
+visions.  (The latter might end up writing great, world-changing
+software like PGP, but they won't make any $$$ off it!)
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Fri, 19 Nov 1993 04:32:06 -0800 (PST)
+From: Sameer <sameer@uclink.berkeley.edu>
+Subject: Drugs
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+Kennita said:
+> 
+> 	I have found [LSD]'s use a reprogramming drug to be useful, if not
+> 	somewhat slow (because of it's interesting 'side-effects')
+> 
+> I thought that one could reprogram oneself faster with LSD than with
+> other methods.  Do you know a faster one?  What "interesting
+> 'side-effects'" do you mean, and how do they slow down the
+> reprogramming?
+> 
+	Not really faster, I think. Psychedlic drugs require less
+*discipline* than other methods, which may make things faster, but the
+less discipline means that you might just end up having "fun" during
+the experience and not getting that much out of it, slowing you down.
+
+
+> 
+> I'd never had any inclination to try heroin (among other things, I
+> _hate_ needles), and Charlie's description of heroin just convinced me
+> more strongly never to try it.  I also notice that I had lumped all
+> drugs into that bin (DANGER!  DANGER!), which explains my universal
+> negative reaction.
+> 
+	That reaction is very common. The biggest danger associated
+with the lumping is that if someone realizes that marijuana is
+relatively harmless, but doesn't realize that the lumping is wrong, he
+or she may think harder drugs are similarly harmless.
+
+> 
+> At the moment, I have a mental picture of trying each of several
+> different drugs, once each, one per month, under professional
+> supervision.  I've only heard of marijuana taking more than one dose
+> to show an effect; do other drugs have this property?
+	Not to my knowledge, no.. no well-known psychedelics require a
+"sensitization" (I think that's what it's called) to the chemical
+before strong effects are felt. *Experience*, however, may be
+necessary in order to be able to apply the experience to its full
+potential.
+
+
+> 
+> Alex writes:
+> 	I have tried alcohol, LSD, and psilocybin (mushrooms), and of all I
+> 	feel that psilocybin leaves one with the clearest mind with the least
+> 	danger.  From personal experience, it leaves a calm and clear
+> 	euphoria in which I tend to be very creative and attentive to my
+> 	surroundings, with the unfortunate side effect of shaking a great deal
+> 	afterwards.
+> 
+> Have others had this experience with mushrooms?  How long does the
+> experience last?  How long does the shaking last? Does it feel like
+> cold?  Like overtightness?  Like overlooseness? Does it keep you from
+> performing normal tasks (driving, typing, preparing food), or from
+> sleeping? 
+	My experience with mushrooms has actually brought me deeper
+into the scary parts of my Self than LSD. (Limited experience
+however.. such difference may not be a function of the chemical but a
+function of my states at the time) The fact that mushrooms *have*
+brought me into scarier regions, however, has shown me that *THAT* is
+where I need to explore. The LSD-spaces for me are relatively benign--
+there is not as much which needs to be transformed there as in the
+mushroom space.
+
+
+> 
+> I've heard about psychoactives (and maybe other drugs) mimicking
+> psychosis, or even precipitating psychotic episodes in nominally sane
+> people.  Does anyone know about this one way or the other?
+> 
+	It was thought in the early days of psychedelic research that
+psychedlics induce a state of temporary psychosis. This isn't the
+currently held belief.
+	On precipitating a psychotic episode-- it's probably rarer
+than the number of permanent maiming injuries from alcohol. (Not
+saying that makes it *rare*.. just not as frequent.) I couldn't say
+for sure about that issue.
+
+> What books (if any) include graphs of body weight vs. dosage vs.
+> effect?
+	Others have already done so, I have already done so, but I'll
+do it again: _Phenethylamines I Have Known and Loved: A Chemical Love
+Story_ by Alexander T. Shulgin is a magnificent book.
+
+
+
+> Oliver writes:
+> 	[re LSD]
+> 	Hits is 5 minutese, effects last for at least a day, can sleep on it,
+> 	wake up still high... Can be kinda annoying to some extent
+> 	when things last that long... 
+> 
+> Annoying doesn't cover it.  I find that frightening.  Having no way to
+> escape the experience scares me.  I'd prefer to start with something
+> that lasts as short a time as possible (30 seconds would be ideal -- I
+> can put myself in a situation in which I can almost certainly not do
+> anything really stupid in 30 seconds), so I don't feel trapped.
+	30 seconds?
+	Hm. In the realm of short acting psychedelics, all I can think
+of is DMT, which is about 10-30 minutes, but DMT is *not* for the new
+explorer. I haven't tried it, nor do I plan on trying it for a LONG
+time.
+	There's Nitrous Oxide, but that's *very* recreational. It has
+some potential, but the short-term addictive, "hippie crack" nature of
+the substance, in my opinion, makes it rather useless for
+exploration/transformation.
+
+> 
+> Could someone list how long the effects of various drugs last?  I have
+> two endpoints (I think):  At one end, heroin (4 minutes); at the
+> other, LSD (over a day).
+	LSD is about 12-14 hours, generally.
+
+	MDMA's peak lasts for about 2-5 hours, I think, but, as I've
+stated, it can leave one *very* high throughout the next day. (And a
+friend of mine tells me that his afterglow once lasted four months.)
+Note that this "high" is a *GOOD* thing. In experience it's been a
+feeling of confidence and optimism.
+
+> >From Oliver again:
+> 	[Hell, the afterglow surrounding MDMA
+> 	sometimes lasts for *months*, if the proper reentry is taken].
+	That was me.
+
+> 
+> Please define "reentry", and the nature of this "afterglow".  Thanks.
+> 
+	Like I briefly stated above, the "afterglow" is a feeling of
+confidence, empathy, etc. A subdued extension of the effects of the
+drug.
+	By "reentry" I mean a period of time to readjust after the
+experience, before any commitments. Allow at *LEAST* one full day
+after the experience before you have any commitments, for that will
+allow you time to think, explore the day-after afterglow, and *rest*
+(MDMA makes one quite tired, after the experience).
+
+> 
+> I had envisioned mescaline as a powder.  Does it occur naturally?
+	It comes from the peyote cactus. It has been synthesized. (I
+think it was Sandoz who did the first synthesis, right?)
+
+> 
+> Amara writes:
+> 	Since MDMA, MDA, LSD have all been talked about, let me fill in a hole
+> 	about the effects of KETAMINE... [highly negative experience
+> 	elided]... I wouldn't recommend this drug for *any* kind of
+> 	transformation experience.
+> 
+> Thanks for the heads-up.  Does Ketamine fall under the class of
+> barbiturates?  Psychedelics?  Something else?
+> 
+	Dissassociative anesthetic, I think. Same class as PCP?
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+iQCVAgUBLOy8wHi7eNFdXppdAQE3/gP9GDkB5wSl0gMEbbycNrh+B/qwI8f4Eog9
+13kgVYZqXPSu7jCxGG3MJQrlpwCiLM+C3ywlO97dzHQQvVqAnvXQj4/+nM4aHktA
+ERspFmOgWxnkaNsQHRvnO8rABK9HEuFw2QlkH+Vt8WfoGrSHm0aRGnACwSV2Nplu
+4Davw5KBs+I=
+=Tt2m
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+Date: Fri, 19 Nov 1993 12:44:41 +0000 (GMT)
+From: Charlie Stross <charless@sco.com>
+Subject: PHYSICS: Theory and experiment
+
+Alexander Chislenko <sasha@cs.umb.edu> writes:
+
+>   Recently, I read about an interesting experiment:
+>by cooling very rare gas (xenon, as I remember) to extremely low
+>temperatures (about a millionth of a degree K), its atoms may be
+>brought into state where they considerably overlap (the uncertainty
+>principle states that for low [fluctuations] of energy - true for cold
+>gas - we have fuzzy positions).  Multiple overlapping bosons create
+>a new state of matter which seems to have no precedent in the history
+>of physical Universe.
+>  The original version of the equipment cost a few hundred dollars;
+>now they are improving it to lower the temperature for the levels
+>necessary for the predicted new state. Seem pretty close.
+>  (Does anybody know any recent details on it?)
+> 
+>  Unlike SSC, this kind of research brings no satisfaction to macho/
+>national feelings (our collider is bigger than yours! <E' dropped
+>for quoting humans>), or digging contracts...
+> 
+>   I would expect that we have more things left in low-energy
+>and low-$ physics; solid-state physics, including 'warm' superconductors,
+>may bring us lots of interesting - and useful - results in the near
+>future.
+
+Indeed, it may be that SSC was never necessary in the first place.
+
+New Scientist (18-Nov-1993) is a special issue focussing on plasma 
+physics.  One of the articles covers some new multi-terawatt desktop
+lasers (T3 lasers) that achieve higher energy density than enormous
+Shiva-type lasers but fit on an optical bench. (They work by some kind
+of phase-stretching mechanism; the laser pulse is stretched,
+amplified, then compressed massively in the time domain so that it
+comes out in something like 10e-14 seconds.) They're speculating about
+using beat-wave pulses to accelerate electrons through a plasma cloud
+to energies on the order of 100 GeV in a distance of 10 centimetres ... 
+
+... instead of the 27Km track diameter of the LEP at CERN.
+
+Indeed, if this actually can be made to work, it will bring particle
+physics research back into the financial grasp of small university
+departments, never mind the vast bureaucratic organizations like CERN
+that have had a virtual monopoly on it since the 60's. I'm not sure
+what the long term implications are, but it would be a great irony if
+within months of the SSC being cancelled, similar accelerator energies
+were being achieved by bench-top devices in universities.
+
+Go check it out. Maybe some real physicists out there can tell the
+rest of us if it's as good as it sounds.
+
+
+-- Charlie
+--------------------------------------------------------------------------------
+Charlie Stross is charless@sco.com, charlie@antipope.demon.co.uk  
+ 
+ 
+ 
+
+
+------------------------------
+
+Date: Fri, 19 Nov 93 13:00:22 GMT
+From: jrk@sys.uea.ac.uk (Richard Kennaway)
+Subject: Introducing a New Language, "C-prime"
+
+Perhaps Klaus? von California Prime or perhaps some other entity may have
+said something that may or may not have included the following words:
+
+>Translated into C-prime:
+>
+>"If you feel that your needs are met by speaking in a tentative way,
+>well, then many of us think nice thoughts about that. I won't invade
+>your space by saying things that might bother you. Have a nice day."
+
+It is a matter that calls for further research that on the conlang mailing
+list or perhaps some other forum, perhaps Jacques Guy or some other person
+posting from an account which perhaps resides at some point in the land
+mass conventionally designated in English or perhaps some other language as
+"Australia", that a language or other form of communication or verbal
+behaviour conventionally designated as "Inoffensish" may already have been
+invented or perhaps discovered or created, which might or might not bear
+some resemblance or other connection of similarity or dissimilarity in
+certain respects to C-Prime, by perhaps being intended to cause as little
+offence as possible.
+
+I'd say more, but the excessive length would itself offend, and thus break
+the central principle of Inoffensish.  To really write in Inoffensish, one
+must omit content both to keep the length down and to further reduce the
+chances of offending anyone.  The ideal text in Inoffensish is a short
+paragraph that says nothing at all.
+
+As with E-Prime, writing in Inoffensish is a useful exercise, though by
+contrasting means: exaggerating certain faults of writing, and hence of
+thought, the better to notice them when writing or reading normally.
+
+--                                  ____
+Richard Kennaway                  __\_ /    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk      \  X/     University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk    \/       Norwich NR4 7TJ, U.K.
+
+
+
+------------------------------
+
+Date: Fri, 19 Nov 1993 12:58:54 +0000 (GMT)
+From: Charlie Stross <charless@sco.com>
+Subject: How Voluntary Socialism is Disproven Ration
+
+you [starr@genie.slhs.udel.edu] write ...
+        :
+>Voluntary socialism is impossible because without the emergence of the
+>phenomena of prices from the exchange of private property rights, the
+>rational economic calculation we need in order to best allocate scarce
+>resources (means) to produce goods and services (ends) is impossible.
+
+Isn't this making a big assumption? Namely that resources are, and
+will remain, scarce?
+
+How un-extropian.
+
+(Clue  -- :-)
+
+Seriously, you make a very good case against economic socialism.  To
+undermine it would necessitate some fundamental changes: either to a
+society of plenty (where the available resources exceed everybody's
+combined maximum requirements), or to a redefinition of property or
+individuality.  If you subscribe to the idea of a singularity then any
+one of those three contingencies might come about, but there's no
+obvious way of predicting them.  Hmm.
+
+Can you make a case against all forms of non-economic socialism? (Such
+as families ...)
+
+I'd like to see such a proposal.
+
+
+
+-- Charlie
+--------------------------------------------------------------------------------
+Charlie Stross is charless@sco.com, charlie@antipope.demon.co.uk  
+ 
+ 
+ 
+
+
+------------------------------
+
+Date: Fri, 19 Nov 93 08:12:27 EST
+From: eli@suneast.east.sun.com (Elias Israel - SunSelect Engineering)
+Subject: ECON: EMH and Tulip Bulbs
+
+I apologize, but I failed to mention that the message number to ::resend
+if you want that excerpt is 93-11-665.
+
+Elias Israel
+eli@east.sun.com
+
+I'm really on vacation now. I mean it this time!
+
+
+------------------------------
+
+Date: Fri, 19 Nov 1993 07:15:28 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Uploads
+
+I haven't seen much on Uploading here recently,
+so here are a few random thoughts:
+
+I wonder if the brain might be a classic case
+of a complex system that is sensitive to
+initial conditions and small changes in component
+behavior.  On one hand, it makes some sense to
+say (as Edelman essentially seems to) that the
+important functions of the brain act on the
+statistical aggregates of many neurons.  Making
+a slightly imperfect copy of the original when
+uploading, or not *perfectly* simulating the
+physics of neurons (even if that is possible)
+would then probably not make any difference at
+all in behavior.  However, if (as with other
+complex interacting systems) the resulting
+behavior may in fact diverge quite quickly and
+maybe even noticeably from what the original
+would have done.
+
+I know, I know -- big deal.  We change all the
+time.  But now consider that as good Extropians
+we believe that we are in competition for resources
+and power with our peers.  It seems to me (all
+points debatable, that's the point of posting!) that:
+
+  * identity is linked to the fidelity of the
+    neural simulation.  That is, the more inaccurate
+    the neuron model, the more the "identity" of
+    the upload will be the same as the identity
+    of the original.  Note that Mark Miller's
+    credit theory of identity denies this.  A
+    wildly inaccurate upload, one sophisticated
+    enough to do nothing but entertain a single
+    thought "crediting" the original, would be
+    at least as identity-preserving as a more
+    "normal" upload that entertained some doubt.
+    This is why I don't like the credit theory.
+
+  * a functional brain simulation could be
+    achieved with significant simplification of
+    the neural model.  By "functional" I mean
+    that the upload would work, but might behave
+    very differently from the original.  Even
+    more significant simplification could be
+    derived from the approach that Moravec uses
+    in Mind Children, which requires clever
+    recoding of all brain functions to achieve
+    the processing requirements he uses in his
+    timetable estimates.
+
+  * Uploads employing such simplification will
+    be at a large competitive advantage over
+    those who do not (imagine if you thought
+    ten times more slowly than your colleagues...)
+
+Will we be forced by competitive pressure to warp
+our identities in possibly undesirable directions?
+
+Speaking of which, the recent drug discussion of
+course highlights the mind-altering options available
+for uploads.  The simplest of the options would
+virtually mimic the current concerns.  If hallucinogens
+act by reducing the amount or effectiveness of serotonin,
+presumably such alteration would be a trivial alteration
+in the parameters of a synapse model.  Similarly,
+Charlie Stross writes of the addictive potential of
+certain drugs because of their affect on the "pleasure
+center" of the brain.  Well, we'll certainly have access
+to that center of our simulations!  Will we be able
+to resist the temptation?  I could sell a service
+where I would periodically inspect your "brain" to
+see if you were locked into such an addiction and
+break it by force... will you give me the keys to
+your programming?  Will you be able to hide from my
+analysis?
+
+derek
+debugger
+
+------------------------------
+
+Date: Fri, 19 Nov 1993 07:22:48 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: PHYSICS: Theory and experiment
+
+Sasha:
+
+> Multiple overlapping bosons create
+> a new state of matter which seems to have no precedent in the history
+> of physical Universe.
+
+Sorry to be non-EC, but I do worry about creating states of matter
+with no precedent in the history of the Universe.  One explanation
+for the apparent lack of technologically-advanced aliens would be
+that some such thing, on the natural technological path, causes
+an unforseeable catastrophe.
+
+derek
+
+
+------------------------------
+
+Date: Fri, 19 Nov 1993 08:02:19 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Nyms (fwd)
+
+THE FOLLOWING was sent to me by somebody who apparently subscribes
+to the Extropians list but is of course unable to post here
+anonymously.  One of the good things about such a system is that
+I am not compelled to forward such messages, thus hopefully reducing
+some of the problems that Cypherpunks has with anonymously-posted
+drivel.  However, as this message, from "Eternal Optimist", contains
+possibly interesting material, I forward it to the list.
+
+Begin Forwarded Message:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+Derek Zahn writes:
+>This issue is actually quite interesting -- the logistics of maintaining
+>pseudonyms that resist content analysis and correlation.  I expect
+>that a guide to the relevant techniques will appear eventually.
+
+Eric Hughes says cryptography is all economics (or was it privacy?). For
+many purposes, absolute security is unnecessary (unless it's free).
+
+I've considered trying to write a guide or faq. There's a lot of overlap with
+existing faqs. (And there are holes where faqs ought to be that I can't fill,
+such as cypherpunks and PGP. Or has alt.*.pgp whatever it is generated a faq?)
+Hmm, what would be in such a guide? I hope I archived the recent discussion
+on cypherpunks (minus the recent controversy). How to deal with PGP, penet,
+CP remailers, netiquette, style, common errors, sysadmins, good advice.
+
+>The important question:  WHY would anybody want to use a 'nym?
+> * danger avoidance (as in Vinge's "True Names").
+> * reputation preservation
+> * "psychological" reasons
+
+Perhaps this is only a difference of degree, but I would add * caution. I
+am unaware of any danger that I would face by posting under my real name,
+but I just don't want future employers or  any other dossier user to gain
+information on me via internet. Or rather, I don't want it to be easy, as
+I don't foresee any circumstance where anyone would be desperate to know
+who I am or whether my alter-ego ever posted on various lists and newsgroups.
+Would you call that danger avoidance?
+
+>but do pseudonymous activities tend to demolish the self?  Does it
+>tend to fragment and suppress the ego?  Is it Buddhist therapy?
+
+R. A. Wilson relates the story of a single person who pseudonymously wrote
+editorials in both of the major Dublin newspapers, adopting the roles of
+two guys who disagreed on everything and hated each other. This is supposedly
+a true story and he got away with it for years. So Pseudonymity can be just
+the same person using a different name, or a novelistic character authored by
+someone.  Didn't Dean Tribble mention something similar in reference to
+role-playing games long ago?
+
+Forward to extropians if you wish, security prevents me. This is an amusing 
+twist where persons (such as Tom Morrow) can use pseudonyms, but must reveal
+their 'true address'.
+
+Eternal!Optimist@anon.penet.fi   (copyright 1993, Eternal Optimist [Ha Ha Ha])
+ 0) 0) =:()]-<                                    <na26436@anon.penet.fi>
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3
+
+iQCVAgUBLOx1lIjvfLxJbYYtAQFixgP9ESTvEwJdceZpSuMbH/CESy0kYdl95jwD
+VqD9Ghw0KE+9uUWREk/989Kc8kLNQbPac26hafqKvHfzplprz4SVBpklisPp7tFC
+ro6ezbiXTYvbJ0ulsO6IYinsv7jHOiJKMqOtrtoc8gRjOECCxf50ym1eCqMqXHho
+t8UwtTmGRXQ=
+=ERoS
+-----END PGP SIGNATURE-----
+
+
+------------------------------
+
+Date: Fri, 19 Nov 1993 08:03:51 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: Still...
+
+In <199311182348.PAA24922@mail.netcom.com>, Timothy C. May writes:
+|> I don't belong to the Libertarian Party partly because I refuse to
+|> sign their silly pledge against use of force.
+
+It's a pledge against _initiation_ of force. It's also an excuse for
+yet another round of factional infighting this year (if it hadn't been
+that, they'd have found something ...).
+-- cP
+
+
+------------------------------
+
+Date: Fri, 19 Nov 1993 08:24:38 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: LANG: E-prime and General Semantic Swamp
+
+In <199311190726.AA20840@eris.cs.umb.edu>, Alexander Chislenko writes:
+|>    I probably should read Korzybsky before talking on the subject
+|> (maybe, we want to add the book to the extropian ::readinglist too),
+|> but I'll still risk it:
+|> 
+[Yes! Nail on head! What he said!]
+
+And surely enough, if you actually read the primary literature, you
+find that GS encompasses a lot more than the silly E' controversy that
+won't go away; it attempts to drain at least parts of the semantic
+swamp (good term, except it insults wetlands :-).
+
+Korzybsky didn't invent E', and he used be-verbs extensively, while
+criticizing the use of the "is of identity".
+
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+
+------------------------------
+
+Date: Fri, 19 Nov 1993 08:41:20 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: Getting paid for Net surfing
+
+In <199311191241.EAA22718@mail.netcom.com>, Nick Szabo writes:
+|> R. David Murray:
+[...]
+|> The main criticisms of HEx have been (a) lack of market volume
+|> (it's only available to Extropian list subscribers, only a small fraction
+|> of whom are interested enough to participate), lack of anything 
+
+Interestingly enough, Rowan advertised HEx in Michael Linksvayer's
+net.magazine _Meta_. I can't really see the Net at large taking to it,
+but if it did, imagine the wheelzy-dealzies. Imagine waking up one
+morning, opening your crisp electronic copy of the nightly HEx report,
+and seeing that some punx have manipulated the market so that DS has a
+valuation 10x that of SPAF.[1]
+
+_Meta_ is very nicely done, BTW. We'll see what kind of content it
+attracts if Mike is able to keep it going. So, there's one person
+getting paid for _writing_ about Net surfing!
+
+|> One general observation: there are many very talented
+|> people thinking abstractly about "how the net should look", what
+|> software tools "should be used", etc., and relatively few people 
+|> figuring out how we can solve practical business problems and meet 
+|> large common demands via the net.  It's the people who
+|> figure out how to meet practical demand via online net services
+|> that will rake in the big $$$, not the people with the idealistic
+|> visions.  (The latter might end up writing great, world-changing
+|> software like PGP, but they won't make any $$$ off it!)
+
+Another rhetorical ball smoothly stroked over the right-field wall.
+Hopefully some will manage to do both!
+
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+[1] DS == David Sternlight; SPAF == Gene Spafford
+
+
+------------------------------
+
+Date: Fri, 19 Nov 93 09:54:07 -0500
+From: Bill MacIntosh <wk01739@worldlink.com>
+Subject: Net surfing for $$$
+
+FYI:
+
+There are some services in existance that are called "info-brokers."  They 
+provide answers to a wide range of questions AND can provide analysis of the 
+information they have gathered.  They use a variety of sources, including the 
+'net.  I have some material from a woman in the SF bay area that is running 
+just such a business and wrote a book on it.
+
+Bill MacIntosh
+Sig, I don need no steenkin' sig!
+
+
+------------------------------
+
+Date:     Fri, 19 Nov 93 14:58:10 GMT
+From: nancy@genie.slhs.udel.edu
+Subject:  Re:  How Voluntary Socialism is Disproven Rationally
+
+I'm not sure that Tim has disproven all possible forms of socialism
+by bringing up the calculation problem, since after the Singularity,
+people will be able to calculate much better. Is there a proof
+that the complexity of what people want and will do about it is
+*always* going to be greater than their calculational ability?
+
+Also, would a society in which everyone voluntarily lives in communes
+that own property and compete/cooperate with each other count as
+free market or socialist? I think that a society like that would
+avoid the calculation problem, at least to a fairly large extent.
+
+Nancy Lebovitz
+
+------------------------------
+
+Date: Fri, 19 Nov 1993 09:02:02 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: get me outta here...
+
+In <m9N9cc2w165w@mindvox.phantom.com>, Molly Bloom writes:
+|> er...can you unsubscribe me form this listA?  the topics on here are
+|> great, but I'm finding myself with less and less time to wade through my
+|> email.  Thankyou...
+|> 
+|> molbloo@phantom.com
+|> 
+|> close your eyes and press your foot on the accelerator.
+
+You know, I just subscribed to com-priv@psi.com, and the second
+message I got (not counting the welcome, which plainly said:
+"Messages regarding un/subscriptions and other administrative requests
+should be sent to com-priv-request@psi.com.  This prevents the message
+from unnecessarily being sent to everyone subscribed to the list.
+
+To post a message to the list, send it to com-priv@psi.com.") was an
+UNSUBSCRIBE from some guy whose oversized .sig file said he was associate
+editor for communications and computers for _Forbes_. Of course,
+_this_ list has a -request address also ...
+
+I do wish there was a separate net for people who can't read.
+
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+
+------------------------------
+
+End of Extropians Digest V93 #322
+*********************************
+

@@ -1,0 +1,428 @@
+From extropians-request@extropy.org Wed Oct  5 09:02:17 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id JAA18938 for <more@chaph.usc.edu>; Wed, 5 Oct 1994 09:02:14 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA07789; Wed, 5 Oct 94 09:01:54 PDT
+Received: by news.panix.com id AA05564
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 5 Oct 1994 12:01:45 -0400
+Date: Wed, 5 Oct 1994 12:01:45 -0400
+Message-Id: <199410051601.AA05564@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-10-67 - #94-10-77
+X-Extropian-Date: October 5, 374 P.N.O. [12:01:06 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Wed, 5 Oct 94             Volume 94 : Issue 277
+
+Today's Topics:
+                               "Proof" in math                        [1 msgs]
+                                Julian Jaynes                         [1 msgs]
+                           LANG: Reclaiming 'slut'                    [1 msgs]
+                           Non destructive upload ?                   [1 msgs]
+                           Non-destructive upload?                    [2 msgs]
+            Non-destructive upload? (was Re: What Happens First?)     [1 msgs]
+                          Reclaiming the word "Slut"                  [1 msgs]
+             SCI/COMP/CRYPT: Goodbye RSA, hello Quantum Computer      [1 msgs]
+                       The pitfalls of futurology (fwd)               [2 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 27386 bytes.
+
+----------------------------------------------------------------------
+
+From: sw@tiac.net (Steve Witham)
+Date: Tue, 4 Oct 1994 23:57:04 -0400
+Subject: [#94-10-67] Reclaiming the word "Slut"
+
+Um, Design Slut?
+ --Steve
+
+ - - - - - - - - - -
+Lemme make it plain--better make way for homo superior --Bowie.
+
+
+
+------------------------------
+
+From: sw@tiac.net (Steve Witham)
+Date: Tue, 4 Oct 1994 23:56:59 -0400
+Subject: [#94-10-68] "Proof" in math
+
+Before mathematics gets roboticized, I would expect that theorem verification
+would be automated.
+
+Are there good, general automated systems for writing down and verifying
+proofs?  I've heard of Z, is it used for anything but program verification?
+
+It seems to me that with an automated verifyer, proving would become like
+programming--you write your first try, "compile" it, it gives you back an
+error message ("You didn't establish this precondition here...") and you
+twiddle and compile it again until it works.  Proofs are like programs,
+lemmas are subroutines and definitions are header files.
+
+I don't know if having a verifier available would be enough of a motivation
+in itself or if an application would be needed--like verifying programs or
+protocols or computer hardware designs.
+
+Of course this would be on a lower level than mathematicians are used to,
+but I'll bet it would have the same perverse appeal as programming, and
+create it's own subculture of proof-hackers.
+
+ --Steve
+
+ - - - - - - - - - -
+Lemme make it plain--better make way for homo superior --Bowie.
+
+
+
+------------------------------
+
+From: cactus@bibliob.slip.netcom.com (L. Todd Masco)
+Date: 4 Oct 1994 12:29:13 -0400
+Subject: [#94-10-69] The pitfalls of futurology (fwd)
+
+>>> Not about RBF himself or his work, but oh that opaque prose style!
+
+Hmmm.  Just to weigh in my opinion: I love RBF's prose style, much as
+others love James Joyce's style; I find it refreshingly information-
+dense.  It takes some effort to read, but the pleasure I get from reading
+it is a big bonus for me:  I feel like I'm getting some return on 
+reading time that's usually inefficiently spent.
+-- 
+L. Todd Masco  | Ingredients:  red, blue, and green quarks, six varieties of
+cactus@bb.com  |  gluons, electrons.  Some settling may occur in shipping.
+
+------------------------------
+
+From: John K Clark <johnkc@well.sf.ca.us>
+Date: Tue, 4 Oct 1994 13:26:18 -0700
+Subject: [#94-10-70] Non destructive upload ?
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+ Anders Sandberg nv91-asa@nada.kth.se   on October 3, 1994 wrote: 
+      
+	>Acording to calculations made on the cryonics mailing list a
+	>few years back, the necessary energy densities would vaporise
+	the brain. Since synaptic structures are so small, high
+	>frequencies would be needed. But the brain doesn't absorb them
+	>very well, so the energy has to be rather intense.
+	
+I haven't read these calculations but I do know that absorption
+is not the only thing that's important. In a conventional X- ray
+photons have to be absorbed if we are to get any information out
+of the object were looking at, this is because when the photon
+hits the film only the position and to some degree the amplitude
+of the wave is recorded, the phase of the wave is completely
+lost. In a hologram the phase information is retained so even if
+a photon is not absorbed by the target we can still get
+information about the target, the photon could get diffracted.
+That is , after all, how the DNA double helix was discovered and
+they didn't even have X ray lasers or holography just a crude X
+ray machine and a crystal to act as a diffraction grating.
+	
+	>I love the image of using gamma-ray lasers driven by atomic
+	>explosions in space to image brains onto holographic film                   
+	>moving at relativistic speeds.
+
+The work of Dr. Rhodes with " hollow" xenon atoms ( Aug. 25 ,
+1994 Nature) seems to indicate that desk top X-ray lasers in the
+2 angstrom range should be practical in a few years, visible
+light is about 7000 angstroms. A hologram could be recorded onto
+a photorerefractive crystal or one of the newer polymers such as
+poly-N-vinylcarbazole. You could even record it on regular X ray
+film and view it with visible light, you'd just have to enlarge
+it by 3500 ( 7000 angstroms / 2 angstroms). Dealing with film
+that big would be a bit awkward but it beats moving it at
+relativistic speeds.
+
+An X- ray enlarger could be made with today's technology. Dr.
+Nat Ceglio at Livermore made an X ray mirror using many thin
+layers of Molybdenum and Silicon. Each layer doesn't reflect
+much but  if the thickness of the layers are chosen properly at
+one wavelength all the reflected waves coincide. The
+reflection is coherent and about 60 % efficient. X- ray lenses
+are also possible. M.A Kumakhov and Walter Gibson at the State
+University of New York at Albany made one by bundling thousands
+of tiny hollow glass capillaries that guide X-rays.
+    
+I don't claim to have proven this is a way to make a non
+destructive upload but it is worth thinking about.
+
+		  johnkc@well.sf.ca.us
+
+- -----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: 2.3a
+
+mQCrAi2+qw4AAAEE8PDiHA05CEGh0S2XLWFHBP1TpHsKZjaEC/ZdzDmbfYSbsDk0
+Lx1QEqLhCmXe/lmuWJVLpa87uYoVOMTwtc83LfwwQlJIJVkYSn1p5IymR5iZ9cZr
+FIg6BktntleggMY3tb5QP8Zo5la1rcDepMht0Qiv7wyQ7lJLMDv3E4DrpcuCBHuK
+IYgOkuzgnycPYyaEKKI8u1NCX303wfSpid95AAURtCdKb2huIEtldmluIENsYXJr
+IDxqb2hua2NAd2VsbC5zZi5jYS51cz4=
+=TNMW
+- -----END PGP PUBLIC KEY BLOCK-----
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+iQCzAgUBLpG1oX03wfSpid95AQGThQTvdzgzjsGB+7ZCR7jESgqp1fFNRK+kGuVt
+1sJiRz/R8eGPuPKGQXO+e763k08QvTehEyNlmsku1WDNidYZH+/29qBgZ+UXJilQ
+cO19QBzBvK8O5k/eH7XOzwTLYdZ345OiWKQu8bxaZ5DBASzLIOxuChRupzJ0WJcJ
+4LqYjADO5r7h2fyo0eqh5cdaGgYj0f/BK+wTeQXmfvvyVv4oxLQ=
+=Ej28
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Tue, 4 Oct 1994 22:25:25 -0400
+Subject: [#94-10-71] Julian Jaynes
+
+ pavel@PARK.bu.edu  (Paul Cisek) writes in X-Message-Number: #94-10-22:
+>the Greeks, Jaynes proposes, humans have broken away from their subconscious
+>motivations and began thinking rationally.  Please correct if I have
+                                ^^^^^^^^^^
+>misrepresented Jaynes' position.  I'm sure I've left a lot out.
+
+ One of the best aspects of Jaynes' book is his questioning of the
+importance of consciousness to rationality. I think he helps clarify
+some of the qualitative differences between man and other animals,
+although it's my impression that most people who have looked closely
+at his evidence say it does not support the specifics of his theory.
+ It sounds like there is some confusion resulting from the use of the
+word consciousness to mean at least 2 different things - awareness of
+sensory input (the opposite of unconscious), and the distinctly human
+process in which verbal processes act on each other.
+
+-- 
+---------------------------------------------------------------
+Peter McCluskey    | pcm@rahul.net     | Cardassia delenda est!
+finger for PGP key | pcm@world.std.com | netcom delenda est!
+
+------------------------------
+
+From: cactus@bibliob.slip.netcom.com (L. Todd Masco)
+Date: 5 Oct 1994 01:31:50 -0400
+Subject: [#94-10-72] Non-destructive upload?
+
+In article <Pine.3.87.9410011944.E2451-0100000@black30.nada.kth.se>,
+Anders Sandberg <nv91-asa@nada.kth.se> wrote:
+>A more passive scan, studying the electrical impulses is also
+>probably rather infeasible. Even if we could get the necessary
+>resolution (using nanotechnological SQUIDS?), we would only see
+>the electromagnetic interactions, and miss the chemical and
+>biological structures. 
+
+Depends.  If you can get it fine enough (nano-STM/AFMs?), all
+chemical and biological interactions _are_ E/M interactions.
+
+Combining the E/M interactions to get all the electrons (IE, measuring
+the potential wells of each molecule to yield the chemical reactions)
+and NMR to get the types of each nucleus should be possible, no?
+
+Of course, that isn't with our current technologies (not to mention
+computational ability), but the only limit I can think of is fining
+the location down enough for a molecule-by-molecule scan: you've got
+to have a detector that can give pretty damned precise measurement
+for the path of the emitted electrons and/or you've got to be able
+to induce a pretty damned small (physically) magnetic field.
+
+Perhaps nano-NMRs could be designed using ferromagnetic molecules (perhaps
+embedded in buckballs, should some confinement be required to retain
+ferromagnetic properties) to project such fields.  For such small
+distances, you could probably tune the magnetic fields to the
+nuclear resonance points simply by changing the distances among your
+ferromagnetic nNMRs (which would have to be connected in some manner,
+unless we manage to find magnetic monopoles before then).
+
+"Tagged" nano-STMs could likewise be engineered, amplifying the nSTM's
+current orientation and relative "potential" wells in such a way that
+the physical location can be triangulated upon.  Not perfectly precise,
+but precise enough: a good enough computation model would have to be
+able to find the natural configurations of the molecules given their
+approximate conditions.
+
+Not today, but within 40 years, maybe 15-20.
+
+Or am I missing something obvious?
+
+Physics-musingly,
+-- 
+L. Todd Masco  | Ingredients:  red, blue, and green quarks, six varieties of
+cactus@bb.com  |  gluons, electrons.  Some settling may occur in shipping.
+
+------------------------------
+
+From: Elizabeth Schwartz <betsys@cs.umb.edu>
+Date: Tue, 4 Oct 1994 18:39:43 -0400 (EDT)
+Subject: [#94-10-73] LANG: Reclaiming 'slut'
+
+> Simon wrote:
+> 
+> >The word "slut" has negative connotations 
+> >because female promiscuity has negative connotations. I
+> >don't see how word usage is going to change that.
+> 
+> At least it's a start, huh?
+> 
+> >female promiscuity has negative connotations. . . . Can someone explain why
+> I'm wrong?
+> 
+> Can someone explain why he's right?
+
+Something to do with the way that social constructs are perpetuated; A
+post-JC-morality Extropian or liberated libertarian libertine may be aware
+of this innovative interpretation, but to most people, the word "slut"
+implies disapproval. Hearing other people use the word just reinforces the
+belief (can I say, perpetuates the meme?) 
+
+Hearing one person, face to face, call themselves a "slut" with pride,
+possibly along with an explanation, might persuade the listener that this
+particular individual is using the word in a different way ro that the
+speaker doesn't disapprove of the activity. If you call a company "Sluts,
+INC" there's no mechanism for conveying any new meaning along with the
+name; the listener will attach the meaning they know to the word.
+
+I've heard gay men call themselves "sluts" and my impression was that they
+were putting themselves down.
+
+Why not choose a new word to go with a new concept?
+
+Betsy 
+
+(still trying to purchase a copy of Korzybski; the library took their copy
+back from me by bureaucratic extreme force)
+
+
+------------------------------
+
+From: RjB <onomoto@rahul.net>
+Date: Tue, 4 Oct 1994 23:10:20 -0700 (PDT)
+Subject: [#94-10-74] SCI/COMP/CRYPT: Goodbye RSA, hello Quantum Computer
+
+Thus sprach Nick Szabo:
+> appear.  There's an outside chance that the NSA is building a 
+> quantum computer even now, but I heavily doubt that this 
+> will happen within the next ten years, and it might take much longer.  
+> 
+
+	If the readers will excuse my ignorance, since my knowledge
+of QC is weakly bounded by the content of this list -- can anyone
+dare estimate the cost of building this beastie?  
+
+	We all know that the NSA's budget's black as darkest night, 
+but well.. how much *can* you hide?
+
+	-o
+
+	
+
+------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Wed, 5 Oct 94 12:25:53 GMT
+Subject: [#94-10-75] The pitfalls of futurology (fwd)
+
+ Steve Witham <sw@tiac.net> wrote:
+
+>Someone in the middle of this century took a poll of physicists:  Do
+>you think in words, pictures, or what?
+>
+>   Some, but not the best physicists, thought in words.
+>   Most thought in pictures.
+>   One said he felt sensations in his hands and arms--Einstein.
+>
+>This is interesting when you consider his ability to write as well.
+>
+>There are two patterns I notice in how I think.  One is, I say aloud what
+>I think the problem or solution or state of solution is.  Then I usually
+>say, "No, that doesn't sound quite right, the *real* problem is..." and
+>iterate like that.  The other is, I draw a diagram, and redraw and redraw
+>and redraw, trying to make it a perfect map of a problem.
+>
+The part that I'm interested in at the moment is the sense of "not
+quite right". It seems to imply that the idea is in your mind in
+some form before it gets to *any* of the sensory modes.
+
+Does anyone know anything about how Einstein translated the sensations
+into words/equations?
+
+Nancy Lebovitz
+
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Wed, 5 Oct 1994 11:00:28 -0400
+Subject: [#94-10-76] Non-destructive upload?
+
+ fcp@nuance.com  (Craig Presson) writes X-Message-Number: #94-10-59:
+>At 11:44 AM 10/4/94 -0400, cactus@bibliob.slip.netcom.com (L. Todd Masco) wrote:
+>I can tell you that without an NMR -- all bioactive molecules are
+>D-isomers.
+
+ Is this intended as a joke, or are you really that confused?
+-- 
+---------------------------------------------------------------
+Peter McCluskey    | pcm@rahul.net     | Cardassia delenda est!
+finger for PGP key | pcm@world.std.com | netcom delenda est!
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Wed, 5 Oct 1994 11:00:01 -0400
+Subject: [#94-10-77] Non-destructive upload? (was Re: What Happens First?)
+
+ nv91-asa@nada.kth.se (Anders Sandberg) writes in X-Message-Number: #94-10-46:
+>I already regard my glasses, my calculator, my pager, my computer account
+>and my Web pages as a kind of extensions of myself, not yet parts of me,
+>but not that far from it. They provide new functions or enchancements, and
+>although they are partially replaceable they form a kind of "exo-self"
+
+ I feel that the source code in my computer is part of my memory, and
+occasionally feel disoriented when I am cut off from it. But slow access
+times due to my limited output capabilities (primarily clumsy fingers)
+severely limits the usefullness of this memory. It will be hard to get
+much improvement in my output capabilities without a direct neural
+connection.
+
+>[1]. By the way, we better make the neural connections easy to change when
+>we build them. Imagine being stuck with a RS232 port in your skull when
+>everybody else is using SCSI. :-)
+
+ I don't expect much standardization because they will require substantial
+training (probably years) to use well. This will make it very hard to switch
+to the latest model, and will limit the number of people using them to the
+point where they will almost be hand crafted.
+-- 
+---------------------------------------------------------------
+Peter McCluskey    | pcm@rahul.net     | Cardassia delenda est!
+finger for PGP key | pcm@world.std.com | netcom delenda est!
+
+------------------------------
+
+End of Extropians Digest V94 #277
+*********************************
+

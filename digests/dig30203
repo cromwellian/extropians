@@ -1,0 +1,1077 @@
+From extropians-request@gnu.ai.mit.edu Sun Apr 18 13:09:47 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA17034; Sun, 18 Apr 93 13:09:32 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from churchy.gnu.ai.mit.edu (geech.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA15846; Sun, 18 Apr 93 13:09:25 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by churchy.gnu.ai.mit.edu (5.65/4.0)
+	id <AA05724@churchy.gnu.ai.mit.edu>; Sun, 18 Apr 93 15:59:25 -0400
+Message-Id: <9304181959.AA05724@churchy.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Sun, 18 Apr 93 15:59:06 -0400
+X-Original-Message-Id: <9304181959.AA05718@churchy.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0203
+X-Extropian-Date: Remailed on April 18, 373 P.N.O. [19:59:24 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Sun, 18 Apr 93            Volume 93 : Issue 0203
+                        
+Today's Topics:
+                         Big Brother: Easy to Break                   [1 msgs]
+                   CRYPTO: Thanks for the RSA explanation             [1 msgs]
+                        Clipper mailing list messages                 [1 msgs]
+            Comments from Jim Bidzos, Pres. of RSA Data Security      [1 msgs]
+                       Fighting the Wiretap Chip Plan                 [1 msgs]
+                   Forward: AT&T Press Release on Clipper             [1 msgs]
+                       HUMOR: Libertarian Party doomed                [1 msgs]
+                                 IMPORTANT!                           [2 msgs]
+                          It is two 80-bit "halfs"                    [1 msgs]
+                      Mitch on the Clipper Mailing list               [1 msgs]
+                  More True Names: The NIST Security Board            [1 msgs]
+               More True Names: The NIST Security Board (fwd)         [1 msgs]
+                        Odd: The Clipper Mailing List                 [1 msgs]
+                              Reversible logic                        [1 msgs]
+                  SMART: Hydergine & piracetam potentiation           [1 msgs]
+                      The mysterious mailing list (fwd)               [1 msgs]
+                              Wiretapping chip                        [1 msgs]
+                  Wiretapping chip: vid clips & sound bites           [2 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 51089 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 18 Apr 1993 02:08:46 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: Wiretapping chip
+
+I agree we should write letters, but not (or not just) to government
+officials.  Consider targetting the big phone makers -- both domestic 
+and overseas.  Let them know our privacy needs as customers -- that 
+we want secure encryption, that means encryption with _published 
+algorithms_ and without having the key available to _any_ third party,
+be it the U.S. or any other government, or any nontrustworthy private 
+organization.  I almost agree with Sandy that "we've won", but an important
+part of the market process that brings such victory is giving
+good customer feedback to communications suppliers.  
+
+Also for consideration: boycott AT&T and all other companies making
+phones with the wiretap chip, and let the phone makers know about 
+the boycott early and often.
+
+Also I am curious specifically how (a) encrypted international
+phone calls and (b) foreign-made phones will fair under this
+proposal (or possible follow-on proposals when they see the
+weak points in this one).  Can the U.S. government dictate
+key registration to the world?
+
+I agree with Perry that "cypherpunks" is a bad label when
+these kinds of issues get raised in public, and would also add 
+"crypto-anarchy" to that.   Our main "talking point" is privacy, 
+and other less popular stuff is best kept -- private.
+
+Nick Szabo					szabo@techbook.com
+
+------------------------------
+
+Date: Sun, 18 Apr 93 2:30:33 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: IMPORTANT!
+
+>     Do you understand what Digicash is and how it works? 
+
+>     I'm not talking about how banks work now, I'm talking about how
+> banks would work if government fiat money was eliminated.
+
+And I am not talking about some pipe dream.  Short of full scale revolution
+you are NOT going to be able to "eliminate" the current money set up.  It
+is a fantasy.  IMNSHO.  Digital money, as it stands now is a VERY Bad Thing,
+it is traceable more so that almost anything you care to think of.  I can
+think of nothing that is going to make the govt and the corps.(e) give up
+that power.  All this bru-ha-ha (sp?) about our privacy is almost a moot point.
+The banking system took that away from us long ago.  I certainly agree with
+you that the idea of secure, electronic money is nice, but how could it
+possibly be interested?  I am not really telling you you are wrong, but rather
+stating the devil's advocacy position, and asking you to contradict this with
+something VIABLE, which I have yet to see.
+
+> > Right.  Well you get together about 5 trillion dollars and we'll overthrow the
+> > world banking system, and institute our new secure e-money.  I mean, come ON!
+> > What makes you think the banks and the govt will stand for such a thing as
+> > "the private sector" (sector of WHAT?) making its own e-money?  The days of
+> 
+>    Ask yourself how banks started, how loan sharks operate, how coupons work,
+> or how credit card companies started. (hint: the government wasn't involved)
+
+You are missing the point.  The point is that, as far as I can see (and I 
+surely wish it were not so) there is no way to replace the system short of
+a major revolt.  And all of those examples exist with the blessing of the
+govt., even if they did not create them.  The extropian scheme would most
+certainly NOT have that blessing, not under anything like the current admin,
+as far as I can see.  Again, I am not trying to be a knowitall, but rather
+stating what APPEARS to be the rather dismal state of things.  If this is
+REASONABLY refutable, without resorting to wishful thinking, lets have it!
+
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Sun, 18 Apr 93 04:44:48 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: Reversible logic
+
+Richard Kennaway asks:
+
+> Is the CV^2 * RC/T rule specific to CMOS, or more generally applicable? 
+
+Generally applicable to resistive circuits where Ohm's Law is obeyed 
+(ie not just CMOS circuits).
+Resistive power loss per cycle:
+           = VI * T      (using power = VI)
+           = I^2 * R * T  (using Ohm's Law: V = IR)
+           = (Q/T)^2 * RT  (using I = Q/T)
+           = (CV/T)^2 * RT  (using Q = CV)
+           = CV^2 * RC/T
+QED if Ohm's Law obeyed.
+
+> Can R be set equal to zero by using superconductors?
+
+I would guess, yes.  Anyone know for sure?
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 02:44:17 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: Wiretapping chip: vid clips & sound bites
+
+I was on a Portland-area TV forum this evening and was able to raise 
+the wiretap chip issue to a lay audience (in addition to being
+in some ways a lay person myself on this issue, but quite concerned).
+Here are some talking points and phrases I found helpful:
+
+* Compared and contrasted a "wiretap chip", which gives government
+agencies the keys to your private conversations, and a "privacy chip" 
+where you keep the keys (come to think of it, I'm not sure that second
+point is technically correct -- how would a truly private phone
+handle the keys?)
+* Compared giving government agencies crypto keys to giving the
+IRS the keys to your house and filing cabinet.
+* As examples I used lawyer/client, psychiatrist/patient, 
+priest/confessor and political campaign work done over the phone.
+* Showed New York Times front page story (Fri. 4/16) to the camera,
+to demonstrate that this is important, not a fringe issue and that 
+the wiretap chip is real.  Quoted Stephen Bryen of Secured 
+Communications Technologies Inc., "I think the government is
+creating a monster."
+* Emphasized importance of learning about telephone and e-mail
+technology, and how they can be made private with
+open cryptography.  (As opposed to top-secret chip designs which
+I called "closed cryptography").
+* Stated that I was switching from AT&T to another provider in
+protest of their selling phones containing wiretap chips.
+
+I wanted to use a see-thru telephone as a prop to point at
+computer chips inside the phone, but wasn't able to locate one
+in time.
+
+Some of this may sound corny and less accurate than a
+technical presentation, but I needed to make the lay
+audience at least mildly informed, sympathetic and perhaps even 
+motivated to write their phone company or their Congresscritters 
+within about the three minutes of air time.  Further suggestions for 
+sound bites, vid clips etc. to use in a media campaign greatly 
+appreciated.
+
+Nick Szabo					szabo@techbook.com
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 06:57:59 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: Wiretapping chip: vid clips & sound bites
+
+ 
+  The best innovation you came up with is calling it the "wiretap chip."
+I propose that we stop referring to this chip as the "clipper chip" and
+always refer to it as "the wiretap chip." Also, when using analogies, don't
+bring up drug smugglers or terrorists.  One key to winning this battle is
+to wage an information war. We have to manipulate the image of this proposal
+so it looks more like a menace instead of a "protection."
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 06:52:41 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: IMPORTANT!
+
+Stanton McCandlish writes:
+> 
+> >     Do you understand what Digicash is and how it works? 
+> 
+> >     I'm not talking about how banks work now, I'm talking about how
+> > banks would work if government fiat money was eliminated.
+> 
+> And I am not talking about some pipe dream.  Short of full scale revolution
+> you are NOT going to be able to "eliminate" the current money set up.  It
+> is a fantasy.  IMNSHO.  Digital money, as it stands now is a VERY Bad Thing,
+> it is traceable more so that almost anything you care to think of.  I can
+> think of nothing that is going to make the govt and the corps.(e) give up
+> that power.  All this bru-ha-ha (sp?) about our privacy is almost a moot point.
+
+  Of course Digicash won't replace government money overnight, however,
+over time transactions will gradually become electronic. An increasing
+amount of business in conducted in the US electronically. Credit cards,
+wired money, the world currency exchange market, etc.
+
+  Let me see if I can explain Digicash to you. (BTW, Digicash, Inc is a company
+which is already attempting to set up a cryptographic electronic money
+system).
+
+  The scheme is based on Public-key encryption technology. Public Key
+encryption allows one to publish a key so other people can send secret
+data to you. The most important thing about this system is that only
+YOU can decrypt the information with your secret key. Unlike other
+cryptosystems where knowing the encryption key ('password') allows you
+to decrypt the ciphertext, public-key encryption allows the entire
+world to send you secret data and only you are able to decrypt it.
+A side benefit of public-key technology is that one can digitally "sign"
+some data and others can verify that signature. Signatures work by
+instead publishing the decryption key, and keeping the encryption key
+secret. I could encrypt a messsage saying "I am Ray" and others could
+check that I was the author of that message by attempting to decrypt it
+with the decryption key associated with me. Since only *I* have the
+encryption key, only I could have written a message which could be decrypted
+by my publically available decryption key.
+
+  So how is Digicash secure and untraceable?
+
+  I walk into my favorite cryptobank and hand the teller $100 cash to be
+deposited into an account (they don't have to know my name or anything).
+I then request $20 in digicash notes. The bank teller asks me to make
+up a random number for the serial # on my $20 bank note. The teller covers
+her eyes while I type my secret random number into her computer and press
+enter. The computer encrypts my secret random number with the bank's 
+encryption key and deposits it onto my cash-card. (the act of the
+bank encrypting my cash's serial number is done in such a way that the
+bank cannot discover the number by decrypting it. This is all accomplished
+mathematically and is provably secure [the NSA can't even get around it])
+Finally, the bank subtracts $20 from my accont.
+
+  Later on, after having dinner in a restaurant, a cashier asks me to pay
+my bill. Their sign says "we accept Mastercard, Visa, American Express, or
+Digicash". I hand him my digicash card and he attempts to decrypt a $20
+encrypted bank note with the cryptobank's public decryption key. It succeeds
+and his computer calls up the bank's computer and gives it my digicash
+note. The bank decrypts the note (verifying to the bank that it issued
+the note and isn't counterfeit.) and extracts the serial number on the
+note. The bank then tells the restaurant's computer "ok" and credits it $20.
+The bank marks the serial number as "spent". (the purpose of this is to
+prevent me from spending the same banknote twice)
+
+  I walk out of restaurant satisfied and happy that the bank doesn't
+know where I spent my $20.
+
+  Q: Doesn't the bank know that you spent your money at the restaurant?
+  A: No. A huge bank would be issue millions of 20 dollar electronic bills.
+     Since the bank doesn't see my secret random serial number when they
+     encrypt it, they don't know which account the serial number is associated
+     with. When the restaurant sends the banknote to the bank, the only
+     information the bank has is the serial number and the restaurant.
+     They know that one of X million people spent $20, but which one.
+
+  Q: How does the bank encrypt the serial number you generate without
+     seeing it?
+  A: The serial number is first multiplied by another random number called
+     the "blinding factor". After the bank encrypts it, you "divide" it
+     out of the bank note. The bank only gets to see the product, not the
+     factors.
+
+  Q: How will bank notes be distributed?
+  A: Most likely on some kind of anonymous cash smartcard. That is, a card with
+     no particular owner, but the ability to store and retrieve binary data.
+     The notes will probably be spent over a computer network, much like
+     modern ZOM machines verify credit cards at stores.
+
+  Q: What about collaboration between the store owner and bank.
+  A: Unless the store asks for identification, they don't know anything.
+
+
+  Additional benefits:
+
+ Digicash provides a perfectly secure wallet. By encrypting the bank notes
+with your own p-key, no thief on earth (even the government!) could use 
+them. Stealing cash would become an obsolete crime. Thieves wouldn't even
+know which bank contains your real checking account and neither would
+the bank who issued the note itself!
+    
+ So if the DEA breaks into your house and steals your cash card, who cares.
+They can't spend the money, don't know where it's really located at, and
+the card is just a conveinent notepad. You could broadcast your banknotes
+(encrypted) to the entire internet for safekeeping and no one could spend
+them but you (provided you can remember your secret key).
+
+  In summary, not only is digital cash NOT tracable, it provides benefits
+that far outweigh other types of money.
+
+  That's all for now. I'm starting to get sleepy. Your best best would be
+to purchase Extropy #10 and read Hal Finney's excellent article on
+digicash.
+
+
+
+
+    
+
+
+
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 08:48:32 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: The mysterious mailing list (fwd)
+
+There have been reports about a mailing list set-up at NIST that had a
+number of people on it including Mitch Kapor.
+
+The list is named "clipper" and it was through that list that part of
+the Wire Tap Chip announcement came.
+
+I asked Mitch directly, what is involvement with that list was; I
+asked him if he was involved with the development of the Wire Tap
+Chip.
+
+Below is is reply. I believe him.
+
+/harry
+
+a conscious being, Mitchell Kapor wrote:
+> From mkapor@eff.org Wed Apr 17 23:11:38 1993
+> Message-Id: <199304181111.AA05559@eff.org>
+> Date: Sun, 18 Apr 1993 07:11:38 -0800
+> To: habs@Panix.Com
+> From: Mitchell Kapor <mkapor@eff.org>
+> Subject: The mysterious mailing list
+> 
+> I believe the list in the question is an informational list set up at NIST.
+>  My name was placed on it.  I did not ask to be put on such a list.  We
+> were (obviously)  not involved in the development of Clipper.
+
+> I was sent the Clipper announcement fact sheet, for instance.
+
+> There has been a small amount of traffic on it, none of it consequential. 
+
+> I would appreciate it if you would make these facts known.
+
+I have told Mitch I will put this info out and have asked that he
+make clipper list mail public at some FTP site.
+
+I have also asked him when he started getting traffic from this list.
+
+/harry
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 08:41:03 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: More True Names: The NIST Security Board (fwd)
+
+a conscious being, David Farber wrote:
+>From farber@central.cis.upenn.edu Sun Apr 18 02:36:00 1993
+Posted-Date: Sun, 18 Apr 1993 07:36:00 -0500
+Message-Id: <9304181135.AA01851@linc.cis.upenn.edu>
+Date: Sun, 18 Apr 1993 07:36:00 -0500
+To: habs@Panix.Com
+From: David Farber <farber@central.cis.upenn.edu>
+X-Sender: farber@linc.cis.upenn.edu
+Subject: Re: More True Names: The NIST Security Board
+Cc: mkapor@eff.org
+
+At  0:25 4/18/93 -0400, Harry Shapiro wrote:
+>The csspub mailing list: csspab@mail-gw.ncsl.nist.gov,
+>and address on the clipper mailing list, seems to contain
+>basically the members of the NIST security board.
+>
+>In addition to the names already posted, their true names are as
+>follows:
+
+The guys named on the csspab list are members of a congressionally mandated
+Board that operates in the arena of NIST. I gave testimony before that
+Board IN PUBLIC representing EFF and as far as I can tell (and I know most
+of them ) they are in the public eye and open as hell.
+
+Feel free to pass this on if it is worth while.
+
+Dave
+
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sun, 18 Apr 93 01:51:02 EDT
+From: baumbach@atmel.com (Peter Baumbach)
+Subject: CRYPTO: Thanks for the RSA explanation
+
+  I wish to thank Ray Cromwell for his clear explanation of the RSA
+encryption method.  However, did he violate the patent by using the
+method in the explanation?  I assume he has not licensed RSA.  Does
+this fall into the category of singing along to a song without paying
+royalties to the copywrite owner?  If I have not licensed RSA, what
+am I permitted to do with it without infringing the patent?  Did I
+infringe the patent when I duplicated the example calculations on
+paper?  What if I used a calculator to help me?  What if I used a
+computer?  Are all the people who have copies of the patent on paper,
+or even in a computer, infringing the patent?  An example is most
+likely included within it!
+
+  Has anyone ever successfully enforced a patent such as this one?
+
+Peter Baumbach
+baumbach@atmel.com
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 09:22:33 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: It is two 80-bit "halfs"
+
+>From Mail sent via the Clipper Mailing list, forwarded
+to me:
+
+> In a conversation with NSA today, I was told that two random 80-bit
+> numbers will be XORed to produce the 80-bit key and the two individual
+> numbers kept by two separate escrow authorities -- who they are is to
+> be decided. So your suggestion is, in fact, how it will be handled.
+
+> martin hellman
+
+/HARRY
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 09:19:55 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Mitch on the Clipper Mailing list
+
+I had asked Mitch to repost any communications that
+have gone over this list. He has.
+
+I appreciate his willing to clear up this issue.
+
+As I have stated before, I believe him, that NIST simply
+created this list of people they wanted to be in direct
+contact with.
+
+/harry
+
+
+a conscious being, Mitchell Kapor wrote:
+> From mkapor@eff.org Sun Apr 18 00:58:00 1993
+> Message-Id: <199304181257.AA06031@eff.org>
+> Date: Sun, 18 Apr 1993 08:58:00 -0800
+> To: habs@Panix.Com
+> From: Mitchell Kapor <mkapor@eff.org>
+> Subject: Re: The mysterious mailing list
+> 
+> I received the statement of the Press Secretary and the public fact sheet
+> from Ed Roback.  I have not repoduced the full text as it is readily
+> available elsewhere.
+> 
+> Following this is a thread between Gerano Cannoni and Martin Hellman.  I
+> have deleted the text of Marty's longest response, as it is being
+> circulated elsewhere.
+
+> Last, there is a single message from A. Pagett Patterson.
+
+> And that's it (assuming I haven't missed something in reviewing my
+mail stream).
+
+> Feel free to re-post this, put in on an FTP, whatever.  I don't have any
+> more time to deal with this issue.
+> 
+> Date: Fri, 16 Apr 93 11:02:59 EDT
+> From: Ed Roback <roback@first.org>
+> Organization: FIRST, The Forum of Incident Response & Security Teams
+> Posted-Date: Fri, 16 Apr 93 11:02:59 EDT
+> To: clipper@csrc.ncsl.nist.gov
+> Subject: text of White House announcement and Q&As on clipper chip encryption
+> 
+> Note:  This file will also be available via anonymous file
+> transfer from csrc.ncsl.nist.gov in directory /pub/nistnews and
+> via the NIST Computer Security BBS at 301-948-5717.
+>      ---------------------------------------------------
+> 
+>                          THE WHITE HOUSE
+> 
+>                   Office of the Press Secretary
+> 
+> _________________________________________________________________
+> 
+> For Immediate Release                           April 16, 1993
+> 
+> 
+>                 STATEMENT BY THE PRESS SECRETARY
+> 
+> 
+> The President today announced a new initiative that will bring
+> the Federal Government together with industry in a voluntary
+> program to improve the security and privacy of telephone
+> communications while meeting the legitimate needs of law
+> enforcement.
+> ...
+> 
+> Date: Fri, 16 Apr 93 16:44:10 EDT
+> From: Ed Roback <roback@first.org>
+> Organization: FIRST, The Forum of Incident Response & Security Teams
+> Posted-Date: Fri, 16 Apr 93 16:44:10 EDT
+> To: clipper@csrc.ncsl.nist.gov
+> Subject: White House Public Encryption Management Fact Sheet
+> 
+> 
+> 
+> Note:     The following was released by the White House today in
+>           conjunction with the announcement of the Clipper Chip
+>           encryption technology.
+> 
+>                            FACT SHEET
+> 
+>                   PUBLIC ENCRYPTION MANAGEMENT
+> 
+> The President has approved a directive on "Public Encryption
+> Management."  The directive provides for the following:
+> ...
+> 
+> Posted-Date: Sat, 17 Apr 93 01:26:06 +0200
+> From: caronni@nessie.cs.id.ethz.ch (Germano Caronni)
+> Date: Sat, 17 Apr 93 01:26:06 +0200
+> To: clipper@csrc.ncsl.nist.gov
+> Subject: Clipper-Chip Escrow-System Flaws
+> Newsgroups:
+> alt.privacy,sci.crypt,alt.security,comp.security.misc,comp.org.eff.talk
+> Organization: Swiss Federal Institute of Technology (ETH), Zurich, CH
+> Cc: 
+> 
+> 
+> Good day,
+> as a non-citizien of USA I have read your announcment of the
+> 'Clipper-Chip' with great interest, and am happy to see a increase
+> in lawful privacy in the USA. I hope this policy will extend to
+> other countries too.
+> In the meantime I suspect two flaws in the 'Clipper-Chip' as it was
+> announced today via NIST/electronic media.
+> 
+> 1) Keeping secret the algorithm which performs encryption is in my
+>    humble opinion a bad idea. It hinders 'Clipper' to get publicly
+>    accepted, and hinders the minute examination of the Clipper-
+>    Algorithm by other then a few experts.
+>    But I am sure this was well considered.
+> 
+> Now the important suggestion :=)
+> 
+> 2) By splitting the 80-Bit-Key of clipper in two parts, and give
+>    them to different organizations, you add an uneeded WEAKNESS
+>    to the escrow-system. This way, corruption of one escrow will
+>    allow an easier attack on the Key than might be possible.
+>    (e.g. if I obtain 40 bits of possible 80 bits keys, exhaustive
+>     keysearch is definitively no problem.)
+>    You might instead generate 2 (or even more, if this ist not
+>    politically indesired) 80-Bit-Sequences which, when XOR-ed
+>    together will provide the original, needed key, but alone they
+>    are worthless. I am sure persons with knowledge in this area, which
+>    surely can be found at NIST (or wherever) will agree.
+> 
+> I hope that this remark is of interest for you.
+> 
+> Friendly greetings,
+> 
+> 	Germano Caronni
+> 
+> 
+> P.S.
+> I am sure you have remarked, that the current policy is interpretable
+> to tend toward an abolition of 'unbreakable' secure communication
+> via electronic Media, and hope that this will _not_ come true.
+> 
+> Disclaimer: This mail is in now way whatsoever connected to the Swiss 
+> Federal Inst. of Technology, but expresses my personal thoughts.
+> 
+> 
+> 
+> 
+> Organization: FIRST, The Forum of Incident Response & Security Teams
+> Posted-Date: Fri, 16 Apr 93 22:32:14 PDT
+> Date: Fri, 16 Apr 93 22:32:14 PDT
+> From: "Martin Hellman" <hellman@isl.stanford.edu>
+> To: caronni@nessie.cs.id.ethz.ch, clipper@csrc.ncsl.nist.gov
+> Subject: Re:  Clipper-Chip Escrow-System Flaws
+> 
+> I received your message suggesting:
+> 
+> 2) By splitting the 80-Bit-Key of clipper in two parts, and give
+>    them to different organizations, you add an uneeded WEAKNESS
+>    to the escrow-system. This way, corruption of one escrow will
+>    allow an easier attack on the Key than might be possible.
+>    (e.g. if I obtain 40 bits of possible 80 bits keys, exhaustive
+>     keysearch is definitively no problem.)
+>    You might instead generate 2 (or even more, if this ist not
+>    politically indesired) 80-Bit-Sequences which, when XOR-ed
+>    together will provide the original, needed key, but alone they
+>    are worthless. 
+> 
+> In a conversation with NSA today, I was told
+> that two random 80-bit numbers will be XORed to produce
+> the 80-bit key and the two individual numbers kept by
+> two separate escrow authorities  -- who they are is
+> to be decided. So your suggestion is, in fact, how it
+> will be handled.
+> 
+> martin hellman
+> 
+> Disclaimer: this in no way should be interpreted to mean
+> that I approve of the Clipper Chip. While I am still in the
+> process of learning more about it, my immediate reaction
+> was not positive. More later.
+> 
+> Organization: FIRST, The Forum of Incident Response & Security Teams
+> Posted-Date: Sat, 17 Apr 93 23:05:23 PDT
+> Date: Sat, 17 Apr 93 23:05:23 PDT
+> From: "Martin Hellman" <hellman@isl.stanford.edu>
+> To: ...clipper@csrc.ncsl.nist.gov...
+> Subject: Clipper Chip
+> 
+> 
+> Most of you have seen the announcement in Friday's NY Times,
+> etc. about NIST (National Institute of Standards & Technology)
+> announcing the "Clipper Chip" crypto device. Several messges
+> on the net have asked for more technical details, and some have
+> been laboring under understandable misunderstandings given
+> the lack of details in the news  articles. So here to help out
+> is your friendly NSA link: me. I was somewhat surprised Friday
+> to get a call from the Agency which supplied many of the missing
+> details. I was told the info was public, so here it is (the cc of this
+> to Dennis Branstad at NIST is mostly as a double check on my
+> facts since I assume he is aware of all this; please let me know
+> if I have anything wrong):
+> 
+> ...
+> 
+> 
+> Organization: FIRST, The Forum of Incident Response & Security Teams
+> Posted-Date: Sat, 17 Apr 93 08:55:31 -0400
+> Date: Sat, 17 Apr 93 08:55:31 -0400
+> From: padgett@tccslr.dnet.mmc.com (A. Padgett Peterson)
+> To: "clipper@csrc.ncsl.nist.gov"@uvs1.dnet.mmc.com
+> Subject: Panel
+> 
+> I would like to be considered for the "outside panel" assessing the 
+> Clipper Technology.
+> 						A. Padgett Peterson, P.E.
+> 
+> 
+> 
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 10:48:29 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Forward:  AT&T Press Release on Clipper
+
+a conscious being, Dave Banisar wrote:
+> From cypherpunks-request@toad.com Sun Apr 18 04:49:35 1993
+> X-Mailer: InterCon TCP/Connect II 1.1
+> Message-Id: <9304180949.AA35839@hacker2.eff.org>
+> Date: Sun, 18 Apr 1993 09:49:35 -0500
+> From: Dave Banisar <banisar@washofc.cpsr.org>
+> To: CYPHERPUNKS@toad.com
+> Subject: AT&T Press Release on Clipper
+> 
+> Here's AT&T's announcement on the Clipper.
+> 
+> 
+>  AT&T TO INCORPORATE NEW 'CLIPPER' CHIP INTO SECURE COMMUNICATIONS
+> PRODUCT LINE
+> 
+> GREENSBORO, N.C., April 16
+> 
+> 
+>     AT&T (NYSE: T) said today it is moving to improve the security and privacy
+> of telephone communications by incorporating a just-announced new U.S.
+> government technology for voice  encryption  into its secure communications
+> product line.
+> 
+>    AT&T will use the Clipper chip, announced today by President Clinton as a 
+> new technology for voice  encryption,  in all of its secure telephone products
+> except those specially designed for government classified customers.  The
+> Commerce Department has announced a six-month timetable for the final
+> certification of Clipper.
+> 
+>    "AT&T is pleased to be the first company to publicly commit to adoption of
+> the Clipper chip," said Ed Hickey, AT&T vice president, Secure Communications
+> Systems.  "We believe it will give our customers far greater protection in
+> defeating hackers or eavesdroppers attempting to intercept a call.
+> 
+>    "And now all commercially available AT&T voice  encryption  products will 
+> be compatible with each other, a major step forward in bringing secure
+> communications capabilities to the business community."
+> 
+>    In standardizing AT&T voice  encryption  products on the Clipper chip, AT&T
+> will include the algorithm in the Telephone Security Device as well as in the
+> Secure Voice/Data Terminal.
+> 
+>    The AT&T Telephone Security Device is a compact, lightweight unit that 
+> brings advance  encryption  technology to conventional land-line and cellular
+> telephones.  It provides a powerful, convenient and reliable way to protect 
+> the most sensitive telephone conversations.
+> 
+>    The device works with a conventional land-line or transportable/mobile
+> cellular phone.  It turns the phone's signal into a digital stream of 
+> encrypted information that is decrypted by a Telephone Security Device 
+> attached to the phone at the receiving end of the call.
+> 
+>    The AT&T Telephone Security Device connects easily to desk telephones or
+> tranportable or mobile phones.  It weighs 1.5 pounds and is 7 inches long, 4.5
+> inches wide and 1.5 inches high.  And it's as easy to use as it is portable.
+> 
+>    The AT&T Secure Voice/Data Terminals are desktop telephones that provide
+>  encryption  for both telephone calls and data transmissions.
+> 
+>    These AT&T secure communications products use an enhanced voice  
+> encryption  technique that provides very high voice quality.  This technology 
+> allows calls placed with these products to approach the voice quality of 
+> normal calls.
+> 
+>    To further enhance interoperability, AT&T will consider licensing to other
+> manufacturers its enabling technologies for interoperability. Interoperability
+> of  encryption  devices requires common technology beyond the use of a common
+>  encryption  algorithm, specifically common methods of digital voice encoding
+> and signaling.
+> 
+>    AT&T has already performed integration tests with Clipper chips 
+> manufactured by the government's supplier, Mykotronx Inc., of Torrence, 
+> Calif., and is preparing to integrate the chip into the manufacturing of its 
+> secure products.   AT&T's Clipper-equipped telephone security devices will be 
+> available to customers by the end of the second quarter.
+> 
+>     The federal government intends to adopt the Clipper chip as the
+> standard for voice  encryption  to help protect proprietary information,
+> protect the privacy of personal phone conversations and prevent
+> unauthorized release of data transmitted electonically.  At the same
+> time, use of the Clipper chip will preserve the ability of federal,
+> state and local law enforcement agencies to intercept lawfully the phone
+> conversations of criminals.
+>     "Adoption of Clipper will support both the government's efforts to
+> protect the public and the public's right to privacy," Hickey said.
+>     AT&T Secure Communication Systems provides products to protect
+> voice, data, fax, cellular and video communications.  It also engineers
+> and integrates secure communications applications.  Its customers
+> include the governments of the United States and other nations as well
+> as major corporations around the world.
+>     AT&T Secure Communications Systems is headquartered in Greensboro.
+>     For more information about the AT&T Telephone Security Device 3600
+> and other AT&T Secure Communications Products, call David Arneke at
+> 919-279-7680.
+>      CONTACT: David Arneke of AT&T Secure Communications Systems, 919-279-
+> 7680,or after hours, 919-273-5687, or Herb Linnen of AT&T Media Relations,
+> 202-457-3933, or after hours, 202-333-9162
+> 
+> 
+> 
+> 
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 11:39:54 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Comments from Jim Bidzos, Pres. of RSA Data Security
+
+Just for the record, I'd like to reiterate my belief that
+the group at NIST is probably just a bunch of cryptography
+people studying a cryptography project called "Clipper" which
+(ack, cross out that which; I'm in BSD mail and can't edit)
+the name of which has also been adopted by whoever's pushing the
+other Clipper. There may or may not be overlap between one
+clipper group or another.
+
+Maybe they discovered a new algorithm they call "clipper" which the
+chipmakers have adopted or something...
+
+Phil
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 11:42:11 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Big Brother: Easy to Break
+
+>...if we can build a mechanical nanocomputer like ... we will be
+>able to test 10^24 keys at a cost of 10,000 MJ, or $ 300 at
+>current electric rates.
+
+You're comparing their cost for the machine to the nanomachine's
+cost in electricity.
+
+That is not realistic.
+
+Phil
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 11:33:31 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Odd: The Clipper Mailing List
+
+Just wondering, Harry, but that may or may not be the same
+"clipper" as the one we're concerned about.
+
+Phil
+
+------------------------------
+
+Date: 18 Apr 1993 11:29:40 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: HUMOR: Libertarian Party doomed
+
+Clay says that Republicans look better and better -- I probably 
+would agree, but as of now I really do not see a serious effort on
+their part to come up with a positive economic program (maybe with
+the exception of Jack Kemp, whom I do not like for two
+following reasons:
+- he wants to cut income taxes, while I think the priority must be to
+cut taxes on business and investment;
+- an actuary working for him, whom I have reasons to trust, expressed
+an opinion that Jack does not hesitate to brake the law if this makes
+him look good politically).
+Krzys'
+
+------------------------------
+
+Date: Sun, 18 Apr 93 14:00:43 -0400
+From: pcm@cs.brown.edu (Peter C. McCluskey)
+Subject: SMART: Hydergine & piracetam potentiation
+
+ I tried these together for several months. As far as I could tell, they had
+no effect.
+-----------------------------------------------------------------------------
+ Peter McCluskey >> pcm@cs.brown.edu >> Eradicate global namespace pollution!
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Sun, 18 Apr 93 12:20:34 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: Clipper mailing list messages
+
+Harry passed along messages from the "clipper" mailing list which were
+forwarded to him by Mitch Kapor of the EFF.  This is the same email
+address from which the Clipper announcements were made, so it is clear
+that they are related.
+
+One of the messages was eliminated.  It was by well-known cryptographer
+Whit Diffie who was about to describe technical detail on the chip and
+its usage, supposedly straight from the NSA.  Kapor said that he had
+elided this "long message" because it was circulating elsewhere.
+
+I haven't seen it.  It's not on sci.crypt.  Where is it circulating?  This
+is exactly the kind of information that is needed to help understand
+exactly what kind of a threat we are facing.  Perhaps Harry could go back
+to Kapor and see if he could be persuaded to reveal this message.
+
+Hal
+
+------------------------------
+
+Date: Sun, 18 Apr 93 12:11:08 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Fighting the Wiretap Chip Plan
+
+(I'm using the "Wiretap Chip" name instead of "Clipper," as someone has
+suggested. It _does_ carry a better message.)
+
+This essay is bit rambling, as I'm in my lousy editor and don't have
+time to rearrange things into a more formal essay. Instead, I'll just
+make a number of points.
+
+I've seen a lot of discussion here about who to talk to, how to phrase
+the issues, and so forth. Fax numbers (good!), phone numbers, etc. But
+let me point out that the public discussion is not likely to do very
+much, for several reasons.
+
+1. A very tiny universe of listeners. Crypto is too abstract for most
+people. I doubt anything we say can change this. And "privacy" is a
+complicated theme....the anti- and pro-abortion sides have been
+bandying it about for over a decade, to little avail. The key is to
+reach the relatively small fraction of policy shapers, both outside
+government and inside.
+
+2. Journalists want the pithy quote, the sound bite, the attention
+grabber. They don't really care if 37 faxes have been received in
+support of some position--that just isn't news. 
+
+I often shake my head in despair at the demands for "good quotes," but
+I still try to spew them out.  Ironically, my .sig block, with all the
+comments about "crypto anarchy," "information markets," "zero
+knowledge," etc., often were the triggers that got me in touch with
+journalists. For example, Julian Dibell of the "Village Voice" saw my
+stuff in sci.crypt last fall and called me...only then did he learn of
+the existence of the Cypherpunks group. Likewise, Kevin Kelly, of
+"Whole Earth Review" fame, and now editor of "Wired," contacted me to
+ask about the terms in my cryptically cryptic sig.
+
+(Some people have already put good stuff about "Stop the Big Brother
+Chip" and "Say No to the Wiretap Chip" in their sigs...this is great
+advertising!) 
+
+3. I've been interviewed on crypto matters by several journalists, all
+of whom I respect. (They were, for the record: Steven Levy, for the
+"Wired" piece, Kevin Kelly, as editor of "Wired" and for a possible
+story in "Whole Earth Review," Julian Dibell, for "The Village Voice"
+(forthcoming, he tells me), Dave Mandl, for a radio station in New
+Jersey, and a couple of minor quotes here and there. (I can't begin to
+compete of course with John Gilmore or Eric Hughes, in terms of
+numbers of interviews.)
+
+4. My conclusion is that the very term "Cypherpunks" was useful--even
+though I had little to do with choosing the name and sometimes find it
+distasteful (I prefer Miles Davis to Nine Inch Nails, for example).
+Consider that there are already several well-publicized groups devoted
+to various aspects of computer privacy: the EFF, the CPSR, the ACLU,
+etc. (these groups should be well-known to all of you). Before we came
+along, complete with our semi-outlaw, trendy name, the standard
+process when a crypto or privacy issue came up would be to get
+obligatory interviews with John Perry Barlow (I like him, but if I
+read one more account of his experiences as a lyricist for the
+Grateful Dead I'm going to puke...this is overexposure with a capital
+"O"), Mitch Kapor, and various folks from the ACLU and CPSR. The
+Cypherpunks provide a useful contrast, in my opinion.
+
+5. And the Cypherpunks turn out to have a lot of very bright and
+interesting people, including many from the phone phreaker community,
+the PGP development community, and various other subcultures (like
+FidoNet, modem makers, wireless communications, and so on). This
+automatically makes us more diverse than groups like the CPSR and
+ACLU.
+
+6. In a sense, we occupy an ecological niche that meets certain
+journalistic needs.
+
+7. In summary, I wouldn't place a lot of emphasis on standard
+political actions...it just doesn't go very far. Talking to our
+friends and family will have a miniscule effect, both in raw numbers
+and because the next election is a long way off. Need I say more?
+
+Subversive actions that generate media attention, that trigger other
+people to begin to do things (such as homebrew voice encryption with
+SoundBlaster boards and CELP compression, as just one example), and
+that create new communities (Cypherpunks, Extropians, etc.), are much
+more effective.
+
+By the way, in a more standard way of doing things, I've been in touch
+with Jim Bidzos, President of RSA Data Security. I sent out a note on
+this recently.
+
+And I'll be meeting this evening with Eric Hughes, who's visiting the
+Monterey Bay area. We may be calling an emergency meeting of the
+Cypherpunks soon. Stay tuned.
+
+Don't get me wrong, folks. These are crucial times. A "War on Crypto"
+that mimics the "War on Drugs" is a distinct possibility. Any actions
+we take, from writing letters to calling t.v. stations to boycotting
+vendors of the "Wiretap Chip," will be useful.
+
+-Tim
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0203
+****************************************
+

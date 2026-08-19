@@ -1,0 +1,978 @@
+From exi@panix.com Tue Jul 20 08:27:29 1993
+Return-Path: <exi@panix.com>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA05527; Tue, 20 Jul 93 08:27:27 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA27184; Tue, 20 Jul 93 08:27:17 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by panix.com id AA08999
+  (5.65c/IDA-1.4.4 for more@usc.edu); Tue, 20 Jul 1993 11:26:06 -0400
+Date: Tue, 20 Jul 1993 11:26:06 -0400
+Message-Id: <199307201526.AA08999@panix.com>
+To: Exi@panix.com
+From: Exi@panix.com
+Subject: Extropians Digest
+X-Extropian-Date: July 20, 373 P.N.O. [15:25:58 UTC]
+Reply-To: extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+Extropians Digest             Tue, 20 Jul 93             Volume 93 : Issue 200
+
+Today's Topics:
+                                                                      [2 msgs]
+                      Admin: What are "Admin" messages?               [1 msgs]
+                                Another Worry                         [2 msgs]
+                         Comet Mining -- An Overview                  [1 msgs]
+           DIET: tryptophan, bananas, chromium, phenylalanine, etc.   [1 msgs]
+                            Extropian Song Lyrics                     [1 msgs]
+             META: apology for the morphing reply getting posted      [1 msgs]
+                    Optimizing utility in the free market             [1 msgs]
+                  Social Security and the Deficit of the USA          [1 msgs]
+                  Tech/Humor: Morphing Arround (send files)           [1 msgs]
+                            Third Millenium group?                    [1 msgs]
+                               Wage Competition                       [2 msgs]
+                        personal cancer experiences...                [1 msgs]
+                        personal--me and my cancer...                 [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52142 bytes.
+
+----------------------------------------------------------------------
+
+Date: Tue, 20 Jul 93 00:44 EDT
+From: kqb@whscad1.att.com
+Subject: 
+
+This is a recorded message.  I will be out of contact with my
+computer system until Thursday, July 22.  Your message to me
+has been saved and will be read upon my return.  This is the
+last time you will receive this message during my absence.
+Thank you.
+                               Kevin Q. Brown
+
+------------------------------
+
+Date: Mon, 19 Jul 1993 21:59:26 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: Comet Mining -- An Overview
+
+Comet Mining -- An Overview
+Copyright 1993 by Nick Szabo
+Permission to redistribute w/attribution granted
+
+-- Introduction --
+
+A relatively unexplored area of space development, comet mining, may 
+play a central role in cracking open the space frontier.  Volatile
+extraction, considered by this author and others[1] to be an important 
+near-term catalyst for large-scale space industrialization, involves
+the delivery and processing of volatile ice (water, methane, ammonia, 
+etc.) delivered via ice rocket from Jupiter-family comets,  which 
+have elliptical orbits between Earth and Jupiter.  A visual presentation 
+and marketing analysis were given in [2], technical presentations can be 
+found in [3-4], and various technical and marketing issues have been 
+discussed in [1].  Government [4,10] and commercial [9] organizations
+are starting to sponsor research in this area.  This paper attempts to 
+unite this information into a comprehensive introduction to comet mining.
+
+-- Comets, the Jupiter Family, and the Need for Volatiles --
+
+The only hard and fast rule to distinguish between comets and
+asteroids is that comets have been seen to outgas.
+Several asteroids have recently been reclassified as comets
+when outgassing was discovered, eg Charon.  The outgassing
+indicates active sublimating volatiles.  Asteroids either
+lack free volatiles or they never get warm enough to outgas.
+Different volatiles (H2O, CO2, CH4, NH3, etc.) outgas
+at different temperatures.  Objects in circular orbits
+tend to reach an equilibrium temperature where outgassing
+stops; all known comets are in elliptical or chaotic orbits 
+where temperatures change over the course of the orbit.
+
+By far the largest proportion of materials used by most
+processing industries are volatiles and organics.  This is true 
+for Earth industry -- oil for energy, wood for structure, plants
+and animals for food, and vast amounts of water and air
+for nearly industrial processes, which we often take for granted.  In 
+space, SSF expendables consist overwhelmingly of volatiles: air, water, 
+propellant, etc.  The most advanced theoretical technology, 
+worked out in detail by K. Eric Drexler[8] relies 
+primarily on volatile and organic materials, especially carbon.  The
+most promising microgravity industry, pharmaceuticals, would be
+dominated by volatiles and organics.  By far the greatest bulk
+of near-raw materials launched from Earth into space are volatile 
+propellants.  Even metals extraction and refining industries rely on 
+much larger amounts of air and water than they produce in metal product,
+and it is quite a leap to assume we can eliminate this dependency 
+without costly R&D efforts and while maintaining reasonable levels 
+of efficiency and thruput.
+
+That's bad news, given that practically all native
+materials work today has, for historical and political
+reasons, focused on the dry Moon, and to a lesser extent
+dry asteroids.  The good news is that volatile
+extraction from ice is much easier than trying to
+split oxidized metals into oxygen and metal (not to
+mention trying to capture solar wind particles for
+hydrogen, carbon, nitrogen, etc.).  Comet ice, full of 
+a rich diversity of water, nitrogen, and organic compounds, 
+is readily available.
+
+The best currently known targets for volatile extraction
+are the Jupiter-family comets.  These have been tossed into 
+the inner solar system by Jupiter, into highly elliptical orbits, 
+with perihelions as low as Mercury's orbit (0.4 AU) and aphelions 
+near Jupiter's.  Influenced by the inner planets, the orbits slowly 
+circularize.  Most of the perihelions are near 1 AU, although
+to some extent that's observational selection; we're less
+likely to see objects with perihelions at 2 AU, and ice there
+sublimates much more slowly.
+
+The comets live very short active lives on a geological timescale,
+100,000's to millions of years, but Jupiter's gravity well
+is quite hungry and continually replenishes the supply when
+comets wander its way from the Kuiper Belt or Oort Cloud.
+Some of these visitors get a rought welcome; we recently saw a
+comet calve into dozens of pieces as it swung in too close to 
+Jupiter.  Caught in orbit around Jupiter, these pieces, the
+largest c. 10 km diameter, are projected to collide with the gas 
+giant (on the far side, alas) in 1994[7].
+
+Most such comets are whipped into heliocentric orbit (ie orbit
+around the sun), with aphelion at Jupiter and perihelion
+in the inner solar system.  Over the comet's lifetime this orbit continues 
+to circularize until one of the following happens: (1) all the 
+volatiles exposed to the sun bake out, and the comet turns into an
+asteroid, or (2) perihelion increases, and volatiles 
+remain frozen during the entire orbit, again turning the
+comet into an asteroid.  For this, reason, many scientists
+believe that many earth-crossing asteroids, especially types
+C and D, may be old Jupiter-family comets, and some may still
+contain frozen volatiles.  We know that many earth-crossing 
+asteroids contain water, and perhaps ammonia, locked to the regolith by 
+hydration.  This is harder to extract.  We should consider
+these closer objects as alternate targets for volatile extraction,
+comparing the tradeoff in transport and equipment costs.
+
+Thousands of earth-crossing asteroids are believed to exist
+with round-trip delta-v's from Earth orbit lower than the
+lunar surface.   Jupiter-family comets take somewhat more energy
+to get to; escape + 8 km/s one way for good windows, shaving off
+a few km/s on the way there and/or the way back if we
+can use Venus, Earth, or Mars for gravity assist [1,3,5].
+With a slightly more sophisticated mission we can manufacture
+aerobrakes by sintering comet dust, eliminating most of the
+return delta-v [6].  A speculative method called
+"cometary aerobraking" has also been proposed [1].
+
+-- Ice Rockets --
+
+The industrial flexibility of volatiles makes its first 
+and most dramatic impact in deep space transportation technology.
+We can combine easily extracted native thermal propellants with a tankless 
+rocket design, eliminating the need to launch either propellant,
+tanks, or heavy electric powerplants from Earth.  The specific transport 
+technology that embodies this principle has been dubbed the "ice 
+rocket" [1].  The ice rocket design [1,2,3] consists of a long cylinder 
+about the same size and shape as a Space Shuttle's solid rocket booster, 
+but made out of ice and coated with a thin insulating paint.  To 
+this is attached a tiny thermal rocket, about the size of a fist, 
+and a  tiny nuclear reactor, or few square meters of mirror, 
+which concentrates sunlight on the rocket engine. The engine 
+slowly eats the ice, converting it into a high-velocity vapor 
+exhaust. The rocket engine is designed for minitiarization and 
+simplicity, so that dozens of them can be built and launched 
+on a small, commercial budget at launch costs not much 
+lower than today's.   A larger nuclear-powered design is
+presented in [4].
+
+To mass-produce the ice rockets we melt cometary ice and 
+purify it with a centrifuge, in some designs combined with
+an inflatable still.  We form the ice cylinder in two 
+steps. First we freeze a thin shell by wetting a large, cold 
+cylindrical form.  As this ice gets thicker, it freezes further 
+layers more slowly, so we start squirting small spheres
+across a shaded vacuum.  These spheres freeze on the 
+outside, then accumulate on the inside of the cylinder.  Soon 
+the cylinder is filled with partly frozen water, which will 
+continue to freeze over several years while the rocket travels 
+towards its destination.
+
+The icemaking equipment is the most important part of the 
+system.  It must  produce a very high ratio of  ice mass to 
+equipment mass (aka mass thruput ratio (MTR): output product
+per year divided by equipment mass launched from Earth).
+It must be automated and reliable; think of a tiny auto-maintained 
+sewage treatment plant. Other parts of the comet (organics, dirt, 
+etc.)  can be gathered and attached as payload.   The cylinder is 
+then attached to the small rocket engine, whose tiny thrust over the 
+course of two or three years delivers the payload to a variety of 
+destinations: orbits around the Earth, Jupiter, or Mars, the surface 
+of Earth's Moon, or to asteroids. To get to high Earth orbit we must 
+exhaust about 90% of the ice, or 80% if we take a  couple 
+extra years to use a gravity assist. (See [5] for patched-conic
+math to compute such trajectories, and [6] for safety issues
+involved in using Earth for gravity assist and aerobraking
+of various varieties and sizes of payloads).  We might also find hidden 
+in some Earth-crossing asteroids, in Martian moons, or at the 
+lunar poles, in which case more than 10% can be obtained. 
+
+If the output of the icemaking equipment is high, even 10% of 
+the original mass can be orders of magnitude cheaper than 
+launching stuff from Earth.  This allows bootstrapping: the 
+cheap ice can be used to propel more equipment out to the 
+comets, which can return more ice to Earth orbit, etc.  Today 
+the cost of propellant in Clarke orbit, the most important 
+commercial orbit, is fifty thousand dollars per kilogram.  The 
+first native ice mission might reduce this to a hundred dollars, 
+and to a few cents after two or three bootstrapping cycles.
+
+Furthermore, we can deliver volatiles not just to Earth orbit,
+but anywhere else in the inner solar system.  A volatile
+dump around Mars can slice an order of magnitude off the
+propellant needed to launch a large-scale mission to Mars.
+Comet volatiles are synergistic with lunar operations, adding
+the missing elements needed to make lunar exploration or
+industry productive.
+
+Once the volatiles and organics have been separated, they are
+fed to a series of chemical microreactors and converted to 
+essential  nutrients and construction materials for 
+greenhouses.  Greenhouses can be made in a very simple, 
+automated fashion, for example by pumping air
+into liquid polymer spheres which are then solidified and filled
+with nutrients and trellises for the crop.  The crops grow not
+only pharmaceuticals, but also fiber and resins to provide structural 
+strength for further greenhouses, and genetically engineered 
+enzymes are extracted and used in the chemical 
+microreactors.  The greenhouses contain a low pressure (c.
+1/5 atm), CO2-rich atmosphere to facilitate the growth of
+genetically modified fiber plants while keeping the engineering
+task of building the pressure vessels minimal.
+
+Methane, ethane, and several other hydrocarbons have been seen in
+varying abundance (<1% to 5% for methane) in comets.  If you want
+to get rich in 2020, design a system to extract the methane from
+the water & ammonia ice and the gravel/muck of comets, perhaps 
+manipulating a large gas/plasma interface (cf. comet tail dynamics).
+
+A refinement of the ice rocket manufacturing process
+is a 3D printer to produce very large structures.  Shoots droplets of 
+several kinds of materials following a digital pattern.  For example a 
+high-temp-sublimating ice, a low-temp-sublimating ice, and a
+ceramic slurry.  The target object forms on a very large, cold 
+radiator in the shade.  The goal is to have the particles mostly 
+freeze before they impact the target, but nevertheless stick to and
+accumulate on precise points on the target (in 3-space, layer
+by layer) without too much splatter.  If the target itself must
+freeze the droplets we run into heat conduction problems pretty
+soon, and the target object couldn't get very thick.   The
+low-sublimating-point ice allows hidden surfaces to be "etched" by
+sublimation when the structure is rewarmed, provided there are
+escape holes.
+
+-- Open Issues --
+
+Many engineering tasks need to be undertaken to make comet
+mining a reality:
+
+* Simple processes to create 1/5 atm pressure vessels from cometary
+	ice & tar, including greenhouse windows
+* elaborate/refine 3d printer designs
+* variable gravity bolo
+* minimize processes requiring gravity
+* Gas/plasma separation processes
+* plant automation (maintenence, etc.) -- this may be the
+primary technological bottleneck
+* Nitrogenous fertilizer from ammonia
+* Carbon -> CaC -> acetylene vs. syngas (CO + H2) -> hydrocarbons
+	via Fischer-Tropsch
+* Phenolic resins vs. urea-formaldehyde/fiberboard
+* Polyethylene, alpha-olefins, polystyrene, PVC
+
+Among cometary science to do:
+* Cometary sources of phosphate, potassium, and halogens
+* Detailed analysis of comet surfaces needed to optimize
+choices and enable autonomous operations
+
+Among biotechnology to do:
+* Detailed design for "self-reproducing" greenhouses 
+* Fiber source that facilitates automated processing
+
+Also of great interest are low pressure & plasma manufacturing processes,
+especially those that can be greatly scaled up in space.
+We would like to manufacture variety of products from
+cometary and asteroidal material, including
+but not limited to:
+
+* paints (for spacecraft thermal control)
+* polymer structures and coatings
+* aluminization of polymer surfaces (very large reflectors/solar energy)
+* Inconel or silicon carbide frit (for rocket motor)
+* radiation shielding
+* propellant: thermal, mono- and bipropellant chemical, and ion/MPD
+* pressure vessels
+* pipes
+* single-isotope diamond & fullerenes (C12, C13, C14)
+* solar wind isotope separation (eg He3)
+* etc. (your ideas go here)
+
+Greenhouse Bootstrapping
+
+The known Jupiter-family comets with lowest-eccentricity may get above
+0C at their surface long enough to create an extensive plant growth. 
+Don't need to move them.  Moving cometary materials to a warm circular
+orbit via gravity assist and ice rocket is desirable for some
+markets, but it's not necessary to start out the operation if we
+have a sufficiently flexible biosystem that can
+colonize the comet.  There's also the possibility of chemosynthetic
+life to live off the energy frozen in the comet as free radicals,
+in which case it doesn't matter how far from the sun we are, but
+that's speculative so I'll skip it for now.
+
+A bigger problem is maintaining sufficient internal pressure
+to keep water above the triple point (otherwise it sublimates
+straight to gas, like dry ice).  One way is to go back to
+the bag, except use it as a greenhouse instead of a still.
+(Or in addition to a still -- plants exhale pure O2 and
+H2O which can be extracted).  A second way, with much higher
+MTR (mass thruput ratio), is to have the plants grow their own pressure 
+vessel, some kind of strong cellulose fiber bound together with a resin
+secretion.  It need only hold a CO2-rich atmosphere at < 1/4
+atm.  
+
+This presents a chicken-and-egg (or more
+properly plant-and-seed :-) problem, so we probably would use
+bags for the first perihelion.  The mass thruput ration of
+this scheme becomes astronomical (pardon the Saganism :-), reaching 
+millions/year by the second decade of operation, far outstripping the 
+time cost of money, and all that from just one rocket payload full of 
+plastic bags filled with seeds.  This makes it highly economically 
+attractive, even with only a minute fraction of the greenhouse products 
+being separated (eg by electrophoresis) into pharmaceuticals, etc. and 
+sent back groundside, or materials being processed and used as propellant, 
+shielding, structure, life support, etc. in interplanetary or Clarke 
+orbit, or on the Moon, etc.
+
+Going from native comet goop to pure water, and resin/fiber
+for the pressure vessel, is an interesting problem in metabolic
+engineering, which combines genetic engineering with an in-depth
+knowledge of plant metabolism, in order to optimize certain growth
+features (in this case cellulose and resin output, and resistance
+to vacuum conditions).  I'd probably started with a fast-growing fiber
+plant like hemp or jute or kudzu, and throw in some genes from 
+deep-salt-lake creatures that maintain an active water gradient across 
+their outer membrane, which should also be pretty good for vacuuum
+protection.  Extensive testing/breeding in groundside vacuum
+chambers and micrograv testing in low Earth orbit would be in
+order.
+
+-- Conclusion --
+
+Extraction and processing of volatiles from the Jupiter-family comets,
+combined with the crude but effective technology of
+ice rockets, present a wide variety of new possibilities along
+the path from our current small scale space operations to large-scale 
+space industrialization.  Native volatiles can be processed to
+supply current space operations, while making possible new 
+industries with low up-front investment.  Bootstrapping 
+of transporation with native ice rockets and industry with
+chemical microreactors and self-reproducing greenhouses blazes a 
+wide path along fertile territory, leading to the technological
+and economic resources for large-scale space industry and space 
+colonization.
+
+References
+
+[1] Szabo, various articles posted to sci.space on native volatile
+extraction and processing, 1988-present.  See also articles
+by Paul Dietz, Gary Coffman, Phil Fraering, and others.
+
+[2] Szabo, "Comet Mining", a presentation to
+Seattle Lunar Group, Feb. 1992 (visual
+presentation & initial marketing analysis)
+
+[3] Szabo, "Some Issues in Comet Mining", May 1992,
+unpublished (technical overview)
+
+[4] Zuppero, et. al., in _10th Symposium on Space Nuclear Power
+and Propulsion_ (AIP Conf. Proc. 271, 1993)
+
+[5] Sauer, "Optimization of Interplanetary Trajectories with 
+Unpowered Planetary Swingbys", AAS 87-424, pg. 253
+
+[6] Szabo, "Safety of flyby & aerobraking for large payloads at Earth",
+sci.space Message-ID: <1992Sep28.061517.1316@techbook.com>
+Mon, 28 Sep 1992
+
+[7] Baalke, "Comet Shoemaker-Levy, Possible Collision With Jupiter in 1994",
+sci.astro Message-ID: <25MAY199322260259@kelvin.jpl.nasa.gov>,
+and subsequent discussion.
+
+[8] Drexler, _Nanosystems_, John Wiley & Sons 1992
+
+[9] Brian Thill, Boeing Corporation, personal communications
+
+[10] Tony Zuppero, U.S. Department of Energy, personal communications
+
+
+
+------------------------------
+
+Date: Mon, 19 Jul 1993 23:56:09 -0600 (MDT)
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: DIET: tryptophan, bananas, chromium, phenylalanine, etc.
+
+Quoth hhuang@athena.mit.edu, verily I say unto thee:
+-=>
+-=>Given the fascist ban on L-tryptophan by the FDA, I've been wondering
+-=>what the best ways may be to experiment with getting some serotonin
+-=>into my brain.
+
+I don't think L-t.'s banned anymore.  I've seen it in shops 3 or 4 times.  
+
+-=>By the way, _Smart Drugs II_ by Dean and Morgenthaler is out and can
+-=>be ordered from CERI.
+
+!!  'Bout damn time!  I will have to raid the bookstore tomorrow!
+
+-- 
+Stanton  McCandlish   * Space Migration * Networking * ChaOrder * NO GOV'T. *
+anton@hydra.unm.edu   * Intelligence Increase * Nano * Crypto * NO RELIGION *
+FidoNet:    1:301/2   * Life Extension * Ethics * VR * Now! * NO MORE LIES! *
+Noise in the Void BBS * +1-505-246-8515   (24hr, 1200-14400, v32bis, N-8-1) *
+
+------------------------------
+
+Date: Mon, 19 Jul 93 23:14:46 PDT
+From: hfinney@shell.portal.com
+Subject: Wage Competition
+
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+
+> Basic economics suggests that in a reasonably competitive labor
+> market, folks should earn a wage about equal to their marginal product
+> (how much more wealth is produced if they work than if they don't).
+> So the first cut of an answer is to say that as long as you can keep
+> just as productive, you should earn the same real wage.  If robots or
+> Mexicans or whatever get even more productive, they earn more, but
+> unless the issue is envy, you needn't worry.
+
+How does this apply to the situation where others are able to produce
+just as much as you, but are willing to do so for less than what would
+be a living wage for you?  It would seem that although you can still produce
+just as much as you used to, the market value of that production has dropped
+due to your more-efficient competitors.  So you can be just as productive in
+goods, but if the goods you produce drop in price, then you are less productive
+in dollars.  For this reason, it seems that if your competitors become more
+productive, you do need to worry for other reasons than envy.
+
+Hal Finney
+hfinney@shell.portal.com
+
+------------------------------
+
+Date: Mon, 19 Jul 1993 23:19:32 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: Third Millenium group?
+
+Dave Krieger:
+>Secondly, I object to the unfairness of changing the rules on the
+>over-60 generation at the end of the game.  
+
+Who said life is fair?  They didn't sign any contract, and
+the U.S. government didn't sign any contract specifying any
+minimum return or "insurance" premiums.  I certainly didn't sign any 
+contract, and I feel precisely zero moral obligation to pay SS taxes.  
+Not to mention that the 20-something generation will get far less
+of it back than current retirees, if we get back any at
+all.  That's a far grosser unfairness than any of the trivial
+reductions in the high rate of return for current retirees
+being contemplated by our beloved Congresscritters.
+
+Furthermore, "retirement" is a silly, obsolete concept.
+
+Nick Szabo				szabo@techbook.com
+
+------------------------------
+
+Date: Tue, 20 Jul 93 3:32:09 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Another Worry
+
+Ray () writes:
+>   I've seen this datapoint constructed in a different form in sci.econ.
+> (the poll was conducted not just on teachers, but students also. Only
+> techer/students who were studying economics!)
+> 
+> "Would you rather have 2% growth in the US's economy and 3% growth in Japan
+> for a year or 1% growth in the both countries for a year."
+> 
+
+  Another select anecdote. Just saw on the local news that a union is
+demanding higher wages at a steel plant that is financially strapped.
+Workers were quoted as saying "We want higher wages, even if it means
+the plant have will close in a year." [presumably from bankruptcy]
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Tue, 20 Jul 93 01:08:56 -0700
+From: zz@garnet.berkeley.edu (Zachary Zaidman)
+Subject: personal cancer experiences...
+
+Hello everybody! I am back from a relatively long absence... 
+
+I was away first because I was too busy and then because I got 
+sick. I would like to share some of my experiences with this 
+illness with you all. For those of you who are interested, 
+following is a very brief overvew of what I have been going 
+through:
+
+A few months ago I noticed a tiny sharp bump on one of my 
+testicles. It was dismissed three separate times by three 
+different doctors in the university health center who said there 
+was nothing to worry about. Eventually, I arranged to see a 
+private urologist who immediately determined that we should 
+do an ultrasound. That same evening I had checked in to the 
+hospital for exploratory surgery which turned out to be a radical 
+orchiectomy leaving me with one lonely 'odd ball' ;-), and a 
+diagnosis of embryonal cell testicular cancer which I have since 
+learned is the most common cancer in young men and the most 
+curable form of solid cancer. After a month long crash course on 
+testicular cancer, I am quite reassured that it is very unlikely 
+that I will die from this disease. But I have already undergone a 
+second and much more serious surgery to remove twenty six 
+retroperitoneal (abdominal) lymph nodes, I am still stuck in San 
+Diego recovering, and I have a little more "work" to do before 
+being completely officially cured. Three lymph nodes already 
+had microscopic cancer. Based on the most current research, 
+this means that 80% of those in my condition will be 
+permanently cured with the surgeries alone while about 20% 
+will relapse in the lungs within about two years--a relapse 
+with a 99% cure rate.
+
+Here is the current challenge: I have been offered a choice to 
+undergo two courses of "profilactic" or "adjuvant" 
+chemotherapyy in order to virtaully guarantee no future 
+relapses, OR to do nothing except watch and wait for two years 
+getting monthly x rays and blood tests (tumor markers) and 
+quarterly CAT scans. If I should replase, three or four courses of 
+the same chemotherapy (blyomicine, vp16, and sisplatinum.) 
+should virtually always be totally curative. 
+
+All the data available indeed suggest that patients who wait 
+have the same final outcome as those who receive adjuvant 
+chemotherapy. There are plenty of reasons to decide either way 
+but none of them are medical. This is very frustrating for me 
+and I am still searching through the literature and talking to all 
+kinds of experts trying to find answers to my concerns. On the 
+one hand chemotherapy is very toxic--it causes infertility in 
+about 50% of patients and, in very rare cases, it could result in 
+more serious side effects such as secondary cancers, lung 
+fibrosis, and more. On the other hand, cancer is no fun either. I 
+don't want to go through chemotherapy if 80% of the time I 
+would be doing it for nothing. In any case, experts are clear
+only about the fact that there is no right or wrong choice. I 
+have about three days to decide and I presently have no idea
+what I will do. I have MUCH more to say about this 
+predicament, the decision I am facing, and my experiences 
+throughout this past month but I will reserve it for those of 
+you who are interested in hearing more. I am personally very 
+interested in your thoughts, questions, or opinions and I am 
+happy to be back online as I have been missing this community.
+
+Please respond either directly to zz@garnet.berkeley.edu or to 
+the list with a copy to my personal account--for now...
+
+I have been feeling very well lately and I look forward to 
+continue living my long life with the perspectives I have gained 
+throughout this ordeal. 
+
+Best regards!
+
+Zak
+PS Any good extropian names for a one testicle mutant transhuman? :-)
+
+More soon.
+
+------------------------------
+
+Date: Tue, 20 Jul 93 01:12:49 -0700
+From: zz@garnet.berkeley.edu (Zachary Zaidman)
+Subject: personal--me and my cancer...
+
+ Hello everybody! I am back from a relatively long absence... 
+
+I was away first because I was too busy and then because I got 
+sick. I would like to share some of my experiences with this 
+illness with you all. For those of you who are interested, 
+following is a very brief overvew of whaSubject: t I have been going 
+through:
+
+A few months ago I noticed a tiny sharp bump on one of my 
+testicles. It was dismissed three separate times by three 
+different doctors in the university health center who said there 
+was nothing to worry about. Eventually, I arranged to see a 
+private urologist who immediately determined that we should 
+do an ultrasound. That same evening I had checked in to the 
+hospital for exploratory surgery which turned out to be a radical 
+orchiectomy leaving me with one lonely 'odd ball' ;-), and a 
+diagnosis of embryonal cell testicular cancer which I have since 
+learned is the most common cancer in young men and the most 
+curable form of solid cancer. After a month long crash course on 
+testicular cancer, I am quite reassured that it is very unlikely 
+that I will die from this disease. But I have already undergone a 
+second and much more serious surgery to remove twenty six 
+retroperitoneal (abdominal) lymph nodes, I am still stuck in San 
+Diego recovering, and I have a little more "work" to do before 
+being completely officially cured. Three lymph nodes already 
+had microscopic cancer. Based on the most current research, 
+this means that 80% of those in my condition will be 
+permanently cured with the surgeries alone while about 20% 
+will relapse in the lungs within about two years--a relapse 
+with a 99% cure rate.
+
+Here is the current challenge: I have been offered a choice to 
+undergo two courses of "profilactic" or "adjuvant" 
+chemotherapyy in order to virtaully guarantee no future 
+relapses, OR to do nothing except watch and wait for two years 
+getting monthly x rays and blood tests (tumor markers) and 
+quarterly CAT scans. If I should replase, three or four courses of 
+the same chemotherapy (blyomicine, vp16, and sisplatinum.) 
+should virtually always be totally curative. 
+
+All the data available indeed suggest that patients who wait 
+have the same final outcome as those who receive adjuvant 
+chemotherapy. There are plenty of reasons to decide either way 
+but none of them are medical. This is very frustrating for me 
+and I am still searching through the literature and talking to all 
+kinds of experts trying to find answers to my concerns. On the 
+one hand chemotherapy is very toxic--it causes infertility in 
+about 50% of patients and, in very rare cases, it could result in 
+more serious side effects such as secondary cancers, lung 
+fibrosis, and more. On the other hand, cancer is no fun either. I 
+don't want to go through chemotherapy if 80% of the time I 
+would be doing it for nothing. In any case, experts are clear
+only about the fact that there is no right or wrong choice. I 
+have about three days to decide and I presently have no idea
+what I will do. I have MUCH more to say about this 
+predicament, the decision I am facing, and my experiences 
+throughout this past month but I will reserve it for those of 
+you who are interested in hearing more. I am personally very 
+interested in your thoughts, questions, or opinions and I am 
+happy to be back online as I have been missing this community.
+
+Please respond either directly to zz@garnet.berkeley.edu or to 
+the list with a copy to my personal account--for now...
+
+I have been feeling very well lately and I look forward to 
+continue living my long life with the perspectives I have gained 
+throughout this ordeal. 
+
+Best regards!
+
+Zak
+PS Any good extropian names for a one testicle mutant transhuman? :-)
+ 
+More soon.
+
+------------------------------
+
+Date: Mon, 19 Jul 93 11:46:24 PDT
+From: edgar@spectrx.saigon.com (Edgar W. Swank)
+Subject: Extropian Song Lyrics
+
+Thanks to Tim Starr for posting his candidate for "extropian" song
+lyrics, "Tomorrow's World," by Joe Jackson.  While it starts out well,
+I have real problems with the LC (Libertarian Correctness),
+the EC (Extropian Correctness), and I'm personally offended
+by:
+
+   We're gonna give in Tomorrow's World
+
+Who's "We", Lone Ranger?  I'm gonna live in Tomorrow's World and I'm
+not gonna give anybody a goddam thing!!  Since I'll be free to keep
+and bear arms in tomorrow's world, if anyone tries to -take- anything
+from me, I'll blow his fucking head off!!
+
+This line is harder to fix; I guess we need another word that rhymes
+with "live".  Anybody have a rhyming thesauraus available?  We need
+something like
+
+  We're gonna be free in Tommorrw's World
+
+until somebody thinks of something better I guess we could use
+
+  no coercion to give in Tomorrow's World
+
+The next line is easy to fix, change
+
+   And there'll be food for everyone
+
+to
+
+  there'll be cheap food for everyone.
+
+This better reflects the inevitable productivity improvements provided
+by the capitalist system, whereas the original line smacks of food
+stamps and the morally bankrupt welfare system.
+
+Going back, the following line is not EC.
+
+   We'll live on power from the sun
+
+Actually, solar power is completely inadequate even for today's
+demands.  It might as well have read
+
+   We'll live in caves with no lights in Tomorrow's World.
+
+Until fusion is perfected, we'll live on power from fast breeder
+atomic reactors.  While the sun is powered by fusion, fusion power on
+earth will actually come from the oceans.  We need to fix this line;
+perhaps
+
+   We'll live on power like the sun's
+
+OK, -now- we've got an Extropian song!!!
+
+   We're gonna live in Tomorrow's World
+   We'll live on power like the sun's
+   No coercion to give in Tomorrow's World
+   there'll be cheap food for everyone
+   In Tomorrow's World
+
+Considering your credentials, Tim
+
+   Assistant Editor: Freedom Network News, the newsletter of ISIL,
+   The International Society for Individual Liberty,
+
+   Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+I'm surprised you didn't suggest similar changes yourself.
+
+--
+edgar@spectrx.saigon.com (Edgar W. Swank)
+SPECTROX SYSTEMS +1.408.252.1005  Cupertino, Ca
+
+
+------------------------------
+
+Date: Tue, 20 Jul 1993 02:23:37 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: Wage Competition
+
+Hal Finney:
+> How does this apply to the situation where others are able to produce
+> just as much as you, but are willing to do so for less than what would
+> be a living wage for you?
+
+What is a real-world example of this?  The only examples I can
+think of are (a) the formerly high-wage worker
+has to reevaluate what he considers a "necessity" for life  -- 
+usually things his parents, or his lower-wage competitors, 
+consider[ed] luxuries, or (b) situations where the high-wage
+worker has foolishly saddled himself with long-range debt
+without wage or unemployment insurance.  If there is a big
+cost of living difference, the formerly high-wage worker can move 
+into the low-wage worker's neighborhood, and vice versa.  
+If future wage shifts can be predicted with a wage futures
+market, the long-term indebtedness, cost of living, and very 
+expectations of the worker as to what is a "necessity" could be 
+adjusted accordingly, and retraining costs better allocated.
+(I'm not sure how well such a market would predict wages,
+though).
+
+Nick Szabo				szabo@techbook.com
+
+------------------------------
+
+Date:     Tue, 20 Jul 93 9:24:01 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Social Security and the Deficit of the USA
+
+Methinks both DVDT and Carol Moore mistaken 'bout the things in the above
+subject line.
+
+Social Security was never predicated upon being any sort of insurance.  Insur-
+ers pay out benefits from interest on a capital fund.  SS pays from cashflow.
+Once upon the mid-19th century, in Prussia, the Iron Chancellor, Otto von
+Bismarck, had trouble.  Ze vorkers did not like his high taxes and the high
+prices of his industrial cartels.  He needed a way to make them change their
+preferences without having to deliver anything for it.  He asked an actuary
+what their life expectancy was.  He was told: 65.  He proposed to put everyone
+on the dole from 65 on.  Ze vorkers changed their preferences, and liked or
+at least put up with the taxes and prices.
+
+Roosevelt II's Brain Trust were aware of this.  They needed a way to get
+FDR re-elected.  His fascist organization of the economy wasn't making him
+popular - neither were his taxes and regs.  He promised to put everyone on
+the dole from 65 on.  He got re-elected.
+
+The Deficit ain't as bad as Perot, Lead Or Leave, and Carol Moore may think.
+It's the highest peacetime one, but ain't so bad compared to wartime ones.
+400 billion?  Peanuts.  Debt ain't so bad, either.  4 trillion?  Federal
+assets estimated at $5 trillion.  Sell em!  $1 trillion surplus!
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Tue, 20 Jul 1993 02:37:36 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: Another Worry
+
+> "Would you rather have 2% growth in the US's economy and 3% growth in Japan
+> for a year or 1% growth in the both countries for a year."
+> [most choose to keep the Japs down at the expense of our economy]
+
+We libertarians get accused of greed so much, we forget just what
+idealistic, altruistic dreamers we are compared to the self-righteous
+population.  Most folks treat the world as a ruthless, dog-eat-dog, 
+zero-sum game, all the while protesting loudly to the contrary.
+Most folks are racist, all the while protesting loudly to the
+contrary.  I bet a much greater % of us white folks would
+let Europe beat us 3-2 than an even 1-1 (but it still might not
+be a majority).
+
+your local out-of-the-closet cynic,
+Nick Szabo				szabo@techbook.com
+
+------------------------------
+
+Date: Tue, 20 Jul 1993 05:54:56 -0600 (MDT)
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: Tech/Humor: Morphing Arround (send files)
+
+Quoth Harry Shapiro, verily I say unto thee:
+
+-=>I am having loads of fun Morphing around on my computer.
+-=>
+-=>I have changed a guy into a girl, and someone else into
+-=>various assorted "private" parts, including a video captured
+-=>image of one of my own "parts."
+-=>
+-=>I am looking for a few good "parts, picts, and other images"
+-=>to play with.
+-=>
+-=>I am esp. interested in images, x-rated or not, from list 
+-=>members. I am even more interested in getting ideas for
+-=>Extropian Correct ;) Morphing projects. (e.g., can anyone
+-=>think of Morphing X into Y where when this transformation is
+-=>viewed the viewer is exposed to a powerful Extropian meme.
+-=>
+-=>For interested list members I would be happy to send samples
+-=>of my work to date and my work in progress.
+
+Sure, I'd like to see some of this FunStuff!  What morphware are you using?
+
+-- 
+Stanton  McCandlish   * Space Migration * Networking * ChaOrder * NO GOV'T. *
+anton@hydra.unm.edu   * Intelligence Increase * Nano * Crypto * NO RELIGION *
+FidoNet:    1:301/2   * Life Extension * Ethics * VR * Now! * NO MORE LIES! *
+Noise in the Void BBS * +1-505-246-8515   (24hr, 1200-14400, v32bis, N-8-1) *
+
+------------------------------
+
+Date: Tue, 20 Jul 1993 06:06:04 -0600 (MDT)
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: META: apology for the morphing reply getting posted
+
+meant for that to go privately.  Gahhhh
+
+-- 
+Stanton  McCandlish   * Space Migration * Networking * ChaOrder * NO GOV'T. *
+anton@hydra.unm.edu   * Intelligence Increase * Nano * Crypto * NO RELIGION *
+FidoNet:    1:301/2   * Life Extension * Ethics * VR * Now! * NO MORE LIES! *
+Noise in the Void BBS * +1-505-246-8515   (24hr, 1200-14400, v32bis, N-8-1) *
+
+------------------------------
+
+Date: Tue, 20 Jul 93 09:15:36 CDT
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: Social Security and the Deficit of the USA
+
+If the underlying problem is that SS was started on the basis of a life expectacy of 65, then the solution to SS problems is obvious - crank up the
+age to receive social security payments to keep up with increasing
+lifespans.  A good start woud be 2 months per year.  So someone like
+me who is 35 would start to receive at 70 instead of 65.  Keep cranking
+up the age to receive until the system becomes actuarily sound, then
+privitize it.
+
+Dani Eder
+
+------------------------------
+
+Date: Tue, 20 Jul 1993 10:31:50 -0400 (EDT)
+From: Harry Shapiro <habs>
+Subject: Admin: What are "Admin" messages?
+
+This is an Admin message. Using our new software, you can NOT
+exclude it. It is a way for me to send important messages to
+all list members. 
+
+If you are on the new software, and you are a digest "user" this
+message will not be digested and will go "directly" to you.
+
+I promise to use this feature only for communication that I
+consider really important.
+
+Our security features are not fully on. When they are, only
+authorized posters can use the Admin feature. So don't reply
+to an Admin; send a "meta" post.
+
+/hawk
+
+-- 
+Harry S. Hawk  				      habs@panix.com
+Electronic Communications Officer, Extropy Institute Inc.
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Tue, 20 Jul 1993 11:15:04 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Optimizing utility in the free market 
+
+davisd@pierce.ee.washington.edu says:
+> > From: starr@genie.slhs.udel.edu
+> > 
+> > Basically, my worry is that the problem with all the "proofs" that free
+> > markets optimize utility is refuted by the fact that many people get
+> > disutility from inequality of condition. 
+> 
+> My problems with any proof of optimal utility of a free market, is
+> that it must presume the utility functions of the participants, and
+> I've never one that did so. Having done this, it would need to define
+> some kind of probability of successful control of your neighbor and
+> the costs associated with it. 
+
+Pareto optimality makes no assumptions of the nature of the utility
+functions of the participants -- only that they possess them. I don't
+understand what the control of your neighbor business means.
+
+Perry
+
+------------------------------
+
+End of Extropians Digest V93 #200
+*********************************
+

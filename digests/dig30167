@@ -1,0 +1,1008 @@
+From extropians-request@gnu.ai.mit.edu Thu Apr  1 19:26:45 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA06805; Thu, 1 Apr 93 19:26:43 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from geech.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA07001; Thu, 1 Apr 93 19:26:38 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by geech.gnu.ai.mit.edu (5.65/4.0)
+	id <AA14634@geech.gnu.ai.mit.edu>; Thu, 1 Apr 93 22:21:06 -0500
+Message-Id: <9304020321.AA14634@geech.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Thu, 1 Apr 93 22:20:44 -0500
+X-Original-Message-Id: <9304020320.AA14619@geech.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0167
+X-Extropian-Date: Remailed on April 2, 373 P.N.O. [03:21:05 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest             Fri, 2 Apr 93             Volume 93 : Issue 0167
+                        
+Today's Topics:
+                         Buy Health, Not Health Care                  [1 msgs]
+                          HUMOR: UFO's From Future?                   [1 msgs]
+                           Humor: The Anti-Metzger                    [1 msgs]
+                       LAW: Patent Law in Outer Space                 [1 msgs]
+                          ROOTS: Ethnicity -- NOT!                    [1 msgs]
+                           ROOTS: Irish irritation                    [1 msgs]
+                Russia's OPERATIONAL Starwars Defense System          [1 msgs]
+                           Speech for the defense                     [1 msgs]
+                     TECH: Entropic costs of computation              [2 msgs]
+                  Traffic guide - passthrough brake lights            [3 msgs]
+                         VR: question re: P. Science                  [2 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50555 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 1 Apr 93 17:20:00 PST
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: Traffic guide - passthrough brake lights
+
+I don't quite see the value of Jerry's idea of pass-through brake lights.
+It seems like you'd have so many "false alarms" where the brake lights of
+the car in front of you didn't mean it was slowing down, that people might
+tend to ignore brake lights.
+
+That reminds me of an annoying phenomenon I've noticed while driving in
+traffic at night.  When you come to the top of a hill so that you can see
+the road for some distance in front of you, people tend to hit their
+brakes.  I think the reason is that people have an instinctive response
+to an increase in the amount of red light in front of them, causing them
+to apply their brakes.  Normally this happens when the car or cars in
+front of you are slowing down, so it is a useful instinct.  But at the
+top of a hill the same thing happens, as you are suddenly able to see the
+brake lights of cars for a mile or more in front of you, lights which were
+previously hidden by other cars.  This causes a similar increase in the
+amount of red light you see, causing you to hit your brakes.
+
+Given this instinct, I'd be afraid that Jerry's idea would slow traffic
+badly, causing one person's application of brakes to snowball and slow
+cars down for miles behind him.
+
+It's good for _me_ to slow cars down behind me; it reduces the chances that
+I'll get rear-ended.  But it's bad for the people behind me, and it would be
+bad for me if someone in front of me does it.  This is an example of the
+conflict between what is good for the individual and what is good for the
+group on the roads.
+
+(Dean compared this to an iterated prisoner's dilemma, but I don't think
+that applies; the IPD requires that you know who you are playing against
+each time, and remember what happened in your previous encounters.  Most
+of the time on the road these requirements aren't met.  Rather, I would
+think this is better analyzed in terms of Hofstadter's super-rationality
+(which we had a big debate on last year).  Super-rational people behave
+in a way such that if everyone behaved that way, things would work out well.
+Super-rational behavior is not rational, unfortunately, and after our
+discussion I can't really recommend it as a general principle.)
+
+Hal
+
+------------------------------
+
+Date: Thu, 1 Apr 93 12:29:40 PST
+From: ghsvax!hal@uunet.UU.NET (Hal Finney)
+Subject: TECH: Entropic costs of computation
+
+Let me first make a general point about these calculations regarding heat
+dissipation and calculation, then I'll talk about Derek's note.
+
+The results that come out of the equations are lower bounds.  They are
+limitations which cannot fundamentally be beaten.  Given a calculation
+which starts with inputs X and produces outputs Y we can say what the
+minimal energy dissipation is.
+
+This does not mean that we actually have a design in hand to produce a
+machine which can calculate at that minimal energy cost.  It does not
+mean that any given design calculates at that cost.  It simply means
+that we know that no design, no matter how clever, can beat this cost.
+
+This approach is similar to other thermodynamic analyses where we
+calculate theoretical maximum efficiencies.  We know these numbers
+can't be beaten, but that doesn't mean that any given design achieves
+them.
+
+Looking at Derek's comments from his long message in this light:
+
+1) Heat dissipation caused by the mechanism itself.
+
+You don't _have_ to invoke entropy to calculate how much heat is
+dissipated by a particular mechanism.  That can be done by plain old
+dynamics.  Look at the friction, look at the materials, look at the
+motions and forces, and calculate the heating.  This will always give
+you a correct answer.
+
+Or, if that's too hard, you can use the entropy calculation to give you
+a lower bound on what the answer will turn out to be.  You can apply
+it to any system or subsystem.  If that subsystem decreases its
+entropy, reducing its volume of phase space, then it will dissipate
+heat.
+
+On Derek's second point:
+
+1) Deduce what was there before by restarting the calculation.
+
+But you can't necessarily restart the calculation unless you
+remembered what all the inputs were.  A machine which transforms
+inputs into outputs will not necessarily record that information.
+
+It's the difference between out = in1 xor in2, which is irreversible,
+and (out1, out2) = (in1 xor in2, in2), which is reversible.
+
+So, Derek is mistaken in saying that it is ALWAYS possible to deduce
+what was there before, since that is actually only true for logically
+reversible calculations.  It's just that by saving the input you can
+make any calculation logically reversible, using Derek's technique.
+
+2) Reverse motions and recover the earlier state.
+
+This is impossible by the 2nd law of thermodynamics.  Once the energy
+becomes heat it is not useful.  Yes, if you could reverse molecular
+motions you could do all sorts of nice things.  But this whole
+analysis is being done in the context of the 2nd law, where once
+energy becomes heat it is lost.  Any discussion of acquiring energy
+from (uniform) heat is totally nonphysical.
+
+3) Who is the "you" in "if you could deduce what had been there
+before"?
+
+What I meant is, if the calculation is such that this deduction could
+be done, then theoretically a machine could be built which would not
+dissipate energy in doing this calculation.  If this is not the case
+(as in out1 = in1 xor in2) then you know that there _must_ be a
+certain minimum level of dissipation.
+
+If I understand the point Derek is raising, the issue is whether the
+_logical_ structure of the calculation allows for this kind of
+deduction.  It is a question of whether the calculation is logically
+reversible.  (out1, out2) = (in1 xor in2, in1 or in2) is not logically
+reversible.  Above I gave an example which was.  These considerations
+allow us to put bounds on the energy dissipation of the process.
+There is no issue of reversing molecular motion.  It is not at this
+level.
+
+Derek also mentions a formula from a paper by Schneider (which I
+haven't read).  Again, I would interpret this formula as a lower
+bound.  If you discovered a new way of interpreting the data which
+indicated that _more_ information was coming out (similar to Derek's
+example of measuring coin position to finer resolution than just
+heads/tails) then we would raise our estimate of the actual energy
+dissipated by the machine.  It wouldn't _change_ the workings of the
+machine - it always would have dissipated that much energy.  It means
+that as we do a more detailed analysis we come to understand better
+why it dissipates as much energy as it does.
+
+In Derek's example of a long-running program which does just a little
+calculation (his example is actually logically reversible, by the way,
+since it retains its input) then yes, theoretically a machine could be
+built to do that calculation with an arbitrarily small amount of
+dissipation.  If it were doing an irreversible calculation, then we
+would know that this would be impossible.  That's what the information
+measurements tell us.
+
+As far as the macrostate/microstate distinction, this is how I would
+explain it.  It is true that if you include all the detailed
+information about every molecule's motion, then the total phase space
+volume of a system never changes.  Even if entropy increases and
+information gets thermalized and "lost", if you look at things at the
+atomic level the information is not actually lost.  The phase space
+representation develops little "fingers" and becomes rather "fractal"
+in shape but the volume remains the same.  There was a good article on
+this in Sci. Am. many years ago.
+
+But, in the real world, information that becomes thermalized is
+effectively lost.  It can do no work.  There is no magical machine to
+reverse molecular motions.  Our lives would be much easier if there
+were!  Raising the dead would be the tiniest of our capabilities.
+
+So, if we do as the thermodynamicists do and group microstates into
+macrostates which are macroscopically indistinguishable, we have that
+entropy increases, information is lost, and phase space volume
+spreads out and increases.
+
+It is in this sense that we say that a measurement can reduce the
+phase space volume of a system, because before it could have been in
+more states than it is now.  It is true that at the atomic level the
+volume never changes.  But blurring out the indistinguishable atomic
+level differences (one thermal motion is like another if they are the
+same temperature) means we do see a phase space change.
+
+This is not an unnatural or "pernicious" way of classifying
+microstates into macrostates.  It is perfectly natural based on the
+way the real world works.  Heat is heat, and there is no point in
+trying to distinguish all the different thermal motions.  Once we
+classify them all together we see entropy appear along with all of the
+other phenomena we are discussing here.
+
+Hal Finney
+hal@alumni.caltech.edu
+
+------------------------------
+
+Date: Thu, 1 Apr 1993 19:30:05 -0600
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Buy Health, Not Health Care
+
+Uh, I saw a comment by ddfr on a post with the above name.
+But I never got it. (I'm spelunking through saved messages
+in my mailfile.) What gives?
+
+Phil
+
+------------------------------
+
+Date: Thu, 1 Apr 1993 19:39:46 -0600
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Humor: The Anti-Metzger
+
+Tim, careful what you say. You're on the verge of starting another
+flamewar on the famine if Carol deceides to get her Irish up.
+If you try to encourage her, I might jump in, so get out those
+Asbestos Undies if you want to continue further.
+
+Just thought I'd mention wrt the comment about how "extropians
+don't like history very much." After your comments about the
+famine, I'm assuming you're generalizing about the list, based
+on yourself...
+pgf
+
+------------------------------
+
+Date: Thu, 1 Apr 1993 17:54:39 -0800
+From: romana@apple.com
+Subject: VR: question re: P. Science
+
+Ray Cromwell said:
+>   I tend to think that Newton, Gauss, Archimedes, Riemann, and Einstein
+>were true geniuses but that is based totally on historical evidence
+>of their problem solving capability. No doubt, some of the stories are
+>false.
+>
+
+It's easier to judge a person in terms of their actual acheivements than
+their potential capacity for achievement. In terms of actual acheivement,
+all of the men you have mentioned are certainly geniuses. What they might
+have scored on a measure of potential achievement is by now completely
+moot.
+
+Romana Machado
+
+romana@apple.com
+
+
+------------------------------
+
+Date: Thu, 1 Apr 93 20:54:34 EST
+From: drw@BOURBAKI.MIT.EDU
+Subject: Speech for the defense
+
+This is not a complete answer, *but*...
+
+   X-Name: KMOSTA01
+
+   Hippies can get to the White House, but they are not selfish!
+   The entire hippie movement was about sacrifice.
+
+The entire hippie movement *talked* about sacrifice, but the amount of
+sacrifice it *did* was quite small.  There were a few political
+movements that the hippies were involved in in a truly altruistic way
+(Civil Rights comes to mind), but generally hippies wanted free sex,
+free drugs, ending the war in Vietnam, and not having to work for a
+living.  (That last was usually accomplished by getting money from
+daddy.)  None of these were very altruistic.
+
+That's not to say that some of the leaders and members of the hippie
+movement weren't dedicated altruists of various flavors.  But the bulk
+of them were more lazy and trying to avoid the culture of ambition of
+the preceeding twenty years.  What was written about the hippie
+movement tended to emphasize the altruistic minority.
+
+   Human sacrifice is evil.
+
+But how would we get our protein without killing animals?  :-)
+
+Dale
+
+Dale Worley		Dept. of Math., MIT		drw@math.mit.edu
+--
+Visualize Armed Revolution!
+
+------------------------------
+
+Date: Thu, 1 Apr 93 17:57:06 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Traffic guide - passthrough brake lights
+
+Hal Finney writes:
+
+>(Dean compared this to an iterated prisoner's dilemma, but I don't think
+>that applies; the IPD requires that you know who you are playing against
+>each time, and remember what happened in your previous encounters.  Most
+>of the time on the road these requirements aren't met.  Rather, I would
+>think this is better analyzed in terms of Hofstadter's super-rationality
+>(which we had a big debate on last year).  Super-rational people behave
+>in a way such that if everyone behaved that way, things would work out well.
+>Super-rational behavior is not rational, unfortunately, and after our
+>discussion I can't really recommend it as a general principle.)
+
+Actually, the iterated prisoner's dilemma does *not* require the same exact
+players in each round. For example, the "Russians" and the "Americans" may
+play the game in various ways, even thought the individual players change
+frequently. Other "public choice" games show IPD behavior--markets, for
+example--without the players be exactly the same people. (The suggestion
+being that an IPD-of-sorts is occurring with "the driver" and "the other
+drivers" and that IPD-type emergent behavior develops. I know when I drive
+I think of the other drivers as players in a game, sort of, and I try to
+"do unto others as I would have them do unto me," which is the canonical
+form of tit-for-tat. Whether this behavior can best be modeled as an IPD is
+another matter.)
+
+I recall reading about how IPD experiments were done where the game was
+iterated as usual, but the players were rotated at each round (that is,
+everybody played the same number of rounds, but never against the same
+person more than once). The results were similar to the normal version.
+(I've looked in my standard game theory reference, Fudenberg and Tirole,
+but can't find mention of this. I'll keep my eye out for this.)
+
+On Keith Henson's "Traffic Guide" proposal per se, the social and economic
+flaws are too numerous to mention, in my opinion. Keith asked me to look
+over his paper in December, 1991 and I did so, writing a 12-page outline
+form critique of the many problems I saw. I don't think it's of much
+Extropian interest, but since people are beginning to nibble away at
+Keith's idea, perhaps I should post it?
+
+
+-Tim May
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+Date: Thu, 1 Apr 93 20:59:39 EST
+From: drw@BOURBAKI.MIT.EDU
+Subject: ROOTS: Ethnicity -- NOT!
+
+   From: KMOSTA01@ulkyvx.louisville.edu
+
+   Dale's post was magnificent, except for a gross misinterpretation of the
+   Serb-Croat conflict. Serbs can't genocide Croats, Croats are well armed.
+   Serb (communist, by the way) government is genociding Bosnians, in 
+   a totally "nonanarchist way".
+
+Well, I don't track Yugoslavia on a day-to-day basis; it's far too
+depressing.  But my impression is that Serbs and Croats have both been
+killing each other in the present conflict whenever they had the
+opportunity.  Certainly, historically, they've done so.  And they're
+both killing Moslems.  (I don't know whether this is a historical
+pattern, though, or whether Moslems have been returning the favor.)
+
+And according to the papers, there are both governmental and
+non-governmental killings.  If they can be believed, there are a
+considerable number of irregulars out there killing, simply because
+that's what they want to do, on top of the various governmental
+killings.  (Presumably the soldiers are paid to do them.)
+
+It's very, very easy for an ethnic group to see a government which it
+has political control of as a tool for enforcing its will on other
+ethnic groups.  And sadly, there is often a sense of corporate
+identity in ethnic groups.
+
+Dale
+
+Dale Worley		Dept. of Math., MIT		drw@math.mit.edu
+--
+Dwarves constantly maintain a facsimile of reality at a discrete
+radius from my current location. One day I'll rise early, jump in my
+car, and drive about a mile down the road only to find that it drops
+off into an abyss--bored dwarves lounging behind construction
+barricades.	-- "Set the Destroyer"
+
+------------------------------
+
+Date: Thu, 1 Apr 93 19:00:01 EST
+From: mike@highlite.gotham.COM (Mike Wiik)
+Subject: HUMOR: UFO's From Future?
+
+Hal Finney writes:
+
+> Once I drove 200 miles to see the mysterious "ghost lights" of Marfa, TX.
+> I saw lights, but they looked to me to be due to atmospheric refraction.
+> I had hoped for something far more dramatic and was disappointed.
+
+A friend and I had a similar experience in which we "followed" flashing
+lights for miles. The final result: strobe lights on a new transmission
+tower. (They later used the strobes only during the day, and regular
+flashing lights at night - the night strobes "appeared" to be only 50
+feet or so above us when actually they were miles away).
+
+> The wild stories of UFO abductions and alien attacks I have to assign
+> to fantasy.
+
+Or, at least in one case, to the French gov't as I recounted earlier.
+Yeah I know _Omni_ sucks but I remember an interesting article about
+a helmet designed to create a powerful electromagnetic field - people
+who were subjected to it spontaneously dreamed up UFO abduction stories.
+
+I've read enough UFO accounts to safely conclude that *something* is
+involved here, though at the moment it's unknown and the idea of UFO's
+as alien spaceships is tangenital to the UFO phenomenon itself. I think
+this matches Valee's conclusions as written in _Messengers of Deception_
+and perhaps some later books of his.
+
+> But for me there are simpler and more concise explanations without invoking
+> supernatural alien powers.
+
+I agree, but don't discount all sightings and/or abductions as simply
+individual delusion. The small percentage of UFO's that can't be explained
+as natural phenomena might be an evil gov't up to tricks, for example...
+Wasn't there something in the news recently about the gov't's new stealth
+fighter which had been seen but denied (at the time) by the gov't? In
+any case, if hundreds of thousands of people can share a BVM manifestation
+(Fatima), it's seems stretching it a bit to dismiss it all as fantasy...
+
+> Hal Finney
+> hal@alumni.caltech.edu
+
+	-Mike	mike@highlite.gotham.com
+
+
+
+
+
+
+------------------------------
+
+Date: Thu, 1 Apr 93 19:15:45 MST
+From: Ed_Lane@Novell.COM (Ed Lane)
+Subject: VR: question re: P. Science
+
+Lefty responds:
+
+> Ed Lane writes:
+> >If you're not familiar with Marilyn [Vos Savant],
+> >she *is* the smartest person on the planet (IQ = 230).
+> 
+> Truly?
+
+You wouldn't doubt the *Guiness Book of World Records*, would you? 8^)
+
+> 
+> What exactly has she _accomplished_, other than obtaining a job answering
+> trivial questions in Parade magazine?
+
+I agree.  In fact I wrote her a letter asking that very question-- "Why
+is someone of such rare intellect answering those pedestrian questions
+posed in *Parade Magazine*?  I hope you are just moonlighting in this
+assignment and that you are actually engaged in some important think-tank
+work elsewhere."  (I have not yet received an answer to my letter)
+
+> By the way, my own IQ is officially
+> unmeasurable: the last time I took a Stanford-Binet, I didn't get any
+> answers wrong.
+
+Yes, this is a problem with most IQ and "achievement" tests which were
+designed to measure the "average" person.  In the past I did some work
+in the area of Computer Adaptive Testing for the military (no jokes
+please) which attempted to quantify those individuals at the extremes
+--both low and high.  These tests "adapted" themselves in response to the
+subject's past performance in an attempt to converge on his "true"
+intelligence after a short time.  Kind of a "binary search" if you
+like.  The system was actually more sophisticated than that and
+involved assigning a "discriminatory value" to each question.  It was
+interesting to see the results of various tests applied to the
+"marketing-types" and "programmer-types" at this company during
+development (ah, but I digress).  I have noticed that there is a
+parallax effect with the estimation of IQ just as with heigth (at 6'-8"
+I have some experience in this area).  The proximity of the "estimator"
+and the "subject" should be close for an accurate determination of
+intelligence.
+
+> 
+> An interesting, but not terribly useful, definition of intelligence you
+> have there.
+> 
+
+Again, not *my* "definition", but GBWR's.
+
+My impression from reading Marilyn's book and seeing her interviewed
+recently by Tom Snyder is that it's *not* her "definition" either.  I
+would not want to confuse "definition"-of with "measure"-of anyway.  In
+her book she also sets forth what I would call an intellectual
+etiquette guide in the form of "exercises".  She implies that we (her
+also) can be wrong and can learn from others.  Her ideas are not too
+much different from those expressed in the USENET Etiquette Guide and
+Extropian "Rules of Engagement".  I am personally familiar with several
+people who believe themselves to be the "smartest person on the
+planet."  We can't *all* be right, can we? 8^).  While only a recent
+subscriber to this list it is my impression that most people on it are
+definite "Mensa" candidates.  You included.
+
+> --
+> Lefty (lefty@apple.com)
+> C:.M:.C:., D:.O:.D:.
+> 
+
+Ed "Too Tall" Lane
+
+<lane@godot.Eng.Sandy.Novell.COM>
+
+
+------------------------------
+
+Date: 24 Mar 93 17:06:49 -0600
+From: mcelwre@cnsvax.uwec.edu
+Subject: Russia's OPERATIONAL Starwars Defense System
+
+          
+
+                 RUSSIA'S OPERATIONAL STARWARS DEFENSE SYSTEM
+          
+               In February 1992, Russian President Boris Yeltsin 
+          proposed to the United States and the United Nations a global 
+          defense shield (with "Star Wars"-type weapons) BASED ON 
+          RUSSIAN TECHNOLOGY. 
+          
+               Some people might wonder what the "backward" Russians 
+          could possibly have that would be of value for the S.D.I. 
+          research and development program. 
+          
+               The little-known TRUTH is that the Russians started 
+          deploying an OPERATIONAL "Star Wars" defense system in 
+          September 1977, and it has greatly grown and improved since 
+          that time.  It is a SPACE TRIAD built around CHARGED-PARTICLE 
+          BEAM and NEUTRON PARTICLE BEAM WEAPONS. 
+          
+               In this article I will describe the Russian system as it 
+          developed from 1977 to 1983, and give several examples of how 
+          it was used during that period.  But first I will try to 
+          convince readers of the credibility of my main source of 
+          information about it. 
+          
+               My main source is articles published in a weekly 
+          legislative newspaper, WISCONSIN REPORT (WR), of Brookfield, 
+          Wisconsin, (P.O. Box 45, zip 53005), written by the late Dr. 
+          Peter David Beter, a well-respected Washington, DC attorney, 
+          Doctor of Jurisprudence, and expert and consultant in 
+          international law, finance, and intelligence, who received 
+          much of his information from associates in the CIA and other 
+          intelligence groups of other countries who disapproved of 
+          many of the things happening or being planned behind the 
+          scenes.  They believed that at least limited public exposure 
+          might delay and ultimately prevent the worst of those things, 
+          such as NUCLEAR WAR and NATIONAL DICTATORSHIP, from taking 
+          place. 
+          
+               Dr. Beter started appearing on local radio and TV talk 
+          shows, but soon found himself being BANNED from them, as a 
+          result of government THREATS to cancel broadcast licenses.  
+          So he started producing monthly one-hour cassette tapes and 
+          sending them to a growing list of subscribers.  From June 21, 
+          1975 until November 3, 1982 he recorded eighty (80) "Dr. 
+          Beter Audio Letters", plus eight "Audio Books", and three 
+          special topic tapes.  On September 1, 1977 Wisconsin Report 
+          started publishing transcripts of those Audio Letters. 
+          
+               Based on information from his sources, Dr. Beter 
+          PREDICTED the bombing of the Marines in Beirut A FULL YEAR 
+          BEFORE IT HAPPENED, WARNING that the U.S. Pentagon and the 
+          Israeli Mossad were CONSPIRING TO DELIBERATELY ARRANGE IT in 
+          order to try to get Americans angry at the Arabs and generate 
+          public support for PLANNED military action against them.  He 
+          reported the impending assassination of Anwar Saddat of Egypt 
+          SIX DAYS BEFORE IT HAPPENED.  And Dr. Beter predicted what he 
+          called the "retirement" of Leonid Brezhnev one week before 
+          Brezhnev officially "died", [note that the word "retirement" 
+          was used for the TERMINATION OF REPLICANTS in the 1982 movie 
+          "Blade Runner"], and his quick replacement with Andropov 
+          which occurred only three days after the "death" of Brezhnev, 
+          to the surprise of all government and media analysts.  
+          Subscription application and renewal forms for Dr. Beter's 
+          tapes would usually say, "Subscribe to the Dr. Beter Audio 
+          Letter and watch the news start making sense." 
+          
+
+
+          RUSSIA'S SPACE TRIAD OF STAR WARS WEAPONS
+          
+               In September 1977 the Russians started launching MANNED 
+          killer satellites, called "COSMOS INTERCEPTORS", armed with 
+          CHARGED-PARTICLE BEAM weapons, into earth orbit, (12-15-77 
+          WR; and Dr. Beter Audio Letter (AL) #27, Topic 1). By April 
+          1978 there were about THREE DOZEN of them, and they had 
+          FINISHED DESTROYING all American spy and early warning 
+          satellites, (5-18-78 WR, and AL #33, Topic 2). 
+          
+               On September 27, 1977, in what Dr. Beter called "THE 
+          BATTLE OF THE HARVEST MOON", a Cosmos Interceptor in Earth 
+          orbit used a NEUTRON-PARTICLE BEAM to wipe out a secret 
+          American laser-beam base nearing operational status in 
+          Copernicus Crater on the Moon, (11-3-77 WR; and AL #26, Topic 
+          1).  The Russians quickly deployed their own military bases 
+          on the Moon, the second leg of their space triad, starting on 
+          October 4, 1977, with seven EXTREMELY POWERFUL charged-
+          particle beam weapons BASES on the near side of the Moon and 
+          three support bases on the far side, (2-9-78 WR; and AL #29, 
+          Topic 1). 
+          
+               The first test of the Moon base weapons occurred on 
+          November 19, 1977, ironically at about the same time as the 
+          release of the first "Star Wars" movie with its "death star" 
+          weapon.  The Russians were aiming at the eye of a cyclone 
+          near India.  But they miscalculated the deflection of the 
+          beam by the Earth's magnetic field, and the beam struck the 
+          ocean too close to the shore causing a TIDAL WAVE that killed 
+          many people, (2-9-78 WR; and AL #29, Topic 1).  A blast of 
+          charged-particle beams from two or more of the Russian Moon 
+          bases fired in quick succession would create the DESTRUCTIVE 
+          EFFECT OF A HYDROGEN BOMB on its target. 
+          
+               The third leg of Russia's triad of space weapons is the 
+          "COSMOSPHERES".  The first-generation Cosmospheres were 
+          weapons platforms that were ELECTRO-GRAVITIC (could hover 
+          against gravity), ATOMIC POWERED, horizontally positioned by 
+          rocket thrusters, somehow invisible to radar beyond about 40 
+          miles (perhaps from a radar-absorbing coating), armed with 
+          CHARGED-PARTICLE BEAM weapons (at least a hundred times less 
+          powerful than those in the Moon bases), equipped with 
+          "PSYCHO-ENERGETIC RANGE FINDING" (PRF) which tunes in to the 
+          actual ATOMIC SIGNATURE of a target or object and canNOT be 
+          jammed, and some of them were also armed with microwave 
+          BRAIN-SCRAMBLING equipment. 
+          
+               In late 1977 and early 1978, there was a strange rash of 
+          giant AIR BOOMS along the east coast of the United States and 
+          elsewhere.  These air booms were NEVER satisfactorily 
+          explained, by either the government, the scientific 
+          establishment, or the news media.  They could NOT be 
+          positively identified with any particular Super Sonic 
+          Transport plane (SST) or other aircraft, and indeed they were 
+          MUCH LOUDER than aircraft sonic booms.  The giant airbooms 
+          were actually caused by Russian Cosmospheres firing CHARGED-
+          PARTICLE BEAMS down into the atmosphere in a DEFOCUSED MODE 
+          (spread out) for the purpose of announcing their presence to 
+          the WAR-MONGERS in the United States Pentagon, (2-9-78 WR; 
+          and AL #29, Topic 1). 
+          
+
+               The main purpose of any "Star Wars" defense system is to 
+          protect a country against nuclear attack.  During the weekend 
+          of January 20, 1980, Russian Cosmospheres accomplished such a 
+          mission.  A NUCLEAR FIRST STRIKE against Russia by the then 
+          BOLSHEVIK-CONTROLLED United States was being started with a 
+          total of 82 special secret aircraft that can sneak up to a 
+          country's shoreline under water, surface, change 
+          configuration, take off, and fly at treetop level to their 
+          targets.  Dr. Beter describes part of the action in his Audio 
+          Letter #53, recorded on January 21, 1980: "At that point the 
+          real action got under way, in the Caspian Sea and off 
+          northern Norway.  The Subcraft, with Israeli pilots, were on 
+          their way.  They were traveling under water on the first legs 
+          of their attack missions.... 
+          
+          "Late Saturday night, Washington time, a coded signal was 
+          flashed to the Subcraft to continue as planned.  By that 
+          time, the northern contingent of Subcraft were in the White 
+          Sea.  The southern contingent had reached the north end of 
+          the Caspian Sea.  It was already daylight, Sunday morning, 
+          the 20th, for the Subcraft contingents.  Their orders were to 
+          wait out the day under water, out of sight; then, after 
+          nightfall, they were to continue their steady approach to get 
+          close to their targets.  The Subcraft were maintaining strict 
+          radio silence.  They were also deep enough under water to be 
+          invisible from the air to either the eye or radar, yet they 
+          were also hugging the shoreline in water too shallow for 
+          Russian sonar to pick them up.  And their infrared signatures 
+          were negligible as the result of extensive development.  In 
+          short, by the standards of Western technology, they were 
+          undetectable.  But in AUDIO LETTER No. 42 I revealed Russia's 
+          master secret weapon.  It is called "Psycho-energetic Range 
+          Finding" or PRF.  It is unlike sonar and similar techniques.  
+          PRF tunes in to the actual atomic signature of a target, and 
+          there is no method known by which PRF can be jammed. 
+          
+               "By deploying their Navy to the Arabian Sea, the 
+          Russians are pretending to be fooled by the Bolshevik 
+          distraction with the aircraft carriers.  In this way they 
+          encouraged the Bolsheviks to launch the Subcraft toward their 
+          targets.  They waited until the Subcraft were far away from 
+          their bases and out of sight of the Bolsheviks, who are 
+          directing the American first-strike operation.  But the whole 
+          time they were being tracked by Cosmospheres overhead using 
+          PRF, and shortly after 1:00 A.M. yesterday morning Eastern 
+          Standard Time the Cosmospheres began firing their Charged 
+          Particle Beam Weapons.  There were 10 Subcraft in the White 
+          Sea.  Each disappeared in a blinding blue white water spout 
+          of steam, smoke, and fire.  In the north end of the Caspian 
+          there were 19 Subcraft--they, too, met the same fate.", (2-7-
+          80 WR; and AL #53, Topic 3). 
+          
+
+               The 3rd-generation Russian JUMBO COSMOSPHERES were first 
+          deployed in April 1981, in parallel with the first U.S. Space 
+          Shuttle mission.  They significantly interfered with that 
+          MILITARY mission, in ways which were successfully covered up 
+          by NASA using techniques similar to those shown in the movie 
+          "Capricorn I", (5-7-81, 5-14-81, and 5-21-81 WR; and AL #64, 
+          Topics 1-3). 
+          
+               Jumbo Cosmospheres are much larger than the 1st-
+          generation models, and use ELECTROMAGNETIC PROPULSION instead 
+          of rocket thrusters to move around. 
+          
+               For about two years after Dr. Beter stopped recording 
+          his Audio Letters in November 1982 (because of heart 
+          trouble), his distributor, Audio Books, Inc., published some 
+          newsletters titled "NewsALERT", using information passed on 
+          to them by Dr. Beter or received directly from his sources.  
+          A special supplementary issue, dated March 26, 1984, 
+          describes how Russian Jumbo Cosmospheres captured two 
+          communication satellites right after launch from U.S. Space 
+          Shuttle Mission #10, found anti-satellite (ASAT) missiles 
+          mounted on one of them, and dumped both satellites into 
+          useless orbits.  NASA had fun TRYING to explain two-in-a-row 
+          failures of a highly reliable PAM-D satellite booster. 
+          
+               Russia's offer to share their "Star Wars" defense system 
+          with the rest of the world might also extend to SCIENTIFIC 
+          SPACE EXPLORATION.  For example, the United States is 
+          planning to send two unmanned flyby and sample-return space 
+          missions to a comet.  These missions would cost BILLIONS of 
+          dollars, take fifteen years from now to complete, and could 
+          FAIL in DOZENS of ways.  A Russian Jumbo Cosmosphere could 
+          complete a MANNED version of such a mission in a matter of 
+          MONTHS, if they have not already done so, since these 
+          Cosmospheres can accelerate continuously. 
+          
+               Note that the United States has announced a deal to 
+          purchase at least one SPACE REACTOR from Russia.  Now you 
+          know what the Russians originally developed and used them 
+          for. 
+
+
+
+               ALL 80 Dr. Beter Audio Letters have been digitized by 
+          Jon Volkoff at email address "eidetics@cerf.net" and are 
+          available from him or from several FTP sites where he has 
+          sent them.  I especially recommend Audio Letters #64, 74, 40, 
+          53, 54, 55, 45, 46, 47, 48, 78, 79, and 80. 
+
+
+
+               For more information, and answers to your questions, 
+          please consult my CITED SOURCES. 
+
+
+
+               UN-altered REPRODUCTION and DISSEMINATION of this 
+          IMPORTANT Information is ENCOURAGED. 
+
+                                   Robert E. McElwaine
+                                   B.S., Physics and Astronomy, UW-EC
+
+                                   
+
+
+
+------------------------------
+
+Date: Thu, 1 Apr 93 20:20:43 CST
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: TECH: Entropic costs of computation
+
+Hal Finney writes, in a very lucid and useful response:
+
+< but first, a comment >
+
+It turns out that all of my intuitions are essentially correct, which
+makes me more confused than ever -- because now I don't understand
+why people talk about this the way they do... but I think I'm nearing
+understanding, and it's not as fun an 'aha' experience as I'd hoped.
+Because, apparently:
+
+> You don't _have_ to invoke entropy to calculate how much heat is
+> dissipated by a particular mechanism.  That can be done by plain old
+> dynamics.  Look at the friction, look at the materials, look at the
+> motions and forces, and calculate the heating.  This will always give
+> you a correct answer.
+
+< THIS IS APPARENTLY THE IMPORTANT POINT >
+OK, but then WHY would "reversible" logic help?  In our rod logic
+computer, the heat dissipation is caused by the little rods smashing
+into each other, right?  The way to minimize this is to minimize the
+bashing, right?  How can a more complex design help?
+
+I do understand, by the way, that these are only "theoretical" minimums
+requiring actual designs to reach them -- but now it seems that the
+minimums are MUCH less than I'd thought.
+
+> But you can't necessarily restart the calculation unless you
+> remembered what all the inputs were.  A machine which transforms
+> inputs into outputs will not necessarily record that information.
+
+I was assuming that saving the inputs somewhere would be relatively
+trivial compared to the bazillion-year calculation.
+
+> 2) Reverse motions and recover the earlier state.
+> This is impossible by the 2nd law of thermodynamics.
+
+Yes, but isn't josh's reversible demon impossible for the same reasons?
+if it was able to make the necessary measurements and undo its work,
+why can't other mechanisms do the same thing?
+
+> In Derek's example of a long-running program which does just a little
+> calculation (his example is actually logically reversible, by the way,
+> since it retains its input) then yes, theoretically a machine could be
+> built to do that calculation with an arbitrarily small amount of
+> dissipation.
+
+Then what's all the fuss?  Why would josh's computer he talked about
+designing in Extropy #10 explode?  He bases that on looking at the
+individual logic gates from an information-theoretic viewpoint.  OK,
+if it turns out that this is correct (I'm still not quite convinced of
+that), then what his calculation means is that the rods bouncing off
+each other have to give off at minimum the calculated amount of heat.
+He fixes this with baroque "reversible" mechanisms... which surely
+would dissipate even more!
+
+> So, if we do as the thermodynamicists do and group microstates into
+> macrostates which are macroscopically indistinguishable, we have that
+> entropy increases, information is lost, and phase space volume
+> spreads out and increases.
+
+So if I treat the internal workings of my computer as macroscopically
+indistinguishable (by hiding them, say), then I don't have to worry
+about theoretical minimums on the internal workings?
+
+>From all this, it appears that the answer to the puzzle is simply
+that we're going to have friction in our nanocomputer, and we should
+try to minimize it.  This is hardly a profound or deep thought!
+It's exactly what I'd expect!  Talk of limits due to information
+theory are sort of red herrings, aren't they?
+
+derek
+BTW thanks for replying to me
+
+
+------------------------------
+
+Date: Thu, 1 Apr 93 21:38:15 EST
+From: drw@BOURBAKI.MIT.EDU
+Subject: LAW: Patent Law in Outer Space
+
+   X-Name: Mark A. Sulkowski
+
+   I have heard that just recently (within the past year or two)
+   patent law was extended to allow patents to apply to research done in
+   outerspace.  I need to find out what the details are.  Specifically,
+   let's say that some vibrational tests were performed in orbit.  Could
+   the data or equations resulting from study of such data be patented?
+
+Data and equations can't be patented, but "inventions" can.
+
+Personally, I'm expecting maritime law to be extended to outer space.
+Thus, the US retains some jurisdiction over US-flag spacecraft.  Is
+this true?
+
+And what is the patent status of an invention made on ship, in
+international waters?
+
+Dale
+
+Dale Worley		Dept. of Math., MIT		drw@math.mit.edu
+--
+When technology intrudes, you're forced to think, not feel.
+-- writer Bill McKibben, on the evils of technology
+
+------------------------------
+
+Date: Thu, 1 Apr 93 21:36:44 EST
+From: drw@BOURBAKI.MIT.EDU
+Subject: ROOTS: Irish irritation
+
+   From: Carol Moore <cmoore@cap.gwu.edu>
+
+   While I ignore most of Perry's posts, including the current thread
+   about names and the Holocaust, I have been sitting here saying --
+   what about the 2 million Irish who died in the Irish potato famine
+   and the other 2 million who had to flee to America?  And that
+   wasn't the result of any high faluting philosophy--even twisted
+   nazims-- it was just plain old ethnic superiority of the English
+   and the refusal to allow the import of food or to stop exporting
+   food to feed the starving.
+
+I gather that a big part of the problem was also the dramatic spread
+of the potato blight.  Natural disasters are very hazardous in
+cultures that depend on a single crop.  Especially before modern
+transportation systems -- it was only when the railroad developed that
+one could efficiently transport food over any significant distance.
+Before that, the price of grain could vary enormously over short
+distances.
+
+   Happily, the Irish aren't continually
+   reminding the world about it, but many of us, even over here, still
+   remain quite annoyed at the English oppressors at that one!  Thanks
+   for letting me share!!
+
+The way I look at it is that my ancestors survived long enough to do
+what was necessary -- breed the next generation -- so I won't fight
+their battles.  The wrongs done to them (or by them) I consign to
+their graves.
+
+Dale
+
+Dale Worley		Dept. of Math., MIT		drw@math.mit.edu
+--
+The life of a repo man is always intense.	-- "Repo Man"
+
+------------------------------
+
+Date: 	Thu, 1 Apr 1993 18:45:22 PST
+From: Jerry_Wedekind.ES_CP8@xerox.com
+Subject: Traffic guide - passthrough brake lights
+
+Hal,
+
+It's true that passthrough lights have drawbacks,  such as false indications
+being more annoying than with normal tail lights.  A sufficiently smart system
+could figure out which indications to ignore (by looking for the "nose dip", as
+some people do, or noting the d/dt of the angle subtended by the taillights),
+but your point is well taken.
+
+Re braking behavior on hilltops, my *perception* is that when the road is
+concave up (in the math sense) I can relax more while at the same time driving
+much more efficiently and appropriately, in no small part because one rare but
+deadly possibility (car ahead of us whips to the side, revealing a stationary
+car 20 feet ahead of *it*) has been removed.
+
+Of course the road cannot be concave up always:-).  In the spirit of
+brainstorming I'll point out that we would achieve the same end if we could
+arrange for light rays to be slightly concave *down* over roadways  (via a
+height-variable refractive index, for instance; I believe that this is the case
+on the surface of Venus, i.e. that a Venusian would look up to see the
+horizon), but this sounds real expensive here on earth:-)
+
+Cheers
+Jerry
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0167
+****************************************
+

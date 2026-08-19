@@ -1,0 +1,914 @@
+73
+Message 73:
+From extropians-request@gnu.ai.mit.edu Mon Aug  9 11:51:27 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+        id AA21518; Mon, 9 Aug 93 11:51:25 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+        id AA10100; Mon, 9 Aug 93 11:50:58 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by panix.com id AA25269
+  (5.65c/IDA-1.4.4 for more@usc.edu); Mon, 9 Aug 1993 14:42:38 -0400
+Date: Mon, 9 Aug 1993 14:42:38 -0400
+Message-Id: <199308091842.AA25269@panix.com>
+To: Exi@panix.com
+From: Exi@panix.com
+Subject: Extropians Digest
+X-Extropian-Date: August 9, 373 P.N.O. [18:42:22 UTC]
+Reply-To: extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Mon, 9 Aug 93             Volume 93 : Issue 220
+
+Today's Topics:
+                                                                      [2 msgs]
+                    ECOMAD: Gaia Liberation Front Madness             [1 msgs]
+             ECON: Interesting rumor from a couple months ago...      [1 msgs]
+                          HUMOR: AI is HERE AT LAST!                  [1 msgs]
+                          INVEST: Transaction costs                   [1 msgs]
+                       Intellectual Property, ppl, etc.               [1 msgs]
+                        NL: NCP - well stated, Thanks                 [1 msgs]
+                            Nightly Market Report                     [1 msgs]
+                          WACO: TV Sequel Cancelled                   [1 msgs]
+                            for my extropositivis                     [1 msgs]
+                               good predictors                        [2 msgs]
+                          physical law (and zombies)                  [1 msgs]
+                     physics: potential energy; extension             [2 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 51293 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 8 Aug 93 14:40:37 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: HUMOR: AI is HERE AT LAST!
+
+FutureNerd Steve Witham () writes:
+> 
+> >    There is a RACTER-like AI program running around in the sci.* groups
+> > (mostly sci.math, sci.physics, sci.space) with the handle S.H. 
+> ...
+> 
+> After preliminary research at the Usenet archives here at Software 
+> Maintenance and Development Systems, Inc., I'm convinced S.H. is a
+> human being who doesn't speak English very well, doesn't know netiquette
+> or how to work his software very well, and has some missing social
+> skills, and lots of quazy energy.
+
+  You might be right. The key things which led me to suspect that he was
+a program is 1) the fact that his responses have nothing to do with the
+thread.  2) he responds to a lot of messages 3) his grammar looks like
+Eliza and it quotes phrases, such as "Why do you say ``fermats last
+theorem has been solved''?" 4) He frequently includes little
+stories in his posts. This is a key feature of the racter program. His
+stories don't make any sense.
+
+  For instance, Nick Szabo was in the middle of a DC-X debate and S.H.
+comes in and says "Where do you work? How old are you? etc" (e.g.
+he asked a lot of personal questions)
+
+> >   Still, some people are actually fooled by it and try to flame it.
+>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> If this post was actually a joke, I was fooled.  I wish it had been true;
+> I've always wanted to see RACTER put on the air...
+
+   If anyone ever puts an AI on usenet, I hope it's better than RACTER.
+RACTER's responses are only marginally better than running disassociated
+press on posts.
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Sun, 8 Aug 93 14:57:37 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: physics: potential energy; extension
+
+D. Anton Sherwood () writes:
+> 
+> I asked Tim whether potential energy has extension.  It occurs to me later, that's a better question than I knew at the time.
+> 
+> Between two masses there is negative gravitational potential energy
+> (-Gmm/d).  Energy is equivalent to mass, so this negative energy has
+> negative gravity.  Where is it?  That is, somewhere in the system there
+> should be a locus of (very weak!) repulsion; is it in the masses, in a
+> cloud between them, in their joint center of mass, or what?
+
+  Be careful. You are discussing the potential _gravitational_ energy.
+If this were to gravitate, we would have to say that "gravity gravitates."
+
+  Potential energy represents the energy required to move an object 
+along a path through a field. Thus, potential energy is a measure of
+the energy of the field. I know that electromagnetic fields can gravitate,
+I'm not sure about the other forces (strong, weak, gravity). 
+  Intuitively, I would guess that gravity doesn't gravitate because that
+would lead to a runaway affect. (analogous to the way Lenz's law
+is chosen to prevent self-feeding magnetic fields)
+
+  What this all points out is that you have to be careful about how
+you apply E=mc^2. For instance, using E=mc^2 we can give mass to photons
+but we know that photons can't possess mass because they travel at the
+speed of light. E=mc^2 is only half the equation. The real equation for
+massless particles is E=pc, derived from E^2 = (pc)^2 + (mc^2)^2  
+(p is the momentum, let m=0) 
+
+  Also, figuring out how energy/mass gravitate is a bit more difficult
+than applying Newton's law of gravitation. (it takes General Relativity)
+
+  People tend to go overboard when applying relativity's ideas of mass
+and energy. A common mistake is to ask "if mass increases as you go
+faster, why wouldn't a very fast spaceship turn into a black hole?"
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+
+------------------------------
+
+Date: Sun, 8 Aug 93 12:23:25 -0700
+From: tribble@netcom.com (E. Dean Tribble)
+Subject: physics: potential energy; extension
+
+exclude thread::
+
+------------------------------
+
+Date: Sun, 8 Aug 1993 16:42:25 -0400 (EDT)
+From: Carol Moore <cmoore@cap.gwu.edu>
+Subject: WACO: TV Sequel Cancelled
+
+NBC television announced it was not going to do a sequel to
+its first movie about the massacre in Waco. The first one
+ended the day of the Feb. 28 shoot out.  The second one
+would have extended to the April 19 massacre.
+ 
+NBC says it canceled the sequel because it is trying to cut
+down on violence in its programming.  
+ 
+Or maybe it just didn't want to make the government look
+any worse than it does already.  Or maybe NBC felt that if
+they had to do an honest story it would make the government
+look so bad that they'd have trouble renewing their license. 
+Especially with recent congressional hearings on the
+subject. 
+
+Also, the government announced it is going to charge a
+bunch of the survivors with murder--including Paul
+Fatta, the gun dealer who wasn't even at the compound
+February 28th.  That trial should help bring out the truth.
+The government is also alleging there was a suicide pact.
+
+
+
+
+
+
+------------------------------
+
+Date: Sun, 8 Aug 93 14:02:49 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: ECOMAD: Gaia Liberation Front Madness
+
+I quite agree with Ray's comments.   There are major threads of
+self-hatred running through the West right now (the evil
+Dead White Males, polluting industry, etc.) and this is just
+a few people on the "cutting edge" of this same memeset, "letting it 
+all hang out".  I'd sure like to figure out where the self-loathing
+(or, more precisely, the loathing of one's orgins and social environment)
+is coming from. 
+
+Last year I was leafing through an Earth First! 
+publication, and came across a piece bragging about how many EFers had 
+sterilized themselves (it was quite substantial, perhaps even 50%) and 
+wondering why the whole community hadn't done that.  The capability for 
+human self-genocide is here, and it doesn't have to take any violent,
+anti-social form.  In fact just in family monetary terms, self-genocide
+may be quite a bit cheaper than trying to perpetuate, not to
+mention grow, our families or our civilization.  And before you
+crow about "well, there won't be very many Earth Firsters for
+long" keep in mind it is a meme, a growing meme, and its typically
+spreads parasitically (eg via public schools), not via families
+(creating new memetic hosts).
+
+There are substantial populations going the other way: Mormon,
+fundamentalist Islam, much of Asia, etc. have booming populations and 
+value the pristinity of the natural environment much lower than their 
+social environment or material well-being.  Alas, there doesn't seem 
+to be any widely spread memeset that combines growth with a scientific
+outlook.  (Before you point to Extropians: first, we're hardly
+a large number of people, and second, our demographics much more 
+resemble Earth First! than a self-perpetuating community).
+
+Here are some of the big memes going through the ecofascist community
+at the moment:
+
+* anti-chlorine:  they've discovered that chlorine is one of the major
+building blocks of modern industrial chemistry, a common thread in
+industrial evil (DDT, dioxins, CFCs, PCBs, etc.).  So the idea
+now being promoted by Greenpeace et. al. that we should just ban
+use of chlorine, outright (except where it occurs naturally, eg
+salt).  This isn't fringe: Greenpeace is quite large and mainstream 
+compared to Earth First!, not to mention this voluntary human 
+self-extinction movement.  The "nanotechnology soon" movement
+aids and abets the ban-chlorine movement with vaporware promises
+of chemical replacements Real Soon Now.  In fact Drexlerian
+nanotech is theoretical applied science, postulating what may
+be possible many decades from now.  Meanwhile the nanotech meme has 
+great potential for abuse by Luddites (another example below).
+(Of course it's also critical for ourselves, espeically in terms
+of cryonics, to expand theoretical applied science/advanced nanotech
+studies, I'm just pointing out the memetic side effects that could
+come back and bit us).
+
+* an ambitious plan, recently revealed, to confiscate substantial
+fractions of all rural lands in the U.S., to convert them to
+"wildlife corridors".  However:
+
+* "Save biodiversity" will start to lose steam.  With Jurassic Park, the 
+phrase "extinction is forever" has lost its power.  They're moving away 
+from the halfway-rational "preservation of logically deep genetic 
+information" argument and to a more mystical notion of "ecological 
+information", which of course cannot be preserved accept by closing 
+down the plants and shutting off the forests to to humans.  We'll
+see less appeal to preservation and more direct appeals to mysticism
+("ancient Indian hunting grounds"), recreation, etc.
+
+* anti-biotech.  The ecofascists will lose here, since it will soon
+be easy to genetically engineer organisms in your own barnyard lab
+with a few $1,000 of equipment, but meanwhile they can delay research
+by a decade or so, severely impacting the quality of our own lives
+(eg what kind of life extension and cryonic suspension capabilities we 
+will have in 20 years).
+
+* animal rights (this will continue to grow as videocams get
+easier to hide in animal labs).
+
+* Leading-edge Luddism: I've heard two calls from the mainstream
+environmentalist community to halt or severely regulate nanotechnology 
+research because of the much-hyped "graygoo" problem.  (Graygoo is only 
+a possible misuse of nanotechnology *very advanced* over today's
+state-of-the-art in sub-micron litho, designer catalysts, etc.
+but cf. the chlorine ban movement to see if details will get
+in the way of a greating-sounding meme).
+
+> One after I asked the question, "if technology is so bad, why
+> don't you stop using computers?" and another after I said "if you wish
+> everyone lived a tribal/farmer existence, why don't you get off the net and
+> start living by your principles to see how you like it."
+
+This remains a powerful argument, we just need to keep bashing
+away at it.  Ditto the "why don't you just commit suicide argument".
+It pisses them off every time, and distracts them from harm they
+might otherwise be causing, and best of all it's right on the mark,
+it points out their hypocrisy for all to see.
+
+> The environmental movement will be a serious force for extropians
+> to reckon with in the future. It goes far beyond normal socialism and its 
+> ultimate goal is not to protect human lives or an abstract notion of human 
+> "society" but ecosystems.
+
+This is quite accurate.   And while there are many "mainstream"
+environmentalists who would disagree with this, they are usually
+the ones sending in donations and the gawking Yosemite tourists,
+not the ones having a major memetic impact on the movement.
+
+Nick Szabo                                      szabo@netcom.com
+
+------------------------------
+
+Date: Sun, 8 Aug 93 14:32:17 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: physical law (and zombies)
+
+Quoted passages are taken from multiple posts by Tim Starr over the past
+week, and cynically rearranged for my convenience.
+
+> Again, it's not an argument, it's a question!
+
+Oh.  Sorry.  As someone observed later, it's hard to tell a straight
+question from argument-by-question.
+
+> why must nature be mechanical?  Because you can't imagine otherwise?
+
+What would the contrary mean?
+
+> What physical law makes me type these words?  What physical law makes
+> us disagree about this issue?  Human bodies behave in many ways that
+> seem inexplicable by mechanics.  They don't behave in ways that are
+> contrary to mechanics[,] I admit.  I don't mean to suggest that they can. 
+> It just seems to me that mechanics doesn't include mental "objects."
+
+This seems to say that physical law is a set of prohibitions like "thy
+speed shall not exceed c, but apart from that, it's up to you."  Do you
+ever get the feeling that you and your interlocutor are not speaking the
+same language?  The laws describing physical forces do not _allow_; nature
+is a totalitarian (quantum uncertainty excepted, of course).
+
+We also see "unexplained" fallaciously equated with "inexplicable".
+
+The mechanist assumption is that animal behavior is a consequence of organic
+structure, which is a consequence of chemistry, which is a consequence of
+quantum physics (I suppose a taxonomist of science would break this down
+further).  The falsification of this assumption would be a finding such
+as that sometimes an ion moves from cell to sell without osmotic pressure
+behind it.  But Tim, you just said that doesn't happen; are you finding
+free will in the gap provided by quantum uncertainty, Brownian motion
+and the like -- or what?
+
+> . . .  I can't explain
+> why I'm typing these words by mechanics any more that you can.
+
+> The content of the genetic code isn't explained by the known
+> laws associated with that system, therefore they are incomplete.
+
+>> What part of genetics are you not satisfied with?
+> For one thing, this claim that homosexuality is genetic.  As I
+> understand it, it is based upon correlation alone.  No "mechanism."
+
+Well of course not.  Finding an phenomenon precedes explaining it.  (I
+wasn't aware that the claim is as strong as that, by the way, more like
+"We have evidence that implies...")  Are you saying a detailed explanation must precede a working hypothesis?
+
+(Why is someone so math-shy such a rationalist?)
+
+Without time machines there will never be a record of the mutations that
+led to the present genome [or do you mean something else by `content'?]. 
+So?  Do we throw out Darwin?
+
+Mathematical proofs can be done bottom-up, but if if publication of Mendel's
+or Darwin's observations were deferred pending complete exposition of the
+mechanisms behind them, I doubt there'd ever be a science of genetics.  
+
+An unexplained correlation is a flag to scientists, saying "Investigate me!
+Why do I happen?"
+
+> I've also observed that people whose intellectual orientations tend to
+> be towards "hard" science . . . also seem to tend to act as if Searle
+> must be wrong.  People who tend to be more philosophical . . . seem to
+> be more sympathetic to the possibility that, although we may come up with
+> machines that seem just like they have minds to an outside observer, they
+> may fail to have minds in ontological fact.
+
+(Would this paragraph mean something else without the words "tend to"?)
+
+If (by definition) we cannot tell zombies from RealPeople(tm), why should we
+care that they may exist?  
+
+Anton Sherwood                                               dasher@netcom.com
++1 415 267 0685                   1800 Market St #207, San Francisco 94102 USA
+
+------------------------------
+
+Date: Sun, 8 Aug 93 16:02:17 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: Intellectual Property, ppl, etc.
+
+David Friedman writes (on 31 July):
+
+  intellectual property protection is not likely under anarcho-capitalism,
+  ... The question is whether B is obliged to respect A's intellectual
+  property in something A has written, invented, or whatever. Suppose we
+  start in a world where B has no such obligation, and change to one where
+  he has the obligation. ...  everyone else's mutual obligations ... are
+  held fixed ...
+
+  2. B is poorer and nobody is richer as a result of B choosing not to use
+  some of A's intellectual property that A happens to have priced at more
+  than its value to B. ...
+  
+  3. A and B are poorer by whatever they spend on negotiating and
+  enforcing the licensing agreement.
+
+  4. A and B are richer as a result of the increased amount of
+  intellectual property that A produces, due to his being able to collect
+  license fees from B.
+
+  ... 2 and 3 are net losses. 4 is a ... tiny gain. The change increases
+  by 1 the number of people obligated to respect A's intellectual property
+  rights, which causes only a very slight increase in the amount of
+  intellectual property A produces. And only that part of the benefit of
+  the increase that goes to B gets counted in term 4. The benefit that
+  goes to C, D, ... who do not respect A's property right is an external
+  benefit due to the legal change, so does not get included in the
+  calculation. The benefit to X, Y, and Z who are already respecting A's
+  property rights is internal, since it is transferred to A via licensing
+  fees, but it just balances the cost to A of producing the new item of
+  intellectual property--that is why he would not produce it until the
+  legal change added the additional licensing fee from B.
+
+
+This argument made sense when I first read it, but now I wonder.  
+
+If no copyrights or patents (or any other form of intellectual property)
+were the efficient pairwise contract, folks would want to contract that
+way regardless of their initial situation.  So since such contracts are
+not now forbidden, folks now should be striving to contract such rights
+away, at least up until the point where transaction costs make it too
+much trouble.
+
+This might explain the prevalence of broad patent cross-licencing, such
+as where HP and IBM each agree they can use all the other guy's present
+and future patents.  But wouldn't it also predict McGraw Hill trying to
+sell each of us rights to copy (for personal use) all future books they
+will produce?  Or Sony records selling the rights to copy all their
+future albums?  Or Disney selling the rights to copy all future videos?
+
+If there is a bug in David's argument, I'd guess it regards changes in
+the price A could charge other customers as a result of B's purchases.
+Why doesn't a monopolist agree pairwise to sell at their marginal cost?
+Because others would find out and want that price too.  But I'm just an
+econ amateur, so I'm not very confident here.
+
+Robin Hanson
+
+
+------------------------------
+
+Date: Sun, 8 Aug 93 19:29:26 PDT
+From: hfinney@shell.portal.com
+Subject: INVEST: Transaction costs
+
+Harry Browne's ideas are used in a particular mutual fund called the
+"Permanent Portfolio".  You can find prices listed every day in the
+newspaper.
+
+A few years ago I sent for a prospectus, but it did not seem like the
+fund had seen very good performance.  It looked like in hedging away the
+risk they had also hedged away the returns; gains in one component tended
+to be offset by losses in another.  I don't recall to what extent Browne
+was involved in the fund.
+
+Putting a larger fraction of assets into stocks would increase the return,
+although you then give up more hedging.
+
+I read one of Browne's books perhaps four years ago (not the one Eric
+mentioned, but one published in the mid-1980's), and his emphasis was
+on surviving future financial disasters, whether hyper-inflation, debt
+repudiation, deflation, or whatever.  His portfolio was designed to
+retain as much value as possible through all of these eventualities.  It
+did seem that to do so you had to give up quite a bit of performance.
+I know Browne offered figures that appeared to indicate that good performance
+could still be obtained, but I wasn't completely convinced.  Unfortunately,
+I won't have access to my records until next month.
+
+Eric Watt Forste wrote:
+> People who keep gold in a
+> safe deposit box at a bank might as well just sell it and put the
+> proceeds into a money-market fund.
+
+I don't think this is completely true, as gold provides a hedge against
+inflation even when it is vulnerable to government attacks.  It might
+be true to say that you could sell the gold and put the proceeds into
+a gold mutual fund, or some similar commodity-based investment.  As
+I recall, the "Permanent Portfolio" fund included investments in natural-
+gas and other mineral companies (as well as gold and silver) as part of its
+inflation-hedge 25%.
+
+Hal Finney
+hfinney@shell.portal.com
+
+------------------------------
+
+Date: Mon, 09 Aug 93 00:10:04 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx                 Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+News Summary as of: Mon Aug  9 00:10:03 EDT 1993
+
+
+Newly Registered Reputations:
+(None)
+
+New Share Issues:
+Symbol  Shares Issued
+SGP     10000
+
+Share Splits:
+(None)
+
+
+Market Summary as of: Mon Aug  9 00:00:01 EDT 1993
+
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+1000          .10      .20      .10        10000         2000          200.00
+110           .01      .10        -        10000            -               -
+150           .01      .10        -        10000            -               -
+1E6           .02      .10        -        10000            -               -
+1E9           .01      .10        -        10000            -               -
+200           .10      .20      .10        10000         2000          200.00
+80            .01      .10        -        10000            -               -
+90            .01      .20      .10        10000         2000          200.00
+ACS           .10      .15      .50        10000         1124          562.00
+AI            .01      .50      .20        10000         1000          200.00
+ALCOR        2.00     3.80     2.00        10000         3031         6062.00
+ALTINST         -      .15      .15        10000         2500          375.00
+ANTON           -      .01        -        10000            -               -
+ARKU            -      .15        -        10000            -               -
+BIOPR         .01      .20      .10        10000         1500          150.00
+BLAIR         .01    30.00    50.00        10000           25         1250.00
+CYPHP         .15      .17      .17        10000          100           17.00
+DEREK           -      .42     1.00       100000         8220         8220.00
+DRXLR        1.00     2.00     2.00        10000         2246         4492.00
+DVDT          .75     1.55     1.63        10000         9900        16137.00
+E             .58      .70      .60        10000         5487         3292.20
+ESR             -        -        -            -            -               -
+EXI          1.00     3.00     1.30        10000         3025         3932.50
+FAB             -        -        -            -            -               -
+FCP             -     1.00        -        80000         4320               -
+GHG           .01      .30      .01        10000         6755           67.55
+GOBEL         .01      .30     1.00        10000          767          767.00
+GOD           .10      .20      .10        10000         1000          100.00
+H             .76      .76        -        30000        18750               -
+HAM           .01      .30      .20        10000         5000         1000.00
+HEINLN        .01      .25        -        10000            -               -
+HEX        100.00   125.00   100.00        10000         3368       336800.00
+HFINN        2.00    10.00      .75        10000         1005          753.75
+IMMFR         .25      .80      .49        10000         1401          686.49
+JFREE         .01      .15      .10        10000         3000          300.00
+JPP           .25      .26      .25        10000         2510          627.50
+LEARY         .01      .20      .20        10000          100           20.00
+LEF           .01      .15      .30        10000         1526          457.80
+LEFTY         .01      .45      .30        10000         3051          915.30
+LIST          .40      .75      .50        10000         5000         2500.00
+LP            .01      .09        -        10000            -               -
+LSOFT         .58      .60      .58        10000         7050         4089.00
+LURKR         .06      .07        -       100000            -               -
+MARCR           -        -        -            -            -               -
+MED21         .01      .08        -        10000            -               -
+MLINK           -      .09      .02      1000000         2602           52.04
+MMORE           -      .10        -        10000            -               -
+MORE          .75     1.25      .75        10000         3000         2250.00
+MWM           .15      .15     1.50        10000         1260         1890.00
+N           20.00    25.00    25.00        10000           98         2450.00
+NEWTON          -      .20        -        10000            -               -
+NSS           .01      .05        -        10000            -               -
+OCEAN         .11      .12      .11        10000         1700          187.00
+P           20.00    25.00    25.00      1000000           66         1650.00
+PETER           -      .01     1.00     10000000          600          600.00
+PLANET        .01      .10      .05        10000         1500           75.00
+PPL           .11      .25      .10        10000          400           40.00
+PRICE           -     4.00     2.00     10000000         1410         2820.00
+R             .49     2.80      .99        10000         5100         5049.00
+RAND            -      .06        -        10000            -               -
+RJC          1.00   999.00      .60        10000         5100         3060.00
+ROMA            -        -        -            -            -               -
+RWHIT           -        -        -            -            -               -
+SGP             -        -        -        10000            -               -
+SHAWN         .01     1.00        -        10000            -               -
+SSI             -      .05        -        10000            -               -
+TCMAY         .40      .63      .75        10000         4000         3000.00
+TIM           .25      .50      .50        10000          500          250.00
+TRANS         .01      .05      .40        10000         1511          604.40
+VINGE         .20      .50      .20        10000         1000          200.00
+WILKEN       1.00    10.00    10.00        10000          101         1010.00
+-----------------------------------------------------------------------------
+Total                                                               419561.53
+
+------------------------------
+
+Date: Mon, 9 Aug 1993 00:23:26 -0100
+From: carlf@media.mit.edu (Carl Feynman)
+Subject: good predictors
+
+>I'm looking for writers who 1) Have/had a consistently good record of 
+>prediction or 2) made one, or perhaps a few, lucky hits.
+>
+>Dan Goodman dsg@staff.tc.umn.edu
+
+I take it you are interested in writers of fiction.  
+
+In general, it was easier to predict things before much had been predicted.
+ So prolific early science fiction writers like Jules Verne, H.G. Wells and
+Hugo Gernsback are good for lots of predictions that came true: space
+flight, nuclear war, cellular phones.  Of course, they're also responsible
+for lots of predictions that didn't pan out.
+
+Robert Heinlein came up with the teleoperated remote manipulator, the
+powered exoskeleton, and the waterbed.  That's all I can think of, from a
+long and prolific career.
+
+The only recent writer that springs to mind-- and I've read almost all the
+science fiction published in book form before 1979-- is John Brunner.  In
+_The Shockwave Rider_ (circa 1975) he predicted computer viruses.  In
+_Stand on Zanzibar_ (circa 1972) he predicted designer drugs, music videos,
+how we can receive satellite broadcasts from other countries on our home
+anntennas but don't bother because they're boring, the dissemination of
+scientific literature as on-line hypertext, brand-name clothing, and the
+prevalence of murderers who shoot lots of strangers in a kill-crazy
+rampage.  It's impressively plausible, and a good book too.
+
+It's hard to be the first person to think of something which is both new
+and likely to happen.  Most science fiction writers don't think up such
+notions themselves; they get them from the works of other writers or
+futurists, and then write a story around them.  By the time somebody writes
+a story about something, it's usually been in the culture for a while.  For
+example, in _Ender's Game_, by Orson Scott Card,
+
+>the networks which Ender's brother and sister use to 
+>basically take control (under pseudonyms) are amazingly similar to what
+>the internet is becoming. Also, I believe the their pen-pads, or whatever,
+>are similar to products coming out these days.
+
+But _Ender's Game_ was written in the early 80's, by which time the
+Internet was already in full swing, and the prediction of pen-driven laptop
+computers (Alan Kay's Dynabook) was several years old.
+
+
+ 
+--carlf
+
+Internet: carlf@media.mit.edu                     Telephone: (508)635-9238
+Mail: 1 Gregory Ln., Acton MA 01720, USA       Holler: "Yo! Carl Feynman!"
+
+
+------------------------------
+
+Date: Sun, 8 Aug 93 21:21:00 -0500
+From: michael.morgan@ehbbs.com (Michael Morgan)
+Subject: for my extropositivis
+
+----------------------------------------------------------------------
+    On 08-08-93  05:07, Arkuat wrote to Michael Morgan
+    regarding: "For my extropositivist cr"... 
+
+ > You are claiming that metaphysical/mathematical/logical axioms are
+ > testable. They are not. As axioms, they must be accepted on faith alone.
+
+ Ar> Wow. "They must be accepted on faith alone" really jerks *my* knee.
+ 
+     Well, I've written in the past there is intelligent and
+     unintelligent faith.
+
+ Ar> *And* as long as the system that the axioms lead to does not obviously
+ Ar> diverge from what we observe in reality, there is no problem. I think
+ Ar> this was Anton's point.
+ 
+     I think that for the most part I agree with your opinion. However
+     I'd like to add a time qualifier. In the future we may be able to
+     test some axioms which we think untestable today.
+
+... You shall know the truth, and it shall make you freak.
+--- Blue Wave/QWK v2.10
+                                               
+----
++---------------------------------------------------------------------------+
+| Ed Hopper's BBS - Home of uuPCB - Usenet for PC Board                     |
+| Node 1 - USR HST - 404-446-9462    Node 2 - V.32bis - 404-446-9465        |
++---------------------------------------------------------------------------+
+
+------------------------------
+
+Date: Mon, 9 Aug 93 0:47:01 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: good predictors
+
+Dan Goodman: 
+> Robert Heinlein came up with the teleoperated remote manipulator, the
+> powered exoskeleton, and the waterbed.
+
+Heinlein made ten explicit predictions in 1950, commented upon in his
+1980 _Expanded Universe_.  Alas the book is still packed up in
+boxes, but three I recall vaguely are:
+
+(1) predicted the downfall of Communism.  Although in 1980 he
+was lamenting that this now looked less likely to come true!
+(Indeed, in 1980 Communism was at its zenith in terms
+of governments controlled by Communist or Marxist-Leninist
+parties).
+
+(2) birth control would cause a major change in sexual mores
+(this had come true by the late 1960's).
+
+(3) All planets in the solar system would be explored by 2000.  
+This came partly true: (a) they were explored by robots, not
+astronauts on-site, and (b) we won't get to Pluto by 2000, though a 
+currently planned NASA mission may come close.
+
+(4) Predicted the failure of SDI, ABMs, etc.: "The most important
+military fact of the latter half of the 20th century will be, there
+is no good way to defend against attack from space."  (note that 1950
+is at least 5 years before the first operational ICBM).
+
+(5) Predicted the failure to achieve human-like AI or robotics. 
+(But also missed out on PCs, etc. -- the characters in his
+pre-1960's books look things up in log tables, carry around slide 
+rules, etc., and look badly outdated now).
+
+Alas, many of the other predictions were stated in rather vague terms,
+eg "technology XYZ will be important".  
+
+Also in Heinlein's "Future History" mileau, c. 1940, he predicts
+fundamentalist TV preachers.  He goes even farther, and has
+his Pat Robertson clones take control of the U.S. government
+(thus providing stories in which his scientifically-correct
+heroes fight back).  Heinlein missed out predicting ecofascists,
+but the film "China Syndrome" in 1980, in its psychological
+tone is practically a clone of "Blowups Happen", Heinlein's 1940 story 
+about a dangerous nuclear reactor.  At that point the first nuclear 
+fission had just happened and was known to only a few insiders, the 
+Manhattan Project had not yet started.   (Harking back to my last
+post, this should be a lesson for all those expressing deep concern
+about "graygoo": despite the fact that it's starting to look like
+a non-problem, those worries will likely be with us and breeding 
+Luddism for a long time to come).
+
+Nick Szabo                              szabo@netcom.com
+
+------------------------------
+
+Date:     Mon, 9 Aug 93 8:33:48 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  ECOMAD: Gaia Liberation Front Madness
+
+>From: rjc@gnu.ai.mit.edu (Ray)
+>Subject: ECOMAD: Gaia Liberation Front Madness
+>
+>  On many occasions I have commented on the the anti-extropic values in
+>the environmental movement,
+
+ISIL's veep, Jim Ellwood, has dubbed them "democratic feudalists," along
+the lines of Monty Python's anarcosyndicalist commune in The Holy Grail.
+
+In France, they're called the "khmer verde."
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Mon, 9 Aug 93 9:00:33 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  What's Perry's Notion of Natural Law?
+
+I've been unable to find any source that supports Perry's view of
+natural law, and I've rounded up all the usual suspects.  For instance,
+E.D. Hirschfeld, Jr.'s Dictionary of Cultural Literacy: What Every
+American Needs to Know (Houghton Miffin, 1988) has the following entry
+on natural law on page 99:
+
+"natural law    The doctine that human affairs should be governed by ethical
+principles that are part of the very nature of things and that can be
+understood by reason."
+
+Funny, while it does imply that there is a naturalistic notion of right
+and wrong, it doesn't specify whether these must be based upon a theistic
+cosmology, nor does it imply that moral imperialism is justified.  Then
+again, this text has been attacked for superficiality, with some justice,
+so let's move on to one of Mark Venture's favorite books, Liberty and
+Nature, An Aristotelian Defense of Liberal Order, by Douglas B. Rasmussen
+and Douglas J. Den Uyl (Open Court, 1991) for what more scholarly sources
+have to say about natural law, p. 78:
+
+"We could begin our discussion directly with an analysis of natural rights.
+But within the Aristotelian tradition there is an older, more long-lived
+concept: natural law.  MacIntyre asserts that the concept of rights is not
+to be found anywhere before about 1400.  Strauss claims that the great
+significance of Hobbes was that he separated the right of nature from the
+law of nature - a separation that has continued throughout modernity.  Finnis
+placed Suarez at the watershed of the move away from speaking in terms of
+natural law and towards rights; and Villey goes as far back as William of
+Ockham in locating the origin of the modern conception of rights.  In
+addition, Tuck goes even further back in his sophisticated analysis of the
+history of rights, arguing that the uses to which IUS and DOMINIUM were put
+in the later Roman Empire have similarities to the modern subjective sense
+of the term 'rights' without much of the historical baggage supplied by
+modernity.
+
+"Whatever scholarly disputes there may be about origins, all commentators
+are agreed that a shift away from natural law theory took place and that
+the concept of rights is essentially modern."
+
+I also recall Tibor Machan lecturing upon the origins of libertarian
+thought (from Taoism to Christianity) and saying that Ockham's contribution
+was the notion of moral "space" or "territory" within which to conduct
+oneself without outside interference.  Chalk another one up for us
+Aristotelians!
+
+This makes it difficult to make sense of Perry's claims to have been
+speaking of some Modern notion of natural law somehow different from
+the medeival and ancient understandings of the concept.  It seems that
+natural law isn't the modern innovation at all, but natural rights, as
+I and James Donald have argued.  I suppose you could attribute this
+to the fact that we haven't been subjected to Columbia University's
+vaunted core curriculum (The idea of a "core curriculum" is one that
+originated at Harvard when it could no longer resist accusations that it
+had abandoned the liberal arts model for the university in favor of the
+technical school model, thus impoverishing the learning of students in
+order to get more research grant money.  So, they came up with classes
+in the same style as technical ones, only switched their content to
+a hodgepode of the liberal arts.  Despite utter failure of this to
+improve the learning of students, this deflected enough of the accusations
+that Harvard was able to keep getting lots of them to hold hostage for
+the ransom money called "tuition" from their families and the taxpayers
+that other schools quickly emulated this approach.  A notable example
+of this is Stanford's Cultures, Ideas, and Values class, which was
+changed from being a study of Western civilization to a study of such
+great thinkers as Rigoberta Menchu - Locke was replaced with Franz
+Fanon, who owes a great intellectual debt to Locke - after a group of
+students were led in protest by Jesse Jackson, chanting: "Hey! Hey!
+Ho! Ho!  Western Civ has got to go!"), but I don't know whether this
+speaks ill of us or of Columbia.
+
+So, what is Perry talking about when he complains that most natural
+law adherents are theistic moral imperialists?  Could he be taking
+the Christian Right as a representative sample?  They arose out of the
+attempt to provide a theologial defense for slavery, resulting in
+today's "Bible Belt" in the South of the USA.
+
+Extropian minds want to know.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Mon, 9 Aug 1993 08:30:47 -0400 (EDT)
+From: Bob Kuhfahl <bekcda@access.digex.net>
+Subject: NL: NCP - well stated, Thanks
+
+Perry states:
+> 
+> The Non-Coercion Principle, which is the "quick way" of stating the
+> "libertarian constraint." Its basically this:
+> 
+> "Thou shalt not initiate non-consentual force, or threaten to do so,
+> against persons or their property."
+> 
+> Here is roughly the problem I have with the "Natural Law and Rights"
+> orientation.
+> ... /* long (but clear) part excluded for brevity */
+
+It would seem from your arguement that you agree with the NL "concept", at
+least basically.  There are always radicals whom take an interpretation
+"to far IMHO", but I don't see where your problem is with the "Natural Law
+and Rights" orientation.  I've had a guiding principal, "my rights end
+where yours begin" that has made deciding "right from wrong" very easy for
+me all these years.  While I am not sure if it will remain so "clear cut"
+to me after doing more reading about these topics, sometimes I wish more
+people used that basic rule.
+
+I thought about sending this direct to Perry but I see no return address?
+
+-- 
+Bob Kuhfahl             *** Learning more each day!   Thanks to you all.
+bekcda@digex.net        *** Working hard so I can play hard - wish all I had 
+                        *** to do was bang on the drum all day!
+
+------------------------------
+
+Date: Mon, 09 Aug 1993 10:04:44 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: ECON: Interesting rumor from a couple months ago... 
+
+Phil G. Fraering says:
+> A couple months back I heard a rumor that the Russians were
+> blackmailing the U.S. to send more aid by threatening to make
+> the ruble convertible to gold (at which point the relative currency
+> values would change places or something like that; part of this
+> rumor held that most of the SU's immense gold reserves are still
+> there. And please remember how much reserves they still have of
+> the relatively obscure and useless metal Gallium.).
+
+Last I heard, they have very little gold left -- certainly not nearly
+enough to back their currency. They also suffer from the extreme
+problem that the central bank is printing money and the equivalent at
+an amazing rate, which is causing dramatic inflation. Given this, I
+doubt that your rumor is true.
+
+Perry
+
+------------------------------
+
+End of Extropians Digest V93 #220
+*********************************
+
+& 

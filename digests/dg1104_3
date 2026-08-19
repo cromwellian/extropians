@@ -1,0 +1,936 @@
+From extropians-request@extropy.org Thu Nov  4 13:46:56 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA16564; Thu, 4 Nov 93 13:46:50 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from apple-gunkies.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA15365; Thu, 4 Nov 93 13:46:45 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by apple-gunkies.gnu.ai.mit.edu (5.65/4.0)
+	id <AA15576@apple-gunkies.gnu.ai.mit.edu>; Thu, 4 Nov 93 16:36:38 -0500
+Received: from news.panix.com by apple-gunkies.gnu.ai.mit.edu (5.65/4.0) with SMTP
+	id <AA15570@apple-gunkies.gnu.ai.mit.edu>; Thu, 4 Nov 93 16:36:16 -0500
+Received: by news.panix.com id AA21867
+  (5.65c/IDA-1.4.4 for exi-remail@apple-gunkies.gnu.ai.mit.edu); Thu, 4 Nov 1993 16:36:09 -0500
+Date: Thu, 4 Nov 1993 16:36:09 -0500
+Message-Id: <199311042136.AA21867@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: November 4, 373 P.N.O. [21:35:59 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Thu, 4 Nov 93             Volume 93 : Issue 307
+
+Today's Topics:
+                          Admin: Your E-mail address                  [2 msgs]
+                                Future Science                        [2 msgs]
+                   HUMOR: The EC goes after English (fwd)             [1 msgs]
+                            Libertarian FTP site?                     [1 msgs]
+                       Mathematica is fairly stupid...                [5 msgs]
+                       Mathematica is fairly stupid...                [1 msgs]
+                     NEURAL NETS:  Request for references             [1 msgs]
+                              No New Continents                       [1 msgs]
+                   No New Continents (was: Future Science)            [2 msgs]
+                   No New Continents (was: Future Science)            [1 msgs]
+                               Why I'm no fundy                       [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52300 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 4 Nov 1993 06:39:24 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Future Science
+
+Nick Szabo reacts to my comments:
+
+> > > With fitness cases of 1 million instructions
+>
+> > This, however is certainly unreasonable....Imagine a simulation of
+> > something with the structural complexity of a bacterium (surely
+> > a lower bound)
+> 
+> Simulating a bacterium is a lower bound?
+
+Well, maybe I don't understand the point you were making in the following
+paragraph, where I saw the 1e6 figure:
+
+* For GP-style sexual crossover we have (very roughty) 
+* 1 billion years*1 generation/yr*1e12 organisms = 1e21 fitness cases 
+* for evolution of life.  With fitness cases of 1 million 
+* instructions and 1% of civilization's projected computing power in 2013 ...
+
+Even applied to testing the theories that would evolve in a GP
+physicist, I find the 1e6 figure off by many orders of magnitude.
+I can't see that GP physicists who consist of simple symbolic
+regression with common mathematical operators acting on some small
+dataset are going to discover much of anything new.  Even modest
+data size will chew up gigaops of falsification for any remotely
+plausible theory (and note that the average fitness of a GP
+generation [after a little while] is pretty high, so don't count
+on a vast majority of very bad [easily falsified] theories).
+
+Further, very often new science has to develop new mathematics,
+the operator set will have to evolve as well.  That is another source
+of computational difficulty.
+
+As you know from past interaction, I'm a great GP fan, so I'm not
+arguing that your GP scientists are impossible, just much more
+difficult than you imply.
+
+> With GP and good data, it well might take a big chunk out of those
+> 1,000 years.  In its sole foray into science
+> so far,  GP recapitulated Kepler's laws, much more advanced than 
+> anything the Egyptians came up with in astronomy, in less than a day.
+
+This is interesting.  My first problem is "good data".  That can be
+required if one knows _exactly_ what phenomenon needs explanation
+and can massage the anomalous measurements into a small form.
+Does science really progress this way? (maybe it does, I really don't
+know).  If so, I'd love to get the preened datasets that today's
+physicists are puzzling over!
+
+> And GP is far from the only tool available.  The math known to the 
+> Egyptians is child's play for Mathematica.  Heck, most of the math 
+> known before the 20th century is child's play for Mathematica.
+
+Well, no kidding!  I think it would be vastly unfair, for example, to
+take some GP with a full suite of analysis tools, "rediscover" the
+laws of gravity, and claim success.  That's simply hindsight.  I
+remember studying another automated regression artifact, called Bacon,
+that massaged data and "discovered" PV = nRT from a table of measurements.
+Big deal.  A diligent child could have done the same.  Yet somehow
+I feel that the science of the gas law wasn't child's play.
+
+Further, note that the "regression" has often been the final part
+of a long process of refining experimental technique to even get
+good data.  I agree with your obvious next point that GP can help
+there too, but not at trivial cost.
+
+> > conceptual innovation
+> 
+> This is sheer mysticism.  Scientists aren't performing magic,
+> they are going through a process, most of which can now be
+> specified by algorithms, eg those in GP, Mathematica, 
+> statistical analysis packages, etc. 
+
+Nonsense!  Scientists come up with _concepts_ such as black
+holes, white holes, wormholes, quarks, atoms, genes, etc,
+they're not chugging some simple algorithm... they're doing
+very well what people do well.  I agree that it's not magic,
+but I'd like to see the Mathematica program for deducing the
+*idea* of using zero as a mathematical entity or finding the
+*idea* of nuclear fusion.  These are what I mean by conceptual
+innovations, and I don't think it's mystical.  It *is* what
+scientists do.
+
+> Also it's easiest on us if the
+> first tasks are conceptually similar to a nonlinear statistical regression
+> task, like the rediscovery of Kepler's laws from orbital data (but
+> of course using modern unexplained data).
+
+Agreed, after all we only have toy resources available today.  Where
+is unexplained data?  Does anybody know?  I suppose that any high Tc
+experiment would qualify, but something simpler is probably better
+for our pitiful machines and level of GP understanding.
+
+derek
+
+
+------------------------------
+
+Date: Thu, 4 Nov 1993 06:54:00 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: No New Continents (was: Future Science)
+
+My take on this:  It seems to me that there are practical limits to
+the Science that can be discovered by scientists with particular
+capabilities.  The important capabilities are smarts and technology.
+Smarts haven't increased much (though they have been in the last
+few hundred years because of widely-available books and recently
+computational tools).  It seems likely to me that much of the Science
+that unaided humans can discover has been gobbled up already.  That
+doesn't mean that there aren't many more complex and difficult
+scientific discoveries out there for more capable beings to tackle.
+As far as I can tell, this has always been the case and I see no
+reason to think that it won't continue that way.
+
+Similarly, in Physics, the technological abilities limit the experimental
+data requiring explanation.  Tim's SSC example I think rightly shows
+up our painful limitations in this regard.  I think it's always been
+true that better technology in data collection has always revealed
+phenomena requiring new theory, and I can think of no reason why this
+trend wouldn't continue.
+
+So I think that for the greater beings we will become, there will be
+Science aplenty for inquiring minds and able hands.  There might not
+be much sitting around today, though, for unaided humans (discounting
+the conceptual innovations that start new fields which are always
+possible).  Scientists would do well to look to the edge of capabilities
+either in experimental technology or intelligence-assisting technology
+(computers, mainly).  This is why I applaud Nick's attempt to push GP
+as far as it can go in this direction.
+
+derek
+
+
+------------------------------
+
+Date: Wed, 03 Nov 93 11:59:29 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: Why I'm no fundy
+
+Charlie Stross (a Brit) writes:
+
+> "...the United States and the UK were "two countries divided by a
+> common language" got it right on the money.  "Socialist" has quite
+> different connotations in the UK, and in most of Europe, from the US,
+> and this makes discussions of it, er, 'interesting'. 
+
+There is a similar divide between (and within) the UK and mainland
+Europe, IMO, which why the UK never seems to be on the same wavelength
+with it EC "partners".  In many ways the UK has more sympathies with the
+market-orientated US (look at the GATT talks, for instance).
+
+There is much truth in Charlie's portrayal (simplified):
+
+ European anarchist = more-communist-than-communist
+ US anarchist tradition = more-capitalist-than-capitalist
+
+but when he goes on to say:
+> My gut feeling is that both philosophies, reduced to the level of a
+> fundamentalist creed, are wrong: 
+> people are both competitive *and* cooperative
+
+Whoever said people are banned from cooperating in a market?  It seems
+some Brits have a different understanding of what "capitalist" means as
+well as "socialist".  No one's stopping anyone, in Libertopia, from co-
+operating with their neighbours.
+
+Mike Price                         price@price.demon.co.uk
+US-style anarchist-capitalist living in the UK
+US-style anarchist-capitalist living in the UK
+
+------------------------------
+
+Date: Thu, 4 Nov 93 7:32:28 PST
+From: szabo@netcom.com (Nick Szabo)
+Subject: No New Continents (was: Future Science)
+
+While we're on the "continent" metaphor, and "continents as
+basis vectors", it's important to point out that probably less
+than 1/100,000,000th of the galaxy's continents have even
+been discovered.  There are many solar system bodies that don't
+even have "continents" like those on Earth, and many where
+typical sphere-based mapping systems go right out the window.
+This changes cartography at a very basic level.  And here on
+Earth, while we've discovered all the continents, we have yet to map 
+most of the ocean floor, and the mapping of the underground, eg oil 
+deposits, still leaves much room for improvement.  Now if one
+chooses to define "geography" in a very narrow way, as only applying
+to Earth's surface, then naturally we eventually exhaust the search 
+space.  That doesn't mean we exhaust the search space of geography
+defined by its potential rather than traditional scope.
+(Extending "geo" to other bodies in the universe, as we do for 
+"geology", which also has its theories changed at a very basic 
+level when we explore beyond the Earth).
+
+Perhaps that's one of the problems with modern physics -- still
+looking for the tradtional things, eg the next big particle,
+rather than trying to resolve the many conundrums that have appeared 
+in various kinds of data, or searching for new kinds of phenomenon 
+to look at.  As I described, there is a large amount 
+of unexplained, baffling phenomenon in modern physics compared to the 
+turn of the century.  I don't buy the theory that high-Tc
+superconductors, solar fusion, etc. are less "basic" than, say, 
+the macro phenomenon of traditional thermodynamics, which has
+long been an important topic for physics, or that the errors in
+these models are necessarily at a "macro" level rather than 
+revealing subtle, perhaps quite interesting errors in the
+"basis vectors".
+
+As we develop better telescopes and new spacecraft instrumemnts,
+a wide variety of new regions and resulting new methods of
+mapping them will likely result.  In physics as well, delving into 
+new territory with new instruments is likely to unearth new phenomenon 
+at a very basic level.  Quantum phenomenon (as measured by STM, NMR, 
+quantum dots, etc.) is an area where we are currently opening up quite
+a bit of new territory, and astronomy (solar neutrino deficit,
+gamma-ray bursters, the search for black holes, cosmic strings, dark 
+matter, etc.) is a quite lucrative source of new and/or unexplainable
+data.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Thu, 4 Nov 93 10:40:46 EST
+From: Harvey Newstrom <hnewstrom@hnewstrom.ess.harris.com>
+Subject: Admin: Your E-mail address
+
+>>For a $10 donation, above and beyond any list charges, I will be happy
+>>to send mail to hnewstrom@hnewstrom.ess.harris.com.
+
+>This charge is above and beyond any charge that we will
+>have for the list itself. (which we will be doing soon...)
+
+I will send my check as soon as I get home tonight, as I wish to continue 
+receiving the Extropians List after you implement the new software security.
+
+Your warning about future charges bothers me though.  If you start charging 
+money for every little change, I'm afraid you will find a lot of people dropping 
+the list.  With the recent list outages, software errors, and missing messages, 
+I would strongly suggest that you get everything stable for at least a few 
+months without any changes before you ask for more money.
+__
+Harvey Newstrom   (hnewstrom@hnewstrom.ess.harris.com)
+
+
+------------------------------
+
+Date: Thu, 4 Nov 93 10:45:08 EST
+From: Harvey Newstrom <hnewstrom@hnewstrom.ess.harris.com>
+Subject: Admin: Your E-mail address
+
+Oops.  My message about sending my check for the Extropians List to Harry went 
+to the entire list by mistake.  Sorry!
+__
+Harvey Newstrom   (hnewstrom@hnewstrom.ess.harris.com)
+
+
+------------------------------
+
+Date: Thu, 04 Nov 1993 10:58:14 -0500
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: HUMOR: The EC goes after English (fwd) 
+
+Timothy C. May says:
+> Some humor forwarded to me by a friend.
+
+This was stolen straight from an essay by Mark Twain.
+
+Perry
+
+------------------------------
+
+Date: Wed, 03 Nov 93 15:20:12 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: No New Continents 
+
+Tim May asked for comments.  I afraid this just grew and grew...
+
+> I'm afraid Nick Szabo and I are caught in a conversational attractor
+> that others do not seem to be too interested in.
+
+Not any more!  Lack of response does not indicate lack of interest.  
+[As I wrote this Ray's comments have popped up.  Argghh!  Beaten
+again...]  As they say, I've started so I'll continue. :-)
+
+Shamelessly taking comments out of order and indulging in massive
+misrepresentation:
+
+Nick: 
+> A mere semantic quibble.   You claimed we've exhausted 80% of the
+> physics search space, which amounts to approaching a "final theory"
+
+Tim: 
+> Not the whole search space, but about 80% of the "basis vectors," the
+> core concepts.
+
+Tim points out that there are far fewer gaps in our knowledge today than
+yesterday (astronomy, for instance, which I'll stick with).   I don't
+think this is correct for a number of reasons.
+
+Logic.  Absence of evidence is not evidence of absence.  The reverse
+would be true, namely, that if there were huge gaps in our understanding
+of the the universe then we could infer that our fundamental theories
+were deficient.  But just because things look nice and rosy now doesn't
+mean that we are near a Theory Of Everything and says nothing about how
+much there is to go.  
+
+Are there gaps in our picture of the universe?  Yes, plenty.  I'll grant
+that our understanding of the universe advanced amazingly earlier this
+century.  Einstein (1910s) and Hubble (1920s and 30s) gave us the
+expanding universe.  Anymore amazing than recently though?  Stellar
+nucleosynthesis wrapped up in the 1950s onwards by Hoyle et al.  The
+1970s gave us the beginnings of GUTs and the associated early symmetry
+breaking (see Weinberg's "First Three Minutes").  The 1980s gave us
+cosmological inflation (and now steady-state-revisted is back on the
+table, in the guise of 'eternal' inflation).  Quantum gravity (1960s
+onwards), superstrings (another 1970/80s creation depending on how you
+view it), and other TOEs (all still speculative) continue to make
+predictions which are verified by testing against cosmological models
+of the early universe.   No, I think astronomy and cosmology are still
+racing full steam ahead, with plenty of loose ends to wrap up: 
+
+-    origin of 3 space dimensions (Klauza-Klein theories say that 
+     universe may have a different number of dimensions once) 
+
+-    the creation of the universe (how could we forget that!).  
+     No- boundary theorems and quantum gravity look promising here.
+
+-    particle mass spectrum and renormalisation (which impinges on 
+     early universe behaviour).  Superstrings, it is hoped, will yield 
+     the masses of all particles (different particle types correspond
+     to different excitations or waves of the same string loop)
+
+My ancedotal evidence for the pace of change consists of my impression
+from browsing Physical Review D.  When I was reading up on the state of
+play on wormholes (with Robin Hanson, earlier this year) I was staggered
+at the progress since I left college.  I left college in the early 1980s
+and hadn't appreciated how much things had moved, in quite fundamental
+areas.  Wormholes, quantum mini-blackholes, quasars, cosmic strings,
+inflation, baby universes, time travel (and these are just the things
+_I'm_ interested in!) - progress is being made in theoretical physics
+at an amazing rate across a broad front.  Due, I suspect, largely to
+email - almost every author now quotes their email address. 
+Collaborative articles get written by scientists who never met, working
+on different continents, linked electronically.
+
+Nick
+> temporal communication, wormholes, etc. are all areas of active
+> interest by top-flight physicists like Kip Thorne)...
+
+Tim:
+> [...] These speculative suggestions about time travel, quantum
+> teleportation, etc., are not likely to be tested anytime soon, so how
+> will GP help?  [...] Using GP to do crossovers of different fields 
+> (as an example) may lead to new "theories," but these theories will
+> need to be tested and examined.
+
+How can we test the theoretical work on wormholes?  First by numerical
+simulation.  I read one article where the formation of a basement
+universe was "tested" by running a simulation that modelled the Einstein
+equations.  Consider that some theories hold the behaviour of planck
+scale wormholes responsible for many of the properties of particles
+(that particle may be flux lines trapped in wormholes) - this leads to
+a plethora of testable stuff, like the cosmological constant, flatness
+problem, particle behaviour.  This is the trend in theory nowadays. 
+Particle accelerators and other direct evidence are becoming more
+inaccesable, but this is being offset by testing the a theory against
+internal or historical conditions.  Is it renormalisable?  Do the
+anomalies cancel?  What does it say about the early universe, galactic
+formation, perburbation growth.  Do it correctly predict the observed
+particle mass spectrum and so on.  This is the arena in which theories
+are being tested against each other.  ("Sorry Fred, your theory has five
+neutrinos, and the universe would have collapsed 10 billion years ago.") 
+So many theories fail at the theoretical stage that some people have
+speculated that only one theory is _possible_, subject to imposing some
+symmetry conditions that seem to be obeyed.  Or it would when the theory
+gets sorted.  Which leads me onto...
+
+The biggest barrier in theoretical physics, IMO, is not the high
+energies involved that require things like the supercollider, but the
+sheer computational and conceptual problems involved with the subject. 
+Superstrings are a good example of this.  I have heard it said that
+progress in theoretical physics is drying up (although, as I say, I see
+no evidence of this) because of the time it takes for a researcher to
+get up to speed on superstrings.  It might take 10 years of single
+minded study to make a contribution on superstrings before you burn out
+(normally before 30 for theory types), to the exclusion of progress in
+other fields.  And most young researchers are sucked into superstrings,
+so the story goes, because this looks the most promising area.  
+
+Superstrings are at the stage that general relativity was at between
+1907-1915.  The wooly concepts are there, but we just don't have a full
+set of mathematical tools to knock everything into shape.  Einstein was
+lucky that for general relativity, which rests on the concept of the
+equivalence princple, tensor calculus already existed.  With
+superstrings, so I'm told by knowledgable chaps, we're not so lucky. 
+If GP could produce such tools - Nobel prize at the very least!
+
+>> Let's debate them.  Why 19th and early 20th?  Why not 18th or 
+>> 10th or 3rd BC?  Why not mid and late 20th?  Why not 21st century? 
+
+> Many reasons why the late 19th, early 20th century was so successful:
+
+      [good reasons elided]
+
+What about the 16 and 17th C?  They were successful as well.  We had
+Descartes, Galileo, Kepler, Newton, Leibniz, Halley, Wallis.. => optics,
+calculus, planetary cosmology, mechanics, gravity.  Early 19th C
+Faraday, Maxwell and Heavyside => electromagnetism.
+
+One major nit-pick:
+> - synergism between compelling (and essentially complete) theories
+> of statistical mechanics, electromagnetism, and quantum mechanics....
+> all of these were formulated in the 1880-1900 period in essentially
+> their modern form (QM needed another 30 years to be adequately
+> completed).
+
+Must disagree on quantum mechanics.  There's a _lot_ more to QM than
+black-body radiation, or even the photoelectric effect (1905).  The
+"new" quantum theory (post 1925/6 due to Heisenberg and Schrodinger)
+differed completely from the "old" (1900 - 1924, due to Planck, Einstein
+and Bohr).  The new quantum theory then turned into quantum field
+theory, ending up with QED in the 1940s due to Schwinger and Feynman. 
+QED is often described as the most successful theory ever and is the
+progenitor for all the modern unified field theories.  All that could
+be said is that QM _started_ in 1900.  If you're going to declare that
+EM was 'done' in 1880-1900 then you would have to say that QM was done
+in 1924-7.  I would rather say that EM was done from 1820 - 1880 and
+give QM from 1900 - 1930.
+
+No, science looks like a rather steady climb.  New theories are
+continuing to turn the world upside down, much as they have for the past
+4 centuries since the renaissance.  I don't know how long this will go
+on for, but neither does anyone else.  At college we were told that
+theoretical physics was coming to an end - 20 years and it would all be
+over.  That was 10 years ago.  I don't think anyone now believes even
+the next 20 years will sew everything up.  With superstrings people
+mutter more like the "middle of the next century, with luck".  Surprises
+all the way down, is my prediction.  Our understanding of the universe
+is slowly creeping back to zero-time, but like a log-scale zero might
+be infinitely far away.
+
+> Later work, on quarks for example, did not (and very likely
+> will not, in the next few hundred years) produce the same cornucopia
+> of resulting derivavite theories
+
+All GUTs are based on quarks.  Quark states have testable implications
+in the early universe and, it now seems according to Bethe's latest
+work, in neutron stars, which may have quarkonic cores and layers.
+
+> and technologies. Science fiction writers may be enamored of
+> "gravitonic" and perhaps even "quarktronic" devices, but nearly
+> everything you see around you comes from the basic work in
+> thermodynamics, electromagnetic theory, and quantum mechanics.
+
+The technological implications of any of this are a separate subject,
+as both Nick and Tim agreed earlier.  I think it's too early to pass
+judgement on quarks and femtotechnology yet.
+
+To use Tim's continents metaphor, I would say that some continents have
+been mapped, but others have a heart of darkness, with their edges
+poking out of the mists.  In uncharted regions dragons and sea serpents
+lurk.  We don't even know that the world is round (although we suspect
+it is), let alone it's circumference!
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Thu,  4 Nov 93 11:27:29 -0500 (EST)
+From: gub@ELF.com (Glen Daniels)
+Subject: Libertarian FTP site?
+
+Can someone out there point me at an FTP site for Libertarian
+information / writings / etc... ?
+
+	Thanks!
+		--Gub (Glen Daniels, ELF Communications)
+
+
+------------------------------
+
+Date: Thu, 04 Nov 1993 11:39:09 -0500
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: No New Continents (was: Future Science) 
+
+rjc@gnu.ai.mit.edu says:
+>   Could someone summarize many of the great unexplained fundamental
+> problems in physics today? Tim's looking for dragons, there's probably
+> a few. Here's some off the top of my head:
+
+I think Tim has missed a fundamental problem in physics.
+
+Geography as Tim has noted was almost fully developed in terms of an
+understanding of the basic shapes of all the world's landmasses by the
+18th century -- but an understanding of the forces that created those
+landmasses waited until the 19th century, and even the early 20th.
+
+Biology is now nearly explained in terms of chemistry. Chemistry is
+now mostly explained in terms of physics.
+
+However, physics, in spite of its apparent triumph, still has a blind
+spot the size of Mount Rushmore.
+
+Before modern chemistry arose, people had no real idea how chemistry
+functioned. They produced accurate measurements of the properties of
+substances, recorded with extreme accuracy how substances transformed
+into others via reactions, etc, but there was no fundamental
+understanding of what lay beneath. Now there is an understanding, a
+deep understanding, in terms of more fundamental processes of physics.
+
+Biology at one time was also in this boat -- people could describe
+cells qualitatively and quantitatively, but could not explain what was
+really going on at a deep mechanical and chemical level -- and now
+they can.
+
+Physics has elegant equations that describe things well, just as the
+premodern chemists could tell you precisely how much cinnibar would
+yield how much gas when you heated it. There is a lack of a
+fundamental understanding, however. We poke and we prod at the
+components of the universe -- we know how matter moves when we do
+things to it, we explain how something cools when we heat it, etc, but
+we still have no real knowledge of WHY.
+
+Just as the psychiatrists still stumble around acting like alchemists
+with their cargo-cult methodologies in terms of vague descriptions,
+just as the socialists stumble about with vague descriptions of
+processes they pretend to understand but only dimly percieve (in spite
+of the power of classical economics and its descendants), our
+physicists still haven't gone far enough in one crucial respect --
+they have no understanding of the deep structure of the things they
+are describing.
+
+Dreams of a final theory occured before in physics. Many of us forget
+that newtonian mechanics explains the universe very well for purposes
+of measurement. Except for a few anomalies, it was largely believed in
+the 19th century that physics was now understood. Then came
+electromagnetism, radioactivity, and a huge can of worms was opened
+that caused the whole of this confidence in the depth of our knowledge
+of physics to unravel.
+
+Physics has been abandoning pretentions to be able to really explain
+things for a while -- it only pretends to be able to predict, and its
+predictions are good. However, so were the predictions of many of the
+better alchemists -- they knew their materials, and could tell you
+exactly what they would do under a wide variety of circumstances. The
+more "patchwork" has appeared in physics (the disunity of gravitation
+from the other forces, the differing behavior of matter at the large
+and small scale, etc) the less confidence I have had that what we are
+approaching is truly a slow slide into a final theory that will look
+much like what we have had up to now. I have the gut reaction that
+what we are sliding towards is a spot where suddenly some great genius
+rips open the curtain and reveals a hidden structure that we have
+completely lost sight of the search for. For too long we have taken
+the movement of the mechanical dolls on the stage to have been the
+reality and ignored the possibility of a clockwork within them.
+
+Perry
+
+------------------------------
+
+Date: Thu, 4 Nov 93 9:47:59 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Future Science
+
+Charlie Stross writes:
+
+> If I may butt in with an observation: I think the idea of a "physics
+> search space" over-simplifies things a bit. Maybe a better metaphor
+> would be to consider physics as a fractal? We've iterated over it a
+> lot, and have a fair idea of the outline -- but we could go on
+> sharpening the image forever and not pin it down completely. Further:
+
+Which is why I used the "continents" metaphor: the outlines of the
+structure are known, though details are infinitely explorable.
+
+....
+> looked wildly different from 'conventional' physics. A bump in the
+> coastline ... and I'd be willing to bet that self-similar bumps exist
+> or will be found in the coastline of the quantum mechanical subdomain.
+
+As another poster noted as well, the continents analogy fits in
+nicely--and historically, vis a vis Mandelbrot's early work--with
+fractals and the levels of detail present in objects.
+
+
+> Repeat after me: "knowledge acquisition is a fractal process." I think
+> that approximates to what Tim is saying ...
+
+Basically, yes. Not all things (objects, processes, fields of study,
+etc.) are "infinitely deep," that is, one cannot wander around the
+world and keep finding major new continents, major new physical laws,
+etc.
+
+Even on this list, to make a wild jump from physics to the social
+organization of our list, a newcomer is initially hit with several
+dozen active posters, strangers, and an unknown set of social mores
+and traditions. But these become known with time, though unlimited
+detail and future evolution still exists.
+
+More than saying "knowledge acquisition is a fractal process," I would
+compare it to creating _outlines_. Knowledge is chunked into
+categories, into major branches and sub-branches. (There is no
+guarantee that these branches are primary, that the outline is
+optimal. For example, we call physics and biology major fields, and
+biophysics a derived field. But a different culture might've
+identified physics and biophysics (called something else, natch) as
+primary, and biology would then be derivative of other fields.)
+
+In most areas, such as physics, geography, geology, and so on, the
+large structures, the outline headings, get discovered at some rate.
+The identification of the large structure of the field "saturates" at
+some point, that is, the main features have been identified.
+
+I have used the term "knowledgequakes" in my k-space model for those
+relatively rare circumstances where a brand new continent is
+discovered, where old fields are suddenly seen to be related in some
+unexpected way. An example would be Darwin's basic idea of evolution.
+
+Evolution sent seismic waves throughout nearly all branches of
+knowledge, causing basis vectors to realign and alter. Every field had
+to at least act itself "Are we affected by this new idea?" Some
+fields, like economics, were of course dramatically affected.
+
+Ipso facto, there is no reason to expect fields of knowledge to be
+infinitely deep, with new discoveries of a major sort always around
+the bend. I view this in algorithmic information theory terms, but
+there may be other ways of viewing this.
+
+Thus, in my view, the universe appears "comprehensible" to finite
+agents like ourselves. The oft-mentioned "unreasonable effectiveness
+of mathematics" is key.
+
+Once again, as in our AIT VirtSem, I recommend the book "Complexity,
+Entropy, and the Physics of Information," edited by W. Zurek.
+
+--Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Thu, 4 Nov 93 10:02:45 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Mathematica is fairly stupid...
+
+Nick Szabo and Derek Zahn are mentioning Mathematica, the symbolic and
+general math program from Wolfram Research, so as a Mathematica user,
+let me comment:
+
+> > And GP is far from the only tool available.  The math known to the 
+> > Egyptians is child's play for Mathematica.  Heck, most of the math 
+> > known before the 20th century is child's play for Mathematica.
+> 
+> Well, no kidding!  I think it would be vastly unfair, for example, to
+> take some GP with a full suite of analysis tools, "rediscover" the
+> laws of gravity, and claim success.  That's simply hindsight.  I
+.....
+> very well what people do well.  I agree that it's not magic,
+> but I'd like to see the Mathematica program for deducing the
+> *idea* of using zero as a mathematical entity or finding the
+> *idea* of nuclear fusion.  These are what I mean by conceptual
+> innovations, and I don't think it's mystical.  It *is* what
+> scientists do.
+
+Mathematica (henceforth MMA) is quite stupid. One of the biggest
+issues in using MMA and similar math programs (Maple, Macsyma) is
+being proficient enough in math to know when and how it can be used.
+MMA is especially stupid about making blunders in finding roots,
+polynomial factors, etc.
+
+This is not due to poor programming, necessarily, but due to some
+ambiguities in mathematics itself. 
+
+Granted, MMA-like programs will get much better with time, and,
+granted, Gauss would've had a ball with a program like MMA, but I
+agree more with Derek's point that the _concepts_ of math (like the
+concept of zero, of integration, of factoring itself) are not "known"
+to MMA, and hence it can only do mechanistic operations under the
+direction of someone who _does_ know the concepts and can use them to
+uncover new knowledge.
+
+This whole topic of automated discovery of new science is intriguing.
+Newell and Simon thought they had it in the 1950s with the General
+Theorem Prover, Lenat thought he had it with Eurisko, Derek just
+mentioned Bacon, and so forth. (I can recall in 1966 seeing the output
+of a program which "discovered" new proofs in classical geometry,
+including a novel proof about Isoceles triangles.)
+
+Now the Great Hope is some mix of neural nets, genetic programming,
+and the like. Maybe. But I'll hold my enthusiasm until I actually
+_see_ some new knowledge of a nontrivial sort being discovered.
+
+Forget the "back-trading" that "discovered" Kepler's Laws--let's see
+some _new_ laws discovered!
+
+--Tim May
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Thu, 4 Nov 93 10:24:59 PST
+From: desilets@San-Jose.ate.slb.com
+Subject: NEURAL NETS:  Request for references
+
+Sorry to eat B/W, but I am looking for references to hardware implementations
+of NNs, especially VLSI-type.  I am aware of Carver Mead's work, but
+any specific cites to his or other papers would be welcome.  I am looking
+for this information because I have an idea for an adaptive filter array
+that I would like to implement in silicon, and want to see what has been
+done in the area of adaptive weighting implementations on ICs.  Any *paper
+would be appreciated.
+
+
+																Mark
+
+------------------------------
+
+Date: Thu, 04 Nov 1993 13:56:59 -0500
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Mathematica is fairly stupid... 
+
+Timothy C. May says:
+> Now the Great Hope is some mix of neural nets, genetic programming,
+> and the like. Maybe. But I'll hold my enthusiasm until I actually
+> _see_ some new knowledge of a nontrivial sort being discovered.
+> 
+> Forget the "back-trading" that "discovered" Kepler's Laws--let's see
+> some _new_ laws discovered!
+
+I contend that we won't see interesting science and math done by
+computers until the computers nearly equal or exceed humans in
+intelligence. One mistake I think AI people make in general is
+attempting to get computers to duplicate the highest functions the
+human brain is capable of without getting it to do the lowest ones.
+If dogs don't produce physics breakthroughs, I see no reason even a
+wildly successful AI system should.
+
+Perry
+
+
+------------------------------
+
+Date: Thu, 4 Nov 93 11:36:15 PST
+From: szabo@netcom.com (Nick Szabo)
+Subject: Mathematica is fairly stupid...
+
+Perry Metzger:
+> One mistake I think AI people make in general is
+> attempting to get computers to duplicate the highest functions the
+> human brain is capable of without getting it to do the lowest ones.
+
+In other words, we need to make computers capable of trophic
+reactions and conditioning before we can get them to do
+arithmetic, logic, algorithms, math, accounting spreadsheets,
+filing, and the like.  I guess the computer industry is one big mistake.  
+
+One big mistake AI critics make in general is assuming we have to
+mimic human biology to make computers do things humans can do.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Thu, 4 Nov 93 11:46:25 PST
+From: szabo@netcom.com (Nick Szabo)
+Subject: Mathematica is fairly stupid...
+
+In the same way that an "idiot savant" is stupid. 
+
+> granted, Gauss would've had a ball with a program like MMA...
+
+If Gauss had had the capability of Mathematica+symbolic regression, he 
+would have been considered a supernatural genius.  Again, at the
+risk of "degrading" the discussion I must point out that the
+comparison with "theorem-proving" is specious.  Theorem proving is
+a very narrow kind of deduction, while GP is doing a very general kind
+of induction.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Thu, 4 Nov 93 11:53:43 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Mathematica is fairly stupid...
+
+> If dogs don't produce physics breakthroughs, I see no reason even a
+> wildly successful AI system should.
+> 
+> Perry
+
+Ah, but not living near the beach as I do, Perry has understandably
+not seen the gravity-defying feats dogs are capable of when catching
+frisbees. Clearly, dogs have made certain breakthroughs in
+gravitronics. (Cats, too, suggesting collusion.)
+
+Meanwhile, I'm leaving this discussion and this location a bit early,
+to make a rare (for me) trek to the Extropians luncheon in Silicon
+Valley. From there, an evening with my hedge fund manager friend and
+his wife, then up to Lake Tahoe for the Hackers Conference. So I'll
+see you all next week.
+
+--Tim
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Thu, 4 Nov 1993 14:28:01 -0600
+From: cpresson@jido.b30.ingr.com (Craig Presson)
+Subject: Mathematica is fairly stupid...
+
+In <9311041936.AA17807@netcom5.netcom.com>, Nick Szabo writes:
+|> Perry Metzger:
+|> > One mistake I think AI people make in general is
+|> > attempting to get computers to duplicate the highest functions the
+|> > human brain is capable of without getting it to do the lowest ones.
+|> 
+|> In other words, we need to make computers capable of trophic
+|> reactions and conditioning before we can get them to do
+|> arithmetic, logic, algorithms, math, accounting spreadsheets,
+|> filing, and the like.  I guess the computer industry is one big mistake.  
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Some days, I drive home thinking so :-)
+
+|> One big mistake AI critics make in general is assuming we have to
+|> mimic human biology to make computers do things humans can do.
+
+How you get that out of what Perry said, or out of the writings of any
+of the intellectually honest critics of AI[1] (as opposed to, say,
+certain no-good layabouts on Usenet) escapes me. A careful and
+charitable reading of Perry's words might lead you to think he means
+things like pattern-matching, analogizing, natural language, and
+creation of heuristics, rather than "trophic reactions and
+conditioning". Although I can see how you get goal-seeking and
+learning as a next step up from those, too.
+
+Now, to get to really strong and convincing AI, you may in fact have
+to have something that does for the AI what emotions do for (and to)
+humans. F'rinstance, my chess computers are boring opponents even
+though they play fairly well, because they don't give a shit if they
+lose. Minsky, in _The Turing Option_[2], had a pretty good description
+of his ultimate AI hacker having to introduce emotions to regulate the
+interactions of his agents. There was a lot of armwaving about
+decompiling the brain's connections and such in how he did it though.
+
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+[1] Typing that phrase _did_ hurt my fingers, yes. All better now.
+[2] And we need the Trident 'cause we couldn't have won without it
+in _Red Storm Rising_ :-)
+
+------------------------------
+
+End of Extropians Digest V93 #307
+*********************************
+

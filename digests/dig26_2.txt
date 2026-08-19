@@ -1,0 +1,932 @@
+90
+Message 90:
+From exi@panix.com Mon Jul 26 03:04:35 1993
+Return-Path: <exi@panix.com>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+        id AA27121; Mon, 26 Jul 93 03:04:13 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+        id AA07528; Mon, 26 Jul 93 03:03:50 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by panix.com id AA23761
+  (5.65c/IDA-1.4.4 for more@usc.edu); Mon, 26 Jul 1993 05:55:17 -0400
+Date: Mon, 26 Jul 1993 05:55:17 -0400
+Message-Id: <199307260955.AA23761@panix.com>
+To: Exi@panix.com
+From: Exi@panix.com
+Subject: Extropians Digest
+X-Extropian-Date: July 26, 373 P.N.O. [09:55:02 UTC]
+Reply-To: extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: R
+
+Extropians Digest             Mon, 26 Jul 93             Volume 93 : Issue 206
+
+Today's Topics:
+                                                                      [1 msgs]
+                                133 years old                         [1 msgs]
+                                Another Worry                         [1 msgs]
+                 FWD: Sterling & Gibson on computers & kids.          [1 msgs]
+                             HEX: share offering                      [2 msgs]
+                            Meta: Moving the List                     [1 msgs]
+                        Natural law and natural rights                [1 msgs]
+                            Nightly Market Report                     [1 msgs]
+                              The Age of Robots                       [1 msgs]
+                               Weather control                        [2 msgs]
+                       What are big upcoming problems?                [1 msgs]
+                             Why Rich Folks Work                      [2 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52354 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 25 Jul 93 15:07:12 -0400
+From: pavel@PARK.BU.EDU (Paul Cisek)
+Subject: Weather control
+
+Hans Moravec writes (in his chapter on "The Age of Robots"):
+
+>But new work shows that while chaotic
+>systems are not predictable, they are highly controllable.  A
+>non-chaotic system like a falling boulder is predictable but very hard
+>to control because it is insensitive to small inputs, including
+>control attempts.  A chaotic system, like a rolling bicycle or the
+>weather, is unpredictable but controllable because it responds
+>strongly to small nudges.  The trick is to pick, in simulation, from
+>the myriad possibilities that chaotically diverge from each state, a
+>sequence that takes the system from its existing condition to a
+>desired one, and then to steer the real system along that sequence by
+>a series of small nudges--like keeping a bicycle on a guideline.
+
+I don't understand how an unpredictable system can be controllable.  We cannot
+predict the weather because it is so highly dependent upon initial conditions,
+of which we cannot have complete knowledge.  Thus, we cannot predict what
+effect any given minor change will have upon the final outcome.  This includes
+our own "small nudges", does it not?  Or is the suggestion being made that our
+small tinkerings with local conditions can have predictable outcomes?  But in
+something like weather, is there any useful notion of local, isolated
+interactions?
+
+Now if only we could find all those butterflies...
+
+-Paul
+
+
+------------------------------
+
+Date: Sun, 25 Jul 93 18:05:55 EDT
+From: Hans Moravec <moravec@Think.COM>
+Subject: Weather control
+
+Paul Cisek asks:
+>
+>I don't understand how an unpredictable system can be controllable.  We cannot
+>predict the weather because it is so highly dependent upon initial conditions,
+>of which we cannot have complete knowledge.  Thus, we cannot predict what
+>effect any given minor change will have upon the final outcome.  This includes
+>our own "small nudges", does it not?  Or is the suggestion being made that our
+>small tinkerings with local conditions can have predictable outcomes?  But in
+>something like weather, is there any useful notion of local, isolated
+>interactions?
+
+Chaotic systems are deterministic, and predictable in the very short run.
+(In the long run exponential amplification of initial conditions wipes out
+this predictablility).
+
+The bicycle is an example of an unpredictable, controllable chaotic
+system.  Small steering nudges have predictable short-term effects,
+but you won't be able to predict where the bicycle ends up after an
+hour of travel, because a tiny fraction of a degree initial estimate of
+heading, or handlebar wobble will amplify to great differences in
+destination.  But you can guide it to a desired destination by a continuing
+series of small nudges, like any bicyclist.  The idea is basically to servo
+the system along a track through its multimensional configuration space,
+even though it has a strong tendency to fall off that track if you neglect
+it for very long.  But the more often you nudge it back on track, the
+smaller the nudges can be.  A balancing broom is another example.
+
+People are starting to think about designing electronic controls around chaotic
+points, because the chaos provides amplification. Some experimental fighter
+aircraft are aerodynamically unstable (hence chaotic: a small deviation
+from correct angle will amplify to a catastrophic flip), but kept in check
+by a fast computer control that supplies guiding nudges.  By being chaotic,
+thay are much more maneuverable.  (I think the space shuttle is unstable
+in this way during glide, though the goal there wasn't maneuverability,
+but something like mass/drag/heating minimization) Many biological systems,
+like the heart's natural pacemaker, are chaotic, but kept in line by
+control nudges.
+
+--Hans
+
+------------------------------
+
+Date: Sun, 25 Jul 93 18:05:55 EDT
+From: Hans Moravec <moravec@Think.COM>
+Subject: Weather control
+
+Paul Cisek asks:
+>
+>I don't understand how an unpredictable system can be controllable.  We cannot
+>predict the weather because it is so highly dependent upon initial conditions,
+>of which we cannot have complete knowledge.  Thus, we cannot predict what
+>effect any given minor change will have upon the final outcome.  This includes
+>our own "small nudges", does it not?  Or is the suggestion being made that our
+>small tinkerings with local conditions can have predictable outcomes?  But in
+>something like weather, is there any useful notion of local, isolated
+>interactions?
+
+Chaotic systems are deterministic, and predictable in the very short run.
+(In the long run exponential amplification of initial conditions wipes out
+this predictablility).
+
+The bicycle is an example of an unpredictable, controllable chaotic
+system.  Small steering nudges have predictable short-term effects,
+but you won't be able to predict where the bicycle ends up after an
+hour of travel, because a tiny fraction of a degree initial estimate of
+heading, or handlebar wobble will amplify to great differences in
+destination.  But you can guide it to a desired destination by a continuing
+series of small nudges, like any bicyclist.  The idea is basically to servo
+the system along a track through its multimensional configuration space,
+even though it has a strong tendency to fall off that track if you neglect
+it for very long.  But the more often you nudge it back on track, the
+smaller the nudges can be.  A balancing broom is another example.
+
+People are starting to think about designing electronic controls around chaotic
+points, because the chaos provides amplification. Some experimental fighter
+aircraft are aerodynamically unstable (hence chaotic: a small deviation
+from correct angle will amplify to a catastrophic flip), but kept in check
+by a fast computer control that supplies guiding nudges.  By being chaotic,
+thay are much more maneuverable.  (I think the space shuttle is unstable
+in this way during glide, though the goal there wasn't maneuverability,
+but something like mass/drag/heating minimization) Many biological systems,
+like the heart's natural pacemaker, are chaotic, but kept in line by
+control nudges.
+
+--Hans
+
+------------------------------
+
+Date: Sun, 25 Jul 93 18:17:03 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: Another Worry
+
+That well-known American Nick Szabo, says:
+
+> I bet a much greater % of us white folks would let Europe
+> beat us 3-2 than an even 1-1 (but it still might not be a majority).
+
+I would be very happy for Europe to beat "us" (or should that have been
+US?)   :-)
+
+Your local European,
+
+Mike Price          price@price.demon.co.uk
+
+------------------------------
+
+Date: Sun, 25 Jul 93 18:09:40 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: The Age of Robots
+
+Thanks much to Morevac for forwarding his book chapter with the above
+title.  If we study it carefully, I think we can find many interesting
+conversation topics there.  And I do look forward to "the next chapter
+[wherein] Exes, as we've grown to know and love them, become obsolete."
+
+So let me offer a quick review of this chapter, to perhaps spark more
+discussion.  
+
+Morevac seems a bit sloppier in his economics and political science
+than in his physics, as is almost all the SF and futurist community;
+this is one of the reason I want to go study these subjects.  
+
+>It took difficult political readjustments to equalize the benefits of
+>cheaper, more plentiful goods, but gradually laborers' hours were
+>halved, creating need for more workers, and so bidding up salaries.
+
+I'm not sure politics had much to do with equalizing the benefits of
+the industrial revolution.  
+
+>If the skills are rare, scarcity encourages high pay and long hours.
+>Either way, some work excessively while others are jobless--and it
+>takes slow changes in the social contract and in education to level
+>the load.
+
+Why would someone in high demand work more than they wanted to?
+
+>In the next century inexpensive but capable robots will displace human
+>labor so broadly that the average workday would have to plummet to
+>practically zero to keep everyone usefully employed.
+
+I'm sure everyone could work all day and be "useful".  The question is
+whether they wouldn't rather not work.
+
+>There is a problem with this picture.  The "service economy" functions
+>today because many humans willing to buy services work in the primary
+>industries, and so return money to the service providers, who in turn
+>use it to buy life's essentials.  As the pool of humans in the primary
+>industries evaporates, the return channel chokes off--efficient,
+>no-nonsense robots will not engage in frivolous consumption.
+
+Ah, but the robot's yes-nonsense owners may so comsume, spending the
+wages earned by their robot slaves.
+
+>It is unlikely that a future majority of service-providing "commoners"
+>with more free time, communications and democracy than today, would
+>tolerate being lorded over by a minority of non-working hereditary
+>capitalists: they would vote to change the system.  The trend in the
+>social democracies has been to equalize income by raising the
+>standards of the poorest as high as the economy can bear
+
+If people take my advice to diversify their labor assets, a large
+increase in the relative productivity of capital to labor need not
+result in large wealth inequalities.  And I'm not sure the degree of
+wealth redistribution and socialism is well predicted by the degree of
+inequality, or by the amount of free time or communications.  And I'm
+sure most folks on this list wouldn't advocate such socialism!
+
+>Big cities will lose their economic advantages, and may begin to
+>evaporate, as individuals, linked to the world by high fidelity
+>communications and served by personal robots, scatter to areas
+>offering more elbow room
+
+Do people live in cities to work near each other, or to play near each
+other?  Where do most of the idle rich choose to live now?
+
+>Humans may be able to live in uncluttered spaces--in ecological
+>preserves, if they choose--yet have any needed item, perhaps even food
+>or housing, made on the spot, or delivered from small local
+>caches--then disassembled back into into raw materials after use.
+
+We just had a long thread on whether nanotech production would be
+local.  It wasn't at all clear what the answer is.
+
+>Prosperity beyond imagination should eliminate most instinctive
+>triggers of aggression,
+
+We are now prosperous beyond the ancients imaginations, yet aggression
+continues. 
+
+>There will be conflicts of interest, and occasional clashes that drive
+>away or destroy some of the participants, but superintelligent
+>foresight and flexibly should allow most conflicts to be settled by
+>mutually beneficial surrenders, compromises, joint ventures or mergers.
+
+Is war caused by stupidity, and so will go away as things get smart?
+It would be nice if that were so, but this is not at all obvious.
+
+>The garden of earthly delights will be reserved for the meek,
+>and those who would eat of the tree of knowledge must be banished.
+
+The core of Morevac's vision consists of a split between a peaceful
+socialist Earth:
+
+>it will only be common sense for a population to vote itself income
+>from taxes on labor-free but superbly productive industries.  ...
+>there is no precedent or motivation for extending suffrage to robots,
+>... mandating an elaborate analog of Isaac Asimov's three "Laws of
+>Robotics" in [each robot's] corporate character--perhaps the entire
+>body of corporate law, with human rights and anti-trust provisions,
+>and appropriate relative weightings to resolve conflicts. ...
+>"Police" clauses in the core corporate laws, inducing legal
+>corporations to collectively suppress outlaws, by withholding services, 
+>or even with force, ... anti-trust provisions that limit collusion
+>and cause overgrown corporations to divide into competing entities,
+>since mere human actions will not be very dangerous in a world where
+>cheap superhuman robots function ... [if] inbuilt laws ... include
+>clauses limiting the powers they can sell to people. allow earth-bound 
+>humanity to perfect its biology within broad human bounds, ... but to
+>allow major growth or robotic conversion ... one must renounce legal
+>standing as a human being, including the right to corporate police
+>protection, to subsidized income, to vote on tribal and pan-tribal
+>matters--and to reside on Earth.
+
+and a dog-eat-dog scramble in space:
+
+>Beyond Earth, ... vigorous growth in every physical and mental
+>dimension.  Freely compounding superintelligence, too dangerous for
+>Earth, can grow for a very long time before making the barest mark on
+>the galaxy.  ... In remote space, large structures and energies ...
+>generally operate boldly. ...  Residents of the solar system's wild
+>frontier will be shaped by conditions very different than tame
+>Earth's.  Space divisions of successful companies will retain
+>terrestrial concerns, but ex-humans and company divisions orphaned by
+>the failure of their parent firms will face enforced freedom.  Like
+>wilderness explorers of the past, far from civilization, they must
+>rely on their own resourcefulness.  Ex-companies, away from humans and
+>taxes, will rarely encounter situations that invoke their inbuilt
+>laws, which will in any case diminish in significance as the divisions
+>alter themselves without direction from human voters.  Ex-humans, from
+>the start, will be free of any mandatory law. ... Small entities may
+>be absorbed by larger ones ... Parasites ... will evolve to exploit
+>the rich ecology.  ...  The scene may resemble the free-for-all
+>revealed in microscopic peeks at pond water ...  An entity that fails
+>to keep up with its neighbors is likely to be eaten, its space,
+>materials, energy and useful thoughts reorganized to serve another's
+>goals.  Such a fate may be routine for humans who dally too long on
+>slow Earth before going Ex.  ... Others may pre-negotiate favorable
+>absorption terms with established Exes, like graduating seniors
+>meeting company recruiters--or Faust soliciting bids for his soul. ...
+>Darwinian selection will remain the final arbiter.
+
+Yet, while this might make a nice SF story, space and earth are hardly
+different enough to justify such distinct political and economic
+approaches.  If folks have the desire and power to enforce socialist
+and technology-limiting solutions on Earth, why would they not do so
+in the rest of the solar system?  If mandating robot coporation's use
+of the three laws makes sense on Earth, why not elsewhere?  Conversely,
+if darwinian pressures in space doom slower growing socialism there,
+why should socialism win on earth?  If no mandatory laws can form in
+space, how can they form on earth?  If agression and forced absorption
+aren't punished in space, why would they be on earth?
+
+I suspect Morevac is torn between differing visions of the future, and
+has chosen to place these different visions in different places.  But
+I think the real future will not equivocate so.
+
+Robin Hanson
+
+------------------------------
+
+Date: Sun, 25 Jul 93 18:22:50 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: Why Rich Folks Work
+
+I think recent speculation here on future effects of automation reveal
+some confusion about why and when folks choose leisure over work.  
+
+If a substantial percentage increase in the amount one works can lead
+to a similarly substantial percentage increase in the money one has to
+spend to have more fun in one's free time, then one might well choose
+to work more, whether rich or poor.  On the other hand, if working less
+won't detract much from one's income, one may well choose to work
+less. 
+
+For example, a person who owns many human slaves, each nearly as
+productive as him/herself, that person may well not want to work at
+all.  And a tribe which can sustain itself picking berries and hunting
+for two afternoons a week, as in Morevac's description, may well not
+see much benefit in having twice as many berries.  On the other hand,
+a starving person often sees great leverage from more work.  And most
+people in our modern economy can also substantially increase their
+income by working more, and so they do, even though they may be far
+more wealthy than the ancient slave owner.
+
+Here is a simple model that says the above more precisely:
+
+U = person's utility
+L = the time they labor
+T = the total time available to that person
+P = the products that person can consume
+K = the capital to help that production
+
+
+------------------------------
+
+Date: Sun, 25 Jul 93 18:54:19 -0700
+From: tribble@netcom.com (E. Dean Tribble)
+Subject: Natural law and natural rights
+
+Natural law is not the same as physical law:  physical laws describe
+the emergent properties of a physical system that works is reasonably
+fixed way;  natural law attempts to describe ESSes that only emerge
+because of environmental incentives, not hard physical reality.
+
+The incentives that underly this 'natural law' can change subtly,
+causing a tremendous change in the ESS for the new environment.  For
+instance, there's some threshold level of violence above which a
+totalitarian regime might be much  more effective (most military
+forces are totalitarian internally).  Likewise, changes in technology
+(human backups, groups minds, etc.), might dramatically change the
+ESS for interaction among intelligent agents.
+
+A friend suggested that theright moral system is the market, and once
+we have the technology, all agents (bugs, birds, bees, etc.) should be
+adapted to evolve in that kind of an ecology.  This would completely
+resolve the moral issues of predation (because it's simply not allowed
+at al).  Implementing this will be hard however....
+
+dean
+
+------------------------------
+
+Date: Sun, 25 Jul 93 18:57:34 -0700
+From: tribble@netcom.com (E. Dean Tribble)
+Subject: Why Rich Folks Work
+
+Another reason people might want to 'work' is because they enjoy
+working.  It's only relatively recently that 'work' was considered
+annoying effort instead of something one did with one's time.  If you
+get enjoyment from being valuable to people, then the fact that you
+get money for it is simply feedback that people value what you are
+doing.
+
+dean
+
+------------------------------
+
+Date: Sun, 25 Jul 1993 21:36:21 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: 133 years old 
+
+Walford, in _Maximum Life Span_, nicely disposes of all such unproven
+stories.
+
+Speaking of which, I just returned from a trip to Atlanta (yes, it was
+hot, even by Alabama standrds!) on which I was able to purchase
+several Extropian Recommended Reading Books at the Oxford:
+
+Walford, _Maximum Life Span_ and _The 120-year diet_
+Morgenthaler & Whosis, _Smart Drugs & Nutrients_ (just in time for the
+sequel);
+Rucker, _Mind Tools_
+
+A week ago I attended a very interesting meeting (Mensa, no less) with
+a speaker on gamma ray bursts; and the very next night, Drs. Frank
+Drake, Frank White, and Bellingham spoke on SETI at UAH, in a forum
+sponsored by the International Space University and the Planetary
+Society. I am preparing summaries of both meetings, please don't let
+me forget.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO
+    /ExI 4/373 PNO ** E' and E-choice spoken here
+
+
+------------------------------
+
+Date: Sun, 25 Jul 1993 22:00:09 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: Meta: Moving the List
+
+In <199307241602.AA01075@panix.com>, Harry Shapiro writes:
+|> Just to update everyone on the new list and our moving plans.
+|> 
+|> 1) I am planning starting on Aug 9th to move everyone to the 
+|>    new software in batches of 30/40 users per day.
+
+Any time ... upload me any time ;-)
+|>      This may change
+Yeah, what won't?
+
+|> 2) We will have a new address. It will probally be extropians@extropy.org
+|> 
+|>      Don't use it yet! It is not yet offical - Also if you
+|>              have any suggestions about our "name" let me know.
+
+Yes, I suggest we keep it for a __long__ time, it's rather beautiful.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO
+    /ExI 4/373 PNO ** E' and E-choice spoken here
+
+
+------------------------------
+
+Date: Sun, 25 Jul 1993 22:46:36 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: HEX: share offering
+
+In <9307232105.AA24608@snark.shearson.com>, Perry E. Metzger writes:
+|> Hello, all.
+|> 
+|> As part of my effort to come into compliance with upcoming HEx
+|> regulations, I am offering approximately 300,000 shares of P via
+|> private placement to investors. I am willing to negotiate transfers
+|> for either Thornes or for shares of your own reputation -- exchange
+|> price and possible other terms to be privately negotiated.
+|> 
+I will likely be interested, but I'm presently enagaged in a
+"manual" auction to gauge the value of FCP in "new Thornes".
+
+Assuming that I move a reasonable number of shares of FCP at the
+new rates (split 8:1 and asking from p1 to p2 in increments), I'll
+make you a stock-swap offer.
+
+-- F_cP
+ ... Rapidly approaching Extro-parity ...
+
+------------------------------
+
+Date: Mon, 26 Jul 93 00:00:05 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx                 Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+---------------------------------------------------------------
+News Summary as of: Sun Jul 25 23:59:01 EDT 1993
+
+
+Newly Registered Reputations:
+(None)
+
+New Share Issues:
+(None)
+
+Share Splits:
+Symbol  n-for-1 Total Issued
+FCP     8       80000
+
+---------------------------------------------------------------
+Market Summary as of: Sun Jul 25 23:59:01 EDT 1993
+
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+1000          .10      .20      .10        10000         2000          200.00
+110             -      .10        -        10000            -               -
+150             -      .10        -        10000            -               -
+1E6             -      .10        -        10000            -               -
+1E9             -      .10        -        10000            -               -
+200             -      .10        -        10000            -               -
+80              -      .10        -        10000            -               -
+90              -      .20      .10        10000         2000          200.00
+ACS             -      .50      .50        10000         1124          562.00
+AI              -      .50      .20        10000         1000          200.00
+ALCOR           -     2.00     2.00        10000         2931         5862.00
+ALTINST         -      .10        -        10000            -               -
+ANTO            -        -        -            -            -               -
+BIOPR           -      .20      .10        10000         1500          150.00
+BLAIR           -    30.00    50.00        10000           25         1250.00
+CHAITN          -      .05        -        10000            -               -
+CYPHP         .15      .20        -        10000            -               -
+DEREK           -      .90     1.00       100000         8220         8220.00
+DRXLR           -     2.00     2.00        10000         2246         4492.00
+DVDT            -     1.50      .90        10000         3490         3141.00
+E               -      .60      .75        10000         5487         4115.25
+ESR             -        -        -            -            -               -
+EXI           .10     1.25     1.25        10000         3000         3750.00
+FCP             -     1.00        -        80000         4320               -
+GHG           .01      .30      .54        10000         1755          947.70
+GOBEL         .01      .30     1.00        10000          767          767.00
+H               -     2.00     2.00        10000         6250        12500.00
+HAM             -      .10        -        10000            -               -
+HEINLN        .30      .50        -        10000            -               -
+HEX        100.00   125.00   100.00        10000         3168       316800.00
+HFINN        2.00    10.00    10.00        10000         1005        10050.00
+IMMFR         .50      .80      .80        10000          501          400.80
+JFREE           -      .15      .10        10000         3000          300.00
+JPP           .25      .40      .25        10000         2510          627.50
+LEARY           -      .20        -        10000            -               -
+LEF             -      .15      .30        10000         1526          457.80
+LEFTY           -      .15      .30        10000         1951          585.30
+LIST          .40      .50      .50        10000         5000         2500.00
+LP              -      .15        -        10000            -               -
+LSOFT         .58      .60      .58        10000         7050         4089.00
+LURKR           -      .50        -       100000            -               -
+MARCR           -        -        -            -            -               -
+MED21           -      .12        -        10000            -               -
+MLINK           -      .09      .02      1000000         2602           52.04
+MORE         1.50     2.00     1.50        10000         3500         5250.00
+MWM           .15      .15     1.50        10000         1260         1890.00
+N           20.00    25.00    25.00        10000           98         2450.00
+NEWTON          -      .20        -        10000            -               -
+NSS             -      .10        -        10000            -               -
+OCEAN           -      .10        -        10000            -               -
+P           20.00    25.00    25.00      1000000           66         1650.00
+PETER        1.00        -     1.00     10000000          600          600.00
+PLANET          -      .10      .05        10000         1500           75.00
+PPL             -      .10        -        10000            -               -
+PRICE           -     4.00     2.00     10000000         1410         2820.00
+R             .49     2.80      .99        10000         5100         5049.00
+RAND            -      .15        -        10000            -               -
+RJC          1.00   999.00      .60        10000         5100         3060.00
+ROMA            -        -        -            -            -               -
+SGP             -        -        -            -            -               -
+SHAWN           -     1.00        -        10000            -               -
+SSI             -      .10        -        10000            -               -
+TCMAY         .75     3.00     2.00        10000         6000        12000.00
+TIM          1.00        -        -        10000            -               -
+TRADE           -        -        -      1000000            -               -
+TRANS           -      .10      .40        10000         1511          604.40
+VINGE           -      .50      .20        10000         1000          200.00
+WILKEN       1.00    10.00    10.00        10000          101         1010.00
+-----------------------------------------------------------------------------
+Total                                                               418877.79
+
+------------------------------
+
+Date: Sun, 25 Jul 1993 23:23:07 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: HEX: share offering
+
+ARRRRGH. Needless to say that was meant for Perry.
+I mostly only do this at home where I am using
+gnumacs in dumb-terminal mode with no mouse. Somehow
+when I have just cut the From: address into the X cu buffer
+ I can remember to paste it, whereas when I have to do it 
+with emacs commands I don't. Turn some cogsci guys loose on
+that, huh?
+
+-- F_cP--
+
+
+------------------------------
+
+Date: Mon, 26 Jul 1993 02:06:46 -0400
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Subject: FWD: Sterling & Gibson on computers & kids.
+
+The science fiction writers Bruce Sterling and William Gibson recently
+gave speeches about education and technology at a convocation at the
+National Academy of Sciences.  They graciously agreed to make their texts
+freely available to the Internet.  Please share these as you wish, but
+they are not to be used in any commerical way or publication.
+
+I hope this stimulates thoughts, reactions, and discussions throughout the
+'net.  This is a crucial time in the evolution of the Internet and the
+proposed networks-to-follow.  Open and equal access is NOT guaranteed; in fact
+just the opposite may well happen.  Is this important for education?  for
+democracy?  What do YOU say?
+
+-- Mike Eisenberg
+   mike@ericir.syr.edu
+   School of Information Studies
+   Syracuse University
+   Syracuse, NY 13244
+
+
+
+---------- Forwarded message ----------
+Date: Tue, 11 May 1993 18:52:59 -0700
+From: Bruce Sterling <bruces@well.sf.ca.us>
+To: mike@suvm.acs.syr.edu
+Subject: You Asked For It, You Got It
+
+
+Bruce Sterling
+bruces@well.sf.ca.us
+
+Literary Freeware -- Not for Commercial Use
+
+Speeches by William Gibson and Bruce Sterling
+National Academy of Sciences
+Convocation on Technology and Education
+Washington D. C.,  May 10, 1993
+
+BRUCE STERLING:
+
+        Hello ladies and gentlemen.  Thank you for having the two of us here
+and giving us a license to dream in public.
+
+The future is unwritten.  There are best-case scenarios.  There are worst-
+case scenarios.  Both of them are great fun to write about if you're a science
+fiction novelist, but neither of them ever happen in the real world.  What
+happens in the real world is always a sideways-case scenario.
+
+        World-changing marvels to us, are only wallpaper to our children.
+
+        Cyberspace is the funhouse mirror of our own society.   Cyberspace
+reflects our values and our faults, sometimes in terrifying exaggeration.
+Cyberspace is a mirror you can edit.  It's a mirror you can fold into packets
+and send across continents  at the speed of light. It's a mirror you can
+share with other people, a place where you can discover community.   But it's
+also a mirror in the classic sense of smoke-and-mirrors, a place where you
+might be robbed or cheated or deceived, a place where you can be promised
+a rainbow but given a mouthful of ashes.
+
+        I know something important about cyberspace.  It doesn't matter who
+you are today -- if you don't show up in that mirror in the next century,
+you're just not going to matter very much.  Our kids matter.  They matter a
+lot. Our kids have to show up in the mirror.
+
+        Today, we have certain primitive media for kids.   Movies, television,
+videos. In terms of their sensory intensity, these are like roller-coaster
+rides.  Kids love roller coasters, for natural reasons.  But roller coasters
+only go around and around in circles.  Kids need media that they can go places
+with.  They need the virtual equivalent of a kid's bicycle.  Training wheels
+for cyberspace.
+Simple, easy machines.  Self-propelled.  And free.   Kids need places where
+they can talk to each other, talk back and forth naturally.  They need
+media that they can fingerpaint with, where they can jump up and down and
+breathe hard, where they don't have to worry about Mr. Science showing up
+in his mandarin white labcoat to scold them for doing things not in the
+rulebook.  Kids need  a medium of their own.  A medium that does not
+involve a determined attempt by cynical adult merchandisers to wrench the
+last nickel and quarter from their small vulnerable hands.
+
+  That would be a lovely scenario.   I don't really expect that, though. On
+the contrary, in the future I expect the commercial sector to target little
+children with their full enormous range of on-line demographic databases and
+privacy-shattering customer-service profiles.  These people will be armed and
+ready and lavishly financed and there every day, peering at our children
+through a cyberspace one-way mirror.    Am I naive to expect better from the
+networks in our schools?  I hope not.  I trust not.  Because schools are
+supposed to be educating our children, civilizing our children, not
+auctioning them off to the highest bidder.
+
+        We need to make some conscious decisions to  reinvent our information
+technology as if the future mattered.  As if our children were human beings,
+human citizens, not raw blobs of potential revenue-generating machinery.   We
+have an opportunity to create media that would match the splendid ambitions of
+Franklin with his public libraries and his mail system, and Jefferson  and
+Madison with their determination to arm democracy with the power knowledge
+gives.  We could offer children, yes even poor children in poor districts,
+a real opportunity to control the screen, for once.
+
+        You don't have to worry much about the hardware.  The hardware is
+ephemeral.  The glass boxes should no longer impress you.  We've shipped our
+images inside glass boxes for fifty years, but that's a historical accident,
+a relic.  The glass boxes that we recognize as computers won't last much
+longer.  Already the boxes are becoming flat screens.  In the future,
+computers will mutate beyond recognition.   Computers won't be intimidating,
+wire-festooned, high-rise bit-factories swallowing your entire desk. They will
+tuck under your arm, into your valise, into your kid's backpack.  After that,
+they'll fit onto your face, plug into your ear.  And after that --
+they'll simply melt.  They'll become fabric.  What does a computer really need?
+Not glass boxes -- it needs thread -- power wiring, glass fiber-optic,
+cellular antennas, microcircuitry.  These are woven
+things.   Fabric and air and electrons and light.   Magic handkerchiefs with
+instant global access.   You'll wear them around your neck.  You'll make tents
+from them if you want.   They will be everywhere, throwaway.  Like denim.
+Like paper.  Like a child's kite.
+
+   This is coming a lot faster than anyone realizes.  There's a revolution in
+global telephony coming that will have such brutal, industry-crushing speed
+and power that it will make even the computer industry blanch.  Analog is
+dying everywhere. Everyone with wire and antenna is going into the business
+of moving bits.
+
+        You are the schools.  You too need to move bits, but you need to move
+them to your own purposes.  You need to look deep into the mirror of
+cyberspace, and you need to recognize your own face there. Not the face you're
+told that you need.   Your own face.  Your undistorted face. You can't out-tech
+the techies.  You can't  out-glamorize Hollywood. That's not your life, that's
+not your values, that's not your purpose.  You're not supposed to pump colored
+images against the eyeballs of our children, or download data into their skulls.
+You are supposed to pass the torch of culture to the coming generation.   If
+you don't do that, who will?  If you don't prevail for the sake of our
+children, who will?
+
+         It can be done!  It can be done if you keep your wits about you and
+you're not hypnotized by smoke and mirrors.  The computer revolution, the
+media revolution, is not going to stop during the lifetime of anyone in this
+room.   There are innovations coming, and coming *fast,* that will make the
+hottest tech exposition you see here seem as quaint as gaslamps and Victorian
+magic-lanterns.   Every machine you see here will be trucked out and buried in
+a landfill, and never spoken of again, within a dozen years.  That so-called
+cutting-edge hardware here will crumble just the way old fax-paper crumbles.
+The values are what matters.  The values are the only things that last, the
+only things that *can* last. Hack the hardware, not the Constitution. Hold
+on tight to what matters, and just hack the rest.
+
+        I used to think that cyberspace was fifty years away.  What I thought
+was fifty years away, was only ten years away.  And what I thought was ten
+years away -- it was already here.  I just wasn't aware of it yet.
+
+        Let me give you a truly lovely, joyful example of the sideways-case
+scenario.
+
+        The Internet.  The Internet we make so much of today -- the global
+Internet which has helped scholars so much, where free speech is flourishing
+as never before in history -- the Internet was a Cold War military project.
+It was designed for purposes of military communication in a United States
+devastated by a Soviet nuclear strike.  Originally, the Internet was a post-
+apocalypse command grid.
+
+  And look at it now.  No one really planned it this way.  Its users made the
+Internet that way, because they had the courage to use the network to support
+their own values, to bend the technology to their own purposes.  To serve their
+own liberty.  Their own convenience, their own amusement, even their own
+idle pleasure. When I look at the Internet--that paragon of cyberspace
+today --I see something astounding and delightful.  It's as if some grim
+fallout shelter had burst open and a full-scale Mardi Gras parade had come
+out.  Ladies and gentlemen, I take such enormous pleasure in this that it's
+hard to remain properly skeptical. I hope that in some small way I can help
+you to share my deep joy and pleasure in the potential of networks, my joy
+and pleasure in the fact that the future is unwritten.
+
+
+WILLIAM GIBSON:
+
+        Mr. Sterling and I have been invited here to dream in public.  Dreaming
+in public is an important part of our job description, as science writers, but
+there are bad dreams as well as good dreams.  We're dreamers, you see, but
+we're also realists, of a sort.
+
+  Realistically speaking, I look at the proposals being made here and I marvel.
+A system that in some cases isn't able to teach basic evolution, a system
+bedevilled by the religious agendas of textbook censors, now proposes to throw
+itself open to a barrage of ultrahighbandwidth information from a world of
+Serbian race-hatred, Moslem fundamentalism, and Chinese Mao Zedong thought.
+A system that has managed to remain largely unchanged since the 19th Century
+now proposes to jack in, bravely bringing itself on-line in an attempt to meet
+the challenges of the 21st.  I applaud your courage in this.  I see green
+shoots attempting to break through the sterilized earth.
+
+        I believe that the national adventure you now propose is of quite
+extraordinary importance.  Historians of the future -- provided good dreams
+prevail--will view this as having been far more crucial to the survival of
+democracy in the United States than rural electrification or the space program.
+
+        But many of America's bad dreams, our sorriest future scenarios, stem
+from a single and terrible fact:  there currently exists in this nation a vast
+and disenfranchised underclass, drawn, most shamefully, along racial lines, and
+whose plight we are dangerously close to accepting as a simple fact of life, a
+permanent feature of the American landscape.
+
+     What you propose here, ladies and gentlemen, may well represent
+nothing less than this nation's last and best hope of providing something
+like a level socio-economic playing field for a true majority of its citizens.
+
+        In that light, let me make three modest proposals.
+
+        In my own best-case scenario, every elementary and high school
+teacher in the United States of America will have unlimited and absolutely
+cost-free professional access to long-distance telephone service.  The
+provision of this service could be made, by law, a basic operation
+requirement for all telephone companies.  Of course, this would also apply
+to cable television.
+
+        By the same token, every teacher in every American public school will
+be provided, by the manufacturer, on demand, and at no cost, with copies of any
+piece of software whatever -- assuming that said software's manufacturer would
+wish their product to be commercially available in the United States.
+
+        What would this really cost us, as a society?  Nothing. It would only
+mean a so-called loss of potential revenue for some of the planet's fattest
+and best- fed corporations.  In bringing computer and network literacy to the
+teachers of our children, it would pay for itself in wonderful and
+wonderfully unimaginable ways.  Where is the R&D support for teaching?  Where
+is the tech support for our children's teachers?  Why shouldn't we give out
+teachers a license to obtain software, all software, any software, for nothing?
+
+        Does anyone demand a licensing fee, each time a child is taught the
+alphabet?
+
+       Any corporation that genuinely wishes to invest in this country's future
+should step forward now and offer services and software.  Having thrived under
+democracy, in a free market, the time has come for these corporations to
+demonstrate an enlightened self-interest, by acting to assure the survival of
+democracy and the free market -- and incidentally, by assuring that virtually
+the entire populace of the United States will become computer-literate
+potential consumers within a single generation.
+
+        Stop devouring your children's future in order to meet your next
+quarterly report.
+
+     My third and final proposal has to do more directly with the levelling of
+that playing field.  I propose that neither of my two previous proposals should
+apply in any way to private education.
+
+        Thank you.
+
+
+
+------------------------------------------------------------------------------
+|  Alexander Chislenko | sasha@cs.umb.edu | Cambridge, MA  |  (617) 864-3382 |
+------------------------------------------------------------------------------
+
+------------------------------
+
+Date: Mon, 26 Jul 1993 00:15:10 -0600 (MDT)
+From: J. Michael Diehl <mdiehl@vesta.unm.edu>
+Subject: What are big upcoming problems?
+
+According to Heath G. Goebel:
+> 
+> One problem I worry about is increasing state power. The political
+> climate today makes it easy for the guv'ment to imprison/murder
+> dissidents. And because of technology, the government can easily
+> outgun a person trying to defend themselves from the government.
+> In recent weeks we've seen two cases of note: Waco and Randy Weaver.
+
+I quite agree with you.  Because of this, I anticipate political aspirations
+when I get older....  Something to think about.
+
+> I mean if the BATF, CIA, FBI, SS show up at any of our houses,
+> fighting back with our own armaments (as suggested many times
+> by T.C. May) is a sure path to real death.
+
+...But what can you do?
+
+> When will the balance shift?
+
+When we get involved.
+========================+==========================================+
+J. Michael Diehl   ;^)  | Have you hugged a Hetero........Lately?  |
+mdiehl@triton.unm.edu   | "I'm just looking for the opportunity to |
+mike.diehl@fido.org help|    be Politically Incorrect!"  +=========+
+al945@cwns9.ins.cwru.edu| Is Big Brother in your phone?  | PGP KEY |
+(505) 299-2282  (voice) |    If you don't know, ask me.  |Available|
+========================+================================+=========+
+PGP Key = 7C06F1 = A6 27 E1 1D 5F B2 F2 F1  12 E7 53 2D 85 A2 10 5D 
+This message is protected by 18 USC 2511 and 18 USC 2703. Monitoring 
+by anyone other than the recipient is absolutely forbidden by US Law
+
+------------------------------
+
+End of Extropians Digest V93 #206
+*********************************
+
+& 

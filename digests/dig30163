@@ -1,0 +1,1024 @@
+From extropians-request@gnu.ai.mit.edu Wed Mar 31 15:06:50 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA27843; Wed, 31 Mar 93 15:06:45 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from geech.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA09140; Wed, 31 Mar 93 15:06:38 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by geech.gnu.ai.mit.edu (5.65/4.0)
+	id <AA01550@geech.gnu.ai.mit.edu>; Wed, 31 Mar 93 17:56:42 -0500
+Message-Id: <9303312256.AA01550@geech.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Wed, 31 Mar 93 17:56:18 -0500
+X-Original-Message-Id: <9303312256.AA01543@geech.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0163
+X-Extropian-Date: Remailed on March 31, 373 P.N.O. [22:56:41 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Wed, 31 Mar 93            Volume 93 : Issue 0163
+                        
+Today's Topics:
+              FLAMES: "I am gonna fight you, chiuk, chiuk ..."        [1 msgs]
+                   Forces of evil gathering to suppress VR            [3 msgs]
+                          GOVT: Tech Policy survey                    [1 msgs]
+     HUMOR: Proof that UFO aliens are a race of government bureaucrats! [1 msgs]
+                          HUMOR: UFO's From Future?                   [1 msgs]
+                   LAW: Instruction in ethics and morality            [1 msgs]
+                       MEDIA: Challenge public radio!                 [3 msgs]
+                        MEME: What's going on here...                 [3 msgs]
+                           Nietzsche and the Nazis                    [2 msgs]
+                          ROOTS: Ethnicity -- NOT!                    [1 msgs]
+               ROOTS: Names (last post from me on this topic)         [2 msgs]
+                           Speech for the defense                     [1 msgs]
+                     TECH: Entropic costs of computation              [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 51180 bytes.
+
+----------------------------------------------------------------------
+
+Date: Wed, 31 Mar 1993 16:19:39 +0200 (MET DST)
+From: ggoebel@sun1.ruf.uni-freiburg.de (Garrett Goebel)
+Subject: GOVT: Tech Policy survey
+
+Just in case you missed it, here is your chance to tell the government,
+through "OPEN SYSTEMS TODAY", exactly where they can put their high
+technology policies.
+
+ggoebel
+
+___________________________cut here_____________________________________
+From: wagner@utoday.com (Mitch Wagner)
+Organization: Open Systems Today
+
+              What, if anything, should the Clinton-Gore 
+              administration be focusing on as it seeks 
+              to help the U.S. high technology industry?
+
+
+ 
+We're asking this question to collect opinions for the "net.views" column in
+OPEN SYSTEMS TODAY. Please E-mail your responses to wagner@utoday.com.
+ 
+By responding to that address, you'll be granting permission to OST to publish
+your response.
+ 
+In order to use your response, we'd like to know who you are. Please tell us
+our real, full name, your job title, your employer, and location---or,
+alternately, if you're a student, your class standing (freshman, sophomore,
+junior, senior, grad, etc.), college and university, and its location. Please
+also include a telephone number where you can be reached during daytime hours
+in North America.
+ 
+Please limit responses to about two full screens (24x80) of text, not 
+including headers and other administrivia.
+ 
+Responses to net.views will be posted to this space.
+ 
+Thanks for participating, and we look forward to hearing from you!
+  
+ 
+
+                         -- mitch w.
+--
+Mitch Wagner, senior editor, Open Systems Today
+2353 Massachusetts Ave. Suite 47, Cambridge, MA 02140
+wagner@utoday.com  (617)547-8485  CIS:70212,51  GEnie:MITCHWAGNER  
+For subscription information, please call 516/562-5882
+_____________________________uncut here_________________________________
+ 
+
+
+-- 
+C. Garrett Goebel
+<ggoebel@sun1.ruf.uni-freiburg.de>
+
+------------------------------
+
+Date: Wed, 31 Mar 93 8:33:03 CST
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: TECH: Entropic costs of computation
+
+Hello out there!  I am suffering from major confusion on the
+topic of the fundamental limits of computation, and am wondering
+whether anybody in Extropians-land would be willing to enter a
+Conversation with me on this topic.  I found some discussion
+in the sci.nanotech archives but it did not address the (more
+basic) issues that are bothering me.  I also read and reread
+JoSH's article on the subject in Extropy #10, and also have
+gotten and puzzled over Schneider's Theory of Molecular Machines
+II: Energy Dissipation from Molecular Machines.  J. Theor. Biol.
+148:1 (1991) 125-137.  So I have tried on my own to understand
+this, to an extent anyway.
+
+I am comfortable with phase space, with computation, and have
+some grasp of information theory.  I understand what is meant
+by a 'macrostate', but am not happy with using such a subjective
+concept to make concrete predictions.
+
+My difficulty is that I don't believe that there is any inherent
+penalty to be paid for computation per se.  Here is my simple
+question, after which I will go off on a tangent:
+
+  Suppose I have a machine that executes the following operation:
+  Register A := Register A + Register B.  Now, supposedly this
+  sort of operation must pay a penalty for erasing the bits in
+  Register A.  But entropy as usually presented is a measure of
+  uncertainty, which would imply that the uncertainty about the
+  machine state has supposedly gone down (thus I must pay that
+  back somehow with heat or some other disordering process).  But
+  surely it hasn't!  I knew what the machine's state was before,
+  and I know it now.  If anything, I'm less sure because it could
+  have malfunctioned.  Put another way, there is no information
+  gain involved here, whether rubegoldbergian cascade-type mechanisms
+  are in place or not.  What gives?
+
+A tangential question:  It's been said that a coin that has been
+flipped must pay the penalty for one bit (heads/tails), but what
+if I'm interested instead in which of 1,000,000 evenly-spaced
+rotations that the coin ends up in?  Same coin, same toss, but
+now (because I have a different intent when watching it??!) it
+must pay the penalty for about ten bits.  Doesn't that seem sort
+of silly?
+
+Perhaps what's implied somehow is that MY uncertainty is reduced,
+and the physical measurement process required to perform that
+reduction is the cause of the balancing entropy.  But if this is
+so, surely it is only the RESULTS (state of output bits at some
+time) that must be measured, which would be independent of the
+number of computations used to produce them.
+
+I hope somebody is willing to discuss this issue; thanks for your
+time.
+
+derek
+fnord
+
+
+------------------------------
+
+Date: 31 Mar 1993 09:31:49 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: FLAMES: "I am gonna fight you, chiuk, chiuk ..."
+
+This is what my 2 1/2 daughter says sometimes when she finds a stick and
+comes to me with that stick waving it around. Her name is Angelica,
+with an accent above the e, and it sure is hard to put that accent in the
+Feds records, although the state record holders put it in. She is named
+after the Brazilian TV personality, singer, a blonde trying to compete with
+Xuxa. My Angelica does look Brazilian, being half Polish half Filipina,
+but she is not a blonde.
+Anyways, I wanted to post about Perry's and Garret's discussion. Please
+note that you are both discussing an emotionally charged issue, so caution
+is advised in posting. Both of your say the topic is inappropriate for the
+list, and are probably right. But your posts, especially Perry's, in my
+opinion, were very interesting. Again, the issue is emotionally charged,
+and I guess both of your react in a way similar to what I feel when I read
+in U.S. papers or magazines that during WW II millions of Jews were murdered
+in "Polish death camps". Auschwitz is located in what is now Poland, and what
+always was Poland, except for the times when Poland was occupied by Germany
+or Russia. I am not a Jew, I am Polish. My Polish relatives also died in
+Auschwitz.
+But my comment is completely different. Please consider this story. In 
+November 1830 a group of young Polish officers in what was then an autonomous
+Polish territory within the Russian empire, in Warsaw, organized an uprising
+against the Russian rule, popularly called "The November Uprising" in the
+Polish history, where it is considered a symbol of romantic upheveal against
+tyranny. They were officers in the Russian imperial army, not high ranking,
+mostly captains and colonels. They had sworn loyalty to the Russian empreror
+(then Nicholas I, I believe), such an oath was required to become an officer.
+
+So did the generals in Warsaw, who were also Polish. The revolutionaries
+(captains and colonels) approached the generals, asking them to join the
+revolution. The generals replied that they could not because they had not
+been released from the loyalty oath. The generals also requested that they
+be allowed to travel to Russia, to request a release from the oath from the
+Emperor. 
+
+By the way, some of the lower ranking revolutionaries sent messages to 
+St. Petersburg requesting release from the oath (Dear Emperor: Please
+release me from the loyalty oath. I am gonna fight you, so I can't keep\
+the promise.). The requests, when received by the Emperor, were approved.
+A large contingent of the Russian army was sent to Poland. After several
+militarily interesting battles the uprising was defeated, and the Russian
+troops, really pissed off with the disobedient Pollacks, killed thousands
+of unarmed civillians in Warsaw.
+
+By the way, the generals who tried to keep their word were not allowed to
+leave Warsaw. They were lynched by an angry mob, as traitors.
+
+Those officers who took part in the uprising and were taken prisoners
+by the Russian army, were later reinstated if they again swore loyalty to
+the Emperor (but only if they had been granted the release).
+
+Why am I telling this story? Because I was raised to think about Poles
+as being victims of Russian oppression in the 19th century. That perception
+is probably correct, except that some Poles did some nasty or dishonorable
+things. I bet when a Russian who sees himself as a victim of Western
+expansionism discusses this, he will scream about how those cheating
+lying Pollacks betrayed them.
+
+It is best, IMHO, to stay calm and listen. There is a light year between
+how much Poles were victims of Russian oppression and Jews were victims
+of genocide and centuries of persecution. But I still hope that there is
+a way to talk about it without resorting to hate. I apologize if I hurt
+anyone's feelings. Perry and Garret convinced me to try to read 
+Paul Johnson's "History of Jews"
+Is it good? I think his "The Birth of the Modern" is one the most inspiring
+and beautiful books I have ever read.\
+
+By the way, I recall someone saying that libertarians should not 
+deny the faults of 19th century Capitalism. Joe Sobran once said:
+"We live in the century in which governments murdered more people
+than it was ever imaginable, and some intellectuals are still fighting the
+robber barons..."
+
+>From the Polish perspective on the 19th century I will take the 19th century
+Capitalism any time over the 19th century government oppression. 
+The 20th century government oppression beats any competitor for the prize
+of the Grand Evil of Mankind.
+(I do include the Womankind, just don't know what the PC expression is).
+Krzys'
+
+------------------------------
+
+Date: Wed, 31 Mar 93 09:50:00 CST
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: MEDIA: Challenge public radio!
+
+My local public radio station, WBEZ, is currently holding a pledge drive. 
+Although I listen to it a lot, I am ignoring its pleas for donations.  And
+I do so with a clear conscience.  Why?  Because I am already taxed to
+support public radio, because WBEZ unfairly refuses to recognize that I
+have already given at the office, and because I think it is bad for public
+radio--and for the public it is supposed to serve--for it to accept tax
+dollars.  I'd like to explain these reasons more fully, and encourage those
+who read this to do as I have done: contact your public radio station and
+challenge their use of tax dollars.
+
+I already support public radio involuntarily, as it receives tax dollars
+through the federal government.  Many states also contribute tax funds to
+public radio.  So when my local station asks me to pay for the broadcasts
+that I enjoy, I can decline to do so with a clear conscience.  Now, they
+would no doubt tell me that my donation is necessary to make up the
+difference between what they get from taxes and their overall operating
+expenses.  But I can simply retort that I am putting myself in that class
+of persons who supposedly justify public radio's use of tax funds: those
+who benefit from its services without paying.  And I am a happy free-rider,
+because I think I merit recompense for the indignity of being forced to pay
+for services I have not requested and do not always want.
+
+WBEZ, like other public radio stations I have listened to, refuses to
+recognize that I am already paying for its services.  I object to having my
+support unrecognized.  Worse yet, public radio's silence about its use of
+tax funds constitutes a form of false advertising.  Especially during
+pledge drives, listeners deserve to hear about public radio's potential
+conflicts of interest.
+
+It disserves public radio stations to take tax dollars.  How can they
+report objectively about the federal government's budgetary problems and
+the proper uses of tax funds if they themselves suckle off the State's
+teat?  Public radio is reputed to have a left-liberal bias.  Perhaps its
+addiction to tax dollars explains this bias.  In any case, I think it would
+be best for public radio, and the public it serves, to eliminate this
+conflict of interest by refusing to accept tax dollars.
+
+I thus called up WBEZ and explained why I would not respond to their plea
+for funds.  I also requested that they regularly announce the sources and
+amounts of the tax dollars they receive.  I encourage all of you to send a
+similar message to your local public radio station.  Do the same for public
+TV, too!  All the same arguments apply.
+
+Together we can help to bring about a purely private public broadcasting
+sector.  This would not only eliminate an unjust (and to my eyes
+unconstitutional) use of tax funds; it would also foster more objective
+reporting about the proper scope of statism.
+
+You may reproduce this message freely.
+
+T.O. Morrow                        --  twb3@midway.uchicago.edu
+Law & Politics Editor: EXTROPY     --  Journal of Transhumanist Thought
+Associate Executive Director: ExI  --  The Extropy Institute
+
+
+------------------------------
+
+Date: Wed, 31 Mar 93 17:13:40 BST
+From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+Subject: Forces of evil gathering to suppress VR
+
+Perhaps that's an exaggeration, but see for yourself.  Here's an article
+from the latest issue of TidBITS, an electronic Macintosh newsletter. 
+Reproduced by permission, see copyright notice for redistribution
+restrictions.
+
+--                                ____
+Richard Kennaway                  \ _/__    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk       \X  /    University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk      \/     Norwich NR4 7TJ, U.K.
+
+
+extracted from TidBITS#170/29-Mar-93
+====================================
+
+ Copyright 1990-1993 Adam & Tonya Engst. Non-profit, non-commercial
+   publications may reprint articles if full credit is given. Other
+   publications please contact us. We do not guarantee the accuracy
+   of articles. Caveat lector. Publication, product, and company
+   names may be registered trademarks of their companies. Disk
+   subscriptions and back issues are available - email for details.
+ 
+Virtual Sex?
+------------
+  by Keith Bourgoin -- kbourgoin@chaparral.fse.ulaval.ca
+ 
+  Although Tonya Engst's book review of "Silicon Mirage" wasn't
+  specifically intended to cover the topic of "virtual sex," some
+  points need to be clarified. Even though I am NOT an expert in
+  virtual reality (VR), I participated in a network conference on
+  that subject a year ago as an interested party and would like to
+  mention some of the finer details and conclusions we agreed on in
+  the conference.
+ 
+  Tonya says, "It turns out that virtual reality has little to do
+  with sex." I am sorry to say that as a quickly evolving technology
+  and because it has always been the case, exploitative people will
+  surely use VR as another sex-oriented product in an already huge
+  industry. This is where the real problem arises.
+ 
+  Right now, VR is in its infancy and we are still far from publicly
+  available computer-generated animations that are credible as
+  reality. But as is often the case, the creation of a niche market
+  for virtual sex will finance technological advances, leading to a
+  finer quality of consumer VR within years. This forces us to take
+  a stand on the matter very quickly.
+ 
+  With the advent of consumer VR, we will be flooded with a mass of
+  VR peripherals that will cover the broad spectrum of sensations
+  that a person can experience in real life, including sex. It is
+  difficult NOT to imagine such peripherals considering the huge
+  number of sex-oriented mechanical devices in sex shops. With the
+  coming of peripherals capable of simulating the stimulus of sex in
+  a fantasy reality, we are giving people the means to reinforce
+  this pretend reality, a reality in which sex could conceivably be
+  exaggerated beyond reality into imagination. In fact, we are
+  creating the perfect device to transform people into sex-obsessed
+  schizophrenics, people who can't distinguish reality from fiction.
+  These devices could cause serious mental and sociological
+  problems. [Of course, this applies to many different topics within
+  a broad-based virtual environment, and is equally as harmful in
+  those cases as well. -Adam]
+ 
+  The conclusion we drew in the VR conference was that even though
+  VR is an interesting and promising technology, it must be closely
+  supervised to achieve its true potential; without this
+  supervision, VR could become another dangerous technology that
+  could cost millions in medical care, social rehabilitation, and
+  perhaps even lives. It is high time we address the possible abuses
+  and deal with them while we still hold the reins.
+ 
+  [For those interested in the arguments that always swirl around
+  when sex is mentioned, check out the cover story in NewMedia
+  magazine's April issue, entitled "Digital Sex: Technology, Law, &
+  Censorship." Suzanne Stefanac provides an excellent and thoughtful
+  overview of many of the issues we raised in TidBITS#159 and #160,
+  and she touches briefly on the issues Keith mentions above. -Adam]
+ 
+    NewMedia Magazine -- NewMediaMag@mcimail.com
+
+================
+
+
+------------------------------
+
+Date: Wed, 31 Mar 93 08:57:13 PST
+From: hkhenson@cup.portal.com
+Subject: ROOTS: Names (last post from me on this topic)
+
+This thread has been rather interesting, especially Perry's posts
+(though Garrett's were necessary to keep the exchange going).  I agree
+with Perry that the subject is off topic, but only slightly.  It would
+take very little to bring in memetics and other related social factors
+of considerable interest to extropians.  Persecution seems to bring 
+out a "high motivation" state in people where they get a heck of a lot
+done.  I have considerable experience of being in this state myself, in
+the fight L5 ran against the Moon Treaty, and a much more intense one
+when the state was trying to eliminate cryonics back in '88.  It would
+be interesting to speculate on why people with such responses evolved,
+(why not be in the high energy state *all* the time?).  On the other
+hand, infighting tends to decrease motivation.  Keith
+
+------------------------------
+
+Date: Wed, 31 Mar 93 10:57:56 CST
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Forces of evil gathering to suppress VR
+
+Richard Kennaway writes:
+
+> Perhaps that's an exaggeration, but see for yourself.  Here's an article
+> from the latest issue of TidBITS, an electronic Macintosh newsletter. 
+
+It is an exaggeration; whining in a Macintosh e-zine?  Big deal.
+I suspect that there will be some sort of regulation of hardware
+devices "to ensure safety", but it seems unlikely that VR in general
+can be "closely supervised to achieve its true potential".
+
+On a similar subject, does anybody know the state of the art in
+robotic sex toys?  I could easily imagine various motorized configurations
+that could include (heartrate, galvanic skin response, EEG, breathing, etc)
+sensors and be hooked up to a neural net or some other learning technique
+to automatically figure out how to behave.
+
+derek
+only a hundred miles from racine
+
+
+------------------------------
+
+Date: Wed, 31 Mar 93 10:28:50 EST
+From: tal@aisinc.com (Tom A. Litow)
+Subject: HUMOR: UFO's From Future?
+
+Carol Moore speculates:
+
+>> I wonder if they might consider it possible that these aliens are in fact 
+>> humans from the future trying to upgrade their genetic stock by mating
+>> with humans from the past...
+
+I think the aliens are humans from the past, trying to increase the
+intelligence of their offspring by breeding with us humans from their
+future.  ;-)
+
+  Tom Litow
+  tal@aisinc.com
+
+------------------------------
+
+Date:         Wed, 31 Mar 93 11:46:34 CST
+From: "Christopher L. Weeks" <C576653@MIZZOU1.missouri.edu>
+Subject: LAW: Instruction in ethics and morality
+
+This isn't strictly on topic, but I thought many of you might find this
+interesting/disheartening.  From the Oregon Revised Statutes;
+
+336.067-Instruction in ethics and morality.
+(1)  In public schools special emphasis shall be given
+     to intruction in:
+     (a)  Honesty, morality, courtesy, obedience to law,
+          respect for the national flag, the Constitution
+          of the United States and the Constitution of
+          the State of Oregon, respect for parents and
+          the home, the dignity and necessity of honest
+          labor and other lessons which tend to promote
+          and develop an upright and desirable citizenry.
+
+     (b)  Respect for all humans, regardless of race,
+          color, creed, national origin, religion, age, sex
+          or handicaps.  Acknowledgement of the dignity
+          and worth of individuals and groups and their
+          participative roles in society.
+
+     (c)  Humane treatment of animals.
+
+     (d)  The effects of tobacco, alcohol, drugs and
+          controlled substances upon the human system.
+
+Is this something that most states have?  I just ran across this data
+while researching for a paper I'm writing.  I never realized that it was
+law that schools MUST teach their particular brand of morals to the students.
+
+Everyday I see something that amazes me,
+
+
+Christopher L. Weeks
+c576653@mizzou1.missouri.edu
+
+------------------------------
+
+Date: Wed, 31 Mar 1993 12:02:22 -0600
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: Forces of evil gathering to suppress VR
+
+In <9303311659.AA14102@churchy.gnu.ai.mit.edu>, Derek Zahn writes:
+|> Richard Kennaway writes:
+[...]
+|> On a similar subject, does anybody know the state of the art in
+|> robotic sex toys?  I could easily imagine various motorized configurations
+|> that could include (heartrate, galvanic skin response, EEG, breathing, etc)
+|> sensors and be hooked up to a neural net or some other learning technique
+|> to automatically figure out how to behave.
+|> 
+|> derek
+|> only a hundred miles from racine
+
+Holy synchronicity, Derek! I had just been daydr^H^H^H^H^Hspeculating
+on building android sex partners -- male and female -- with realistic
+(heated to 70F, make the hands a little warmer) skin, adjustable
+genitalia, speech input, and a biofeedback learning mechanism just
+like what you described -- I haven't read Masters and Johnson since
+the 70's, but I suspect that quite a bit of detail about human sexual
+response is available from external sensing of the body's electrical
+field (EKG, EEG, GSR). I had figured on having them be activated by
+key phrases that would identify the human partner[1] so that the 'droid
+could load a previously saved profile, and do whatever turns the human
+on the most, modified by voice and tactile input. Emergency shutdown
+switches[1] might be located atop the head, in the small of the back,
+and the arch of the foot. I would want to build in simulated breathing,
+heartbeat, _and orgasm_ as well, to keep the experience lively.
+
+I would keep two females and one male 'droid around the house, and my
+hospitality would be famous! Don't forget the fun when I turn them
+loose on each other, either.
+
+They would be expensive using near-future technology, so there'd be a
+rental market. Human prostitutes and surrogates would still be in
+demand, but their prices might have to come down.
+
+I expect that both genders would be bisexual as well, at least by
+default -- comes in real handy at orgies ;-)
+
+The senses, the skin, the orifices, and the computer control and
+feedback systems are all at least slightly beyond today's state of the
+art.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+[1] Actually, voiceprint might suffice for this. Visual discrimination
+would be possible with training but is more complex.
+[2] Emergency as in, "it didn't hear me when I said to stop pulling my
+nipple" ...
+
+
+------------------------------
+
+Date: Wed, 31 Mar 1993 12:44:56 -0600
+From: pgf@srl02.cacs.usl.edu (Phil G. Fraering)
+Subject: MEME: What's going on here...
+
+This is a comment I want to make about something going on
+wrt the "true names" ;-) thread... although before I begin:
+
+Garrett, this thread would have died if when Perry said, "let's
+take it to email," you had taken it to e-mail instead of trying to
+always get in the last word... 
+
+But I have realized that there's a middle ground here; "Germany," 
+please keep in mind, is a modern creation. If you go back a couple
+hundred years or more, in order to try to evaluate a collective
+"Germany" you end up with a collective "Germanic peoples" which
+includes areas not in Germany today (i.e. Switzerland and the
+Netherlands). Over this vast expanse, there was _immense_ variation
+in culture, politics, and religion.
+
+Even in this century, you had the response of the Netherlands to
+the holocaust... which was rather (_if_ I remember my history
+books right, and I'm not remembering the Danes instead) good. They
+... well, that's not what I'm trying to talk about.
+
+What I'm saying is, in pre-18th century "Germany" there was room for
+both the sort of situation Garrett describes and the one that Perry
+describes.
+
+I'm not sure which is true, but... currently, Germans tend to think
+that for the most part, they were more tolerant than the rest of
+Europe, and that the Holocaust was an abberation in German history.
+They _don't_ think of it in terms of "Germans have always been more
+evil than other people, and the slope down to genocide against others
+is something they just find more slippery than other peoples." (what
+other peoples? The Netherlands, which except for historical accident
+would be part of Germany, the same as the Kingdom of StraSbourg?)
+
+They _DO_ think, and THIS IS IMPORTANT: if you sell your soul to a
+totalitarian regime, you will end up doing very evil things. It
+has nothing to do with the level of your culture or civilization;
+you can be a race of tolerant poets, philosophers, and musicians
+(which in many ways fit the German view of themselves in the 19th
+century), and when you sell your soul like that, it doesn't matter,
+it's going to result in places like Auschwitz, and a counter-reaction
+that divides the country, enslaves part of it for a couple generations
+or so, and destroys whole communities (do I have to mention the "ethnic
+cleansing" that happened in E. Europe against German populations at the
+end of WWII? Anyone want to guess how many of the "cleansed" there
+were Jews who had managed to evade the holocaust?)
+
+Any comments?
+
+Phil
+
+------------------------------
+
+Date: Wed, 31 Mar 93 11:01:17 -0800
+From: tcmay@netcom.com (Timothy C. May)
+Subject: MEDIA: Challenge public radio!
+
+Tom Morrow writes:
+
+
+>WBEZ, like other public radio stations I have listened to, refuses to
+>recognize that I am already paying for its services.  I object to having my
+>support unrecognized.  Worse yet, public radio's silence about its use of
+>tax funds constitutes a form of false advertising.  Especially during
+>pledge drives, listeners deserve to hear about public radio's potential
+>conflicts of interest.
+
+Speaking of false advertising, I just heard ("Newsweek," current issue)
+that the FCC is considering cracking down on the PBS pledge breaks *during
+children's shows*. It seems the PBS stations have been heavily selling
+"Barney" gear (Barney is a dinosaur) on an afternoon children's show.
+Normal commercial broadcasters are heavily regulated as to what and how
+they can advertise to children.
+
+Since it has often been media liberals who have argued for the various laws
+against advertising to children and others, seeing PBS get hoist by its own
+petard is delightful.
+
+-Tim May
+
+P.S. I know the EC position is to be against *any* laws which are unjust,
+so we should not cheer when PBS is forced to abide by laws others are
+"unjustly" forced to abide by. In this case, I'm cheering.
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+Date: Wed, 31 Mar 1993 14:19:24 -0500
+From: "Perry E. Metzger" <pmetzger@shearson.com>
+Subject: ROOTS: Names (last post from me on this topic) 
+X-Reposting-Policy: redistribute only with permission
+
+Garrett Goebel says:
+> I would like to note, that Perry has gone back on his word.  He had
+> said that the post previous to this one, would be the last of it's kind
+> on the list.  He has posted again.  I hope his reputation will suffer for
+> it.
+
+Garrett, I don't know if you are an obsessive, or an antisemite, or
+just nuts. Get this topic off the list, now. No more posts on it.
+
+[And for your information, I didn't post again. My mail must have
+simply arrived out of order.]
+
+Perry
+
+------------------------------
+
+Date: Wed, 31 Mar 93 14:23:46 EST
+From: sulko-m@acsu.buffalo.edu (Mark A. Sulkowski)
+Subject: HUMOR: Proof that UFO aliens are a race of government bureaucrats!
+
+From: Carol Moore <cmoore@cap.gwu.edu>
+> *   Whether UFO sightings and stories of abductions are pure
+>     fantasy, mass hysteria or have some basis in reality.
+
+	I doubt that there is any official extropian stand on this issue.
+The way I figure it, when and if aliens encounter Earth, WE WILL KNOW.
+I seriously doubt that they would skulk about.  Besides, even if they would,
+why would they be so incredibly incompetent as to make themselves known to
+so many people.  Some superior race.  (Of course, if they are a race of
+government bureaucrats, that would explain it. :)
+
+	My personal theory is that UFOs satisfy some deep psychological
+need of ours, much like religion does.  I believe that Carl Jung had an
+interesting hypothesis on that.
+ 
+
+> *   If there is some basis in reality for them, could it be
+>     government agencies know about it and are trying to keep
+>     the truth from us for some reasons, making politically
+>     based claims of "mass hysteria."
+
+	If there is some basis in reality?  Sure, why not.
+
+   
+> *   Whether natural catastrophes such as meteor strikes,
+>     massive volcanic eruptions or human-made ones such as
+>     nuclear war could lead to rapid and thorough mutations in
+>     humans.
+
+	Doubt it.  I suppose that depends on what you mean by 'rapid'
+though.  The way I see it, any further human evolution will be technological
+rather than genetic.  Hence extropian 'transhumanism'.
+
+   
+> *   Whether it is *theoretically* possible for humans to
+>     someday travel physically back and forth in time by any
+>     mechanism.
+
+	I believe that there are some physicists who have recently
+developed a theory on how to do that.  It involved two cosmic strings
+moving at near the speed of light relative each other as I recall.
+Don't count on time travel for some time yet.
+
+   
+> *   Should extropians consider it possible that we are being
+>     visited by beings from "other worlds" and should they
+>     consider it possible that physical time travel may some
+>     day be possible, I wonder if they might consider it
+>     possible that these aliens are in fact humans from the
+>     future trying to upgrade their genetic stock by mating
+>     with humans from the past (in line with many tales told
+>     by those claiming to have been abducted).
+
+	Doubt it.  If they have the technology to travel through space
+and time, their geneticists should be up to the job of "upgrading their
+stock", whatever that means.  In fact, they should have transcended the
+very need to be so dependent on their genetic code. 
+
+   
+===============================================================================
+|   |\    /|    | "But we must not follow those who advise us, being men, to  |
+|    \\  //     | think of human things, and, being mortal, of mortal things, |
+|     \\//      | but must, so far as we can, make ourselves immortal..."     |
+| Mark \/enture |                 - Aristotle, _The Nicomachean Ethics_       |
+===============================================================================
+
+
+------------------------------
+
+Date: 31 Mar 1993 14:50:44 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: MEDIA: Challenge public radio!
+
+"EC position"???
+I love it!
+Krzys'
+
+------------------------------
+
+Date: 31 Mar 1993 14:49:36 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: MEME: What's going on here...
+
+A comment on Phil's comment -- I firmly believe that the German 
+philosophy of the 19th century was responsible for both the 
+German and Russian totalitarianism of the 20th century.
+Kant, Marx, and to a lesser degree Hegel and Nietsche.
+Krzys'
+
+------------------------------
+
+Date: Wed, 31 Mar 1993 15:08:55 -0500
+From: "Perry E. Metzger" <pmetzger@shearson.com>
+Subject: MEME: What's going on here... 
+X-Reposting-Policy: redistribute only with permission
+
+Phil G. Fraering says:
+> 
+> Any comments?
+> 
+
+Yes. This topic DOES NOT belong on extropians.
+
+.pm
+
+
+------------------------------
+
+Date: Wed, 31 Mar 93 12:34:39 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Nietzsche and the Nazis
+
+Krzys' writes:
+
+> A comment on Phil's comment -- I firmly believe that the German 
+> philosophy of the 19th century was responsible for both the 
+> German and Russian totalitarianism of the 20th century.
+> Kant, Marx, and to a lesser degree Hegel and Nietsche.
+> Krzys'
+
+I'm not a philosopher, though I often play one on this list.
+
+
+While Krzys' said "lesser degree" with respect to Nietzsche, let me
+say a few words in defense of him.
+
+Nietzsche was dead for 25 or 30 years before the rise of Hitler. The
+idea that Nietzsche was central to Nazi philosophy seems to come from
+several directions:
+
+* his use of the term "superman" (ubermensch) was adopted by Nazis.
+Nietzsche's meaning was much closer to the Extropian sense. (However,
+the term has been so tainted by the Nazi association and by the comic
+book, that it can no longer be used.)
+
+* he was a friend of Wagner's until around 1880 or so, when he
+repudiated the views of Wagner.
+
+* his sister was extremely anti-Jewish and wrote several pieces after
+her brother's death linkin his philosophy to anti-Semitism.
+
+* in the first world war, the German high command distributed some of
+Nietzsche's writings to soldiers, as a kind of morale booster.
+
+Anyway, Nietzsche was a profoundly original and gifted philosopher
+with a very "Extropian" slant. He was no totalitarian--I would be
+shocked to hear that Nietzsche was ever widely read in Russia, except
+surreptitiously. 
+
+I urge you all to read some of his stuff.
+
+-Tim
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+
+
+------------------------------
+
+Date: Wed, 31 Mar 93 16:56:50 EST
+From: drw@BOURBAKI.MIT.EDU
+Subject: Nietzsche and the Nazis
+
+   From: tcmay@netcom.com (Timothy C. May)
+
+   While Krzys' said "lesser degree" with respect to Nietzsche, let me
+   say a few words in defense of him.
+
+   * his sister was extremely anti-Jewish and wrote several pieces after
+   her brother's death linkin his philosophy to anti-Semitism.
+
+My father (who was a philosopher) claimed that one has to read
+Nietzsche very carefully; that some sections of his works are actually
+subtle satires on views that he didn't like.  So you have to read a
+lot of his works to be able to sort the satires from the serious
+pieces.  Apparently he wrote some satires on anti-Semitism, and some
+people have taken these as direct expressions of his views.
+
+Dale
+
+Dale Worley		Dept. of Math., MIT		drw@math.mit.edu
+--
+Useful facts:
+	1 mi/hr = .45 m/sec
+	1 furlong/fortnight = .16 mm/sec
+	1 barn megaparsec = 3 cm^3
+	1 microcentury = 52 minutes
+		= the ideal length of a lecture, according to von Neumann
+	1 nanocentury = pi seconds
+
+------------------------------
+
+Date: Wed, 31 Mar 93 16:52:47 EST
+From: drw@BOURBAKI.MIT.EDU
+Subject: Speech for the defense
+
+This is a speach for the defence in the class-action lawsuit now
+pending against me on Extropians.
+----------------------------------------------------------------------
+Several years ago, I was at a dinner party given by a professor of
+mine.  During the after-dinner conversation, his young son decided
+that he was *not* going to go to bed, and threw himself face-down on
+the floor in the midst of the guests.  The professor's wife then
+inquired from the professor what reward might be given to the son to
+induce him to go to bed.  I immediately visualized taking off my belt
+and giving the child a vigorous swat across the buttocks, but decided
+that it might be impolitic to suggest this as a motivational device to
+the parents.
+
+But it was one of those events which crystalized something that had
+been sitting in the back of my mind for a long time...
+
+Most of you are probably too young to remember this, but my upbringing
+and my parent's upbringing spanned the period when the "traditional"
+discipline-oriented system of child-raising was replaced by the "Dr.
+Spock" system of child-raising (somewhere around 1960).  (Actually, I
+don't know whether I'm reporting on what Dr. Spock really recommended,
+or what it was corrupted into by the public.)  The central tenent of
+the Dr. Spock method was that the parents should never make the child
+do something that he didn't want to do; that all "discipline" should
+be based on reasoning with the child why he *really wanted* to do
+whatever-it-was, and on bribes to secure cooperation.  The Spock
+system seems to remain the norm in American culture up to the present
+day, except in some backwaters like Asian immigrants.
+
+Of course, the result was the Spock-children were unruly, selfish,
+undisciplined, and generally intolerable to be around.  Not
+surprisingly, in the 60's, when they became teenagers, they formed the
+incredibly self-centered hippie movement; during the 70's they formed
+the "Me Decade"; and in the 80's became yuppies who had a hard time
+distinguishing conspicuous consumption from productive work, and
+distinguishing necessary but painful financial restructuring from
+simple financial banditry.  For the 90's, let me but quote: "Fewer
+than half of all adult Americans today regard the idea of sacrifice
+for others as a positive moral virtue."
+
+Spock-children do have the advantage that they are more creative and
+independent than preceeding generations, but they tend to not have the
+self-discipline to turn their creativity into actual production, since
+they have no practice controlling their short-term desires.
+
+As someone here has noticed, the old discipline-based system was
+simply beating children until they were "good".  Which is quite true,
+but it *did* produce children that one could stand being around, and
+who could work together to perform truly impressive feats.
+
+In short, I claim not only that my original statement is correct, but
+that it is logically necessary -- "I don't waaana!" is the primal
+scream of personal liberation, when the individual first claims his
+right to refuse to sacrifice his interests and comfort for the "common
+good".
+
+Dale
+
+Dale Worley		Dept. of Math., MIT		drw@math.mit.edu
+--
+Disclaimer: The opinions stated above are the product of poorly refined drugs.
+
+------------------------------
+
+Date: Wed, 31 Mar 93 16:38:51 EST
+From: drw@BOURBAKI.MIT.EDU
+Subject: ROOTS: Ethnicity -- NOT!
+
+   X-Name: Garrett Goebel
+
+   [I]t is reasonable to conclude from his name and jewish ancestory,
+   that he is 1/2 European.
+
+The question that arises in my mind (not that it's important) is,
+"What is the meaning of this distinction?"  In what way can one really
+tell the difference between a "Jew" and a "European"?  The Middle East
+has always been the crossroads of invaders, and most if not all of the
+peoples who populated Europe went through the Middle East as well.
+
+The same question can be applied to other ethnic distinctions.
+100,000 years ago, we were all a small band of scavengers in Africa.
+
+I would like to nominate "ethnicity" as a supremely anti-Extropian
+concept, perhaps second only to totalitarianism.  As a matter of
+*fact*, ethnicity is almost always undefinable.  As a basis of
+behavior, ethnicity leads to constraints on the individual that are
+often more onerous and stupid than even governments.  As a historical
+matter, the most brutal actions often have more basis in ethnic hatred
+than nationalism -- the English vs. the Germans in WW II acted in a
+reasonably civilized manner (as wars go); the Germans vs. the German
+Jews were barbaric.  The dissolution of the Yugoslav state has
+released the Serbs and Croats to genocide each other in a perfectly
+anarchist manner.
+
+One of the successes of US culture is to construct an ideology for
+destroying ethnicity ("the melting pot"), which actually works fairly
+well.  Let us build on this and export it across the world!
+
+Flame off,
+
+Dale
+
+Dale Worley		Dept. of Math., MIT		drw@math.mit.edu
+--
+Wasabi is a delicate, subtle form of horseradish.  Next time you're in
+a sushi bar, eat a lump of it.
+-- Guy Kawasaki in "Selling the Dream"
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0163
+****************************************
+

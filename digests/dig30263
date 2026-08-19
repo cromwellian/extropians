@@ -1,0 +1,1025 @@
+From extropians-request@gnu.ai.mit.edu Sun May 16 01:16:52 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA14882; Sun, 16 May 93 01:16:50 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA28038; Sun, 16 May 93 01:16:46 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA17618@wookumz.gnu.ai.mit.edu>; Sun, 16 May 93 04:10:36 -0400
+Message-Id: <9305160810.AA17618@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Sun, 16 May 93 04:10:17 -0400
+X-Original-Message-Id: <9305160810.AA17611@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0263
+X-Extropian-Date: Remailed on May 16, 373 P.N.O. [08:10:35 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Sun, 16 May 93            Volume 93 : Issue 0263
+                        
+Today's Topics:
+                              Books on my desk                        [1 msgs]
+                 Drake Equation and Modelling of the Unknown          [2 msgs]
+                            ECON: Monopoly money                      [1 msgs]
+                     Flying Swami Sucked Into Jet Engine              [1 msgs]
+                I-N: Group Dynamics and a Question for Harry          [1 msgs]
+                      META: New Message System Question               [1 msgs]
+                        Meta: Solomonic Wisdom Needed                 [3 msgs]
+                  TECH/PHIL: (non)interactive entertainment           [1 msgs]
+                TECH: Channel Capacity and Nanotech op speeds         [2 msgs]
+                         TECH: Numerical Speculation                  [1 msgs]
+                 TECH: Report - Entropic Cost of Computation          [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50745 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sat, 15 May 93 09:57:19 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: TECH: Report - Entropic Cost of Computation
+
+A little while ago this exchange of information took place:
+Richard Kennaway:
+>  I understood that in theory reversible computers need consume no
+>  energy at all, or at least arbitrarily little.
+Mike Price:
+> They consume no energy in performing computations.  Energy is 
+> expended in the creation of blank memory for scribbling the results
+> of computations on.
+Richard Kennaway:
+> Then the limit you are deriving is proportional to the space, not 
+> the time of the computation.  A potentially exponential improvement.
+Ray Cromwell:
+> But there is a trade-off in achieving ``no energy'' usage, which is
+> running your computations slowly. I don't care about zero energy
+> usage if it takes millions of years to do some computation. So the
+> task is to find an acceptable trade off. Speed for energy.
+
+I believe I have the answer as to how to run reversible no-energy
+nanocomputations quickly.  Having rechecked the Schneider reference [1]
+on Molecular Machines, after much head scratching, it seems there is a
+trade off with temperature as well.  My conclusion is based on channel
+/machine capacity grounds.  Channel or machine capacity contains a
+factor of:
+
+   log2 ( 1 + S/N )  where S = signal/power/driving motive force
+                           N = temperature noise
+
+As temperature drops towards zero the information processing (bits/sec)
+permitted per operation becomes:
+
+    d W log2(1/T)    where d = molecular degrees of freedom of
+                               nanomachine
+                           W = bandwidth
+                           T = operating absolute temperature
+
+To gain more processing capacity lower the temperature.  Suggests that
+the energy requirements of a reversible computer scale as:
+
+    speed * log (1/T)
+
+Still digesting the article and must run....
+
+Mike Price                         price@price.demon.co.uk
+
+[1] Theory of Molecular Machines, I & II, Thomas D Schneider.
+    Journal of Theoretical Biology (1991) 148, pages 83-137.
+    Composed of two sections:
+       I:  Channel Capacity of Molecular Machines
+      II:  Energy Dissipation of Molecular Machines
+My thanks to Derek Zahn, Tim May and Hal Finney for their help.
+
+------------------------------
+
+Date: Sat, 15 May 1993 02:49:38 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: Books on my desk
+
+Not to be outdone, here are the books on (or more likely scattered
+around :-) my desk (* == most highly recommended)
+
+* Computer-Aided Financial Analysis		Ross M. Miller
+Fixed-Income Synthetic Assets			Perry H. Beaumont
+The C Programming Language, 2nd Edition 	Kernighan & Ritchie
+C++ Primer, 2nd Edition				Stanley B. Lippman
+The Design of the Unix Operating System 	Maurice J. Bach
+Stock Market Arithmetic 			Charles J. Caes
+* The Selfish Gene				Richard Dawkins
+* The Evolution of Human Sexuality		Donald Symons
+Inside the Robotic Kingdom (Japan...)		Frederik L. Schodt
+Mark Skousen's Complete Guide to Financial Privacy	Mark Skousen
+* Tax Havens					Hoyt L. Barber
+The Whole Internet				Ed Krol
+* The Heavens and the Earth: A Political
+	History of the Space Age		Walter A. McDougall
+Perl Quick Reference Guide			Johan Vromans
+Artificial Life (Conference Proceedings)	Christopher Langton, ed.
+Mark's Handbook for Mechanical Engineers	Avallone & Baumeister
+Nanosystems:...					K. Eric Drexler
+Wired, Cypherpunk issue (OK, that's a magazine :-)
+Executing Temporal Logic Programs		Ben Moszkowski
+The Machinery of Freedom			David Friedman
+Cryptography & Data Security			Dorothy Dennning
+The Counter-Revolution of Science		F.A. Hayek
+(Six Microsoft C/C++ manuals)			--
+Temporal Logic for Real-Time Systems		Jonathan S. Ostroff
+Synchronization for Parallel Programs		Andre, Herman, & Verjus
+Advanced Unix Programming			Marc J. Rochkind
+Unix Network Programming			W. Richard Stevens
+World Almanac & Book of Facts 1990		--
+The Fall of Hyperion				Dan Simmons
+Everyday Japanese (...Language & Culture)	Schwarz & Ezawa
+Interstellar Migration & the Human Experience	Finney & Jones, ed.
+Space Resources: Breaking the Bonds of Earth	Lewis & Lewis
+The Planetary System				Morrison & Owen
+Location in Space: ...Economic Geography, 2nd ed. 	Lloyd & Dicken
+Comets						Laurel L. Wilkening, ed.
+Engines of Creation				K. Eric Drexler
+The High Frontier				Gerard K. O'Neill
+LISPcraft					Robert Wilensky
+* Smart Drugs & Nutrients			Dean & Morgenthaler
+* The Biochemical Basis of Neuropharmacology	Cooper, Bloom, & Roth
+The Elements of Artificial Intelligence		Steven L. Tanimoto
+The Design & Implementation of the 4.3BSD
+	Unix Operating System			Leffler et. al.
+>From Eros to Gaia				Freeman Dyson
+Proceedings of the 4th Intl. Conf. on 
+	Genetic Algorithms			Blew & Booker, eds.
+Presence, v. 1/1				MIT Press
+Guderian: Creator of the Blitzkrieg		Kenneth Macksey
+
+
+No, I'm not reading all those at once.   Then too, there's some stuff
+I've consulted earlier today that's not on this list (eg * Koza, 
+_Genetic Programming_, and * _Perl..._, Wall & Schwarz, sitting in my 
+Honda.)  More like, that's the accumulation of books I've needed for
+some reason or other while on my home computer over the last two or three
+months, and I very much need to clean my room. :-)
+
+Nick Szabo					szabo@techbook.com
+
+------------------------------
+
+Date: Sat, 15 May 93 10:30:51 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: TECH: Channel Capacity and Nanotech op speeds
+
+Me:
+> I have seen documentary evidence for [the 1-2 bits -> LTM] claim 
+> If necessary I can find the references (I remember where to look!).
+
+Tim May: 
+> I look forward to seeing more information on this point. Is it a few
+> bits per second *on average* or a few bits per second *peak rate*? 
+
+I believe it was few bits per second on *average*.  I'm bit rushed at
+the moment but it was reported in Cryonics, Alcor's monthly newletter
+a few years back.  One of the considerable fringe benefits of signing 
+up with of Alcor.  I'll hunt it up a bit later this weekend, if no one 
+else has by then.  It's probably drawing on the reference that Derek 
+Zahn cited.
+
+Also the experiment that noted colour compression => addition in memory
+I read in 'Parallel Distributed Processing' volumes I & II by Rummelhart
+and McClelland (1986).
+
+> (Caveat: I have also heard that "photographic memories" are a myth.
+> Certainly they're rare, but a myth?)
+
+Max wrote something about this a while back.  He said there was evidence
+that such memories are serial, not parallel.  I have also found it
+difficult to get hard data on such people.  They may be mythical. 
+Perhaps they are loading stuff into short-term memory and in a quieter
+moment recalling it to pass into LTM?
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Sat, 15 May 93 19:48:37 JST
+From: dgordon@crow.omni.co.jp (David Gordon)
+Subject: ECON: Monopoly money
+
+The following article is from the Daedalus column of the May 6, '93
+issue of Nature.  Even though Daedalus is written tongue-in-cheek I
+occasionally wonder why his ideas won't work.  The proposal here sounds 
+like a good way to reduce the influence of governments (perhaps because
+I know very little about economics), but it seems unlikely that any
+government would voluntarily go along with it.  Oh well, for your
+entertainment then:
+
+(borrowing Harry's disclaimer here)
+
+The following text is presented for personal educational use only. It
+is not to be copied or otherwise used in a manner which violates
+rights of its copyright holders. This letter serves only as private
+communication to readers of the Extropian Mailing List.
+_______________________________________________________________________
+
+
+  			Monopoly money
+
+  Even the most advanced modern economies cycle regularly between boom
+  and slump.  This reminds Daedalus of an ecology with relatively few
+  interacting species.  The populations of predators and prey both rise
+  and fall violently.  By contrast, a complex ecology with many
+  different species shows a deep stability.  Individual populations may
+  still fluctuate, but the overall balance of the community remains
+  steadly.
+
+  What lack of diversity destabilizes an economy? Daedalus reckons it
+  is the single currency.  The EC's goal of a single currency is thus
+  exactly wrong, as you might expect.  Instead, it should achieve
+  financial unification by making all its currencies legal tender in
+  every member state.
+
+  The experiment would be highly instructive.  The present national
+  currencies are mutually well insulated.  Their rates of exchange are
+  quite artificial, being set by government interest-rate policies, and
+  are easily exploited by parasitic speculators.  But once pounds and
+  deutschmarks and francs and lira were all competing against each
+  other in every high street, their exchange rates would always reflect
+  what each currency could actually buy.  Even the biggest speculators
+  could not distort them, or make much profit by doing so.
+
+  Ecological theory holds that no two species can occupy exactly the
+  same niche.  So Daedalus expects that the various currencies would
+  diversify into different `economic niches'.  In doing so, they would
+  highlight the various roles that money plays in a society; a medium of
+  exchange of speculation, a store of value, and so on.  One likely
+  niche corresponds to the scavenger species in an ecosystem.  This
+  currency would dominate declining industries and regions (the British
+  pound seems a natural candidate).  By depreciating against the other
+  currencies as needed, the scavenger currency would insulate them from
+  this local depression.  A society with n independent currencies
+  should be sqrt(n) times as stable as one with a single currency.
+
+  Even better, governments could no longer cheat their citizens by
+  inflation.  At present, any government can simply print currency and
+  spend it, enriching itself while impoverishing its citizens.  But in
+  a multicurrency society, the citizens could hedge away from such
+  trickery.  A currency that started inflating strongly would rapidly
+  be abandoned for all purposes, except that of paying tax to the
+  government printing it.
+				David Jones
+
+_______________________________________________________________________________
+Dave Gordon					     dgordon@crow.omni.co.jp
+Algorithmic Arts, Inc.				     dgordon@netcom.com
+Tokyo, Japan
+
+------------------------------
+
+Date: Sat, 15 May 1993 07:32:01 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: I-N: Group Dynamics and a Question for Harry
+
+a conscious being, Ed Lane wrote:
+> While the Extropian mailing list (the names) might be considered
+> proprietary, I was wondering how many people (the cardinality) were on
+> it.  While I have a feel for the number of "active" participants, I
+> wonder how many "lurkers" are out there.
+
+All things considered about 300 people.
+
+Ed quoted Tim May's comments about contention on the list. I would
+like to split the difference between discussions that erupt into
+communications full of harsh tone/voice and the legal methods we
+are using to try to prevent such tone/voice. (We do try to prevent
+the use of harsh communications).
+
+Clearly some find both types of contention ill suited for this list.
+Some, like Tim, find satire of other list members or even the list
+itself to be useful communication although it can very quickly lead to
+increased contention.
+
+I don't believe in utopian societies. Their will most likely always be
+contention. I can't write some list code that will "wipe" out
+contention, without raising the legal contention of the list, and
+perhaps lowering the level of discussion. I think this is a point Tim
+often tries to make.
+
+> It might be useful to agree on the type of forum we're engaged in
+> here.  The tone and expectations for a particular "thread", once
+> established, might elevate some of the contention.  Comments made
+> at 5 o'clock Friday don't always fly on Monday at 8.  Smiley faces may
+> help but obviously don't eliminate conflicts.  Perhaps a "setting" or
+> "tone" is appropriate with each thread.  I have mused from time-to-time
+> with developing a human communication software package to facilitate
+> these additional human ques.
+
+I think it is all of those below. I see the list as a set of virtual
+communities have various levels of conversation. I DON'T want to see
+all the conversations to be at the same level and conducted in the
+same tone. Likewise, I don't read every message on the list. I don't
+expect anyone to do so except those who are retired, or have wired
+co-processors to their brains.
+
+An other note is S/N (which I think always rather high here compared
+to other lists/groups) also varies seasonally.
+
+> Some possible situational models include (feel free to add your own):
+> 
+> Colloquium/Seminar
+> Design Review Meeting
+> Courtroom/Inquisition
+> Cocktail Party
+> Classroom (intimate-small)
+> Classroom (formal-large)
+> etc.
+
+/harry
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Fri, 14 May 93 06:41:23 PDT
+From: Bruce.Baugh@p23.f40.n105.z1.fidonet.org (Bruce Baugh)
+Subject: Drake Equation and Modelling of the Unknown
+
+ U > From: hal@alumni.cco.caltech.edu (Hal Finney)
+ U > Date: Thu, 13 May 93 23:01:17 PDT
+ U > 
+ U > What these three situations have in common is that we have just the
+ U > one
+ U > example of ourselves - just one earthlike planet, and look, it
+ U > developed
+ U > life and that life developed a civilization.  What information does
+ U > this
+ U > give you?  How do you extract probabilities from this?  I don't think
+ U > it can be done.
+
+Well, we do have a whole solar system to look at. Venus and
+Mars suggest ways planets can fail to be Earthlike. Europa and
+Titan suggest possible homes for life other than "Earthlike"
+worlds.
+
+This is not to disagree with the concept, however. Any given
+answer to the Drake equation seems to me much more a statment
+about the answerer's psychology than about the universe.
+
+
+--  
+uucp: uunet!m2xenix!puddle!40.23!Bruce.Baugh
+Internet: Bruce.Baugh@p23.f40.n105.z1.fidonet.org
+
+------------------------------
+
+Date: Sat, 15 May 1993 09:48:02 -0400 (EDT)
+From: Edward J OConnell <ejo@world.std.com>
+Subject: TECH/PHIL: (non)interactive entertainment
+
+VR replacing reality?
+
+Hm.
+
+One could envision fairly easily entities living withing a VR who have
+forgotten or chose to forget that that is where they are. Sort of like the
+genration ship passengers who've forgotten they're on a ship. 
+
+The VR, maintained by robust automated systems, could come under some kind
+of danger that would make re-entering the 'real' world necessary. I had
+some stories playing with this I abandoned because I decided the idea was
+a little cliche.
+
+As was my story that our universe was a VR, on the verge of being wiped,
+because we'd figured it out. This is the reason for quantum
+strangeness...they're not modeling down that far, at that level, you're
+looking at the wiring of the VR computer.
+
+The real universe makes more sense than ours. ;-) The reason that the
+'real' people dont enter VR is that they have souls that cant be
+digitized; while we are simply pure information. This amused me for some
+reason.
+
+I like Moravecs idea in Mind Children, that we could create A-Life, watch
+it evolve to the point where it escaped it's reality, into our broader
+reality, and then, see if they could help us escape OUR universe! This is
+a fantastic idea that I haven't seen in SF quite yet. Has anyone else?
+
+Jay
+
+
+
+------------------------------
+
+Date: Sat, 15 May 93 15:13:26 -0400
+From: pavel@PARK.BU.EDU (Paul Cisek)
+Subject: TECH: Channel Capacity and Nanotech op speeds
+
+On the subject of eidetic memory:  The experiment was performed by Bela Julesz
+in 1970 (no reference yet, I have it as a personal communication to one of my
+teachers).  An eidetic woman was asked to look at a picture of 10,000 randomly
+distributed white and black dots on one day using one eye.  On the next day she
+viewed a second picture with her other eye.  The two pictures were the two
+parts of a random dot stereogram (for which Julesz is quite famous) - when
+viewed seperately by each eye they create an illusion of depth, the two
+pictures are identical except some portion of the pattern in one is moved
+slightly to the left or right.  This eidetic woman was able to fuse the two
+images after a day, and to see the image concealed there as floating in depth
+above the background.  The use of a random dot stereogram makes it very
+difficult to say that much compression was going on, although surely complete
+accuracy was not necessary.  Also, keep in mind that we look at things using a
+limited acute fovea, and scan around an image to get the whole thing.  This
+implies that the image could not be "photographed" all at once, but that some
+sort of serial reconstruction had to be done.  Pretty impressive, I'd say.
+
+Paul
+
+
+------------------------------
+
+Date: Sat, 15 May 93 13:29:01 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Meta: Solomonic Wisdom Needed
+
+(I changed the name of this thread to "A Contention about Contention"
+because I like the ring of that double meaning and then to "Solomonic
+Wisdom Needed" when I realized what the focus had become. I never did
+figure out what the prefix "I-N:" meant. Sorry, Ed.)
+
+Harry Shapiro writes, commenting on Ed Lane's post:
+
+>Ed quoted Tim May's comments about contention on the list. I would
+>like to split the difference between discussions that erupt into
+>communications full of harsh tone/voice and the legal methods we
+>are using to try to prevent such tone/voice. (We do try to prevent
+>the use of harsh communications).
+>
+>Clearly some find both types of contention ill suited for this list.
+>Some, like Tim, find satire of other list members or even the list
+>itself to be useful communication although it can very quickly lead to
+>increased contention.
+
+Since my use of the term "contention" (strife, rivalry) was used, let me
+elaborate on my point.
+
+Anyone reading this list (or nearly anyone, if you wish) would notice that
+we are not a very collegial bunch, that the modus operandi for many of the
+threads here is for someone to make a conjecture, or assert something
+stronger, and then for one or more respondents to:
+
+- dismiss it as errant nonsense
+- critique one part of the post, losing the overall point
+- "one-up" the original poster by adding some trivial detail
+
+Often done, I am sad to say, in a mean-spirited way. Now lest I sound like
+some bleeding-heart, put-upon, wimp, let me add that sometimes this
+approach is needed. When real errant nonsense is offered as fact, it ought
+to be shot down, politely and thoughfully, if possible.
+
+(By the way, I'm not defending my poking of fun at Carol Moore. I've
+already said I probably went too far in use of satire and may have provoked
+her somewhat into the flames which she was later convicted of using. I have
+taken this lesson to heart, I hope.)
+
+Harry goes on to talk about the legal code of the list:
+
+>I don't believe in utopian societies. Their will most likely always be
+>contention. I can't write some list code that will "wipe" out
+>contention, without raising the legal contention of the list, and
+>perhaps lowering the level of discussion. I think this is a point Tim
+>often tries to make.
+
+Nor do I believe in utopian societies, either. My contention (another use
+of the term!) is that we are spending far too much time on legal codes, on
+complicated rules, and on other such legalisms, and not enough time trying
+to create the kind of group we would like to see ("sumbanall of us would
+like to see" for Bourlandites). Harry is right that I have tried to make
+this point a number of times.
+
+>same tone. Likewise, I don't read every message on the list. I don't
+>expect anyone to do so except those who are retired, or have wired
+>co-processors to their brains.
+
+It is true that I am retired....I hope Harry's not taking a cheap shot at
+me!  <"grin," as they say in netspeak> I don't read *every* message on the
+list, though I try to at least *look* at each one. Frankly, there seem to
+be only about 50 messages a day lately, and many of these are very short
+and can be quickly read. Those who don't want to read them all, don't have
+to.
+
+But when people take the time to fire a zinger off--a repudiation of some
+point, for example--they at least ought to have taken the time to read the
+thread leading up to the point they're disagreeing with! 
+
+Too often the Extropians List resembles a very large cocktail party with
+know-it-alls dropping in on conversations and making jibes and critiques
+and then wandering off to another conversation to do the same. Absent our
+ability to create private groups (as is possible at physical parties)
+within the context of the List, some forebearance is needed to stop or at
+least slow these derailing comments.
+
+(Why not just ignore these comments? Indeed, I try to. And I suspect others
+try to ignore *my* comments when I make know-it-all-type comments. But an
+interesting dynamic of lists like these is essentially the "cascade"
+phenomenon: most posts are descendants of posts which appeared immediately
+before them. Hence, threads are very easily diverted or derailed.)
+
+I'm not suggesting any legal code can change this. Attempts to create a
+"polite society" and similar societies were one approach--rude folks would
+have sanctions applied to them by the market. So far, though, these haven't
+gone anywhere. (I agree with the point someone made that all such systems
+need champions who will ram them through, who will personally set them up,
+nourish them, and maintain them.)
+
+What I'm suggesting is this:
+
+* That we consider why we're on this list. Is it to win arguments or
+show-off our knowledge? Is it to talk about Extropian ideas? What is it?
+
+* That we all consider holding back on minor "correction" posts, that we
+not focus threads on sophistry and triviality. I especially urge that
+one-line dismissals, like "Sounds like urban legend to me!," be avoided. If
+a post is worth critiquing, it deserves more rebuttal (and more politeness)
+than such a rude dismissal.
+
+* That more people take the time to write essays of the sort many have
+written. I much prefer long essays on some interesting topics than zillions
+of "net repartee" comments (and to be fair, this List is less plagued by
+chit-chat repartee than most other lists). Of course, that I prefer long
+essays is not the reason others should write them!
+
+
+An Alternative Legal Approach
+
+I also believe a changed focus in the way the List is "moderated" is called
+for, or should at least be experimented with, in the interests of trying
+various PPL systems. Over on the Cypherpunks list, a list much like this
+one in some ways (many of the same people) and different in some ways (no
+formal rules, no equivalent of the ExI, more of an anarchy), some
+interesting contrasts may be found:
+
+* There are no rules about flames, etc. And yet flames are pretty rare.
+
+* The list operator, Eric Hughes, has, on a few occasions stepped in when
+flaming or vociferous and pointless debate was occurring, and has declared
+a *moratorium* on debate on that topic for a while. No citing of list
+rules, no formal charges, nothing except the impartial (but not imperious)
+statement that the topic should be dropped and failure to do so would bring
+serious consequences. 
+
+This approach deserves more mention. Understand that I had nothing to do
+with the de facto legal code of the Cypherpunks list...it just emerged.
+It's much like a parent stopping squabbling amongst siblings by simply
+stopping it. Call it authoritarianism, if you like, but it works if used
+sparingly. Both "sides" in a contentious debate may want the debate to
+continue, or may want the last word in, but the actions of the
+administrator--and the threat of expulsion--are enough for both sides to
+agree to a ceasefire, a cessation of debate.
+
+* This does not mean the list administrator needs to read each and every
+posting, though he certainly ought to be reading enough every day to get
+the flavor of the debate! All it requires is that he know enough to step in
+and say "The debate on fubar is degenerating. Let's table it for a week."
+(And the Extropians list could experiment with other variations, such as a
+3-person panel of judges who would by a simple decision issue a tabling
+decision, and so on. Just so long as it remains simple, so as to keep the
+essence of the Solomonic approach I am urging.)
+
+* This approach has only been used a few times on the Cypherpunks list,
+most recently when Perry Metzger and I were debating the issue of "Should
+we become Suits?" (No, I won't tell you what that means...I don't want the
+debate to start up here!) Eric Hughes tabled the debate for 2 weeks...and
+this was about 3-4 weeks ago, so it seems to have worked nicely. I don't
+know what Perry's reaction was, but mine was relief, relief that some
+"higher authority" had simply stopped the whole process.
+
+I'm not sure what all this means from a PPL/anarchocapitalist point of
+view. I'm not generally arguing for authoritarianism, or for benevolent
+dictaorship, of course. The key factor seems to be that the list manager
+exercise restraint in killing topics and be seen as fair, as Solomonic, in
+his actions. The private nature of the List means that no basic "rights"
+are trampled upon. A tyrannical list manager would of course be a disaster.
+
+(I think our current emphasis on formal charges, on legalistic
+interpretation, etc., is just as tyrannical and disastrous in many ways. We
+may have put a legal code in place without the social and market structures
+that are needed to moderate and dampen the abuses of such formalistic
+codes. This point needs more thought, I admit.)
+
+Part of the way such a system seems to work is that it is itself
+reputation-based. A judge who takes pride in his "Solomonic" decisions (as
+I'm sure Harry would, but my point is a general one) will be unlikely to
+see his reputation suffer by handing out biased or flaky decisions. This is
+not always the case with some of the schemes invented on this list (such as
+stopping other posters by "shooting" them and hence knocking them off the
+list for some time...a scheme that fortunately died a while back), which by
+virtue of their very formality, invite "players" to game against the rules
+to their own advantage. (Like children twisting complicated rules to their
+advantage when what is needed is a fair parent who acts with wisdom.)
+
+Note that good anarchists need not retreat in horror at this
+authoritarianism: we are agreeing to be bound by the wise decisions of a
+wise judge (well, wise in the context of a few and infrequent judgements).
+To use a metaphor many of us have used in the past, think of this list as a
+*private party*: unruly or abusive guests can and should be told to either
+quiet down or leave. Unruly guests do not cite subclauses of the party
+"rules" as a legal reason for them to stay--or to use the legalisms to
+attack _other_ guests. The host uses his common sense judgement and makes a
+decision. "Democracy" is not an issue--the commons problem is solved by the
+private nature of the party (or the list).
+
+Note of course that such "parental" behavior is very much still a
+privately-produced law situation. (In fact, I usually cite families and
+their various justice systems as the prototypical example of PPL in
+action.)
+
+(If ExI wants this list to thrive, perhaps because it causes readership of
+"Extropy" to increase, or more donations to ExI to come in, then it will of
+course not have a judge that is unfair, abusive, or unwise. Sounds good to
+me.)
+
+I would like to formally suggest that Harry, or whomever,  be given the
+simple authority to simply step in occasionally and stop or table pointless
+debates. Just as an experiment. What do you think?
+
+(Of course, if he "abuses" his authority and stops *this* debate.........
+<grin, as they say>)
+
+-Tim May
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+
+
+
+------------------------------
+
+Date: Sat, 15 May 1993 17:39 EST
+From: LEVY%GARY@Venus.YCC.Yale.Edu
+Subject: Flying Swami Sucked Into Jet Engine
+
+That's what happens when you stick your head in a turbine.  I mean turban.
+Never mind.
+
+------------------------------
+
+Date: Sat, 15 May 1993 20:00:02 -0400 (EDT)
+From: Carol Moore <cmoore@cap.gwu.edu>
+Subject: META: New Message System Question
+
+I know some people are working on new software
+which will allow one to make one does not receive
+mail from specific individuals through the extropians
+list;  the question is--will it also allow us to
+prevent our mail from being forwarded to selected
+individuals?
+
+ (-:   cmoore@cap.gwu.edu   ;-)
+
+
+
+------------------------------
+
+Date: Sat, 15 May 1993 20:03:22 -0400 (EDT)
+From: Carol Moore <cmoore@cap.gwu.edu>
+Subject: Meta: Solomonic Wisdom Needed
+
+I agree with Mr. May that a better system is needed.
+His sounds fine.  It's the way Libernet has also evolved
+and that has worked pretty well.
+
+If the current system is retained it must be made much
+more predictable and rationale than it is.  (I'm surprised
+there has been no mention of Mr. McClandish's banning
+for a week.)
+
+To repeat the essence of a number of messages left after
+the decision on my case, a rational system would look
+something like this:
+
+1. Only real flaming/insulting behavior would be a crime.
+2. Only the person flamed could complain (unless it was
+a flame againt the whole list/philosophy)
+3. All complainants would have equal status, no matter
+their alleged reputations on the list.
+4. If a message was found to be a flame, there would be
+but one warning per message.
+5.  After three warnings an individual could be banned
+from the list for a week.
+6.  There would be leeway for summarily banning
+individuals who obviously are here only to flame individuals
+or the list.
+  (My own suggestion below.) 
+7.  A certain number of member complaints to a board member
+(say 10 or 15) could result in replacing the list administrator
+with a more skilled or fair one.
+
+
+ (-:   cmoore@cap.gwu.edu   ;-)
+
+
+
+------------------------------
+
+Date: Sat, 15 May 93 19:56:53 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Meta: Solomonic Wisdom Needed
+
+First, I am largely in agreement with Tim's analysis, though I don't
+think the problem is as large as he seems to.  My first thought
+was to try and go through the last month's posts and find the good,
+bad, and ugly, and then present my findings.  It was far too time-
+consuming, and I stopped before finishing a week, then I skimmed
+the rest.  Still, I discovered some things, which I will briefly
+note:
+
+* There are a pretty large number of "really good threads", such
+  as the ones about wormholes, the limits of computation, the
+  singularity, genetic algorithms, employment contracts, the
+  clipper chip, intel, techno-schemes (video, instant books), ...
+* There are a pretty large number of "evil threads".  Ones that
+  spring to mind are the constant s/n debates, the bad feelings
+  revolving around Tim's self-exile, and perhaps this very one ...
+* There are a few "tragic threads", such as the business about
+  pandit (sic) running amok
+* There are a number of "mediocre threads" such as where EXTROPY
+  appears on the newsstands, the compexity of sorting, etc.  I
+  try not to impose what's interesting to me on a decision of
+  "mediocrity" [both of those examples are of interest to me, but
+  employment contracts are not, e.g.] but rather on whether any
+  light is shed.
+* other things I will note in responses to specific points that
+  Tim makes in his long and interesting post.
+
+> Anyone reading this list (or nearly anyone, if you wish) would notice
+> that we are not a very collegial bunch
+
+Of all the points Tim makes, this one stings the most and rings
+true.  This list is not as focused on a particular topic or
+purpose as is, say, the Cypherpunks group or the cryonics mailing
+list -- instead, the whole point (as I understand it) is for
+"extropians" (definition elided) to get together in a non-hostile
+environment to discuss a wide range of topics of interest.  If
+there was ever a cause for collegiality, one would think that
+this was it.  I have to plead guilty to this myself; in the last
+week's discussion of requirements for brain simulation for
+uploading, I was less than "collegial" in several posts; the
+cause is general end-of-semester pressures and indications from
+my PhD committee that my thesis proposal is not narrow enough
+and may be rejected when I present it formally in a few months.
+That's not an excuse, and I for one apologize for any non-
+collegiality I may have expressed toward Peter McCluskey or
+Paul Cisek in our discourse.  In fact, I'd like sincerely to
+express "collegial" appreciation to all members of the list,
+who over the past year have broadened my viewpoints in a number
+of areas and contributed substantially to the texture of my
+internal discourse.  I'm composing this note on an old but
+serviceable portable PC on the freshly-mowed lawn of my back
+yard in the wonderful sunshine of a summer just beginning,
+drinking a cold beer and watching the cats play; I'm happy
+to be "here".
+
+> - "one-up" the original poster by adding some trivial detail
+
+This must be a matter of tone that I've missed.  Realizing that
+pointing at specific people or posts is difficult, still I wonder
+if general criticisms of this type (which are not uncommon) should
+include some examples to clarify.
+
+> we are spending far too much time on legal codes, on
+> complicated rules, and on other such legalisms
+
+I agree, with one exception:  a topic of interest to many on the
+list is private law -- and the list, I think, serves as one
+concrete example of a testing ground.  Debates on substantive
+points about community laws that use the list as a testbed or
+source of examples seem fine to me (even though they interest
+me only marginally unless something exceptional comes along).
+
+> and not enough time trying to create the kind of group we would
+> like to see
+
+We need more expression of what that is, exactly.  I have my own
+ideas; I'd like to see the group:
+
+* be friendly... or civil, anyway.
+* (mostly) continue the current bias of discussion topics, now
+  that the baiters seem to be pretty much gone
+* be "collegial", which overlaps with, but is not synonymous with,
+  being friendly.  It probably helps to have a "cause" or an
+  "enemy" that is well-defined.  Two examples come from the
+  recent cryptography focus.  The first is the "us against them"
+  spirit of the clipper debate [in which I temporarily took
+  an undesired role as a 'them' for a while]; the second involves
+  Stanton, who a few people (myself included) formed an initial
+  negative impression toward, but then a noticeable shift
+  occurred when he was "threatened" by Bidzos.  I think that
+  ExI would like to see that kind of attitude on the list, with
+  ExI as the "us" and the rest of the world as "them", but it's
+  hard when the ExI board isn't much of a force on the list
+  (Tom Morrow excepted, -- and there are occasional posts from
+  David Friedman and Simon! Levy).  Note also the "us against them"
+  spirit that dear old pandit singh inspired.
+
+An unfortunate thing is that we can't really adopt a "party"
+atmosphere on this linearized ASCII link.  Transcrips of
+party conversation wouldn't fly here!  --->
+
+> Too often the Extropians List resembles a very large cocktail party with
+> know-it-alls dropping in on conversations and making jibes and critiques
+> and then wandering off to another conversation to do the same.
+
+This may be a good point; again, despite the difficulties, examples
+would be welcome... I feel like I sometimes do something similar to
+jumping in as a "know-it-all" (e.g. Don't Mistake Perceptrons for
+Neurons!); it's hard to know when one is being obnoxious, when one
+is strong-willed (as many of us here are -- and good for us!).
+
+> What I'm suggesting is this:
+
+> * That we consider why we're on this list. Is it to win arguments or
+> show-off our knowledge? Is it to talk about Extropian ideas? What is it?
+
+Agreed.  I explained above, I think (what about you, Tim?) -- and note
+that the "top 10" posters (of which I am one, and so are you, Tim) have
+a particular interest in all of this, since we account for more than 1/3
+of total volume.
+
+> * That more people take the time to write essays of the sort many have
+> written. I much prefer long essays on some interesting topics than zillions
+> of "net repartee" comments (and to be fair, this List is less plagued by
+> chit-chat repartee than most other lists). Of course, that I prefer long
+> essays is not the reason others should write them!
+
+Agreed, short essays are the best way of communicating information --
+though I don't think that shorter less substantial posts are necessarily
+bad; witness the recent silliness and punditry that Tim and I both
+participated in.  Let's not get too serious about long-windedness.
+
+Note that there have been some really first-rate essays hereabouts
+recently.  Tim May, Eric Raymond, Robin Hanson, Mike Price, and Nick
+Szabo spring to mind immediately for kudos (and there may be more
+that elude me at the moment!).
+
+Re: list rules; I have repeatedly expressed to Harry the idea that
+the list would work better without the elaborate rules and procedural
+issues but rather with him just dishing out reasonable responses
+to list events... I wouldn't want to _live_ in such a society since
+physical residencies are much more difficult to shuffle than
+electronic ones, but it seems appropriate here.  Note that according
+to my newly-recieved Exponent(TM), he's been annointed as Electronic
+Communications Officer, which sounds impressive enough....
+
+As usual, Tim, nice work presenting the issues.
+
+derek
+getting cold out here now; not quite summer yet...
+
+------------------------------
+
+Date: Sat, 15 May 93 19:58:40 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: TECH: Numerical Speculation
+
+Responding to Robin:
+> 
+> In this and another post you seem to imply that there is some
+> information threshold below which you can't make any numerical or
+> probability estimates, even though you are not totally ignorant.  I
+> disagree.  You can always assign probabilities; they just aren't very
+> good if you don't know much.
+
+I have some confusion about probability theory.  When you are dealing
+with statistics about multiple or repeated events, it's pretty clear what
+probability means: it can be interpreted as the fraction of the events
+which meet some criterion.  About half of all coin flips over a long
+period of time will be heads, hence we say that the probability of a
+particular coin flip being heads is 50%.
+
+Where I get confused is when dealing with one-time events, or estimates
+of the truth of various propositions about the universe.  What is the
+probability that Clinton will be re-elected in 1996?  What is the
+probability that FTL travel is possible?  Do these questions make sense?
+
+I think they do, but then I have trouble with a follow-on concept: the
+idea of a "fuzzy" probability, one which is poorly defined.  Does it make
+sense to say that the probability of Clinton's re-election is somewhere
+between 10% and 80%?  I can't quite get my mind around this one.  It
+seems to me that a scalar probability number is all that is appropriate,
+that we are supposed to boil down all the uncertain factors that make us
+judge Clinton's election to be more or less likely, and come up with a
+single number.
+
+Here is another example, applying it to betting markets.  The IPSM ran
+betting markets on candidates' prospects of being elected for the 1992
+elections.  Using the prices of the securities representing Clinton and
+Bush you could deduce a market estimate of the probablities.  But was
+there also a range of probabilities that could be (in principle)
+discovered?  Would their be a difference between a market which was
+absolutely positive that Clinton had a 50% chance of winning, versus one
+which was uncertain and considered Clinton's chances to be in the 10-80%
+range I mentioned above?  Does it even make sense to speak of being
+certain about a probability of a one-time event?
+
+I ask these questions to help clarify my own thoughts, spawned by
+discussion of the Drake equation and Derek's comments about the
+information contents of the brain.  Both of these kinds of analysis
+involve some uses of probabilities that I am not entirely comfortable
+with.
+
+Robin also replied to the "paradox" I described in which there were
+two different ways of counting outcomes about which no information was
+available regarding their probabilities, leading to inconsistent
+estimates of the odds:
+> 
+> Where is the paradox, with two conflicting but compelling answers?
+> Different "rational" people might have different beliefs, depending on
+> how well they knew you, and what they think they would do in your
+> place.  If someone subsidized it, there *would* be a market odds, and
+> I claim that odds would be as good, on average, as any competing
+> estimate made using similar information and resources.
+
+I meant to describe a situation where there was no information about what
+was likely to happen, hence I need to postulate that the people don't
+know me.  Perhaps we should consider the problem to be posed by an alien
+being about whose psychology we know nothing.
+
+The point is, all the information we have is that there are two coins in
+some state.  Now, with such a simple problem, the question is, how does
+a _rational_ person bet in a subsidized market?  I am not satisfied just
+to say that we could run the experiment and find out; it seems to me that
+we should be able to predict what would happen.  I'm not faulting the
+market; no doubt Robin is right that it would do at least as well as any
+other mode of analysis.  I'm claiming that the notion of probability is
+fundamentally incoherent in this situation, hence whatever the market
+reveals, it is not probabilities.
+
+Hal
+
+------------------------------
+
+Date: Sun, 16 May 1993 03:32:22 -0400 (EDT)
+From: Evan S Reese <esrst1+@pitt.edu>
+Subject: Drake Equation and Modelling of the Unknown 
+
+On Thu, 13 May 1993, Perry E. Metzger wrote:
+
+> 
+> Timothy C. May says:
+> > As for the Drake equation itself, Frank Drake is here at UC Santa Cruz, so
+> > I suppose I could go ask him about his current thinking. Personally, I
+> > suspect we're nearly the only civilization in the galaxy, for reasons
+> > discussed many times on this list (Fermi paradox: why aren't they here
+> > already?, anthropic cosmological principle, etc.).
+> 
+> Indeed, the real problem with the Drake equation is its assumption
+> that the variables are independant, when they could easily be argued
+> to be very dependant on each other.
+> 
+
+     I haven't read about the Drake equation recently, but I was always
+under the impression tthat each succeeding variable depended on all the
+previous ones.  Correct me if I'm wrong on this.
+
+     Evan Reese  esrst1+@pitt.edu
+
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0263
+****************************************
+

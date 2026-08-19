@@ -1,0 +1,516 @@
+From extropians-request@extropy.org Wed Jul 13 03:01:36 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id DAA21446 for <more@chaph.usc.edu>; Wed, 13 Jul 1994 03:01:34 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA28767; Wed, 13 Jul 94 03:01:31 PDT
+Received: by news.panix.com id AA19623
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 13 Jul 1994 06:01:29 -0400
+Date: Wed, 13 Jul 1994 06:01:29 -0400
+Message-Id: <199407131001.AA19623@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-7-102 - #94-7-110
+X-Extropian-Date: July 13, 374 P.N.O. [06:01:18 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Wed, 13 Jul 94             Volume 94 : Issue 193
+
+Today's Topics:
+                     AI Acceleration & Self-Determination             [1 msgs]
+                      AI Acceleration & Time Preference               [1 msgs]
+                         AI development acceleration                  [1 msgs]
+                              emergence defined                       [2 msgs]
+                            Extropy Journal Volume                    [1 msgs]
+                                  food stuff                          [1 msgs]
+                 Human intelligence augmentation accleration          [1 msgs]
+                               Time Preference                        [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 27657 bytes.
+
+----------------------------------------------------------------------
+
+From: derek@cs.wisc.edu (Derek Zahn)
+Date: Tue, 12 Jul 1994 09:27:53 -0500 (CDT)
+Subject: [#94-7-102] emergence defined
+
+Peter McCluskey says, of predicting the behavior of
+my digital billiard ball table:
+
+>  I am certain that I could find a method that requires less computation
+> than simulation (although it might be much harder to code).
+
+And then, later:
+
+> >    How are we to decide which modeling techniques
+> >    are simulations and which aren't?
+> 
+>  I don't have a precise answer. I would say that if we can find 2 different
+> algorithms which produce the same output, then we know the simpler one isn't
+> a simulation.
+
+Ah, I see.  The simulation of the billiard ball table is the program
+that least efficiently predicts its behavior.  Any other program is
+not a simulation.
+
+Note that the original proposed definition of an emergent phenomenon
+was "one for which the optimal means of prediction is simulation".
+Peter's criterion for a model not being a simulation makes it clear
+that either:
+ * if "optimal" means in terms of program run time, then we can strengthen
+   the definition to "one for which the ONLY means of prediction is
+   simulation"
+ * otherwise, "optimal" can only refer to the accuracy of the model, and
+   for clarity we should say "one for which the most accurate means
+   of prediction is simulation"
+
+On the meaning of "optimum":
+
+> The sum of the minimum description lengths of each computation done
+> by the simplest Turing machine. This is reportedly machine independent.
+
+Er, I don't follow this.  How do we find the "description length" of
+a computation?  I'll guess that something like the number of
+instructions executed is what is meant; but what is the "simplest
+turing machine?"  Do you mean one with a single internal state?
+That won't compute very much.  Maybe you mean the simplest universal
+turing machine (though I'm not sure why that's important) -- but
+if you are referring to running time on a specific machine, it
+seems strange to refer to that time as "machine independent"...
+
+>   It clarifies what discoveries would show that something is not emergent.
+> If we have tried every reasonable approach to understanding a phenomenon
+> and still can't improve on simulation, then it is reasonable to assume that
+> it is emergent.
+
+I think it would help me a great deal if you could give me an example
+of a case where there is an improvement on simulation (that is, a
+non-emergent phenomenon), so I can better get a sense for what is
+and is not a simulation.  I keep thinking of things like "a style
+of modeling in which time or space is divided into the smallest
+feasible pieces and then predictions are made by updating the
+internal states of the pieces based on their interaction with other
+individual pieces", but that doesn't seem to cover it.  I'm concerned
+that all modeling is fundamentally simulation and would prefer
+some kind of guidelines for distinguishing simulations since the
+definition radically affects the set of emergent phenomena.
+
+> So it's not everything we might want from a definition. Do
+> you have a better one?
+
+Well, I posted a tentative different one, anyway, dealing with
+clustering and classifications of observation (which we do
+by inventing or modifying vocabulary terms).  It has the advantage
+of being widely applicable but the disadvantage of being explicitly
+subjective... if I fix that I'll let you know!
+
+>  I suggest that it works well for any phenomenon that can be predicted
+> digitally.
+
+Hmm.  Let's take the example of predicting the behavior of computer
+programs.  There's no general theory of this, in fact there can't
+be one; all we can do is "run it" and see what it does.  However,
+in some cases we can predict "theoretically" what a particular program
+will do.  The behavior of a program that provably ray-traces the ExI
+logo is then not an emergent phenomenon, but the behavior of a similar
+program that resists "every reasonable approach" to theorizing _is_ an
+emergent phenomenon?  Doesn't that seem like the tail wagging the dog?
+
+derek
+
+------------------------------
+
+From: Max More <more@chaph.usc.edu>
+Date: Tue, 12 Jul 1994 08:31:03 -0700 (PDT)
+Subject: [#94-7-103] Extropy Journal Volume
+
+> 
+> 1. We all know that Extropy #3 is out of print.  Is there any chance I can
+> get a photocopy of one from another extropian?
+
+The point of it being out of print was that I did not _want_ it to be 
+generally available.  However, I've decided to make it available now,
+with the caveat that I think it's a poor issue, for the most part, and
+the love articles are not up to the usual standards.
+
+All back issues cost $5 each.  #8 just went out of print, and we cannot afford 
+to reprint it for some time.  All others are available.
+
+Max More	more@usc.edu	more@extropy.org
+President	Extropy Institute (ExI)
+		13428 Maxella Avenue, #273
+		Marina Del Rey, CA 90292
+
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Tue, 12 Jul 1994 09:28:02 -0700
+Subject: [#94-7-104] AI development acceleration
+
+Here's another AI acceleration scenario.  Imagine AIs steadily get
+smarter, without any special "breakthroughs" in their design.  Imagine
+they some day get smart enough to read general natural language text.
+Within a relatively short time, an AI could read everything we have
+online anywhere, and make a big leap in its level of knowledge.  This
+breakthrough happens naturally at the about human level of
+intelligence.
+
+Robin Hanson
+
+------------------------------
+
+From: iandoug@cybernet.za (Ian Douglas)
+Date: Tue, 12 Jul 1994 20:15:39 +0200 (GMT+0200)
+Subject: [#94-7-105] food stuff
+
+John M. Bozeman wrote:
+> 
+> >> > useful work in digesting stuff down into molecules we can absorb.  So it
+> >> > sounds like putrefaction and fermentation are to be encouraged.  Certainly
+> >> > my experiences with oral antibiotics that sterilize the digestive tract
+> >> > have not been happy ones.
+> >> 
+> >> Then eat yoghurt afterwards, it contains the 'good' bacteria and helps
+> >> restore the correct flora balance in the guts.
+> >> 
+> 
+> Please correct me if I am wrong, but I think that there are a lot
+> more types of bacteria in the gut than simply Lactobacter.
+> 
+
+Yes there are, but Yoghurt helps fix the balance right.
+Dunno if they eat each other or what :-), just know it works...
+
+Cheers, Ian
+
+
+-- 
+-----------------------------------------------------------------------------
+Ian Douglas                                    InterNet: iandoug@cybernet.za
+P.O. Box 484           Lead, Follow,           FidoNet: 5:7102/119
+7532 Sanlamhof         or get out of           TopNet: 225:2048/1
+South Africa             the way.
+-----------------------------------------------------------------------------
+
+------------------------------
+
+From: tburns@mason1.gmu.edu (T. David Burns)
+Date: Tue, 12 Jul 1994 14:29:37 +1000
+Subject: [#94-7-106] emergence defined
+
+At  9:27 AM 7/12/94 -0500, Derek Zahn wrote:
+> I'm concerned
+>that all modeling is fundamentally simulation
+
+Might the difference between uniquely deterministic models and stochastic
+models have something to do with it? Empirically, most of the things I
+think of as pure models have no need for a random number generator, most
+things I think of as simulations do.
+
+Dave
+
+
+
+------------------------------
+
+From: Reilly Jones <70544.1227@compuserve.com>
+Date: 12 Jul 94 17:11:41 EDT
+Subject: [#94-7-107] AI Acceleration & Self-Determination
+
+Gregory Sullivan started a thread about possible negative consequences of
+AI/Nanotech technological development outstripping human capabilities back on
+6/25/94.  I would like to express my concerns also.
+
+Carl Feynman wrote 7/6/94: <But I suspect that it is feasible to develop
+machines that think a million times faster than humans.  Such machines could
+change the world beyond recognition in a matter of hours.....  Speaking aa a
+human being, I find this scenario alarming.>
+
+Me too.
+
+Doug Cutrell wrote 7/10/94: <And if some early AI is better at developing new
+self-organizational principles than humans, then we might see the rapid
+exponential explosion that Carl Feynman has outlined....>
+
+I also see this race between AI and human understanding of the "physics" of
+technological development.  Humans, whether trans-, post- or plain old vanilla,
+had better reach the understanding first.  This is not a Red Queen
+coevolutionary race, it is a race ending in dominance.  I will not submit to
+slavery or destruction from our creations.  Our self-determination is not to be
+constrained by godlike AI entities.  We cannot be as the Titans to the
+Olympians.  As Goethe puts it in "The Song of the Fates":
+
+    "Let human-kind fear the gods!  In their hands they hold everlasting
+  overlordship, and they can use it as they please.
+    Let any whom they have exalted fear them doubly!  On clouds and
+  precipices thrones stand ready round golden tables.
+    If discord arises, the guests are hurled down in scorn and disgrace
+  into nethermost night, and there they wait vainly, in bonds and in
+  darkness, for justice and judgment.
+    But the gods remain everlastingly feasting at golden tables.  They
+  stride over mountains from summit to summit: out of deep-down chasms
+  the breath of suffocated Titans steams up to their nostrils like
+  incense, as delicate vapor.
+    These lords turn away their eyes and their blessing from whole races,
+  and shun in descendants the sight, the mute speech of an ancestor's
+  once-loved features.
+    Thus the Fates sang; the aged exile in his dark caverns listens to
+  their singing, thinks of his children and grandchildren, and shakes
+  his head."
+
+Doug again: <I see there being at least two major camps... those who see AI as
+requiring the gradual piecing together of a very complicated system, with many
+individually crafted components, and those who see AI as potentially arising
+emergently from a much more undifferentiated complex system.>
+
+Between the two camps of people, those who see modular development are the
+realists.
+
+------------------------------------------------------------------------
+Reilly Jones               |        Philosophy of Technology:
+70544.1227@compuserve.com  |  The rational, moral and political relations
+                           |  between 'How we create' and 'Why we create'
+
+
+------------------------------
+
+From: Reilly Jones <70544.1227@compuserve.com>
+Date: 12 Jul 94 17:14:41 EDT
+Subject: [#94-7-108] AI Acceleration & Time Preference
+
+Robin Hanson on 6/27/94 posted some very interesting information from Alan
+Rogers, "The Evolution of Time Preference by Natural Selection", American
+Economic Review, June 1994, V84 N3, pp.460-481.  The question of time preference
+or discount factor comes up in an interesting way in Stuart Kauffman's "Origins
+of Order" book (borrowing some from Walter Fontana):
+
+"Grammar models [symbol strings acting on other symbol strings] may prove useful
+in developing a new class of theories about technological coevolution.  The
+behavior of the economy depends on grammar complexity, the diversity of
+renewable resources, the discount factor B, and how far into the future the
+[individual] looks at each period.  Hence this is a model for economic takeoff.
+This behavior suggests that technological diversity is a major factor in
+abetting economic growth.
+
+The extent to which the [individual] looks into the future governs whether the
+economy grows at all, slowly, or rapidly.  ...The expectation that technological
+growth is strongly correlated with the capacity to see its implications is
+reasonable.  Finally, growth in diversity of goods does not occur as rapidly if
+B is close to 0.  If the consumer places little value on the future, diversity
+of goods and services remains small.
+
+If we take grammar models seriously as models of technological evolution, then
+the decidability problems in Filigreed Fogs and other objects imply that it may
+be logically impossible to deduce that a given good is ultimately producible
+from the current technologies.  This implies that markets must be incomplete.
+The same failure of decidability may imply that economic agents must logically
+be boundedly rational.  ...Markets may not clear."
+
+Robin Hanson wrote 6/28/94: <There is a lot of diversity in memetic
+reproduction; while a strong religion might be more like asexual reproduction -
+a creature devoted to reproducing one idea in its original form, other memetic
+reproduction, can be thought of as *very* sexual.  For example, an intellectual
+devoted to a whole constellation of diverse ideas, where no one "descendant" who
+carries on those ideas shares more a small fraction of the ideas of that
+intellectual.>
+
+I am glad this point came up.  Memetic evolution is a supervening selectional
+system with more complicated rules than simple natural selection fitness
+measures of "survive and reproduce."  If I may be a bit diffuse, and allow
+memetic evolution to include cultural evolution, economic evolution and
+technological evolution, then I want to make clear that time preferences arising
+from natural evolution will be heavily impacted by supervening time preferences
+from memetic evolution.  Predictability of future values becomes extremely
+complicated because of this.  Some of Robin's implications of time preferences
+based on natural selection can be modified due to memetically based discount
+factors.  From Robin's post of 6/27/94:
+
+<B) 15-25 year olds less likely to be receptive to extropian discussions of the
+future.>
+
+Not necessarily.  There is a definite excitement factor to boundless expansion,
+intelligent technology, etc.  I see powerful reasons for this group to get in on
+the ground floor here.
+
+<C) Uploads and AIs will likely reproduce asexually at first.  If evolution
+dictates their values, they will likely discount the future at their population
+growth rate, which is likely the economy's growth rate.>
+
+An upload *is* an asexual reproduction, it is no longer the original self.  As
+the time frames for inventing purposes in life stretch out, the impact of
+memetic evolutionary selectional systems will come to outweigh the two purposes
+natural selection has provided us.  This makes prognostications on upload values
+highly speculative.
+
+<D) Time preferences of non-evolving ordinary humans will likely not be very
+responsive to huge increases in the economic growth rate.  If wealth doubles
+every year, humans will invest and save like the dickens.>
+
+If Kauffman is right, this puts the cart before the horse.  Time preferences
+dictate the economic growth rate, not the other way around.  I do not understand
+what a "non-evolving" human is, I think this means more slowly evolving, or
+possibly non-culturally evolving.
+
+Steve Witham wrote 6/28/94: <How does awareness of how to deal with the facts of
+weapons and war advance?  Is it tied to the other variables by some Darwinian
+rule?  Maybe he who adapts fast enough wins, and if nobody adapts, you get a bad
+war, slowed economies and slowed tech advancement?>
+
+I think Steve asks good questions here.  I subscribe to Kauffman's point that
+the ability to see the consequences of technological development is a major
+factor in the speed of this development.  All of our discussions about it will
+ultimately help set the pace of development to fit our desires.
+
+Carl Feynman wrote 7/10/94: <How fast a small number of people can advance a
+technology depends on how well-developed the technology is.>
+
+Technological development, like brain development, is modular.  Modules
+surrounded in all directions by other modules.  How the modules are connected
+through regulatory mechanisms (whether you call it "metabolism" for the
+internals of biological entities or "market dynamics" for industrial complexes)
+is an emergent property of both natural and memetic evolution.  The "physics" of
+biology and culture needs to be developed further to make better predictions of
+the shape of possible emergent structures as each new module is added to either
+biological entities, artificial entities or technologically-based economic
+markets.  Whether the group of people making developments is small or large
+depends on budget constraints to a large degree.  Certainly every new idea about
+science, technology or culture arose in only one mind at a time.  The power of
+the individual is supreme, it is the source of everything.
+
+Doug Cutrell wrote 7/10/94: <Some people (e.g. Penrose) have contended that
+mathematical "intuition" may be a qualitatively harder task than, say,
+mechanical engineering...>
+
+Specialists tend to think their specialty is harder than other specialties.
+This is due to their extremely limited vision and experience.  Being a
+generalist, I think being a generalist is harder than any specialty.  This is
+due to my inability to envision or experience the difficulty of any specialty.
+
+------------------------------------------------------------------------
+Reilly Jones               |        Philosophy of Technology:
+70544.1227@compuserve.com  |  The rational, moral and political relations
+                           |  between 'How we create' and 'Why we create'
+
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Tue, 12 Jul 1994 17:44:25 -0700
+Subject: [#94-7-109] Time Preference
+
+Reilly Jones writes:
+>I am glad this point came up.  Memetic evolution is a supervening
+>selectional system with more complicated rules than simple natural selection
+>fitness measures of "survive and reproduce."  If I may be a bit diffuse, and
+>allow memetic evolution to include cultural evolution, economic evolution
+>and technological evolution, then I want to make clear that time preferences
+>arising from natural evolution will be heavily impacted by supervening time
+>preferences from memetic evolution.
+
+All evolution is "natural" -- the distinction is between genetic and memetic
+evolution.  Since they are in fact coupled evolutionary systems, they
+influence each other, not just memes influencing genes.
+
+>Predictability of future values becomes extremely complicated because of
+>this.  Some of Robin's implications of time preferences based on natural
+>selection can be modified due to memetically based discount factors.  ...
+>
+><C) Uploads and AIs will likely reproduce asexually at first.  If evolution
+>dictates their values, they will likely discount the future at their 
+>population growth rate, which is likely the economy's growth rate.>
+>
+>An upload *is* an asexual reproduction, it is no longer the original self.
+>As the time frames for inventing purposes in life stretch out, the impact of
+>memetic evolutionary selectional systems will come to outweigh the two
+>purposes natural selection has provided us.  This makes prognostications on
+>upload values highly speculative.
+
+I don't understand why you think memetic evolution would dominate upload
+evolution.  The phrase "time frames for inventing purposes" is opaque to me.
+I argue in my upcoming Extropy article that upload evolution would be strong
+and fast, not easily dominated by other coupled processes. 
+
+><D) Time preferences of non-evolving ordinary humans will likely not be very
+>responsive to huge increases in the economic growth rate.  If wealth doubles
+>every year, humans will invest and save like the dickens.>
+>
+>If Kauffman is right, this puts the cart before the horse.  Time preferences
+>dictate the economic growth rate, not the other way around.  
+
+Then Kauffman is not right.  Time preferences and growth are coupled
+together - each can influence the other.
+
+Robin Hanson
+
+------------------------------
+
+From: doug@OpenMind.com (Doug Cutrell)
+Date: Tue, 12 Jul 1994 21:58:07 -0800
+Subject: [#94-7-110] Human intelligence augmentation accleration
+
+We have recently been discussing the possibility of a "runaway AI
+scenario", whereby each successive generation of AI becomes progressively
+better at designing new AI. We then *might* have an exponential explosion
+of growth, leading to a so-called future "Singularity" (shades of Vernor
+Vinge).
+
+It seems to me equally likely that we might encounter a "runaway human
+intelligence augmentation" scenario, which is exactly analogous, but where
+each generation represents successive waves of mind-augmentation
+technology.
+
+Granted, there is no really good "mind-augmentation" technology to date.
+But once we get any at all, we will then have "better than human" level
+intelligence, and so the same runaway growth cycle might occur immediately.
+All the same arguments, pro and con, seem to apply in this case as well.
+There may be others as well. Opinions?
+
+(And yes, I know that computers, and even writing paper or the abacus, can
+be considered "mind-augmentation" in some sense, but I am referring to
+technology that might cause a significant increase on an IQ test score, for
+example.  Or perhaps just improve human memory significantly.)
+
+By the way, can anyone tell me about early printed appearances of the term
+"singularity" to describe a future sudden transformation of civilization?
+The reason I ask is because I wrote a paper for a Roger Sperry class in
+1984 using this terminology.  I thought I was coining this usage at the
+time, but I'm curious as to whether I might have been exposed to it somehow
+before then.  (Perhaps it is such an obvious notion that it has been
+independently suggested countless numbers of times...)
+
+Doug
+
+___________________________________________________________________
+Doug Cutrell                    General Partner
+doug@OpenMind.com               Open Mind
+===================================================================
+
+
+
+------------------------------
+
+End of Extropians Digest V94 #193
+*********************************
+

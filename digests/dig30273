@@ -1,0 +1,1175 @@
+From extropians-request@gnu.ai.mit.edu Thu May 20 19:28:07 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA00319; Thu, 20 May 93 19:28:05 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA11436; Thu, 20 May 93 19:28:02 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA13241@wookumz.gnu.ai.mit.edu>; Thu, 20 May 93 22:20:46 -0400
+Message-Id: <9305210220.AA13241@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Thu, 20 May 93 22:20:17 -0400
+X-Original-Message-Id: <9305210220.AA13230@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0273
+X-Extropian-Date: Remailed on May 21, 373 P.N.O. [02:20:45 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Fri, 21 May 93            Volume 93 : Issue 0273
+                        
+Today's Topics:
+                         CHALLENGE: Chaitin and RTFM                  [1 msgs]
+             Chaitin, Randomness, and Explanations on this List       [2 msgs]
+                                 Darwin fish                          [2 msgs]
+                            Forward: Clipper News                     [1 msgs]
+                                Guns in Cars                          [1 msgs]
+                                Hargis T-raid                         [1 msgs]
+                               Is Math Random?                        [2 msgs]
+                              META: Mediation!                        [1 msgs]
+                            Magazine subsciption                      [1 msgs]
+                        Meta: Solomonic Wisdom Needed                 [4 msgs]
+                   Rucker's MindTools & Chaitin's Theorem             [1 msgs]
+                              SCI: Anti-gravity                       [1 msgs]
+                    TNG Promos for: SECOND CHANCES (#250)             [1 msgs]
+                 TV:STTNG: re-start of consciousness debate           [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 51377 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 20 May 93 14:58:46 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Chaitin, Randomness, and Explanations on this List
+
+Robin Hanson:
+
+> >Omega is actually the halting probability if n-bit programs have
+> >measure 2^{-n} 
+> 
+> Er, this is not a normalized distribution.  Each length n has the same
+> total probability.  So I don't see how you could experimentally
+> measure Omega, cause you can't generate according to this distribution.
+
+Sorry, I didn't dive into more subtleties (the deeper I look, the
+odder and more headachey it all gets... I think I'm glad I don't
+do this for a living!).
+
+To get around this problem you mention (else as you imply Omega
+would be infinite), these NT dudes adopted a different coding
+scheme in which legal programs contain some indication within
+themselves of where the programs end.  So no legal program can be
+the prefix of another, and there are fewer than 2^n programs
+with n bits.
+
+derek
+my brain is starting to hurt
+
+------------------------------
+
+Date: Thu, 20 May 93 15:14:57 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Is Math Random?
+
+Robin Hanson:
+
+> But can't a similar argument conclude "X is random", for any X?
+> Anything that can be described can be described with a string, and any
+> string can be described by an incompressible string, which will have
+> random elements.  Therefore anything describable is random.  QED. 
+
+I'm not sure what you mean.  Sure, I can flip a coin a bunch of times
+and end up with a result that's random, or squeeze a poem about
+electronic cows until it screams and end up with a "random" string
+(providing that an adequate physical simulation of the generating
+process can't be economically encoded as a computer program).
+We knew that!
+
+Does it help that Omega is not only random but infinitely long and
+random for all that length?
+
+derek
+
+
+------------------------------
+
+Date: 19 May 93 15:06:11 U
+From: "Kent Hastings" <kent_hastings@qmail2.aero.org>
+Subject: Hargis T-raid
+
+                      Hargis T-raid#000#
+The offices of Anthony L. Hargis were visited 5-18-93 by Treasury
+agents. Since 1976, Hargis operated a "bank that isn't a bank," 
+using a Massachusetts Business Trust structure. The theory of 
+operation was that a Trust recording gold Deposits and Transfer
+Orders was legally different than a Bank with Accounts and Checks.
+
+This bluff worked well for 15 years. Anthony's recent involvement
+with the State Citizens (a new tax protestor approach) may have
+triggered the raid. Or perhaps ALH was allowed to exist all 
+these years to suck in more IRS victims.
+
+Account holders can assume the worst. Customers were not allowed 
+in the door, and the computer records were not encrypted, despite
+my, and others, frequent suggestions. "Citizens don't need
+encryption" was the response in a nutshell.
+
+Citizens Do.
+
+Now, secure physical data links (perhaps using spread-spectrum 
+modulation of radio and microwave) appear necessary for financial
+privacy. All the nice little tricks with mail drops and trusts 
+may work in the short term, but only strong encryption and signal
+hiding will insure long term survival.
+
+Kent - kent_hastings@qmail2.aero.org.
+and 
+
+
+
+
+------------------------------
+
+Date: Thu, 20 May 1993 15:24:25 -0600
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: Meta: Solomonic Wisdom Needed
+
+A pleasant surprise: I'm not going to waste anyone's time responding to
+Sandy's post on a point-by-point basis.  I think Sandy either misunderstood
+or misrepresented what I said about list authoritarianism, but I have more
+interesting things to discuss.
+
+As I noted earlier, anyone who wants to set up their own list code is free
+to do so.  They need only notify Harry if and when they need to borrow his
+enforcement powers.  I look forward eagerly to seeing some PPLs arise
+within the list's PPL.
+
+As far as I can tell, no one has yet used a private^2 judge, however. 
+After Sandy's most recent post, I again wondered why no one has opted for a
+list tzar.
+
+Sandy was replying to my admittedly sarcastic hypothesis that most folks
+want to give tzars jurisdiction only over other people.  There's some truth
+to this, but other lists with tzars (like cyberpunks, apparently) do get
+plenty of traffic.  So people do sometimes choose to subject themselves to
+virtual authoritarians.  Why?  They probably trust that the tzar will
+subject everyone to the same useful rules, and do not risk anything more
+than access to a virtual forum.  Realspace authoritarians, on the other
+hand, find it harder to attract customers.
+
+Those who call for a list tzar here may thus object that they do not want
+to subject themselves to constraints that won't apply equally to
+everyone--especially to folks like Singh.  But I note that they are not
+entirely without the power to effect their own, private sanctions against
+people who annoy them but who refuse to submit to their tzar's rules.  
+
+They can, for instance, agree to monitor offensive people and to make sure
+that Harry gets complaints about offensive posts.  And they can form a pact
+to ostracize people they disfavor.
+
+What's my point?  I want to encourage those who favor list authoritarianism
+to go ahead and try it out--amongst themselves.  I'm arguing that they do
+not need to subject all of us to the jurisdiction of their favorite tzar in
+order to accrue (at least some of) the benefits of a benevolent
+dictatorship.
+
+Regardless of how well a benevolent dictatorship would work within such
+private^2 legal systems or on other lists, though, I don't think it would
+suit this list's goals.  We want to encourage experimentation with PPLs. 
+But "because I say so" doesn't make for very interesting material.  Better,
+I think, that we should put up with a bit more friction in order to gain
+the benefits of experimental data, a rule of law, and rights to appeal.  If
+more people will avail themselves of the opportunity to contract around the
+list's default legal system, things will run even smoother yet.
+
+Summary: Stop griping and start PPLing!
+
+T.O. Morrow                     --  twb3@midway.uchicago.edu
+Vice President: ExI             --  The Extropy Institute
+Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+
+
+------------------------------
+
+Date: Thu, 20 May 93 15:44:17 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Meta: Solomonic Wisdom Needed
+
+Tom Morrow:
+
+> They probably trust that the tzar will
+> subject everyone to the same useful rules, and do not risk anything more
+> than access to a virtual forum.  Realspace authoritarians, on the other
+> hand, find it harder to attract customers.
+
+Not at all!  When I go to a bar to chat with strangers I do so
+knowing full well that the authoritarian management of the bar
+will boot me if they deem my behavior obnoxious.  It's their
+bar -- I'm just visiting.  The same is true if you have a bunch
+of us over to your house, or we call your chat line, or whatever.
+
+Still, I think little PPL experiments would be fun (I joined
+ALL of the little societies)... um, where are they?
+
+derek
+
+
+------------------------------
+
+Date: Thu, 20 May 1993 14:54:58 -0400 (EDT)
+From: Pietro Cappello <cybrlnk@Panix.Com>
+Subject: Magazine subsciption
+
+Hi !!!,
+could you send me info on how to subscribe.  thanks
+
+
+
+
+------------------------------
+
+Date: Thu, 20 May 1993 12:08:14 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Forward: Clipper News
+
+More of the lastest,
+
+/harry
+
+
+The following text is presented for personal educational use only. It
+is not to be copied or otherwise used in a manner which violates
+rights of its copyright holders. This letter serves only as private
+communication to readers of the Extropian Mailing List.
+_________________________________________________________________
+
+Copyright 1993 Chicago Tribune Company
+
+Chicago Tribune
+
+May 16, 1993, Sunday, FINAL EDITION
+
+SECTION: BUSINESS; Pg. 8; ZONE: C
+
+LENGTH: 394 words
+
+HEADLINE: Civilization promised for high-tech frontier
+
+BYLINE: Associated Press
+
+DATELINE: WASHINGTON
+
+BODY:
+
+Easy eavesdropping on wireless telephones and carefree hacking into
+corporate and government computers has created a cowboy culture in the
+high-tech world that a House panel is considering civilizing.
+
+"There will be legislation," Chairman Edward Markey (D-Mass.) said at
+a recent hearing of his House Energy and Commerce telecommunications
+subcommittee.
+
+Just as horse thieves and outlaws in the Wild West needed laws to
+bring them into civilized society, so must there be a crackdown on
+those who break into computer databases to misuse information about
+government operations or innocent Americans, he said.
+
+The problem is to avoid stifling the frontier spirit of high-tech
+industry and the free flow of information needed to remain
+intellectually competitive, Markey said.
+
+Witnesses at a hearing of his panel had various suggestions:
+
+- Encourage use of the Clipper chip in telecommunications devices,
+said Raymond Kammer, acting director of the National Institute of
+Standards and Technology.
+
+The chip was invented by Kammer's government institute to scramble
+telephone communications and is the most advanced encryptor on the
+market. But its codes are known by the government to allow the tapping
+of suspected criminal communications.
+
+- Devise a federal "charter of fair information practices" that
+provides industry rules for using electronic information, suggested
+Joel Reidenberg, Fordham University law professor.
+
+And set up a data-protection board to advise companies with specific
+questions and to coordinate U.S. policies with foreign governments, he
+said.
+
+- Stiffen penalties against breaking into corporate phone systems to
+stop the crooks who use business lines for long-distance calling, said
+John Lucich, state investigator for the New Jersey attorney general.
+
+This is creating such huge financial losses for corporate America that
+it is damaging to the overall economy, he said.
+
+- Prosecute more offenders, but don't micromanage, said science
+fiction writer and computer expert Bruce Sterling.
+
+Technology changes so quickly, it's useless to outlaw particular
+devices because a new invention will be developed to achieve the same
+illegal function before a new law can be enacted, he said.
+
+Sterling and other witnesses said more case law is needed to help
+prosecutors fighting illegal use of electronics.
+
+TERMS: TECHNOLOGY; ISSUE
+
+Copyright 1993 Warren Publishing, Inc.
+
+Communications Daily
+
+May 19, 1993, Wednesday
+
+SECTION: Vol. 13, No. 96; Pg. 5
+
+AT&T bolstered its support for new govt. encryption standard --
+Clipper
+
+Chip -- by introducing new secure transportable cellular phone that
+comes with chip installed. New product will be marketed under "Surity"
+brand name, which company said is intended to cover its "expanding"
+line of secure communications products. Surity line also includes data
+product called Surity Data Network System. "The Clipper Chip standard
+offers significant new security capabilities to the business
+community," AT&T Secure Communications Systems Vp Edward Hickey said.
+"All commercially available AT&T voice encryption products will now be
+compatible with each other through Clipper." Although voice encryption
+standard, via Clipper Chip, has been approved, govt.'s new data
+encryption standard, code-named "Capstone," hasn't been released owing
+to growing public controversy over Clipper Chip (CD May 10 p3). Surity
+Data Network System will use older Data Encryption Standard that was
+previous govt. standard, spokesman said. AT&T "hasn't yet decided how
+it will handle" implementing Capstone technology when it finally
+becomes available, he said. Hesitancy on part of AT&T, which currently
+is only company to endorse Clipper technology commercially, could stem
+from growing public concern. AT&T was signatory to letter sent to
+White House by several privacy advocacy groups, telecommunications
+companies and computer makers (CD May 10 p3) that expressed concern
+over govt.'s haste in deploying new encryption standard.
+
+Copyright 1993 CMP Publications, Inc.
+
+CommunicationsWeek
+
+May 17, 1993
+
+SECTION: OPINION; Pg. 45
+
+LENGTH: 614 words
+
+HEADLINE: Letters to the Editor; VIEWS ON THE CLIPPER CHIP
+
+BODY:
+
+Padgett Peterson of Martin Marietta Corp. is correct in one respect-
+encryption is something that the cellular industry, in particular,
+needs ("Industry Studies 'Clipper' Proposal," Communications Week, May
+3).
+
+I'm angered that the Cellular Telephone Industry Association hasn't
+taken the lead to ensure the privacy of their users' voice/data in the
+upcoming digital cellular networks.
+
+What the government encryption proposal lacks, and what I think would
+make a lot of people more comfortable, would be to have the encryption
+algorithm available in software, provided in source form, so that
+company engineers-who can watch the chip perform-can verify that the
+chip is indeed behaving as promised. This way, encryption chips which
+fail could be verified as having failed and then be swapped out, and
+corporations would have verified and trustworthy encrypted
+communications.
+
+Craig Paul Wide Area Networking group Kansas University Computer
+Center, Lawrence, Kan.
+
+If the government, as they deny now, turns around and starts slapping
+restrictions on private encryption, what form will these laws take?
+Will they make it illegal to manufacture private encryption devices?
+Will they prohibit sales of foreign-made devices in the United States?
+
+If I were a criminal-or merely a civil-liberties-loving private
+citizen-I'd become more determined than ever to use encryption that
+was privately designed and could not be broken by the government.
+
+I guess it's become cliched to invoke George Orwell, but I'm going to
+anyway.
+
+Karen Goertzel Technical Consultant Herndon, Va.
+
+MacWeek
+
+Copyright 1993 Information Access Company
+
+Coastal Associates Publishing L.P. 1993
+
+April 26, 1993
+
+SECTION: Vol. 7 ; No. 17 ; Pg. 1
+
+LENGTH: 802 words
+
+HEADLINE: Security chips trigger alarm; Clipper and Capstone open
+digital back door
+
+BYLINE: Ratcliffe, Mitch
+
+BODY:
+
+Washington - The White House and National Security Agency, as part of
+a wide-ranging retooling of U.S. privacy policies, are preparing two
+encryption chips for use in the computer and telecommunications
+industries.  Privacy advocates cried foul last week because the chips
+include a back door that allows police to monitor communications.
+
+The Clipper chip announced this month can encrypt voice and data
+communications at up to 16 Mbps.  Clipper is due to debut in secure
+telephones from AT&T Co. this summer.  The second chip, called
+Capstone and currently under development at the NSA, is a superset of
+Clipper that will implement the much-criticized Digital Signature
+Standard to add authentication capabilities. Its existence was
+revealed during a briefing at the Massachusetts Institute of Tech
+nology in Cambridge last week.
+
+President Clinton ordered the National Institute of Standards and
+Technology to establish Clipper as a federal standard.  Since the
+government is the largest computer customer in the world, its Federal
+Information Processing Standards (FIPS) often are imposed on the
+industry as de facto standards.
+
+If Capstone follows Clipper into the FIPS requirements, DSS could
+usurp RSA Data Security Inc.'s public-key encryption scheme, which
+Apple licensed for AOCE (Apple Op en Collaboration Environment).
+
+But Apple's representative at the NSA briefing, Gursharan Sidhu,
+technical director of collaborative computing and leader of the AOCE
+project, said he is not worried that the government will force an
+encryption scheme on the industry.
+
+"We were given the impression that they are very open to suggestions,"
+Sidhu said, adding that the government is faced with a growing
+conundrum as it tries to simultaneously protect privacy and maintain
+its ability to tap lawbreakers' communications.
+
+"People have the idea that in cellular the security of communications
+has gone away, so there is pressure to encrypt. [Without a back door],
+even the casual criminal would be able to communicate with invincible
+security," Sidhu said. "Law-enforcement agencies wouldn't be able to
+collect intelligence."
+
+A spokesman for NIST said Capstone will not be introduced unless the
+president's review of national encryption policy concludes it is
+needed.  But he also said the Department of Defense and NSA are
+already working to develop a PCMCIA card-based implementation of
+Capstone for a classified defense messaging system.
+
+The NSA confirmed it is working on Capstone but could not confirm the
+Capstone PCMCIA card project.
+
+Clipper and Capstone use a "key escrow" technology that lets
+lawenforcement agencies with a court order unscramble conversations
+and documents.  To reduce the potential for wiretap abuses, two
+agencies to be named by Attorney General Janet Reno will hold half of
+each key.  The NSA said the key escrow agents will not be
+law-enforcement agencies.
+
+Privacy advocates complained that the algorithms that perform Clipper
+scrambling functions will remain classified.  Encryption technologies
+typically gain acceptance only after cryptographers pore over the
+component algorithms and key management systems.
+
+"We can't protect the key escrow features if we reveal the algorithm
+to the public . . .  that's caused some heartburn," said John Podesta,
+staff secretary to President Clinton. "I'm not suggesting that the
+public should trust us any more than any other government agency, but
+we are doing a more comprehensive review [than any previous
+administration]."
+
+Podesta said the Clinton team is taking a free-market approach to
+encryption, in contrast to previous administrations, which tried to
+legislate simplified approac hes.
+
+"In the wireless communications environment, we have to move the ball
+forward on security and privacy," Podesta said. "The jury's still out
+on whether [Clipper] is the answer."
+
+Jim Bidzos, president of RSA Data Security of Redwood City, Calif.,
+said the NSA is using Clipper and Capstone in an attempt to confuse
+the market for privacy-enhancing technologies. "It takes three or four
+years for this kind of proposal to die," Bidzos said.  Computer and
+communications companies might withhold support for any standard,
+giving the NSA more time to prepare for the encrypted world, he said.
+
+Computer Professionals for Social Responsibility, a Washington,
+D.C.based public-interest group, has filed 11 Freedom of Information
+Act requests for access to Clipper development records.  The group
+suspects the NSA and NIST violated the Computer Security Act of 1987,
+which limits the NSA's role in development of public encryption
+technologies to providing advice and assistance.  NSA said it
+developed both chips.
+
+SUBJECT: United States. National Security Agency, Safety and security
+measures ; Data security, Equipment and supplies ; Data encryption,
+Equipment and supplies
+
+MacWeek
+
+Copyright 1993 Information Access Company
+
+Coastal Associates Publishing L.P. 1993
+
+April 26, 1993
+
+SECTION: Vol. 7 ; No. 17 ; Pg. 127
+
+LENGTH: 319 words
+
+HEADLINE: Plan keeps encryption keys in escrow; White House announces
+Clipper
+
+chip to use key escrow for privacy in wiretapping Brief Article
+
+BYLINE: Ratcliffe, Mitch
+
+BODY:
+
+The White House last week said the Clipper chip will use a key escrow
+scheme to guarantee the public a maximum amount of privacy without
+shutting out law-enforcement agencies that need to tap criminals'
+communications.
+
+Key escrow involves the splitting of encryption keys into two pieces,
+each of which is held by an independent agency.  Police with a wiretap
+order must retrieve both parts of the key to listen in on voice and
+data calls.
+
+The escrow scheme, true to its Cold War heritage, is full of cloak-
+anddagger drama.  The National Institute of Standards and Technology
+and Professor Dorothy Denning, chairwoman of the Georgetown University
+computer science department in Washington, D.C., described the
+process:
+
+Clippers will be programmed in lots of about 300 chips.  Agents of the
+two escrow agencies - as yet unidentified - will meet in a secure
+computer-information facility, known in spy circles as a SCIF, a vault
+at the chip manufacturer site that contains a laptop computer and
+chipprogramming equipment.  Each agent enters into the computer a long
+prime number that is used to generate 300 keys.
+
+After a series of mathematical contortions, the two agents create
+three floppy disks.  Two of them each contain one-half of the 300
+device keys and a master key, called a "family key" by the National
+Security Agency, needed to decrypt messages sent by all the chips in
+the lot.  The third floppy contains a list of whole encryption keys,
+and it is used to pr ogram the lot of Clipper chips.
+
+Then, the agents leave the SCIF carrying a floppy with their half of
+the keys, the master floppy is destroyed and - for extra security -
+the laptop computer can be de stroyed.
+
+Clipper chips will be manufactured by Torrance, Calif.-based Mykotronx
+Inc. and other companies that agree to adhere to the NSA's security
+standards. - By Mitch Ratcliffe
+
+TYPE: Brief Article
+
+SUBJECT: United States. National Security Agency, Safety and security
+measures ; Wiretapping, Equipment and supplies
+
+COMPANY: SIC: 9711
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Thu, 20 May 93 16:18:42 CDT
+From: jeff@frodo.b30.ingr.com (Jeffrey Adam Johnson)
+Subject: TV:STTNG: re-start of consciousness debate
+
+I thought folks might want to watch this upcoming episode.
+
+======================================================================
+Jeffrey Adam Johnson              Internet:  jajohnso@ingr.com
+("I speak only for myself.")
+======================================================================
+$ 4,361,575,755,821 - U.S. National Debt, Thu May 20 16:13:47 CDT 1993
+======================================================================
+
+
+- - - - - begin forwarded article - - - - - - -
+Newsgroups: rec.arts.startrek.info
+From: dnadams@nyx.cs.du.edu (Dean Adams)
+Subject: TNG Promos for: SECOND CHANCES (#250)
+Message-ID: <1993May16.050030.12098@mnemosyne.cs.du.edu>
+Followup-To: rec.arts.startrek.current
+Summary: Promos
+Keywords: promos
+Reply-To: dnadams@nyx.cs.du.edu
+Organization: Utopia Planitia Starfleet Yards, Mars
+Date: Sun, 16 May 93 05:00:30 GMT
+Approved: griffith@fx.com
+Lines: 58
+
+
+Promos for the new ST:TNG episode: "Second Chances" (#250), [perhaps to
+become know as "The Two Rikers"], were released today.  The actual program
+will be out on Saturday, May 22nd.  Following this is a couple of reruns.
+
+
+Here is the promo copy (announcer):
+
+EIGHT YEARS AGO, A TRANSPORTER MISHAP CREATED AN EXACT DUPLICATE...
+
+   [ With Data looking on, Riker confronts his duplicate
+     Lt. Riker (in torn Support Services uniform) ]
+
+  Lt. Riker:  I am Will Riker.
+
+NOW, TWIN OFFICERS CO-EXIST...
+
+   [ The Two Rikers, with Worf and Data, beam down to a planet ]
+
+   [ Riker talking to Troi ]
+
+  Riker:  Which of them is real?
+
+...BUT HIDDEN PASSIONS COULD TURN THEM INTO BITTER ENEMIES...
+
+   [ Lt. Riker grabs Troi and sweeps her up off her feet ]
+
+   [ Riker talking to Lt. Riker ]
+
+  Riker:  There's no place for you in my Away Team.
+
+...AND JEALOUSY THREATENS TO ENDANGER A CRITICAL MISSION.
+
+   [ Riker and Lt. Riker on the planet ]
+
+   [ Lt. Riker talking to Riker on the Enterprise ]
+
+  Lt. Riker:  Playing it safe?  
+
+  Riker:  Why don't we wait and see who comes out on top.
+
+   [ In a cavern on the planet, a walkway collapses under Lt. Riker;
+     Riker grabs his arm as Lt. Riker dangles over the edge ]
+
+  Lt. Riker:  Let go!
+
+...ON AN ALL NEW EPISODE OF STAR TREK: THE NEXT GENERATION.
+
+
+Short version:
+
+  When Riker confronts his own double, jealousy could turn
+  them into bitter rivals, on STAR TREK: THE NEXT GENERATION.
+
+-{ Dean Adams }-
+- - - - - end forwarded article - - - - - - -
+
+------------------------------
+
+Date: Thu, 20 May 93 14:20:09 PDT
+From: Robin Hanson <hanson@ptolemy.arc.nasa.gov>
+Subject: Is Math Random?
+
+I wrote:
+> But can't a similar argument conclude "X is random", for any X?
+
+Derek Zahn writes:
+>I'm not sure what you mean.  Sure, I can ... squeeze a poem about
+>electronic cows until it screams and end up with a "random" string
+>... We knew that!
+
+Yes, that's my point. 
+
+>Does it help that Omega is not only random but infinitely long and
+>random for all that length?
+
+It helps to conclude that Omega is interesting.  It helps to conclude
+that math is more infinite than other things (it's not clear anything
+else is infinite).  But I can't see how it helps to conclude that math
+is more random than anything else.
+
+Robin
+
+------------------------------
+
+Date: Thu, 20 May 1993 16:26:14 -0600
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: Meta: Solomonic Wisdom Needed
+
+>When I go to a bar to chat with strangers I do so
+>knowing full well that the authoritarian management of the bar
+>will boot me if they deem my behavior obnoxious.  It's their
+>bar -- I'm just visiting.  The same is true if you have a bunch
+>of us over to your house, or we call your chat line, or whatever.
+
+Good point.  Though this may not be true in fact, it should be.  That is, I
+think we all agree that property owners should be free to boot folks as
+they see fit.  In unfortunate practice, however, statists have claimed the
+right to say who business owners may and may not arbitrarily expel.  
+
+There is still a separate question as to whether, as I claimed, realspace
+authoritarians find it "harder" (not "impossible") to attract customers
+than virtual ones, but this question doesn't interest me at present.  The
+point is that there is nothing per se wrong with vesting someone with
+absolute authority over the disposition of certain property or services. 
+Sandy's post notwithstanding, I never claimed otherwise.  I just don't we
+would benefit from giving one person absolute power over this list.
+
+>Still, I think little PPL experiments would be fun (I joined
+>ALL of the little societies)... um, where are they?
+>
+>derek
+
+I wonder if transactions costs are too high.  After all, people sign up for
+the list's default rules simply by subscribing.  Setting up another PPL
+takes extra steps.  
+
+And the incentives may be skewed.  Flamers like to subject us to their
+ranting.  Why should they take the trouble to contract around the list's
+rules?  Hence, I suppose, an argument for a list tzar.  But I remain
+unconvinced that the costs of authoritarianism are worth the benefits. 
+Better we should foster a list culture that encourages people to set up and
+join PPLs, and that pushes a precommitment strategy whereby everyone
+benefits from speedy and informal adjudication.
+
+I guess, then, that I should volunteer to act as a private^2 judge.  OK.  I
+do: I agree to adjudicate list disputes among consenting parties.
+ 
+
+
+
+T.O. Morrow                     --  twb3@midway.uchicago.edu
+Vice President: ExI             --  The Extropy Institute
+Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+
+
+------------------------------
+
+Date: Thu, 20 May 93 14:40:37 -0700
+From: graps@argus.arc.nasa.gov (Amara Graps)
+Subject: Guns in Cars
+
+A little while ago Dean posted a pretty good essay about the
+dangers of carrying guns in cars. The author concluded:
+
+>Therefore, the rational choice is not to carry a gun in your car.
+
+However, I want to point out that the author seems to exclusively
+refer to handguns. In the state of CA, it's perfectly to keep a 
+loaded rifle in one's car. A Ruger mini-14 holds 30 rounds and they're
+fairly short in length (about 24" with a folded stock). So, while
+you probably wouldn't want around with one of these, it's perfectly
+legal to have it in your car.
+
+Amara Graps
+
+
+********************************************************************
+Amara Graps
+Computational Physicist			
+NASA-Ames Research Center		
+MS 245-5
+Moffett Field, CA  94035
+(415) 604-5507			Boycott the WireTap Chip!
+graps@gal.arc.nasa.gov
+********************************************************************
+
+
+------------------------------
+
+Date: Thu, 20 May 93 17:25:47 EDT
+From: sulko-m@acsu.buffalo.edu (Mark A. Sulkowski)
+Subject: META: Mediation!
+
+	With all this talk of list tzars and arbitrators we are forgetting a
+whole realm of private dispute resolution!
+
+				Mediation!
+
+	As the saying goes:  First mediate, then arbitrate.
+
+	Perhaps more people would be more willing to accept third-party help
+if they weren't worried that the iron hand of ExI would strike back for some
+arcane violation of list rules.  The soft handed approach might be best as a
+first alternative.
+
+	I offer my services as mediator.  I promise NOT to use any authority
+whatsoever.
+
+
+===============================================================================
+|   |\    /|    | "But we must not follow those who advise us, being men, to  |
+|    \\  //     | think of human things, and, being mortal, of mortal things, |
+|     \\//      | but must, so far as we can, make ourselves immortal..."     |
+| Mark \/enture |                 - Aristotle, _The Nicomachean Ethics_       |
+===============================================================================
+
+------------------------------
+
+Date: Thu, 20 May 93 14:49:42 PDT
+From: GRAPS@galileo.arc.nasa.gov
+Subject: Darwin fish
+
+Hello all,
+
+Recently, I faced the dilemma of having bought a new-used car whose
+former owners were christians, and had epoxied one of those
+ghastly fish symbols to the rear of the car.  When I removed
+it, the symbol was permanently imprinted on the paint, and so I thought
+about what to do to cover it up, short of getting a paint job.
+
+I solved the problem by acquiring a Darwin fish and pasting it
+over the imprint. The match isn't perfect.. the christian fish
+and the Darwin fish seem to have their tails at opposite ends, 
+but the match is good enough. 
+
+Yesterday evening, Tim May and noticed each other's Darwin
+fishes on our cars, and so I thought that others out in extropia-land
+might be interested on where to get one.
+
+
+>From my friend at work who first showed me one of these fish:
+
+>Darwin fish bumper stickers and assorted other atheist paraphernalia are
+>available from the Freedom From Religion Foundation in the US.  Write to:
+
+>    FFRF, P.O. Box 750, Madison, WI 53701.
+
+>The deluxe moulded 3D plastic Darwin fish is available from:
+
+>       Evolution Designs
+>       7119 Laurel Canyon #4
+>       North Hollywood, CA  91605
+
+>       $4.95 postpaid in the US
+
+>    For those not in the know:  A Darwin fish is just like those Christian
+>    fish symbols you see on the backs of cars, but with legs sticking out
+>    and the word "Darwin" inside.
+
+
+Amara Graps
+graps@gal.arc.nasa.gov
+
+------------------------------
+
+Date: Thu, 20 May 93 22:38:12 GMT
+From: Michael Clive Price <price@price.demon.co.uk>
+Subject: CHALLENGE: Chaitin and RTFM
+
+Derek Zahn has CHALLENGED
+
+> The Accountability Society has existed for just over two months.
+> This is its first CHALLENGE, issued by me to Mike Price on his
+> contribution to the Chaitin thread. [...]
+> Mike now has a week to answer this question with a 400-word reply,
+> after which I have a week to compose a 400-word response.
+
+I am delighted to receive a CHALLENGE.  Indeed I feel rather proud as
+the first recipient, having hopes that the A-Society may raise the level
+of debate generally.  One plea I would make is for people to signify
+their continuing membership in the AS by placing some sign in their
+signatures.  If we can't tell who's in and who's not then this idea of
+CHALLENGES can never take off.
+
+A week it is.
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+------------------------------
+
+Date: Thu, 20 May 93 15:15:55 -0700
+From: davisd@pierce.ee.washington.edu
+Subject: Chaitin, Randomness, and Explanations on this List 
+
+  From: derek@cs.wisc.edu (Derek Zahn)
+
+  Robin Hanson:
+
+  > >Omega is actually the halting probability if n-bit programs have
+  > >measure 2^{-n} 
+  > 
+  > Er, this is not a normalized distribution.  Each length n has the same
+  > total probability.  So I don't see how you could experimentally
+  > measure Omega, cause you can't generate according to this distribution.
+
+
+  To get around this problem you mention (else as you imply Omega
+  would be infinite), these NT dudes adopted a different coding
+  scheme in which legal programs contain some indication within
+  themselves of where the programs end.  So no legal program can be
+  the prefix of another, and there are fewer than 2^n programs
+  with n bits.
+
+Are you sure? There would have to be a good deal less than 2^n programs
+with n bits to make this a distribution.
+
+Lets see:
+              infinity
+  Constant * SUM ( 2^[-n] * number of programs with i bits )     
+              i=1
+
+Call num(i) the number of programs with i bits.
+
+Anybody remember necessary conditions on num(i) so that SUM has
+a definite limit?
+
+Do they prove that their restricted set of legal programs 
+satisfies some condition so that SUM converges?
+
+Couldn't they just have said that the sum of the probability for all
+programs with with n bits was 2^[-n], then uniformly distribute that
+probability (2^[-n]) across all the 2^n programs with n bits?
+Seems much easier to me.
+
+Well, they could have. The question is, did they?
+
+Buy Buy -- Dan Davis
+
+------------------------------
+
+Date: Thu, 20 May 93 15:01:17 PDT
+From: mwm@wwtc.timeplex.com (mark m 623)
+
+Sigh.
+  Arbitration, mediation, posting tzars, etc etc etc ad nauseum.
+  I suppose forgoing having the last word is just out of the question.
+  In the words of William Shatner "Get a life".
+  Somebody please respond in a snotty Mensa-punk fashion so I can decline
+to answer.
+
+                                        Mark McFadden
+
+------------------------------
+
+Date: Thu, 20 May 1993 18:28:20 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: Meta: Solomonic Wisdom Needed
+
+> I guess, then, that I should volunteer to act as a private^2 judge.  OK.  I
+> do: I agree to adjudicate list disputes among consenting parties.
+
+Ditto.  I haven't joined any of the PPL societies because membership seemed
+to involve nothing but meta-wrangles over what the society's procedures ought
+to be.  No thanks.  While I'm in favor of PPL, I also want to have a life...
+
+But I hereby volunteer to act as an arbitrator for any group of consenting
+parties that wants me to.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Thu, 20 May 93 15:35:51 -0700
+From: freeman@MasPar.COM (Jay R. Freeman)
+Subject: Darwin fish
+
+For those in the San Francisco Bay area, Darwin Fish are often sold in
+the dealer rooms at BayCon (science fiction convention held every
+Memorial Day weekend); I have also seen them at Future Fantasy bookstore
+(science fiction and fantasy) in Palo Alto.
+
+                                             -- Jay Freeman
+---------------------------------------
+The other Jay; also, the other Freeman.
+---------------------------------------
+
+------------------------------
+
+Date: Thu, 20 May 93 17:51:37 -0700
+From: graps@argus.arc.nasa.gov (Amara Graps)
+Subject: Rucker's MindTools & Chaitin's Theorem
+
+Sveiks, (Latvian for hi)
+
+I've been more or less following the Chaitin thread. I haven't read any of 
+the pointed-at sources, but I did find another source that may be useful to 
+some of you. The book is Rudy Rucker's  _Mind Tools_. 
+
+Yesterday evening, Tim May  mentioned that Chaitin refers to Rucker's book in 
+one of his (Chaitin's) books, but because Tim had misplaced it, he couldn't 
+look up  some of the references to facilitate this active discussion.  So I 
+pulled it off my boyfriend's bookshelf this morning and started thumbing 
+through it.
+
+(Note: Four extropian-minded folks- me, T.May, R.Machado, G.Dale- met at UCSC 
+last night to hear Frank Drake talk, where I took lots of notes, and so I'll 
+post something about that talk soon.)
+
+What I found is that this book provides an excellent framework to Chaitin's 
+"revolutionary" 1987 claim. Because _Mind Tools_ was published in 1987, and 
+was probably sent to the publisher in 1986, Rucker just missed Chaitin's 
+claim about the random nature of Omega, the probability that a random Turing 
+machine will halt. However, he spends major portions of the book clearly and
+coherently describing the nature of mathematics, logic, and space. In the 
+last chapter, in particular, titled: "Infinity and Information", Rucker talks
+about  transfinite processes, the Continuum Problem, algorithmic complexity, 
+logical depth, Chaitin's theorem,  the runtime of a Universal Turing Machine, 
+(However he never mentions a *random*  Turing Machine.. what is this?), and 
+cellular automatons.  Some excerpts from the book:
+
+   <<<<<<<QUOTE>>>>>>>>>>>>>
+
+Chaitin's Theorem (1965): 
+
+If T is a theory of mathematics and T is
+
+	i. finitely given, and
+	ii. consistent, then
+	iii. there is a number t such that T cannot prove
+	     that any specific bit string has complexity greater 
+  	     than t.
+ 
+What is the significance of this theorem?  To begin with, note that Godel's 
+theorem is a simple corollary of Chaitin's theorem.  Since there are endlessly 
+many bit strings, with patterns of arbitrary complexity, the following sentence
+is certainly true: "There are bit strings whose complexity is greater than t."
+If we restate this as "There are bit strings M with the property that no t-bit
+program  causes the universal Turing machine U to print M and halt," it is 
+pretty clear that  this is really a precise mathematical fact about the kinds 
+of bit strings that exist.  But T is unable to prove this mathematical fact, 
+so it must be that M is incomplete.  So now, by using Chaitin's theorem,  we 
+have established Godel's result, which states  that every finitely given, 
+consistent theory of mathematics is incomplete.    (Pg. 286)
+
+(later on)
+...We might instead take K to be the million of so bits it would take to write
+out  the most important equations of physics, and let U be a quite simple 
+Turing machine  with a complexity of one hundred thousand. Bennett (Charles) 
+says that it could happen  that all the present-day equations of physics can 
+be derived from a tenth as many  equations, but that the derivation would take
+an impossibly long time.  There *are* easy answers, but we're too dumb to 
+understand them.
+
+Speaking more loosely, Chaitin showed that we can't prove that the world has 
+no simple  explanation.  Bennett showed that the world may indeed have a 
+simple explanation, but  that the world may be so logically deep that it takes
+an impossibly long time to turn the explanation into actual predictions about 
+phenomena.  (pg 306)
+
+   <<<<<<<ENDQUOTE>>>>>>>>>>>>>
+
+
+So I hope this helps the discussion progress in a more useful and interesting 
+way. 
+
+Aside:
+
+I really don't understand why there seems to be an increase in the amount of 
+flaming  on this list over the last few months. Can't you folks take a more 
+Zen approach to what  you might  perceive as an attack or as a defense? As my 
+martial arts teacher  says:  "You are not your thoughts or ideas- those are 
+just electrical impulses jumping from  synapse to synapse in your brain and 
+then they're gone. Identifying with these ideas is the root cause of most 
+anguish in this world."  I mean if someone doesn't get your point, it's not 
+your obligation to *make* them understand. Just let it go. I get the feeling 
+that this list is made up of a bunch of Klingons trying to defend their 
+honor!
+
+
+Another aside with regards to Rucker.. 
+
+According to what Romana and Tim said last night about what he's doing  these 
+days- he's no longer a professor at San Jose State (I took a computer graphics
+course from him there in '88- he was not a very good teacher, but he was very 
+imaginative and quite entertaining.), and  he lost his job at Autodesk like 
+many other people. So if you  have a project that could use a creative mind 
+like his, contact him!
+
+		Amara
+
+********************************************************************
+Amara Graps
+Computational Physicist			
+NASA-Ames Research Center		
+MS 245-5
+Moffett Field, CA  94035
+(415) 604-5507			Boycott the WireTap Chip!
+graps@gal.arc.nasa.gov
+********************************************************************
+
+
+
+------------------------------
+
+Date: Thu, 20 May 93 23:27:02 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: SCI: Anti-gravity
+
+Mark Venture, on the runaway solutions impied by free floating 
+negative energy and anti-gravity.
+
+>    A free ride?  That can't be right.
+
+No?  The universe is widely accepted to be a free lunch...
+
+>  Doesn't that play fast
+> and loose with conservation laws?
+
+No, although this was my first reaction too, the conservation laws 
+are maintained.  It was only through considering the conservation 
+laws that I was able to make sense of anti-gravity, inertia etc.  
+Even though the positive and negative matter/energy flies off in 
+the same direction their energy-momentum vectors oppose each other 
+(the negative mass object has a momentum vector that opposes its 
+velocity vector).  That is, the momenta sum to zero.
+
+>  How are the "black hole" and
+> "wormhole" created and maintained?
+
+&(*%@#* knows!  :-)  Electric charges?  No real problems creating 
+black holes, given the tendency of positive matter to coalesce.  
+Not a clue about wormholes.  Physics tells us what possible and 
+what's not.  But it doesn't tell us _how_ to do things.  That's 
+engineering.
+
+> Mark \/enture
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0273
+****************************************
+

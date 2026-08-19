@@ -1,0 +1,505 @@
+From extropians-request@extropy.org Sat Sep 24 21:02:39 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id VAA09113 for <more@chaph.usc.edu>; Sat, 24 Sep 1994 21:02:37 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA05169; Sat, 24 Sep 94 21:02:33 PDT
+Received: by news.panix.com id AA10600
+  (5.65c/IDA-1.4.4 for more@usc.edu); Sun, 25 Sep 1994 00:02:30 -0400
+Date: Sun, 25 Sep 1994 00:02:30 -0400
+Message-Id: <199409250402.AA10600@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-9-454 - #94-9-463
+X-Extropian-Date: September 25, 374 P.N.O. [00:01:18 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Sun, 25 Sep 94             Volume 94 : Issue 267
+
+Today's Topics:
+                           copyright of the future?                   [1 msgs]
+                                faces in WiReD                        [2 msgs]
+                       Penrose's "Shadows of the Mind"                [1 msgs]
+                                  Religions                           [1 msgs]
+                      SCI: role for Q.M in neurobiology               [2 msgs]
+                           TECH/SOC: IRS WANTS YOUR                   [2 msgs]
+                             What Happens First?                      [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 26514 bytes.
+
+----------------------------------------------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Sat, 24 Sep 94 17:14:25 GMT
+Subject: [#94-9-454] copyright of the future?
+
+>From: Charles000@aol.com
+>
+> Charles000@aol.com wrote: 
+>>
+>>Have you had a look at Romana Machado's excellent encrypting
+>>technique (as per her Stego software) for embedding numerical
+>>data into the pixel data sets of a bit map image???  Maybe this is
+>>a bit far fetched, but I like her ideas about being able to "mask"
+>>hidden information "inside" a bit map file, to the extent that this
+>>could be a stealth signature embedded directly into the image.
+>
+>Couldn't this be defeated by the forger randomizing all the
+>least significant bits and then putting his or her own signature
+>into them? Or possibly (since the randomizing might be detectable)
+>not signing it and claiming that he or she thought it was public
+>domain?
+>
+>Nancy Lebovitz
+>
+>Yes Nancy, I fully acknowledge there are any number of ways to alter the
+>LSB contents to fullfill the goals of either destructive alteration of
+>the embedded signature, or, in a more sinister sense, as you have correctly
+>pointed out, the re-implantation of their own signature.  
+>
+>It may well be, however, that some other process may be a bit more
+>challenging
+>(I know, there'e an obvious pun there) to defeat.  I tend to have an interest
+>in
+>fractal encoding of imagery (as per Michael Barnsley's fine examples of this
+>sort
+>of work), because in this realm, at least, there is no "single" bit values to
+>play
+>around with, but rather a "formulation stream" that represent the imagery
+>content.
+>
+>In fact, due to the very nature of fractal encryption/compression, the
+>"factalized"
+>image data results can be processed as content addressable memory, where the 
+>feature signatures of the image data are themselves unique, and significant 
+>reference points (there has been much written about this topic, incidently,
+>and
+>the U.S. Air Force, amongst various other interested parties, has spent much
+>effort
+>in using this exact modality to enable automatic feature recongnition from
+>surveillance data, both in optical and near infra-red spectra).
+
+I'm not sure what you mean--is the idea to have some redundacy in the
+file so that bit-shuffling is obvious? 
+>
+>When a "fractalized" image is re-constituted, there could indeed be various
+>ways
+>to embed "signature threads" into that reconstruction process.  Perhaps a
+>"key" to
+>the signature thread could then be stored, as an "upper layer" of recognition
+>
+>access, in the LSB of the reconstituted image.  OK, I know, this is just
+>another 
+>pandora's box for forger/hacker types to mess around with, but I certainly
+>welcome, and respect any commentary you wish to toss into the mix on this
+>topic.
+
+Here's a possibility--instead of depending entirely on information
+contained in the image, the image could be stored in or sent out to
+enough places that first use can be proven. Of course, this doesn't
+prevent piracy, but neither do LSB signatures--enforcement of intellectual
+copyright has to be done some other way. 
+
+Nancy Lebovitz
+
+
+
+------------------------------
+
+From: thomas.knox@index.com
+Date: Sat, 24 Sep 94 12:21:57 
+Subject: [#94-9-455] TECH/SOC: IRS WANTS YOUR
+
+> Tell me this isn't a police state, since the IRS is on record
+> saying over time they want more and more Taxs to be filed
+> electronically...
+> 
+> (if you don't perhaps someday manual tax payers will be as hated as
+> drug dealers)
+> 
+ 
+You are absoulutely right. It seems the government thinks computer are the
+best way to nullify the bill or rights and the constitution as a whole.
+When I read your message, I went straight down to "NEW RULES FOR FILING
+ELECTRONICALLY", and then looked back up at your comment. 
+ 
+So now we are considered criminals if we want to use our computer for anything
+useful. And this stuff about credit checks really pisses me off. The government
+has no right whatsoever to do a credit check. A credit check is
+for those wanting to borrow money (even in that case I don't like credit
+checks either).
+ 
+So where are ------> OUR <-------- rights! I want to be able to do a personal
+credit check on the IRS AGENT who does my account as well as any individual
+who has access to my tax information. That would only be completely fair.
+ 
+Hopefully we'll be smart enough to know when it's time to put down the pens
+and start stockpilling weapons and ammunition. Because I foresee a full scale
+gorilla war coming to this country soon. 
+ 
+Who gave the government the right to disregard the restrictions the
+constitution places on it? I didn't. I don't think you did either, nor anyone
+else other than politicians and bureaucrats.
+ 
+Next, we'll have to get fingerprinted before we "participate in extropian
+activities".
+
+
+------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Sat, 24 Sep 1994 04:23:17 -0500
+Subject: [#94-9-456] faces in WiReD
+
+>I plan to *buy* the Wired as soon as it gets to the
+>newstand. It takes longer to get there than to the
+>subscription folks.
+>
+>Besides, I didn't know if the picture would even be
+>Wired copywrighted.
+
+It's been on the news stands for over a week here in the
+boonies in Alabama -- even the supermarkets have their copies.
+
+If someone quietly emailed or FAXed you the picture for your
+own use I don't think there would be any copyright repercussions,
+I was reacting to the thought of anyone sending a .gif to the
+list without permission -- although similar stuff has been done in
+the past with a disclaimer about private educational fair use in
+a private forum, etc., I have a feeling that it was then and still
+would be on the wrong side of property rights, and we of all people
+should stand up for property.
+
+And, yes, the entire contents are presumed copyright by Wired unless
+noted otherwise.
+
+\\ fcp@nuance.com (Craig Presson)   CPresson@aol.com\
+-- WWW: http://www.nuance.com/~fcp/ -----------------\
+-- President & Principal,  T4 Computer Security ------>
+-- P.O. Box 18271, Huntsville, AL 35804 -------------/
+// (205) 880-7692 Voice, -7691 FAX -----------------/
+
+
+------------------------------
+
+From: "John M. Bozeman" <jmb5b@faraday.clas.virginia.edu>
+Date: Sat, 24 Sep 1994 17:27:33 -0400 (EDT)
+Subject: [#94-9-457] Religions
+
+>> 
+w
+>> Just to get to something faintly more extropian-related, I've played
+>> with the notion that the only religions which have a chance of being
+>> trustworthy are those which have never been government religions....
+>> it's a very short list--I think that all that's left at the moment
+>> is Neo-Paganism and agnosticism. (Unitarianism was a state religion
+
+
+In that case, I will nominate Branch Davidians as most Extropian-
+like... they show a certain independance toward the state 
+not widely appreciated.  (Of course, some might find a 6000
+year old earth theory to be problematic....)      ;-)
+
+
+Quakers generally avoided any sort of establishmentarianism (at
+least in regard to religion) after the American Revolution.  
+It is hard to have a government run by pacifists!
+
+There are LOTS of non-established religions out there... of
+course, some of them probably would love to be established if
+they had the chance.
+
+
+           John Bozeman
+
+   
+
+------------------------------
+
+From: doug@OpenMind.com (Doug Cutrell)
+Date: Sat, 24 Sep 1994 14:24:46 -0700
+Subject: [#94-9-458] SCI: role for Q.M in neurobiology
+
+>From: pavel@PARK.BU.EDU (Paul Cisek)
+>X-Message-Number: #94-9-433
+>
+>I don't know anything about Bose-Einstein
+>condensation - what role might such a coherent state play in the cell?
+>The above hints at some energy-storage role, though I'm only guessing.
+>What do Frolich and his recent supporters suggest?  Might there be a
+>coordinating role so that the cell can affect many transmembrance proteins
+>at once?  The experimental evidence is suggestive, but does it uncover
+>fundamental functionality or side effects produced by unusual laboratory
+>conditions?
+>
+
+These are important questions... I don't believe the answers are known.
+However, the interest in this field of research is rising rapidly.  For
+example, there is an entire book of recent papers titled "Rethinking Neural
+Networks:  Quantum Fields and Biological Data", ed. Karl H. Pribram, 1993.
+I don't believe that energy storage per se is likely to be a primary
+function of such mechanisms, because the amount of energy stored is
+probably fairly small compared to the amount of energy expended to maintain
+the coherent state.  The coherent state would be maintained by a continuous
+metabolic "pumping" which I would guess would expend quite a bit more
+energy than would be actually stored.
+
+Most of the possibilities I have seen discussed have to do with information
+storage within the field, and rapid, non-local information processing
+(non-local relative to the molecular scale of the underlying mechanisms --
+still perhaps within cell, but possibly also between cells).  As you
+suggest, the processes could easily be coordinating many transmembrane
+proteins at once, or coordinating many processes distributed throughout the
+cytoplasm via the cytoskeleton.   From the standpoint of neurobiology,
+these processes might be controlling the integration of dendritic input on
+the post-synaptic side, and also fine control of pre-synaptic response to
+action potentials.
+
+Most of the work has been theoretical rather than experimental... from my
+own experience, it is clear that it is extremely rare that an experimental
+biologist has the background to understand these theories, and even rarer
+that a physicist or mathematician has any knowledge of experimental
+biology.  This is currently a *very* ripe and unexplored field for
+precisely this reason.
+
+>Another important question: are these effects observed in cells taken from
+>diverse taxonomic branches?
+
+I believe that the Raman scattering effect does show up in many different
+types of living cells.  I don't know about the microwave experiments.
+
+Nick Szabo:
+>And a third question: how can we manipulate and improve upon these
+>biological quantum coherence mechanisms, if they exist?
+>...If those arguing for quantum coherence are serious
+>about it, rather than just grinding another axe against AI, they should
+>be taking out patents right about now.
+
+Indeed, I would expect this to be possible.  The argument for quantum
+coherence is *NOT* an argument against AI.  Penrose may argue against AI
+(and actually I think he only argues against AI as implemented by Turing
+machines), but he is a very minor voice among the people doing real work in
+this field.  Regarding patents... therein lies another personal axe of my
+own, which I'll save for another time.
+
+POSSIBLE BLOW TO CRYOGENICS:
+
+Extropians who place a strong value in the idea of cryogenic suspension may
+want to pay careful attention to developments in this rapidly growing
+field.  If it turns out that coherent quantum fields *are* responsible for
+storing some critical state components of human consciousness, then a total
+suspension of all metabolic activity throughout the brain might result in
+the irrevocable loss of this information.  It could be that continuous
+metabolic activity must be always maintained in order to preserve important
+portions of our memories and personalities.  The obvious analogy is to the
+RAM in a computer system -- the information stored in the hardware may not
+be preserved in the event of a total loss of metabolic activity (a "power
+failure").
+
+(Please -- no flames for this last paragraph!  I'm just calling 'em as I
+see 'em... all I'm saying is that right now this is at least possible!
+Yes, even if coherent fields *are* shown to be important, a "cold-boot"
+still might be possible... we just have no way of knowing right now).
+
+Doug
+
+___________________________________________________________________
+Doug Cutrell                    General Partner
+doug@OpenMind.com               Open Mind, Santa Cruz
+===================================================================
+
+
+
+------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Sat, 24 Sep 94 22:39:22 GMT
+Subject: [#94-9-459] TECH/SOC: IRS WANTS YOUR
+
+If it's any consolation, I just saw a bit in the Wall Street Journal
+about there being so much refund fraud that the IRS is pulling back
+on electronic filing.
+
+Nancy Lebovitz
+
+------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Sat, 24 Sep 1994 22:02:28 -0400 (EDT)
+Subject: [#94-9-460] faces in WiReD
+
+a conscious being, Craig Presson wrote:
+> ??????? Surely you don't want any of us to violate _Wired_'s
+> copyright? If you can't find a copy locally, someone on the list
+> will happily collect your money and send you one ... or you,
+
+The rights to the article should revert back to Ed 90 days after
+publication. Hope fully he will sell a non-exclusive rights to the
+article to ExI for some reasonable fee.. (assuming Wired hasn't
+changed there contracts much...)
+
+Ed?
+
+-- 
+Harry S. Hawk  		   habs@panix.com
+Product Marketing Manager
+PowerMail, Inc. 	   Producers of MailWeir(tm) & PowerServ(tm)
+
+------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Sat, 24 Sep 1994 19:05:32 -0700 (PDT)
+Subject: [#94-9-461] SCI: role for Q.M in neurobiology
+
+Doug Cutrell: 
+> POSSIBLE BLOW TO CRYOGENICS:
+
+You mean cryonics.
+
+> If it turns out that coherent quantum fields *are* responsible for
+> storing some critical state components of human consciousness, then a total
+> suspension of all metabolic activity throughout the brain might result in
+> the irrevocable loss of this information. 
+
+Hmm, I thought quantum coherence was a highly parallel processing 
+mechanism, not an improved storage mechanism.  Quantum coherence computation
+is quite vulnerable to erratic quantum state collapse  -- indeed the folks
+working on the computer science and physics sides find such collapse
+to be so vulnerable to errors that high levels of isolation from
+other quantum systems are required.  Many consider such
+isolation impractical even under the most pristine conditions.
+This would seem to make an especially poor candidate for long-term 
+memory storage.  Cryonicists don't care about short-term memories 
+(who wants to remember the horrid moments of ischemia onset?).  
+Continuity in long term memory and personality, such as occurs before 
+to after sleep or anasthesia, is what is crucial.  My (admittedly
+limited) understanding is that such quantum coherence states collapse 
+in tiny fractions of seconds, not hours; for information to persist 
+over hours would require another mechanism to store the information
+between such collapses.
+
+I've long considered DNA and protein sequences an ideally dense
+and (especially DNA) stable candidate for long term memory storage.
+Despite the existance of analogous "learning" by the immune
+system, apparently no one has found a mechanism for this, and few
+expect to find one.  Still, I find DNA and protein to be far superior 
+and much more probable storage mechanism for long term memory than a 
+highly fragile quantum coherence phenomenon.
+
+Nick Szabo				szabo@netcom.co
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Sat, 24 Sep 1994 22:14:42 -0400
+Subject: [#94-9-462] What Happens First?
+
+ szabo@netcom.com  (Nick Szabo) writes in X-Message-Number: #94-9-429:
+>Sufficient simulation of a human personality probably has to include pre- 
+>and post-synaptic chemical reactions, including those in the peripherary 
+>nervous system.  It also must simulate the hormonal system, and may 
+>have to include simulation of structures like microtubules.  Given 
+
+ Sufficient for what purpose? Sufficient to convince a Penrose or Searle
+that a personality has been uploaded? Sufficient to convince the uploadee
+that there is no more change than when he goes to sleep? Sufficient to
+convince someone who accepts Mark Miller's credit theory of identity that
+enough information has been transfered to call the uploaded entity by the
+same name as the original person?
+ I am too impatient for the benefits of uploading to wait for microtubule
+or complete hormonal simulation. I want my mind to be state-of-the-art
+whenever possible. Those of you who aren't willing to accept some
+changes associated with the uploading process will seem pretty backward
+and insignificant by the time you upload.
+
+>the current state of the art in molecular modeling software this would 
+>likely be computationally infeasible, even two centuries from now
+>at current rates of computational improvement.  Thus uploading 
+
+ 2 centuries at current rates? That sounds like about 2^100 or 10^33 times
+as much processing power; a number greater than the number of atoms in my
+body. The idea that this would be inadequate is as unlikely as the assumption
+that improvements will continue for 2 centuries at current rates.
+
+---------------------------------------------------------------
+Peter McCluskey    | pcm@rahul.net     | Cardassia delenda est!
+finger for PGP key | pcm@world.std.com | netcom delenda est!
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Sat, 24 Sep 1994 22:15:03 -0400
+Subject: [#94-9-463] Penrose's "Shadows of the Mind"
+
+ OSADCHUK@UVVM.UVic.CA (Darren Osadchuk) writes in X-Message-Number: #94-9-337:
+>1.  Concerning intuition, doesn't this call up the distinction between
+>the context of discovery and the context of justification?  Concerning
+>Penrose (and general arguments of this nature), I thought the point was
+>not that computers were unable to prove a theorem, but that they were
+>unable to make that leap of intuition (since intuition is assumed to be
+
+ Many people assume that computers will always have this limitation,
+but if there is a serious attempt at proving this, it is well hidden.
+
+>2.  Has there yet been a refutation of Searle's Chinese Room theory?
+
+ The standard version of the Chinese Room has an intelligent algorithm
+being run on hardware (the human) whose intelligence is irrelevent.
+Searle's argument only makes sense if you get confused about what is
+is that passes the Turing Test. If you say it is the human, then you
+see a contradiction. If you ignore the human and credit the algorithm
+which the human is mechanically following, then there is nothing
+surprising about the result.
+
+ Tipler has an entertaining refutation (_The Physics of Immortality_, p. 40):
+   If ... the human brain can code 10^15 bits ... then since an average
+  book codes about 10^6 bits ... it would require more than 100 million
+  books to encode the human brain. It would take at least thirty five-story
+  main university libraries to hold this many books. We know from experience
+  that we can access any memory in our brain in about 100 seconds, so the
+  hand simulation of a Turing Test-passing program would require a human to
+  be able to take off the shelf, glance through and return to the shelf all
+  of these 100 million books in 100 seconds. If each book weighs about a
+  pound and on the average the book moves one yard ... the rate of energy
+  consumption is 3*10^11 megawatts ... requires a power output equal to
+  that of 300 million large nuclear power plants. As I said, a man can no
+  more hand-simulate a Turing Test-passing program than he can jump to
+  the moon.
+  ...
+  Searle has proposed using the entire population of India (800 million
+  people) to hand-simulate the program. ... such a modification destroys
+  Searle's argument, because it is obvious to everyone that the entire
+  human species can "know" things which no individual human knows. For,
+  example, no individual human being has sufficient knowledge to make
+  an automobile. [i.e. can't mine and refine all the metals needed, etc]
+
+---------------------------------------------------------------
+Peter McCluskey    | pcm@rahul.net     | Cardassia delenda est!
+finger for PGP key | pcm@world.std.com | netcom delenda est!
+
+------------------------------
+
+End of Extropians Digest V94 #267
+*********************************
+

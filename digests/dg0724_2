@@ -1,0 +1,603 @@
+From extropians-request@extropy.org Sat Jul 23 21:02:03 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id VAA12472 for <more@chaph.usc.edu>; Sat, 23 Jul 1994 21:02:01 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA11079; Sat, 23 Jul 94 21:01:54 PDT
+Received: by news.panix.com id AA26387
+  (5.65c/IDA-1.4.4 for more@usc.edu); Sun, 24 Jul 1994 00:01:43 -0400
+Date: Sun, 24 Jul 1994 00:01:43 -0400
+Message-Id: <199407240401.AA26387@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-7-192 - #94-7-198
+X-Extropian-Date: July 24, 374 P.N.O. [00:01:20 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Sun, 24 Jul 94             Volume 94 : Issue 204
+
+Today's Topics:
+          A-albionic Research Up-date:  Is Caesarism The Conspiracy?  [1 msgs]
+             A-albionic's Scoop Circa 1992!  Pegged Bill Clinton      [1 msgs]
+                           Building a resource list                   [2 msgs]
+                              emergence defined                       [1 msgs]
+                        If Knowledge Limits Learning                  [1 msgs]
+          Innateness of language [was If Knowledge Limits Learning]   [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 32586 bytes.
+
+----------------------------------------------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Mon, 18 Jul 1994 19:11:06 -0400
+Subject: [#94-7-192] emergence defined
+
+ derek@cs.wisc.edu  (Derek Zahn) writes in X-Message-Number: #94-7-129:
+>Mm.  So, are chess endgames of this kind emergent or not?  It seems you
+>want to say not, since we can look up the answer in some hypothetical
+>data structure enumerating the possibilities, a process that is faster
+>than "simulation" by searching the game tree (and since I asked you
+>for a non-emergent phenomenon).  But what about chess starting from
+>move 1?  Just a bigger "book of chess endings", right? Can't I build
+>a book like that for weather too?  And for neural nets?
+
+ A book of chess endings is not a full-fledged lookup table. It is a
+set of rules reflecting our knowledge of how chess works, enabling us
+to classify an unmanageably large number of possible positions into
+a small enough set that a human can handle them.
+ I would be very surprised if you could do the same for weather or
+chess from move 1 in the forseeable future.
+-----------------------------------------------------------
+Peter McCluskey | pcm@world.std.com | Repeal Gresham's Law!
+-----------------------------------------------------------
+
+------------------------------
+
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Date: Sat, 23 Jul 1994 02:54:50 -0400
+Subject: [#94-7-193] Building a resource list
+
+  I am doing a similar thing now for Internet mailing lists.
+I would appreciate your recommendations - please send me subscripton info
+and a short (up to a page) description of each of your favorite lists.
+I'll make the information available shortly.
+
+Sasha.
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Mon, 18 Jul 1994 19:11:30 -0400
+Subject: [#94-7-194] If Knowledge Limits Learning 
+
+ price@price.demon.co.uk  (Michael Clive Price) writes in X-Message-Number: #94-7-153:
+
+ In the context of single neuron learning, it seems a bit strange for
+Robin to call hand-crafted input representations built-in knowledge, since
+I normally think of that as guidance from an external teacher. But there
+has to be some built-in knowledge in the nervous system, either in the
+form of hard-wired connections or non-random initial weights, to explain
+the learning patterns we observe. And the fact that we don't know how to
+improve on random weights only shows that it is a hard problem.
+
+>Structuring the net means choosing the number of hidden layers, nodes
+>per layer etc.  You seem to be talking about brain architectures,
+>whereas I am talking about the connection strengths, which are usually
+>randomised at start, which seems the more relevant point.  The types of
+>knowledge contained in the architecture and the knowledge contained in
+>the more dynamic connections are probably completely different and
+>inequivalent.  It could be very dangerous to draw an analogy between
+>them.
+
+ I am having a hard time imagining any major dangers.
+
+>> Also, it is natural to think of the basic "local learning rules" 
+~>> as embodying at least a few knowledge chunks.
+>
+>No, I don't see this at all.  Since I'm guessing that the same "local
+>learning rules" will operate on all scale networks then they contain no
+>knowledge about the environment or any species-specific information.
+
+ Based on my experience with neural nets, I don't believe that learning
+rules scale up tractably. Backprop-like rules are only usefull at a level
+equivalent to a single neuron. I expect that something like Edelman's Neural
+Darwinism is needed to explain the next level up (which neurons talk to which).
+
+>> The concept of knowledge chucks was created to help explain cognitive
+>> science data on real humans (running on real neural nets).  The idea
+>> that people who know more about some area can discover things about
+>> it faster is also well supported by data on people.
+>
+>So why do people learn faster when younger?  I was under the impression
+>that learning rates drop with age.  Look at language acquisition, for
+>instance.  Back propagation work fastest at the beginning, as well.
+
+ If the human mind were one big backprop net, it would stop any usefull
+learning before birth. I think that there are 2 elements to the phenomenon
+you note. First, there is something like backprop's learning rate parameter,
+which may decrease with age or as a function of the "surprise value" of new
+inputs (which should normally diminish with age).
+ Second, there is the fact that people try to fit new data into existing
+concepts before attempting to create new concepts. I think Robin is concerned
+mainly with adding totally new concepts, not the much easier problem of adding
+new data that fits within existing concepts.
+ There was an talk at Alife 4 by John Batali on "Innate Biases and Critical
+Periods: Combining Evolution and Learning in the Acquisition of Syntax".
+He showed that much of the language acquisition behavior seen in humans can
+be explained by the assumption that the neurons involved in language settle
+into a set of weights consistent with one grammar in early childhood. This
+makes it harder to learn new grammar types because the networks are "stuck"
+in a region corresponding to the 1st grammar. This model shows that
+non-random initial weights will limit the possible grammars that a human
+can learn (helping to explain why all human languages share some features).
+It also explains why children not exposed to language by a certain age
+can't learn a language (they learn a grammar that is based on noise).
+
+ kwatson@netcom.com  (Kennita Watson) writes in X-Message-Number: #94-7-149:
+>I think the neural net could learn about the world at the same rate as the
+>human if and only if it had the same level of feedback, and the same
+>ability to affect its environment in ways that are meaningful to it, that
+>the human has.
+
+ Existing neural net models either learn what they are told, or learn to
+categorize. Humans exhibit learning which does not fit within these rules.
+
+-----------------------------------------------------------
+Peter McCluskey | pcm@world.std.com | Repeal Gresham's Law!
+-----------------------------------------------------------
+
+------------------------------
+
+From: EdRegis@aol.com
+Date: Sat, 23 Jul 94 09:42:11 EDT
+Subject: [#94-7-195] Building a resource list
+
+Will:
+
+Your list is a great idea, and I may contribute some items sooner or later.
+ Meantime, can you translate the Bacon quote?  Namely,
+>>Nam et ipsa scientia potestas est.
+>>--Francis Bacon
+
+Thanks,
+Ed
+edregis@aol.com
+
+
+------------------------------
+
+From: marym@Finesse.COM (Mary Morris)
+Date: Sat, 23 Jul 1994 11:37:55 +0800
+Subject: [#94-7-196] Innateness of language [was If Knowledge Limits Learning]
+
+carlf@media.mit.edu writes:
+
+> The general concensus in the lingustics community seems to be that human
+> lingustic aptitude is qualitatively rather than quantitatively different
+> from simian aptitude.  One important piece of evidence for this is that
+> human children learn some rules of grammar before they have been exposed to
+> enough evidence to know that they are the correct rules.  Thus, there must
+> be some innate bias in the learning process that directs children in the
+> right direction.
+
+Recently, I saw an article in Discover about grammar and language complexity
+in people deaf from birth. It was interesting to find out that 
+all of the complexities that we know as spoken language are used
+in sign language. This sounds like an innate human characteristic
+to me. But is it hard coded?
+
+Deaf children that had been isolated all of their lives were brought 
+together in one incident. It appears
+that they "spontaneously" evolved their own grammar once they were
+in a large enough group. This didn't happen when the deaf children
+were separated. If this is true, maybe one AI system alone can't 
+equal our development. I would speculate that it would need a sort 
+of cross-pollenation with other AI's at its development level.
+Complex memes may evolve out of simple ones, but I don't think
+that the reproduction is asexual.
+
+Mary Morris
+
+------------------------------
+
+From: James Daugherty <jhdaugh@garnet.msen.com>
+Date: Sat, 23 Jul 1994 17:22:56 -0400 (EDT)
+Subject: [#94-7-197] A-albionic Research Up-date:  Is Caesarism The Conspiracy?
+
+Reprinted with permission from the Summer-Fall 1991 Project, Vol VIII, 2-3
+
+This article is not copyrighted, but please do not remove the name and
+address of the publisher:
+
+    A-albionic Research, PO Box 20273, Ferndale, MI 48220-0723
+
+     
+                    Is Caesarism the Conspiracy?
+
+	An enormously popular conspiracy theory (that was perhaps best
+presented in Taylor Caldwell's novel, A Pillar of Iron [Life of Cicero])
+holds that the ultimate goal of the ruling class/conspiracy for America
+consists in moving from the virtues of "Republic" with its rigorous limits
+on government power, rule of law, and checks and balances to the
+degradation of unlimited rule or "Caesarism" of one man.  This theory
+implies, but does not often explicitly state, that America as a social
+organism is in morphic resonance a la Sheldrake's Presence of the Past
+with Rome, perhaps through the intentional seeding of America by the
+Founders Fathers with Roman forms and archetypes:  bicameral legislature,
+Senate, architecture, etc, etc. 
+
+	Those unfamiliar with the remarkable parallels between the
+America's system and history and that of Rome need to read Amaury de
+Riencourt's The Coming Caesars and American Empire and Haskell' New Deal
+In Old Rome.  While Haskell deals with the parallel resort to collectivist
+economic measures under the impoverishing strain and drain of Imperial
+adventure, more fundamentally, de Riencourt demonstrates the similarity of
+America's and Rome's geopolitical positions, namely that of representing a
+more powerful new Imperial embodiment of an old culture--America of
+England/Europe and Rome of Greece.  Rome was responsible for defending
+Greece from the alien Parthian empire to the East as America has been
+responsible for defending Europe from the hostile Soviet Union to the
+East.  De Riencourt examines in detail how under the stress of world
+empire and domestic economic pressures the tendency toward mass democracy
+culminating in Caesarism is inevitable in the Republican system shared by
+America and Rome.  Though America has so far avoided the fall into true
+Caesarism or "Presidents for Life", Franklin Roosevelt can only be viewed
+as a very close call, a close call indeed, and other presidents such as
+Jackson, Wilson, and Lincoln have risen to near Caesar status. 
+Apparently, the American system, in contrast to that of Rome, can provide
+an "Imperial Presidency" for the duration of a crisis (Military or
+Economic), but return rather smoothly to Congressional Bickering after the
+crisis has passed. 
+
+	Perhaps this helps provide a key to where the Taylor Caldwell
+theory that "the conspiracy equals Caesarism" misses the mark.  It is not
+"Caesarism" that the ruling class/conspiracy wants (Caesar can be as
+difficult to control as Congress).  It is successful World Imperialism
+best typified by Rome.  Rome's Empire was not a product primarily of the
+Emperors, but of the Republic!  The Masonic conspiracy modeled America's
+political forms on Rome's because they were forms known to be compatible
+with the future World Imperial role they sought for America (Novus Ordo
+Seclorum--New Order of the Ages).  The Masonic conspiracy fashioned a
+Presidency that would be "Imperial" as required, but could always be
+checked by the "Money Power" through Congress and the Supreme Court, the
+States, or the people to avoid the notorious excesses and "flakiness" of
+all powerful Emperors that did much to undermine the Roman Empire. 
+      
+	So far, the question in America remains:  whose Congress? whose
+President? whose Supreme Court? whose Governor? whose People? The
+Vatican's or Queen's?  Maybe eventually, if the growing "multi-cultural"
+ethnic tribalism and "Balkanization" makes America ungovernable
+democratically, Whose Caesar! 
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ @@Caesarism: Essence of the Conspiracy?@@
+
+The following books relating to "Caesarism" are stocked by A-albionic for
+immediate shipment.  However, it is best to ask if the rare or out-of-print
+items are ready for shipment or on back order.  E-mail jhdaugh@mail.msen.com
+for information.  Add $3.00 for postage and handling per order, not per book.
+
+A-albionic Research, PO Box 20273, Ferndale, MI 48220-0273
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Title: America's Oldest Secret
+Subtitle:
+The Talisman of the United States--The Mysterious Street Lines of 
+Washington DC--Signature of the Invisible Brotherhood
+Author: Westbrook, Jr., Ph.D., Charles L.
+Year: 1990 Pages: 123 Paperback Price: $55.00, Rare, out-of-print
+Contents:
+Congruent with Trudhope and Hieronimus on the secret society founding 
+of America.  Sheds light on the role of symbols in art and 
+architecture in seeding, nurturing, and guiding a new social organism.
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Title: American Empire
+Subtitle:
+
+Author: De Riencourt, Amaury
+Year: 1968 Pages: 0366 Hardcover Price: $42.00 Out-of-Print
+Contents:
+Refusal to consistently apply the term "Empire" leads many 
+conspiriologists astray.  This follow-up to De Riencourt's The Coming 
+Caesars is extremely useful for its thorough, illuminating survey of 
+the roots of Anglo-American Imperialism and it progress during the 
+Post WWII period:  Roots, Suicide of Europe, Pearl Harbor: Genesis of 
+Empire, Cold War:  Establishment of Empire, Suez, Commonwealth, 
+Pacific Frontier, Hawaianization of the Orient, 
+Latins-Guerrillas-Anarchists, Race and Africa, Economic Hegemony, The 
+Great Condominium.  De Riencourt is especially good for broaching the 
+Anglo-American geopolitical strategy of covert alliance with the 
+Soviets.
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Title: Cicero and Sallust
+Subtitle:
+On the Conspiracy of Catiline
+Author: Barnes & John T. Ramsey, E. J.
+Year: 1988 Pages: 0090 Paperback Price: $22.00 Out-of-print
+Contents:
+Latin textbook exploring the famous archetype which appears to set the
+tone for the American politics of envy. 
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Title: Coming Caesars
+Subtitle:
+
+Author: De Riencourt, Amaury
+Year: 1957 Pages: 0384 Hardcover Price: $37.50 Out-of-print
+Contents:
+This book created a sensation when it was first released.  Few then or
+now want to apply the word "Empire" or "Imperial" to the nature of 
+America's world role, a role recently re-demonstrated inn Iraq.  Under 
+the barrage of daily news, America's failures and short-comings take 
+precedence in the minds of most thinking Americans, creating an 
+"underdog", "persecution complex" mind set which, conveniently for the
+"Imperial Conspirators", blinds those without a firm historical 
+overview to Imperial reality.  Communist overuse of the term 
+Imperialism in their tired propaganda has also blinded otherwise 
+intelligent Americans to reality.  It is refreshing to see the term 
+used properly by a non-communist.  De Riencourt's prejudices, if any, 
+appear to lie in the direction of "European Culture" or perhaps, 
+covertly, the French, anti-Anglophile nationalism of Charles DeGaul.  
+Note:  De Riencourt is especially good in illuminating the 
+similarities of the Imperial roles of Greece/Rome and Britain/America.
+ 
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Title: New Deal in Old Rome
+Subtitle:
+
+Author: Haskell, 
+Year: 194? Pages: 0285 Hardcover Price: $35.00  Out-of-print
+Contents:
+Details remarkable parallels between evolution of American and Roman 
+social and economic policy.
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Title: Pillar of Iron
+Subtitle:
+The Life of Cicero
+Author: Caldwell, Taylor
+Year: 195? Pages: 0350 Paperback Price: $15.00 Out-of-print
+Contents:
+Novel detailing theory that Julius Caesar overthrew the Roman Republic
+as part of a well-planned conspiracy.  Astounding parallels with the 
+evolution of America.
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Title: Twelve Caesars
+Subtitle:
+
+Author: Suetonius, Gaius Tranquillus
+Year: 120? Pages: 0362 Paperback Price: $7.00  In print
+Contents:
+Provides a raw view of Roman paganism from a contemporary of the 
+Caesars.  Conscious copying of Roman governmental, legal, and 
+architectural forms by America's founding fathers is disturbing in the
+light of Roman "satanic" practices of animal sacrifice, torture, blood
+sports, imperialism, etc.  Is this book "good history" or simply 
+"National Inquirer" style literature from another era?  Or, Christian,
+anti-Pagan propaganda passed off as an original historical document?
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Title: Worship of Augustus Caesar
+Subtitle:
+
+Author: Mar, Alexander del
+Year:  Pages: 370 Hardcover Price: $12.00
+Contents:
+A history of the Satanic worship of the Caesars as God in Rome!
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+Number of entries in this catalog:      8
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/////////////////////////////////////
+James Daugherty, volunteer Postmaster for A-albionic Research, a ruling
+class/conspiracy research resource for the entire political-ideological
+spectrum.  Quarterly journal, book sales, rare/out-of-print searches, and
+custom research since 1984.  Introductory information and free articles
+and catalogs are located in the New Paradigms section of the Msen Market
+Place (Gopher) and Msen ftp site. ftp.msen.com (/pub/vendor/a-albionic)
+
+For those without Gopher or ftp Service or to be added to our Weekly
+Up-date List: e-mail jhdaugh@mail.msen.com, fax 1-313-885-1181, or snail
+mail A-A Research, POB 20273, Ferndale, MI 48220. 
+
+
+
+
+
+------------------------------
+
+From: James Daugherty <jhdaugh@garnet.msen.com>
+Date: Sat, 23 Jul 1994 20:24:08 -0400 (EDT)
+Subject: [#94-7-198] A-albionic's Scoop Circa 1992!  Pegged Bill Clinton
+
+	A-albionic Research was one of the first to predict Bill Clinton
+is a Georgetown Jesuit-Vatican-SMOM agent, not a Oxford-Anglophile.  The
+current conflict between Clinton and the British over Ireland, Bosnia,
+and, now, Germany proves they were right!  
+
+	As being reported by LaRouche and others, the British are leading
+the anti-Clinton press campaign.  What LaRouche won't tell you is that the
+American press is comparatively silent only for fear of Clinton's powerful
+Vatican-Rockefeller backers.  Of course, most of the charges against
+Clinton are true, contrary to LaRouche!  The Clintons are immoral,
+self-indulgent, statist YUPPIES!
+
+	Apparently, judging from the antics of Jay Rockefeller, the
+Rockefellers wrote and want the Clinton Health Care plan very badly so
+their Corporations can renounce their health care comittments to retirees. 
+
+	The following article from the Fall 1992 Project, Vol IX, No 3 is
+not copyrighted.  However, please keep the publisher's address attached: 
+A-albionic Research, PO Box 20273, Ferndale, MI 48220.
+
+
+                               Who Is Bill Clinton?
+                             ***********************
+
+    As a teen-ager, I heard John Kennedy's summons to citizenship. And
+then, as a student at Georgetown, I heard that call clarified by a
+professor I had named Carroll Quigley, who said America was the greatest
+country in the history of the world because our people have always
+believed in two great ideas: first, that tomorrow can be better than today
+and, second, that each of us has a personal, moral responsibility to make
+it so. 
+
+                             ************************
+
+      By this time, most readers will have heard of Bill Clinton's amazing
+statement (above) which was part of his acceptance speech.  Ruling
+class/conspiracy theorists cannot but suspect a "secret message" to covert
+forces, in spite of Clinton's "time at Oxford" as a Rhodes Scholar (he did
+not graduate), proclaiming the Presidential candidate's ultimate loyalty
+to the Vatican-Jesuit forces of Georgetown University as opposed to
+Anglophile, Judeo-Masonic Skull and Bones roots of his opponent George
+Bush.  Note Clinton's mention of Quigley's pro-progress attitudes. 
+Quigley was a pro-growth Keynesian who condemned the Anglophile
+International Bankers for their tight money, no-growth, usurious policies
+in typical Catholic, easy money fashion (a la LaRouche?). 
+
+      Quickly on the heels of Clinton's statement, the "responsible
+conservative", Buckley orbit, Moon- Cult owned, Washington Times printed
+(see below) an attempted neutralization of Clinton's statement indicating
+the continuing belief of the Vatican forces that their control of Bush, in
+spite of his roots and "liberal" tendencies, is sufficient to justify
+their continued support, especially in light of Clinton's likely inability
+to resist, even if his covert message was sincere, liberal-left
+controllers surrounding him in the Democratic Party.  Or, or in addition,
+the Vatican forces may have been allaying momentary fears that Clinton
+might be a conservative or even a covert Birch Society sympathizer, thus
+maintaining him as their "ace in the hole" should Bush founder. 
+
+________________________________________________________________________
+
+
+Washington Times (WT) - Wednesday, July 22, 1992 
+By: John Elvin THE WASHINGTON TIMES 
+Edition: Final  Section: NATION INSIDE THE BELTWAY  Page: A6 
+Word Count: 918 
+ 
+CLINTON A BIRCHER? 
+ 
+   You know how things get a little garbled as they travel from gossipist
+to gossipist.  Yesterday we heard through the grapevine that one of Bill
+Clinton's heroes is also revered by the John Birch Society. 
+ 
+   Close, but not quite on target. The hero in question is the late
+Carroll Quigley, a Georgetown University professor who wrote several books
+on world affairs.  In one, he explained that there is an establishment
+anchored on the East Coast - composed mainly of financiers, journalists
+and government leaders - that is working to bring about world government.
+The group was a branch of an organization founded in England under the
+guidance of Cecil Rhodes. 
+ 
+   The John Birch Society sells two of Mr. Quigley's books. Tom
+Eddlam,research director for the group, says the book "Tragedy and Hope"
+is "an affirmation of what we have been saying."
+ 
+   "He is one of the few insiders who came out and exposed the Eastern
+establishment plan for world government," Mr. Eddlam said. "He detailed
+the plan, he'd seen the documents, he wanted it to work."
+ 
+   Mr.  Quigley, then, is a Birch hero only in the sense that he
+documented the group's claims of an internationalist "conspiracy."
+Otherwise, his internationalism is in total opposition to the legendary
+Birch nationalism. And poor Mr. Quigley - he didn't live to see a day when
+one candidate, George Bush, would staunchly advocate the New World Order,
+and the other, Mr. Clinton, would be a proud member of the Trilateral
+Commission and would sing Mr. Quigley's praises in his acceptance speech. 
+ 
+________________________________________________________________________
+
+      Thus, the Washington Times trotted out the old Birch Society myth
+that Carroll Quigley was an "Insider" committed to the New World Order of
+the Judeo-Masonic conspiracy.  In fact, as we have shown previously,
+Quigley was a tool of the Georgetown Jesuit/Vatican conspiracy for the Old
+World Order, that is, the old "International" conspiracy of the Pope to
+manipulate a world of "sovereign" nation states and Empires.  Only in the
+sense that Quigley, as all Catholics must and many Birchers do, support
+the Internationalism of the Vatican (or "Christendom"), is it true that
+Quigley was not an American Nationalist- Isolationist of the Birch Society
+stripe.  Likewise, he was an "Insider" of the Judeo-Masonic conspiracy
+only to the extent that Vatican influencials are routinely admitted to
+Judeo-Masonic controlled "prestige" institutions such as the Trilateral
+Commission, CFR, Bilderbergers, etc. to extend their influence beyond the
+automatically loyal.  As he revealed in Tragedy and Hope, Quigley favored
+much of the Judeo-Masonic (International Banker) movement toward world
+government (or what he more often called collective security and
+international law), but opposed the dominant role proposed for the
+Anglo-American cabal!  {"..I have no aversion to it or to most of its aims
+and have, for much of my life, been close to it and to many of its
+instruments.  I have objected, both in the past and recently, to a few of
+its policies (notably to its belief that England was an Atlantic rather
+that a European Power and must be allied, or even federated, with the
+United States and must remain isolated from Europe)"...page 950 Tragedy
+and Hope.}
+
+      Note, when the full quote is made in context, the sly humor of
+Quigley's statement of "support for the conspiracy", only the first part
+of which has been so often quoted by Cleon Skousen, Gary Allen, G. Edward
+Griffin, and other Birchers!  Quigley struck at the then very heart of the
+conspiracy's Anglophile plans!  Since then, after years of "Bilderberger"
+meetings with Vatican and other continental forces, Britain has apparently
+agreed to become a Continental rather than an Atlantic Power. As I write,
+this question is again being raised as European Unification threatens to
+falters over currency issues between Britain and Germany. 
+
+      In spite of the apparent victory for the "continental" or Vatican
+forces over Britain's traditional separateness from Europe, this issue
+may, in fact, be far from settled.  British Israel (the covert voice of
+the Crown?) continues to predict an early death in cataclysmic war for the
+Pope's unified Europe.  Is Yugoslavia a fire set by the Anglo cabal in
+hopes of bringing this "Bible prophesied" event about?  There can be
+little doubt that Bush, Baker, and Majors did everything they could to
+prevent Serbia's genocide from being stopped. 
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/////////////////////////////////////
+James Daugherty, volunteer Postmaster for A-albionic Research, a ruling
+class/conspiracy research resource for the entire political-ideological
+spectrum.  Quarterly journal, book sales, rare/out-of-print searches, and
+custom research since 1984.  Introductory information and free articles
+and catalogs are located in the New Paradigms section of the Msen Market
+Place (Gopher) and Msen ftp site. ftp.msen.com (/pub/vendor/a-albionic)
+
+For those without Gopher or ftp Service or to be added to our Weekly
+Up-date List: e-mail jhdaugh@mail.msen.com, fax 1-313-885-1181, or A-A
+Research, POB 20273, Ferndale, MI 48220 (Snail mail info pack on request).
+
+
+
+
+
+------------------------------
+
+End of Extropians Digest V94 #204
+*********************************
+

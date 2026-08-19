@@ -1,0 +1,997 @@
+From extropians-request@gnu.ai.mit.edu Sat May 15 01:24:05 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA13795; Sat, 15 May 93 01:24:04 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA17141; Sat, 15 May 93 01:24:00 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA11139@wookumz.gnu.ai.mit.edu>; Sat, 15 May 93 04:18:18 -0400
+Message-Id: <9305150818.AA11139@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Sat, 15 May 93 04:17:58 -0400
+X-Original-Message-Id: <9305150817.AA11131@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0262
+X-Extropian-Date: Remailed on May 15, 373 P.N.O. [08:18:17 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Sat, 15 May 93            Volume 93 : Issue 0262
+                        
+Today's Topics:
+                    Flying Swami Sucked Into Jet Engine!              [5 msgs]
+               Forward: May 10 Network World, clipper article         [1 msgs]
+                        GAME: To play or not to play?                 [1 msgs]
+                      Guns in Cars - A Plaintive Cry...               [1 msgs]
+                I-N: Group Dynamics and a Question for Harry          [1 msgs]
+                      PHIL: The Utility of Mathematics                [1 msgs]
+                              Print Set-Up Time                       [1 msgs]
+                  TECH/PHIL: (non)interactive entertainment           [1 msgs]
+                 gathering at ConFrancisco (was: quick ones)          [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50176 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 14 May 93 14:31:20 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Flying Swami Sucked Into Jet Engine!
+
+(Several Extropians have reported symptoms of "Pandit Withdrawal," a
+condition of hyper-rationality and longing for juicier topics than how to
+print instant books. In my role as an Avatar of Pandit (Hint: who do you
+think Pandit really was?), I am forwarding this news item.)
+
+"Flying Swami Sucked Into Jet Engine!"
+
+by Tim Skelly, Weekly World News, date unknown, clipping provided by R.
+McAllister
+
+NEW DELHI, India -- A flying swami died one of the most horrible deaths
+imaginable when he veered in front of a commercial airliner as it prepared
+for takeoff -- and was sucked into one of its roaring jet engines!
+
+(photos of swami, of jet, and of front intake of jet engine.)
+
+"I'm still having nightmares about it," declared Amitav Tamil,  a ground
+crew worker who witnessed the tragedy at the airport north of New Delhi.
+
+"I was working on the tarmac behind the main terminal when the holy man
+flew by and I knew that something bad was going to happen.
+
+"I turned to see where he was going and saw him disappear in front of the
+plane. Then I heard a sickening 'whoosing' noise  and saw blood and bits of
+flesh shoot out the back of the jet.
+
+"Those big engines have blades like a fan inside their housings. They
+obviously tore him to shreds."
+
+Aviation authorities who investigated the February 11 incident called it "a
+most unusual case." But they quickly ruled that the pilot of the Air Rama
+jet couldn't be held responsible for the death of 78-year-ole Kumoran
+Samiti because the swami "had no business flying through restricted air
+space without a plane."
+
+Nobody can explain why the holy man decided to demonstrate his ability to
+soar through the air at the airport.
+
+But his friends said the swami's eyesight was failing and suggested that he
+might have flown over the runway by mistake.
+
+"Kumoran has performed many miracles over the years and I've never known
+him to be injured once," said Ravi Ramanadan, who identified himself as a
+disciple of the holy man.
+
+"One time he buried his head in the ground and went without food or water
+for 23 days.
+
+"Another time he jumped from a 20-story building with nothing to break his
+fall and floated to the ground as gently as a feather.
+
+"Unfortunately his eyes were failing him. I think he flew into the jet
+because he couldn't see where he was going."
+
+Parapsychologist Narayan Khandkar, who has written extensively on Hindu
+holy men, said Samiti "had powers and abilities the rest of us can only
+imagine."
+
+"Losing him is a tragedy of the first magnitude," he added. "We had much to
+learn from him."
+
+
+
+------------------------------
+
+Date: Fri, 14 May 1993 17:55:26 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: PHIL: The Utility of Mathematics
+
+At the request of several posters, I'll discuss here the best current
+understanding of the relationship between mathematical and empirical
+knowledge.  We'll focus on two questions: (1) does mathematics have some sort
+of deep metaphysical connection with reality, and (2) if not, why is it that
+mathematical abstractions seem so often to be so powerfully predictive in the
+real world?
+
+				***
+
+In my last essay, on metaphysics and epistemology, I described mathematics as
+the model of a priori knowledge in the Aristotelian tradition of rationalism.
+Among the Greeks, geometry was regarded as the highest form of knowledge, a
+potent key to the metaphysical mysteries of the Universe.  This is a rather
+mystical belief, and the connection to mysticism and religion was made explicit
+in cults like the Pythagoreans.  No culture since has semi-deified a man for
+discovering a geometrical theorem!
+
+The Greek awe of mathematical knowledge is still with us; it's behind the
+traditional metaphor of mathematics as "Queen of the Sciences".  It's been
+reinforced by the spectacular successes of mathematical models in science,
+successes the Greeks (lacking even simple algebra) could never have foreseen.
+Since Isaac Newton's discovery of calculus and the inverse-square law of
+gravity in the late 1600s, phenomenal science and higher mathematics have
+been closely symbiotic --- so much so, that the existence of a predictive
+mathematical formalism has become the hallmark of a "hard science".
+
+For two centuries after Newton, phenomenal science aspired to the kind of rigor
+and purity that seemed to be embodied in mathematics.  The metaphysical
+situation seemed simple; mathematics embodied perfect a priori kmnowledge,
+those sciences able to most mathematicize themselves were the most successful
+at phenomenal prediction; perfect knowledge would therefore consist of a
+mathematical formalism, arrived at by science and embracing all of reality,
+that would ground a posteriori empirical understanding in a priori rational
+logic.  It was in this spirit that Condorcet dared to imagine describing the
+entire universe as a mutually-solving set of partial differential equations.
+
+The first cracks in this inspiring picture appeared in the latter half of the
+19th century when Riemann and Lobachevsky independently proved that Euclid's
+Axiom of Parallels could be replaced by alternatives which yielded consistent
+geometries.  Riemann's geometry was modeled on a sphere, Lobachevsky's on a
+hyperboloid of rotation.
+
+(BTW, Riemann may have been traceably a relative of mine --- the name
+"Riemann" is the German form of Raymond, and is associated with
+Alsace-Lorraine from which my direct-line ancestors emigrated.)
+
+The impact of this discovery has been obscured by later and greater upheavals,
+but at the time it broke on the intellectual world like a thunderbolt.  For the
+existence of mutually inconsistent axiom systems for geometry, *any of which
+could be modelled in the phenomenal universe*, called the whole relationship
+between mathematics and physical theory into question.
+
+When there was only Euclid, there was only one possible geometry.  One could
+believe that the Euclidean axioms consitututed a kind of perfect a priori
+knowledge about geometry in the phenomenal world.  But suddenly we had
+three geometries, an embarrassment of metaphysical riches.
+
+For how were we to choose between the axioms of plane, spherical, and
+hyperbolic geometry as a description of "real" geometry?  Because all three are
+consistent, we couldn't choose on any a priori basis --- the choice had to
+become empirical, based on their predictive power for a given situation.
+
+Of course, physical theorists had long been accustomed to choosing formalisms
+to fit a scientific problem.  But it had been widely, if unconsciously, assumed
+that the need to do so ad hoc was a function of human ignorance; that, given
+good enough mathematics and logic, we could *deduce* the correct choice from
+first principles, producing a priori descriptions of reality to be confirmed,
+as an afterthought, by empirical check.
+
+But now, the Euclidean geometry that had been considered the model for
+axiomatic perfection in mathematics for over two thousand years, had been
+dethroned.  If one could not know something as fundamental as the geometry of
+space a priori, what hope was there for a purely "rational" theory encompassing
+all of nature?  Psychologically, Riemann/Lobachevsky struck at the very heart
+of the enterprise of mathematics as it was then conceived.
+
+Furthermore, Riemann/Lobachevsky called the nature of mathematical intuition
+into question.  It had been easy to believe implicitly that mathematical
+intuition was a form of perception --- a glimpse of the Platonic noumena behind
+reality.  But with two other geometries jostling Euclid, nobody knew for sure
+what the noumena looked like any more!
+
+Mathematicians responded to this dual problem with an increase in rigor, by
+trying to apply the axiomatic method throughout mathematics.  It was gradually
+realized that the belief in mathematical intuition as a kind of perception of a
+noumenal world had encouraged sloppiness; proofs in the pre-axiomatic period
+often relied on shared intuitions about mathematical "reality" that could no
+longer be considered automatically valid.
+
+(I wrote that last bit in the wee hours of the morning with Jimi Hendrix's
+"Voodoo Child" cranked way up on the radio behind me.  Seems appropriate.)
+
+The new thinking in mathematics led to a series of spectacular successes; among
+these were Cantorian set theory, Frege's axiomatization of number, and
+eventually Russell & Whitehead's monumental synthesis in _Principia_Mathe-
+matica_.
+
+However, it also had a price.  The axiomatic method made the connection
+between mathematics and phenomenal reality narrower and narrower.  At the
+same time, discoveries like Bolzano's Paradox suggested that mathematical
+axioms that seemed to be consistent with phenomenal experience could lead to
+dizzying contradictions with that experience.
+
+The majority of mathematicians quickly became "Formalists", holding that pure
+mathematics could not be philosophically considered more than a sort of
+elaborate game played with marks on paper (this is the theory behind Robert
+Heinlein's pithy characterization of mathematics as "a zero-content
+system"). The old-fashioned "Platonist" belief in the noumenal reality of
+mathematical objects seemed headed for the dustbin, despite the fact that
+mathematicians continued to *feel* like Platonists during the process of
+mathematical discovery.
+
+Philosophically, then, the axiomatic method lead most mathematicians to abandon
+previous beliefs in the metaphysical specialness of mathematics.  It also
+created today's split between pure and applied mathematics.
+
+Most of the great mathematicians of the early modern period --- Newton,
+Liebniz, Fourier, Gauss, and others --- were also phenomenal scientists
+("natural philosophers").  The axiomatic method incubated the modern idea
+of the pure mathematician as super-esthete, unconcerned with the merely
+physical.  Ironically, Formalism gave pure mathematicians a bad case of
+Platonic attitude.  Applied mathematicians stopped being invited to tea
+and learned to hang out with physicists.
+
+(This brings us to the early 20th century.  This is the line of development I
+alluded to in my previous essay when I said that the rise of the axiomatic
+method mathematicians to Peircean conclusions about the contigency of
+mathematics.)
+
+For the beleaguered minority of Platonists, worse was yet to come.
+
+Cantor, Frege, Russell and Whitehead showed that all of pure mathematics could
+be built on the single axiomatic foundation of set theory.  This suited the
+Formalists just fine; mathematics coalesced, at least in principle, from a
+bunch of little disconnected games to one big game.  It also made the Platonist
+minority happy; if there turned out to be one big, over-arching consistent
+structure behind all of mathematics, the metaphysical specialness of
+mathematics might yet be rescued.
+
+Unfortunately, it turns out that there is more than one way to axiomatize set
+theory.  In particular, there are at least four major different combinations
+of assumptions about infinite sets that lead to mutually exclusive set
+theories (the Axiom of Choice or its negation; the Continuum Hypothesis or
+its negation).
+
+It was Riemmann/Lobachevsky all over again, but on a much more fundamental
+level.  Riemannian and Lobachevskian geometry could be modeled finitely, in the
+world; you could decide at least empirically which one fit.  Mormally, you
+could regard all three as special cases of the geometry of geodesics on
+manifolds, thereby fitting them into the superstructure erected on set theory.
+
+But the independent axioms in set theory don't seem to lead to any results that
+can be modeled in the observable finite world.  And there's no way to assert
+both the Continuum Hypothesis and its negation in one set theory.  How's a poor
+Platonist to choose which system describes "real" mathematics?  The victory
+of the Formalist position seemed complete.
+
+In a negative way, though, a Platonist had the last laugh.  Kurt Godel threw a
+spanner in the Formalist program of axiomatization when he showed that any
+axiom system powerful enough to include the integers would have to be either
+inconsistent (yielding contradictions) or incomplete (too weak to decide the
+truth or falsehood of some assertions in the system).  
+
+And that is more or less where things stand today.  Mathematicians know that
+any attempt to put forward mathematics as a-priori knowledge about the
+universe must fall afoul of numerous paradoxes and impossible choices about
+what axiom system describes "real" mathematics.  They've been reduced to
+hoping that the standard axiomatizations are not inconsistent but incomplete,
+and wondering uneasily what contradictions or unprovable theorems are
+waiting discovery out there, lurking like landmines in the noosphere.
+
+				***
+
+Meanwhile, on the empirical front, mathematics continued to be a spectacular
+success as a theory-building tool.  The great successes of 20th-century physics
+(general relativity and quantum maechanics) wandered so far from the realm of
+physical intuition that they could be understood only by meditating deeply on
+their mathematical formalisms, and following through to their logical
+conclusions, even when those conclusions seem wildly bizarre.
+
+What irony.  Even as mathematical `perception' came to seem less and less
+reliable in pure mathematics, it became more and more indispensible in
+phenomenal science!
+
+Against this background, Einstein's famous quote wondering at the applicability
+of mathematics to phenomenal science poses an even thornier problem than at
+first appears.
+
+The relationship between mathematical models and phenomenal prediction is
+complicated, not just in practice but in principle.  Much more complicated
+because, as we now know, there are mutually exclusive ways to axiomatize
+mathematics!  It can be diagrammed as follows (thanks to Jesse Perry
+<jesse@franklin.com> for supplying the original of this chart):
+
+   +-------------------+			  +---------------+
+   | Real World System |			  | Formal System |
+   +-------------------+			  +---------------+
+	   ^	 |			            |     ^
+           |     |                          Theorems|     |
+	New|(A)  |Observations             and other|  (F)|Intuitions
+ hypotheses|     |		             results|     |about interesting
+        and|     |		           about the|     |theorems derived
+experiments|     |		              formal|     |from thinking
+	   |  (B)|               (C)           model|(E)  |about the model
+       	   |     V     	 Translation of nat.        V     |
+   +-------------------+ lang. model into math +---------------------+
+   |  Informal Model,  |---------------------->|   Formal Model,     |
+   |   developed in    |                       |   developed in      |
+   |  natural language |<----------------------|mathematical language|
+   +-------------------+  Predictions about    +---------------------+
+                          the penomenal system
+	                  inferred from formal
+                          results of the math.
+	        		 (D)
+
+The key transactions for our purposes are (C) and (D) --- the translations
+between a predictive model and a mathematical formalism.  What mystified
+Einstein is how often (D) leads to new insights.
+
+We begin to get some handle on the problem if we phrase it more precisely;
+that is, "Why does a good choice of (C) so often yield new knowledge via (D)?"
+
+The simplest answer is to invert the question and treat it as a definition.
+A "good choice of (C)" *is* one which leads to new predictions.  The choice
+of (C) is not one that can be made a priori; one has to choose, empirically,
+a mapping between real and mathematical objects, then evaluate that
+mapping by seeing if it predicts well.
+
+For example, the positive integers are a good formalism for coonting marbles.
+We can confidently predict that if we put two marbles in a jar, and then put
+three marbles in a jar, and then empirically associate the set of two marbles
+with the mathematical entity '2', and likewise associate the set of three
+marbles with the mathematical entity '3', and then assume that physical
+aggregation is modeled by '+', then the number of marbles in the jar will
+correspond to the mathematical entity '5'
+
+The above may seem to be a remarkable amount of pedantry to load on an obvious
+association, one we normally make without having to think about it.  But
+remember that small children have to *learn* to count...and consider how the
+above would fail if we were putting into the jar, not marbles, but lumps of mud
+or volumes of gas!
+
+One can argue that it only makes sense to marvel at the utility of mathematics
+if one assumes that (C) for any phenomenal system is an a priori given.  But
+we've seen that it is not.  A physicist who marvels at the applicability of
+mathematics has forgotten or ignored the complexity of (C); he is really being
+puzzled at *the human ability to choose appropriate mathematical models
+empirically*.
+
+By reformulating the question this way, we've slain half the dragon.  Human
+beings are clever, persistent monkeys who like to play with ideas. If a
+mathematical formalism can be found to fit a phenomenal system, some human
+will eventually find it.  And the discovery will come to look `inevitable'
+because those who tried and failed will generally be forgotten.
+
+But there is a deeper question behind this: why do good choices of mathematical
+model exist *at all*?  That is, why is there *any* mathematical formalism for
+(say) quantum mechanics which is so productive that it actually predicts the
+discovery of observable new particles?
+
+The way to `answer' this question is by observing that it, too, properly serves
+as a kind of definition.  There are many phenomenal systems for which no such
+exact predictive formalism has been found, nor for which one seems likely.
+Poets like to mumble about the human heart, but more mundane examples are
+available.  The weather, or the behavior of any economy larger than village
+size, for example --- systems so chaotically interdependent that exact
+prediction is effectively impossible (not just in fact but in principle).
+
+There are many things for which mathematical modeling leads at best to fuzzy,
+contingent, statistical results and never successfully predicts `new entities'
+at all.  In fact, such systems are the rule, not the exception.  So the proper
+answer to the question "Why is mathematics is so marvellously applicable to
+my science?" is simply "Because that's the kind of science you've chosen
+to study!"
+-- 
+							>>eric>>
+
+------------------------------
+
+Date: Fri, 14 May 1993 17:31:04 -0600
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: Flying Swami Sucked Into Jet Engine!
+
+>"Flying Swami Sucked Into Jet Engine!"
+
+Is this what they mean when they say that yogis can transport themselves
+into higher planes?
+
+T.O. Morrow                     --  twb3@midway.uchicago.edu
+Vice President: ExI             --  The Extropy Institute
+Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+
+
+------------------------------
+
+Date: Fri, 14 May 93 18:43:25 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Flying Swami Sucked Into Jet Engine!
+
+The silliness is the fault of Tim May, who wrote:
+
+> (Several Extropians have reported symptoms of "Pandit Withdrawal,"
+
+I've been experiencing "gastral projection"... anybody else?
+
+derek
+the scrofula is normal
+
+
+------------------------------
+
+Date: Fri, 14 May 93 15:58:29 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Flying Swami Sucked Into Jet Engine!
+
+> >"Flying Swami Sucked Into Jet Engine!"
+> 
+> Is this what they mean when they say that yogis can transport themselves
+> into higher planes?
+> 
+> T.O. Morrow                     --  twb3@midway.uchicago.edu
+
+You propeller-heads are really revving up! As Batman would say,
+"Turbines to speed..."
+
+Have you all heard about the nutty cult on Hawaii that's a mix between
+the voodoo tradition, which worships the "loas" (remember your
+Gibson?), and the Hawaiian pagan tradition? They are known as the
+"Mauna Loas," though I understand they are not taken seriously in the
+groves of macademia.
+
+A cyberspace-inspired bunch of these nuts are called the "Mona Loas."
+
+
+-Tim
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+
+
+------------------------------
+
+Date: Fri, 14 May 93 17:13:44 -0700
+From: freeman@MasPar.COM (Jay R. Freeman)
+Subject: Flying Swami Sucked Into Jet Engine!
+
+> A cyberspace-inspired bunch of these nuts are called the "Mona Loas."
+
+I think that what Tim is referring to is the common slang
+mispronunciation "Mona Loosas" of what is more accurately written
+in true hacker jargon as the "Mona Loosers" (sometimes also spelled
+the "Mona Lusers"), a CyberPagan cult/newsgroup based in Italy, whose
+secret recognition sign is an inexplicable smile ...
+
+                                      :-)
+
+                                      Jay Freeman
+
+--------------------------------------------
+The *other* Jay.  Also, the *other* Freeman.
+--------------------------------------------
+
+------------------------------
+
+Date: Fri, 14 May 1993 22:20:48 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Forward: May 10 Network World, clipper article
+
+The following text is presented for personal educational use only. It
+is not to be copied or otherwise used in a manner which violates
+rights of its copyright holders. This letter serves only as private
+communication to readers of the Extropian Mailing List.
+_________________________________________________________________
+
+
+Copyright 1993 Network World, Inc.  
+
+Network World
+
+May  10, 1993
+
+SECTION: INDUSTRY UPDATE; Pg. 29
+
+LENGTH: 889 words
+
+HEADLINE:  Clipper Chip  sets off storm of debate; Critics question 
+wisdom of using secret algorithm for both classified and unclassified 
+encryption.
+
+BYLINE: By Ellen Messmer and Bruce Schneier, Special to Network 
+World
+
+DATELINE: WASHINGTON, D.C.
+
+BODY:
+
+The Clinton administration's choice of the secret  Clipper Chip  
+encryption algorithm as a future government standard for unclassified 
+but sensitive data has touched off a storm of controversy within 
+industry and academia.
+
+The National Security Agency's (NSA) decision not to publish the 
+private-key  Clipper Chip  algorithm so it can be subjected to scientific 
+scrutiny breaks with accepted tradition in nonclassified commercial 
+encryption.
+
+The administration also wants the private sector to use  Clipper Chip.   
+But many throughout the industry assert that controlling unclassified 
+civilian encryption in the same manner as the military's classified 
+encryption will have a negative impact on business. Mykotronx, Inc. is 
+currently the only NSA-approved supplier of the  Clipper Chip  
+chipset.
+
+Without public discussion, the Clinton administration approved the  
+Clipper   Chip  proposal put forward by the NSA and the National 
+Institute of Standards and Technology (NIST) that will require vendors 
+selling products using the chipset to store an escrow key with the 
+government.   Splitting the key
+
+Although final details about the escrow scheme are still being worked 
+out, it will likely involve splitting the key between two or three 
+government agencies. Law enforcement officials would have access to 
+a users keys only under court order.
+
+At a recent congressional oversight hearing on privacy issues in 
+electronic communications, Sun Microsystems, Inc. criticized the 
+government's decision, which was made without advance industry 
+notification.
+
+"They have proposed a fundamental change in U.S. 
+telecommunications: the use of official U.S. government-endorsed and 
+developed encryption chips for inclusion in private communications 
+equipment," said John Gage, director of the science office at Sun, 
+adding the decision raises many questions.
+
+What will be the effect on U.S. business internationally, asked Gage. 
+"What is the foreign reaction to the U.S. government holding 
+decryption keys?  Will we always be able to get these chips? Will 
+foreign manufacturers, some of them our partners, always be able to 
+get them?" asked Gage before the House telecommunications 
+subcommittee.   Taking issue
+
+Les Schoyer, corporate vice president and director of network products 
+at Motorola, Inc.'s paging and wireless data group, also took issue with  
+Clipper   Chip.  "We have concerns about what appears to not be an 
+open technology," he said.
+
+Gilles Brassard, professor of mathematics at the University of 
+Montreal, who noted that the only way to test encryption algorithms is 
+through peer review, agreed.  "It is a giant leap backwards to rely on a 
+cryptosystem whose algorithms are kept secret," he said.
+
+The federal government is breaking new ground trying to keep the  
+Clipper   Chip  algorithm secret, according to Dennis Branstad, 
+computer scientist fellow at NIST. But he emphasized that software 
+vendors will be able to write applications to  Clipper Chip  using a 
+standard interface.
+
+Some, however, doubt that  Clipper Chip  will sell in the private sector. 
+"My customers don't buy my products because they want other people 
+reading their mail," said David Shayer, president of Sentient Software, 
+Inc. and author of the Macintosh DiskLock security program.
+
+The impact on U.S. exports is another issue being raised. "I believe the 
+Clipper will be useless as a means for protecting U.S. business 
+communications with foreign subsidiaries and partners," said Ross 
+Anderson, editor of Security Reviews, a publication in Cambridge, 
+England. "There was no coordination with the allies on the Clipper 
+announcement, so there is little good will."
+
+Jim Bidzos, president of RSA Data Security, Inc. pointed out that 
+"banking and finance are global today. Clipper does not comply with 
+any European banking security standards."
+
+RSA encryption algorithms, which are referenced in international 
+standards, are widely licensed throughout the computer and network 
+industry.  "Was a study of the potential impact of Clipper on U.S. 
+competitiveness conducted?" Bidzos asked.
+
+Mike Nelson, senior policy advisor in the White House Office of 
+Science and Technology Policy, defended the administration's decision, 
+saying the position on  Clipper Chip  came from the top after a close 
+review.
+
+"The vice president helped the agencies work together on this to get 
+the entire government behind it," he said.  However, Nelson said he 
+did not know why people in the industry were not consulted.
+
+"It is premature for NIST and NSA to be proposing standards before 
+we, as a society, have had time to debate whether U.S. citizens have a 
+right to absolutely private conversations," said Ronald Rivest, a 
+cryptographer at the Massachusetts Institute of Technology and one of 
+RSA's founders.
+
+Others disagreed, saying the escrow-key system is a good idea. 
+Dorothy Denning, professor at Georgetown University, called the  
+Clipper Chip  escrow system a good solution to the problem of 
+balancing the need for communications security with the needs of 
+legitimate law enforcement.
+
+Addison Fischer, president of Fischer International Systems, Inc., a 
+Naples, Fla., software firm, said the existence of the split escrow-key 
+system indicates  Clipper Chip  does not have a secret "back door" 
+since the government would now have a legal means of breaking the 
+algorithm.
+
+GRAPHIC:  Graphic, The  Clipper Chip/ Capstone connection; Photo, 
+John Gage, Director of the science office Sun Microsystems, Inc. 
+
+
+------------------------------
+
+Date: Fri, 14 May 93 17:38:06 MDT
+From: edlane@godot.Eng.Sandy.Novell.COM (Ed Lane)
+Subject: I-N: Group Dynamics and a Question for Harry
+
+First a question for Harry...
+
+While the extropian mailing list (the names) might be considered
+proprietary, I was wondering how many people (the cardinality) were on
+it.  While I have a feel for the number of "active" participants, I
+wonder how many "lurkers" are out there.  It's much like conducting a
+discussion in a darkened auditorium-- hard to know how many seats are
+occupied (and by whom).  From Paul Cisek's survey results it appears
+that with few exceptions that most of the respondants were already
+known to us through their postings.  Their "credentials" also come as
+no suprise to anyone who has followed the discussions.
+
+And now a follow up ...
+
+Many years ago I read of some experiments having to do with "Group IQ"
+as a function of group organization and size.  More recently I
+participated in a "workshop" which demonstrated this phenomenon.  I
+think that some of those results have some profound implications to
+this list.  One of the experimental results revealed that depending on
+group organization and size, that the group, "as a whole", was smarter
+than any individual in the group.  Other organizational schemes
+resulted in less desirable results.  I'm sure you've witnessed some of
+these in action yourself.  In the past, others have argued
+the futility of attempting to raise one's "personal" IQ, but there is
+clear evidence that raising group IQ is acheivable with just minor
+effort.  It seems that displaying contempt for another person's ideas is
+guanteed to evoke an immediate and future contention (just like the "real"
+world, huh?).  Say what you will about my mother, but leave my ~design~
+out of it 8^).
+
+Tim May observes:
+Date: Fri, 14 May 93 14:45:12 -0700
+From: tcmay@netcom.com (Timothy C. May)
+
+> (But maybe not, as I've been noticing the list is getting more and more
+> contentious as time goes on. Arguments are casually dismissed as
+> "Sounds like urban legend to me" or are dissected in excruciating
+> detail over the precise wording of some minor paragraph. Maybe this is
+> to be expected with "hyper-rationalists" like ourselves.
+
+It might be useful to agree on the type of forum we're engaged in
+here.  The tone and expectations for a particular "thread", once
+established, might eleviate some of the contention.  Comments made
+at 5 o'clock Friday don't always fly on Monday at 8.  Smiley faces may
+help but obviously don't eliminate conflicts.  Perhaps a "setting" or
+"tone" is appropriate with each thread.  I have mused from time-to-time
+with developing a human communication software package to facilitate
+these additional human ques.
+
+Some possible situational models include (feel free to add your own):
+
+Colloquium/Seminar
+Design Review Meeting
+Courtroom/Inquisition
+Cocktail Party
+Classroom (intimate-small)
+Classroom (formal-large)
+etc.
+
+All are appropriate "settings" of discussion. The problem seems to be
+that e-mail gives us no clues as to which rules of etiquette to apply.
+
+Gotta Go.
+
+-Ed
+<edlane@godot.Eng.Sandy.Novell.COM>
+
+------------------------------
+
+Date: Fri, 14 May 93 21:17:29 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: TECH/PHIL: (non)interactive entertainment
+
+re: "after reality become obsolete".  This cannot happen.  VR is of course
+PART OF reality, not a replacement for it.  Sorry for a short "correction"
+post, but that is a rather dangerous meme...
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Fri, 14 May 93 14:43:47 PDT
+From: tribble@memex.com (E. Dean Tribble)
+Subject: GAME: To play or not to play?
+
+	 Perhaps; does anyone have experience of playing games for self-improvement?
+	 What other games might one use for this purpose?
+
+Role-playing games!  I designed characters that emphasized some
+personality trait that I wanted to enhance, and then played them for a
+while.  The activity really did enhance the traits that I wanted to
+develop.  I got to experiment with those traits in a safe context
+where I could exaggerate the trait in order to learn about it.
+
+For instance, one was a dwarven fighter:  the property of dwarves that
+I emphasized is that when they finally decide to do something, they
+*will*not* stop.  This devlops a perserverance that is extremely
+useful.
+
+Another was a Seer character who never fought in battles ("I like to
+watch" :-) because such engagement would distract him from the
+perspective necessary to see surprises and long term goals.  He
+quickly found more useful ways to aid the party even in pitched
+battles because he was the only one keeping the goals in mind (how to
+learn not to flame :-)
+
+Characters where I chose a personality to emphasize were also the most
+fun to play.  Because I had some defined personality traits, and a
+reason to stick to them, I really *role* played and experienced events
+from a different perspective than my own.  This emphasis makes the
+game lots more fun, and incidentally made my characters more effective
+because they knew what they were about.  Of course it drove my GM mad
+when he would culminate an adventure in some really power magic item
+that had lots of offensive powers or some such, and my Seer character
+just wasn't interested in it.  The seer had gotten his reward by
+seeing some amazing thing happen in the world, which he could then go
+and relate to the university he worked at....
+
+I recommend this activity to anyone who wants to strengthen aspects of
+the personality.  It's also quite fun.
+
+dean
+
+------------------------------
+
+Date: Fri, 14 May 93 13:51:50 PDT
+From: tribble@memex.com (E. Dean Tribble)
+Subject: gathering at ConFrancisco (was: quick ones)
+
+I am in Los Altos Hills in a fine house for a party :-)  It's about 40
+min south of SF (near Stanford).
+
+dean
+
+------------------------------
+
+Date:     Sat, 15 May 93 7:33:23 GMT
+From: starr@genie.slhs.udel.edu
+Subject: Print Set-Up Time
+
+At ISIL I run an offset printing press that Ben Franklin would have loved,
+but it still has plenty of problems.  Harry's right that set-up time is
+a major limiting factor.  When up and running, it can print up to 7,000
+sheets of paper per hour.  However, changing color takes about half an hour,
+for example, between cleaning it and getting the new color up and running.
+
+Perry's also right that it would be too much trouble to have to make plates
+for each and every printing - if only because it would cost so damn much
+to dispose of them all!  ISIL published "A Liberty Primer," by Alan Burris
+on our press, and perfect-bound them (which only means that we collated the
+sheets, stacked them, and painted the left-hand side of the stack with glue,
+slit the volumes apart with a knife, then slapped a cover on the outside of
+'em).  We've also been perfect-binding the Freedom Network News (FNN) of late.
+
+Consider: we recently did a run of 5,000 of our newsletters, which were 26
+pages long - 13 sheets, both sides.  That's 65,000 pages, 130,000 runs through
+the press.  We did this with 26 plates, one for each page.  Plates cost a
+couple of bucks each.  Imagine if we had to make plates up specially for each
+copy!  That'd run into about $260,000, with a low estimate of $2/plate!  That's
+higher than ISIL's annual operating budget.  No way in hell could stores sell
+250-page books for $5 or so and profit if they had 250 plates to dispose of
+for each copy.
+
+Dani Eder's idea is better than this, in that it would basically replace the
+separate plates with a mechanical bitmap.  However, even assuming that the
+resolution was good enough (with linotronic plates we can get about 1000 dpi
+if we need to, although I think we settle for about 400 most of the time)
+this still wouldn't suffice.
+
+That would do the trick for one sheet at a time, maximum.  Assuming that it
+only took such a machine one second to print both sides of a sheet, for only
+a 250-sheet book, that's about a 5-minute printing job.  Then the pages have
+to be collated, which wouldn't take too much longer, and then bound, which
+still wouldn't add that much time.  But what about drying time for the ink
+and the glue?
+
+We could run the same sheet through, one side after the other, but the ink
+on the first side won't be dry enough yet for it to run smoothly on the
+second side.  We usually proceed on to the next sheet.  For example, with
+the above newsletter, we did all the odd-numbered sides first, then went back
+to the first sheet and did the even ones.  Without this drying time, the
+sheets simply will get jammed up and shredded by the press.
+
+Assuming the capacity to print both sides simultaneously, the sheet still
+won't be ready to be bound together with others because the ink will offset
+until dry enough.  Then once they're bound together, the binding glue won't
+be dry for at least half an hour, if not hours later.
+
+What's needed is something like cheap laserprinting and quick-drying binding
+glue.  Sounds like the laserprinting ain't cheap enough, and I have no idea
+if there is binding glue that dries fast enough.  Fast-drying glue will have
+the additional difficulty, though, of possibly drying before getting used.
+It would have to be sprayed on or something where it's stored in a liquid
+state with no opportunity to dry out.
+
+Through all this I've ignored problems with register, that is, the alignment
+of the print, and the various demons which possess presses from time to time.
+We need to call in an exorcist for ours, and soon!
+
+I think we'll get to online books before we'll get instant hardcopy books.
+CD-ROMS have the storage capacity, and monitors are starting to have the
+resolution in order to serve this purpose.
+
+One thing that could be integrated with this is to issue electronic books
+that could be put through a voice synthesizer, so that you could listen to
+your computer read them to you through your headphones or another speaker,
+rather than having to look at a screen.  This would be better than current
+audio books because you could search through the text visually until you
+found the part you were interested in at a much higher speed.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Fri, 14 May 93 14:04:40 PDT
+From: tribble@memex.com (E. Dean Tribble)
+Subject: Guns in Cars - A Plaintive Cry...
+
+I received this some time ago.  It's very well done...
+----------------------
+
+Friends, Angelenos, Car-Nuts, Lend me your ears...
+
+I was scared this weekend.  Amazing but true, I am one of a few
+people that I know that is *not* carrying a side-arm in the car.
+Those in my family and a few of my friends may find this shocking,
+but I hope to continue this until actual violence starts.
+
+I want to put this in writing, and I hope that it makes some sense.
+
+I am considered among some of peers an "expert" (though my relatives
+would giggle at that notion, since they are *real* experts) in
+firearms, and their lethal use.  Part of my reasoning to own a lethal
+weapon is that I consider it moraly correct to *kill* anything that
+threatens myself, my family or my rights (1st-10th).  I have made this
+decision and sleep very well with it.  Note the word kill.  If
+something threatens me, I will kill it.  That prevents it from *ever*
+threatening me again.
+
+I have a problem with people who own guns to protect themselves.  The
+problem is a linguistic one, yet it points to my problem with most
+people's gun ownership habits.
+
+If you own the gun to kill people while protecting yourself, that
+means that the purpose of the gun is to kill.  The role of the gun is
+clearly defined and you have clearly thought the whole process
+through.  Injuring the person does not solve the imeadiate problem,
+it moves it to a future time (minute, if he can recover, years if he
+is convicted).  Killing them solves the problem.
+
+By saying that you have a gun with you, or in your car, "for
+protection" says the you:
+
+    1. Intend to use it as a threat to hold the other person at bay,
+       or scare them.
+    2. You think the mere presence of a gun in your hand will prevent
+       trouble.
+    3. You might not kill when the chips are down.
+
+A gun in the hands of a person that does not intend to protect
+themselves by killing is an empty threat.  The other person will kill
+you with some weapon before you pull the trigger, or you will fire
+and miss (since it is not your intention to harm your attacker).  You
+only chance of "success" lies in the belief that your attacker is
+somehow rational enough to recognize their mortality and follow your
+instructions and stay for the police.  This is unlikely.  You must
+assume that rational people do not brandish weapons and attempt to
+violate other people and their property.  Ask yourself "do rational
+people generally engage in unlawful behavior like car-jacking,
+breaking-and-entering, assult, etc, etc?" Or are this people
+irrational, and therefore unlikely to follow your instructions or
+respond to your threat.  Unrational people will harm you, inspite of
+your gun.
+
+If you do intend to kill in protecting your life and liberty, then
+the question of carrying guns in your car is a tactical one.
+Assuming that you adhear to the current laws on transportation of
+firearms, then getting to your gun in time to prevent anything or
+kill any threat is impractical.  You will be dead before you ever get
+to your gun and your attacker will have another weapon to use on
+someone else.  Want proof? Sit in your car with your gun in the place
+where you intend to keep your gun.  Now try to unholster, load and
+point the gun within a count of three.  If you can, you might have a
+chance, otherwise, your irrational attacker will kill you.
+
+If you can do this, you are probably in violation of the vehical code
+on transporting a firearm.  And I doubt that you will be able to
+effectively aim and fire the gun.  You will be injured by glass,
+shrapnel, and whatever else, and you might end up on trial for "man-
+slaughter" since you carried the gun illegally.
+
+Finally, if you are pulled over and searched, you will be charged
+with carrying a loaded or concealed weapon in your car.  Most likely,
+during the riots, their will be traffic breaks and cars will be
+searched.  If you are carrying, and you could concievably get to your
+weapon, load it, in a count of three, the police will arrest you.
+
+Therefore, the rational choice is not to carry a gun in your car.
+
+How do you protect yourself?  Listen to the radio in your car and
+avoid areas of trouble.  Make sure your car is mechanically sound.
+
+If you are in a dangerous area, make a plan to get out quickly, and
+allow plenty of space between you and other cars.  If you get in a
+threatening situation, duck, hit the gas, and run.  If they kill you,
+then you are dead.  A gun could not have saved you.
+
+However, odds are that they cannot shoot thier weapon accurately, and
+will not be able to hit your moving steel target and you will make it
+out injured, but safe.
+
+I hope that someone listens, and I would love for everyone on this
+list to make this document available to anyone that they know that
+has started to carry a gun in their car/truck.  If nothing else, I
+would appreciate the distribution (anoymously, please) in the hope of
+spreading some sanity.
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0262
+****************************************
+

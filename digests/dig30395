@@ -1,0 +1,981 @@
+From extropians-request@gnu.ai.mit.edu Sat Jul 17 20:34:08 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA01903; Sat, 17 Jul 93 20:34:07 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA08445; Sat, 17 Jul 93 20:34:01 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA17528; Sat, 17 Jul 93 23:23:11 EDT
+Message-Id: <9307180323.AA17528@ude.tim.ia.ung.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Sat, 17 Jul 93 23:21:24 EDT
+X-Original-Message-Id: <9307180321.AA17521@ude.tim.ia.ung.gnu.ai.mit.edu>
+X-Original-To: Extropians@ude.tim.ia.ung.gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0395
+X-Extropian-Date: Remailed on July 18, 373 P.N.O. [03:23:01 UTC]
+Reply-To: Extropians@ude.tim.ia.ung.gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Sun, 18 Jul 93            Volume 93 : Issue 0395
+                        
+Today's Topics:
+                                3rd millenium                         [1 msgs]
+                             ADMIN: New Commands                      [2 msgs]
+                            An Interesting Topic                      [2 msgs]
+                     Computer Networks->State Controlled              [1 msgs]
+                      HEX: The Thorne is now divisible                [1 msgs]
+                        HEx: New Exchange Regulations                 [2 msgs]
+                         HUMOR/MEDIA: Witch Protest                   [1 msgs]
+                        Meta: Costs with the New list                 [1 msgs]
+                      Meta: Extra Traffic with new list               [1 msgs]
+                               Meta: Judgement                        [1 msgs]
+                      Need Extropians Digest V93 #0392                [1 msgs]
+                            Nightly Market Report                     [1 msgs]
+                               Software Agents                        [1 msgs]
+                                    Sorry                             [1 msgs]
+                           Third Millenium group?                     [1 msgs]
+                       What are big upcoming problems?                [2 msgs]
+                                    test                              [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 51352 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 16 Jul 93 20:48:55 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: HEX: The Thorne is now divisible
+
+All prices may now be specified down to the hundredth of a Thorne (p0.01).
+
+Enjoy!
+
+------------------------------
+
+Date: Fri, 16 Jul 93 20:54:42 EDT
+From: Brian.Hawthorne@east.sun.com (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: HEx: New Exchange Regulations
+
+> I don't care so much who the fees were payed to (and they may 
+> want their privacy protected), but it would boost my confidence in 
+> HEX and Thornes to have an accounting of the HEX budget -- expenses, 
+> receipts, Thorne supply, etc. 
+
+Sounds reasonable. I'll make a full disclosure as soon as I can, and 
+thereafter publish all fees paid in the Nightly Market report.
+
+One of the most important items on the TODO list, after the auction
+module, is adding digital signature capability. I may also talk
+to Mr. Digicash about using that, so you could simply withdraw
+Digicash denominated in Thornes and do whatever you want with them.
+ 
+> I'd like to take this opportunity to announce my Private Alert[TM]
+> newsletter, which will provide the inside scoop and analysis on the 
+> HEX reputation market.
+
+Great! I look forward to reading it.
+
+Rowan
+
+------------------------------
+
+Date: Fri, 16 Jul 93 18:05:12 -0700
+From: gdale@apple.com (Geoff Dale)
+Subject: Need Extropians Digest V93 #0392
+
+>Probably due to apple.com's temporary incommunicado status yesterday, I
+>need Extropians Digest V93 #0392.
+>
+>Could someone please forward it?
+
+Thanks! Ray sent me one. If I were running on more than my last four
+neurons I would have just asked him in the first place.
+
+
+
+_________________________________________________________________________
+Geoff Dale     -- insert standard disclaimers here --     gdale@apple.com
+                       -- How am I posting? --
+To comment on this Apple Employee's posting etiquette call 1-800-373-9821
+
+
+------------------------------
+
+Date: Fri, 16 Jul 1993 18:26:44 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: What are big upcoming problems?
+
+Rich Walker:
+> My current `big problem' I like to think about is the first 15 years of
+> _real_ robotics....  I suspect the scenario involves something like 
+> 90% of the current workforce in most countries being replaced by ma
+> machines.
+
+I tend to doubt this.  Automation of intellectual tasks (especially
+subsets of management, math, engineering, and science) seems to be 
+easier than automation of many kinds of blue-collar work.  Right now, 
+computer networks and fax machines are flattening organizations and 
+decimating middle management.  Next, we will likely see the
+elimination of most in-house engineering as lean, CAD-heavy
+consulting services take over.  Scientists will demand high
+pay only as long as government continues major subsidies of
+obsolete methods of doing science.  We'll keep our jobs
+only if we leverage orders-of-magnitude productivity gains
+into orders-of-magnitude increases in the value of our
+products.  That means coming out with a vast new suite
+of valuable products, many of them in the medical field
+(medicine is the only insatiable necessity, assuming the
+government doesn't artificially limit the size of the market).
+
+Robots will take over only slowly, and first in the newer industries
+(eg high-speed electronic assembly).  The major impact on blue collar 
+workers will be the continual shift of manufacturing to the 3rd world, 
+with residual protected and hobby capabilities remaining at home.  Blue
+collar workers have been a dwindling part of the economy for
+a long time now, and that will continue, but there won't
+be any major revolution -- the remaining job skills are too
+diverse to automate in one fell swoop, and the fraction of
+the economy that's blue collar labor costs is far too low.
+Massive automation of the service industries would have more
+impact, but "services" cover an even wider variety of
+tasks, from the purely intellectual to the purely servile.
+
+In short, the biggest "future shock" will happen right at
+home, our own science and engineering jobs.   We have
+at least as much adapting to do as the rest of the economy,
+probably more.  Don't waste too many tears over blue collar
+workers when our own heads are on the chopping block!
+
+Nick Szabo					szabo@techbook.com
+
+------------------------------
+
+Date: Fri, 16 Jul 93 23:59:47 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+---------------------------------------------------------------
+News Summary as of: Fri Jul 16 23:59:06 EDT 1993
+
+    The Thorne is now divisible!!!
+
+    Prices may now be specified to the hundredth of a Thorne (if there
+    were a coin, I guess it would be known as a haw).
+
+    Thus, you can bid p1.25 for a share, down to as low as p0.01 .
+
+    The software is pretty well tested, but you know how major changes
+    always introduce bugs. Send problems to hex-problems@sea.east.sun.com
+
+Newly Registered Reputations:
+
+New Share Issues:
+(None)
+
+Share Splits:
+(None)
+
+---------------------------------------------------------------
+Market Summary as of: Fri Jul 16 23:59:07 EDT 1993
+
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+ACS         28.00    29.00    29.00        10000          106         3074.00
+ALCOR       10.00    14.00    14.00        10000          411         5754.00
+ANTO            -        -        -            -            -               -
+BLAIR       15.00    30.00    50.00        10000           25         1250.00
+CHAITN          -        -        -            -            -               -
+DEREK        2.00     3.00     3.00       100000         1120         3360.00
+DRXLR       10.00    14.00    14.00        10000         1031        14434.00
+DVDT        20.00    50.00        -        10000            -               -
+E           15.00    25.00   100.00        10000           36         3600.00
+ESR             -        -        -            -            -               -
+EXI             -        -        -            -            -               -
+FCP          9.00     9.00     9.00        10000         1200        10800.00
+GHG             -     6.00    15.00        10000          905        13575.00
+GOBEL           -    15.00    22.00        10000          757        16654.00
+H               -        -        -            -            -               -
+HEX        100.00   105.00   100.00        10000         3328       332800.00
+HFINN        9.00    10.00    10.00        10000          455         4550.00
+IMMFR       15.00        -        -        10000            -               -
+JFREE        1.00    50.00     1.00        10000          250          250.00
+JPP          5.00     4.00     1.00        10000           10           10.00
+LEF         20.00    29.00   100.00        10000            1          100.00
+LEFTY        2.00    25.00    25.00        10000            1           25.00
+LIST            -        -        -            -            -               -
+LURKR           -    45.00        -       100000            -               -
+MARCR           -        -        -            -            -               -
+MLINK           -     1.00     2.00      1000000         2101         4202.00
+MWM          1.00    20.00    20.00        10000           10          200.00
+N           50.00   125.00    50.00        10000           33         1650.00
+P           15.00    25.00    24.00      1000000          380         9120.00
+PETER         .01     1.00     2.00     10000000         1100         2200.00
+PRICE        1.00     4.00     2.00     10000000         1410         2820.00
+R               -    20.00     1.00        10000          751          751.00
+ROMA            -        -        -            -            -               -
+SGP             -        -        -            -            -               -
+TIM          2.00        -        -        10000            -               -
+TRADE       15.00    20.00        -      1000000            -               -
+TRANS       20.00    25.00        -        10000            -               -
+WILKEN       9.00    10.00    10.00        10000          101         1010.00
+-----------------------------------------------------------------------------
+Total                                                               432189.00
+
+------------------------------
+
+Date: Sat, 17 Jul 93 0:18:30 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: HUMOR/MEDIA: Witch Protest
+
+   Saw on Entertainment Tonight that witches across America are protesting
+Disney's new movie, "Hocus Pocus" because it doesn't portray witches
+accurately.
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Fri, 16 Jul 1993 18:33:32 -0700
+From: dkrieger@synopsys.com (Dave Krieger)
+Subject: What are big upcoming problems?
+
+Oh, my gosh, Ed.  There's a lot here.
+
+At  5:01 PM 7/16/93 -0400, Edward J OConnell wrote:
+>Should I mention my SATs?;-)
+
+Please don't :-) :-)
+
+>Since reading a lot of Dawkins, trying to read MOF, and a few other EC
+>texts, 
+
+EC texts?  What does the European Community have to do with anarcho-capitalism?
+
+>my beliefs have mellowed somewhat.  (Anarchocapitalism now has a
+>place in my utopia; as well as a kind of consenting
+>socialism--ultimately, I'd like to see competition in living styles and
+>voting with ones feet...and yes, I'd like to move to Denmark, and give
+>50% taxation a try...)
+
+No need to move, Ed:  Add up a 33% Federal income tax (YMMV); a 10% state
+income tax (YMMV); property taxes in the range of 5 to 10% (YMMV -- but
+remember that even if you rent, property taxes are passed on to you);
+excise taxes on commodities like tires, cigarettes, and telecommunications;
+and sales taxes (YMMV -- In L.A. the last time I did this analysis, it was
+8.25%) on almost everything else you spend.  Congratulations, there's your
+50% taxation -- now that you've tried it, how do you like it?
+
+>As an aside, I find it amusing that I spend most
+>of my time struggling to break into the SF market, writing like a
+>demon, to be cast down and filtered by the marketplace; while most
+>Extropians write for the simple joy of expression in this digital
+>commons.  I send my stories only to places that pay. I shun the pay in
+>copies markets, and the APAs.  Maybe this is the reason I've got the bug up my
+>ass about the market.
+
+What a lot of folks forget is that, in a free market, sellers are slaves to
+consumers, not the other way around.  You have to cater to the most
+insignificant whims of the people who buy from you, or they'll take their
+business elsewhere.  In my undergrad days, some lit-crit weasel quoted me
+some poet (think it was Ginsburg) to the effect that "Poetry is what poets
+write, not what other people think they should write"... which is why
+Stephen King makes so very much more money than all of America's poets put
+together.  But I digress.
+
+>Extropianism's belief in spontaneous order means that there will be no
+>problems, ultimately, when each local crisis is viewed from the proper
+>perspective.
+
+Not sure what you mean by this.  If you mean that my problems aren't
+necessarily your problems, well, that goes without saying.  However they're
+still problems _to me_, and I'll do what I have to to solve them.
+
+>This includes our own personal deaths, once replaced by
+>superior AIs, the complete destruction, er, recycling let us say, of
+>the entire biosphere by grey goo manipulators, etc. From the proper
+>perspective, all is evolutionary. There is no wrong, as there are no
+>'rights.'
+
+Well, my own aesthetic preferences are for a more diverse ecosystem and the
+survival of myself and my friends (perhaps through uploading if it proves
+feasible).  But that's all morality is, just competing systems of
+aesthetics. 
+
+>I worry tremendously about the robot/jobs thing. I've been told on this
+>list that this isn't a problem; that we're seeing local effects here;
+>that the manufacturing class getting roboted out of jobs is an
+>illusion--that more jobs are always created.
+
+I had an extended debate about this with Tim Freeman on Cryonet a long time
+ago, which you can get from the Cryonet archives via e-mail if you are
+sufficiently motivated.  Basically, my points were these:  the bulk of
+human usefulness is about 90% domain knowledge, and only about 10%
+interchangeable manual skills that basically anybody (including near-future
+robots) can learn; the *really* valuable human skills are
+cognitive/conceptual ones which robots will not be able to duplicate until
+very late in the game, if ever; it is more parsimonious to assume that we
+will be able to augment human intelligence, which we observe to already
+exist, than that we will be able to create superhuman AIs, which no one has
+done yet; so overall we don't have to worry about robots crowding humans
+out of any economic or evolutionary niches for quite some time and without
+(dare I say) superhuman effort on our part to bring it about.
+
+Oh, the other thing I wanted to mention is, what's so hot about
+manufacturing jobs, anyway?  A century ago, two thirds of American workers
+were in agriculture; today it's less than two percent.  Manufacturing is
+not inherently more important than agriculture; if the money turns out to
+be in computers or art or hairdressing or teledildonic prostitution, who
+cares who's doing the manufacturing, so long as it gets done?  Do you know
+where the Twinkie in your lunch box was made (without looking)?  Do you
+know where your lunch box itself was made?  Why should you care?
+
+>The EC/Conservative
+>position is simply that people expect too much money/too high a
+>lifestyle, have a government/union to back up their pig headed belief,
+>and we're all made poorer by their unskilled greedy willingness,
+>supported by the welfare state, to not work.
+
+There you go bringing the EC into it again.  I thought the European
+Community was a bit more social-demo than you paint it to be here.
+
+The opinion of most Extropians, on the other hand, is that government
+itself is the big drain on our pocketbooks, not the actual (microscopic
+amount of) money that actually gets into the hands of welfare recipients. 
+Once you recognize that the major expenditures of the U.S. government are: 
+interest on the national debt (Number 1 with a bullet), entitlement
+programs like Social Security and government pensions (which represent
+almost $11 trillion in encumbrances -- yes you read that right -- on the
+future revenues of Uncle Sammy), and national defense; and when you
+recognize that the vast majority of what "we" spend on Health-n-Welfare
+programs actually goes to lining the pockets of bureaucrats, rather than
+reaching the people it's ostensibly supposed to be helping... then
+objection to the whole scheme seems a bit more reasonable.
+
+>Get rid of unions and the
+>minimum wage, and we'll get that manufacturing back.
+
+How do you get rid of unions without a state to smash them?  Remember that
+in the big strikes of the '30's it was state troopers and national
+guardsmen, not private cops, that were busting the heads of the strikers. 
+"What's good for GM is good for America", remember?  Union-busting has a
+lot more to do with the relations between politicians and their
+contributors than it does with big manufacturing concerns taking the law
+into their own hands.  Unions are certainly compatible with
+anarcho-capitalism... but I doubt that (good) workers would have much need
+for a union in such an economy.
+
+The minimum wage, on the other hand, isn't a cause or a cure but a symptom.
+ The real disease is the regulatory bodies that keep us from offering
+better goods cheaper.  A single example:  Housing.  Consider a house as a
+"dwelling machine".  Did you ever notice that your house has the same basic
+construction as the ones your great-grandparents lived in?  Wood
+construction, studs inside the walls, some kind of covering over the studs,
+wooden roofs with shingles, blah blah blah.  Bucky Fuller demonstrated in
+the '30's -- THE THIRTIES, f'chrissake -- that better, stronger housing
+could be built, using the technologies then being used for airplane
+manufacture, at a fraction of the cost of piece-by-piece construction from
+outmoded materials.  Nobody built any of his houses because they weren't
+"up to code" -- they didn't conform to zoning restrictions and the
+construction specifications of housing authorities (who were, naturally, in
+the pockets of the people they were supposed to be regulating -- the big
+builders and contractors, who were quite happy with building technology the
+way it was).  The result is, SIXTY YEARS LATER, you're still living in a
+wood- or brick-constructed firetrap with about the same structural
+integrity as a damp matchbox.
+
+>Robots create jobs building and maintaining robots.
+
+What, you think robots are going to design themselves?  Robots are DUMB,
+Ed, and they're going to stay dumb, despite the hard work of lots and lots
+of very bright people, for at least another fifteen or twenty years.  There
+will be _lots_ of work in robotics before we even get good robot
+chauffeurs, let alone robot brain surgeons or robot judges.  Even the kids
+flipping burgers at McDonalds are safe for another decade at least :-).
+
+> with The Gov. Off
+>Our Backs, everything will be fine.
+
+As my friend Andrea says, "Utopia is not an option."  Nothing, not even
+killing Uncle Sammy, will solve _all_ our problems... but it's a great way
+to start.
+
+>People are protean; they work to
+>live; they figure out what to do in an environment and survive. The
+>minority that can't aren't worth worrying about.
+
+Well, yeah.  I just think that minority is a _lot_ smaller than you do. 
+Only a very small part of those presently unemployed are inherently
+useless; they just got screwed by a crappy statist education and an
+over-regulated economy.
+
+>(is this what you
+>guys think? Its the best I  can paraphrase, anyway...)
+
+I think you need to read more of what people are actually saying, rather
+than filtering it through a Marxist gloss.  You seem to still be having
+trouble accepting that, as Abe Lincoln said, "You cannot permanently help
+people by doing for them what they can and should do for themselves." 
+Government programs that claim to help the poor and the disadvantaged, just
+_don't_.  They _can't_.  I did not become an anarcho-capitalist out of some
+desire (imagined by Marxists) to rub my hands together while cackling about
+how much I was making the poor people suffer.  I adopted this viewpoint
+because I was convinced that it was the way to provide the maximum quality
+of life to the maximum number of people, using criteria that are fair, or
+as fair as we can make them (outcome depends on level of effort), without
+treating the disadvantaged as children or savages.
+
+>I on the other hand, think that there will be massive problems with an
+>unemployed/unemployable underclass that swamps the abilities of even
+>the most dedicated prison building programs.
+
+We don't have this now??  And who said prisons were a good idea?
+
+>SF sees, in these futures,
+>policed zones, areas in which those with wealth live, and work, and
+>lawless expanses in between. Private law, for those who can afford it.
+
+Again, we don't have this now?  I suggest you drive through Beverly Hills
+some time in a nice beat-up old Volkswagen or Cadillac and see what a
+friendly reception you get.  Those aren't private cops whaling on your ass,
+friend, those are tax-paid public employees.
+
+>I have a story in which private factory prisons become popular, that
+>use some sort of control system on humans, (a chip in the brain) which
+>transforms them into industrial robots.
+
+This sounds horrendously plausible, but much more likely to be perpetrated
+by the State than any private concern.  Why would a private company run a
+prison except in the service of a State?  It's *horrendously expensive* to
+imprison people.  (It costs more to keep someone in Attica State Prison
+than to send them to SUNY Buffalo -- full tuition, room, and board.)  Why
+do you think most of our economy isn't prison labor now?  Because it's
+cheaper (and more efficient) if the employees go out and contract for food
+and shelter on their own.  An anarchocapitalist protection agency would be
+much more likely to either attach an offender's future earnings or just
+give them a good public flogging and let 'em go.
+
+>It embarrasses even I!
+
+Um, shouldn't that be "It embarrasses even me!"?  The pronoun is the direct
+object of the sentence, so it should be in the objective case.  Are you
+sure it's your plots that are getting your stories rejected? :-) :-) don't
+hit me
+                                        dV/dt
+
+
+------------------------------
+
+Date: Sat, 17 Jul 93 15:30:05 EST
+From: hiscdcj@lux.latrobe.edu.au (Dwayne  <hiscdcj@lux.latrobe.edu.au>)
+Subject: HEx: New Exchange Regulations
+
+hi,
+  I'm new here.
+Can someone mail me and tell me what the hell the Hawthorne Exchange is,
+and what it does? It looks very bizarre from the two posts I have read
+mentioning it so far....
+
+But maybe it's just me.
+
+Dwayne.
+
+
+------------------------------
+
+Date: Sat, 17 Jul 93 3:52:06 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: ADMIN: New Commands
+
+
+------------------------------
+
+Date: Sat, 17 Jul 93 3:52:06 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: ADMIN: New Commands
+
+
+------------------------------
+
+Date: Sat, 17 Jul 93 4:26:44 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Sorry
+
+  I was testing a new feature on the beta-list and it accidently got sent
+to the main list.
+
+-Ray
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date:     Sat, 17 Jul 93 8:21:44 GMT
+From: starr@genie.slhs.udel.edu
+Subject: An Interesting Topic
+
+Thank you, Robin Hanson, for bringing up an interesting topic with your
+great question!  I'm sorry I said all those nasty things about your idea to
+have a Walrasian Whole Universe Auction!  (I stand by them, though :-).
+
+I've come up with a good worry: that the State will do to computer networks
+what it did to radio.  I've just read a fascinating history of the subject
+written by Carl Watner and published in his newsletter, "The Voluntaryist,"
+a few years ago.  Anyone else read it?
+
+Summary: Radio started out much like personal computer networks, through
+amateurs inspired by the likes of Gernsback.  Marconi came up with a way
+of making a profit even though the British Empire had a law against it:
+the "non-intercommunication" rule (no Marconi radios or operators would
+communicate with any non-Marconis), which pissed off statists like the
+Germans so much that they started holding conferences to call for nationaliza-
+tion of the airwaves.  The US Navy supported this.  While a property-rights
+system started to evolve in case law based upon the "first in use, first in
+right" concept of water rights from the Western USA, it was destroyed by
+regulations and the corporatist welfare-warfare State (RCA was formed to
+be a coercive monopoly) in the late 1920s and/or early 1930s.
+
+It vindicates theoretical claims that many free-marketeers make about the way
+that property rights would develop in airwaves sans interventionist public
+policy, but also illustrates how large firms capture legislators, legislation,
+and regulators & regulation in order to squelch (pun intended) their
+competitors.
+
+My worry is that something analogous will be attempted with computer
+networks: declare them public property, along with a right to use them, a
+right to get State-approved services, and little if any right to any that
+aren't State-approved.  Look to see the private computer networks driven out
+by a public "data highway," or incorporated into it, and to see access to it
+for computer service providers like programmers controlled by something like
+licensure.  Look also to see the content of messages policed and censored
+like the FCC does for radio, for "pirate hackers" to be persecuted for
+trying to homestead networks, etc.
+
+Net result: State capture of the freest industry left in the world.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Sat, 17 Jul 1993 07:47:32 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: Meta: Judgement
+
+I was asked to make a judgement, by lefty@apple.com, on those who
+posted extra messages during the post limit last week.
+
+It is very hard to find an appropriate and proportionate penalty.
+
+I realize that all judgments can cause hard feelings on all sides
+of the list.
+
+The list of offenders includes, may, metzger, fnerd, and a few others.
+
+The list was previously published on the list.
+
+I find these members should not post for 1 day (24 hours) at some point
+during next 3 days.  
+
+This seem appropropriate and proportionate as the only made a few
+posts over a very very small amount of total bandwidth.
+
+-- 
+Harry S. Hawk 				habs@panix.com 
+Electronic Communications Officer, Extropy Institute
+Inc.  List Administrator of the Extropy Institute Mailing List Private
+Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sat, 17 Jul 93 11:30:24 GMT
+From: al007@cleveland.freenet.edu (Nombrist Beor)
+Subject: Computer Networks->State Controlled
+
+Tim Starr suggests that the governments may attempt to control all computer
+networks, since they are the current "threat" to monopolization of all
+communications (of the direct sort..books and newsletters have the
+obvious delays and other factors..besides, they already limit distribution
+by means of money involved).
+
+How do you propose to actually control computer networks (reverse thinking
+here)? For every situation I can come up with, I can also come up with some
+counterexamples to defeat the situation.
+
+On the subject of radio, yes, the government is VERY pervasive there. However,
+there are a number of radio transmissions from countries that have no such
+power which are being used. There is also the MASSIVE number of shortwave
+pirate stations on 7.415MHz which appear almost every single night and appear
+to not be shutting down any time soon.
+
+Another example is in the 27MHz band. In the 600KHz+ band directly above the
+CB band, there are huge numbers of international talk-arounds and such. These
+bands are reached by easily modifying the PLL circuitry of a CB radio and
+retuning the filters for the new band. I have talked with people all over the
+country already on the lower ("legal") band; my set is just not tuned well
+enough (and the antenna is not that great) yet to be able to handle reliable
+international communications.
+
+The reason the FCC does not crack down on the "grey band" (as the upper
+CB band is referred to) is that it is simply impossible to do so by the shear
+numbers of people using it. With shortwave, it is a different matter because
+the pirates there use quite a bit more power to get their signal out and they
+usually operate as a one-way link (a radio station as such), thus making normal
+triangulation techniques very easy.
+
+Two new technologies on the radio horizon include digital radio (with the
+powerful spread spectrum technique) and computer controlled repeater stations,
+both of which completely defeat the government-imposed monopoly on radio
+communications. The better of the two is spread spectrum, which makes a
+transmission appear to those who do not have the proper despreading code as
+complete background noise, indistinguishable from natural phenomena. In fact,
+spread spectrum radios can even cause their output power to appear LOWER than
+background noise while still communicating, thus making it impossible to
+detect spread spectrum without the proper despreading code.
+
+My expertise is generally more oriented towards radio (does it show?) but the
+same could be said for computer networks. I regularly transmit messages to
+friends in California with the use of encryption. Even if encryption was banned
+from the networks, I could still send them "binary files". And if this was
+banned, I could send them plain-text encryption systems based on natural
+language synthesis (for a simple example, consider a travesty tree generator
+in which the apparently "random" text snippets are actually based on the secret
+message which is embedded in them).
+
+On the physical links themselves, they would have to continuously monitor the
+phone networks themselves to detect "illegal" modem traffic, a possibility
+that I would not pass off as impossible. But what's to stop people from
+switching back to the aforementioned radio systems? In fact, I'm in favor of
+dumping the phone network entirely and going to wireless short haul networks
+on the basis of the fact that the phone companies are going to continue
+playing their communications monopoly games, games which I do not wish to
+participate in.
+
+------------------------------
+
+Date: Sat, 17 Jul 1993 09:05:20 -0800
+From: dkrieger@netcom.com (Dave Krieger)
+Subject: Third Millenium group?
+
+C-SPAN2 has devoted about an hour this morning to a press conference on
+Wednesday by some group calling itself "Third Millenium" which claims to
+speak for twentysomething Americans and thinks it's the next big thing in
+politics.  They talk a lot about "post-partisan" politics and "the sinking
+ship"... They use the metaphor of "the sinking ship" and say that
+"environmental catastrophe" calls for desperate collectivist measures:
+"It's silly for a Democrat and a Republican to argue on the deck of a
+sinking ship."  A direct quote:  "Our environment is in a shambles."  They
+also talk a lot about deficit and debt reduction, and they sure as hell
+don't plan to cut spending.
+
+(Hmm... however they are talking now about reducing entitlement payments
+like Social Security.  "That generation [the AARP generation] is the one
+that taught America about sacrifice, and we need them to show us the way
+again."  That's a direct quote, which I take to mean "Grandma is used to
+it, let's screw her again.")
+
+These goobs evidently went up to Capitol Hill on Wednesday to meet with
+legislators, so they seem to be getting some attention.  I want to know who
+these bozos are.  What is their platform?  Where is the money coming from?
+
+I have called their phone number (212) 979-2001; their answering machine
+says they are only giving out information to joiners ($9) or press.  I
+dropped the name of Extropy and requested an info packet; I'll post
+anything I receive.
+
+I definitely think Extropy Institute could gain some prominence and free
+publicity by responding to the Third Millenium platform and pointing out 1)
+they don't speak for all of "our generation"; 2) the ship is not sinking. 
+If we avoid referring to the more far-out scientific and technical aspects
+of Extropian thinking, we could get a lot of positive exposure for our
+political views.
+
+Does anyone know more about this organization?  Their mailing address was
+given at the end of the program; it's "Third Millenium, P.O. Box 20866, New
+York, NY 10023."
+                                        dV/dt
+============================================================================
+dkrieger@netcom.com == Dave Krieger == David Victor de Transend == dV/dt
+           TC1.12:T(6,7)C3L5w h()+d--a--c-yef+t++(1,4)k++sm1m2+q-
+                Brought to you by -- Confidence in the System.
+                      In easy-to-swallow Propaganda form 
+                     or new, fast-acting Thought Control, 
+               Confidence in the System will keep Them in power 
+             longer, longer, longer, and tend to calm and obscure 
+                 the miseries of disillusionment and despair, 
+                             so get some -- today.
+                                                  [The Firesign Theatre]
+============================================================================
+
+
+------------------------------
+
+Date: Sat, 17 Jul 1993 17:45:14 -0600 (MDT)
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: An Interesting Topic
+
+Quoth starr@genie.slhs.udel.edu, verily I say unto thee:
+-=>My worry is that something analogous 
+[to statist regulated radio] 
+-=>will be attempted with computer
+-=>networks: declare them public property, along with a right to use them, a
+-=>right to get State-approved services, and little if any right to any that
+-=>aren't State-approved.  Look to see the private computer networks driven out
+-=>by a public "data highway," or incorporated into it, and to see access to it
+-=>for computer service providers like programmers controlled by something like
+-=>licensure.  Look also to see the content of messages policed and censored
+-=>like the FCC does for radio, for "pirate hackers" to be persecuted for
+-=>trying to homestead networks, etc.
+
+Over my dead persona!  Glad this was brought up here.  However much habs
+may wish to attack EFF/CPSR/TAP alliances (and I challege him to defend
+his viewpoint), this is seriously one of the most important battles to
+ever come looming.  Some sci-fi writer (I think -- it's been a while...)
+wrote, "Big Brother was co-opted by the personal computer".  This is
+something of a motto to me, and to many others.  If the govt. regains
+control of computing and networking, it's all over kiddies. This may sound
+like proselytization, but I urge anyone reading this to support EFF, CPSR,
+SEA, LPF, TAP, This!Group, and ACLU (among others), in any way possible.
+Clipper would likely already be bought, paid for, and installed if it
+hadn't been for them.  You'd be paying modem taxes to read this mail. 
+You'd have InstaTap installed in your entire phone network, from your
+house, to the national relays, via the Digital Telephony bill.  BBSs would
+be illegal.  Etc.  You get the idea.
+
+-- 
+Stanton  McCandlish   * Space Migration * Networking * ChaOrder * NO GOV'T. *
+anton@hydra.unm.edu   * Intelligence Increase * Nano * Crypto * NO RELIGION *
+FidoNet:    1:301/2   * Life Extension * Ethics * VR * Now! * NO MORE LIES! *
+Noise in the Void BBS * +1-505-246-8515   (24hr, 1200-14400, v32bis, N-8-1) *
+
+------------------------------
+
+Date: Sat, 17 Jul 93 20:52:56 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: test
+
+  Just a test.
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Sat, 17 Jul 93 18:25:37 -0700
+From: jamie@netcom.com (Jamie Dinkelacker)
+Subject: 3rd millenium
+
+I've been following the media attention efforts of the 3rd millenium group
+for a while. They seem to have a premise that current government is bad so
+we need more and different government, same rules but "their people"
+executing these rules. It's unclear whether many of these advocates have
+reached a level of sophistication to recognize that the notion of
+government as they conceive of it may in fact be the root difficulty.
+
+The message I've abstracted from them is a generic "somebody else should
+clean up this mess...." I haven't yet seen their media interviews
+advocating their own individual initiative or reduction of structural
+genesis of statist bureaucracy. Perhaps this is the new version of "don't
+trust anything that's happened before, so we need the same old wine in a
+brand new bottle."
+
+Jamie@netcom.com 415-941-4782    
+
+
+------------------------------
+
+Date: Sat, 17 Jul 1993 21:44:52 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: Meta: Extra Traffic with new list
+
+Hi,
+
+As I have mentioned in my last post, our new code is getting released
+shortly and going into a gamma test.
+
+Our experience has been that new users of the code often make a mistake
+or two in getting started. That means we will have a few extra seemingly
+odd messages posted. Thinks like message with ::help in them, etc.
+
+Please try to ignore these messages. The Net effect of our new
+software will be each member getting more and more of the messages
+they want; these extra message we will get in the next few
+weeks/months as 300+ beings learn new software is part of the price we
+will pay.
+
+
+-- 
+Harry S. Hawk  				      habs@panix.com
+Electronic Communications Officer, Extropy Institute Inc.
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sat, 17 Jul 1993 21:59:30 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: Meta: Costs with the New list
+
+A few days ago I mentioned our pending site move might cost us money.
+I have got a few questions about that in private mail. I thought other
+list members might also have similar questions.
+
+Our use of a commercial site will cost more than use of GNU, but it is
+quite worth it. (One gets what one pays for.)
+_______________________________
+
+
+Do I need more donations of money? No.
+
+1) Several list members have offered to put up some money, which
+combined with my own, is enough to get us started. It may be possible
+that I will need a few more donations but this is unlikely.
+
+
+Will it cost list members to use the list? No.
+
+1) Given the current bandwidth we will be able to support up to a 50%
+increase in average bandwidth before we would have to consider putting
+in place a user fee or posting limit.
+
+2) I am strongly committed to offering the basic features of our new
+software to all list members as it has always been, at no cost.  Even
+if I have to kick in more money.
+
+3) Since CPU and bandwidth costs will go down in the next few years,
+even if our usage goes up radically it is unlikely our real costs will
+increase.
+
+
+What about special features? Will they cost? Maybe
+
+1) If we add CPU or bandwidth intensive features to the list they
+might cost users on a strict usage fee basis (e.g., cover costs, ExI
+overhead, etc. but no profit).
+
+2) If you wish to design a high cost (CPU or Bandwidth) software agent
+you will be liable for it's operating costs.
+
+3) ExI members may be offered special software features as a premium
+in return for their membership. This may include extra use of some of
+the database features.
+
+
+If I donate money to ExI specifically for the list what will I get?
+
+1) You will get a bigger say in what features will added to the list
+software.
+
+2) You will certainly be consulted about new software features and
+given advanced notice of our plans.
+
+3) My personal thanks and mention in official ExI Publications will
+also be extended.
+
+4) Other "thanks" will be extended.
+
+-- 
+Harry S. Hawk  				      habs@panix.com
+Electronic Communications Officer, Extropy Institute Inc.
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+-- 
+Harry S. Hawk  				      habs@panix.com
+Electronic Communications Officer, Extropy Institute Inc.
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sat, 17 Jul 1993 22:58:55 -0400 (EDT)
+From: Harry Shapiro <habs@panix.com>
+Subject: Software Agents
+
+Hi,
+
+I have posted a lot about the new list, so this should be my
+last post until Monday.
+
+Our new software allows for software agency. That means writing a
+piece of code (perl, C, etc.) take can examine every message to the
+list, accept commands, process commands and make posts including
+reposts of messages.
+
+Our initial agent is the filter-agent. It can exclude and/or include
+messages by poster, thread, and regular expressions. We also have an
+agent that handles digests
+
+We are not adding other agents at this time so we can monitor our CPU
+usage.
+
+However you might want to write an agent of your own or hire Ray
+Cromwell to write one for you. An agent might calculate the E-prime
+"ness" of messages, or compute read ability indexes, or provide
+ranking or links for reputation markets, etc.
+
+In a few weeks Ray will be writing more on this subject and will
+at some point publish documentation...
+
+This post was to get you thinking about software agents. I hope
+it worked.
+
+/hawk
+
+-- 
+Harry S. Hawk  				      habs@panix.com
+Electronic Communications Officer, Extropy Institute Inc.
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0395
+****************************************
+

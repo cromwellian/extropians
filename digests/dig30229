@@ -1,0 +1,1001 @@
+From extropians-request@gnu.ai.mit.edu Thu Apr 29 15:20:23 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA02332; Thu, 29 Apr 93 15:20:17 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from churchy.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA28356; Thu, 29 Apr 93 15:20:09 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by churchy.gnu.ai.mit.edu (5.65/4.0)
+	id <AA21083@churchy.gnu.ai.mit.edu>; Thu, 29 Apr 93 18:13:33 -0400
+Message-Id: <9304292213.AA21083@churchy.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Thu, 29 Apr 93 18:13:09 -0400
+X-Original-Message-Id: <9304292213.AA21074@churchy.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0229
+X-Extropian-Date: Remailed on April 29, 373 P.N.O. [22:13:32 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Thu, 29 Apr 93            Volume 93 : Issue 0229
+                        
+Today's Topics:
+                         CASH: Disney $Bobbins$ ???                   [1 msgs]
+                     EPIST: Why do formal systems work?               [1 msgs]
+                    HELP! Some nut is threatening to sue!             [3 msgs]
+                   PGP is NOT availble from NITV anymore!             [1 msgs]
+                 PHIL: GS + Objectivism (+ Extropianism) = ?          [3 msgs]
+                  PHIL: GS + Objectivism + Extropianism = ?           [1 msgs]
+                    PPL/BOOK: Men Are Not Cost Effective              [1 msgs]
+                         Polanyi on Micheson-Morley                   [2 msgs]
+               QUESTION: PGP's legal Status/Providing Pointers        [1 msgs]
+               RAND, really "Reading harangues at adolescence"        [4 msgs]
+         RAND: Warning: Objectivism may be hazardous to your health   [2 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50889 bytes.
+
+----------------------------------------------------------------------
+
+Date: Thu, 29 Apr 1993 14:56:10 +0200 (MET DST)
+From: ggoebel@sun1.ruf.uni-freiburg.de (Garrett Goebel)
+Subject: CASH: Disney $Bobbins$ ???
+
+Brian Holt Hawthorne writes:
+} Actually, there are many such "barter currencies" springing up in
+} England: acorns, bobbins, etc.
+} 
+} Currently, by calling it "barter" they are avoiding taxation, though
+} several localities are thinking about trying to tax them. Rumor has
+} it that if this happens, the organizations who set up these systems
+} are going to recommend paying the tax in the same currency.
+
+They should create their own "central bank", to issue new notes to
+people equal to the sum taxed.  Could the central bank then be taxed?
+Could it then print more bobbins?  Could the gov't eventually be lost
+in the Catch 22?  It would be fun to try :)
+ 
+} > Could we set up our own similar "barter" (hah!) system here in America?
+}
+} Sure, nothing illegal in it that I know of. Of course, remember that the 
+} IRS taxes barter transactions at their fair market value in US dollars, even
+} if most people ignore this.
+
+How does the IRS determine "fair market value"?
+
+Another question:
+How would the U.S. tax transactions pounds?  I mean, if you and I were
+setting in a bar in Chicago... and I payed you 10 pounds to take care of
+my car for the weekend, how would that be taxed?  At normal exchange rates?
+
+What then if I offered you 10 pounds for your car and you sold it to me...
+and I offered 10 pounds for your computer system and you sold it to me???
+
+Does the IRS apply "fair market value" to transactions in foreign currencies?
+
+Garrett
+
+
+-- 
+C. Garrett Goebel
+<ggoebel@sun1.ruf.uni-freiburg.de>
+
+------------------------------
+
+Date: Thu, 29 Apr 93 09:18:30 -0400
+From: pcm@cs.brown.edu (Peter C. McCluskey)
+Subject: EPIST: Why do formal systems work?
+X-Reposting-Policy: redistribute freely
+
+ derek@cs.wisc.edu  (Derek Zahn) writes:
+>Peter McCluskey writes:
+>
+>> "Occam's Razor", by Anselm Blumer, Andrzej Ehrenfeucht, David Haussler,
+>> and Manfred K. Warmuth, in Information Processing Letters 24 (1987)
+>> pp 377-380, also reprinted in "Readings in Machine Learning"
+>>  by Jude W. Shavlik and Thomas G. Dietterich. One quote from it:
+>> 
+>> "Lemma: Given any function f in a hypothesis class of r hypotheses,
+>> the probability that any hypothesis with error larger than epsilon is
+>> consistent with a sample of f of size m is less than r*(1 - epsilon)^m."
+>
+>What does this have to do with Occam's razor?  It just says that a
+>hypothesis that covers the sample is likely to have small error --
+>it says nothing about the complexity of the hypothesis.  For this
+>to be a formalization of Occam's razor, the probability should include
+>the coding length of the hypothesis -- and be smaller for smaller
+>hypotheses.
+
+ It isn't exactly a formalization of Occam's razor, and I'm not sufficently
+interested in the subject to attempt a complete explanation of the paper.
+The size of the hypothesis class (r) is related to the complexity of the
+function that you are trying to estimate, so that the probability of verifying
+a hypothesis declines as the complexity of the phenomenon you are trying to
+analyze increases.
+
+-----------------------------------------------------------------------------
+ Peter McCluskey >> pcm@cs.brown.edu >> Eradicate global namespace pollution!
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Thu, 29 Apr 1993 08:45:14 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: HELP! Some nut is threatening to sue!
+
+Hey! Willkommen, Bienvenue, etc., Cliff!
+In <9304291258.AA27095@churchy.gnu.ai.mit.edu>, fig@eff.org writes:
+|> At  9:31 PM 4/28/93 -0600, Stanton McCandlish wrote:
+|> If it is the Real Shit, 
+|> 
+|> It looks like the Real Shit to me, Stanton.  I don't know anyone who has
+|> stonewalled Bidzos, so I don't know if he has actually taken legal action
+|> against a PGP distributor.  But that's the guy (assuming it's not forged
+|> mail).
+Well, he should have signed it with PGP so Stanton could be sure ;-)
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    /
+
+
+------------------------------
+
+Date: Thu, 29 Apr 1993 11:40:01 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: RAND: Warning: Objectivism may be hazardous to your health 
+X-Reposting-Policy: redistribute only with permission
+
+Ed Lane says:
+> If the warning label on a pack of cigarettes does not convince an
+> Objectivist to stop smoking (even _AFTER_ loosing a lung), then it's
+> unlikely that my subject line will have any affect on them either.(a "8^)"
+> inserted here against my "Grumpy Guy's" objection).
+> 
+> I was just hoping to spare some pain and suffering by others.
+> 
+> -Ed, a recovering "O"
+
+No one has yet given me even the remotest indication of what is wrong
+with objectivism. Lots of "I know people who are objectivists and are
+assholes", but then again I know lots of people who are not
+objectivists and are also assholes. Further, I know lots of people,
+including myself, who have found objectivism to be a valuable personal
+philosophy.
+
+Could someone say precisely what is wrong with objectivism, other than
+the crappy epsistemology? Don't include things like "Objectivists
+smoke" or "Ayn Rand was a jerk who thought that her opinions on music
+were objectively true" either, since neither smoking nor Ayn Rand's
+personal opinions on art have anything really to do with the core of
+objectivism.
+
+Perry
+
+------------------------------
+
+Date: Thu, 29 Apr 93 10:08:12 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: HELP! Some nut is threatening to sue!
+
+Craig Presson
+> 
+> Hey! Willkommen, Bienvenue, etc., Cliff!
+> In <9304291258.AA27095@churchy.gnu.ai.mit.edu>, fig@eff.org writes:
+> |> At  9:31 PM 4/28/93 -0600, Stanton McCandlish wrote:
+> |> If it is the Real Shit, 
+> |> 
+> |> It looks like the Real Shit to me, Stanton.  I don't know anyone who has
+> |> stonewalled Bidzos, so I don't know if he has actually taken legal action
+> |> against a PGP distributor.  But that's the guy (assuming it's not forged
+> |> mail).
+> Well, he should have signed it with PGP so Stanton could be sure ;-)
+
+Actually that was part of what made me think it was fake (not *PGP* key 
+missing, but RSA key missing.  It seemed VERY odd that the honcho of
+RSA would not use his own product, so I thought it MIGHT be a fake.  His 
+followup DID have his RSA sig, so I have no more doubts.
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Thu, 29 Apr 93 10:50:19 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: PGP is NOT availble from NITV anymore!
+
+Due to threats of legal action from RSA, I have had to remove PGP from my
+system.  Some time when I get the mess sorted out, non-patent-infringing
+PGP/RSA/[your-fave-crypto-here] utilities, such as mail scripts, will still
+be available, and I will post a message with the detail.  
+
+I repeat, PGP *IS NOT* available from NitV-BBS any longer.  Do not call for
+it you will be wasting your money and time.  Sorry, but the law is the law.
+
+- S. McC.
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date:         Thu, 29 Apr 93 12:54:05 EDT
+From: Xiao Zhou <XIAOZHOU%PUCC.BITNET@mitvma.mit.edu>
+Subject: Polanyi on Micheson-Morley
+
+>[. . .]the author you are quoting doesn't
+>know how to evaluate the difference between experimental error and
+>real results.
+>
+>Perry Metzger
+
+Polanyi is not making an evaluation, he's talking about the published evaluation
+physicists of the time. He is questioning the contemporary version of the story
+claims that Michelson & Morley's results clearly threw out the idea of the ether
+level point was that M&M's experiment shook no-oneUs belief in the ether, but th
+Einstein's articulation of the idea of relativity (without immediate experimenta
+verification) did.
+-------------------------------------
+Dave Burns      tburns@gmuvax.gmu.edu
+10310 Main St. #116 Fairfax, VA 22030
+(703)993-1142 Wiretap Chip:IMPOSSIBLE (was Breakfast)
+Public key by finger, with disclaimer
+-------------------------------------
+
+------------------------------
+
+Date: Thu, 29 Apr 1993 12:16:21 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: HELP! Some nut is threatening to sue!
+
+In <9304291609.AA28718@churchy.gnu.ai.mit.edu>, Stanton McCandlish writes:
+|> Craig Presson
+[...]
+|> > Well, he should have signed it with PGP so Stanton could be sure ;-)
+|> 
+|> Actually that was part of what made me think it was fake (not *PGP* key 
+|> missing, but RSA key missing.  It seemed VERY odd that the honcho of
+|> RSA would not use his own product, so I thought it MIGHT be a fake.  His 
+|> followup DID have his RSA sig, so I have no more doubts.
+
+Ouch. Have you mentioned this on cypherpunks? Followups-to:, as
+it were.
+
+I second the opinion that you should lay low unless you have the
+resources to counterattack.
+
+Public Key Partners can't chase down every copy of PGP in the world.
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    /
+
+
+------------------------------
+
+Date: Thu, 29 Apr 1993 09:50:20 -0700 (PDT)
+From: Scott C DeLancey <delancey@darkwing.uoregon.edu>
+Subject: RAND: Warning: Objectivism may be hazardous to your health 
+
+Perry reasonably asks:
+
+> Could someone say precisely what is wrong with objectivism, other than
+> the crappy epsistemology? Don't include things like "Objectivists
+> smoke" or "Ayn Rand was a jerk who thought that her opinions on music
+> were objectively true" either, since neither smoking nor Ayn Rand's
+> personal opinions on art have anything really to do with the core of
+> objectivism.
+
+Well, before we all eat each other, let me step in on this one.  I
+should establish some credentials here:  I've been an admirer of Rand's
+work and many of her ideas since I first read _The Fountainhead_ and
+_AS_ in junior high school (I'm sure I've read AS at least half a dozen
+times since then).  I pushed her stuff on my oldest son when he was 13
+(he didn't take to the novels, but devoured all of her essays that he
+could get his hands on in about two weeks, and has made himself very
+unpopular with his schoolteachers ever since).  And I haven't had much
+direct contact with Randroids, so I don't have any personal axe to
+grind there.  But --
+
+What's wrong with (at least some) Objectivists (the capital O is
+important here) is that they *believe* the crappy epistemology.
+They take very seriously the notion that not only is it possible
+to develop objective, rigorously logical morality and esthetics,
+but that Rand has done it.  This is stupid.  The worst of them
+also take seriously her ideas about psychology, and believe that
+by programming themselves with Objectivist rants they give themselves
+a clear understanding of their own motivations, thought processes,
+and actions.  This is terminally stupid.  It really is dangerous
+to your health.  To top this all off, they then broadcast their
+contempt for anyone who doesn't subscribe to the program--witness
+the various Objectivist screeds about Libertarians, for example.
+
+I assume that these Objectivists, and *their* Objectivism, are the
+source of our objectivist-bashers' venom.  Obviously, Perry, you
+(and I) don't exemplify this kind of stupidity.  Still, you call
+yourself an objectivist, and therefore take the exception to their
+rhetoric.  (You must realize, I'm sure, that many Objectivists would 
+take strong exception to a relativist wimp like you having the gall 
+to call yourself an objectivist).  Maybe there are people on the list
+who are ready to consider any admirer of Rand to be a dangerous loon,
+because some are.  If so, that is unfortunate; those folks are not
+thinking clearly.  (Just as there may be those on the list who are ready to
+consider any admirer of Korzybski, or Wilhelm Reich, or any self-professed
+Neopagan, or whatever, to be an irrational loon, on the grounds that
+there are indubitably many irrational loons in each of those categories.
+Again this is a sign of muddy thinking).  But on the other hand, I
+don't think you're participating cooperatively in the debate by
+excluding the crappy epistemology from it--my understanding of the 
+orthodox Objectivist view is that the epistemology is "the core of
+objectivism", that the aspects of her thought that many of the
+rest of us admire in spite of the crappy epistemology follow inevitably 
+from the epistemology, and that just sharing some of Rand's conclusions does
+not itself make you an objectivist unless you buy the whole package.
+That version of Objectivism is objectively loony.
+
+Scott DeLancey
+
+
+
+------------------------------
+
+Date: Thu, 29 Apr 1993 13:02:39 -0400 (EDT)
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: PHIL: GS + Objectivism (+ Extropianism) = ?
+
+>   It seems to me that before we can begin to work on a synthesis, 
+> we need to have reasonable descriptions of the "philosophies" in 
+> question.  Below is my first attempt at summing them up.  Please correct
+> my errors and omissions, suggest a better way to go about the synthesis, etc.
+ 
+*Excellent* first capsule descriptions!  I am, despite the criticisms I make
+below, very impressed.
+ 
+> Essentials of Objectivist Philosophy [Rand]
+> -------------------------------------------
+> Metaphysics  - Objective reality, existence as such, knowledge of the
+>                universe characterized by the "Law of Identity".
+> Epistemology - "Reason", the means of knowing, knowledge of how we know.
+> Ethics       - Rational egoism / self-interest, a code of values for the self.
+> Politics     - Individual rights, laissez-faire capitalism.
+> Esthetics    - Romantic art embodying "metaphysical values" for refueling 
+>                one's consciousness and (benevolent) sense of life.
+> 
+>    Emphasis seems to be on "being rational" and logical, having reasonable
+> premises, taking the responsibility to think, decide and act, and of course
+> a strong advocacy of capitalism and individual rights.
+ 
+Objectivism's weak spot is in metaphysics.  Indeed, it's the belief that there
+*is* a `metaphysics' separable from epistemology that underlies its failures.
+
+Correspondingly, Objectivism's emphasis on "reason" as a means of knowledge
+is dangerously incomplete, because it tends to detach Objectivists from
+dealing with reality into arguing about a maze of soi-disant "logical"
+abstractions.  (This failure mode is typical of rationalist philosophies,
+as opposed to empiricist ones).
+
+It is worth noting that Objectivist ethics came first, in the '20s and '30s,
+whan Rand was at the peak of her powers.  The epistemology was a late
+development, and didn't actually stabilize until at least the late '50s.
+ 
+> General Semantics (heretically cast in philosophical terms) [Korzybski]
+> -----------------------------------------------------------------------
+> 'Metaphysics'  - organically related space-time process-events, especially on
+>                  quantum/atomic/molecular/colloidal levels.  A 'reality'
+>                  that we can never directly 'perceive'.
+> 'Epistemology' - scientific method, non-Aristotelian wholistic formulations,
+>                  heavy emphasis on our neural natures and on the tentative
+>                  nature of our 'knowledge'.
+> 'Ethics'       - maximal effort with minimal expectation, seeking agreement
+>                  and cooperation through rigorously accurate verbal maps.
+> 'Politics'     - state capitalism --> international capitalism, controlled
+>                  by a rational, scientific elite.
+> 'Esthetics'    - ?
+> 
+>   Emphasis seems to be on making ever better maps of the territory, recording 
+> and passing them on, practicing scientific method and a natural order of 
+> abstracting (ie, observe --> describe --> evaluate/infer/generalize/etc.)
+ 
+I'm not aware of any "state-capitalist" subtext in GS, nor of any political
+subtext at all, for that matter.
+
+GS has nothing explicit or prescriptive to say about esthetics.   However, I
+see a natural link to "reader-response" criticism in literature, and certain
+structuralist ideas in art criticism generally.
+
+Allow me to suggest friendly amendments to the `Metaphysics' and `Epistemology'
+sections:
+
+`Metaphysics'  - We experience "reality", but we can only perceive, reason and
+                 communicate about it through neural, cognitive and linguistic
+                 filters.  Thus, metaphysics is not separable from epistemology.
+`Epistemology' - Operationalism: what we know is what we can verify by
+                 predictive test.  Empiricism: Facts beat theories.  Rejection
+                 of rationalist claims of the primacy of logic.  Rigorous
+                 separation between formal and predictive "truth".  Scientific
+                 method, emphasis on the conditionality and tentativeness of
+                 knowledge.
+ 
+> Essentials of Extropian Philosophy [More]
+> -----------------------------------------
+> Metaphysics  - scientific reality with emphasis on (local) reversals
+>                of entropy.
+> Epistemology - scientific method, "hyper-rationality", intelligent technology.
+> Ethics       - self-transformation, dynamic optimism, boundless expansion.
+> Politics     - anarcho-capitalism, PPL, spontaneous order.
+> Esthetics    - some science fiction (eg, Vinge, Heinlein)
+> 
+>   Emphasis seems to be on maximally extending one's life, autonomy, real 
+> wealth, self-development, knowledge and information access.
+ 
+I wouldn't call "intelligent technology" a component of epistemology in any
+sense.
+ 
+> Some comparisons/contrasts:
+> ---------------------------
+>   If my synopses are accurate, then each of these "philosophies" acknowledges
+> the existence of an "objective" reality which can be known (to greater or
+> lesser degrees) by the appropriate use of our minds.  They seem to diverge
+> from there, however.  O and E seem ethically close (though non-identical) in 
+> that they focus on the self, while GS seems more to focus on communality.
+
+I question the assertion of a GS "focus on communality".  I don't think GS
+implies any position on the individualist/communalist axis.  What is your
+evidence for believing otherwise?
+
+> O and E seem politically close (except for Randian denial of anarchy), while
+> GS bombs out.  All three seem a little weak in Esthetics, although this
+> observation may only be a function of my ignorance of the field.
+
+Your belief that a complete philosophy must include a normative esthetics
+is a cultural hangover from the ancient Greeks.  Forget it.
+
+>   BTW, are there other relevant "philosophies" which should be considered 
+> in this synthesis?
+
+I'd be tempted to add:
+
+Zen Buddhism (Bodhidharma, Mu-mon, Hakuin)
+------------------------------------------
+Metaphysics  - "Five pounds of flax!"  Metaphysics is a chew-toy for the
+               distracted; experience is the only reality we can know
+               outside of a few moments of enlightenment, and the reality
+               of enlightenment is not communicable.
+Epistemology - "The mind is like a dog.  When its master points at the moon,
+               it barks at the hand." 
+Ethics:        Honesty, simplicity, dedication to craft, total personal
+               responsibility.  Detachment from desire, then detachment
+               from detachment.
+Politics:      Radical individualism.  Only enlightenment matters.
+Esthetics:     Naturalness, roughness, incomplete statement, simplicity.
+               Art mirrors the imperfection of the world and the evanescence
+               of knowledge.
+
+Have I ever mentioned here that I'm a student of Zen?   I see deep
+connections between the Zen critique of "the mind as drunken monkey"
+and General Semantics.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Thu, 29 Apr 1993 14:32:45 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Polanyi on Micheson-Morley 
+X-Reposting-Policy: redistribute only with permission
+
+Dave Burns says...
+> >[. . .]the author you are quoting doesn't
+> >know how to evaluate the difference between experimental error and
+> >real results.
+> >
+> >Perry Metzger
+> 
+> Polanyi is not making an evaluation, he's talking about the
+> published evaluation physicists of the time. He is questioning the
+> contemporary version of the story claims that Michelson & Morley's
+> results clearly threw out the idea of the ether level point was that
+> M&M's experiment shook no-oneUs belief in the ether, but that
+> Einstein's articulation of the idea of relativity (without immediate
+> experimental verification) did.
+
+Well, fine. No one, to my knowlege, believes that Einstein got his
+ideas from the Michelson-Morley experiment -- he appears to have made
+a brilliant synthesis based on looking at Maxwell's equations and some
+similar sources. However, the original poster asked "is there any way
+to check the idea that light has a constant speed directly", and
+Michelson-Morley is the way to do just that.
+
+Perry
+
+------------------------------
+
+Date: Thu, 29 Apr 93 15:49:31 EDT
+From: sulko-m@acsu.buffalo.edu (Mark A. Sulkowski)
+Subject: PHIL: GS + Objectivism + Extropianism = ?
+
+From: esr@snark.thyrsus.com (Eric S. Raymond)
+Subject: PHIL: GS + Objectivism (+ Extropianism) = ?
+ 
+>*Excellent* first capsule descriptions!  I am, despite the criticisms I make
+>below, very impressed.
+
+	Me too!
+ 
+ 
+>Objectivism's weak spot is in metaphysics.  Indeed, it's the belief that there
+>*is* a `metaphysics' separable from epistemology that underlies its failures.
+
+	This is a very intriguing statement.  Are you blaming the metaphysics
+for the bad epistemology?  Is Objectivist metaphysics completely or partially
+*wrong*; or is it *incomplete*, but salvagable through amendment?
+
+
+>> Essentials of Extropian Philosophy [More]
+>> -----------------------------------------
+>> Metaphysics  - scientific reality with emphasis on (local) reversals
+>>                of entropy.
+>> Epistemology - scientific method, "hyper-rationality", intelligent technology.
+>> Ethics       - self-transformation, dynamic optimism, boundless expansion.
+>> Politics     - anarcho-capitalism, PPL, spontaneous order.
+>> Esthetics    - some science fiction (eg, Vinge, Heinlein)
+>> 
+>>   Emphasis seems to be on maximally extending one's life, autonomy, real 
+>> wealth, self-development, knowledge and information access.
+> 
+>I wouldn't call "intelligent technology" a component of epistemology in any
+>sense.
+ 
+	I agree with the preceding statement.
+
+	I think that the only official statement of Extropian metaphysics
+is that it involves "realism" -- the universe is real and we are part of it.
+
+	I doubt there is an Extropian epistemology beyond support for
+cognitive realism and scientific method.  Even that may be a risky statement.
+
+	There really isn't an Extropian ethics.  Sometimes Max talks as
+if Extropianism were merely a personal lifestyle (subjectivism/amoralism),
+at other times as if Extropianism really was *good* and entropy a destructive
+evil (objectivism).  If there is an Extropian ethics, it is very soft --
+that is, it is not intended to turn into a means of hating non-extropians.
+
+
+===============================================================================
+|   |\    /|    | "But we must not follow those who advise us, being men, to  |
+|    \\  //     | think of human things, and, being mortal, of mortal things, |
+|     \\//      | but must, so far as we can, make ourselves immortal..."     |
+| Mark \/enture |                 - Aristotle, _The Nicomachean Ethics_       |
+===============================================================================
+
+
+------------------------------
+
+Date: Thu, 29 Apr 1993 13:02:39 -0400 (EDT)
+From: cbmvax!snark.thyrsus.com!esr@uunet.UU.NET (Eric S. Raymond)
+Subject: PHIL: GS + Objectivism (+ Extropianism) = ?
+
+>   It seems to me that before we can begin to work on a synthesis, 
+> we need to have reasonable descriptions of the "philosophies" in 
+> question.  Below is my first attempt at summing them up.  Please correct
+> my errors and omissions, suggest a better way to go about the synthesis, etc.
+ 
+*Excellent* first capsule descriptions!  I am, despite the criticisms I make
+below, very impressed.
+ 
+> Essentials of Objectivist Philosophy [Rand]
+> -------------------------------------------
+> Metaphysics  - Objective reality, existence as such, knowledge of the
+>                universe characterized by the "Law of Identity".
+> Epistemology - "Reason", the means of knowing, knowledge of how we know.
+> Ethics       - Rational egoism / self-interest, a code of values for the self.
+> Politics     - Individual rights, laissez-faire capitalism.
+> Esthetics    - Romantic art embodying "metaphysical values" for refueling 
+>                one's consciousness and (benevolent) sense of life.
+> 
+>    Emphasis seems to be on "being rational" and logical, having reasonable
+> premises, taking the responsibility to think, decide and act, and of course
+> a strong advocacy of capitalism and individual rights.
+ 
+Objectivism's weak spot is in metaphysics.  Indeed, it's the belief that there
+*is* a `metaphysics' separable from epistemology that underlies its failures.
+
+Correspondingly, Objectivism's emphasis on "reason" as a means of knowledge
+is dangerously incomplete, because it tends to detach Objectivists from
+dealing with reality into arguing about a maze of soi-disant "logical"
+abstractions.  (This failure mode is typical of rationalist philosophies,
+as opposed to empiricist ones).
+
+It is worth noting that Objectivist ethics came first, in the '20s and '30s,
+whan Rand was at the peak of her powers.  The epistemology was a late
+development, and didn't actually stabilize until at least the late '50s.
+ 
+> General Semantics (heretically cast in philosophical terms) [Korzybski]
+> -----------------------------------------------------------------------
+> 'Metaphysics'  - organically related space-time process-events, especially on
+>                  quantum/atomic/molecular/colloidal levels.  A 'reality'
+>                  that we can never directly 'perceive'.
+> 'Epistemology' - scientific method, non-Aristotelian wholistic formulations,
+>                  heavy emphasis on our neural natures and on the tentative
+>                  nature of our 'knowledge'.
+> 'Ethics'       - maximal effort with minimal expectation, seeking agreement
+>                  and cooperation through rigorously accurate verbal maps.
+> 'Politics'     - state capitalism --> international capitalism, controlled
+>                  by a rational, scientific elite.
+> 'Esthetics'    - ?
+> 
+>   Emphasis seems to be on making ever better maps of the territory, recording 
+> and passing them on, practicing scientific method and a natural order of 
+> abstracting (ie, observe --> describe --> evaluate/infer/generalize/etc.)
+ 
+I'm not aware of any "state-capitalist" subtext in GS, nor of any political
+subtext at all, for that matter.
+
+GS has nothing explicit or prescriptive to say about esthetics.   However, I
+see a natural link to "reader-response" criticism in literature, and certain
+structuralist ideas in art criticism generally.
+
+Allow me to suggest friendly amendments to the `Metaphysics' and `Epistemology'
+sections:
+
+`Metaphysics'  - We experience "reality", but we can only perceive, reason and
+                 communicate about it through neural, cognitive and linguistic
+                 filters.  Thus, metaphysics is not separable from epistemology.
+`Epistemology' - Operationalism: what we know is what we can verify by
+                 predictive test.  Empiricism: Facts beat theories.  Rejection
+                 of rationalist claims of the primacy of logic.  Rigorous
+                 separation between formal and predictive "truth".  Scientific
+                 method, emphasis on the conditionality and tentativeness of
+                 knowledge.
+ 
+> Essentials of Extropian Philosophy [More]
+> -----------------------------------------
+> Metaphysics  - scientific reality with emphasis on (local) reversals
+>                of entropy.
+> Epistemology - scientific method, "hyper-rationality", intelligent technology.
+> Ethics       - self-transformation, dynamic optimism, boundless expansion.
+> Politics     - anarcho-capitalism, PPL, spontaneous order.
+> Esthetics    - some science fiction (eg, Vinge, Heinlein)
+> 
+>   Emphasis seems to be on maximally extending one's life, autonomy, real 
+> wealth, self-development, knowledge and information access.
+ 
+I wouldn't call "intelligent technology" a component of epistemology in any
+sense.
+ 
+> Some comparisons/contrasts:
+> ---------------------------
+>   If my synopses are accurate, then each of these "philosophies" acknowledges
+> the existence of an "objective" reality which can be known (to greater or
+> lesser degrees) by the appropriate use of our minds.  They seem to diverge
+> from there, however.  O and E seem ethically close (though non-identical) in 
+> that they focus on the self, while GS seems more to focus on communality.
+
+I question the assertion of a GS "focus on communality".  I don't think GS
+implies any position on the individualist/communalist axis.  What is your
+evidence for believing otherwise?
+
+> O and E seem politically close (except for Randian denial of anarchy), while
+> GS bombs out.  All three seem a little weak in Esthetics, although this
+> observation may only be a function of my ignorance of the field.
+
+Your belief that a complete philosophy must include a normative esthetics
+is a cultural hangover from the ancient Greeks.  Forget it.
+
+>   BTW, are there other relevant "philosophies" which should be considered 
+> in this synthesis?
+
+I'd be tempted to add:
+
+Zen Buddhism (Bodhidharma, Mu-mon, Hakuin)
+------------------------------------------
+Metaphysics  - "Five pounds of flax!"  Metaphysics is a chew-toy for the
+               distracted; experience is the only reality we can know
+               outside of a few moments of enlightenment, and the reality
+               of enlightenment is not communicable.
+Epistemology - "The mind is like a dog.  When its master points at the moon,
+               it barks at the hand." 
+Ethics:        Honesty, simplicity, dedication to craft, total personal
+               responsibility.  Detachment from desire, then detachment
+               from detachment.
+Politics:      Radical individualism.  Only enlightenment matters.
+Esthetics:     Naturalness, roughness, incomplete statement, simplicity.
+               Art mirrors the imperfection of the world and the evanescence
+               of knowledge.
+
+Have I ever mentioned here that I'm a student of Zen?   I see deep
+connections between the Zen critique of "the mind as drunken monkey"
+and General Semantics.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Thu, 29 Apr 1993 16:12:12 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: RAND, really "Reading harangues at adolescence" 
+X-Reposting-Policy: redistribute only with permission
+
+Rich Walker says:
+> Just as a matter of interest, I've seen a number of people mentioning
+> reading Rand at or about the critical 16 age.
+
+Well, I was considerably older when I read rand...
+
+>   (People don't seem to re-read Rand. People re-read Shea & Wilson and
+>   enjoy it more on each reading. Suggested fundamental principle for a
+>   memetic harangue: make it readable)
+
+I've re-read "Atlas Shrugged" a number of times, actually. Its
+horrible literature, but I find it rather compelling.
+
+Perry
+
+------------------------------
+
+Date: Thu, 29 Apr 93 20:48:26 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: PPL/BOOK: Men Are Not Cost Effective
+
+Ray Cromwell:
+>>The evidence unambiguously says average intelligence levels in the
+>>three main divisions of humanity is mongoloid => caucasoid => negroid,
+>>in descending order.  Nearly a caucasoid-sigma between each.
+> 
+>   How are cultural factors accounted for?
+
+Mostly by testing for different components of intelligence, like verbal
+and spatial.  Verbal IQ would be expected to correlate more with
+cultural bias than spatial IQ.  Use the verbal scores to track cultural
+influences to filter out the intrinsic culture-free effects on the
+spatial (and other) scores.  Same with other environmental influences
+like quality of education etc.
+
+The references to Jensen I gave are the only place where I've seen this
+approach rigorously applied.  However I'm not an expert....
+
+> I've seen studies in Nature and Sci Am. which suggested that cultural
+> values played a large part in setting up the mongoloid => caucasoid
+> => negroid differences.
+
+I suspect I've seen the same studies in Sci.Am (but not Nature) that you
+mention.  As I recall the authors just *assumed* that *all* the effects
+were due to cultural-environmental causes.  They never once even
+considered the possibility of racial-genetic origins.
+
+> -- Ray Cromwell
+
+Mike Price                         price@price.demon.co.uk
+                                      AS member (21/3/93)
+
+------------------------------
+
+Date: Thu, 29 Apr 93 19:42:42 +0100
+From: Rich Walker <grlw1@cus.cam.ac.uk>
+Subject: RAND, really "Reading harangues at adolescence"
+
+Just as a matter of interest, I've seen a number of people mentioning
+reading Rand at or about the critical 16 age. Now, I realise that for many
+of these people this wouldn't have been possible, but at about the same age
+I read the Illuminatus! trilogy, and have been re-reading it ever since.
+  (People don't seem to re-read Rand. People re-read Shea & Wilson and
+  enjoy it more on each reading. Suggested fundamental principle for a
+  memetic harangue: make it readable)
+Two thoughts escape me:
+do those of you (there must be _someone_) who read said trilogy at about
+the same age feel that it's influenced them in a significant manner? Or,
+more relevantly, that their view of Extropianism differs significantly from
+those of other people on the list?
+and is there a difference in later reading of Korzybski and Joyce given
+exposure to the Shea & Wilson numbers...
+
+Rich!
+
+------------------------------
+
+Date: Thu, 29 Apr 1993 16:21:55 -0400 (EDT)
+From: cbmvax!snark.thyrsus.com!esr@uunet.UU.NET (Eric S. Raymond)
+Subject: RAND, really "Reading harangues at adolescence"
+
+> Just as a matter of interest, I've seen a number of people mentioning
+> reading Rand at or about the critical 16 age. Now, I realise that for many
+> of these people this wouldn't have been possible, but at about the same age
+> I read the Illuminatus! trilogy, and have been re-reading it ever since.
+
+Me, too.
+
+> do those of you (there must be _someone_) who read said trilogy at about
+> the same age feel that it's influenced them in a significant manner?
+
+Oh, most definitely.  I've never taken my own beliefs quite so seriously
+since --- I've been more open to reality, more mentally flexible, funnier,
+and (I believe) wiser.
+
+> more relevantly, that their view of Extropianism differs significantly from
+> those of other people on the list?
+
+Harder to say.  I'm certainly more willing than many Extropians to look
+for transformative gold among the dross of mysticism.
+
+> and is there a difference in later reading of Korzybski and Joyce given
+> exposure to the Shea & Wilson numbers...
+
+Again, I can't say, as I read Korzybski *before* _Illuminatus!_  I have
+no interest in Joyce.
+-- 
+					Eric S. Raymond <esr@snark.thyrsus.com>
+
+------------------------------
+
+Date: Thu, 29 Apr 1993 14:38:35 -0400 (EDT)
+From: Edward J OConnell <ejo@world.std.com>
+Subject: QUESTION: PGP's legal Status/Providing Pointers
+
+Ok, so we know now that distributing PGP is dangerous; potentially. Not
+that this will stop its spread, anymore than prohibition stopped people
+from drinking or smoking the wrong plant.
+
+Speaking of that, I'm still toying with my classified ad idea--obviously,
+I can't distribute PGP. My legal question is, is telling people where to
+get it illegal? It seems like many people should be doing this--pointing
+out the loopholes in various stupid systems. Even when the loophole is
+quasi legal. Can you use language in such a way as to protect yourself?
+
+(I remember seeing Bongs sold with little packets of tobacco, and a zerox
+of a study showing how water pipes reduced cancer risk for tobacco
+smokers--pretty clever, huh?)
+
+My biggest complaint with PGP is, its a pain in the ass. An extra step. A
+seamless integration into a mail program would be excellent. (probably
+impossible though, huh? Programmers?) I plan on sending secret messages
+out of pure 'altruism,';) (Sorry Ayn) just to annoy and muddy the waters,
+but when encyrption is as tedious as writing your congressman, not many
+people are going to do it very often. We need shareware/freeware authors
+to make PGP encryption as effortless as ROT13. 
+
+This is to no way belittle the achievement of PGP in it's current form. I
+would like to make encryption more like the IUD than the condom, however,
+if you get my drift.
+
+First draft of my ad. Need to find out the rates for HIGH TIMES. If its
+going to cost more than a couple hundred bucks, I probably will wimp out.
+
+PHONE WITHOUT FEAR
+
+Did you know that personal computers can be used to communicate with
+others with *absolute* privacy? That free public domain encyrption
+software exists that cannot be cracked? Can't type? Then use your voice!
+For plans to construct a user friendly, PC voice mail encyrption system
+send 10.00 money order to: 
+
+Soon to be Sued?
+Box. 666
+Hell-in-a-handbasket, MA
+
+(Am I overselling PGP? Cyrptographers? Anyway to qualify the statement,
+and still sell my booklet?)
+
+The booklet will have a general laymans description of public key systems,
+some hardware/software lists and prices, a few package deal descriptions,
+some comments on how to buy the stuff (mail order!) and how to get PGP,
+and how to use it. My tests are going well. Just sent an encypted voice
+message and got one back from a friend. Exciting. The voice ads another
+layer of authentification.
+
+HIDING PGP MESSAGES I've thought of some other things...how about a BBS,
+disguised as a porn board, that acts as a message server. Your contacts
+line is busy/dirty/down, and you want to send him something. UUencode
+everything after PGPing it, send it to the board. Not hard to penetrate,
+but the board could move around, hiding in the vast sea of digital
+pornography. 
+
+
+JOKE WARNING
+Oh, wait, I haven't insulted anyone yet, have I? :) You're
+all communist tree huggers. Or Free Market facists. One or the other. Or
+something else I don't like. You think poorly, (not like me.) and I'm
+suprised that I spend so much time reading your posts, because I KNOW
+EVERYTHING. Everyone with a logical brain thinks JUST LIKE ME. What do you
+people all have TUMORS or something? Genetic defects?
+
+Sorry. That was lame. I'm trashing everything with the word
+environment/earthday/or Rand in it now anyway.
+
+Jay
+
+
+
+------------------------------
+
+Date: Thu, 29 Apr 1993 16:17:25 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: RAND, really "Reading harangues at adolescence"
+
+In <9304292034.AA19831@churchy.gnu.ai.mit.edu>, Eric S. Raymond writes:
+|> > Just as a matter of interest, I've seen a number of people mentioning
+|> > reading Rand at or about the critical 16 age. Now, I realise that for many
+|> > of these people this wouldn't have been possible, but at about the same age
+|> > I read the Illuminatus! trilogy, and have been re-reading it ever since.
+|> 
+|> Me, too.
+
+I did worse -- I read Nietzche at that age. I didn't do any
+Illuminatus! or Rand until old age. I re-read Illuminatus! once, I
+don't imagine I need to again for a while.
+
+I won't read all of AS again unless I'm locked up in Mad Dog, Texas
+with a choice between that and a Gideon bible.
+
+|> > do those of you (there must be _someone_) who read said trilogy at about
+|> > the same age feel that it's influenced them in a significant manner?
+|> 
+|> Oh, most definitely.  I've never taken my own beliefs quite so seriously
+|> since --- I've been more open to reality, more mentally flexible, funnier,
+|> and (I believe) wiser.
+
+Yep. Have to keep checking those darned beliefs. Don't think I'd want to
+take it as far as RAW did, though -- he acts as if he's "loose as ashes".
+
+|> > and is there a difference in later reading of Korzybski and Joyce given
+|> > exposure to the Shea & Wilson numbers...
+|> 
+|> Again, I can't say, as I read Korzybski *before* _Illuminatus!_  I have
+|> no interest in Joyce.
+
+What! You aren't fascinated by stuff like:
+"Mark the Wans said, 'Why do I am a look a like a poss of porterpease?'"
+
+You must not be loose enough yet. Read Illuminatus! again ;-)
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    /
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0229
+****************************************
+

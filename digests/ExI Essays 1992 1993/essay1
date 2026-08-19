@@ -1,0 +1,359 @@
+Display message
+Message 15/30  From habs@gnu.ai.mit.edu                Sep 6 '92 at 10:22 am edt
+
+
+Return-Path: <habs@gnu.ai.mit.edu>
+To: ExI-Essay@gnu.ai.mit.edu
+X-Original-Message-Id: <9209061422.AA34321@hal.gnu.ai.mit.edu>
+Subject: 
+X-Original-To: exi-essay@gnu.ai.mit.edu
+Date: Sun, 6 Sep 92 10:22:42 EDT
+X-Extropian-Date: Remailed on September 6, 372 P.N.O. [14:22:47 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+
+Here is an other post that was sent in for the list contest.  I am
+forwarding it to the list.
+
+It was submitted by derek@cs.wisc.edu
+
+Note: Derek runs our FTP site for this list.
+
+/Harry
+______________________
+
+ There are 335 lines left (8%). Press <space> for more, or 'i' to return.
+Actually, here's an essay that I've been tinkering with; please
+consider it as an entry for the "First Paper" contest on the
+new exi-essay list, and consider it a submission to the list if
+it does not win.
+
+If it is not appropriate for the new list, please let me know.
+
+derek
+
+
+                      WELL, OH YEAH??? [0]
+
+                          An Essay
+                             by
+                         Derek Zahn
+
+IMAGE
+
+    "I should see the garden far better," said Alice to herself, "if I
+could get to the top of that hill:  and here's a path that leads straight
+to it -- at least, no, it doesn't do that --" (after going a few yards
+along the path and turning several sharp corners), "but I suppose it will
+at last.  But how curiously it twists!  It's more like a corkscrew than
+a path!  Well, *this* turn goes to the hill, I suppose -- no, it doesn't!
+This goes straight back to the house!  Well then, I'll try it the other
+way." [1]
+    -- Lewis Caroll, _Through_the_Looking_Glass_
+
+IMAGE
+
+    It's not true that life is one damn thing after another -- it's one
+damn thing over and over."
+    -- Edna St. Vincent Millay
+
+INTRODUCTION
+
+    In his paper "Much Ado About Not Very Much," [2] Hilary Putnam indulges
+in a favorite philosopher's parlor game -- he attacks AI.  The article
+includes discussion of the problems of induction and natural language, and
+some caustic remarks about AI's legitimacy.  To me, the most interesting
+aspect of his argument was his focus on the failure of AI to develop
+fundamental theories of the mind and embody them in a Master Program.  He
+then attempts to explain this failure.  Unlike other objecters, who argue
+that AI is impossible in principle, Putnam focuses on the difficulties of
+practically achieving it.  This paper will, in the fragmentary style so
+popular these days, examine Putnam's ideas, speculate on their possible
+ramifications for AI, and attempt brief counterarguments from a variety of
+perspectives.
+
+THE ARGUMENT
+
+    Point:  The human brain and the mind it holds are the products of
+evolution.
+    Point:  Evolution operates like a tinker -- its products are the results
+of expedient hacks and kludges.
+    Point:  Evolution the programmer, then, created mind the same way.
+    Point:  The number of such hacks is astronomical.
+    Point:  The prospects for reproducing these hacks in programs are
+dismal.
+    Point:  AI has little chance of success.
+    Because of the way evolution built the human mind, a piece at a time,
+intelligence may be thought of as "one damned thing after another."  The
+number of damned things that evolution the tinker came up with could be
+very large, and thus the number of different aspects of mind AI will have
+to model will be equally large, making AI impractical.
+    Discouraging news for the True Believer.
+
+MINDS AND BRAINS
+
+    If, in fact, minds are what brains do, AI will only succeed
+when it has duplicated the functionality of the brain at some level of
+abstraction.  That is, since human beings are the only examples of
+generally-intelligent entities existent, the meaning of intelligence must
+be made in comparison to the human brain's function.
+    Is it necessary to take this to an extreme -- to insist that an AI must
+completely duplicate human mental phenomena, including all our moods and
+senses?  That depends on what one considers success in AI.
+
+SUCCESS IN AI -- TURING
+
+    Q:  Do you consider Alan Turing's celebrated field-test of AI to be a
+reasonable litmus test of *** SUCCESS *** in AI?
+    A:  ____________
+    Or, as Haugeland puts it, "GOFAI [Good Old Fashioned AI -DZ] will not
+    have succeeded until its systems can be gripped and wrenched by the
+    dramas of daytime television." [3]
+
+SUCCESS IN AI -- THE SUB-TURING RESPONSE
+
+    It is possible to avoid Putnam by ceding that he may be correct, but
+AI can lower it sights and remain legitimate.
+    AI will only "succeed" when it discovers and implements the, uh, you
+know, general underlying unifying everythingness of the mind.  Right?
+    This is similar to saying that physics will only "succeed" when it finds
+the truly fundamental physical laws of the universe.  This is a valid
+point of view, but hardly the only good definition of "success."
+
+THE MYSTICAL RESPONSE
+
+    Human minds were not constructed by evolution [4].  Enough said.
+
+EVOLUTION IS NOT (ALWAYS) A TINKER
+
+    Can we take issue with Putnam's view of evolution?  His argument rests
+on the observations of evolutionary biologist Francois Jacob, and I do not
+have the expertise to argue evolutionary theory.  But it does seem that
+evolution often finds elegant, simple, and efficient solutions to problems.
+Can the sparrow's ability to fly best be described as a "hack" or as the
+result of a simple and elegant design that we would steal immediately for
+our own flying machines if only we had the materials and controls to do so?
+    If the different aspects of intelligence (language, induction, deduction,
+planning, and so on) all evolved slowly and concurrently, as seems
+likely, it is possible that evolution is slowly expressing a set of
+basic principles underlying intelligence.  After all, our musculature
+and skeleton are just simple, understandable extensions of concepts like
+"lever" and "pulley."  Must the mind be different?
+    The tinkering that was done to develop our minds may all have been at
+such a low level that only some connectionists need fear the tinkering.
+
+HOW MUCH TINKERING?
+
+    Putnam deftly writes that natural intelligence "could be" the result
+of billions of bits of tinkering.  Well, what if it's not?  What if
+the amount of "important" tinkering was much smaller?  I think the issue
+is open whether the concept of "important" tinkering is meaningful or
+what "important" might mean in this context.
+
+IMPORTANCE
+
+    One could say that Putnam's argument applies to replicating, down to
+the lowest level, the human mind.  This may not be necessary.  It may be
+that some aspects of mind can be singled out as important, and others
+discarded as unimportant.  Hopefully, a level of abstraction can be found
+where objects at that level and above are required for an adequate mind
+model, and details at levels below are adequately characterized at this
+level.  Would such a level of description provide only an approximation
+to mind, or the real thing?
+    Are unifying principles at issue, or specific implementations?
+
+THE MANY MINDS RESPONSE
+
+    Why all this fuss about reproducing human minds anyway?  If the goal
+of AI is what it says -- Artificial Intelligence -- then surely it is
+provincial to rely too strongly on parallels to Natural Intelligence.
+We routinely accept the possibility of alien intelligences, whose
+structure and evolutionary heritage may be very different from ours.
+Why, then, can't our machines be intelligent without mimicing human
+intelligence?  In fact, why should we expect that it is a reasonable
+course to try to reproduce the complexity and seemingly arbitrary specifics
+of what it means to be human?
+    What?  Because we'll want to talk to our systems?  Well, even so,
+performance is the measure of success, not psychological plausibility!
+We should be able to be better tinkers than evolution, since we can choose
+our raw materials and work purposefully toward our goals.
+
+THE TEST-TUBE EVOLUTION RESPONSE
+
+    Or, since evolution is such a mindless process, we should be
+able to simulate it on our machines and let our programs develop
+survival-of-the-fittest style.  Philosophers probably see little
+of value in this approach, and perhaps shudder at the prospect of
+combing through core dumps for the secrets of Mind.
+    Winograd+Flores [5] briefly criticize this approach.  They point out
+that there is little understanding of the actual mechanisms of change
+used by evolution.  They also argue that the benefits of fast computer
+hardware for simulation are more than outweighed by evolution's massively
+parallel approach to modification testing.
+    Perhaps, though, the "organisms" computer evolution works on could be
+built from higher-level components than are at the tinker's disposal.
+This tack strikes me as following the mainstream approach to AI -- the search
+for abstractions.  Maybe computer evolution's search space could be pruned
+by an outside agent -- Heuristic Evolution, anyone?
+
+REVOLUTION -- THE SCIENCE FICTION RESPONSE
+
+    An optimist might respond that perhaps we haven't achieved the depth we
+need to even understand the problem -- yet.  But sneering at prospects for
+current conceptualizations can be hazardous since surely the future holds
+basic insights we cannot imagine today.  Researchers who think they've
+found reality are very vulnerable to disappointment.
+    What might such a revolution be?  It is of course impossible to say
+since we walk backwards into the future.  Perhaps a mind is best modeled
+computationally as a set of interacting polynomial equations; perhaps
+cellular automata could evolve under local pressures into specialized parts
+of an emergent mind.  Who knows?
+    Of one thing we can be sure -- there have been rebels before, and there
+will be rebels again.
+
+MASTER PROGRAMS
+
+    It is a popular view in the philosophy of mind that intellegence can
+in fact be reduced to simplicity, and the history of cognitive science has
+been the attempt to perform this reduction.  This activity has guided AI,
+certainly.  From the General Problem Solver on, work in AI is, I think,
+often looked down upon if it doesn't present a Big Picture.  Current
+Big Picture work includes Douglas Lenat's CYC project[6], the Logicist
+program[7], and Minsky's Society of Mind.  This last is interesting in that
+it seems almost to agree with Putnam on the role of evolution, and Minsky's
+Grand Scheme is full of sentences like:  "In reality, this is all much more
+complicated than presented here."
+
+DANIEL DENNETT
+
+    In "When Philosophers Encounter Artificial Intelligence,"[8] the
+stalwart Daniel Dennett comes to AI's defense.  He argues that Putnam
+"elevates a worst-case possibility ... as the only possible alternative
+to the Master Program."  A variety of gadget-oriented approaches are
+actively being explored -- all of which exhibit both order and chaos.  It
+seems that the bulk of AI is done between the horns of Putnam's dilemma.
+    Dennett further writes that AI is in fact energetically attacking the
+very difficulties Putnam has pointed out, and that AI has, at least, given
+philosophers some new problems and raw materials -- what more can be
+asked?
+    Also, Dennett champions AI as providing a necessary experimental
+apparatus that philosophers had better pay attention to.  Here's one
+choice passage:
+        ... it is probably because philosophers have been too
+        philosophical -- too abstract, idealized, and unconstrained
+        by empirically plausible mechanistic assumptions -- that they
+        have failed for so long to make much sense of the mind.
+
+ARTIFICIAL NEURAL NETWORKS
+
+    If connectionism represents the attempt to reproduce mind in a
+substrate similar to the brain, connectionism is hardest-hit by Putnam's
+argument.  Connectionism as reductionism wishes to discard the idea that
+the construction of an artificial mind should be based on high-level
+analogues to brain processes.  In doing so, connectionism must accept
+the task of following exactly in the tinker's footsteps -- a very long
+walk indeed, if Putnam is to be believed.
+    Connectionists who claim for their massively parallel architectures
+only that they provide a powerful and flexible medium for an artificial
+mind (any relationship to the brain is perhaps derivative, but fundamentally
+incidental) need not heed Putnam's words -- they are as free as classical
+AI to pursue grand schemes of their own and thus join the search for an end
+run around the tinker.
+
+WHAT IF PUTNAM IS RIGHT?
+
+    Let's suppose that Putnam is right on all counts -- that is, AI has
+little hope of ever producing intelligent artifacts, and even less of doing
+so in any of our lifetimes.  What would this mean for AI?
+    Definitely some in AI would be indifferent or only mildly disappointed.
+After all, intelligence surely exists in degrees -- AI is emphatically
+not an all-or-nothing enterprise.  The pieces of the intelligence puzzle
+that AI has so far been able to find have proved, and will continue to
+prove, important in making computers into useful tools in ever-broadening
+areas of application.  The "smarter" those tools are, the more useful they
+will be.  Is that enough for AI researchers? [9]
+    It would be ironic indeed if the real lesson AI had for philosophers
+was illustration of the infeasibility of a manageably-sized explanation of
+the mind.  Would that make our own minds philosophically uninteresting?  If
+so, does that say something about our minds or about philosophers?
+
+HINDSIGHT IS SHARPER THAN FORESIGHT
+
+    Certainly there has been a tendency to be overoptimistic about AI's
+prospects, and it may be that we indulge in a blissful myopia, inflating
+each new piece of insight beyond its real value.  AI is littered with Grand
+Schemes -- general thises and thats which invariably turn out to be not so
+general as originally hoped.  It seems incredible that early AI researchers
+would have made the extravagant claims for AI's future that they have.  Did
+they make unrealistic assumptions about the rate of growth of computer
+power?  Did they underestimate the raw processing power of the brain?  Did
+they figure that their higher-level general frameworks for reasoning would
+so drastically reduce the computer power required for the programs that
+general intelligence would be possible on the toy machines of the 20th
+century?
+
+MEMORY AND RAW POWER
+
+    This question of computer power may seem disengenuous since the bulk
+of AI is supposedly performed on an "in principle" basis.  But that
+really is no excuse.  It only became possible for people to really understand
+the problems involved in powered flight when the materials and engines
+necessary to achieve it made concrete experimentation possible.  Similarly
+in AI, our grand proposals are far more impressive than our grand programs --
+AI is an experimental science if it is a science at all, and experimentation
+always decides the value of AI conceptualizations.
+    David Waltz treats the issue of inadequate hardware in "The Prospects
+for Building Truly Intelligent Machines." [10] The estimate there is that,
+in terms of processing power and memory, the brain has aproximately
+twenty million times the power of an early-model Connection Machine.  If
+in fact we have no hope of succeeding until the time when a machine of
+those capabilities is developed, is there any hope that the grand schemes
+aimed at today's computers will have any relevance beyond that of historical
+signposts?
+
+NOTES
+
+[0]  As shrieked by Tom Smothers:  "That's my snappy comeback."
+
+[1]  Of course, Alice finally does get to the top of the hill.  She does
+     so by heading directly away from her goal.  The meaning of this for
+     the metaphor being exploited here, if any, is unclear.
+
+[2]  In _The_Artificial_Intelligence_Debate_, Stephen R. Grubard, editor.
+     MIT Press, 1988.  pp. 269-281.
+
+[3]  John Haugeland, _Artificial_Intelligence:_The_Very_Idea_, p. 244.
+
+[4]  Specifically, the brains of all creatures, including humans, are
+     nothing more than elaborate senses and "steering wheels" used for
+     educational purposes by beings in a higher energy continuum.  Mind
+     proper resides there, not here.
+
+[5]  Terry Winograd & Fernando Flores, _Understanding_Computers_and_
+     Cognition_, p. 103.
+
+[6]  This work, involving about a hundred man-centuries of labor, is
+     attempting to manually enter millions of basic facts into a large
+     complex database.  The contention is that people use these basic
+     facts as part of their common sense knowledge.  For an upbeat
+     appraisal, see Guha, R.V. and Lenat, Douglas B. CYC: A MIDTERM
+     REPORT.  _Applied_Artificial_Intelligence_ volume 5 (1991),
+     pp 45-86.
+
+[7]  The quest for a logical formalism that can handle uncertainty,
+     belief, space, time, and all other aspects of knowledge.  Such
+     a logic would allow semantically clear and provably correct
+     inference if efficient proof techniques can also be found.
+
+[8]  In _The_Artificial_Intelligence_Debate_, pp. 283-295.
+
+[9]  Hill, who sees AI, and all of Computer Science, as developing better
+     computation-based representational media, would doubtless go along with
+     this track.  
+
+[10] In _The_Artificial_Intelligence_Debate_, pp. 191-212.
+
+---------------------------------------------------------------------
+Copyright (C) 1992 by Derek Zahn.  Permission to reproduce this
+essay in whole or part is granted provided that attribution is given.
+

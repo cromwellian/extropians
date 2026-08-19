@@ -1,0 +1,963 @@
+From extropians-request@panix.com Fri Aug 13 13:22:24 1993
+Return-Path: <extropians-request@panix.com>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA12974; Fri, 13 Aug 93 13:22:21 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA01477; Fri, 13 Aug 93 13:22:08 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by panix.com id AA28444
+  (5.65c/IDA-1.4.4 for more@usc.edu); Fri, 13 Aug 1993 16:16:47 -0400
+Date: Fri, 13 Aug 1993 16:16:47 -0400
+Message-Id: <199308132016.AA28444@panix.com>
+To: Exi@panix.com
+From: Exi@panix.com
+Subject: Extropians Digest
+X-Extropian-Date: August 13, 373 P.N.O. [20:16:31 UTC]
+Reply-To: extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Fri, 13 Aug 93             Volume 93 : Issue 224
+
+Today's Topics:
+                                                                      [3 msgs]
+                            Re: Investing and academics               [1 msgs]
+                                    Axioms                            [1 msgs]
+                           AI's as dangerous slaves                   [1 msgs]
+                        Apologies for list-cluttering                 [2 msgs]
+                                    Axioms                            [2 msgs]
+                          Electracy: Evil Revisited                   [1 msgs]
+                                   HEX: HAM                           [1 msgs]
+                                     Help                             [1 msgs]
+                           Investing and academics                    [1 msgs]
+                                   Meteors                            [2 msgs]
+                            Read Me - New Software                    [1 msgs]
+                         Why are these on panix.com?                  [2 msgs]
+                             information request                      [2 msgs]
+                                  investing                           [3 msgs]
+                              sendmail patches?                       [2 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52055 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 13 Aug 93 0:56:29 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Electracy: Evil Revisited
+
+While I'm dubious about the trend towards E.D. with our current
+physically-bounded, coercive governments, I'm quite interested 
+in this proposal which seems to (embedded within the hoopla :-) 
+be for starting an E.D. system outside the boundaries of normal 
+government, a virtual area of what Extropians call "Privately Practiced
+Law" (PPL) within the anarchy of the Internet.  
+
+The Extropian list (extropians-request@gnu.ai.mit.edu)
+has been experimenting with a kind of mini-totalitarian 
+justice system for a while, and we are now experimenting with
+the Hawthorne Exchange reputation market.  Both experiments
+have revealed much room for improvement, but they are
+valuable as tentative first steps towards virtual
+PPLs, an important part of the cypherpunks vision.
+
+It would be quite interesting to set up an E.D.-based PPL,
+with both public reputation-based and anonymous voting.
+Especially interesting, but seemingly difficult, would be 
+mechanisms for evauluating the consequences of specific laws 
+being enacted, so those benefits or penalties could be fed back and 
+added/deducted from accounts of those who voted for for/against
+the law.  Quite interesting!  I look forward to more specifics, 
+perhaps I'll think of some myself.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Thu, 12 Aug 93 18:23:32 PDT
+From: edgar@spectrx.saigon.com (Edgar W. Swank)
+Subject: AI's as dangerous slaves
+
+FutureNerd Steve Witham replies to my comments:
+
+    edgar@spectrx.saigon.com (Edgar W. Swank) sez-
+
+    > I agree with fnerd that "owner happiness" is a dangerous inner goal. I
+    > would prefer a compulsion to FOLLOW ORDERS from the owner.  ...
+
+    The problem with following orders is in making a non-learning
+    system that can understand the orders and figure out whether
+    they're being followed.
+
+I never said the AI should be "non-learning."  I said the highest
+level should be programmed, not a neural net.  I assert that
+programming and learning are not incompatible.
+
+    > Well, at least the "independent thought" needs to be at a lower
+    > priority than servility.  ...
+
+    To turn off independent thought is to turn off the intelligence of
+    the thing.  Disregarding its results is equivalent to shutting it
+    off (after all, *which* independent thoughts can be trusted?).
+
+I -wouldn't- turn off independent thought; but the goal of the
+independent thought is programmed to serve, that is, follow orders.
+Any independent thoughts are permissible which are not in conflict
+with orders.
+
+In fact, I wouldn't even attempt to control thoughts with orders, only
+actions.  Why should I care if the robot hates me if at all times and
+in all ways it -acts- like it loves me and is always obedient?
+
+--
+edgar@spectrx.saigon.com (Edgar W. Swank)
+SPECTROX SYSTEMS +1.408.252.1005  Cupertino, Ca
+
+
+------------------------------
+
+Date: Fri, 13 Aug 93 2:39:11 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: investing
+
+Karl Waldman:
+> (the guy claims he can get an average of 25% per year, ....
+> prediction of  economic growth rate:
+> 	% inflation + change of GNP (not the new GDP) over the past year
+> + Current accounts balance/GNP
+
+Garbage, on both counts.  There are thousands of schemes that
+attempt to predict economic growth, eg the "leading economic
+indicators", "business cycles", etc.  None of them work very
+well; for example each "business cycle" is different from the
+last since the relationships between industries have changed,
+and new industries have appear that become important to the
+economy.  Many people have generated 25% return in the past;
+many more have not; nobody can guaruntee anything close to
+that in the future.  The lowest-risk return is c. 2.5%.  This
+is based both on the historical real return of T-bills, widely
+considered to be low risk in the past (but with mounting
+debts, increasing unenforceability of tax laws, etc. that
+may change), and the historical economic growth rate, 
+which is what the average investor can expect as a real return.  
+It is not coincidental that these two figures coincide, and
+one should be highly dubious of any scheme that claims a
+low-risk rate greater than 2.5% in the future.  (Not to
+mention "risk-free returns" and other mythical creatures
+of the investment world).  
+
+> ... is this something "professional investors use"?
+
+If they did, that information would already be reflected
+in the market prices, and it wouldn't help you in the slightest.
+Unless the information you have is _unique_ to a very small
+(in total money) group of investors, and _important_ enough
+to the security price or how it impacts your portfolio, it is
+useless for finding good investments or avoiding bad ones.
+If you don't have any important information to contribute
+to the market, it (on average) won't contribute anything to
+you.
+
+Here are examples of information useful to investors:
+* Your transaction costs:
+	-- Bid/ask spreads
+	-- Taxes (up to 40% of your capital gains!)
+	-- Commissions, loads, wrap fees (often 3%/year!)
+
+* The risk profile of your portfolio (diversification, probability of ruin)
+
+* "Inside" information: unreleased earnings reports, planned
+mergers or aquisitions, etc.  Inside-information laws are the 
+speed limits of the investment world: if you want to get there
+faster than the average driver, you best learn about the law
+and how its enforced.  Like speeding laws, they are mostly enforced
+in cases of blatant violation or when the market cops have some other 
+motive for getting you, eg to "reign in uppity Jews" like Michael
+Milken.
+
+* Important trade secrets of small startup companies, and analysis
+of their market consequences.
+
+*  For long-term investing, insight into the business consequences of a
+technology by someone uniquely well-versed in both the technology and
+its market, eg betting on the success of spread-spectrum/CDMA.  I'm
+not talking about a space fan betting on the success of nifty rocket XYZ!
+We are talking here about people expert in the technology and the
+market, who recognize the difference between what they hope and
+what they can expect.
+
+* Arbitrage opportunities: information reflected in one market
+but not in another causally related market.  Mathematically precise
+(or nearly so, there are theoretical nuances) relationships
+exist between stocks and options on those stocks, between short-term
+and long-term bonds with various coupon and call schemes, etc.
+Computerized arbitrage based on these mathematial relationships
+is a major industry.  New more subtle relationships are being discovered
+all the time, and new "synthetic assets" are being constructed
+out of options, futures, etc. all the time, math relationships
+being worked out between them, and their trading automated.
+
+Soft arbitrage includes things like being the first to hear
+news about a flood that wiped out half the world's cocoa crop,
+then going long on cocoa futures, for example.  There are many 
+markets where arbitrage opportunity would seem possible, eg
+the puzzling difference between the domestic-investor and
+foreign-investor markets in the same companies on the Shanghai
+exchange (Chinese nationals have to pay a >20% premium for
+the same unit of stock ownership on many stocks!), but nobody
+has figured out why the price difference exists with enough
+confidence to do the arbitrage.  In this case, the threat
+of confiscation of foreign shares by a future Communist 
+crackdown may be a reason foreigners get a discount.  A
+second explanation is that there is more domestic and
+foreign demand, but then the difference should disappear
+by arbitrage in Hong Kong markets.  The first people to
+figure out the true reason for this price difference 
+can make big money on it.
+
+In nearly all these cases market noise is much greater than the
+information being contributed to the market (one exception
+is the example where half the world cocoa cropped
+is wiped out!).  Many kinds of information may be less valuable
+than the transaction cost if the amount of investment is
+small or badly placed.  Thus investments are a gamble where
+the edge is slightly with you, instead of slightly with the
+house, as long as you are utilizing information that is
+sufficiently unique and important enough to outweigh the
+transaction costs.
+
+Nick Szabo				szabo@netcom.com 
+
+------------------------------
+
+Date:     Fri, 13 Aug 93 9:34:28 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Axioms
+
+Both Dave Krieger and Anton Sherwood continue questioning me about
+axioms:
+
+>From: dkrieger@Synopsys.COM (Dave Krieger)
+>Subject: PHIL: Re: Metaphysical Axioms
+>
+>At  9:57 AM 8/11/93 +0000, starr@genie.slhs.udel.edu wrote:
+>>The sort of thing I have in mind is Mises' action axiom:
+>>human action is purposeful behavior.  Attempting to deny it would constitute
+>>means (an argument) to an end (a conclusion), that is, it would be purposeful
+>>behavior, human action.
+>
+>The fact that some human behavior is purposeful some of the time does not
+>imply that all human behavior is purposeful, or that any human behavior is
+>purposeful all of the time.
+>                                        dV/dt
+
+Objection: irrelevant.  The subject is human ACTION, not human "behavior."
+Dead humans behave.  They do not act.
+
+>From: dasher@netcom.com (D. Anton Sherwood)
+>Subject: axioms
+>
+>> The sort of thing I have in mind is Mises' action axiom:
+>> human action is purposeful behavior.  Attempting to deny it would
+>> constitute means (an argument) to an end (a conclusion), that is, it would
+>> be purposeful behavior, human action.
+>
+>Bzzt!  The negation of Mises is "not all human action is purposeful",
+>and is not necessarily contradicted by an attempt at proof.
+
+Action != "behavior."  All human action is indeed purposeful.  That's how it
+is distinguished from mere human behavior.
+
+Anton's statement is a human action because its purpose is to negate the
+axiom of action.
+
+>So what's the axiomatic, logical, rational justification a priori of
+>Occam or induction?
+
+I haven't studied Occam enough to answer your question (which is too vague
+to be answerable even by an expert on William of Ockham - what about him?
+His person?  An idea of his?  Which idea?), but, Anton, borrow my tape of
+David Kelley's lecture on this topic.  The argument's too long for me to
+provide it to you through this medium.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Fri, 13 Aug 93 11:11:50 BST
+From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+Subject: Axioms
+
+Tim Starr writes:
+>Action != "behavior."  All human action is indeed purposeful.  That's how it
+>is distinguished from mere human behavior.
+
+Is this a definition of the phrase "human action", or an empirical claim
+about the world, or one element of a larger body of doctrine which as a
+whole makes empirical claims about the world?  Or something else?
+
+--                                  ____
+Richard Kennaway                  __\_ /    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk      \  X/     University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk    \/       Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 11:31:21 +0100 (BST)
+From: D Crookes <D.J.Crookes@sheffield.ac.uk>
+Subject: Help
+
+
+------------------------------
+
+Date: Fri, 13 Aug 93 4:01:22 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Meteors
+
+I wasn't able to get out until after midnight; I hear the rate
+peaked at about 10:30pm out here in the Bay Area.  I saw a
+fireball from the car while driving out, in the middle
+of Silicon Valley metro light pollution & all.  I got far enough
+south of Los Gatos in the foothills of the Santa Cruz mountains, so
+that city glow was confined to <30 degrees of the northeast
+sky.  Unfolded my lounge chair, wrapped myself in several sweaters and 
+blankets, and just layed out staring at a very clear sky, nice for
+viewing and daydreaming about comet mining, space colonies, 
+Jupiter-sized brains, and the like.
+
+There was no "storm" of meteors coming down at rates of
+more than a few per minute, but the meteors were brighter
+than I recall for previous Perseids.  I didn't keep count, but
+guess about 40 bright meteors between 12:30-2:30 am PST, with over a 
+dozen that left long trails that lasted for severeal seconds (on my 
+retina or actually in the sky?), and a spectacular bursting fireball.
+A nice show even without a "storm".
+
+Nick Szabo					szabo@netcom.com	
+
+------------------------------
+
+Date: Fri, 13 Aug 93 11:26:24 GMT
+From: joi@hafro.is (Johann O. Jokulsson)
+Subject: Meteors
+
+Nick Szabo wrote:
+
+> peaked at about 10:30pm out here in the Bay Area.  I saw a
+
+Over here in Reykjavik, Iceland, I gave up and went to bed around 2am
+GMT with no sighting at all.
+
+> There was no "storm" of meteors coming down at rates of
+> more than a few per minute, but the meteors were brighter
+> than I recall for previous Perseids.  I didn't keep count, but
+
+The meteorologists (sp?) here in Iceland say that next year it will 
+"probably" be brighter/more spectacular due to the fact that then Earth 
+will hit the cloud smack in the middle. I can hardly wait :-)
+
+
+
+-- 
++-------------------------------+---------------------+-----------------+
+| Johann O Jokulsson            | joi@hafro.is        | NO witty saying.|
+| Marine Research Institute     | fax: +354-1-697991  | NO disclaimer.  |
++-------------------------------+---------------------+-----------------+
+
+
+------------------------------
+
+Date: Fri, 13 Aug 93 08:32:57 CDT
+From: eder@hsvaic.boeing.com (Dani Eder)
+Subject: investing
+
+Investment Performance of Dani Eder
+
+At age 25 (27 July 1983) I had a net worth of zero.  This was a good sign, sincewhen I went to work for Boeing in October of 1981 I had a net worth of
+minus ten thousand dollars (mostly school loans and a car loan, with
+negligible assets).  At age 35 (two weeks ago) I have a net worth of $140,000.
+About 50% of this is in 2 pieces of real estate - the place I live in and
+a rental single family home in Seattle (which I am going to sell very soon).
+
+Another big chunk is in company savings plans (401k type).  Financially I
+have done best from the real estate.  I borrowed 106% of the purchase
+price when I bought the rental house (90% from the seller and 16% as a
+personal loan for the other 10% down and for remodeling costs).  For the
+first few years I was paying more on the mortgage than I was collecting
+in rent.  For the last few years the reverse has been true.  On net
+my cash flow probably comes to zero over the life of the investment.
+Today the property is worth twice the mortgage balance - mostly due to
+a property value run-up in Seattle in the late 80's.
+
+I have also done well by the company 401k plan, since Boeing matches
+50 cents on the dollar for the first 8% of your salary that goes into
+the plan (which is how much I put in).  There are few investments 
+where you get a 50% bonus right at the start.  Within the 401k, the funds
+I choose to invest in are a growth-type fund that has averaged about
+12% over it's life, and a straight interest fund that pays 7.25% currently.
+I expect the latter will drop next year (Boeing contracts with an
+insurance company in advance to deposit this fund's money at a set rate.
+Since the rate is set in advance for a full year, it does not reflect
+this years' interest rate declines).  Thus I am looking at moving
+money out of the 401k (and paying a penalty), in order to put it into
+a higher yield investment.
+
+One small but rewarding investment I made was a high-risk mortgage.
+There was a company in town that specialized in arranging these deals.
+A contractor/speculator needed money for a down payment and materials
+on a HUD foreclosure that he wanted to fix up and re-sell.  He offered
+1.75% per month for 3 month term, which I took.  The loan was secured
+by a different property he owned which had a lower debt load.  I got
+paid back, and he made money on the house.
+
+One measure I use to see how well I am doing is to look at net worth vs
+primary earnings.  My current net worth represents about 30% of the total
+earnings I had over that period.  I'd like to keep it in that range or
+better, and it is in that range because I follow investment rule #1:
+spend less than you earn.
+
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 09:37:22 -0500
+From: extr@jido.b30.ingr.com (Freeman Craig Presson)
+Subject: Read Me - New Software
+
+
+------------------------------
+
+Date: Fri, 13 Aug 93 09:01:26 MDT
+From: morgan@skyler.arc.ab.ca (Sean Morgan)
+Subject: 
+
+
+------------------------------
+
+Date:         Fri, 13 Aug 93 10:05:58 EST
+From: Jimbo Wales <JWALES@IUBVM.BITNET>
+Subject:      Re: Investing and academics
+
+Sean Merritt writes:
+>If a professor had a thesis that he
+>wished to advance and his numbers didn't jive(support his thesis) he
+>might be tempted to "fudge" results. The danger of being called on the
+>work is far less than that of someone in the physical sciences lets
+>say. The reward is the list-o-pubs gets longer.
+
+I am a PhD student in finance, so I think that I'm qualified to comment
+on this.  I believe that the likelihood of "fudging" results is far lower
+in empirical finance than in most kinds of physical sciences.  Why?
+
+There are approximately 5 major data sets that we use... CRSP, Berkeley
+options, ISSM, etc.  Every academic at every major institution has access
+to the _exact same data_.  Most of the major results in empirical finance
+can be, and have been, replicated and extended in a number of different
+ways.
+
+--Jimbo
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 11:31:31 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Investing and academics 
+
+Jimbo Wales says:
+> Sean Merritt writes:
+> >If a professor had a thesis that he
+> >wished to advance and his numbers didn't jive(support his thesis) he
+> >might be tempted to "fudge" results. The danger of being called on the
+> >work is far less than that of someone in the physical sciences lets
+> >say. The reward is the list-o-pubs gets longer.
+> 
+> I am a PhD student in finance, so I think that I'm qualified to comment
+> on this.  I believe that the likelihood of "fudging" results is far lower
+> in empirical finance than in most kinds of physical sciences.  Why?
+> 
+> There are approximately 5 major data sets that we use... CRSP, Berkeley
+> options, ISSM, etc.  Every academic at every major institution has access
+> to the _exact same data_.  Most of the major results in empirical finance
+> can be, and have been, replicated and extended in a number of different
+> ways.
+
+As long as people are discussing quantitative finance, have there been
+any studies out there on how well the Black-Scholes option pricing
+model corresponds with reality when applied to real securities?
+
+Perry
+
+------------------------------
+
+Date: Fri, 13 Aug 93 11:28:33 EST
+From: kwaldman <kwaldman@BBN.COM>
+Subject: investing
+
+>before capital gains, transaction costs (although
+>it sounds like you aren't doing anything more than buying) and whatever
+>else? It sounds like you've found some good, sound stocks to invest in. Any
+>you tried which didn't do so well?
+
+	Before taxes but with a wife, 2 kids, a house and 1 income  my
+taxes are small* compared to somebody who is single.  BTW I wouldn't
+even touch BBN if it wasn't for the ESOP, and I sell it as soon as I get
+the shares.  There is  no other good reason, to invest in BBN.
+	
+	A couple of my "bad" ones were
+
+		- a local bank stock before banking went in the toilet
+(of course some has come back now) Down about 10%.
+
+		- an investment in a small -startup.  I've mentioned
+this awhile ago, the guy who is transmitting cable and remote IR signals
+on phone lines.  He's on the edge of giving up but there's still some
+hope as Bell Atlantic wants to use his devices in their new products .
+???% 
+
+	I suspect I've been "lucky" by being there, I don't have a lot
+invested so even 100% return wouldn't be too impressive  dollar wise but I
+am planning on "being there" for the long-haul. 
+
+
+		Karl
+
+
+	*remember I'm comparing relative tax rates, not saying my taxes
+are too small, but then I think we all knew that :-)
+--------
+Karl M. Waldman              kwaldman@bbn.com  
+BBN Systems and Technologies
+
+------------------------------
+
+Date: 13 Aug 93 19:30:31 MDT (Fri)
+From: rasputin@glas.apc.org (Andrei Kleinrichert)
+Subject: information request
+
+Dear sirs:
+
+I saw the note about you in "Wired".  I am a computer enthusiast here with my
+friends in moscow.  I think you're ideas could be very interesting to us.
+Is there a way to get your publication via e-mail as Russian mail is im-
+possibly unreliable?  Thank you for your help!!!
+
+Andrei (Rasputin)
+FAX: 7(095)203-4842
+
+Do Svidanija!
+
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 11:49:17 -0400
+From: Alexis Rosen <alexis>
+Subject: Why are these on panix.com?
+
+I see a bunch of exi mail jobs in the queue on panix.com. Why? Aren't they
+all being processed on lists.panix.com (news.p.c) now?
+
+/a
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 11:49:33 -0400
+From: Alexis Rosen <alexis>
+Subject: sendmail patches?
+
+Where are they?
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 12:20:54 -0400 (EDT)
+From: Harry Shapiro <habs>
+Subject: Why are these on panix.com?
+
+a conscious being, Alexis Rosen wrote:
+> 
+> I see a bunch of exi mail jobs in the queue on panix.com. Why? Aren't they
+> all being processed on lists.panix.com (news.p.c) now?
+> 
+> /a
+
+Ray hasn't made the move yet, as I believe he is putting his
+efforts into the sendmail hack. Should be change the priority?
+
+/hawk
+
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+EXTROPY -- A measure of intelligence, information, energy, vitality,
+experience, diversity, opportunity, and growth.  EXTROPIANISM -- The
+philosophy that seeks to increase extropy.          
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 12:23:25 -0400 (EDT)
+From: Harry Shapiro <habs>
+Subject: sendmail patches?
+
+a conscious being, Alexis Rosen wrote:
+> 
+> Where are they?
+
+Ray is working on them. He had stopped working on them on July 30,
+when you told him he would have access to the testbed machine; he
+was waiting for that access.
+
+I believe that he is giving it his top priority at this point.
+
+/hawk
+
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+EXTROPY -- A measure of intelligence, information, energy, vitality,
+experience, diversity, opportunity, and growth.  EXTROPIANISM -- The
+philosophy that seeks to increase extropy.          
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 11:36:12 -0500
+From: extr@jido.b30.ingr.com (Freeman Craig Presson)
+Subject: information request
+
+Hot damn! Drop that Extro-seed into Russian soil! 
+"Russian mail is unreliable"? Business opportunity!
+-- F_cP
+
+
+In <9308131930.AA01457@glas.apc.org>, Andrei Kleinrichert writes:
+|> Dear sirs:
+|> 
+|> I saw the note about you in "Wired".  I am a computer enthusiast here with my
+|> friends in moscow.  I think you're ideas could be very interesting to us.
+|> Is there a way to get your publication via e-mail as Russian mail is im-
+|> possibly unreliable?  Thank you for your help!!!
+|> 
+|> Andrei (Rasputin)
+|> FAX: 7(095)203-4842
+|> 
+|> Do Svidanija!
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 12:41:14 -0400
+From: Alexis Rosen <alexis>
+Subject: Apologies for list-cluttering
+
+I sent two notes this morning to this list by accident. I apologize for
+this error- exi is a real account here, but it gets forwarded to the list,
+and I thought that that was no longer the case.
+---
+Alexis Rosen   Owner/Sysadmin,
+PANIX Public Access Unix & Internet, NYC.
+alexis@panix.com
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 13:02:42 -0400
+From: Harry Shapiro <habs>
+Subject: Job: Job at PANIX available
+
+>Path: panix!not-for-mail
+>From: alexis@panix.com (Alexis Rosen)
+>Newsgroups: panix.announce
+>Subject: Panix Seeks Employee / User Support, some Sys Admin / New York
+>Followup-To: panix.chat
+>Date: 13 Aug 1993 09:55:32 -0400
+>Organization: PANIX Public Access Internet and Unix, NYC
+>Lines: 169
+>Approved: alexis
+>Message-ID: <24g6gk$br2@panix.com>
+>NNTP-Posting-Host: panix.com
+
+[Well, a little bit late, but here's the second version. Please feel free
+ to repost this anywhere you like that makes sense, until 9/1/93.]
+
+
+
+                            Position Announcement              Posted: 8/14/93
+ 
+                    USER SUPPORT & SYSTEMS ADMINISTRATION      Expires: 9/5/93
+
+                     PANIX Public Access Internet & Unix
+                                New York City
+
+Public Access Networks Corp. is the home of Panix Public Access Internet,
+a Public Access Internet services provider. We were the third public access
+Internet provider ever, and we are the third largest such system. We are
+looking for a Customer Support person who can provide help on all aspects
+of using our Unix workstations and the software they run, to a user base
+composed of almost equal parts complete novices and Unix experts (though
+the experts tend to give help, not ask for it). This is a highly visible
+position at Panix, which is itself one of the most well-known Internet sites.
+
+While customer support is the primary responsibility of this position, many
+other tasks will be included in this job. These will include some basic
+systems administration, authoring of help files for our help system, and
+general office management.
+
+Panix's network setup is constantly growing; details about our service can
+be found by fingering or emailing to "info@panix.com".
+
+
+The Customer Support Position
+
+Panix is seeking a highly motivated Internet enthusiast who can get the
+Panix "religion". You need to believe, as we do, in the inherent value of
+spreading access to the net at a low cost to as many people as possible.
+We won't work you as hard as they will on Wall Street but you have to be
+the sort who will work late or at home when a project demands it. You need
+to be capable of managing your own time and working without detailed
+direction. You must be conscientious about leaving paper (or electronic)
+trails of your work on the system, including system documentation and
+activity logs.
+
+You must have excellent personal communications skills, so that you can
+deal with our users's many problem reports and requests for help. You must
+have excellent writing ability as well, so that the email you send and the
+help files you write are clear and concise.
+
+You must be an expert in using a unix system for Internet and Usenet functions.
+This does _not_ mean that must be a C programmer (though that wouldn't hurt).
+It means that you must be very familiar with all of the standard Unix tools
+that Panix users are likely to use and the ability to learn and master new
+software packages quickly. You must be able to read and create small shell
+scripts in order to accomplish basic maintenance functions. You must have a
+strong grasp of basic Telecomm issues (using PCs/Macs and modems).
+
+If you prove to be exceptionally good at this job, there is extraordinary
+potential for job improvement here; we'll be hiring more staff in the next
+12 months and we will need a senior support person. In addition, you will
+have the opportunity to learn a great deal about systems administration;
+if you learn enough you may become qualified for the position of System
+Administrator, either at Panix or anywhere else.
+
+Your job responsibilities will include:
+
+User Support
+
+*	You must answer questions directed to Panix staff either by email or
+by news posting. (We discourage phone calls for technical support, but you
+will also answer such calls.)
+
+*	You will identify questions that are asked frequently and extend our
+online help system to cover these issues.
+
+*	You will identify additional software and/or services that are
+requested by Panix users so that we can consider adding them.
+
+*	You will call people who want to sign up as new users, validate them,
+and add them to the system.
+
+Systems Administration
+
+*	You will keep an eye on the system and correct any problems that you
+can, or else refer them to other staff members.
+
+*	You will watch over our telephone and T1 lines, either correcting
+trouble or referring it to other staff.
+
+*	You will maintain a strict backup schedule, changing tapes as needed
+(using software we provide).
+
+*	You will perform and track system changes, creating such paper and
+electronic trails as are necessary.
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 13:00:20 -0400 (EDT)
+From: Harry Shapiro <habs>
+Subject: Apologies for list-cluttering
+
+No problem, I sent a reply to you and (of course)
+it went to the list - I have bounced them back to you.
+
+/hawk
+
+
+a conscious being, Alexis Rosen wrote:
+> 
+> I sent two notes this morning to this list by accident. I apologize for
+> this error- exi is a real account here, but it gets forwarded to the list,
+> and I thought that that was no longer the case.
+> ---
+> Alexis Rosen   Owner/Sysadmin,
+> PANIX Public Access Unix & Internet, NYC.
+> alexis@panix.com
+> 
+
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+EXTROPY -- A measure of intelligence, information, energy, vitality,
+experience, diversity, opportunity, and growth.  EXTROPIANISM -- The
+philosophy that seeks to increase extropy.          
+
+------------------------------
+
+Date: Fri, 13 Aug 93 10:06:49 PDT
+From: thamilto@pcocd2.intel.com (Tony Hamilton - FES ERG~)
+Subject: HEX: HAM
+
+I have asked Brian for a way for reputation owners to get in touch with all the
+investors, but until then, I have a couple of things to say:
+
+1. HAM is now at .50, meaning it has doubled in the last 24 hours. Many thanks
+   to all the investors, and congratulations to those who bought in at p.10
+   or p.20 earlier on.
+
+2. All transactions thus far have been unsolicited! One exception was a
+   10 share transaction at p.30 to correct a mistake. This means, in my
+   opinion, that the price of HAM is being determined by the market, and not
+   by politics or other manipulations (that I am aware of).
+
+3. I believe the low intitial price of HAM contributed to what activity there
+   has been.
+
+4. To maintain this, I propose to HAM investors that we already split HAM,
+   to bring it back down to p.25, or half of whatever the current value at
+   the time of split is. I'd like to keep it low. Let me know if anyone has
+   a problem with this.
+
+5. I encourage HAM investors to _please_ sell as a measure of lack of
+   confidence in this reputation, should it be necessary. I registered my
+   reputation in hopes of learning more about HEx, and becoming part of
+   the experiment. In my humble opinion, I don't believe that HEx, as a 
+   whole, is all that successful yet, partly because the new regulations
+   are not out. I would like to think that HAM and a few others, however,
+   are having more success with regards to the original purpose of HEx. So,
+   please continue buying when appropriate, and start selling if you feel
+   the need.
+
+6. For investors and prospective investors, I am willing to provide a monthly
+   or quarterly report on my extra-list life. Do I just like talking about
+   myself? Of course, but I also thought it might be relevant for investment
+   purposes. Corporations are accountable to their investors, so why not me.
+   Besides, I don't always have the time to be active on the list, so what
+   I do off-list might be of interest. Let me know.
+
+On a non-HAM, but general HEx related issue, I was wondering if any of the
+new regulations would solve a particular problem I thought of. Take any
+given reputation. Say you would just _love_ to see it devalued (maybe you're
+really angry with me and would like to see HAM take a dive). All one would
+have to do, if there are minimal BUY orders or none at the time, is simply
+buy a couple shares, and sell very low! For instance, if a given reputation
+is at p10, you could by one share, sell it at p1, and wipe it out.
+
+Why doesn't this happen in real life? Well, everyone is working with money
+in real life, so no-one is willing to take a hit like that I'm sure. Also,
+while I understand the basics of how the NYSE and NASDAQ work, I am not sure
+if there is anything necessarily precluding someone from doing that. But the
+point is, in real life, even if it happened, the stock would instantly
+stabilize, because the price generally reflects the health of the company,
+and supply and demand takes over. This means that everyone but that one
+seller still won't sell for any less than what they were a moment ago. ANd,
+in the real world, since transactions are nearly constant, everything is
+corrected very fast if this were to happen (again, assuming it could). On
+HEx, though, the correction may not take place for a while.
+
+How could this be fixed? A number of ways perhaps:
+
+1. Increase the level of activity on HEx
+2. Like with real markets, get rid of odd lots. This would mean a much larger
+   loss to whomever tries to do this.
+3. Place restrictions somehow.
+4. Trust everyone not to do this.
+
+Personally, I think #1 would be best. Has anyone else noticed this problem,
+or has this actually happened? I know reputations have been artificially
+inflated in some cases, but how about deflated?
+
+Tony Hamilton  
+thamilto@pcocd2.intel.com
+HAM on HEx
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 11:05:53 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: Axioms
+
+At  9:34 AM 8/13/93 +0000, starr@genie.slhs.udel.edu wrote:
+>>From: dkrieger@Synopsys.COM (Dave Krieger)
+>>Subject: PHIL: Re: Metaphysical Axioms
+>>
+>>At  9:57 AM 8/11/93 +0000, starr@genie.slhs.udel.edu wrote:
+>>>The sort of thing I have in mind is Mises' action axiom:
+>>>human action is purposeful behavior.  Attempting to deny it would constitute
+>>>means (an argument) to an end (a conclusion), that is, it would be purposeful
+>>>behavior, human action.
+>>
+>>The fact that some human behavior is purposeful some of the time does not
+>>imply that all human behavior is purposeful, or that any human behavior is
+>>purposeful all of the time.
+>>                                        dV/dt
+>
+>Objection: irrelevant.  The subject is human ACTION, not human "behavior."
+>Dead humans behave.  They do not act.
+
+Ah... so "action" is DEFINED as purposeful behavior.  Well, can't argue
+with that.  Petitio principii, anyone?
+                                        dV/dt
+
+Remember, folks, I'm DVDT on HEx, and Tim is TIM.
+
+
+------------------------------
+
+Date: Fri, 13 Aug 1993 11:26:39 -0700
+From: dkrieger@Synopsys.COM (Dave Krieger)
+Subject: AMiX: Failure of AMiX?? This is news to me!
+
+At  9:33 PM 8/12/93 -0700, Nick Szabo wrote:
+>X-Message-Number: #93-8-428
+   [...]
+>We should learn from the failure of Xanadu, Amix, etc.
+                                             ^^^^^
+>Nick Szabo                              szabo@netcom.com
+
+"Reports of my death have been greatly exaggerated."
+                                        -- some relative of Tim*'s
+
+The AMiX system is and has been in continuous operation, except for
+scheduled maintenance, since it came up in early 1992.  If you have an
+account on AMiX, you can reach the system right now (via packet-switched
+network) with a local call from most cities in the U.S., Canada, and
+Europe, and buy and sell to your heart's content 24 hours a day.
+
+AMiX and Xanadu, despite both once being Autodesk subsidiaries, are very
+different companies with very different histories; I don't think any
+"lessons" one might learn from one are applicable to the other.
+
+Not all information about AMiX is public, either.  We ain't dead.  Watch
+the skies.
+
+Dave Krieger
+AMiX Marketplace Administrator
+
+
+------------------------------
+
+End of Extropians Digest V93 #224
+*********************************
+

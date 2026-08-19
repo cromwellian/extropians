@@ -1,0 +1,987 @@
+From extropians-request@extropy.org Wed Nov 24 01:09:05 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA00127; Wed, 24 Nov 93 01:08:57 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA28135; Wed, 24 Nov 93 01:08:53 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA29350
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 24 Nov 1993 04:03:00 -0500
+Date: Wed, 24 Nov 1993 04:03:00 -0500
+Message-Id: <199311240903.AA29350@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: November 24, 373 P.N.O. [09:02:42 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Wed, 24 Nov 93             Volume 93 : Issue 327
+
+Today's Topics:
+                                                                      [2 msgs]
+                                  Cryptocash                          [1 msgs]
+                                   Indexing                           [1 msgs]
+                                Re:  Cryptocash                       [1 msgs]
+                          Buy Your Black Talon Today                  [1 msgs]
+                               Comments on NSA                        [2 msgs]
+              Comments on NSA (was: "Pyrrhus Cracks RSA?") (fwd)      [1 msgs]
+                                  Cryptocash                          [1 msgs]
+                   GUNS: Evil Babykilling Assault Weapons!            [3 msgs]
+                   GUNS: Evil Babykilling Assault Weapons!            [1 msgs]
+                          IRC: Flattened by holiday                   [1 msgs]
+                                  NYT: NeXT                           [1 msgs]
+                         NYT: Virus; NeXT (unrelated)                 [1 msgs]
+                                PGP FTP Sites                         [1 msgs]
+                          Start-Up VirtSem: 1st step                  [1 msgs]
+                                  your mail                           [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 53516 bytes.
+
+----------------------------------------------------------------------
+
+Date: Tue, 23 Nov 1993 13:22:20 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: Buy Your Black Talon Today
+
+In <20719.9311231851@s5.sys.uea.ac.uk>, Richard Kennaway writes:
+|> >damage, has been around for years, and the doctors are just noticing this??]"
+|> 
+|> Sounds like ordinary cupcakes, i.e. jacketed hollowpoint.  Legal even in
+|> the UK.  What special magic does the Black Talon have, other than a name
+|> that lends itself to being waved about by the media?
+
+I haven't looked at any up close, but it's supposedly designed to
+"shred" while it blooms on impact, dragging some long sharp "claws"
+behind it into the wound channel.
+
+Here's a good question w.r.t. danger to ER personnel: are there any
+actual _cases_ of cuts received by Drs. & nurses while removing Black
+Talon, or has that been seized upon for embellishment like the
+"tumbling bullets" of the Evil Semi-Automatic Assault Rifles?
+
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+
+------------------------------
+
+Date: Tue, 23 Nov 93 11:43:22 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Comments on NSA (was: "Pyrrhus Cracks RSA?") (fwd)
+
+Extropiates,
+
+Forgive me for forwarding an article I just posted to the Cypherpunks
+list, as many of you are on both lists. But the issue of breaking PGP
+and other public key encryption systems has come up here on this list,
+as it has on FIDONet, and my article addresses this issue.
+
+Specifically, Harvey Newstrom asks:
+
+"Exactly.  PGP and other crypto methods are based on the time it takes
+to perform calculations.  A magnitude increase in computer technology
+will make craking PGP easier.  In the very-long-term, when computer arrays,
+or time machines become possible, all messages are almost guaranteed to
+be cracked.  How far in the futre does it have to be until you don't
+care?"
+     
+The short answer: The computer power required to brute-force crack RSA
+(via factoring the modulus) grows exponentially with the key length. A
+150-digit number (corresponding roughly to a 512-bit key, a very small
+one by PGP standards) is beyond our ability to factor using all the
+computers in the world running for a few years. In ten years, this
+will still be the case--probably.
+
+A 1024-bit key should be impregnable for several decades, even given
+specialized hardware and modest improvements in factoring algorithms,
+A 1500-bit key should be feasible to use with Pentium-class machines
+and will be uncrackable for centuries, perhaps millenia.
+
+(Rivest had a nice presentation at the last RSA conference, with a
+table of key sizes and Cray-years needed to break them.)
+
+But here are some comments I just made on this issue, especially as it
+relates to speculations that the NSA is either overly clever ("they
+have methods!") or overly stupid ("just a bunch of government
+bureaucrats").
+
+--Tim
+
+Forwarded message:
+From: tcmay (Timothy C. May)
+Message-Id: <199311231920.LAA06189@mail.netcom.com>
+Subject: Comments on NSA (was: "Pyrrhus Cracks RSA?")
+To: cypherpunks@toad.com
+Date: Tue, 23 Nov 93 11:20:40 PST
+Cc: tcmay@netcom.com
+
+
+Michael Marotta writes an intruiging political essay, though I have
+some corrections/disagreements.
+
+I'll also talk about NSA employment of mathematicians, from the 1950s
+on, the founding and funding of Engineering Research Associates, Cray
+Research, the Institute for Defense Analysis, and the ultra-secretive
+Jasons Group.
+
+
+> CAN THE GOVERNMENT BUILD AN ATOMIC BOMB?  
+> by mercury@well.sf.ca.us <Michael E. Marotta> 
+
+> Cypherpunks know that centralized systems are inefficient, yet 
+> they fear the NSA.  Cypherpunks know that government employees 
+> are slugabeds, yet they fear the NSA.  Cypherpunks know that 
+> qinnovation and enterprise are the antithesis of socialism, yet 
+> they fear the NSA.  They don't fear that the NSA will kick in 
+> their doors and shoot them in a cybernetic Kristallnacht or burn 
+> t(their homes the way the Romans and Mongols did to Carthage and 
+> Samarkand.  (Waco comes to mind, here.)  No, the Cypherpunk is 
+> afraid that the government has "powerful computers" capable of a 
+> "brute force attack" on their algorithms. 
+
+Some Cypherpunks (me, at least) are not afraid of the NSA's powerful
+computers. We understand that the mathematics of today's algorithms
+means the race is always won by the encryptor, not the cryptbreaker.
+If a dozen Crays at the Fort can--somehow--factor a 150-digit number,
+and thus break a 512-bit RSA key (more or less), then the encryptor
+can trivially move to a 1024-bit key....safe for many generations,
+even with 10,000 Crays munching away.
+
+Crypto is economics, as Eric Hughes likes to point out (but he's just
+one of my many tentacles, so I can freely quote him), and the public
+key math favors the encryptor over the would-be cypher breaker to an
+incredible extent, with the advantage growing ever-greater as key
+lengths increase.
+
+(Work out the math yourself...the advantage lies with the user of
+one-way functions...barring unforeseen breakthroughs in factoring, of
+which there is no evidence, or the reported proof that P = NP from
+Kryptogorodok, the secret city of Russian cryptographers in the Urals.)
+
+As Phil Karn and several others have noted, the weak link is physical
+security. Black bag jobs, viruses, etc. For example, my Macs have
+"keyboard capture" buffers, as Unix systems often do, that capture and
+stores _all_ keyboard entry in files, as an aid to recovering text
+entered. Great for writers, but a terrible security hole. (Watch out
+for this on Macs or Unix systems you may use!)
+
+These are the real weaknesses. Floppy disks laying around or "lost"
+that have one's secret key on them, combined with keyboard capture of
+the PGP passphrase. I expect at least some people have already had
+their PGP privacy turned into Pretty Crummy Privacy. And not by
+brute-force cracking.
+
+...
+> pumps which came from fire trucks.)  Ask "anyone" and they will 
+> tell you that World War Two brought us nuclear power, spaceships, 
+> radar, television, the transistor, the computer, canned food, and 
+> recycling.  In fact, it brought none of these.  They already 
+
+Well, some of these things existed in some form prior to WW II, but
+many key innovations reached fruition during the war: radar, rocketry,
+gyroscopes, etc. Some things were clearly invented _during_ the war:
+nuclear reactors, nuclear bombs, computers, etc. And the transistor,
+by the way, came after the war (the ordinary Shockley et. al.
+transistor at Bell Labs....the 1930s German work on
+metal-insulator-semiconductor devices, by Lillienfeld (as I dimly
+recall), was not really a precursor--the significance was not
+appreciated until decades later).
+
+> unpacked Diffie's knapsack.  What is most probable, is that these 
+> ciphers will stand for some unforeseeable time until someone who 
+> may not be born yet comes along and breaks them all as an idle 
+> {exercise on her way to greatness in another field. 
+
+Maybe. But if factoring is shown to be NP-complete (it hasn't been so
+far, though most suspect it), then this future Gauss will truly be a
+giant.
+
+> But the NSA?  No way, Jose.  They might be nerds who hacked some 
+> code at 3 am.  But you put them on a salary and benefits in a 
+> pyramid, then tell them not to talk about their work, and you 
+> thwart whatever creativity they had.  The NSA can kill you.  But 
+> t({they can never out-think you. 
+
+For many years the NSA hired as consultants some of the brightest
+mathemeticians in the world, including Claude Shannon (information
+theory), Andrew Gleason (math), E. Berlenkamp (algebraic coding
+theory), David Huffman (Huffman codes), Richard Garwin (physics), Luis
+Alvarez (physics, later known for the dinosaur extinction work--the
+idea that a giant meteor hit the NSA and killed it...just kidding),
+John R. Pierce (communications), Hendrik Bode (Bode plots), and so
+on.The NSA also funded Seymour Cray at Engineering Research Associates
+in the 1950s and even--many people claim--funded Cray Research in the
+early 1970s. NSA also was centrally involved in formation of Mitre
+Corp., The Institute for Defense Analysis (IDA), and it built and paid
+for the "Communications Research Division" building at Princeton
+University...linked to what is now the John von Neumann Supercomputer
+Center (I may have the exact title wrong).
+
+(Source: Bamford's "The Puzzle Palace," 1982, and discussions with
+Brian Snow of the NSA at the 1988 Crypto Conference.)
+
+Yes, the NSA has long had many "tentacles" into academia. What was
+probably so shocking to them about the mid-70s breakthroughs in public
+key, by Diffie, Hellman, and Merkle, was that (presumably) this was
+work done outside their usual network of contract mathematicians. (NSA
+has been making noises about how they'd already discovered public key
+crypto years before Diffie and Hellman did. This could be face-saving
+bragadoccio. Time will tell. Any NSA readers out there are free to
+post anonymously to this group or to alt.whistleblowers, or to "sell"
+your memoirs on BlackNet.)
+
+Mathematicians have to seek funding from somewhere. For many years,
+NSA was a prime source--and may still be. The "SCAMP" program ("Summer
+Campus, Advanced Mathematics Program") meets in a special building on
+the UCLA campus to discuss items of interest to the Agency, and to
+fund mathematicians who attend. Much like the ultra-secret "Jasons"
+and their summer work on La Jolla, California.
+
+A fascinating topic. I sure do wish someone would write another book
+on the Agency.
+
+--Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+
+------------------------------
+
+Date: Tue, 23 Nov 93 14:47:11 -0500
+From: walter kehowski <wak@next11.math.pitt.edu>
+Subject: NYT: Virus; NeXT (unrelated)
+
+Cypherpunks and Extropians:
+  Two articles of interest in today's NYT: 1) [Front Page, lower right] A software  
+vendor allegedly planted a virus in a customer's machine because he threatened to stop  
+payment on the software he bought. The virus was programmed to shutdown the customer's  
+computer. 
+
+  2) [Front page, bottom, Business section] NeXT and Sun have announced a partnership.  
+Apparently, Sun is to invest 10mil in NeXT for access to the source of their OOP  
+environment. BTW, how much did Sun make last year? How much is 10mil by comparison?
+
+Walter A. Kehowski <wak@next0.math.pitt.edu>
+
+------------------------------
+
+Date: Tue, 23 Nov 93 15:32:16 EST
+From: pmetzger@lehman.com (Perry E. Metzger)
+Subject: 
+
+>The other insight I have is that you probably haven't solved
+>the most vexing problem of information retrieval, which I will
+>losely term "indexing".  Your system may start out easy to use,
+>when the client can send someone in the front office a message
+>about what their problem is and the front office goes "oh yes.
+>That's Tim May's area.  I'll forward your query to him and he
+>will be in touch."  But systems like that don't scale up.  They
+>work well when there is a simple algorithm to identify where to 
+>look for the info, or when the infobase is small enough for one
+>or two human minds to have a good intuitive feel for where things
+>should be.  Once you have a whole bunch of people participating,
+>and the questions get less than clear, it will get hard to figure
+>out who your clients should talk to.  
+
+>At this point, your mind should be roiling with cool high-tech
+>ways to match clients with consultants.  Good.  But talk to
+>people in the field before you sink money into it.  Some wheels
+>have been invented and broken already, others have been invented
+>but never really tested.
+
+A real breakthrough in the indexing of human knowledge would have
+astonishing impact on human society. Imagine if you could ask a
+machine, or even a human augmented with machines, "has anyone ever
+started a company to do X before?" or "has anyone ever built anything
+like my new invention" or "has this area of mathematics been gone over
+before?" or "how to I construct a frazimatan" and have a coherent
+answer spit out along with enough cross references that you could
+understand it. Perhaps others don't see what I'm getting at, but from
+what I can tell such a system would have amazing implications. So much
+of what people do is sell access to specialized information -- what if
+it was all easy to get at?
+
+>From what I can tell, really good indexing has yet to be developed.
+Indeed, in some ways indexing is like a superset of the AI problem --
+you need to be able not only to understand new information but to be
+able to see all its implications everywhere in order ot cross index it
+properly. I thus expect that superindexing is unlikely to show up any
+time soon.
+
+However, I will point out that things like the Library of Congress and
+other systems for systematically classifying all human knowledge do
+exist and have been worked on very hard by the professionals in this
+field. The professionals in this field already exist: they are called
+LIBRARIANS. Most people think of librarians as being the old women who
+sit around and answer small children's questions on how to use card
+catalogues -- few people realize that what librarians actually worry
+about is this very problem -- the indexing of all human knowledge.
+
+
+Perry
+
+------------------------------
+
+Date:     Tue, 23 Nov 93 20:51:51 GMT
+From: nancy@genie.slhs.udel.edu
+Subject:  Cryptocash
+
+Would encrypted money make fractional reserve banking (a) impossible,
+(b) clearly fraudulent, (c) only possible as a well-defined gamble,
+or (d) other?
+
+Nancy Lebovitz
+
+calligraphic button catalogue available by email (190K)
+
+Clinton wants us to sacrifice--let's start with politicians 
+
+------------------------------
+
+Date: Tue, 23 Nov 1993 15:15:15 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: 
+
+In <9311232032.AA24607@kublai.lehman.com>, Perry E. Metzger writes:
+[...]
+|> >From what I can tell, really good indexing has yet to be developed.
+|> Indeed, in some ways indexing is like a superset of the AI problem --
+|> you need to be able not only to understand new information but to be
+|> able to see all its implications everywhere in order ot cross index it
+|> properly. [...]
+
+Yes, and further to model the intentions of the querent to be able to
+filter queries properly.  There are several projects at the MIT Media
+Lab (here I go plugging the 'Tute again) that attempt to address this
+by using multi-modal retrieval, per-user histories and models, etc.
+For example, using a model of a globe to index news by region. Of
+course, this really only addresses the part about making the
+information system easy for humans to use, it doesn't do much about
+making its own smart links through the stuff.
+
+This is one of my favorite topics to gas about; I can see how far away
+we are, because on the next screen I've got Mosaic up and it's saying
+"Transferring inline image <blah>.gif: <umpty-K> bytes" for like 9
+minutes. What I have to do if I want to actually _use_ this magical
+multimedia whizbang is dumb it down so it shows me icons (links) to
+images instead of slowly (there's another 2 KB) ... oh never mind,
+don't get me started :-(
+
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+
+------------------------------
+
+Date: Tue, 23 Nov 1993 15:38:30 -0600
+From: cpresson@ingr.com (Craig Presson)
+Subject: Cryptocash
+
+In #93-11-879, nancy@genie.slhs.udel.edu asks a good question:
+|> Would encrypted money make fractional reserve banking 
+(a) impossible,
+
+This gets into implementation, I think. If the bank is also the
+issuing agent and trusted mediator, as in most schemes I've read
+about, then they can accept deposits in whatever form, convert them to
+bank-bucks of another form, invest those, and reissue/convert
+depositor's digicash as they spend it. Since digicash is secure
+anyway, the safekeeping function of the bank is not needed in the same
+way that vaults are needed to protect notes and bullion today.
+[I should probably go reread Chaum or the relevant chapter of Schneier
+before sending this, as I have a nagging feeling I'm missing something]
+
+(b) clearly fraudulent,
+That's the nice thing about cryptographic protocols, you can design
+the fraud out. Obviously if a bank was known to use a corruptible
+protocol they'd be asking to be wiped out.
+
+(c) only possible as a well-defined gamble, or
+
+That's what it is now. Banks usually arrange short-term lending pools
+at reasonable rates to ensure liquidity. Or governments step in and
+create monsters like the Fed to make sure they do it.
+
+(d) other?
+
+I can see two ways a digital bank could make a profit -- transaction
+fees and fractional reserve arrangements permitting the bank to make
+loans and investments. The former could be almost completely
+automated; your bank / issuer could be very little above and beyond a
+present day ATM network in complexity.
+
+-- Craig
+
+------------------------------
+
+Date: Tue, 23 Nov 93 15:11:06 -0700
+From: Todd Steigerwald <todd@alembic.com>
+Subject: NYT: NeXT
+
+10Mil is admittably little in comparason to SUN's net profits, but   
+the Sun/NeXT deal will "sweeten the pot" in terms of what is really  
+available in object oriented technology. Microsoft hype has to come  
+to an end sometime.....NeXT is considerably ahead in the Object race,  
+and now that deals like NeXT/HP and NeXT/SUN are coming around, the  
+Gates monopoly will hopefully diminish a tad.
+
+> 
+
+>   2) [Front page, bottom, Business section] NeXT and Sun have  
+announced a partnership.  Apparently, Sun is to invest 10mil in NeXT  
+for access to the source of their OOP  environment. BTW, how much did  
+Sun make last year? How much is 10mil by comparison?
+> 
+
+> Walter A. Kehowski <wak@next0.math.pitt.edu>
+> 
+
+
+
+------------------------------
+
+Date: Tue, 23 Nov 1993 16:48:47 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: IRC: Flattened by holiday
+
+Because of the Thanksgiving holiday this Wednesday's fortnightly
+IRC gathering is best delayed until next week, December 1.
+
+derek
+
+
+------------------------------
+
+Date: Tue, 23 Nov 1993 18:04:52 -0500 (EST)
+From: Christopher Garrett Goebel <goebelc1@student.msu.edu>
+Subject: Comments on NSA
+
+First:  Thanks for a most interesting forward Tim (lots of interesting stuff)
+
+Second:  While I tend to agree completely with Tim May's position on
+cracking PGP by brute force...
+
+> The short answer: The computer power required to brute-force crack RSA
+> (via factoring the modulus) grows exponentially with the key length. A
+> 150-digit number (corresponding roughly to a 512-bit key, a very small
+> one by PGP standards) is beyond our ability to factor using all the
+> computers in the world running for a few years. In ten years, this
+> will still be the case--probably.
+>
+> > No, the Cypherpunk is afraid that the government has "powerful computers"
+> > capable of a "brute force attack" on their algorithms.
+
+In my nightmares, I worry about cryptanalysis.
+
+If brute force is running through every single possible combination, it
+would indeed take centuries to solve PGP using a short key.  But cryptographers
+for centuries have been developing encryption schemes that offer 10 to the
+nth power of possible combinations.
+
+What I wonder about, and am unknowledgable about, is the use of frequency
+analysis on PGP and other related encryption schemes... finding patterns
+in masses of archived pgp encrypted mail --encrypted in a specific key.
+
+Could it be conceivably possible that cryptanalysis ten years from now
+could be able to decrypt the letters we are sending today, much
+more efficiently and timely than brute force?
+
+Moreover, could this cryptanalysis software running on much faster computers
+(possibly massivily parellel), be quick enough at recognizing patterns in
+readily available quantities of encrypted material (years of archived
+postings)?
+
+I suppose changing keys frequently takes on new importance...
+
+                                  Garrett
+
+
+------------------------------
+
+Date: Tue, 23 Nov 93 15:13:28 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: GUNS: Evil Babykilling Assault Weapons!
+
+Things are really hopping on the gun ban front:
+
+- Brady Bill on the verge of becoming law...situation fluid
+
+- Winchester has pulled "Black Talon" ammo...stores have sold out or
+rapidly selling out (I tried to get a couple of boxes, as souvenirs or
+whatnot, but my local store was sold out and expects no more)
+
+(BTW, a lot of BT's success was marketing hype. Federal Hydra-Shocks
+and Winchester Silvertips are in many ways superior, according to some
+recent tests. Ditto for Glasers, in most defense situations. We've
+discussed this before.)
+
+- A new list of banned assault rifles, assault pistols (huh?), and
+magazine capacities has passed, as I understand it. (The "Feinstein
+Bill.") One interpretation is that anyone found with a magazine with a
+capacity of 15 or more had better be able to produce _paperwork_ that
+proves they bought it before the ban went into effect--else you're a
+felon and face probable seizure of all your guns.
+
+(I know this sounds absurd, but I expect a "zero tolerance"
+enforcement system is coming for the increasingly byzantine laws on
+guns. Janet Reno has declared her ultimate intent is to get guns out
+of the hands of "those who don't need them.")
+
+- Moynihan is pushing for his "1000% tax" (or is it "10,000%, or does
+it matter?) on ammo, especially 9mm and the like. What fools like him
+won't admit is that street punks can easily get black market ammo, and
+don't do much target practice anyway (which is good for those of us
+who do), while "law-abiding anarchists" like myself will get zapped
+completely by such taxes. Fortunately, I rate this idea as too dumb
+for even a pack of knaves like Congress to pass. Too many ordinary
+voters have pistols.
+
+- There are so many new laws being passed on waiting periods, carry
+laws, muzzle lengths, allowable ammo types, etc.
+
+Meanwhile, convicted murderers are being given 2-year
+sentences....gotta leave room to jail all those citizens who bought
+guns and then misfiled the paperwork!
+
+It all makes me sick.
+
+Here's the news: The gun store I often go to had a Ruger Mini-14
+tucked away....these are on the list to be banned under the new laws.
+Deciding this would be my last chance to buy one of these
+Babyshootin,' Lawyerkillin,' Politiciandisposin' "Assault Weapons," I
+bought it today.
+
+Being the Ranch Rifle model, it has scope rings. Recommmendations on a
+good 3-7x, 40 mm scope are welcome.
+
+
+--Tim May
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Tue, 23 Nov 93 15:26:35 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Comments on NSA
+
+Christopher Garrett Goebel writes:
+
+
+> In my nightmares, I worry about cryptanalysis.
+> 
+> If brute force is running through every single possible combination, it
+> would indeed take centuries to solve PGP using a short key.  But cryptographers
+> for centuries have been developing encryption schemes that offer 10 to the
+> nth power of possible combinations.
+> 
+> What I wonder about, and am unknowledgable about, is the use of frequency
+> analysis on PGP and other related encryption schemes... finding patterns
+> in masses of archived pgp encrypted mail --encrypted in a specific key.
+
+By "brute force" I meant factoring of the modulus, not trying every
+possible key. Factoring the modulus, the large number n that is the
+product of two primes p and q, allows the immediate reconstruction of
+the secret key (by some math related to the RSA algorithm).
+
+It is not yet proven if access to plaintext-ciphertext pairs "leaks"
+information and makes breaking RSA easier than factoring the modulus.
+
+> Could it be conceivably possible that cryptanalysis ten years from now
+> could be able to decrypt the letters we are sending today, much
+> more efficiently and timely than brute force?
+
+Sure, this is "conceivable." How _likely_ it is depends on a number of
+things and is partly a matter of judgement.
+
+> Moreover, could this cryptanalysis software running on much faster computers
+> (possibly massivily parellel), be quick enough at recognizing patterns in
+> readily available quantities of encrypted material (years of archived
+> postings)?
+
+Don't overestimate the role of "massively parallel" computers. For a
+lot of problems, a 1000-fold speedup is really nice to have, but for
+other problems it makes little difference on a practical scale.
+Cutting the time to factor a number from 10^10 years to 10^7 years is
+not a big deal.
+
+> I suppose changing keys frequently takes on new importance...
+> 
+
+Editorial remarks:
+
+This is another reason to oppose the government-sanctioned approaches
+to encryption. The schemes they like make changing keys very
+difficult, requiring registration and (probably) payment of fees. 
+
+And generating dozens or even thousands of keys for use in various
+transactions is truly scary to them.
+
+
+--Tim May
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Tue, 23 Nov 93 16:14:19 PST
+From: lovejoy@alc.com
+Subject: PGP FTP Sites
+
+Fellow extropians: I would appreciate a list of currently 
+active FTP sites for obtaining the latest version of PGP.  
+Please respond to "lovejoy@alc.com"--thanks.
+
+
+------------------------------
+
+Date:     Wed, 24 Nov 93 0:35:54 GMT
+From: nancy@genie.slhs.udel.edu
+Subject:  Indexing
+
+Here's a bit of speculation--it's occurred to me that if you could
+get a stone age person to understand our problems with changes in
+the value of currency, he or she would be amazed at the aggravation
+we put ourselves through--I've wondered if there were far future
+analogies, and decided that, every once in a while, people would
+find that their system for indexing had become so unsatisfactory
+that some of them would feel a strong impulse to reshuffle everything.
+
+It would be like fights about splitting groups on the net, only
+much, much worse. And, even though it would be possible to use
+computers to keep both systems of indexing going at the same time,
+they'd represent different worldviews and take time to learn, so
+that people would be fighting for their preferred indexing.
+
+Eventually, you'd probably find layer upon layer of indexing
+system--it would be like the Japanese alphabet(s), only worse.
+
+Nancy Lebovitz
+calligraphic button catalogue available by email (190K)
+
+There are no answers--only cross references 
+
+------------------------------
+
+Date:     Wed, 24 Nov 93 1:07:09 GMT
+From: nancy@genie.slhs.udel.edu
+Subject:  Re:  Cryptocash
+
+>
+>In #93-11-879, nancy@genie.slhs.udel.edu asks a good question:
+
+And Craig gives a good answer:
+
+>|> Would encrypted money make fractional reserve banking 
+>(a) impossible,
+>
+>This gets into implementation, I think. If the bank is also the
+>issuing agent and trusted mediator, as in most schemes I've read
+>about, then they can accept deposits in whatever form, convert them to
+>bank-bucks of another form, invest those, and reissue/convert
+>depositor's digicash as they spend it. Since digicash is secure
+>anyway, the safekeeping function of the bank is not needed in the same
+>way that vaults are needed to protect notes and bullion today.
+>[I should probably go reread Chaum or the relevant chapter of Schneier
+>before sending this, as I have a nagging feeling I'm missing something]
+
+This is an interesting point--I hadn't thought about whether
+there'd be banks at all. Actually, at this point, I'm also wondering
+how a currency which isn't backed by either a government or a 
+commodity would work. Maybe the way to think about cryptocash is
+that it's really backed by whatever it's just been offered for?
+
+My only handy analogy is the Ithaca hours that I've read about
+in Mother Earth News. It's a currency that's nominally based
+on hours of labor. (Don't argue with me about the labor theory
+of value--I didn't invent the currency or the theory behind it.)
+I *think* that you can get started with the stuff by buying
+it with US currency ($10/hour), and then you trade it back and
+forth. People are encouraged to only trade it locally, and not
+"hoard" it, but there's no way to enforce either rule, and, as
+the people who issue the stuff say, you're supposed to report
+your transactions to the IRS, but the issuers aren't going
+to do that for you. It seems to work on mutual trust, and
+a fair number of local businesses use it--even the bank accepts
+some and uses it to pay for printing.
+
+Excuse me, I seem to have drifted off into a stored rant, but
+I'm fascinated by local currencies because I think that they're
+needed for a smooth transition when (if?) the Federal government
+falls. (I've considered a currency based in science fiction
+fandom, but haven't been able to figure out who'd issue it.)
+
+>(b) clearly fraudulent,
+>That's the nice thing about cryptographic protocols, you can design
+>the fraud out. Obviously if a bank was known to use a corruptible
+>protocol they'd be asking to be wiped out.
+
+You seem to be thinking of something specific, but I'm not
+sure what it is. Are you describing a bank with such an inadequate
+way of protecting its currency that half the people who work
+there are "printing" their own? 
+>
+>(c) only possible as a well-defined gamble, or
+>
+>That's what it is now. Banks usually arrange short-term lending pools
+>at reasonable rates to ensure liquidity. Or governments step in and
+>create monsters like the Fed to make sure they do it.
+>
+>(d) other?
+>
+>I can see two ways a digital bank could make a profit -- transaction
+>fees and fractional reserve arrangements permitting the bank to make
+>loans and investments. The former could be almost completely
+>automated; your bank / issuer could be very little above and beyond a
+>present day ATM network in complexity.
+>
+What sort of transactions would it collect fees on?
+
+I wonder if there'd still be currency/small change for transactions
+too small to be worth encrypting.
+
+I've thought a little about what happens to shopping once hypertext
+really gets going, and I think that a lot more will be bought
+by mail from the cheapest source. There are a few things like 
+cloth and produce that I'd rather inspect before I buy them,
+but I'd just as soon mail order staples like corn flakes and
+paper towels. 
+
+Nancy Lebovitz 
+
+------------------------------
+
+Date: Tue, 23 Nov 93 17:16:57 PST
+From: martino@gomez.Jpl.Nasa.Gov (Martin R. Olah)
+Subject: GUNS: Evil Babykilling Assault Weapons!
+
+Tim May:
+
+>- A new list of banned assault rifles, assault pistols (huh?), and
+>magazine capacities has passed, as I understand it. (The "Feinstein
+>Bill.")                 ------
+
+Has passed what? House, Senate, BOTH? Please tell me it's not both. I figured
+these recent gun laws would be tied up until wednesday, and therefore for the
+rest of the year. If it passed both then we can kiss it all goodbye. Gun prices
+will go through the roof before they disappear from the stores altogether.
+I guess I should have splurged a little at the last gun show.
+ Anyway, if the Republicans are no longer willing to fillibuster, then the days
+of the 2nd amendment are truly numbered.
+
+                                 O Martin
+
+FYI:
+Sportsman's Guide is selling 2,016 rds surplus 9mm ammo for $199 until 11-25-93
+Ph# 1-800-888-3006  Just ordered mine today.(for my very legal 13 rd semiauto.)
+ 
+
+------------------------------
+
+Date: Tue, 23 Nov 93 20:05:07 -0600
+From: "Patrick M. Fitzgerald" <pmfitzge@fitz.b30.ingr.com>
+Subject: GUNS: Evil Babykilling Assault Weapons! 
+
+In message #93-11-890 
+martino@gomez.Jpl.Nasa.Gov (Martin R. Olah) writes:
+> 
+> Tim May:
+> >- A new list of banned assault rifles, assault pistols (huh?), and
+> >magazine capacities has passed, as I understand it. (The "Feinstein
+> >Bill.")                 ------
+> 
+> Has passed what? House, Senate, BOTH?
+
+The House "crime bill" does not have the "assault weapon" amendment.
+The Senate "crime bill" does.  From what I've heard, the House and
+Senate versions will not be reconciled before the end of the year, and
+thus the "crime bill" will have to start over from scratch next year.
+
+The "Brady bill" is still up in the air, but it's not looking too bad.
+I may yet be shot down (at least until next year), but I wouldn't
+count on it.
+
+> Sportsman's Guide is selling 2,016 rds surplus 9mm ammo for $199
+> until 11-25-93 Ph# 1-800-888-3006 Just ordered mine today.(for my
+> very legal 13 rd semiauto.)
+
+The pistol may be legal, but the "assault weapon" ammendment would ban
+the magazines.  Buy some extras while you can.
+--
+Patrick M. Fitzgerald, pmfitzge@ingr.com             ______
+                                                    / ___  )
+  From a distance, watching on C-SPAN, reading     / __)/ /__
+  the 'Congressional Record,' one forms a clear   (_/it(_____)
+  impression of government gone awry.  If this is
+  the best we can do, may God save the republic.  Left alone,
+  Congress will make bad matters worse.  - James J. Kilpatrick,
+  syndicated political columnist, 3/19/92
+
+------------------------------
+
+Date: Tue, 23 Nov 93 18:06:13 PST
+From: tcmay@netcom.com (Timothy C. May)
+Subject: GUNS: Evil Babykilling Assault Weapons!
+
+O Martin writes:
+
+> Tim May:
+> 
+> >- A new list of banned assault rifles, assault pistols (huh?), and
+> >magazine capacities has passed, as I understand it. (The "Feinstein
+> >Bill.")                 ------
+> 
+> Has passed what? House, Senate, BOTH? Please tell me it's not both. I figured
+> these recent gun laws would be tied up until wednesday, and therefore for the
+> rest of the year. If it passed both then we can kiss it all goodbye. Gun prices
+> will go through the roof before they disappear from the stores altogether.
+> I guess I should have splurged a little at the last gun show.
+>  Anyway, if the Republicans are no longer willing to fillibuster, then the days
+> of the 2nd amendment are truly numbered.
+
+The ban was added to the Crime Bill by a vote of 51 to 49. Passage by
+the Senate has either happened or is likely...for the latest rumors,
+cf. talk.politics.guns (unless this group is now banned...). As the
+House is more liberal--just passing the Brady Bill--I expect it the
+Senate Crime Bill to pass the House as well.
+
+All of this is in a state of flux. 
+
+Ironically, the NRA's proposed solution, a national background check
+mediated by instant checks via computers, is in many ways worse than
+the Brady Bill. This national system would of course give total
+visibility into numbers of guns bought, types, etc., and would almost
+certainly be used to "ration" gun purchases (as is proposed--or has
+already become law--in Virginia, which, not coincidentally, led the
+nation in deployment of instant background checking).
+
+I'm reevaluating my support for the NRA.
+
+And I still reject the LP "no initiation of force" pledge. To my way
+of thinking, any gun-grabbing politician has aggressed against me and
+deserves to be shot.
+
+Of course, I'm too chicken to do this myself. But all the sobbing and
+crying about what a great man JFK was is foolish: Kennedy was a
+government power freak, got us into Viet Nam, expanded government
+power, and actually stole the 1960 election. I think he probably
+deserved what he got.
+
+(Shocked? Not surprising. But think about it for a while. Ignore the
+statist mythology about Camelot, Jackie, the children, and the
+speeches, and realize he was just another piece of scum who used the
+power of an ever-more-powerful State to push his New England liberal
+socialist policies. Good riddance.)
+
+I'm proud to be involved in this effort to truly make certain markets
+more "liquid."
+
+
+--Tim May
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Tue, 23 Nov 1993 21:34:41 -0500
+From: pcm@world.std.com (Peter C McCluskey)
+Subject: Start-Up VirtSem: 1st step
+
+ xiaozhou@phoenix.Princeton.EDU  (Dave Burns) writes in (X-Message-Number: #93-11-848):
+>What qualities are most important in a person founding a startup:
+>
+>1) passion to get rich
+>
+>2) passion to be your own boss
+>
+>3) passion to see your brilliant idea succeed
+
+ A passion to satisfy customers.
+ Anything else will tend to distract attention from producing useful
+results.
+----------------------------------------------------------------------------
+Peter McCluskey >>> pcm@world.std.com >> pcm@macgreg.com >> pcm@cs.brown.edu
+----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Tue, 23 Nov 1993 22:07:32 -0500 (EST)
+From: "Mr. Richard Seabrook" <seabrook@umbc.edu>
+Subject: your mail
+
+According to Craig Presson:
+> 
+> In <9311232032.AA24607@kublai.lehman.com>, Perry E. Metzger writes:
+> [...]
+> |> >From what I can tell, really good indexing has yet to be developed.
+[ stuff deleted ]
+
+> 
+> Yes, and further to model the intentions of the querent to be able to
+> filter queries properly.  There are several projects at the MIT Media
+> Lab (here I go plugging the 'Tute again) that attempt to address this
+> by using multi-modal retrieval, per-user histories and models, etc.
+> For example, using a model of a globe to index news by region. Of
+> course, this really only addresses the part about making the
+> information system easy for humans to use, it doesn't do much about
+> making its own smart links through the stuff.
+> 
+> This is one of my favorite topics to gas about; I can see how far away
+> we are, because on the next screen I've got Mosaic up and it's saying
+> "Transferring inline image <blah>.gif: <umpty-K> bytes" for like 9
+> minutes. What I have to do if I want to actually _use_ this magical
+> multimedia whizbang is dumb it down so it shows me icons (links) to
+> images instead of slowly (there's another 2 KB) ... oh never mind,
+> don't get me started :-(
+> 
+This is an EXCELLENT topic for this group!  If you want a 
+REAL inspiration, read a 1947? paper by Vanevar Bush (Library of
+Congress) called "As we may think."  We have yet to develop
+anything like a "memex"....
+Dick S.
+
+
+------------------------------
+
+End of Extropians Digest V93 #327
+*********************************
+

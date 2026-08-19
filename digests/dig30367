@@ -1,0 +1,1125 @@
+From extropians-request@gnu.ai.mit.edu Thu Jul  1 09:58:44 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA10531; Thu, 1 Jul 93 09:58:41 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from churchy.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA10776; Thu, 1 Jul 93 09:58:34 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by churchy.gnu.ai.mit.edu (5.65/4.0)
+	id <AA12291@churchy.gnu.ai.mit.edu>; Thu, 1 Jul 93 12:40:13 -0400
+Message-Id: <9307011640.AA12291@churchy.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Thu, 1 Jul 93 12:39:51 -0400
+X-Original-Message-Id: <9307011639.AA12284@churchy.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0367
+X-Extropian-Date: Remailed on July 1, 373 P.N.O. [16:40:12 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest             Thu, 1 Jul 93             Volume 93 : Issue 0367
+                        
+Today's Topics:
+           AIT VirtSem: Critical Bits, Structure, and Information     [1 msgs]
+                   AIT VirtSem: Koppel's "sophistication"             [1 msgs]
+                            AIT VirtSem: NanoFAQ                      [3 msgs]
+                 AIT VirtSem: The Game of "Go" as an Example          [1 msgs]
+                              DIET: Metabolism                        [1 msgs]
+                     ECON: Computer Productivity Paradox              [1 msgs]
+                 NANO: Drexler style nanotech is unworkable           [2 msgs]
+                            Nightly Market Report                     [1 msgs]
+                            PERSONAL:books found                      [1 msgs]
+                           RESUME: Romana Machado                     [1 msgs]
+                                   Romana                             [1 msgs]
+                          SF: Klingons practice GS                    [2 msgs]
+                             SOC/CHAT- The Truth                      [1 msgs]
+                               SOC/CHAT: Huh?                         [1 msgs]
+                       Seattle Area Extropians Unite!                 [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 56513 bytes.
+
+----------------------------------------------------------------------
+
+Date: Wed, 30 Jun 93 12:16:39 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: NANO: Drexler style nanotech is unworkable
+
+Perry Metzger correctly calls out James Donald:
+
+> > The Drexler approach has been tried and, as predicted, has
+> > failed.  The smaller you get, the larger static friction
+> > becomes relative to mechanical strength
+> 
+> Huh?
+
+Yeah, huh?  The whole point is that analysis of drexlerian nanomachines
+can't just blindly apply classical scaling laws (though they might
+apply to micromachines).  The nature of surfaces and friction is
+different when talking about atomic interactions.  I refer you to
+Nanosystems, section 10.10.2.a, p. 316.  Apparently you (James)
+consider the points there to be incorrect.  Why, specifically?
+
+derek
+
+
+------------------------------
+
+Date: Wed, 30 Jun 93 11:20:02 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: AIT VirtSem: NanoFAQ
+
+After a little over a week of operation, we've made some interesting
+progress in our virtual seminar on "Algorithmic Information Theory."
+Perhaps too much progress, as several people have only recently gotten
+ahold of the "Level 0" reading material!
+
+Maybe this "NanoFAQ" (much smaller than even a MicroFAQ) can reorient
+readers and participants who may be disoriented by the sometimes dizzying
+concepts. Or reassure those who think this AIT stuff is overrated.
+
+Here goes:
+
+
+1. What is AIT?
+
+Classical information theory, largely the result of Claude Shannon, has a
+primary focus on communications, bandwidth, signal-to-noise ratios, and how
+to encode a message so that it gets through even in the presence of noise.
+This was the key issue in the 1940s, and remains important today (with
+thousands of radio and television channels, lots of background noise, fiber
+optics, etc.)
+
+A good intro to classical information theory is John R. Pierce's "Symbols,
+Signals, and Noise." A much more advanced treatment is "Elements of
+Information Theory," by Cover and Thomas.
+
+In the 1960s, several independent researchers recast classical information
+theory in terms of more basic computer science terms, such as complexity of
+strings and the basic "length of a program." The great Russian
+mathematician Kolmogorov, an American industry mathematician Ray
+Solomonoff, and the college student Gregory Chaitin independently came up
+with the same formulation: that the information content (or complexity,
+loosely speaking) of an object depends on the size of a program needed to
+reproduce the object.
+
+Thus, the string "101010101010101.....10101010" is easily describable as
+"alternating 1s and 0s," while the string "11001001101010100001....111101"
+may have no shorter description than itself.
+
+This, in a nutshell, is algorithmic information theory.
+
+
+2. Who cares how long a program is?
+
+Program length to generate an object is of practical significance. And
+biological evolution clearly has to deal with this, as the genome must
+carry all its own instructions, so string complexity has direct bearing on
+the capabilities of a biological organism.
+
+Randomness is also an important issue, in cryptography and in simulations
+of systems (Monte Carlo methods need strong random numbers). AIT offers a
+more succinct look at random numbers (or suspected random numbers,
+pseudorandom numbers, etc.).
+
+
+3. Can the shortest description of an object be found?
+
+Not in general, as this has been shown to be undecideable. Finding shorter
+descriptions of some object (like a string) is closely related to issues of
+cleverness (IQ tests often rely on ability to see patterns in seemingly
+random sequences).
+
+The shortest description is also related to compression, of course.
+
+
+4. What does AIT have to do with evolution, life, and Extropian interests?
+
+First of all, it is not some all-encompassing theory that answers all
+questions. It's just one way of looking at things. (Just as "information
+theory" is often misapplied to life, art, music, politics, etc., so, too,
+can algorithmic information theory be misapplied by enthusiasts.)
+
+AIT appears to be a powerful tool for measuring the complexity of evolved
+organisms, even if we cannot in practice compute the "minimal description."
+The algorithmic comlexity of genomes is one obvious area, as are the schema
+complexities in genetic algorithms and genetic programming. (Several recent
+postings by some of us have dealt with this.)
+
+I also feel it has a lot to do with the complexity of self-reproducing
+systems, such as envisioned by nanotechnology enthusiasts.
+
+
+5. Is there a future synthesis coming?
+
+Clearly. If Shannon's classical information theory has been augmented with
+algorithmic information theory, what's coming next?
+
+The "logical depth" ideas of Bennett, Wolfram, Chaitin, and others,
+suggests a space-time diagram of tradeoffs in complexity. Some objects
+appear to be the "output" of a program (of whatever length) that has "run"
+for a very long time. Life is the obvious example of this, cellular
+automata are another.
+
+(The much-ballyhooed "Mandelbrot set" has very low algorithmic information
+content, in the sense than a few bits completely specifies the parameters
+of the set, but any given approximation to the Mandelbrot set--such as one
+might see in a photograph--may be the result of several hours of running on
+a powerful workstation computer, implying great logical depth.)
+
+Adding "fitness" for survival and reproduction may lead to a kind of
+"evolutionary information theory."
+
+(Some quibble that this brings in the external environment--the geographic
+landscape, the ecological niches, competitors, etc.--and hence the measure
+of an object/lifeform/string is dependent on more than just itself. Ah, but
+information measures have _always_ depended on such things as chosen
+alphabets, on the machines on which programs are run, and on the "context."
+To put it bluntly, there is no single measure of the complexity of an
+isolated object....it depends on context, on the embedding of an object in
+some environment.)
+
+
+6. What's the "Omega" stuff all about?
+
+Chaitin used algorithmic information theory to recast the Godel and Turing
+proofs of incompleteness/incomputability in information theory terms. He
+showed that a "10 pound set of axioms" can't prove a "20 pound theory," as
+he puts it. That is, a finite set of axioms does not carry enough
+information to prove all theorems.
+
+In particular, Chaitin has shown that with a given set of axioms, there
+will be theorems whose truth or falsity appears completely random to us.
+(This statement frequently causes consternation, guffaws, confusion, and
+flaming!)
+
+(There is much more to be said here. See the Rudy Rucker explanation in
+"Mind Tools," 1987, or various other explanations. Chaitin's books are less
+readable, but are of course the primary sources.)
+
+Chaitin has invented the "Omega" number, which essentially encodes the
+answers to all formal problems in a number between 0 and 1, a probability
+that a Turing Machine (a model of a general computer) will halt when
+presented with various inputs. 
+
+It's not clear what this means for ordinary affairs, except that it
+captures some sense of how much is "out there" awaiting eventual discover
+(or maybe not). Chaitin argues, persuasively I think, that mathematics will
+likely become more and more of an "experimental science." (Interestingly,
+the recent apparent proof of Fermat's Last Theorem" made no use of
+computers.)
+
+Life is, as Chaitin puts it, the largest and longest-running "computation"
+we have ever seen or likely ever will see. In a sense, then, life is
+"approximating" Omega (this is potentially misleading: biology is happening
+on a wide variety of "Turing Machines," and with wildly varying inputs.
+Whether anything about Omega can be deduced from observation of life is
+completely unclear to me. I take Chaitin's point to be metaphorical.)
+
+
+7. Why study AIT rather than other areas?
+
+Because AIT offers a compelling way of looking at things, from ecologies to
+economies to the building of complicated objects.
+
+Like I said, it is not the only thing one needs, just a part. Other
+interests, such as how to zone refine lunar ores or how to program large
+arrays of computers, are probably "meatier" subjects (fully in line with
+AIT's predictions, if fact, in the sense that these areas have a lot of
+structure, specific bits of knowhow, etc, whereas AIT has a relatively few
+"bits" in it...just the foundational ideas.).
+
+I fully concede that there's more day-to-day work that is possible in, say,
+genetic programming. A hundred or so researchers are busy testing ideas,
+exploring the space of GP and GAs.
+
+So, treat this foray into algorithmic information theory as a glimpse into
+a way of looking at things that may make other fields more tractable--just
+as Shannon's information theory provided powerful ways of looking at
+communications bandwidths, signalling rates, and so on...even while the
+actual work of building transmitters and satellites, and launching them,
+was in some sense "meatier."
+
+To my mind, the information side of life, self-reproducing systems, and
+nanotech, has as much content as the "materials science" and "molecular
+machines" side.
+
+
+I hope this "NanoFAQ" helps. Perhaps it will someday be expanded to a
+"MicroFAQ," but don't hold your breath.
+
+
+-Tim May
+
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: by arrangement
+Note: I put time and money into writing this posting. I hope you enjoy it.      
+
+
+
+
+------------------------------
+
+Date: Wed, 30 Jun 93 14:03:39 -0700
+From: davisd@nimitz.ee.washington.edu
+Subject: Seattle Area Extropians Unite!
+
+Apparently, there are a few seattle area extropians receiving this
+list, either directly from gnu, or indirectly from a bb at the U of W.
+
+Would any such folks please send me your email address, along with an
+indication if you'd be interested in occasionally getting together for
+lunch?
+
+Much thanks.
+
+Buy Buy -- Dan Davis
+
+
+------------------------------
+
+Date: Wed, 30 Jun 93 14:35:22 MDT
+From: Mark_Muhlestein@Novell.COM (Mark Muhlestein)
+Subject: NANO: Drexler style nanotech is unworkable
+
+Derek, quoting Perry, quoting James, writes:
+
+> > The Drexler approach has been tried and, as predicted, has
+> > failed.  The smaller you get, the larger static friction
+> > becomes relative to mechanical strength
+> 
+> Huh?
+
+> Yeah, huh?  The whole point is that analysis of drexlerian nanomachines
+> can't just blindly apply classical scaling laws (though they might
+> apply to micromachines).  The nature of surfaces and friction is
+> different when talking about atomic interactions.  I refer you to
+> Nanosystems, section 10.10.2.a, p. 316.  Apparently you (James)
+> consider the points there to be incorrect.  Why, specifically?
+
+Since James does not seem to show familiarity with Drexler's
+_Nanosystems_, I will take the liberty of typing in (I wish I had Tim's
+scanner) a few relevant quotes from the book.  I'm sure this has typos;
+I hope it will help motivate someone who hasn't yet picked up the book
+to do so.
+
+On page 27, Drexler considers one of James' criticisms:
+
+      In Newtonian fluids, shear stress is proportional to shear
+      rate.  Molecular simulations indicate that liquids can
+      remain nearly Newtonian at shear rates in excess of 100 m/s
+      across a 1 nm layer (e.g., in the calculations of Ashurst
+      and Hoover, 1975), but they depart from bulk viscosity (or
+      even from liquid behavior) when film thicknesses are less
+      than 10 molecular diameters (Israelachvili, 1992; Shoen et
+      al., 1989), owing to interface-induced alterations in
+      liquid structure.  Feynman suggested the use of
+      low-viscosity lubricants (such as kerosene) for
+      micromechanisms (Feynman, 1961); from the perspective of a
+      typical nanomechanism, however, kerosene is better regarded
+      as a collection of bulky molecular objects than as a
+      liquid.  If one nonetheless applies the classical
+      approximation to a 1 nm film of low-viscosity fluid (eta =
+      10^-3 N*s/m^2), the viscous shear stress at a speed of
+      1.7x10^3 m/s is 1.7x10^9 N/m^2; the shear stress at a speed
+      of 1 m/s, 10^6 N/m^2, is still large, dissipating energy at
+      a rate of 1 MW/m^2.
+
+      The problems of liquid lubrication motivate consideration of
+      dry bearings ... [discussion of dry bearings deleted] ...
+      In light of engineering experience, however, the use of
+      dry bearings would seem to present problems (as it has in
+      micromachine research).  Without lubrication, efficiencies
+      may be low, and static friction often causes jamming and
+      vibration.
+
+      A yet more serious problem for unlubricated systems would
+		seem to be wear.  ... [discussion of wear problem deleted] ...
+
+      Design and analysis have shown, however, that dry bearings
+      with atomically precise surfaces need not suffer these
+      problems.  As shown in Chapters 6, 7, and 10, dynamic
+      friction can be low, and both static friction and wear can
+      be made negligible.
+
+Chapter 10 gives detailed design analyses of bearings, gears, etc.  I
+would be interested to see where you think Drexler goes wrong here.
+
+I will quote the passage Derek mentions (p. 316).  Drexler is comparing
+nanomachines and micromachines:
+
+      a. _Soft surfaces, different frictional behavior_.  On a
+      macroscopic scale, steel surfaces are hard: objects have
+      well-defined boundaries, and any attempt to force a
+      geometric overlap between two steel objects instead results
+      in contact forces and elastic or plastic deformation.  On a
+      nanometer scale, diamondoid surfaces are soft: if one
+      defines object boundaries by (for example) assigning radii
+      to the surface atoms, the repulsion forces will increase
+      smoothly as the objects approach and overlap.  This
+      nonlinear surface compliance is distinct from (and additive
+      with) the compliance from elastic deformations of the
+      objects, and has a characteristic length scale of ~0.03 nm.
+      This length is small enough to make the concepts of "shape"
+      and "surface" useful, yet large enough to bar the direct
+      uncritical application of macroscopic  concepts.
+
+      Because of these surface properties, nanoscale components
+      need not meet precise dimensional specifications to achieve
+      a good fit.  Centimeter-scale steel components commonly are
+      designed to tolerances less than 0.001 of their linear
+      dimensions.  For a nanometer-scale component, a fractional
+      deviation of <= 0.01 from a hypothetical ideal is
+      insignificant, and a deviation of 0.03 or more is often
+      acceptable.  This tolerance for deviations from ideal
+      geometries helps compensate for the discrete nature of
+      nanomechanical structures, and for the consequent
+      unavailability of a continuum of sizes and shapes.
+
+      As a result of these surface properties, nanomechanical
+      components are better viewed as moving smoothly in a force
+      field than as sliding subject to friction.  Static friction
+      (in the conventional sense) does not exist in well-designed
+      eutactic bearings: its closest analogues -- energy barriers
+      and force gradients -- can be lower for two coupled objects
+      sliding over a surface than for either object considered
+      separately (Section 10.8) even though their contact forces
+      are additive.  This is alien to the familiar tribology of
+      disordered interfaces. These interfacial properties make
+      distinct lubricating substances needless and harmful (an
+      oil molecule is not a lubricant on this scale:  it is an
+      object).
+
+Along with others, I would be interested to hear well-informed
+criticism of Drexler's work.  I am not aware of any substantial
+evidence against the ideas presented in _Nanosystems_.
+
+Mark_Muhlestein@novell.com
+
+------------------------------
+
+Date: 30 Jun 1993 15:54:56 -0800
+From: "Nancy Schorr" <nancy_schorr@quickmail.apple.com>
+Subject: Romana
+
+        Reply to:   Romana
+This is a public apology to Romana.  I said some nasty things about her
+yesterday *IN RESPONSE* to her accusations of me of June 22 (or so):
+
+>Controversy, and not truth, is likely to be had from Nancy Schorr,
+>who recently saw fit to stand outside of my home and shout insults
+>at it.
+
+Being new to Extropians, and taking my queue from her, I thought that attacking
+her back was the appropriate response.  I have since been informed that this is
+NOT OK, and was told to make a public apology, so here it is.  I certainly hope
+that Romana will also post a public apology in reponse to her accusations in
+regards to me.
+
+Nancy
+
+
+
+------------------------------
+
+Date: Wed, 30 Jun 1993 15:01:09 -0800
+From: Romana Machado <romana@apple.com>
+Subject: RESUME: Romana Machado
+
+Dear Extropians,
+
+I'm not currently looking for a job, as my current clients are quite
+satisfied with my work.
+My contract expires at the end of September and I would be happy to hear
+from any interested parties at that time. I thought, however, that my
+fellow extropians might enjoy reviewing my resume.
+This is a short, plaintext version, not as pretty, but just as accurate, as
+the one I send out while job hunting. 
+
+Romana Machado
+21090 Grenola Dr.
+Cupertino CA 95014
+(408)446-9486
+
+Experience
+
+Macintosh Quality Assurance Lead, Apple Computer, Inc. Nov. '91 - Present.
+Member of Macintosh Technology Group in Information Systems & Technology
+division. Lead QA engineer for a mail server gateway bridging AppleLink and
+the Apple Open Collaborative Environment. Testing and quality assurance
+engineering for four database front-end products, DAL Terminal 1.1, Data
+Browser 1.1, Software Asset Librarian 1.3, and P blo 1.2. 
+
+Macintosh Quality Assurance Engineer, Intuit, Menlo Park, Ca. Dec. '90 -
+May '91.
+ QA engineering for Macintosh Quicken 3.0. Tested user interface, report
+generation.
+
+Database Programmer, Afghan Refugee Fund, Los Altos, Ca. June '87 - May
+'90.
+Extensive programming of a large mailing database for a charity, using
+DBase III+ compiled under Clipper. 
+
+Macintosh ROM Toolbox Test Engineer, Apple Computer, Inc. July '89 - Mar.
+'90. Test engineering and test tool development using MacApp. Tested File
+Manager, Sound Manager, Device Manager. 
+
+Software Designer, Strategic Decision Group, Palo Alto, Ca. March '89 -
+July '89.
+Developed printing and graphics modules for SuperTree, a financial decision
+analysis system. 
+
+Staff Engineer, Stanford University Dep't of Communication. Mar.'88 - Nov.
+'88.
+Developed LiVE, a communications research tool that constructs video
+sequences using a laserdisk video player driven by an IBM computer.
+Developed graphics tools to aid analysis of EEG data for psychology
+research. Developed Hypercard XCMDs that provide a direct interface to the
+Mac's four-voice synthesizer. 
+
+Staff Engineer, Stanford University Psychophysiology Lab. June '86 - Mar.
+'88.
+Developed custom software for psychophysiology research, graphics tools for
+data analysis, and low-level device interfaces for multichannel analog-to
+digital devices. 
+
+Software Engineer, Greenleaf Science Software, Palo Alto, Ca. Dec. '85 -
+June '86
+Member of startup team. Assisted in the development of a computerized
+physiological data recording system.  
+
+Education
+
+Bachelor of Arts in English, minor in Mathematics/Computer Science, San
+Jose State University, 1986. 
+
+Advanced MPW, Intro to C++ classes at Apple Developer University, 1990.
+
+Skills
+
+QA, MPW, C, Hypercard, Turbo Pascal, 68K assembly, networks, databases.
+
+
+
+
+ 
+Romana Machado
+romana@apple.com
+----------------------------------------------------------------------------
+"The dogs may bark, but the caravan moves on."  - Sufi proverb
+
+
+------------------------------
+
+Date: Wed, 30 Jun 1993 19:20 EST
+From: LEVY%BESSIE@Venus.YCC.Yale.Edu
+Subject: SF: Klingons practice GS
+
+Lots of human languages lack a copula ("be" verb).  
+Hebrew and Indonesian come immediately to mind. So 
+Klingon is not unusual by human standards.
+
+-- Simon!
+
+------------------------------
+
+Date: Wed, 30 Jun 1993 20:03:42 -0400
+From: tburns@gmuvax.gmu.edu (T. David Burns)
+Subject: PERSONAL:books found
+
+I've got Rucker and Casti, & checked out Davies. Some of the others are
+checked out, some I may be able to get at a different library. I'm not sure
+what to request for OCR. 
+tburns@gmuvax.gmu.edu (T. David Burns)
+
+
+------------------------------
+
+Date: Wed, 30 Jun 93 20:03:19 -0400
+From: hhuang@Athena.MIT.EDU
+Subject: DIET: Metabolism
+
+Alex Chislenko writes,
+
+>   However, I wouldn't use [thermogenic tea]. Higher metabolism means
+>shorter lifespan, and to lose weight, I prefer eating more fruit and
+>taking aerobic classes.  Chromium Picolinate too, to preserve lean
+>mass.
+>
+>  As for metabolism, I'd rather take something to slow it down.
+>
+>I wonder if there are any metabolic inhibitors on the market...
+
+Lowered calorie consumption.  You can purchase it right at home or
+work.  :)
+
+Lowered dietary calorie consumption, and the resultant increased
+metabolic efficiency, is what Roy Walford recommended in his _120 Year
+Diet_.  As your body becomes accustomed to a diminished caloric
+intake, the body's metabolism adapts to waste a smaller percentage of
+the calories consumed.  Combined with the lowered total caloric
+intake, this results in a metabolic ``savings.''
+
+Caveat emptor.
+
+By the way, Walford does highly recommend exercise, due to its clear
+benefits.
+
+-Han Y. Huang                                    hhuang@athena.mit.edu
+
+------------------------------
+
+Date: Wed, 30 Jun 93 18:32:00 MDT
+From: hammar@cs.unm.edu
+Subject: SOC/CHAT- The Truth
+
+"Nancy Schorr" <nancy_schorr@quickmail.apple.com> wrote:
+>Ask Romana about the Stanford ID she faked so she could pose in Playboy as a
+>Stanford student.  
+
+    Please give a full citation :-) 
+
+Neil Hammar
+hammar@unmvax.cs.unm.edu
+aka
+yet another horny twit on this list
+
+
+------------------------------
+
+Date: Wed, 30 Jun 1993 20:55:58 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: SF: Klingons practice GS 
+X-Reposting-Policy: redistribute only with permission
+
+LEVY%BESSIE@venus.ycc.yale.edu says:
+> Lots of human languages lack a copula ("be" verb).  
+> Hebrew and Indonesian come immediately to mind. So 
+> Klingon is not unusual by human standards.
+
+Hebrew has a verb "to be", its just implied a lot of the time. In
+Hebrew I would say "I Perry", which has an implied "am" -- not "Most
+people call me Perry" which is what the by-the-book E Prime/General
+Semantics answer would be. The "to be" is implied just as strongly as
+the second person pronoun is implied in "Stop!"
+
+Perry
+
+------------------------------
+
+Date: Wed, 30 Jun 1993 20:51:32 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: SOC/CHAT: Huh?
+
+Would all of you people out there clogging the list please try
+to slow down some?
+
+There's one thread I missed out on that's degenerated into
+something ugly (I mean the "Truth" thingey which I only caught
+the tail end of; would someone please, in e-mail explain?)
+
+Also: Perry and Eric: You know, there are brands of decaf that
+taste just as good. We don't care if you eat each other, please
+take your private flamewar off of the list. I've stopped reading
+it, I'm fairly sure everyone else has too, so let's let the thing
+drop. 
+
+(Or Tim and I will write a vicious satire on it. I have some good
+ideas already. And the two of you don't want to see them).
+
+(I guess part of the problem is that I'm archiving the digests as
+I get them for the Seminar that's going on for that far-off day
+in the future when I can understand it.)
+
+pgf
+
+------------------------------
+
+Date: Wed, 30 Jun 1993 22:59:15 -0400
+From: tburns@gmuvax.gmu.edu (T. David Burns)
+Subject: AIT VirtSem: NanoFAQ
+
+At 11:20 AM 6/30/93 -0700, Timothy C. May wrote:
+>In particular, Chaitin has shown that with a given set of axioms, there
+>will be theorems whose truth or falsity appears completely random to us.
+
+I thought it was their decidability that was random, no?
+tburns@gmuvax.gmu.edu (T. David Burns)
+
+
+------------------------------
+
+Date: Wed, 30 Jun 93 23:59:20 EDT
+From: The Hawthorne Exchange <hex@sea.East.Sun.COM>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+Report Time: Wed Jun 30 23:59:06 EDT 1993
+
+News:
+Due to a bug in the HEx software, values larger than 2^31 were being
+handled incorrectly. This has been fixed, and the number of shares
+issued for the reputations N and TRADE (neither of which has traded
+yet) was reset to 10,000.
+
+The bugs seem to be ironed out in the order processing. 
+
+Newly Registered Reputations:
+(None)
+
+New Share Issues:
+Symbol	Shares Issued
+MLINK	10000
+DEREK	10000
+
+Share Splits:
+(None)
+
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+ANTO            0        0        0           NA           NA              NA
+BLAIR          30        0       30        10000            5             150
+DEREK           0        0        0        10000            0              NA
+E             100      100      100        10000            5             500
+ESR             0        0        0           NA           NA              NA
+EXI             0        0        0           NA           NA              NA
+FCP             0        0        0           NA           NA              NA
+GOBEL           0        0        0           NA           NA              NA
+H               0        0        0           NA           NA              NA
+HEX           100      100      100        10000         1948          194800
+HFINN           0        0        0           NA           NA              NA
+IMMFR           0        0        0        10000            0              NA
+LEFTY           0        0        0           NA           NA              NA
+LIST            0        0        0           NA           NA              NA
+LL              0        0        0           NA           NA              NA
+MARCR           0        0        0           NA           NA              NA
+MLINK           0        0        0        10000            0              NA
+MWM             0        0        0           NA           NA              NA
+N              50        0        0        10000            0              NA
+P             100        0        0        10000            0              NA
+PRICE           0        0        0     10000000            0              NA
+ROMA            0        0        0           NA           NA              NA
+ROWAN           0       50        0        10000            0              NA
+SGP             0        0        0           NA           NA              NA
+TIM*            0        0        0           NA           NA              NA
+TRADE           0        0        0        10000            0              NA
+WILKEN          0       10       10        10000            1              10
+
+------------------------------
+
+Date: Wed, 30 Jun 93 23:16:41 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: AIT VirtSem: NanoFAQ
+
+T. David Burns writes:
+
+> At 11:20 AM 6/30/93 -0700, Timothy C. May wrote:
+> >In particular, Chaitin has shown that with a given set of axioms, there
+> >will be theorems whose truth or falsity appears completely random to us.
+> 
+> I thought it was their decidability that was random, no?
+> tburns@gmuvax.gmu.edu (T. David Burns)
+
+"Appears completely random to us" in the sense that they may be true,
+but we'll never know.
+
+(Pete Cappello made a related point to me in e-mail a couple of days
+ago: that propositions are eithe true or false, but that certain
+problems may be undecideable.)
+
+
+-Tim
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Thu, 1 Jul 93 10:04:43 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: AIT VirtSem:  Koppel's "sophistication"
+
+The following paper is interesting and perhaps relevant to what
+we're doing:
+
+Moshe Koppel.  Structure.  from Rolf Herken, ed.  _The Universal Turing
+Machine: A Half-Century Survey_.  Oxford Science PUblications.  1988.
+
+The minimal description of a string S relative to some Universal Turing
+Machine (UTM), as we've seen, is just the shortest input to that UTM
+that produces S.  The length of that input is the "complexity" of S.
+Simple, cool, and useful.
+
+But not useful enough.
+
+A problem is that random strings have maximal complexity in this
+technical sense but don't seem complex to us.  In this seminar,
+we've been discussing some ideas about how to take into account
+an object's "fitness", which is one part of the puzzle.  I am working
+on an essay on this topic to be presented later in the VirtSemester.
+
+Thomas Cover apparently suggested in 1985 that a string's minimal
+description actually has two parts -- one describing the string's
+structure, and another selecting from among the strings with that
+particular structure.  The random string has nothing for the
+structure part; pi has little or nothing for the selection part.
+
+Koppel suggests that we can make this intuitively appealing
+distinction formal by simply adding another input tape to the
+UTM.  Now there are two different tapes -- one for the program
+and one for the data that the program operates on (actually, a
+bit more complicated than that, but this is the essential point).
+
+The length of the program required to compress the string (compression
+measured by the sum of program and data size) within some factor
+of optimal is called the string's "sophistication", and is intended
+as a measure that matches well with our intuitive ideas of complexity.
+In that, it's similar to Bennett's logical depth, though it is a
+quite different property.
+
+I think this highlights some of the deep issues in the distinction
+between program and data, particularly for self-reproducing systems.
+Relating that distinction to the cluster of other conceptual frameworks
+we're batting around seems difficult but important.
+
+derek
+
+------------------------------
+
+Date: Thu, 1 Jul 93 8:55:02 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: AIT VirtSem: The Game of "Go" as an Example
+
+> From: szabo@techbook.com (Nick Szabo)
+> > There is also the question of
+> > the encoding scheme. 
+> This is not a big deal.  Either Lisp S-expressions or binary strings 
+> can encode arbitrary Turing machines.
+
+Sure, a binary string can encode anything you want.  But for genetic
+search to work properly, you need significant closure of "goodness"
+under the crossover operator.  Otherwise, crossover is no better
+than selecting randomly, and your search technique approximates slow
+simulated annealing (slow because you're running an entire
+population in parallel, probably on a serial machine -- also, your
+mutation operator is probably not tuned for SA).  
+
+Good encodings also can't act pathologically under mutation: a point
+change should not drastically change the entire interpretation.
+This is easier to get than good crossover, though; you just have to
+avoid "compressed" representations.
+
+> There is probably no such thing as the "best" strategy (see above), 
+[ i.e. for go]
+
+Isn't go a terminating game?  If so, there are a finite number of
+games, as the player has a finite set of options at each move.
+The best strategy is then to search the game tree.
+(Sorry.  I have to stop talking to these pure math types.)
+
+> Nick Szabo				szabo@techbook.com
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Thu, 1 Jul 93 09:01:02 -0700
+From: hfinney@shell.portal.com
+Subject: AIT VirtSem: Critical Bits, Structure, and Information
+
+I'm a couple of days behind in my AIT reading, so here is a slightly late
+comment.
+
+Traditional information theory measured the information content of a string
+in terms of how likely that string was to be produced.  A string which was
+a priori unlikely carries much information; one which was likely contains
+very little.  Therefore, it was not meaningful to discuss the information
+content of a string standing on its own; it only made sense if the string
+was part of an environment, a family of possible strings with a probability
+calculable for each string.
+
+Chaitin's AIT cuts away the environment, challenging traditional IT by
+claiming that strings themselves have information, and offering an
+(uncomputable, unfortunately) algorithm for finding out how much information
+is in any one string.  This produces a theory which is cleaner and more
+universal, IMO.
+
+I am concerned that in the discussion here we are moving away from Chaitin's
+modern view towards something more resembling traditional information theory.
+The introduction of fitness landscapes, and stipulations that the objects
+under study (organisms, or Go programs) have to have a certain amount of 
+fitness in competition with others, add a great deal of intellectual baggage
+to an otherwise clean theory.
+
+We may agree that in "pure" AIT a blended frog (one whose molecules have been
+given random positions) has greater information content (at the molecular
+level) than a living frog.  Derek proposes to "fix" this by requiring that
+the frog under discussion succeeds in a competitive environment.
+
+But this moves us from a structural discussion to a functional one.  And it
+requires a certain amount of human intuition and understanding to recognize
+that a frog is competing, that it has an environment, and that it is
+engaging in certain kinds of activities (reproduction, etc.).  Granted,
+once this is done, it may be possible to define measures of complexity that
+are appropriate.  But I feel that much of the motivation of AIT was to
+avoid the whole need for this.   
+
+Consider the specific question of recognizing the existence of life.  It seems 
+to me that the frog-as-part-of-a-fitness-landscape point of view presupposes
+that we recognize that the frog is alive.  Contrast this with Chaitin's
+effort to solve the same problem: the notion of mutual information between
+separated regions of the frog.  He argues that one region of a living creature
+(one cell of a frog, say) can be used to predict the structure of another
+region (another cell) with a reduced program size in the AIT sense.
+
+Chaitin's idea may not work (it's criticized in the Santa Fe Institute
+complexity proceedings) but at least he is sticking with objective measurements
+which can be made without having to figure out what the frog is doing.
+
+Similarly, the suggestion that the complexity of an entity depends on its
+environment is out of keeping with the spirit of AIT, in my view.  A frog
+would be just as complex in a glass jar on the moon as it would in a pond
+on earth.
+
+I think Tim's notion of "critical bits" also requires this addition of an
+environment and a functional criterion by which to judge functional
+deterioration when bits are changed.
+
+Taking the poker example, AIT will already tell us that four aces has less
+randomness than a typical hand.  To try to go beyond this and find a measure
+which gave higher complexity to four aces plus a king than to four aces
+plus a queen (on the theory that poker hands of higher value should have
+greater complexity), based on the fitness of these hands in the poker
+environment, is not a useful move, IMO.
+
+In general, I feel that we should avoid as much as possible bringing in
+arbitrary, human-recognized measures in judging complexity and randomness.
+We should stick to measures which can be formalized, which are objective,
+and which do not require an a priori recognition of purpose and function.
+Otherwise I fear we are arguing in circles, claiming to have achieved a
+new recognition of complexity when we are actually relying on our intuition
+about what is and is not complex.
+
+Hal Finney
+hfinney@shell.portal.com
+
+------------------------------
+
+Date: Thu, 1 Jul 93 11:51:39 -0400
+From: Bill MacIntosh <wk01739@worldlink.com>
+Subject: ECON: Computer Productivity Paradox
+
+The Bionomic Institute and the book Bionomics have been mentioned here in the 
+past.  I thought this article from them on the "computer productivity 
+paradox" would interest some of the folks on this list.
+
+Bill MacIntosh
+wk01739@worldlink.com
+
+The following article is for personal use only.
+--- Begin Article -----------------------------
+
+Solving the Productivity Paradox
+A Bionomic view
+
+	A few years back, MIT economist Robert Solow quipped, "We see 
+computers everywhere but in the productivity statistics."  His remark set off 
+a controversy, now called the "productivity paradox," that refuses to go 
+away.  Swarms of investment analysts, economists, and journalists have tried 
+to dismiss this indictment of the computer industry by arguing that the 
+government's worker productivity data are so flawed they can't prove 
+anything.  But even after making all the reasonable adjustments, the same 
+bottom line message keeps coming back.  Though American businesses plunked 
+down well over $1 trillion for computer systems in the last decade, they have 
+almost no measurable productivity increase to show for it.
+	When I first heard about the computer "productivity paradox," I 
+couldn't believe there had been "no productivity growth."  I can't even bear 
+to think about how much time-wasting drudgery I'd have to go through without 
+my Macintosh.  And yet, plenty of bright people have investigated the 
+"productivity paradox" for long enough to convince me that there's more to it 
+than a statistical delusion.
+	Searching for a plausible explanation, I stumbled upon a brilliant, 
+but obscure, research paper by Paul David, professor of economic history at 
+Stanford.  Though economic historians often share the same floor in faculty 
+office buildings with economic theorists, they remain a breed apart.  Instead 
+of wasting time messaging highly aggregated National Income Accounts data 
+with impenetrable mathematical models, economic historians roll up their 
+sleeves and dig out the hard facts of daily economic life.  Much like 
+paleontologists, they recreate bygone eras by patiently piecing back together 
+the most minute details of forgotten technologies and extinct industries.
+	Intrigued by the flap over the productivity paradox," Professor David 
+decided to take a closer look at a remarkably similar historical puzzle.  
+Ninety years before Intel invented the DRAM (1969) and the microprocessor 
+(1971), Thomas Edison invented the carbon filament incandescent lamp (1879) 
+and the central generating station (1881).  And just as it took ten years 
+before a refined microprocessor-embodied in the original IBM PC-began 
+changing our daily lives, it took nearly twenty years before electricity 
+began having any significant impact on society.  Indeed, it wasn't until the 
+Paris Exposition of 1900 that electricity was used to light an 3entire city.
+
+Stone Age Bricks and Mortar
+
+	As the 20th century began, business investment in electrical 
+equipment skyrocketed.  Between 1900 and 1920, the percentage of American 
+factories equipped with electric motors jumped from 5% to 55%.  Yet, despite 
+the obvious advantages of electric motors over steam engines, worker 
+productivity showed almost no measurable increase.
+	Solving the riddle of today's computer "productivity paradox" is 
+simple, once its century-old predecessor is understood, but that takes some 
+knowledge of business in the factory's basement, with its power transmitted 
+to the equipment on the floors above through an elaborate system of vertical 
+and horizontal shafts and drive belts.
+	Factory owners began replacing steam engines with large electric 
+motors, because the new technology slashed coal bills by 20-60%.  But the 
+power generated by these first electric motors was still conveyed to the 
+lathes, drills, grinders, and punch presses by the conventional system of 
+shafts and belts.  As time passed and somewhat smaller electric motors were 
+still relatively expensive, each one powered a group of machines via 
+horizontal shafts and belts.
+	Electric motor technology was indeed revolutionary, but to pay for 
+itself, it had to be grafted into the existing industrial infrastructure.  
+Multi-story factories made sense in the steam age, because they reduced the 
+costly friction losses incurred as horizontal shafts carried power to 
+equipment.  Single-floor factories would have eliminated all the labor wasted 
+moving unfinished goods from floor to floor, but overall, it was cheaper to 
+man the elevators than pay for the coal turned to waste heat by long 
+horizontal shafts.
+	For similar reasons, machines requiring the most horsepower were 
+placed near the base of each floor's horizontal shaft.  Smaller, low power 
+consuming equipment sat at the far end of the work floor.  Again, though this 
+arrangement made economic sense from a power conservation standpoint, it made 
+the flow of materials ridiculously inefficient.  In short, since the entire 
+industrial infrastructure had evolved around the assumption of expensive 
+steam power, factories were designed to be grossly inefficient in other 
+dimensions.  Once made, these fundamental economic trade-offs endured for 
+decades in bricks and mortar.
+
+Delayed Breakthrough
+
+	In fact, it wasn't until cheap, electric motors became available in 
+the 1920s that factories began to abandon "group drive" power for the "unit 
+drive" approach, the familiar present-day system where each machine is 
+powered by its own internal motor.  As this technology was installed, 
+companies ripped out their drive shafts and belts, rearranged their machines, 
+and smoothed the flow of materials.  The most innovative "high-tech" firms-
+companies in fast-growing new industries like cigarettes, organic chemicals, 
+and electrical equipment-were the first to go all the way and take the 
+radical step of building single-story factories.
+	Finally-forty years after Edison's breakthroughs-productivity growth 
+took off.  Where the annual labor productivity growth rate had hovered around 
+1% for the first two decades of the century, it jumped to over 5% a year 
+during the Roaring Twenties.
+	Real economic life, it seems, is a tad more complicated than the 
+input-output models of economic theorists.  Pumping investment into a 
+powerful new technology does not instantly and automatically yield 
+productivity gains.  At the start of the steam engine/electric motor 
+transition, steam-based investments still worked and were still carried on 
+company balance sheets.  To reap the full promise of electricity, an almost 
+endless number of practical details had to be worked out.  That took time and 
+enormous creativity   Like today's dream of the paperless office, no one knew 
+what a fully electrified factory would look like or how to best manage it.
+	Minor innovations, advances that refine an existing technological 
+regime, say, light weight horizontal drive shafts in steam-powered factories, 
+do generate immediate productivity returns.  But when a technology is truly 
+revolutionary, its full impact cannot be realized until all the 
+interdependent elements of the new technical paradigm have fallen into place.  
+Instead of being perplexed by the lack of computer driven productivity 
+growth, we should have expected it.
+
+The Coming Productivity Surge
+
+	Looking ahead, no one can say when all the critical elements of the 
+Information Age infrastructure will come together.  But it appears that we 
+may be on the cusp of that long-awaited productivity surge.  The explosive 
+growth of PC's workstations, LAN's, WAN's, fiber optics, wireless 
+communications, and object-oriented software may be completing the new office 
+paradigm just as the "unit drive" motor completed the new factory paradigm in 
+the 1920's.  As these communications technologies link together the 
+previously isolated power of microprocessors, the cost of delivering the 
+right information where it's needed will collapse, allowing completely new 
+work flows and organizational infrastructures to emerge.
+	We already see evidence of the revolutionary changes on the horizon.  
+Without the arrival of networked computers, there's little to explain the 
+massive and permanent disappearance of middle management jobs.  Like the 
+power transmitting drive shafts and belts made unnecessary by the arrival of 
+"unit drive" motors, information-transmitting while collar workers are being 
+ripped out of the merging economic infrastructure.  
+	Hierarchical, "multi-story" bureaucracies are being flattened into 
+"single-story" organizations, not because of any sudden change of heart by 
+top executives, but because the hard economics of information handling are 
+being utterly transformed.  Though it made economic sense in a paper-based 
+world to minimize communication costs by co-locating workers in urban office 
+towers, in the world of e-mail, faxes and teleconferencing, the costs imposed 
+by that infrastructure have become an incredible waste of money.  More 
+important, this shift has revealed that our culture of poor interpersonal 
+communication is today's greatest barrier to productivity growth.
+	By simply extending already well-understood production techniques, 
+makers of microchips and fiber optics are certain to drive the cost of 
+compute cycles and data transmission down another thousand-fold before the 
+end of this century.  As a consequence, all our sacred assumptions about the 
+nature organizations will be overturned.  Like our predecessors in the early 
+1920's, we are being forced to rethink all the old trade-offs and invent new 
+designs for our working lives.
+        Like most puzzles, the "productivity paradox" is an artifact of 
+superficial thinking.  By getting beneath its surface, by examining the 
+computer "productivity paradox" in the light of economic history, we can 
+understand our computer frustration.  We can also foresee a productivity 
+explosion that will soon dwarf the productivity surge which made the Roaring 
+Twenties roar.
+
+(c) The Bionomic Institute
+2173 East Francisco Blvd.
+San Rafael, CA  94901
+(415) 454-1000
+
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0367
+****************************************
+

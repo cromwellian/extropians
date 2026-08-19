@@ -1,0 +1,462 @@
+From extropians-request@extropy.org Tue May  3 03:01:38 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id DAA07545 for <more@chaph.usc.edu>; Tue, 3 May 1994 03:01:35 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA28235; Tue, 3 May 94 03:01:30 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA06021
+  (5.65c/IDA-1.4.4 for more@usc.edu); Tue, 3 May 1994 06:01:05 -0400
+Date: Tue, 3 May 1994 06:01:05 -0400
+Message-Id: <199405031001.AA06021@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-5-12 - #94-5-21
+X-Extropian-Date: May 3, 374 P.N.O. [06:00:56 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Tue, 3 May 94             Volume 94 : Issue 122
+
+Today's Topics:
+                    [#94-4-283] Social Engineering and R&D            [3 msgs]
+                               Arabic etymology                       [1 msgs]
+                         Fight against deviant memes.                 [1 msgs]
+                  Filtering Techniques (filtering the flood)          [1 msgs]
+                             filtering the flood                      [4 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 28012 bytes.
+
+----------------------------------------------------------------------
+
+From: dasher@netcom.com (Anton Sherwood)
+Date: Sun, 1 May 1994 23:44:22 -0700
+Subject: [#94-5-12] filtering the flood
+
+Here's a wild idea for filtering the List.  I've mentioned
+something similar to Sasha, and in News once or twice, but
+I don't think I've brought it up here.
+
+Let each user be represented by a point in n-space.  (I think
+8 degrees of freedom should be plenty.)  Initially the points
+are random.
+
+When A rates a message of B's positively, A moves toward B, and
+conversely.  (The points should be normalized from time to time,
+so they don't converge to a point or diverge to infinity; perhaps
+constrain them to the surface of a hypersphere?)
+
+Each user specifies a tolerance volume; messages written by users
+outside that volume are not read.  The volume may be a sphere or
+an infinite cone.
+
+Comments?
+
+Anton Sherwood   *\\*   +1 415 267 0685   *\\*   DASher@netcom.com
+
+------------------------------
+
+From: rjc@gnu.ai.mit.edu (Ray)
+Date: Mon, 2 May 94 4:09:39 WET DST
+Subject: [#94-5-13] Filtering Techniques (filtering the flood)
+
+Anton Sherwood writes:
+[description of rating vector method deleted]
+
+  This has been reinvented over and over. Carl Feynmann, myself, and
+I think even David Friedman, have proposed various forms of it.
+One problem with the one you propose is that it only filters for
+author. While I might enjoy Tim Starr's (sorry to use you Tim
+as a guinea pig) posts on philosophy or politics, I might not like his posts 
+about quantum mechanics. Thus, I want to filter the give high priority
+to posts from Tim on objectivist philosophy, but for debates about
+the Everett Hypothesis, I favor Mike Price.
+
+  One of my ideas is the "dynamic moderator" approach. Here's how
+it works. By rating various messages, an "interest vector" is created
+which captures your interests in various threads. The same thing happens
+for everyone else. In the 'dynamic moderation' phase, the list software
+looks for people who are close to you in interest-space. These people,
+whose absolute distance is within some radius, and their rating,
+is used to compute a more honest appraisal of the value of a post.
+
+  It is based on the idea that people whose interests are closer to yours
+rate messages with the same bias you do and therefore their ratings 
+should be more heavily weighted. To use Tim as an example again,
+Tim's interest might be more in favor of threads based on economics
+and philosophy, on the other hand, Mike might be more interested in
+space, physics, and genetic algorithms. When Tim rates a thread
+on genetic algorithms, it will obviously be lower than a person whose's
+primary field of interest is GA. Thus, it would be unfair to give
+Tim's rating equal weighting with Mike's if YOU are filtering in favor
+of GA (because that's your interest) On the other hand, if you are
+filtering for philosophy, you would want to add more weight to Tim's
+ratings and not Mike's.
+
+  The central flaw of democracy is that all votes are given equal footing.
+Someone who spent years debating and lobbying around a policy issue
+is given the same weight as a homeless man flipping a coin and pulling
+a lever. Dynamic moderation eliminates the irrelevent votes by finding
+those people in your interest group first.
+
+  The moderation is dynamic because it is chosen at run(post) time and it is
+constantly changing. When you receive a message approved because it passed
+the dynamic moderation phase, and you hated it, you provide a relevance
+rating. This then adjusts your rating vector slightly so that over
+time, the software chooses different sample groups.
+
+  My serious concern is conservatism in the interest-vector. There
+has to be some, but how much? What I mean is, when the relevance adjusts
+the interest-vector, by what factor should it adjust it? Setting it
+too low creates a situation where the interest-vector changes too
+slowly (conservative) Setting it too high leads to a chaotically
+fluctuating one where your "interests" change radically almost
+after every post. You don't want a single bad rating to cause the
+list software to think you hate nanotechnology threads and thus
+filter them out totally.
+
+  My gut feeling is that they should change fast at first but then slow down.
+My reasoning being that as you spend more time on the list, you want
+tighter filtering for your interests, and you become more (gulp!) dogmatic
+in your viewpoint.
+
+  Another problem is the chicken-and-egg paradox. Obviously, for
+dynamic moderation to work, some people have to see the post, and rate
+it, before you do. Thus there would be one set of people, who receive
+posts in real time and rate them, and other people who receive them
+filtered, perhaps by digest, and provide relevance. 
+
+  One solution is to provide a second filtering mechanism to those
+who get mail in real time. One of my ideas is to use the author's
+interest-vector as an initial "rating" Then, you get the message
+if your interests are close to theirs. This is equivalent to Anton's
+proposal. Another idea is to use another filtering system I have
+invented tentatively called Parametric Differentiation. Basically,
+I keep another set of vectors in "message parametric space" Parametrics
+are based on various data such as author, subject, prefix, thread,
+size, date, keywords, and even the body of the message. Each message
+is converted to a parametric vector and distances are computed
+vs. other messages. Your ratings determine a basis(*) in this
+space, and each parameterized message can be represented as a sort of 
+linear combination of this basis (for instance, in terms of how much it 
+contains on each subject. e.g. any information on economics, philosophy, 
+nanotechnology, cryonics, etc in it. the basis is how much
+you like an average message to have on each subject) the differentiation 
+comes in during the basis choosing phase. Relevance is used
+to compute differences between messages and the basis,  and the norm
+of the coordinate vector can be used to choose by how much to move the
+basis.
+
+(*) I am not suggesting that this is a real basis in a linear
+algebra sense, only that it is semi-basis like. I use it only
+as a metaphor.
+
+  I am still shopping around for various collaborative filtering
+schemes. The various vector techniques are economic, but may not pack
+the punch needed for good filtering. I'm also looking at fuzzy
+logic expert systems and specialized language parsing techniques.
+
+  Another idea I had was to create a futures market based around
+message ratings. The software will try to predict what the rating
+will be, and various people will bet on whether the actual rating
+is higher or lower. There would be a real payment in terms of list
+credits (used to defer list subscription fees) Thus, if you want
+more filtering, you must put more of your list credit capital
+on the line, but if you lose too much you'd have to send in more 
+money to continue your subscription. If you win a lot, you'd get
+a free ride. You could filter based on two techniques: 1) the predicted
+software rating 2) the market value (expected) of the post.
+The scenario would look like this:
+
+1) A new Tim May post arrives, software predicted rating 9.2, some
+contracts are issued
+2) you feel that the real rating is 8.1 and you believe most people
+will rate it that way
+3) you buy "the final rating will be lower than 9"
+4) after the contract gets called in, if you are left holding
+"rating will be lower than 9" and the actual rating is below 9,
+then you get some payoff for the number of contracts you hold
+derived from the money that the losers had to pay
+5) contracts can be bought and sold, but the list will not buy them
+back
+
+  Since the list is based on agents, and there can be any number of
+filtering systems, all of these systems can be ran at the
+same time and you choose the one you want. Personally, I kinda  
+like the futures market one, cause it would be fun and it would serve
+a purpose. (make money + filter based on market consensus)
+
+-Ray
+apologies for typos, it's getting late here
+
+
+
+
+
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;   --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.     --
+
+------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Mon, 2 May 1994 10:42:40 -0700
+Subject: [#94-5-14] [#94-4-283] Social Engineering and R&D
+
+Tim Starr writes:	
+>>People are bad at social engineering.
+>
+>Maybe.  It's also possible that they've just been hampered by bad theories
+>and methods.  An anarco-capitalist social engineering of a sort is concie-
+>vable - "All right, what's the trouble here?  Aha!  A lack of property
+>rights!  All right, you own this, you own that.  Now deal with each other."
+
+Since I am now training for a career as a designer/engineer of social
+institutions, I strongly agree with Tim.  I'm not ashamed to call
+myself a "social engineer", and see nothing wrong with using math,
+even physics-like, in the process.
+
+Robin Hanson
+
+------------------------------
+
+From: jbaker@halcyon.com (James Baker)
+Date: Mon, 2 May 1994 17:12:25 -0800
+Subject: [#94-5-15] filtering the flood
+
+>Here's a wild idea for filtering the List.  I've mentioned
+>something similar to Sasha, and in News once or twice, but
+>I don't think I've brought it up here.
+>
+>Let each user be represented by a point in n-space.  (I think
+>8 degrees of freedom should be plenty.)  Initially the points
+>are random.
+>
+>When A rates a message of B's positively, A moves toward B, and
+>conversely.  (The points should be normalized from time to time,
+>so they don't converge to a point or diverge to infinity; perhaps
+>constrain them to the surface of a hypersphere?)
+>
+>Each user specifies a tolerance volume; messages written by users
+>outside that volume are not read.  The volume may be a sphere or
+>an infinite cone.
+>
+>Comments?
+>
+>Anton Sherwood   *\\*   +1 415 267 0685   *\\*   DASher@netcom.com
+
+
+We had a thread going a while back on N-dimensional voting theory which is
+more or less what you describe.  I think it's a great idea with
+applications beyond lists such as this one. 
+
+When I was a business consultant I once proposed this kind of filtering for
+video rentals. I love to see widespread use of this kind of filtering for
+books, concerts, even friends.
+
+There is a problem however that has to do with the initial position of new
+messages (or books, movies, whatever). We want new posts immeadiately but
+there is no history to place it in N-space. All the theories I know of for
+placing new objects in N-space boil down to someone taking a guess.
+
+A bad initial guess could make all the interrested readers' filters
+elliminate the message. Yet there is no way to accurately place the message
+in N-space without some population reading it first. 
+
+IMHO the  list population is probably too small to do justice to this type
+of filtering  (I'd love to be wrong if somebody can show me how).
+
+
+ James Baker          |        
+ Seattle, WA USA      |    It's always darkest just before 
+ jbaker@halcyon.com   |    it turns completly black.              
+
+
+
+------------------------------
+
+From: jbaker@halcyon.com (James Baker)
+Date: Mon, 2 May 1994 17:46:54 -0800
+Subject: [#94-5-16] filtering the flood
+
+I just reread Anton Sherwood's post and realized that I missed his point in
+my previous reply. He is recomending filtering on the basis of sender not
+by each message. 
+
+I don't think this would work for me. For example I want to read about some
+subjects no matter who is posting. Some days I only read short posts.
+(Today I read and missed the point. Wish I had a filter for my own
+embarrasing mistakes before I hit "Send").
+
+>Here's a wild idea for filtering the List.  I've mentioned
+>something similar to Sasha, and in News once or twice, but
+>I don't think I've brought it up here.
+
+[content deleted here for brevity]
+
+I still think multidimensional voting has great applications in spontaneous
+order/anarchy; for personal preferences, customer satisfaction info,
+political decisions and lots more. 
+
+comments?
+
+
+ James Baker          |        
+ Seattle, WA USA      |    It's always darkest just before 
+ jbaker@halcyon.com   |    it turns completly black.              
+
+
+
+------------------------------
+
+From: rjc@gnu.ai.mit.edu
+Date: Mon, 2 May 1994 20:54:55 -0400 (EDT)
+Subject: [#94-5-17] [#94-4-283] Social Engineering and R&D
+
+Robin Hanson writes:
+
+> 
+> Tim Starr writes:	
+> >>People are bad at social engineering.
+> >
+> >Maybe.  It's also possible that they've just been hampered by bad theories
+> >and methods.  An anarco-capitalist social engineering of a sort is concie-
+> >vable - "All right, what's the trouble here?  Aha!  A lack of property
+> >rights!  All right, you own this, you own that.  Now deal with each other."
+> 
+> Since I am now training for a career as a designer/engineer of social
+> institutions, I strongly agree with Tim.  I'm not ashamed to call
+> myself a "social engineer", and see nothing wrong with using math,
+> even physics-like, in the process.
+
+  The problem I see with most social engineering is that it ultimately
+relies on the human agent, and since any model trivializes the
+complexity of that agent, there is bound to be a lag in the system.
+(and if that system is imposed by law, the human ends up being
+hurt when his personality and lifestyle doesn't fit the model)
+There are useful concepts to be learned, but I find it abhorrent
+to try to impose an engineered system on people (which is the way
+many social engineers *test* their system) Macroeconomics being
+a good example of a bad science wihch is used in bad ways and often
+ends up hurting a lot of people.
+
+   I'm not accusing Robin of wanting to do any of this, but let's
+remember where many "social engineers" end up -- government.
+
+
+
+------------------------------
+
+From: tburns@mason1.gmu.edu (T. David Burns)
+Date: Mon, 2 May 1994 22:07:51 -0500
+Subject: [#94-5-18] [#94-4-283] Social Engineering and R&D
+
+At 10:42 AM 5/2/94 -0700, Robin Hanson wrote:
+>Tim Starr writes:
+>>>People are bad at social engineering.
+>>
+>>Maybe.  It's also possible that they've just been hampered by bad theories
+>>and methods.
+
+And a deep lack of understanding for their basic materials - these guys
+were trying to build the Brooklyn bridge out of spagetti. They lacked a
+basic appreciation for the position of the individual in their systems.
+
+-- Dave                       tburns@mason1.gmu.edu (T. David Burns)
+--                                (609) 921-2499 (fax or voice message)
+
+
+
+
+
+------------------------------
+
+From: Eric Watt Forste <arkuat@netcom.com>
+Date: Mon, 2 May 1994 19:53:34 -0700 (PDT)
+Subject: [#94-5-19] filtering the flood
+
+On Mon, 2 May 1994, James Baker wrote:
+
+> I still think multidimensional voting has great applications in spontaneous
+> order/anarchy; for personal preferences, customer satisfaction info,
+> political decisions and lots more. 
+
+Does anyone know of any implementations of multidimensional voting 
+systems? What has this technique been applied to in the past, and how has 
+it worked out?
+
+Eric Watt Forste          finger arkuat@netcom.com for the rest of my .sig
+
+
+------------------------------
+
+From: dasher@netcom.com (Anton Sherwood)
+Date: Mon, 2 May 1994 23:14:10 -0700
+Subject: [#94-5-20] Arabic etymology
+
+Tim Starr, who knows little math and less ling,
+makes a pardonable lapse:
+> "Algebra" itself is named for the Moslem who discovered it.
+
+"Algebra" comes from an Arabic word that also means something
+like "setting a broken bone", i.e. straightening up what is
+not straight.
+
+Tim is thinking of "algorithm", formerly "algorism" (but probably
+subjected to folk-etymology on the model of "arithmetic"), from
+abu-Ja`far Mohammed ibn-Musa al-Khowarizmi.
+
+Anton Sherwood   *\\*   +1 415 267 0685   *\\*   DASher@netcom.com
+
+------------------------------
+
+From: price@price.demon.co.uk (Michael Clive Price)
+Date: Mon, 02 May 94 23:02:40 GMT
+Subject: [#94-5-21] Fight against deviant memes.
+
+I asked:
+>> "The Little Black Bag" ?  Is that where a doctor's case is transported
+>> from the future back to the 20thC and used by some "quacks" to run a
+>> beauty business.  I forget most the details, but it was a bleak, 
+>> cynical story.  I liked it. :-)
+
+Stephen D. Williams:
+> That was a GREAT story!!!  I still think of it once in a while.
+> 
+> The instruction card flexed and changed 'page' upon each flex.
+
+I really dug them.  The neatest prompt cards you ever came across.
+
+> They disabled the unit just as he was going to demonstrate the 
+> fat scooping ability and he cuts his own throat.
+
+"He"?  Wasn't it his assistant who (accidentally) cuts her 
+throat after (accidentally) killing her boss?  How clumsy of her!
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+End of Extropians Digest V94 #122
+*********************************
+

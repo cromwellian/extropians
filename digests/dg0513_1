@@ -1,0 +1,446 @@
+From extropians-request@extropy.org Fri May 13 15:01:57 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id PAA24384 for <more@chaph.usc.edu>; Fri, 13 May 1994 15:01:48 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA10658; Fri, 13 May 94 15:01:32 PDT
+Received: by news.panix.com id AA24817
+  (5.65c/IDA-1.4.4 for more@usc.edu); Fri, 13 May 1994 18:00:57 -0400
+Date: Fri, 13 May 1994 18:00:57 -0400
+Message-Id: <199405132200.AA24817@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-5-174 - #94-5-185
+X-Extropian-Date: May 13, 374 P.N.O. [18:00:44 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Fri, 13 May 94             Volume 94 : Issue 132
+
+Today's Topics:
+                                 BOYCOTT AT&T                         [1 msgs]
+                   ECON: Fast trading and market efficiency           [1 msgs]
+                  ECON: The limits to comparative advantage           [4 msgs]
+             Phase change on the net (was: Filtering Techniques)      [1 msgs]
+                              Social Engineering                      [1 msgs]
+                    SPACE: Conference on space exploration            [1 msgs]
+                             take me off the list                     [1 msgs]
+                           the cost of intervention                   [1 msgs]
+                                 unsubscribe                          [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 25689 bytes.
+
+----------------------------------------------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Thu, 12 May 1994 11:43:23 -0400
+Subject: [#94-5-174] ECON: The limits to comparative advantage
+
+ pgf@srl01.cacs.usl.edu ("Phil G. Fraering") writes in X-Message-Number: #94-5-168:
+>Anyway, Nick Szabo and I have speculated that they're probably using
+>GP-like algorithms now, and modelling the economy in a partial
+>differential equation of (picking a number out of thin air) 150
+>separate variables. Noone understands this. The President (and the
+>rest of the government) has raised taxes and spending, which according
+>to him should make things fine, and can't understand why anyone would
+>think there's trouble ahead...
+
+ There is a nearly universal agreement among good investors that systems
+with a large number of variables work poorly because they overfit (i.e.
+learn the noise in the historical data rather than concentrating on real
+patterns). For instance, William Eckhardt is quoted in Jack Schwager's
+_The New Market Wizards_ as saying 7 or 8 degrees of freedom is probably
+too many. I am using a system that is more complex than that, but I am
+working hard at reducing the problems associated with that by phasing
+out my use of neural nets and putting more reliance on a few simple rules
+that reflect my understanding of how the market works. (I reported in my
+masters thesis, available by ftp from wilma.cs.brown.edu, file
+pub/techreports/93/cs93-36.ps.Z, that I had gotten neural nets to do a
+good job of predicting the stock market, but after I started trading on
+that system I discovered a bug in one of my data files which caused the
+reported results to be wildly inflated. The neurals nets weren't doing
+quite as well as a more direct use of the inputs).
+
+ rjc@gnu.ai.mit.edu  (Ray) writes in X-Message-Number: #94-5-170:
+>broker via phone was cited as being "good enough." I disagreed.
+>Now here's an example. When human brokers are replaced with
+>lightning fast genetic programs, opportunities and lost and won in
+>milliseconds. Nowadays, you have a few hours after hearing bad news
+>to do damage control with your portfolio. In the future of
+>automated trading, you may only have seconds.
+
+ Hours? Not likely. Even if there are lots of investors who haven't got
+the news during that time period, a handfull of pros who got the news
+quickly can knock the price most of the way down almost instantly by
+competing against each to sell the stock to the suckers. (It still pays,
+on average, to sell a few hours after the bad news because there is a
+better than random chance that there will be more bad news in the coming
+months, but once you have delayed one hour speed is of limited importance).
+As an example of the speed of floor traders, Joe Ritchie is quoted in _The
+New Market Wizards_ as saying that he has made money by getting good phone
+clerks to relay prices used for arbitrage with a transmission time of
+2 seconds vs 3-10 seconds for his competitors. (On the other hand, I
+recently did some programming on a system used by a large pension fund
+to integrate their electronic trading, and was surprised by the fact that
+even with the improvements we made for them, their reaction times were
+minutes as best).
+-----------------------------------------------------------
+Peter McCluskey | pcm@world.std.com | Repeal Gresham's Law!
+-----------------------------------------------------------
+
+------------------------------
+
+From: tburns@mason1.gmu.edu (T. David Burns)
+Date: Thu, 12 May 1994 13:04:03 -0400
+Subject: [#94-5-175] ECON: The limits to comparative advantage
+
+At  2:35 AM 5/12/94 +0000, Ray wrote:
+>   Despite the "magical" properties of GA/GP, if the efficient
+>market hypothesis is true, they are good for nothing.
+
+Well, yes. The whole idea of these systems is that it is possible to
+consistently make a profit exceeding the market average by a statistically
+significant amount. You don't need fancy computers to throw darts at the
+WSJ.
+
+>The market may not be that efficient now, but imagine what will
+>happen when everyone has genetic programming brokers. The bounty will
+>go to those with the most computing resources and the fastest and
+>most complete information. (e.g. the elite)
+
+This assumes that the GP's will reach some equilibrium where they agree on
+the basic model of the economy, and compete only on ability to exploit that
+model. While some significant convergence wouldn't surprise me, I would
+expect the competition to always include some diferences in the basic
+model, in which case there might be some other factors influencing the
+outcomes. There would still be room for them to disagree, and for the
+underdog to still come out ahead.
+
+And there's always dumb luck!
+
+This argument parallels Lange's exposition of technological market
+socialism - use computers to replace the market. Basically, if this
+computer consistently predicts what the market does, you don't need the
+market anymore. Hayek would say that this discounts the importance of
+local, inarticulate, tacit knowledge. Hm?
+
+Dave            tburns@mason1.gmu.edu (T. David Burns)
+
+
+
+------------------------------
+
+From: Michael Clive Price <price@price.demon.co.uk>
+Date: Thu, 12 May 94 18:30:18 GMT
+Subject: [#94-5-176] ECON: The limits to comparative advantage
+
+Ray Cromwell:
+>   A few months ago, someone
+
+I believe it was Mark Aristos Plus.  
+
+> argued that progress is tapering off,
+> that we are heading for an economic plateau, and that the marginal
+> utility of faster communication speeds is very low. Calling your
+> broker via phone was cited as being "good enough." I disagreed.
+
+Mark sent me an interesting audio tape, which I'd like to thank him for,
+but I don't know his email address.  If Mark is listening.  Thanks for
+the tape.  (But I'm still not convinced :-)
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+From: "R. David Murray" <rdmurray@keene.edu>
+Date: Thu, 12 May 1994 14:58:50 -0400 (EDT)
+Subject: [#94-5-177] Social Engineering
+
+On Wed, 4 May 1994, Robin Hanson wrote:
+> If there really isn't enough known about such social systems to allow
+> them to add much value, such attempts will fail in the marketplace.
+> There is no need to reject them a priori (I'm not accusing Ray of
+> doing this btw).  But I personally think we know enough for such
+> attempts to be profitable, on average, and will bet my career on that.
+
+When you are ready, I'll bet there will be a number of Extropians willing 
+to be paid to be the subjects of your experiments <half grin>.  And even 
+more interested in buying into the marketable results.
+
+Speaking of marketable results, I recently was reminded (at Extro I) of
+your system for moderating meetings.  I seem to recall you were selling a
+paper on it on AMIX.  Depending on the price (of course) I'm interested in
+buying a copy.  Further (and this is the reason for posting this
+publicly), I'm wondering if you've given any thought to either adapting it
+for use on IRC or encapsulating it in some special purpose Internet based
+conferencing software?  (He says blithely, not yet knowing the details 
+<grin>.)
+
+--David
+
+------------------------------
+
+From: "R. David Murray" <rdmurray@keene.edu>
+Date: Thu, 12 May 1994 16:23:20 -0400 (EDT)
+Subject: [#94-5-178] Phase change on the net (was: Filtering Techniques)
+
+On Tue, 3 May 1994, R Bryner wrote:
+> Again, this is adding information, not censorship.  I think the value of
+> such a meta-list could eventualy become one of the hotest comodities.
+
+I've been predicting for a couple months now that this kind of thing is 
+about to become a growth industry on the Net.  I think two factors will 
+trigger the explosive growth phase: the commercenet secure mosaic 
+software to enable secure money transactions, and a credit card brokerage 
+service built on top of it that will allow people to receive money 
+without themselves having to become authorized to accept credit card 
+payment.
+
+Of course, there are a lot of other services that will see an explosive 
+growth phase at about that same time . . . .
+
+I heard a gentleman from EIT speak about secure mosaic and CommerceNet.  
+Two very interesting items: the secure mosaic code will be included in a 
+free (and royalty free) release of the standard WWW library, and 
+CommerceNet has several large finnancial institutions, including CityBank 
+and the Bank of Boston, *very* interested in electronic banking on the Net.
+
+The plan is for the freely distributable versions of the software to be 
+released to the Net by the end of the summer.
+
+I'd say the Internet is about to experience a phase change . . . or 
+rather an accelleration of the one that is already occuring.
+
+--David
+
+
+------------------------------
+
+From: pavel@PARK.BU.EDU (Paul Cisek)
+Date: Thu, 12 May 94 16:43:12 -0400
+Subject: [#94-5-179] SPACE: Conference on space exploration
+
+This may be of interest to space enthusiasts in the NYC area:
+
+[forwards removed]
+>
+>
+>                ************  ANNOUNCEMENT  **************
+>
+>      The conference entitled,
+>
+>      PRACTICAL ROBOTIC INTERSTELLAR FLIGHT: ARE WE READY? 
+>
+>      will be held at New York University
+>                            and
+>                      The United Nations
+>
+>      from August 29 - September 1, 1994. 
+>
+>
+>      The principal sponsor is The Planetary Society.
+>
+>      Other sponsors include The British Interplanetary Society, The
+>      United Nations Outer Space Office, Jet Propulsion Laboratory,
+>      Geometry Center, National Space Society, Space Studies Institute,
+>      World Space Foundation, American Aeronautical Society,
+>      Mondo-tronics, Inc.
+>
+>      The two topics focused on are 1.) Feasibility of performing a robotic
+>      interstellar mission in the near term that is both affordable and has
+>      a short flight time, and 2.)  The search of planets orbiting nearby
+>      stars.
+>
+>      The keynote speaker is Dr. Robert Forward.  Other main speakers
+>      include Dr. Michael Klein of JPL, Dr. Richard Terrile also of JPL,
+>      and Dr. David Brin.
+>
+>      Sessions are divided into 1. Interstellar Flight Concepts( Astro-
+>      dynamics, Propulsion), 2. Engineering Aspects(Miniturization,
+>      Electronics, Communications, Attitude Control) 3. Extra-solar
+>      Planetary Systems(Results, Methods), 4. Intermediate Prestellar
+>      Destinations(Heliopause, Oort Cloud, Gravitational Lense of the Sun)
+>
+>
+>      A public event is planned to be held at the United Nations on the
+>      evening of the 30th which is sponsored by The Planetary Society.
+>      All technical sessions will be held at New York University in
+>      Greenwich Village.
+>
+>
+>      The Organizing Committee is Edward Belbruno(Chair, Geometry Center),
+>      Louis Friedman(Planetary Society), William McLaughlin(JPL),
+>      Gregory Matloff(NYU), Thomas McDonough(Caltech), Gary Bennett(NASA),
+>      Bruno Augustine(Rand), Giovanni Vulpetti(British Interplanetary Society)
+>
+>
+>      For information on registration, abstract submittal, program, please
+>      contact Dr. Edward Belbruno at The Geometry Center; University of
+>      Minnesota; 1300 South Second Street; Minneapolis MN 55101, or
+>      call (612)626-1845, FAX (612)626-7131, e-mail belbruno@geom.umn.edu.
+>
+>      Abstract submittal deadline is July 15, 1994.
+>      Early Registration Deadline is July 15, 1994.
+>
+>
+
+------------------------------
+
+From: nancy@genie.slhs.udel.edu
+Date:     Thu, 12 May 94 20:48:09 GMT
+Subject: [#94-5-180] ECON: The limits to comparative advantage
+
+Dave Burns wrote: 
+>
+>This argument parallels Lange's exposition of technological market
+>socialism - use computers to replace the market. Basically, if this
+>computer consistently predicts what the market does, you don't need the
+>market anymore. Hayek would say that this discounts the importance of
+>local, inarticulate, tacit knowledge. Hm?
+>
+I wonder if the markets might eventually be like the weather--fairly 
+accurate prediction is possible for a few days, but anything further
+in the future gets too chaotic.
+
+Actually, my guess is that there might be accurate short-range
+prediction for markets so long as no major non-market events (war,
+earthquakes, contact with aliens, important new inventions) occur.
+
+Nancy Lebovitz
+
+
+------------------------------
+
+From: Joe Kiraly <jkiraly@cln.etc.bc.ca>
+Date: Thu, 12 May 94 15:15:56 PDT
+Subject: [#94-5-181] take me off the list
+
+i misplaced my faq....i would like to be remove from the list...thanks     
+          
+
+
+
+------------------------------
+
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Date: Thu, 12 May 1994 22:10:09 -0400
+Subject: [#94-5-182] ECON: Fast trading and market efficiency
+
+[ I suggest that we rename the threads once in a while, to reflect content]   
+ 
+ 
+   I doubt that making decisions in 1 seconds instead of 5 does any good
+for the market at this point; economy is [still] too slow, and nothing is
+going to happen to it in a few seconds.  
+So it's just a new way greedy capitalists can steal money from each other :)
+ 
+   The real advantages of faster trading now may be in side-effects:
+higher transaction speeds require superior information technology, and both
+the technology and the financial markets benefit from this alliance in a
+variety of ways.
+ 
+   Maybe, some day the rate of economic processes will catch up with the
+speed of information processing.  By that time, the information may be the
+only economic output.
+ 
+------------------------------------------------------------------------------
+|  Alexander Chislenko | sasha@cs.umb.edu | Cambridge, MA  |  (617) 864-3382 |
+------------------------------------------------------------------------------
+
+------------------------------
+
+From: Omar Muhammad Javaid <omarj@css.itd.umich.edu>
+Date: Thu, 12 May 1994 23:18:12 -0400 (EDT)
+Subject: [#94-5-183] unsubscribe
+
+Please take me off your list.  I'll just get your stuff via snail mail 
+and the Usenet.
+
+	Thanks,
+	OJ
+
+
+------------------------------
+
+From: dasher@netcom.com (Anton Sherwood)
+Date: Thu, 12 May 1994 21:40:29 -0700
+Subject: [#94-5-184] the cost of intervention
+
+Marvin Minsky asks:
+> Has anyone ever made an estimate of the social cost of the
+> massive opportunity cost of this vast amount of  misdirected
+> intelligence?  What fraction of GNP goes down this drain?
+
+> Numbers please!
+
+I don't know where this comes from, but I've heard that two-thirds
+of all work is either hired by taxes or required by regulaations.
+
+
+------------------------------
+
+From: John K Clark <johnkc@well.sf.ca.us>
+Date: Fri, 13 May 1994 08:40:18 -0700
+Subject: [#94-5-185] BOYCOTT AT&T
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+It seems that the Government of the USA has been interfering
+with the free market to reward AT&T , I don't know how much
+AT&T's support of the Clipper Chip had to do with it but I'm
+sure it didn't hurt.  In the May 13 New York Times:
+        
+        >The AT&T Corporation's winning bid for a $4 billion contract to
+        >modernize Saudi Arabia's phone system ,WHICH HAD BEEN SUPPORTED
+        >BY HEAVY CLINTON ADMINISTRATION LOBBYING , was hundreds of
+        >millions of dollars higher than other bids [...] The huge-scale
+        >deal, which was announced on Monday is the biggest
+        >telecommunications contract in history.
+        
+I think it's important for company's to realize there is also a
+downside for supporting Clipper. As a start ,I don't see how any
+self respecting Cypherpunk or Extropian could use AT&T as their
+personal long distance carrier . AT&T 's not the only company in
+bed with the government over Clipper (INTEL) but it is the most
+visible and the easiest to boycott, MCI and Sprint do a fine
+job. If  5% of the Internet users quit AT&T it would make other
+companies think twice before they endorse Clipper.
+        
+                      John K Clark                    johnkc@well.sf.ca.us
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+iQCzAgUBLdOeHX03wfSpid95AQEfMATw08p59yySy+t6yE87anzQF8MThp4gnHuz
+GXAvOYN4ibQjybLABDYgKXScMUSoBu5bxlI0PdtYIRVzc4SHEBLha7IR01I7ysqE
+oyIzweQuPC96BRivX0+cIVbNyZRMyegxw2DevyK9YGeHLnz12PaMgFwH5jzfapVO
+IXvWnkmmYbu4AuT8Ej3r1gPvKRzq4xb7oIOiOVWUpAd+bRElGcE=
+=rfvk
+-----END PGP SIGNATURE-----
+
+------------------------------
+
+End of Extropians Digest V94 #132
+*********************************
+

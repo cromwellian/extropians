@@ -1,0 +1,917 @@
+From extropians-request@extropy.org Mon Oct 11 19:01:47 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA00470; Mon, 11 Oct 93 19:01:44 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA21092; Mon, 11 Oct 93 19:01:26 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA16886; Mon, 11 Oct 93 21:55:44 EDT
+Received: from news.panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+	id AA16881; Mon, 11 Oct 93 21:55:28 EDT
+Received: by news.panix.com id AA15347
+  (5.65c/IDA-1.4.4 for exi-maillist@ung.gnu.ai.mit.edu); Mon, 11 Oct 1993 21:55:18 -0400
+Date: Mon, 11 Oct 1993 21:55:18 -0400
+Message-Id: <199310120155.AA15347@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: October 12, 373 P.N.O. [01:54:54 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Tue, 12 Oct 93             Volume 93 : Issue 284
+
+Today's Topics:
+                                                                      [1 msgs]
+                            CRYPTO: Authentication                    [1 msgs]
+                               Diet and cancer                        [2 msgs]
+            FWD:  Memetics - Journal Of Ideas Vol. 2 #2/3 Contents    [1 msgs]
+               Forward: Virtual City (tm) Network FAQ 1.0 (fwd)       [4 msgs]
+                   GUNS, SOC: Burglary and countermeasures            [1 msgs]
+                                 GUNS: Blanks                         [1 msgs]
+                               HUMOR - Viruses                        [1 msgs]
+                              My Target Practice                      [1 msgs]
+                   Virtual City (tm) and Virtual Capitalism           [6 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 52046 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sun, 10 Oct 93 21:38:18 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Virtual City (tm) and Virtual Capitalism
+
+(This is a minor mod of a post I made to the cypherpunks list, it
+may be of general interest to non-cypherpunks extropians).
+
+One of the main strengths of Virtual City seems
+to be to that its gets rid of the fascist heirarchy of "wizards",
+the virtual equivalent of factory managers in the old Soviet
+Union.  (Caveat: these are just my impressions of the V.C. project,
+I'm not personally involved in it).  Also the quote is "information 
+_wants to_ be free", not "should be".  Alas, it is easy to bottle up 
+information by restricting it to small cliques of wizards.  
+
+On the other hand, many of the world-wiser wizards may be able
+to use their MUD building skills to become Virtual City tycoons.  There
+are probably plenty of wizards pissed off by politically-dominated MUDs,
+where access to resources has increasingly become a function of
+sharing beers with the "god" and less a function of contribution
+to the MUD.  Wizards who are better MUD builders than beer buddies
+have incentive to jump ship and carve themselves out nice niches in a 
+free-enterprise MUD.
+
+I suspect Virtual City, and net commerce in general,
+will evolve to where people buy and sell some information as
+services, and exchange other information freely.  The distinguishing 
+feature between valuable services and free information will likely be
+that services will be hard to copy, the end result of obscure, logically 
+deep computations, providing information unique to each customer order or 
+dependent on hard-to-duplicate phyiscal hardware.  Freely copyable 
+information typically will be sellable only a few times, and even then 
+the sale price will depend on it being hot/unique news, uniquely valuable 
+to a specific customer or temporary situation, or conveniently located.
+Old news, educational material, etc. will be free, barring fascist
+patent/copyright enforcement, but the customers will often pay for more
+convenient methods of distribution (eg smart filter services).
+
+Content _per se_ will want to be free, so one will not be able
+to generate revenue simply based on popularity of content.
+Content generation will not pay and will not dominate the economy.  
+A good example is the distinction between the freely copyable GNU 
+and X-Windows, and the for-pay consultation, customization, porting, 
+help desks, etc. that have sprung up around them.   Most of the effort 
+goes into the latter: since people like to make a living, most of the
+economic effort will go into services rather than the exchange of 
+free information.  
+
+As bandwidth becomes cheaper the free info exchange will expand, but
+the incentive for creation is limited to self-sacrificing 
+efforts or side-effects of government or consulting businesses 
+or corporate charity (eg GNU, X, PGP).  I look forward to
+something like Virtual City providing a free-market alternative 
+to the heirarchical control of information (crypto key authorities, 
+Unix file permissions model, MUD Wizard model, ad nauseum); I do not see
+it replacing the GNU free software model.
+
+Nick Szabo				szabo@netcom.com
+
+
+------------------------------
+
+Date: Sun, 10 Oct 93 22:11:57 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: Virtual City (tm) and Virtual Capitalism
+
+> From: szabo@netcom.com (Nick Szabo)
+> One of the main strengths of Virtual City seems
+> to be to that its gets rid of the fascist heirarchy of "wizards",
+> the virtual equivalent of factory managers in the old Soviet
+> Union.
+
+You've made comments to this effect about MUDs before, I believe.
+Would you say that there is a distinction between the system of
+wizards with control over their MUDs, and a PPL system with competing
+jurisdictions?  I wouldn't know whether this is a valid analogy, or
+whether MUDs do in fact involve a "fascist hierarchy".  But if it is
+and they do, we might look at the situation to see if we can avoid
+replicating it on any larger scale.
+
+> Nick Szabo				szabo@netcom.com
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Mon, 11 Oct 1993 01:42:52 -0400
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Subject: FWD:  Memetics - Journal Of Ideas Vol. 2 #2/3 Contents
+
+>From owner-cybsys-l%BINGVMB.CC.BINGHAMTON.EDU@UGA.CC.UGA.EDU Tue Oct  5 18:09:38 1993
+Reply-To: Cybernetics and Systems <CYBSYS-L@BINGVMB.BITNET>
+From: Cybernetics and Systems Moderator
+              <cybsys@bingsuns.cc.binghamton.edu>
+Subject:      Journal of Ideas - Volume 2 #2/3  Contents
+To: Multiple recipients of list CYBSYS-L <CYBSYS-L@BINGVMB.BITNET>
+
+Really-From: alife@cognet.ucla.edu (Artificial Life Digest)
+
+[ The following is a cross-post from Artificial Life Research List
+Digest Number  112 Sunday, October 3rd 1993. You are encouraged to
+subscribe by sending mail to alife-request@cognet.ucla.edu - Moderator ]
+
+ Journal of Ideas - ISSN 1049-6335 is published quarterly by
+ the Institute for Memetic Research, POB 16327, Panama City,
+ Florida 32406-1327.
+
+ [For more information contact E. Moritz at moritz@well.sf.ca.us]
+
+ John Locke
+
+ Abstract: In  1690  John  Locke  published  'An  essay  concerning  human
+ understanding'. The essay was pivotal in establishing western  scientific
+ thought.  While   philosophy  and   the   sciences  have   improved   our
+ understanding of cognitive processes, many of Locke's insights concerning
+ the nature of ideas are still valid and need to be brought back into  the
+ forefront of any science of  ideas. Applications of Locke's  foundational
+ theories are  as relevant  today  as they  were  hundreds of  years  ago,
+ especially to the  areas of artificial  intelligence and expert  systems.
+ Captured here are parts of  the `Essay ...'   which deal  with  faculties
+ and operation of the  mind, basic concepts of  'ideas' and activities  on
+ ideas. Locke's concept of simple ideas, combination of simple ideas  into
+ complex ideas,  and aspects of  retention of ideas are suggestive of  the
+ present track  of memetics.  Keywords: ideas,  memory, mind,  perception,
+ cognition,  meme,  philosophy,  epistemology,  artificial   intelligence,
+ expert systems.
+
+ ENERGY FLOW AND ENTROPY PRODUCTION
+ IN BIOLOGICAL SYSTEMS
+
+ Brian A. Maurer
+ Brigham Young University, Provo, Utah 84602
+
+ Daniel R. Brooks
+ University of Toronto, Ontario M5S 1A1, Canada
+
+ Abstract.  Biological  systems persist  because they  process energy  and
+ accumulate excesses that are usable in growth and maintenance.  There are
+ two general  types of  energy transformations  that occur  in  biological
+ systems.    Heat  generating  transformations  result  in  lost  energy.
+ Conservative energy transformations produce energy that can be stored and
+ used later to do work.  Different types of entropy can be associated with
+ each of  these types  of  energetic processes.   Heat  generating  energy
+ transformations  occur  when   energy  and  entropy   flow  in   opposite
+ directions.   Conservative energy  transformations are  characterized  by
+ entropy and energy flowing  in the same direction.   Thus the system  has
+ conflicting  tendencies:  heat  generating  processes  move  it   towards
+ unstructured states and  conservative processes move  it towards  complex
+ structured states.  Both tendencies increase the entropy of the  system.
+ These ideas  are  examined from  the  viewpoint of  energy  flow  through
+ organisms and  populations of  organisms.   As  entropy and  energy  flow
+ through such systems  at different  rates, structure  accumulates at  any
+ given biological level, and that  structure is constrained by energy  and
+ entropy flows at other levels of organization.  Rate gradients in entropy
+ production lead  to  different  types  of  constraint  systems  governing
+ hierarchically related  entities  and  to the  generation  of  historical
+ constraints at any given level of organization.
+
+ ON THE ROAD TO CYBERNETIC IMMORTALITY:
+  A Report on the First Principia Cybernetica Workshop
+
+ Elan Moritz
+ The Institute for Memetic Research, Panama City, Florida
+
+ Abstract.  Principia  Cybernetica  is  an  attempt  to  unify  cybernetic
+ philosophy based  on  harmonizing  systems theory  and  cybernetics.  The
+ ontology recognizes meta-system transitions which lead to higher level of
+ organization and evolution.  One of the  emergent aspects of  meta-system
+ transitions, when  human society  is  viewed as  a  whole, is  the  human
+ "superbeing" or  "metabeing" characterized  [among other  attributes]  by
+ "cybernetic  immortality".       The  metabeing   hypothesized  by   this
+ meta-system transition  may  share  characteristics  of  a  posited  homo
+ trans-sapiens. In the context of cybernetic immortality, what survives is
+ cybernetic organization [which  may be  embodied in a  variety of  media
+ including organic tissues or electronic  networks,  rather than  strictly
+ biological media].  The  practical aspects of the  first workshop of  the
+ Principia Cybernetica Project, and its  main philosophical themes,   were
+ concerned with means with which to amplify the spontaneous development of
+ knowledge. Idea memes were discussed as some of the fundamental  building
+ blocks which  when  subjected to  mutations  and recombinations  lead  to
+ knowledge amplification. A  report is  given on papers  presented at  the
+ workshop. Keywords: systems,  cybernetics, meme, immortality,  computers,
+ ontology, emergence, epistemology, ethics, evolution, knowledge.
+
+ THE ORIGINS OF THE CAPACITY FOR CULTURE
+
+ Jerome H. Barkow
+ Dalhousie University, Halifax, N.S. B3H 1T2, Canada
+
+ Abstract.  Recent work  on the capacity for  culture by Tooby and  DeVore
+ (1987), Parker  (1987),  and myself  (1989)  suggests that  a  multistage
+ scenario is needed with special attention to sexual selection and to  the
+ self-predation  hypothesis.  Just  as  the  evolutionist  often  examines
+ morphology with  a view  to generating  hypotheses about  past  selection
+ pressures, it  is fruitful  to examine  aspects of  human psychology  for
+ compatibility with  evolutionary scenarios.  The ethnocentrism  syndrome,
+ for example, is  compatible with autopredation  (within species  conflict
+ and culling) approach, while alleged transcultural gender differences  in
+ sexuality would,  if  supported,  argue  for a  strong  role  for  sexual
+ selection in the  evolution of cultural  capacity.  Keywords:  evolution,
+ capacity for  culture,  evolutionary  psychology,  vertically  integrated
+ explanation, autopredation, origins of culture.
+
+ FOLK PSYCHOLOGY, FREE WILL AND EVOLUTION
+
+ Jerome H. Barkow
+
+ Abstract.  Theorists concerned with the evolution of human behavior often
+ unwittingly  strive  to  "explain"  attributes  that  owe  more  to   our
+ unexamined folk  psychology than  to  biology.   Our folk  psychology  is
+ Cartesian with self-awareness as a sort  of homunculus in control of  the
+ body. It  is  more likely  that  awareness  is the  organ  of  impression
+ management and has no  executive powers.   Evolutionists need to  explain
+ the ordering  and sequencing  of  behavior rather  than  the rise  of  an
+ executive self.   Keywords: evolution, free  will, Descartes, self,  folk
+ psychology.
+
+
+    Editors                                 Editorial Advisory Board
+   --------                                 ------------------------
+
+Elan Moritz                              R. Wilburn Clouse, Vanderbilt U.
+Patricia S. Smith                        Peter Kiss, Sentar Corp.,
+                                            Huntsville
+The Institute for Memetic Research       Terry M. Mikiten, U. Texas Health
+                                            Science Center, San Antonio
+                                         Matthew Witten, U. Texas System,
+                                            Austin
+
+
+manuscripts and information requests should be directed to
+Elan Moritz (E-mail:  moritz@well.sf.ca.us)
+
+
+     **  AIMS &  SCOPE  **   The Journal of Ideas  is an archival  (print)
+     forum  dedicated  to  the  dissemination  of  research  results   and
+     discussion relating to the formation and spread of ideas in human and
+     machine systems.  Areas covered  include: 1) dynamical and structural
+     theories of idea and  meme generation, mutation, combination,  spread
+     and dissolution, 2) knowledge generation, representation, and storage
+     in living and artificial systems, 3) cognition and self-awareness  in
+     living and  artificial  systems  4)  generalized  theories  of  life,
+     evolution, and  ecology  in  biological,  mechanical  and  electronic
+     systems, 5) classical and  quantum mechanical theories of  brain/mind
+     interactions, 6) human  and   machine creativity and,  7) results  of
+     experiments in the preceding areas.   The Journal publishes  research
+     communications, critical  reviews,  short notes,  book  reviews,  and
+     relevant historical material.   The  Journal is geared  to a  diverse
+     audience coming from classical disciplines such as physics,  biology,
+     evolutionary  and  ecological   studies,  psychology,   anthropology,
+     computer science, mathematics, and philosophy.
+
+
+------------------------------
+
+Date: Sun, 10 Oct 93 23:05:11 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Virtual City (tm) and Virtual Capitalism
+
+Eli Brandt:
+> Would you say that there is a distinction between the system of
+> wizards with control over their MUDs, and a PPL system with 
+> competive jurisdictions?
+
+MUDs are something like virtual PPLs, and I am certainly not
+arguing that MUDs themselves are inherently evil.  My 
+argument is that MUDs (the canonical versions; there may
+well be exceptions already in existence as well
+as proposals like Virtual City) -- traditional MUDs have been set up
+with an awful model of social differentiation and restriction
+of information, the "wizard" heirarchy where the "gods" decide 
+to promote "wizards" based on simplistic predefined criterion, 
+political consierations, or some combination thereof.  
+
+This model doesn't catch the rich possibilities of what constitutes 
+valuable MUD building.  It is similar to the bureaucracies of some large
+corporations and the Soviet factory manager structure.  In
+all fairness, between Star Trek and the Unix file system,
+the information restriction heirarchy was probably the most
+acessible role model to the MUD pioneers.  So I don't fault
+them for using that model; rather I'm advocating that we now
+move beyond it, by introducing a market model of world-building.
+
+The model, being simple and controllable, can
+work well on a small scale, and it sounds good to those whose view 
+of future society is the Starship Enterprise, but it's not a 
+model conducive to freedom, a vibrant economy, or prolific,
+creative world-building when scaled up.  
+
+Even without eliminating the wizard heiarchy, a system of 
+inter-MUD trade would be a quite valuable addition to the MUD world.  
+Within many MUDs, incentivizing world-builders with markets to replace
+the heirarchy (with its simplistic, often politically motivated allocation 
+of MUD resources and restrictions on MUD information access),
+would be a big win.   
+
+There is opportunity now for such market MUDs to emerge, such as the 
+Thorne/online service model that might be emerging 
+around the Extropians list, or the model being considered for Virtual 
+City.  In the long run, I predict MUDs that switch over to a market
+model of world-building will thrive on a large scale,
+while MUDs that remain heirarchical will remain small or dwindle
+as MUD-builders find themselves better rewarded on the market
+MUDs, MUDs that allow inter-MUD trade, etc.  For Star Trek fans
+I'm sure the traditional MUDs, their heirarchies unsullied by
+those messy markets and greedy entrepreneurs, will be remain an
+option for a long time to come.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Mon, 11 Oct 93 4:22:18 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Virtual City (tm) and Virtual Capitalism
+
+Eli Brandt () writes:
+> 
+> X-Message-Reference: #93-10-470
+> 
+> > From: szabo@netcom.com (Nick Szabo)
+> > One of the main strengths of Virtual City seems
+> > to be to that its gets rid of the fascist heirarchy of "wizards",
+> > the virtual equivalent of factory managers in the old Soviet
+> > Union.
+> 
+> You've made comments to this effect about MUDs before, I believe.
+> Would you say that there is a distinction between the system of
+> wizards with control over their MUDs, and a PPL system with competing
+> jurisdictions?  I wouldn't know whether this is a valid analogy, or
+> whether MUDs do in fact involve a "fascist hierarchy".  But if it is
+> and they do, we might look at the situation to see if we can avoid
+> replicating it on any larger scale.
+
+   All of the current muds have wizards. It's an inevitable result of
+the centralized design. Since the MUD is running on somebody's machine, that
+person has full control. Allowing all users to be wizards leads to 
+chaos (e.g. vindictive people wiping out the database by deleting all the
+
+objects, or planting viruses, etc)
+
+   The only solution is a decentralized distributed mud design where the
+objects that you have built or own reside on YOUR machine, or are
+crytographically secured on foreign machines. MUDs would then interconnect
+and people could "walk into" your area and use your CPU/disk space
+while they were visiting. There are huge protocol issues to be resolved
+especially in keeping everything synchronized and keeping it from
+destroying the internet (by soaking up all the bandwidth with redundant
+data requests)
+
+   The market comes in by assigning a market price to the disk and CPU
+resources of your machine (thus allowing people to "purchase" resources
+for running their objects on your machine)
+
+  In some sense, the internet already is "The Great Mega MUD" except that
+none of the disk/cpu sharing is fully automated and marketed. There are
+FTP sites, but where are the CPU servers? There is gopher and wais/www, but
+there is no dynamic code sharing across WAN based on market principles.
+
+  One of the cool ideas I had like a year ago was a DES cracking CPU server
+network. Hackers could buy DES cracking runs on a network of machines
+(maintained and organized via a mailinglist), but they would have to pay either
+by $$$, or by agreeing to sell cycles on their own machines for other people
+to use for cracking.
+
+-Ray
+
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Mon, 11 Oct 1993 06:49:58 -0400
+From: habs@panix.com (Harry S. Hawk)
+Subject: Forward: Virtual City (tm) Network FAQ 1.0 (fwd)
+
+Mike wrote:
+>I met and spoke with M. Strata Rose a few months ago and think I can
+>vouch for her not being a "net.jerk" or having trouble finding work.
+
+Having met you, and having I high opinon of you, I value these
+comments and would like to hear more about your meeting, etc.
+and your impressions of Strata.
+
+
+--
+Harry S. Hawk           ON Vacation
+
+
+
+------------------------------
+
+Date: Mon, 11 Oct 1993 08:43:57 -0500
+From: cpresson@jido.b30.ingr.com (Craig Presson)
+Subject: GUNS: Blanks
+
+[...]
+|> BTW - I also agree that blanks are a bad idea. Like liberal politics it
+|> sounds like a good idea at first, but when you think about the
+|> repercussions...
+   ^^^^^^^^^^^^^^
+
+
+Groooooooooooan! Very punny.
+Your PUNishment will no doubt fit the crime.
+
+-- Craig
+
+
+------------------------------
+
+Date: Mon, 11 Oct 93 09:55:46 EDT
+From: eli@suneast.east.sun.com (Elias Israel - SunSelect Engineering)
+Subject: Forward: Virtual City (tm) Network FAQ 1.0 (fwd)
+
+Mike Linksvayer writes:
+> Then again, VirtualCity or whatever it is called may be totally bogus.
+> Hopefully I'll talk to Strata and see a demo in the near future.
+> 
+> For better or worse, it is people like Strata who are building the net
+> of tomorrow. Or people like Bill (Clinton).
+
+In practice, they're one and the same.
+
+My top three gripes about VirtualCity (and the reasons why it's not
+a particularly extropian project):
+
+1. Construction of virtual vistas is controlled by a Zoning Board, for
+   crying out loud! This means that VirtualCity is basically someone's
+   authoritarian fantasy, where they remake the universe in their own
+   image and the rest of us get to flesh it out for them. Feh.
+
+2. The particular schemes the zoning board uses require all directions
+   to follow simple cartesian coordinates in 3-space. What's the point
+   of building a cyberspace if you can't transcend the limitations of
+   the physical world? Why should anyone want to type their way down
+   a street instead of flitting from place to place? In cyberspace, we
+   can be gods; these people want us to remain mehum.
+
+3. The VirtualCity project is seeking (and will probably get) goverment
+   funding (which explains my comment above). Hey, build any kind of
+   authoritarian utopia you want, but don't do it on my dime.
+
+In any case, as Derek has already pointed out, there's little to the project
+now but hot air. They may be able to build it, but I doubt it will become
+any kind of model of future cyberspace interactions.
+
+Elias Israel
+eli@east.sun.com
+HEx: E
+
+------------------------------
+
+Date: Mon, 11 Oct 93 10:11:30 EDT
+From: eli@suneast.east.sun.com (Elias Israel - SunSelect Engineering)
+Subject: Virtual City (tm) and Virtual Capitalism
+
+Nick Szabo writes:
+> This model doesn't catch the rich possibilities of what constitutes 
+> valuable MUD building.  It is similar to the bureaucracies of some large
+> corporations and the Soviet factory manager structure.  In
+> all fairness, between Star Trek and the Unix file system,
+> the information restriction heirarchy was probably the most
+> acessible role model to the MUD pioneers.  So I don't fault
+> them for using that model; rather I'm advocating that we now
+> move beyond it, by introducing a market model of world-building.
+
+I can't see how VirtualCity, with its zoning boards, is any less a
+hierarchical system of authority. If anything it's worse because the
+authority is a committee rather than a set of individuals.
+
+Typical modern MUDs vary in the amount of freedom that a new user will
+experience. For a counter-example to Nick's view, I offer TinyTIM
+(telnet to port 5440 on the machine yay.mdc.com). Although the
+day-to-day operations are controlled by the "Council of Seven" (which
+has 8 members) there is very little social stratification. The wizards
+(who own the machine and maintain the software) establish and defend
+their right to refuse service to anyone particularly rude or offensive,
+but they otherwise leave people alone to interact and create new
+cyberspaces. (At least two of the wizards are of libertarian leanings.)
+Besides this, the TinyTIM players schedule frequent (and,
+by all accounts, successful) parties at which to meet and interact
+face-to-face.
+
+Elias Israel
+eli@east.sun.com
+HEx: E
+
+------------------------------
+
+Date: Mon, 11 Oct 93 11:00:31 -0400
+From: Tim Freeman <tsf@cs.cmu.edu>
+Subject: 
+
+q::resend #93-10-429
+
+------------------------------
+
+Date: Mon, 11 Oct 93 17:19:56 BST
+From: Mark Grant <Mark.Grant@isltd.insignia.com>
+Subject: Forward: Virtual City (tm) Network FAQ 1.0 (fwd)
+
+Derek Zahn said (with quotes from the Virtual City (tm) FAQ):
+
+> >The Virtual City (tm) Metropolitan Transit Authority, VCMTA,
+> >is being designed concurrently as an object transport model between
+> >instantiations of various Virtual City (tm) Sites.  We will be
+> >offering templates for instantiations of our city model to be used by
+> >communities and organizations, with a true distributed model allowing
+> >users and information to flow freely throughout the Virtual City (tm)
+> >Network.
+> Creative Acronyms (tm) aside, this is impenetrable.  Hopefully they
+> (he) have (has) a clearer vision than this!
+
+Actually, if you've spent a while programming MUDs, it's fairly obvious. 
+Basically what they're saying is that they'd have multiple sites running 
+the server program (presumably with each site representing a different part 
+of their "Virtual City (tm)", or a different "Virtual City (tm)"), and they
+would give you the program and basic data-set to set up your own site. Then,
+they'd provide a comms protocol allowing objects to be transferred securely
+between the different sites. I think the MOO code already gives you that,
+certainly it's built into at least one variety of MUD.
+
+It might have made more sense if they'd explained it that way, though...
+
+> >Cultural attractions such as art galleries, museums, and music
+> >halls are placed throughout the Virtual City(tm) Network
+
+> They are?  Can I see?
+
+I presume they mean 'there will be access to lots of .GIF and .WAV archives 
+using our neat 'Virtual Art Gallery (tm)' and 'Virtual Music Hall (tm)'
+interfaces'. Sounds like the cyberspace shell for unix that I wrote
+years ago, it's much more exciting to 'enter art gallery' and 'look at
+mona lisa' than 'cd images/gif ; xvgif mona.gif' 8-)
+
+> >"virtual-citizens@virtual.net"
+> 
+> Now, despite this message, I do like to see people trying things,
+> and will subscribe to this list. 
+
+Ditto.
+
+> These people's unfamiliarity
+> with the technology, the difficulty of recruiting volunteer labor
+> for J.Random.Net-lurker's vision, feauturitis, and a lack of any
+> clear target set of facilities and market make me think that this
+> will remain in possibility-space rather than reality-space.  I
+> hope I'm wrong and that the natural tendency of people to mistake
+> dreams for impending realities can in some instances change the
+> world.
+
+Well, I don't think it's that difficult to recruit volunteer labour
+(e.g. most MUDs), keeping it when the net.lurkers vision turns out
+to differ from yours seems to be the main problem.
+
+
+------------------------------
+
+Date: Mon, 11 Oct 1993 12:33:08 -0500 (CDT)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Forward: Virtual City (tm) Network FAQ 1.0 (fwd)
+
+Mark Grant helps clarify what the Virtual City must be all about:
+
+> Actually, if you've spent a while programming MUDs, it's fairly obvious. 
+> Basically what they're saying is that they'd have multiple sites running 
+> the server program (presumably with each site representing a different part 
+> of their "Virtual City (tm)", or a different "Virtual City (tm)")
+...
+> they'd provide a comms protocol allowing objects to be transferred securely
+> between the different sites.
+
+Well, now we're starting to get more down to earth.  I can see that
+an extension of the 'exit' semantics of a MUD to refer to a location
+on a different city could be accomplished, which is virtually the
+same structural model used in the World-Wide-Web, which explains
+their reliance on Mosiac as an interface paradigm (and WWW-based
+services are themselves growing like weeds, so that's a hot area).
+Ditto for object transfer, though there are nightmarish problems
+even in these modest facilities (e.g. consistency guarantees, distributed
+transaction protocols, and nameservers).  Similarly, I suppose that
+gatways to existing internet services aren't particularly challenging.
+
+OK, I've read True Names and Snow Crash and played adventure games and
+been mildly amused by MUDs, so I can see how this could be attractive
+to some people, though it doesn't seem to buy very much.  I was diverted
+by discussion of cutting-edge aerospace designs, visualization, virtual
+reality, and commercial service possibilities; what we're really talking
+about is a zork interface to shell facilities, with the rest as hype to
+get funding agencies to pay.  That's okay.
+
+So I'll stop my naysaying and watch and wait.  The world can always
+use another MUD, I guess.
+
+derek
+does anybody but me wonder whether the medium is really the
+message after all?
+
+------------------------------
+
+Date: Mon, 11 Oct 93 11:14:41 -0700
+From: cappello@cs.ucsb.edu (Peter Cappello)
+Subject: GUNS, SOC: Burglary and countermeasures
+
+James A. Donald writes:
+>If there is a burglar in the house, and I have the gun,
+>then plainly it is my duty to both myself and the
+>neighborhood to stop him if I can get the drop on him.   If
+>he disobeys, I should shoot.  This a positive moral duty,
+>not a matter of personal self interest.  I have an
+>obligation to make the threat.  And having made it I have
+>an obligation to carry it out.
+
+You claim that I have an obligation and a duty to personally kill  
+aggressors, despite consideration of my self-interest.  James, if  
+only you knew how unpersuasive that particular argument is.
+
+>After carrying it out I do not tell the police "I shot him
+>to keep my VCR".  I tell the truth.  I shot him because I
+>said "Freeze" and he did not freeze.  This is generally
+>accepted as adequate grounds for shooting a criminal. 
+
+>Failure to freeze suggests that the criminal is going to
+>respond violently to your threat.
+
+I am not arguing, one way or the other, with the merits of shooting  
+intruders whose intentions are unknown.  Several people however have  
+advocated shooting unarmed burglars, in the back if necessary, and  
+then "fixing" the evidence to make it look otherwise.  
+
+
+All along, I have been exploring the boundaries of good taste.  Let's  
+further sharpen the scenario.  There are 2 burglars, one holding your  
+VCR, the other holding your lap-top.  You demand that they sit still  
+until the police arrive.  The one with the VCR clearly states "I am  
+unarmed.  I do not believe that you will shoot me, unarmed as I am,  
+in the back.  I am leaving peacefully with your VCR."  He then  
+proceeds to walk, with his back towards you, towards the door.  The  
+other burglar agrees to sit quietly.  Do you shoot, with the  
+intention of killing, the burglar who is walking towards the door?   
+If so, do you "fix" the evidence by also killing the witness?  If  
+not, can you claim that the killed burglar's kin will not know that  
+you have shot him in cold blood, in the back?  Can you be sure that  
+they will not be utterly outraged, feeling, unlike you, that your  
+punishment did not fit his crime?  Are you, or are you not, prepared  
+to kill (or have killed) the burglar's wife, his brothers and  
+sisters, his mother and father, and all of his children?  If not,  
+what is your estimation of the probability that _none_ of his kin  
+will _ever_ pay to kill (or in some way hurt, perhaps repeatedly) you  
+and/or someone you love?  
+
+
+Is shooting the unarmed burglar in the back _clearly_ what is best  
+for you and your loved ones?
+
+-Pete
+
+
+
+
+------------------------------
+
+Date: Mon, 11 Oct 93 11:26:24 PDT
+From: Robert Brooks <rb@hprrb.rose.hp.com>
+Subject: HUMOR - Viruses
+
+> 
+> Some people (I would even go as far to call them clueless idiots) seem
+> to be forgetting that humor is a relative thing in the eye of the
+> beholder.  Ignore the twerps, Robert.  Why your posts should be subject
+> to such abuse is odd considering the previous postings of humorous lists
+> of definitions have gone unflamed.  Perhaps because your humour is not
+> lavatorial or anal enough for their, er, tastes.
+> 
+> Mike Price                         price@price.demon.co.uk
+> 
+Seeing as there is only one post from Robert Blumen, and you use the
+plural, methinks perhaps you've got him confused with me?
+Different Robert B's...
+
+But, thanks for the support, in any case!
+
+Robert Brooks
+
+------------------------------
+
+Date:        Mon, 11 Oct 93 13:21:39 CST
+From: Joshua Farris McMichael <I151@NEMOMUS.bitnet>
+Subject: Virtual City (tm) and Virtual Capitalism
+
+   Those folks who believe that the MUD and MOO systems are inherently
+authoritarian may wish to check out LambdaMOO (I believe it was
+mentioned in the VirtualCity(tm) post).  Here are a couple of excerpts
+from the LambdaMOOspaper:
+
+PETITIONS AND BALLOTS The LambdaMOO wizards are no longer involved in
+social control. A system of petitions and ballots allows MOOers to
+establish ways of dealing with social problems.  `help petitions' for
+more information.
+
+One of the ballots established a system of mediation for disputes
+between players. If you're having trouble with someone and need help
+resolving your dispute, paging Mediator should contact any online
+mediator. `help mediation' for more details.
+
+LAMBDAMOO NETWORKING LambdaMOO can now open outbound network
+connections. Some services have already been installed, including gopher
+(`help gopher'), mail forwarding, automatic registration, a weather map
+in the Family Room. You can set your mail options so that all of your
+MOO mail is forwarded to your registration email address, using `@mail-o
+
+ registration email address using the `@registerme' address. Note that
+'bounced' mail will be discarded, and that there is no way, currently,
+to send regular internet email to MOO addresses at this time.
+
+   Looks to me like they've got themselves hooked up to the net pretty
+well, and have instituted a fairly libertarian system of
+self-government.  What's more LambdaMOO is privately funded, as far as I
+know.  The Xerox corporation is running this thing as a testing ground
+for new VR technology - they are already using code from LambdaMOO to
+drive an astronomy VR system.
+  LambdaMOO is located at 13.2.116.36 port 8888.
+
+
+Joshua Farris McMichael I151%NEMOMUS.bitnet@academic.nemostate.edu
+
+------------------------------
+
+Date: Mon, 11 Oct 93 15:17:15 EDT
+From: pmetzger@lehman.com (Perry E. Metzger)
+Subject: Diet and cancer
+
+In the never-ending saga of diet and health, I present the following
+interesting information. A recent study has shown that men with a
+high animal fat intake have an 80% greater risk of developing prostate
+cancer. The study in question was done by researchers at Harvard.
+Quoting from an article in last week's New York Times:
+
+"Those who consumed the most red meat were two and a half times more
+likely to be found to have advanced cancer or to die of prostate
+cancer than those who ate meat infrequently. The investigators found a
+tenfold difference in intakes of animal fat between low and high
+consumers, ranging from an average of 3.2 grams of fat from red meat
+each day to 30.5 grams a day.
+
+"Total fat intake was also associated with the risk of advanced
+cancer.  Those who consumed an average of 88.6 grams of fat a day had
+a 79 percent greater chance of developing advanced prostate cancer
+than those who averarged 53.2 grams of fat daily."
+
+Perry
+
+
+------------------------------
+
+Date: Mon, 11 Oct 1993 14:48:32 -0500
+From: cpresson@jido.b30.ingr.com (Craig Presson)
+Subject: My Target Practice
+
+In <9310070713.AA24748@netcom3.netcom.com>, Kennita Watson writes:
+|>    In the true spirit of spontaneous order, I defected from the plans to
+|>    co-operate of some Bay Aryan extropians 
+|> 
+|> Ah know dey's a lot o' y'all on heah, but tain't no call t'rub it in.
+|> Sho' nuff.
+
+Sheee-it, dey's a lotta Bay Jewyuns (by heritage) too. And Red Clay
+Celts (hint: don't call me "Aryan" to my face, Celtic Temper isn't
+proverbial for nothing).
+        ^
+       /
+------/---- cpresson@ingr.com (Freeman Craig Presson)
+     /AS 5/20/373 PNO; ISGS 9/373; ExI 4/373, NRA 5/373, etc.
+
+------------------------------
+
+Date: Mon, 11 Oct 93 13:31:58 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Diet and cancer
+
+Perry Metzger continues his vegan crusade:
+
+> In the never-ending saga of diet and health, I present the following
+> interesting information. A recent study has shown that men with a
+> high animal fat intake have an 80% greater risk of developing prostate
+> cancer. The study in question was done by researchers at Harvard.
+> Quoting from an article in last week's New York Times:
+> 
+> "Those who consumed the most red meat were two and a half times more
+> likely to be found to have advanced cancer or to die of prostate
+
+OK, so red meat is bad for you. But what about Big Macs and Quarter
+Pounders? Not to mention the special now going on with Triple
+Cheeseburgers...
+
+Do these count as red meat? I can never be sure what's buried in there
+under the Special Sauce, the HaveItYourWay dressing, and the Wonder
+Bread buns.
+
+By the way, having enountered at the recent Extropolooza the two
+leadings spokestropians for the two sides in the Vegan-Carnan debate,
+I have to give the victory to Perry. Q.E.D. ("it is demonstrated").
+
+
+--Klaus! von Future Prime Rib
+
+
+
+
+------------------------------
+
+Date: Mon, 11 Oct 93 13:56:46 PDT
+From: Robert Brooks <rb@hprrb.rose.hp.com>
+Subject: CRYPTO: Authentication
+
+I was rather surprised that Tim May didn't take the opportunity provided
+by my "I'm baaaack" post to expound on digital signatures and cryptographic
+authentication.  So I guess I'll lead with my meager knowledge on the
+subject, and discussion can ensue from there if there's interest.
+
+In that post, I made this bogus accusation:
+
+> There's more.  I'm sure everyone has noticed the latency of postings after
+> the list moved to panix.  Ostensibly a cost-efficiency measure, I've
+> discovered that this is not really the case.  Rather, the list is now
+> moderated.  Or really, since no one was told it was moderated, it is
+> _censored_.  The List Censor, usually Dave Krieger, reviews all postings
+> and removes, alters, or returns for Extropianly-Correct editing those he
+> doesn't like.
+> 
+
+How do _you_ know that your posts are not being subtly altered by Malevolent
+Forces?  Maybe you're being made to look foolish, or ill-tempered, or
+bloodthirsty, or paranoid...
+
+A centralized mailing list is particularly vulnerable to such manipulation--
+one could get a false sense of security by seeing one's own post reflected
+unaltered, while some or all other subscribers get the altered version.
+Then, at the same convenient point of control, responses containing quotes
+of the altered text also get restored on their way back to the originator so
+that the facade is maintained.
+
+Granted, the fraud would eventually be exposed, the more quickly the more
+egregiously it was being done.  Threads would become incoherent, the
+perpetrator would slip, or someone would see one's altered quote in private
+email.  But if only done subtly and occasionally...
+
+Cryptographic authentication is one way to ensure that such cannot happen.
+Posts are encrypted with the author's private key, and each reader decrypts
+with the corresponding public key.  Anyone can decrypt, since the public
+key is available, but the post is known to have only come from the owner
+of that key, and cannot have been altered.
+
+PGP could be used for this today, but it would be inconvenient.  Part of
+the Cypherpunks mission is to make such things more convenient.
+
+Verifying that one's post was received at all by all subscribers is another
+problem, one which would apparently require return receipts of some sort.
+
+Robert
+
+------------------------------
+
+End of Extropians Digest V93 #284
+*********************************
+

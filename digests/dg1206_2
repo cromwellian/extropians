@@ -1,0 +1,1125 @@
+From extropians-request@extropy.org Mon Dec  6 11:11:56 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA16829; Mon, 6 Dec 93 11:11:52 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA06226; Mon, 6 Dec 93 11:11:42 PST
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA18073
+  (5.65c/IDA-1.4.4 for more@usc.edu); Mon, 6 Dec 1993 14:01:18 -0500
+Date: Mon, 6 Dec 1993 14:01:18 -0500
+Message-Id: <199312061901.AA18073@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: December 6, 373 P.N.O. [19:00:17 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Mon, 6 Dec 93             Volume 93 : Issue 339
+
+Today's Topics:
+                      Re:  Brave New Extropia? No Thanks.             [1 msgs]
+             Re:  Tech: What I would do with 10 mpbs IP connection    [1 msgs]
+                             Re:  VirtSem: VirtBiz                    [1 msgs]
+                        Brave New Extropia? No Thanks.                [1 msgs]
+                               Claudia Schiffer                       [2 msgs]
+                     Jay O'C.'s uploads and straw men...              [1 msgs]
+                               META: Standards                        [2 msgs]
+               TECH: What I would do with 10 mpbs IP connection       [1 msgs]
+               Tech: What I would do with 10 mpbs IP connection       [5 msgs]
+                        The FDA, your tireless friend.                [1 msgs]
+                               VirtSem: VirtBiz                       [1 msgs]
+                            form, space and order                     [1 msgs]
+                               work and slavery                       [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 58244 bytes.
+
+----------------------------------------------------------------------
+
+Date: Mon, 6 Dec 1993 08:42:30 -0500 (EST)
+From: Harry Shapiro <habs@panix.com>
+Subject: Tech: What I would do with 10 mpbs IP connection
+
+In the next few months PSI is going to start a national roll-out
+of Internet Connections via Cable TV.
+
+It is hard to get all the facts, but many articles report this a being
+a bi-directional 10 mbps connection. I have heard other reports
+suggesting it is 1.54 mbps into the home, and 56 kps or 256 kps out of
+the home...
+
+I think it will turn out to be the faster of the "choices." The prices
+quoted are in the $70 to $100 range, per month.
+
+This is cheap compared to a Frac. T3 line (even cheap compared to a
+T1 line).
+
+If this does happen I will be the first in my block to get one:), and
+I will buy a PowerPC based Mac and run the list directly from my home.
+If this does happen this is going to radically change the "face of
+telecommunications." ISDN will be so slow in comparison, that it will
+be hard to "push." The telephone company "lies" about the need for
+fiber optics to home to provide high-speed lines will be seen
+"through." Etc, etc., etc.
+
+I am interested in talking about 1) the effect this will have on
+the marketplace 2) neat things we can do on this list with that
+much bandwidth and "free" CPU. (We can have our own IRC, or our
+own PGP encrypted "whatever.," we could have a mud or a moo, I will
+certainly start a exi-binaries@extropy.org mailing list... :)
+
+/hawk
+
+
+
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+Date: Mon, 6 Dec 1993 08:50:48 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Tech: What I would do with 10 mpbs IP connection
+
+Harry:
+
+> In the next few months PSI is going to start a national roll-out
+> of Internet Connections via Cable TV.
+
+If you have any more information on this, I'm sure that everybody
+here would be greatly interested.  Questions of particular interest:
+what does "national" mean?  What hardware will be required to hook
+one's PC up to this net?  I would certainly pay $70-$100/mo for a
+56kbps line into my home, but I fear that "national" will mean
+parts of california and new york and boston.
+
+> It is hard to get all the facts, but many articles report this a being
+> a bi-directional 10 mbps connection. I have heard other reports
+> suggesting it is 1.54 mbps into the home, and 56 kps or 256 kps out of
+> the home...
+
+Well, I'm a bit skeptical about > 1 mbps links via current cable
+TV links -- It seems to me that it would be hard for the entire
+metropilitan broadband network to do much better than 100 mbps
+(though a gigabit might be feasible) which would mean that all
+the users would have to share that bandwidth.
+
+> I am interested in talking about 1) the effect this will have on
+> the marketplace
+
+The devil's in the details.  Particularly, the places where it's
+available and how much the price drops.  I really truly hope that
+this works out well because the market for personal internet tools
+(like, coincidentally, I am developing!) will expand faster than
+if centralized providers like aol, prodigy, compuserve, etc, provide
+monolithic interfaces to their users.  A raw IP link is much more
+flexible and will let front-end developers compete more effectively.
+
+> 2) neat things we can do on this list with that
+> much bandwidth and "free" CPU. (We can have our own IRC, or our
+> own PGP encrypted "whatever.," we could have a mud or a moo, I will
+> certainly start a exi-binaries@extropy.org mailing list... :)
+
+Here's my suggestion: Start to phase things into WWW access.  I have
+been studying WWW lately and it appears to be a very well-thought-out
+system that is gaining in popularity quite rapidly.  Widespread
+56kbps lines will make it simply explode.  Archives of all kinds,
+as well as more "interactive" things like MUDs are all easy
+to incorporate into WWW servers in such a way that any reasonably-written
+client can interact with them quite well.
+
+Maybe one way to think about what various capabilities will mean is
+to consider some typical sizes for various objects and see what
+the transfer time is like at various speeds:
+
+This message:       5K
+Small postscript:  30K
+Static image:      50K
+1 Minute audio:   300K
+Large postscript: 800K
+short video:     2000K
+longer video:   20000K (we'll call that an upper limit for "messages" for now)
+
+My 9600-baud modem:
+
+(5 sec, 30 sec, 50 sec, 5 min, 13 min, 33 min, 5.5 hour)
+
+If this is "current technology", this explains why small documents and
+maybe a picture are about all that we'll send around right now.
+Maybe it's useful to divide things into categories:
+  Category 1: Default messages (we don't care much about filtering it): 10 sec
+  Category 2: Low-frequency larks (don't care if it's a waste as long
+	as it doesn't happen too often): 2 min
+  Category 3: Rare, request only (something we want): 10 min
+  The rest are too costly except to do very rarely
+
+Currently, we're happy with our text messages and appreciate small
+structured docs and images occasionally but would be unhappy to get
+lots of them.
+
+Now, a 56kbps line:
+
+(1 sec, 4 sec, 7 sec, 43 sec, 2 min, 5 min, 47 min)
+
+When this is widespread, it seems like sending images and structured
+documents (standard multimedia mail) will be just fine as a matter
+of routine, Audio messages, large documents, and short video clips
+will also be OK occasionally, but not as a communication bread-and-butter.
+
+1Mbps link (what we all hope for):
+
+(40 ms, 250 ms, .5 sec, 3 sec, 7 sec, 20 sec, 3 min)
+
+In this world, we get to the point where we will be able to send
+illustrated, narrated multimedia mail as a matter of routine,
+with video clips fairly common (what fun the WACO discussion
+would have been with video!).
+
+One interesting issue is what will happen as the disparity between
+list members hooked in to these advanced networks and list members
+not so hooked in...
+
+derek
+
+
+------------------------------
+
+Date: Mon, 6 Dec 1993 09:56:19 -0500 (EST)
+From: Arthur Hlavaty <hlavaty@panix.com>
+Subject: Jay O'C.'s uploads and straw men...
+
+I think you've managed to offend both of those you refer to.  Card thinks
+of himself as a "liberal," and fundamentalist Protestants have been known
+to picket the Mormons for daring to call themselves Christians when they
+are actually polytheists.
+
+Arthur D. Hlavaty           hlavaty@panix.com
+"The Mason's face is ajar."--Firesign Theater
+
+
+
+------------------------------
+
+Date: Mon, 6 Dec 93 09:58:56 -0500
+From: Jeff Fabijanic <jeff@PROFESSOR-ED.ELF.COM>
+Subject: Tech: What I would do with 10 mpbs IP connection
+
+Harry Shapiro writes:
+
+>In the next few months PSI is going to start a national roll-out
+>of InterNet Connections via Cable TV.
+
+Starting right here, in the PRC (People's Republic of Cambridge, as my future  
+father-in-law calls it).
+
+>It is hard to get all the facts, but many articles report this a being
+>a bi-directional 10 mbps connection. I have heard other reports
+>suggesting it is 1.54 mbps into the home, and 56 kps or 256 kps out of
+>the home...
+
+According to all the literature that I've received (electronic and hard copy)  
+they're offering 2 56 kps channels through the cable *into* your house (or home  
+office or whatever), and you get a "dialup SLIP" via standard phone line *out* of  
+the house at 56 kps. Only the incoming traffic uses the cable. 
+
+
+>I think it will turn out to be the faster of the "choices." The prices
+>quoted are in the $70 to $100 range, per month.
+
+That's what I've read.
+
+>This is cheap compared to a Frac. T3 line (even cheap compared to a
+>T1 line).
+
+Actually, I think that it's about the same. I currently live in a household that  
+has a (fractional?) T1 connect and I *believe* that it costs about a couple  
+thousand a year (I'd have to ask John to be sure). But we get alot more bandwidth  
+than the PSI/CableVision linkup will give folks. And there's no dialup SLIP  
+involved - we're on all the time. This is through NEARNet.
+
+>If this does happen I will be the first in my block to get one:), and
+>I will buy a PowerPC based Mac and run the list directly from my home.
+
+Cool!
+
+>I am interested in talking about 1) the effect this will have on
+>the marketplace 2) neat things we can do on this list with that
+>much bandwidth and "free" CPU. (We can have our own IRC, or our
+>own PGP encrypted "whatever.," we could have a mud or a moo, I will
+>certainly start a exi-binaries@extropy.org mailing list... :)
+
+This all sounds great, but I'm a little confused. Do you feel that there have  
+been obstacles to doing any of this recently (ie the last couple years)? I have  
+to admit that I actually don't know where the list machine is physically located,  
+but if it's in a major metropolitan region or near a large university, then I  
+suspect that it's been possible to get plenty of bandwidth for similar prices for  
+a few years. It seems to me that the only thing that kept this from happening  
+sooner was a perception on the part of the Net providers that there was no  
+individual consumer demand for it. But motivated/informed individuals or small  
+group/businesses have been getting hooked up at similar prices for a couple  
+years. The PSI difference seems not to be any technical breakthrough so much as a  
+willingness to deal with the general consumer market and a belief that they can  
+make a buck at it. I'm not sure that a substantial number of new people will get  
+connected in the near future (1-2 years) because of this - more likely, IMO, is  
+that well-heeled NetHeads will upgrade to the faster connect. Not to say that  
+this won't create a major change for the Net - after all, perception *is*  
+reality.
+ 
+
+>Harry S. Hawk  				      habs@extropy.org
+
+- Jeff Fabijanic     * no .sig, no horse, no mustache *
+
+------------------------------
+
+Date: Mon, 6 Dec 1993 09:02:31 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: META: Standards
+
+I would like to propose to the list at large that
+we begin a discussion of standards for communicating
+multimedia information on the list.  As the list
+software is right now capable of handling long
+messages in an elegant way (by truncating them,
+with easy methods for retrieval), I'd like to
+see us start to use that feature more.  To do
+so, we need to think about formats for these
+things.
+
+First, a question for list management:  If I
+send a big file to the list, I don't want
+that large message to go to everybody unless
+they want it.  The easiest thing for everybody
+is if that message is automatically truncated
+because it's a larger pain to ::nosend it and
+then report back to everybody that this has
+happened.  What is the maximum size of a message
+that won't be truncated?
+
+I believe that software for the following standard
+formats is widely available for various platforms
+and therefore propose that they be used for sending
+multimedia stuff to the list (but I'd like some
+discussion on the issues):
+
+Multimedia mail:  MIME
+
+Images: JPEG, GIF
+
+Audio: U-LAW
+
+Video: MPEG
+
+comments?
+
+------------------------------
+
+Date: Mon, 6 Dec 1993 10:14:14 -0500 (EST)
+From: Arthur Hlavaty <hlavaty@panix.com>
+Subject: Claudia Schiffer
+
+	I'm not "offended" by the "political incorrectness" of brother
+Israel's post, but as one who enjoys the presence of women in this group,
+I'd rather see him share that sort of thing with other consenting adults
+in private, so the mailing list has less of the aura of a boys' locker room.
+
+Arthur D. Hlavaty           hlavaty@panix.com
+"The Mason's face is ajar."--Firesign Theater
+
+
+
+------------------------------
+
+Date: Mon, 6 Dec 1993 10:21:55 -0500
+From: pmetzger@lehman.com (Perry E. Metzger)
+Subject: The FDA, your tireless friend.
+
+Having been reminded that I sometimes suffer from winter depression, I
+decided to track down the Medic Light company which made extremely
+bright light sources suitable for using early in the morning to
+eliminate winter depression. I called, or rather tried to call, the
+company up, and was shocked to discover that it no longer exists,
+having been shut down by the FDA for producing "medical devices",
+never mind that peer reviewed journals had papers published on the
+phenomenon. Another company still sells the devices, but they are now
+just sold as "lighting". Sigh. At least they boxes still are sold...
+
+Perry
+
+------------------------------
+
+Date: Mon, 6 Dec 93 15:24:20 GMT
+From: Mark Grant <Mark.Grant@isltd.insignia.com>
+Subject: work and slavery
+
+derek@cs.wisc.edu (Derek Zahn) said (amongst other things) :
+
+> Is there an extropically-friendly theory of work out there somewhere?
+
+[ Lots of bandwidth-saving deletions ]
+
+> So, is there a theory of work out there that deals with these
+> issues?  Has this topic been discussed here in the dim past?
+
+I don't know whether it's been discussed in the past, but it does seem 
+to me that (barring government control) many of the new technologies 
+that have been discussed are going to make a dramatic change to 'work'. 
+Nanotech, for example, should remove most of the need to work to buy 
+material objects - if you have a 'Home Nano-Construction Kit' in your 
+back yard, then the cost of your new car comes down to the cost of 
+ftp-ing the 'Gnu Generic Sports Car' design to feed into it (along with 
+whatever garbage comes to hand as raw materials). 
+
+>From that point on, really the only things that people will be spending 
+money on will be experiences, information, and objects that have been 
+made by people rather than machines. If you just want to spend your days 
+driving your nanotech produced Ferrari around the country, then no problem,
+but if you want to want to buy the Aurora plans off of BlackNet or hire 
+someone to take you scuba-diving on the Barrier Reef, then you'll have to 
+find something to sell to pay for it.
+
+Also, with life extension giving maybe a thousand year plus lifespan, I'd 
+suspect that most people would want to spend a few centuries of that 
+'unemployed', and just work for fun or when they really need the money.
+
+Getting back to the present day, to some extent this seems to be happening
+already - currently only about 1/3 of my after-tax income goes on rent and 
+material objects, along with another 1/3 on experiences and the other 1/3 
+into saving to take some time off work at the end of next year. For the 
+last couple of centuries technology has been making it easier to live well 
+on less and less money, so nanotech would just be taking that to the logical
+extreme.
+
+You might also be interested in the Steve Roberts approach - cycling around
+the country on a seriously high-tech bicycle while writing magazine articles
+and running a consulting company with a satellite internet link to pay for
+it. For crypto-anarchists, it's probably a good way to avoid taxes and 
+government harassment too....
+
+> derek
+> idle hands are the devil's workshop
+
+Aren't they just ? It'll be interesting to see what devilish things we can
+come up with when there are a few billion more of them out there with no
+real material worries.
+
+			Mark
+
+
+------------------------------
+
+Date: Mon, 6 Dec 1993 09:24:28 -0600 (CST)
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: Tech: What I would do with 10 mpbs IP connection
+
+Jeff Fabijanic:
+
+>According to all the literature that I've received (electronic and hard copy)  
+>they're offering 2 56 kps channels through the cable *into* your house (or
+>home office or whatever), and you get a "dialup SLIP" via standard phone
+>line *out* of the house at 56 kps. Only the incoming traffic uses the cable. 
+
+Wait a minute... how would that work?  What information would come
+in through the cable as opposed to the phone line?
+
+derek
+
+
+------------------------------
+
+Date:     Mon, 6 Dec 93 15:47:34 GMT
+From: nancy@genie.slhs.udel.edu
+Subject:  Re:  VirtSem: VirtBiz
+
+I've thought about the output question a little, and basically gotten
+stuck by the question of what the controls and options should be....
+
+I'd really LIKE to be able to do special effects (especially thunder
+and lightening) as I talk, but the same lightening bolt again and
+again would get pretty dreary, and fine tuning it wouldtake too
+long--and a lightening bolt with random variations wouldn't be
+the lightening bolt that *I* meant at the moment.
+
+Maybe using VR expressivity well would take as much practice as
+becoming a good singer. 
+
+I've thought about what a cartoonists jam would be like, and gotten
+as far as realizing that the easiest way to organize it would be
+one cartoonist per character plus one for the background and maybe
+one for lighting, but none of this gets to the hard part--what
+would the controls be like? I'd be interested in whatever ideas
+people have.
+
+Nancy Lebovitz
+
+------------------------------
+
+Date: Mon, 6 Dec 93 10:59:24 EST
+From: eli@suneast.east.sun.com (Elias Israel - SunSelect Engineering)
+Subject: Claudia Schiffer
+
+Arthur Hlavaty writes:
+> 	I'm not "offended" by the "political incorrectness" of brother
+> Israel's post, but as one who enjoys the presence of women in this group,
+> I'd rather see him share that sort of thing with other consenting adults
+> in private, so the mailing list has less of the aura of a boys' locker room.
+
+A valid point. I apologize if anyone was upset with my comments.
+
+Elias Israel
+eli@east.sun.com
+HEx: E
+
+------------------------------
+
+Date: Mon, 6 Dec 93 11:05:01 -0500
+From: Jeff Fabijanic <jeff@PROFESSOR-ED.ELF.COM>
+Subject: form, space and order
+
+Nancy writes:
+
+>I've read about methods of learning to visualize 4-space in either
+>Rucker or Gardner--I might be able to track them down if people care.
+
+I'd be very interested in hearing more about 4-d learning techniques.
+
+>I've met someone who said that she could visualize in 4-space, and
+>I asked her some questions to check on it..
+
+I also know a couple folks who seem to be able to do this at will (mostly fellow  
+MITers - math majors - surprise surprise!). I have almost felt that I was able to  
+do so on a few occasions, but it was a very tenuous and slippery experience at  
+best.
+
+>I asked her how many
+>corners a tesseract had, and after several efforts during which
+>she appeared to be visualizing, she said that she kept losing track
+>of the corners when she tried to count them.
+
+Hmm, now, I'm not able to visualize 4-space reliably, as I've said before. But I  
+can visualize a tesseract's various shadows in three space, and it seems like  
+that should be enough to give a reasonable answer. A tesseract has 16 vertices,  
+32 edges, 20 faces, and contains 8 distinct 3-spaces. This just took me about 15  
+seconds to do in my head, and I spent a couple minutes double checking with paper  
+and pencil, and get the same answer. (Then again, maybe I'm wrong. Corrections by  
+informed list members are welcome, of course).
+
+>I asked her what a
+>hypersphere looked like, and she said (fairly quickly) that it
+>looked like an ordinary sphere, only rounder.
+
+Love it! Whether she was legitimately visualizing or not, this is a Great Answer!
+
+>Any theories about how you could tell whether someone else can
+>visualize 4-space?
+>
+>Nancy Lebovitz
+
+Tell them to visualize a tesseract. Now ask them the following questions:
+
+1) Is there a straight 3-d line that they can scribe through each of the 3-d  
+spaces contained in the tesseract in turn? [yes (an infinite number of them), but  
+they don't run orthogonally to the faces or edges.]
+
+2) If they answer correctly, ask them the fewest number of *orthogonal* 3-d lines  
+necessary to pass through all the 3-spaces? [2]
+
+3) How many such lines are needed to intersect each *face* of the tesseract? [3]
+
+3) Assume that the tesseract's faces are solid (with 4 doors in them - one for  
+each edge). If an ant were to start in the center of one face, crawl straight  
+across to the center of the face of the 3-space in front of it, turn 90 degrees  
+left, and crawl straight ahead to the center of the face *now* in front of it,  
+turn left, continue ad nauseum, how soon would the ant end up back on the same  
+face? [the ant would crawl across a total of 3 faces (going through 3 doors)  
+before finding itself exactly where it started (in the same orientation as well)]
+
+4) A square can be divided into four small squares with bisecting lines. A cube  
+can be divided into eight small cubes with intersecting planes. How many cubes  
+are necessary to divide a tesseract in a similar manner and how many tesseracts  
+are produced? [4 and they produce 16 smaller tesseracts]
+
+These are all very easy. in fact, someone who was simply familiar with the  
+geometry of a tesseract but not necessarily able to visualize 4-d, could answer  
+these quite readily. In fact, although I used 3-d shadow visualization to come up  
+with these questions, now that I look at the answers I realize that some of the  
+geometric progressions are very simplistic. So these could be "guessed" as well.  
+I suppose the real test would be the speed with which one answered. I would  
+expect that someone who could readily visualize 4-d would be able to answer these  
+as quickly as someone who could 3-d visualize could answer the analogous  
+questions of a cube.
+
+ - Jeff
+
+
+
+
+------------------------------
+
+Date: Mon, 6 Dec 93 11:18:53 -0500
+From: Jeff Fabijanic <jeff@PROFESSOR-ED.ELF.COM>
+Subject: META: Standards
+
+Derek writes:
+
+>I believe that software for the following standard
+>formats is widely available for various platforms
+>and therefore propose that they be used for sending
+>multimedia stuff to the list (but I'd like some
+>discussion on the issues):
+>
+>Multimedia mail:  MIME
+>
+>Images: JPEG, GIF
+>
+>Audio: U-LAW
+>
+>Video: MPEG
+>
+>comments?
+
+One quick one before I reply in more detail. All the image formats you suggest  
+are *lossy*. Great for some things, adequate for others, lousy for some (eg - for  
+a technical image like a wiring diagram, I'd much rather have access to an  
+object-based rather than pixel-based file - say EPS or DXF).
+
+Just my 2 cents.
+
+ - Jeff
+
+------------------------------
+
+Date: Mon, 6 Dec 93 11:28:11 -0500
+From: Jeff Fabijanic <jeff@PROFESSOR-ED.ELF.COM>
+Subject: Tech: What I would do with 10 mpbs IP connection
+
+>Jeff Fabijanic:
+>
+>>According to all the literature that I've received (electronic and hard copy)  
+
+>>they're offering 2 56 kps channels through the cable *into* your house (or
+>>home office or whatever), and you get a "dialup SLIP" via standard phone
+>>line *out* of the house at 56 kps. Only the incoming traffic uses the cable. 
+
+>
+>Wait a minute... how would that work?  What information would come
+>in through the cable as opposed to the phone line?
+>
+>derek
+
+The UseNet stuff, I'm assuming. Incoming email for your site would probably wait  
+for you to use the dialup SLIP to PSI's gateway machine. Any other setup would  
+seem to me to have serious security problems. But PSI's literature (and their  
+phone sales people) are unclear on exactly how it'll be done.
+
+ - jeff
+
+
+------------------------------
+
+Date: Mon, 6 Dec 1993 10:22:11 -0600 (CST)
+From: cman@caffeine.io.com (Douglas Barnes)
+Subject: Brave New Extropia? No Thanks.
+
+Amara:
+
+I'm still mulling over some of thing issues that you raise; of
+course, my (possibly typical male) first reaction was to find the
+one glaring factual error... 
+
+Re: Women and startups
+
+Although the statistics aren't handy, I've seen numerous reports
+in the last year on how far more startups are headed by women than
+men. Why? For one reason, because in large companies, talented women 
+find themselves hitting a glass ceiling, and strike out on their own.
+
+Re: The general problem (women on list)
+
+Actually, I was delighted to see _any_ women on the list... most of
+the topics and the dynamics of the other lists I subscribe to seem 
+even more hostile to women (e.g. cypherpunks, which can be extremely 
+technical, relies on advanced math, and is a never-ending flamewar.)
+
+Re: How to eliminate religious element from marriage
+
+My wife and I got married on our lunch hour, by a JP. No problem.
+Didn't tell anyone, just went and did it. Still catching shit for it
+from various relatives, but we just smile.
+
+Re: Polyamory, etc.
+
+In favor of this in theory, I think some work is going to have be done
+in re-engineering whatever it is that makes people jealous. While I've
+seen this work for some folks, it takes _enormous_ amounts of effort and
+even the most open-minded are challenged. Some dear friends of ours are
+actively, nay, _evangelicaly_ polyamorous, but still have jealousy issues
+from time to time.
+
+How much of jealousy can we attribute to nature, and how much to nurture?
+Hmm. 
+
+Re: Consequences of advanced repro technology
+
+Me, with my "boundless pessimism", I see the folks screaming at the
+gate waving torches and pitchforks...  
+
+
+
+-- 
+----------------                                             /\ 
+Douglas Barnes            cman@illuminati.io.com            /  \ 
+Chief Wizard         (512) 448-8950 (d), 447-7866 (v)      / () \
+Illuminati Online          metaverse.io.com 7777          /______\
+
+------------------------------
+
+Date:     Mon, 6 Dec 93 11:34:26 EST
+From: cards@top.cis.syr.edu
+Subject:  Re:  Tech: What I would do with 10 mpbs IP connection
+
+Derek discusses bandwidth requirements and limitations.
+He hits an important point: CATV is a shared-access
+physical medium.  I regard T3 as about the limit for
+a single CATV channel pair (1 inbound / 1 outbound)
+using present technology.  This means you have 45 Mbps
+or less to share among however many users you have on the
+cable.  BUT this is NOT the entire metropolitan area:
+modern systems use fiber to the curb, where a single
+fiber serves 3000 or fewer households (heading towards
+200 as the fiber gets closer and closer to the home).
+So try dividing 45 Mbps (or whatever you derate my
+estimate to) by whatever fraction of cable-connected
+households you expect to have simultaneously active
+on the MAN.
+
+hi end estimate: 45 Mbps / 45 households -> 1 Mbps avg
+
+lo end: 1.5 Mbps / 1500 households -> 1 kbps avg
+
+I believe that economic incentives will drive the
+fiber close enough to the home to make CATV just
+enough cheaper than telco offerings so that it will
+be a viable business for the CATV operators.  My lo
+end estimate would not get people to switch, so
+the operators won't go that low.
+
+BTW -- the cable ops know that they must drive the
+monthly charges way down from PSI's original estimate
+in order to sign up many subscribers.
+------------------------------------------------------------------------
+Stuart W. Card, Senior Engineer & President, Critical Technologies Inc.
+311 Turner St Suite 303 Utica NY 13501          315-793-0248 / FAX -9710
+swc@uc1.ucsu.edu or cards@top.cis.syr.edu 'til we get our own connection
+
+------------------------------
+
+Date: Mon, 6 Dec 93 8:43:12 PST
+From: szabo@netcom.com (Nick Szabo)
+Subject: VirtSem: VirtBiz
+
+Nancy Lebovitz: 
+> I've thought about what a cartoonists jam would be like, and gotten
+> as far as realizing that the easiest way to organize it would be
+> one cartoonist per character plus one for the background and maybe
+> one for lighting, but none of this gets to the hard part--what
+> would the controls be like? I'd be interested in whatever ideas
+> people have.
+
+I've long figured that puppeteering will make a big renaissance with
+VR.  Cartoonists draw the basic 3D character, then visual programmers
+give it controls that allow the puppeteer to give the character
+appropriate facial expressions, limb movements, etc.  Most
+of these controls are inherited from previous puppets, 
+as per object oriented programming.  The various scenes and
+characters can then be integrated into a VR puppetoon(tm).
+
+This new art form would combined the flexibility of animation
+with the sophisticated facial expressions and gestures of good
+puppeteering.  Puppetoon performances might be live or constructed
+in a studio, scene by scene.  Player control of puppetoons might
+form the basis of advanced VR games.  
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+Date: Mon,  6 Dec 93 12:09:48 -0500 (EST)
+From: gub@ELF.com (Glen Daniels)
+Subject: TECH: What I would do with 10 mpbs IP connection
+
+First, to derek, who asks:
+>Wait a minute... how would that work?  What information would come
+>in through the cable as opposed to the phone line?
+
+Probably all of it.  A net connection, like a telephone, has a
+receiver and a transmitter.  It doesn't matter if they both actually
+use the same carrier or not - for instance, you could hook up an
+earphone to your friend's microphone on one wire, and a microphone to
+your friend's earphone via a radio link; it would still work like a
+regular telephone.  The benefit of the incoming connection being the
+high bandwidth one relates to the "lurker" discussion that's been
+going on recently.  It's estimated that about 80% of net users are
+primarily information consumers, as opposed to information producers.
+If you're spending lots of time reading news, downloading files via
+FTP, etc..., it makes sense to have a high speed connection into your
+house, whereas if you *aren't* running an FTP site, exploding a
+mailing list, or generating broadcast audio, you probably don't need a
+connection like that for outgoing traffic.
+
+This also dovetails well with the cable technology - right now, there
+is no good way to get information *from* the endpoints (houses) back
+to the hub.  It's a broadcast medium.  So systems like GTE's "Main
+Street" and the future IP linkup use phone lines to communicate menu
+choices, commands, or whatever input comes from the user.
+
+Now this raises a question - does anyone know how the PSI project
+plans to switch the IP packets into the cable network?  The way Main
+Street handles it is with a dedicated cable channel.  You have a box
+sitting on top of your cable box that contains a modem, some
+packet-switching hardware, and a video frame-grabber.  When you
+connect to the system, the modem connects to their computer, and the
+box starts scanning all the video packets (which are just video stills
+tagged with a particular box-ID) on the "main street" channel.  Any
+time it sees one go by with it's number, it puts it up on your screen
+and holds it there until the next one.  (it's actually interesting to
+tune to the "packetized" channel when you're NOT connected - you see
+*all* the frames being transmitted to anyone using Main Street in your
+area... "boy, lotsa people playing blackjack tonight...")
+
+I assume that each cable channel has a certain amount of bandwidth
+(anyone have a clue as to how much?), which is a fraction of the total
+available across the wire.  So if the IP system uses the same "unused
+channel" trick, perhaps the performance could be improved later by
+adding extra channels of IP?  (I actually agree with whomever said
+they doubted that 10mbps would be feasible on such a system - once
+lots of people start using it, I wonder if you'll even see a reliable
+256kbps into your home)
+
+Oh, one more thing - currently, there is no way to acheive close to
+56kbps over a normal phone line.  I believe with the new V.FAST
+modems, people are actually getting close to 26k, but that doesn't
+seem to work everywhere.  So right now, you need to lease a special
+line from the phone company (and use a special modem) to get that kind
+of bandwidth.  I don't know what outgoing data rates the PSI project
+will actually support, but they won't be that high.
+
+		--Gub (Glen Daniels, ELF Communications)
+
+	Oft-times thou feelest like unto a nut,
+	And yet, M'lord, anon, feel'st thou not so.
+	Yon Almond Joy these selfsame nuts doth have,
+	Whereas contrary Mounds doth have them not.
+	        -- William Shakespeare
+
+------------------------------
+
+Date:     Mon, 6 Dec 93 17:18:19 GMT
+From: nancy@genie.slhs.udel.edu
+Subject:  Re:  Brave New Extropia? No Thanks.
+
+it in sf fandom--you'd probably get more men than women, but there
+still might be more women than there are now.
+
+I'm no expert on "normal" women and men--if Tannen's book is
+accurate, I'm a more like the women she describes than the men,
+but pretty revolted by both types. (If you haven't read the
+book, she says that (American) women are phobic about losing
+connection, and (American) men are phobic about losing independence,
+that most aren't aware of how different the other is, and that
+communication between them gets very weird as a result.)
+
+Part of what I like about sf fandom is that neither the men nor
+the women seem to be extreme examples of what Tannen is talking
+about.
+
+One thing that occurs to me is that, just because a man is beating
+on his chest, that doesn't mean he's about to attack, and just 
+just because a woman is being placating, it doesn't mean that
+she's willing to give in. Women are more likely to have the
+first false impression, and men the second.
+
+I think that what's destructive about the sterotypes is not
+that men tend to be more interested the "the hunt" and conflict
+and women tend to be more interested in people (this may be
+true), but the substantial social pressure applied to people
+to *not* be interested in the other gender's "realm".
+
+>I have to presume Amara is interested in comments on her post. I count
+>her as a friend, but I'll still take the risk of responding to her here.
+>
+I'm starting to develop some sympathy for you on this sort of stuff--
+I get the impression that you're caught between a desire to say what
+you believe and a realization that a lot of people won't like it. 
+
+>> A number of times the question has come up on why there are so few
+>> women participating on this list.  I've been observing these list procedings 
+>> for about two years, and so I hope I have gained enough insight to address 
+>> that question. 
+>
+>The "Why are there so few women?" question comes up in nearly all the
+>newsgroups I follow, mostly technical ones. At the Hackers Conference,
+>there are fewer women attending each year, despite pleadings and
+>cajolings to get more of them (Don't worry, I plan to nominate Romana,
+>as a result of her outstanding Stego work).
+
+Any theories about why the number is decreasing? This sounds like 
+something other than biological hard-wiring.
+
+>(Tim's Sexist Theory, or at least a couple of Ex-girlfriends were
+>ultra-harsh whenever I ventured this: Evolutionary wins were given to
+>genes in which females were highly protective of young able to sense
+>trouble in children and other women ("compassion," "nurturing") and in
+>which males were aggressive hunters, seekers of mates, and
+>communicative of information of a factual nature. Males are interested
+>in manifestations of the hunt, with cars in the 50s and computers in
+>the 90s as exemlars. Women are in fact much more interested in
+>children and in emotions of their family and friends than me are. Men
+>communicate to tell other men where the bison have been spotted, or to
+>establish alpha male primacy over other males and impress females.
+>Women communicate to sense danger in their children and, a point of
+>similarity with men, to communicate methods of sewing, cooking. Facts
+>are that women are biologically tuned to nurture children and need to
+>be near them...that's why the men didn't nurse the children in the
+>cave while the Dianas went out and did the hunting.)
+>
+I'm curious--did the ex-girlfriends have answers, or were they just
+revolted by the theory? (By the way, if they only had an emotional
+reaction, that doesn't mean that the theory was sound--it just means
+that they hadn't gotten an argument formulated.)
+
+One thing that your theory does leave out is the substantial amount
+of individual variation.
+
+>The result? Most women are bored silly with discussions of the
+>techniques of science and technology. There are notable exceptions,
+>but on the average, this is so. Look at any party where the men _want_
+>to talk about modern version of "the hunt": sports, politics,
+>computers, guns, cars, etc., and the women roll their eyes up and ask
+>"Is that all you can talk about?"
+
+Speaking from experience, part of what can bore me about such 
+discussions is not just the subject matter, but a sort of emotional
+dryness--another part is that it's actually remarkably hard to
+get information out of those discussions. (This isn't counting
+the technical discussions, which I'm just beginning to learn
+enough to have any interest in.)
+
+(.....)
+
+>> My reasons for not posting very much are (in order of importance),
+>> lack of time, lack of knowledge (I'm a physicist and programmer, and
+>> even so, many of these topics are new to me.), and lack of interest.
+>> The following essay will address that lack of interest.
+>> 
+(....)
+
+>> First and foremost, I see a large lack of awareness and interest about
+>> topics that many women are concerned with today. This isn't a problem,
+>> except that you might be missing an opportunity to think and talk about 
+>> how extropian ideas might be relevant to helping women as well as men.
+>
+>But the solution is clear: if the women on the list wish this to be
+>talked about, they should begin to talk about it! One cannot ask
+>others, e.g., men, to talk about what one is unwilling to talk about
+>oneself.
+
+On the other hand, it's the men who are concerned with the absense
+of women on the list.
+
+On the third hand, I don't think that I'd be more interested in the
+list if there were more discussion of transhuman babies, since I'm
+only moderately interested in babies. (Though here's a question
+on the subject--if the only available direction for increased
+intelligence is genetic engineering, how large a jump does it
+make sense to make in each generation? It seems to me that if
+you try to raise children too much smarter than you are, especially
+if there's no larger society on their own level, then you're
+raising them as feral children, and this seems fairly pointless.)
+
+>A popular buzzphrase here in California (and I am not accusing my
+>friend Amara of using it) is "creating a safe place for women's
+>issues." At a recent lecture here in Santa Cruz on virtual reality, a
+>bunch of folks--all men--asked meaty questions about the technology,
+>who's doing what n VR, etc. The speaker was calling on whoever had
+>their hand up--no discrimination. At the end, a woman plaintively
+
+You may be right about the lack of discrimination, but how carefully
+were you tracking whether everyone who had a hand up was called on?
+
+>asked: "I hear all these males--white males--discussing this
+>technology. How can we create a safe place for women to discuss this?
+>How can we assure democratic input into VR?"
+
+Suppose that you wanted to hear their ideas as well as getting
+the somewhat vague input from their spending habits. How would
+you go about it? 
+>
+>I pointed out to her later that we _don't_ ensure democratic input!
+>That we handle VR the same way we handle books and CDs, to wit, if
+>there's a demand by women for women's books, so be it. Friedman's
+>"free to choose" democracy of the market. 
+
+How did that go over? 
+>
+>Ditto for this List and all other lists. If a topic isn't discussed,
+>it's up to those with the interest to start a discussion--the way
+>several of us, white males all, have freely started "virtual seminars"
+>on several different topics.
+
+Do you know whether all the males who've started vertsems are actually
+white? (If you'll pardon the non-e' phrasing....)
+
+The difference is that it isn't just women saying "where are the
+topics we want?", it's also men saying "where are the women?" If
+you're concerned about the absence of women, then *you* need to
+offer something they want--or, as I suspect, quit offering an
+atmosphere that they don't want. A little rudeness goes a very
+long way. 
+>
+(.....)
+
+>> 	* Communication issues. Are you aware of the difficulties many
+>> 	women face in stating needs and wants and criticisms in a job envi-
+>> 	ronment, esp. one in a technical field? I sometimes write memos
+>...
+>
+>I find women are often too tentative about their knowledge, lacking
+>the kind of self-assurance that many men have. If they are unsure of
+>themselves, but press their demands, it comes across as bluffing and
+>their opponents will call them on it. And if they back down, same
+>result. The cure is to be so technically competent and so self-assured
+>about the technical details that one can effectively say to the boss:
+>"If you want me to stay, you'll fund my project. Otherwise, I'll go
+>where I'm appreciated." This kind of "in-your-face" high-stakes game
+>is well-suited to males and is poorly-suited to more passive,
+>negotiation-oriented females. (Yes, I've heard the theory that the
+>"woman's perspective" on negotiation will be brought to bear on
+>problems of American business....I just don't believe it. The most
+>successful women in business are often aggressvive. And this makes a
+>lot of women underlings real uncomfortable, but that's another subject.)
+>
+Are you sure that the only problem is (some) women's failure to be self-
+assured enough, and not also that (a lot of) men have a belief that
+women shouldn't be assertive?
+
+You seem to have a premise of women needing to change to accomodate
+men who are just fine the way they are--is that what you meant?
+
+>> 	Suggestions:
+>> 	Discussions for what works and what doesn't work in approaches for 
+>> 	conveying information. Relevant psychology. How does electronic
+>> 	communication help and hurt in the conveying of information? Memes
+>> 	that are easily transmitted and facillitate communication between 
+>> 	sexes? So men, what communication approaches cause *you* to listen? 
+>
+>Persuasive points that have a solid underlying reality make *me*
+>listen. Not braying and bellowing, but clear conceptual points. Also,
+
+You might keep this in mind when you're tempted to bray and bellow--
+for instance, in regards to PC. 
+
+>and this a trick many men use that seems to mystify women: Never admit
+>to your apponent in a debate that he is right and you are wrong....but
+>in later debates with others, use your opponent's arguments as your
+>own! (This runs counter to the "negotiation" strategy evolution has
+>programmed into most women, but it works for men. Game theory and the
+>game of chicken applies directly.)
+
+It's a feature that I find revolting--it seems like a betrayal--
+probably because it is. I value men who admit it when they're wrong
+and I'm right. This is a hint.
+
+>From my point of view, talking with someone who refuses to concede
+points takes some of the fun out of arguing--it seems like a loss
+of feedback, and after a while I'd wonder if I'm just be getting
+on their nerves.  
+
+It might be interesting to look at the communication protocols in
+social groups that stably include both men and women. 
+
+>> 	And please don't tell me to go read _You Don't Understand_ by Tannen.  
+>> 	I found this book very damaging in propagating the male-female 
+>> 	stereotypes.
+>
+>Ah, but perhaps the stereotypes are stereotypes because they capture a
+>very real aspect of our different approaches?
+
+I dunno how completely true Tannen is, but I saw *The Rocketeer*
+right after I read it, and the interactions between the two leads
+were right out of the book--it was hilarious. And I've heard a few
+married couples say that the ideas in the book clarified some of
+their more difficult discussions.
+
+I do think that the approaches that Tannen describes are so compulsive
+that they leave out any interest in truth or kindness, even though,
+respectively, her men and women supply parodies of them. (The men
+care about truth so far as it will help them win an argument, and
+the women are kind so far as it will keep people from leaving
+them. Maybe I'm interested in the Singularity because I hope it
+will get me away from this crap?)
+
+(....) 
+>
+>> 	Suggestions: Given the horrendous baggage with church and state (and 
+>> 	IRS), I would like to see some discussions on why some extropians 
+>> 	got married. How does one in daily life handle community property and 
+>> 	separate property in such a union? What methods did you use to avoid
+>
+>I wrote an essay on Harry Browne's "How I Found Freedom in a Unfree
+>World," which devotes several chapters to these issues, including the
+>equitable division of property through cut-and-choose auction methods. 
+
+I found Browne pretty interesting--have you had any experience with
+trying his ideas on relationships? If you don't mind writing about
+it, how did it work out?
+
+By the way, how accurate have Browne's financial predictions turned 
+out to be?
+>
+(.....)
+
+>From an evolutionary biology point of view, this makes sense. Males
+>need only inseminate females, driven by sexual desire, while females
+>to be good mothers must want to nurture and cherish the baby. And the
+>father's single best contribution is to be a successful bread-winner
+>(the hunter once again).
+>
+>What I have just said is commonly accepted amongst evolutionary
+>biologists, and explains also a lot about human sexual selection
+>factors. It is, however, an interpretation rejected by many social
+>scientists.
+
+I do think that you're leaving out the considerable social pressures
+to become "real" men and "real" women--that is, to be as little
+like the other sex as possible. 
+>
+>Men like technology and don't much care about babies per se. Women
+>don't much care for technology, except as it helps them in other
+>areas, and are preoccupied by their ticking biological clocks (until
+>the egg freezing practice Amara describes becomes more of a reality).
+
+I've noticed a large "threshold effect" in myself where
+being interested in technology or good at it seems "out of 
+character"--this may be explained by the social pressures I've
+described.
+
+
+Nancy Lebovitz 
+
+------------------------------
+
+End of Extropians Digest V93 #339
+*********************************
+

@@ -1,0 +1,1180 @@
+From extropians-request@extropy.org Wed Oct 27 01:07:44 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA08791; Wed, 27 Oct 93 01:07:41 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA28481; Wed, 27 Oct 93 01:07:37 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA23290
+  (5.65c/IDA-1.4.4 for more@usc.edu); Wed, 27 Oct 1993 04:02:22 -0400
+Date: Wed, 27 Oct 1993 04:02:22 -0400
+Message-Id: <199310270802.AA23290@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: October 27, 373 P.N.O. [08:01:43 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Wed, 27 Oct 93             Volume 93 : Issue 299
+
+Today's Topics:
+                          Admin: Your E-mail address                  [1 msgs]
+                                Alien Message                         [1 msgs]
+                 BIO: Researcher clone human embryos article          [1 msgs]
+              CONFERENCE: European Computers, Freedom & Privacy       [1 msgs]
+       CONFERENCE: The Security Services: Are They a Threat to Freedom?[1 msgs]
+                                  Extropy #3                          [2 msgs]
+                                 Extropy #3                           [1 msgs]
+                                  Free Will                           [1 msgs]
+                                    Help!                             [1 msgs]
+                          KIDS/POLI: "Emancipated M                   [1 msgs]
+                   KIDS/POLI: "Emancipated Minor" status ?            [1 msgs]
+                    MEETING: UK Cryptoprivacy Association             [1 msgs]
+               Neural Networks (was Beating the Stock Market?)        [1 msgs]
+                    Party: I'm having a party (Jan 8 1994)            [1 msgs]
+                       Sex in Cyberspace Essay Contest                [1 msgs]
+                         the omniscient logician, not                 [2 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 53925 bytes.
+
+----------------------------------------------------------------------
+
+Date: Tue, 26 Oct 1993 07:56:11 -0400
+From: pcm@world.std.com (Peter C McCluskey)
+Subject: Neural Networks (was Beating the Stock Market?)
+
+ derek@cs.wisc.edu  (Derek Zahn) writes (in X-Message-Number:#93-10-807):
+>some of the tweaks are quite helpful.  As to cascade correlation,
+>I've never been very impressed with its ability to solve problems
+>with very large numbers of "input units" because of the epicycle-
+>style way new free parameters are added to the model.
+ 
+ As far as I can tell, all existing neural net algorithms are prone
+epicycle-style learning, but some do it better than others. To get
+the kind of paridigm shift needed to find the Copernican solution
+we need something more than gradient descent, probably more like
+genetic programming (although current attempts at GP operate on
+components that are too low level to produce that kind of paradigm
+shift).
+ To phrase the difference between cascade correlation and standard
+backprop in epicycle-style terminology, cascade correlation typically
+trains the first hidden unit to reproduce the most obvious cycle, then
+trains the next hidden unit to add the next most obvious cycle, etc.
+Whereas algorithms that train all hidden units in parallel start by
+training a lot of the hidden units to reproduce the most obvious cycle,
+then as the entire set of hidden units succeeds at predicting the
+most obvious cycle, a number of less successfull hidden units get
+retrained to add in the next most obvious cycle, etc., resulting in
+concepts being spread out over a much larger number of units in standard
+backprop than in cascade correlation.
+(Although this would probably make cascade correlation less useful
+for a biological implementation at the single neuron level because
+it would not withstand damage as well).
+
+----------------------------------------------------------------------------
+Peter McCluskey >>> pcm@world.std.com >> pcm@macgreg.com >> pcm@cs.brown.edu
+----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Tuesday, 26 October 1993 07:25:15 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: the omniscient logician, not
+
+In <9310260438.AA20447@netcom6.netcom.com>, dasher@netcom.com (D. Anton Sherwood)  wrote:
+
+> understand, through a chain of reasoning that you and I have both implicitly
+> denied by not being Leninists, conclusions with which I may or may not
+
+This is incoherent and bizarre.  Since Lenin was a relativist and a 
+moral subjectivist your statement is exceedingly strange.  Could you 
+clarify, or perhaps restate in different words.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Tue, 26 Oct 1993 10:08:22 -0400
+From: Rens Troost <rens@lorax.imsi.com>
+Subject: Alien Message
+
+Patrick Says:
+
+> Can anybody tell me why a plain text message I sent to the list
+> appeared in PGP armored form?
+
+I believe the colloquial term for this (from some comp.mail.*
+flamewar)  is 'cybercrud', and it's taking over. :)
+
+-Rens
+
+------------------------------
+
+Date: Tue, 26 Oct 1993 08:21:48 -0800 (PDT)
+From: sameer@infinity.hip.berkeley.edu (Sameer)
+Subject: KIDS/POLI: "Emancipated Minor" status ?
+
+>   Neither of us has any interest in proving anything to the 'society'.
+> Except for the cases when it is necessary for personal growth and freedom.
+> >From this point of view, the 'emancipated minor' status might be useful
+> to have.  Maybe, something else too?
+	This *might* be a California only thing, but from my [limited]
+understanding, I think (having talked to someone who has been granted
+emancipated minor status) that emancipated minor status requires
+financial independence.
+
+------------------------------
+
+Date: Tuesday, 26 October 1993 08:14:40 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: the omniscient logician, not
+
+Some time ago I argued that Anton's premises led to
+conclusions that were obviously false, and which he knew
+were obviously false.  He made a reply which I found very
+difficult to understand.
+
+In his reply (<9310260438.AA20447@netcom6.netcom.com>,
+dasher@netcom.com (D. Anton Sherwood))
+
+he used the phrase "concept space"
+
+The phrase "concept space", used in the manner he used it,
+seems to imply that all concepts have equal rights - an
+extreme subjectivist, indeed solipsic view.  Since Anton
+is not rolled in a ball sucking his thumb, I assume he is
+not in fact a solipsist.
+
+I use language which presupposes that concepts can be true
+or false, in that they correspond to the world, or fail to
+correspond to the world, that certain concepts are
+privileged by being true, and others not, that there is a
+real world that the concepts are intended to apply to.
+
+If Anton wishes to communicate, I urge him to use this
+kind of language.
+
+If he uses language that implies that nothing exists, or
+that existence is not knowable, then not only is
+impossible to discuss the matters under discussion, it is
+impossible to discuss anything whatsoever.
+
+When discussing other matters, he uses realist language. 
+Indeed he has no alternative, because in the language of
+solipsism, it is meaningless to discuss anything.
+
+By using the kind of language he is using, he is
+deliberately speaking without communicating.  He simply
+wishes to say "You are wrong", without giving a reason,
+while sounding as if he is giving reasons.
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Tue, 26 Oct 93 11:55:14 EDT
+From: eli@suneast.east.sun.com (Elias Israel - SunSelect Engineering)
+Subject: BIO: Researcher clone human embryos article
+
+Ray Cromwell writes:
+>   Could anti-biotech memes simply be a leftover survival mechanism (selfish
+> genes)? It seems most people are universually opposed to designer humans.
+
+Perhaps, but I think that much of the current distaste for genetic research
+arises from the early Nazi perversion of the theory of genetics into their
+"master race" drivel. Plus, you'll always hear objections to this sort of
+thing from those who call it "playing god." Let's not forget that the
+vast majority of humanity finds it unnatural to imagine life without being
+subject to some kind of supernatural authority and are frightened by anyone
+who doesn't share their particular delusion.
+
+During the 50's and 60's, we went through a period during which our culture(s)
+clearly echoed a popular fear of computers. They were thought to be on
+the verge of throwing people out of work, making humans idle and useless,
+and so on. This fear has largely vanished (or been seriously diminished)
+because widespread access to computer technology has enabled people to
+see the benefits and compare them (quasi-)rationally with the supposed dangers.
+
+Now we're seeing a spate of anti-biotech fears (especially anti-gene tech)
+in the form of movies like "Jurrassic Park", "Man's Best Friend" (check
+for it in your local theatres, it looks unbelievably bad), etc. This too
+will pass when advanced bio-tech and genetic therapy start saving people's
+lives in a major way. I expect that we have a handful of years to go before
+people start seeing the real, concrete benefits and start comparing them
+with the Chicken Little pronouncements. When they do, movies about the
+dangers of bio-tech will seem as quaint and outdated as movies about
+egomanical computers.
+
+Elias Israel
+eli@east.sun.com
+HEx: E
+
+------------------------------
+
+Date: Tue, 26 Oct 93 09:05:45 -0700
+From: jamie@netcom.com (Jamie Dinkelacker)
+Subject: Party: I'm having a party (Jan 8 1994)
+
+/hawk
+I've written it in my calender, albeit in pencil (life of an entrepreneur...)
+Jamie
+
+
+------------------------------
+
+Date: Tue, 26 Oct 93 12:18:03 -0400
+From: walter kehowski <wak@next11.math.pitt.edu>
+Subject: Extropy #3
+
+Extropians and fellow humans,
+  Extropy#3 is out of print. Does anybody have a copy available for sale or  
+could you mail me a copy? I was thinking, say, $5, for your trouble. Walter A.  
+Kehowski
+wak@next0.math.pitt.edu
+
+------------------------------
+
+Date: Tue, 26 Oct 1993 12:34:25 -0400
+From: Duncan Frissell <frissell@panix.com>
+Subject: KIDS/POLI: "Emancipated M
+
+S >I never heard about this status!  Could you please give me some
+S >reference about this 'emancipated minor' status, what rights does it
+S >give, and how does one get it?  Is there a minimal age for this status?
+
+You must have missed my talk at San Francisco's Gorilla Grotto in 1979 
+"Free *Your* Slaves -- Why Parents Should Emancipate Their Children." 
+
+There are four ways for children to be emancipated:
+
+1) By declaration of the parents
+2) By acquiescence of the parents to the child's leaving home
+3) By court action
+4) By reaching the age of majority.  Now 18 in most (all?) states.
+
+1), 2), and 3) have no specific age limits although a court is unlikely to 
+emancipate or recognize the emancipation of children younger than 16.
+
+You can emancipate your 10 year old by declaration (sample form in most 
+general legal form books), but you still have to support him.  
+Emancipation *does* have psychological significance especially if you make 
+a ceremony of it.  Libertarian parents should emancipate their children 
+for consistency.  (TJ and slaves, you know).  Such emancipation does have 
+legal effect in that by it you renounce all your claims on the income of 
+your minor children.  At common law, parents had a right to the labor and 
+income of their minor children.  These days, they usually have to hold 
+such funds "in trust" for the kid but they can blow some for reasonable 
+support expenses.
+
+By all means, emancipate your kid, give him the certificate and he can 
+show it to whoever he likes.  Might blow their minds.  "I'm free, you're a 
+slave."  Hope he wouldn't be too rough on others.
+
+The courts would not really attach any significance to such as act (except 
+as regards income) but it might be evidence actual emancipation when he 
+gets older.
+
+Duncan Frissell
+
+Who has meant to get a copy of an Emancipation Form from the law library 
+for years to scan in.  RSN...
+--- WinQwk 2.0b#1165   
+
+------------------------------
+
+Date: Tue, 26 Oct 1993 13:15:41 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Extropy #3 
+
+walter kehowski says:
+>   Extropy#3 is out of print. Does anybody have a copy available for sale or  
+> could you mail me a copy? I was thinking, say, $5, for your trouble.
+
+No one who has one will admit to it, and its extremely unlikely anyone
+would part with it for a mere $5.
+
+Perry
+
+------------------------------
+
+Date: Tue, 26 Oct 93 18:11:14 GMT
+From: jrk@sys.uea.ac.uk (Richard Kennaway)
+Subject: Extropy #3
+
+Perry Metzger writes:
+>No one who has one will admit to it, and its extremely unlikely anyone
+>would part with it for a mere $5.
+
+Just what is so shocking about #3?  I've only heard mysterious mutterings
+about an article therein (on drugs?) being unwise to generally distribute.
+
+If anyone would like to make me a copy for a reasonable fee (with the
+permission of the copyright holders, of course), I'd be interested.
+
+Of course, if someone cares to scan it in and email it via the cypherpunk
+anon remailers, well, my public key is available by "finger -l
+jrk@sys.uea.ac.uk".  Not that I am asking anyone to do any such thing.
+
+--                                  ____
+Richard Kennaway                  __\_ /    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk      \  X/     University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk    \/       Norwich NR4 7TJ, U.K.
+
+
+
+------------------------------
+
+Date: Tue, 26 Oct 93 15:38:01 EDT
+From: fnerd@smds.com (FutureNerd Steve Witham)
+Subject: Help!
+
+Ratha--
+
+Mail this sort of thing to extropians-request@extropy.org
+It's a convention                    ^^^^^^^^
+for administrative messages about mailing lists.
+One problem the list software has is if somehow your return address
+when a message gets to it is slightly different from the one you
+told the list people when you signed up.  Then it thinks you're not
+a member...
+
+--Steve
+
+------------------------------
+
+Date: 	Tue, 26 Oct 1993 12:29:51 -0700
+From: John K Clark <johnkc@well.sf.ca.us>
+Subject: Free Will
+
+On Fri,22 Oct 1993 (Stephen J. Whitrow) sjr@liberty.demon.co.uk Wrote:
+			      
+		>it's not difficult to imagine that these memecomplexes are
+		>not totally determined by environment (or even genetically!)
+		
+Yes, I can also imagine that but I don't think this de-coupling
+from environmental causation has much to do with creativity and
+I am absolutely sure it has nothing to do with rational thought.
+( Please note I said I was "absolutely sure" I did not
+say I was correct, a very different thing. A person can be
+absolutely positively 100% certain of something and still be
+dead wrong, in fact it's very common.) 
+
+		> I suspect an individual's memetic development is rather
+		>Lamarckian.
+		
+Excellent point. It's a pity nature never thought of how
+acquired characteristics could be inherited. The two parts of
+Darwinian Evolution, random mutation and deterministic natural
+selection, work  but its horribly slow, it took 15 billion years
+( give or take a few billion) to produce us. Fortunately we
+found a better way in Human Thought. Memes evolve mostly by
+Lamarckian not Darwinian methods , and that's why Social
+Evolution is about 100 million times faster than physical
+evolution and its accelerating. Randomness plays no important
+constructive part although natural selection has a strong
+supporting role. I don't see how randomness can be our friend
+any more than entropy can be, except in a few minor cases in
+statistics.
+		
+		> under the causality axiom, caused events are unfree and
+		>random events are free, so we've either got "will" or
+		>"freedom" and not the two together.
+		
+Even if the world were totally deterministic (and we know it
+isn't) we would still have a feeling of choice and we could
+still be FREE to do what we want to do ; it's just that "what we
+want to do" would be caused by something else.
+		
+	   >We can also choose to make random arational decisions if we
+	   >want, and this is "free will".
+	   
+Could be true but it's not very useful because it doesn't really
+answer anything, it just kicks the problem upstairs. How do we
+choose to make random arational decisions? It's like religious
+people who say "God must exist because something must have made
+the Universe" but they never think to ask the question "Who made
+God?".
+	   
+		>purpose and order can arise spontaneously.  It doesn't have
+		>to be created, as Darwin showed us.  
+		
+When talking about purpose you have to ask " purpose for who?".
+What is the purpose of a violin? To the manufacturer the purpose
+was to get a paycheck. To a drowning man it's purpose was to act
+as a life-preserver. To a musician it's purpose was to make
+music and to his tone deaf child it's purpose was to be used to
+swat a wasp.
+
+I agree that order can arise spontaneously but something can be
+unplanned and still be deterministic. When water freezes nobody
+planed it and randomness was not involved yet the atoms
+organized into an ordered lattice. Because Darwinian evolution
+has a random component it  is inherently inefficient and cruel.
+I much prefer a deterministic process to produce order, like
+Lamarckian evolution. We can do things better than nature did,
+and speaking of nature ...
+
+		>Electricity is involved in the brain, but I think the
+		>difference is that having electrodes                    
+		>connected up whilst undergoing brain surgery is not 'natural'
+		
+Neither is talking on the telephone, using a computer, watching
+TV or reading a book yet these things change our thoughts,
+desires and behavior. If ,like the electrodes, they just give us
+a "illusion" of free will, how can we tell if were ever really
+free? I don't much like natural things myself, after all nothing
+is more natural than death.
+		
+		> the functionalists believe a science of conscious
+		>intelligence can claim a discontinuous autonomy from 
+		>established natural sciences such as physics and
+		>biology on the grounds of a unique feature.
+		
+I don't think that's quite right but it may contain a particle
+of truth. Your very  interesting ideas about the many minds
+model of Quantum Mechanics gives me the courage to write some
+wild  speculation , but I'm not sure I even agree with much of
+it .An early version of Microsoft Flight Simulator had a bug ,
+if you flew upside down and pushed the stick forward you would
+fall up. Did the laws of Physics really change? Yes and no, it
+depends on what level your talking about. To the objects in the
+simulated world the laws of physics did indeed change, you can
+make them anything you want. To the objects in our own world
+nothing changes. Perhaps consciousness is like this. At the
+level of  quantum jumps or neuron firing my mind is not real but
+to another conscious being it is real because were both on the
+same level. Our entire universe could be a simulation, the
+strangeness in Quantum Mechanics could be the result of flaws or
+lack of resolution in some vast cellular automation that we only
+notice if we look too closely. 
+		
+In a similar way we could say that nothing means anything
+without an interpretation. imagine a parallel world in which the
+people use the same English words we do but they mean different
+things, sky means dog, beauty means potato etc. In one such
+world this post would mean a vigorous defense of socialism in
+another it would mean hard core pornography and in another it
+would mean the operating instructions for a new type of can
+opener. The words and the shape of the letters are the same in
+all cases but they really don't mean anything, its just a bunch
+of squiggles, until you use an interpretation, in this case the
+rules of language. Change the interpretation and the meaning
+changes.
+		
+Hans Moravec calls these ideas "Universal Realization" and is
+currently writing a book about it. His main points:
+		
+1) Anything can simulate anything.
+
+2) A simulated object is a real object in it's own world.
+
+3) Nothing means anything without an interpretation.
+
+4) A thing can have more than one interpretation.
+
+5) A mind is the one thing that has it's own self consistent
+interpretation inherent within it; in fact that is the
+definition of a mind (although you would still need an
+interpretation to make contact with it).
+
+Concerning #5, to communicate with another person the
+interpretation is straightforward, if the person smiles he is
+happy, if they make sounds with their mouth we find meaning in
+them from the rules of grammar, but Moravec goes as far as to
+say that a interpretation must exist that can find a mind even
+in a rock. The reason we can't detect them is that were too
+stupid. The interpretation is so hideously complex that as a
+practical matter their workings are indistinguishable from
+random thermal vibrations.
+
+Minds in rocks? Well... maybe.  
+			       John K Clark              johnkc@well.sf.ca.us
+
+
+
+
+------------------------------
+
+Date: Tue, 26 Oct 1993 20:00:09 -0400 (EDT)
+From: Christina M Grimes <ratha+@CMU.EDU>
+Subject: Admin: Your E-mail address
+
+Please change my main email address to "ratha+@cmu.edu", as in the from
+field of this message, and not "cg39+@andrew.cmu.edu" or
+"ratha.*@*.cmu.edu". Thanks.
+
+Ratha
+
+------------------------------
+
+Date: Tue, 26 Oct 93 17:32:54 PDT
+From: GRAPS@galileo.arc.nasa.gov
+Subject: Sex in Cyberspace Essay Contest
+
+Hello E-Folks!
+
+Last week I attended and gave a talk at a planetary
+science conference in Boulder, CO, a place where I
+used to live.  As I wandered through some of my old
+haunts near the university, I found the following
+gem.  A used record/CD shop called "Trade-A-Tape"
+had information at their counter with entry forms
+for the following contest.  I grabbed the entry
+form out of curiosity, and have copied it exactly
+into the following.  I'm not sure if I will enter, 
+but some of you might want to.  Since this is not
+the "Official" entry form, I suggest just getting 
+this to fit on a 8 1/2 x 11 sheet of paper, and
+sending it to the San Francisco address listed at
+the end of this form.
+
+Have Fun!
+
+Amara Graps		AMARA on HEx
+			graps@gal.arc.nasa.gov
+
+P.S. I don't know what "Cybororgasm" is, so don't
+ask! Maybe some of our more enlightened readers can
+tell us? Hmm??
+
+--------------cut here------------------------------
+
+
+		CYBORORGASM
+
+	    "Sex in Cyberspace"
+	    
+	    Essay Contest Form
+
+
+Name_______________________I am over 18____________
+
+Address____________________________________________
+
+City________________________State_______Zip________
+
+Phone (   )_______________ Record Store____________
+
+
+Lately, there's been a lot of talk about how virtual
+reality will affect our lives over the coming years.
+The hottest topic is about the role computer, virtual
+reality and products like _Cybororgasm_ will play in
+our erotic lives.  With this in mind, tell us your 
+thoughts on the subject: "What is Sex in CyberSpace?"
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+____________________________________________________
+
+		WIN!
+Grand Prize! Macintosh Classic Computer
+Second Prize! Sony CD Walkman & Headphones
+Third Prize! Years supply of "cyberrubber" condoms
+
+
+		CONTEST RULES
+
+Sex in Cyberspace Essay Contest Rules:
+
+1) Contestants in the contest must be over the age of 18.
+2) Contestants should write a short essay in response to
+the question "What is Sex in Cyberspace?"
+3) Answers should be 100 words or less.  Print neatly so 
+judges will be able to read your essay.
+4) Answers should be written on this official "Sex in Cyberspace
+Essay Contest" form, or on 8 1/2 x 11 lined paper.  Be sure to 
+include your name, address, and phone number.
+5) After completing the entry form you may submit it to your
+participating retailer. They will forward your entry directly to 
+Algorithm.
+6) Essays will be judged on creativity, originality and writing 
+style.
+7) Entries must be postmarked by midnight December 31, 1993 to 
+qualify.
+8) Winners will be announced on January 20, 1994.
+9) Algorithm employees and their families may not enter.
+10) No purchase is required to enter.
+11) Only one entry per person please.
+12) This contest is void where prohibited by law.
+
+Send to:
+
+Algorithm Sex in Cyberspace Contest
+2325 Third Street #339
+San Francisco, CA  94107
+
+
+------------------------------
+
+Date: Wed, 27 Oct 93 01:37:17 GMT
+From: 1@eternity.demon.co.uk (Russell Earl Whitaker)
+Subject: MEETING: UK Cryptoprivacy Association
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+UK Cryptoprivacy Association meeting
+
+Date:  Sunday, 31 October 1993
+Time:  1430
+
+At the offices of:
+
+   FOREST
+   4th floor
+   2 Grosvenor Gardens
+   London   SW1W 0DH
+
+[ FOREST is located at the corner of Grosvenor Gardens and Hobart
+  Place, a couple of blocks west of Victoria Station. There is a 
+  taxi shelter across the street from the office. Those who have 
+  trouble finding this location can page Russell Whitaker on  
+  081-812-2661, and stand by the payphone or cellphone for a callback. ]
+
+The UK Cryptoprivacy Association has its roots in the U.S. cypherpunk 
+advocacy of strong personal cryptography.  The next UKCA meeting, to be 
+held at the offices of FOREST (see the above), will feature roundtable 
+discussion on such issues as:
+
+    - The recent well-publicised discovery of a larger number of U.S. 
+        National Security Agency (NSA) electronic listening posts 
+        than had been previously suspected;
+    - Further news on the spread of freely-available public key 
+        cryptography software in Eastern Europe, Russia, and the 
+        Transcaucasian states;
+    - The status of the various UK and Moscow PGP public key servers and 
+        software archive sites, with input from a couple of maintainers 
+        of these services in the UK;
+    - The implications of the legal controversy surrounding the 
+        development and distribution of PGP encryption software in the 
+        U.S., with further discussion on the possibility of volunteer 
+        contributions to Phil Zimmermann's legal defence fund;
+    - Introduction to public key cryptography for novices
+
+Attendees are encouraged to bring and exchange diskettes with their 
+PGP public keys.  A few of us will bring along our MS-DOS laptops, to 
+sign public keys on site.  In the interest of speeding things along, it is 
+recommended that all keys signed at the meeting be submitted later, with 
+their newly appended signatures, to the PGP Key Server at Demon 
+Internet Services.  Send a message with the subject line "help" to 
+pgp-public-keys@demon.co.uk, for more information.  PGP (Phil 
+Zimmermann's "Pretty Good Privacy") public key encryption software can 
+be obtained by ftp from, among other places, ftp.demon.co.uk in the 
+directory /pub/pgp.  Versions include, but are not limited to, Unix, 
+MS-DOS, Archimedes, and MacOS.  Full source code is available.
+
+This meeting will also feature discussion on the upcoming First European 
+Conference on Computers, Freedom and Privacy (ECFP '93) to be held on 
+20 November 1993, which will feature speakers including John Gilmore, 
+David Chaum, and Duncan Frissell, as well as a representative of the 
+UK's Data Protection Registry.
+
+Russell Earl Whitaker
+ECFP Ventures Ltd
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3
+
+iQCVAgUBLLTAC4Tj7/vxxWtPAQGxdQP9G7uFHCcLJeSTTOBKYFBck2PpVk/jvWyM
+bxRg0stdjuWpHkIIZHAq4koh9BfUo46N3WOIG95SlfuRLVxzm3WmvKV7PJKhyfdh
+pFoYIwB2UcAknLPJva5eFBpi1VdDAMqv9G7qQfkoJQGXNAOlmh9GKhZkeLIeqVwv
+qfb7Q2SjLaI=
+=4OyJ
+-----END PGP SIGNATURE-----
+
+Russell Earl Whitaker                   whitaker@eternity.demon.co.uk
+Communications Editor                                 AMiX: RWhitaker
+EXTROPY: The Journal of Transhumanist Thought
+Board member, Extropy Institute (ExI)
+    Co-organizer, 1st European Conference on Computers, Freedom and
+    Privacy, London, 20 November 1993
+
+
+
+
+
+------------------------------
+
+Date: Wed, 27 Oct 93 01:39:04 GMT
+From: 1@eternity.demon.co.uk (Russell Earl Whitaker)
+Subject: CONFERENCE: The Security Services: Are They a Threat to Freedom?
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+
+Libertarian Alliance
+
+One Day Conference
+
+THE SECURITY SERVICES: ARE THEY A THREAT TO FREEDOM?
+
+Date: Sunday, 14 November, 1993
+
+(PLEASE NOTE THAT THIS CONFERENCE IS ON A SUNDAY, 
+ AND NOT A SATURDAY AS IS OUR NORMAL PRACTICE)
+
+Admission: 5.00 pounds UK per person.   By ticket only.
+
+Venue: The Jubilee Room 
+       The New Cavendish Club 
+       44 Great Cumberland Place 
+            (entrance in Upper Berkeley Street)
+            London  W1H 8BS 
+       (Nearest tube: Marble Arch)
+
+10.30am - 11.00am   Arrival - Tea and Coffee will be served
+                    Introduction by Simon McIlwaine, 
+                    Conference Chairman
+
+11.00am - 12.00pm   Brian Crozier  
+         "The Security Services and Their Role in A Free Society"
+
+12.00 Noon - 12.30pm  Discussion
+
+Brian Crozier is one of Britain's leading thinkers and writers 
+on foreign policy and defence issues.   His books include 
+Strategy of Survival, The Rebels, A Theory of Conflict, Neo-
+Colonialism, The Future of Communist Power, The Minimal State 
+and The Struggle for the Third World.  His autobiography, Free Agent, 
+was published this year and extracts were serialised in The Times. 
+
+
+12.30pm - 1.30 pm  Lunch Break
+
+
+1.30pm - 2.30pm    Robin Ramsay  
+        "Unsupervised and Uncontrolled: The Problem of Security 
+         Services in a Free Society" 
+
+2.30pm - 3.00pm    Discussion
+
+Robin Ramsay is editor of Lobster, Britain's premier, and 
+highly respected journal on  parapolitics, "conspiracy" and the 
+"secret state".   He is co-author of Smear: Wilson and the Secret 
+State and has contributed to a wide range of publications, 
+including Tribune, Open Eye, and The Times Higher Education Supplement.
+
+
+3.00pm - 3.15pm    Tea Break
+
+
+3.15pm - 4.15pm    Larry O'Hara    
+        "Searchlight Magazine: A Case Study in Secret 
+         State Media Manipulation" 
+
+4.15pm - 4.45pm  Discussion
+
+Larry O'Hara is an independent researcher into fascism and 
+the "secret state".  He is currently completing his Ph.d on 
+"The National Front, 1986-1990" at Birckbeck College.   His articles 
+include "Notes From the Underground: British Fascism 1974-1992" 
+in Lobster and "British Fascism: The Persistence of Anti-Semitism" 
+in Return.
+
+
+4.45pm - 5.45pm   Brian Micklethwait 
+        "What Should Libertarians Do About the Spies?"
+
+5.45pm - 6.15pm  Discussion
+
+Brian Micklethwait is Editorial Director of the Libertarian 
+Alliance.   He appears regularly on British television and radio 
+on behalf of the LA as well as speaking widely at universities and 
+political meetings.   As well as his writing for the LA, he has 
+contributed to such publications as Economic Affairs, Gay News 
+and Ideer Om Frihet.
+
+6.15pm  Close of Conference
+
+- ---------------------------------------------------------------------
+Please send me ... ticket(s) for the LA Conference 
+          "The Security Services: Are They a Threat to Freedom?" 
+           on Sunday, 14 November, at 5.00 pounds UK each.
+
+I enclose a cheque/postal order/cash payable to the 
+Libertarian Alliance, for ......
+
+Name:    ....................................................
+
+Address: .................................................
+
+         .................................................
+
+         ............................. 
+         
+Tel:     ..............
+(Useful if we have to notify you of any last minute changes)
+_____________________________________________________________________
+Please Return by First Class Mail to: 
+    
+    Chris R. Tame 
+    Director 
+    Libertarian Alliance 
+    25 Chapter Chambers 
+    Esterbrooke Street 
+    London  SW1P 4NN
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3
+
+iQCVAgUBLM0FDoTj7/vxxWtPAQGhQwQAuhIjIa11jqmRwIpb9JHQqwjaCa/3IhWH
+b34HfewITnM1q/lzTCdFk/YU/6cAGC+0rdinLjJcb1wadXo5wx+dyeScFr7yaEaN
+fAgD349hA03Xng8Wt0NLJVawPd9nguIeoslwMf6Z2m/iYa89xpfaRU/AvhUZg4lP
+6A2DyUOXaI4=
+=F5u2
+-----END PGP SIGNATURE-----
+
+Russell Earl Whitaker                   whitaker@eternity.demon.co.uk
+Communications Editor                                 AMiX: RWhitaker
+EXTROPY: The Journal of Transhumanist Thought
+Board member, Extropy Institute (ExI)
+    Co-organizer, 1st European Conference on Computers, Freedom and
+    Privacy, London, 20 November 1993
+
+
+
+
+
+------------------------------
+
+Date: Wed, 27 Oct 93 02:16:43 GMT
+From: Russell Earl Whitaker <russell@eternity.demon.co.uk>
+Subject: CONFERENCE: European Computers, Freedom & Privacy
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+ECFP '93:
+The First European Conference on Computers, Freedom and Privacy
+
+The New Cavendish Club
+London, England
+
+20th November 1993
+
+
+Organised by ECFP Ventures Limited
+
+Co-operating organisations :
+  The Libertarian Alliance
+  Privacy International, UK
+  UK Cryptoprivacy Association
+
+
+SCOPE
+- ----------------------------------
+
+The widespread use of computers and 
+communication systems has brought considerable 
+benefits to our business and personal lives and will 
+continue to change and shape the way in which we 
+live. However, with those benefits come unprecedented 
+threats to our personal privacy and potential for abuse.
+
+A variety of different models for protection of 
+individual privacy in the electronic age have been 
+suggested, ranging from state regulation to individual 
+action through the use of strong cryptography. 
+However, these solutions bring with them their own 
+class of problems, including excessive state 
+involvement in private matters and the frustration of 
+law enforcement and national security objectives.
+
+The First European Conference on Computers, 
+Freedom and Privacy will both provide an introduction 
+to these issues and the technological developments 
+that drive them, and examine different ways in which 
+individual rights can be guaranteed. These questions
+are central to the preservation of a free society in the 
+Information Age.
+
+John M. Brimacombe
+Conference Chair
+
+
+KEYNOTE SPEAKER
+- ----------------------------------
+
+John Gilmore
+Email: gnu@cygnus.com
+
+JOHN GILMORE is Chairman of the Board of Cygnus
+Support, who provide commercial support for free 
+software. As founder and board member of the 
+Electronic Frontier Foundation and the Cypherpunks, 
+he has campaigned extensively for electronic privacy. 
+John will speak on building a society in which 
+personal privacy is guaranteed through the use of 
+strong cryptography.
+
+
+
+OTHER SPEAKERS
+- ----------------------------------
+
+John Brimacombe (Chairman)
+Email: john@mantis.co.uk
+
+JOHN BRIMACOMBE is the Managing Director of Jobstream Group
+plc, developers of business software. A graduate in 
+both law and computer science, he was an advisor to 
+CFP '93 in San Francisco.  John will serve as conference
+moderator.
+
+
+Simon Davies
+Email: davies@privint.demon.co.uk
+
+SIMON DAVIES is Director General of Privacy International and
+a member of the School of Law at the University of 
+New South Wales.  He will be looking at new developments
+in surveillance and ways of combating them.
+
+
+Tom Burroughes
+Email: tom@reptile.demon.co.uk (after 10 October 1993)
+
+TOM BURROUGHES is Deputy Chief Reporter with the East Anglian Daily
+Times in Ipswich, England. He will be giving a journalist's point
+of view on privacy issues, including recent incidents involving
+eavesdropping on cellular telephones, and the roles of various
+corporate and government bodies in the recent adoption of
+cellphone signal encryption standards in the UK.
+
+
+David Chaum
+Email: chaum@digicash.nl
+
+DAVID CHAUM is head of the Cryptography Group at the Center for
+Mathematics and Computer Science (CWI) in Amsterdam, and
+founder of DigiCash, which develops electronic payments systems.
+Dr. Chaum received his Ph.D. in computer science from the University of
+California, Berkeley, in 1982, and joined CWI in 1984. He helped to
+found the International Association for Cryptologic Research and
+remains active on its board.  David also consults internationally on
+cryptology.
+
+
+Duncan Frissell
+Email: frissell@panix.com
+
+DUNCAN FRISSELL is an attorney, technical author and consultant
+on matters of personal and financial privacy. Duncan will speak on
+"Traditional Privacy in the Electronic Age".
+
+
+Elaine Fletcher
+
+ELAINE FLETCHER is Assistant Solicitor for Eric James Howe,
+Data Protection Registrar (UK). Elaine will
+speak on issues arising from the Data Protection 
+regime established under the 1984 Data Protection Act.
+
+
+Chris Tame
+
+CHRIS TAME is the Director of the Libertarian Alliance
+and Director of the smokers rights group FOREST, as well as UK
+representative of the Libertarian International.  He
+has written extensively for such academic journals as /Science
+and Public Policy/, /Economic Affairs/, and /The Jewish Journal
+of Sociology/, and such books as *The Case For Private
+Enterprise* and *The Politics of Crime Control*. He appears
+regularly on radio and television in the UK.  Chris will speak on the
+libertarian views of data protection and privacy.
+
+
+Russell Whitaker
+Email: whitaker@eternity.demon.co.uk
+
+RUSSELL WHITAKER, conference co-organiser, is a consultant
+on electronic communications, a director of ECFP Ventures Ltd and
+communications editor of Extropy magazine.  Russell will
+speak on the composition of, and influences upon, the electronic
+community in Britain today, and how public policy affects those
+on computer bulletin boards and online services.
+
+
+
+PROGRAMME
+- ---------------------------------
+
+Registration       9.30 - 10.00 am
+
+First session     10.00 - 11.30 am
+  BREAK           11.30 - 11.50 am
+
+Second session    11.50 am - 1.20 pm
+  BREAK            1.20 - 2.20 pm
+
+Third session      2.20 - 3.50 pm
+  BREAK            3.50 - 4.10 pm
+
+Fourth session     4.10 - 5.40 pm
+
+PANEL SESSION      5.40 - 6.20 pm
+Closing remarks    6.20 - 6.30 pm
+
+
+Lunchtime is the break after the second session, and lunch
+itself is not included in the price of the conference.  There
+are pubs and restaurants in the immediate vicinity.
+
+Coffee, tea and biscuits will be on sale through the day, however.
+
+
+Registration form:
+- ---------------------------------
+
+NAME                _____________________________________
+
+JOB TITLE           _____________________________________
+
+ORGANISATION/AFFILIATION        _________________________
+
+              ___________________________________________
+
+
+MAILING ADDRESS     _____________________________________
+
+     ____________________________________________________
+
+     ____________________________________________________
+
+     ____________________________________________________
+
+
+TELEPHONE     ___________________________________________
+
+FAX           ___________________________________________
+
+E-MAIL        ___________________________________________
+
+
+IMPORTANT NOTE: only *fully* completed forms with full telephonic
+details will be accepted, to be used in the event of any
+emergency changes, such as change of venue.
+
+This is not optional.
+
+
+CLASS OF REGISTRATION :
+[Prices are Pounds Sterling]
+
+   Student                         10.00  ($16.00 U.S.)
+   Normal                          17.50  ($28.00 U.S.)
+     Normal before 1 Nov 93:       15.00  ($24.00 U.S.)
+   Press                           (Contact for arrangements)
+
+MEANS OF PAYMENT:
+
+   - U.S. cheques/cash
+   - U.K. cheques/cash
+   - EuroCheques (tm)
+
+Unfortunately, due to bank conversion charges, we are unable to
+accept cheques drawn on other overseas accounts, for payment of
+this year's attendance fees.
+
+
+PROCEEDINGS AND AUDIO/VIDEOGRAPHY
+- -------------------------------------------
+
+You may pre-order copies of transcripts of the proceedings,
+which will be shipped within 90 days after the conference:
+
+    "Please send me ____ copies of the conference
+     proceedings at 20 pounds each."
+
+Video and audio recordings will be made of the conference, in
+its entirety.  No pre-sales will be made; tapes go on sale in
+December 93/January 94.
+
+
+Cheques, made payable to "ECFP Ventures Limited",
+should be sent with this form to :
+   16 Circus Road
+   MM Box 8593
+   London  NW8 6PG
+   England
+
+Please direct any further enquiries to the above address, or:
+   ecfp-1st@eternity.demon.co.uk  (Email)
+   +44 81-812-2661  (Manned message service; quick response)
+
+
+HOW TO FIND THE NEW CAVENDISH CLUB :
+- ----------------------------------------------
+
+The New Cavendish Club is 2 minutes walk from Marble Arch
+Underground station.  Immediately turn right as you exit from
+the station onto Oxford Street.  Then take the first turning on
+the right, i.e. Great Cumberland Street.  The New Cavendish Club
+is 3 blocks north on the northeast corner of the intersection
+of Great Cumberland Street with Upper Berkeley Street.
+ 
+Address:
+  New Cavendish Club
+  44 Great Cumberland Place
+  London W1H 8BS
+
+
+- ----- Text ends ---------
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3
+
+iQCVAgUBLKjhjYTj7/vxxWtPAQGjQAP+NW1LOc806i0c3MmA2RiluzWmDKvFEPPm
+ibtU3tbqqF93fb0lqJ/z1q8DEtWeiG6LnLQ41IasIHDL6o7EmZEWXN6G17CDFLSk
+cQHCGaIpC9BkBI8VwnsPZIlItL5T+TkcOwLjdqp7x24tQ9uAm3BhpFLGMfLJAnwB
+xI/ZG0zMEIs=
+=QElR
+-----END PGP SIGNATURE-----
+
+Russell Earl Whitaker                   whitaker@eternity.demon.co.uk
+Communications Editor                                 AMiX: RWhitaker
+EXTROPY: The Journal of Transhumanist Thought
+Board member, Extropy Institute (ExI)
+    Co-organizer, 1st European Conference on Computers, Freedom and
+    Privacy, London, 20 November 1993
+
+
+
+
+
+------------------------------
+
+End of Extropians Digest V93 #299
+*********************************
+

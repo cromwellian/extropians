@@ -1,0 +1,384 @@
+From extropians-request@gnu.ai.mit.edu Mon Jul 19 22:31:02 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA19897; Mon, 19 Jul 93 22:31:00 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA08074; Mon, 19 Jul 93 22:30:56 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA20394@wookumz.gnu.ai.mit.edu>; Tue, 20 Jul 93 00:56:49 -0400
+Message-Id: <9307200456.AA20394@wookumz.gnu.ai.mit.edu>
+To: ExI-Essay@gnu.ai.mit.edu
+X-Original-Message-Id: <m0oI9nT-000hyDC@techbook.techbook.com>
+From: szabo@techbook.com (Nick Szabo)
+Subject: Comet Mining -- An Overview
+X-Original-To: extropians@gnu.ai.mit.edu, exi-essay@gnu.ai.mit.edu
+Date: Mon, 19 Jul 1993 21:59:26 -0700 (PDT)
+X-Extropian-Date: Remailed on July 20, 373 P.N.O. [04:56:48 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Comet Mining -- An Overview
+Copyright 1993 by Nick Szabo
+Permission to redistribute w/attribution granted
+
+-- Introduction --
+
+A relatively unexplored area of space development, comet mining, may 
+play a central role in cracking open the space frontier.  Volatile
+extraction, considered by this author and others[1] to be an important 
+near-term catalyst for large-scale space industrialization, involves
+the delivery and processing of volatile ice (water, methane, ammonia, 
+etc.) delivered via ice rocket from Jupiter-family comets,  which 
+have elliptical orbits between Earth and Jupiter.  A visual presentation 
+and marketing analysis were given in [2], technical presentations can be 
+found in [3-4], and various technical and marketing issues have been 
+discussed in [1].  Government [4,10] and commercial [9] organizations
+are starting to sponsor research in this area.  This paper attempts to 
+unite this information into a comprehensive introduction to comet mining.
+
+-- Comets, the Jupiter Family, and the Need for Volatiles --
+
+The only hard and fast rule to distinguish between comets and
+asteroids is that comets have been seen to outgas.
+Several asteroids have recently been reclassified as comets
+when outgassing was discovered, eg Charon.  The outgassing
+indicates active sublimating volatiles.  Asteroids either
+lack free volatiles or they never get warm enough to outgas.
+Different volatiles (H2O, CO2, CH4, NH3, etc.) outgas
+at different temperatures.  Objects in circular orbits
+tend to reach an equilibrium temperature where outgassing
+stops; all known comets are in elliptical or chaotic orbits 
+where temperatures change over the course of the orbit.
+
+By far the largest proportion of materials used by most
+processing industries are volatiles and organics.  This is true 
+for Earth industry -- oil for energy, wood for structure, plants
+and animals for food, and vast amounts of water and air
+for nearly industrial processes, which we often take for granted.  In 
+space, SSF expendables consist overwhelmingly of volatiles: air, water, 
+propellant, etc.  The most advanced theoretical technology, 
+worked out in detail by K. Eric Drexler[8] relies 
+primarily on volatile and organic materials, especially carbon.  The
+most promising microgravity industry, pharmaceuticals, would be
+dominated by volatiles and organics.  By far the greatest bulk
+of near-raw materials launched from Earth into space are volatile 
+propellants.  Even metals extraction and refining industries rely on 
+much larger amounts of air and water than they produce in metal product,
+and it is quite a leap to assume we can eliminate this dependency 
+without costly R&D efforts and while maintaining reasonable levels 
+of efficiency and thruput.
+
+That's bad news, given that practically all native
+materials work today has, for historical and political
+reasons, focused on the dry Moon, and to a lesser extent
+dry asteroids.  The good news is that volatile
+extraction from ice is much easier than trying to
+split oxidized metals into oxygen and metal (not to
+mention trying to capture solar wind particles for
+hydrogen, carbon, nitrogen, etc.).  Comet ice, full of 
+a rich diversity of water, nitrogen, and organic compounds, 
+is readily available.
+
+The best currently known targets for volatile extraction
+are the Jupiter-family comets.  These have been tossed into 
+the inner solar system by Jupiter, into highly elliptical orbits, 
+with perihelions as low as Mercury's orbit (0.4 AU) and aphelions 
+near Jupiter's.  Influenced by the inner planets, the orbits slowly 
+circularize.  Most of the perihelions are near 1 AU, although
+to some extent that's observational selection; we're less
+likely to see objects with perihelions at 2 AU, and ice there
+sublimates much more slowly.
+
+The comets live very short active lives on a geological timescale,
+100,000's to millions of years, but Jupiter's gravity well
+is quite hungry and continually replenishes the supply when
+comets wander its way from the Kuiper Belt or Oort Cloud.
+Some of these visitors get a rought welcome; we recently saw a
+comet calve into dozens of pieces as it swung in too close to 
+Jupiter.  Caught in orbit around Jupiter, these pieces, the
+largest c. 10 km diameter, are projected to collide with the gas 
+giant (on the far side, alas) in 1994[7].
+
+Most such comets are whipped into heliocentric orbit (ie orbit
+around the sun), with aphelion at Jupiter and perihelion
+in the inner solar system.  Over the comet's lifetime this orbit continues 
+to circularize until one of the following happens: (1) all the 
+volatiles exposed to the sun bake out, and the comet turns into an
+asteroid, or (2) perihelion increases, and volatiles 
+remain frozen during the entire orbit, again turning the
+comet into an asteroid.  For this, reason, many scientists
+believe that many earth-crossing asteroids, especially types
+C and D, may be old Jupiter-family comets, and some may still
+contain frozen volatiles.  We know that many earth-crossing 
+asteroids contain water, and perhaps ammonia, locked to the regolith by 
+hydration.  This is harder to extract.  We should consider
+these closer objects as alternate targets for volatile extraction,
+comparing the tradeoff in transport and equipment costs.
+
+Thousands of earth-crossing asteroids are believed to exist
+with round-trip delta-v's from Earth orbit lower than the
+lunar surface.   Jupiter-family comets take somewhat more energy
+to get to; escape + 8 km/s one way for good windows, shaving off
+a few km/s on the way there and/or the way back if we
+can use Venus, Earth, or Mars for gravity assist [1,3,5].
+With a slightly more sophisticated mission we can manufacture
+aerobrakes by sintering comet dust, eliminating most of the
+return delta-v [6].  A speculative method called
+"cometary aerobraking" has also been proposed [1].
+
+-- Ice Rockets --
+
+The industrial flexibility of volatiles makes its first 
+and most dramatic impact in deep space transportation technology.
+We can combine easily extracted native thermal propellants with a tankless 
+rocket design, eliminating the need to launch either propellant,
+tanks, or heavy electric powerplants from Earth.  The specific transport 
+technology that embodies this principle has been dubbed the "ice 
+rocket" [1].  The ice rocket design [1,2,3] consists of a long cylinder 
+about the same size and shape as a Space Shuttle's solid rocket booster, 
+but made out of ice and coated with a thin insulating paint.  To 
+this is attached a tiny thermal rocket, about the size of a fist, 
+and a  tiny nuclear reactor, or few square meters of mirror, 
+which concentrates sunlight on the rocket engine. The engine 
+slowly eats the ice, converting it into a high-velocity vapor 
+exhaust. The rocket engine is designed for minitiarization and 
+simplicity, so that dozens of them can be built and launched 
+on a small, commercial budget at launch costs not much 
+lower than today's.   A larger nuclear-powered design is
+presented in [4].
+
+To mass-produce the ice rockets we melt cometary ice and 
+purify it with a centrifuge, in some designs combined with
+an inflatable still.  We form the ice cylinder in two 
+steps. First we freeze a thin shell by wetting a large, cold 
+cylindrical form.  As this ice gets thicker, it freezes further 
+layers more slowly, so we start squirting small spheres
+across a shaded vacuum.  These spheres freeze on the 
+outside, then accumulate on the inside of the cylinder.  Soon 
+the cylinder is filled with partly frozen water, which will 
+continue to freeze over several years while the rocket travels 
+towards its destination.
+
+The icemaking equipment is the most important part of the 
+system.  It must  produce a very high ratio of  ice mass to 
+equipment mass (aka mass thruput ratio (MTR): output product
+per year divided by equipment mass launched from Earth).
+It must be automated and reliable; think of a tiny auto-maintained 
+sewage treatment plant. Other parts of the comet (organics, dirt, 
+etc.)  can be gathered and attached as payload.   The cylinder is 
+then attached to the small rocket engine, whose tiny thrust over the 
+course of two or three years delivers the payload to a variety of 
+destinations: orbits around the Earth, Jupiter, or Mars, the surface 
+of Earth's Moon, or to asteroids. To get to high Earth orbit we must 
+exhaust about 90% of the ice, or 80% if we take a  couple 
+extra years to use a gravity assist. (See [5] for patched-conic
+math to compute such trajectories, and [6] for safety issues
+involved in using Earth for gravity assist and aerobraking
+of various varieties and sizes of payloads).  We might also find hidden 
+in some Earth-crossing asteroids, in Martian moons, or at the 
+lunar poles, in which case more than 10% can be obtained. 
+
+If the output of the icemaking equipment is high, even 10% of 
+the original mass can be orders of magnitude cheaper than 
+launching stuff from Earth.  This allows bootstrapping: the 
+cheap ice can be used to propel more equipment out to the 
+comets, which can return more ice to Earth orbit, etc.  Today 
+the cost of propellant in Clarke orbit, the most important 
+commercial orbit, is fifty thousand dollars per kilogram.  The 
+first native ice mission might reduce this to a hundred dollars, 
+and to a few cents after two or three bootstrapping cycles.
+
+Furthermore, we can deliver volatiles not just to Earth orbit,
+but anywhere else in the inner solar system.  A volatile
+dump around Mars can slice an order of magnitude off the
+propellant needed to launch a large-scale mission to Mars.
+Comet volatiles are synergistic with lunar operations, adding
+the missing elements needed to make lunar exploration or
+industry productive.
+
+Once the volatiles and organics have been separated, they are
+fed to a series of chemical microreactors and converted to 
+essential  nutrients and construction materials for 
+greenhouses.  Greenhouses can be made in a very simple, 
+automated fashion, for example by pumping air
+into liquid polymer spheres which are then solidified and filled
+with nutrients and trellises for the crop.  The crops grow not
+only pharmaceuticals, but also fiber and resins to provide structural 
+strength for further greenhouses, and genetically engineered 
+enzymes are extracted and used in the chemical 
+microreactors.  The greenhouses contain a low pressure (c.
+1/5 atm), CO2-rich atmosphere to facilitate the growth of
+genetically modified fiber plants while keeping the engineering
+task of building the pressure vessels minimal.
+
+Methane, ethane, and several other hydrocarbons have been seen in
+varying abundance (<1% to 5% for methane) in comets.  If you want
+to get rich in 2020, design a system to extract the methane from
+the water & ammonia ice and the gravel/muck of comets, perhaps 
+manipulating a large gas/plasma interface (cf. comet tail dynamics).
+
+A refinement of the ice rocket manufacturing process
+is a 3D printer to produce very large structures.  Shoots droplets of 
+several kinds of materials following a digital pattern.  For example a 
+high-temp-sublimating ice, a low-temp-sublimating ice, and a
+ceramic slurry.  The target object forms on a very large, cold 
+radiator in the shade.  The goal is to have the particles mostly 
+freeze before they impact the target, but nevertheless stick to and
+accumulate on precise points on the target (in 3-space, layer
+by layer) without too much splatter.  If the target itself must
+freeze the droplets we run into heat conduction problems pretty
+soon, and the target object couldn't get very thick.   The
+low-sublimating-point ice allows hidden surfaces to be "etched" by
+sublimation when the structure is rewarmed, provided there are
+escape holes.
+
+-- Open Issues --
+
+Many engineering tasks need to be undertaken to make comet
+mining a reality:
+
+* Simple processes to create 1/5 atm pressure vessels from cometary
+	ice & tar, including greenhouse windows
+* elaborate/refine 3d printer designs
+* variable gravity bolo
+* minimize processes requiring gravity
+* Gas/plasma separation processes
+* plant automation (maintenence, etc.) -- this may be the
+primary technological bottleneck
+* Nitrogenous fertilizer from ammonia
+* Carbon -> CaC -> acetylene vs. syngas (CO + H2) -> hydrocarbons
+	via Fischer-Tropsch
+* Phenolic resins vs. urea-formaldehyde/fiberboard
+* Polyethylene, alpha-olefins, polystyrene, PVC
+
+Among cometary science to do:
+* Cometary sources of phosphate, potassium, and halogens
+* Detailed analysis of comet surfaces needed to optimize
+choices and enable autonomous operations
+
+Among biotechnology to do:
+* Detailed design for "self-reproducing" greenhouses 
+* Fiber source that facilitates automated processing
+
+Also of great interest are low pressure & plasma manufacturing processes,
+especially those that can be greatly scaled up in space.
+We would like to manufacture variety of products from
+cometary and asteroidal material, including
+but not limited to:
+
+* paints (for spacecraft thermal control)
+* polymer structures and coatings
+* aluminization of polymer surfaces (very large reflectors/solar energy)
+* Inconel or silicon carbide frit (for rocket motor)
+* radiation shielding
+* propellant: thermal, mono- and bipropellant chemical, and ion/MPD
+* pressure vessels
+* pipes
+* single-isotope diamond & fullerenes (C12, C13, C14)
+* solar wind isotope separation (eg He3)
+* etc. (your ideas go here)
+
+Greenhouse Bootstrapping
+
+The known Jupiter-family comets with lowest-eccentricity may get above
+0C at their surface long enough to create an extensive plant growth. 
+Don't need to move them.  Moving cometary materials to a warm circular
+orbit via gravity assist and ice rocket is desirable for some
+markets, but it's not necessary to start out the operation if we
+have a sufficiently flexible biosystem that can
+colonize the comet.  There's also the possibility of chemosynthetic
+life to live off the energy frozen in the comet as free radicals,
+in which case it doesn't matter how far from the sun we are, but
+that's speculative so I'll skip it for now.
+
+A bigger problem is maintaining sufficient internal pressure
+to keep water above the triple point (otherwise it sublimates
+straight to gas, like dry ice).  One way is to go back to
+the bag, except use it as a greenhouse instead of a still.
+(Or in addition to a still -- plants exhale pure O2 and
+H2O which can be extracted).  A second way, with much higher
+MTR (mass thruput ratio), is to have the plants grow their own pressure 
+vessel, some kind of strong cellulose fiber bound together with a resin
+secretion.  It need only hold a CO2-rich atmosphere at < 1/4
+atm.  
+
+This presents a chicken-and-egg (or more
+properly plant-and-seed :-) problem, so we probably would use
+bags for the first perihelion.  The mass thruput ration of
+this scheme becomes astronomical (pardon the Saganism :-), reaching 
+millions/year by the second decade of operation, far outstripping the 
+time cost of money, and all that from just one rocket payload full of 
+plastic bags filled with seeds.  This makes it highly economically 
+attractive, even with only a minute fraction of the greenhouse products 
+being separated (eg by electrophoresis) into pharmaceuticals, etc. and 
+sent back groundside, or materials being processed and used as propellant, 
+shielding, structure, life support, etc. in interplanetary or Clarke 
+orbit, or on the Moon, etc.
+
+Going from native comet goop to pure water, and resin/fiber
+for the pressure vessel, is an interesting problem in metabolic
+engineering, which combines genetic engineering with an in-depth
+knowledge of plant metabolism, in order to optimize certain growth
+features (in this case cellulose and resin output, and resistance
+to vacuum conditions).  I'd probably started with a fast-growing fiber
+plant like hemp or jute or kudzu, and throw in some genes from 
+deep-salt-lake creatures that maintain an active water gradient across 
+their outer membrane, which should also be pretty good for vacuuum
+protection.  Extensive testing/breeding in groundside vacuum
+chambers and micrograv testing in low Earth orbit would be in
+order.
+
+-- Conclusion --
+
+Extraction and processing of volatiles from the Jupiter-family comets,
+combined with the crude but effective technology of
+ice rockets, present a wide variety of new possibilities along
+the path from our current small scale space operations to large-scale 
+space industrialization.  Native volatiles can be processed to
+supply current space operations, while making possible new 
+industries with low up-front investment.  Bootstrapping 
+of transporation with native ice rockets and industry with
+chemical microreactors and self-reproducing greenhouses blazes a 
+wide path along fertile territory, leading to the technological
+and economic resources for large-scale space industry and space 
+colonization.
+
+References
+
+[1] Szabo, various articles posted to sci.space on native volatile
+extraction and processing, 1988-present.  See also articles
+by Paul Dietz, Gary Coffman, Phil Fraering, and others.
+
+[2] Szabo, "Comet Mining", a presentation to
+Seattle Lunar Group, Feb. 1992 (visual
+presentation & initial marketing analysis)
+
+[3] Szabo, "Some Issues in Comet Mining", May 1992,
+unpublished (technical overview)
+
+[4] Zuppero, et. al., in _10th Symposium on Space Nuclear Power
+and Propulsion_ (AIP Conf. Proc. 271, 1993)
+
+[5] Sauer, "Optimization of Interplanetary Trajectories with 
+Unpowered Planetary Swingbys", AAS 87-424, pg. 253
+
+[6] Szabo, "Safety of flyby & aerobraking for large payloads at Earth",
+sci.space Message-ID: <1992Sep28.061517.1316@techbook.com>
+Mon, 28 Sep 1992
+
+[7] Baalke, "Comet Shoemaker-Levy, Possible Collision With Jupiter in 1994",
+sci.astro Message-ID: <25MAY199322260259@kelvin.jpl.nasa.gov>,
+and subsequent discussion.
+
+[8] Drexler, _Nanosystems_, John Wiley & Sons 1992
+
+[9] Brian Thill, Boeing Corporation, personal communications
+
+[10] Tony Zuppero, U.S. Department of Energy, personal communications
+
+
+

@@ -1,0 +1,964 @@
+89
+Message 89:
+From exi@panix.com Mon Jul 26 03:04:28 1993
+Return-Path: <exi@panix.com>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+        id AA27120; Mon, 26 Jul 93 03:04:13 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+        id AA07529; Mon, 26 Jul 93 03:03:50 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by panix.com id AA23741
+  (5.65c/IDA-1.4.4 for more@usc.edu); Mon, 26 Jul 1993 05:55:08 -0400
+Date: Mon, 26 Jul 1993 05:55:08 -0400
+Message-Id: <199307260955.AA23741@panix.com>
+To: Exi@panix.com
+From: Exi@panix.com
+Subject: Extropians Digest
+X-Extropian-Date: July 26, 373 P.N.O. [09:55:02 UTC]
+Reply-To: extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: R
+
+Extropians Digest             Mon, 26 Jul 93             Volume 93 : Issue 206
+
+Today's Topics:
+                                                                      [4 msgs]
+                          AI: Searle's Chinese Room                   [1 msgs]
+                          Calling all elisp hackers                   [1 msgs]
+                         DIET: ubiquinone, coenzyme Q                 [1 msgs]
+                                 Future Fairs                         [1 msgs]
+                               HEX: HAM offered                       [1 msgs]
+                                    Hello?                            [1 msgs]
+                 Homosexual tendencies (was: future problems)         [2 msgs]
+                          Learning beats Tit-For-Tat                  [1 msgs]
+                 Machine Slavery (Was: Re: Wage Competition )         [2 msgs]
+                            Meta: Moving the List                     [1 msgs]
+                      Meta: Who is on the new software?               [1 msgs]
+                            Nightly Market Report                     [1 msgs]
+                              Wage Competition                        [1 msgs]
+                               born extropians?                       [1 msgs]
+                                   command                            [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 56467 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 23 Jul 1993 23:17:55 -0600 (MDT)
+From: J. Michael Diehl <mdiehl@vesta.unm.edu>
+Subject: Machine Slavery (Was: Re: Wage Competition )
+
+According to Stanton McCandlish:
+> I haven't seen the original, but if this characterization is correct, I
+> don't see how that's silly.  Ex:  I draw a series of pictures of my
+> computer doing stuff (which requires computations), in Windows PaintBrush,
+> then combine these into an .AVI animation file, and play it with the new
+> Media Player.  I've just simultated computation, but I see a pretty big
+> difference between what the simulated computer in the animation is 'doing'
+> (or more accurately NOT doing), and what my real computer is doing in the
+> process of displaying this little anim file.  The .AVI is useless, except
+> as entertainment, but the real computer can do much useful work (like
+> making useless .AVI files <wink>).  Or must the simulation somehow be a
+> "special" simulation, for it to apply to Searle's argument?
+
+Well, I'm writing this with quite a bit of homebrew under my breath, but what
+the heck...  I submit that the computational power involved in displaying the 
+.avi animation represents much of the power of the original computer.  Add to 
+this the computation that you admitted was involved in drawing the individual
+pictures, and I bet you have about as much "work" being done as was being done
+by the original computer.  Your computer has a finite capasity.  What is the
+difference between using this capasity to "compute" and "showing what it looks
+like to compute?"   Well, am I drunk, or is computational work conserved?
+
+Just my .02 of a credit.
+
++-----------------------+-----------------------------+---------+
+| J. Michael Diehl ;-)  | I thought I was wrong once. | PGP KEY |
+| mdiehl@triton.unm.edu |   But, I was mistaken.      |available|
+| mike.diehl@fido.org   |                             | Ask Me! |
+| (505) 299-2282        +-----------------------------+---------+
+|                                                               |
++------"I'm just looking for the opportunity to be -------------+
+|            Politically Incorrect!"   <Me>                     |
++-----If codes are outlawed, only criminals wil have codes.-----+
++----Is Big Brother in your phone?  If you don't know, ask me---+
+
+
+
+------------------------------
+
+Date: Fri, 23 Jul 1993 23:17:55 -0600 (MDT)
+From: J. Michael Diehl <mdiehl@vesta.unm.edu>
+Subject: Machine Slavery (Was: Re: Wage Competition )
+
+According to Stanton McCandlish:
+> I haven't seen the original, but if this characterization is correct, I
+> don't see how that's silly.  Ex:  I draw a series of pictures of my
+> computer doing stuff (which requires computations), in Windows PaintBrush,
+> then combine these into an .AVI animation file, and play it with the new
+> Media Player.  I've just simultated computation, but I see a pretty big
+> difference between what the simulated computer in the animation is 'doing'
+> (or more accurately NOT doing), and what my real computer is doing in the
+> process of displaying this little anim file.  The .AVI is useless, except
+> as entertainment, but the real computer can do much useful work (like
+> making useless .AVI files <wink>).  Or must the simulation somehow be a
+> "special" simulation, for it to apply to Searle's argument?
+
+Well, I'm writing this with quite a bit of homebrew under my breath, but what
+the heck...  I submit that the computational power involved in displaying the 
+.avi animation represents much of the power of the original computer.  Add to 
+this the computation that you admitted was involved in drawing the individual
+pictures, and I bet you have about as much "work" being done as was being done
+by the original computer.  Your computer has a finite capasity.  What is the
+difference between using this capasity to "compute" and "showing what it looks
+like to compute?"   Well, am I drunk, or is computational work conserved?
+
+Just my .02 of a credit.
+
++-----------------------+-----------------------------+---------+
+| J. Michael Diehl ;-)  | I thought I was wrong once. | PGP KEY |
+| mdiehl@triton.unm.edu |   But, I was mistaken.      |available|
+| mike.diehl@fido.org   |                             | Ask Me! |
+| (505) 299-2282        +-----------------------------+---------+
+|                                                               |
++------"I'm just looking for the opportunity to be -------------+
+|            Politically Incorrect!"   <Me>                     |
++-----If codes are outlawed, only criminals wil have codes.-----+
++----Is Big Brother in your phone?  If you don't know, ask me---+
+
+
+
+------------------------------
+
+Date:     Sat, 24 Jul 93 8:14:38 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  MISC: Replies to Diehl
+
+Welcome, Mike!
+
+>From: J. Michael Diehl <mdiehl@vesta.unm.edu>
+>
+>> >     Let me put this statistic in perspective.  During the
+>> >fifteen-minute period in which a psycho murdered nine people at a
+>> >San Francisco law office, forty \ordinary\ Americans used their
+>> >privately owned firearms to \stop\ a crime, without shooting
+>> >anyone.
+>
+>Good info!!! Thanx!
+
+Actually, I've given it further thought, and Schulman seems to have made
+a mistake.  Kleck's numbers are about 644,000 defensive uses of handguns
+per year.  That works out to about 1,764 per day, 73 per hour, and 18 per
+quarter-hour.  Perhaps Schulman started with a number roughly twice as
+high, but unless he did, then he divided wrongly.  A Canucklehead prof.
+estimated that all guns are used about 690,000 times per year in defense,
+which is a little higher, but still not high enough to yield 40 times per
+quarter-hour.  Then again, maybe Schulman assumed a 12-hour day, rather than
+a 24-hour one.
+
+>> This is only the tip of the iceberg when it comes to the protective power of
+>> guns.  ISIL's preparing a pamphlet by David Kopel on gun policy that has a
+>> whole lot more, e.g.: trying to defend yourself from a robber with a gun
+>> reduces the robber's success rate from 88% to 30%.  We'll be publishing it
+>> after we finish editing it.
+>
+>How do I get a copy?
+
+You should get one in the next general membership mailing we do after it's
+been published.  You are an ISIL member, aren't you?  Aren't we all?
+
+>> I don't think any Social Security
+>> reform is politically feasible in the sense that any majority of Congress
+>> will vote for it right now, so I see no reason not to advocate an extreme
+>> position: transfer money equivalent to the amount people have put in into
+>> pension fund accounts from which they may purchase disability insurance.
+>> Works like a dream in Chile!  Then voluntarize the saving.
+>
+>What is this?  Another Conservative on this list?
+
+Nope.  Liberal.  Laissez-faire liberal, unlike the social demoncrats who've
+usurped the once-noble word.
+
+>(besides me)  But do you 
+>remember the story of the grasshopper and the ant.  The ant saved all summer, 
+>and the grasshopper played all summer.  In the end, the ant supported the
+>grasshopper by feeding him through the winter.  How would we avoid this problem
+>if we abolished Wf?
+
+Insecticide?
+
+>> The International Society for Individual Liberty,
+>
+>More info, please.
+
+Send your snail-mail address to the compuserve account in my .sig below.
+
+>> Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+>
+>Interesting twist on Capitalism?
+
+I like to think so.  Wonder if bumper stickers with that slogan would sell.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Sat, 24 Jul 93 10:16:26 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  Searle's Chinese Torture Chamber
+
+>From: "Perry E. Metzger" <pmetzger@lehman.com>
+>
+>Searle's argument, transposed, seems to be "a
+>simulation of a computation is not the same as the computation", which
+>seems silly. I'm willing to entertain arguments to the contrary, though.
+
+Doesn't seem like Searle's Chinese room argument at all.  His argument is
+that computation doesn't exhaust the category of mental functioning.  I'm
+inclined to agree, too.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date:     Sat, 24 Jul 93 10:28:23 GMT
+From: starr@genie.slhs.udel.edu
+Subject: 
+
+
+------------------------------
+
+Date: Sat, 24 Jul 1993 05:10:44 -0700 (PDT)
+From: szabo@techbook.com (Nick Szabo)
+Subject: Homosexual tendencies (was: future problems)
+
+Stanton McCandlish:
+> As Romana implied, there is likely to be MORE genderbending going on among
+> Extropians than among the general populace, and I've seen some evidence to
+> suggest it holds true on this list,
+
+We Extropians are definitely out on the edge, sexually.  Look what
+we yearn for -- uploading is the ultimate genderfuck, the
+ultimate fetish.  In between here and there, a wide variety
+of fun perversions, like virtual sex.
+
+Alas for the PCers, all perversions are not equal.  We flame
+endlessly about dietary habits that can make +/- 5 years
+difference in lifespan.  What about sexual habits?  I've
+heard figures thrown around like 35-40 for the life
+expectency of a homosexual man.  If this is wildly wrong,
+reliable source are eagerly solicited.  If such an outcome 
+isn't quite un-Extropian, I don't know what is.  This isn't to say 
+that people can't change their habits, just as I can lose 60 pounds, 
+change to a nearly vegan diet, and other such self-transformations
+even though I haven't lost any of the instinct to eat food that
+is genetically "wired-in".  (Or to say that they can in certain
+cases.  In the case of homosexual lifestyles I don't know, and won't 
+judge for other people).
+
+Not being either a busybody or notably altruistic,
+I don't make it my business what people do behind
+their closed doors, and if they parade it in public I just
+tune them out.  I'm open-minded, but I'd be a complete
+idiot to be open-zippered.  Society tells me sex is all 
+fun and games but the facts tell me that's bullshit.  I sure 
+as hell do care what I do behind my closed doors, and what my 
+partners have done.  It's at least as important as diet,
+exercise, and other life habits that make a difference.
+
+The healthy perverted prude,
+
+Nick Szabo                              szabo@techbook.com
+
+------------------------------
+
+Date: Sat, 24 Jul 93 8:15:17 WET DST
+From: rjc@gnu.ai.mit.edu (Ray)
+Subject: Calling all elisp hackers
+
+  I read the emacs intro to elisp manual last night (need it for some
+listadmin utility stuff I need to write) and wrote my first piece of
+elisp code ever - an interactive hex multi command macro. I would
+like some people to take a look at it and give me some advice on
+how it could have been done more cleanly, etc. I was 'flying blind' when
+I wrote it and had to keep jumping into the emacs texinfo help system
+to find functions I needed -- so I may not have used the best functions for
+the job.
+
+thanks,
+
+ -Ray
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Sat, 24 Jul 1993 10:08:37 -0400
+From: tburns@mason1.gmu.edu (T. David Burns)
+Subject: Learning beats Tit-For-Tat
+
+Thanks for the cite. 
+
+Axelrod revealed Tit-for-tat's feet of clay in the cite below. But he
+didn't try to replace it with a new contender.
+
+Axelrod, Robert,1987 "The Evolution of Strategies in the Iterated
+Prisoner's Dilemma," chapter 3 in  Genetic Algorithms and Simulated
+Annealing, Lawrence Davis, editor,  Los Altos, California: Morgan Kaufman,
+pages 32-42.
+
+tburns@gmuvax.gmu.edu (T. David Burns)
+
+
+------------------------------
+
+Date: Sat, 24 Jul 93 8:27:59 PDT
+From: thamilto@pcocd2.intel.com (Tony Hamilton - FES ERG~)
+Subject: Homosexual tendencies (was: future problems)
+
+> -=>What I _really_ want to get at is, if my thesis is correct, what does that
+> -=>mean in an extropian society? If the gene is only a prerequisite (or simply
+> -=>a strong prerequisite), than would there be homosexuals in an extropian
+> -=>society? If it implies that homosexuals are not _necessarily_ homosexual,
+> -=>but that they are naturally heterosexual, does that mean this condition
+> -=>could possibly complicate their lives (anytime you act in complete
+> -=>discordance with your fundamental nature would seem to potentially
+> -=>precipitate other problems) and therefore restrict them from being as much
+> -=>as they would hope to be? Well, _actually_, that sounds a little too far
+> -=>fetched to me, so I'd probably be inclined to agree that at least _some_
+> -=>homosexuals may be so by nature, for one reason or another (genetics,
+> -=>divine influence (!?), physical disorder (?!)) (just groping for alternatives
+> -=>here - however strange). 
+> 
+> That's a pretty non-Extropian viewpoint.  What do you think
+> "self-transformation" is?  It generally involves quite a lot of
+> "discordance with your fundamental nature", as I see it.  Still, as this
+> whole passage is quite vague, it is difficult to know what you mean.  But
+> by ANY definition, the Extropian dream of "uploading" would seem to be
+> against anyone's "fundamental" nature as a doomed biological organism.
+> I am not trying to be "EC" here, but rather pointing out that your
+> characterization of the motives behind Extropianism whether you or I or
+> anyone else likes them, hates them or is neutral, is incorrect.
+
+Well, I would argue that Extropianism _is_ human nature. Hell, I do argue it,
+all the time. I think that once homo sapiens (in general, anyway) became
+conscious (via any of a number of theorized methods), we began on a path
+which would inevitably lead in the direction that Extropian principles
+generally take us. Of course, then, I would argue that our nature is far
+from being a "doomed biological organism". To me, that is the role that
+society and culture would have for our kind, not nature. So, what is it that
+makes me say all this? I see "fundamental nature" as anything which is
+conducive to _survival_. An extropian lifestyle would seem to be nearly
+the ultimate extension of the survival concept.
+
+Now, if someone has determined that whay I have just said is absolutely not
+allowable within the extropian belief system, than I apologize.
+
+The rest of your reply to my message focused on the 4 cases I proposed for
+the future of homosexuals. I think you may have taken me a little too
+seriously, in that, as Perry has made very clear, I'm just proposing a
+thesis (or multiple of such, but I have no idea what the plural form of the
+word is - sorry). That doesn't mean I absolutely believe in everything I say.
+Some I do, some I'm just making up as I go which allows me to explore more
+fully the ideas I'm dealing with. For instance, you seemed to get out of
+my message that I felt Extropians would be against homosexuals, which was
+never intended, since I certainly do not believe that. I can't see what I
+said that implied that, maybe you can tell me so that I can improve my
+writing style to be more clear in what I say.
+
+Anyway, has this topic of Extropianism vs. human nature been discussed here
+before? If not, what does everyone else think? I guess I'm just not into the
+paradigm of thinking of all this as being "transhumanism". To me its all just
+a natural part of our evolution. Not evolution in a Darwinian sense, since
+I don't think that necessarily applies to conscious beings. Instead, I see
+that once a species becomes conscious, it embarks on a path of no longer
+living by Darwinian laws, but rather continuously improving upon itself,
+whether through culture and society and science, or through self-alteration,
+which seems to be where we're finally getting close to. Of course, even
+modern medicine is already a step in that direction.
+
+Am I totally off-base in thinking that extropianism, no matter what you call
+it, had to eventually come about one way or another? All I know is once I've
+been revived from cryonic suspension, or achieved biological immortality
+before that is necessary (yes, excluding outside influences of course), or
+uploaded, or whatever, it'll seem a whole hell of a lot more natural than
+having died would! Just my take on the matter.
+
+-- 
+Tony Hamilton                 |
+-Intel Corporation            | voice: 916-356-3070 
+--Folsom Engineering Services | mailstop: FM2-55
+---Engineering Resource Group | email: thamilto@pcocd2.intel.com
+----Software Technician       |
+
+------------------------------
+
+Date: Sat, 24 Jul 1993 17:10:39 +0200
+From: perry@potlatch.hacktic.nl (Paul Michael Perry)
+Subject: command
+
+:resend #863
+:resend #867
+:resend #873
+EOF
+                "Take me away from all this death."
+        Paul Michael Perry               FAX: +31 50 256662
+        perry@potlatch.hacktic.nl        Groningen HOLLAND
+
+------------------------------
+
+Date: Sat, 24 Jul 1993 11:31:13 -0400 (EDT)
+From: Harry Shapiro <habs>
+Subject: Meta: Who is on the new software?
+
+a conscious being, bob angell wrote:
+> 
+> >The following addresses/users are on the new
+> >list software, FYI.
+> >
+> >bangell@cc.utah.edu
+> 
+> could you change this to be:  bangell@cs.utah.edu.
+> thanks.
+
+
+This has now been done as Ray has created a tool to do it. :)
+
+Please let me know how you like the new list code.
+
+/hawk
+
+
+-- 
+Harry S. Hawk                                 habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc.
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sat, 24 Jul 1993 12:02:09 -0400 (EDT)
+From: Harry Shapiro <habs>
+Subject: Meta: Moving the List
+
+Just to update everyone on the new list and our moving plans.
+
+1) I am planning starting on Aug 9th to move everyone to the 
+   new software in batches of 30/40 users per day.
+
+        This may change
+
+2) We will have a new address. It will probally be extropians@extropy.org
+
+        Don't use it yet! It is not yet offical - Also if you
+        have any suggestions about our "name" let me know.
+
+3) Our old address will work for quite a while so don't worry!!
+
+
+-- 
+Harry S. Hawk                                 habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc.
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Thursday, 22 July 1993 21:53:14 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: DIET: ubiquinone, coenzyme Q
+
+An extropian, cannot remember who, recommended ubiquinone
+as an antioxidant, hence life extender. and also commented
+that it helps with gingivitis and gum disease.
+
+For the last few years I have had steadily worsening
+gingivitis.  A week after I started taking ubiquinone my
+gingivitis was markedly improved, and now seems to have
+disappeared.
+
+Now, if I clean my teeth thoroughly at night, in the
+morning I do not have a bad taste in my mouth.
+
+Of course it might well be that 100 other people started
+taking it, noticed no change or a change for the worse,
+and so failed to write in.
+
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Sat, 24 Jul 93 15:50:20 EDT
+From: Andrew S Hall <ashall@magnus.acs.ohio-state.edu>
+Subject: Hello?
+
+Are we still alive, some ill-willed pagan has hexed the list, or I have
+been unceremoniously dumped?
+
+Andrew
+
+Techno-Anarchy.Neophilia.Economic Freedom.Cryptography.Anti-Statism.Personal
+Liberty.Laissez-Faire.Privacy Protection.Libertarianism.No Taxes.No Bullshit.
+**********            Liberty BBS 1-614-798-9537                  **********
+**********           Dedicated to Freedom. Yours.                 **********
+
+------------------------------
+
+Date: Sat, 24 Jul 93 13:19:17 PDT
+From: thamilto@pcocd2.intel.com (Tony Hamilton - FES ERG~)
+Subject: HEX: HAM offered
+
+Okay, I broke down and registered my reputation on HEX. Feel free to read
+my prospectus. Specifically, if you happen to happen to agree with anything
+I've been saying on the homosexuals thread, then buy some HAM.
+
+But that's not why I posted this message. I have some questions about the
+HEX...
+
+1. Given the tendency people have to focus on the negatives rather than
+   the positives, and to accentuate the former when dealing with others,
+   is it possible that the exchange might suffer due to a lack of interest
+   in buying? After all, theoretically, you buy to provide reputation 
+   feedback, and of course when you think the person is doing a good job,
+   or whatever. Well, since we tend to focus more on when someone is not
+   doing a good job, does that tend to slow down purchases on the exchange?
+
+2. How active _is_ the exchange? I notice a great deal of disparity between
+   bid and ask prices, which would suggest that there's not much activity.
+   Is there? Could the HEX report indicate activity levels or give summaries?
+   I think (correct me please) that to do this by hand you'd have to TICKER
+   every single reputation on the exchange, wouldn't you?
+
+Sorry if these questions have been asked before, but I'm new to this. I
+know there have been problems with HEX, as far as it not being used for what
+it was intended, but I'd like to give it a try by actually buying into
+reputations when it seems appropriate. My only concern is that if I buy, is
+anyone else out there buying? Its pointless to buy unless you can sell at
+some point in the future...
+
+Oh yes, one other problem I see in the exchange. Normally, the incentive
+to buy is that you hope the price will go up, and you can make a profit.
+What is the profit here? What do Thorns get you? Aside from more buying
+power, but it seems to me that, at the given prices, you don't need _that_
+many Thorns to buy up a lot of certain reputations...
+
+Just looking for some answers.
+-- 
+Tony Hamilton                 |
+-Intel Corporation            | voice: 916-356-3070 
+--Folsom Engineering Services | mailstop: FM2-55
+---Engineering Resource Group | email: thamilto@pcocd2.intel.com
+----Software Technician       |
+
+------------------------------
+
+Date: Sat, 24 Jul 93 16:45:59 CST
+From: <dsg@staff.tc.umn.edu>
+Subject: Future Fairs
+
+There will be a future fair (more like a local carnival, actually) in 
+Minneapolis next month.  The people running it seem to have decided that 
+the future will be cyberpunk and heavy metal.  It's not what I'd prefer, 
+and not what I expect to be the Wave of the Future.  But I hope they do it 
+successfully enough for others to imitate them.  (Or are they imitating an 
+example from some other city?)
+
+Dan Goodman dsg@staff.tc.umn.edu
+
+------------------------------
+
+Date: Sat, 24 Jul 93 15:55:56 PDT
+From: HFinney@shell.portal.com
+Subject: AI: Searle's Chinese Room
+
+Searle's Chinese Room thought experiment was discussed in the Journal of
+the Behavioral and Brain Sciences around 1980.  This is an interesting
+journal in which someone advances a controversial scientific thesis and
+then several dozen commentators have a chance to respond.  There's plenty
+of polite back-stabbing and it's quite entertaining.
+
+A more accessible discussion is in Hofstadter's "Godel, Escher, Bach,", the
+Pulitzer-winning, enormously entertaining discussion of Godel's theorem, AI,
+and related topics.  Hofstadter disagrees with Searle and my summary will
+be based on his description.
+
+Searle's thesis is that computer programs cannot be conscious.  His argument
+proposes that someone writes an AI program which is claimed to be conscious
+and intelligent, just like a person.  It communicates over a keyboard, say,
+passes the Turing test, writes just as wittily and insightfully as any human.
+It claims to be conscious and energetically defends its claim just as any
+human would faced with a challenge to his claims of consciousness. But it
+is a computer program written in some programming language, running on an
+ordinary computer.
+
+For specificity, Searle proposes that the "person" being simulated or run
+by this program is a Chinese woman.  It/she reads and writes in Chinese
+characters (in ISO format, or whatever) which are sent to and from the
+computer.
+
+His argument that the computer or program is not in fact intelligent,
+even though it claims in an apparently convincing fashion to be so, goes
+like this.  The program, like any computer program, is in essence a complicated
+collection of simple steps: assignments of values to memory, comparison
+tests of numerical values, jump statements which transfer control from one
+part of the program to another, simple arithmetic and logical operations.
+>From these pieces any computer program can be created.
+
+Since these steps are so simple, we can imagine them being done, not by
+a computer, but by a person.  He would in effect run the program "by hand".
+It is not uncommon for programmers to go through this process mentally for
+small parts of a program in order to clarify an algorithm or find a bug,
+but Searle proposes that this be done for the whole program.  The person
+could use some paper to represent variable values and memory contents,
+and go through the whole program, step by step, following these simple rules.
+He would end up producing the same output that the actual program would,
+although of course he would be far slower than the computer.
+
+Now, says Searle, let the person run the AI program.  He is given Chinese
+characters as input, which he encodes using mechanical rules and supplies
+as input to the program.  He runs through the program, step by tedious step,
+and eventually produces some Chinese characters as output.
+
+To the person who is conversing with the program (in Chinese), these appear
+to be the statements of a conscious individual, this simulated Chinese female.
+But the person actually running the program knows that there is no such
+person.  Actually, HE produced all those statements, and he doesn't speak a
+single word of Chinese.
+
+I have to admit that I have trouble giving Searle's argument, because I
+find it incoherent, but the final step is basically to say that if this
+program is actually conscious as a Chinese woman, then by running this
+program our subject should in some sense experience or feel this Chinese
+woman's consciousness.  But since he does not, and since he knows that the
+program is actually being run as this sequence of trivial computation
+steps, it is "clear" that there is truly no Chinese woman involved.
+
+Therefore, no computer program can produce conscious intelligence, says 
+Searle.
+
+I will just add two points.  First, some people have suggested that this
+argument may apply to ordinary computer programs, but cannot apply to
+parallel computers which are based on many processors.  I don't agree because
+a processor ensemble can be simulated by hand just like a single computer
+can.  You just do one instruction for each computer, in a round-robin fashion,
+repeatedly.  His argument applies equally as well to this case.
+
+The second point is that Searle's argument appears to apply just as strongly
+to the way neurons in our brain work.  They are conceptually simple and could
+be simulated on paper (in theory) just like an AI program could.  This is
+basically the answer which Hofstadter and several of Searle's other critics
+give.  If Searle's argument applies to AI's, it would appear to apply to
+brains as well, at least as we understand their workings.
+
+Hal Finney                 hfinney@shell.portal.com             HFINN on Hex
+
+------------------------------
+
+Date: Sat, 24 Jul 93 19:38:27 CST
+From: "" <dsg@staff.tc.umn.edu>
+Subject: born extropians?
+
+John Lilburne, who lived around the time of the English Civil War, seems to 
+have been a natural libertarian.  "If there were but one man in the world, 
+and that man were John Lilburne, then John would quarrel with Lilburne and 
+Lilburne would quarrel with John."  He offended _every_ government that 
+ruled England during that period, largely by being more individualistic 
+than, for example, Ayn Rand.  
+
+What were his political views?  He favored giving the vote to all 
+Englishmen above the rank of servant.  He did favor a high degree of 
+individual freedom for someone of his time -- but not for someone of our 
+time.
+
+In our own time -- I've encountered left-of-Communist Marxists who seemed 
+to be naturally conservative, and a couple of Marxists who seemed to be 
+natural libertarians.  There are conservatives who don't seem to have a 
+conservative bone in their bodies.
+
+If there are any naturally-pacifistic humans, I'll bet at least forty 
+percent of them are supporters of more military spending.  Conversely, if 
+there are natural warriors, at least forty percent of them are probably 
+pacifists or close to it.
+
+Dan Goodman dsg@staff.tc.umn.edu
+
+------------------------------
+
+Date: Sat, 24 Jul 93 21:38:41 EST
+From: wit@MIT.EDU (paul whitmore)
+Subject: Wage Competition 
+
+On Fri, 23 Jul 1993 14:44:55 -0400 (EDT), Edward J OConnell <ejo@world.
+std.com> said:
+> Heck, simple operant conditioning would be enough to turn anyone on this
+> list into slaves.
+> 
+> Dont' believe me? Come to my house; I'll imbed the necessary radio
+> controlled devices in your pain and pleasure centers, watch you through video
+> cameras at a safe distance, and see what happens after a year to two of
+> judicious application of current...
+> 
+It's quaint to see someone believing in behaviorist methods of control 35 years 
+after Chomsky's review of _Verbal Behavior_ This archaism has not prevented ejo 
+from moving well into the future household, where radio controlled devices for 
+brain centers are available off the shelf.
+
+Video cameras do not scratch below the surface. if you take seriously the fact 
+that we are moving through our environment based on internal models of the 
+world, it exceeds plausibility to claim that a year or more of observation wd 
+constrain the interpretation of a human (or robotic) agents actions to specify 
+uniquely the internal representation of the intelligence. Zenon Pylyshyn's 
+_Computation and Cognition_ presents a very strong defense of this central tenet 
+of cognitive science. He refers to a paper of WF Brewer's from 1974, which 
+concluded that even in the case of rats, the most parsimonious interpretation of 
+their modified behavior was not operant conditioning; if anything, the rats were 
+simply modifying their mental representation of their world's structure.
+
+Ithought it was an obvious point- you don't need to *condition* intelligences 
+since you can always accomplish the same end through an arbitrary number of 
+alternative routes, all of which are symbolically equivalent to *telling them* 
+what you want them to do. 
+
+In the case of robots/humans, it is possible to distinguish between their wiring 
+(cognitive architecture) and their computations/interpretations. Because of the 
+symbolic nature of the latter, formalist/syntactic and deterministic approaches 
+fail to capture most interesting behavior. 
+Pain cannot be converted to pleasure by some act of interpretation; 
+nevertheless, it can always be embedded in a more overarching description that 
+reads it as a motivator (athletes in training, e.g.)
+
+although i am sketching here, this last point raises problems for limiting 
+robots to mere slaves of our wish-fulfilment. This is just the hoary old frame 
+problem: how can we identify, before inspection, which aspects of a situation 
+are related to the solution of even the most circumscribed problem? If robots 
+symbolically interact with the environment, what will constrain their behavior 
+to doing only the things we will want them to have done?
+
+as interested as i am in AI, it is surprising how little people on the extropy 
+list seem to differ from the view of Marvin Minsky in 1970, who predicted, 
+within the next decade or two, a computer  would begin to learn and quickly 
+outstrip our own intelligence. 
+
+Moravec's _Mind Children_ presents a more balanced point, that perception is 
+where humans have really deep intelligence. But, since almost no one has 
+succeeded in disentangling the intertwined steps of perception and 
+judgment/calculation, even if Connection Machine power becomes as available 
+tomorrow as handheld calculators today, i personally can't see how that will 
+strip humans out of the interactive symbiotic relationship with thinking 
+machines.
+
+vacuum cleaners, dishwashers, laundromats did not eliminate housework. as more 
+power is mechanized, human interest in crawling into previously inaccessible 
+niches is excited, and the net liberation has so far been negligible.
+
+while many have proposed very imaginative extrapolations, these strike me as 
+quite linear extensions from today. why assume that the concentration in capital 
+won't create interests in niches that were once prohibited by cost? use the case 
+of farming, which has most clearly been deimated by the changes in production: 
+as wealth increased in our society, in reaction to tractor-petrochemical 
+combines, organic farming, previously unimaginably expensive, becomes attractive 
+to those who want to choose sustainable options. although i don't know how the 
+labor intensivity of organic farming compares to factory farms, i suppose that 
+people will always be able to choose to increase labor-intensivity, to create 
+new forms of wealth, in combination with robots and AIs and fuzzy chips.
+
+has anyone else been struck by the near-luddite strain of anxiety in many of the 
+postings on future competition with robots? nothing in the past century gives 
+any reason to support the claim that the truly interesting problems (cognitive, 
+immunological, economic, ecological, or purely mathematical) are anywhere near 
+exhaustion.
+
+even if all production becomes roboticized, the choice of what to produce will 
+still need to be made. and whose job will that become? consumers, of course. at 
+the limit, a person's job might simply be to consume, which is equivalent to 
+being the foreman of a shop, directing the slaves as to what to produce.
+
+besides being consumers, i think more and more people will become scientists. 
+and there will be a role for translators and interfacers, people who take the 
+results being created by a billion-plus scientists, and relate the findings 
+about humans, their immune system and eco-system, to guide future development of 
+production.
+
+Do people take the combinatorial explosions of choice seriously? there will 
+always be more possible goods than there are means to produce them, and if 
+choice is the limiting factor, then humans can specialize in that niche, and 
+garner quite a lot of compensation. this relationship seems to obtain already 
+between the US and japan. although japan vastly outproduces the US, we are (in 
+the master/slave, or consumer/producer dialectic), strangely the driver, since 
+we are such sophisticated consumers, devoting so much more time to buying.
+
+
+------------------------------
+
+Date: Sat, 24 Jul 1993 20:41:14 -0600 (MDT)
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: Machine Slavery (Was: Re: Wage Competition )
+
+Quoth J. Michael Diehl, verily I say unto thee:
+-=>Well, I'm writing this with quite a bit of homebrew under my breath, but what
+-=>the heck...  I submit that the computational power involved in displaying the 
+-=>.avi animation represents much of the power of the original computer.  Add to 
+-=>this the computation that you admitted was involved in drawing the individual
+-=>pictures, and I bet you have about as much "work" being done as was being done
+-=>by the original computer.  Your computer has a finite capasity.  What is the
+-=>difference between using this capasity to "compute" and "showing what it looks
+-=>like to compute?"   Well, am I drunk, or is computational work conserved?
+
+Very well.  Let's say I take an instamatic polaroid of my PC calculating
+Julia sets.  I dare say the ciruitry in the camera is not doing anywhere
+near the computation that the computer is.  Now, I have a picture of my PC
+calculating.  This would seem to me to be a simulation of calculation.  
+
+And even if we go with the original argument, I'd still have to say that
+the (imaginary) computations of in the .AVI simualation are qualitatively
+different from the real computation going on on the real PC to display the
+anim file.
+
+-- 
+Stanton  McCandlish   * Space Migration * Networking * ChaOrder * NO GOV'T. *
+anton@hydra.unm.edu   * Intelligence Increase * Nano * Crypto * NO RELIGION *
+FidoNet:    1:301/2   * Life Extension * Ethics * VR * Now! * NO MORE LIES! *
+Noise in the Void BBS * +1-505-246-8515   (24hr, 1200-14400, v32bis, N-8-1) *
+
+------------------------------
+
+Date: Sun, 25 Jul 93 00:00:04 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx                 Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+---------------------------------------------------------------
+News Summary as of: Sat Jul 24 23:59:01 EDT 1993
+
+
+Newly Registered Reputations:
+RAND    Ayn Rand
+1E9     Lifespan == 1 billion
+1E6     Lifespan == 1 million
+PPL     Privately Produced Law
+HAM     Tony Hamilton
+
+New Share Issues:
+Symbol  Shares Issued
+SHAWN   10000
+RAND    10000
+1E6     10000
+1E9     10000
+PPL     10000
+HAM     10000
+
+Share Splits:
+(None)
+
+---------------------------------------------------------------
+Market Summary as of: Sat Jul 24 23:59:01 EDT 1993
+
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding    Market Value
+1000          .10      .20      .10        10000         2000          200.00
+110             -      .10        -        10000            -               -
+150             -      .10        -        10000            -               -
+1E6             -      .10        -        10000            -               -
+1E9             -      .10        -        10000            -               -
+200             -      .10        -        10000            -               -
+80              -      .10        -        10000            -               -
+90              -      .10        -        10000            -               -
+ACS             -      .50      .50        10000         1124          562.00
+AI              -      .50      .20        10000         1000          200.00
+ALCOR           -     2.00     2.00        10000         2931         5862.00
+ALTINST         -      .15        -        10000            -               -
+ANTO            -        -        -            -            -               -
+BIOPR           -      .20      .10        10000         1500          150.00
+BLAIR           -    30.00    50.00        10000           25         1250.00
+CHAITN          -      .05        -        10000            -               -
+CYPHP         .15      .20        -        10000            -               -
+DEREK           -     1.00     1.00       100000         8220         8220.00
+DRXLR           -     2.00     2.00        10000         2246         4492.00
+DVDT            -     1.50      .90        10000         3490         3141.00
+E               -      .60      .75        10000         5487         4115.25
+ESR             -        -        -            -            -               -
+EXI           .10     1.25     1.25        10000         3000         3750.00
+FCP         11.50        -    11.50        10000          540         6210.00
+GHG           .01      .30      .54        10000         1755          947.70
+GOBEL         .01      .30     1.00        10000          767          767.00
+H               -     2.00     2.00        10000         6250        12500.00
+HAM             -      .10        -        10000            -               -
+HEINLN        .30      .90        -        10000            -               -
+HEX        100.00   125.00   100.00        10000         3168       316800.00
+HFINN        2.00    10.00    10.00        10000         1005        10050.00
+IMMFR         .50      .80      .80        10000          501          400.80
+JFREE           -      .15      .10        10000         3000          300.00
+JPP           .25      .40      .25        10000         2510          627.50
+LEARY           -      .20        -        10000            -               -
+LEF             -      .20      .30        10000         1526          457.80
+LEFTY           -      .15      .30        10000         1951          585.30
+LIST          .40      .50      .50        10000         5000         2500.00
+LP              -      .25        -        10000            -               -
+LSOFT         .50      .58      .58        10000         5950         3451.00
+LURKR           -     3.00        -       100000            -               -
+MARCR           -        -        -            -            -               -
+MED21           -      .12        -        10000            -               -
+MLINK           -      .02      .02      1000000         2602           52.04
+MORE         1.50     2.00     1.50        10000         3500         5250.00
+MWM           .15      .15     1.50        10000         1260         1890.00
+N           20.00    25.00    25.00        10000           98         2450.00
+NEWTON          -      .20        -        10000            -               -
+NSS             -      .10        -        10000            -               -
+OCEAN           -      .10        -        10000            -               -
+P           20.00    25.00    25.00      1000000           66         1650.00
+PETER        1.00        -     1.00     10000000          600          600.00
+PLANET          -      .10      .05        10000         1500           75.00
+PPL             -      .10        -        10000            -               -
+PRICE           -     4.00     2.00     10000000         1410         2820.00
+R             .49     2.80      .99        10000         5100         5049.00
+RAND            -      .15        -        10000            -               -
+RJC           .20        -      .50        10000         4100         2050.00
+ROMA            -        -        -            -            -               -
+SGP             -        -        -            -            -               -
+SHAWN           -     1.00        -        10000            -               -
+SSI             -      .10        -        10000            -               -
+TCMAY         .75     3.00     2.00        10000         6000        12000.00
+TIM          1.00        -        -        10000            -               -
+TRADE           -        -        -      1000000            -               -
+TRANS           -      .10      .40        10000         1511          604.40
+VINGE           -      .50      .20        10000         1000          200.00
+WILKEN       1.00    10.00    10.00        10000          101         1010.00
+-----------------------------------------------------------------------------
+Total                                                               423239.79
+
+------------------------------
+
+End of Extropians Digest V93 #206
+*********************************
+
+& 

@@ -1,0 +1,559 @@
+From extropians-request@extropy.org Sun Sep 25 03:02:03 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id DAA21811 for <more@chaph.usc.edu>; Sun, 25 Sep 1994 03:01:57 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA14532; Sun, 25 Sep 94 03:01:52 PDT
+Received: by news.panix.com id AA26377
+  (5.65c/IDA-1.4.4 for more@usc.edu); Sun, 25 Sep 1994 06:01:49 -0400
+Date: Sun, 25 Sep 1994 06:01:49 -0400
+Message-Id: <199409251001.AA26377@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-9-464 - #94-9-470
+X-Extropian-Date: September 25, 374 P.N.O. [06:00:31 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Sun, 25 Sep 94             Volume 94 : Issue 267
+
+Today's Topics:
+                          Armed/Economic Revolution                   [1 msgs]
+                       Extropians List Statistics 9/18                [1 msgs]
+           HUMOR: Right wing satire (was Re: Church of Euthanasia)    [2 msgs]
+                                IDs and Ideals                        [1 msgs]
+                          Networking in the Mind Age                  [1 msgs]
+                             What Happens First?                      [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 26707 bytes.
+
+----------------------------------------------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Sat, 24 Sep 1994 22:15:50 -0400
+Subject: [#94-9-464] Networking in the Mind Age
+
+ hanson@hss.caltech.edu  (Robin Hanson) writes in X-Message-Number: #94-9-188:
+>Thanks to Alexander Chislenko for his interesting essay.  ... "Rather
+>than independent entities, robots and other smart machines would work
+>more like semi-intelligent, semi-autonomous front-ends/ clients of the
+>global system. ... The local machine itself would only store the
+>knowledge that is frequently used or may be urgently needed." 
+
+>If this is so efficient, why hasn't it happened already?  Sasha blames
+
+ I see plenty of trends in the direction Sasha suggests (www, CORBA,
+the language Dean Tribble is working on). The slowness of this trend
+is due in large part to the fact that most programmers started
+programming on stand-alone von Neuman processor type machines, in
+languages (C,C++, etc) which encourage programmers to think in a single
+processor paradigm.
+
+ rjc@gnu.ai.mit.edu  (Ray) writes in X-Message-Number: #94-9-189:
+>branch of scientific knowledge. I claim that the two people need
+>to represent knowledge in different ways. For instance, isn't a
+
+ "There's More Than One Way To Do It. (That's the Perl Slogan)" - Larry Wall.
+Standards don't need to have a One True Way of implementing things to
+succeed. They need to create a One True Way of understanding all the
+ideas that are expressed in them.
+---------------------------------------------------------------
+Peter McCluskey    | pcm@rahul.net     | Cardassia delenda est!
+finger for PGP key | pcm@world.std.com | netcom delenda est!
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Sat, 24 Sep 1994 22:16:58 -0400
+Subject: [#94-9-465] HUMOR: Right wing satire (was Re: Church of Euthanasia)
+
+ psafier@RT66.com (Phil Safier) writes in X-Message-Number: #94-9-278:
+>This cracks me up! Extropians calling someone else loony. 8-). If the 
+>right wing could produce stuff as good as Snuffit, i'd party with them.
+
+ In an attempt to discredit insults to right-wing humor, I am
+reproducing this satire of the arguments against SDI from a certifiably
+right-wing publication:
+
+              copyright (C) 1982 The Yale Free Press
+
+                              ARMS RACE
+                            OR HUMAN RACE?
+
+ Right now there are enough bullets in this country to kill the entire
+population of the world 7 times over. More are being made every day.
+
+         What is our government doing about it?
+
+ The Reagan administration believes that more policemen make us more secure.
+
+    - We reject this reckless, simplistic view.
+
+ The Reagan administration opposes the doctrine of "no first use".
+
+    - We believe that police should only be permitted to shoot when a
+    bullet has already been launched in their direction.
+
+ The Reagan administration has embarked on an expanded bullet-proof vest
+ policy.
+
+    - We condemn the production of bullet-proof vests which serve only
+    to perpetuate the myth of the "winnable gunfight."
+
+We call for summit talks between law enforcement officers and violent
+criminals. Such talks would inevitably lead to a relaxation of tensions.
+
+Criminals are people too. They don't want violence. They just want other
+people's money. If only law enforcement officers would lay down their guns,
+criminals would certainly follow suit. Isn't survival worth it?
+
+                   STOP BALLISTIC MADNESS.
+                   VOTE PEOPLE, NOT GUNS.
+
+---------------------------------------------------------------
+Peter McCluskey    | pcm@rahul.net     | Cardassia delenda est!
+finger for PGP key | pcm@world.std.com | netcom delenda est!
+
+------------------------------
+
+From: Phil Safier <psafier@RT66.com>
+Date: Sat, 24 Sep 1994 20:57:37 -0600 (MDT)
+Subject: [#94-9-466] HUMOR: Right wing satire (was Re: Church of Euthanasia)
+
+On Sat, 24 Sep 1994, Peter C. McCluskey wrote:
+
+>  psafier@RT66.com (Phil Safier) writes in X-Message-Number: #94-9-278:
+> >This cracks me up! Extropians calling someone else loony. 8-). If the 
+> >right wing could produce stuff as good as Snuffit, i'd party with them.
+> 
+>  In an attempt to discredit insults to right-wing humor, I am
+> reproducing this satire of the arguments against SDI from a certifiably
+> right-wing publication:
+> 
+>               copyright (C) 1982 The Yale Free Press
+> 
+>                               ARMS RACE
+>                             OR HUMAN RACE?
+> 
+>  Right now there are enough bullets in this country to kill the entire
+> population of the world 7 times over. More are being made every day.
+> 
+>          What is our government doing about it?
+> 
+>  The Reagan administration believes that more policemen make us more secure.
+> 
+>     - We reject this reckless, simplistic view.
+> 
+>  The Reagan administration opposes the doctrine of "no first use".
+> 
+>     - We believe that police should only be permitted to shoot when a
+>     bullet has already been launched in their direction.
+> 
+>  The Reagan administration has embarked on an expanded bullet-proof vest
+>  policy.
+> 
+>     - We condemn the production of bullet-proof vests which serve only
+>     to perpetuate the myth of the "winnable gunfight."
+> 
+> We call for summit talks between law enforcement officers and violent
+> criminals. Such talks would inevitably lead to a relaxation of tensions.
+> 
+> Criminals are people too. They don't want violence. They just want other
+> people's money. If only law enforcement officers would lay down their guns,
+> criminals would certainly follow suit. Isn't survival worth it?
+> 
+>                    STOP BALLISTIC MADNESS.
+>                    VOTE PEOPLE, NOT GUNS.
+> 
+> ---------------------------------------------------------------
+> Peter McCluskey    | pcm@rahul.net     | Cardassia delenda est!
+> finger for PGP key | pcm@world.std.com | netcom delenda est!
+> 
+
+Safier writes: I rest my case. 
+
+------------------------------
+
+From: extropians-request@extropy.org (Extropians Mailing List)
+Date: 
+Subject: [#94-9-467] Extropians List Statistics 9/18
+
+Weekly List Statistics for 9/18 to 9/24
+
+Total Number of Messages Posted: 244
+Total Size of Messages Posted  : 602614 bytes
+Average Total Size per Day     : 86087 bytes
+Average # of Messages per Day  : 34
+Average Message Size           : 2469 bytes
+Number of Posters Participating: 60
+
+
+
+Top Ten Posters by Frequency
+
+1. pgf@srl03.cacs.usl.edu (14 total, 2.0/day, 5.7% of total)
+2. fcp@nuance.com (14 total, 2.0/day, 5.7% of total)
+3. habs@sun.panix.com (14 total, 2.0/day, 5.7% of total)
+4. extropy@price.demon.co.uk (12 total, 1.7/day, 4.9% of total)
+5. hanson@hss.caltech.edu (11 total, 1.6/day, 4.5% of total)
+6. russw@netcom.com (10 total, 1.4/day, 4.1% of total)
+7. pcm@world.std.com (10 total, 1.4/day, 4.1% of total)
+8. szabo@netcom.com (10 total, 1.4/day, 4.1% of total)
+9. charles000@aol.com (9 total, 1.3/day, 3.7% of total)
+10. jhdaugh@a-albionic.com (8 total, 1.1/day, 3.3% of total)
+
+
+
+Top Ten Posters by Volume
+
+1. jhdaugh@a-albionic.com (36.6kbytes, 5356 bytes/day, 6.2% of total)
+2. extropy@price.demon.co.uk (36.2kbytes, 5302 bytes/day, 6.2% of total)
+3. fcp@nuance.com (33.1kbytes, 4846 bytes/day, 5.6% of total)
+4. szabo@netcom.com (31.3kbytes, 4584 bytes/day, 5.3% of total)
+5. russw@netcom.com (28.3kbytes, 4139 bytes/day, 4.8% of total)
+6. charles000@aol.com (28.1kbytes, 4113 bytes/day, 4.8% of total)
+7. habs@sun.panix.com (27.4kbytes, 4007 bytes/day, 4.7% of total)
+8. doug@openmind.com (26.3kbytes, 3845 bytes/day, 4.5% of total)
+9. pcm@world.std.com (25.9kbytes, 3785 bytes/day, 4.4% of total)
+10. pavel@park.bu.edu (23.9kbytes, 3491 bytes/day, 4.1% of total)
+
+
+
+
+Histogram of the week by number of messages
+
+       +-----------------------------------------+
+Sun    |41                                       |
+       +-----------------------------------------+
+       +----------------------------------+
+Mon    |34                                |
+       +----------------------------------+
+       +--------------------------------------+
+Tue    |38                                    |
+       +--------------------------------------+
+       +-----------------------+
+Wed    |23                     |
+       +-----------------------+
+       +-------------------------------------+
+Thu    |37                                   |
+       +-------------------------------------+
+       +------------------------------------------------+
+Fri    |48                                              |
+       +------------------------------------------------+
+       +-----------------------+
+Sat    |23                     |
+       +-----------------------+
+
+
+
+
+Histogram of the week by daily volume
+
+       +----------------------------+
+Sun    |                            |115667
+       +----------------------------+
+       +----------------+
+Mon    |                |67523
+       +----------------+
+       +-----------------------+
+Tue    |                       |97316
+       +-----------------------+
+       +-------------+
+Wed    |             |55743
+       +-------------+
+       +-----------------------+
+Thu    |                       |96107
+       +-----------------------+
+       +-------------------------+
+Fri    |                         |105739
+       +-------------------------+
+       +---------------+
+Sat    |               |64519
+       +---------------+
+
+------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Sat, 24 Sep 1994 20:51:03 -0700 (PDT)
+Subject: [#94-9-468] IDs and Ideals
+
+Here's a post I just made to the new Seattle Times 2020 
+column list (slightly edited):
+
+It's now technically possible to assign a single ID number to
+all citizen units: "the mark of the beast".  It's just as 
+technically possible to issue multiple IDs and pseudonyms for 
+a person.  More obscure, but just as feasible, is the work 
+Chaum et. al. in cryptographic protocols: digital cash that works 
+like real cash (eg it doesn't leave an identified transaction trail, 
+like current credit/debit/ATM cards), and credentials that can be
+transferred between per-organization pseudonyms.  So, for
+example, you could prove you have a valid driver's license,
+or are over age 18, or have a high school diploma, or prove
+any other valid credential you possess, without having to reveal your 
+birth name if you don't want to.  Another example of realizable "crypto 
+magic" is a kind of virtual computer that can be set up on the net.  
+These "multiparty secure computers" allow any number of parties to input 
+and output programs and data to the virtual processor, without any 
+party learning the input or output of any other party, except
+what they can infer from their own inputs and outputs.
+We will see developed a wide variety of these and other new forms 
+of cryptographic "magic", unless the snoops they threaten succeed
+in stopping them.
+
+My use of the word "assign" already indicates that this is as much 
+an economic and political issue, as a technological issue.
+The assumption that numbers must be assigned, rather than chosen,
+is a political bias with major consequences.  Why can't I _choose_ ID 
+numbers instead of having them assigned?  With a reasonable 
+variety of choices, and a political agreement on the desirability 
+of choice, I can choose which of my purchases, medical activities 
+and other activities I want to have recorded and tracked, and which 
+I want to remain part of my private life.   
+
+Here are a couple political steps we could take right now to increase 
+our privacy:
+
+* Legalize the use of pseudonyms and fake social security numbers 
+on most forms (instead of calling it "fraud").  This would take 
+privacy issues out of the hands of obscure computer databases and 
+even more obscure, loophole filled "privacy laws", and put the 
+choice of privacy firmly back into the hands of the consumer
+
+* Fully legalize all forms of cryptography (eliminate
+obsolete Cold War export controls)
+
+Note that pseudonyms are nothing new in cyberspace.  They've
+been a part of BBS culture since day one, and their use has
+recently grown quite substantially on the Internet.  It's mostly
+the more "official" and backwards large institutions that 
+are so paranoid about people filling out forms correctly.
+
+Of course, the first law means that these institutions will have to 
+adjust the way they do business -- for example, many of the people who 
+rely on social security numbers to build up databases will have to 
+get their information some other way (perhaps by talking to people, gasp!)
+The second law (really removing existing obsolete laws) means, once 
+today's crypto tech is put on the market, that spies and snoops won't 
+be able to wiretap phones or read private e-mail unless the communicators 
+choose to talk in the open.
+
+To a first approximation, just about any kind of social structure
+is technically possible in cyberspace.  So rather than just asking
+what we fear most of it, we should be asking _what do we ideally
+want it to be_?  In some ways we can be very idealistic
+and very practical at the same time.  For example, in a purely
+virtual world, Gandhi's ideal of nonviolence, long considered
+impractical, is perfectly realized.  Any kind of physical 
+violence is impossible in cyberspace.  Incredible!  
+When it comes to creating the 21st century, we can often be very 
+idealistic, and improve our lives by vast amounts in certain ways.
+Of course, we're going to still live much of our lives in the
+physical world, so this is hardly a complete solution to all
+our woes, including war and violent crime.  But when it comes to creating 
+new realities in cyberspace, we can quite often be very idealistic 
+and very realistic at the same time: there we don't have to live 
+by the same constraints we live by in the physical world.
+
+The great thing is that some of the most important issues of our
+modern world, such as privacy, are mostly issues of how we set up
+cyberspace.  This means we can solve them in ways radically
+different than we would solve mostly physical world problems.
+
+Also, instead of asking what "we" as a society want, I think it's 
+much better to promote diversity in cyberspace, and ask what you
+and your friends want.  Let different cultures set up radically
+different new communities.  Even if there is such a thing as a
+"best" kind of community, the only way we're going to find it
+is by trying out many different kinds and comparing them.
+Only God would have the omniscience needed to figure it out in 
+advance.
+
+Besides nonviolence, my most important ideal is choice.
+I want, for example, the ability to choose which of my 
+activities remain part of my private life, and which I make
+public.  Of course, I must be willing to pay extra for
+choices that require expense of others (eg, trying to
+get credit anonymously might be quite expensive!).  Even so,
+I want to be able to make the choice of whether or not to
+pay that price for myself, depending on my own unique circumstances.  
+There are two basic arguments here: (1) a moral argument, that freedom is
+one of our most valuable inheritences, and (2) an information theoretic 
+argument -- nobody knows as much about my unique circumstances 
+and needs as myself and my loved ones.  Removing choice from 
+this intimate circle can impose gross ignorance and inefficiency
+on my life and the lives of my loved ones, as well as loss of 
+freedom.  In cyberspace, I think we can set up structures that 
+will allow much more choice in many areas, as well as (and partly 
+because of) our ability to conduct relations in cyberspace with 
+perfect nonviolence.
+
+Nick Szabo					szabo@netcom.com
+
+------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Sat, 24 Sep 1994 21:26:26 -0700 (PDT)
+Subject: [#94-9-469] What Happens First?
+
+Pete McClusky:
+> Sufficient to convince the uploadee
+> that there is no more change than when he goes to sleep? Sufficient to
+> convince someone who accepts Mark Miller's credit theory of identity that
+> enough information has been transfered to call the uploaded entity by the
+> same name as the original person?
+
+Sufficient for the credit theory along with those aspects of personality
+important to a person.  For example most people desire sex, which requires 
+extensive molecular simulation of the hormonal system.  Most people
+desire most of their long term memories to remain intact.  An Alzheimer's 
+patient can give credit to their childhood photograph, but that's not 
+considered a sign of returned health.  An upload that lost its memories
+like that might not survive very long, vs. either humans augmented
+in other ways (smart drugs, brain expansion, nanochip implants, etc.)
+or artificially constructed or evolved self-motivated software.
+
+>  I am too impatient for the benefits of uploading to wait for microtubule
+> or complete hormonal simulation.
+
+Do we really know what the price of losing these capabilities is?  Are
+you willing to make yourself a gunea pig, and risk obliteration of
+the most basic parts of your personality to upload early?  Perhaps,
+if Robin Hanson is right about the economic advantage of uploading
+early, at some still quite lossy point this will in fact be the 
+rational thing to do.  It's a very interesting and unresolved issue.
+
+>  2 centuries at current rates? That sounds like about 2^100 or 10^33 times
+> as much processing power; a number greater than the number of atoms in my
+> body.
+
+Indeed, it would take more than this power to properly simulate the
+quantum mechanics of every atom in your body, which is a good first
+approximation to simulating hormonal and synapse chemistry and
+structure (a non negligable fraction of those atoms).  Hopefully we 
+will find much higher level abstractions and simulation short-cuts: but
+as I have said, this is an unsolved problem.  When projecting what 
+will come before what, it's reasonable to take a conservative approach,
+and not assume that we will solve problems of such an unknown, basic
+nature, or at least not assume that the solutions will be easy.  If 
+the predictions are wrong (any of these projections by anybody is 
+likely wrong in many ways) we should be ready to switch gears and adapt 
+to the new circumstances: even, perhaps, if that means uploading as monks.
+I argued, in my essay "Uploading and Sexual Engineering", that it
+may make evolutionary sense to upload as fetishists, so that sexual 
+desires are turned into survival motivations for the new environement.  
+
+I agree that the last thing we need is a "50 year plan" like 
+the projections we get out of NASA, which are obsolete by the time they
+get funded.  I can't say strongly enough that my projections are not
+intended to become cast in stone plans: quite the opposite, I want
+to explore a wide variety of options to enable flexible response.
+Indeed, meta discussions about the methodology of prediction itself
+are of great interest to me.
+
+Nick Szabo				szabo@netcom.com
+
+------------------------------
+
+From: timstarr@netcom.com (Tim Starr)
+Date: Sat, 24 Sep 1994 23:16:47 -0700
+Subject: [#94-9-470] Armed/Economic Revolution
+
+>From: TORREY <LES_TWH@flo.org>
+>To: anarchy-list@cwi.nl
+>Subject: Economic Revolution
+>
+>...An armed insurrection cannot succeed against a large, powerful
+>army with sophisiticated weapons.
+
+"Anyone who claims that popular struggles are doomed to defeat by modern
+military technology must find it literally incredible that France and the
+United States suffered defeat in Vietnam; that the Shah no longer rules
+Iran; Somosa in Nicaragua; that Portugal was expelled from Angola and
+Mozambique; England from Palestine and Ireland; and France from Algeria."
+
+	- Allan Goetlieb
+
+"The hope of the future does not rest, as commonly believed, in winning the
+peoples of the 'buffer fringe' to one superpower or the other, but rather in
+the invention of new weapons and new tactics that will be so cheap to obtain
+and so easy to use that they will increase the effectiveness of guerilla
+warfare so greatly that the employment of our present weapons of mass
+destruction will become futile and, on this basis, there can be a revival of
+democracy and of political decentralization in all three parts of the world."
+
+	- Carroll Quigley, "The Evolution of Civilizations," p. 418
+
+Also see William Marina's article "Weapons, Technology, and Legitimacy: the
+Second Amendment in Global Perspective" in _Firearms_and_Violence_, edited
+by Don B. Kates Jr.
+
+>...By arming yourself you give your opponent 'permission' to use lethal force.
+        
+No more so than you do by being unarmed.  The only difference is that if you're
+unarmed then you're relatively defenseless.  History is replete with examples
+of conquerors victorious over unarmed peoples, e.g., the US conquest of the
+Philippine Republic earlier this century (the Philippines gave up their arms
+in their peace treaty with Spain just previously - and it still took 70,000
+Marines to conquer them).  And while being armed is no guarantee of freedom, to
+paraphrase Thomas Jefferson: "A country that wants to be unarmed and free,
+wants what never has been and never will be."
+
+Arguing the impossibility of the armed resistance strategy is false and beside
+the point.  History clearly shows that it _can_ work.  That doesn't mean that
+it is the only good strategy, that it is the best one, or that it can work on
+its own without the help of additional complementary strategies.  What you
+call an "economic revolution" has been the necessary precursor of all success-
+ful political revolutions in history.  When the productive class has been on
+the side of the victorious revolutionaries thoughout history, the result has
+been a freer society.  When the productive class has not been on their side,
+military victory has only brought on tyranny.  Examples of the former include
+the Persian Wars, the Swiss, Dutch, and Americans Wars of Independence, and
+probably others I'm unaware of.  You've done a better job of listing examples
+of the latter kind of "revolution" (which is actually a putch or coup d'etat)
+than I could have.
+
+By all means, proceed with the "economic revolution," a.k.a., the counter-
+economy (Samuel Edward Konkin III), the "informal sector" (Hernando DeSoto/
+Enrique Ghersi), the "underground economy," etc.  And by all means avoid
+centralized militias; if guerilla warfare ever becomes necessary then command
+must be decentralized for tactical purposes anyways, as Mao pointed out.
+Stick to civil disobedience as long as possible.
+
+But don't pretend that it'll never come down to armed conflict, or that
+nothing good can ever come of that.  It may, and it can.  Hopefully, it won't.
+
+Tim Starr - Renaissance Now!  Think Universally, Act Selfishly
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Liberty is the Best Policy - timstarr@netcom.com
+
+------------------------------
+
+End of Extropians Digest V94 #267
+*********************************
+

@@ -1,0 +1,1008 @@
+From extropians-request@extropy.org Sat Oct  2 13:10:56 1993
+Return-Path: <extropians-request@extropy.org>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA00978; Sat, 2 Oct 93 13:10:33 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from ude.tim.ia.ung.gnu.ai.mit.ed (ude.tim.ia.ung.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA06324; Sat, 2 Oct 93 13:10:26 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by ude.tim.ia.ung.gnu.ai.mit.edu 
+	id AA23584; Sat, 2 Oct 93 16:04:14 EDT
+Received: from news.panix.com by ude.tim.ia.ung.gnu.ai.mit.edu via TCP with SMTP
+	id AA23579; Sat, 2 Oct 93 16:03:57 EDT
+Received: by news.panix.com id AA24831
+  (5.65c/IDA-1.4.4 for exi-maillist@ung.gnu.ai.mit.edu); Sat, 2 Oct 1993 16:03:49 -0400
+Date: Sat, 2 Oct 1993 16:03:49 -0400
+Message-Id: <199310022003.AA24831@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest
+X-Extropian-Date: October 2, 373 P.N.O. [20:03:38 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+
+Extropians Digest             Sat, 2 Oct 93             Volume 93 : Issue 274
+
+Today's Topics:
+                         RHETORIC: Ad hominem vs Truth                [1 msgs]
+                  BLACKNET:  The truth is thought provoking           [3 msgs]
+                      BlackNet Investigations--the Truth              [1 msgs]
+                       Blacknet: tit-for-tat breakdown?               [1 msgs]
+                                   Boffins                            [1 msgs]
+                 CRYO: Ban in British Columbia, OMNI reprint          [2 msgs]
+                              Counterfeit Money                       [1 msgs]
+                              Counterfeit Money                       [1 msgs]
+                  DIET: Too little fat causes brain damage!           [1 msgs]
+                        FWD: Lunar Missions announced                 [1 msgs]
+                       HEALTH: Burning your Health Card               [1 msgs]
+                 Interactive services as Blacknet vacuum hose         [1 msgs]
+                Interactive services as Blacknet vacuum hose          [1 msgs]
+                            Iridium and Blacknet?                     [1 msgs]
+                            Nightly Market Report                     [1 msgs]
+                     Operationalism (was Meaninglessness)             [1 msgs]
+                           Public Key Cryptography                    [1 msgs]
+                                alt.extropians                        [1 msgs]
+                               blacknet arises                        [1 msgs]
+                                  free will                           [1 msgs]
+
+
+Administrivia:
+
+No admin msg.
+
+Approximate Size: 53034 bytes.
+
+----------------------------------------------------------------------
+
+Date: Fri, 1 Oct 1993 20:00:31 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: BLACKNET:  The truth is thought provoking
+
+1. The CIA/NSA got a lot of very high grade info via ELINT at
+various points in the cold war. It wasn't as low as medium grade.
+
+2. Charlie, are you aware of the rumor (I don't know the truth to
+it) that in Nazi Germany, _every_ phone call made was transcribed?
+
+3. I'd like to see what malignant authorities would do about data
+routing via Iridium, which Nick tells me should be ridiculously cheap
+compared to some current stuff.
+
+Phil
+
+------------------------------
+
+Date: Fri, 1 Oct 93 18:09:28 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: BLACKNET:  The truth is thought provoking
+
+For the record, I don't think it's nearly as easy to shut down
+BlackNet-crypto activities as Charlie Stross thinks:
+
+> Last night, at Tim's prompting, I tried to work out how easily they could shut 
+> down Blacknet, should it evolve. The answer was, "very easily". It's trivial to
+> construct a filter algorithm that can distinguish data transmissions from voice
+> on the basis of entropy. Check data transmissions off-line to identify fax
+> headers, and eliminate faxes; you're left with modems. Check phone numbers for
+> "legitimate" corporate accounts and you're left with a relatively small number
+
+I agreed last night with Charlie that entropy measurements and other
+signal statistics could probably distinguish _voice_ transmissions
+from _encrypted_ transmissions. This does not mean BlackNet sorts of
+things can be "clamped down" on at all easily, for several reasons:
+
+1. Distinguishing voice from data is easy today, with the right
+equipment, but the real problem is, rather, distinguishing "bad"
+("evil") data from "good" data...a much harder problem. 
+
+2. Data transmissions are ubiquitous. Finding the encrypted traffic in
+data is tough--a topic that comes up every time the proposals to ban
+crypto get debated.
+
+3. Take for example the mini-BlackNet example I ran recently on the
+List. What would "entropy measures" or other statistical measures have
+done? (Agreed, if the intent is to shut down all e-mail, all funds
+transfers, all corporate communications....this is too large a blow
+fro even the Feds to consider.)
+
+So, my friend Charlie is right that DSP techniques can distinguish
+between most data transmissions (high entropy) and most voice
+transmissions (low entropy, unless compressed first, which will be
+more common in the future) but he is wrong that this means a crackdown
+on strong crypto is enforceable without massive disruption of all
+digital communications.
+
+> 
+> -- Charlie (growing ever more paranoid ...)
+> 
+> 
+
+And justifiably so...
+
+The changes some of us are talking about will happen long before the
+benefits of nanotechnology every appear. Dare I call it the "Crypto
+Singularity"? 
+
+
+-Tim May
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+Date: Fri, 1 Oct 93 18:37:03 -0700
+From: jamie@netcom.com (Jamie Dinkelacker)
+Subject: BlackNet Investigations--the Truth
+
+Ok, so Blacknet has dossiers. Don't we all? I keep everything that appears
+in my mailbox by certain individuals. Others I trash. What about you? But
+stop to think about the accuracy of the information and how it might be
+used. Sometimes it's inaccurate, sometimes it isn't.
+
+Am I the one who killed the Kennedys? ("Afterall it was you and me," says
+Mick). Or maybe I am the one who gave the secret of the A-bomb to the red
+nasties. Maybe I am the one who gave Pollard the keys to our subs.  Or
+maybe I'm that cop knocking at your back door . . . If a dossier says so,
+so what? What can be done? By whom? To whom? ("Arm yourself when the Frog
+God smiles.")
+
+There's nothing new here. Everytime we stick a toe in the ocean we enter
+the food chain at a point much lower than our preferred landlubber position
+at the top. Who knows where any one of us will be in cyberspace, the
+structure of its food chain and our role in the nutrient mix. Blacknet is
+just a wakeup call for sleepwalkers.
+
+Kennita says (refering I believe to Klaus! or Tim):
+
+>For the record, he scares the shit out of me, dossiers or no dossiers.
+
+Well, at least we know where he is. Actually, I've come to appreciate him
+regularly jangling my psyche to recognize the tar pit around me -- same
+goes for dV/dt and Perry. I'm much more scared of the NSA, FBI, CIA,
+Congress,  ... , and every asshole with a badge (watch the news reports
+about NYPD). Scratch a cop, find corruption.
+
+Cyphernet: decrypting the government in a public's interest.
+--
+................................
+Jamie Dinkelacker   Palo Alto CA 
+Jamie@netcom.com    415.941.4782    
+
+
+------------------------------
+
+Date: Fri, 1 Oct 93 17:58:14 PDT
+From: Robert Brooks <rb@hprrb.rose.hp.com>
+Subject: DIET: Too little fat causes brain damage!
+
+Here are some excerpts from an article I just read in the latest New
+England Journal of Medicine that seems like it ought to be of interest to
+some (posted without permission):
+
+NEW STUDY:  EXTREME LOW-FAT DIETS MAY LEAD TO BRAIN DAMAGE
+
+When Dr. Whelan Dowd of Harvard University School of Medicine thought he
+observed certain personality quirks among some subjects in a low-fat study
+he was conducting, he decided to expand its scope, with some very interesting,
+and disturbing, results.
+
+Dr. Dowd originally targeted typical cardiovascular health parameters in
+his study of 50 subjects on a diet averaging less than 10 percent of
+calories from fat, to be done over a two-year period.  But at the six-month
+checkpoint, he thought something seemed odd. 
+
+"The subjects struck me as, much more so than average, to be variously
+listless, irritable, forgetful, or stubborn.  Spelling and typographical
+errors on the subjects' meal diaries also seemed particularly bad."
+
+So he added a battery of psychological tests such as the Stanford-Binet IQ
+test, a reaction time test, and a personality test.
+...
+Results showed both an initial deficiency in mental skills of the low-fat
+group as compared to the control group, and a further widening of the gap
+over time.
+...
+"My theory to explain all this is that fat is actually a nutrient for the
+brain.  It's well known that the brain is over 90% fat.  So it's not all
+that surprising that when the body's fat level drops to a certain point, the
+brain literally starts to get digested, just as muscle gets digested in
+people suffering from starvation."
+
+"As more and more fat leaves the brain, cerebral structures become increasing-
+ly ossified.  Externally, the first signs are a reduced ability to learn
+and adapt, knee-jerk reactions, rigidity in behavior patterns, overconfidence,
+prejudice, and paranoia.  So while low-fat diets are great for reducing
+hardening of the arteries, they cause hardening of the neural pathways,
+instead."
+...
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I hope my hoax was sufficiently authentic-sounding to have a few of you
+going for awhile.  If you enjoyed it, buy some shares of BROOX which I just
+registered!
+
+
+Robert
+
+------------------------------
+
+Date: Fri, 1 Oct 93 21:56:23 EDT
+From: pmetzger@lehman.com (Perry E. Metzger)
+Subject: blacknet arises
+
+Well, this was actually posted to alt.security. It may be bullshit,
+but its interesting to watch, n'est pas?
+
+Perry
+
+Newsgroups: alt.security
+From: an38360@anon.penet.fi
+X-Anonymously-To: alt.security
+Organization: Anonymous contact service
+Reply-To: an38360@anon.penet.fi
+Date: Thu, 30 Sep 1993 21:38:22 UTC
+Subject: NEEDED - Counter-intel
+
+
+NEEDED - Individual with surveilance experience to assist
+"liberal" group. 
+
+They attack, we defend. It would of great use to know
+what they are planning.
+
+The first problem is how do we vet each other.
+
+Time is of the essence. Please email responses.
+
+This is no joke.
+
+
+
+-------------------------------------------------------------------------
+To find out more about the anon service, send mail to help@anon.penet.fi.
+Due to the double-blind, any mail replies to this message will be anonymized,
+and an anonymous id will be allocated automatically. You have been warned.
+Please report any problems, inappropriate use etc. to admin@anon.penet.fi.
+
+------------------------------
+
+Date: Fri, 1 Oct 93 19:00:32 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: HEALTH: Burning your Health Card
+
+> Eli, penicillin isn't a relatively benign drug. I'm probably allergic
+> to it and usually end up having to take something else for infections.
+
+That's why it's *relatively* benign... one of its problems is that
+it has a high incidence of allergic reactions.  Topical penicillin
+is definitely out.  Your allergy is not at all unusual -- some
+people find out about it during IV penicillin administration.  But
+penicillins are generally benign compared to, say, doxycycline.
+
+> Of more relevance: antibiotics in particular are supposed to be mor
+> oops, more carefully rationed than that in order to keep more resistant
+> strains of the disease from appearing. 
+
+Yup.  As I said, this is arguably the major downside of this sort
+of treatment.
+
+> This isn't really relevant to a viral infection, but I normally try
+> not to go to the doctor when I have a simple cold.
+
+Good idea.  First, the chance of picking up something nasty in the
+waiting room probably outweighs anything you could gain.  Second,
+once you show up with symptoms, they're probably going to have to
+do something, for reasons of medico-legal ass-covering.  This may
+not be ideal in a strictly medical sense.
+
+Actually, selecting for resistant strains is a problem even with
+a viral infection, or no infection.  People routinely harbor
+pathogenic species in their normal bacterial flora.  I personally
+see stronger externality arguments for controlling antibiotics than
+for any other class of drugs I can think of.
+
+> pgf
+	 PGP 2 key by finger or e-mail
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Fri, 1 Oct 1993 21:39:02 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Iridium and Blacknet?
+
+Following up on my earlier comment to Charlie Stross, how effective
+will Iridium's proposed data transfer service be in routing Black
+Net into "gray areas" or whatever countries trying to ban them
+will be called?
+
+(A thought just popped into my mind: how successful were/are Turkey's
+laws against transistor radios?)
+
+pgf
+
+------------------------------
+
+Date: Fri,  1 Oct 1993 22:54:34 -0400 (EDT)
+From: Matthew J Ghio <mg5n+@andrew.cmu.edu>
+Subject: Public Key Cryptography
+
+Could someone email me a technical description of public key
+cryptography, or tell me where I could get one?  I'm trying to
+understand the specifics of this and haven't found many sources.
+
+Also, does anyone have a list of anonymous remailers availiable on the
+internet?
+
+------------------------------
+
+Date: Fri, 1 Oct 1993 21:59:47 -0500
+From: extr@jido.b30.ingr.com (Freeman Craig Presson)
+Subject: FWD: Lunar Missions announced
+
+------- Start of forwarded message -------
+
+I have asked for a copy of the announcement materials on
+behalf of Huntsville Area L5 ... should be interesting.
+
+-- cP
+
+
+From: u1452@sluggo.sdsc.edu (Jeff Bytof - SIO)
+Newsgroups: sci.space
+Subject: Lunar missions to be announced
+Date: 26 Sep 1993 22:26:37 GMT
+Organization: San Diego Supercomputer Center @ UCSD
+Distribution: world
+NNTP-Posting-Host: sluggo.sdsc.edu
+
+
+              International Space Enterprises to
+              Announce Joint Lunar Operation with
+              Russian Space Industry in San Diego
+
+On Wednesday, September 29, at 11:30 am, former General
+Dynamics engineer Michael Simon will announce details of
+plans to launch a new generation of lunar probes in
+conjunction with the Lavochkin Association. Mr. Simon
+is the founder of International Space Enterprises, a
+San Diego-based company that will manage a series of
+lunar probes, including at least one lunar lander and
+a data relay satellite. First launch of lunar probes
+is planned for 1996, with the landing mission
+scheduled for 1997.
+
+The event will be held at the Reuben H. Fleet Space
+Theater, in Balboa Park, and is *not* open to the 
+public. Those wishing to attend should identify 
+themselves as guests of San Diego L5, the local 
+chapter of the National Space Society.
+
+For more information, please call San Diego L5 at
+619/295-3690.
+
+
+------------------------------
+
+Date: Fri, 1 Oct 1993 23:06:32 -0400
+From: ddf2@postoffice.mail.cornell.edu (David Friedman)
+Subject: BLACKNET:  The truth is thought provoking
+
+Charlie's post raises a question  I have been concerned about for a while.
+I have an article in draft on the Clipper Chip and the wider issues raised
+by cryptography, and hope to publish it in a law review. It includes a
+discussion of the downside of strong privacy--ways in which encryption
+allows criminal firms to take advantage of brand name and economies of
+scale to produce undesirable things, such as contract killings, much more
+effectively than they now do.
+
+My basic instinct is that, in arguing for a proposition (in this case
+unregulated cryptography) one has an obligation to present and deal with
+the strongest arguments against it. That is part of the reason I included
+that section. On the other hand, I am a little worried about giving
+ammunition to the other side. The public discussion of the disadvantages of
+encryption so far seems to be limited to the argument that it interferes
+with wire taps--which in my view is only the tip of the iceberg. If I
+convince people that widespread cryptography has serious adverse
+consequences, am I doing more harm than good? Or is the other side likely
+to make these arguments in any case? Have they?
+
+David Friedman
+
+David Friedman
+Cornell Law School
+
+
+------------------------------
+
+Date: Fri, 1 Oct 93 20:09:28 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: CRYO: Ban in British Columbia, OMNI reprint
+
+Omni quotes Paul Snickars, Registrar of Cemeteries and Funeral Services for
+British Columbia:  "Cryonics is unproven.  We've heard of people paying up
+to five thousand dollars for cryonics services with no hope of realizing
+anything on that investment."
+
+No hope?  Evidently not a betting man.
+
+The curse of cryo:  Of course it's unproven.  It will remain unproven
+until it becomes obsolete!
+
+At Worldcon, an elderly scientist[*] stood up and told of his experience
+seeking funding from Parliament about twenty years ago.  He had in mind
+a line of research that, he reckoned, showed one chance in a hundred of
+leading to a useful contraceptive (and, he said, ultimately it did). 
+He faced a committee of MPs who asked, "Are you sure that this research
+will give positive results?"  [not in those words, I think]  Of course not! 
+If he were sure, it wouldn't be research!  But politicians have an abnormal
+sense of risk.
+
+[*] For the transatlantics:  Does the word "boffin" apply to any scientist,
+or just one who works for MoD?
+
+Anton Sherwood                                             DASher@netcom.com
++1 415 267 0685         1800 Market St #207, San Francisco, California 94102
+
+------------------------------
+
+Date: Sat, 02 Oct 93 00:10:03 EDT
+From: The Hawthorne Exchange <hex@sea.east.sun.com>
+Subject: Nightly Market Report
+
+The Hawthorne Exchange - HEx 	             Nightly Market Report
+
+For more information on HEx, send email to HEx@sea.east.sun.com
+with the Subject info.
+
+News Summary as of: Sat Oct  2 00:10:02 EDT 1993
+
+	GOD_2 changed to GODII
+	GODII moved to Extropians list as reputation of Bill Garland
+
+Newly Registered Reputations:
+KPJ	KPJ Jaakkola
+D&M	Ward Dean, M.D. & John Morgenthaler
+BROOX	Robert Brooks
+
+New Share Issues:
+(None)
+
+Share Splits:
+(None)
+
+
+Market Summary as of: Sat Oct  2 00:00:01 EDT 1993
+
+Reputations of members of the Extropians mailing list:
+[ Note: Contact hex-request to have a reputation placed on this list. ]
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding
+ANTON         .61      .63      .63        10000         1943
+ARKU          .18      .31      .30        10000         5301
+BLAIR         .01     1.20    30.00        10000           26
+DEREK         .06      .19      .19       100000        18330
+DRS             -      .15      .15        10000         2600
+DVDT         1.70     1.75     1.70        10000        10000
+E             .75     1.00      .90        10000         8011
+ESR             -        -        -            -            -
+FCP           .06     1.30     1.50        80000        15345
+GHG           .02      .30      .20        10000         8180
+GOBEL         .01      .25     1.00        10000          767
+GODII         .01        -        -        10000            -
+H             .30      .76      .76        30000        10290
+HAM           .60      .90      .90        20000        15918
+HANNO         .15     7.00        -        10000            -
+HFINN        1.50     6.00      .01        10000         1005
+IMMFR         .25      .70      .80        10000         1838
+JFREE         .02      .50      .50        10000         3200
+JOHN          .30      .40        -        10000            -
+JPP           .26      .29      .26        10000         3500
+KARL         2.00     1.00     1.00        10000         1000
+KNNTA         .12      .15      .20       100000         5100
+LEFTY         .30      .40      .40        10000         3751
+MARCR           -        -        -            -            -
+MLINK           -      .01      .01      1000000       102602
+MWM             -     1.50      .01        10000         1260
+N            1.50     9.00     9.00        10000         4650
+P           22.50    25.00     1.50      1000000           94
+PETER           -      .01     1.00     10000000          600
+PRICE           -      .01      .01     10000000         1410
+R             .40      .80      .70        10000         6100
+RJC           .65     2.00     1.00        10000         5200
+ROMA            -        -        -            -            -
+RWHIT           -        -        -            -            -
+SAMEER        .30      .75      .61        10000         9810
+SHAWN         .55      .55      .01        10000           25
+TIM          1.00     2.00     1.00        10000         1704
+WILKEN       1.00    10.00     1.00        10000          102
+-----------------------------------------------------------------------------
+
+Other reputations:
+                                             Total Shares
+Symbol        Bid      Ask     Last       Issued  Outstanding
+1000          .05      .40      .20        10000         5000
+110           .01      .10      .10        10000         1750
+150           .01      .10      .10        10000         1750
+1E6           .20        -      .20        10000         8825
+1E9           .01      .09      .20        10000         7000
+200           .02      .20      .10        10000         5075
+80            .01        -        -        10000            -
+90            .01        -      .10        10000         2000
+ACS           .10      .15      .05        10000         2724
+AI            .01      .09      .10        10000         2000
+ALCOR           -      .25     1.50        10000      3176.00
+ALTINST         -      .25      .05        10000         4000
+ANARCHY       .20      .90     1.00        10000         1100
+BIOPR         .01      .09      .05        10000         3000
+BITD          .01     1.00        -        10000            -
+BLACK           -      .10      .10       100000         5000
+BROOX           -        -        -            -            -
+CYPHP         .20      .25      .50        10000         8900
+D&M             -        -        -            -            -
+DC1000          -      .10        -        10000            -
+DC200           -      .15      .10        10000         1500
+DC7000          -      .10        -        10000            -
+DCFLOP        .15        -      .15        10000         6000
+DRXLR         .75      .90      .85        10000         4346
+EXI           .11      .25     1.54        10000         3025
+FAB             -        -        -            -            -
+GOD             -      .10      .10        10000         3000
+GUNS            -      .90     1.00        10000         3900
+HART            -     1.99     2.00        10000         9000
+HEINLN        .25      .30      .30        10000         6600
+HEX        100.00   101.00   100.00        10000         4038
+KLAUS         .05      .45      .45       100000        34004
+KPJ             -        -        -            -            -
+LEARY         .01      .50      .20        10000         1000
+LEF             -      .10      .40        10000         4964
+LIST          .40    10.00      .75        10000         5000
+LP            .20      .30      .50        10000         5625
+LSOFT         .50     1.00      .50        10000         9550
+LURKR           -      .01        -       100000            -
+MED21         .01      .30      .30        10000         5399
+MMORE           -     1.25      .10        10000         3000
+MNSKY           -     1.80        -        10000            -
+MORE          .38     1.25      .75        10000         2660
+NEWTON          -      .50      .20        10000         1000
+NLAW            -      .50        -        10000            -
+NNLAW           -      .50        -        10000            -
+NSS             -      .03      .01        10000           25
+OCEAN         .15      .18      .20        10000         6600
+PENNY           -      .08     1.50        10000         2500
+PLANET        .01      .02      .06        10000         3500
+PPL           .15      .45      .30        10000         4600
+RAND          .15      .20      .20        10000         3500
+SGP             -        -        -        10000            -
+SSI             -      .20      .22        10000         4700
+TCMAY         .38      .40      .38        10000         6200
+TRANS         .01      .90      .60        10000         3211
+VINGE         .01     1.00      .75        10000         3449
+-----------------------------------------------------------------------------
+
+------------------------------
+
+Date: Fri, 1 Oct 93 23:31:08 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: Counterfeit Money
+
+Some May say:
+> The part cited above about "make any thing but gold and silver coin a
+> tender in payment of debts..." I take to be fully consistent with my
+> point. That is, the Constitution defined money to be "coin" and
+> forbade any state from doing an end-run around this requirement that
+> debts be payable in gold and silver coin.
+
+Note that everything in that paragraph of prohibitions to the States
+is a power either explicitly assigned (treaties, letters of marque, coining
+money) or explicitly denied (bills of attainder, ex post facto law, title
+of nobility) to the United States, with these exceptions: bills of credit
+[whatever that means], paper money, laws impairing contract.
+
+Note also that at least one of the Federalist Papers says that a folly such
+as "a passion for paper money, or a cancellation of debts" is less likely
+to take hold in a large republic than in a small.  (Wish I had an e-version
+of the FP to search.)  I think, though I can't say with confidence, that
+Publius said paper money was a power held in reserve for emergencies like
+war.
+
+Anton Sherwood                                             DASher@netcom.com
++1 415 267 0685         1800 Market St #207, San Francisco, California 94102
+
+------------------------------
+
+Date: Sat, 2 Oct 93 00:38:05 -0700
+From: dasher@netcom.com (D. Anton Sherwood)
+Subject: alt.extropians
+
+Anton Sherwood writes:
+> If we publicize the list on Usenet, I hope we'll be more aggressive in
+> defending the gates against barbarians.
+
+Tim May correctly writes:
+> Seriously,  I have little patience or interest in repeating arguments
+> made the first time around (I will admit to arguing at times...).
+	[...]
+> Frankly, I expect few others on this list to do the incredibly
+> time-consuming and grungy work of arguing with casual visitors.
+
+Who said anything about arguing?  I'm talking about expelling on charges
+of debating the basics.  (Sure, they may find themselves ::excluded, but
+both mailing to them and excluding cost resources.)
+
+*\\* Anton 						Ubi scriptum?
+
+------------------------------
+
+Date: Sat, 2 Oct 93 1:41:34 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Blacknet: tit-for-tat breakdown?
+
+Phil Fraering raises good points about tit-for-tat in
+the crypto-anarchic world.  
+
+> How much will BlackNet Investigations be selling my extropians
+> dossier for?
+
+Probably far less than you can sell Blacknet Investigation's
+extropians dossier for.
+
+> How much will it cost me to see who has shown interest in seeing
+> my dossier?
+
+That will be expensive indeed, since most customers
+would deal with Blacknet anonymously, to avoid being
+put on Blacknet themselves!
+
+> My point is, is retaliation of any kind possible in this enviornment?
+
+Sure.  Expose the True Names of Blacknet investigators 
+("Blacknet Blacklist"), feed Blacknet false information they will pass
+on to customers thereby ruining their reputation, spread rumors
+ruining their reputation, start your own service to blackmail them
+back, etc.  Probably many other hacks known to those well
+versed in gossip.  If all that fails, mailbomb 'em via anon remailer.
+
+> Final emphasis: if retaliation is possible, how long will it take for
+> something livably stable to evolve?
+
+Methinks we run into the halting problem.  But there will be
+Schelling points, and I predict many of them will be similar
+to conventions surrounding gossip in a traditional small town.
+
+Nick Szabo					szabo@netcom.com
+
+------------------------------
+
+Date: Sat, 2 Oct 93 2:25:04 PDT
+From: szabo@netcom.com (Nick Szabo)
+Subject: Interactive services as Blacknet vacuum hose
+
+Perry Metzger:
+> Why should I buy a 24 hour package of programming in a silly container
+> like a "channel" when I can just download any program I like at any
+> time? I can download the morning news from "The Economist on Video",
+> get a movie any time I like, see idiotic sitcoms or intelligent
+> theater when I feel like it, etc.
+
+You might have severe reservations, if this gives the "video bookstore"
+and its data customers the ability to accumulate a dossier of 
+what you watch.  "Note that Mr. Metzger spends several minutes
+per week reading those ads for offshore banks on the back frames
+of Economist Videos".  Quite valuable information, first for 
+marketers (Nielson ratings for the ads themselves instead of
+shows, sample size of entire audience, customer-specific advertising 
+taste data for targeted ad campaigns, no special equipment).
+After marketers get done with it, the data makes its way out
+to any other Blacknet busybodies.
+
+Alas, I doubt the public will care. Citibank Visa is now offering a
+service where they will tally your entire personal budget for
+you based on your check register, credit card purchases, and
+other data you input by hand -- like Quicken except on their mainframe.  
+Juicy fodder, again first for marketers tracking your spending
+patterns, eventually for the IRS (detailed automated audits)
+and other extortionists.
+
+Nick Szabo					szabo@netcom.com
+
+------------------------------
+
+Date:     Sat, 2 Oct 93 10:20:54 GMT
+From: starr@genie.slhs.udel.edu
+Subject:  RHETORIC: Ad hominem vs Truth
+
+>From: dasher@netcom.com (D. Anton Sherwood)
+>Subject: rhetoric: ad hom vs truth
+>
+> > How my statements make me look is an abusive ad hominem attack which has
+> > no bearing upon their truth.
+>
+>It bears on their effectiveness.  The purpose of argument, as such, is not
+>merely to generate true statements, but to convince (or negotiate subsets
+>or rephrasings of each party's position on which the other can agree).
+
+Persuasion of others is a secondary purpose of argumentation; its primary
+purpose is truth.  I'm well aware of the importance of persuasion; just
+recall the context in which I made the above statement: Perry had gone
+on a holy crusade against what he thought were ad hominem fallacies I
+was in the habit of committing.  My counter-tactic was to point out how
+he was doing the exact thing he was telling me was wrong (apparently
+because the Universe didn't like it, because he never did get around to
+saying what arational goal of his I was hindering the achievement of by
+him :-) and that I ought to stop.  If he believed his own claim about my
+actions to be true, and wasn't hypocritical about the standards he held
+himself and others to, then he was wrong and ought to have stopped, too.
+
+Tim Starr - Renaissance Now!
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Think Universally, Act Selfishly - starr@genie.slhs.udel.edu
+
+------------------------------
+
+Date: Sat, 02 Oct 93 10:01:22 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: CRYO: Ban in British Columbia, OMNI reprint
+
+> [*] For the transatlantics:  Does the word "boffin" apply to any 
+> scientist, or just one who works for MoD?
+
+No, they can work for companies as well, although I suspect the word
+originally came from the MoD during WW-II.  (Jez, boffin's not in my
+OED!)
+
+> Anton Sherwood
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Sat, 02 Oct 93 10:22:37 GMT
+From: price@price.demon.co.uk (Michael Clive Price)
+Subject: free will
+
+T. David Burns:
+
+> What practical difference would it make in our lives if we decided
+> we do/don't have free will? (Where's Mike Price when I need him?)
+
+I was arguing not that free-will doesn't exist, but that it is
+indistinguishable from 'will'.  The free- prefix is what throws people,
+IMO.  Better instead to ask if we do/don't have will.  My answer is, yes
+we have.  I'm typing this because I want to.  Even if I was being
+coerced, it would still be through choice (I prefer to type rather than,
+say, have my fingers broken).  Okay, some psychos believe they're under
+the control of aliens - but let's exclude the freaks for the moment.
+
+Mike Price                         price@price.demon.co.uk
+
+------------------------------
+
+Date: Sat, 02 Oct 1993 10:07:06 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Counterfeit Money 
+
+D. Anton Sherwood says:
+> Note also that at least one of the Federalist Papers says that a folly such
+> as "a passion for paper money, or a cancellation of debts" is less likely
+> to take hold in a large republic than in a small.  (Wish I had an e-version
+> of the FP to search.)  I think, though I can't say with confidence, that
+> Publius said paper money was a power held in reserve for emergencies like
+> war.
+
+The Federalist Papers ARE on line. Check the major text archives,
+including ftp.uu.net
+
+Perry
+
+------------------------------
+
+Date: Sat, 02 Oct 1993 10:53:54 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: Interactive services as Blacknet vacuum hose 
+
+Nick Szabo says:
+> Perry Metzger:
+> > Why should I buy a 24 hour package of programming in a silly container
+> > like a "channel" when I can just download any program I like at any
+> > time? I can download the morning news from "The Economist on Video",
+> > get a movie any time I like, see idiotic sitcoms or intelligent
+> > theater when I feel like it, etc.
+> 
+> You might have severe reservations, if this gives the "video bookstore"
+> and its data customers the ability to accumulate a dossier of 
+> what you watch.  "Note that Mr. Metzger spends several minutes
+> per week reading those ads for offshore banks on the back frames
+> of Economist Videos".
+
+Your particular example is going to be hard -- once the news broadcast
+is downloaded, they won't have any way of knowing what parts of it I
+watch. Your overall speculation is, however, correct -- people COULD
+form dossiers on their clients. Presumably people can develop easy
+ways to stop this in a free society -- pay with anonymous methods like
+digital cash, and take delivery of the information to anonymous "post
+office boxes".
+
+> Quite valuable information, first for marketers (Nielson ratings for
+> the ads themselves instead of shows,
+
+If people are buying whole shows, which they will, you can't do this.
+
+Perry
+
+------------------------------
+
+Date: Friday, 1 October 1993 22:05:12 PST8
+From: "James A. Donald" <jamesdon@infoserv.com>
+Subject: Operationalism (was Meaninglessness)
+
+> > According to the dictionary [operationalism means]
+> > "Scientific concepts must be defined in terms of 
+> > [repeatable] operations" 
+> 
+In <18010@price.demon.co.uk>, price@price.demon.co.uk (Michael Clive Price)  wrote:
+
+> These are compatible statements.  Well almost.  The dictionary said
+> _definable_, not _defined_, which might explain James' problems with
+
+The Random house Webster's college dictionary 1990 says:
+
+The view that experimental operations *must define*
+scientific terms and concepts.
+
+(emphasis added)
+
+(This definition is of course fundamentally incompatible
+with science and the scientific method.)
+
+The Webster's New collegiate dictionary, from which Price
+appears to be quoting says "definable in terms of
+*identifiable* and repeatable operations."
+
+(emphasis added)
+
+The Websters Collegiate definition is less obviously
+incompatible with science and the scientific method, but is
+still has the same disastrous defects as the Random House
+definition, though to a lesser degree.
+
+Since Price has been clearly unable to concretely identify
+any of the operations required for "planet" or "spin
+angular momentum" or "electron gyromagnetic moment", he is
+still in the same pickle.
+
+It does not say "definable in principle".  It says
+definable in terms of *identifiable* operations.
+
+So identify them!  Don't just wave your hands and claim
+that in principle they could be identified.
+
+Just how do you rotate an elementary particle by two pi? 
+It can be done, but only through concepts, not through
+operations.  The concepts define the operations, the
+operations do not define the concepts.
+
+This definition is totally consistent with my reading of
+people who called themselves operationalists.  They seemed
+to be ignorant philosophers - ignorant of philosophy and
+even more ignorant of science, hostile to science and
+hostile to the scientific method.  They appeared to be
+arguing for the relativity and subjectivity of scientific
+knowledge.
+
+They objected to the scientific method of deducing facts
+from experience, and claimed it to be invalid.  They
+claimed that you ought to measure the properties of things
+directly, rather than deduce them from observation, that to
+deduce things from observation is unscientific, that the
+way that science is commonly done is unscientific.
+
+In making this claim they seemed to me to be seeking to
+reverse the meaning of "scientific", so that only their
+particular brand of philosophers could be properly called
+scientific, and all other philosophers,  and all genuine
+scientists were defined to be unscientific.
+
+
+We use concepts to make predictions about the outcome of
+experiments, but correct concepts cannot always be
+expressed in terms of experimental outcomes.  They lead to
+predictions of experimental outcomes, but they are not
+themselves experimental outcomes.
+
+An operational definition of "planet" would be full of
+cumbersome detail concerning telescopes and photographs
+that would be irrelevant to the concept of "planet".
+
+ ---------------------------------------------------------------------
+                       |  We have the right to defend ourselves and our
+James A. Donald        |  property, because of the kind of animals that we
+                       |  are.  True law derives from this right, not from
+jamesdon@infoserv.com  |  the arbitrary power of the omnipotent state.
+
+------------------------------
+
+Date: Sat, 2 Oct 93 10:41:41 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Boffins
+
+> > [*] For the transatlantics:  Does the word "boffin" apply to any 
+> > scientist, or just one who works for MoD?
+> 
+> No, they can work for companies as well, although I suspect the word
+> originally came from the MoD during WW-II.  (Jez, boffin's not in my
+> OED!)
+> 
+> > Anton Sherwood
+
+> Mike Price                         price@price.demon.co.uk
+
+That's why you need the OED II, for all those words that entereed the
+language after 1900-1930.
+
+"Boffin" is descibed as being of unknown etymology. A person engaged
+in back-room scientific research.
+
+(As usual, the OED II gives numerous usage examples, taken from
+sources with the dates shown....most of the examples are 1941-45 and
+later.)
+
+The usage can refer to non-British, non-defense folks, as I have
+referred to folks as "crypto boffins."
+
+(Alan Turing being the preeminent and self-defining crypto boffin.)
+
+-Tim
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+Note: I put time and money into writing this posting. I hope you enjoy it.
+
+------------------------------
+
+End of Extropians Digest V93 #274
+*********************************
+

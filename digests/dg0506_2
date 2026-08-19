@@ -1,0 +1,452 @@
+From extropians-request@extropy.org Fri May  6 15:02:15 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id PAA14580 for <more@chaph.usc.edu>; Fri, 6 May 1994 15:02:07 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA01861; Fri, 6 May 94 15:01:49 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA12870
+  (5.65c/IDA-1.4.4 for more@usc.edu); Fri, 6 May 1994 18:01:33 -0400
+Date: Fri, 6 May 1994 18:01:33 -0400
+Message-Id: <199405062201.AA12870@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-5-66 - #94-5-75
+X-Extropian-Date: May 6, 374 P.N.O. [18:01:00 UTC]
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: RO
+
+Extropians Digest             Fri, 6 May 94             Volume 94 : Issue 125
+
+Today's Topics:
+                         ECON: Future interest rates                  [1 msgs]
+                  ECON: The limits to comparative advantage           [2 msgs]
+                                  filtering                           [6 msgs]
+                           TELECOM: 1 Gigabyte/day                    [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 26010 bytes.
+
+----------------------------------------------------------------------
+
+From: "Michael Sprong" <myk@qmail.idtinc.com>
+Date: 5 May 1994 15:07:18 -0800
+Subject: [#94-5-66] filtering
+
+filtering
+On Thu, 5 May 1994 R.Bryner@m.cc.utah.edu wrote in reply to
+nancy@genie.slhs.udel.edu:
+>> Is there some elegant way to mark pieces that have significant
+>> off-topic material?
+>Yes, the first person reading this hits the vote key(on a hypothetical
+> news/mail reader), selects "no informational content/off topic" from the
+> menu, and hits return.  
+We already make descisions on what we wish to keep after all chances a
+t filtering have been made.
+IE: When the user performs the actions needed to process the file.
+ (delete, save, reply, forward, etc...)
+In an adaptive filtering model, the editor software could communicate
+ back to the filter the effective action taken by the user at the time of
+ examination.
+{
+If the use deletes after examining the entire contents of the file, then an
+ examination flag can be set in the filter's state machine.
+If  the user deletes, outright, without examining the contents, then a kill
+ flag can be set in the filter.
+... there are many such criterion for the acceptance or rejection of a
+ particular file.
+}
+Depending upon the available resources, these flags can be more than a simple
+ flag which says delete this or that file due to a base context free
+ assumption. In an adaptive model, the editor could inquire of the user some
+ information concerning the file based upon a simple context-based grammer.
+ Such an inquiry would only occur under some rather limited circumstances.
+ If the editor needed more information to generally classify the file, or if
+ the user explicity invoked the query. Otherwise the user would never see
+ the basic model in operation, except to note that files they normally rejected
+ immediately would no longer arrive at their desk. The user would be allowed
+ to exend the basic set of acceptance/ rejection criterion using atoms of
+ the origional grammer, thereby equiping the filter with selection information
+ not normal to it's analysis method. The basic criterion themselves could be
+ simple tags for undesirable words or phrases in the unquoted portion of the
+ document, or the addresses of those whom you'd rather not hear from. Or
+ as the editor learns from its user, more complex thing, such as text formatted
+ for the description of the latest excerpts from the human genome project.
+ Of course such a criterion tree could find itself collapsing if information is
+ gathered for a long period of time, or without real regard for content
+deleted.
+ So a facility for optimising and combining rules would be needed.
+
+Suppose, if every time you recieved a message from your friends in Florida,
+ you read it and then replied to them. After a couple of times of doing this,
+ the editor would ask you if your wished to reply after the entire message
+ has been reviewed. Likewise, if some lunatic in the California State Prison
+ system keeps sending you and your friends mass mailings of prison pity grams,
+ your editor/filter would eventually eliminate then on the basis of send
+address or
+ even content.
+
+If you don't like the idea of having a machine make important
+ decisions for you, then the deletion of a file could be simply an archival
+ process with a time limit on the persistance of a file, in addition to a
+facility
+ to retreave a formally deleted file.
+
+
+
+
+
+
+
+------------------------------
+
+From: kqb@whscad1.att.com (Kevin Q Brown +1 201 386 7344)
+Date: 5 May 94 23:03:00 GMT
+Subject: [#94-5-67] TELECOM: 1 Gigabyte/day
+
+I know someone who wants to send about a gigabyte / day to someone
+else at the other end of the world (i.e. N.E. USA to Asia).
+
+  The data needs to arrive fairly fast (compared to FEDEX); each bit
+    should arrive at the destination within a few hours of the time
+    it's sent.
+  The data will NOT be in huge bursts.  It will be a fairly steady
+    stream of about 100K bits/sec throughout the day.
+  The connection needs to be up almost all the time.  If it were to go
+    down for a day, he would have some very unhappy customers.
+  If the connection occasionally loses a few bits, though, that's not a
+    big problem.
+
+What would be a good, cost-effective way to achieve this?  What
+equipment and what service providers would be best?  (Please bear
+in mind that this is a small-scale operation without any deep pockets
+to finance it.)  What should I have read before posting a query like
+this or where else should I post it?  Thanks!
+                              Kevin Q. Brown
+                              INTERNET    kqb@whscad1.att.com
+                                 or       kevin_q_brown@att.com
+PS: If one gigabyte/day is insufficiently stimulating for Extropian
+    tastes, try a terabyte/second! :-)
+
+------------------------------
+
+From: R Bryner <R.Bryner@m.cc.utah.edu>
+Date: Thu, 5 May 1994 18:32:15 -0600 (MDT)
+Subject: [#94-5-68] filtering
+
+On Thu, 5 May 1994 nancy@genie.slhs.udel.edu wrote:
+> "No informational content" and "off topic" should be different buttons--
+> they're certainly different concepts.
+Agreed.
+
+> I'm not worried about efforts at censorship by sending negative opinions
+> to the review system, but is it worth it to have heavy security to
+> protect the voting system from censors who'd try to hack it?
+As you choose whose votes you pay attention to, disruptive
+influences will become a very cheap comodity, due to nobody buying them:-)
+
+This depends on the ability to store the identities of those voting one
+way or another.(perhaps anonymous identities.)
+
+Making sure that identities are unique, and anonymous(or not), is an easy
+task.  You don't have to verify the individual, except when selecting who you
+will listen to.
+
+Roger.
+*************************************************************
+"Germans who wish to use firearms should join the SS or the SA -
+ordinary citizens don't need guns, as their having guns doesn't serve
+the State."
+   -- Heinrich Himmler
+
+"All military type firearms are to be handed in immediately ...  The SS,
+SA and Stahlhelm give every respectable German man the opportunity of
+campaigning with them.  Therefore anyone who does not belong to one of
+the above named organizations and who unjustifiably nevertheless keeps
+his weapon ...  must be regarded as an enemy of the national
+government."
+   -- SA Oberfuhrer of Bad Tolz, March, 1933
+
+
+
+------------------------------
+
+From: R Bryner <R.Bryner@m.cc.utah.edu>
+Date: Thu, 5 May 1994 18:38:26 -0600 (MDT)
+Subject: [#94-5-69] filtering
+
+On 5 May 1994, Michael Sprong wrote:
+> In an adaptive filtering model, the editor software could communicate
+>  back to the filter the effective action taken by the user at the time of
+>  examination.
+3 states is less than many.  The deleted file of Joe Blow Sheep is less
+important that the deleted file of mr. I God.  They will both be weighted
+the same in the simple one point model, and in the two point model could
+still tend to favor "folowers" over people who disagree and argue and
+spread information, even thought they might hate each other.
+
+> If  the user deletes, outright, without examining the contents, then a kill
+>  flag can be set in the filter.
+I do this all the time when I am preocupied with one topic and don't wish
+to read off topic issues.  I do this regardless of the information content
+of the article.  Would not this bias the automatic counting?  Would not
+reseting my machene to kill by topic AFTER is sit down to a backlog of 300
+messages be different than doing this BEFORE I have recieved them? 
+
+
+> If you don't like the idea of having a machine make important
+>  decisions for you, then the deletion of a file could be simply an archival
+>  process with a time limit on the persistance of a file, in addition to a
+> facility
+>  to retreave a formally deleted file.
+It is more than that, I want meta comment, and I may even wish to pay for
+THE META COMMENT, not the software.  I don't want this from the herd I
+find myself running with by chance(ok, it is realy a choice), but from who I
+chose.  Perhaps in the process of making that choice, I will recieve
+information also.:-)
+
+Roger.
+**********
+Sorry, my spelling sucks.
+
+
+
+
+
+------------------------------
+
+From: Elizabeth Schwartz <betsys@cs.umb.edu>
+Date: Thu, 5 May 1994 23:35:48 -0400 (EDT)
+Subject: [#94-5-70] filtering
+
+> I'd also like to see some way of having editspace include topic
+> as well as people, though it's possible that having the choice
+> of whether in/exclude person and in/exclude topic should have
+> priority plus having the option of always getting the first
+> piece in new threads is a very good approximation.
+> 
+> Nancy Lebovitz 
+> 
+
+I agree that this is needed. To pick someone I know, I like reading Fnerd's
+comments about politics, am not interested in his comments on Macintosh's,
+and don't understand most of the discussion about PCR.  I'd like to read
+all LANG and LINGUISTICS posts, PPL posts only if they deal with my PPL or
+with general rules, and philosophy posts only if they are neither too
+simple nor too technical for my level of interest -- I know 'em when I see
+'em.
+
+Seems like there are multiple axis. Author and topic are two. Degree of
+"seriousness" is another. There's an axis between general theory, and
+specific applications; another between today's applications and
+post-Singularity (and post-collapse-of-this-particular-space-time-continuum.) 
+
+One of the most important scales is the originality of the post: even if it
+is a brilliant idea by a famous person, I don't want to read it over and
+over again... but I sure want to read it at least once!
+
+Here's an unmet need that I have: I am very interested in reproductive
+freedom, an issue with two sides that are so polarized that very little
+progress has been made towards any sort of political solution. I have
+absolutely no interest in reading the same old arguments, even if I agree
+with the authors. I would be very interested in seeing any new ideas. Any
+group with a low signal-to-noise ratio could use a "stale idea" filter...
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Date: Fri, 6 May 1994 01:27:09 -0400
+Subject: [#94-5-71] ECON: Future interest rates
+
+Peter McCluskey < pcm@world.std.com > writes on future interest rates:
+ 
+>I expect something more like 50%/year to 100%/year until most of the mass in
+> the solar system becomes part of intelligent entities, at which time growth
+> will slow down except at the frontiers.
+ 
+  I would expect the development to *accelerate* once it turns to mostly
+intellectual progress, as growth in complexity may proceed much faster
+than chewing of matter by semi-intelligent systems.
+  Also, if at some point the 'material estate' becomes a limiting factor
+to any serious degree, the prices of 'tangibles' will rapidly and steadily
+grow, which would drive _up_ the interest rates.
+ 
+  - Sasha?
+
+------------------------------
+
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Date: Fri, 6 May 1994 01:29:24 -0400
+Subject: [#94-5-72] ECON: The limits to comparative advantage
+
+   Economists usually don't specify that their theories apply only under
+certain conditions that may be specific for human civilization.
+E.g., differential rent may not exist under some non-Cartesian effective
+topologies of social space (like Internet), or 'comparative advantage'
+arguments may not apply to beings with dramatic differences in abilities.
+ 
+   Is there any job that you would assign to a *baby/puppy/frog*, even if
+you were *very* short of time?  
+   
+   Even if they could do it, it would take longer to explain than to do
+it yourself, and the quality of the job/usage of resources would be awful.
+ 
+  Still, I can imaging a few cases when a commercial exchange with
+a baby/... could make sense:
+ 
+   - the baby somehow managed to get rights to some valuable resources in
+     some legal system that you choose to respect (otherwise, you'd just
+     take the stuff).
+       ( a model of U.S. trade with some countries)
+ 
+   - there still are some jobs...
+     modelling diapers, zoo, subject of medical experiments, tool
+     for influencing other babies...
+       - All of these should be pretty scarce unless some of them do have
+     something valuable.
+        (some frogs do earn their food this way though)
+ 
+   - You are *forced*.
+     Since you are much stronger, this should be a trap set up before you
+     notice it.
+       (Hans Moravec's idea of how to handle future super-robots)
+ 
+  I don't think I would be proud of using any of such opportunities in the
+world of trancendent entities.
+  (The only other chance, besides joining them, may be their encountering
+some natural handicap, like Vinge's transcendent civilizations' inability
+to penetrate into the Slow Zone, or a kid's advantage in getting into some
+narrow hole too small for adults.  - this seems too artificial though and
+would be temporary, unless the handicap is perpetuated by either force or
+law)
+ 
+  - Sasha?
+ 
+  If you can't beat them, join them.
+
+------------------------------
+
+From: rjc@gnu.ai.mit.edu (Ray)
+Date: Fri, 6 May 94 5:32:27 WET DST
+Subject: [#94-5-73] filtering
+
+Elizabeth Schwartz writes:
+> X-Message-Reference: #94-5-61
+> 
+> > I'd also like to see some way of having editspace include topic
+> > as well as people, though it's possible that having the choice
+> > of whether in/exclude person and in/exclude topic should have
+> > priority plus having the option of always getting the first
+> > piece in new threads is a very good approximation.
+> > 
+> > Nancy Lebovitz 
+> > 
+> 
+> I agree that this is needed. To pick someone I know, I like reading Fnerd's
+> comments about politics, am not interested in his comments on Macintosh's,
+> and don't understand most of the discussion about PCR.  I'd like to read
+> all LANG and LINGUISTICS posts, PPL posts only if they deal with my PPL or
+> with general rules, and philosophy posts only if they are neither too
+> simple nor too technical for my level of interest -- I know 'em when I see
+> 'em.
+
+[rest deleted]
+
+     Did everyone not get my long 150 linish post that I sent out
+a week ago in response to Anton's message? I described the limits
+of author based filtering , and a new method that uses
+author, date, size, topic, keyword, thread, even message body.
+
+-- Ray Cromwell        |    Engineering is the implementation of science;   --
+-- rjc@gnu.ai.mit.edu  |       politics is the implementation of faith.     --
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Fri, 6 May 1994 10:22:04 -0400
+Subject: [#94-5-74] ECON: The limits to comparative advantage
+
+ hanson@hss.caltech.edu  (Robin Hanson) writes in X-Message-Number: #94-5-63:
+>This could be a good topic for discussion, but I'd be much comfortable
+>if we had more precise claims to discuss.  Does "eliminate all human
+>jobs" mean that all humans don't work?  That most don't?  "value ...
+>goes to zero" relative to what?  (Value isn't measured in inches you know.)
+
+  I mean human labor is never exchanged for things owned by robots (or owned
+by humans who own robots) due to lack of demand for human labor by entities
+with access to robotic labor. The question "to whom does X have value?" is
+important, but I don't understand why you are asking about units. Isn't zero
+the same in any reasonable unit of value if you hold the "to whom" constant?
+  I was thinking of an economy where humans do not own robots (I don't expect
+robots will accept slavery). Hans was probably refering to an economy where
+a few humans owned robots. Anybody who owns robots with abilities exceeding
+some minimum criterion will not be hurt by the fact that human labor is no
+longer valued. This discussion was motivated by the belief that some people
+would not automatically be able to afford such robots.
+
+-----------------------------------------------------------
+Peter McCluskey | pcm@world.std.com | Repeal Gresham's Law!
+-----------------------------------------------------------
+
+------------------------------
+
+From: Bo <beau@bohemia.metronet.org>
+Date: Fri, 6 May 1994 09:25:36 -0600 (MDT)
+Subject: [#94-5-75] filtering
+
+On Thu, 5 May 1994, R Bryner wrote:
+
+> On Thu, 5 May 1994 nancy@genie.slhs.udel.edu wrote:
+> > Is there some elegant way to mark pieces that have significant
+> > off-topic material?
+> Yes, the first person reading this hits the vote key(on a hypothetical
+> news/mail reader), selects "no informational content/off topic" from the
+> menu, and hits return.  When you go to read the article, your newsreader
+> indicates that the article has been voted to be trash by >n people you
+> trust, so it kills it from your view.  Since the voting procedure can
+> include other variables, such as "good post" "good opinion" "important
+> question", etc, you can discard bias on the part of a small number, or
+> perhaps even larger numbers, of the respondents whishing to censor a post
+> as long as a few mark it as good and you set your reader.
+> 
+> Roger.
+> 
+Seems like this pretty much depends on _other_ peoples perceptions...
+
+Bo the Bohemian 
+
+
+
+
+------------------------------
+
+End of Extropians Digest V94 #125
+*********************************
+

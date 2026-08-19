@@ -1,0 +1,520 @@
+From extropians-request@extropy.org Sat Sep 17 03:04:35 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id DAA07276 for <more@chaph.usc.edu>; Sat, 17 Sep 1994 03:04:33 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA09717; Sat, 17 Sep 94 03:04:29 PDT
+Received: by news.panix.com id AA14284
+  (5.65c/IDA-1.4.4 for more@usc.edu); Sat, 17 Sep 1994 06:04:19 -0400
+Date: Sat, 17 Sep 1994 06:04:19 -0400
+Message-Id: <199409171004.AA14284@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-9-188 - #94-9-195
+X-Extropian-Date: September 17, 374 P.N.O. [06:02:03 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Sat, 17 Sep 94             Volume 94 : Issue 259
+
+Today's Topics:
+                                 AstroFuture                          [1 msgs]
+                   Extropians Digest #94-9-154 - #94-9-168            [1 msgs]
+                          Networking in the Mind Age                  [2 msgs]
+                                 Superheroes                          [2 msgs]
+                    URL: June '93 GQ "Meet the Extropians"            [1 msgs]
+                             What Happens First?                      [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 26529 bytes.
+
+----------------------------------------------------------------------
+
+From: hanson@hss.caltech.edu (Robin Hanson)
+Date: Fri, 16 Sep 1994 16:21:49 -0700
+Subject: [#94-9-188] Networking in the Mind Age
+
+Thanks to Alexander Chislenko for his interesting essay.  Sasha argues
+that "life always starts as a set of non-distributed objects" but
+"Later ... the evolutionary frontier gradually shifts towards
+distributed systems" approaching "direct sharing of internal features
+with all interested parties" so that when "one infomorph wants to
+learn something from another, it can just copy the necessary
+information or access the teacher's knowledge as its own." So "Rather
+than independent entities, robots and other smart machines would work
+more like semi-intelligent, semi-autonomous front-ends/ clients of the
+global system. ... The local machine itself would only store the
+knowledge that is frequently used or may be urgently needed." 
+
+Why does Sasha expect such a trend?  First he sees it happening so
+far, with the human innovation of cultural evolution: "Humans obtain
+most of their knowledge by learning from experience and conclusions of
+others".  Second, this seems much more efficient to him: "elimination
+of redundant computations within millions of robots would make a
+networked system greatly more efficient than a collection of
+unconnected machines".  And third, it doesn't seem that hard to Sasha:
+"Most of the main networking components of this system  have already
+been designed  or at least conceived."
+
+If this is so efficient, why hasn't it happened already?  Sasha blames
+human "poor memory, low communication speeds and inability to transfer
+knowledge directly" and the fact that "young Nature couldn't develop
+information coding and transfer standards at the initial stages of
+growth. ... By the time they started accumulating any features worth
+sharing, it was too late to change the design."
+
+Now I certainly grant that if robots have cheaper I/O channels than
+humans, they will talk more to each other.  But I don't yet buy the
+inevitability of standards so strong that all knowledge will be this
+easily transferrable, that CPU and bit-sending costs would so dominate
+the costs of figuring out what the hell some distantly obtained
+"knowledge" means, and of deciding whether it can be trusted.  It
+seems that somewhat older Nature could easily repeat the experience of
+young Nature, with divergent local evolution preventing total global
+integration of knowledge.  There are many great costs, as well as
+benefits, to attempting such integration.
+
+Robin Hanson
+
+------------------------------
+
+From: rjc@gnu.ai.mit.edu (Ray)
+Date: Fri, 16 Sep 94 20:40:02 WET DST
+Subject: [#94-9-189] Networking in the Mind Age
+
+Robin Hanson writes:
+> Now I certainly grant that if robots have cheaper I/O channels than
+> humans, they will talk more to each other.  But I don't yet buy the
+> inevitability of standards so strong that all knowledge will be this
+> easily transferrable, that CPU and bit-sending costs would so dominate
+> the costs of figuring out what the hell some distantly obtained
+> "knowledge" means, and of deciding whether it can be trusted.  It
+> seems that somewhat older Nature could easily repeat the experience of
+> young Nature, with divergent local evolution preventing total global
+> integration of knowledge.  There are many great costs, as well as
+> benefits, to attempting such integration.
+
+   Furthermore, there really isn't a best way to represent knowledge.
+It all depends on what you're trying to do and the context of your
+goals. Consider the differences between the way someone in the
+humanities and someone in the sciences look at a particular
+branch of scientific knowledge. I claim that the two people need
+to represent knowledge in different ways. For instance, isn't a
+certain amount of ignorance (or abstraction) beneficial? If everyone
+were to simply access a "storehouse" of knowledge, and that knowledge
+was stored in one standard format, there would be little debate
+or memetic mutation of that knowledge. The robots would
+trust the knowledge and use it without question and since they
+have complete knowledge of it. On the other hand, being
+abstracted from the knowledge leads one to question it, modify it,
+reinterpret it, and inevitably, increase diversity. Back to
+the hypothetical humanities infomorph. Just allowing him to access
+directly the knowledge and experience of a scientist (without
+subject to his own interpretation via learning), adds the scientist's
+bias to him which limits his creativity.  Setting a standard
+for how knowledge is stored could severly limit these critters
+in the same way msdos has severely limited personal computers.
+The current best way we have of transmitting/storing knowledge,
+the written word, seems remarkably versatile, and any scheme
+that could replace it must be incredibly superior. I like the idea
+of "skill chips" so that you can acquire expert skills in an area
+temporarily if you need it, but there is big risk in assuming that
+just because something claims to be an expert, that it is actually
+best.
+
+-RAY
+
+
+
+------------------------------
+
+From: szabo@netcom.com (Nick Szabo)
+Date: Fri, 16 Sep 1994 18:51:17 -0700 (PDT)
+Subject: [#94-9-190] What Happens First?
+
+This is an interesting topic which we took up (on the technology
+side) a few months ago at the Assembler Multitude; we made a PERT 
+chart of future technology development.  To avoid religious flame 
+wars about "The Singularity", we took Robin's approach, which is to 
+concentrate on technological constraints and prerequisites, ie what 
+must or probably will come before the other, rather than on dates.
+I've taken the opportunity to add some points of my own (*).
+
+smaller number => sooner; same number => nuluth, and I haven't taken the
+effort to use every number
+
+Big Fraction of Economy Off Earth	 	8 (10%)
+Big Fraction of Economy out of Solar System	19 (10%)
+Really Cheap Fusion Power			12
+Nukes as Cheap as Tanks		 		5
+Nukes as Cheap as Handguns			9
+	(then cost of nukes vs. current costs of tanks & handguns)
+ICBMs as Cheap as Tanks				4 (space-based projectiles)
+
+*Mood/Motivation Transformation Drugs		now	
+*Smart Drugs, 100% enhancement of 		1 
+	certain functions
+*Frozen organ transplant routine		3
+Two Century Meat Lifespans			5		
+Indefinite Meat Lifespans			7
+*Cryonics Reanimation for last suspendee	7
+*Cryonics Reanimation for current suspendees	14
+Uploads						16
+Uploads running 1000x Faster than Humans	17
+Human-Brain Equivalent Computers on a Desk	5 (speed not s/w)
+Human-Level A.I.				never needed, but if rephrased
+	Intelligent Alien Level AI	        10
+
+Nanotech Factories				6
+*Reproducing Comet Eaters			6
+Reproducing Nanotech Assemblers			9
+Reproducing Asteriod Eaters			15
+Reproducing Starships				18
+
+Most Publications are Electronic		4
+Most Intellectual Publications are on Web	5
+Big Fraction of Labor Telecommutes		4 (10% of value)
+Big Fraction of Economy Via CryptoNet and so UnGoverned   5 (10%)
+Most Education Privatized			8 (or now, if we count 
+						on-job training and
+						"infotainment")
+Most Law Enforcement Privatized			11
+Most Law Choice Privatized			11
+National Defense Privatized			11
+	(these last four are particularly unpredictable)
+Betting Markets a Big Policy Influence		now, counting financial
+						markets & insurance.
+						future gambling will
+						also be marketed under
+						more respectable names
+Big Fraction of Research Funded Via Info and Other Prizes	???
+
+
+Nick Szabo					szabo@netcom.com
+
+------------------------------
+
+From: davisd@nimitz.ee.washington.edu
+Date: Fri, 16 Sep 94 19:04:52 -0700
+Subject: [#94-9-191] Extropians Digest #94-9-154 - #94-9-168 
+
+> From: robj@netcom.com (Rob Jellinghaus)
+> Subject: Extropians Digest #94-9-154 - #94-9-168
+> 
+> One comment on the superhero discussion:
+> 
+> So what are we to conclude?  That Vinge's heroes, and the X-Men,
+> should have embraced the Blight?  That over-rapid, nonconsensual
+> transformation is considered non-Extropian?  
+
+I certainly don't plan to get rolled by the next guys godhood. My
+point was that many bad guys are transhumanist, while no good guys
+are; that transhumanism is for the most part portrayed negatively in
+comics.
+
+Buy Buy -- Dan Davis      
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+From: fcp@nuance.com (Craig Presson)
+Date: Fri, 16 Sep 1994 05:59:02 -0500
+Subject: [#94-9-192] URL: June '93 GQ "Meet the Extropians"
+
+There's supposed to be Heinlein stuff for FTP at gandalf.rutgers.edu
+but I couldn't connect just now to check it.
+
+\\ fcp@nuance.com (Craig Presson)   CPresson@aol.com\
+-- WWW: http://www.nuance.com/~fcp/ -----------------\
+-- President & Principal,  T4 Computer Security ------>
+-- P.O. Box 18271, Huntsville, AL 35804 -------------/
+// (205) 880-7692 Voice, -7691 FAX -----------------/
+
+
+------------------------------
+
+From: timstarr@netcom.com (Tim Starr)
+Date: Fri, 16 Sep 1994 21:52:47 -0700
+Subject: [#94-9-193] Superheroes
+
+>From: davisd@pierce.ee.washington.edu
+>Date: Thu, 15 Sep 94 18:10:39 -0700
+>Subject: [#94-9-157] Superheros 
+>
+>I can think of some good guys who gained powers through gadgets, but
+>no transhumanist superhero comes to mind. I suppose that given the
+>thousands of comics out there, there must be a few, but on the whole,
+>serious transhumanism comes across as evil in the comic book world.
+
+Well, there's the High Evolutionary, for one.  He's the closest thing to
+a transhumanist superhero I can think of.
+
+>>I can think of some good guys who gained powers through gadgets, but
+>>no transhumanist superhero comes to mind. I suppose that given the
+>>thousands of comics out there, there must be a few, but on the whole,
+>>serious transhumanism comes across as evil in the comic book world.
+>
+>  How about Iron Man? Super rich guy builds super suit.
+
+Close, but no transhuman.
+
+>...I'm unaware
+>of any biologically enhanced super heroes who weren't created by
+>accident or evil government.
+
+Captain America.  (Unless you consider the US government evil, which is
+arguable but not within the context of the comic book - at least when it
+was running the Super Soldier development program during WWII.)  Although
+his biological enhancement is relatively low-level compared to most other
+superheroes in comics nowadays.
+
+>...It seems anyone who aspires to godhood
+>in most SF/Comics is "mad", "corrupt", "bent on power", and eventually
+>is destroyed. In fact, even trying to achieve immortality in
+>SF/comics is usually portrayed as evil.
+
+In fact, Tipleresque cosmological anthropormorphism has even been the way
+some bad guys have been punished, like the way Phoenix "merged" Mastermind
+with the universe in the Dark Phoenix saga.
+
+>...The general theme of comics seems to be: Ordinarly guy/gal
+>gets power by mutation/accident, guy/gal struggles with the
+>responsibility of this power, and finally, guy/gal decides to use
+>it to fight evil.
+
+This is also the story of coming of age from childhood to adulthood - it's
+no accident that teenagers are the primary market for comics, or that this
+is their most common theme.
+
+>From: freeman@netcom.com (Jay Reynolds Freeman)
+>Date: Thu, 15 Sep 1994 21:44:01 -0700
+>Subject: [#94-9-164] Superheros
+>
+>> What are the most Extropian comic book characters?
+>
+>  For the free-enterprise/libertarian portion of the ethic, the
+>First Extropian Squirrel nominates Scrooge McDuck.
+
+Actually, didn't Phil Salin write an article about Unca' Scrooge for
+Liberty magazine?
+
+>From: minsky@media.mit.edu (Marvin Minsky)
+>
+>...I'm sure glad that Ed Regis finished his article before this comical
+>disease infected the group.  But it might make a good section in a future
+>"demise: article.
+
+Comics are one of the best memetic vectors today.  We'd better not discount
+the value an extropian comic book would have.
+
+>...Comic superheros are very good at breaking ingenious constructions that
+>their allegedly evil opponents have built.
+
+Many of them are also good at building neat things, too, such as the afore-
+mentioned Iron Man, Reed Richards of the Fantastic Four, Forge, the original
+Guardian of Alpha Flight...
+
+Most of the complaints about comics seem to be of the "they're not transhuman
+enough" variety.  The problem with nigh-all-powerful characters is: what do
+they do?  Galactus eats worlds, sort of a cosmic natural disaster.  That
+gives the good guy something to fight against, but imagine a book starring him.
+What could it consist of?  "Hmm.  Think I'll eat that world today.  Yum.  I
+feel full now.  What's for desert?"  The "Secret Wars" and "Beyonder" series
+proved the futility of trying to write stories for omnipotent, omniscient
+beings.  What's the point of it all?  They know everything, they can do any-
+thing, so why bother?
+
+With characters with more human levels of power and vulnerabilities, on the
+other hand, there's a whole lot more potential for exploring conflicts between
+those powers and vulnerabilities as well as moral conflicts about how to use
+them.  They are essentially like us, but a little stronger in some ways and
+weaker in others.  As such, they're a hell of a lot more comprehensible to us
+and more useful.
+
+I actually found Vinge's "Fire Upon the Deep" flawed for the presense of all
+the posthuman Powers.  Can you imagine a novel told from and starring Old One?
+I can't.  Beyond a certain level, such characters become literally incomprehen-
+sible except as hazards to be avoided like natural disasters.  It might be
+nice to _be_ a posthuman or transhuman, but as long as we're mehums we're
+inherently disadvantaged when it comes to transhuman stories.
+
+The best comics are the ones whose characters are the most human, for they do
+the best job of illustrating the possibilities of the human condition.  The
+Dark Phoenix saga which has been attacked for being entropic was all an
+illustration of Lord Acton's dictum: "Power tends to corrupt.  Absolute Power
+corrupts absolutely."  The writer, Chris Claremont, gave a character absolute
+power and showed how it could corrupt her - a cautionary tale.  But he also
+showed how people could still take control of their destinies and make a
+living while preventing others from coming to harm.  It was a tragedy, on a
+literally cosmic scale.  Is all tragedy entropic?
+
+Captain America, as written by Steve Ditko (himself a libertarian), has had
+some of the most libertarian, patriotic silliloquys I've ever read.  The X-men
+have had some of the best dialogues between Magneto as a support of benign
+dictatorship versus the libertarian Xavier and other X-men I've ever read.
+The whole notion of using mutants as a form of powerful minority persecuted
+for accidents of its birth is a wonderful vehicle for the role of unique
+individuals in society - outlaw, unsung heroes with the power to rule the world
+if the chose to who choose not to because it's the wrong thing to do.  Instead,
+they save it time and again because it's the right thing to do for themselves
+and for the rest of the world, rarely getting thanked for their efforts.
+
+Can you imagine a story in which a Jewish survivor of the Holocaust is now
+trying to conquer the world to make it safe for Jews going up against a
+onetime friend of his who knows you can't make anyone safer for long by means
+of conquest?  Change "Jews" to "mutants," and you've got one of the running
+themes of the X-men.  How about a story about the conflict between loyalty to
+one's government and loyalty to one's country?  You'll find it in Captain
+America.  And these are just two out of many, many examples.
+
+Many comic books may be tame, entropic, unimaginative, etc., but many others
+are among the best literature/entertainment we have.  Certainly at least as
+good as the best science fiction novels, and leagues ahead of most of what
+passes for serious literature today.
+
+I'll propose a law of the economics of art: the more it costs to produce a
+piece of art, the more entropic, boring, dull, unadventuresome, etc., it will
+tend to be.  The cheaper it is, the more artistic risks will be taken, and
+the more high rewards will sometimes be achieved.  Movies, by this standard,
+cost a hell of a lot to make.  Music tapes & CDs cost a lot less.  Books are
+one of the most expensive literary mediums, while comics are a lot cheaper.
+Certainly, some mediums have advantages over others, but just compare Frank
+Miller's "Batman: the Dark Knight Returns" to the Batman movie if you have any
+doubt of my thesis.
+
+Tim Starr - Renaissance Now!  Think Universally, Act Selfishly
+
+Assistant Editor: Freedom Network News, the newsletter of ISIL,
+The International Society for Individual Liberty,
+1800 Market St., San Francisco, CA 94102
+(415) 864-0952; FAX: (415) 864-7506; 71034.2711@compuserve.com
+
+Liberty is the Best Policy - timstarr@netcom.com
+
+------------------------------
+
+From: "John M. Bozeman" <jmb5b@faraday.clas.virginia.edu>
+Date: Sat, 17 Sep 1994 01:23:48 -0400 (EDT)
+Subject: [#94-9-194] Superheroes
+
+Tim Starr wrote:
+>> 
+>> Can you imagine a story in which a Jewish survivor of the Holocaust is now
+>> trying to conquer the world to make it safe for Jews going up against a
+>> onetime friend of his who knows you can't make anyone safer for long by means
+>> of conquest?  Change "Jews" to "mutants," and you've got one of the running
+>> themes of the X-men.  How about a story about the conflict between loyalty to
+>> one's government and loyalty to one's country?  You'll find it in Captain
+>> America.  And these are just two out of many, many examples.
+>> 
+i
+Now _that_ is an interesting point.  I think that this draws to 
+a larger issue that is often overlooked, namely, does transhumanism
+also imply a superior morality?  What happens when a transhuman
+walks up to us and says, "X may seem immoral to you, but if you
+could only see it from my perspective, it would all make sense."
+
+At risk of appearing non-PC among the non-PC, I think that we must
+ask the question of whether or not not Nazism might not fall under
+the rubric of transhumanism; part of their agenda was to 
+change humanity for the better through "advancing" morality
+from the individual to the state, as well was trasformation
+throught eugenic efforts.
+
+I would also suggest that the "Nazi" issue might one major reason
+that comic books are so culturally conservative--they were
+borne, as I recall, around WWI and esp. WWII, with superheros
+who embody "truth, justice, and [most of all] the American
+Way," which is anti-elitist at heart (at least as far as our
+fellow citizens are concerned).  Thus, comic books uphold the
+notion--generally--of superheros protecting the commonweal,
+including their less-powerful human neighbors.
+
+           John Bozeman
+
+
+
+
+
+------------------------------
+
+From: pcm@world.std.com (Peter C. McCluskey)
+Date: Sat, 17 Sep 1994 01:29:18 -0400
+Subject: [#94-9-195] AstroFuture
+
+ cactus@bibliob.slip.netcom.com  (L. Todd Masco) writes in X-Message-Number: #94-9-173:
+>In article <9409160515.AA02240@media.mit.edu>,
+>Marvin Minsky <minsky@media.mit.edu> wrote:
+>>I didn't mean solar wind.  I meant loss from radiation from coversion of
+>>mass ton energy, including neutrinos, etc.  Solar wind is hydrogen,
+
+>IE, max, we're losing 0.7% of the mass.
+
+ To check via a different approach: from _Starsailing_ by Louis Friedman,
+the Earth gets 1.4 kW/m^2 of solar energy.
+ = 4e23 kW total solar energy
+ = 4.4e9 kg/sec
+ = 1.4e26 kg per billion years
+which is small compared the 2e30 kg that the sun currently masses.
+
+ Or, to check by quoting from an authority:
+"The sun is becoming more luminous every day, and in about 7 billion
+years its outer atmosphere will have expanded to engulf the Earth.
+Owing to atmospheric friction, the Earth will then spiral into the
+Sun, and the Earth will vaporize. ... As the luminosity of the Sun
+increases, the surface of the Earth heats up, making it too hot for
+life, and, in addition, silicate rocks weather more readily, causing
+atmospheric carbon dioxide to fall below the critical level for
+photosynthesis. One of these two effects will wipe out the entire
+biosphere between 900 million and 1.5 billion years from now".
+ - _The Physics of Immortality_, by Frank Tipler, p. 18. [Presumably
+he fails to add a caveat like "if we decide to preserve Earth in its
+natural state" only because it comes very early in the book, and
+doesn't to shock the average reader too quickly. After all, this
+comes right after his claim to have a scientific proof of the central
+claims of Judeo-Christian-Islamic theology. He expects the entire mass
+of the Earth and the rest of the universe within to be transformed into
+life a short time after intelligent life arrives.]
+
+>Anybody have any idea what the output from the solar wind is like?
+
+ According to _Starsailing_, "the energy from these particles is much
+smaller than the energy in the light particles that constitute solar
+pressure".
+
+---------------------------------------------------------------------------
+Peter McCluskey | pcm@rahul.net | pcm@world.std.com | Repeal Gresham's Law!
+---------------------------------------------------------------------------
+
+------------------------------
+
+End of Extropians Digest V94 #259
+*********************************
+

@@ -1,0 +1,1036 @@
+From extropians-request@gnu.ai.mit.edu Sun Apr 18 02:08:01 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA03600; Sun, 18 Apr 93 02:07:57 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from churchy.gnu.ai.mit.edu (geech.gnu.ai.mit.edu) by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA03988; Sun, 18 Apr 93 02:07:53 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by churchy.gnu.ai.mit.edu (5.65/4.0)
+	id <AA03022@churchy.gnu.ai.mit.edu>; Sun, 18 Apr 93 05:02:28 -0400
+Message-Id: <9304180902.AA03022@churchy.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Sun, 18 Apr 93 05:02:10 -0400
+X-Original-Message-Id: <9304180902.AA03016@churchy.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0202
+X-Extropian-Date: Remailed on April 18, 373 P.N.O. [09:02:27 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Sun, 18 Apr 93            Volume 93 : Issue 0202
+                        
+Today's Topics:
+          (fwd) White House Public Encryption Management Fact Sheet   [1 msgs]
+                  ACCOUNTING: Credit cards vs. debit cards            [1 msgs]
+                         Big Brother: Easy to Break                   [2 msgs]
+                   Big Brother: Post Filtering the Clipper            [1 msgs]
+                    Big Brother: Public Escrow is Needed              [1 msgs]
+                           Big Brother: True Names                    [1 msgs]
+                        Big Brother: Unlawful Taking                  [1 msgs]
+                            CRYPTO: Useful irony                      [1 msgs]
+            Comments from Jim Bidzos, Pres. of RSA Data Security      [1 msgs]
+                                  Even more                           [1 msgs]
+                          Extropians Digest V93 #0                    [1 msgs]
+                       HUMOR: Libertarian Party doomed                [1 msgs]
+                                 IMPORTANT!                           [5 msgs]
+                            IMPORTANT:Big Brother                     [1 msgs]
+                           Learning about digicash                    [1 msgs]
+                  META: Rules on Quoting Private Messages?            [1 msgs]
+                  More True Names: The NIST Security Board            [1 msgs]
+         Natural Law Party -- the party of transcendental meditation  [1 msgs]
+                        Odd: The Clipper Mailing List                 [1 msgs]
+                             PGP & RSA -> Legal                       [1 msgs]
+                             Singularity Studies                      [1 msgs]
+                      TECH: Genetic algorithms question               [1 msgs]
+        Thou shalt not e-mail Bill or Hillary, for it is too easy...  [3 msgs]
+                           info on history of RSA                     [1 msgs]
+                         sell me a ride to Friedman?                  [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50956 bytes.
+
+----------------------------------------------------------------------
+
+Date: Sat, 17 Apr 1993 09:32:28 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Big Brother: Post Filtering the Clipper
+
+Some posters have speculated that it might be possible to get
+a phone, swap it with someone else, and then the feds would not
+be able to get the correct key-pair.
+
+An other poster assumed that each clipper chip would send out some
+sort of Clipper-ID in plain-text before and/or during and/or after
+a session.
+
+Which causes me to further speculate that it may be possible to filter
+out these plain text messages. (They are probally built in to the
+exchange of keys ritual and so can't be filtered out without
+preventing the Clipper to do it thing...).
+
+If they can be filter, filtering them may either be an out right
+criminal act or be considered probally cause for a warrent to determine
+why you are filtering them out, etc.
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sat, 17 Apr 1993 09:39:44 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Big Brother: Easy to Break
+
+I recall having a conversation at the Boston ExI meeting, talking
+about super computers and how fast they could break small keys
+(like 80  bits).
+
+I think it was carlf, and I don't recall the exact estimate given,
+it I think it was on the order of several hours to several days for
+a fast connection machine class super computer to break such a key
+by brute force.
+
+The NSA certainly has plenty of fast machines, and I assume they will
+be able to break any clipper based encryption routinely.
+
+Certainly as 64-bit, high speed multiprocessors come on line in the
+next few years it will be easier and easier for even us plain folks
+to break such keys (although I sure not a simple task).
+
+With NSA having the algorithim and access to perhaps at least half
+the key or perhaps some little bit of "known text" that clippper puts
+into each message to make it easier to do a known text attack on
+someone's clipper encoded message, we can assume that the escrowed
+keys are at best a ruse...
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sat, 17 Apr 93 08:43:09 CDT
+From: twb3@midway.uchicago.edu (Tom Morrow)
+Subject: Learning about digicash
+
+Stanton McCandlish is a lucky guy: he can look forward to the wonderful
+experience of learning about cryptography in the pages of EXTROPY.  He
+writes,among other things:
+
+>Digital money is traceable, and was intended to be so.  What in the world do
+>you think is going to change that? . . .
+> There is no more insecure way to conduct business than by e-money.
+>EVERY transaction is recorded.
+
+These claims were addressed and defused in Hal Finney, "Protecting Privacy
+with Electronic Cash," 10 EXTROPY (1993) at 8-14.  I suggest that Stanton
+and everyone else who want to alleviate their ignorance of cyptography
+subscribe to EXTROPY and read this very helpful article.  In the US, you
+can get #10 by sending $4.50 to EXTROPY, PO Box 57306, Los Angeles, CA
+90057-0306.
+
+Uniformed discussion of this very important topic disserves all of us.
+
+T.O. Morrow                     --  twb3@midway.uchicago.edu
+Vice President: ExI             --  The Extropy Institute
+Law & Politics Editor: EXTROPY  --  Journal of Transhumanist Thought
+
+
+------------------------------
+
+Date: Sat, 17 Apr 1993 09:47:09 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Big Brother: Public Escrow is Needed
+
+All the talk about Escrowing of keys by sepeerate agencies is all
+well and good.
+
+However, to be really secure, the computer system they reside on, and
+all access to it, must be in some way very public and very very limited.
+
+The public needs to know that at least one of the key-pairs, can in
+no we be retrieved except through some very public process. That
+law enforcement or some cracker doesn't have some back order into
+teh Escrowed Key Server...
+
+As as somebody else pointed out, once my key is know ALL my communication
+is now "OPEN." Not just what they got a warrent for.
+
+Thus, the actual opening of my "mail/voice/etc" should be done in more,
+again very public place, so they my key-pair (and the cost of replacing
+it if the warrent is unfounded) is kept secure and never in the hands
+of any person or agency.
+
+In other words, I don't want my key-pair sitting in a non-secured database,
+to re-used latter (with or without a warrent.)
+
+If the key-pair is turned over to someone/agency and I am not found
+quilty or indicted, etc. I need to be told so I can change my keys,
+or even have the government pay me for this cost as they have un lawfully
+taken the value of my Clipper based device away from me.
+
+/harry
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sat, 17 Apr 1993 09:49:27 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Big Brother: Unlawful Taking
+
+I think the gov. involvement in the Clipper is an unlawful taking
+against anyone else who has made an investment in selling encryption.
+
+RSA, for example. These people should sue the government to talking
+this multi-billion dollar business away from them.
+
+/harry
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sat, 17 Apr 1993 10:23:15 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: IMPORTANT!
+
+Stanton McCandlish was talking about digital cash, and
+brought to mind a question I have. 
+
+Why is it that the card that lets you borrow money and go
+into debt is a credit card, while the card that relies on
+your having money in the bank in order to be used is
+a debit card?
+
+(Do I have the two mixed up?)
+
+pgf
+
+------------------------------
+
+Date: Sat, 17 Apr 1993 10:31:13 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Thou shalt not e-mail Bill or Hillary, for it is too easy...
+
+On sci.space, active lobbyist Allen Sherzer has been
+actively discouraging the use of e-mail in political correspondence
+to your Senator, Congresscritter, c   (ack; bad terminal connection here)
+congressvarmint, or Praetor oops, President. The reason: it's so
+easy, it's already lost any impact it had to begin with. 
+They don't take it as seriously as written mail or phone calls.
+
+And besides, anyone who's emailing is one of that minority of
+disenfranchised geeks we're planning to beat up on, so that
+complaint isn't a decent threat ;-)
+
+In short, if you plan to write, write on paper. Or call.
+
+Phil
+
+------------------------------
+
+Date: Sat, 17 Apr 93 11:00:32 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: IMPORTANT!
+
+Stanton McCandlish responds to serveral posts:
+
+To my suggestions that we figure out what is actually being proposed
+so we know what we're fighting:
+
+> Are you blind?
+
+and
+
+> Oh I see.  Pardon us for considering the possible ramifications, and deciding
+> to act to prevent the ones we forsee and don't like.  
+
+Apparently, the action we should take:
+
+> No.  Don't just read it.  DO SOMETHING ABOUT IT NOW!  Email the White House 
+> immediately!  If you do not know how to do this, I will be happy to post in-
+> structions
+
+It was even suggested that the absolutely awful letter parody that
+I posted should have gone to the White House instead because Clinton
+doesn't read this list.
+
+Fine.  I give up.  It made sense to me that we should try to figure
+out what is actually being proposed when determining how to fight
+the proposal: the theory being that the policymakers can feel quite
+justified in tossing into the garbage letters voicing opinions on
+proposals not actually being made.  Apparently the consensus is that
+I am wrong about this, and that it is more important to simply foam
+at the mouth.
+
+I can foam reasonably well.  It's even easy, which will save me some
+time.  The most useful thing would be addresses to which I can send 
+my flames.  Thanks for posting the White House email address.  I
+know Clinton is at 1600 Pennsylvania Ave.  Who else should I Cc: ?
+
+derek
+now where did I put my Oxford Dictionary of Invective?
+
+------------------------------
+
+Date: 17 Apr 1993 08:10:46 U
+From: "John Battelle" <johnb@wired.com>
+Subject: Extropians Digest V93 #0
+
+        Reply to:   RE>Extropians Digest V93 #0200
+Please, I requested that I be taken of the list, thanks.
+
+
+
+------------------------------
+
+Date: Sat, 17 Apr 93 09:24:02 PDT
+From: hal@alumni.cco.caltech.edu (Hal Finney)
+Subject: Thou shalt not e-mail Bill or Hillary, for it is too easy...
+
+I have heard that sending telegrams is one of the most effective ways of
+registering an opinion.  This costs a little more, but it forces you to
+be brief and they figure that you must really care if you went to all this
+much trouble.
+
+Hal
+
+------------------------------
+
+Date: Sat, 17 Apr 1993 13:11:43 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: META: Rules on Quoting Private Messages?
+
+a conscious being, Carol Moore wrote:
+
+> I was under the impression that according to
+> extropian list rules as either
+
+> a) a matter of politeness or
+> b) a matter of not boring other list members
+> c) a matter of private property
+
+> One was not supposed to quote or forward
+> personal messages to the whole list without
+> the other persons permission.  What are
+> the ground rules here for future reference?
+
+> Clarification welcome.
+
+The simple rule of thumb is anything can come in to the list
+(assuming it is on topic), but NOTHING can go  o u t  without
+permission of the author.
+
+/harry
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sat, 17 Apr 93 14:49:54 EDT
+From: sulko-m@acsu.buffalo.edu (Mark A. Sulkowski)
+Subject: Natural Law Party -- the party of transcendental meditation
+
+Stanton McCandlish writes:
+>Hmm...being new to the list, I am wondering what is the opinion in here of
+>the Natural Law Party?
+
+	Oh, boy.  Please don't take this as a flame or personal attack,
+but I think the Natural Law Party is really flaky (for its ideas, not
+necessarily for its members).  The party should properly be called the
+"Transcendental Meditation Party", for that is their primary product.
+It is covered with a weak memetic shell of pro-science/technology blather.
+Nothing terribly impressive in this area.  They think they can lower
+taxes and spending by given government the technology to be more efficient.
+It won't work that way.  It is not in the nature of government to be
+efficient.  They could really learn something from the Libertarian Party
+on this subject.
+
+	You may safely take my opinion to be "negative".
+
+
+>Are there any other parties that are
+>supported (or not slammed into the dirt at least) by Extropia-at-large?
+
+	Hmmm, no I don't think so.  I should probably speak only for
+myself, but my impression is that the Libertarian Party is the only
+one that is supported for its ideas.  A few people in this list are
+members of the Libertarian Party -- others are not because they don't
+think the Libertarian Party will succeed in politics.
+
+
+===============================================================================
+|   |\    /|    | "But we must not follow those who advise us, being men, to  |
+|    \\  //     | think of human things, and, being mortal, of mortal things, |
+|     \\//      | but must, so far as we can, make ourselves immortal..."     |
+| Mark \/enture |                 - Aristotle, _The Nicomachean Ethics_       |
+===============================================================================
+
+
+------------------------------
+
+Date: 17 Apr 1993 14:58:39 -0500 (EST)
+From: KMOSTA01@ULKYVX.LOUISVILLE.EDU
+Subject: ACCOUNTING: Credit cards vs. debit cards
+
+pgf asks why the difference in names between credit cards and debit cards:
+
+Credit = source of funds
+Debit  = use of funds
+
+>From the point of view of this basic definition the names are very appropriate.
+Krzys'
+
+------------------------------
+
+Date: Sat, 17 Apr 93 12:36:30 -0700
+From: Jim Stevenson <jims@eos.arc.nasa.gov>
+Subject: sell me a ride to Friedman?
+
+If you want to sell me a ride to the Friedman gathering at Stanford 
+Please call me at (415)494-1234
+
+------------------------------
+
+Date: Sat, 17 Apr 93 17:14:40 EDT
+From: Sean Colbath <sean@Think.COM>
+Subject: CRYPTO: Useful irony
+
+Eli Brandt writes:
+> 
+> (What are the Feds *thinking*?  A cryptosystem too weak to be
+> revealed, and it's supposed to remain secret after being installed
+> in a few hundred million devices?  Stupid stupid stupid.)
+> 
+> > Elias Israel
+> 
+>    Eli   ebrandt@jarthur.claremont.edu
+
+Exactly -- didn't some Japanese company clone the x86 line by
+carefully sanding down the die until they exposed the chip, and then
+*visually* reproducing the masks needed to make the chip?
+
+It's going to do them no good to keep the algorithm secret if they're
+giving a copy of it away in every cellular phone!
+
+					-Sean
+
+
+
+------------------------------
+
+Date: Sat, 17 Apr 93 17:17:44 EDT
+From: Sean Colbath <sean@Think.COM>
+Subject: (fwd) White House Public Encryption Management Fact Sheet
+
+George A. Gleason writes:
+> 
+> Re Big Brother proposal.
+> 
+> The "asset forfeiture" mention isn't quite so ominous as suggested: what it
+> seems to say is that the Atty General will procure (i.e. buy) encryption
+> devices for use by law enforcement in their own secure communications (i.e.
+> police radio and computer links), and "the funding to effect this purchase"
+> will come from the "superfund" of money derived from existing asset
+> forfeitures.   In other words, smoke a joint, lose your house, and Uncle Sam
+> sells the house to get money to buy more crypto gear for cops.  
+> 
+> I don't see an implication that crypto gear makers will be facing forfeiture
+> for failing to comply with the "request" to incorporate key escrow.  
+> 
+> It appears that this is directed at first to establish the use of key escrow
+> in government-related communications: "federal communications systems that
+> process sensitive but unclassified information."  So for instance, Ollie
+> North's memos would be recoverable, and so on.  But the real risk is that it
+> will spread out to encompass any facility receiving government funding or
+> contracts, i.e. the universities; and from there, widen so as to restrict
+> other types of crypto from being used at those sites.  
+
+I would have no objection to government agencies using this nice new
+setup -- they might actually be stupid enough to believe that it will
+work (with the obvious exception of the NSA).  After all, North was
+stupid enough to leave bits of his plans around in the White House
+email system for the system backups to pick up.
+
+Remember what happened to the government in Shockwave Rider when all
+of the gov'ts secrets were made publicly known?
+
+					-Sean
+
+------------------------------
+
+Date: Sat, 17 Apr 1993 17:42:11 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: PGP & RSA -> Legal
+
+I recall at some point that RSA put something out on the net
+which allowed anyone to use the "patents or source code" for
+non-commercial use.
+
+Do I remember correctly? (I replied to the announcement)
+
+If I am remembering correctly, would that give me a defacto
+licensing of PGP for con-commercial use?
+
+The reason I bring this up is that if the feds crack down,
+they many decide to "help" RSA by legally fighting PGP users.
+
+Which why it would be in our interest to legally (patent-wise,
+despite how you feel about RSA, etc.) use PGP.
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sat, 17 Apr 1993 18:26:07 -0500 (EDT)
+From: rjc@gnu.ai.mit.edu
+Subject: IMPORTANT!
+
+Stanton McCandlish writes:
+> >   3) Digicash is cryptographically strong. It is impossible to trace if
+> >      implemented correctly.
+> 
+> But it won't be.  It isn't now, what makes you think all the credit reporting
+> agencies, banks, skiptracers, govt agencies, debt collectors, etc, are just
+> going to say "oh, sure go right ahead cut us out of the loop."  Not a chance.
+> Digital money is traceable, and was intended to be so.  What in the world do
+> you think is going to change that?
+
+    Do you understand what Digicash is and how it works? 
+
+> >   4) money is just a conveinent abstraction. Rather than carry around
+> >      minerals, it's better to have the bank store the commodities and
+> >      issue notes (digicash) based on the value of the commodiies.
+> 
+> But banks do not store things, they invest.  They gamble with your "money"
+> (which is not real money at all) in the stock market, etc.  And the "money"
+> they issue is NOT based on commodities.  It was, once, long ago.  But it
+> certainly isn't anymore.
+
+    I'm not talking about how banks work now, I'm talking about how
+banks would work if government fiat money was eliminated.
+ 
+> >    Digicash offers the ability to permanently get the IRS, credit
+> > bureau information collection agencies, and investigators out of the loop.
+> 
+> How so?  There is no more insecure way to conduct business than by e-money.
+> EVERY transaction is recorded.  Take cash, who is recording what you do with
+> that?  Who has a record of when, where and for what you traded something?
+
+   Digicash is _NOT_, I repeat _NOT_, equivalent to some Sci-Fi
+money card scheme. You need to learn about cryptography and how
+digicash works. I guess they should have called it crypto-cash, which
+is a play on words (meaning hidden-cash, and cash which uses cryptography).
+
+> > government shifts to E-money, it will not be secure, in fact, it will set the
+> > stage for the worst intrusions into privacy in history. I anticipate full
+> > tracking of all purchases (1984, here we come!). That's why if we want
+> > privacy, the private sector (us) will have to create it.
+> 
+> Right.  Well you get together about 5 trillion dollars and we'll overthrow the
+> world banking system, and institute our new secure e-money.  I mean, come ON!
+> What makes you think the banks and the govt will stand for such a thing as
+> "the private sector" (sector of WHAT?) making its own e-money?  The days of
+
+   Ask yourself how banks started, how loan sharks operate, how coupons work,
+or how credit card companies started. (hint: the government wasn't involved)
+
+-- Ray Cromwell        |    Engineering is the implementation of science;    --
+-- EE/Math Student     |       politics is the implementation of faith.      --
+-- rjc@gnu.ai.mit.edu  |                         - Zetetic Commentaries      --
+
+------------------------------
+
+Date: Sat, 17 Apr 1993 18:49:14 -0400 (EDT)
+From: Evan S Reese <esrst1+@pitt.edu>
+Subject: Singularity Studies
+
+On Thu, 15 Apr 1993, Dani Eder wrote:
+
+> This is my mechanistic insight.  I assume that 'progress' is measured
+> by the growth of human population - technology allows more people
+> to live.  I assume that 'progress' is proportional to human population.
+> What this means is that the rate of invention is constant per person,
+> so that if there are more people, inventions are made faster in
+> a linear relationship.
+> 
+
+
+     On what basis do you make these assumptions?  How do they account for
+the fact that the fastest progress is being achieved in the countries with
+the slowest population growth?  It is true that you need a certain number
+of people to drive technological growth, but after that number is
+obtained, it seems to me that a more important factor is the speed at which
+these people can share information.
+
+     Evan Reese  esrst1+@pitt.edu
+
+
+
+------------------------------
+
+Date: Sat, 17 Apr 93 16:01:02 -0700
+From: Todd Steigerwald <todd@alembic.com>
+Subject: info on history of RSA
+
+I remember a post sometime back describing in detail the history of  
+RSA. Seeing as how it is a hot topic right now, I was wondering if  
+the person who has it could re-post? I know, I know, I should have  
+saved it, but it seems to have gotten lost in a recent move.
+
+
+Many thanks to whoever takes the time to do this 
+
+
+Todd 
+
+
+------------------------------
+
+Date: Sat, 17 Apr 93 22:58 EDT
+From: kwaldman@tanstaafl.extropy1.sai.com (Karl M Waldman)
+Subject: IMPORTANT:Big Brother
+
+	Big Brother Bill :-) read it again
+	Waco
+	Weaver
+	Taxes increase
+	Vat
+    National Health Care
+    More gun control bills in congress then every
+	The largest federal budget every
+
+	How do I express this without "foaming at the mouth" as someone
+recently said. 
+
+	Resolved?  The US government plans on scrapping the constitution
+and putting in a benevolant? dictatorship (Bill and Hillary)*.   
+
+	I've read all the mail I've got so far on the encryption stuff and
+tend to agree with the general sentiment.  But let's all step back, go
+read "How I found Freedom in a unfree World" again and then think about
+our (re)actions.
+
+	1. Will these law's restrict our freedoms that we enjoy?  Can we live
+with it?  (But remember, the best way to boil a frog is start with cool
+water and heat slowly, that is start with freedom and remove one by one)
+	2. If not what is the "EC" reaction? Flight or Fight?
+		Fight?
+			What level are we willing to escalate to?
+			Personally I am not willing to risk my life or the lives of
+my wife and kids, yet.  Sure I'll write/call my vermin, vote libertarian, 
+but from past experience it's pretty much a waste of time.  I'll talk
+to friends and post to the net, but  from the my experience of the
+last couple of days people (except us) don't care and think I'm paranoid.
+(And believe me I was coherent and not foaming at the mouth)
+		Flight?
+		Where?, Bahamas (Port Watson?), other countries?  Small counties
+far away from Washington? (New Hampshire).  Underground, fire up our
+486's with voice cards etc?
+
+		Or of course the true "EC" reaction, "I'm not telling " :-)
+
+	IMHO (sorry Tim M., but it is)  Our understanding of economics says
+that this cannot last.  If we are sure we have the correct understanding
+perhaps we should just let it all happen.  Of course spreading a little
+doubt or more (as is An Enemy of the State) can't hurt either.  So let's
+fire up the "Robin Hood" memos/speeches and email and listen to "John Galt" 
+on the radio May 23. (Galt's speech in entirety, so rumor has it).  So lay low,
+keep the info battle up and your powder dry (and hope to hell you never have 
+to use it) Personally, if it comes to that I'm disappearing, it's not that I'm 
+chicken, I just want to live forever. :-)
+
+
+BTW:  Did any of you see the article about Pratt and Whitney? (I only heard
+about it) but supposedly they told the state of Ct. "We are in business
+to make a profit and if we can't we are closing down!"  Now that is telling
+those SOB's.
+	TANSTAAFL DAMMIT (The Government is about to learn the hard way, I hope),
+
+		Karl	
+	
+
+------------------------------
+
+Date: Sat, 17 Apr 1993 23:08:34 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Odd: The Clipper Mailing List
+
+following a post to cyhperpunks, indicating this could
+be done, I did the following:
+
+sun> telnet csrc.ncsl.nist.gov 25
+Trying 129.6.54.11 ...
+Connected to csrc.ncsl.nist.gov.
+Escape character is '^]'.
+220 first.org sendmail 4.1/NIST ready at Sat, 17 Apr 93 22:50:58 EDT
+expn clipper
+250-<csspab@mail-gw.ncsl.nist.gov>
+250-<denning@cs.georgetown.edu>
+250-<hoffman@seas.gwu.edu>
+250-<mkapor@eff.org>
+250-<rotenberg@cpsr.org>
+250-<rivest@mit.edu>
+250-<mhellman@stanford.edu>
+250-<alanrp@aol.com>
+250-<dparker@sri.com>
+250-<jim@rsa.com>
+250-<branstad@tis.com>
+250 <mgrsplus@csmes.ncsl.nist.gov>
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sat, 17 Apr 1993 23:06:18 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Even more
+
+csspab is the first name on the clipper list it expands as follows:
+
+Trying 129.6.48.199 ...
+Connected to mail-gw.ncsl.nist.gov.
+Escape character is '^]'.
+220 mail-gw.ncsl.nist.gov sendmail 4.1/rbj/jck-3 ready at Sat, 17 Apr 93 
+23:04:29 EDT
+<expn csspab
+250-<burrows@ecf>
+250-<mcnulty@ecf>
+250-Bill Colvin <colvin>
+250-<Gangemi@dockmaster.ncsc.mil>
+250-John Kuyers <kuyers>
+250-<slambert@cgin.cto.citicorp.com>
+250-<lipner@mitre.org>
+250-<gallagher@dockmaster.ncsc.mil>
+250-<cindy_rand@postmaster.dot.gov>
+250-<walker@tis.com>
+250-<willis@rand.org>
+250-Eddie Zeitler <zeitler>
+250-Cris Castro <castro>
+250 <whitehurst@vnet.ibm.com>
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sat, 17 Apr 93 22:49:08 EDT
+From: clayb@cellar.org
+Subject: HUMOR: Libertarian Party doomed 
+
+Meanwhile, the repub's are starting to look better and better. I'll have to 
+agree with Geo. Will; this presidency is the best thing that could have 
+happened to the repub. party. If the libertarian repub's can beat the 
+religious right, then I may have a better choice than a protest vote in the 
+next presidential election.
+
+Clay
+
+------------------------------
+
+Date: Sat, 17 Apr 93 22:38:09 EDT
+From: clayb@cellar.org
+Subject: TECH: Genetic algorithms question
+
+My old roommate did his thesis on diploid GAs. If you are really interested 
+in this email me for his email address.
+
+You also might want to post your GA queries to the GA List 
+(ga-list@ai.nrl.mil, I believe). 
+
+Cheers
+
+Clay
+
+------------------------------
+
+Date: Sat, 17 Apr 1993 23:52:18 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Big Brother: True Names
+
+Here are some background I was able to gather about those
+people on the csspab@mail-gw.ncsl.nist.gov, who had accounts
+directly on that machine.
+
+Eddie Zeitler is vice president of information security for Fidelity
+Investment Corp. He used to work for Pacific National Bank, Glendale,
+Calif.,
+
+Cris Castro is director of information security programs at SRI
+International.
+
+Bill Colvin is NASA Inspector General
+
+John Kuyers is Ernst & Young's Dallas-based regional director of
+information systems auditing
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 00:25:22 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: More True Names: The NIST Security Board
+
+The csspub mailing list: csspab@mail-gw.ncsl.nist.gov,
+and address on the clipper mailing list, seems to contain
+basically the members of the NIST security board.
+
+In addition to the names already posted, their true names are as
+follows:
+
+burrows@ecf = James Burrows a director of NIST's National Computer
+Systems Laboratory
+
+mcnulty@ecf = F. Lynn McNulty an associate director for computer
+security at the National Institute of Standards and Technology's
+Computer Systems Laboratory
+
+Gangemi@dockmaster.ncsc.mil = Gaetano Gangemi is director of the
+secure systems program at Wang Laboratories Inc. He wrote: Computer
+Security Basics by Deborah Russell and G. T.  Gangemi, Sr. -1991,
+O'Reilly and Associates
+
+slambert@cgin.cto.citicorp.com = Sandra Lambert is vice-president of
+information security at Citibank, N.A.
+
+lipner@mitre.org = Lipner is Mitre Corp.'s director of information
+systems.
+
+gallagher@dockmaster.ncsc.mil = Patrick Gallagher, director of the
+National Security Agency's National Computer Security Center and a
+security board member
+
+walker@tis.com = Stephen Walker a computer security expert and
+president of Trusted Information Systems, Inc. in Glenwood, Md
+
+willis@rand.org = Willis H.  Ware a the Rand Corp.  executive who
+chairs the security board.
+
+whitehurst@vnet.ibm.com = William Whitehurst is a security board
+member and director of IBM Corp.'s data security programs.
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Sat, 17 Apr 93 23:09:53 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: IMPORTANT!
+
+> Fine.  I give up.  It made sense to me that we should try to figure
+> out what is actually being proposed when determining how to fight
+> the proposal: the theory being that the policymakers can feel quite
+> justified in tossing into the garbage letters voicing opinions on
+> proposals not actually being made.  Apparently the consensus is that
+> I am wrong about this, and that it is more important to simply foam
+> at the mouth.
+
+Hadn't meant for you to interpret it that way.  Sorry, but when I see things
+I don't like, and that I know are wrong, and that must be acted upon immed-
+iately, it is unnecessary for me to become an expert on the proposal, just
+understand it basically, enough to quote it and say that I do not support
+it and am encouraging others not to support  it, and that in 90% of the
+cases they are agreeing with me.  THAT is sufficient for a "first strike":
+just let them know that people are on to it, and displeased.  A few days 
+later when the deeper ramifications have been sounded, send another more
+detailed response, and mention that you have been writing letters to the
+editor of every publication within a 200 mile radius, and that under no
+uncertain terms you and those that agree with you oppose the proposal.
+
+There, that puts my idea a little more "rationally".  Is it clear what I
+mean now?
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+
+------------------------------
+
+Date: Sat, 17 Apr 93 23:14:17 MDT
+From: Stanton McCandlish <anton@hydra.unm.edu>
+Subject: Thou shalt not e-mail Bill or Hillary, for it is too easy...
+
+Not sure I buy the idea that email is not effective for getting your point
+accross to the govt.  If it was considered useless, they would not go to the
+trouble they are going to, to make it possible to directly email the WH and
+congress in the first place.
+
+If they ARE just ignoring the email, then they are being remiss in their 
+duties, and refusing to listen to the will of the populace.  Carefully written
+editorials in a few prominent publications should fix that attitude problem
+in a jiffy.  
+-- 
+Testes saxi solidi!  **********************   Podex opacus gravedinosus est!  
+Stanton McCandlish,  SysOp:  Noise in the Void Data Center BBS
+IndraNet: 369:1/1      FidoNet: 1:301/2      Internet: anton@hydra.unm.edu
+Snail: 8020 Central SE #405, Albuquerque, New Mexico 87108 USA
+Data phone: +1-505-246-8515 (24hr, 1200-14400 v32bis, N-8-1)
+Vox phone:  +1-505-247-3402 (bps rate varies, depends on if you woke me up...:)
+
+------------------------------
+
+Date: Sun, 18 Apr 1993 00:57-EDT
+From: Marc.Ringuette@GS80.SP.CS.CMU.EDU
+Subject: IMPORTANT!
+
+> How can you possibly think e-money is a good idea?
+> It is Big Brother incarnate if you ask me.
+
+You are obviously unfamiliar with David Chaum's work on untraceable
+digital cash.  This is what we want to be using.  This is as
+anti-Big-Brother as it gets!  It's cryptographically untraceable,
+so you don't even have to bother paying taxes.
+
+If nobody fills you in by tomorrow, send mail and I'll send you
+whatever summary I can dig up.
+
+----
+
+A request:  please try to increase your signal-to-noise ratio.
+It's an ongoing problem on the list, and you're the biggest culprit 
+today.
+
+Thanks
+-- Marc Ringuette (mnr@cs.cmu.edu)
+
+------------------------------
+
+Date: Sun, 18 Apr 93 00:59:28 -0700
+From: tcmay@netcom.com (Timothy C. May)
+Subject: Comments from Jim Bidzos, Pres. of RSA Data Security
+
+Jim Bidzos, Pres. of RSA Data Security, sent me a nice note this evening in
+response to my posting on sci.crypt. In that post, I suggested that only
+RSA has the algorithms and protocols ready to go for an alternative to
+Clipper, and that perhaps we should set aside our differences with RSA
+(over patents on software, etc.) and instead seek an alliance.
+
+Basically, Jim said he knew *nothing* of Clipper until he read about it in
+the Friday morning papers!!  If true, this is astounding. (And having met
+Jim several times, I believe him.)
+
+He's also preparing a FAQ entitled "RSA/PKP/Clipper Flap FAQ" to deal with
+the many questions raised.
+
+Jim has some interesting theories about the motivations for Clipper, and
+why AT&T was so quick to jump on the bandwagon.
+
+Please don't quote my comments in public discussions of this issue (Jim
+asked me not to, which is why I'm being vaguely elliptic here.)
+
+This is all I can say for now, but I remain convinced that RSA was not
+involved (I suspect the presence of "jim@rsa.com" on the NIST mailing list,
+as reported in this group by a couple of folks, is not necessarily the
+cabal that put Clipper together).
+
+Interesting times indeed!
+
+-Tim May
+--
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: MailSafe and PGP available.
+
+
+------------------------------
+
+Date: Sun, 18 Apr 93 04:24:45 EDT
+From: carlf@ai.mit.edu (Carl Feynman)
+Subject: Big Brother: Easy to Break
+
+   From: Harry Shapiro <habs@panix.com>
+   Date: Sat, 17 Apr 1993 09:39:44 -0400 (EDT)
+
+   I recall having a conversation at the Boston ExI meeting, talking
+   about super computers and how fast they could break small keys
+   (like 80  bits).
+
+   I think it was carlf, and I don't recall the exact estimate given,
+   it I think it was on the order of several hours to several days for
+   a fast connection machine class super computer to break such a key
+   by brute force.
+
+I was talking about the 56-bit keys used for DES.  80 bits is long
+enough to preclude reasonable solution times for simple exhausive
+search.  Here's how I estimate this.  Assume that a Clipper uses an
+eight-byte block, and can handle 16Kbytes/sec.  That means a single
+chip decryption engine can test 2000 keys/sec.  If Clipper costs $10,
+and the NSA spends $10^8 on an exhausive cracking machine, they can
+test 2x10^11 keys/sec.  Unfortunately, testing all 2^80=10^24 keys
+will take 5x10^12 sec, which is hundreds of years.  
+
+However, if we can build a mechanical nanocomputer like that proposed
+by Drexler, we will be able to test 10^24 keys at a cost of 10,000
+megajoules, or $300 at current electric rates.
+
+--carlf
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0202
+****************************************
+

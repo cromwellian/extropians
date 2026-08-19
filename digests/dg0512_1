@@ -1,0 +1,719 @@
+From extropians-request@extropy.org Wed May 11 21:02:16 1994
+Return-Path: extropians-request@extropy.org
+Received: from usc.edu (usc.edu [128.125.253.136])
+	by chaph.usc.edu (8.6.8.1/8.6.4) with SMTP
+	id VAA10665 for <more@chaph.usc.edu>; Wed, 11 May 1994 21:02:14 -0700
+Received: from news.panix.com by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA27382; Wed, 11 May 94 21:02:10 PDT
+Received: by news.panix.com id AA27252
+  (5.65c/IDA-1.4.4 for more@usc.edu); Thu, 12 May 1994 00:01:52 -0400
+Date: Thu, 12 May 1994 00:01:52 -0400
+Message-Id: <199405120401.AA27252@news.panix.com>
+To: Extropians@extropy.org
+From: Extropians@extropy.org
+Subject: Extropians Digest #94-5-160 - #94-5-166
+X-Extropian-Date: May 12, 374 P.N.O. [00:00:57 UTC]
+Reply-To: extropians@extropy.org
+X-Mailer: MailWeir 1.0
+Status: RO
+
+
+Extropians Digest             Thu, 12 May 94             Volume 94 : Issue 131
+
+Today's Topics:
+                           "The Society of Mind"  o                   [1 msgs]
+                       "The Society of Mind"  on CD-ROM               [2 msgs]
+                       "The Society of Mind" on CD-ROM                [1 msgs]
+                               Is AI possible?                        [1 msgs]
+                              Reputation Markets                      [1 msgs]
+                       Tech/Bus: MailWeir 2.0 Features                [1 msgs]
+
+
+Administrivia:
+
+
+  Note: I have increased the frequency of the digests to four times a day.
+The digests used to be processed at 5am and 5pm, but this was too infrequent
+for the current bandwidth. Now digests are sent every six hours: Midnight,
+6am, 12pm, and 6pm. If you experience delays in getting digests, try
+setting your digest size smaller such as 20k. You can do this by addressing
+a message to extropians@extropy.org with the body of the message as
+
+::digest size 20
+
+
+-Ray <rjc@gnu.ai.it.edu>
+
+
+Approximate Size: 32743 bytes.
+
+----------------------------------------------------------------------
+
+From: "Harry S. Hawk" <habs@panix.com>
+Date: Wed, 11 May 1994 16:54:57 -0400 (EDT)
+Subject: [#94-5-160] Tech/Bus: MailWeir 2.0 Features
+
+Here is the feature list for MailWeir 2.0; some folks have expressed
+interest. If you received a copy of this privately this is a more
+up to date version. It is still a draft so if you spot a typo please
+let me know.
+
+In a few days I will have a similar but expanded list of the features
+for the next version (the C++ port). Let me know if you would like a
+copy.
+
+FYI, users on the main Extropians list are using the Best Value agent.
+
+/hawk
+
+		Version 2.0 (PERL) of MailWeir  - Feature List
+
+  The PERL version of MailWeir contains 7 separate modules. 
+  Simply, all incoming mail is recorded by the main module. The 
+  main module databases each message and then passes the 
+  message to one or more agents. Each agent then examines the 
+  message and processes it for each of the users it supports. 
+  Administrative functions are located both in their own modules 
+  and distributed as needed in other modules including both the  
+  main and agent modules.
+
+Main Module:
+
+   *	Databases each incoming message
+
+   *	Assigns a unique id to each message (e.g., YYYY-MM-Msg#) - the
+	command syntax allows for messages from the current month to
+	be referred to just by the Msg#, the current years messages by
+	MM-Msg#, and any archived message by the full Id, YYYY-MM-Msg#
+
+   *	Stores information about each message (length, poster, etc.)
+
+   *	contains dbm records of each list member
+
+   *	processes administrative commands
+
+   *	supports an administrator configured message size/line length
+	limit - messages over the limit are cached in the database and
+	the first x lines (default is 20 lines) of the message is
+	sent. Users can request the message if they are interested 
+	(::resend).
+
+   *	supports an administrator configured message size/line length
+	minimum. For example, messages of less than 3 lines are
+	ignored and deleted. Used to filter out null messages.
+
+   *	nosend messages (::nosend). Allows a message to be cached into
+	the database and the poster is sent a acknowledgment
+	containing the first few lines of the message and its Msg#. It
+	appears on each users list of unsent messages. The nosend
+	poster can post an additional message(s) indicating the
+	Msg # and suggest people get it if they are interested.
+	Allows users to post large messages with topical but perhaps
+	limited appeal without wasting bandwidth.
+
+   *	by default RFC 822 messages are addressed with a
+	reply-to-field that directs replies to the e-mailing list
+	rather then the poster of the message.
+
+   *	tracks sent and unsent messages
+
+   *	list (::list) of messages. Users can send a command which will
+	return a list of each message in the cache; it lists each
+	subject, message number, subject line and its poster.
+
+   *	sends a filter-list; a list of unsent messages. users are sent
+	a daily message containing all of the messages they have NOT
+	received.  It contains the subject line, the poster and the
+	Msg#.  optionally it can include the first five lines of
+	each message.
+
+   *	supports administrative messages that will be sent to all
+	users on the list regardless of their agent settings. This
+	requires the message be sent from a particular address and
+	contain a certain prefix in the subject line (Admin: foo.bar).
+
+   *	option to limit posting to those e-mail address that are in
+	the master dbm; the allows for a closed list. Optionally all
+	messages from non-list members can be bounced back to the
+	originator with an explanation. A second option allows the
+	message to be posted by sends a special acknowledgment to the
+	list administrator.
+
+   *	a translation table which allows users to post from address
+	that are not contained in the master dbm.
+
+   *	a blacklist table which present any e-mail address in it from
+	posting regardless if that address is in the master dbm or
+	not.  Useful for ejecting rowdy list members and from
+	preventing e- mail loops from bouncing messages. (e.g., from a
+	sendmail that doesn't send errors to the address listed in
+	errors-to field).
+
+   *	the size in bytes of the messages that can be kept can be set
+	by the administrator. The administrator can also sent the
+	number of days that messages are to be retained. The byte
+	limit takes precedence over the retain date insuring that the
+	hard drive is not filled up.  When this cache of messages is
+	flushed it is done intelligently so that all pending digests
+	are fulfilled (and sent) before the messages are deleted. This
+	feature is most useful on system retention times due to
+	traffic, limited disk space and/or a short retention time.
+
+   *	Incoming subject lines are reformatted to remove "Re: " so
+	that threads when sorted by topic will appear together.
+
+   *	send private messages (::private); some users are not able to
+	locate the e-mail address of message poster. The software has
+	a syntax for allowing a message to be sent privately to any
+	list member and defaults to the originator of the message
+	being replied to.  This messages are acknowledged (if ::notify
+	on).  The acknowledgment includes the first 5 lines of the
+	message.
+	
+   *	the notify and verbose and quiet commands allow a user
+	to set command acknowledgment to on or off. Users can also
+	turn off the list of unsent messages. There is no
+	acknowledgment for posters; posters see their own posts unless
+	the have excluded themselves.
+
+Administration:
+
+  The administration of the mailing list can take place when either the
+  administrator is logged into the host computer (with the appropriate
+  login/password) or remotely via any RFC 822 e- mail message if sent
+  from a particular pre-set address and optionally containing a password
+  and/or a digital signature.
+
+   *	a simple script is used to create a new list. It prompts the
+	administrator for all the requirement information and has an
+	option to supply information that is of a more advance and
+	thus more technical level. Alias files and other system set-up
+	still must be done but the script will indicate what to do.
+
+   *	the configuration file that results from the install script
+	can be edited directly by anyone who has the appropriate
+	permissions.
+
+   *	supports multiple administers (e.g., valid address from which
+	administrative commands can be sent from).
+
+   *	supports configurable RFC 822 compliant errors-to field so
+	that bounced messages and error messages can be sent to any
+	valid Internet address.
+
+   *	all security breaches and other warns messages are sent to all
+	administrators.
+	
+   *	with PowerServ users can automatically join and/or leave a
+	list.  If it is a closed list the administrator is notified.
+
+   *	without PowerServ administrators can maintain complete control
+	over who joins and leaves the list.
+	
+   *	users can be added and deleted and the agent profiles altered
+	from either the command line or via a simple command syntax
+	that can be sent via any RFC 822 e-mail message.
+	
+   *	a PERL script that can be built into ELM can allow a
+	administrator to add and delete users with only 5 key strokes,
+	while allowing the administrator to manually over ride each
+	add/drop.
+
+   *	optional accounting features. The administrator sets up
+	accounting classes (e.g., the cost of each type of
+	subscription such as student, VIP, etc.). The administrator
+	also sets the period of the subscription, text for dunning
+	letters, free trial period if any, and other accounting
+	related information.  When joins the list they are sent a
+	e-bills.  Automatically they will get dunning letters and
+	ultimately if they don't pay they are automatically deleted
+	from the list. When their subscription period is up (e.g., a
+	year later) they are again sent a e-bill and dunning letters.
+	Except for entering payments the entire accounting system is
+	fully automated.  There is unimplemented support to debit
+	users for the actually CPU, and bandwidth they use and/or to
+	bill full for certain command on a flat rate basis.
+
+
+Simple Agent - uses least amount of CPU:
+
+   *	resend messages by message number, subject line keyword, or
+	subject line regular expression (::resend)
+
+   *	contains dbm records of all users who it is assigned to.
+
+   *	contains dbm profile for each users
+
+   *	supports real-time "reflection mode"
+
+   *	supports a single size digest function which defaults to 50k
+
+
+Best-Value Agent - moderate CPU usage:
+
+   *	all the features of the Simple Agent
+
+   *	supports a variable size digest function 10 to 99 bytes
+
+   *	support exclude/include:
+
+   *	by subject line (keyword or regular expression)
+
+   *	by poster (e-mail address or regular expression)
+
+   *	Also can be set to include or exclude all messages
+
+   *	takes advantage RFC 822 compliant mail readers. It uses the
+	message ID, in-reply-to, and reply-to fields to simplify the
+	command syntax. For example if a user send an exclude command
+	(::exclude) the agent will automatically be able to determine
+	what thread to exclude.  If the user sends "::exclude poster"
+	the agent will automatically determine which poster to
+	exclude.
+
+
+VIP Agent - the full featured agent:
+
+  The VIP agent has all of the features of the Basic Value agent plus:
+
+   *	a keyword search command. This uses the agrep function. A user
+	supplies a keyword and all messages in the current cache are
+	examined.  Agrep is fuzzy in that it allows for 2 mismatches
+	allowing for spelling mistakes, etc. Every message that
+	matches is sent to the users.
+	
+   *	a WAIS search command. This is similar to the keyword search
+	command except it uses the WAIS search functions. It returns
+	every matching message to the requester.
+
+
+Suitability:
+
+   *	Usable by large companies
+
+   *	Also works for small groups, companies and individuals
+
+   *	Enhances spontaneous communication
+
+
+-- 
+Harry S. Hawk  				      habs@extropy.org
+Electronic Communications Officer, Extropy Institute Inc. 
+    	    The Extropians Mailing List, Since 1991
+
+------------------------------
+
+From: Erich Stefan Boleyn <erich@gemini.mth.pdx.edu>
+Date: Wed, 11 May 94 13:54:59 -0700
+Subject: [#94-5-161] "The Society of Mind" on CD-ROM 
+
+sdw@meaddata.com writes:  (in response to Minsky's message)
+
+> You could start a great precedent:
+> 
+> Offer to make future revisions of CDRom books available inexpensively
+> (as an upgrade).  This would so improve the process of publishing
+> (expensive) technical books as to create a stampede...
+
+It looks like a very good idea.
+
+> I know I'd buy all of my books electronically if I could.
+
+I would but for one problem...  I have to be able to use the reader on
+any machine that I'd have.  I don't have a Macintosh or IBM PC running
+DOS/Windows.
+
+I'd say that the reason why books are so easy for most people is that
+the standard ;-) ;-) for reading is openly available.  If a standard
+using, say, MPEG (or some other video algorithm available in the PD),
+some audio technique that is PD, etc. is available, or a MM reader
+that is available as PD source code of some sort...  then I'd
+consider doing it.  Frankly, a Mac or PC running DOS/Windows
+is useless to me in normal day-to-day (faster to develop with
+fully pre-emptive & protected memory systems, more parallel
+functionality, generally faster hardware, etc.), and it seems
+a lot of money to spend to just read books, which would be faster and
+more slick on high-end machines anyway.
+
+Look at how popular Mosaic & such are.  I think that is very much due
+to it being available in the PD.
+
+> Lighter, better, upgradable, etc....
+
+Generally, I agree.
+
+> (BTW, I wouldn't be adverse to buying a CDD (writer) for $4000+ and
+> trying out making masters...)
+
+I think a better idea might be to ask who is willing to look into
+making such a software package or investigating such a standard.
+
+Erich Boleyn
+             "I haven't lost my mind; I know exactly where it is."
+   / --  Erich Stefan Boleyn  -- \        --=> *Mad Genius wanna-be* <=--
+  { Honorary Grad. Student (Math) }---> Internet E-mail: <erich@ee.pdx.edu>
+   \  Portland State University  /       WARNING: INTERESTED AND EXCITABLE
+
+------------------------------
+
+From: Erich Stefan Boleyn <erich@gemini.mth.pdx.edu>
+Date: Wed, 11 May 94 13:55:04 -0700
+Subject: [#94-5-162] Is AI possible? 
+
+nancy@genie.slhs.udel.edu writes:
+
+>  Derek Zahn <derek@cs.wisc.edu> writes: 
+> 
+> >Mr. John M. Casey:
+> >
+> >> There's a book by Roger Penrose called The Emperor's New Mind, that
+> >> discusses in painstaking detail the possibility of computers (incl robots)
+> >> ever being able to truly make the leaps of logic that can enable a human
+> >> to, for instance, prove or disprove a theorem.
+> >
+> >Not at all.  I never cease to be amazed that anybody takes Penrose's
+> >book to be anything at all relevant to any discussion about the
+> >abilities of computers.  My somewhat careful reading of his
+> >text doesn't reveal anything more than a transparent restatement
+> >of Lucas's misguided application of Godel's Theorem to the "problem"
+> >of consciousness.
+
+Penrose gave some arguments that I think it is possible to show are
+fundamentally flawed.  The only real "proof" he does is comparing a
+human to a Turing machine, and arguing that a human is not a turing
+machine by using a diagonalization method.  I pretty clearly
+remember finding some crucial flaws in that "proof".  Details can
+be provided to those interested.  The rest of the book wasn't
+based on any kind of rigorous method at all.  It seemed to
+be speculation (based on his earlier "proof" that humans are
+not turing machines), that you could still get computational AI
+allowing for quantum effects of some sort.
+
+On the whole, I agree that it seems strange that people take Penrose's
+word so completely, when his arguments claim to provide proof, but
+generally are not rigorous.  I tend to think some of it is self-
+fulfilling prophecy, IMHO, because people want to hear that there
+is some kind of "free-will" that is not deterministic.  Many people
+I've talked to just say "it can't be", and then shudder.  Clearly
+they find the possibility threatening, though I'm sure that is not
+always the case.
+
+Erich Boleyn
+             "I haven't lost my mind; I know exactly where it is."
+   / --  Erich Stefan Boleyn  -- \        --=> *Mad Genius wanna-be* <=--
+  { Honorary Grad. Student (Math) }---> Internet E-mail: <erich@ee.pdx.edu>
+   \  Portland State University  /       WARNING: INTERESTED AND EXCITABLE
+
+------------------------------
+
+From: minsky@media.mit.edu (Marvin Minsky)
+Date: Wed, 11 May 94 19:29:07 -0400
+Subject: [#94-5-163] "The Society of Mind"  on CD-ROM
+
+I heard (but don't remember where) that they're now slightly under $3000.
+
+>(BTW, I wouldn't be adverse to buying a CDD (writer) for $4000+ and
+>trying out making masters...)
+
+----------------------------------------------------------------------
+ Words should be our servants, not our masters.
+
+
+
+------------------------------
+
+From: "Rob Wilen" <rob@genmagic.genmagic.com>
+Date: 11 May 1994 16:36:46 -0800
+Subject: [#94-5-164] "The Society of Mind"  o
+
+Subject:  RE>"The Society of Mind"  on CD-ROM
+
+::exclude thread
+
+--------------------------------------
+Date: 5/11/94 4:31 PM
+To: Rob Wilen
+From: extropians@extropy.org
+Received: by qm.genmagic.com with SMTP;11 May 1994 16:31:12 -0800
+Received: from genmagic.genmagic.com by blackhills.genmagic.com
+(NX5.67d/NX3.0S)
+	id AA06029; Wed, 11 May 94 16:31:49 -0700
+Received: from gatekeep.genmagic.com by genmagic.genmagic.com
+(4.1/SMI-4.1/JBS)
+	id AA25214; Wed, 11 May 94 16:30:55 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from news.panix.com by gatekeep.genmagic.com (4.1/SMI-4.1/JBS)
+	id AA06050; Wed, 11 May 94 16:30:37 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by news.panix.com id AA12031
+  (5.65c/IDA-1.4.4 for rob@genmagic.com); Wed, 11 May 1994 19:29:58 -0400
+To: Extropians@extropy.org
+Date: Wed, 11 May 94 19:29:07 -0400
+Message-Id: <9405112329.AA00387@media.mit.edu>
+X-Original-To: extropians@extropy.org
+From: minsky@media.mit.edu (Marvin Minsky)
+Subject: "The Society of Mind"  on CD-ROM
+X-Extropian-Date: Remailed on May 11, 374 P.N.O. [19:29:54 UTC]
+X-Message-Number: #94-5-163
+Reply-To: extropians@extropy.org
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+X-Mailer: MailWeir 1.0
+
+I heard (but don't remember where) that they're now slightly under $3000.
+
+>(BTW, I wouldn't be adverse to buying a CDD (writer) for $4000+ and
+>trying out making masters...)
+
+----------------------------------------------------------------------
+ Words should be our servants, not our masters.
+
+
+
+
+
+
+------------------------------
+
+From: jbaker@halcyon.com (James Baker)
+Date: Wed, 11 May 1994 18:08:31 -0800
+Subject: [#94-5-165] "The Society of Mind"  on CD-ROM
+
+M. Minsky writes (Regarding CD ROM writers):
+
+>I heard (but don't remember where) that they're now slightly under $3000.
+>
+Pinnacle makes one for the Mac at $2999 sans Hard Disk. Some hard disks
+won't work because they do a thermal recalibration every 10 - 15 minutes
+interrupting the flow of data to the CDR drive. I think by now most will.
+
+There is a company here in Seattle that does one-off CD's for under $100
+each including pickup and delivery. Turnaround is under 24 hours (or $25
+more for same day). They can start with DAT or 8MM tapes, MO disk, or loose
+SCSI hard disk. Presumably most major US cities offer something similar. 
+
+Supply and demand in action.
+
+
+ James Baker          |        
+ Seattle, WA USA      |    It's always darkest just before 
+ jbaker@halcyon.com   |    it turns completly black.              
+
+
+
+------------------------------
+
+From: Bill Garland <bill@kean.ucs.mun.ca>
+Date: Wed, 11 May 1994 14:59:31 -0230
+Subject: [#94-5-166] Reputation Markets
+
+I sent this the other day, but it didn't seem to make it.
+I also lost two other posts about Hawk's System 1 and
+System 2, but didn't keep a copy of them. The extra effort
+it takes to pgp-sign your postings almost guarantees you
+will keep a copy of them...
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+There seems to be quite an interest in filtering lately. New software
+that we could all use appears on the way from Hawk and Ray. Voting on
+postings so the results could be applied to information filtering 
+algorithms of others who have not yet read the post might be useful,
+but I must say I ignored most of the discussion on this thread until
+the last few posts, because I didn't feel there would be much use
+of it except in how it might evolve to apply to our own list, wrt
+how to do ::excludes etc. It would be of little use because by the 
+time it had any effect, the threads would have died or mutated.
+It might be of greater use to exclude specific people. 
+
+Although this may change in the future, I have never bothered to
+use any ::excludes. It might be okay for threads, and if it were
+available on Cypherpunks, I could use it there immediately. I'm
+not averse to using kill files on usenet newsgroups, but I don't
+use the news reader to read my mail. This, too, might change...
+
+But is this not an aspect of Reputations?  Are we discussing, or
+could we discuss, the development of filtering agents that react
+to the reputations of posters?
+
+I know many Extropians are also Cypherpunks, but "over there" the
+other day Tim May was asking about HEx, so I explained to him that
+Brian Hawthorne had found the Extropian volume too high and 
+announced that he was leaving the List, and that he had sold 
+the Hawthorne Exchange to me for a small fee. Although I haven't
+checked yet, I'm sure Brian should have received his payment in
+the snail mail by now, and as soon as I can find a place from 
+which to run this unix-based software, I will download it all
+and figure out what to do with it. I mentioned to Cypherpunks
+that Extropians had not exactly been crying out for the ressurection
+of HEx. In fact, it seems to have gone into limbo without many
+people noticing.
+
+Tim mentioned that there were several problems with HEx, and he
+has posted here about that in the past. He seems to have remembered
+manipulating the values of reputations to amass a large volume
+of thornes. Tim seems to be very good at amassing large volumes
+of various currencies. He was also _buying_ thornes, to try to
+get some real value established, I believe, and only one Extropian
+took him up on the idea, for $10. 
+
+Well, yes, there were problems with HEx. It was a first experiment,
+I believe, although there may be other reputation markets around.
+In the "real" world, the reputation markets are the credit reporting
+agencies and the direct marketing mailing list industry. Perhaps
+there are other good examples. I do not know if there are any other
+reputation markets on the Internet, although there are definitely
+Internet reputations, witness McElwaine, Detweiller, Sternlight,
+and the latest perversion, based on the movie "Lassie Go Home".
+
+There was the problem that HEx itself would _give_ so many thornes
+to new Customers. That the value of thornes had no basis in reality
+was another problem. That Customers could cause wild swings in
+values of reputations by currency manipulation was another. That
+there were no transaction fees applied, meaning that anyone could
+execute "voting" by buying and selling shares without paying for
+the privilege was another problem. I didn't think the system 
+worked because it didn't seem properly oriented - who is going
+to buy reputations of someone whose posts they dislike, so that
+they might sell them to devalue them? Backwards, IMO. Maybe I
+misunderstood how this was supposed to work. I know I was tempted
+to ::exclude the HEx Nightly Market Report, although I would read
+it once in a while.
+
+Anyway, I would like to receive any feedback or suggestions from
+Extropians about HEx. Should I revive it as a market for the 
+reputations of Extropians?  There are some things I want to do,
+such as offer Reputation Services through my soon-to-be operating
+INFO_Banque, where "soon" is not particularly well defined. There
+will be a market for reputations, so I would like to do some work
+on this concept to see if I could make a little digital cash for
+myself. As far as I'm concerned at this point in time (oh, a
+phrase I _hate_ arrggggh) the Thorne will remain the Thorne,
+and any reincarnation of HEx in any format similar to the last
+ie first version will remain something exclusively for Extropians,
+but the INFO_Banque will in the future try to do some reputation
+marketing - hopefully in some better way - to a wider market.
+
+If there is no interest in reviving the Thorne and HEx, I will
+get on with other things, but I should have an access point to
+the internet over which I will have control in the current fiscal
+year. At minimum, I will be able to put up an old pc running linux
+or minix or something like that to operate the system. I also have
+to learn how to use unix. I may have a better machine available,
+too, but we'll have to see how the Day Job goes. After all, I _do_
+need to devise a method whereby, say, medical students and faculty 
+and staff (all my Day Job Customers) can filter their e-mail, to 
+cut down on their research and study time, to improve their reading 
+by allowing them to filter mail based on reputations, heh heh, you 
+see... I need to experiment...
+
+Meanwhile, some ideas to toss around :
+
+Reputations, when newly created, are clean.
+
+If someone wants to sully a reputation, by issuing a "Condemn"
+transaction at cost of digital postage, they may do so. They 
+must be members of the Exchange to do this, and they must provide 
+some credible reason for doing so. Their own reputations will be 
+affected by their actions - of course - but here we must be careful 
+to observe that two meanings of the word "repuation" have occurred. 
+That is, there is the reputation of someone by virtue of what some 
+people might think of him or her, and there is the market item in the
+reputation market. This market item must somehow include the fact
+that the reputation owner of note has made condemnations. Everything
+in the market would be open to everyone participating. I guess since
+transaction issuers must be members themselves means their reputations
+can be directly affected by anyone with a digital postage stamp.
+
+Similarly, members could enhance the reputations of others by
+making "Approve" or "Praise be" transactions. I'll have to do
+some creative thinking about other types of reputation transactions
+that could be useful. Different types of transactions could have
+different processing fees, like one unit for an Approve, but two
+to five units for "Praise Be"'s, depending upon the number of stars
+the praisor wants to apply. "Condemns" would cost more than
+"Oh, my"'s but less than "This is a net.loonie"'s.
+
+Receipt of a certain number of net.loonie transactions could force
+a reputation's STATUS to be "Net.loonie". Receipt of enough 5-star
+appraisals could force STATUS to be "*****".
+
+Some parameters needed for reputations :
+REP_OWNER - who Registered the Reputation in the Market, and paid
+   the registration fee.
+REP_NAME  - who or what is the entity whose reputation is being
+   registered known as,
+REP_ADDR  - e-mail address of the reputation - this may be something
+   that would have to be looked at from a privacy point of view.
+REP_INIT  - the initial abstract from the reputation owner as to
+   why he or she registered the reputation in the first place.
+   This field could perhaps be modified by either the OWNER or
+   the Exchange, in case the owner wants to edit the original
+   because it was created in error or because things have 
+   changed, or by the Exchange itself if it determines or it
+   becomes known through other transactions that the Initial
+   Abstract contains false, erroneous, slanderous, or libelous
+   information that should not be maintained in the Market.
+REP_TX_LIST - a reference or pointer to Reputation Transactions
+   executed by market members on this reputation.
+REP_STATUS - a capsule summary of the Reputation in the paridigm
+   of the users. Some algoritmic processor would scan the TX_LIST
+   upon execution of any Tx to compute the latest STATUS, but this
+   would not necessarily mean that any single new Condemn Tx could,
+   for example, change a 5-star reputation.
+
+   There may be need of more than one summary of reputation parameter,
+   since financial reputations would be different from posting
+   reputations, but that may just mean there would have to be
+
+REP_TYPES...
+
+    and so on...   I have to go check up on HEx as it was...
+
+
+In the INFO_Banque future reputation markets, transaction fees will
+of course be payable in digital cash...but that opens up a whole
+new can of worms that will have to wait........ INFO_Banque will sell
+its own digital postage stamps. All INFO_Banque transactions will
+be encrypted - probably by PGP 2.5 just to keep on the up and up,
+especially since the reputation of 2.5 just got a "Good Thing"
+Tx submitted by Tim May...
+
+I do believe Tim asked not to have Extropian messages forwarded
+to him, so I will not cc him with this message, but if anyone 
+knows for sure this is wrong, or if anyone knows Tim well enough
+to bypass this request, please feel free to forward this post to
+him. Otherwise, I do not know how to make an "X-Reposting-Policy"
+header in my mail - yet - but Extropian stuff stays with Extropians,
+for me, anyway.
+
+Meanwhile, please post or send me your comments.
+
+        Bill Garland,
+             the Extropian Cypherpunk CryptoAnarchist of many .sigs
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.3a
+
+iQCVAgUBLc8oeEqYjDfdkCPxAQEIbwQAliwfPfK20Yr43K59HNivoBTZVz5+qE/K
++gXCocTjftmnveNsKSTfl63i4NNLnvuQ9heTGrJeHoFS+v92oQDiAJYVeJi2Ce6q
+fYK+31z/9rD/FBcjHRSPBSDFdr7cGVdW171jU7QdHLRhbG31uqUF7R8m7m+qLCPV
+5USIhJGOr74=
+=TbKA
+-----END PGP SIGNATURE-----
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: 2.3a
+
+mQCNAiynHCkAAAEEANbd5hw0IR+keK2U2DoGnAPdcctWxipdXbJ2Qr83ScX7d7K1
+uP1bkRkGOCYJpQTksgtHf/ulUsZwq4TEFb7QUyvHnoRJcO4q0RX7CnH9fhXQ1F+k
+LeuU4NSCYIzrvI6kdoMR1nTN3N8zm793CafB/SI0ZoJs2b5p1UqYjDfdkCPxAAUR
+tCxCaWxsIEdhcmxhbmQgKFdtLlIuKSAgPGJpbGxAa2Vhbi51Y3MubXVuLmNhPg==
+=Z9Sb
+-----END PGP PUBLIC KEY BLOCK-----
+
+------------------------------
+
+End of Extropians Digest V94 #131
+*********************************
+

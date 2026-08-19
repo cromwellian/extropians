@@ -1,0 +1,1017 @@
+From extropians-request@gnu.ai.mit.edu Thu May 13 11:49:25 1993
+Return-Path: <extropians-request@gnu.ai.mit.edu>
+Received: from usc.edu by chaph.usc.edu (4.1/SMI-4.1+ucs-3.0)
+	id AA07832; Thu, 13 May 93 11:49:16 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: from wookumz.gnu.ai.mit.edu by usc.edu (4.1/SMI-3.0DEV3-USC+3.1)
+	id AA03045; Thu, 13 May 93 11:49:08 PDT
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Received: by wookumz.gnu.ai.mit.edu (5.65/4.0)
+	id <AA24298@wookumz.gnu.ai.mit.edu>; Thu, 13 May 93 14:42:15 -0400
+Message-Id: <9305131842.AA24298@wookumz.gnu.ai.mit.edu>
+To: ExI-Daily@gnu.ai.mit.edu
+Date: Thu, 13 May 93 14:41:53 -0400
+X-Original-Message-Id: <9305131841.AA24290@wookumz.gnu.ai.mit.edu>
+X-Original-To: Extropians@gnu.ai.mit.edu
+From: Extropians-Request@gnu.ai.mit.edu
+Subject: Extropians Digest V93 #0258
+X-Extropian-Date: Remailed on May 13, 373 P.N.O. [18:42:14 UTC]
+Reply-To: Extropians@gnu.ai.mit.edu
+Errors-To: Extropians-Request@gnu.ai.mit.edu
+Status: OR
+
+
+Extropians Digest            Thu, 13 May 93            Volume 93 : Issue 0258
+                        
+Today's Topics:
+                      AI: Synaptic Storage Requirements               [2 msgs]
+                            AI:Human Equivalence                      [3 msgs]
+                 Blind post about Clipper/CNN, excuse me...           [1 msgs]
+                                Extropianism                          [1 msgs]
+                             First CDs, then...                       [7 msgs]
+                        GAMES: To play or not to play                 [1 msgs]
+                           GAMES: fun and growth.                     [2 msgs]
+                                     Go                               [1 msgs]
+                      META: Spreading Extropian memes.                [1 msgs]
+                                Meta: Admin.                          [1 msgs]
+                  TECH/PHIL: (non)interactive entertainment           [1 msgs]
+                               Tech: Fake ATM                         [1 msgs]
+                      Tech: Spoof Teller Machine (ATM)                [1 msgs]
+                   The Game of Go and the Wasting of Time?            [2 msgs]
+                               tech: Fake ATM                         [1 msgs]
+
+
+Administrivia:
+
+This is the digested version of the Extropian mailing list. Please 
+remember that this list is private; messages must not be forwarded 
+without their author's permission.
+
+To send mail to the list/digest, address your posts to:
+	extropians@gnu.ai.mit.edu
+
+To send add/drop requests for this digest, address your post to:
+	exi-daily-request@gnu.ai.mit.edu
+
+To make a formal complaint or an administrative request, address 
+your posts to:		extropians-request@gnu.ai.mit.edu
+
+If your mail reader is operating correctly, replies to this 
+message will be automatically addressed to the entire list 
+[extropians@gnu.ai.mit.edu] - please avoid long quotes!
+
+The Extropian mailing list is brought to you by the Extropy Institute,
+through hardware, generously provided, by the Free Software 
+Foundation - neither is responsible for its content.
+
+Forward, Onward, Outward - Harry Shapiro (habs) List Administrator.
+
+
+Approximate Size: 50949 bytes.
+
+----------------------------------------------------------------------
+
+Date: Wed, 12 May 93 21:17:42 PDT
+From: Eli Brandt <ebrandt@jarthur.Claremont.EDU>
+Subject: AI: Synaptic Storage Requirements
+
+> From: pavel@PARK.BU.EDU (Paul Cisek)
+> Another common assumption is that the effect of pre-synaptic
+> neurons on a post-synaptic cell is a summation of their activations
+> times the weights on their connections.  This is something I feel
+> comfortable with, but it makes neurophysiologists shudder.
+
+For example, "negative weights" work very differently in real life.
+An inhibitory synapse can basically short out the dendrite at a
+particular point (I think passive-potential hyperpolarization also
+happens).  This will simply erase anything happening "upstream" on
+the dendritic tree, while having little to no effect on activations
+occurring elsewhere.  A dot product doesn't take this into account
+at all.  I have no idea how much the brain's microcircuitry actually
+makes use of this, but this particular approximation worries me.  A
+lot of interesting things are done with inhibition.
+
+> -Paul
+
+   Eli   ebrandt@jarthur.claremont.edu
+
+------------------------------
+
+Date: Wed, 12 May 93 16:37:44 EDT
+From: Brian.Hawthorne@East.Sun.COM (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: First CDs, then...
+
+ 
+> I've been waiting for some years to see the same thing happen to
+> books.
+> It should be possible, with some small advances in printing
+> technology, to produce paperbacks on request in small kiosks.
+
+No advances needed. My in-laws in New Jersey were in a mall and happened
+across a little kiosk. They handed the attendant some cash, answered
+a few questions, and minutes later a hardcover, perfect-bound,
+customized children's book popped out of the slot for
+their grandchild (my son). 
+
+If they can do it for kid's books, they can do it for longer things.
+The limit on perfect binding is pretty small, but as I recall that means
+somewhere around 2 inches thick (several hundred pages, at least).
+
+So, Perry, when can I open a franchise?
+
+------------------------------
+
+Date: Thu, 13 May 1993 02:16:23 -0400
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Subject: GAMES: fun and growth.
+
+Sasha says:
+ 
+> My current opinion is: if you do not have enough intelligence to play
+> these game fairly well - don't play; if you do have the intelligence,
+> don't play anyway - use it for something more productive.
+ 
+ Tim May paraphrases:
+ 
+> "My current opinion is: if you do not have enough intelligence to
+> write interesting messages to the list - don't write; if you do have
+> the intelligence, don't write anyway - use it for something more
+> productive."
+  
+  As the French say, "Comparison n'est pas reason" (or something like that).
+I do agree that the second paragraph above is structurally equivalent to
+the first, but this similarity doesn't apply to their validity; consider
+statements "Sasha came from Russia" and "Timothy_C_May came from Russia".
+The assertion of my statement was not in its structure, but the application
+of it to the word "games".
+ 
+  Not that I am against games - I just try to save my time for what brings
+*me* more fun (= "is more productive").
+ 
+  I would consider games an art form (in some of their aspects); if we
+define art as something we consume for joy (as opposed to producing
+something else), then we may distinguish artforms that we enjoy while
+perceiving them (movies, culinary art, music), and after perceiving them
+(game analysis, certain philosophical and mathematical constructs, etc.).
+  Games may also be tools for personal development; in fact, since only
+a few of all possible activities may be considered 'productive', and
+since there seems to be no connection between usefullness of educational
+techniques and their strengths, one may expect that the top zillion of
+the most interesting and educationally useful activities would be
+"unproductive" = games.
+ 
+  Unfortunately, people seldom consciosly use games for self-development;
+they rather use this ["usefullness"] argument to justify playing whatever
+they feel like playing.
+  I used to make some attempts to purposefully design games for teaching;
+this included cooperative computer games where the player would *cooperate*
+with the partner to reach the goal of the game (while most of existing
+games 'teach' you to either work alone, or oppose every other game agent),
+and games where players could dynamically modify the rules - both of these
+fill our real life, but are almost untouched by the world of games.
+  People prefer stable and simple rules though :-(
+This allows them to live in the simple static VR of the game, and feel the
+comfort and power they fail to achieve in the complex and volatile reality.
+Which is very, very unextropian, among other things.
+
+------------------------------------------------------------------------------
+|  Alexander Chislenko | sasha@cs.umb.edu | Cambridge, MA  |  (617) 864-3382 |
+------------------------------------------------------------------------------
+
+------------------------------
+
+Date: Thu, 13 May 1993 02:46:03 -0400
+From: Alexander Chislenko <sasha@cs.umb.edu>
+Subject: META: Spreading Extropian memes.
+
+Kent Hastings writes:
+ 
+> The World Future Society seems like a "target rich environment"
+> for extropians.
+ 
+   I think we should launch the extropian memes into a number of target
+environments; the WFS seems to be the most promising one; there are also
+others that I've been wanting to introduce to extropian ideas for a while.
+My biggest question is what we want to do with all new people.
+We definitely DO NOT want thousands of new list members (at least without
+seriously altering the list structure).
+We might want to have lots of new ExI members, which may solve ExI's
+financial problems, but I am not sure that ExI can now handle thousands
+of information requests.
+  I thought of advising extropianisms to [fellow-]MENSAns as an ultimate
+intellectual adventure, and The Thing to try for any True MENSAn, to the
+[fellow-]Toastmasters as the greatest source of thought-provoking and
+conroversial subjects for their speeches, advertising the idea of
+transhumanism to the [fellow] members of the Institute of Noetic Sciences,
+etc., etc.
+  There are many groups with the total number of people in hundreds of
+thousands that can help us develop, spread and implement extropian
+ideas.
+ 
+  Do we want to target these audiences or not?
+  What exactly could be the message[s] ?
+ 
+  Any ideas?
+ 
+------------------------------------------------------------------------------
+|  Alexander Chislenko | sasha@cs.umb.edu | Cambridge, MA  |  (617) 864-3382 |
+------------------------------------------------------------------------------
+
+------------------------------
+
+Date: Thu, 13 May 1993 00:00:24 -0700
+From: D Anton Sherwood <dasher@well.sf.ca.us>
+Subject: Go
+
+Two more Go players here -- I play about twice a month with my virtual
+neighbor Mark Read Pickens (autarch@well).  I taught Mark about two years
+ago after hardly playing since 1977, and he's never played anyone but me and
+Nemesis.  You can guess how good we are.
+
+*\\* Anton                                                     Ubi scriptum?
+
+------------------------------
+
+Date: Thu, 13 May 93 0:24:23 PDT
+From: tcmay@netcom.com (Timothy C. May)
+Subject: GAMES: fun and growth.
+
+Alexander (Sasha) Chislenko comments on my rewriting of his argument
+against playing games (which I won't attempt to rehash here):
+
+>   I would consider games an art form (in some of their aspects); if we
+> define art as something we consume for joy (as opposed to producing
+> something else), then we may distinguish artforms that we enjoy while
+> perceiving them (movies, culinary art, music), and after perceiving them
+> (game analysis, certain philosophical and mathematical constructs, etc.).
+>   Games may also be tools for personal development; in fact, since only
+> a few of all possible activities may be considered 'productive', and
+> since there seems to be no connection between usefullness of educational
+> techniques and their strengths, one may expect that the top zillion of
+> the most interesting and educationally useful activities would be
+> "unproductive" = games.
+
+Oh, but of course I agree. I just go further and consider writing for
+this list to be more or less equivalent to playing a game. Why do I
+think this?
+
+-there's little product except the playing of the game (and I mean no
+direspect here to any of us on the list).
+
+-posts are moves, responses are countermoves...
+
+-Wittgenstein called language a game...in this, he was on target.
+
+-certain skills are sometimes sharpened...certain posting "riffs" are
+learned (maybe). (I don't know about this, though...does anybody have
+any opinions as to whether folks are getting "better" at posting after
+some months on the list?)
+
+There are many times when I think that the couple of hours a day I
+spend reading this and other lists, and often writing something, are
+just as surely and completely "wasted" as if I were spending the same
+time playing chess or Go.
+
+A depressing thought.
+
+
+-Tim
+
+
+-- 
+..........................................................................
+Timothy C. May         | Crypto Anarchy: encryption, digital money,  
+tcmay@netcom.com       | anonymous networks, digital pseudonyms, zero
+408-688-5409           | knowledge, reputations, information markets, 
+W.A.S.T.E.: Aptos, CA  | black markets, collapse of governments.
+Higher Power: 2^756839 | Public Key: PGP and MailSafe available.
+
+
+------------------------------
+
+Date: Thu, 13 May 1993 07:11:58 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Tech: Spoof Teller Machine (ATM)
+
+I saw a report on CNN that someone put a "spoof" ATM (teller machine)
+in a Mall. It was used to capture PINS and account number's.
+
+Users of the spoof machine were told that the transaction was incomplete,
+and where not giving any money, etc. 
+
+According to the report about $3,000 was later stolen. The machine was
+removed quickly and no one was caught.
+
+So remember practice safe banking; know which slot thy put's their
+into!!!
+
+(BTW, a spoof Credit card only telephone would probally work well -
+it could function completely normally and it could "steal" all the
+codes being used....)
+
+/harry
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Thu, 13 May 1993 07:28:45 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Meta: Admin.
+
+This is an Administrative post to both the main list and the essay list.
+
+
+If you are in school and your e-mail account will be lost, please 
+make sure you unsubscribe to the list(s).
+
+To leave the main list send to:
+				extropians-request@gnu.ai.mit.edu
+
+To leave the digest send to:
+				exi-daily-request@gnu.ai.mit.edu
+
+To leave the essay list send to:
+				exi-essay-request@gnu.ai.mit.edu
+
+
+Please send any questions about this to exi@panix.com
+
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Thu, 13 May 1993 08:24:23 -0400 (EDT)
+From: Harry Shapiro <habs@Panix.Com>
+Subject: Tech: Fake ATM
+
+The following text is presented for personal educational use only. It
+is not to be copied or otherwise used in a manner which violates
+rights of its copyright holders. This letter serves only as private
+communication to readers of the Extropian Mailing List.
+_________________________________________________________________
+
+
+
+Here is the transcript:
+
+                    Copyright 1993 Cable News Network, Inc. 
+                             All rights reserved  
+                                      CNN
+
+                                   Moneyline
+
+                                  May 11, 1993
+
+BYLINE: LOU DOBBS
+
+In Manchester, Connecticut, thieves used a fake automatic teller machine to 
+raise two bit money scams to new high tech heights.  Police say the bogus 
+bankers conned the operators of a shopping mall into allowing them to 
+install a fake  ATM machine.   People then inserted their bankcards and 
+keyed in their secret account information and received a message that their 
+transaction could not be completed.  Police say the thieves then made 
+counterfeit cards and withdrew cash from other ATM's using the stolen 
+information.  More than $ 20,000 in illegal withdrawals reported, much 
+more however expected, the fake machine and suspects disappeared before 
+the scam was discovered yesterday... 
+
+-- 
+Harry Shapiro  				      habs@panix.com
+List Administrator of the Extropy Institute Mailing List
+Private Communication for the Extropian Community since 1991
+
+------------------------------
+
+Date: Thu, 13 May 1993 07:37:42 -0500
+From: "Phil G. Fraering" <pgf@srl01.cacs.usl.edu>
+Subject: Blind post about Clipper/CNN, excuse me...
+
+I know I'm not on right now, but I thought you people would
+like to know that today (Thursday) the segment on Collectivist
+News Network's Antiscience and Treknology Report is on the
+Clipper chip.
+
+I was in the bath at the time, but they seemed to have the report
+broken up into:
+
+30 sec: phones are unsecure.
+60 sec: the government's new encryption chip to give you privacy
+60 sec: only drug dealers and extorsionists need to be afraid
+30 sec: AT&T endorses it.
+30 sec: While others remain unconvinced and concerned.
+
+Hope you all catch it in time.
+
+BTW, we _are_ pretty far outside the mainstream... ugh.
+
+Phil Fraerng
+oops,
+
+Phil Fraering
+Hiro: "I'd like to remind you, that if we still had laws, the Mafia would
+       be a criminal organization."
+Y.T.: "But we don't have laws, so it's just another chain."
+
+------------------------------
+
+Date: Thu, 13 May 1993 08:34:07 -0400 (EDT)
+From: bhaworth@acpub.duke.edu (W. Blair Haworth Jr.)
+Subject: The Game of Go and the Wasting of Time?
+
+> 
+> 
+> Timothy C. May says:
+> > 
+> > >   I used to play go a little; chess, more; checkers, still more.
+> > > My current opinion is: if you do not have enough intelligence to play
+> > > these game fairly well - don't play; if you do have the intelligence,
+> > > don't play anyway - use it for something more productive.
+> > 
+> > > |  Alexander Chislenko | sasha@cs.umb.edu
+> > 
+> > Ah, but this advice applies to almost anything that is not clearly
+> > "productive"...watching movies, reading fiction, eating at fine
+> > restaurants, conversing with friends, making love, and even writing
+> > messages to this list. Imagine this message:
+> > 
+> > "My current opinion is: if you do not have enough intelligence to
+> > write interesting messages to the list - don't write; if you do have
+> > the intelligence, don't write anyway - use it for something more
+> > productive."
+> 
+> Yes and no. I actually tend to agree with Sasha on this one. There are
+> a number of activities I've dropped doing because they are time-sinks
+> -- watching TV, for example. I haven't watched any TV or even owned a
+> set in about four years. I'm a lot happier for it, by the way. (My one
+> regret is ironically not being up on the current advertising, which is
+> a big indicator of current cultural forces. I'm honestly thinking of
+> buying videocassettes of current ads from the Ad Bank once in a while
+> and watching them periodically just so I know whats in vogue.)
+> 
+> I've found that there are certain activities that are simply more
+> valuable than others. For example, talking to friends is a valuable
+> activity. On the other hand, when I play games with friends, both
+> sides tend to spend all their spare brain cycles thinking about the
+> game and very few communicating with the other person, which is a lot
+> more important to me. As a result, I've largely stopped playing games
+> because I enjoy talking more.
+> 
+> This is true of a lot of things in one's life. There are limited
+> numbers of hours in the day and way too many things to pack in them.
+> As a result, I've intentionally eliminated certain low-value
+> activities from my life to replace with higher value ones. I don't go
+> to movies I know are mediocre any more (I stick to the ones I suspect
+> to be good and I'm usually right). I still read a lot, but I got rid
+> of the TV. I write far fewer messages and participate in far fewer
+> mailing lists than I used to (I no longer read libernet-d, for
+> instance.) Overall, I've made conscious decisions to free up my day
+> for the things I want to do, and I feel better for it.
+> 
+> Now, Tim is semi-retired, so he has a lot more hours in the day
+> available for discretionary activity. I can see why he might like
+> participating in many more activities than I can afford to. Perhaps
+> after I've made my fortune I'll have that luxury. For the moment, I
+> find that a key time management skill is picking and choosing my
+> activities.
+> 
+> Perry
+> 
+> 
+
+
+------------------------------
+
+Date: Thu, 13 May 1993 08:36:02 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: First CDs, then...
+
+In <9305130447.AA18780@wookumz.gnu.ai.mit.edu>, Brian Holt Hawthorne - SunSelect Engineering writes:
+|>  
+|> > I've been waiting for some years to see the same thing happen to
+|> > books.
+|> > It should be possible, with some small advances in printing
+|> > technology, to produce paperbacks on request in small kiosks.
+|> 
+|> No advances needed. My in-laws in New Jersey were in a mall and happened
+|> across a little kiosk. They handed the attendant some cash, answered
+|> a few questions, and minutes later a hardcover, perfect-bound,
+|> customized children's book popped out of the slot for
+|> their grandchild (my son). 
+|> 
+|> If they can do it for kid's books, they can do it for longer things.
+|> The limit on perfect binding is pretty small, but as I recall that means
+|> somewhere around 2 inches thick (several hundred pages, at least).
+[...]
+How many choices were there, and how much of the book was preprinted?
+What kind of printer is in there (I'm writing "laser" on a piece of
+paper and sealing it in an envelope ...)? What was the name of the
+company?
+
+And how much did it cost?
+
+It sounds like you weren't present, so just pick up the book and
+try your hand at psychometry[1] for us ...
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    /
+[1] This isn't the exact word. You know, what Jeff Goldblum's
+character in "Vibes"[2] did.
+
+[2] OK, it was a waste of time, in the sense of the "Games" thread.
+But I get off on Cindy Lauper and I don't care who knows it :-)'''
+
+
+------------------------------
+
+Date: Thu, 13 May 93 09:44:17 EDT
+From: Brian.Hawthorne@East.Sun.COM (Brian Holt Hawthorne - SunSelect Engineering)
+Subject: AI:Human Equivalence
+
+> > One bit per brain per second.  I don't have a reference for this, it's
+> > just a number lots of people have mentioned, like "seven plus or minus
+> > two things in short term memory", which I also don't have a reference
+> > for.
+> 
+> This one's a real result, not a floating fudge factor.  George Miller, 
+> "The magical number seven, plus or minus two:  some limits on our 
+> capacity for processing information".  _Psychological Review_ 63:81-97
+> (1956).
+
+Yes, however Miller's study had NOTHING to do with the speed with which 
+people can learn into long-term memory (which was the original claim
+being made for one bit per second, here).
+
+I won't go over Miller in detail (it is a very short and readable
+paper), suffice it to say that it was concerned with short-term retention
+not long-term.
+
+I don't know of any studies on the maximal learning rate, but given the
+fact that a human is capable of being exposed to visual stimulus (such
+as opening your eyes for a split second), and remembering the entire 
+scene in full-color, I'd say the data rate has got to be pretty 
+high!
+
+The one-bit-per-second claim is not only not backed up by research, but
+it is easily proven false by any human.
+
+------------------------------
+
+Date: Thu, 13 May 93 14:55:07 BST
+From: Simon Kinahan <scgk@dcs.ed.ac.uk>
+Subject: GAMES: To play or not to play
+
+> I'm rather fond of games as a method of sharpening my real-world skills.  While
+> the skills I'm sharpening may not be the most important skills in the world
+> sometimes, I also have fun.
+> 
+
+  I find that playing Go helps to sharpen my anaytical skills which can get very
+rusty when I have been concentrating on enjoyin myself more than working for
+a period of time (a few months is normally enough to take my edge away).
+
+Simon Kinahan        "Only in our dreams are we truly free,
+scgk@dcs.ed.ac.uk     the rest of ythe time we need wages. "
+                          -- Terry Pratchett, Wyrd Sisters
+
+------------------------------
+
+Date: Thu, 13 May 1993 09:17:43 -0500
+From: extr@jido.b30.ingr.com (Craig Presson)
+Subject: AI:Human Equivalence
+
+In <9305131344.AA21458@wookumz.gnu.ai.mit.edu>, Brian Holt Hawthorne - SunSelect Engineering writes:
+|> > > One bit per brain per second. 
+
+[Miller was about short-term memory]
+
+|> I don't know of any studies on the maximal learning rate, but given the
+|> fact that a human is capable of being exposed to visual stimulus (such
+|> as opening your eyes for a split second), and remembering the entire 
+|> scene in full-color, I'd say the data rate has got to be pretty 
+|> high!
+|> 
+|> The one-bit-per-second claim is not only not backed up by research, but
+|> it is easily proven false by any human.
+
+Yes, but you dropped the context. Carl stipulated that the visual
+cortex has high bandwidth and is challenging to emulate by machine.
+
+The discussion was about the data rate for text, which his
+hypothetical blind-as-a-bot would have as its only external interface.
+Most of us read at a few hundred bits per second, but we don't
+memorize what we read, either. If we could read as fast as we could
+form images of pages, we could beat Evelyn Wood all hollow!
+
+Today's computers can do a lot better than that for throughput,
+obviously, as long as you don't require they understand what they
+"read".
+        ^
+       /
+------/---- extropy@jido.b30.ingr.com (Freeman Craig Presson)
+     /
+    / 660 wpm, no real improvement since 3rd grade
+
+
+
+------------------------------
+
+Date: Thu, 13 May 1993 10:48:39 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: First CDs, then... 
+X-Reposting-Policy: redistribute only with permission
+
+Brian Holt Hawthorne - SunSelect Engineering says:
+>  
+> > I've been waiting for some years to see the same thing happen to
+> > books.
+> > It should be possible, with some small advances in printing
+> > technology, to produce paperbacks on request in small kiosks.
+> 
+> No advances needed. My in-laws in New Jersey were in a mall and happened
+> across a little kiosk. They handed the attendant some cash, answered
+> a few questions, and minutes later a hardcover, perfect-bound,
+> customized children's book popped out of the slot for
+> their grandchild (my son). 
+
+I'm familiar with this technology -- it is not sufficient to say the
+least. They are using xerography along with preprinting -- the output
+is expensive, and impractical for long massmarket books.
+
+> If they can do it for kid's books, they can do it for longer things.
+
+Nope.
+
+Here is the problem.
+
+Xerography is the only currently practical way to produce one-off
+printed pages. Unfortunately, the toner costs drive expense up on the
+order of a penny or two a page over printing with ordinary inks. This
+is enough to eliminate the profitability of the enterprise.
+Furthermore, xerography toner has the bad habit of making pages stick
+together and fuse after six months or a year -- ugly results.
+
+This is all fine for xeroxes in your office -- but the costs and
+problems if you were producing paperbacks en masse this way would be
+prohibitive.
+
+Whats needed is a technology to allow you to use cheap ink and still
+get the "one instant imprint" capabilities that xerography permits.
+The rest should be easy.
+
+Perry
+
+------------------------------
+
+Date: Thu, 13 May 93 10:09:34 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: First CDs, then...
+
+Perry clarifies:
+
+> Whats needed is a technology to allow you to use cheap ink and still
+> get the "one instant imprint" capabilities that xerography permits.
+> The rest should be easy.
+
+My knowledge of printing technology is small*, but what about
+inkjets?  Can't they be adapted to spit out just about anything?
+If I were to accept the challenge and try to design the kind
+of machine that Perry needs for his scheme, that's where my
+inclination would be to start -- aiming for multiple print
+heads or a long thin head to improve the speed.
+
+derek
+* but there's no list rule against ignorance! :-)
+
+------------------------------
+
+Date: Thu, 13 May 93 10:29:55 CDT
+From: derek@cs.wisc.edu (Derek Zahn)
+Subject: AI: Synaptic Storage Requirements
+
+Paul volleys:
+
+> To confidently assume that our assumptions are correct and to begin
+> calculating conclusions based upon them is precarious.  It is this
+> that I'm pointing out - that we cannot make quantitative statements
+> until we understand qualitatively what we are counting.  I'm claiming
+> that we don't have this understanding yet.
+
+Hmm.  As I see it, here are the assumptions that are being made:
+
+* The brain is describable (modelable).  That is, we can write down
+  a description of the brain that is sufficient to allow a computer
+  to produce the same behaviors when operating on the description [the
+  real interesting issue is how we determine whether the behavior
+  is sufficiently similar; more on this some other day]
+
+* The behavior of neurons is an appropriate framework in which to
+  write this description.  First approximations treat the interaction
+  between neurons as being done through synapses, because that appears
+  to be the most important issue.  Interactions caused by chemicals
+  transported by diffusive mechanisms are also necessary, but present
+  no tremendous analytical difficulties -- perhaps with the exception
+  of the modification of neural function caused by these chemicals
+  (and the signals sent via synapses too) -- but in any case, the point
+  is that the possible interactions can be enumerated (including the
+  other interactions with the brain's "environment" which seem to be
+  even more statistical in nature), which allows us to reduce brain modeling
+  to neuron modeling.  We then become interested in the requirements for
+  this neuron model (or, more realistically, class of neuron models as
+  they differ greatly).
+
+Note that this is a THEORY.  When we "confidently assume that these
+assumptions are correct", go light on the "confidently".  Further
+analysis does largely depend on the theory being true, but so what?
+Just prepend "If current theory is correct..." to all such speculative
+analysis.
+
+Your comments about linear summation and phase and other complexities
+are very interesting, but are not really criticisms of the assumptions
+noted above.  Few people really believe that the simple models used
+today by people developing "neurocomputing" are appropriate for use
+in uploading-as-simulation-of-brain-function!
+
+This difference is reflected in the observation that there are two
+types of neural network researchers (who seldom have a lot to say
+to each other):
+
+ * Those who are attempting to build effective regression, clustering,
+   or other computational mechanisms from massively parallel computing
+   units (inspired by neurons in the dim past).
+ 
+ * Those who are trying to model the subtleties of real neural networks
+   and understand their behavior.
+
+It's easy to tell them apart by the amount of biological detail they
+include in their papers.  Paul, which kind are you?
+
+Anyway, the issue for us here is how difficult the modeling is likely
+to be -- because it's convenient we say "how many bits to specify
+each neuron/synapse/whatever?"  Educated guesses of this let us
+play scenarios about technological requirements, as well as let us
+reflect on what we can actually expect from our current machines;
+comments of "it's the software, stupid" are perhaps inappropriate if
+reasonable neuron models can only simulate tiny networks on current
+hardware.
+
+Also note that whenever a researcher sets out to develop a model of
+neural function, s/he is implicitly doing exactly the same sort of
+guesswork that we're talking about here -- by choosing the level of
+description and complexity of the model that they propose and study.
+All we're doing is expressing that guesswork in a different way.
+
+derek
+
+
+------------------------------
+
+Date: Thu, 13 May 1993 11:40:45 -0400 (EDT)
+From: bhaworth@acpub.duke.edu (W. Blair Haworth Jr.)
+Subject: The Game of Go and the Wasting of Time?
+
+[elm and I between us have managed to repeatedly mangle this posting. 
+Apologies for sending noise to the list. --Blair]
+
+Perry Metzger writes:
+> [There are] activities I've dropped doing because they are time-sinks
+> -- watching TV, for example. I haven't watched any TV or even owned a
+> set in about four years. I'm a lot happier for it, by the way.
+
+Same here.  My wife and I have been tubeless for almost five years now
+(not as an act of volition - movers broke our old one and we never got
+around to replacing it) and feel the better for it.  One side-effect
+though: we both find ourselves highly averse to linear, noninteractive
+entertainment (i.e., straight TV or movie viewing), especially if it
+monopolizes the time it occupies.  I feel this effect particularly
+strongly, as I've been working full-time while going for my Ph.D., and
+thus want maximum return on my leisure time.  Watching a first-run movie,
+sitting still in the dark while entertainment is beamed relentlessly into
+my brain, is now almost always unpleasant; ditto the theater.  I find I
+want multiple inputs instead; for instance, my idea of a fun time these
+days is to make a large newsstand run, then repair to a favorite open-air
+bar to peruse the results, thus simultaneously reading, drinking, basking,
+conversing, and peoplewatching if all goes right.
+
+To put this into a relevant context: Is this a unique quirk of mine, or is
+it more widespread? If so, will it get more common as the pace of life
+picks up?  What sort of multi-tasking recreational environments are we likely
+to see evolve for high-intensity loafing - dare we say "transleisure"?  
+
+--Blair Haworth
+  bhaworth@acpub.duke.edu
+
+
+------------------------------
+
+Date: Thu, 13 May 1993 09:04:26 -0800
+From: lefty@apple.com (Lefty)
+Subject: First CDs, then...
+
+Derek wonders:
+>> Whats needed is a technology to allow you to use cheap ink and still
+>> get the "one instant imprint" capabilities that xerography permits.
+>> The rest should be easy.
+>
+>My knowledge of printing technology is small*, but what about
+>inkjets?  Can't they be adapted to spit out just about anything?
+
+Certainly, but I'd think a major gating factor on a venture of this type
+would be that the time to produce a given volume should not exceed the time
+required to _read_ it.
+
+--
+Lefty (lefty@apple.com)
+C:.M:.C:., D:.O:.D:.
+
+
+
+------------------------------
+
+Date: 13 May 93 08:51:57 U
+From: "Kent Hastings" <kent_hastings@qmail2.aero.org>
+Subject: Extropianism
+
+ Reply to:     RE>Extropianism#000#
+With some mutations, tekghost@aol.com writes:
+> I'm interested in extropianism, if the review of your magazine in 
+> *Wired* defines extropianism correctly...I can't afford your mag...
+
+*Wired* costs a pretty penny. The latest issue had some guys wearing 
+bar code masks, styled as privacy advocates. The latest Extropy is 
+available at some Tower Records (where I got my copies). The article
+by Hal Finney is worth the price of admission, since it goes into the
+details of using PGP to implement anonymous return addresses and 
+digital cash. Although there was some hand-waving about the serial
+numbers from the bank (blind signatures). In effect: "These blind 
+signatures are just too darn complicated to talk about!" 
+
+But I want to create digital banks NOW -- Dhoh! Hal Finney did e-mail
+the technical details when I asked for them, however. In the future,
+I'd like to see an actual implementation, possibly with source code
+in C, down to the last bit, for a digital banking system. It could be
+run in serial form. "This issue: Banks, Next issue: handheld ATMs, etc."
+
+Other topics include molecular nanotech, a total pipe dream "Hey this 
+goo is eating my CRT, Arggh!", downloading memories or brain structures,
+libertarian politics, rational philosophy, and how to make money with
+fake ATM scams (NOT!).
+this goo
+
+
+
+------------------------------
+
+Date: 13 May 93 09:09:11 U
+From: "Kent Hastings" <kent_hastings@qmail2.aero.org>
+Subject: AI:Human Equivalence
+
+ Reply to:     RE>AI:Human Equivalence#000#
+Someone who will remain nameless because I erased it wrote:
+> Most of us read at a few hundred bits per second, but we don't
+> memorize what we read, either. If we could read as fast as we 
+> could form images of pages, we could beat Evelyn Wood all hollow!
+
+I'm a sucker for those "go to our free seminar, get a free book, 
+and buy real estate for no money down and put cash in your pocket!"
+meetings.
+
+I went to one of those seminars for business opportunities, but 
+they all required hundreds of dollars up front. (Let me check here 
+in my pocket -- hmm, ONE NICKEL, DHOH!) If you don't pay up front,
+you'll pay up the rear. :)
+
+Anyway, one of the presentations was about speed reading. The 
+claim was made that a new speed reading method using cycled white 
+noise in stereo headphones could guide readers past the 
+"sub-vocalization" barrier permanently, after a month of use.
+
+Most people, even if they don't mouth the words as they read, are
+silently sub-vocally processing what they read. Those who have 
+trained themselves using the "Tempo" system claim reading speeds 
+up to 20,000 words per minute. 
+
+Like the character in Rainman, who could memorize the phone book. 
+Evidently, he could move his thumb down the center of the left 
+page in an open book, while his pinky finger was moving down the 
+center of the right page, read both pages simultaneously, and 
+recall the contents with amazing accuracy.
+
+My neighbors' dog reads me stories about how I have to continue 
+the good work of David Koresh ...#000#
+
+
+
+------------------------------
+
+Date: Thu, 13 May 1993 13:32-EDT
+From: Marc.Ringuette@GS80.SP.CS.CMU.EDU
+Subject: TECH/PHIL: (non)interactive entertainment
+
+Blair Haworth writes that he is
+> highly averse to linear, noninteractive entertainment (i.e., straight
+> TV or movie viewing), especially if it monopolizes the time it occupies. 
+
+I see what you mean, but my experience is very different.  I think movies
+are the greatest entertainment medium yet devised by man.  I like them,
+despite their lack of interactivity, because they're the closest thing
+to immersion in a completely alien environment that I have access to.  By 
+watching movies about diverse things and people, you extend your experience!
+
+Of course, I look forward to using a fully interactive immersion VR like the
+holodeck from ST:TNG.  I think it would be fantastic to really "be there" and
+I wouldn't be too surprised if such VR's made reality obsolete.  But even
+after reality becomes obsolete, people will still want to watch movies!
+(In the sense of being entertained linearly and non-interactively.) 
+Sometimes when a person wants to "veg out", they actually _need_ some
+scripted entertainment.  Movies are less stressful than life, and that's 
+a good thing sometimes.
+
+
+-- Marc Ringuette (mnr@cs.cmu.edu).   Freely repost/archive any of my messages.
+
+------------------------------
+
+Date: Thu, 13 May 93 18:08:21 BST
+From: jrk@information-systems.east-anglia.ac.uk (Richard Kennaway)
+Subject: First CDs, then...
+
+Lefty writes:
+>>My knowledge of printing technology is small*, but what about
+>>inkjets?  Can't they be adapted to spit out just about anything?
+>
+>Certainly, but I'd think a major gating factor on a venture of this type
+>would be that the time to produce a given volume should not exceed the time
+>required to _read_ it.
+
+When I look for a book that's in print, I usually have to order it, which
+takes weeks.  Being able to get out-of-print books in such a time frame
+would still be an improvement on not being able to get them at all, or
+making a bootleg photocopy of an interlibrary loan.
+
+It seems to me that the fundamental limit currently is not the time to
+print it, but the ability to produce one-off copies of acceptable physical
+quality and price.  I have in my office several "books" which consist of a
+sheaf of laser-printed paper; I'd far rather have properly bound volumes.
+(These aren't bootleg copies, but documents distributed electronically by
+the authors -- PhD theses and the like.)
+
+--                                  ____
+Richard Kennaway                  __\_ /    School of Information Systems
+Internet:  jrk@sys.uea.ac.uk      \  X/     University of East Anglia
+uucp:  ...mcsun!ukc!uea-sys!jrk    \/       Norwich NR4 7TJ, U.K.
+
+
+------------------------------
+
+Date: Thu, 13 May 93 16:59:38 GMT
+From: sjw@liberty.demon.co.uk (Stephen J. Whitrow)
+Subject: tech: Fake ATM
+
+I saw a report on this in one of the British newspapers (probably
+Wednesday's *Daily Mail*). The details were as per Harry's forwarded
+article, except the report claimed that the scam operators had finally
+been caught after repeatedly attempting to use one particular bogus
+card that failed to work. If this is true, it looks like they'd have
+got away with the $25,000 provided non-functioning cards were not
+inserted more than about twice.
+
+Steve Whitrow                           sjw@liberty.demon.co.uk
+
+------------------------------
+
+Date: Thu, 13 May 1993 12:38:48 -0400
+From: "Perry E. Metzger" <pmetzger@lehman.com>
+Subject: First CDs, then... 
+X-Reposting-Policy: redistribute only with permission
+
+Derek Zahn says:
+> Perry clarifies:
+> 
+> > Whats needed is a technology to allow you to use cheap ink and still
+> > get the "one instant imprint" capabilities that xerography permits.
+> > The rest should be easy.
+> 
+> My knowledge of printing technology is small*, but what about
+> inkjets?  Can't they be adapted to spit out just about anything?
+
+They tend to be slow and still require special inks typically. It is,
+however, an interesting possibility -- certainly has the right ring to
+it. 
+
+Perry
+
+------------------------------
+
+End of Extropians Digest V93 Issue #0258
+****************************************
+
