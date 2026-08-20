@@ -28,12 +28,38 @@ CLI_MODEL = os.environ.get("EXTRO_CLI_MODEL", "sonnet")
 # Which backend to use: auto | anthropic | gateway | local | cli
 BACKEND = os.environ.get("EXTRO_LLM", "auto").strip().lower()
 
-# Vercel AI Gateway. GLM 5.2 is the default: a 1M-token context window at
-# roughly a sixth of Opus pricing suits stuffing long archive excerpts.
-# Any slug from GET /v1/models works - anthropic/claude-opus-5, openai/...
+# Vercel AI Gateway. The default is a chain, tried in order, because the
+# free tier both restricts which models it will serve (403
+# RestrictedModelsError) and rate-limits per model (429) - a single model
+# leaves the chat dead whenever either trips.
+#
+#   qwen3.7-flash          991k context at $0.03/M input; the free monthly
+#                          credit buys on the order of 15k answers
+#   laguna-s-2.1-free      tagged `free`, so it burns no credit at all
+#   glm-5.2                1.04M context, but needs purchased credits
+#
+# Override with EXTRO_GATEWAY_MODEL (single) or EXTRO_GATEWAY_MODELS
+# (comma-separated chain). Any slug from GET /v1/models works.
 GATEWAY_URL = os.environ.get(
     "EXTRO_GATEWAY_URL", "https://ai-gateway.vercel.sh/v1").rstrip("/")
-GATEWAY_MODEL = os.environ.get("EXTRO_GATEWAY_MODEL", "zai/glm-5.2")
+DEFAULT_GATEWAY_MODELS = [
+    "alibaba/qwen3.7-flash",
+    "poolside/laguna-s-2.1-free",
+    "zai/glm-5.2",
+]
+
+
+def gateway_models():
+    single = os.environ.get("EXTRO_GATEWAY_MODEL", "").strip()
+    if single:
+        return [single]
+    chain = os.environ.get("EXTRO_GATEWAY_MODELS", "").strip()
+    if chain:
+        return [m.strip() for m in chain.split(",") if m.strip()]
+    return list(DEFAULT_GATEWAY_MODELS)
+
+
+GATEWAY_MODEL = gateway_models()[0]
 
 # OpenAI-compatible endpoints probed when EXTRO_LOCAL_URL is unset.
 # LM Studio defaults to 1234; Ollama serves an OpenAI shim on 11434.
@@ -161,8 +187,7 @@ def stream_completion(system, prompt):
     if kind == "anthropic":
         yield from _stream_sdk(system, prompt)
     elif kind == "gateway":
-        yield from _stream_openai(GATEWAY_URL, _gateway_key(),
-                                  GATEWAY_MODEL, system, prompt)
+        yield from _stream_gateway(system, prompt)
     elif kind == "local":
         got = _probe_local()
         if not got:
@@ -192,7 +217,34 @@ def _stream_sdk(system, prompt):
 
 
 class QuotaError(RuntimeError):
-    """Backend refused the request for quota reasons (402/429)."""
+    """Backend refused the request for quota reasons (402/403/429)."""
+
+
+def _stream_gateway(system, prompt):
+    """Stream from AI Gateway, falling back down the model chain.
+
+    The free tier restricts which models it serves and rate-limits each one
+    separately, so a single model leaves the chat dead whenever either
+    trips. Fallback is only possible before the first token: once output
+    has started we are committed to that model, so prime the generator and
+    switch only if it fails on the way up.
+    """
+    key = _gateway_key()
+    models = gateway_models()
+    last = None
+    for model in models:
+        gen = _stream_openai(GATEWAY_URL, key, model, system, prompt)
+        try:
+            first = next(gen)
+        except StopIteration:
+            return  # succeeded, but produced nothing
+        except (QuotaError, RuntimeError) as e:
+            last = e
+            continue
+        yield first
+        yield from gen
+        return
+    raise last or RuntimeError("no AI Gateway models available")
 
 
 def _stream_openai(url, api_key, model, system, prompt):
