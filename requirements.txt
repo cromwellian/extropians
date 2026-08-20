@@ -1,5 +1,14 @@
 # Runtime dependencies for the deployed function.
 # uvicorn is deliberately absent: Vercel supplies the ASGI server.
+
+# Pin the CPU build of torch. On Linux the default PyPI wheel drags in the
+# whole CUDA stack (nvidia-cublas, nvidia-cudnn, ...), which pushed the
+# function bundle to 6.07 GB and past the 5 GB large-function limit. The
+# function only ever runs on CPU, and torch exists here solely to embed one
+# query string per request.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.13.0+cpu
+
 fastapi
 sentence-transformers
 numpy
