@@ -1,6 +1,10 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 # One-shot setup: builds data/extropians.db, the semantic index, and the web UI
 # from the raw archives/ and digests/ in this repo. Idempotent; re-run to rebuild.
+#
+# This is a local build tool. It is deliberately NOT the Vercel install or
+# build command: embedding takes ~13 minutes on a GPU and far longer on
+# Vercel's CPU-only builders, well past the build timeout. See README.
 set -e
 cd "$(dirname "$0")"
 

@@ -1,6 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "python3 scripts/fetch_data.py && cd web && npm install && npm run build",
+  "installCommand": "cd web && npm install",
+  "buildCommand": "python3 scripts/fetch_data.py && cd web && npm run build",
   "functions": {
     "app.py": {
       "memory": 2048,
