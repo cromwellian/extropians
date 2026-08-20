@@ -1,7 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "fastapi",
   "installCommand": "cd web && npm install",
   "buildCommand": "python3 scripts/fetch_data.py && cd web && npm run build",
+  "outputDirectory": "web/dist",
   "functions": {
     "app.py": {
       "memory": 2048,
