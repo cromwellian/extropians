@@ -16,8 +16,8 @@ A local web app that answers questions about the list using only the archive,
 citing the original emails. Click any citation to read the message it came
 from, in a syntax-colored email view, and jump to its full thread.
 
-Alongside the chat there is direct search over ~148,000 de-duplicated
-messages (37k threads, 3.2k posters) in three modes: keyword (BM25),
+Alongside the chat there is direct search over 150,935 de-duplicated
+messages (37.7k threads, 3.3k posters) in three modes: keyword (BM25),
 semantic (embeddings), or hybrid.
 
 ### Setup
@@ -52,12 +52,22 @@ order, and shows which is active in the UI header:
    set. Uses `claude-opus-5`; override with `EXTRO_MODEL`.
 2. **Vercel AI Gateway** — when `AI_GATEWAY_API_KEY` or `VERCEL_OIDC_TOKEN` is
    present. Hundreds of hosted models behind one OpenAI-compatible endpoint.
-   Defaults to `zai/glm-5.2` (1.04M context, $0.80/$2.52 per M tokens);
-   override with `EXTRO_GATEWAY_MODEL` using any slug from
-   `GET https://ai-gateway.vercel.sh/v1/models`, e.g. `anthropic/claude-opus-5`.
    This is the backend that works on Vercel with no secrets of your own:
    deployments get a `VERCEL_OIDC_TOKEN` automatically once AI Gateway is
    enabled for the project.
+
+   It walks a chain of models rather than pinning one, because the free tier
+   both restricts which models it serves and rate-limits each separately:
+
+   | Model | Free tier | Context | Input |
+   |---|---|---|---|
+   | `alibaba/qwen3.7-flash` (default) | served | 991k | $0.03/M |
+   | `poolside/laguna-s-2.1-free` | served, tagged free | 256k | $0 |
+   | `zai/glm-5.2` | **restricted** — needs paid credits | 1.04M | $0.80/M |
+
+   Override with `EXTRO_GATEWAY_MODEL` (one) or `EXTRO_GATEWAY_MODELS` (a
+   comma-separated chain), using any slug from
+   `GET https://ai-gateway.vercel.sh/v1/models`.
 3. **`claude` CLI** — headless mode using your existing Claude Code login, so
    no API key is needed. Override with `EXTRO_CLI_MODEL` (default `sonnet`).
 4. **A local model** — any OpenAI-compatible server: LM Studio, Ollama,
@@ -172,10 +182,21 @@ since torch exists purely to embed the one query string per request.
 
 ### Running a free public instance
 
-There is no free chat model on AI Gateway — the free-tier catalogue is audio
-models, not conversational ones. What is free is **$5 of AI Gateway credit per
-team per month**, refreshing every 30 days. Note that buying credits ends the
-monthly free allowance, so a deliberately free instance should stay on it.
+A free instance is workable, with caveats worth knowing up front:
+
+* **A payment method is required even for the free credits.** Until a card is
+  on file the gateway answers `403 customer_verification_required` on every
+  request. Adding one does not start charging; it unlocks the free tier.
+* **$5 of credit per team per month**, refreshing every 30 days. Buying
+  credits permanently ends that monthly allowance, so a deliberately free
+  instance should never top up.
+* **Most models are restricted.** `zai/glm-5.2`, `openai/gpt-5-nano` and
+  `anthropic/claude-haiku-4.5` all refuse on the free tier. The chain above
+  defaults to models that are actually served.
+* **Rate limits are per model and tight.** Roughly six requests in a minute
+  exhausted every model tried; they recovered about 90 seconds later. It is a
+  short rolling window rather than a daily cap, so a low-traffic site is fine
+  and a burst degrades to "retry in a moment".
 
 Retrieval costs nothing: search, threads and the message viewer run entirely
 inside the function, so those can stay unlimited and only answer generation
@@ -184,15 +205,17 @@ needs rationing. Three levers, in order of effect:
 * **Shrink the prompt.** Input tokens dominate, and the prompt is mostly
   archive excerpts. `EXTRO_SOURCES` and `EXTRO_SOURCE_CHARS` (default 14 and
   3000) are the dial. Halving both roughly halves the bill.
-* **Pick a cheap model.** At `zai/glm-5.2` rates a question costs on the order
-  of a cent, so $5 is a few hundred answers a month. Small Llama and Qwen
-  slugs run 20–40× cheaper per input token and stretch that into the
-  thousands — check current rates in the gateway model list.
+* **Pick a cheap model.** A question sends roughly 11k input tokens. At
+  `alibaba/qwen3.7-flash` rates that is about $0.0003, so the $5 monthly
+  credit is on the order of 15,000 answers; at `zai/glm-5.2` rates the same
+  question costs about a cent, or a few hundred answers. `poolside/
+  laguna-s-2.1-free` consumes no credit at all.
 * **Rate-limit per user.** Without it one visitor can drain the month.
 
-`402` (credits exhausted) and `429` (provider rate limit) are surfaced to the
-reader as a plain sentence noting that search still works, rather than a raw
-error, so the site stays useful when generation is unavailable.
+`402` (credits exhausted), `403` (no payment method, or a model the free tier
+will not serve) and `429` (rate limited) are surfaced to the reader as a plain
+sentence noting that search still works, rather than a raw error, so the site
+stays useful when generation is unavailable.
 
 ### Notes
 
