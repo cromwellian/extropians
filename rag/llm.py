@@ -1,15 +1,21 @@
 """LLM backends for the archive chat.
 
-Three are supported, all exposing stream_completion(system, prompt) as an
+Four are supported, all exposing stream_completion(system, prompt) as an
 iterator of text chunks:
 
   anthropic  Anthropic SDK, when an API key is in the environment.
+  gateway    Vercel AI Gateway - hundreds of hosted models behind one
+             OpenAI-compatible endpoint. This is the backend that works on
+             Vercel with no extra secrets: deployments are issued a
+             VERCEL_OIDC_TOKEN automatically once AI Gateway is enabled.
   local      Any OpenAI-compatible server on localhost - LM Studio, Ollama,
              llama.cpp's server, vLLM, and friends.
   cli        The `claude` CLI in headless mode, using an existing Claude
              Code login. No API key or local model needed.
 
 Selection is automatic (in that order) but can be pinned with EXTRO_LLM.
+`gateway` and `local` share one OpenAI-compatible implementation and differ
+only in where they point and whether they send an Authorization header.
 """
 import json
 import os
@@ -19,8 +25,15 @@ import subprocess
 MODEL = os.environ.get("EXTRO_MODEL", "claude-opus-5")
 CLI_MODEL = os.environ.get("EXTRO_CLI_MODEL", "sonnet")
 
-# Which backend to use: auto | anthropic | local | cli
+# Which backend to use: auto | anthropic | gateway | local | cli
 BACKEND = os.environ.get("EXTRO_LLM", "auto").strip().lower()
+
+# Vercel AI Gateway. GLM 5.2 is the default: a 1M-token context window at
+# roughly a sixth of Opus pricing suits stuffing long archive excerpts.
+# Any slug from GET /v1/models works - anthropic/claude-opus-5, openai/...
+GATEWAY_URL = os.environ.get(
+    "EXTRO_GATEWAY_URL", "https://ai-gateway.vercel.sh/v1").rstrip("/")
+GATEWAY_MODEL = os.environ.get("EXTRO_GATEWAY_MODEL", "zai/glm-5.2")
 
 # OpenAI-compatible endpoints probed when EXTRO_LOCAL_URL is unset.
 # LM Studio defaults to 1234; Ollama serves an OpenAI shim on 11434.
@@ -34,6 +47,12 @@ _local_cache = None  # (url, model) once discovered, or False if unavailable
 def _have_api_key():
     return bool(os.environ.get("ANTHROPIC_API_KEY") or
                 os.environ.get("ANTHROPIC_AUTH_TOKEN"))
+
+
+def _gateway_key():
+    """AI Gateway credential: an explicit key, else the Vercel OIDC token."""
+    return (os.environ.get("AI_GATEWAY_API_KEY")
+            or os.environ.get("VERCEL_OIDC_TOKEN") or "")
 
 
 def _claude_bin():
@@ -78,6 +97,9 @@ def _resolve():
     """Return (kind, detail) for the backend that will actually be used."""
     if BACKEND == "anthropic":
         return ("anthropic", MODEL) if _have_api_key() else ("none", "no API key")
+    if BACKEND == "gateway":
+        return (("gateway", GATEWAY_MODEL) if _gateway_key()
+                else ("none", "no AI_GATEWAY_API_KEY or VERCEL_OIDC_TOKEN"))
     if BACKEND == "cli":
         return ("cli", CLI_MODEL) if _claude_bin() else ("none", "no claude CLI")
     if BACKEND == "local":
@@ -89,6 +111,8 @@ def _resolve():
     # with EXTRO_LLM=local.
     if _have_api_key():
         return "anthropic", MODEL
+    if _gateway_key():
+        return "gateway", GATEWAY_MODEL
     if _claude_bin():
         return "cli", CLI_MODEL
     got = _probe_local()
@@ -101,6 +125,7 @@ def backend_name():
     kind, detail = _resolve()
     return {
         "anthropic": f"anthropic-sdk:{detail}",
+        "gateway": f"vercel-gateway:{detail}",
         "local": f"local:{detail}",
         "cli": f"claude-cli:{detail}",
     }.get(kind, "none")
@@ -121,22 +146,36 @@ def context_budget():
                     int(os.environ.get("EXTRO_LOCAL_SOURCE_CHARS", "1200")))
         except ValueError:
             return 6, 1200
-    return 14, 3000
+    # Input tokens dominate the bill on metered backends, and this prompt is
+    # mostly archive excerpts, so these two knobs are the cost dial for a
+    # publicly hosted instance.
+    try:
+        return (int(os.environ.get("EXTRO_SOURCES", "14")),
+                int(os.environ.get("EXTRO_SOURCE_CHARS", "3000")))
+    except ValueError:
+        return 14, 3000
 
 
 def stream_completion(system, prompt):
     kind, detail = _resolve()
     if kind == "anthropic":
         yield from _stream_sdk(system, prompt)
+    elif kind == "gateway":
+        yield from _stream_openai(GATEWAY_URL, _gateway_key(),
+                                  GATEWAY_MODEL, system, prompt)
     elif kind == "local":
-        yield from _stream_local(system, prompt)
+        got = _probe_local()
+        if not got:
+            raise RuntimeError("local LLM server is no longer reachable")
+        yield from _stream_openai(got[0], "", got[1], system, prompt)
     elif kind == "cli":
         yield from _stream_cli(system, prompt)
     else:
         raise RuntimeError(
-            "No LLM backend available. Set ANTHROPIC_API_KEY, start a local "
-            "OpenAI-compatible server (LM Studio or `ollama serve`), or "
-            f"install the claude CLI. ({detail})")
+            "No LLM backend available. Set ANTHROPIC_API_KEY, enable Vercel "
+            "AI Gateway (AI_GATEWAY_API_KEY / VERCEL_OIDC_TOKEN), start a "
+            "local OpenAI-compatible server, or install the claude CLI. "
+            f"({detail})")
 
 
 def _stream_sdk(system, prompt):
@@ -152,14 +191,18 @@ def _stream_sdk(system, prompt):
             yield text
 
 
-def _stream_local(system, prompt):
-    """Stream from an OpenAI-compatible /chat/completions endpoint."""
+class QuotaError(RuntimeError):
+    """Backend refused the request for quota reasons (402/429)."""
+
+
+def _stream_openai(url, api_key, model, system, prompt):
+    """Stream from any OpenAI-compatible /chat/completions endpoint.
+
+    Serves both a local server (no api_key) and Vercel AI Gateway (bearer
+    token, either an AI Gateway key or the deployment's OIDC token).
+    """
     import httpx
 
-    got = _probe_local()
-    if not got:
-        raise RuntimeError("local LLM server is no longer reachable")
-    url, model = got
     payload = {
         "model": model,
         "stream": True,
@@ -167,15 +210,27 @@ def _stream_local(system, prompt):
         "messages": [{"role": "system", "content": system},
                      {"role": "user", "content": prompt}],
     }
+    headers = {"Authorization": f"Bearer {api_key}"} if api_key else {}
     # No read timeout: a local model can take a long time before its first
     # token, especially while the weights are still loading.
     timeout = httpx.Timeout(connect=10.0, read=None, write=30.0, pool=None)
     with httpx.stream("POST", f"{url}/chat/completions", json=payload,
-                      timeout=timeout) as r:
+                      headers=headers, timeout=timeout) as r:
         if r.status_code >= 400:
             r.read()
-            raise RuntimeError(f"local LLM error {r.status_code}: "
-                               f"{r.text[:300]}")
+            body = r.text[:300]
+            # Worth distinguishing: these two are the ones a hosted free
+            # instance actually hits, and they need a human-readable answer
+            # rather than a raw 4xx.
+            if r.status_code == 402:
+                raise QuotaError(
+                    "The AI credit balance for this deployment is exhausted. "
+                    "Search and browsing still work.")
+            if r.status_code == 429:
+                raise QuotaError(
+                    "Rate limited by the model provider - please retry in a "
+                    "moment. Search and browsing still work.")
+            raise RuntimeError(f"LLM error {r.status_code}: {body}")
         for line in r.iter_lines():
             if not line or not line.startswith("data:"):
                 continue

@@ -13,6 +13,7 @@ import os
 import re
 import sqlite3
 import threading
+from urllib.request import pathname2url
 
 import numpy as np
 from fastapi import FastAPI, HTTPException
@@ -35,9 +36,22 @@ app = FastAPI(title="Extropians Archive RAG")
 _local = threading.local()
 
 
+# Vercel (and most serverless hosts) give the function a read-only
+# filesystem. SQLite would otherwise try to create -wal/-shm sidecar files
+# next to the database and fail to open it at all, so connect read-only.
+# immutable=1 also skips locking entirely, which is correct here: the
+# database is a build artifact that never changes at runtime.
+READ_ONLY = (os.environ.get("EXTRO_READONLY", "") == "1"
+             or bool(os.environ.get("VERCEL")))
+
+
 def db():
     if not hasattr(_local, "con"):
-        _local.con = sqlite3.connect(DB_PATH)
+        if READ_ONLY:
+            uri = f"file:{pathname2url(DB_PATH)}?mode=ro&immutable=1"
+            _local.con = sqlite3.connect(uri, uri=True)
+        else:
+            _local.con = sqlite3.connect(DB_PATH)
         _local.con.row_factory = sqlite3.Row
     return _local.con
 

@@ -1,0 +1,7 @@
+# Runtime dependencies for the deployed function.
+# uvicorn is deliberately absent: Vercel supplies the ASGI server.
+fastapi
+sentence-transformers
+numpy
+anthropic
+httpx

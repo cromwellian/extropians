@@ -74,6 +74,27 @@ def parse_date(date_h):
         return None, None
 
 
+def as_text(value):
+    """Coerce anything get_content() can return into str.
+
+    get_content() returns str only for text/* parts. Non-text types -
+    including plain-text posts mislabeled application/octet-stream, which
+    this archive has plenty of - come back as bytes, and message/rfc822
+    comes back as an EmailMessage. Everything downstream expects str.
+    """
+    if isinstance(value, str):
+        return value
+    if isinstance(value, (bytes, bytearray)):
+        try:
+            return value.decode("utf-8")
+        except UnicodeDecodeError:
+            # latin-1 never fails and is right for most 1990s mail
+            return value.decode("latin-1", "replace")
+    if value is None:
+        return ""
+    return str(value)
+
+
 def extract_body(msg):
     """Best-effort plain text body from an email.message.EmailMessage."""
     try:
@@ -86,24 +107,50 @@ def extract_body(msg):
                         break
             if part is None:
                 return ""
-            return part.get_content()
-        return msg.get_content()
+            return as_text(part.get_content())
+        return as_text(msg.get_content())
     except Exception:
         # fall back to raw payload
         try:
             payload = msg.get_payload(decode=True)
             if payload:
-                return payload.decode("latin-1", "replace")
-            return str(msg.get_payload())
+                return as_text(payload)
+            return as_text(msg.get_payload())
         except Exception:
             return ""
 
 
+def hdr(msg, name):
+    """One header as text, tolerant of values the strict parser rejects.
+
+    policy=default parses structured headers on access, and malformed ones
+    raise instead of returning a value - e.g. the group syntax
+    "To: BlindCopyReceiver:;;;;@compuserve.com;;;" some 1990s mailers
+    emitted, which raises AttributeError. Fall back to the raw header so a
+    single bad line cannot cost us an otherwise fine message.
+    """
+    try:
+        v = msg.get(name)
+        if v is not None:
+            return str(v)
+    except Exception:
+        pass
+    try:
+        for k, raw in msg.raw_items():
+            if k.lower() == name.lower():
+                return str(raw)
+    except Exception:
+        pass
+    return ""
+
+
 def headers_text(msg_or_dict):
     lines = []
+    raw_ok = hasattr(msg_or_dict, "raw_items")
     for h in KEEP_HEADERS:
-        v = None
-        if hasattr(msg_or_dict, "get"):
+        if raw_ok:
+            v = hdr(msg_or_dict, h)
+        else:
             v = msg_or_dict.get(h) or msg_or_dict.get(h.lower())
         if v:
             v = re.sub(r"\s+", " ", str(v)).strip()
@@ -242,6 +289,8 @@ class Ingestor:
         self.n_msgs = 0
         self.n_dupe_msgs = 0
         self.n_dupe_files = 0
+        self.n_bad_msgs = 0
+        self.n_bad_files = 0
 
     def add_message(self, *, from_raw, date_raw, subject, body, headers,
                     message_id, source_file, source_kind, digest_label=None,
@@ -295,37 +344,47 @@ class Ingestor:
         if not chunks:
             chunks = [raw]
         for chunk in chunks:
+            # One malformed message must never abort the rest of the file.
             try:
-                msg = parse_rfc822(chunk)
-            except Exception:
-                continue
-            subject = str(msg.get("Subject", "") or "")
-            body = extract_body(msg)
-            m = DIGEST_TITLE.search(body[:4000] if body else "")
-            digest_msgs = []
-            if m and "digest" in subject.lower():
-                digest_msgs = split_digest(body, f"V{m.group(2)} #{m.group(3)}")
-            if digest_msgs:
-                label = f"V{m.group(2)} #{m.group(3)}"
-                date_raw = str(msg.get("Date", "") or "")
-                for dm in digest_msgs:
-                    self.add_message(
-                        from_raw=dm["from"], date_raw=dm["date"] or date_raw,
-                        subject=dm["subject"], body=dm["body"],
-                        headers=headers_text(dm["hdrs"]),
-                        message_id=dm["message_id"],
-                        source_file=rel, source_kind="digest",
-                        digest_label=label)
-            else:
+                self._ingest_chunk(chunk, rel)
+            except Exception as e:
+                self.n_bad_msgs += 1
+                if self.n_bad_msgs <= 5:
+                    print(f"  skipped a message in {rel}: "
+                          f"{type(e).__name__}: {e}", file=sys.stderr)
+
+    def _ingest_chunk(self, chunk, rel):
+        try:
+            msg = parse_rfc822(chunk)
+        except Exception:
+            return
+        subject = hdr(msg, "Subject")
+        body = extract_body(msg)
+        m = DIGEST_TITLE.search(body[:4000] if body else "")
+        digest_msgs = []
+        if m and "digest" in subject.lower():
+            digest_msgs = split_digest(body, f"V{m.group(2)} #{m.group(3)}")
+        if digest_msgs:
+            label = f"V{m.group(2)} #{m.group(3)}"
+            date_raw = hdr(msg, "Date")
+            for dm in digest_msgs:
                 self.add_message(
-                    from_raw=str(msg.get("From", "") or ""),
-                    date_raw=str(msg.get("Date", "") or ""),
-                    subject=subject, body=body,
-                    headers=headers_text(msg),
-                    message_id=(msg.get("Message-ID") and str(msg.get("Message-ID")).strip()) or None,
-                    source_file=rel, source_kind="mbox",
-                    in_reply_to=(msg.get("In-Reply-To") and str(msg.get("In-Reply-To"))[:500]) or None,
-                    refs=(msg.get("References") and str(msg.get("References"))[:1000]) or None)
+                    from_raw=dm["from"], date_raw=dm["date"] or date_raw,
+                    subject=dm["subject"], body=dm["body"],
+                    headers=headers_text(dm["hdrs"]),
+                    message_id=dm["message_id"],
+                    source_file=rel, source_kind="digest",
+                    digest_label=label)
+        else:
+            self.add_message(
+                from_raw=hdr(msg, "From"),
+                date_raw=hdr(msg, "Date"),
+                subject=subject, body=body,
+                headers=headers_text(msg),
+                message_id=hdr(msg, "Message-ID").strip() or None,
+                source_file=rel, source_kind="mbox",
+                in_reply_to=hdr(msg, "In-Reply-To")[:500] or None,
+                refs=hdr(msg, "References")[:1000] or None)
 
 
 def extract_zips():
@@ -391,7 +450,8 @@ def main():
         try:
             ing.ingest_file(path, rel)
         except Exception as e:
-            print(f"ERROR {rel}: {e}", file=sys.stderr)
+            ing.n_bad_files += 1
+            print(f"ERROR {rel}: {type(e).__name__}: {e}", file=sys.stderr)
         if (i + 1) % 100 == 0:
             con.commit()
             print(f"  {i+1}/{len(files)} files, {ing.n_msgs} msgs "
@@ -413,6 +473,12 @@ def main():
     print(f"\nDone: {total} messages "
           f"({ing.n_dupe_msgs} duplicate messages skipped, "
           f"{ing.n_dupe_files} duplicate files skipped)")
+    # Failures are easy to miss when they scroll past on stderr, so restate
+    # them at the end where the summary is actually read.
+    if ing.n_bad_msgs or ing.n_bad_files:
+        print(f"WARNING: {ing.n_bad_msgs} unparseable messages and "
+              f"{ing.n_bad_files} unreadable files were skipped",
+              file=sys.stderr)
     con.close()
 
 
