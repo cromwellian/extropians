@@ -6,7 +6,6 @@
   "outputDirectory": "web/dist",
   "functions": {
     "app.py": {
-      "memory": 2048,
       "maxDuration": 300,
       "excludeFiles": "{archives/**,digests/**,rag/.venv/**,web/node_modules/**,web/src/**,**/__pycache__/**,**/*.pyc}"
     }

@@ -111,9 +111,12 @@ The index is too large to commit, so it is built locally, uploaded once, and
 pulled back down at build time.
 
 ```bash
-./setup.sh                              # build the index locally (~15 min)
-python3 scripts/package_data.py         # -> extropians-data.tar.gz
-vercel blob put extropians-data.tar.gz  # or any URL the build can reach
+./setup.sh                        # build the index locally (~15 min)
+python3 scripts/package_data.py   # -> extropians-data.tar.gz (~408 MB)
+
+# host it anywhere the build can reach. A GitHub Release is free and has no
+# bandwidth charge for a public repo, unlike Blob storage:
+gh release create data-v1 extropians-data.tar.gz --title "Prebuilt search index v1"
 ```
 
 Then set these in the Vercel project (Settings → Environment Variables):
@@ -134,6 +137,13 @@ then `vercel deploy`. `scripts/fetch_data.py` fails the build loudly if
 `EXTRO_DATA_URL` is missing, rather than shipping an empty index that would
 only show up as runtime errors.
 
+`vercel.json` pins the framework preset, install command, build command and
+output directory, so the deployment does not depend on the dashboard's
+Build & Development Settings being right. That matters: `setup.sh` set as
+the Install Command will re-ingest the archive and then try to embed 265k
+chunks on a CPU-only builder on every single deploy, which cannot finish
+inside the build timeout. `setup.sh` is a local tool, never a build step.
+
 ### What deployment changes
 
 * **The database is opened read-only.** Vercel's filesystem is read-only, and
@@ -153,8 +163,8 @@ The first semantic query on a cold instance pays for importing PyTorch and
 loading the embedding matrix — expect several seconds. Keyword search and the
 message viewer are unaffected, because the semantic index loads lazily. Fluid
 Compute reuses warm instances, so this is a cold-start cost, not a per-request
-one. `memory` is set to 2048 MB in `vercel.json`, which fits Hobby's 2 GB cap;
-Pro and Enterprise can raise it to 4096 for more headroom.
+one. Memory is not configurable under Active CPU billing — Fluid Compute
+ignores a `memory` setting and gives Hobby a 2 GB / 1 vCPU instance.
 
 If cold starts matter more than deployment simplicity, the biggest win by far
 is replacing PyTorch with ONNX Runtime and an int8 MiniLM (~500 MB → ~100 MB),
