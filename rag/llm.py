@@ -230,6 +230,14 @@ def _stream_openai(url, api_key, model, system, prompt):
                 raise QuotaError(
                     "Rate limited by the model provider - please retry in a "
                     "moment. Search and browsing still work.")
+            # AI Gateway gates even its free monthly credits behind a card
+            # on file, and answers with 403 customer_verification_required
+            # until one is added. That reads as a broken key otherwise.
+            if r.status_code == 403 and "customer_verification" in body:
+                raise QuotaError(
+                    "This deployment's AI Gateway account needs a payment "
+                    "method on file before it will serve requests, even on "
+                    "the free credits. Search and browsing still work.")
             raise RuntimeError(f"LLM error {r.status_code}: {body}")
         for line in r.iter_lines():
             if not line or not line.startswith("data:"):
